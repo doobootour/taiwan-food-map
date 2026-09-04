@@ -64,6 +64,12 @@ async function loadRecentContributors() {
   // 끊김 없이 무한 루프되도록 목록을 두 번 이어붙인다
   trackEl.innerHTML = chipsHtml + chipsHtml;
   banner.style.display = "flex";
+  // 항목이 적어 트랙이 짧을 때도 체감 속도가 일정하도록, 고정 시간이 아니라
+  // 실제 폭(px)에 맞춰 애니메이션 지속 시간을 계산한다
+  const RB_SPEED_PX_PER_SEC = 45;
+  const halfWidth = trackEl.scrollWidth / 2;
+  const duration = Math.min(30, Math.max(6, halfWidth / RB_SPEED_PX_PER_SEC));
+  trackEl.style.animationDuration = `${duration}s`;
 }
 loadRecentContributors();
 
