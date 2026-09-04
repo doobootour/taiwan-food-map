@@ -20,7 +20,83 @@ function loadGlobals(files) {
   return sandbox;
 }
 
-const { REGIONS, REGION_CONTENT } = loadGlobals(["js/data.js", "js/region-content.js"]);
+const { REGIONS, REGION_CONTENT, CATEGORIES, REGION_SUB_AREAS } = loadGlobals(["js/data.js", "js/region-content.js"]);
+
+const supabaseConfigSrc = fs.readFileSync(path.join(root, "js/supabase-config.js"), "utf8");
+const SUPABASE_URL = supabaseConfigSrc.match(/SUPABASE_URL\s*=\s*"([^"]+)"/)[1];
+const SUPABASE_ANON_KEY = supabaseConfigSrc.match(/SUPABASE_ANON_KEY\s*=\s*"([^"]+)"/)[1];
+
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+// 지역에 실제 등록된 맛집을 Supabase에서 가져와 region.js의 renderRegionSpots()와 동일한 마크업으로 미리 구운다
+async function fetchRegionSpots(regionId) {
+  const url = `${SUPABASE_URL}/rest/v1/eats?select=*&region=eq.${regionId}&order=created_at.desc`;
+  const res = await fetch(url, {
+    headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
+  });
+  if (!res.ok) throw new Error(`Supabase fetch failed for region=${regionId}: ${res.status}`);
+  return res.json();
+}
+
+function distSq(a, b) {
+  const dLat = a[0] - b[0], dLng = a[1] - b[1];
+  return dLat * dLat + dLng * dLng;
+}
+
+function categoryGroupsHtml(spots) {
+  const grouped = {};
+  spots.forEach(spot => {
+    if (!grouped[spot.category]) grouped[spot.category] = [];
+    grouped[spot.category].push(spot);
+  });
+
+  return CATEGORIES
+    .filter(c => grouped[c.id] && grouped[c.id].length)
+    .map(c => `
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">${c.icon}</span><span>${c.ko}</span></div>
+          ${grouped[c.id].map(spot => `
+            <a class="region-spot-card" href="/map?lat=${spot.lat}&lng=${spot.lng}">
+              <span class="name">${escapeHtml(spot.name || c.ko)}</span>
+              <span class="view-link">지도에서 보기 →</span>
+            </a>`).join("")}
+        </div>`).join("");
+}
+
+function regionSpotsListHtml(region, spots) {
+  if (!spots.length) {
+    return `<div class="board-empty">아직 ${escapeHtml(region.ko)}에 등록된 맛집이 없어요. 첫 발견자가 되어보세요! 🤫</div>`;
+  }
+
+  const subAreas = REGION_SUB_AREAS[region.id];
+  if (!subAreas) return categoryGroupsHtml(spots);
+
+  const bySubArea = {};
+  subAreas.forEach(sa => { bySubArea[sa.id] = []; });
+  spots.forEach(spot => {
+    let best = subAreas[0];
+    let bestDist = Infinity;
+    subAreas.forEach(sa => {
+      const d = distSq([spot.lat, spot.lng], sa.center);
+      if (d < bestDist) { bestDist = d; best = sa; }
+    });
+    bySubArea[best.id].push(spot);
+  });
+
+  return subAreas
+    .filter(sa => bySubArea[sa.id].length)
+    .map(sa => `
+        <div class="region-spots-subarea reveal in">
+          <h3 class="region-spots-subarea-head">${sa.ko}</h3>
+          ${categoryGroupsHtml(bySubArea[sa.id])}
+        </div>`).join("");
+}
 
 function highlightsHtml(highlights) {
   return highlights.map((h, i) => `
@@ -46,6 +122,7 @@ function escAttr(s) {
 const template = fs.readFileSync(path.join(root, "region.html"), "utf8");
 let generatedCount = 0;
 
+async function main() {
 for (const region of REGIONS) {
   const content = REGION_CONTENT[region.id];
   if (!content || !content.ko) continue;
@@ -139,6 +216,12 @@ for (const region of REGIONS) {
     `<ul class="region-activity-list" id="regionActivities">${activitiesHtml(ko.activities)}</ul>`
   );
 
+  const spots = await fetchRegionSpots(region.id);
+  out = out.replace(
+    /<div id="regionSpotsList">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/section>/,
+    `<div id="regionSpotsList">${regionSpotsListHtml(region, spots)}</div>\n      </div>\n    </div>\n  </section>`
+  );
+
   fs.writeFileSync(path.join(root, `region-${region.id}.html`), out);
   generatedCount++;
 }
@@ -165,3 +248,9 @@ indexHtml = indexHtml.replace(
 fs.writeFileSync(indexPath, indexHtml);
 
 console.log(`region-*.html ${generatedCount}개 생성 완료, index.html 지역 카드 정적화 완료`);
+}
+
+main().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
