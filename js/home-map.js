@@ -11,9 +11,11 @@
   let spots = [];
   let votedIds = new Set(JSON.parse(localStorage.getItem("tfm_voted_ids") || "[]"));
 
-  // region.html에서 ?region=xxx 로 들어오면 그 지역을 초기 중심으로 사용
+  // region.html에서 ?region=xxx 로 들어오거나, region-taipei.html처럼 정적으로 미리 구운
+  // 페이지는 쿼리스트링 없이 파일명으로 지역을 구분한다 (js/region.js 와 동일한 로직)
   const embeddedMapParams = new URLSearchParams(location.search);
-  const embeddedRegion = embeddedMapParams.get("region");
+  const embeddedPathMatch = location.pathname.match(/region-([a-z0-9_]+)/i);
+  const embeddedRegion = embeddedMapParams.get("region") || (embeddedPathMatch && embeddedPathMatch[1]);
   const embeddedStartView = (embeddedRegion && REGION_VIEWS[embeddedRegion]) || DEFAULT_VIEW;
 
   // scrollWheelZoom을 꺼서 페이지 스크롤 중 지도가 갑자기 확대/축소되지 않게 함
