@@ -1,6 +1,8 @@
 (function () {
   const params = new URLSearchParams(location.search);
-  const regionId = params.get("region") || "taipei";
+  // region-taipei.html처럼 정적으로 미리 구운 페이지는 쿼리스트링 없이 파일명으로 지역을 구분한다
+  const pathMatch = location.pathname.match(/region-([a-z0-9_]+)/i);
+  const regionId = params.get("region") || (pathMatch && pathMatch[1]) || "taipei";
   const region = REGIONS.find(r => r.id === regionId) || REGIONS[0];
   const contentByLang = REGION_CONTENT[region.id];
 

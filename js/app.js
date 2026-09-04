@@ -14,7 +14,7 @@ function renderRegionGrid() {
   if (!regionGrid) return;
   const lang = getLang();
   regionGrid.innerHTML = REGIONS.map((r, i) => `
-    <a class="region-card reveal" style="--i:${i}" href="region.html?region=${r.id}">
+    <a class="region-card reveal" style="--i:${i}" href="region-${r.id}.html">
       <img src="${r.image}" alt="${lang === "en" ? r.en : r.ko}" loading="lazy" />
       <span class="tag">${lang === "en" ? r.tagEn : r.tagKo}</span>
       <div class="info">

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#c2703f" />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<title id="pageTitle">타이난 여행 가이드 · 나만 알고 싶은 대만 맛집</title>
+<link rel="canonical" href="https://taiwanbite.com/region-tainan" />
+<meta id="pageDescription" name="description" content="타이난 여행 정보와 맛집 지도 — 대만 미식의 뿌리" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+
+<link rel="stylesheet" href="css/styles.css?v=1788508823" />
+</head>
+<body>
+
+<header id="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <img class="mark" src="assets/images/logo.png" data-i18n-alt="brand_name" alt="나만 알고 싶은 대만 맛집" />
+      <div class="name"><span data-i18n="brand_name">나만 알고 싶은 대만 맛집</span><small data-i18n="brand_tagline">My Secret Taiwan Eats</small></div>
+    </a>
+
+    <nav id="site-nav">
+      <a href="index.html" data-i18n="nav_home">홈</a>
+      <a href="index.html#categories" data-i18n="nav_categories">카테고리</a>
+      <a href="index.html#regions" class="active" data-i18n="nav_regions">지역</a>
+      <a href="map.html" data-i18n="nav_map">지도</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn">KO ▾</button>
+        <div class="lang-menu" id="langMenu">
+          <button data-lang="ko" class="active">한국어</button>
+          <button data-lang="en">English</button>
+        </div>
+      </div>
+      <a href="map.html" class="btn primary" style="padding:10px 20px;font-size:13px;" data-i18n="btn_register">맛집 등록하기</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="메뉴"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero region-hero">
+    <img class="hero-img" id="regionHeroImg" src="assets/images/regions/tainan.png?v=1788501217" alt="타이난" />
+    <div class="hero-scrim"></div>
+    <div class="hero-content reveal">
+      <span class="eyebrow" id="regionEyebrow">옛 수도의 손맛</span>
+      <h1 id="regionTitle">타이난 여행 가이드</h1>
+      <p id="regionTagline">대만 미식의 뿌리</p>
+      <div class="hero-actions">
+        <a href="#region-map" class="btn primary" data-i18n="hero_btn_region_map">이 지역 맛집 지도 보기 ↓</a>
+        <a href="index.html#regions" class="btn ghost" data-i18n="hero_btn_other_regions">다른 지역 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ARTICLE ================= -->
+  <section class="section">
+    <div class="wrap region-article">
+      <p class="region-intro" id="regionIntro">대만 최초의 수도이자, '대만 미식의 뿌리'로 불리는 도시. 화려한 관광지보다는 골목 노포와 옛 정취가 매력이에요. 하루 종일 먹으러 다녀도 다 못 먹을 만큼 로컬 맛집이 밀집해있습니다.</p>
+
+      <h2 class="region-h2" data-i18n="region_h2_highlights">여행자들이 가장 많이 찾는 곳</h2>
+      <div class="region-highlight-grid" id="regionHighlights">
+        <div class="region-highlight-card reveal in" style="--i:0">
+          <span class="num">01</span>
+          <div>
+            <h3>안평고보(安平古堡)</h3>
+            <p>네덜란드 통치 시대의 유적. 대만 역사가 시작된 곳이에요.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:1">
+          <span class="num">02</span>
+          <div>
+            <h3>선농제(神農街)</h3>
+            <p>옛 가옥을 개조한 갤러리·바가 모인 거리. 밤에 조명이 켜지면 더 예뻐요.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:2">
+          <span class="num">03</span>
+          <div>
+            <h3>츠칸러우(赤崁樓)</h3>
+            <p>타이난을 대표하는 사적지. 시내 한복판에서 만나는 옛 대만.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:3">
+          <span class="num">04</span>
+          <div>
+            <h3>하야시백화점(林百貨)</h3>
+            <p>1932년 지어진 대만 최초의 백화점을 복원한 곳. 옥상 신사도 볼거리.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:4">
+          <span class="num">05</span>
+          <div>
+            <h3>국화시장·중정로 골목</h3>
+            <p>우육탕 등 로컬 소자 맛집이 밀집한 구역.</p>
+          </div>
+        </div></div>
+
+      <h2 class="region-h2" data-i18n="region_h2_activities">여기서 즐길 거리</h2>
+      <ul class="region-activity-list" id="regionActivities">
+        <li><span class="check">✓</span>골목 노포 돌아다니며 먹부림하기</li>
+        <li><span class="check">✓</span>선농제에서 야경 산책</li>
+        <li><span class="check">✓</span>안평고보·츠칸러우 등 유적지 도보 투어</li>
+        <li><span class="check">✓</span>자전거 대여해서 옛 시가지 구석구석 누비기</li>
+        <li><span class="check">✓</span>로컬 카페에서 대만식 브런치 즐기기</li></ul>
+    </div>
+  </section>
+
+  <!-- ================= REGISTERED SPOTS + MAP ================= -->
+  <section id="region-map" class="section alt">
+    <div class="wrap">
+      <div class="region-article" style="margin-bottom:24px;">
+        <div class="section-head reveal" style="margin-bottom:0;">
+          <div>
+            <span class="eyebrow">Real spots</span>
+            <h2 data-i18n="sec_findings_title">여행자들이 등록한 진짜 맛집</h2>
+            <p data-i18n="sec_findings_desc">이 지역에 실제로 등록된 맛집을 카테고리별로 모아봤어요. 새로 등록되면 여기에도 바로 반영돼요. 핀을 눌러 추천 투표도 남길 수 있어요.</p>
+          </div>
+          <a id="regionFullMapLink" href="map.html?region=tainan" class="link-all" data-i18n="link_full_map">전체 화면 지도로 보기 →</a>
+        </div>
+      </div>
+
+      <div class="embedded-map-card reveal" style="margin-bottom:32px;">
+        <div class="map-filter-panel embedded" id="homeFilterPanel">
+          <button type="button" class="filter-toggle" id="homeFilterToggleBtn">
+            <span class="filter-toggle-label"><span class="ico">🍽️</span><span data-i18n="filter_toggle_label">전체 메뉴 카테고리 열기</span></span>
+            <span class="filter-toggle-chevron">▾</span>
+          </button>
+          <div class="filter-panel-body">
+            <div class="filter-panel-head">
+              <button class="filter-action-btn" id="homeSelectAllBtn" data-i18n="filter_select_all">전체선택</button>
+              <button class="filter-action-btn" id="homeClearAllBtn" data-i18n="filter_clear_all">전체해제</button>
+            </div>
+            <div class="map-filter-bar" id="homeFilterBar"></div>
+          </div>
+        </div>
+        <div class="embedded-map-wrap">
+          <div id="homeMap"></div>
+          <div class="map-loading" id="homeMapLoading"><span class="spinner"></span><span data-i18n="map_loading">맛집을 불러오는 중...</span></div>
+          <div class="empty-note-float" id="homeEmptyNote">
+            <span class="ico">🗺️</span>
+            <span data-i18n-html="empty_note_html">이 카테고리엔 아직 등록된 맛집이 없어요.<br/>첫 발견자가 되어보세요!</span>
+          </div>
+          <div class="map-fab-col">
+            <button class="round-fab" id="homeLocateBtn" data-i18n-title="locate_title" title="내 위치">📍</button>
+            <button class="add-fab" id="homeAddFab" data-i18n-title="add_title" title="맛집 추가">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="region-article">
+        <div id="regionSpotsList">
+          <div class="board-loading" data-i18n="loading_generic">불러오는 중...</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section tight">
+    <div class="cta-band reveal">
+      <div>
+        <span class="eyebrow" style="color:rgba(255,255,255,0.85)">Join the map</span>
+        <h2 data-i18n="cta_title">나만의 맛집을 공유해주세요 🤫</h2>
+        <p data-i18n="cta_desc">여러분의 발견이 다른 여행자들에게 진짜 대만을 경험하게 해줍니다.</p>
+      </div>
+      <a href="map.html" class="btn ghost" style="border-color:#fff;" data-i18n="cta_btn">지금 등록하기 →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <img class="mark" src="assets/images/logo.png" data-i18n-alt="brand_name" alt="나만 알고 싶은 대만 맛집" />
+          <div class="name" data-i18n="brand_name">나만 알고 싶은 대만 맛집</div>
+        </div>
+        <p class="desc" data-i18n="footer_desc">한국인 여행자와 거주자가 직접 찾고 검증하는 대만 맛집 지도. 함께 만들어가는 진짜 로컬 가이드입니다.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_explore">둘러보기</h4>
+        <ul>
+          <li><a href="index.html#categories" data-i18n="footer_categories">카테고리</a></li>
+          <li><a href="index.html#regions" data-i18n="footer_regions">지역별 탐험</a></li>
+          <li><a href="map.html" data-i18n="footer_map">지도</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_join">참여하기</h4>
+        <ul>
+          <li><a href="map.html" data-i18n="footer_register">맛집 등록하기</a></li>
+          <li><a href="profile.html" data-i18n="footer_mypage">마이페이지</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_lang">언어</h4>
+        <ul>
+          <li><button class="footer-lang-btn active" data-lang="ko">한국어</button></li>
+          <li><button class="footer-lang-btn" data-lang="en">English</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2026 나만 알고 싶은 대만 맛집</span>
+      <span>Made for travelers, by travelers</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/data.js?v=1788508823"></script>
+<script src="js/region-content.js?v=1788508823"></script>
+<script src="js/i18n.js?v=1788508823"></script>
+<script src="js/supabase-config.js?v=1788508823"></script>
+<script src="js/admin.js?v=1788508823"></script>
+<script src="js/app.js?v=1788508823"></script>
+<script src="js/home-map.js?v=1788508823"></script>
+<script src="js/region.js?v=1788508823"></script>
+</body>
+</html>
