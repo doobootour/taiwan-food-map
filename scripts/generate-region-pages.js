@@ -159,26 +159,46 @@ for (const region of REGIONS) {
     /<meta id="ogImage" property="og:image" content="[^"]*" \/>/,
     `<meta id="ogImage" property="og:image" content="https://taiwanbite.com/assets/images/regions/${region.id}-og.jpg" />`
   );
-  const ldJson = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://taiwanbite.com/" },
-          { "@type": "ListItem", "position": 2, "name": "지역", "item": "https://taiwanbite.com/#regions" },
-          { "@type": "ListItem", "position": 3, "name": `${region.ko} 여행 가이드`, "item": canonicalUrl },
-        ],
-      },
-      {
-        "@type": "TouristDestination",
-        "name": region.ko,
-        "description": description,
-        "url": canonicalUrl,
-        "image": `https://taiwanbite.com/assets/images/regions/${region.id}-og.jpg`,
-      },
-    ],
-  };
+  const spots = await fetchRegionSpots(region.id);
+
+  const graph = [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://taiwanbite.com/" },
+        { "@type": "ListItem", "position": 2, "name": "지역", "item": "https://taiwanbite.com/#regions" },
+        { "@type": "ListItem", "position": 3, "name": `${region.ko} 여행 가이드`, "item": canonicalUrl },
+      ],
+    },
+    {
+      "@type": "TouristDestination",
+      "name": region.ko,
+      "description": description,
+      "url": canonicalUrl,
+      "image": `https://taiwanbite.com/assets/images/regions/${region.id}-og.jpg`,
+    },
+  ];
+  if (spots.length) {
+    graph.push({
+      "@type": "ItemList",
+      "name": `${region.ko}에 등록된 맛집`,
+      "numberOfItems": spots.length,
+      "itemListElement": spots.map((spot, i) => {
+        const cat = CATEGORIES.find(c => c.id === spot.category);
+        return {
+          "@type": "ListItem",
+          "position": i + 1,
+          "item": {
+            "@type": "LocalBusiness",
+            "name": spot.name || (cat ? cat.ko : region.ko),
+            ...(spot.address ? { "address": spot.address } : {}),
+            "geo": { "@type": "GeoCoordinates", "latitude": spot.lat, "longitude": spot.lng },
+          },
+        };
+      }),
+    });
+  }
+  const ldJson = { "@context": "https://schema.org", "@graph": graph };
   out = out.replace(
     /<script type="application\/ld\+json" id="ldJson">[\s\S]*?<\/script>/,
     `<script type="application/ld+json" id="ldJson">${JSON.stringify(ldJson)}</script>`
@@ -216,7 +236,6 @@ for (const region of REGIONS) {
     `<ul class="region-activity-list" id="regionActivities">${activitiesHtml(ko.activities)}</ul>`
   );
 
-  const spots = await fetchRegionSpots(region.id);
   out = out.replace(
     /<div id="regionSpotsList">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/section>/,
     `<div id="regionSpotsList">${regionSpotsListHtml(region, spots)}</div>\n      </div>\n    </div>\n  </section>`
