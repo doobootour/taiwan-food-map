@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#c2703f" />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<title id="pageTitle">글 보기 · 나만 알고 싶은 대만 맛집</title>
+<meta name="description" content="대만 여행 커뮤니티 게시글" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css?v=1788508823" />
+</head>
+<body>
+
+<header id="site-header" class="scrolled">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <img class="mark" src="assets/images/logo.png" data-i18n-alt="brand_name" alt="나만 알고 싶은 대만 맛집" />
+      <div class="name"><span data-i18n="brand_name">나만 알고 싶은 대만 맛집</span><small data-i18n="brand_tagline">My Secret Taiwan Eats</small></div>
+    </a>
+
+    <nav id="site-nav">
+      <a href="index.html" data-i18n="nav_home">홈</a>
+      <a href="index.html#categories" data-i18n="nav_categories">카테고리</a>
+      <a href="index.html#regions" data-i18n="nav_regions">지역</a>
+      <a href="map.html" data-i18n="nav_map">지도</a>
+      <a href="board.html" class="active" data-i18n="nav_community">커뮤니티</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn">KO ▾</button>
+        <div class="lang-menu" id="langMenu">
+          <button data-lang="ko" class="active">한국어</button>
+          <button data-lang="en">English</button>
+        </div>
+      </div>
+      <a href="map.html" class="btn primary" style="padding:10px 20px;font-size:13px;" data-i18n="btn_register">맛집 등록하기</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="메뉴"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="board-wrap">
+    <a href="board.html" class="back-link" data-i18n="back_to_list">← 목록으로</a>
+
+    <div class="post-detail-card" id="postCard">
+      <div class="board-loading" data-i18n="loading_generic">불러오는 중...</div>
+    </div>
+
+    <div class="comment-section" id="commentSection" style="display:none;">
+      <h3><span data-i18n="comment_label">댓글</span> <span id="commentCountLabel">0</span></h3>
+      <div class="comment-list" id="commentList"></div>
+
+      <div class="comment-form">
+        <textarea id="commentContentInput" data-i18n-placeholder="comment_placeholder" placeholder="댓글을 남겨주세요"></textarea>
+        <div class="comment-form-row">
+          <input type="text" id="commentNicknameInput" data-i18n-placeholder="comment_nickname_placeholder" placeholder="닉네임 (선택)" />
+          <button class="btn primary" id="commentSubmitBtn" data-i18n="comment_submit">댓글 등록</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2026 나만 알고 싶은 대만 맛집</span>
+      <span>Made for travelers, by travelers</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/data.js?v=1788508823"></script>
+<script src="js/board-data.js?v=1788508823"></script>
+<script src="js/i18n.js?v=1788508823"></script>
+<script src="js/supabase-config.js?v=1788508823"></script>
+<script src="js/admin.js?v=1788508823"></script>
+<script src="js/app.js?v=1788508823"></script>
+<script src="js/board-post.js?v=1788508823"></script>
+</body>
+</html>
