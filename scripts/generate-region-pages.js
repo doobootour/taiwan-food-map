@@ -82,6 +82,30 @@ for (const region of REGIONS) {
     /<meta id="ogImage" property="og:image" content="[^"]*" \/>/,
     `<meta id="ogImage" property="og:image" content="https://taiwanbite.com/assets/images/regions/${region.id}-og.jpg" />`
   );
+  const ldJson = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://taiwanbite.com/" },
+          { "@type": "ListItem", "position": 2, "name": "지역", "item": "https://taiwanbite.com/#regions" },
+          { "@type": "ListItem", "position": 3, "name": `${region.ko} 여행 가이드`, "item": canonicalUrl },
+        ],
+      },
+      {
+        "@type": "TouristDestination",
+        "name": region.ko,
+        "description": description,
+        "url": canonicalUrl,
+        "image": `https://taiwanbite.com/assets/images/regions/${region.id}-og.jpg`,
+      },
+    ],
+  };
+  out = out.replace(
+    /<script type="application\/ld\+json" id="ldJson">[\s\S]*?<\/script>/,
+    `<script type="application/ld+json" id="ldJson">${JSON.stringify(ldJson)}</script>`
+  );
   out = out.replace(
     '<img class="hero-img" id="regionHeroImg" src="" alt="" />',
     `<img class="hero-img" id="regionHeroImg" src="${region.image}" alt="${escAttr(region.ko)}" />`
