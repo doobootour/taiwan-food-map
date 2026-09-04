@@ -26,6 +26,16 @@ function renderRegionGrid() {
 }
 renderRegionGrid();
 
+// ===================== Hero stat: 등록된 맛집 총 개수 =====================
+async function loadHeroStatCount() {
+  const el = document.getElementById("heroStatCount");
+  if (!el || typeof sb === "undefined") return;
+  const { count, error } = await sb.from("eats").select("*", { count: "exact", head: true });
+  if (error || count == null) return;
+  el.textContent = count.toLocaleString();
+}
+loadHeroStatCount();
+
 // ===================== Recent contributors banner =====================
 function escapeHtml(s) {
   const div = document.createElement("div");

@@ -32,9 +32,7 @@ const I18N = {
     hero_sub: "현지인만 아는 골목 식당부터 최신 유행 디저트까지 — 한국인 여행자와 거주자가 직접 찾고 검증한 대만 맛집을 지도 위에서 만나보세요.",
     hero_cta_primary: "지금 맛집 찾기 →",
     hero_cta_secondary: "지역별로 둘러보기",
-    hero_stat_categories: "카테고리",
-    hero_stat_langs: "지원 언어",
-    hero_stat_verified: "여행자 검증",
+    hero_stat_count: "등록된 맛집",
 
     sec_categories_title: "무엇을 먹어볼까요?",
     sec_categories_desc: "31가지 카테고리를 골라서 지도 위 맛집을 바로 확인하세요. 핀을 눌러 추천 투표도 남길 수 있어요.",
@@ -173,9 +171,7 @@ const I18N = {
     hero_sub: "From hidden alley eateries only locals know to the latest trending desserts — discover Taiwan spots found and verified by Korean travelers and residents, all on one map.",
     hero_cta_primary: "Find Spots Now →",
     hero_cta_secondary: "Browse by Region",
-    hero_stat_categories: "Categories",
-    hero_stat_langs: "Languages",
-    hero_stat_verified: "Traveler Verified",
+    hero_stat_count: "Spots Registered",
 
     sec_categories_title: "What Should We Eat?",
     sec_categories_desc: "Pick from 31 categories to see spots on the map instantly. Tap a pin to leave a recommendation vote too.",
