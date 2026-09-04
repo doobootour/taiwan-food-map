@@ -28,7 +28,7 @@
     document.getElementById("regionEyebrow").textContent = tag;
     document.getElementById("regionTitle").innerHTML = lang === "en" ? `${name} Travel Guide` : `${name} 여행 가이드`;
     document.getElementById("regionTagline").textContent = sub;
-    document.getElementById("regionFullMapLink").href = `map.html?region=${region.id}`;
+    document.getElementById("regionFullMapLink").href = `/map?region=${region.id}`;
 
     if (content) {
       document.getElementById("regionIntro").textContent = content.intro;
@@ -70,7 +70,7 @@
         <div class="region-spots-group reveal in">
           <div class="region-spots-group-head"><span class="ico">${c.icon}</span><span>${c[lang]}</span></div>
           ${grouped[c.id].map(spot => `
-            <a class="region-spot-card" href="map.html?lat=${spot.lat}&lng=${spot.lng}">
+            <a class="region-spot-card" href="/map?lat=${spot.lat}&lng=${spot.lng}">
               <span class="name">${escapeHtml(spot.name || c[lang])}</span>
               <span class="view-link">${t("view_on_map")}</span>
             </a>

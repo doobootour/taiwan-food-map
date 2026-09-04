@@ -27,7 +27,7 @@
 
   function rowHtml(post) {
     return `
-      <a class="board-row" href="board-post.html?id=${post.id}">
+      <a class="board-row" href="/board-post?id=${post.id}">
         <span class="board-cat-tag">${boardCatLabel(post.category)}</span>
         <div class="board-main">
           <div class="board-title">${escapeHtml(post.title)}</div>
@@ -131,6 +131,6 @@
 
     if (nickname) localStorage.setItem("tfm_nickname", nickname);
     closeSheet();
-    location.href = `board-post.html?id=${data.id}`;
+    location.href = `/board-post?id=${data.id}`;
   });
 })();

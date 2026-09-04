@@ -206,7 +206,7 @@
   // 등록 폼은 map.html에만 있으므로, 현재 지도 중심 좌표를 들고 전체 화면 지도로 이동해 자동으로 등록 시트를 연다
   document.getElementById("homeAddFab").addEventListener("click", () => {
     const c = map.getCenter();
-    location.href = `map.html?add=1&lat=${c.lat.toFixed(6)}&lng=${c.lng.toFixed(6)}`;
+    location.href = `/map?add=1&lat=${c.lat.toFixed(6)}&lng=${c.lng.toFixed(6)}`;
   });
 
   // 언어가 바뀌면 필터 칩/핀 팝업을 다시 그린다

@@ -32,9 +32,22 @@ python -m http.server 5500
 
 이후 `http://localhost:5500` 접속. (Node 환경이면 `npx serve .`도 가능)
 
+## 배포
+
+- 호스팅: Cloudflare Workers (정적 자산) — [taiwanbite.com](https://taiwanbite.com), GitHub(`doobootour/taiwan-food-map`) 연동으로 `main` 브랜치 push 시 자동 배포
+- `wrangler.jsonc` / `.assetsignore` 참고 — `.git`, `.claude`, `scripts` 등은 배포 자산에서 제외됨
+- 수동 배포가 필요하면 `npx wrangler deploy`
+
+## SEO / 지역 페이지 정적화
+
+- `region-*.html`(지역별 9개)과 홈 화면 지역 카드는 `scripts/generate-region-pages.js`가 `js/data.js` + `js/region-content.js` 내용을 바탕으로 미리 구워낸 정적 HTML입니다.
+- **지역 소개/하이라이트 텍스트를 바꿨다면 반드시 재실행**하세요: `node scripts/generate-region-pages.js` → 변경된 `region-*.html`, `index.html`을 함께 커밋.
+- 실행하지 않으면 화면에는 새 내용이 보여도(클라이언트 JS가 다시 렌더링하므로), 자바스크립트를 거의 실행하지 않는 네이버 등 일부 크롤러에는 예전 내용이 그대로 노출됩니다.
+
 ## 남은 작업
 
 - [ ] 다국어(영/중/일) 실제 번역 텍스트 연결 — 현재 언어 전환 버튼은 UI만 구현됨
-- [ ] 이미지 압축/최적화 (현재 `assets/images/categories`는 1024×1024 원본, 배포 전 WebP 변환 + 리사이즈 권장)
-- [ ] 실제 호스팅 배포 (Vercel/Netlify/Cloudflare Pages 등 정적 호스팅이면 바로 배포 가능)
+- [x] 이미지 압축/최적화 — 전체 WebP 전환 완료 (`assets/images` 36MB → 4.6MB), 소셜 공유용 OG 이미지는 호환성을 위해 별도 JPG(`*-og.jpg`)로 유지
+- [x] 실제 호스팅 배포 — Cloudflare Workers, `taiwanbite.com`
 - [ ] 리더보드 어뷰징 방지 — 현재는 클라이언트에서 카운트를 직접 올리는 MVP 방식이라, 필요 시 Supabase Edge Function/RPC로 서버 측 검증 이전 권장
+- [ ] 지역 상세 페이지의 "여행자들이 등록한 진짜 맛집" 목록도 정적화 검토 — 현재는 Supabase에서 클라이언트가 직접 불러오므로 크롤러에는 보이지 않음

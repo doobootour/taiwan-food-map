@@ -66,6 +66,23 @@ for (const region of REGIONS) {
     `<meta id="pageDescription" name="description" content="${escAttr(description)}" />`
   );
   out = out.replace(
+    /<meta id="ogUrl" property="og:url" content="[^"]*" \/>/,
+    `<meta id="ogUrl" property="og:url" content="${canonicalUrl}" />`
+  );
+  out = out.replace(
+    /<meta id="ogTitle" property="og:title" content="[^"]*" \/>/,
+    `<meta id="ogTitle" property="og:title" content="${escAttr(title)}" />`
+  );
+  out = out.replace(
+    /<meta id="ogDescription" property="og:description" content="[^"]*" \/>/,
+    `<meta id="ogDescription" property="og:description" content="${escAttr(description)}" />`
+  );
+  // 소셜 공유 미리보기는 일부 플랫폼이 webp를 못 읽는 경우가 있어 jpg 버전을 따로 사용한다
+  out = out.replace(
+    /<meta id="ogImage" property="og:image" content="[^"]*" \/>/,
+    `<meta id="ogImage" property="og:image" content="https://taiwanbite.com/assets/images/regions/${region.id}-og.jpg" />`
+  );
+  out = out.replace(
     '<img class="hero-img" id="regionHeroImg" src="" alt="" />',
     `<img class="hero-img" id="regionHeroImg" src="${region.image}" alt="${escAttr(region.ko)}" />`
   );
@@ -82,8 +99,8 @@ for (const region of REGIONS) {
     `<p id="regionTagline">${escAttr(region.subKo)}</p>`
   );
   out = out.replace(
-    'id="regionFullMapLink" href="map.html"',
-    `id="regionFullMapLink" href="map.html?region=${region.id}"`
+    'id="regionFullMapLink" href="/map"',
+    `id="regionFullMapLink" href="/map?region=${region.id}"`
   );
   out = out.replace(
     '<p class="region-intro" id="regionIntro"></p>',
@@ -107,7 +124,7 @@ const indexPath = path.join(root, "index.html");
 let indexHtml = fs.readFileSync(indexPath, "utf8");
 
 const regionCardsHtml = REGIONS.map((r, i) => `
-    <a class="region-card reveal" style="--i:${i}" href="region-${r.id}.html">
+    <a class="region-card reveal" style="--i:${i}" href="region-${r.id}">
       <img src="${r.image}" alt="${escAttr(r.ko)}" loading="lazy" />
       <span class="tag">${escAttr(r.tagKo)}</span>
       <div class="info">

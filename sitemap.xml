@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://taiwanbite.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://taiwanbite.com/map</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://taiwanbite.com/region-taipei</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/region-kaohsiung</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/region-taichung</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/region-tainan</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/region-hualien</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/region-yilan</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/region-jiufen</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/region-taitung</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/region-alishan</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/board</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://taiwanbite.com/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>
