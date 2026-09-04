@@ -35,11 +35,13 @@
     iconCreateFunction: (cluster) => {
       const count = cluster.getChildCount();
       const size = count < 10 ? "small" : count < 50 ? "medium" : "large";
+      const px = size === "small" ? 38 : size === "medium" ? 46 : 56;
       cluster.setZIndexOffset(count); // 숫자 큰 클러스터가 작은 클러스터/핀 위로 오도록
       return L.divIcon({
         html: `<div class="spot-cluster ${size}">${count}</div>`,
         className: "",
-        iconSize: null,
+        iconSize: [px, px],
+        iconAnchor: [px / 2, px / 2],
       });
     },
   }).addTo(map);
