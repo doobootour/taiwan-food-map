@@ -1,8 +1,8 @@
 /* =========================================================================
-   관리자 모드 — 화면 오른쪽의 작은 버튼을 눌러 비밀번호로 잠금 해제하면,
-   data-i18n / data-i18n-html 텍스트를 클릭해서 바로 수정할 수 있다.
-   저장한 내용은 이 브라우저(localStorage)에만 적용된다 — 방문자 전체에게
-   반영하려면 Supabase 테이블 연동이 필요하다 (아직 미연동).
+   관리자 모드 — 헤더 좌측 로고를 5번 연속 클릭하면 비밀번호 입력창이 뜨고,
+   맞으면 잠금 해제되어 data-i18n / data-i18n-html 텍스트를 클릭해서 바로
+   수정할 수 있다. 저장한 내용은 이 브라우저(localStorage)에만 적용된다 —
+   방문자 전체에게 반영하려면 Supabase 테이블 연동이 필요하다 (아직 미연동).
    비밀번호는 아래 ADMIN_PASSWORD 상수를 바꿔서 언제든 변경 가능. 클라이언트
    코드에 그대로 노출되므로 강력한 보안 수단은 아니고, 가벼운 잠금 정도로만 사용할 것.
    ========================================================================= */
@@ -32,15 +32,11 @@
   applyOverridesToI18N();
   applyI18n(document);
 
+  const UNLOCK_CLICKS = 5;
+  const UNLOCK_WINDOW_MS = 1500;
+
   let editing = false;
   let pendingCount = 0;
-
-  const toggleBtn = document.createElement("button");
-  toggleBtn.className = "tfm-admin-toggle";
-  toggleBtn.type = "button";
-  toggleBtn.title = "관리자 모드";
-  toggleBtn.textContent = "⚙️";
-  document.body.appendChild(toggleBtn);
 
   const panel = document.createElement("div");
   panel.className = "tfm-admin-panel";
@@ -92,7 +88,6 @@
   function startEditing() {
     editing = true;
     document.body.classList.add("tfm-admin-editing");
-    toggleBtn.style.display = "none";
     panel.classList.add("open");
     setEditable(true);
     document.querySelectorAll("[data-i18n], [data-i18n-html]").forEach(el => {
@@ -104,12 +99,11 @@
   function stopEditing() {
     editing = false;
     document.body.classList.remove("tfm-admin-editing");
-    toggleBtn.style.display = "";
     panel.classList.remove("open");
     setEditable(false);
   }
 
-  toggleBtn.addEventListener("click", () => {
+  function unlockAndStartEditing() {
     if (sessionStorage.getItem(SESSION_KEY) !== "1") {
       const pw = prompt("관리자 비밀번호를 입력하세요");
       if (pw === null) return;
@@ -117,7 +111,24 @@
       sessionStorage.setItem(SESSION_KEY, "1");
     }
     startEditing();
-  });
+  }
+
+  const brandLink = document.querySelector("#site-header .brand");
+  if (brandLink) {
+    let clickCount = 0;
+    let resetTimer = null;
+    brandLink.addEventListener("click", () => {
+      if (editing) return;
+      clickCount++;
+      clearTimeout(resetTimer);
+      resetTimer = setTimeout(() => { clickCount = 0; }, UNLOCK_WINDOW_MS);
+      if (clickCount >= UNLOCK_CLICKS) {
+        clickCount = 0;
+        clearTimeout(resetTimer);
+        unlockAndStartEditing();
+      }
+    });
+  }
 
   document.getElementById("tfmAdminExit").addEventListener("click", stopEditing);
   document.getElementById("tfmAdminSave").addEventListener("click", () => {
