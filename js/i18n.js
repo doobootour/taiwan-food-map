@@ -177,7 +177,7 @@ const I18N = {
     sec_categories_desc: "Pick from 31 categories to see spots on the map instantly. Tap a pin to leave a recommendation vote too.",
     link_full_map: "View Full-Screen Map →",
 
-    filter_toggle_label: "Open All Categories",
+    filter_toggle_label: "Browse Spots by Menu",
     filter_select_all: "Select All",
     filter_clear_all: "Clear All",
     filter_all: "All",
