@@ -584,10 +584,12 @@ footer {
 
 @media (max-width: 720px) {
   .wrap { padding: 0 18px; }
-  #site-nav, .lang-switch { display: none; }
+  #site-nav { display: none; }
   .menu-toggle { display: flex; }
-  .header-right { gap: 8px; }
+  .header-right { gap: 6px; }
   .header-right .btn.primary { flex: 0 0 auto; padding: 9px 14px !important; font-size: 12px !important; }
+  .lang-btn { padding: 8px 9px; font-size: 11.5px; }
+  .lang-menu { right: -6px; }
   .hero { margin: 12px 12px 0; min-height: 480px; }
   .hero-content { padding: 36px 26px; }
   .hero-stats { gap: 18px; }
