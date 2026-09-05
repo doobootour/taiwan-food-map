@@ -12,6 +12,13 @@
     return div.innerHTML;
   }
 
+  // 좌표만으로 검색하면 구글맵이 업체 정보 없이 좌표 핀만 띄우는 경우가 많아서,
+  // 가게 이름 + 좌표 뷰포트(@lat,lng,zoom)로 검색해 실제 정보 페이지로 연결되게 한다
+  function googleMapsUrl(spot, fallbackLabel) {
+    const query = encodeURIComponent(spot.name || fallbackLabel || "");
+    return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
+  }
+
   function renderRegionPage() {
     const lang = getLang();
     const name = lang === "en" ? region.en : region.ko;
@@ -73,7 +80,7 @@
             <div class="region-spot-card">
               <span class="name">${escapeHtml(spot.name || c[lang])}</span>
               <span class="region-spot-links">
-                <a class="view-link google-link" href="https://www.google.com/maps/search/?api=1&query=${spot.lat}%2C${spot.lng}" target="_blank" rel="noopener">${t("view_on_google_maps")}</a>
+                <a class="view-link google-link" href="${googleMapsUrl(spot, c[lang])}" target="_blank" rel="noopener">${t("view_on_google_maps")}</a>
                 <a class="view-link" href="/map?lat=${spot.lat}&lng=${spot.lng}">${t("view_on_map")}</a>
               </span>
             </div>

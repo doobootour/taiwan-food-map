@@ -49,6 +49,13 @@ function distSq(a, b) {
   return dLat * dLat + dLng * dLng;
 }
 
+// 좌표만으로 검색하면 구글맵이 업체 정보 없이 좌표 핀만 띄우는 경우가 많아서,
+// 가게 이름 + 좌표 뷰포트(@lat,lng,zoom)로 검색해 실제 정보 페이지로 연결되게 한다
+function googleMapsUrl(spot, fallbackLabel) {
+  const query = encodeURIComponent(spot.name || fallbackLabel || "");
+  return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
+}
+
 function categoryGroupsHtml(spots) {
   const grouped = {};
   spots.forEach(spot => {
@@ -65,7 +72,7 @@ function categoryGroupsHtml(spots) {
             <div class="region-spot-card">
               <span class="name">${escapeHtml(spot.name || c.ko)}</span>
               <span class="region-spot-links">
-                <a class="view-link google-link" href="https://www.google.com/maps/search/?api=1&query=${spot.lat}%2C${spot.lng}" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link google-link" href="${googleMapsUrl(spot, c.ko)}" target="_blank" rel="noopener">구글맵에서 보기</a>
                 <a class="view-link" href="/map?lat=${spot.lat}&lng=${spot.lng}">지도에서 보기 →</a>
               </span>
             </div>`).join("")}
