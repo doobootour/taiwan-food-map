@@ -91,7 +91,7 @@ function popupHtml(spot) {
       </div>
       ${spot.address ? `<p class="popup-address">📍 ${spot.address}</p>` : ''}
       ${spot.review ? `<p class="review">${spot.review}</p>` : ''}
-      ${spot.link ? `<a class="popup-link" href="${spot.link}" target="_blank" rel="noopener">${t("popup_link")}</a>` : ''}
+      <a class="popup-link" href="${googleMapsUrl(spot, catLabel)}" target="_blank" rel="noopener">${t("popup_link")}</a>
       <div class="vote-row">
         <button class="vote-btn up" data-id="${spot.id}" data-vote="recommend" ${voted ? "disabled" : ""}>${t("popup_vote_up")}</button>
         <button class="vote-btn down" data-id="${spot.id}" data-vote="not_suited" ${voted ? "disabled" : ""}>${t("popup_vote_down")}</button>

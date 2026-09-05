@@ -53,6 +53,13 @@ function escapeHtml(s) {
   div.textContent = s;
   return div.innerHTML;
 }
+
+// 좌표만으로 검색하면 구글맵이 업체 정보 없이 좌표 핀만 띄우는 경우가 많아서,
+// 가게 이름 + 좌표 뷰포트(@lat,lng,zoom)로 검색해 실제 정보 페이지로 연결되게 한다
+function googleMapsUrl(spot, fallbackLabel) {
+  const query = encodeURIComponent(spot.name || fallbackLabel || "");
+  return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
+}
 async function loadRecentContributors() {
   const banner = document.getElementById("recentBanner");
   const trackEl = document.getElementById("recentBannerNames");
