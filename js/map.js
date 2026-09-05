@@ -119,10 +119,12 @@ async function castVote(spot, type, marker) {
     return;
   }
 
+  // 투표 카운트 증가는 (일반 사용자가 남의 글은 못 고치도록 막은) RLS를 우회해야 하므로
+  // 전용 RPC로 처리한다 — 직접 update()를 호출하면 owner가 아닌 이상 조용히 0행 반영된다
   const field = type === "recommend" ? "recommend_count" : "not_suited_count";
-  spot[field] = (spot[field] || 0) + 1;
-  const { error: updateErr } = await sb.from("eats").update({ [field]: spot[field] }).eq("id", spot.id);
-  if (updateErr) console.error(updateErr);
+  const { error: rpcErr } = await sb.rpc("cast_vote", { p_spot_id: spot.id, p_vote: type });
+  if (rpcErr) { console.error(rpcErr); }
+  else { spot[field] = (spot[field] || 0) + 1; }
 
   votedIds.add(spot.id);
   localStorage.setItem("tfm_voted_ids", JSON.stringify([...votedIds]));
@@ -229,6 +231,32 @@ const filterToggleBtn = document.getElementById("filterToggleBtn");
 
 filterToggleBtn.addEventListener("click", () => {
   filterPanel.classList.toggle("expanded");
+});
+
+/* ===================== Hualien tour promo ===================== */
+// 화롄 근처를 보고 있을 때(진입 경로와 무관하게, 지도를 팬/줌해서 들어와도) 항상 뜨도록
+// 지도 중심이 화롄 좌표에서 일정 거리 이내인지를 이동할 때마다 체크한다.
+const tourPromoEl = document.getElementById("mapTourPromo");
+const [HUALIEN_LAT, HUALIEN_LNG] = REGION_VIEWS.hualien.center;
+function isViewingHualien() {
+  if (map.getZoom() < 10) return false; // 전국 축소 화면에서는 우연히 중심이 겹쳐도 노출하지 않음
+  const c = map.getCenter();
+  const dLat = c.lat - HUALIEN_LAT;
+  const dLng = (c.lng - HUALIEN_LNG) * Math.cos(HUALIEN_LAT * Math.PI / 180);
+  const distKm = Math.sqrt(dLat * dLat + dLng * dLng) * 111;
+  return distKm < 30; // 화롄 시내~타이루거~해안 도로를 넉넉히 포함하는 반경
+}
+function updateTourPromoVisibility() {
+  if (sessionStorage.getItem("tfm_hualien_promo_dismissed")) { tourPromoEl.hidden = true; return; }
+  tourPromoEl.hidden = !isViewingHualien();
+}
+map.on("moveend", updateTourPromoVisibility);
+updateTourPromoVisibility();
+document.getElementById("mapTourPromoClose").addEventListener("click", (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  tourPromoEl.hidden = true;
+  sessionStorage.setItem("tfm_hualien_promo_dismissed", "1");
 });
 
 function renderFilterBar() {
@@ -577,9 +605,29 @@ submitBtn.addEventListener("click", async () => {
     link: linkInput.value.trim() || null,
   };
 
-  const { data, error } = isEdit
-    ? await sb.from("eats").update(fields).eq("id", editingSpotId).select().single()
-    : await sb.from("eats").insert({ ...fields, region: initialRegion || "taipei", reporter_id: tfmUid() }).select().single();
+  let data, error;
+  if (isEdit) {
+    // 관리자는 남의 글도 고칠 수 있어야 하는데, RLS는 본인 글만 수정 가능하도록 막혀
+    // 있으므로 삭제와 마찬가지로 비밀번호를 서버에서 재확인하는 edge function을 거친다
+    try {
+      const res = await fetch(`${SUPABASE_URL}/functions/v1/admin-update-spot`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${SUPABASE_ANON_KEY}`,
+          "apikey": SUPABASE_ANON_KEY,
+        },
+        body: JSON.stringify({ id: editingSpotId, fields, password: window.tfmAdmin ? window.tfmAdmin.getPassword() : "" }),
+      });
+      const result = await res.json();
+      if (!res.ok || !result.success) { error = result.error || res.statusText; }
+      else { data = result.data; }
+    } catch (err) {
+      error = err;
+    }
+  } else {
+    ({ data, error } = await sb.from("eats").insert({ ...fields, region: initialRegion || "taipei", reporter_id: tfmUid() }).select().single());
+  }
 
   if (error) {
     console.error(error);
