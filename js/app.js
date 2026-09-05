@@ -27,12 +27,23 @@ function renderRegionGrid() {
 renderRegionGrid();
 
 // ===================== Hero stat: 등록된 맛집 총 개수 =====================
+function animateHeroStatCount(el, from, to, duration = 1200) {
+  const startTime = performance.now();
+  const step = (now) => {
+    const progress = Math.min(1, (now - startTime) / duration);
+    const value = Math.round(from + (to - from) * progress);
+    el.textContent = value.toLocaleString();
+    if (progress < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
 async function loadHeroStatCount() {
   const el = document.getElementById("heroStatCount");
   if (!el || typeof sb === "undefined") return;
   const { count, error } = await sb.from("eats").select("*", { count: "exact", head: true });
   if (error || count == null) return;
-  el.textContent = count.toLocaleString();
+  const from = Math.max(0, count - 10);
+  animateHeroStatCount(el, from, count);
 }
 loadHeroStatCount();
 
