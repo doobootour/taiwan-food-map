@@ -598,7 +598,7 @@ footer {
   #site-header .brand { gap: 6px; }
   #site-header .brand .mark { width: 28px; height: 28px; }
   #site-header .brand .name { font-size: 12px; }
-  #site-header .brand .name small { display: none; }
+  #site-header .brand .name small { font-size: 9px; }
   .header-right { gap: 4px; }
   .header-right .btn.primary { flex: 0 0 auto; padding: 7px 10px !important; font-size: 11px !important; }
   .lang-btn { padding: 6px 7px; font-size: 10.5px; }
