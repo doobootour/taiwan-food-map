@@ -35,7 +35,7 @@ const I18N = {
     hero_stat_count: "실시간 등록된 맛집",
 
     sec_categories_title: "무엇을 먹어볼까요?",
-    sec_categories_desc: "31가지 카테고리를 골라서 지도 위 맛집을 바로 확인하세요. 핀을 눌러 추천 투표도 남길 수 있어요.",
+    sec_categories_desc: "대만은 미식의 나라지만, 외국인 입맛엔 낯선 메뉴도 있고 잘 맞는 메뉴도 있어요. 31가지 카테고리에서 골라 지도 위 맛집을 확인하고, 내 주변 맛집도 찾아보세요. 다녀온 곳이 정말 좋았다면 핀을 눌러 전 세계 여행자들에게 추천해 주세요.",
     link_full_map: "전체 화면 지도로 보기 →",
 
     filter_toggle_label: "메뉴별로 맛집 확인하기",
@@ -175,7 +175,7 @@ const I18N = {
     hero_stat_count: "Live Spots Registered",
 
     sec_categories_title: "What Should We Eat?",
-    sec_categories_desc: "Pick from 31 categories to see spots on the map instantly. Tap a pin to leave a recommendation vote too.",
+    sec_categories_desc: "Taiwan is a food lover's paradise, but not every dish suits every palate — some feel unfamiliar to foreign visitors, others fit right in. Pick from 31 categories to find spots on the map, or search near you. Found a hidden gem of your own? Tap a pin and recommend it to fellow travelers worldwide.",
     link_full_map: "View Full-Screen Map →",
 
     filter_toggle_label: "Browse Spots by Menu",
