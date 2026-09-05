@@ -586,10 +586,10 @@ footer {
   .wrap { padding: 0 18px; }
   #site-nav { display: none; }
   .menu-toggle { display: flex; }
-  .brand { gap: 6px; }
-  .brand .mark { width: 28px; height: 28px; }
-  .brand .name { font-size: 12px; }
-  .brand .name small { display: none; }
+  #site-header .brand { gap: 6px; }
+  #site-header .brand .mark { width: 28px; height: 28px; }
+  #site-header .brand .name { font-size: 12px; }
+  #site-header .brand .name small { display: none; }
   .header-right { gap: 4px; }
   .header-right .btn.primary { flex: 0 0 auto; padding: 7px 10px !important; font-size: 11px !important; }
   .lang-btn { padding: 6px 7px; font-size: 10.5px; }
@@ -691,7 +691,7 @@ html:has(body.map-page) { height: 100%; }
 
 .map-fab-col {
   position: absolute; bottom: 24px; right: 20px; z-index: 500;
-  display: flex; flex-direction: column; gap: 12px;
+  display: flex; flex-direction: column; align-items: center; gap: 12px;
 }
 .round-fab {
   width: 48px; height: 48px; border-radius: 50%;
@@ -1224,16 +1224,6 @@ html:has(body.map-page) { height: 100%; }
 }
 
 /* ===================== Admin mode ===================== */
-.tfm-admin-toggle {
-  position: fixed; right: 16px; top: 50%; transform: translateY(-50%);
-  z-index: 9999; width: 40px; height: 40px; border-radius: 50%;
-  background: var(--surface); border: 1.5px solid var(--border);
-  box-shadow: var(--shadow-md); font-size: 17px; opacity: 0.55;
-  display: flex; align-items: center; justify-content: center;
-  transition: opacity 0.15s, transform 0.15s;
-}
-.tfm-admin-toggle:hover { opacity: 1; transform: translateY(-50%) scale(1.06); }
-
 .tfm-admin-panel {
   position: fixed; right: 16px; top: 50%; transform: translateY(-50%) translateX(120%);
   z-index: 9999; width: 230px; background: var(--surface);
@@ -1263,6 +1253,5 @@ body.tfm-admin-editing [data-i18n], body.tfm-admin-editing [data-i18n-html] {
 .tfm-admin-dirty { background: var(--sage-tint); }
 
 @media (max-width: 620px) {
-  .tfm-admin-toggle { right: 10px; width: 36px; height: 36px; font-size: 15px; }
   .tfm-admin-panel { right: 10px; width: 190px; padding: 14px 12px; }
 }
