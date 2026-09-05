@@ -47,6 +47,7 @@ let spots = []; // Supabase eats 테이블 캐시
 let votedIds = new Set(JSON.parse(localStorage.getItem("tfm_voted_ids") || "[]"));
 
 function catById(id) { return CATEGORIES.find(c => c.id === id); }
+function isAdmin() { return !!(window.tfmAdmin && window.tfmAdmin.isUnlocked()); }
 
 const NEW_SPOT_WINDOW_MS = 1000 * 60 * 60 * 72; // 최근 등록 뱃지 노출 기간(72시간)
 function isNewSpot(spot) {
@@ -98,6 +99,11 @@ function popupHtml(spot) {
       </div>
       <div class="vote-counts"><span>${t("popup_recommend_count", { n: spot.recommend_count })}</span><span>${t("popup_not_suited_count", { n: spot.not_suited_count })}</span></div>
       ${spot.nickname ? `<p class="popup-contributor">${t("popup_registered_by", { name: spot.nickname })}</p>` : ''}
+      ${isAdmin() ? `
+      <div class="admin-spot-actions">
+        <button class="admin-edit-btn" data-id="${spot.id}">${t("admin_edit_btn")}</button>
+        <button class="admin-delete-btn" data-id="${spot.id}">${t("admin_delete_btn")}</button>
+      </div>` : ''}
     </div>`;
 }
 
@@ -126,6 +132,39 @@ async function castVote(spot, type, marker) {
   marker.setPopupContent(popupHtml(spot));
 }
 
+// 관리자 전용 삭제 — RLS는 본인이 올린 글만 삭제하도록 막혀 있어서, 비밀번호를 서버(Edge
+// Function)에서 다시 확인한 뒤 service role 권한으로 실제 삭제를 수행한다.
+async function deleteSpot(spot) {
+  if (!confirm(t("admin_delete_confirm", { name: spot.name || t("popup_fallback_name") }))) return;
+
+  try {
+    const res = await fetch(`${SUPABASE_URL}/functions/v1/admin-delete-spot`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${SUPABASE_ANON_KEY}`,
+        "apikey": SUPABASE_ANON_KEY,
+      },
+      body: JSON.stringify({ id: spot.id, password: window.tfmAdmin ? window.tfmAdmin.getPassword() : "" }),
+    });
+    const result = await res.json();
+    if (!res.ok || !result.success) {
+      console.error(result.error || res.statusText);
+      showToast(t("toast_delete_error"));
+      return;
+    }
+  } catch (err) {
+    console.error(err);
+    showToast(t("toast_delete_error"));
+    return;
+  }
+
+  spots = spots.filter(s => s.id !== spot.id);
+  map.closePopup();
+  renderMarkers();
+  showToast(t("toast_delete_success"));
+}
+
 function renderMarkers() {
   markerLayer.clearLayers();
   const filtered = spots.filter(s => activeCats.has(s.category));
@@ -143,6 +182,19 @@ function renderMarkers() {
         btn.onclick = (e) => {
           e.stopPropagation();
           castVote(spot, btn.dataset.vote, marker);
+        };
+      });
+      document.querySelectorAll(".admin-edit-btn").forEach(btn => {
+        btn.onclick = (e) => {
+          e.stopPropagation();
+          map.closePopup();
+          openEditSheet(spot);
+        };
+      });
+      document.querySelectorAll(".admin-delete-btn").forEach(btn => {
+        btn.onclick = (e) => {
+          e.stopPropagation();
+          deleteSpot(spot);
         };
       });
     });
@@ -242,6 +294,80 @@ const mapHint = document.getElementById("mapHint");
 
 let pickedLatLng = null;
 let selectedCat = null;
+let editingSpotId = null; // null이면 신규 등록, 값이 있으면 해당 id를 수정 중
+
+/* ===================== 중복 등록 감지 ===================== */
+// 두 단계로 판단한다:
+// 1) 아주 가까운 거리(CLOSE_RADIUS)면 이름이 어느 정도만 비슷해도 같은 곳으로 의심
+// 2) 거리가 좀 떨어져 있어도(WIDE_RADIUS, 링크 자동입력 오차 등) 이름이 거의 똑같으면 의심
+const DUP_CLOSE_RADIUS_M = 50;
+const DUP_CLOSE_NAME_SIM = 0.5;
+const DUP_WIDE_RADIUS_M = 250;
+const DUP_WIDE_NAME_SIM = 0.8;
+
+function normalizeSpotName(name) {
+  return (name || "").toLowerCase().replace(/[\s()（）\-_·・.,'"!?？！]/g, "");
+}
+
+// 편집 거리(Levenshtein) 기반 유사도 — 0(완전 다름)~1(완전 동일)
+function nameSimilarity(a, b) {
+  const na = normalizeSpotName(a), nb = normalizeSpotName(b);
+  if (!na || !nb) return 0;
+  if (na === nb) return 1;
+  if (na.includes(nb) || nb.includes(na)) return 0.9;
+
+  const dp = Array.from({ length: na.length + 1 }, () => new Array(nb.length + 1).fill(0));
+  for (let i = 0; i <= na.length; i++) dp[i][0] = i;
+  for (let j = 0; j <= nb.length; j++) dp[0][j] = j;
+  for (let i = 1; i <= na.length; i++) {
+    for (let j = 1; j <= nb.length; j++) {
+      dp[i][j] = na[i - 1] === nb[j - 1]
+        ? dp[i - 1][j - 1]
+        : 1 + Math.min(dp[i - 1][j - 1], dp[i][j - 1], dp[i - 1][j]);
+    }
+  }
+  return 1 - dp[na.length][nb.length] / Math.max(na.length, nb.length);
+}
+
+// 후보 좌표/이름과 가장 의심되는 기존 맛집을 찾는다 (없으면 null)
+function findPossibleDuplicate(latlng, name) {
+  if (!latlng || !name || !name.trim()) return null;
+  let best = null;
+  for (const spot of spots) {
+    if (editingSpotId && spot.id === editingSpotId) continue; // 수정 중인 자기 자신은 제외
+    const dist = latlng.distanceTo(L.latLng(spot.lat, spot.lng));
+    if (dist > DUP_WIDE_RADIUS_M) continue;
+    const sim = nameSimilarity(name, spot.name);
+    const isMatch = (dist <= DUP_CLOSE_RADIUS_M && sim >= DUP_CLOSE_NAME_SIM) || sim >= DUP_WIDE_NAME_SIM;
+    if (isMatch && (!best || dist < best.dist)) best = { spot, dist };
+  }
+  return best;
+}
+
+const dupWarning = document.getElementById("dupWarning");
+const dupWarningText = document.getElementById("dupWarningText");
+const dupWarningViewBtn = document.getElementById("dupWarningViewBtn");
+let dupWarningSpot = null;
+
+function updateDuplicateWarning() {
+  const found = findPossibleDuplicate(pickedLatLng, nameInput.value);
+  dupWarningSpot = found ? found.spot : null;
+  if (!found) { dupWarning.hidden = true; return; }
+  dupWarningText.textContent = t("dup_warning_text", {
+    name: found.spot.name || t("popup_fallback_name"),
+    distance: Math.round(found.dist),
+  });
+  dupWarning.hidden = false;
+}
+
+dupWarningViewBtn.addEventListener("click", () => {
+  if (!dupWarningSpot) return;
+  const spot = dupWarningSpot;
+  closeSheet();
+  map.panTo([spot.lat, spot.lng]);
+  const marker = markerLayer.getLayers().find(m => m.getLatLng().lat === spot.lat && m.getLatLng().lng === spot.lng);
+  if (marker) markerLayer.zoomToShowLayer(marker, () => marker.openPopup());
+});
 
 function renderSheetCatSelect() {
   const lang = getLang();
@@ -258,6 +384,7 @@ if (savedNickname) nicknameInput.value = savedNickname;
 
 function updateSubmitState() {
   submitBtn.disabled = !(pickedLatLng && selectedCat && nameInput.value.trim().length > 0);
+  updateDuplicateWarning();
 }
 
 sheetCatSelect.addEventListener("change", () => {
@@ -368,39 +495,79 @@ autofillBtn.addEventListener("click", async () => {
   }
 });
 
+const sheetIntro = document.getElementById("sheetIntro");
+
+function setSheetMode(isEdit) {
+  if (sheetIntro) sheetIntro.style.display = isEdit ? "none" : "";
+  submitBtn.textContent = isEdit ? t("btn_update") : t("btn_submit");
+}
+
 function openSheet(latlng) {
   setPickedLatLng(latlng.lat, latlng.lng);
   sheetOverlay.classList.add("open");
 }
+
+// FAB/등록 버튼 전용 진입점 — 직전에 다른 맛집을 수정하다 만 상태(입력값 포함)가 남아있지
+// 않도록 새 등록 폼으로 확실히 초기화한다
+function startAddFlow(latlng) {
+  editingSpotId = null;
+  setSheetMode(false);
+  nameInput.value = "";
+  reviewInput.value = "";
+  linkInput.value = "";
+  sheetCatSelect.selectedIndex = 0;
+  selectedCat = null;
+  openSheet(latlng);
+}
+
+// 관리자 팝업의 "수정" 버튼 — 기존 값으로 시트를 채우고 수정 모드로 연다
+function openEditSheet(spot) {
+  editingSpotId = spot.id;
+  setSheetMode(true);
+  openSheet({ lat: spot.lat, lng: spot.lng });
+  map.panTo([spot.lat, spot.lng]);
+  selectedCat = spot.category || null;
+  sheetCatSelect.value = spot.category || "";
+  nameInput.value = spot.name || "";
+  nicknameInput.value = spot.nickname || "";
+  reviewInput.value = spot.review || "";
+  linkInput.value = spot.link || "";
+  updateSubmitState();
+}
+
 function closeSheet() {
   sheetOverlay.classList.remove("open");
   clearDraftMarker();
   pickedLatLng = null;
   selectedCat = null;
+  editingSpotId = null;
   nameInput.value = "";
   reviewInput.value = "";
   linkInput.value = "";
   gmapLinkInput.value = "";
   sheetCatSelect.selectedIndex = 0;
   submitBtn.disabled = true;
-  submitBtn.textContent = t("btn_submit");
+  setSheetMode(false);
+  dupWarning.hidden = true;
+  dupWarningSpot = null;
 }
 
-document.getElementById("addFab").addEventListener("click", () => openSheet(map.getCenter()));
-document.getElementById("registerBtn").addEventListener("click", () => openSheet(map.getCenter()));
+document.getElementById("addFab").addEventListener("click", () => startAddFlow(map.getCenter()));
+document.getElementById("registerBtn").addEventListener("click", () => startAddFlow(map.getCenter()));
 document.getElementById("cancelBtn").addEventListener("click", closeSheet);
+// 지도를 클릭하면 (등록이든 수정이든) 현재 열려 있는 핀 위치만 옮긴다 — 모드 자체는 건드리지 않음
 map.on("click", (e) => { filterPanel.classList.remove("expanded"); openSheet(e.latlng); });
 
 // 다른 페이지의 "추가하기" 버튼에서 ?add=1 로 넘어온 경우 자동으로 등록 시트 열기
-if (initialAdd) openSheet(map.getCenter());
+if (initialAdd) startAddFlow(map.getCenter());
 
 submitBtn.addEventListener("click", async () => {
+  const isEdit = editingSpotId !== null;
   submitBtn.disabled = true;
-  submitBtn.textContent = t("btn_submitting");
+  submitBtn.textContent = isEdit ? t("btn_updating") : t("btn_submitting");
 
   const nickname = nicknameInput.value.trim();
-
-  const { data, error } = await sb.from("eats").insert({
+  const fields = {
     lat: pickedLatLng.lat,
     lng: pickedLatLng.lng,
     category: selectedCat,
@@ -408,26 +575,37 @@ submitBtn.addEventListener("click", async () => {
     nickname: nickname || null,
     review: reviewInput.value.trim() || null,
     link: linkInput.value.trim() || null,
-    region: initialRegion || "taipei",
-    reporter_id: tfmUid(),
-  }).select().single();
+  };
+
+  const { data, error } = isEdit
+    ? await sb.from("eats").update(fields).eq("id", editingSpotId).select().single()
+    : await sb.from("eats").insert({ ...fields, region: initialRegion || "taipei", reporter_id: tfmUid() }).select().single();
 
   if (error) {
     console.error(error);
-    showToast(t("toast_submit_error"));
+    showToast(isEdit ? t("toast_update_error") : t("toast_submit_error"));
     submitBtn.disabled = false;
-    submitBtn.textContent = t("btn_submit");
+    submitBtn.textContent = isEdit ? t("btn_update") : t("btn_submit");
     return;
   }
 
   if (nickname) localStorage.setItem("tfm_nickname", nickname);
 
-  spots.unshift(data);
+  if (isEdit) {
+    const idx = spots.findIndex(s => s.id === editingSpotId);
+    if (idx !== -1) spots[idx] = data;
+  } else {
+    spots.unshift(data);
+  }
   renderMarkers();
   closeSheet();
-  showToast(t("toast_submit_success"));
+  showToast(isEdit ? t("toast_update_success") : t("toast_submit_success"));
   map.panTo([data.lat, data.lng]);
 });
+
+// 관리자 잠금이 해제되면(로고 3번 클릭 + 비밀번호) 이미 그려둔 핀 팝업에도
+// 바로 수정/삭제 버튼이 보이도록 다시 렌더링한다
+document.addEventListener("tfm:adminchange", () => renderMarkers());
 
 // 지도를 처음 움직이면 힌트 살짝 숨기기
 map.on("movestart", () => { mapHint.style.opacity = "0"; }, { once: true });
@@ -437,4 +615,5 @@ document.addEventListener("tfm:langchange", () => {
   renderFilterBar();
   renderMarkers();
   renderSheetCatSelect();
+  setSheetMode(editingSpotId !== null);
 });

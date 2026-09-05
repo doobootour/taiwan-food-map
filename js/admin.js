@@ -10,6 +10,13 @@
   const ADMIN_PASSWORD = "taiwan2026";
   const STORAGE_KEY = "tfm_content_overrides"; // { [lang]: { [key]: value } }
   const SESSION_KEY = "tfm_admin_unlocked";
+  const PASSWORD_SESSION_KEY = "tfm_admin_pw"; // 지도 관리자 기능(삭제 등)이 서버에 재확인시킬 때 사용
+
+  // 다른 스크립트(예: map.js)가 관리자 잠금 여부/비밀번호를 확인할 수 있게 노출
+  window.tfmAdmin = {
+    isUnlocked: () => sessionStorage.getItem(SESSION_KEY) === "1",
+    getPassword: () => sessionStorage.getItem(PASSWORD_SESSION_KEY) || "",
+  };
 
   function loadOverrides() {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); }
@@ -33,7 +40,9 @@
   applyI18n(document);
 
   const UNLOCK_CLICKS = 3;
-  const UNLOCK_WINDOW_MS = 1500;
+  const UNLOCK_WINDOW_MS = 600; // 트리플 클릭 판정용 — index.html이 아닌 페이지들은 로고가
+  // 실제로 다른 주소(href="/")로 이동하므로, 매 클릭마다 기본 이동을 막았다가 이 시간
+  // 안에 3번이 채워지지 않으면 원래 목적지로 이동시켜 평소처럼 "로고 클릭 = 홈으로" 동작을 유지한다
 
   let editing = false;
   let pendingCount = 0;
@@ -109,6 +118,8 @@
       if (pw === null) return;
       if (pw !== ADMIN_PASSWORD) { alert("비밀번호가 올바르지 않습니다."); return; }
       sessionStorage.setItem(SESSION_KEY, "1");
+      sessionStorage.setItem(PASSWORD_SESSION_KEY, pw);
+      document.dispatchEvent(new CustomEvent("tfm:adminchange", { detail: { unlocked: true } }));
     }
     startEditing();
   }
@@ -117,16 +128,23 @@
   if (brandLink) {
     let clickCount = 0;
     let resetTimer = null;
-    brandLink.addEventListener("click", () => {
+    brandLink.addEventListener("click", (e) => {
       if (editing) return;
+      e.preventDefault(); // 기본 이동은 잠시 막아두고, 아래에서 직접 판단해서 처리한다
       clickCount++;
-      clearTimeout(resetTimer);
-      resetTimer = setTimeout(() => { clickCount = 0; }, UNLOCK_WINDOW_MS);
+
       if (clickCount >= UNLOCK_CLICKS) {
-        clickCount = 0;
         clearTimeout(resetTimer);
+        clickCount = 0;
         unlockAndStartEditing();
+        return;
       }
+
+      clearTimeout(resetTimer);
+      resetTimer = setTimeout(() => {
+        clickCount = 0;
+        location.href = brandLink.href; // 시간 안에 3번 못 채웠으면 평소처럼 홈으로 이동
+      }, UNLOCK_WINDOW_MS);
     });
   }
 

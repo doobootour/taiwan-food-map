@@ -79,6 +79,8 @@ const I18N = {
     btn_cancel: "취소",
     btn_submit: "등록하기",
     btn_submitting: "등록 중...",
+    btn_update: "수정하기",
+    btn_updating: "수정 중...",
 
     toast_already_confirmed: "이미 확인하신 곳이에요",
     toast_vote_error: "투표 처리 중 오류가 발생했어요",
@@ -94,6 +96,13 @@ const I18N = {
     toast_no_geolocation: "위치 정보를 사용할 수 없어요",
     toast_check_permission: "위치 권한을 확인해주세요",
     toast_moved_to_region: "{region} 지역으로 이동했어요",
+    toast_update_success: "맛집 정보가 수정되었습니다",
+    toast_update_error: "수정 중 오류가 발생했어요",
+    toast_delete_success: "맛집이 삭제되었습니다",
+    toast_delete_error: "삭제 중 오류가 발생했어요",
+
+    dup_warning_text: "근처에 비슷한 맛집이 이미 있어요: \"{name}\" ({distance}m)",
+    dup_warning_view: "그 핀 보기",
 
     popup_verified: "검증됨",
     popup_link: "구글맵에서 보기 →",
@@ -103,6 +112,9 @@ const I18N = {
     popup_not_suited_count: "비추천 {n}",
     popup_fallback_name: "맛집",
     popup_registered_by: "등록: {name}",
+    admin_edit_btn: "✏️ 수정",
+    admin_delete_btn: "🗑️ 삭제",
+    admin_delete_confirm: "\"{name}\" 맛집을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
 
     sec_findings_title: "여행자들이 등록한 진짜 맛집",
     sec_findings_desc: "이 지역에 실제로 등록된 맛집을 카테고리별로 모아봤어요. 새로 등록되면 여기에도 바로 반영돼요. 핀을 눌러 추천 투표도 남길 수 있어요.",
@@ -219,6 +231,8 @@ const I18N = {
     btn_cancel: "Cancel",
     btn_submit: "Submit",
     btn_submitting: "Submitting...",
+    btn_update: "Save Changes",
+    btn_updating: "Saving...",
 
     toast_already_confirmed: "You've already confirmed this spot",
     toast_vote_error: "Something went wrong while voting",
@@ -234,6 +248,13 @@ const I18N = {
     toast_no_geolocation: "Location access isn't available",
     toast_check_permission: "Please check your location permission",
     toast_moved_to_region: "Moved to {region}",
+    toast_update_success: "Spot updated",
+    toast_update_error: "Something went wrong while saving",
+    toast_delete_success: "Spot deleted",
+    toast_delete_error: "Something went wrong while deleting",
+
+    dup_warning_text: "There's already a similar spot nearby: \"{name}\" ({distance}m)",
+    dup_warning_view: "View that pin",
 
     popup_verified: "Verified",
     popup_link: "View on Google Maps →",
@@ -243,6 +264,9 @@ const I18N = {
     popup_not_suited_count: "{n} not great",
     popup_fallback_name: "Spot",
     popup_registered_by: "Added by {name}",
+    admin_edit_btn: "✏️ Edit",
+    admin_delete_btn: "🗑️ Delete",
+    admin_delete_confirm: "Delete \"{name}\"? This can't be undone.",
 
     sec_findings_title: "Real Spots Added by Travelers",
     sec_findings_desc: "Real spots added in this region, grouped by category. New additions show up here right away. Tap a pin to leave a recommendation vote too.",

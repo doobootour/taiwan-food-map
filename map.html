@@ -105,7 +105,7 @@
 <div class="sheet-overlay" id="sheetOverlay">
   <div class="sheet">
     <div class="sheet-handle"></div>
-    <div class="sheet-intro">
+    <div class="sheet-intro" id="sheetIntro">
       <h3 data-i18n="sheet_title">나만의 맛집을 공유해주세요! 🤫</h3>
       <p data-i18n="sheet_desc">여러분의 발견이 다른 여행자들에게 진짜 대만을 경험하게 해줍니다. 함께해주셔서 감사해요! 💛</p>
       <ol class="sheet-steps">
@@ -138,9 +138,15 @@
 
     <input type="hidden" id="linkInput" />
 
+    <div class="dup-warning" id="dupWarning" hidden>
+      <span class="dup-warning-icon">⚠️</span>
+      <span id="dupWarningText"></span>
+      <button type="button" class="dup-warning-view" id="dupWarningViewBtn" data-i18n="dup_warning_view">그 핀 보기</button>
+    </div>
+
     <div class="sheet-actions">
       <button class="btn ghost-light" id="cancelBtn" data-i18n="btn_cancel">취소</button>
-      <button class="btn primary" id="submitBtn" disabled data-i18n="btn_submit">등록하기</button>
+      <button class="btn primary" id="submitBtn" disabled>등록하기</button>
     </div>
   </div>
 </div>
