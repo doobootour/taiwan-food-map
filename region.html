@@ -31,7 +31,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
 
-<link rel="stylesheet" href="css/styles.css?v=1788538059" />
+<link rel="stylesheet" href="css/styles.css?v=1788578704" />
 </head>
 <body>
 
@@ -128,8 +128,14 @@
             <span data-i18n-html="empty_note_html">이 카테고리엔 아직 등록된 맛집이 없어요.<br/>첫 발견자가 되어보세요!</span>
           </div>
           <div class="map-fab-col">
-            <button class="round-fab" id="homeLocateBtn" data-i18n-title="locate_title" title="내 위치">📍</button>
-            <button class="add-fab" id="homeAddFab" data-i18n-title="add_title" title="맛집 추가">+</button>
+            <div class="fab-item">
+              <button class="round-fab" id="homeLocateBtn" data-i18n-title="locate_title" title="내 주변 맛집 찾기">📍</button>
+              <span class="fab-label" data-i18n="locate_title">내 주변 맛집 찾기</span>
+            </div>
+            <div class="fab-item">
+              <button class="add-fab" id="homeAddFab" data-i18n-title="add_title" title="나만의 맛집 추가하기">+</button>
+              <span class="fab-label" data-i18n="add_title">나만의 맛집 추가하기</span>
+            </div>
           </div>
         </div>
       </div>
@@ -202,13 +208,13 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/data.js?v=1788538059"></script>
-<script src="js/region-content.js?v=1788538059"></script>
-<script src="js/i18n.js?v=1788538059"></script>
-<script src="js/supabase-config.js?v=1788538059"></script>
-<script src="js/admin.js?v=1788538059"></script>
-<script src="js/app.js?v=1788538059"></script>
-<script src="js/home-map.js?v=1788538059"></script>
-<script src="js/region.js?v=1788538059"></script>
+<script src="js/data.js?v=1788578704"></script>
+<script src="js/region-content.js?v=1788578704"></script>
+<script src="js/i18n.js?v=1788578704"></script>
+<script src="js/supabase-config.js?v=1788578704"></script>
+<script src="js/admin.js?v=1788578704"></script>
+<script src="js/app.js?v=1788578704"></script>
+<script src="js/home-map.js?v=1788578704"></script>
+<script src="js/region.js?v=1788578704"></script>
 </body>
 </html>
