@@ -70,10 +70,13 @@
         <div class="region-spots-group reveal in">
           <div class="region-spots-group-head"><span class="ico">${c.icon}</span><span>${c[lang]}</span></div>
           ${grouped[c.id].map(spot => `
-            <a class="region-spot-card" href="/map?lat=${spot.lat}&lng=${spot.lng}">
+            <div class="region-spot-card">
               <span class="name">${escapeHtml(spot.name || c[lang])}</span>
-              <span class="view-link">${t("view_on_map")}</span>
-            </a>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/?api=1&query=${spot.lat}%2C${spot.lng}" target="_blank" rel="noopener">${t("view_on_google_maps")}</a>
+                <a class="view-link" href="/map?lat=${spot.lat}&lng=${spot.lng}">${t("view_on_map")}</a>
+              </span>
+            </div>
           `).join("")}
         </div>
       `).join("");

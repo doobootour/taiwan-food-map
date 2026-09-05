@@ -521,10 +521,19 @@ h1, h2, h3, h4, .display {
   font-weight: 700; font-size: 14.5px; color: var(--ink);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
+.region-spot-links {
+  flex: 0 0 auto;
+  display: flex; align-items: center; gap: 10px;
+}
 .region-spot-card .view-link {
   flex: 0 0 auto;
   font-size: 12px; font-weight: 700; color: var(--sage);
   white-space: nowrap;
+}
+.region-spot-card .view-link.google-link {
+  color: var(--terracotta-dark, #4285F4);
+  padding-right: 10px;
+  border-right: 1px solid var(--border-soft);
 }
 
 /* ===================== CTA band ===================== */
@@ -816,6 +825,23 @@ html:has(body.map-page) { height: 100%; }
 }
 @media (prefers-reduced-motion: reduce) {
   .spot-pin .new-badge { animation: none; }
+}
+
+/* "지도에서 보기"로 들어왔을 때 어떤 핀인지 바로 알 수 있게 강조 */
+.spot-pin.highlight {
+  width: 44px; height: 44px;
+  box-shadow: 0 0 0 4px rgba(226, 122, 61, 0.35), 0 6px 14px rgba(42,31,22,0.4);
+  animation: highlightPop 1s ease-out 2;
+  z-index: 1000 !important;
+}
+.spot-pin.highlight .pin-ico { font-size: 19px; }
+@keyframes highlightPop {
+  0% { box-shadow: 0 0 0 4px rgba(226, 122, 61, 0.55), 0 6px 14px rgba(42,31,22,0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(226, 122, 61, 0), 0 6px 14px rgba(42,31,22,0.4); }
+  100% { box-shadow: 0 0 0 4px rgba(226, 122, 61, 0.55), 0 6px 14px rgba(42,31,22,0.4); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .spot-pin.highlight { animation: none; }
 }
 
 /* 겹치는 핀을 묶어 보여주는 클러스터 뱃지 */

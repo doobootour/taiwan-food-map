@@ -53,16 +53,25 @@ function isNewSpot(spot) {
   return !!spot.created_at && (Date.now() - new Date(spot.created_at).getTime()) < NEW_SPOT_WINDOW_MS;
 }
 
-function pinIcon(spot) {
+function pinIcon(spot, opts = {}) {
   const cat = catById(spot.category);
   const verified = spot.recommend_count >= VERIFIED_THRESHOLD;
   const html = `
-    <div class="spot-pin ${verified ? "verified" : ""}">
+    <div class="spot-pin ${verified ? "verified" : ""} ${opts.highlight ? "highlight" : ""}">
       <span class="pin-ico">${cat ? cat.icon : "📍"}</span>
       ${verified ? '<span class="verified-badge">✓</span>' : ''}
       ${isNewSpot(spot) ? '<span class="new-badge">NEW</span>' : ''}
     </div>`;
   return L.divIcon({ html, className: "", iconSize: [36, 36], iconAnchor: [18, 34], popupAnchor: [0, -30] });
+}
+
+// 지역 페이지의 "지도에서 보기" 링크(?lat=&lng=)로 들어왔을 때, 클러스터 속에서도
+// 어떤 핀인지 바로 알 수 있도록 해당 핀을 한 번 강조하고 팝업을 열어줌
+let didFocusInitialSpot = false;
+function findInitialSpot(list) {
+  if (!hasInitialLatLng) return null;
+  const TOL = 0.0002; // 약 20m 이내 오차는 같은 핀으로 간주
+  return list.find(s => Math.abs(s.lat - initialLat) < TOL && Math.abs(s.lng - initialLng) < TOL) || null;
 }
 
 function popupHtml(spot) {
@@ -122,8 +131,11 @@ function renderMarkers() {
   const filtered = spots.filter(s => activeCats.has(s.category));
   const emptyNote = document.getElementById("emptyNote");
   if (emptyNote) emptyNote.style.display = (spots.length > 0 && filtered.length === 0) ? "flex" : "none";
+  const initialSpot = didFocusInitialSpot ? null : findInitialSpot(filtered);
+  let initialMarker = null;
   filtered.forEach(spot => {
-    const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot) });
+    const isInitial = spot === initialSpot;
+    const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot, { highlight: isInitial }) });
     marker.bindPopup(popupHtml(spot));
     marker.on("popupopen", () => {
       filterPanel.classList.remove("expanded");
@@ -135,7 +147,12 @@ function renderMarkers() {
       });
     });
     markerLayer.addLayer(marker);
+    if (isInitial) initialMarker = marker;
   });
+  if (initialMarker) {
+    didFocusInitialSpot = true;
+    markerLayer.zoomToShowLayer(initialMarker, () => initialMarker.openPopup());
+  }
 }
 
 /* ===================== Load spots from Supabase ===================== */

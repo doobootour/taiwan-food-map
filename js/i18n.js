@@ -114,6 +114,7 @@ const I18N = {
     region_spots_none: "아직 {region}에 등록된 맛집이 없어요. 첫 발견자가 되어보세요! 🤫",
     region_spots_error: "맛집 목록을 불러오지 못했어요.",
     view_on_map: "지도에서 보기 →",
+    view_on_google_maps: "구글맵에서 보기",
 
     profile_uid_note: "이 브라우저에서 활동 중인 익명 계정이에요",
     stat_submissions: "내가 등록한 맛집",
@@ -253,6 +254,7 @@ const I18N = {
     region_spots_none: "No spots added in {region} yet. Be the first to discover one! 🤫",
     region_spots_error: "Couldn't load the spot list.",
     view_on_map: "View on Map →",
+    view_on_google_maps: "View on Google Maps",
 
     profile_uid_note: "An anonymous account active on this browser",
     stat_submissions: "Spots I've Added",
