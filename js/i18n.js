@@ -15,7 +15,7 @@ const I18N = {
     brand_tagline: "My Secret Taiwan Eats",
     btn_register: "맛집 등록하기",
 
-    footer_desc: "한국인 여행자와 거주자가 직접 찾고 검증하는 대만 맛집 지도. 함께 만들어가는 진짜 로컬 가이드입니다.",
+    footer_desc: "한국인을 비롯한 전 세계 여행자들이 직접 찾고 검증하는 대만 맛집 지도. 함께 만들어가는 진짜 로컬 가이드입니다.",
     footer_explore: "둘러보기",
     footer_categories: "카테고리",
     footer_regions: "지역별 탐험",
@@ -29,7 +29,7 @@ const I18N = {
 
     hero_eyebrow: "Taiwan Food Map",
     hero_title_html: "골목 하나까지 다 아는<br/><em>나만의</em> 대만 맛집 지도",
-    hero_sub: "현지인만 아는 골목 식당부터 최신 유행 디저트까지 — 한국인 여행자와 거주자가 직접 찾고 검증한 대만 맛집을 지도 위에서 만나보세요.",
+    hero_sub: "현지인만 아는 골목 식당부터 최신 유행 디저트까지 — 한국인을 비롯한 전 세계 여행자들이 직접 찾고 검증한 대만 맛집을 지도 위에서 만나보세요.",
     hero_cta_primary: "지금 맛집 찾기 →",
     hero_cta_secondary: "지역별로 둘러보기",
     hero_stat_count: "실시간 등록된 맛집",
@@ -169,7 +169,7 @@ const I18N = {
 
     hero_eyebrow: "Taiwan Food Map",
     hero_title_html: "Down to the very last alley —<br/><em>your own</em> Taiwan food map.",
-    hero_sub: "From hidden alley eateries only locals know to the latest trending desserts — discover Taiwan spots found and verified by Korean travelers and residents, all on one map.",
+    hero_sub: "From hidden alley eateries only locals know to the latest trending desserts — discover Taiwan spots found and verified by travelers from Korea and around the world, all on one map.",
     hero_cta_primary: "Find Spots Now →",
     hero_cta_secondary: "Browse by Region",
     hero_stat_count: "Live Spots Registered",
