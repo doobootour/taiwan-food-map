@@ -1,5 +1,5 @@
 /* =========================================================================
-   관리자 모드 — 헤더 좌측 로고를 5번 연속 클릭하면 비밀번호 입력창이 뜨고,
+   관리자 모드 — 헤더 좌측 로고를 3번 연속 클릭하면 비밀번호 입력창이 뜨고,
    맞으면 잠금 해제되어 data-i18n / data-i18n-html 텍스트를 클릭해서 바로
    수정할 수 있다. 저장한 내용은 이 브라우저(localStorage)에만 적용된다 —
    방문자 전체에게 반영하려면 Supabase 테이블 연동이 필요하다 (아직 미연동).
@@ -32,7 +32,7 @@
   applyOverridesToI18N();
   applyI18n(document);
 
-  const UNLOCK_CLICKS = 5;
+  const UNLOCK_CLICKS = 3;
   const UNLOCK_WINDOW_MS = 1500;
 
   let editing = false;
