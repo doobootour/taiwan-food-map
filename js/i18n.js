@@ -6,9 +6,9 @@
 const I18N = {
   ko: {
     nav_home: "홈",
-    nav_categories: "카테고리",
-    nav_regions: "지역",
-    nav_map: "지도",
+    nav_categories: "맛집 찾기",
+    nav_regions: "지역별 탐험",
+    nav_map: "지도 보기",
     nav_profile: "마이페이지",
     nav_community: "커뮤니티",
     brand_name: "나만 알고 싶은 대만 맛집",
@@ -17,7 +17,7 @@ const I18N = {
 
     footer_desc: "한국인을 비롯한 전 세계 여행자들이 직접 찾고 검증하는 대만 맛집 지도. 함께 만들어가는 진짜 로컬 가이드입니다.",
     footer_explore: "둘러보기",
-    footer_categories: "카테고리",
+    footer_categories: "맛집 찾기",
     footer_regions: "지역별 탐험",
     footer_map: "지도",
     footer_join: "참여하기",
@@ -146,9 +146,9 @@ const I18N = {
   },
   en: {
     nav_home: "Home",
-    nav_categories: "Categories",
-    nav_regions: "Regions",
-    nav_map: "Map",
+    nav_categories: "Find Spots",
+    nav_regions: "Explore by Region",
+    nav_map: "View Map",
     nav_profile: "My Page",
     nav_community: "Community",
     brand_name: "My Secret Taiwan Eats",
@@ -157,7 +157,7 @@ const I18N = {
 
     footer_desc: "A Taiwan restaurant map found and verified by travelers and residents — a real local guide, built together.",
     footer_explore: "Explore",
-    footer_categories: "Categories",
+    footer_categories: "Find Spots",
     footer_regions: "Explore by Region",
     footer_map: "Map",
     footer_join: "Get Involved",
