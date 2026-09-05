@@ -238,6 +238,7 @@ filterToggleBtn.addEventListener("click", () => {
 // 지도 중심이 화롄 좌표에서 일정 거리 이내인지를 이동할 때마다 체크한다.
 const tourPromoEl = document.getElementById("mapTourPromo");
 const [HUALIEN_LAT, HUALIEN_LNG] = REGION_VIEWS.hualien.center;
+let popupIsOpen = false; // 배너가 지도 상단에 고정되어 있어 열린 팝업과 겹칠 수 있으므로 팝업이 떠 있는 동안은 숨긴다
 function isViewingHualien() {
   if (map.getZoom() < 10) return false; // 전국 축소 화면에서는 우연히 중심이 겹쳐도 노출하지 않음
   const c = map.getCenter();
@@ -248,9 +249,11 @@ function isViewingHualien() {
 }
 function updateTourPromoVisibility() {
   if (sessionStorage.getItem("tfm_hualien_promo_dismissed")) { tourPromoEl.hidden = true; return; }
-  tourPromoEl.hidden = !isViewingHualien();
+  tourPromoEl.hidden = popupIsOpen || !isViewingHualien();
 }
 map.on("moveend", updateTourPromoVisibility);
+map.on("popupopen", () => { popupIsOpen = true; updateTourPromoVisibility(); });
+map.on("popupclose", () => { popupIsOpen = false; updateTourPromoVisibility(); });
 updateTourPromoVisibility();
 document.getElementById("mapTourPromoClose").addEventListener("click", (e) => {
   e.preventDefault();
