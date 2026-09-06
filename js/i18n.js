@@ -155,6 +155,16 @@ const I18N = {
     comment_placeholder: "댓글을 남겨주세요",
     comment_nickname_placeholder: "닉네임 (선택)",
     comment_submit: "댓글 등록",
+
+    tour_promo_tag: "직접 운영하는 투어",
+    tour_promo_eyebrow: "Hualien · Taroko Gorge",
+    tour_promo_title: "타이루거 협곡 반일투어",
+    tour_promo_price: "45,000원",
+    tour_promo_price_unit: " / 1인",
+    tour_promo_cta: "투어 보러가기 →",
+    tour_promo_href: "https://smartstore.naver.com/oktaiwan88/products/7908361968",
+    tour_promo_close: "닫기",
+    map_tour_promo_price_line: "45,000원 / 1인 · 투어 보러가기 →",
   },
   en: {
     nav_home: "Home",
@@ -307,11 +317,26 @@ const I18N = {
     comment_placeholder: "Leave a comment",
     comment_nickname_placeholder: "Nickname (optional)",
     comment_submit: "Post Comment",
+
+    tour_promo_tag: "Self-Operated Tour",
+    tour_promo_eyebrow: "Hualien · Taroko Gorge",
+    tour_promo_title: "Taroko Gorge Half-Day Tour",
+    tour_promo_price: "NT$1,000",
+    tour_promo_price_unit: " / person",
+    tour_promo_cta: "View Tour →",
+    tour_promo_href: "https://doobootour.com/en/taroko-tour",
+    tour_promo_close: "Close",
+    map_tour_promo_price_line: "NT$1,000 / person · View Tour →",
   },
 };
 
+function detectDefaultLang() {
+  const langs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || ""];
+  return langs.some(l => l && l.toLowerCase().startsWith("ko")) ? "ko" : "en";
+}
+
 function getLang() {
-  return localStorage.getItem("tfm_lang") || "ko";
+  return localStorage.getItem("tfm_lang") || detectDefaultLang();
 }
 
 function t(key, vars) {
@@ -342,6 +367,12 @@ function applyI18n(root = document) {
   });
   root.querySelectorAll("[data-i18n-title]").forEach(el => {
     el.title = t(el.getAttribute("data-i18n-title"));
+  });
+  root.querySelectorAll("[data-i18n-href]").forEach(el => {
+    el.href = t(el.getAttribute("data-i18n-href"));
+  });
+  root.querySelectorAll("[data-i18n-aria-label]").forEach(el => {
+    el.setAttribute("aria-label", t(el.getAttribute("data-i18n-aria-label")));
   });
 }
 
