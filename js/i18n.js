@@ -26,6 +26,8 @@ const I18N = {
     footer_mypage: "마이페이지",
     footer_lang: "언어",
     footer_copyright: "© 2026 나만 알고 싶은 대만 맛집",
+    footer_about: "소개",
+    footer_privacy: "개인정보처리방침",
 
     hero_eyebrow: "Taiwan Food Map",
     hero_title_html: "골목 하나까지 다 아는<br/><em>나만의</em> 대만 맛집 지도",
@@ -188,6 +190,8 @@ const I18N = {
     footer_mypage: "My Page",
     footer_lang: "Language",
     footer_copyright: "© 2026 My Secret Taiwan Eats",
+    footer_about: "About",
+    footer_privacy: "Privacy Policy",
 
     hero_eyebrow: "Taiwan Food Map",
     hero_title_html: "Down to the very last alley —<br/><em>your own</em> Taiwan food map.",
