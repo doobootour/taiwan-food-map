@@ -178,7 +178,26 @@ function renderMarkers() {
     const isInitial = spot === initialSpot;
     const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot, { highlight: isInitial }) });
     marker.bindPopup(popupHtml(spot));
-    marker.on("popupopen", () => {
+
+    // 핀에 마우스를 올리면 클릭 없이 팝업이 뜨도록 함. 팝업 쪽으로 마우스가 넘어가도
+    // (추천/수정/삭제 버튼을 누를 수 있어야 하므로) 바로 닫히지 않게 약간의 지연을 둔다.
+    let hoverCloseTimer = null;
+    const clearHoverCloseTimer = () => {
+      if (hoverCloseTimer) { clearTimeout(hoverCloseTimer); hoverCloseTimer = null; }
+    };
+    const scheduleHoverClose = () => {
+      clearHoverCloseTimer();
+      hoverCloseTimer = setTimeout(() => marker.closePopup(), 200);
+    };
+    marker.on("mouseover", () => { clearHoverCloseTimer(); marker.openPopup(); });
+    marker.on("mouseout", scheduleHoverClose);
+
+    marker.on("popupopen", (e) => {
+      const popupEl = e.popup.getElement();
+      if (popupEl) {
+        popupEl.addEventListener("mouseenter", clearHoverCloseTimer);
+        popupEl.addEventListener("mouseleave", scheduleHoverClose);
+      }
       filterPanel.classList.remove("expanded");
       document.querySelectorAll(".vote-btn").forEach(btn => {
         btn.onclick = (e) => {
