@@ -28,6 +28,13 @@
     maxZoom: 19,
   }).addTo(map);
 
+  function catById(id) { return CATEGORIES.find(c => c.id === id); }
+
+  const NEW_SPOT_WINDOW_MS = 1000 * 60 * 60 * 72; // 최근 등록 뱃지 노출 기간(72시간)
+  function isNewSpot(spot) {
+    return !!spot.created_at && (Date.now() - new Date(spot.created_at).getTime()) < NEW_SPOT_WINDOW_MS;
+  }
+
   // 핀이 겹칠 때 자동으로 묶어서 "몇 개 있는지" 숫자 뱃지로 보여주는 클러스터 레이어
   let markerLayer = L.markerClusterGroup({
     // 축소된(전국) 화면에서는 반경을 좁혀 타이베이·이란처럼 멀리 떨어진 지역이 한 뭉치로 묶이지 않게 함
@@ -39,21 +46,16 @@
       const size = count < 10 ? "small" : count < 50 ? "medium" : "large";
       const px = size === "small" ? 38 : size === "medium" ? 46 : 56;
       cluster.setZIndexOffset(count); // 숫자 큰 클러스터가 작은 클러스터/핀 위로 오도록
+      // 클러스터 안에 최근 등록된 핀이 하나라도 있으면 확대하지 않아도 알 수 있도록 표시
+      const hasNew = cluster.getAllChildMarkers().some(m => isNewSpot(m.spotData));
       return L.divIcon({
-        html: `<div class="spot-cluster ${size}">${count}</div>`,
+        html: `<div class="spot-cluster ${size}">${count}${hasNew ? '<span class="new-badge cluster-new-badge">NEW</span>' : ''}</div>`,
         className: "",
         iconSize: [px, px],
         iconAnchor: [px / 2, px / 2],
       });
     },
   }).addTo(map);
-
-  function catById(id) { return CATEGORIES.find(c => c.id === id); }
-
-  const NEW_SPOT_WINDOW_MS = 1000 * 60 * 60 * 72; // 최근 등록 뱃지 노출 기간(72시간)
-  function isNewSpot(spot) {
-    return !!spot.created_at && (Date.now() - new Date(spot.created_at).getTime()) < NEW_SPOT_WINDOW_MS;
-  }
 
   function pinIcon(spot) {
     const cat = catById(spot.category);
@@ -126,6 +128,7 @@
     if (emptyNote) emptyNote.style.display = (spots.length > 0 && filtered.length === 0) ? "flex" : "none";
     filtered.forEach(spot => {
       const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot) });
+      marker.spotData = spot; // 클러스터 아이콘에서 NEW 뱃지 노출 여부를 판단할 때 참조
       marker.bindPopup(popupHtml(spot));
       marker.on("popupopen", () => {
         filterPanel.classList.remove("expanded");
