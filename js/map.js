@@ -35,8 +35,11 @@ let markerLayer = L.markerClusterGroup({
     const size = count < 10 ? "small" : count < 50 ? "medium" : "large";
     const px = size === "small" ? 38 : size === "medium" ? 46 : 56;
     cluster.setZIndexOffset(count); // 숫자 큰 클러스터가 작은 클러스터/핀 위로 오도록
+    // 클러스터 안에 최근 등록된 핀이 하나라도 있으면, 확대해서 낱개 핀으로 풀기 전에도
+    // 새 맛집이 있다는 걸 알 수 있도록 클러스터 뱃지에도 NEW 표시를 얹는다
+    const hasNew = cluster.getAllChildMarkers().some(m => isNewSpot(m.spotData));
     return L.divIcon({
-      html: `<div class="spot-cluster ${size}">${count}</div>`,
+      html: `<div class="spot-cluster ${size}">${count}${hasNew ? '<span class="new-badge cluster-new-badge">NEW</span>' : ''}</div>`,
       className: "",
       iconSize: [px, px],
       iconAnchor: [px / 2, px / 2],
@@ -177,6 +180,7 @@ function renderMarkers() {
   filtered.forEach(spot => {
     const isInitial = spot === initialSpot;
     const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot, { highlight: isInitial }) });
+    marker.spotData = spot; // 클러스터 아이콘에서 NEW 뱃지 노출 여부를 판단할 때 참조
     marker.bindPopup(popupHtml(spot));
 
     // 핀에 마우스를 올리면 클릭 없이 팝업이 뜨도록 함. 팝업 쪽으로 마우스가 넘어가도

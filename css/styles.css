@@ -921,6 +921,7 @@ html:has(body.map-page) { height: 100%; }
 
 /* 겹치는 핀을 묶어 보여주는 클러스터 뱃지 */
 .spot-cluster {
+  position: relative;
   display: flex; align-items: center; justify-content: center;
   border-radius: 50%;
   color: #fff; font-family: var(--font-display); font-weight: 600;
@@ -930,6 +931,22 @@ html:has(body.map-page) { height: 100%; }
 .spot-cluster.small { width: 38px; height: 38px; font-size: 13px; background: var(--terracotta); }
 .spot-cluster.medium { width: 46px; height: 46px; font-size: 15px; background: var(--terracotta-dark); }
 .spot-cluster.large { width: 56px; height: 56px; font-size: 17px; background: var(--sage); }
+/* 클러스터(뭉친 핀) 안에 최근 등록된 맛집이 있을 때, 확대하지 않아도 보이는 NEW 뱃지 */
+.spot-cluster .cluster-new-badge {
+  position: absolute; top: -6px; right: -6px;
+  background: var(--terracotta-dark); color: #fff;
+  font-size: 8px; font-weight: 800; letter-spacing: 0.02em;
+  padding: 1px 5px; border-radius: var(--radius-full);
+  border: 1.5px solid #fff;
+  animation: newBadgePulseFlat 1.6s ease-in-out infinite;
+}
+@keyframes newBadgePulseFlat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.18); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .spot-cluster .cluster-new-badge { animation: none; }
+}
 
 /* 등록 시트가 열려있는 동안 "여기에 등록됩니다" 표시하는 임시 핀 */
 .draft-pin {
