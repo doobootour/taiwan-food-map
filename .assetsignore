@@ -3,4 +3,5 @@
 .claude
 .wrangler
 wrangler.jsonc
+worker.js
 scripts
