@@ -490,6 +490,94 @@ h1, h2, h3, h4, .display {
   .region-intro { font-size: 16px; }
 }
 
+/* ===================== Blog ===================== */
+.blog-card-grid { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 720px; margin: 0 auto; }
+.blog-card {
+  display: grid; grid-template-columns: 220px 1fr; gap: 24px;
+  background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm); overflow: hidden; text-decoration: none; color: inherit;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.blog-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.blog-card .blog-card-img { width: 100%; height: 100%; min-height: 180px; object-fit: cover; }
+.blog-card .blog-card-body { padding: 22px 24px 22px 0; display: flex; flex-direction: column; justify-content: center; }
+.blog-card .blog-card-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--terracotta-dark); margin-bottom: 8px; }
+.blog-card h3 { font-family: var(--font-display); font-size: 21px; font-weight: 600; color: var(--ink); margin: 0 0 10px; line-height: 1.35; }
+.blog-card p { font-size: 14.5px; color: var(--ink-soft); line-height: 1.65; margin: 0 0 12px; }
+.blog-card .blog-card-meta { font-size: 12.5px; color: var(--ink-faint); }
+@media (max-width: 640px) {
+  .blog-card { grid-template-columns: 1fr; }
+  .blog-card .blog-card-img { min-height: 200px; }
+  .blog-card .blog-card-body { padding: 20px; }
+}
+
+.blog-post-meta {
+  display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+  font-size: 13px; color: var(--ink-faint); margin: 0 0 40px; padding-bottom: 22px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.blog-post-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--ink-faint); }
+
+.blog-figure { margin: 32px 0; }
+.blog-figure img { width: 100%; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); display: block; object-fit: cover; }
+.blog-figure figcaption { font-size: 12.5px; color: var(--ink-faint); margin-top: 10px; text-align: center; }
+.blog-figure-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 32px 0; }
+.blog-figure-grid img { width: 100%; height: 320px; object-fit: cover; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); display: block; }
+@media (max-width: 640px) { .blog-figure-grid { grid-template-columns: 1fr; } }
+
+.blog-timeline { border-left: 2px solid var(--border); margin: 28px 0 40px; padding-left: 24px; display: flex; flex-direction: column; gap: 22px; }
+.blog-timeline .item { position: relative; }
+.blog-timeline .item::before {
+  content: ""; position: absolute; left: -29.5px; top: 4px; width: 9px; height: 9px; border-radius: 50%;
+  background: var(--terracotta); box-shadow: 0 0 0 3px var(--surface), 0 0 0 4px var(--border);
+}
+.blog-timeline .year { font-family: var(--font-display); font-weight: 600; color: var(--terracotta-dark); font-size: 14.5px; }
+.blog-timeline .desc { color: var(--ink-soft); font-size: 15px; margin-top: 3px; line-height: 1.65; }
+
+.blog-quote {
+  margin: 32px 0; padding: 22px 26px; background: var(--surface-alt); border-radius: var(--radius-md);
+  border-left: 3px solid var(--gold); font-family: var(--font-display); font-style: italic;
+  font-size: 18px; line-height: 1.6; color: var(--ink);
+}
+
+.blog-reason-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0 40px; }
+.blog-reason-card { background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius-md); padding: 20px; box-shadow: var(--shadow-sm); }
+.blog-reason-card .ico { font-size: 22px; display: block; margin-bottom: 10px; }
+.blog-reason-card h3 { font-family: var(--font-display); font-size: 16px; font-weight: 600; margin: 0 0 6px; color: var(--ink); }
+.blog-reason-card p { font-size: 14px; color: var(--ink-soft); margin: 0; line-height: 1.6; }
+@media (max-width: 640px) { .blog-reason-grid { grid-template-columns: 1fr; } }
+
+.spot-list { display: flex; flex-direction: column; gap: 14px; margin: 24px 0 40px; }
+.spot-card { background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius-md); padding: 20px 22px; box-shadow: var(--shadow-sm); }
+.spot-card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
+.spot-card-name { font-family: var(--font-display); font-size: 18px; font-weight: 600; color: var(--ink); }
+.spot-card-tag { flex-shrink: 0; font-size: 11.5px; font-weight: 600; color: var(--terracotta-dark); background: var(--terracotta-tint); padding: 4px 10px; border-radius: var(--radius-full); white-space: nowrap; }
+.spot-card p { font-size: 14.5px; color: var(--ink-soft); line-height: 1.65; margin: 0 0 10px; }
+.spot-card p em { font-style: normal; color: var(--ink); background: var(--gold-tint); padding: 1px 4px; border-radius: 4px; }
+.spot-card-link { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; font-weight: 600; color: var(--terracotta-dark); text-decoration: none; border-bottom: 1px solid var(--terracotta-tint); }
+.spot-card-link:hover { border-bottom-color: var(--terracotta-dark); }
+
+.blog-tip-list { display: flex; flex-direction: column; gap: 14px; margin: 24px 0 40px; }
+.blog-tip { display: flex; gap: 14px; align-items: flex-start; }
+.blog-tip .mark {
+  flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%; background: var(--surface-sunk);
+  display: flex; align-items: center; justify-content: center; font-size: 13.5px; color: var(--terracotta-dark); font-weight: 700;
+  font-family: var(--font-display);
+}
+.blog-tip p { margin: 0; font-size: 15px; color: var(--ink); }
+.blog-tip b { color: var(--ink); }
+
+.blog-cta {
+  margin: 48px 0 8px; padding: 28px; border-radius: var(--radius-lg); background: var(--ink); color: var(--surface-alt);
+  display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+}
+.blog-cta h3 { color: #fff; margin: 0 0 4px; font-family: var(--font-display); font-size: 19px; font-weight: 600; }
+.blog-cta p { color: var(--ink-faint); margin: 0; font-size: 14px; }
+.blog-cta-btn { flex-shrink: 0; background: var(--terracotta); color: #fff; font-weight: 700; font-size: 14px; padding: 12px 22px; border-radius: var(--radius-full); text-decoration: none; white-space: nowrap; }
+
+.blog-sources { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-soft); font-size: 12px; color: var(--ink-faint); line-height: 1.8; }
+.blog-sources a { color: var(--ink-faint); }
+
 /* ---- 지역별 실제 등록된 맛집 목록 (카테고리별 그룹) ---- */
 .region-spots-subarea { margin-bottom: 44px; }
 .region-spots-subarea:last-child { margin-bottom: 0; }
