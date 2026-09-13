@@ -22,7 +22,7 @@ if(window.wcs) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#c2703f" />
 <link rel="icon" type="image/png" href="assets/favicon.png" />
-<title>블로그 · 나만 알고 싶은 대만 맛집</title>
+<title id="pageTitle">블로그 · 나만 알고 싶은 대만 맛집</title>
 <link rel="canonical" href="https://taiwanbite.com/blog" />
 <meta name="description" content="대만 맛집의 역사와 이야기, 여행자들이 직접 남긴 후기까지 — 나만 알고 싶은 대만 맛집 블로그." />
 <meta property="og:type" content="website" />
@@ -78,26 +78,16 @@ if(window.wcs) {
     <img class="hero-img" src="assets/images/blog/taipei-beef-noodle-bowl-2.webp" alt="타이베이 우육면 한 그릇" />
     <div class="hero-scrim"></div>
     <div class="hero-content reveal">
-      <span class="eyebrow">Taiwan Food Stories</span>
-      <h1>블로그</h1>
-      <p>대만 맛집의 역사와 이야기, 그리고 실제로 다녀온 여행자들의 후기를 모았어요.</p>
+      <span class="eyebrow" data-i18n="blog_hero_eyebrow">Taiwan Food Stories</span>
+      <h1 data-i18n="blog_hero_title">블로그</h1>
+      <p data-i18n="blog_hero_sub">대만 맛집의 역사와 이야기, 그리고 실제로 다녀온 여행자들의 후기를 모았어요.</p>
     </div>
   </section>
 
   <!-- ================= POST LIST ================= -->
   <section class="section">
     <div class="wrap">
-      <div class="blog-card-grid">
-        <a class="blog-card" href="/blog-taipei-beef-noodle">
-          <img class="blog-card-img" src="assets/images/blog/taipei-beef-noodle-bowl-1.webp" alt="타이베이 홍샤오 우육면" />
-          <div class="blog-card-body">
-            <span class="blog-card-eyebrow">타이베이 미식 가이드 · 우육면</span>
-            <h3>대만 사람도 결국 한 그릇으로 돌아오는, 타이베이 우육면 순례</h3>
-            <p>홍샤오 우육면은 어디서 왔고, 왜 대만인의 소울푸드가 됐을까요. 여행자들이 실제로 다녀와 남긴 타이베이 우육면집까지 한 번에 정리했어요.</p>
-            <span class="blog-card-meta">타이베이 · 우육면(牛肉麵)</span>
-          </div>
-        </a>
-      </div>
+      <div class="blog-card-grid" id="blogListGrid"></div>
     </div>
   </section>
 </main>
@@ -149,9 +139,11 @@ if(window.wcs) {
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/data.js?v=1789307627"></script>
+<script src="js/blog-content.js?v=1789307627"></script>
 <script src="js/i18n.js?v=1789307627"></script>
 <script src="js/supabase-config.js?v=1789307627"></script>
 <script src="js/admin.js?v=1789307627"></script>
 <script src="js/app.js?v=1789307627"></script>
+<script src="js/blog.js?v=1789307627"></script>
 </body>
 </html>
