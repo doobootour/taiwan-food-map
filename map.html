@@ -77,6 +77,15 @@ if(window.wcs) {
   <div id="map"></div>
 
   <div class="map-filter-panel" id="mapFilterPanel">
+    <div class="map-search-wrap">
+      <div class="map-search-row">
+        <span class="map-search-ico">🔍</span>
+        <input type="text" id="mapSearchInput" class="map-search-input" data-i18n-placeholder="map_search_placeholder" placeholder="가게 이름으로 검색" autocomplete="off" />
+        <button type="button" class="map-search-clear" id="mapSearchClear" hidden aria-label="지우기">✕</button>
+      </div>
+      <div class="map-search-results" id="mapSearchResults" hidden></div>
+    </div>
+    <div class="map-filter-card">
     <button type="button" class="filter-toggle" id="filterToggleBtn">
       <span class="filter-toggle-label"><span class="ico">🍽️</span><span data-i18n="filter_toggle_label">메뉴별로 맛집 확인하기</span></span>
       <span class="filter-toggle-chevron">▾</span>
@@ -87,6 +96,7 @@ if(window.wcs) {
         <button class="filter-action-btn" id="clearAllBtn" data-i18n="filter_clear_all">전체해제</button>
       </div>
       <div class="map-filter-bar" id="mapFilterBar"></div>
+    </div>
     </div>
   </div>
 

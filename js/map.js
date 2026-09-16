@@ -321,6 +321,90 @@ document.getElementById("clearAllBtn").addEventListener("click", () => {
 renderFilterBar();
 loadSpots();
 
+/* ===================== Search by name/address ===================== */
+const searchInput = document.getElementById("mapSearchInput");
+const searchResultsEl = document.getElementById("mapSearchResults");
+const searchClearBtn = document.getElementById("mapSearchClear");
+const SEARCH_RESULT_LIMIT = 8;
+
+function closeSearchResults() {
+  searchResultsEl.hidden = true;
+  searchResultsEl.innerHTML = "";
+}
+
+function jumpToSpot(spot) {
+  if (!activeCats.has(spot.category)) {
+    activeCats.add(spot.category);
+    renderFilterBar();
+    renderMarkers();
+  }
+  const marker = markerLayer.getLayers().find(m => m.spotData && m.spotData.id === spot.id);
+  if (marker) markerLayer.zoomToShowLayer(marker, () => marker.openPopup());
+  searchInput.value = "";
+  searchClearBtn.hidden = true;
+  closeSearchResults();
+  searchInput.blur();
+}
+
+function runSearch(query) {
+  const q = query.trim().toLowerCase();
+  searchClearBtn.hidden = !q;
+  if (!q) { closeSearchResults(); return; }
+
+  const matches = spots.filter(s =>
+    (s.name && s.name.toLowerCase().includes(q)) ||
+    (s.address && s.address.toLowerCase().includes(q))
+  );
+
+  if (!matches.length) {
+    searchResultsEl.innerHTML = `<div class="map-search-empty">${t("map_search_no_results")}</div>`;
+    searchResultsEl.hidden = false;
+    return;
+  }
+
+  const shown = matches.slice(0, SEARCH_RESULT_LIMIT);
+  const lang = getLang();
+  searchResultsEl.innerHTML = shown.map(spot => {
+    const cat = catById(spot.category);
+    return `
+      <button type="button" class="map-search-result" data-id="${spot.id}">
+        <span class="ico">${cat ? cat.icon : "📍"}</span>
+        <span class="info">
+          <span class="name">${spot.name || (cat ? cat[lang] : "")}</span>
+          ${spot.address ? `<span class="addr">${spot.address}</span>` : ""}
+        </span>
+      </button>`;
+  }).join("") + (matches.length > SEARCH_RESULT_LIMIT
+    ? `<div class="map-search-more">${t("map_search_more", { n: matches.length - SEARCH_RESULT_LIMIT })}</div>`
+    : "");
+  searchResultsEl.hidden = false;
+
+  searchResultsEl.querySelectorAll(".map-search-result").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const spot = spots.find(s => String(s.id) === btn.dataset.id);
+      if (spot) jumpToSpot(spot);
+    });
+  });
+}
+
+searchInput.addEventListener("input", () => runSearch(searchInput.value));
+searchInput.addEventListener("focus", () => {
+  filterPanel.classList.remove("expanded");
+  if (searchInput.value.trim()) runSearch(searchInput.value);
+});
+searchClearBtn.addEventListener("click", () => {
+  searchInput.value = "";
+  searchClearBtn.hidden = true;
+  closeSearchResults();
+  searchInput.focus();
+});
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".map-search-wrap")) closeSearchResults();
+});
+searchInput.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") { searchInput.blur(); closeSearchResults(); }
+});
+
 if (initialRegion) {
   const r = REGIONS.find(r => r.id === initialRegion);
   if (r) showToast(t("toast_moved_to_region", { region: getLang() === "en" ? r.en : r.ko }));

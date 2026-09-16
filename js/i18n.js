@@ -55,6 +55,9 @@ const I18N = {
     locate_title: "내 주변 맛집 찾기",
     add_title: "나만의 맛집 추가하기",
     map_hint: "지도를 눌러 맛집을 추가하세요",
+    map_search_placeholder: "가게 이름으로 검색",
+    map_search_no_results: "일치하는 맛집이 없어요",
+    map_search_more: "그 외 {n}곳 더 있음 — 카테고리를 넓혀보세요",
 
     recent_contributors_label: "최근 맛집을 공유해준 여행자",
 
@@ -224,6 +227,9 @@ const I18N = {
     locate_title: "Find spots near me",
     add_title: "Add your own spot",
     map_hint: "Tap the map to add a spot",
+    map_search_placeholder: "Search by restaurant name",
+    map_search_no_results: "No matching spots",
+    map_search_more: "{n} more match — try widening your category filter",
 
     recent_contributors_label: "Travelers who recently shared a spot",
 
