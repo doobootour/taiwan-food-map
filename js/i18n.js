@@ -44,7 +44,7 @@ const I18N = {
     sec_categories_title: "무엇을 먹어볼까요?",
     sec_categories_desc: "메뉴별로 카테고리에서 골라 지도 위 맛집을 확인하고, 내 주변 맛집도 찾아보세요. 다녀온 곳이 정말 좋았다면 핀을 눌러 전 세계 여행자들에게 추천해 주세요!",
     link_full_map: "전체 화면 지도로 보기 →",
-    sec_categories_more: "카테고리별로 더 알아보기",
+    sec_categories_more: "메뉴 카테고리별로 알아보기",
 
     filter_toggle_label: "메뉴별로 맛집 확인하기",
     filter_select_all: "전체선택",
