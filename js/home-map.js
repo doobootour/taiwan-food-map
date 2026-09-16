@@ -7,16 +7,20 @@
   const mapEl = document.getElementById("homeMap");
   if (!mapEl) return; // 이 페이지에 임베디드 지도가 없으면 스킵
 
-  let activeCats = new Set(CATEGORIES.map(c => c.id));
-  let spots = [];
-  let votedIds = new Set(JSON.parse(localStorage.getItem("tfm_voted_ids") || "[]"));
-
   // region.html에서 ?region=xxx 로 들어오거나, region-taipei.html처럼 정적으로 미리 구운
   // 페이지는 쿼리스트링 없이 파일명으로 지역을 구분한다 (js/region.js 와 동일한 로직)
   const embeddedMapParams = new URLSearchParams(location.search);
   const embeddedPathMatch = location.pathname.match(/region-([a-z0-9_]+)/i);
   const embeddedRegion = embeddedMapParams.get("region") || (embeddedPathMatch && embeddedPathMatch[1]);
   const embeddedStartView = (embeddedRegion && REGION_VIEWS[embeddedRegion]) || DEFAULT_VIEW;
+
+  // category-beef_noodle.html처럼 카테고리별로 미리 구운 페이지는 그 카테고리 하나만 켜둔 채로 시작한다
+  const embeddedPathCatMatch = location.pathname.match(/category-([a-z0-9_]+)/i);
+  const embeddedCategory = embeddedMapParams.get("cat") || (embeddedPathCatMatch && embeddedPathCatMatch[1]);
+
+  let activeCats = new Set(embeddedCategory ? [embeddedCategory] : CATEGORIES.map(c => c.id));
+  let spots = [];
+  let votedIds = new Set(JSON.parse(localStorage.getItem("tfm_voted_ids") || "[]"));
 
   // scrollWheelZoom을 꺼서 페이지 스크롤 중 지도가 갑자기 확대/축소되지 않게 함
   const map = L.map("homeMap", { zoomControl: false, scrollWheelZoom: false }).setView(embeddedStartView.center, embeddedStartView.zoom);
@@ -151,9 +155,11 @@
     spots = data || [];
     renderMarkers();
     // region.html에서 특정 지역으로 들어온 경우엔 그 지역 줌을 유지하고,
+    // category-*.html처럼 카테고리 하나로 들어온 경우엔 그 카테고리 핀들만 기준으로 범위를 맞추며,
     // 홈 화면의 전체 지도일 때만 등록된 핀 전체가 보이도록 범위를 맞춘다
-    if (!embeddedRegion && spots.length) {
-      const bounds = L.latLngBounds(spots.map(s => [s.lat, s.lng]));
+    const boundsTarget = embeddedCategory ? spots.filter(s => activeCats.has(s.category)) : spots;
+    if (!embeddedRegion && boundsTarget.length) {
+      const bounds = L.latLngBounds(boundsTarget.map(s => [s.lat, s.lng]));
       map.fitBounds(bounds, { padding: [30, 30], maxZoom: 12 });
     }
   }

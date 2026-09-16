@@ -44,6 +44,7 @@ const I18N = {
     sec_categories_title: "무엇을 먹어볼까요?",
     sec_categories_desc: "대만은 미식의 나라지만, 외국인 입맛엔 낯선 메뉴도 있고 잘 맞는 메뉴도 있어요. 31가지 카테고리에서 골라 지도 위 맛집을 확인하고, 내 주변 맛집도 찾아보세요. 다녀온 곳이 정말 좋았다면 핀을 눌러 전 세계 여행자들에게 추천해 주세요.",
     link_full_map: "전체 화면 지도로 보기 →",
+    sec_categories_more: "카테고리별로 더 알아보기",
 
     filter_toggle_label: "메뉴별로 맛집 확인하기",
     filter_select_all: "전체선택",
@@ -138,6 +139,15 @@ const I18N = {
     view_on_map: "지도에서 보기 →",
     view_on_google_maps: "구글맵에서 보기",
 
+    sec_category_findings_title: "여행자들이 등록한 진짜 맛집",
+    sec_category_findings_desc: "이 카테고리에 실제로 등록된 맛집을 지역별로 모아봤어요. 새로 등록되면 여기에도 바로 반영돼요. 핀을 눌러 추천 투표도 남길 수 있어요.",
+    category_h2_tips: "무엇이 특별할까요?",
+    category_h2_checklist: "이렇게 즐겨보세요",
+    hero_btn_category_map: "이 카테고리 맛집 지도 보기 ↓",
+    hero_btn_other_categories: "다른 카테고리 보기",
+    category_spots_none: "아직 {category} 카테고리에 등록된 맛집이 없어요. 첫 발견자가 되어보세요! 🤫",
+    category_spots_error: "맛집 목록을 불러오지 못했어요.",
+
     profile_uid_note: "이 브라우저에서 활동 중인 익명 계정이에요",
     stat_submissions: "내가 등록한 맛집",
     stat_votes: "확인 투표 수",
@@ -216,6 +226,7 @@ const I18N = {
     sec_categories_title: "What Should We Eat?",
     sec_categories_desc: "Taiwan is a food lover's paradise, but not every dish suits every palate — some feel unfamiliar to foreign visitors, others fit right in. Pick from 31 categories to find spots on the map, or search near you. Found a hidden gem of your own? Tap a pin and recommend it to fellow travelers worldwide.",
     link_full_map: "View Full-Screen Map →",
+    sec_categories_more: "Explore More by Category",
 
     filter_toggle_label: "Browse Spots by Menu",
     filter_select_all: "Select All",
@@ -309,6 +320,15 @@ const I18N = {
     region_spots_error: "Couldn't load the spot list.",
     view_on_map: "View on Map →",
     view_on_google_maps: "View on Google Maps",
+
+    sec_category_findings_title: "Real Spots Added by Travelers",
+    sec_category_findings_desc: "Real spots in this category, grouped by region. New additions show up here right away. Tap a pin to leave a recommendation vote too.",
+    category_h2_tips: "What Makes It Special?",
+    category_h2_checklist: "How to Enjoy It",
+    hero_btn_category_map: "View This Category's Food Map ↓",
+    hero_btn_other_categories: "See Other Categories",
+    category_spots_none: "No spots added in {category} yet. Be the first to discover one! 🤫",
+    category_spots_error: "Couldn't load the spot list.",
 
     profile_uid_note: "An anonymous account active on this browser",
     stat_submissions: "Spots I've Added",

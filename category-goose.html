@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4BQHKRWZE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R4BQHKRWZE');
+</script>
+<!-- Naver Analytics -->
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "1c1c692e90a9a80";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#c2703f" />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<title id="pageTitle">대만 거위 맛집 가이드 · 나만 알고 싶은 대만 맛집</title>
+<link rel="canonical" href="https://taiwanbite.com/category-goose" />
+<meta id="pageDescription" name="description" content="대만 거위 맛집 정보 — 이란·타이베이의 명물, 훈제 거위 요리" />
+<meta property="og:type" content="article" />
+<meta id="ogUrl" property="og:url" content="https://taiwanbite.com/category-goose" />
+<meta property="og:site_name" content="나만 알고 싶은 대만 맛집" />
+<meta property="og:locale" content="ko_KR" />
+<meta id="ogTitle" property="og:title" content="대만 거위 맛집 가이드 · 나만 알고 싶은 대만 맛집" />
+<meta id="ogDescription" property="og:description" content="대만 거위 맛집 정보 — 이란·타이베이의 명물, 훈제 거위 요리" />
+<meta id="ogImage" property="og:image" content="https://taiwanbite.com/assets/images/categories/goose.webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json" id="ldJson">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://taiwanbite.com/"},{"@type":"ListItem","position":2,"name":"카테고리","item":"https://taiwanbite.com/#categories"},{"@type":"ListItem","position":3,"name":"거위 맛집 가이드","item":"https://taiwanbite.com/category-goose"}]},{"@type":"CollectionPage","name":"거위 맛집 가이드","description":"대만 거위 맛집 정보 — 이란·타이베이의 명물, 훈제 거위 요리","url":"https://taiwanbite.com/category-goose","image":"https://taiwanbite.com/assets/images/categories/goose.webp"},{"@type":"ItemList","name":"대만에 등록된 거위 맛집","numberOfItems":11,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"LocalBusiness","name":"샹덕 타이베이 진산난점","geo":{"@type":"GeoCoordinates","latitude":25.033804,"longitude":121.524458}}},{"@type":"ListItem","position":2,"item":{"@type":"LocalBusiness","name":"115港式燒臘","geo":{"@type":"GeoCoordinates","latitude":22.669724,"longitude":120.282939}}},{"@type":"ListItem","position":3,"item":{"@type":"LocalBusiness","name":"阿林鵝肉","geo":{"@type":"GeoCoordinates","latitude":22.9767283,"longitude":120.222759}}},{"@type":"ListItem","position":4,"item":{"@type":"LocalBusiness","name":"Xiang Duck Taichung Gongyi Branch","geo":{"@type":"GeoCoordinates","latitude":24.1512704,"longitude":120.6435202}}},{"@type":"ListItem","position":5,"item":{"@type":"LocalBusiness","name":"頂園燒鵝担仔廚房 - 太原店","geo":{"@type":"GeoCoordinates","latitude":24.164921,"longitude":120.7072534}}},{"@type":"ListItem","position":6,"item":{"@type":"LocalBusiness","name":"陳平良烤鴨","geo":{"@type":"GeoCoordinates","latitude":25.0664655,"longitude":121.6281551}}},{"@type":"ListItem","position":7,"item":{"@type":"LocalBusiness","name":"Xiang Duck Taipei Zhongxiao E. Branch","geo":{"@type":"GeoCoordinates","latitude":25.041307,"longitude":121.54799}}},{"@type":"ListItem","position":8,"item":{"@type":"LocalBusiness","name":"Xiang Duck Banqiao Xianmin Boulevard","geo":{"@type":"GeoCoordinates","latitude":25.0120666,"longitude":121.4616546}}},{"@type":"ListItem","position":9,"item":{"@type":"LocalBusiness","name":"鳳姐鴨肉飯","geo":{"@type":"GeoCoordinates","latitude":22.9993451,"longitude":120.1946986}}},{"@type":"ListItem","position":10,"item":{"@type":"LocalBusiness","name":"Ba Wei Ginger Duck","geo":{"@type":"GeoCoordinates","latitude":25.0327332,"longitude":121.5003955}}},{"@type":"ListItem","position":11,"item":{"@type":"LocalBusiness","name":"Xiang Duck Taipei Jinshan South Branch","geo":{"@type":"GeoCoordinates","latitude":25.0337996,"longitude":121.5270334}}}]}]}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+
+<link rel="stylesheet" href="css/styles.css?v=1789307627" />
+</head>
+<body>
+
+<header id="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">
+      <img class="mark" src="assets/images/logo.webp" data-i18n-alt="brand_name" alt="나만 알고 싶은 대만 맛집" />
+      <div class="name"><span data-i18n="brand_name">나만 알고 싶은 대만 맛집</span><small data-i18n="brand_tagline">My Secret Taiwan Eats</small></div>
+    </a>
+
+    <nav id="site-nav">
+      <a href="/" data-i18n="nav_home">홈</a>
+      <a href="/#categories" class="active" data-i18n="nav_categories">카테고리</a>
+      <a href="/#regions" data-i18n="nav_regions">지역</a>
+      <a href="/map" data-i18n="nav_map">지도</a>
+      <a href="/blog" data-i18n="nav_blog">블로그</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn">KO ▾</button>
+        <div class="lang-menu" id="langMenu">
+          <button data-lang="ko" class="active">한국어</button>
+          <button data-lang="en">English</button>
+        </div>
+      </div>
+      <a href="/map" class="btn primary" style="padding:10px 20px;font-size:13px;" data-i18n="btn_register">맛집 등록하기</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="메뉴"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero region-hero">
+    <img class="hero-img" id="categoryHeroImg" src="assets/images/categories/goose.webp" alt="거위" />
+    <div class="hero-scrim"></div>
+    <div class="hero-content reveal">
+      <span class="eyebrow" id="categoryEyebrow">대만 남부의 자부심</span>
+      <h1 id="categoryTitle">대만 거위 맛집 가이드</h1>
+      <p id="categoryTagline">이란·타이베이의 명물, 훈제 거위 요리</p>
+      <div class="hero-actions">
+        <a href="#category-map" class="btn primary" data-i18n="hero_btn_category_map">이 카테고리 맛집 지도 보기 ↓</a>
+        <a href="/#categories" class="btn ghost" data-i18n="hero_btn_other_categories">다른 카테고리 보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ARTICLE ================= -->
+  <section class="section">
+    <div class="wrap region-article">
+      <p class="region-intro" id="categoryIntro">거위 요리는 이란(宜蘭) 지역의 명물로 특히 유명하며, 타이베이에도 유명 노포들이 있습니다. 훈제향이 밴 쫄깃한 거위고기를 부추 소스에 찍어 먹는 것이 정석이고, 거위 국수·거위죽 같은 세트 메뉴로도 즐길 수 있어요.</p>
+
+      <h2 class="region-h2" data-i18n="category_h2_tips">무엇이 특별할까요?</h2>
+      <div class="region-highlight-grid" id="categoryTips">
+        <div class="region-highlight-card reveal in" style="--i:0">
+          <span class="num">01</span>
+          <div>
+            <h3>훈제거위 정석</h3>
+            <p>얇게 썬 훈제 거위고기를 부추(韭菜) 소스에 찍어 먹는 게 기본이에요.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:1">
+          <span class="num">02</span>
+          <div>
+            <h3>거위 국수 세트</h3>
+            <p>거위고기 몇 조각과 국수를 함께 내는 세트 메뉴가 가성비 좋아요.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:2">
+          <span class="num">03</span>
+          <div>
+            <h3>이란 원조 맛집</h3>
+            <p>이란 뤄동 야시장 인근에 원조로 알려진 노포들이 모여 있어요.</p>
+          </div>
+        </div></div>
+
+      <h2 class="region-h2" data-i18n="category_h2_checklist">이렇게 즐겨보세요</h2>
+      <ul class="region-activity-list" id="categoryChecklist">
+        <li><span class="check">✓</span>유명 노포는 점심시간 전후로 재료 소진되는 경우가 있어 이른 방문 추천</li>
+        <li><span class="check">✓</span>부추 소스는 짠 편이니 소량씩 찍어 먹기</li>
+        <li><span class="check">✓</span>포장 판매(진공포장 거위고기)하는 곳도 있어 선물용으로도 인기</li>
+        <li><span class="check">✓</span>이란 지역 여행 시 우선순위로 고려</li></ul>
+    </div>
+  </section>
+
+  <!-- ================= REGISTERED SPOTS + MAP ================= -->
+  <section id="category-map" class="section alt">
+    <div class="wrap">
+      <div class="region-article" style="margin-bottom:24px;">
+        <div class="section-head reveal" style="margin-bottom:0;">
+          <div>
+            <span class="eyebrow">Real spots</span>
+            <h2 data-i18n="sec_category_findings_title">여행자들이 등록한 진짜 맛집</h2>
+            <p data-i18n="sec_category_findings_desc">이 카테고리에 실제로 등록된 맛집을 지역별로 모아봤어요. 새로 등록되면 여기에도 바로 반영돼요. 핀을 눌러 추천 투표도 남길 수 있어요.</p>
+          </div>
+          <a id="categoryFullMapLink" href="/map?cat=goose" class="link-all" data-i18n="link_full_map">전체 화면 지도로 보기 →</a>
+        </div>
+      </div>
+
+      <div class="embedded-map-card reveal" style="margin-bottom:32px;">
+        <div class="map-filter-panel embedded" id="homeFilterPanel">
+          <button type="button" class="filter-toggle" id="homeFilterToggleBtn">
+            <span class="filter-toggle-label"><span class="ico">🍽️</span><span data-i18n="filter_toggle_label">메뉴별로 맛집 확인하기</span></span>
+            <span class="filter-toggle-chevron">▾</span>
+          </button>
+          <div class="filter-panel-body">
+            <div class="filter-panel-head">
+              <button class="filter-action-btn" id="homeSelectAllBtn" data-i18n="filter_select_all">전체선택</button>
+              <button class="filter-action-btn" id="homeClearAllBtn" data-i18n="filter_clear_all">전체해제</button>
+            </div>
+            <div class="map-filter-bar" id="homeFilterBar"></div>
+          </div>
+        </div>
+        <div class="embedded-map-wrap">
+          <div id="homeMap"></div>
+          <div class="map-loading" id="homeMapLoading"><span class="spinner"></span><span data-i18n="map_loading">맛집을 불러오는 중...</span></div>
+          <div class="empty-note-float" id="homeEmptyNote">
+            <span class="ico">🗺️</span>
+            <span data-i18n-html="empty_note_html">이 카테고리엔 아직 등록된 맛집이 없어요.<br/>첫 발견자가 되어보세요!</span>
+          </div>
+          <div class="map-fab-col">
+            <div class="fab-item">
+              <button class="round-fab" id="homeLocateBtn" data-i18n-title="locate_title" title="내 주변 맛집 찾기">📍</button>
+              <span class="fab-label" data-i18n="locate_title">내 주변 맛집 찾기</span>
+            </div>
+            <div class="fab-item">
+              <button class="add-fab" id="homeAddFab" data-i18n-title="add_title" title="나만의 맛집 추가하기">+</button>
+              <span class="fab-label" data-i18n="add_title">나만의 맛집 추가하기</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="region-article">
+        <div id="categorySpotsList">
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>타이베이</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">샹덕 타이베이 진산난점</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%EC%83%B9%EB%8D%95%20%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%20%EC%A7%84%EC%82%B0%EB%82%9C%EC%A0%90/@25.033804,121.524458,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=25.033804&lng=121.524458">지도에서 보기 →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">陳平良烤鴨</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E9%99%B3%E5%B9%B3%E8%89%AF%E7%83%A4%E9%B4%A8/@25.0664655,121.6281551,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=25.0664655&lng=121.6281551">지도에서 보기 →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">Xiang Duck Taipei Zhongxiao E. Branch</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Xiang%20Duck%20Taipei%20Zhongxiao%20E.%20Branch/@25.041307,121.54799,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=25.041307&lng=121.54799">지도에서 보기 →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">Xiang Duck Banqiao Xianmin Boulevard</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Xiang%20Duck%20Banqiao%20Xianmin%20Boulevard/@25.0120666,121.4616546,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=25.0120666&lng=121.4616546">지도에서 보기 →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">Ba Wei Ginger Duck</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Ba%20Wei%20Ginger%20Duck/@25.0327332,121.5003955,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=25.0327332&lng=121.5003955">지도에서 보기 →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">Xiang Duck Taipei Jinshan South Branch</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Xiang%20Duck%20Taipei%20Jinshan%20South%20Branch/@25.0337996,121.5270334,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=25.0337996&lng=121.5270334">지도에서 보기 →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>가오슝</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">115港式燒臘</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/115%E6%B8%AF%E5%BC%8F%E7%87%92%E8%87%98/@22.669724,120.282939,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=22.669724&lng=120.282939">지도에서 보기 →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>타이중</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">Xiang Duck Taichung Gongyi Branch</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Xiang%20Duck%20Taichung%20Gongyi%20Branch/@24.1512704,120.6435202,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=24.1512704&lng=120.6435202">지도에서 보기 →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">頂園燒鵝担仔廚房 - 太原店</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E9%A0%82%E5%9C%92%E7%87%92%E9%B5%9D%E6%8B%85%E4%BB%94%E5%BB%9A%E6%88%BF%20-%20%E5%A4%AA%E5%8E%9F%E5%BA%97/@24.164921,120.7072534,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=24.164921&lng=120.7072534">지도에서 보기 →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>타이난</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">阿林鵝肉</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E9%98%BF%E6%9E%97%E9%B5%9D%E8%82%89/@22.9767283,120.222759,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=22.9767283&lng=120.222759">지도에서 보기 →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">鳳姐鴨肉飯</span>
+              <span class="region-spot-links">
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E9%B3%B3%E5%A7%90%E9%B4%A8%E8%82%89%E9%A3%AF/@22.9993451,120.1946986,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=22.9993451&lng=120.1946986">지도에서 보기 →</a>
+              </span>
+            </div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section tight">
+    <div class="cta-band reveal">
+      <div>
+        <span class="eyebrow" style="color:rgba(255,255,255,0.85)">Join the map</span>
+        <h2 data-i18n="cta_title">나만의 맛집을 공유해주세요 🤫</h2>
+        <p data-i18n="cta_desc">여러분의 발견이 다른 여행자들에게 진짜 대만을 경험하게 해줍니다.</p>
+      </div>
+      <a href="/map" class="btn ghost" style="border-color:#fff;" data-i18n="cta_btn">지금 등록하기 →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <img class="mark" src="assets/images/logo.webp" data-i18n-alt="brand_name" alt="나만 알고 싶은 대만 맛집" />
+          <div class="name"><span data-i18n="brand_name">나만 알고 싶은 대만 맛집</span><small data-i18n="brand_tagline">My Secret Taiwan Eats</small></div>
+        </div>
+        <p class="desc" data-i18n="footer_desc">한국인을 비롯한 전 세계 여행자들이 직접 찾고 검증하는 대만 맛집 지도. 함께 만들어가는 진짜 로컬 가이드입니다.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_explore">둘러보기</h4>
+        <ul>
+          <li><a href="/#categories" data-i18n="footer_categories">카테고리</a></li>
+          <li><a href="/#regions" data-i18n="footer_regions">지역별 탐험</a></li>
+          <li><a href="/map" data-i18n="footer_map">지도</a></li>
+          <li><a href="/blog" data-i18n="footer_blog">블로그</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_join">참여하기</h4>
+        <ul>
+          <li><a href="/map" data-i18n="footer_register">맛집 등록하기</a></li>
+          <li><a href="/profile" data-i18n="footer_mypage">마이페이지</a></li>
+          <li><a href="/about" data-i18n="footer_about">소개</a></li>
+          <li><a href="/privacy" data-i18n="footer_privacy">개인정보처리방침</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_lang">언어</h4>
+        <ul>
+          <li><button class="footer-lang-btn active" data-lang="ko">한국어</button></li>
+          <li><button class="footer-lang-btn" data-lang="en">English</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2026 나만 알고 싶은 대만 맛집</span>
+      <span>Made for travelers, by travelers</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/data.js?v=1789307627"></script>
+<script src="js/category-content.js?v=1789307627"></script>
+<script src="js/i18n.js?v=1789307627"></script>
+<script src="js/supabase-config.js?v=1789307627"></script>
+<script src="js/admin.js?v=1789307627"></script>
+<script src="js/app.js?v=1789307627"></script>
+<script src="js/home-map.js?v=1789307627"></script>
+<script src="js/category.js?v=1789307627"></script>
+</body>
+</html>

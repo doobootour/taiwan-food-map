@@ -26,6 +26,17 @@ function renderRegionGrid() {
 }
 renderRegionGrid();
 
+// ===================== Render: category links (SEO 카테고리 페이지로 이동) =====================
+const categoryLinkRow = document.getElementById("categoryLinkRow");
+function renderCategoryLinks() {
+  if (!categoryLinkRow) return;
+  const lang = getLang();
+  categoryLinkRow.innerHTML = CATEGORIES.map(c => `
+    <a class="category-link-chip" href="category-${c.id}"><span>${c.icon}</span>${c[lang]}</a>
+  `).join("");
+}
+renderCategoryLinks();
+
 // ===================== Hero stat: 등록된 맛집 총 개수 =====================
 function animateHeroStatCount(el, from, to, duration = 1200) {
   const startTime = performance.now();
@@ -127,6 +138,7 @@ document.querySelectorAll(".lang-menu button, .footer-lang-btn").forEach(btn => 
 document.addEventListener("tfm:langchange", (e) => {
   syncLangUI(e.detail.lang);
   renderRegionGrid();
+  renderCategoryLinks();
   registerReveal(document);
 });
 
