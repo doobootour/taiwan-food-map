@@ -1,13 +1,75 @@
 (function () {
-  function spotCardHtml(spot) {
-    const tag = spot.tag ? `<span class="spot-card-tag">${spot.tag}</span>` : "";
-    const link = spot.link ? `<a class="spot-card-link" href="${spot.link}" target="_blank" rel="noopener">${spot.linkLabel}</a>` : "";
-    return `
-      <div class="spot-card">
-        <div class="spot-card-head"><span class="spot-card-name">${spot.name}</span>${tag}</div>
-        <p>${spot.html}</p>
-        ${link}
-      </div>`;
+  function blockHtml(block) {
+    switch (block.type) {
+      case "p":
+        return `<p>${block.html}</p>`;
+      case "h2":
+        return `<h2 class="region-h2">${block.text}</h2>`;
+      case "compareTable":
+        return `
+          <div class="blog-compare-table-wrap">
+            <table class="blog-compare-table">
+              <thead><tr><th></th>${block.cities.map(c => `<th>${c}</th>`).join("")}</tr></thead>
+              <tbody>
+                ${block.rows.map(row => `<tr><td>${row.label}</td>${row.values.map(v => `<td>${v}</td>`).join("")}</tr>`).join("")}
+              </tbody>
+            </table>
+          </div>`;
+      case "cityGrid":
+        return `
+          <div class="blog-city-grid">
+            ${block.items.map(item => `
+              <div class="blog-city-card">
+                <img src="${item.img}" alt="${item.name}" loading="lazy" />
+                <div class="body">
+                  <span class="tag">${item.tag}</span>
+                  <h3 class="name">${item.name}</h3>
+                  <p>${item.desc}</p>
+                </div>
+              </div>`).join("")}
+          </div>`;
+      case "figureGrid":
+        return `
+          <div class="blog-figure-grid">
+            ${block.items.map(item => `<img src="${item.img}" alt="${item.caption || ""}" loading="lazy" />`).join("")}
+          </div>`;
+      case "quote":
+        return `<blockquote class="blog-quote">${block.text}</blockquote>`;
+      case "tipList":
+        return `
+          <div class="blog-tip-list">
+            ${block.items.map(tip => `<div class="blog-tip"><span class="mark">${tip.mark}</span><p><b>${tip.b}</b> ${tip.desc}</p></div>`).join("")}
+          </div>`;
+      case "cta":
+        return `
+          <div class="blog-cta">
+            <div><h3>${block.title}</h3><p>${block.desc}</p></div>
+            <a class="blog-cta-btn" href="${block.href}">${block.btn}</a>
+          </div>`;
+      case "note":
+        return `<footer class="blog-sources">${block.text}</footer>`;
+      default:
+        return "";
+    }
+  }
+
+  let activeRegion = "all";
+
+  function renderRegionFilter(lang) {
+    const bar = document.getElementById("blogRegionFilter");
+    if (!bar) return;
+    const usedIds = [...new Set(BLOG_LIST.flatMap(post => post.regions || []))];
+    if (usedIds.length < 2) { bar.innerHTML = ""; return; }
+    const usedRegions = (typeof REGIONS !== "undefined" ? REGIONS : []).filter(r => usedIds.includes(r.id));
+    const allLabel = lang === "en" ? "All" : "전체";
+    const chips = [{ id: "all", label: allLabel }, ...usedRegions.map(r => ({ id: r.id, label: r[lang] || r.ko }))];
+    bar.innerHTML = chips.map(c => `<button type="button" class="filter-chip${c.id === activeRegion ? " active" : ""}" data-region="${c.id}">${c.label}</button>`).join("");
+    bar.querySelectorAll(".filter-chip").forEach(btn => {
+      btn.addEventListener("click", () => {
+        activeRegion = btn.dataset.region;
+        renderList();
+      });
+    });
   }
 
   function renderList() {
@@ -16,7 +78,9 @@
     const lang = getLang();
     const titleEl = document.getElementById("pageTitle");
     if (titleEl) titleEl.textContent = lang === "en" ? "Blog · My Secret Taiwan Eats" : "블로그 · 나만 알고 싶은 대만 맛집";
-    grid.innerHTML = BLOG_LIST.map(post => {
+    renderRegionFilter(lang);
+    const posts = activeRegion === "all" ? BLOG_LIST : BLOG_LIST.filter(post => (post.regions || []).includes(activeRegion));
+    grid.innerHTML = posts.map(post => {
       const c = post[lang] || post.ko;
       return `
         <a class="blog-card" href="/blog-${post.slug}">
@@ -66,63 +130,7 @@
 
       <p class="region-intro">${c.intro}</p>
 
-      <h2 class="region-h2">${c.h2_1}</h2>
-      <div class="blog-timeline">
-        ${c.timeline.map(item => `
-          <div class="item">
-            <div class="year">${item.year}</div>
-            <div class="desc">${item.desc}</div>
-          </div>`).join("")}
-      </div>
-
-      <figure class="blog-figure">
-        <img src="${post.heroImage.replace('bowl-1', 'bowl-2')}" alt="${c.figure1Caption}" loading="lazy" />
-        <figcaption>${c.figure1Caption}</figcaption>
-      </figure>
-
-      <p>${c.afterTimeline}</p>
-
-      <h2 class="region-h2">${c.h2_2}</h2>
-      <p>${c.reasonsIntro}</p>
-      <div class="blog-reason-grid">
-        ${c.reasons.map(r => `
-          <div class="blog-reason-card">
-            <span class="ico">${r.ico}</span>
-            <h3>${r.title}</h3>
-            <p>${r.desc}</p>
-          </div>`).join("")}
-      </div>
-
-      <blockquote class="blog-quote">${c.quote}</blockquote>
-
-      <h2 class="region-h2">${c.h2_3}</h2>
-      <p>${c.spotsIntro}</p>
-      <div class="spot-list">
-        ${c.spots.map(spotCardHtml).join("")}
-      </div>
-
-      <figure class="blog-figure">
-        <img src="${post.heroImage.replace('bowl-1', 'bowl-3')}" alt="${c.figure2Caption}" loading="lazy" />
-        <figcaption>${c.figure2Caption}</figcaption>
-      </figure>
-
-      <h2 class="region-h2">${c.h2_4}</h2>
-      <div class="blog-tip-list">
-        ${c.tips.map(tip => `
-          <div class="blog-tip"><span class="mark">${tip.mark}</span><p><b>${tip.b}</b> ${tip.desc}</p></div>`).join("")}
-      </div>
-
-      <div class="blog-cta">
-        <div>
-          <h3>${c.ctaTitle}</h3>
-          <p>${c.ctaDesc}</p>
-        </div>
-        <a class="blog-cta-btn" href="/map?region=taipei&cat=beef_noodle">${c.ctaBtn}</a>
-      </div>
-
-      <footer class="blog-sources">
-        ${c.sourcesPrefix} <a href="https://food.ltn.com.tw/article/2347" target="_blank" rel="noopener">自由電子報 食譜自由配</a>, <a href="https://www.gvm.com.tw/article/74836" target="_blank" rel="noopener">遠見雜誌</a>, <a href="https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E7%89%9B%E8%82%89%E9%BA%B5" target="_blank" rel="noopener">維基百科 — 臺灣牛肉麵</a>. ${c.sourcesSuffix}
-      </footer>
+      ${c.blocks.map(blockHtml).join("")}
     `;
 
     if (window.registerReveal) window.registerReveal(document);

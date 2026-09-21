@@ -595,6 +595,23 @@ h1, h2, h3, h4, .display {
 .blog-sources { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-soft); font-size: 12px; color: var(--ink-faint); line-height: 1.8; }
 .blog-sources a { color: var(--ink-faint); }
 
+.blog-compare-table-wrap { overflow-x: auto; margin: 24px 0 40px; border: 1px solid var(--border-soft); border-radius: var(--radius-md); box-shadow: var(--shadow-sm); }
+.blog-compare-table { width: 100%; border-collapse: collapse; background: var(--surface); min-width: 560px; }
+.blog-compare-table th, .blog-compare-table td { padding: 14px 16px; text-align: left; font-size: 13.5px; line-height: 1.55; border-bottom: 1px solid var(--border-soft); vertical-align: top; }
+.blog-compare-table th { font-family: var(--font-display); font-size: 13px; font-weight: 600; color: var(--ink); background: var(--surface-alt); white-space: nowrap; }
+.blog-compare-table td:first-child { font-weight: 600; color: var(--terracotta-dark); white-space: nowrap; }
+.blog-compare-table td { color: var(--ink-soft); }
+.blog-compare-table tr:last-child td { border-bottom: none; }
+
+.blog-city-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 32px 0; }
+.blog-city-card { background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm); }
+.blog-city-card img { width: 100%; height: 140px; object-fit: cover; display: block; }
+.blog-city-card .body { padding: 16px; }
+.blog-city-card .name { font-family: var(--font-display); font-size: 16px; font-weight: 600; color: var(--ink); margin: 0 0 4px; }
+.blog-city-card .tag { font-size: 11.5px; font-weight: 600; color: var(--terracotta-dark); margin: 0 0 8px; display: block; }
+.blog-city-card p { font-size: 13px; color: var(--ink-soft); line-height: 1.6; margin: 0; }
+@media (max-width: 720px) { .blog-city-grid { grid-template-columns: 1fr; } }
+
 /* ---- 지역별 실제 등록된 맛집 목록 (카테고리별 그룹) ---- */
 .region-spots-subarea { margin-bottom: 44px; }
 .region-spots-subarea:last-child { margin-bottom: 0; }

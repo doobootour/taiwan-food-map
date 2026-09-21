@@ -22,18 +22,19 @@ if(window.wcs) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#c2703f" />
 <link rel="icon" type="image/png" href="assets/favicon.png" />
-<title id="pageTitle">블로그 · 나만 알고 싶은 대만 맛집</title>
-<link rel="canonical" href="https://taiwanbite.com/blog" />
-<meta name="description" content="대만 맛집의 역사와 이야기, 여행자들이 직접 남긴 후기까지 — 나만 알고 싶은 대만 맛집 블로그." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://taiwanbite.com/blog" />
+<title id="pageTitle">타이베이 이지카드로 충분할까 — 첫 여행 3박4일 교통 가이드 · 나만 알고 싶은 대만 맛집</title>
+<link rel="canonical" href="https://taiwanbite.com/blog-taipei-easycard-transport-guide" />
+<meta id="pageDescription" name="description" content="타이베이 첫 여행, 이지카드만으로 충분할까요? 신용카드 컨택리스 결제, 버스, 택시(우버)는 언제 타야 하는지까지 — 실제 여행자들의 경험을 바탕으로 정리했어요." />
+<meta name="keywords" content="타이베이 이지카드, 타이베이 교통, 타이베이 지하철, 타이베이 버스, 타이베이 택시, 타이베이 우버, 대만 여행 교통카드" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://taiwanbite.com/blog-taipei-easycard-transport-guide" />
 <meta property="og:site_name" content="나만 알고 싶은 대만 맛집" />
 <meta property="og:locale" content="ko_KR" />
-<meta property="og:title" content="블로그 · 나만 알고 싶은 대만 맛집" />
-<meta property="og:description" content="대만 맛집의 역사와 이야기, 여행자들이 직접 남긴 후기까지." />
-<meta property="og:image" content="https://taiwanbite.com/assets/images/blog/blog-hero-taiwan-travel.jpg" />
+<meta id="ogTitle" property="og:title" content="타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?" />
+<meta id="ogDescription" property="og:description" content="이지카드, 신용카드 컨택리스 결제, 버스, 택시(우버)까지 — 첫 타이베이 여행자를 위한 교통수단 총정리." />
+<meta property="og:image" content="https://taiwanbite.com/assets/images/blog/taipei-taxi-night-market.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://taiwanbite.com/"},{"@type":"ListItem","position":2,"name":"블로그","item":"https://taiwanbite.com/blog"}]},{"@type":"Blog","name":"나만 알고 싶은 대만 맛집 블로그","url":"https://taiwanbite.com/blog"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://taiwanbite.com/"},{"@type":"ListItem","position":2,"name":"블로그","item":"https://taiwanbite.com/blog"},{"@type":"ListItem","position":3,"name":"타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?","item":"https://taiwanbite.com/blog-taipei-easycard-transport-guide"}]},{"@type":"Article","headline":"타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?","description":"이지카드, 신용카드 컨택리스 결제, 버스, 택시(우버)까지 — 첫 타이베이 여행자를 위한 교통수단 총정리.","image":"https://taiwanbite.com/assets/images/blog/taipei-taxi-night-market.jpg","publisher":{"@type":"Organization","name":"나만 알고 싶은 대만 맛집","logo":{"@type":"ImageObject","url":"https://taiwanbite.com/assets/images/logo.webp"}}}]}</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,21 +76,18 @@ if(window.wcs) {
 <main>
   <!-- ================= HERO ================= -->
   <section class="hero region-hero">
-    <img class="hero-img" src="assets/images/blog/blog-hero-taiwan-travel.jpg" alt="대만 여행 풍경" />
+    <img class="hero-img" id="blogHeroImg" src="assets/images/blog/taipei-taxi-night-market.jpg" alt="야시장 앞에 주차된 대만 택시" />
     <div class="hero-scrim"></div>
     <div class="hero-content reveal">
-      <span class="eyebrow" data-i18n="blog_hero_eyebrow">Taiwan Food Stories</span>
-      <h1 data-i18n="blog_hero_title">블로그</h1>
-      <p data-i18n="blog_hero_sub">대만 맛집의 역사와 이야기, 그리고 실제로 다녀온 여행자들의 후기를 모았어요.</p>
+      <span class="eyebrow" id="blogHeroEyebrow">타이베이 여행 가이드 · 교통</span>
+      <h1 id="blogHeroTitle">타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?</h1>
+      <p id="blogHeroDek">이지카드 하나로 지하철·버스·편의점까지 다 되는지, 신용카드는 어디까지 되는지, 택시는 언제 타야 하는지 — 첫 타이베이 여행자들이 가장 많이 묻는 교통 고민을 정리했어요.</p>
     </div>
   </section>
 
-  <!-- ================= POST LIST ================= -->
+  <!-- ================= ARTICLE ================= -->
   <section class="section">
-    <div class="wrap">
-      <div class="map-filter-bar" id="blogRegionFilter" style="max-width:720px;margin:0 auto 24px;"></div>
-      <div class="blog-card-grid" id="blogListGrid"></div>
-    </div>
+    <div class="wrap region-article" id="blogArticle"></div>
   </section>
 </main>
 
