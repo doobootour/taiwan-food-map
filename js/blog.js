@@ -33,6 +33,12 @@
           <div class="blog-figure-grid">
             ${block.items.map(item => `<img src="${item.img}" alt="${item.caption || ""}" loading="lazy" />`).join("")}
           </div>`;
+      case "figure":
+        return `
+          <figure class="blog-figure">
+            <img src="${block.img}" alt="${block.caption || ""}" loading="lazy" />
+            ${block.caption ? `<figcaption>${block.caption}</figcaption>` : ""}
+          </figure>`;
       case "quote":
         return `<blockquote class="blog-quote">${block.text}</blockquote>`;
       case "tipList":
@@ -114,8 +120,6 @@
     const ogDescEl = document.getElementById("ogDescription");
     if (ogDescEl) ogDescEl.setAttribute("content", c.metaDescription);
 
-    const heroImgEl = document.getElementById("blogHeroImg");
-    if (heroImgEl) { heroImgEl.src = post.heroImage; heroImgEl.alt = c.title.replace(/<[^>]+>/g, ""); }
     const heroEyebrowEl = document.getElementById("blogHeroEyebrow");
     if (heroEyebrowEl) heroEyebrowEl.textContent = c.eyebrow;
     const heroTitleEl = document.getElementById("blogHeroTitle");

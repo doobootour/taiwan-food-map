@@ -508,6 +508,12 @@ h1, h2, h3, h4, .display {
 }
 
 /* ===================== Blog ===================== */
+.blog-post-top { padding: 56px 24px 8px; }
+.blog-post-top .wrap { max-width: 720px; padding: 0; }
+.blog-post-title { font-size: clamp(28px, 4vw, 42px); font-weight: 600; line-height: 1.28; margin: 14px 0 16px; }
+.blog-post-dek { font-size: 17px; line-height: 1.7; color: var(--ink-soft); margin: 0; }
+@media (max-width: 640px) { .blog-post-top { padding: 40px 20px 4px; } }
+
 .blog-card-grid { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 720px; margin: 0 auto; }
 .blog-card {
   display: grid; grid-template-columns: 220px 1fr; gap: 24px;
