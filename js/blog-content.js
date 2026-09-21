@@ -65,7 +65,6 @@ const BLOG_POSTS = {
       dek: "이동 수단, 볼거리 밀도, 그리고 무엇보다 부모님이 걷기 편한 동선까지 — 세 도시를 나란히 비교해서 첫 대만 여행지를 골라봤습니다.",
       metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
       metaTopic: "대만 여행 · 도시 비교",
-      metaReadTime: "약 7분 소요",
       intro: "부모님을 모시고 떠나는 첫 대만 여행이라면 도시 선택부터 고민이 깊어집니다. <strong>타이베이</strong>는 두말할 것 없이 기본값이지만, 일정이 며칠 더 남는다면 <strong>타이중</strong>과 <strong>가오슝</strong> 중 어디를 더할지가 관건이에요. 이동 난이도, 관광 밀도, 그리고 무엇보다 부모님이 걷고 이동하기에 편한 동선까지 — 세 가지 기준으로 비교해봤습니다.",
       blocks: [
         { type: "h2", text: "01 · 세 도시, 한눈에 비교하기" },
@@ -109,7 +108,6 @@ const BLOG_POSTS = {
       dek: "Transit options, sightseeing density, and — most importantly — how easy the walking is for a parent. We compared all three cities side by side to help pick a first Taiwan destination.",
       metaAuthor: "My Secret Taiwan Eats Editorial",
       metaTopic: "Taiwan Travel · City Comparison",
-      metaReadTime: "About 7 min read",
       intro: "Planning a first Taiwan trip with a parent makes choosing a city a bigger decision than usual. <strong>Taipei</strong> is the obvious default, but if you have a few extra days, the real question is whether to add <strong>Taichung</strong> or <strong>Kaohsiung</strong>. We compared all three on transit difficulty, sightseeing density, and — above all — how easy the walking routes are for a parent.",
       blocks: [
         { type: "h2", text: "01 · The Three Cities at a Glance" },
@@ -156,7 +154,6 @@ const BLOG_POSTS = {
       dek: "이지카드 하나로 지하철·버스·편의점까지 다 되는지, 신용카드는 어디까지 되는지, 택시는 언제 타야 하는지 — 첫 타이베이 여행자들이 가장 많이 묻는 교통 고민을 정리했습니다.",
       metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
       metaTopic: "타이베이 · 교통 가이드",
-      metaReadTime: "약 6분 소요",
       intro: "타이베이 여행을 준비하다 보면 꼭 한 번은 마주치는 질문이 있습니다. \"이지카드 하나로 충분할까? 신용카드도 되나? 택시는 언제 타야 하지?\" 대중교통이 촘촘한 타이베이는 사실 복잡하게 고민할 필요가 없는 도시예요. 실제 여행자들의 경험을 바탕으로 <strong>이지카드·신용카드·택시(우버)</strong>의 사용 범위를 한 번에 정리해봤습니다.",
       blocks: [
         { type: "h2", text: "01 · 이지카드 vs 신용카드, 어디까지 될까" },
@@ -168,7 +165,7 @@ const BLOG_POSTS = {
             { label: "버스", values: ["가능", "아직 지원 안 됨", "필요할 때만 이용"] },
             { label: "편의점 · 마트", values: ["가능 — 충전 잔액으로 바로 결제", "가능", "해당 없음"] },
             { label: "충전 · 준비", values: ["공항·지하철역·편의점에서 구매 및 충전", "기존에 쓰던 카드 그대로 사용, 별도 발급 불필요", "출국 전 앱 설치 및 카드 등록"] },
-            { label: "첫 여행자 추천도", values: ["대중교통 위주라면 필수", "카드 결제를 선호한다면 보조 수단으로 좋습니다", "체력이 떨어지거나 짐이 많을 때만"] },
+            { label: "첫 여행자 추천도", values: ["대중교통 위주라면 필수", "카드 결제를 선호한다면 보조 수단으로 좋습니다", "체력이 떨어지거나 짐이 많을 때, 혹은 편하게 이동하고 싶을 때 좋아요"] },
           ],
         },
         { type: "figure", img: "assets/images/blog/taipei-taxi-night-market.jpg", caption: "대만 택시는 전부 노란색이라 멀리서도 눈에 잘 띄어요." },
@@ -181,10 +178,11 @@ const BLOG_POSTS = {
             { mark: "1", b: "체력이 떨어졌을 때", desc: "하루 종일 걸어다닌 뒤 숙소로 돌아갈 때는, 무리해서 대중교통을 갈아타기보다 택시가 훨씬 편합니다." },
             { mark: "2", b: "쇼핑으로 짐이 많아질 때", desc: "양손 가득 짐을 들고 환승하기보다, 숙소까지 바로 이동하는 편이 나아요." },
             { mark: "3", b: "대중교통 환승이 애매할 때", desc: "노선이 꼬이거나 도보 이동이 길어지는 구간이라면, 택시가 시간과 체력을 아껴줍니다." },
+            { mark: "4", b: "말이 잘 안 통하거나 깔끔한 차량을 원할 때", desc: "길거리에서 택시를 잡으면 목적지를 설명하기 애매하거나 차량 상태가 제각각일 수 있어요. 우버는 앱에 주소만 입력하면 되고 요금도 미리 확인할 수 있는 데다, 차량이 깨끗하고 기사님 서비스도 좋은 경우가 많아서 오히려 우버를 더 선호하는 여행자도 꽤 있습니다." },
           ],
         },
         { type: "h2", text: "04 · 3박4일, 실제로는 이렇게 다녀요" },
-        { type: "p", html: "실제로 다녀온 여행자들의 후기를 보면 답은 비슷합니다. 3박4일 내내 지하철과 버스만으로 다녔다는 후기가 가장 많았고, 컨택리스 신용카드 한 장으로 대만에서 6일을 지내고 온 사례도 있었어요. 이지카드는 남은 잔액을 편의점에서 알뜰하게 쓰고 귀국하는 것도 흔한 방법입니다. 우버 앱은 다들 미리 설치해두지만, 실제로 타는 일은 드물다는 의견이 많았어요." },
+        { type: "p", html: "실제로 다녀온 여행자들의 후기를 보면 답은 비슷합니다. 3박4일 내내 지하철과 버스만으로 다녔다는 후기가 가장 많았고, 컨택리스 신용카드 한 장으로 대만에서 6일을 지내고 온 사례도 있었어요. 이지카드는 남은 잔액을 편의점에서 알뜰하게 쓰고 귀국하는 것도 흔한 방법입니다. 우버는 다들 미리 앱을 설치해두는 편인데, 실제로 타 본 여행자들 사이에서는 깨끗한 차량과 편한 결제 덕분에 만족스러웠다는 후기도 적지 않았어요." },
         { type: "quote", text: "\"걷는 게 괜찮으시다면 지하철로 움직이셔도 어지간하면 충분합니다.\" — 실제 타이베이를 다녀온 여행자들이 가장 많이 남긴 한마디입니다." },
         { type: "h2", text: "05 · 첫 여행자를 위한 체크리스트" },
         {
@@ -192,7 +190,7 @@ const BLOG_POSTS = {
           items: [
             { mark: "✓", b: "이지카드부터 챙기기", desc: "공항 도착 후 지하철역이나 편의점에서 바로 구매·충전할 수 있습니다. 지하철, 버스, 편의점까지 한 장으로 해결돼요." },
             { mark: "✓", b: "구글 지도 앱 미리 준비", desc: "노선 검색은 물론 버스 하차 알림까지 챙겨주니, 초행길에 특히 유용해요." },
-            { mark: "✓", b: "우버 앱은 미리 설치만 해두기", desc: "실제로 탈 일은 많지 않아도, 짐이 많거나 체력이 떨어졌을 때를 대비해 미리 설치해두면 마음이 편합니다." },
+            { mark: "✓", b: "우버 앱도 함께 준비하기", desc: "짐이 많거나 체력이 떨어졌을 때는 물론, 깔끔한 차량과 정찰 요금을 선호해서 길거리 택시 대신 우버를 즐겨 타는 여행자도 많아요. 미리 설치해두면 언제든 편하게 쓸 수 있습니다." },
             { mark: "✓", b: "컨택리스 신용카드 확인", desc: "카드 뒷면에 와이파이 모양(옆으로 누운) 아이콘이 있다면 지하철 결제가 가능합니다. 다만 버스는 아직 지원하지 않아요." },
           ],
         },
@@ -209,7 +207,6 @@ const BLOG_POSTS = {
       dek: "Whether one EasyCard covers the MRT, buses, and convenience stores, how far a contactless credit card gets you, and when to actually call a taxi — the transportation questions first-time Taipei travelers ask most.",
       metaAuthor: "My Secret Taiwan Eats Editorial",
       metaTopic: "Taipei · Transportation Guide",
-      metaReadTime: "About 6 min read",
       intro: "Planning a Taipei trip always brings up the same question: \"Is an EasyCard enough? Does my credit card work? When do I actually need a taxi?\" Taipei's transit network is dense enough that the answer is simpler than it sounds. Based on real traveler experiences, here's exactly how far an <strong>EasyCard, a contactless credit card, and Uber/taxis</strong> each get you.",
       blocks: [
         { type: "h2", text: "01 · EasyCard vs. Credit Card: What Each One Covers" },
@@ -221,7 +218,7 @@ const BLOG_POSTS = {
             { label: "Buses", values: ["Yes", "Not supported yet", "Use only when needed"] },
             { label: "Convenience stores & marts", values: ["Yes — pay straight from your card balance", "Yes", "N/A"] },
             { label: "Getting set up", values: ["Buy and top up at the airport, MRT stations, or convenience stores", "Just use the card you already have — no extra sign-up", "Install the app and register a card before you fly"] },
-            { label: "Good for first-timers?", values: ["Essential if you're mostly using public transit", "A solid backup if you prefer paying by card", "Only when you're worn out or carrying a lot"] },
+            { label: "Good for first-timers?", values: ["Essential if you're mostly using public transit", "A solid backup if you prefer paying by card", "Great when you're worn out, carrying a lot, or just want an easy ride"] },
           ],
         },
         { type: "figure", img: "assets/images/blog/taipei-taxi-night-market.jpg", caption: "Every taxi in Taiwan is yellow, so they're easy to spot from a distance." },
@@ -234,10 +231,11 @@ const BLOG_POSTS = {
             { mark: "1", b: "When you're worn out", desc: "After a full day of walking, heading back to your hotel is a lot easier by taxi than by forcing another transit transfer." },
             { mark: "2", b: "When shopping has piled up your bags", desc: "Rather than transferring trains with your hands full, it's easier to go straight back to your hotel." },
             { mark: "3", b: "When the transit connection is awkward", desc: "If a route involves a confusing transfer or a long walk, a taxi saves both time and energy." },
+            { mark: "4", b: "When you want an easier, cleaner ride", desc: "Flagging a street taxi can mean explaining your destination or getting whatever car happens to pull up. With Uber, you just enter the address, see the fare upfront, and the cars tend to be clean with friendly drivers — enough that plenty of travelers actually prefer it over hailing a regular taxi." },
           ],
         },
         { type: "h2", text: "04 · What a Real 4-Day Trip Actually Looks Like" },
-        { type: "p", html: "Real traveler reviews tend to agree. Most people said they got through all four days on just the MRT and buses, and one traveler managed six days in Taiwan on a single contactless credit card. Spending down a leftover EasyCard balance at a convenience store before flying home is a common move too. Almost everyone installs the Uber app just in case, but actually needing to use it turns out to be rare." },
+        { type: "p", html: "Real traveler reviews tend to agree. Most people said they got through all four days on just the MRT and buses, and one traveler managed six days in Taiwan on a single contactless credit card. Spending down a leftover EasyCard balance at a convenience store before flying home is a common move too. Most travelers install the Uber app beforehand, and those who actually used it often mentioned how clean the cars were and how easy the payment was." },
         { type: "quote", text: "\"If you're fine with walking, the MRT alone is enough for almost everything.\" — The single most common piece of advice from travelers who've actually been to Taipei." },
         { type: "h2", text: "05 · A Checklist for First-Time Visitors" },
         {
@@ -245,7 +243,7 @@ const BLOG_POSTS = {
           items: [
             { mark: "✓", b: "Get an EasyCard first", desc: "You can buy and top one up right at the airport MRT station or a convenience store. One card covers the MRT, buses, and convenience stores." },
             { mark: "✓", b: "Set up Google Maps beforehand", desc: "It handles route search and bus-stop alerts, which is especially useful when you don't know the city yet." },
-            { mark: "✓", b: "Install Uber, but just register it", desc: "You may not end up using it much, but having it ready gives peace of mind for when you're tired or carrying too much." },
+            { mark: "✓", b: "Set up Uber too", desc: "Beyond just tired-and-carrying-too-much situations, plenty of travelers prefer Uber's clean cars and upfront pricing over hailing a taxi off the street. Get it registered ahead of time so it's ready whenever you want it." },
             { mark: "✓", b: "Check for contactless on your credit card", desc: "If the back of your card has the sideways Wi-Fi-shaped icon, it works on the MRT — just not on buses yet." },
           ],
         },

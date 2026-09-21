@@ -129,7 +129,7 @@
 
     root.innerHTML = `
       <div class="blog-post-meta">
-        <span>${c.metaAuthor}</span><span class="dot"></span><span>${c.metaTopic}</span><span class="dot"></span><span>${c.metaReadTime}</span>
+        <span>${c.metaAuthor}</span><span class="dot"></span><span>${c.metaTopic}</span>
       </div>
 
       <p class="region-intro">${c.intro}</p>
