@@ -102,6 +102,23 @@ const BLOG_LIST = [
       meta: "Taipei · Shopping Guide",
     },
   },
+  {
+    slug: "taipei-xiangde-peking-duck-half-day-course",
+    image: "assets/images/regions/taipei.webp",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "타이베이 여행 가이드 · 맛집 코스",
+      title: "베이징덕 맛집 샹덕(享鴨) 먹고 어디 갈까 — 중샤오둔화 반나절 코스",
+      desc: "예약 필수인 베이징덕 맛집 샹덕에서 식사하고, 도보·MRT로 가볍게 돌아볼 수 있는 주변 반나절 코스를 짜봤어요.",
+      meta: "타이베이 · 맛집 코스",
+    },
+    en: {
+      eyebrow: "Taipei Travel Guide · Food Course",
+      title: "What's Near Xiang Duck (享鴨)? A Half-Day Course Around Zhongxiao Dunhua",
+      desc: "A half-day route built around Xiang Duck, the reservation-only Peking duck specialist — shopping, a park, and a culture park all within a station or two.",
+      meta: "Taipei · Food Course",
+    },
+  },
 ];
 
 const BLOG_POSTS = {
@@ -579,6 +596,93 @@ const BLOG_POSTS = {
         },
         { type: "cta", title: "Find Marts and Liquor Shops on the Map", desc: "Look up marts and liquor shops that are good for snack and alcohol shopping, right on the map.", btn: "Open Map →", href: "/map?region=taipei&cat=mart" },
         { type: "note", text: "This guide is based on Korea Customs Service rules effective March 2025 and general international security screening standards. Details can vary by airline and connecting airport, and customs rules may change again, so double-check with the Korea Customs Service and your airline before you fly." },
+      ],
+    },
+  },
+  "taipei-xiangde-peking-duck-half-day-course": {
+    heroImage: "assets/images/regions/taipei.webp",
+    ko: {
+      pageTitle: "샹덕 베이징덕 먹고 어디 갈까 — 중샤오둔화 반나절 코스 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "예약 필수인 베이징덕 맛집 샹덕(享鴨)에서 식사하고 근처를 가볍게 돌아보고 싶다면. 중샤오둔화역 주변 쇼핑가, 다안삼림공원, 쑹산문창원구까지 묶은 반나절 코스를 정리했습니다.",
+      ogTitle: "베이징덕 맛집 샹덕(享鴨) 먹고 어디 갈까 — 중샤오둔화 반나절 코스",
+      eyebrow: "타이베이 여행 가이드 · 맛집 코스",
+      title: "베이징덕 맛집 샹덕(享鴨) 먹고 어디 갈까 — 중샤오둔화 반나절 코스",
+      dek: "통짜 오리를 테이블에서 직접 썰어주는 퍼포먼스로 유명한 베이징덕 전문점 샹덕. 식사 전후로 가볍게 돌아볼 수 있는 주변 코스를 짜봤습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "타이베이 · 맛집 코스",
+      intro: "베이징덕 맛집 샹덕(享鴨, Xiang Duck)은 예약을 잡기가 쉽지 않을 만큼 인기 있는 곳이에요. 대표 지점은 <strong>중샤오둔화역</strong> 인근, 다안구와 송산구가 맞닿는 중샤오동로 4단에 있습니다. 모처럼 예약까지 잡고 찾아가는 만큼, 식사 전후로 가볍게 돌아볼 수 있는 반나절 코스를 함께 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 샹덕(享鴨), 예약 전 체크리스트" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "예약은 필수입니다", desc: "테이블에서 통오리를 직접 썰어주는 퍼포먼스로 유명해 현장 대기보다는 사전 예약이 기본입니다." },
+            { mark: "2", b: "브레이크타임 확인하기", desc: "지점에 따라 오후 시간대에 브레이크타임이 있을 수 있어요. 예약할 때 영업시간을 함께 확인하는 게 안전합니다." },
+            { mark: "3", b: "오리 한 마리 기준 인원수 확인", desc: "통오리 한 마리는 보통 2~3인이 함께 먹기 좋은 양이에요. 일행 수에 맞춰 주문 구성을 미리 물어보세요." },
+          ],
+        },
+        { type: "h2", text: "02 · 식사 전 — 중샤오둔화 쇼핑가" },
+        { type: "p", html: "중샤오둔화역 주변은 SOGO 백화점 푸싱점을 중심으로 골목마다 편집숍과 부티크가 모여 있는 쇼핑가입니다. 예약 시간보다 일찍 도착했다면 이 일대를 걸으며 시간을 보내기 좋아요. 대형 백화점부터 작은 브랜드 매장까지 다양해서, 날씨와 상관없이 돌아보기 편한 것도 장점입니다." },
+        { type: "h2", text: "03 · 식사 후 — 산책 또는 문화공간, 취향껏" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "다안삼림공원(대안삼림공원)", desc: "도보로도 이동 가능한 거리에 있는 도심 속 공원입니다. 식사 후 소화도 시킬 겸 녹지를 걷고 싶다면 추천해요." },
+            { mark: "2", b: "쑹산문창원구", desc: "MRT로 한두 정거장 거리에 있는 옛 담배공장을 개조한 복합 문화공간입니다. 전시·소품숍을 둘러보며 여유롭게 시간을 보내기 좋아요." },
+          ],
+        },
+        { type: "h2", text: "04 · 동선 팁" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "점심 예약이 여유롭습니다", desc: "저녁 시간대는 예약이 더 몰리는 편이라, 오후 코스까지 넉넉히 잡고 싶다면 점심 예약을 노려보세요." },
+            { mark: "✓", b: "도보보다 MRT 한두 정거장", desc: "이 일대는 도보로 다니기엔 거리가 애매한 스팟도 있어요. 구글 지도로 MRT 경로를 함께 확인하며 다니는 게 편합니다." },
+          ],
+        },
+        { type: "cta", title: "지도에서 타이베이 맛집도 함께 찜해두세요", desc: "중샤오둔화 근처 맛집과 카페를 지도에서 바로 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
+        { type: "note", text: "이 글은 베이징덕 전문점 샹덕(享鴨)의 대표 지점 위치와 주변 대중교통 정보를 바탕으로 정리했습니다. 지점별 위치·영업시간·예약 정책은 바뀔 수 있으니 방문 전 공식 채널로 다시 확인해주세요." },
+      ],
+    },
+    en: {
+      pageTitle: "What's Near Xiang Duck? A Half-Day Course Around Zhongxiao Dunhua · My Secret Taiwan Eats",
+      metaDescription: "Planning a meal at Xiang Duck (享鴨), the reservation-only Peking duck specialist near Zhongxiao Dunhua station? Here's a half-day route through the nearby shopping street, Da'an Forest Park, and Songshan Cultural Park.",
+      ogTitle: "What's Near Xiang Duck (享鴨)? A Half-Day Course Around Zhongxiao Dunhua",
+      eyebrow: "Taipei Travel Guide · Food Course",
+      title: "What's Near Xiang Duck (享鴨)? A Half-Day Course Around Zhongxiao Dunhua",
+      dek: "Xiang Duck is known for carving a whole roast duck tableside. Here's a half-day route to fill in the time before or after your reservation.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taipei · Food Course",
+      intro: "Xiang Duck (享鴨) is popular enough that getting a reservation takes some planning. Its main branch sits near <strong>Zhongxiao Dunhua Station</strong>, right where Da'an and Songshan districts meet on Zhongxiao E. Road Section 4. Since you're already making the trip for a reservation, here's a half-day route to round out the visit.",
+      blocks: [
+        { type: "h2", text: "01 · Before You Book: A Checklist" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Reservations are essentially required", desc: "The tableside duck-carving is the draw, and walk-ins are difficult — book ahead." },
+            { mark: "2", b: "Check for a break time", desc: "Some branches close for a break in the mid-afternoon. Confirm opening hours when you book." },
+            { mark: "3", b: "Know how many a whole duck feeds", desc: "A whole duck is usually a good fit for 2-3 people. Ask about ordering options based on your group size." },
+          ],
+        },
+        { type: "h2", text: "02 · Before Your Meal: The Zhongxiao Dunhua Shopping Strip" },
+        { type: "p", html: "The area around Zhongxiao Dunhua Station is a shopping strip centered on the SOGO Fuxing branch, with boutiques and concept stores filling the side streets. If you arrive early for your reservation, this is an easy place to kill time — indoors if the weather turns, with everything from department stores to small independent shops." },
+        { type: "h2", text: "03 · After Your Meal: A Walk or a Culture Space" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Da'an Forest Park", desc: "Close enough to reach on foot — a good option if you want greenery and a walk to settle a heavy meal." },
+            { mark: "2", b: "Songshan Cultural and Creative Park", desc: "A station or two away by MRT, this converted tobacco factory now houses exhibitions and design shops — good for a slower-paced afternoon." },
+          ],
+        },
+        { type: "h2", text: "04 · Route Tips" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Lunch reservations are easier to get", desc: "Evening slots fill up faster, so if you want a relaxed afternoon route afterward, try booking lunch instead." },
+            { mark: "✓", b: "Use the MRT for a stop or two rather than walking everywhere", desc: "Some of these spots are an awkward walking distance apart. Check Google Maps for the MRT route as you go." },
+          ],
+        },
+        { type: "cta", title: "Bookmark More Taipei Restaurants on the Map", desc: "Find restaurants and cafes near Zhongxiao Dunhua, right on the map.", btn: "Open Map →", href: "/map?region=taipei" },
+        { type: "note", text: "This guide is based on the location of Xiang Duck's (享鴨) main branch and the public transit around it. Branch locations, hours, and reservation policies can change, so double-check with official channels before you go." },
       ],
     },
   },
