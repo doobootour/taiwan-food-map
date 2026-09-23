@@ -68,7 +68,7 @@
     if (usedIds.length < 2) { bar.innerHTML = ""; return; }
     const usedRegions = (typeof REGIONS !== "undefined" ? REGIONS : []).filter(r => usedIds.includes(r.id));
     const allLabel = lang === "en" ? "All" : "전체";
-    const chips = [{ id: "all", label: allLabel }, ...usedRegions.map(r => ({ id: r.id, label: r[lang] || r.ko }))];
+    const chips = [{ id: "all", label: allLabel }, ...usedRegions.map(r => ({ id: r.id, label: (lang === "en" ? (r.shortEn || r.en) : (r.shortKo || r.ko)) }))];
     bar.innerHTML = chips.map(c => `<button type="button" class="filter-chip${c.id === activeRegion ? " active" : ""}" data-region="${c.id}">${c.label}</button>`).join("");
     bar.querySelectorAll(".filter-chip").forEach(btn => {
       btn.addEventListener("click", () => {
