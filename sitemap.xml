@@ -42,6 +42,11 @@
   <url><loc>https://taiwanbite.com/category-attraction</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taiwanbite.com/category-shopping</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taiwanbite.com/category-liquor_shop</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://taiwanbite.com/blog</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://taiwanbite.com/blog-taipei-easycard-transport-guide</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://taiwanbite.com/blog-taipei-overnight-red-eye-flight-last-day</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://taiwanbite.com/blog-taipei-souvenir-gift-guide</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://taiwanbite.com/blog-taipei-taichung-kaohsiung-with-mom</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://taiwanbite.com/board</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://taiwanbite.com/about</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
   <url><loc>https://taiwanbite.com/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
