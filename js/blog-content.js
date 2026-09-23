@@ -136,6 +136,23 @@ const BLOG_LIST = [
       meta: "Jiufen · Timing Your Visit",
     },
   },
+  {
+    slug: "taipei-longshan-temple-night-guide",
+    image: "assets/images/regions/taipei.webp",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "타이베이 여행 가이드 · 야경 코스",
+      title: "용산사는 낮보다 밤? 야경 시간대와 주변 코스 짜는 법",
+      desc: "붐비는 낮 시간을 피해 야경으로 즐기는 용산사. 방문 시간대별 분위기 차이와 완화 야시장 연계 코스를 정리했어요.",
+      meta: "타이베이 · 야경 코스",
+    },
+    en: {
+      eyebrow: "Taipei Travel Guide · Night View Course",
+      title: "Longshan Temple: Better at Night Than by Day?",
+      desc: "How the atmosphere changes after dark, and a route linking the temple with Wanhua's night markets.",
+      meta: "Taipei · Night View Course",
+    },
+  },
 ];
 
 const BLOG_POSTS = {
@@ -777,6 +794,83 @@ const BLOG_POSTS = {
         { type: "p", html: "The narrow, stepped layout makes moving through crowds with kids especially tiring. Late afternoon into sunset is the peak window, so plan to wrap up your visit by early afternoon if you can. If you have any flexibility on which day to go, Friday is noticeably easier on everyone's legs than Sunday." },
         { type: "cta", title: "Find Jiufen Restaurants on the Map Too", desc: "Look up Jiufen's old shops and teahouses, right on the map.", btn: "Open Map →", href: "/map?region=jiufen" },
         { type: "note", text: "This guide is based on crowd patterns commonly shared among travelers by day and time. Actual crowd levels can vary with weather, holidays, and local events." },
+      ],
+    },
+  },
+  "taipei-longshan-temple-night-guide": {
+    heroImage: "assets/images/regions/taipei.webp",
+    ko: {
+      pageTitle: "용산사 야경 가이드 — 방문 시간대와 완화 야시장 코스 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "용산사는 낮보다 저녁 조명이 켜진 뒤 분위기가 완전히 달라집니다. 야경으로 즐기기 좋은 시간대와 화시제·광저우제 야시장, 보피랴오 역사거리까지 묶은 반나절 코스를 정리했습니다.",
+      ogTitle: "용산사는 낮보다 밤? 야경 시간대와 주변 코스 짜는 법",
+      eyebrow: "타이베이 여행 가이드 · 야경 코스",
+      title: "용산사는 낮보다 밤? 야경 시간대와 주변 코스 짜는 법",
+      dek: "낮에는 단체 관광객과 참배객으로 붐비는 용산사도, 저녁 조명이 켜지면 완전히 다른 얼굴을 보여줍니다. 야경 방문 타이밍과 완화 지역 야시장을 묶은 코스를 짜봤어요.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "타이베이 · 야경 코스",
+      intro: "용산사는 타이베이에서 손꼽히는 사원이지만, 낮 시간대에는 단체 관광버스와 참배객이 겹쳐 여유롭게 둘러보기가 쉽지 않아요. 반면 해가 진 뒤 조명이 켜지면 붉은 등불과 정교한 지붕 조각이 은은하게 드러나면서 분위기가 확 달라집니다. 야경으로 즐기기 좋은 시간대와, 바로 옆 완화 지역 야시장까지 묶은 반나절 코스를 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 밤에 가면 뭐가 다를까" },
+        { type: "p", html: "용산사는 오전 6시부터 오후 10시까지 연중무휴로 운영되고 입장료는 무료입니다. 낮 시간대는 참배객과 단체 관광객이 겹쳐 가장 붐비는 편이고, 해가 완전히 진 뒤에는 관광객 밀도가 낮 시간보다 상대적으로 줄어드는 편이에요. 조명이 켜진 처마와 조각 장식을 가까이서 찬찬히 볼 수 있다는 것도 야간 방문의 장점입니다." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "해 진 직후가 가장 좋은 타이밍", desc: "하늘이 완전히 어두워지기 전, 노을과 사원 조명이 함께 보이는 시간대가 사진 찍기도 가장 좋습니다." },
+            { mark: "2", b: "참배 문화 존중하기", desc: "향을 피우고 기도하는 참배객이 많은 곳이니, 사진을 찍을 때는 방해가 되지 않도록 조용히 움직이는 게 좋습니다." },
+            { mark: "3", b: "운영시간은 방문 전 재확인", desc: "행사나 사정에 따라 운영시간이 달라질 수 있으니, 방문 당일 공식 채널로 한 번 더 확인하는 걸 추천해요." },
+          ],
+        },
+        { type: "h2", text: "02 · 완화 지역과 묶어서 반나절 야시장 코스" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "화시제 관광 야시장", desc: "용산사에서 도보 몇 분 거리로, 다양한 먹거리 노점이 모여 있는 관광형 야시장입니다." },
+            { mark: "2", b: "광저우제 야시장", desc: "화시제와 이어지는 구간으로, 현지인들도 즐겨 찾는 먹거리 골목이에요." },
+            { mark: "3", b: "칭차오샹(청초항)", desc: "약초 상점이 모여 있는 짧은 골목입니다. 독특한 약초 향이 인상적인 완화 지역의 숨은 스팟이에요." },
+            { mark: "4", b: "보피랴오 역사거리", desc: "옛 거리 풍경을 그대로 살려둔 구역으로, 야간 조명이 켜지면 산책하기 좋은 분위기가 됩니다." },
+          ],
+        },
+        { type: "h2", text: "03 · 동선 팁" },
+        { type: "p", html: "용산사는 MRT 용산사역(블루라인) 출구 바로 앞이라 접근성이 좋습니다. 화시제·광저우제 야시장, 보피랴오 역사거리 모두 도보 5~10분 거리에 모여 있어서, 저녁 식사와 야경 산책을 한 번에 해결하기 좋은 동선이에요." },
+        { type: "cta", title: "완화 지역 맛집도 지도에서 확인해보세요", desc: "용산사 주변 노포와 야시장 먹거리를 지도에서 바로 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
+        { type: "note", text: "이 글은 일반적으로 알려진 용산사 운영시간과 완화 지역 야시장 정보를 바탕으로 정리했습니다. 운영시간과 행사 일정은 바뀔 수 있으니 방문 전 공식 정보로 다시 확인해주세요." },
+      ],
+    },
+    en: {
+      pageTitle: "Longshan Temple Night Guide — Timing and a Wanhua Night Market Route · My Secret Taiwan Eats",
+      metaDescription: "Longshan Temple looks completely different once the evening lights come on. Here's the best time to visit for the night view, plus a route linking Huaxi Street, Guangzhou Street night markets, and Bopiliao Historic Block.",
+      ogTitle: "Longshan Temple: Better at Night Than by Day?",
+      eyebrow: "Taipei Travel Guide · Night View Course",
+      title: "Longshan Temple: Better at Night Than by Day?",
+      dek: "Longshan Temple gets crowded with tour groups and worshippers by day, but once the evening lights come on, it shows a completely different side. Here's the best timing, plus a route through Wanhua's night markets.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taipei · Night View Course",
+      intro: "Longshan Temple is one of Taipei's most-visited temples, but daytime brings a crowd of both tour groups and worshippers, making it hard to take your time. After dark, though, the lit-up red lanterns and intricate roof carvings give the place a completely different mood. Here's when to visit for the night view, plus a half-day route through the neighboring Wanhua night markets.",
+      blocks: [
+        { type: "h2", text: "01 · What Changes After Dark" },
+        { type: "p", html: "Longshan Temple is open daily from 6am to 10pm, with free admission. Daytime tends to be the most crowded, with worshippers and tour groups overlapping, while crowd density generally drops once it's fully dark. Getting a closer, quieter look at the lit-up eaves and carvings is one of the real advantages of visiting at night." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Right after sunset is the sweet spot", desc: "Before the sky goes fully dark, the mix of dusk light and temple lighting also makes for the best photos." },
+            { mark: "2", b: "Be respectful of worshippers", desc: "This is an active place of worship with incense and prayer. Move quietly and avoid getting in the way when taking photos." },
+            { mark: "3", b: "Double-check the hours", desc: "Hours can shift around events, so it's worth confirming through official channels on the day you visit." },
+          ],
+        },
+        { type: "h2", text: "02 · A Half-Day Route Through Wanhua's Night Markets" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Huaxi Street Tourist Night Market", desc: "A few minutes' walk from the temple, this is a tourist-oriented night market with a wide range of food stalls." },
+            { mark: "2", b: "Guangzhou Street Night Market", desc: "Connected to Huaxi Street, this stretch is a food-stall alley that locals frequent too." },
+            { mark: "3", b: "Herb Lane (Qingcao Alley)", desc: "A short alley lined with traditional herb shops — a distinctive, lesser-known corner of Wanhua with a strong herbal scent." },
+            { mark: "4", b: "Bopiliao Historic Block", desc: "A preserved old street that turns into a pleasant place for an evening stroll once the lights come on." },
+          ],
+        },
+        { type: "h2", text: "03 · Route Tips" },
+        { type: "p", html: "Longshan Temple sits right outside the Longshan Temple MRT station exit (Blue Line), so it's easy to reach. Huaxi Street, Guangzhou Street, and Bopiliao Historic Block are all within a 5-10 minute walk, making it easy to combine dinner and an evening walk in one trip." },
+        { type: "cta", title: "Find Wanhua Restaurants on the Map Too", desc: "Look up old shops and night market food near Longshan Temple, right on the map.", btn: "Open Map →", href: "/map?region=taipei" },
+        { type: "note", text: "This guide is based on commonly known operating hours for Longshan Temple and general information about Wanhua's night markets. Hours and event schedules can change, so double-check with official sources before you go." },
       ],
     },
   },
