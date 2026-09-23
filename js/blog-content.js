@@ -85,6 +85,23 @@ const BLOG_LIST = [
       meta: "Taipei · Itinerary Guide",
     },
   },
+  {
+    slug: "taipei-liquid-checked-baggage-guide",
+    image: "assets/images/blog/taiwan-pineapple-tart.jpg",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "타이베이 여행 가이드 · 쇼핑·수하물",
+      title: "대만 간식·술, 기내 반입 될까 위탁수하물로 부쳐야 할까",
+      desc: "젤리·푸딩 같은 말랑한 간식부터 고량주까지 — 액체·젤류 반입 기준과 주류 면세 한도를 한 번에 정리했어요.",
+      meta: "타이베이 · 쇼핑 가이드",
+    },
+    en: {
+      eyebrow: "Taipei Travel Guide · Shopping & Baggage",
+      title: "Taiwan Snacks and Liquor: Carry-On or Checked Baggage?",
+      desc: "From jelly cups and pudding snacks to Kaoliang liquor — what counts as a liquid at security, and Korea's duty-free alcohol allowance.",
+      meta: "Taipei · Shopping Guide",
+    },
+  },
 ];
 
 const BLOG_POSTS = {
@@ -465,6 +482,103 @@ const BLOG_POSTS = {
         { type: "quote", text: "\"Since you're already there, might as well enjoy it without regrets. Chances to stay out until your flight like that don't come around often.\" — from travelers cheering on a no-hotel last day." },
         { type: "cta", title: "Plan Your Last Day on the Map Too", desc: "Find hotels, massage shops, and night markets for your last-day route, right on the map.", btn: "Open Map →", href: "/map?region=taipei" },
         { type: "note", text: "This guide was put together from real travelers' experiences skipping the last hotel night. Everyone's stamina is different, so use this as a reference and don't push yourself too hard." },
+      ],
+    },
+  },
+  "taipei-liquid-checked-baggage-guide": {
+    heroImage: "assets/images/blog/taiwan-pineapple-tart.jpg",
+    ko: {
+      pageTitle: "대만 간식·술 기내 반입 규정 — 젤리·푸딩부터 고량주까지 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "대만에서 산 젤리·푸딩 간식과 술, 기내 반입이 될지 위탁수하물로 부쳐야 할지 헷갈리시나요? 액체·젤류 반입 기준, 주류 위탁 규정, 한국 입국 시 면세 한도까지 정리했습니다.",
+      ogTitle: "대만 간식·술, 기내 반입 될까 위탁수하물로 부쳐야 할까",
+      eyebrow: "타이베이 여행 가이드 · 쇼핑·수하물",
+      title: "대만 간식·술, 기내 반입 될까 위탁수하물로 부쳐야 할까",
+      dek: "닥터큐 젤리, 통일푸딩처럼 말랑한 간식도 '액체'로 분류될 수 있다는 사실, 알고 계셨나요? 술을 살 때 챙겨야 할 위탁수하물 규정과 한국 입국 면세 한도까지 한 번에 정리했습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "타이베이 · 쇼핑 가이드",
+      intro: "대만 마트에서 젤리나 푸딩 같은 말랑한 간식을 왕창 사놓고, 공항에서야 '이거 액체류 아닌가?' 싶어진 경험 없으신가요. 여기에 술까지 산다면 위탁수하물 규정과 한국 입국 시 면세 한도까지 함께 고려해야 해요. 헷갈리기 쉬운 <strong>기내 반입 vs 위탁수하물</strong> 기준을 정리해봤습니다.",
+      blocks: [
+        { type: "h2", text: "01 · 젤리·푸딩도 '액체'로 취급됩니다" },
+        { type: "p", html: "국제선 보안검색에서는 순수한 물이나 음료뿐 아니라 젤리, 푸딩, 잼, 크림처럼 흐르거나 짜서 먹는 형태의 식품도 액체·젤류로 분류합니다. 닥터큐 젤리, 통일푸딩처럼 대만 마트에서 인기 있는 간식도 예외가 아니에요. 이런 제품을 기내 휴대용 가방에 넣으려면 용기 하나당 100ml 이하여야 하고, 여러 개를 합쳐도 1L 이하 투명 지퍼백 한 개에 다 들어가야 합니다. 용기 자체가 100ml를 넘으면 안에 든 양이 적어도 반입이 불가능해요." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "젤리·푸딩류", desc: "닥터큐, 통일푸딩 등은 액체·젤류로 분류됩니다. 여러 개 사셨다면 위탁수하물에 넣는 편이 안전해요." },
+            { mark: "2", b: "잼·소스·꿀류", desc: "펑리수는 고체라 문제 없지만, 잼이나 소스류 선물은 액체 기준이 적용됩니다." },
+            { mark: "3", b: "화장품 샘플·마스크팩 에센스", desc: "여행 중 산 스킨케어 제품도 100ml 기준을 적용받아요." },
+            { mark: "4", b: "위탁수하물은 이 규정에서 자유롭습니다", desc: "액체·젤류 자체는 위탁 가방에 넣으면 용량 제한 없이 부칠 수 있어요. 다만 술은 아래 규정을 따로 확인해야 합니다." },
+          ],
+        },
+        { type: "h2", text: "02 · 술은 도수에 따라 위탁 가능 여부가 갈려요" },
+        {
+          type: "compareTable",
+          cities: ["24도 이하", "24도 초과 ~ 70도 이하", "70도 초과"],
+          rows: [
+            { label: "위탁수하물 반입", values: ["제한 없이 가능", "1인당 5L까지 가능", "운송 자체가 금지됩니다"] },
+            { label: "해당 주류 예시", values: ["대부분의 맥주·와인·약주", "고량주, 일부 위스키·백주(53~58도 안팎)", "일부 고도수 스피릿"] },
+          ],
+        },
+        { type: "p", html: "금문 고량주처럼 인기 있는 선물용 술은 보통 53~58도라 '24도 초과 70도 이하' 구간에 들어갑니다. 1인당 5L까지 위탁 가능하니 일반적인 여행 구매량이라면 크게 걱정하지 않아도 돼요. 다만 항공사별로 세부 규정이 다를 수 있으니, 대량으로 구매했다면 출발 전 항공사 홈페이지에서 한 번 더 확인하는 걸 추천합니다." },
+        { type: "h2", text: "03 · 한국 입국할 때, 주류 면세 한도는 얼마나 될까" },
+        { type: "p", html: "2025년 3월 21일부터 한국 입국 시 주류 면세 기준이 바뀌었습니다. 예전에는 '2병까지'라는 병 수 제한이 있었지만, 지금은 병 개수와 상관없이 <strong>합계 용량 2L 이하, 총 가격 미화 400달러 이하</strong>라는 두 조건만 지키면 면세를 받을 수 있어요. 이 기준을 넘으면 초과분이 아니라 해당 주류 전체 금액에 세금이 부과될 수 있으니, 여러 병을 나눠 살 계획이라면 합계 용량과 가격을 미리 계산해두는 게 안전합니다." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "젤리·푸딩은 위탁 가방에", desc: "여러 개 구매했다면 캐리어 안에 넣어 부치는 게 가장 깔끔합니다." },
+            { mark: "✓", b: "면세점 구매 주류는 봉인 유지", desc: "출국장 면세점에서 산 술은 밀봉 봉투(탬퍼 백)와 영수증을 그대로 유지하면 기내 반입이 가능합니다. 환승편이 있다면 환승 공항 규정도 함께 확인하세요." },
+            { mark: "✓", b: "도수·용량 미리 확인", desc: "고량주 등은 병에 적힌 알코올 도수(%)를 확인해 5L 한도 안에 들어오는지 계산해두세요." },
+            { mark: "✓", b: "총액 400달러 넘으면 자진신고", desc: "한도를 넘겼다면 입국장에서 자진신고하면 세액 일부를 감면받을 수 있습니다." },
+          ],
+        },
+        { type: "cta", title: "지도에서 마트·주류 매장도 확인해보세요", desc: "간식·술 쇼핑하기 좋은 마트와 주류 매장을 지도에서 바로 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=mart" },
+        { type: "note", text: "이 글은 2025년 3월 개정된 한국 관세청 기준과 일반적인 국제선 보안검색 규정을 바탕으로 정리했습니다. 항공사·환승 공항에 따라 세부 규정이 다를 수 있고, 관세 기준도 이후 바뀔 수 있으니 출발 전 관세청 홈페이지와 항공사 안내로 다시 확인하시길 권합니다." },
+      ],
+    },
+    en: {
+      pageTitle: "Taiwan Snacks & Liquor: Carry-On or Checked Baggage? · My Secret Taiwan Eats",
+      metaDescription: "Not sure if jelly cups, pudding snacks, or liquor from Taiwan need to go in checked baggage? Here's how the liquid/gel rule applies, alcohol checked-baggage limits, and Korea's duty-free allowance.",
+      ogTitle: "Taiwan Snacks and Liquor: Carry-On or Checked Baggage?",
+      eyebrow: "Taipei Travel Guide · Shopping & Baggage",
+      title: "Taiwan Snacks and Liquor: Carry-On or Checked Baggage?",
+      dek: "Did you know jelly cups and pudding snacks can count as \"liquids\" at airport security? Here's what to know about checked-baggage alcohol limits and Korea's duty-free allowance.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taipei · Shopping Guide",
+      intro: "Ever stocked up on jelly cups or pudding snacks at a Taiwan supermarket, then wondered at the airport whether they count as liquids? Add alcohol to the mix and you're also dealing with checked-baggage rules and Korea's duty-free allowance. Here's a clear rundown of what goes in your <strong>carry-on versus checked baggage</strong>.",
+      blocks: [
+        { type: "h2", text: "01 · Yes, Jelly and Pudding Count as \"Liquids\"" },
+        { type: "p", html: "International security screening doesn't just apply to water and drinks — it covers anything that flows, spreads, or squeezes out, including jelly cups, pudding, jam, and cream. Popular Taiwan supermarket snacks like Dr. Q jelly cups or Uni-President pudding are no exception. To carry these on board, each container needs to hold 100ml or less, and all of them together need to fit in a single 1L transparent resealable bag. Even a container that's mostly empty gets rejected if the container itself is over 100ml." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Jelly cups and pudding", desc: "Dr. Q jelly and Uni-President pudding count as liquids/gels. If you bought several, checked baggage is the safer bet." },
+            { mark: "2", b: "Jam, sauces, and honey", desc: "Pineapple cake is solid and fine, but jam or sauce gifts fall under the liquid rule." },
+            { mark: "3", b: "Cosmetic samples and sheet mask essence", desc: "Skincare products you pick up while traveling are also subject to the 100ml rule." },
+            { mark: "4", b: "Checked baggage isn't subject to this rule", desc: "Liquids and gels themselves have no volume limit once they're in checked baggage. Alcohol is the one exception — see below." },
+          ],
+        },
+        { type: "h2", text: "02 · Alcohol Limits Depend on Proof, Not Just Volume" },
+        {
+          type: "compareTable",
+          cities: ["24% ABV or less", "Over 24% up to 70% ABV", "Over 70% ABV"],
+          rows: [
+            { label: "Checked baggage", values: ["No limit", "Up to 5L per passenger", "Not allowed to fly at all"] },
+            { label: "Typical examples", values: ["Most beer, wine, and light liquors", "Kaoliang liquor, some whiskies and baijiu (roughly 53-58%)", "Some high-proof spirits"] },
+          ],
+        },
+        { type: "p", html: "Kinmen Kaoliang, a popular gift liquor, usually runs 53-58% ABV, landing it in the \"over 24%, up to 70%\" bracket — good for up to 5L per passenger in checked baggage, more than enough for typical travel-sized purchases. Rules can vary slightly by airline, though, so if you're buying in bulk, double-check with your airline before you fly." },
+        { type: "h2", text: "03 · Korea's Duty-Free Alcohol Allowance" },
+        { type: "p", html: "Korea's duty-free alcohol rule changed on March 21, 2025. The old \"up to 2 bottles\" limit is gone — now it's just two conditions: <strong>2 liters total volume or less, and $400 total value or less</strong>, regardless of how many bottles that is. Go over either limit, and tax can apply to the full value of that alcohol, not just the excess. If you're splitting your purchase across a few bottles, add up the total volume and price beforehand to stay safe." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Pack jelly and pudding in checked baggage", desc: "If you bought more than one, putting them in your suitcase is the simplest fix." },
+            { mark: "✓", b: "Keep duty-free alcohol sealed", desc: "Liquor bought at an airside duty-free shop can go in your carry-on if it stays in its sealed tamper-evident bag with the receipt. If you're connecting through another airport, check that airport's rules too." },
+            { mark: "✓", b: "Check the ABV and volume", desc: "For Kaoliang and similar spirits, check the printed alcohol percentage and make sure your total stays within the 5L limit." },
+            { mark: "✓", b: "Declare if you're over $400", desc: "Going over the limit? Declaring it voluntarily on arrival can reduce the tax owed." },
+          ],
+        },
+        { type: "cta", title: "Find Marts and Liquor Shops on the Map", desc: "Look up marts and liquor shops that are good for snack and alcohol shopping, right on the map.", btn: "Open Map →", href: "/map?region=taipei&cat=mart" },
+        { type: "note", text: "This guide is based on Korea Customs Service rules effective March 2025 and general international security screening standards. Details can vary by airline and connecting airport, and customs rules may change again, so double-check with the Korea Customs Service and your airline before you fly." },
       ],
     },
   },
