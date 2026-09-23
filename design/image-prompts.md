@@ -444,7 +444,31 @@ A dreamlike sunrise over Alishan's sea of clouds, a vintage narrow-gauge forest 
 
 ---
 
-### 고화질로 뽑는 팁
+## 10. 블로그 포스트 썸네일 — 실사진(Pixabay) 가이드라인
+
+카테고리/지역 이미지는 위 Midjourney·Flow 프롬프트로 생성하지만, **블로그 포스트(`blog-*.html`) 썸네일·히어로 이미지는 Pixabay에서 실사진을 구해서 씁니다.** 아래 규칙을 항상 지켜주세요.
+
+### 규칙
+1. **포스트마다 이미지는 유일해야 합니다.** 다른 포스트가 이미 쓰고 있는 이미지를 재사용하지 않습니다. `js/blog-content.js`에서 기존에 쓰인 `image`/`heroImage` 값을 먼저 확인하고, 겹치면 새 이미지를 구합니다.
+2. **주제와 실제로 일치하는 사진**을 고릅니다 — 포스트가 다루는 구체적 대상(음식/장소/상황)을 그대로 보여주는 사진이어야 하며, "그냥 대만 느낌" 정도의 막연한 사진으로 때우지 않습니다. 예: 베이징덕 포스트 → 실제로 베이징덕(오리 + 전병 + 파채) 사진.
+3. **위치가 명확히 다른 나라/도시로 보이는 사진은 피합니다** (예: 뉴욕 지하철 표지판이 찍힌 사진, 아랍어 안내판이 보이는 공항 사진 등). 대만이라고 특정할 수 없는 중립적인 사진이거나, 실제로 대만/타이베이로 확인되는 사진만 사용합니다.
+4. **Pixabay 검색 결과 중 "Sponsored Images / iStock" 배너로 나오는 결과는 사용하지 않습니다.** 이건 무료가 아닙니다 — `cdn.pixabay.com`에서 서빙되는 실제 무료 이미지(검색 결과의 "Royalty-free images" 구획)만 사용합니다. Pixabay License는 출처 표기 없이 상업적 이용이 가능합니다.
+5. 다운로드 전에 **반드시 이미지를 실제로 열어서 눈으로 확인**합니다 (검색 결과의 alt 텍스트만 믿지 않기). `_1280` 사이즈 이상을 우선 사용합니다.
+6. 가능하면 **따뜻한 톤(주황/갈색 계열), 에디토리얼한 분위기**의 사진을 고릅니다 — 사이트의 "Golden Hour Taipei" 톤과 완전히 통일되진 않아도 지나치게 차갑고 형광등 느낌인 사진보다는 낫습니다. 다만 톤보다 **주제 일치가 항상 우선**입니다.
+
+### 저장 위치 & 파일명
+`assets/images/blog/`에 `kebab-case-설명형-파일명.jpg`로 저장합니다 (예: `peking-duck-platter.jpg`, `taiwan-temple-night-lanterns.jpg`).
+
+### 적용해야 하는 4곳 (전부 함께 바꿀 것)
+새 이미지 하나를 정하면 아래 4곳을 **모두** 같은 경로로 업데이트해야 합니다. 하나라도 빠뜨리면 카드 썸네일과 SNS 공유 미리보기(og:image)가 서로 다른 사진을 보여주게 됩니다.
+1. `js/blog-content.js` → 해당 슬러그의 `BLOG_LIST[].image`
+2. `js/blog-content.js` → 해당 슬러그의 `BLOG_POSTS["slug"].heroImage`
+3. `blog-{slug}.html` → `<meta property="og:image" content="...">`
+4. `blog-{slug}.html` → `<script type="application/ld+json">` 안의 `"image":"..."` 필드
+
+---
+
+### 고화질로 뽑는 팁 (Midjourney/Flow 생성 이미지 전용)
 - 프롬프트 끝에 `ultra high resolution, highly detailed`를 넣어두면 Flow가 텍스처를 더 촘촘하게 렌더링합니다.
 - Flow 생성 결과가 웹 히어로 배너로 쓰기엔 해상도가 부족하면(가로 1920px 미만), 생성 후 Topaz Gigapixel / Photoshop의 Super Resolution / 무료 대안 Upscayl 같은 AI 업스케일러로 2~4배 확대하세요 — 원본 구도·색감은 그대로 유지되면서 해상도만 커집니다.
 - 히어로는 텍스트(로고, 카피)가 얹힐 자리이므로, 화면 상단이나 좌측 1/3 정도는 비교적 단순한 영역(하늘, 흐린 배경)이 되도록 여러 장 뽑아서 텍스트 얹기 좋은 구도를 고르세요.

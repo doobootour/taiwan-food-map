@@ -87,7 +87,7 @@ const BLOG_LIST = [
   },
   {
     slug: "taipei-liquid-checked-baggage-guide",
-    image: "assets/images/blog/taiwan-pineapple-tart.jpg",
+    image: "assets/images/blog/travel-suitcase-packing.jpg",
     regions: ["taipei"],
     ko: {
       eyebrow: "타이베이 여행 가이드 · 쇼핑·수하물",
@@ -104,7 +104,7 @@ const BLOG_LIST = [
   },
   {
     slug: "taipei-xiangde-peking-duck-half-day-course",
-    image: "assets/images/regions/taipei.webp",
+    image: "assets/images/blog/peking-duck-platter.jpg",
     regions: ["taipei"],
     ko: {
       eyebrow: "타이베이 여행 가이드 · 맛집 코스",
@@ -138,7 +138,7 @@ const BLOG_LIST = [
   },
   {
     slug: "taipei-longshan-temple-night-guide",
-    image: "assets/images/regions/taipei.webp",
+    image: "assets/images/blog/taiwan-temple-night-lanterns.jpg",
     regions: ["taipei"],
     ko: {
       eyebrow: "타이베이 여행 가이드 · 야경 코스",
@@ -155,7 +155,7 @@ const BLOG_LIST = [
   },
   {
     slug: "taipei-afternoon-flight-last-day-itinerary",
-    image: "assets/images/blog/taipei-taxi-night-market.jpg",
+    image: "assets/images/blog/airport-terminal-departure.jpg",
     regions: ["taipei"],
     ko: {
       eyebrow: "타이베이 여행 가이드 · 일정 팁",
@@ -172,7 +172,7 @@ const BLOG_LIST = [
   },
   {
     slug: "taipei-hotel-location-ximen-main-station-zhongshan",
-    image: "assets/images/regions/taipei.webp",
+    image: "assets/images/blog/taipei-street-hotel-neon.jpg",
     regions: ["taipei"],
     ko: {
       eyebrow: "타이베이 여행 가이드 · 숙소 선택",
@@ -571,7 +571,7 @@ const BLOG_POSTS = {
     },
   },
   "taipei-liquid-checked-baggage-guide": {
-    heroImage: "assets/images/blog/taiwan-pineapple-tart.jpg",
+    heroImage: "assets/images/blog/travel-suitcase-packing.jpg",
     ko: {
       pageTitle: "대만 간식·술 기내 반입 규정 — 젤리·푸딩부터 고량주까지 · 나만 알고 싶은 대만 맛집",
       metaDescription: "대만에서 산 젤리·푸딩 간식과 술, 기내 반입이 될지 위탁수하물로 부쳐야 할지 헷갈리시나요? 액체·젤류 반입 기준, 주류 위탁 규정, 한국 입국 시 면세 한도까지 정리했습니다.",
@@ -668,7 +668,7 @@ const BLOG_POSTS = {
     },
   },
   "taipei-xiangde-peking-duck-half-day-course": {
-    heroImage: "assets/images/regions/taipei.webp",
+    heroImage: "assets/images/blog/peking-duck-platter.jpg",
     ko: {
       pageTitle: "샹덕 베이징덕 먹고 어디 갈까 — 중샤오둔화 반나절 코스 · 나만 알고 싶은 대만 맛집",
       metaDescription: "예약 필수인 베이징덕 맛집 샹덕(享鴨)에서 식사하고 근처를 가볍게 돌아보고 싶다면. 중샤오둔화역 주변 쇼핑가, 다안삼림공원, 쑹산문창원구까지 묶은 반나절 코스를 정리했습니다.",
@@ -832,7 +832,7 @@ const BLOG_POSTS = {
     },
   },
   "taipei-longshan-temple-night-guide": {
-    heroImage: "assets/images/regions/taipei.webp",
+    heroImage: "assets/images/blog/taiwan-temple-night-lanterns.jpg",
     ko: {
       pageTitle: "용산사 야경 가이드 — 방문 시간대와 완화 야시장 코스 · 나만 알고 싶은 대만 맛집",
       metaDescription: "용산사는 낮보다 저녁 조명이 켜진 뒤 분위기가 완전히 달라집니다. 야경으로 즐기기 좋은 시간대와 화시제·광저우제 야시장, 보피랴오 역사거리까지 묶은 반나절 코스를 정리했습니다.",
@@ -909,7 +909,7 @@ const BLOG_POSTS = {
     },
   },
   "taipei-afternoon-flight-last-day-itinerary": {
-    heroImage: "assets/images/blog/taipei-taxi-night-market.jpg",
+    heroImage: "assets/images/blog/airport-terminal-departure.jpg",
     ko: {
       pageTitle: "타이베이 마지막 날 오후 비행기 일정 짜기 · 나만 알고 싶은 대만 맛집",
       metaDescription: "16:55 같은 오후 비행기라면 마지막 날 오전~이른 오후가 통째로 남습니다. 공항철도·국광버스 소요 시간을 역산해서 짐 보관부터 반나절 코스까지 짜는 법을 정리했습니다.",
@@ -1002,7 +1002,7 @@ const BLOG_POSTS = {
     },
   },
   "taipei-hotel-location-ximen-main-station-zhongshan": {
-    heroImage: "assets/images/regions/taipei.webp",
+    heroImage: "assets/images/blog/taipei-street-hotel-neon.jpg",
     ko: {
       pageTitle: "타이베이 숙소 위치 비교 — 시먼·메인역·중산 · 나만 알고 싶은 대만 맛집",
       metaDescription: "타이베이 숙소, 시먼·타이베이 메인역·중산 중 어디가 편할까요? 공항 접근성, 분위기, 먹거리, 추천 여행 스타일까지 세 지역을 기준별로 비교했습니다.",
