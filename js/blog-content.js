@@ -153,6 +153,23 @@ const BLOG_LIST = [
       meta: "Taipei · Night View Course",
     },
   },
+  {
+    slug: "taipei-afternoon-flight-last-day-itinerary",
+    image: "assets/images/blog/taipei-taxi-night-market.jpg",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "타이베이 여행 가이드 · 일정 팁",
+      title: "타이베이 마지막 날 오후 비행기, 공항 가기 전 어디까지 다녀올까",
+      desc: "16:55 같은 오후 비행기라면 마지막 날 반나절이 통째로 남습니다. 짐 보관부터 공항 이동 시간까지 역산해서 짜는 반나절 코스.",
+      meta: "타이베이 · 일정 가이드",
+    },
+    en: {
+      eyebrow: "Taipei Travel Guide · Itinerary Tips",
+      title: "Taipei Last Day, Afternoon Flight: How Much Can You Fit In Before the Airport?",
+      desc: "With a flight around 4-5pm, your whole last morning is free. Here's how to plan it by working backward from your airport departure time.",
+      meta: "Taipei · Itinerary Guide",
+    },
+  },
 ];
 
 const BLOG_POSTS = {
@@ -871,6 +888,99 @@ const BLOG_POSTS = {
         { type: "p", html: "Longshan Temple sits right outside the Longshan Temple MRT station exit (Blue Line), so it's easy to reach. Huaxi Street, Guangzhou Street, and Bopiliao Historic Block are all within a 5-10 minute walk, making it easy to combine dinner and an evening walk in one trip." },
         { type: "cta", title: "Find Wanhua Restaurants on the Map Too", desc: "Look up old shops and night market food near Longshan Temple, right on the map.", btn: "Open Map →", href: "/map?region=taipei" },
         { type: "note", text: "This guide is based on commonly known operating hours for Longshan Temple and general information about Wanhua's night markets. Hours and event schedules can change, so double-check with official sources before you go." },
+      ],
+    },
+  },
+  "taipei-afternoon-flight-last-day-itinerary": {
+    heroImage: "assets/images/blog/taipei-taxi-night-market.jpg",
+    ko: {
+      pageTitle: "타이베이 마지막 날 오후 비행기 일정 짜기 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "16:55 같은 오후 비행기라면 마지막 날 오전~이른 오후가 통째로 남습니다. 공항철도·국광버스 소요 시간을 역산해서 짐 보관부터 반나절 코스까지 짜는 법을 정리했습니다.",
+      ogTitle: "타이베이 마지막 날 오후 비행기, 공항 가기 전 어디까지 다녀올까",
+      eyebrow: "타이베이 여행 가이드 · 일정 팁",
+      title: "타이베이 마지막 날 오후 비행기, 공항 가기 전 어디까지 다녀올까",
+      dek: "새벽 비행기라면 밤새 놀면 되지만, 16:55처럼 오후 비행기라면 이야기가 다릅니다. 체크아웃 후 남는 반나절을 공항 이동 시간에 맞춰 역산해서 짜봤어요.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "타이베이 · 일정 가이드",
+      intro: "타이베이 여행 마지막 날, 비행기가 16:55처럼 오후 시간대라면 오전부터 이른 오후까지 반나절이 고스란히 남습니다. 문제는 이 시간을 얼마나 알차게 쓰면서도 공항에 늦지 않게 도착하느냐예요. 공항 이동 수단별 소요 시간을 역산해서, 마지막 반나절을 짜는 방법을 정리해봤습니다.",
+      blocks: [
+        { type: "h2", text: "01 · 역산부터 — 공항엔 언제 도착해야 할까" },
+        { type: "p", html: "국제선은 보통 출발 2~3시간 전 공항 도착을 권장합니다. 타이베이역에서 타오위안 공항까지는 공항철도 직달(익스프레스)이 약 35~40분, 전 역에 정차하는 일반 열차는 약 50분 내외 걸려요. 16:55 비행기라면 직달 기준으로 늦어도 <strong>14:00~14:30경</strong>에는 공항으로 출발하는 일정을 잡는 게 안전합니다. 여유 있게 다니고 싶다면 13:30 출발을 목표로 잡아보세요." },
+        {
+          type: "compareTable",
+          cities: ["공항철도 직달", "공항철도 일반", "국광버스(1819)"],
+          rows: [
+            { label: "소요 시간", values: ["약 35~40분", "약 50분 내외", "정체 없으면 비슷, 변동 있음"] },
+            { label: "탑승 위치", values: ["타이베이역에서만 탑승 가능", "시내 여러 역에서 탑승 가능", "타이베이역·시먼 등 여러 정류장"] },
+            { label: "장점", values: ["가장 빠르고 예측하기 쉬움", "숙소 위치에 따라 접근성 좋음", "짐이 많을 때 좌석에서 편하게 이동"] },
+          ],
+        },
+        { type: "h2", text: "02 · 체크아웃 후, 짐 보관하고 반나절 코스" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "체크아웃 후 짐 보관", desc: "대부분의 숙소가 체크아웃 이후에도 당일 짐 보관 서비스를 제공합니다. 몸만 가볍게 움직이세요." },
+            { mark: "2", b: "오전~이른 오후는 도보 위주 코스로", desc: "중정기념당, 융캉제처럼 한 지역에 명소가 모여 있는 곳 위주로 동선을 짜면 이동 시간을 아낄 수 있어요." },
+            { mark: "3", b: "점심은 이동 동선 안에서 여유 있게", desc: "너무 먼 곳까지 가기보다, 공항으로 이동하기 전 동선 안에서 식사를 해결하는 게 시간 관리에 유리합니다." },
+            { mark: "4", b: "짐 찾으러 복귀는 출발 시간 1시간 전까지", desc: "숙소에서 짐을 찾고 정리하는 시간까지 감안해서 여유 있게 복귀하세요." },
+          ],
+        },
+        { type: "h2", text: "03 · 이런 경우엔 더 여유 있게 잡으세요" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "캐리어가 많거나 짐이 무겁다면", desc: "이동과 환승에 시간이 더 걸리니, 역산한 시간보다 30분 정도 여유를 더 두는 게 안전합니다." },
+            { mark: "✓", b: "퇴근 시간대와 겹친다면", desc: "평일 늦은 오후는 시내 교통이 혼잡해질 수 있어요. 국광버스나 택시보다는 배차가 일정한 공항철도가 예측하기 쉽습니다." },
+            { mark: "✓", b: "직달 대신 일반 열차를 탄다면", desc: "정차역이 많아 15분가량 더 걸릴 수 있으니 출발 시간을 그만큼 앞당기세요." },
+          ],
+        },
+        { type: "cta", title: "마지막 날 동선도 지도에서 짜보세요", desc: "숙소부터 공항 이동 경로까지, 마지막 날 코스를 지도에서 한눈에 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
+        { type: "note", text: "이 글은 공항철도·국광버스의 일반적인 소요 시간을 기준으로 정리한 참고 자료입니다. 실제 배차 간격과 소요 시간은 시간대와 도로 상황에 따라 달라질 수 있으니, 출발 전 실시간 정보로 다시 확인해주세요." },
+      ],
+    },
+    en: {
+      pageTitle: "Taipei Last-Day Afternoon Flight Itinerary Guide · My Secret Taiwan Eats",
+      metaDescription: "With a flight around 4:55pm, your last morning and early afternoon in Taipei are free. Here's how to work backward from Airport MRT and bus travel times to plan luggage storage and a half-day route.",
+      ogTitle: "Taipei Last Day, Afternoon Flight: How Much Can You Fit In Before the Airport?",
+      eyebrow: "Taipei Travel Guide · Itinerary Tips",
+      title: "Taipei Last Day, Afternoon Flight: How Much Can You Fit In Before the Airport?",
+      dek: "A red-eye flight means you can stay out all night, but an afternoon flight like 4:55pm is a different puzzle. Here's how to plan the last half-day by working backward from your airport travel time.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taipei · Itinerary Guide",
+      intro: "If your last day in Taipei ends with an afternoon flight around 4:55pm, your morning and early afternoon are still wide open. The real question is how to make the most of that time without cutting it close at the airport. Here's how to plan your last half-day by working backward from how long it actually takes to get to Taoyuan.",
+      blocks: [
+        { type: "h2", text: "01 · Start From the End: When Should You Arrive at the Airport?" },
+        { type: "p", html: "International flights generally call for arriving 2-3 hours before departure. From Taipei Main Station, the Airport MRT Express takes about 35-40 minutes to Taoyuan Airport, while the all-stop line takes closer to 50 minutes. For a 4:55pm flight, aim to leave for the airport by <strong>around 2:00-2:30pm</strong> at the latest if you're taking the Express. For more breathing room, target a 1:30pm departure instead." },
+        {
+          type: "compareTable",
+          cities: ["Airport MRT Express", "Airport MRT (all-stop)", "Kuo-Kuang Bus (1819)"],
+          rows: [
+            { label: "Travel time", values: ["About 35-40 minutes", "About 50 minutes", "Similar without traffic, but variable"] },
+            { label: "Where to board", values: ["Taipei Main Station only", "Several stations around the city", "Taipei Main Station, Ximen, and other stops"] },
+            { label: "Upside", values: ["Fastest and most predictable", "Convenient depending on your hotel", "Comfortable seating if you're carrying a lot"] },
+          ],
+        },
+        { type: "h2", text: "02 · Check Out, Store Your Bags, Then Fill the Half-Day" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Store your luggage after checkout", desc: "Most hotels offer same-day luggage storage after checkout, so you can move around without dragging your bags." },
+            { mark: "2", b: "Keep the morning walkable", desc: "Areas with sights clustered together, like Chiang Kai-shek Memorial Hall or Yongkang Street, save you travel time." },
+            { mark: "3", b: "Have lunch somewhere along your route", desc: "Rather than detouring somewhere far, eating along the path back toward the airport keeps your timing manageable." },
+            { mark: "4", b: "Get back for your bags an hour before you need to leave", desc: "Build in time to collect and repack your luggage before heading out." },
+          ],
+        },
+        { type: "h2", text: "03 · When to Pad the Schedule Even More" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "If you're carrying a lot of luggage", desc: "Extra bags slow down transfers, so add about 30 minutes of buffer to your calculated departure time." },
+            { mark: "✓", b: "If it overlaps with rush hour", desc: "Late weekday afternoons can mean heavy city traffic. The Airport MRT is more predictable than a bus or taxi when this is a factor." },
+            { mark: "✓", b: "If you're taking the all-stop train instead of the Express", desc: "The extra stops add roughly 15 minutes, so move your departure time up accordingly." },
+          ],
+        },
+        { type: "cta", title: "Plan Your Last Day's Route on the Map", desc: "Map out your hotel, last stops, and the way to the airport all in one place.", btn: "Open Map →", href: "/map?region=taipei" },
+        { type: "note", text: "This guide is based on general travel times for the Airport MRT and Kuo-Kuang bus. Actual schedules and travel times vary by time of day and traffic conditions, so double-check real-time info before you head out." },
       ],
     },
   },
