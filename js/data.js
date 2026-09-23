@@ -46,7 +46,7 @@ const REGIONS = [
   },
   {
     id: "jiufen",
-    ko: "타이베이 근교 (예류·스펀·스펀폭포·진과스·지우펀)", en: "Taipei Suburbs (Yehliu, Shifen, Shifen Waterfall, Jinguashi, Jiufen)",
+    ko: "타이페이 근교 (예류·스펀·스펀폭포·진과스·지우펀)", en: "Taipei Suburbs (Yehliu, Shifen, Shifen Waterfall, Jinguashi, Jiufen)",
     tagKo: "예류·스펀 북동부 해안 탐험", tagEn: "Yehliu & Shifen Coastal Trail",
     subKo: "기암괴석 해안부터 붉은 등불 골목까지", subEn: "From dramatic rock coastlines to lantern-lit alleys",
     image: "assets/images/regions/jiufen.webp",
