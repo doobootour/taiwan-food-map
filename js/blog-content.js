@@ -119,6 +119,23 @@ const BLOG_LIST = [
       meta: "Taipei · Food Course",
     },
   },
+  {
+    slug: "jiufen-friday-vs-sunday-crowds",
+    image: "assets/images/regions/jiufen.webp",
+    regions: ["jiufen"],
+    ko: {
+      eyebrow: "지우펀 여행 가이드 · 방문 타이밍",
+      title: "지우펀, 금요일 vs 일요일 언제 덜 붐빌까",
+      desc: "초등학생 자녀와 함께라면 특히 중요한 혼잡도 문제. 요일별·시간대별 체감 혼잡도와 방문 타이밍 팁을 정리했어요.",
+      meta: "지우펀 · 방문 타이밍",
+    },
+    en: {
+      eyebrow: "Jiufen Travel Guide · Timing Your Visit",
+      title: "Jiufen: Friday vs. Sunday, Which Day Is Less Crowded?",
+      desc: "Especially important when traveling with young kids — a breakdown of how crowded Jiufen gets by day and time, and how to time your visit.",
+      meta: "Jiufen · Timing Your Visit",
+    },
+  },
 ];
 
 const BLOG_POSTS = {
@@ -683,6 +700,83 @@ const BLOG_POSTS = {
         },
         { type: "cta", title: "Bookmark More Taipei Restaurants on the Map", desc: "Find restaurants and cafes near Zhongxiao Dunhua, right on the map.", btn: "Open Map →", href: "/map?region=taipei" },
         { type: "note", text: "This guide is based on the location of Xiang Duck's (享鴨) main branch and the public transit around it. Branch locations, hours, and reservation policies can change, so double-check with official channels before you go." },
+      ],
+    },
+  },
+  "jiufen-friday-vs-sunday-crowds": {
+    heroImage: "assets/images/regions/jiufen.webp",
+    ko: {
+      pageTitle: "지우펀 방문 타이밍 — 금요일 vs 일요일 혼잡도 비교 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "지우펀은 요일마다 혼잡도가 확 다릅니다. 금요일·토요일·일요일, 그리고 낮과 노을 시간대별 체감 혼잡도를 비교하고 덜 붐비게 다니는 방법을 정리했습니다.",
+      ogTitle: "지우펀, 금요일 vs 일요일 언제 덜 붐빌까",
+      eyebrow: "지우펀 여행 가이드 · 방문 타이밍",
+      title: "지우펀, 금요일 vs 일요일 언제 덜 붐빌까",
+      dek: "좁은 계단 골목이 명물인 만큼, 방문 요일과 시간대에 따라 체감 혼잡도 차이가 큰 곳이 지우펀입니다. 어린 자녀와 함께라면 더욱 신경 쓰이는 혼잡도 문제를 정리해봤어요.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "지우펀 · 방문 타이밍",
+      intro: "지우펀은 좁은 계단 골목이 매력이자 단점인 곳이에요. 사람이 몰리는 시간대에 가면 사진 한 장 찍기도, 계단을 오르내리기도 쉽지 않죠. 특히 초등학생 자녀와 함께라면 혼잡도가 곧 체력 소모로 이어지니 더 신경 쓰이는 부분입니다. 요일과 시간대에 따라 체감 혼잡도가 얼마나 다른지 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 결론부터 — 일요일이 확실히 더 붐빕니다" },
+        { type: "p", html: "일요일은 주말의 마지막 날이라 대만 현지인들의 당일치기 나들이와 단체 투어버스가 한꺼번에 몰리는 날이에요. 반면 금요일은 평일에 가까워 상대적으로 한산한 편이지만, 저녁 시간대로 갈수록 주말 인파가 조금씩 섞이기 시작합니다." },
+        {
+          type: "compareTable",
+          cities: ["금요일", "토요일", "일요일"],
+          rows: [
+            { label: "낮 시간대 (오전~오후 4시)", values: ["평일에 가까워 비교적 한산합니다", "주말 인파가 본격적으로 몰립니다", "당일치기 인파가 가장 집중되는 시간대예요"] },
+            { label: "노을·야경 시간대 (오후 5시 이후)", values: ["주말 초입이라 서서히 붐비기 시작해요", "야경 명소라 특히 혼잡합니다", "일몰 전후로 가장 붐빕니다"] },
+            { label: "단체 투어버스", values: ["비교적 적은 편", "많은 편", "가장 많은 편"] },
+          ],
+        },
+        { type: "h2", text: "02 · 그래도 덜 붐비게 다니는 법" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "이른 아침에 움직이기", desc: "어느 요일이든 상점이 문을 열기 전인 오전 9~10시 이전에는 골목이 훨씬 한산합니다." },
+            { mark: "2", b: "금요일 낮~이른 저녁을 노리기", desc: "요일 중에서는 금요일 낮 시간대가 가장 여유 있는 편이에요. 저녁까지 이어지는 일정이라면 초저녁까지만 머무는 것도 방법입니다." },
+            { mark: "3", b: "계단 골목은 흐름을 거스르지 않기", desc: "혼잡한 시간대에 인파를 거슬러 이동하면 체력 소모가 커집니다. 흐름을 따라 한 방향으로 움직이는 게 수월해요." },
+          ],
+        },
+        { type: "h2", text: "03 · 어린 자녀와 함께라면" },
+        { type: "p", html: "계단이 많고 폭이 좁은 골목 구조상, 혼잡한 시간대에는 아이와 함께 이동하기가 특히 힘들어집니다. 늦은 오후~노을 시간대는 사람이 가장 몰리는 때이니, 가능하면 오전이나 이른 오후에 방문을 마치는 일정을 짜는 걸 추천해요. 일정상 요일을 고를 수 있다면 일요일보다는 금요일이 체력적으로 한결 수월합니다." },
+        { type: "cta", title: "지우펀 맛집도 지도에서 함께 확인해보세요", desc: "지우펀 노포와 카페를 지도에서 바로 찾아보세요.", btn: "지도 열기 →", href: "/map?region=jiufen" },
+        { type: "note", text: "이 글은 여행자들 사이에서 공유되는 요일별·시간대별 체감 혼잡도를 바탕으로 정리했습니다. 실제 혼잡도는 날씨, 공휴일 여부, 현지 행사 일정에 따라 달라질 수 있어요." },
+      ],
+    },
+    en: {
+      pageTitle: "Jiufen Timing Guide — Friday vs. Sunday Crowds · My Secret Taiwan Eats",
+      metaDescription: "Jiufen's crowd levels swing a lot by day of the week. Here's how Friday, Saturday, and Sunday compare by time of day, and how to visit with fewer crowds.",
+      ogTitle: "Jiufen: Friday vs. Sunday, Which Day Is Less Crowded?",
+      eyebrow: "Jiufen Travel Guide · Timing Your Visit",
+      title: "Jiufen: Friday vs. Sunday, Which Day Is Less Crowded?",
+      dek: "Jiufen's narrow stepped alleys are its charm and its biggest challenge — crowd levels swing hard by day and time. Here's what to know, especially if you're traveling with young kids.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Jiufen · Timing Your Visit",
+      intro: "Jiufen's narrow stepped alleys are both its charm and its biggest drawback — during peak hours, it's hard to even get a photo, let alone move through the steps comfortably. With young kids in tow, crowding turns straight into exhaustion. Here's how crowd levels actually differ by day and time of day.",
+      blocks: [
+        { type: "h2", text: "01 · Short Answer: Sunday Is Noticeably Worse" },
+        { type: "p", html: "Sunday is the last day of the weekend, which means local day-trippers and tour buses all converge at once. Friday, being closer to a weekday, tends to be quieter — though crowds start building as the evening approaches and the weekend begins." },
+        {
+          type: "compareTable",
+          cities: ["Friday", "Saturday", "Sunday"],
+          rows: [
+            { label: "Daytime (morning to 4pm)", values: ["Relatively quiet, closer to a weekday", "Weekend crowds in full swing", "The most crowded window of the week"] },
+            { label: "Sunset / evening (after 5pm)", values: ["Starts filling up as the weekend begins", "Especially crowded — a well-known night view spot", "Peaks around sunset"] },
+            { label: "Tour buses", values: ["Relatively few", "Many", "The most of the week"] },
+          ],
+        },
+        { type: "h2", text: "02 · How to Avoid the Worst of It" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Go early in the morning", desc: "No matter the day, the alleys are far quieter before shops open around 9-10am." },
+            { mark: "2", b: "Aim for Friday daytime to early evening", desc: "Of the three, Friday daytime is the calmest. If your day runs into the evening, try to wrap up before it gets too late." },
+            { mark: "3", b: "Move with the flow of foot traffic", desc: "Walking against the crowd on the stepped alleys burns a lot of energy during busy hours. Moving in one direction with everyone else is much easier." },
+          ],
+        },
+        { type: "h2", text: "03 · Traveling with Young Kids" },
+        { type: "p", html: "The narrow, stepped layout makes moving through crowds with kids especially tiring. Late afternoon into sunset is the peak window, so plan to wrap up your visit by early afternoon if you can. If you have any flexibility on which day to go, Friday is noticeably easier on everyone's legs than Sunday." },
+        { type: "cta", title: "Find Jiufen Restaurants on the Map Too", desc: "Look up Jiufen's old shops and teahouses, right on the map.", btn: "Open Map →", href: "/map?region=jiufen" },
+        { type: "note", text: "This guide is based on crowd patterns commonly shared among travelers by day and time. Actual crowd levels can vary with weather, holidays, and local events." },
       ],
     },
   },
