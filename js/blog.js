@@ -60,6 +60,17 @@
   }
 
   let activeRegion = "all";
+  const POSTS_PER_PAGE = 8;
+
+  function getPageFromUrl() {
+    const n = parseInt(new URLSearchParams(location.search).get("page"), 10);
+    return n && n > 0 ? n : 1;
+  }
+  let currentPage = getPageFromUrl();
+
+  function pageUrl(n) {
+    return n <= 1 ? location.pathname : `${location.pathname}?page=${n}`;
+  }
 
   function renderRegionFilter(lang) {
     const bar = document.getElementById("blogRegionFilter");
@@ -72,20 +83,78 @@
     bar.innerHTML = chips.map(c => `<button type="button" class="filter-chip${c.id === activeRegion ? " active" : ""}" data-region="${c.id}">${c.label}</button>`).join("");
     bar.querySelectorAll(".filter-chip").forEach(btn => {
       btn.addEventListener("click", () => {
+        if (btn.dataset.region === activeRegion) return;
         activeRegion = btn.dataset.region;
+        currentPage = 1;
+        history.pushState(null, "", location.pathname);
         renderList();
       });
     });
+  }
+
+  function pageNumbersToShow(current, total) {
+    const set = new Set([1, total, current - 1, current, current + 1]);
+    return [...set].filter(n => n >= 1 && n <= total).sort((a, b) => a - b);
+  }
+
+  function renderPagination(current, total, lang) {
+    const nav = document.getElementById("blogPagination");
+    if (!nav) return;
+    if (total <= 1) { nav.innerHTML = ""; return; }
+    const numbers = pageNumbersToShow(current, total);
+    let numbersHtml = "";
+    numbers.forEach((n, i) => {
+      if (i > 0 && n - numbers[i - 1] > 1) numbersHtml += `<span class="blog-page-ellipsis">…</span>`;
+      numbersHtml += `<a class="blog-page-btn${n === current ? " active" : ""}" href="${pageUrl(n)}" data-page="${n}">${n}</a>`;
+    });
+    const prevLabel = lang === "en" ? "Prev" : "이전";
+    const nextLabel = lang === "en" ? "Next" : "다음";
+    nav.innerHTML = `
+      <a class="blog-page-btn blog-page-nav${current <= 1 ? " disabled" : ""}" href="${pageUrl(Math.max(1, current - 1))}" data-page="${current - 1}">${prevLabel}</a>
+      ${numbersHtml}
+      <a class="blog-page-btn blog-page-nav${current >= total ? " disabled" : ""}" href="${pageUrl(Math.min(total, current + 1))}" data-page="${current + 1}">${nextLabel}</a>
+    `;
+    nav.querySelectorAll("a[data-page]").forEach(a => {
+      a.addEventListener("click", (e) => {
+        const n = parseInt(a.dataset.page, 10);
+        if (a.classList.contains("disabled") || n === current || !n) { e.preventDefault(); return; }
+        e.preventDefault();
+        currentPage = n;
+        history.pushState(null, "", pageUrl(n));
+        renderList();
+        const grid = document.getElementById("blogListGrid");
+        if (grid) grid.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
+
+  function updateListSeo(lang, current) {
+    const baseTitleKo = "블로그 · 나만 알고 싶은 대만 맛집";
+    const baseTitleEn = "Blog · My Secret Taiwan Eats";
+    const baseDescKo = "교통, 선물, 맛집까지 — 대만 여행 전반에 도움되는 정보를 담은 나만 알고 싶은 대만 맛집 블로그.";
+    const baseDescEn = "Transportation, souvenirs, restaurants, and more — practical Taiwan travel guides from My Secret Taiwan Eats.";
+    const pageSuffixKo = current > 1 ? ` - ${current}페이지` : "";
+    const pageSuffixEn = current > 1 ? ` - Page ${current}` : "";
+    const titleEl = document.getElementById("pageTitle");
+    if (titleEl) titleEl.textContent = (lang === "en" ? baseTitleEn : baseTitleKo).replace(" · ", `${lang === "en" ? pageSuffixEn : pageSuffixKo} · `);
+    const descEl = document.getElementById("pageDescription");
+    if (descEl) descEl.setAttribute("content", (lang === "en" ? baseDescEn : baseDescKo) + (current > 1 ? (lang === "en" ? ` (Page ${current})` : ` (${current}페이지)`) : ""));
+    const canonicalEl = document.getElementById("canonicalLink");
+    if (canonicalEl) canonicalEl.setAttribute("href", `https://taiwanbite.com${pageUrl(current)}`);
   }
 
   function renderList() {
     const grid = document.getElementById("blogListGrid");
     if (!grid) return false;
     const lang = getLang();
-    const titleEl = document.getElementById("pageTitle");
-    if (titleEl) titleEl.textContent = lang === "en" ? "Blog · My Secret Taiwan Eats" : "블로그 · 나만 알고 싶은 대만 맛집";
     renderRegionFilter(lang);
-    const posts = activeRegion === "all" ? BLOG_LIST : BLOG_LIST.filter(post => (post.regions || []).includes(activeRegion));
+    const allPosts = activeRegion === "all" ? BLOG_LIST : BLOG_LIST.filter(post => (post.regions || []).includes(activeRegion));
+    const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+    updateListSeo(lang, currentPage);
+    const start = (currentPage - 1) * POSTS_PER_PAGE;
+    const posts = allPosts.slice(start, start + POSTS_PER_PAGE);
     grid.innerHTML = posts.map(post => {
       const c = post[lang] || post.ko;
       return `
@@ -99,6 +168,7 @@
           </div>
         </a>`;
     }).join("");
+    renderPagination(currentPage, totalPages, lang);
     return true;
   }
 
@@ -148,4 +218,8 @@
 
   renderAll();
   document.addEventListener("tfm:langchange", renderAll);
+  window.addEventListener("popstate", () => {
+    currentPage = getPageFromUrl();
+    renderList();
+  });
 })();

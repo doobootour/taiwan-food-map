@@ -23,8 +23,8 @@ if(window.wcs) {
 <meta name="theme-color" content="#c2703f" />
 <link rel="icon" type="image/png" href="assets/favicon.png" />
 <title id="pageTitle">블로그 · 나만 알고 싶은 대만 맛집</title>
-<link rel="canonical" href="https://taiwanbite.com/blog" />
-<meta name="description" content="교통, 선물, 맛집까지 — 대만 여행 전반에 도움되는 정보를 담은 나만 알고 싶은 대만 맛집 블로그." />
+<link rel="canonical" id="canonicalLink" href="https://taiwanbite.com/blog" />
+<meta id="pageDescription" name="description" content="교통, 선물, 맛집까지 — 대만 여행 전반에 도움되는 정보를 담은 나만 알고 싶은 대만 맛집 블로그." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://taiwanbite.com/blog" />
 <meta property="og:site_name" content="나만 알고 싶은 대만 맛집" />
@@ -89,6 +89,7 @@ if(window.wcs) {
     <div class="wrap">
       <div class="map-filter-bar" id="blogRegionFilter" style="max-width:720px;margin:0 auto 24px;"></div>
       <div class="blog-card-grid" id="blogListGrid"></div>
+      <nav class="blog-pagination" id="blogPagination" aria-label="블로그 페이지 이동"></nav>
     </div>
   </section>
 </main>
