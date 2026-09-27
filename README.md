@@ -48,7 +48,7 @@ python -m http.server 5500
 - `node scripts/generate-spot-pages.js` — Supabase `eats` 테이블에 등록된 맛집 하나하나에 대해 개별 상세 페이지(`<region>-<category>-<가게이름 slug>-<id>.html`)를, 그리고 "지역 × 메뉴" 조합마다(예: `taipei-beef_noodle.html`, 등록 3곳 이상인 조합만) 롱테일 랜딩 페이지를 생성합니다. 가게 이름이 한자/한글이라 라틴 문자로 못 바뀌면 이름 부분 없이 `<region>-<category>-<id>`로 대체됩니다. **맛집이 새로 등록될 때마다 재실행 필요**(781개 기준 실행됨 — 재실행 시 새 스팟만큼 페이지 수가 늘어남).
 - `node scripts/generate-sitemap.js` — `sitemap.xml`을 지역/카테고리/조합/블로그 글/스팟 상세 페이지 전체 + `<lastmod>`(실행일 기준)로 재생성.
 
-새로 등록되는 맛집이나 데이터 변경을 크롤러에도 반영하려면 위 스크립트를 주기적으로 재실행 + 재배포해야 합니다 — 신규 등록 빈도가 늘면 배포 파이프라인에 주기 실행(예: Cloudflare Cron Trigger나 GitHub Actions 스케줄)을 추가하는 것을 고려하세요.
+새로 등록되는 맛집이나 데이터 변경을 크롤러에도 반영하려면 위 스크립트를 주기적으로 재실행 + 재배포해야 합니다. `.github/workflows/regenerate-seo-pages.yml`이 매일 UTC 19:00(KST 04:00)에 5개 스크립트를 전부 재실행하고, 변경사항이 있으면 자동으로 `main`에 커밋·push합니다(그러면 Cloudflare Workers가 자동 배포). GitHub 저장소의 Actions 탭에서 수동 실행(`workflow_dispatch`)도 가능합니다.
 
 ### 스팟 상세 페이지 관련 참고
 
@@ -62,5 +62,7 @@ python -m http.server 5500
 - [x] 실제 호스팅 배포 — Cloudflare Workers, `taiwanbite.com`
 - [x] GA4 트래킹 설치 (`G-R4BQHKRWZE`), JSON-LD 구조화 데이터(Organization/WebSite, BreadcrumbList, TouristDestination), 소개 페이지(`about.html`)
 - [x] 지역 상세 페이지의 "여행자들이 등록한 진짜 맛집" 목록 정적화 — `scripts/generate-region-pages.js`가 빌드 시점에 Supabase에서 실제 데이터를 가져와 반영 (위 항목 참고)
+- [x] 맛집 개별 상세 페이지 + 지역×메뉴 조합 페이지 정적화 — `scripts/generate-spot-pages.js` (위 항목 참고)
+- [x] SEO 정적화 스크립트 자동 재실행 — `.github/workflows/regenerate-seo-pages.yml`이 매일 실행 + 변경사항 자동 커밋·push (위 항목 참고)
 - [ ] 네이버 서치어드바이저 사이트 등록 — 이 저장소 작업 환경에서는 `searchadvisor.naver.com` 접근이 브라우저 정책으로 차단되어 있어 직접 진행 필요
 - [ ] 리더보드 어뷰징 방지 — 현재는 클라이언트에서 카운트를 직접 올리는 MVP 방식이라, 필요 시 Supabase Edge Function/RPC로 서버 측 검증 이전 권장
