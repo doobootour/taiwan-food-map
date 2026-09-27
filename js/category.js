@@ -19,6 +19,20 @@
     return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
   }
 
+  // scripts/lib/spot-slug.js와 동일한 로직 — 개별 스팟 상세 페이지(<region>-<category>-<name>-<id>.html) URL을 만든다.
+  // 브라우저에서 직접 쓰기 위해 중복 구현(빌드 도구 없이 정적 HTML로 동작하는 프로젝트라 모듈 공유가 안 됨).
+  function slugForSpot(spot) {
+    const namePart = String(spot.name || "")
+      .normalize("NFKD")
+      .replace(/[̀-ͯ]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .slice(0, 40)
+      .replace(/-+$/, "");
+    return namePart ? `${spot.region}-${spot.category}-${namePart}-${spot.id}` : `${spot.region}-${spot.category}-${spot.id}`;
+  }
+
   function renderCategoryPage() {
     const lang = getLang();
     const name = category[lang];
@@ -68,6 +82,7 @@
       <div class="region-spot-card">
         <span class="name">${escapeHtml(spot.name || category[lang])}</span>
         <span class="region-spot-links">
+          <a class="view-link" href="/${slugForSpot(spot)}">${t("view_detail")}</a>
           <a class="view-link google-link" href="${googleMapsUrl(spot, category[lang])}" target="_blank" rel="noopener">${t("view_on_google_maps")}</a>
           <a class="view-link" href="/map?lat=${spot.lat}&lng=${spot.lng}">${t("view_on_map")}</a>
         </span>

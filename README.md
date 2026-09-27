@@ -45,9 +45,15 @@ python -m http.server 5500
 - `node scripts/generate-region-pages.js` — `region-*.html`(9개), 홈 화면의 지역 카드(`#regionGrid`)와 카테고리 링크(`#categoryLinkRow`, 31개)를 `js/data.js` + `js/region-content.js` 기준으로 정적화. Supabase에서 지역별 등록 맛집(`eats` 테이블)도 함께 불러와 `#regionSpotsList`를 굽습니다.
 - `node scripts/generate-category-pages.js` — `category-*.html`(31개)을 `js/data.js` + `js/category-content.js` 기준으로 정적화. 카테고리별 등록 맛집도 Supabase에서 불러와 함께 굽습니다.
 - `node scripts/generate-blog-pages.js` — `blog-<slug>.html`(10개)의 본문(`#blogArticle`)을 `js/blog-content.js` 기준으로 정적화. **이 스크립트를 실행하지 않으면 블로그 글 본문이 raw HTML에는 비어 있고 JS 실행 후에만 보입니다.**
-- `node scripts/generate-sitemap.js` — `sitemap.xml`을 지역/카테고리/블로그 글 목록 + `<lastmod>`(실행일 기준)로 재생성.
+- `node scripts/generate-spot-pages.js` — Supabase `eats` 테이블에 등록된 맛집 하나하나에 대해 개별 상세 페이지(`<region>-<category>-<가게이름 slug>-<id>.html`)를, 그리고 "지역 × 메뉴" 조합마다(예: `taipei-beef_noodle.html`, 등록 3곳 이상인 조합만) 롱테일 랜딩 페이지를 생성합니다. 가게 이름이 한자/한글이라 라틴 문자로 못 바뀌면 이름 부분 없이 `<region>-<category>-<id>`로 대체됩니다. **맛집이 새로 등록될 때마다 재실행 필요**(781개 기준 실행됨 — 재실행 시 새 스팟만큼 페이지 수가 늘어남).
+- `node scripts/generate-sitemap.js` — `sitemap.xml`을 지역/카테고리/조합/블로그 글/스팟 상세 페이지 전체 + `<lastmod>`(실행일 기준)로 재생성.
 
 새로 등록되는 맛집이나 데이터 변경을 크롤러에도 반영하려면 위 스크립트를 주기적으로 재실행 + 재배포해야 합니다 — 신규 등록 빈도가 늘면 배포 파이프라인에 주기 실행(예: Cloudflare Cron Trigger나 GitHub Actions 스케줄)을 추가하는 것을 고려하세요.
+
+### 스팟 상세 페이지 관련 참고
+
+- `scripts/lib/spot-slug.js`가 슬러그 생성 로직의 단일 소스입니다 — `generate-region-pages.js`/`generate-category-pages.js`/`generate-spot-pages.js`/`generate-sitemap.js`가 모두 이 파일을 통해 슬러그를 만듭니다. 브라우저에서 직접 링크를 그리는 `js/region.js`/`js/category.js`는 모듈 공유가 안 되어 동일 로직을 중복 구현하고 있으니, 슬러그 규칙을 바꾸면 이 파일들도 함께 고쳐야 합니다.
+- 등록된 맛집 중 리뷰 텍스트(`review`)나 주소(`address`)가 있는 비중이 낮아(각각 약 18%, 1%), 대부분의 스팟 페이지는 이름·좌표·구글맵 링크·지역/카테고리 소개 문단·근처 다른 맛집 링크로 구성됩니다 — 콘텐츠가 얇은 페이지가 많다는 뜻이므로, 실제 검색 유입 효과를 지켜보며 필요 시 리뷰/주소 입력을 유도하는 것을 고려하세요.
 
 ## 남은 작업
 

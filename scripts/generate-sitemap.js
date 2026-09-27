@@ -21,26 +21,64 @@ function loadGlobals(files) {
 
 const { REGIONS, CATEGORIES } = loadGlobals(["js/data.js"]);
 const { BLOG_LIST } = loadGlobals(["js/blog-content.js"]);
+const { slugForSpot, comboSlug } = require("./lib/spot-slug");
 
-const today = new Date().toISOString().slice(0, 10);
+const REGION_IDS = new Set(REGIONS.map(r => r.id));
+const CATEGORY_IDS = new Set(CATEGORIES.map(c => c.id));
 
-const urls = [
-  { loc: "https://taiwanbite.com/", changefreq: "weekly", priority: "1.0" },
-  { loc: "https://taiwanbite.com/map", changefreq: "daily", priority: "0.9" },
-  ...REGIONS.map(r => ({ loc: `https://taiwanbite.com/region-${r.id}`, changefreq: "weekly", priority: "0.8" })),
-  ...CATEGORIES.map(c => ({ loc: `https://taiwanbite.com/category-${c.id}`, changefreq: "weekly", priority: "0.7" })),
-  { loc: "https://taiwanbite.com/blog", changefreq: "weekly", priority: "0.7" },
-  ...BLOG_LIST.map(p => ({ loc: `https://taiwanbite.com/blog-${p.slug}`, changefreq: "monthly", priority: "0.6" })),
-  { loc: "https://taiwanbite.com/board", changefreq: "daily", priority: "0.6" },
-  { loc: "https://taiwanbite.com/about", changefreq: "monthly", priority: "0.4" },
-  { loc: "https://taiwanbite.com/privacy", changefreq: "yearly", priority: "0.3" },
-];
+const supabaseConfigSrc = fs.readFileSync(path.join(root, "js/supabase-config.js"), "utf8");
+const SUPABASE_URL = supabaseConfigSrc.match(/SUPABASE_URL\s*=\s*"([^"]+)"/)[1];
+const SUPABASE_ANON_KEY = supabaseConfigSrc.match(/SUPABASE_ANON_KEY\s*=\s*"([^"]+)"/)[1];
+const MIN_COMBO_SPOTS = 3;
 
-const body = urls
-  .map(u => `  <url><loc>${u.loc}</loc><lastmod>${today}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`)
-  .join("\n");
+async function fetchAllSpots() {
+  const url = `${SUPABASE_URL}/rest/v1/eats?select=id,category,region&order=id.asc`;
+  const res = await fetch(url, {
+    headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
+  });
+  if (!res.ok) throw new Error(`Supabase fetch failed: ${res.status}`);
+  return res.json();
+}
 
-const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+async function main() {
+  const today = new Date().toISOString().slice(0, 10);
+  const spots = (await fetchAllSpots()).filter(s => REGION_IDS.has(s.region) && CATEGORY_IDS.has(s.category));
 
-fs.writeFileSync(path.join(root, "sitemap.xml"), xml);
-console.log(`sitemap.xml ${urls.length}개 URL, lastmod=${today}로 생성 완료`);
+  const byRegionCategory = {};
+  spots.forEach(s => {
+    const key = `${s.region}|${s.category}`;
+    (byRegionCategory[key] = byRegionCategory[key] || []).push(s);
+  });
+  const comboKeys = Object.keys(byRegionCategory).filter(k => byRegionCategory[k].length >= MIN_COMBO_SPOTS);
+
+  const urls = [
+    { loc: "https://taiwanbite.com/", changefreq: "weekly", priority: "1.0" },
+    { loc: "https://taiwanbite.com/map", changefreq: "daily", priority: "0.9" },
+    ...REGIONS.map(r => ({ loc: `https://taiwanbite.com/region-${r.id}`, changefreq: "weekly", priority: "0.8" })),
+    ...CATEGORIES.map(c => ({ loc: `https://taiwanbite.com/category-${c.id}`, changefreq: "weekly", priority: "0.7" })),
+    ...comboKeys.map(k => {
+      const [regionId, categoryId] = k.split("|");
+      return { loc: `https://taiwanbite.com/${comboSlug(regionId, categoryId)}`, changefreq: "weekly", priority: "0.65" };
+    }),
+    { loc: "https://taiwanbite.com/blog", changefreq: "weekly", priority: "0.7" },
+    ...BLOG_LIST.map(p => ({ loc: `https://taiwanbite.com/blog-${p.slug}`, changefreq: "monthly", priority: "0.6" })),
+    ...spots.map(s => ({ loc: `https://taiwanbite.com/${slugForSpot(s)}`, changefreq: "monthly", priority: "0.5" })),
+    { loc: "https://taiwanbite.com/board", changefreq: "daily", priority: "0.6" },
+    { loc: "https://taiwanbite.com/about", changefreq: "monthly", priority: "0.4" },
+    { loc: "https://taiwanbite.com/privacy", changefreq: "yearly", priority: "0.3" },
+  ];
+
+  const body = urls
+    .map(u => `  <url><loc>${u.loc}</loc><lastmod>${today}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`)
+    .join("\n");
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+
+  fs.writeFileSync(path.join(root, "sitemap.xml"), xml);
+  console.log(`sitemap.xml ${urls.length}개 URL(스팟 ${spots.length}개, 조합 ${comboKeys.length}개 포함), lastmod=${today}로 생성 완료`);
+}
+
+main().catch(err => {
+  console.error(err);
+  process.exit(1);
+});

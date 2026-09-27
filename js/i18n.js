@@ -138,6 +138,7 @@ const I18N = {
     region_spots_error: "맛집 목록을 불러오지 못했어요.",
     view_on_map: "지도에서 보기 →",
     view_on_google_maps: "구글맵에서 보기",
+    view_detail: "상세 보기 →",
 
     sec_category_findings_title: "여행자들이 등록한 진짜 맛집",
     sec_category_findings_desc: "이 카테고리에 실제로 등록된 맛집을 지역별로 모아봤어요. 새로 등록되면 여기에도 바로 반영돼요. 핀을 눌러 추천 투표도 남길 수 있어요.",
@@ -320,6 +321,7 @@ const I18N = {
     region_spots_error: "Couldn't load the spot list.",
     view_on_map: "View on Map →",
     view_on_google_maps: "View on Google Maps",
+    view_detail: "View Details →",
 
     sec_category_findings_title: "Real Spots Added by Travelers",
     sec_category_findings_desc: "Real spots in this category, grouped by region. New additions show up here right away. Tap a pin to leave a recommendation vote too.",

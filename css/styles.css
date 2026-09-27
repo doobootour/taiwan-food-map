@@ -674,6 +674,8 @@ h1, h2, h3, h4, .display {
 }
 .region-spot-card .view-link.google-link {
   color: var(--terracotta-dark, #4285F4);
+}
+.region-spot-card .view-link:not(:last-child) {
   padding-right: 10px;
   border-right: 1px solid var(--border-soft);
 }

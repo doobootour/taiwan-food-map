@@ -21,6 +21,7 @@ function loadGlobals(files) {
 }
 
 const { REGIONS, CATEGORIES, CATEGORY_CONTENT } = loadGlobals(["js/data.js", "js/category-content.js"]);
+const { slugForSpot } = require("./lib/spot-slug");
 
 const supabaseConfigSrc = fs.readFileSync(path.join(root, "js/supabase-config.js"), "utf8");
 const SUPABASE_URL = supabaseConfigSrc.match(/SUPABASE_URL\s*=\s*"([^"]+)"/)[1];
@@ -60,6 +61,7 @@ function spotCardsHtml(spots, category) {
             <div class="region-spot-card">
               <span class="name">${escapeHtml(spot.name || category.ko)}</span>
               <span class="region-spot-links">
+                <a class="view-link" href="/${slugForSpot(spot)}">상세 보기 →</a>
                 <a class="view-link google-link" href="${googleMapsUrl(spot, category.ko)}" target="_blank" rel="noopener">구글맵에서 보기</a>
                 <a class="view-link" href="/map?lat=${spot.lat}&lng=${spot.lng}">지도에서 보기 →</a>
               </span>
