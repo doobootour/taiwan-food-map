@@ -76,7 +76,7 @@ const REGIONS = [
   {
     id: "hualien",
     ko: "화롄", en: "Hualien",
-    tagKo: "타이로거 맛집 탐험", tagEn: "Taroko Gorge Eats",
+    tagKo: "타로코 맛집 탐험", tagEn: "Taroko Gorge Eats",
     subKo: "가장 화려한 미식의 도시", subEn: "The most vibrant food city",
     image: "assets/images/regions/hualien.webp",
   },

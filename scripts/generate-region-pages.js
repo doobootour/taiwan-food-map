@@ -274,9 +274,22 @@ indexHtml = indexHtml.replace(
   /<div class="region-grid" id="regionGrid">[\s\S]*?<\/div>\s*<\/div>\s*<\/section>/,
   `<div class="region-grid" id="regionGrid">${regionCardsHtml}\n    </div>\n  </div>\n</section>`
 );
+
+/* ===================== index.html 카테고리 링크 정적화 =====================
+ * js/app.js의 renderCategoryLinks()가 브라우저에서만 채우던 #categoryLinkRow를
+ * 빌드 시점에 미리 구워서, 자바스크립트를 거의 실행하지 않는 크롤러도
+ * category-*.html(31개) 페이지로 가는 링크를 홈에서 바로 찾을 수 있게 한다. */
+const categoryLinksHtml = CATEGORIES.map(c => `
+    <a class="category-link-chip" href="category-${c.id}"><span>${c.icon}</span>${escAttr(c.ko)}</a>`).join("");
+
+indexHtml = indexHtml.replace(
+  /<div class="category-link-row" id="categoryLinkRow">[\s\S]*?<\/div>/,
+  `<div class="category-link-row" id="categoryLinkRow">${categoryLinksHtml}\n      </div>`
+);
+
 fs.writeFileSync(indexPath, indexHtml);
 
-console.log(`region-*.html ${generatedCount}개 생성 완료, index.html 지역 카드 정적화 완료`);
+console.log(`region-*.html ${generatedCount}개 생성 완료, index.html 지역 카드 + 카테고리 링크 정적화 완료`);
 }
 
 main().catch(err => {

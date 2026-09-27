@@ -38,12 +38,16 @@ python -m http.server 5500
 - `wrangler.jsonc` / `.assetsignore` 참고 — `.git`, `.claude`, `scripts` 등은 배포 자산에서 제외됨
 - 수동 배포가 필요하면 `npx wrangler deploy`
 
-## SEO / 지역 페이지 정적화
+## SEO / 정적화 빌드 스크립트
 
-- `region-*.html`(지역별 9개)과 홈 화면 지역 카드는 `scripts/generate-region-pages.js`가 `js/data.js` + `js/region-content.js` 내용을 바탕으로 미리 구워낸 정적 HTML입니다.
-- **지역 소개/하이라이트 텍스트를 바꿨다면 반드시 재실행**하세요: `node scripts/generate-region-pages.js` → 변경된 `region-*.html`, `index.html`을 함께 커밋.
-- 실행하지 않으면 화면에는 새 내용이 보여도(클라이언트 JS가 다시 렌더링하므로), 자바스크립트를 거의 실행하지 않는 네이버 등 일부 크롤러에는 예전 내용이 그대로 노출됩니다.
-- 이 스크립트는 실행 시점에 Supabase에서 지역별 등록 맛집(`eats` 테이블)을 실제로 불러와 "여행자들이 등록한 진짜 맛집" 목록(`#regionSpotsList`)까지 함께 정적화합니다(`js/region.js`의 `renderRegionSpots()`와 동일한 마크업). 즉 **새로 등록되는 맛집을 크롤러에도 반영하려면 주기적으로 재실행 + 재배포가 필요**합니다 — 신규 등록 빈도가 늘면 배포 파이프라인에 주기 실행(예: Cloudflare Cron Trigger나 GitHub Actions 스케줄)을 추가하는 것을 고려하세요.
+이 사이트는 브라우저 클라이언트 JS로 화면을 그리지만(예: `js/blog.js`, `js/region.js`), 자바스크립트를 거의 실행하지 않는 크롤러(특히 네이버)는 raw HTML만 보기 때문에 아래 스크립트들이 **빌드 시점에 동일한 마크업을 미리 구워서 HTML에 심어둡니다.** 데이터 파일을 바꾼 뒤에는 해당 스크립트를 재실행하고, 결과로 바뀐 정적 HTML/`sitemap.xml`을 함께 커밋하세요.
+
+- `node scripts/generate-region-pages.js` — `region-*.html`(9개), 홈 화면의 지역 카드(`#regionGrid`)와 카테고리 링크(`#categoryLinkRow`, 31개)를 `js/data.js` + `js/region-content.js` 기준으로 정적화. Supabase에서 지역별 등록 맛집(`eats` 테이블)도 함께 불러와 `#regionSpotsList`를 굽습니다.
+- `node scripts/generate-category-pages.js` — `category-*.html`(31개)을 `js/data.js` + `js/category-content.js` 기준으로 정적화. 카테고리별 등록 맛집도 Supabase에서 불러와 함께 굽습니다.
+- `node scripts/generate-blog-pages.js` — `blog-<slug>.html`(10개)의 본문(`#blogArticle`)을 `js/blog-content.js` 기준으로 정적화. **이 스크립트를 실행하지 않으면 블로그 글 본문이 raw HTML에는 비어 있고 JS 실행 후에만 보입니다.**
+- `node scripts/generate-sitemap.js` — `sitemap.xml`을 지역/카테고리/블로그 글 목록 + `<lastmod>`(실행일 기준)로 재생성.
+
+새로 등록되는 맛집이나 데이터 변경을 크롤러에도 반영하려면 위 스크립트를 주기적으로 재실행 + 재배포해야 합니다 — 신규 등록 빈도가 늘면 배포 파이프라인에 주기 실행(예: Cloudflare Cron Trigger나 GitHub Actions 스케줄)을 추가하는 것을 고려하세요.
 
 ## 남은 작업
 
