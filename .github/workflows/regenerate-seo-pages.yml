@@ -1,0 +1,52 @@
+name: Regenerate SEO static pages
+
+# region-*.html, category-*.html, blog-*.html 본문, 맛집 상세/조합 페이지, sitemap.xml은
+# scripts/generate-*.js가 Supabase(eats 테이블)와 js/*-content.js 데이터를 바탕으로 미리 구워내는
+# 정적 HTML이다. 새로 등록되는 맛집을 크롤러에도 반영하려면 주기적으로 재실행 + 재배포가 필요한데,
+# 이 워크플로가 그 과정을 자동화한다. main에 변경사항을 push하면 Cloudflare Workers가 자동 배포한다
+# (README "배포" 항목 참고).
+on:
+  schedule:
+    # 매일 UTC 19:00 = 한국시간(KST) 04:00. 트래픽이 적은 새벽 시간에 실행.
+    - cron: "0 19 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regenerate-seo-pages
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Regenerate static pages from Supabase + content data
+        run: |
+          node scripts/generate-region-pages.js
+          node scripts/generate-category-pages.js
+          node scripts/generate-blog-pages.js
+          node scripts/generate-spot-pages.js
+          node scripts/generate-sitemap.js
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A -- '*.html' 'sitemap.xml'
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: regenerate SEO static pages (scheduled)"
+            git push
+          fi

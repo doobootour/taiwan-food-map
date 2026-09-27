@@ -1,5 +1,6 @@
 .git
 .gitignore
+.github
 .claude
 .wrangler
 wrangler.jsonc
