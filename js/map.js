@@ -423,6 +423,7 @@ document.getElementById("locateBtn").addEventListener("click", () => {
 const sheetOverlay = document.getElementById("sheetOverlay");
 const sheetCatSelect = document.getElementById("sheetCatSelect");
 const nameInput = document.getElementById("nameInput");
+const addressInput = document.getElementById("addressInput");
 const nicknameInput = document.getElementById("nicknameInput");
 const reviewInput = document.getElementById("reviewInput");
 const linkInput = document.getElementById("linkInput");
@@ -651,6 +652,7 @@ function startAddFlow(latlng) {
   editingSpotId = null;
   setSheetMode(false);
   nameInput.value = "";
+  addressInput.value = "";
   reviewInput.value = "";
   linkInput.value = "";
   sheetCatSelect.selectedIndex = 0;
@@ -667,6 +669,7 @@ function openEditSheet(spot) {
   selectedCat = spot.category || null;
   sheetCatSelect.value = spot.category || "";
   nameInput.value = spot.name || "";
+  addressInput.value = spot.address || "";
   nicknameInput.value = spot.nickname || "";
   reviewInput.value = spot.review || "";
   linkInput.value = spot.link || "";
@@ -680,6 +683,7 @@ function closeSheet() {
   selectedCat = null;
   editingSpotId = null;
   nameInput.value = "";
+  addressInput.value = "";
   reviewInput.value = "";
   linkInput.value = "";
   gmapLinkInput.value = "";
@@ -710,6 +714,7 @@ submitBtn.addEventListener("click", async () => {
     lng: pickedLatLng.lng,
     category: selectedCat,
     name: nameInput.value.trim(),
+    address: addressInput.value.trim() || null,
     nickname: nickname || null,
     review: reviewInput.value.trim() || null,
     link: linkInput.value.trim() || null,
