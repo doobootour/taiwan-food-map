@@ -11,6 +11,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { slugForSpot, comboSlug } = require("./lib/spot-slug");
+const { isIndexableSpot } = require("./lib/indexable");
 
 const root = path.join(__dirname, "..");
 const SITE = "https://taiwanbite.com";
@@ -63,7 +64,7 @@ function googleMapsUrl(spot, fallbackLabel) {
   return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
 }
 
-function pageShell({ title, description, canonicalPath, ogImage, ldJson, activeNav, bodyHtml }) {
+function pageShell({ title, description, canonicalPath, ogImage, ldJson, activeNav, bodyHtml, robots }) {
   const canonicalUrl = `${SITE}${canonicalPath}`;
   return `<!DOCTYPE html>
 <html lang="ko">
@@ -83,7 +84,7 @@ function pageShell({ title, description, canonicalPath, ogImage, ldJson, activeN
 <title>${escapeHtml(title)}</title>
 <link rel="canonical" href="${canonicalUrl}" />
 <meta name="description" content="${escapeHtml(description)}" />
-<meta property="og:type" content="article" />
+${robots ? `<meta name="robots" content="${robots}" />\n` : ""}<meta property="og:type" content="article" />
 <meta property="og:url" content="${canonicalUrl}" />
 <meta property="og:site_name" content="나만 알고 싶은 대만 맛집" />
 <meta property="og:locale" content="ko_KR" />
@@ -313,7 +314,15 @@ function buildSpotPage(spot, region, category, siblings, hasCombo) {
   </section>
 ${ctaBandHtml()}`;
 
-  return pageShell({ title, description, canonicalPath: `/${slug}`, ogImage, ldJson: { "@context": "https://schema.org", "@graph": graph }, bodyHtml });
+  return pageShell({
+    title,
+    description,
+    canonicalPath: `/${slug}`,
+    ogImage,
+    ldJson: { "@context": "https://schema.org", "@graph": graph },
+    bodyHtml,
+    robots: isIndexableSpot(spot) ? "" : "noindex,follow",
+  });
 }
 
 /* ===================== 지역 × 메뉴 조합 페이지 ===================== */
@@ -413,6 +422,7 @@ async function main() {
   const comboKeys = new Set(Object.keys(byRegionCategory).filter(k => byRegionCategory[k].length >= MIN_COMBO_SPOTS));
 
   let spotCount = 0;
+  let indexableCount = 0;
   for (const spot of spots) {
     const region = REGION_BY_ID[spot.region];
     const category = CATEGORY_BY_ID[spot.category];
@@ -421,6 +431,7 @@ async function main() {
     const html = buildSpotPage(spot, region, category, siblings, comboKeys.has(key));
     fs.writeFileSync(path.join(root, `${slugForSpot(spot)}.html`), html);
     spotCount++;
+    if (isIndexableSpot(spot)) indexableCount++;
   }
 
   let comboCount = 0;
@@ -433,7 +444,7 @@ async function main() {
     comboCount++;
   }
 
-  console.log(`스팟 상세 페이지 ${spotCount}개, 지역×메뉴 조합 페이지 ${comboCount}개 생성 완료`);
+  console.log(`스팟 상세 페이지 ${spotCount}개 (색인 ${indexableCount}, noindex ${spotCount - indexableCount}), 지역×메뉴 조합 페이지 ${comboCount}개 생성 완료`);
 }
 
 main().catch(err => {

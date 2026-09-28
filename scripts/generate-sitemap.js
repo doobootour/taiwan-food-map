@@ -27,6 +27,7 @@ function loadGlobals(files) {
 const { REGIONS, CATEGORIES } = loadGlobals(["js/data.js"]);
 const { BLOG_LIST } = loadGlobals(["js/blog-content.js"]);
 const { slugForSpot, comboSlug } = require("./lib/spot-slug");
+const { isIndexableSpot } = require("./lib/indexable");
 
 const REGION_IDS = new Set(REGIONS.map(r => r.id));
 const CATEGORY_IDS = new Set(CATEGORIES.map(c => c.id));
@@ -40,7 +41,7 @@ async function fetchAllSpots() {
   // name을 빼먹으면 slugForSpot()이 항상 "이름 slug 없음" 상태로 취급해서, 실제 파일명(이름 포함)과
   // 다른 id-only URL을 사이트맵에 적어넣는 버그가 생긴다 — generate-spot-pages.js가 만드는 실제
   // 파일명과 똑같은 필드를 select해야 한다.
-  const url = `${SUPABASE_URL}/rest/v1/eats?select=id,name,category,region&order=id.asc`;
+  const url = `${SUPABASE_URL}/rest/v1/eats?select=id,name,category,region,review,address&order=id.asc`;
   const res = await fetch(url, {
     headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
   });
@@ -59,6 +60,7 @@ async function main() {
   const history = loadFileHistory();
   const dirty = dirtyContentFiles();
   const spots = (await fetchAllSpots()).filter(s => REGION_IDS.has(s.region) && CATEGORY_IDS.has(s.category));
+  const indexableSpots = spots.filter(isIndexableSpot);
 
   const byRegionCategory = {};
   spots.forEach(s => {
@@ -78,7 +80,7 @@ async function main() {
     }),
     { loc: "https://taiwanbite.com/blog", changefreq: "weekly", priority: "0.7" },
     ...BLOG_LIST.map(p => ({ loc: `https://taiwanbite.com/blog-${p.slug}`, changefreq: "monthly", priority: "0.6" })),
-    ...spots.map(s => ({ loc: `https://taiwanbite.com/${slugForSpot(s)}`, changefreq: "monthly", priority: "0.5" })),
+    ...indexableSpots.map(s => ({ loc: `https://taiwanbite.com/${slugForSpot(s)}`, changefreq: "monthly", priority: "0.5" })),
     { loc: "https://taiwanbite.com/board", changefreq: "daily", priority: "0.6" },
     { loc: "https://taiwanbite.com/about", changefreq: "monthly", priority: "0.4" },
     { loc: "https://taiwanbite.com/privacy", changefreq: "yearly", priority: "0.3" },
@@ -93,7 +95,7 @@ async function main() {
 
   fs.writeFileSync(path.join(root, "sitemap.xml"), xml);
   const uniqueDays = new Set(dated.map(u => u.lastmod));
-  console.log(`sitemap.xml ${dated.length}개 URL(스팟 ${spots.length}개, 조합 ${comboKeys.length}개 포함), lastmod ${uniqueDays.size}개 날짜(${[...uniqueDays].sort().join(", ")})로 생성 완료`);
+  console.log(`sitemap.xml ${dated.length}개 URL(색인 스팟 ${indexableSpots.length}개, noindex로 제외 ${spots.length - indexableSpots.length}개, 조합 ${comboKeys.length}개 포함), lastmod ${uniqueDays.size}개 날짜(${[...uniqueDays].sort().join(", ")})로 생성 완료`);
 }
 
 main().catch(err => {
