@@ -52,8 +52,21 @@ async function fetchAllSpots() {
 function fileForLoc(loc) {
   const pathname = new URL(loc).pathname;
   if (pathname === "/" || pathname === "") return "index.html";
+  // /en/region-taipei → en/region-taipei.html (git lastmod of that file)
   const slug = pathname.replace(/^\//, "").replace(/\/$/, "");
   return `${slug}.html`;
+}
+
+const TAIPEI_KO = "https://taiwanbite.com/region-taipei";
+const TAIPEI_EN = "https://taiwanbite.com/en/region-taipei";
+
+function xhtmlAlternates(loc) {
+  if (loc !== TAIPEI_KO && loc !== TAIPEI_EN) return "";
+  return (
+    `<xhtml:link rel="alternate" hreflang="ko" href="${TAIPEI_KO}"/>` +
+    `<xhtml:link rel="alternate" hreflang="en" href="${TAIPEI_EN}"/>` +
+    `<xhtml:link rel="alternate" hreflang="x-default" href="${TAIPEI_KO}"/>`
+  );
 }
 
 async function main() {
@@ -72,7 +85,11 @@ async function main() {
   const urls = [
     { loc: "https://taiwanbite.com/", changefreq: "weekly", priority: "1.0" },
     { loc: "https://taiwanbite.com/map", changefreq: "daily", priority: "0.9" },
-    ...REGIONS.map(r => ({ loc: `https://taiwanbite.com/region-${r.id}`, changefreq: "weekly", priority: "0.8" })),
+    ...REGIONS.flatMap(r => {
+      const ko = { loc: `https://taiwanbite.com/region-${r.id}`, changefreq: "weekly", priority: "0.8" };
+      if (r.id !== "taipei") return [ko];
+      return [ko, { loc: TAIPEI_EN, changefreq: "weekly", priority: "0.8" }];
+    }),
     ...CATEGORIES.map(c => ({ loc: `https://taiwanbite.com/category-${c.id}`, changefreq: "weekly", priority: "0.7" })),
     ...comboKeys.map(k => {
       const [regionId, categoryId] = k.split("|");
@@ -88,10 +105,10 @@ async function main() {
 
   const dated = urls.map(u => ({ ...u, lastmod: lastmodDay(fileForLoc(u.loc), history, dirty) }));
   const body = dated
-    .map(u => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`)
+    .map(u => `  <url><loc>${u.loc}</loc>${xhtmlAlternates(u.loc)}<lastmod>${u.lastmod}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`)
     .join("\n");
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${body}\n</urlset>\n`;
 
   fs.writeFileSync(path.join(root, "sitemap.xml"), xml);
   const uniqueDays = new Set(dated.map(u => u.lastmod));

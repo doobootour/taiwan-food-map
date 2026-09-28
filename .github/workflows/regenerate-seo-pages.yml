@@ -74,7 +74,7 @@ jobs:
           }
 
           stage() {
-            git add -A -- '*.html' sitemap.xml
+            git add -A -- '*.html' sitemap.xml en
             if [ -f rss.xml ]; then
               git add -- rss.xml
             fi

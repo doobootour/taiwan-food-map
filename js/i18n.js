@@ -380,6 +380,11 @@ function detectDefaultLang() {
 }
 
 function getLang() {
+  const path = (location.pathname || "/").replace(/\/+$/, "") || "/";
+  if (path === "/en" || path.startsWith("/en/")) return "en";
+  // Stage 1: only /region-taipei has an English pair. Lock it to Korean
+  // so localStorage and navigator cannot duplicate /en/region-taipei.
+  if (path === "/region-taipei") return "ko";
   return localStorage.getItem("tfm_lang") || detectDefaultLang();
 }
 

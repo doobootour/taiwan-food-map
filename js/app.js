@@ -112,13 +112,23 @@ if (header) {
 
 // ===================== Language switching =====================
 function syncLangUI(lang) {
-  document.querySelectorAll(".lang-menu button, .footer-lang-btn, .lang-opt").forEach(b => {
+  document.querySelectorAll(".lang-menu button, .lang-menu a[data-lang], .footer-lang-btn, .lang-opt").forEach(b => {
     b.classList.toggle("active", b.dataset.lang === lang);
   });
   const langBtn = document.getElementById("langBtn");
   if (langBtn) langBtn.textContent = lang.toUpperCase() + " ▾";
 }
 syncLangUI(getLang());
+
+// Taipei pair only: real links, query string kept, and tfm_lang stored on click.
+(function wireTaipeiLangLinks() {
+  const path = (location.pathname || "/").replace(/\/+$/, "") || "/";
+  if (path !== "/region-taipei" && path !== "/en/region-taipei") return;
+  const search = location.search || "";
+  document.querySelectorAll('a[data-lang][href="/region-taipei"], a[data-lang][href="/en/region-taipei"]').forEach(a => {
+    a.href = (a.dataset.lang === "en" ? "/en/region-taipei" : "/region-taipei") + search;
+  });
+})();
 
 const langBtn = document.getElementById("langBtn");
 const langMenu = document.getElementById("langMenu");
@@ -129,8 +139,13 @@ if (langBtn && langMenu) {
   });
   document.addEventListener("click", () => langMenu.classList.remove("open"));
 }
-document.querySelectorAll(".lang-menu button, .footer-lang-btn").forEach(btn => {
+document.querySelectorAll(".lang-menu button, .lang-menu a[data-lang], .footer-lang-btn").forEach(btn => {
   btn.addEventListener("click", () => {
+    if (btn.tagName === "A" && btn.getAttribute("href")) {
+      localStorage.setItem("tfm_lang", btn.dataset.lang);
+      if (langMenu) langMenu.classList.remove("open");
+      return;
+    }
     setLang(btn.dataset.lang);
     if (langMenu) langMenu.classList.remove("open");
   });

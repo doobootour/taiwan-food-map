@@ -44,7 +44,11 @@
     const descEl = document.getElementById("pageDescription");
     if (descEl) descEl.setAttribute("content", lang === "en" ? `${name} travel guide and food map — ${sub}` : `${name} 여행 정보와 맛집 지도 — ${sub}`);
 
-    document.getElementById("regionHeroImg").src = region.image;
+    const heroSrc = region.image || "";
+    const onEnPath = location.pathname === "/en" || location.pathname.startsWith("/en/");
+    document.getElementById("regionHeroImg").src = onEnPath && heroSrc && !/^(?:https?:|\/\/|\/)/.test(heroSrc)
+      ? `/${heroSrc}`
+      : heroSrc;
     document.getElementById("regionHeroImg").alt = name;
     document.getElementById("regionEyebrow").textContent = tag;
     document.getElementById("regionTitle").innerHTML = lang === "en" ? `${name} Travel Guide` : `${name} 여행 가이드`;

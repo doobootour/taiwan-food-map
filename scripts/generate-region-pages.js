@@ -57,37 +57,46 @@ function googleMapsUrl(spot, fallbackLabel) {
   return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
 }
 
-function categoryGroupsHtml(spots) {
+function categoryGroupsHtml(spots, lang = "ko") {
   const grouped = {};
   spots.forEach(spot => {
     if (!grouped[spot.category]) grouped[spot.category] = [];
     grouped[spot.category].push(spot);
   });
+  const detailLabel = lang === "en" ? "View Details →" : "상세 보기 →";
+  const googleLabel = lang === "en" ? "View on Google Maps" : "구글맵에서 보기";
+  const mapLabel = lang === "en" ? "View on Map →" : "지도에서 보기 →";
 
   return CATEGORIES
     .filter(c => grouped[c.id] && grouped[c.id].length)
-    .map(c => `
+    .map(c => {
+      const catName = lang === "en" ? c.en : c.ko;
+      return `
         <div class="region-spots-group reveal in">
-          <div class="region-spots-group-head"><span class="ico">${c.icon}</span><span>${c.ko}</span></div>
+          <div class="region-spots-group-head"><span class="ico">${c.icon}</span><span>${catName}</span></div>
           ${grouped[c.id].map(spot => `
             <div class="region-spot-card">
-              <span class="name">${escapeHtml(spot.name || c.ko)}</span>
+              <span class="name">${escapeHtml(spot.name || catName)}</span>
               <span class="region-spot-links">
-                <a class="view-link" href="/${slugForSpot(spot)}">상세 보기 →</a>
-                <a class="view-link google-link" href="${googleMapsUrl(spot, c.ko)}" target="_blank" rel="noopener">구글맵에서 보기</a>
-                <a class="view-link" href="/map?lat=${spot.lat}&lng=${spot.lng}">지도에서 보기 →</a>
+                <a class="view-link" href="/${slugForSpot(spot)}">${detailLabel}</a>
+                <a class="view-link google-link" href="${googleMapsUrl(spot, catName)}" target="_blank" rel="noopener">${googleLabel}</a>
+                <a class="view-link" href="/map?lat=${spot.lat}&lng=${spot.lng}">${mapLabel}</a>
               </span>
             </div>`).join("")}
-        </div>`).join("");
+        </div>`;
+    }).join("");
 }
 
-function regionSpotsListHtml(region, spots) {
+function regionSpotsListHtml(region, spots, lang = "ko") {
   if (!spots.length) {
+    if (lang === "en") {
+      return `<div class="board-empty">No spots added in ${escapeHtml(region.en)} yet. Be the first to discover one! 🤫</div>`;
+    }
     return `<div class="board-empty">아직 ${escapeHtml(region.ko)}에 등록된 맛집이 없어요. 첫 발견자가 되어보세요! 🤫</div>`;
   }
 
   const subAreas = REGION_SUB_AREAS[region.id];
-  if (!subAreas) return categoryGroupsHtml(spots);
+  if (!subAreas) return categoryGroupsHtml(spots, lang);
 
   const bySubArea = {};
   subAreas.forEach(sa => { bySubArea[sa.id] = []; });
@@ -105,8 +114,8 @@ function regionSpotsListHtml(region, spots) {
     .filter(sa => bySubArea[sa.id].length)
     .map(sa => `
         <div class="region-spots-subarea reveal in">
-          <h3 class="region-spots-subarea-head">${sa.ko}</h3>
-          ${categoryGroupsHtml(bySubArea[sa.id])}
+          <h3 class="region-spots-subarea-head">${lang === "en" ? (sa.en || sa.ko) : sa.ko}</h3>
+          ${categoryGroupsHtml(bySubArea[sa.id], lang)}
         </div>`).join("");
 }
 
@@ -130,6 +139,158 @@ function escAttr(s) {
   return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
 }
 
+const TAIPEI_KO_URL = "https://taiwanbite.com/region-taipei";
+const TAIPEI_EN_URL = "https://taiwanbite.com/en/region-taipei";
+const TAIPEI_HREFLANG = `
+<link rel="alternate" hreflang="ko" href="${TAIPEI_KO_URL}" />
+<link rel="alternate" hreflang="en" href="${TAIPEI_EN_URL}" />
+<link rel="alternate" hreflang="x-default" href="${TAIPEI_KO_URL}" />`;
+
+function taipeiLangSwitcher(html, activeLang) {
+  const koClass = activeLang === "ko" ? ' class="active"' : "";
+  const enClass = activeLang === "en" ? ' class="active"' : "";
+  const footerKo = activeLang === "ko" ? "footer-lang-btn active" : "footer-lang-btn";
+  const footerEn = activeLang === "en" ? "footer-lang-btn active" : "footer-lang-btn";
+  return html
+    .replace(
+      `          <button data-lang="ko" class="active">한국어</button>
+          <button data-lang="en">English</button>`,
+      `          <a href="/region-taipei" data-lang="ko"${koClass}>한국어</a>
+          <a href="/en/region-taipei" data-lang="en"${enClass}>English</a>`
+    )
+    .replace(
+      `          <li><button class="footer-lang-btn active" data-lang="ko">한국어</button></li>
+          <li><button class="footer-lang-btn" data-lang="en">English</button></li>`,
+      `          <li><a class="${footerKo}" href="/region-taipei" data-lang="ko">한국어</a></li>
+          <li><a class="${footerEn}" href="/en/region-taipei" data-lang="en">English</a></li>`
+    );
+}
+
+// /en/region-taipei is a two-segment URL, so relative js/ css/ assets/ resolve under /en/.
+function rootAbsoluteLocalAssets(html) {
+  return html.replace(/(href|src)="(?!\/|https?:|#|mailto:)([^"]+)"/g, '$1="/$2"');
+}
+
+function englishTaipeiPage(region, en, spots) {
+  const title = `${region.en} Travel Guide · My Secret Taiwan Eats`;
+  const description = `${region.en} travel guide and food map — ${region.subEn}`;
+  const canonicalUrl = TAIPEI_EN_URL;
+  let out = template;
+
+  out = out.replace("<html lang=\"ko\">", "<html lang=\"en\">");
+  out = out.replace(
+    '<title id="pageTitle">지역 가이드 · 나만 알고 싶은 대만 맛집</title>',
+    `<title id="pageTitle">${escAttr(title)}</title>\n<link rel="canonical" href="${canonicalUrl}" />${TAIPEI_HREFLANG}`
+  );
+  out = out.replace(
+    /<meta id="pageDescription" name="description" content="[^"]*" \/>/,
+    `<meta id="pageDescription" name="description" content="${escAttr(description)}" />`
+  );
+  out = out.replace(
+    /<meta id="ogUrl" property="og:url" content="[^"]*" \/>/,
+    `<meta id="ogUrl" property="og:url" content="${canonicalUrl}" />`
+  );
+  out = out.replace(
+    '<meta property="og:locale" content="ko_KR" />',
+    '<meta property="og:locale" content="en_US" />'
+  );
+  out = out.replace(
+    /<meta id="ogTitle" property="og:title" content="[^"]*" \/>/,
+    `<meta id="ogTitle" property="og:title" content="${escAttr(title)}" />`
+  );
+  out = out.replace(
+    /<meta id="ogDescription" property="og:description" content="[^"]*" \/>/,
+    `<meta id="ogDescription" property="og:description" content="${escAttr(description)}" />`
+  );
+  out = out.replace(
+    /<meta id="ogImage" property="og:image" content="[^"]*" \/>/,
+    `<meta id="ogImage" property="og:image" content="https://taiwanbite.com/assets/images/regions/${region.id}-og.jpg" />`
+  );
+
+  const graph = [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://taiwanbite.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Regions", "item": "https://taiwanbite.com/#regions" },
+        { "@type": "ListItem", "position": 3, "name": `${region.en} Travel Guide`, "item": canonicalUrl },
+      ],
+    },
+    {
+      "@type": "TouristDestination",
+      "name": region.en,
+      "headline": `${region.en} Travel Guide`,
+      "description": description,
+      "url": canonicalUrl,
+      "image": `https://taiwanbite.com/assets/images/regions/${region.id}-og.jpg`,
+    },
+  ];
+  if (spots.length) {
+    graph.push({
+      "@type": "ItemList",
+      "name": `Restaurants in ${region.en}`,
+      "numberOfItems": spots.length,
+      "itemListElement": spots.map((spot, i) => {
+        const cat = CATEGORIES.find(c => c.id === spot.category);
+        return {
+          "@type": "ListItem",
+          "position": i + 1,
+          "item": {
+            "@type": "LocalBusiness",
+            "name": spot.name || (cat ? cat.en : region.en),
+            ...(spot.address ? { "address": spot.address } : {}),
+            "geo": { "@type": "GeoCoordinates", "latitude": spot.lat, "longitude": spot.lng },
+          },
+        };
+      }),
+    });
+  }
+  const ldJson = { "@context": "https://schema.org", "@graph": graph };
+  out = out.replace(
+    /<script type="application\/ld\+json" id="ldJson">[\s\S]*?<\/script>/,
+    `<script type="application/ld+json" id="ldJson">${JSON.stringify(ldJson)}</script>`
+  );
+  out = out.replace(
+    '<img class="hero-img" id="regionHeroImg" src="" alt="" />',
+    `<img class="hero-img" id="regionHeroImg" src="${region.image}" alt="${escAttr(region.en)}" />`
+  );
+  out = out.replace(
+    '<span class="eyebrow" id="regionEyebrow">Explore Taiwan</span>',
+    `<span class="eyebrow" id="regionEyebrow">${escAttr(region.tagEn)}</span>`
+  );
+  out = out.replace(
+    '<h1 id="regionTitle">&nbsp;</h1>',
+    `<h1 id="regionTitle">${escAttr(region.en)} Travel Guide</h1>`
+  );
+  out = out.replace(
+    '<p id="regionTagline">&nbsp;</p>',
+    `<p id="regionTagline">${escAttr(region.subEn)}</p>`
+  );
+  out = out.replace(
+    '<button class="lang-btn" id="langBtn">KO ▾</button>',
+    '<button class="lang-btn" id="langBtn">EN ▾</button>'
+  );
+  out = out.replace(
+    '<p class="region-intro" id="regionIntro"></p>',
+    `<p class="region-intro" id="regionIntro">${en.intro}</p>`
+  );
+  out = out.replace(
+    '<div class="region-highlight-grid" id="regionHighlights"></div>',
+    `<div class="region-highlight-grid" id="regionHighlights">${highlightsHtml(en.highlights)}</div>`
+  );
+  out = out.replace(
+    '<ul class="region-activity-list" id="regionActivities"></ul>',
+    `<ul class="region-activity-list" id="regionActivities">${activitiesHtml(en.activities)}</ul>`
+  );
+  out = out.replace(
+    /<div id="regionSpotsList">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/section>/,
+    `<div id="regionSpotsList">${regionSpotsListHtml(region, spots, "en")}</div>\n      </div>\n    </div>\n  </section>`
+  );
+
+  out = taipeiLangSwitcher(out, "en");
+  return rootAbsoluteLocalAssets(out);
+}
+
 /* ===================== region-<id>.html 생성 ===================== */
 const template = fs.readFileSync(path.join(root, "region.html"), "utf8");
 let generatedCount = 0;
@@ -143,12 +304,13 @@ for (const region of REGIONS) {
   const title = `${region.ko} 여행 가이드 · 나만 알고 싶은 대만 맛집`;
   const description = `${region.ko} 여행 정보와 맛집 지도 — ${region.subKo}`;
   const canonicalUrl = `https://taiwanbite.com/region-${region.id}`;
+  const hreflang = region.id === "taipei" ? TAIPEI_HREFLANG : "";
 
   let out = template;
 
   out = out.replace(
     '<title id="pageTitle">지역 가이드 · 나만 알고 싶은 대만 맛집</title>',
-    `<title id="pageTitle">${escAttr(title)}</title>\n<link rel="canonical" href="${canonicalUrl}" />`
+    `<title id="pageTitle">${escAttr(title)}</title>\n<link rel="canonical" href="${canonicalUrl}" />${hreflang}`
   );
   out = out.replace(
     /<meta id="pageDescription" name="description" content="[^"]*" \/>/,
@@ -253,8 +415,15 @@ for (const region of REGIONS) {
     `<div id="regionSpotsList">${regionSpotsListHtml(region, spots)}</div>\n      </div>\n    </div>\n  </section>`
   );
 
+  if (region.id === "taipei") out = taipeiLangSwitcher(out, "ko");
+
   fs.writeFileSync(path.join(root, `region-${region.id}.html`), out);
   generatedCount++;
+
+  if (region.id === "taipei" && content.en) {
+    fs.mkdirSync(path.join(root, "en"), { recursive: true });
+    fs.writeFileSync(path.join(root, "en", "region-taipei.html"), englishTaipeiPage(region, content.en, spots));
+  }
 }
 
 /* ===================== index.html 지역 카드 정적화 ===================== */
