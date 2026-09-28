@@ -1,9 +1,14 @@
 // sitemap.xml을 데이터 파일(js/data.js, js/blog-content.js) 기준으로 미리 구워주는 스크립트.
 // 지역/카테고리/블로그 글이 추가되거나 정적 페이지 내용이 바뀌면 `node scripts/generate-sitemap.js`를
 // 다시 실행해서 <lastmod>를 최신화하고 새 URL을 반영해야 한다.
+//
+// <lastmod>는 실행일이 아니라 각 URL에 대응하는 HTML 파일의 마지막 '내용' 커밋 날짜다
+// (캐시 버스터 ?v= 교체, 분석 스크립트 위치, Article/RSS 메타만 바꾼 커밋은 제외).
+// 이번 실행에서 그 파일의 내용이 작업 트리에 있으면 오늘(Asia/Taipei)을 쓴다.
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
+const { loadFileHistory, dirtyContentFiles, lastmodDay } = require("./lib/git-dates");
 
 const root = path.join(__dirname, "..");
 
@@ -43,8 +48,16 @@ async function fetchAllSpots() {
   return res.json();
 }
 
+function fileForLoc(loc) {
+  const pathname = new URL(loc).pathname;
+  if (pathname === "/" || pathname === "") return "index.html";
+  const slug = pathname.replace(/^\//, "").replace(/\/$/, "");
+  return `${slug}.html`;
+}
+
 async function main() {
-  const today = new Date().toISOString().slice(0, 10);
+  const history = loadFileHistory();
+  const dirty = dirtyContentFiles();
   const spots = (await fetchAllSpots()).filter(s => REGION_IDS.has(s.region) && CATEGORY_IDS.has(s.category));
 
   const byRegionCategory = {};
@@ -71,14 +84,16 @@ async function main() {
     { loc: "https://taiwanbite.com/privacy", changefreq: "yearly", priority: "0.3" },
   ];
 
-  const body = urls
-    .map(u => `  <url><loc>${u.loc}</loc><lastmod>${today}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`)
+  const dated = urls.map(u => ({ ...u, lastmod: lastmodDay(fileForLoc(u.loc), history, dirty) }));
+  const body = dated
+    .map(u => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`)
     .join("\n");
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
 
   fs.writeFileSync(path.join(root, "sitemap.xml"), xml);
-  console.log(`sitemap.xml ${urls.length}개 URL(스팟 ${spots.length}개, 조합 ${comboKeys.length}개 포함), lastmod=${today}로 생성 완료`);
+  const uniqueDays = new Set(dated.map(u => u.lastmod));
+  console.log(`sitemap.xml ${dated.length}개 URL(스팟 ${spots.length}개, 조합 ${comboKeys.length}개 포함), lastmod ${uniqueDays.size}개 날짜(${[...uniqueDays].sort().join(", ")})로 생성 완료`);
 }
 
 main().catch(err => {
