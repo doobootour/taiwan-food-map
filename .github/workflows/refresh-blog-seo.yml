@@ -1,0 +1,115 @@
+name: Refresh sitemap and RSS after blog publish
+
+# 발행 봇(author doobootour, "Add … blog post")이 blog-<slug>.html + js/blog-content.js +
+# sitemap.xml 한 줄을 push하면, 사이트맵 lastmod와 RSS를 곧 다시 만든다.
+# 이 워크플로의 커밋은 github-actions[bot]이라 자기 push에는 다시 돌지 않는다.
+# 밤샘 재생성 잡과 같은 concurrency group을 써서 동시에 push하지 않고, 충돌 시 rebase 후 재생성한다.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "blog-*.html"
+      - "js/blog-content.js"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regenerate-seo-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Regenerate sitemap lastmod, RSS, and blog article dates
+        run: |
+          set -euo pipefail
+          node scripts/generate-sitemap.js
+          if [ -f scripts/generate-rss.js ]; then
+            node scripts/generate-rss.js
+          fi
+          if [ -f scripts/generate-blog-pages.js ]; then
+            node scripts/generate-blog-pages.js
+          fi
+          if [ -f scripts/relocate-naver-analytics.js ]; then
+            node scripts/relocate-naver-analytics.js
+          fi
+
+      - name: Commit and push if anything changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          regenerate() {
+            node scripts/generate-sitemap.js
+            if [ -f scripts/generate-rss.js ]; then
+              node scripts/generate-rss.js
+            fi
+            if [ -f scripts/generate-blog-pages.js ]; then
+              node scripts/generate-blog-pages.js
+            fi
+            if [ -f scripts/relocate-naver-analytics.js ]; then
+              node scripts/relocate-naver-analytics.js
+            fi
+          }
+
+          stage() {
+            git add -- sitemap.xml
+            if [ -f rss.xml ]; then
+              git add -- rss.xml
+            fi
+            git add -A -- 'blog-*.html' blog.html
+          }
+
+          commit_if_needed() {
+            stage
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+              return 1
+            fi
+            git commit -m "chore: refresh sitemap lastmod and RSS after blog publish"
+            return 0
+          }
+
+          if ! commit_if_needed; then
+            exit 0
+          fi
+
+          attempt=1
+          while [ "$attempt" -le 3 ]; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Pushed on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Rebase or push failed on attempt ${attempt}"
+            git rebase --abort >/dev/null 2>&1 || true
+            if [ "$attempt" -eq 3 ]; then
+              echo "Giving up after 3 attempts"
+              exit 1
+            fi
+            sleep 60
+            git fetch origin main
+            git checkout -B main origin/main
+            regenerate
+            if ! commit_if_needed; then
+              echo "Nothing to commit after regenerating on latest main"
+              exit 0
+            fi
+            attempt=$((attempt + 1))
+          done
