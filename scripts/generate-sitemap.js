@@ -32,7 +32,10 @@ const SUPABASE_ANON_KEY = supabaseConfigSrc.match(/SUPABASE_ANON_KEY\s*=\s*"([^"
 const MIN_COMBO_SPOTS = 3;
 
 async function fetchAllSpots() {
-  const url = `${SUPABASE_URL}/rest/v1/eats?select=id,category,region&order=id.asc`;
+  // name을 빼먹으면 slugForSpot()이 항상 "이름 slug 없음" 상태로 취급해서, 실제 파일명(이름 포함)과
+  // 다른 id-only URL을 사이트맵에 적어넣는 버그가 생긴다 — generate-spot-pages.js가 만드는 실제
+  // 파일명과 똑같은 필드를 select해야 한다.
+  const url = `${SUPABASE_URL}/rest/v1/eats?select=id,name,category,region&order=id.asc`;
   const res = await fetch(url, {
     headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
   });
