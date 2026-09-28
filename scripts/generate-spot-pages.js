@@ -76,15 +76,6 @@ function pageShell({ title, description, canonicalPath, ogImage, ldJson, activeN
   gtag('js', new Date());
   gtag('config', 'G-R4BQHKRWZE');
 </script>
-<!-- Naver Analytics -->
-<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
-<script type="text/javascript">
-if(!wcs_add) var wcs_add = {};
-wcs_add["wa"] = "1c1c692e90a9a80";
-if(window.wcs) {
-  wcs_do();
-}
-</script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#c2703f" />
@@ -194,6 +185,15 @@ ${bodyHtml}
 <script src="js/supabase-config.js?v=${ASSET_V}"></script>
 <script src="js/admin.js?v=${ASSET_V}"></script>
 <script src="js/app.js?v=${ASSET_V}"></script>
+<!-- Naver Analytics -->
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "1c1c692e90a9a80";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
 </body>
 </html>
 `;
