@@ -115,6 +115,7 @@ function isSeoChromeLine(line) {
   if (NAVER_LINES.has(trimmed) || NAVER_LINES.has(line)) return true;
   if (/^<meta property="article:(published|modified)_time" content="[^"]*" \/>$/.test(trimmed)) return true;
   if (/^<p class="blog-post-date">[\s\S]*<\/p>$/.test(trimmed)) return true;
+  if (/^<p class="blog-post-author"[\s\S]*<\/p>$/.test(trimmed)) return true;
   if (/^<link rel="alternate" type="application\/rss\+xml"[^>]*>$/.test(trimmed)) return true;
   return false;
 }

@@ -172,6 +172,24 @@
     return true;
   }
 
+  function applyAuthorBlurb(lang) {
+    const blurbEl = document.getElementById("blogAuthorBlurb");
+    if (!blurbEl) return;
+    const text = lang === "en" ? blurbEl.getAttribute("data-en") : blurbEl.getAttribute("data-ko");
+    if (!text) return;
+    blurbEl.textContent = text;
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(node => {
+      let data;
+      try { data = JSON.parse(node.textContent); } catch (e) { return; }
+      const graph = data && Array.isArray(data["@graph"]) ? data["@graph"] : null;
+      if (!graph) return;
+      const article = graph.find(item => item && item["@type"] === "Article");
+      if (!article || !article.author || typeof article.author !== "object") return;
+      article.author.description = text;
+      node.textContent = JSON.stringify(data);
+    });
+  }
+
   function renderPost() {
     const root = document.getElementById("blogArticle");
     if (!root) return false;
@@ -180,6 +198,7 @@
     const post = BLOG_POSTS[slug];
     if (!post) return false;
     const lang = getLang();
+    applyAuthorBlurb(lang);
     const c = post[lang] || post.ko;
 
     document.title = c.pageTitle;

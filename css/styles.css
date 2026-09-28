@@ -518,7 +518,8 @@ h1, h2, h3, h4, .display {
 .blog-post-top .wrap { max-width: 720px; padding: 0; }
 .blog-post-title { font-size: clamp(28px, 4vw, 42px); font-weight: 600; line-height: 1.28; margin: 14px 0 16px; }
 .blog-post-dek { font-size: 17px; line-height: 1.7; color: var(--ink-soft); margin: 0; }
-.blog-post-date { font-size: 13px; color: var(--ink-faint); margin: 14px 0 0; }
+.blog-post-date, .blog-post-author { font-size: 13px; color: var(--ink-faint); margin: 14px 0 0; line-height: 1.55; }
+.blog-post-author { margin-top: 6px; }
 .blog-post-date time { font-variant-numeric: tabular-nums; }
 @media (max-width: 640px) { .blog-post-top { padding: 40px 20px 4px; } }
 
