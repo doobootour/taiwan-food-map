@@ -13,6 +13,18 @@ const { loadFileHistory, blogDates, formatTaipeiDot } = require("./lib/git-dates
 const root = path.join(__dirname, "..");
 const SITE = "https://taiwanbite.com";
 const AUTHOR_NAME = "나만 알고 싶은 대만 맛집 편집팀";
+const AUTHOR_DESCRIPTION = {
+  ko: "대만에서 20년 산 현지인이 한국 여행자들의 실제 후기를 모으고 골라 정리한 대만 맛집.",
+  en: "Taiwan restaurant picks gathered and curated from real reviews by Korean travelers, by a local who has lived in Taiwan for 20 years.",
+};
+
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
 
 function loadGlobals(files) {
   const code = files
@@ -125,7 +137,8 @@ function upsertArticleMeta(html, dates) {
   return html.replace(marker, marker + block);
 }
 
-function upsertJsonLd(html, slug, dates) {
+function upsertJsonLd(html, slug, dates, lang = "ko") {
+  const description = AUTHOR_DESCRIPTION[lang] || AUTHOR_DESCRIPTION.ko;
   return html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g, (full, json) => {
     let data;
     try {
@@ -139,11 +152,31 @@ function upsertJsonLd(html, slug, dates) {
     if (!article) return full;
     article.datePublished = dates.published;
     article.dateModified = dates.modified;
-    article.author = { "@type": "Organization", name: AUTHOR_NAME, url: `${SITE}/` };
+    const author = article.author && typeof article.author === "object" ? article.author : {};
+    article.author = {
+      "@type": author["@type"] || "Organization",
+      name: author.name || AUTHOR_NAME,
+      ...(author.url ? { url: author.url } : { url: `${SITE}/` }),
+      description,
+    };
     article.mainEntityOfPage = `${SITE}/blog-${slug}`;
-    article.inLanguage = "ko";
+    article.inLanguage = lang === "en" ? "en" : "ko";
     return `<script type="application/ld+json">${JSON.stringify(data)}</script>`;
   });
+}
+
+function authorBlurbHtml(lang) {
+  const text = AUTHOR_DESCRIPTION[lang] || AUTHOR_DESCRIPTION.ko;
+  return `<p class="blog-post-author" id="blogAuthorBlurb" data-ko="${escapeHtml(AUTHOR_DESCRIPTION.ko)}" data-en="${escapeHtml(AUTHOR_DESCRIPTION.en)}">${escapeHtml(text)}</p>`;
+}
+
+function upsertAuthorBlurb(html, lang = "ko") {
+  const paragraph = authorBlurbHtml(lang);
+  if (html.includes('id="blogAuthorBlurb"')) {
+    return html.replace(/<p class="blog-post-author" id="blogAuthorBlurb"[\s\S]*?<\/p>/, paragraph);
+  }
+  if (!html.includes('class="blog-post-date"')) return html;
+  return html.replace(/<p class="blog-post-date">[\s\S]*?<\/p>/, match => `${match}\n      ${paragraph}`);
 }
 
 function upsertVisibleDate(html, dates) {
@@ -189,8 +222,9 @@ for (const post of BLOG_LIST) {
   // 봇이 기존 글 HTML을 복사해 새 글을 넣어도 날짜 칸을 직접 쓰지 않아도 된다.
   const dates = blogDates(`blog-${slug}.html`, history);
   out = upsertArticleMeta(out, dates);
-  out = upsertJsonLd(out, slug, dates);
+  out = upsertJsonLd(out, slug, dates, "ko");
   out = upsertVisibleDate(out, dates);
+  out = upsertAuthorBlurb(out, "ko");
 
   if (out === before) continue;
 
