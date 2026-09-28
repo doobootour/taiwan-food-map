@@ -8,8 +8,11 @@
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
+const { loadFileHistory, blogDates, formatTaipeiDot } = require("./lib/git-dates");
 
 const root = path.join(__dirname, "..");
+const SITE = "https://taiwanbite.com";
+const AUTHOR_NAME = "나만 알고 싶은 대만 맛집 편집팀";
 
 function loadGlobals(files) {
   const code = files
@@ -99,6 +102,62 @@ function articleHtml(c) {
     `;
 }
 
+function dateParagraph(dates) {
+  const publishedLabel = formatTaipeiDot(dates.published);
+  const modifiedLabel = formatTaipeiDot(dates.modified);
+  const published = `<time datetime="${dates.published}">${publishedLabel}</time> 게시`;
+  if (publishedLabel === modifiedLabel) {
+    return `<p class="blog-post-date">${published}</p>`;
+  }
+  return `<p class="blog-post-date">${published} · <time datetime="${dates.modified}">${modifiedLabel}</time> 수정</p>`;
+}
+
+function upsertArticleMeta(html, dates) {
+  const block = `<meta property="article:published_time" content="${dates.published}" />\n<meta property="article:modified_time" content="${dates.modified}" />\n`;
+  if (html.includes('property="article:published_time"')) {
+    return html.replace(
+      /<meta property="article:published_time" content="[^"]*" \/>\n<meta property="article:modified_time" content="[^"]*" \/>\n/,
+      block
+    );
+  }
+  const marker = '<meta property="og:type" content="article" />\n';
+  if (!html.includes(marker)) return html;
+  return html.replace(marker, marker + block);
+}
+
+function upsertJsonLd(html, slug, dates) {
+  return html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g, (full, json) => {
+    let data;
+    try {
+      data = JSON.parse(json);
+    } catch {
+      return full;
+    }
+    const graph = Array.isArray(data["@graph"]) ? data["@graph"] : null;
+    if (!graph) return full;
+    const article = graph.find(node => node["@type"] === "Article");
+    if (!article) return full;
+    article.datePublished = dates.published;
+    article.dateModified = dates.modified;
+    article.author = { "@type": "Organization", name: AUTHOR_NAME, url: `${SITE}/` };
+    article.mainEntityOfPage = `${SITE}/blog-${slug}`;
+    article.inLanguage = "ko";
+    return `<script type="application/ld+json">${JSON.stringify(data)}</script>`;
+  });
+}
+
+function upsertVisibleDate(html, dates) {
+  const paragraph = dateParagraph(dates);
+  if (html.includes('class="blog-post-date"')) {
+    return html.replace(/<p class="blog-post-date">[\s\S]*?<\/p>/, paragraph);
+  }
+  return html.replace(
+    /(<p class="blog-post-dek" id="blogHeroDek">[\s\S]*?<\/p>)/,
+    `$1\n      ${paragraph}`
+  );
+}
+
+const history = loadFileHistory();
 let generatedCount = 0;
 
 for (const post of BLOG_LIST) {
@@ -114,17 +173,26 @@ for (const post of BLOG_LIST) {
 
   let out = fs.readFileSync(filePath, "utf8");
   const body = articleHtml(data.ko);
-
   const before = out;
-  out = out.replace(
-    /<div class="wrap region-article" id="blogArticle">[\s\S]*?<\/div>\s*<\/section>/,
-    `<div class="wrap region-article" id="blogArticle">${body}</div>\n  </section>`
-  );
+  const articleRe = /<div class="wrap region-article" id="blogArticle">[\s\S]*?<\/div>\s*<\/section>/;
 
-  if (out === before) {
+  if (!articleRe.test(out)) {
     console.warn(`no match, 본문을 심지 못함: ${filePath}`);
-    continue;
+  } else {
+    out = out.replace(
+      articleRe,
+      `<div class="wrap region-article" id="blogArticle">${body}</div>\n  </section>`
+    );
   }
+
+  // 게시일 = 이 경로가 처음 생긴 커밋, 수정일 = 본문이 마지막으로 바뀐 커밋.
+  // 봇이 기존 글 HTML을 복사해 새 글을 넣어도 날짜 칸을 직접 쓰지 않아도 된다.
+  const dates = blogDates(`blog-${slug}.html`, history);
+  out = upsertArticleMeta(out, dates);
+  out = upsertJsonLd(out, slug, dates);
+  out = upsertVisibleDate(out, dates);
+
+  if (out === before) continue;
 
   fs.writeFileSync(filePath, out);
   generatedCount++;
