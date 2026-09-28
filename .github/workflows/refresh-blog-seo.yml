@@ -74,7 +74,7 @@ jobs:
             if [ -f rss.xml ]; then
               git add -- rss.xml
             fi
-            git add -A -- 'blog-*.html' blog.html
+            git add -A -- 'blog-*.html' blog.html en
           }
 
           commit_if_needed() {
