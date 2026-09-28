@@ -5,9 +5,13 @@ name: Regenerate SEO static pages
 # 정적 HTML이다. 새로 등록되는 맛집을 크롤러에도 반영하려면 주기적으로 재실행 + 재배포가 필요한데,
 # 이 워크플로가 그 과정을 자동화한다. main에 변경사항을 push하면 Cloudflare Workers가 자동 배포한다
 # (README "배포" 항목 참고).
+#
+# 발행 봇은 02:47/06:47/10:47/14:47/18:47/22:47 Asia/Taipei에 blog HTML과 sitemap.xml을 push한다.
+# 이 잡은 그 사이(UTC 19:00 = 대만 03:00)에 돌고, push 전에 origin/main을 rebase한다.
+# 충돌이 나면 최신 main에서 스크립트를 다시 돌려 커밋을 다시 만든다.
 on:
   schedule:
-    # 매일 UTC 19:00 = 한국시간(KST) 04:00. 트래픽이 적은 새벽 시간에 실행.
+    # 매일 UTC 19:00 = 대만 시간 03:00. 발행 봇(xx:47)과 겹치지 않는 새벽.
     - cron: "0 19 * * *"
   workflow_dispatch: {}
 
@@ -25,6 +29,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          # lastmod와 블로그 게시일은 전체 커밋 이력이 있어야 한다. shallow clone이면 거의 모든 파일이 오늘로 떨어진다.
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -38,15 +46,73 @@ jobs:
           node scripts/generate-blog-pages.js
           node scripts/generate-spot-pages.js
           node scripts/generate-sitemap.js
+          if [ -f scripts/generate-rss.js ]; then
+            node scripts/generate-rss.js
+          fi
+          if [ -f scripts/relocate-naver-analytics.js ]; then
+            node scripts/relocate-naver-analytics.js
+          fi
 
       - name: Commit and push if anything changed
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A -- '*.html' 'sitemap.xml'
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
+
+          regenerate() {
+            node scripts/generate-region-pages.js
+            node scripts/generate-category-pages.js
+            node scripts/generate-blog-pages.js
+            node scripts/generate-spot-pages.js
+            node scripts/generate-sitemap.js
+            if [ -f scripts/generate-rss.js ]; then
+              node scripts/generate-rss.js
+            fi
+            if [ -f scripts/relocate-naver-analytics.js ]; then
+              node scripts/relocate-naver-analytics.js
+            fi
+          }
+
+          stage() {
+            git add -A -- '*.html' sitemap.xml
+            if [ -f rss.xml ]; then
+              git add -- rss.xml
+            fi
+          }
+
+          commit_if_needed() {
+            stage
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+              return 1
+            fi
             git commit -m "chore: regenerate SEO static pages (scheduled)"
-            git push
+            return 0
+          }
+
+          if ! commit_if_needed; then
+            exit 0
           fi
+
+          attempt=1
+          while [ "$attempt" -le 3 ]; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Pushed on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Rebase or push failed on attempt ${attempt}"
+            git rebase --abort >/dev/null 2>&1 || true
+            if [ "$attempt" -eq 3 ]; then
+              echo "Giving up after 3 attempts"
+              exit 1
+            fi
+            sleep 60
+            git fetch origin main
+            git checkout -B main origin/main
+            regenerate
+            if ! commit_if_needed; then
+              echo "Nothing to commit after regenerating on latest main"
+              exit 0
+            fi
+            attempt=$((attempt + 1))
+          done
