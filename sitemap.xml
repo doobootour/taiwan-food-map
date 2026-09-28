@@ -54,6 +54,7 @@
   <url><loc>https://taiwanbite.com/taipei-steak</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taipei-brunch</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taipei-goose</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-bar</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taipei-street_food</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taipei-fruit</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taipei-breakfast</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
@@ -87,6 +88,7 @@
   <url><loc>https://taiwanbite.com/taichung-japanese</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taichung-taiwanese</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taichung-cafe</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://taiwanbite.com/taichung-shaved_ice</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taitung-taiwanese</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taitung-hotpot</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/taitung-beef_noodle</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
@@ -158,7 +160,7 @@
   <url><loc>https://taiwanbite.com/taipei-cafe-47</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-japanese-48</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-japanese-49</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://taiwanbite.com/taipei-stinky_tofu-50</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/jiufen-stinky_tofu-50</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-steak-chou-chao-tzu-51</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-cafe-dong-hua-tea-shop-52</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-brunch-53</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
@@ -185,7 +187,7 @@
   <url><loc>https://taiwanbite.com/taipei-taiwanese-wang-s-broth-74</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-noodle-lao-shan-dong-homemade-noodles-75</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-steak-76</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://taiwanbite.com/taipei-taiwanese-77</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/jiufen-taiwanese-77</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/yilan-taiwanese-78</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/yilan-bbq-79</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/yilan-bar-80</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
@@ -759,7 +761,7 @@
   <url><loc>https://taiwanbite.com/tainan-shaved_ice-648</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/tainan-shaved_ice-649</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/tainan-taiwanese-650</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://taiwanbite.com/taipei-pasta-arbay-656</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/hualien-pasta-arbay-656</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-bbq-657</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-beef_noodle-658</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-cafe-659</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
@@ -909,6 +911,40 @@
   <url><loc>https://taiwanbite.com/taichung-dimsum-804</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taichung-shaved_ice-4-805</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/kaohsiung-bakery-yu-jhen-siang-handmade-egg-rolls-806</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/kaohsiung-beef_noodle-laoxiang-beef-noodle-restaurant-807</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/kaohsiung-thai-song-dang-yeshi-restaurant-808</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/kaohsiung-taiwanese-x-809</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/kaohsiung-taiwanese-810</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/kaohsiung-cafe-811</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/kaohsiung-bakery-812</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-cafe-taiwan-seven-tea-tamsui-zhongzheng-813</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-shaved_ice-814</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-taiwanese-815</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-noodle-816</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-dimsum-bao-bao-bao-817</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-cafe-butler-coffee-house-818</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-noodle-dai-gou-pork-intestine-thin-noodles-819</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-beef_noodle-fuhong-beef-noodles-820</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-street_food-fuzhou-ancestral-pepper-cake-821</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-dimsum-hi-lai-shanghainese-dumpling-taipei-drea-822</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-bar-indulge-experimental-bistro-indulge-taip-823</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-bakery-jia-vin-bakery-824</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-cafe-kebuke-ripe-black-tea-taipei-kaifeng-bra-825</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-breakfast-liu-mama-fantuan-826</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-cafe-cama-cafe-taipei-dongmen-shop-827</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-bar-kani-kani-cafe-bar-828</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-cafe-wilbeck-cafe-829</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-breakfast-830</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-dimsum-831</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-brunch-832</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-fruit-833</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-shaved_ice-834</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-bakery-835</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-noodle-836</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taipei-bakery-837</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taichung-shaved_ice-lulu-s-kitchen-witch-pumpkin-house-838</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/taichung-shaved_ice-minimal-839</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://taiwanbite.com/kaohsiung-cafe-840</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/board</loc><lastmod>2026-09-28</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://taiwanbite.com/about</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
   <url><loc>https://taiwanbite.com/privacy</loc><lastmod>2026-09-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>

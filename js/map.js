@@ -434,6 +434,41 @@ let pickedLatLng = null;
 let selectedCat = null;
 let editingSpotId = null; // null이면 신규 등록, 값이 있으면 해당 id를 수정 중
 
+/* ===================== 좌표 → 지역(region) 자동 판정 ===================== */
+// 지역 페이지 목록은 eats.region 값으로 조회하므로, ?region= 없이 들어온 등록(홈의 + 버튼 등)도
+// 핀 좌표로 알맞은 지역을 채워 넣는다. 1) 지역별 경계 박스를 위에서부터 차례로 검사
+// (작은 박스가 먼저 — 지우펀 근교가 타이베이보다 우선) 2) 어느 박스에도 안 들면
+// REGION_VIEWS 중심점 중 가장 가까운 지역으로 대체한다. sql/fix-regions.sql 과 같은 규칙.
+// 박스: [region, latMin, latMax, lngMin, lngMax]  (latMin <= lat < latMax, lngMin <= lng < lngMax)
+const REGION_BOXES = [
+  ["jiufen",    24.98, 25.30, 121.70, 122.05], // 루이팡·지우펀·진과스·허우통·핑시·스펀·예류(지룽 포함)
+  ["yilan",     24.88, 25.02, 121.78, 122.05], // 터우청 북쪽 해안
+  ["yilan",     24.38, 24.88, 121.58, 122.05], // 이란·뤄둥·자오시·쑤아오·다퉁
+  ["taipei",    24.75, 25.32, 120.90, 121.70], // 타이베이·신베이 중심부(우라이·진산 포함)·타오위안·신주
+  ["taitung",   22.30, 23.50, 121.33, 121.60], // 동부 해안(청궁·창빈)
+  ["taitung",   21.90, 23.16, 120.85, 121.60], // 타이둥 시내·츠상·관산·뤼다오·란위
+  ["hualien",   23.16, 24.38, 121.20, 121.75], // 화롄 시내·타이루거·위리·푸리
+  ["taichung",  24.00, 24.45, 120.40, 121.00], // 타이중·장화·루강
+  ["alishan",   23.30, 24.00, 120.60, 121.10], // 아리산·일월담·자이 산간
+  ["tainan",    22.91, 23.42, 120.00, 120.60], // 타이난
+  ["kaohsiung", 21.85, 22.91, 120.15, 120.85], // 가오슝·핑둥·헝춘(컨딩)·샤오류추
+];
+
+function nearestRegion(lat, lng) {
+  for (const [id, latMin, latMax, lngMin, lngMax] of REGION_BOXES) {
+    if (lat >= latMin && lat < latMax && lng >= lngMin && lng < lngMax) return id;
+  }
+  // 박스 밖(산간·외곽 섬 등) — 가장 가까운 지역 중심점
+  let best = "taipei", bestD = Infinity;
+  for (const [id, view] of Object.entries(REGION_VIEWS)) {
+    const dLat = lat - view.center[0];
+    const dLng = (lng - view.center[1]) * Math.cos(lat * Math.PI / 180);
+    const d = dLat * dLat + dLng * dLng;
+    if (d < bestD) { bestD = d; best = id; }
+  }
+  return best;
+}
+
 /* ===================== 중복 등록 감지 ===================== */
 // 두 단계로 판단한다:
 // 1) 아주 가까운 거리(CLOSE_RADIUS)면 이름이 어느 정도만 비슷해도 같은 곳으로 의심
@@ -736,7 +771,7 @@ submitBtn.addEventListener("click", async () => {
       error = err;
     }
   } else {
-    ({ data, error } = await sb.from("eats").insert({ ...fields, region: initialRegion || "taipei", reporter_id: tfmUid() }).select().single());
+    ({ data, error } = await sb.from("eats").insert({ ...fields, region: initialRegion || nearestRegion(fields.lat, fields.lng), reporter_id: tfmUid() }).select().single());
   }
 
   if (error) {

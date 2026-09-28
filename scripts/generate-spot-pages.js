@@ -14,7 +14,7 @@ const { slugForSpot, comboSlug } = require("./lib/spot-slug");
 
 const root = path.join(__dirname, "..");
 const SITE = "https://taiwanbite.com";
-const ASSET_V = "1789307627";
+const ASSET_V = "1790588220";
 const MIN_COMBO_SPOTS = 3;
 
 function loadGlobals(files) {

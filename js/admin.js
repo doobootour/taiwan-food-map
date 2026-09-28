@@ -3,11 +3,12 @@
    맞으면 잠금 해제되어 data-i18n / data-i18n-html 텍스트를 클릭해서 바로
    수정할 수 있다. 저장한 내용은 이 브라우저(localStorage)에만 적용된다 —
    방문자 전체에게 반영하려면 Supabase 테이블 연동이 필요하다 (아직 미연동).
-   비밀번호는 아래 ADMIN_PASSWORD 상수를 바꿔서 언제든 변경 가능. 클라이언트
-   코드에 그대로 노출되므로 강력한 보안 수단은 아니고, 가벼운 잠금 정도로만 사용할 것.
+   비밀번호는 클라이언트 코드에 두지 않는다 — Supabase Edge Function 시크릿
+   ADMIN_PASSWORD 에만 저장되어 있고, 로그인할 때 admin-verify 함수로 서버에서
+   확인한다. 변경은 `supabase secrets set ADMIN_PASSWORD=...` 로 한다. 입력한
+   비밀번호는 sessionStorage(tfm_admin_pw)에 보관되어 수정/삭제 함수가 매번 다시 확인한다.
    ========================================================================= */
 (function () {
-  const ADMIN_PASSWORD = "taiwan2026";
   const STORAGE_KEY = "tfm_content_overrides"; // { [lang]: { [key]: value } }
   const SESSION_KEY = "tfm_admin_unlocked";
   const PASSWORD_SESSION_KEY = "tfm_admin_pw"; // 지도 관리자 기능(삭제 등)이 서버에 재확인시킬 때 사용
@@ -112,11 +113,42 @@
     setEditable(false);
   }
 
-  function unlockAndStartEditing() {
+  // 서버(admin-verify Edge Function)에 비밀번호 확인 — true(일치) / false(불일치) / null(확인 불가)
+  async function verifyPasswordOnServer(pw) {
+    if (typeof SUPABASE_URL === "undefined" || typeof SUPABASE_ANON_KEY === "undefined") return null;
+    try {
+      const res = await fetch(`${SUPABASE_URL}/functions/v1/admin-verify`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${SUPABASE_ANON_KEY}`,
+          "apikey": SUPABASE_ANON_KEY,
+        },
+        body: JSON.stringify({ password: pw }),
+      });
+      if (res.status === 401) return false;
+      if (!res.ok) return null;
+      const result = await res.json().catch(() => ({}));
+      return result.success === true;
+    } catch (err) {
+      console.error(err);
+      return null;
+    }
+  }
+
+  let verifying = false;
+
+  async function unlockAndStartEditing() {
     if (sessionStorage.getItem(SESSION_KEY) !== "1") {
+      if (verifying) return;
       const pw = prompt("관리자 비밀번호를 입력하세요");
       if (pw === null) return;
-      if (pw !== ADMIN_PASSWORD) { alert("비밀번호가 올바르지 않습니다."); return; }
+      verifying = true;
+      let ok;
+      try { ok = await verifyPasswordOnServer(pw); }
+      finally { verifying = false; }
+      if (ok === null) { alert("서버에 연결할 수 없어 비밀번호를 확인하지 못했습니다. 잠시 후 다시 시도해 주세요."); return; }
+      if (!ok) { alert("비밀번호가 올바르지 않습니다."); return; }
       sessionStorage.setItem(SESSION_KEY, "1");
       sessionStorage.setItem(PASSWORD_SESSION_KEY, pw);
       document.dispatchEvent(new CustomEvent("tfm:adminchange", { detail: { unlocked: true } }));
