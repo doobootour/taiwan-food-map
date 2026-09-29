@@ -2,14 +2,23 @@
 //
 // Sitemap <lastmod> and blog Article dates must follow a page's real content
 // change. A commit that only rewrites the asset cache-buster (?v=), moves the
-// Naver analytics snippet, or injects Article/RSS metadata is not a content
-// change — counting it would stamp every URL with the same day and make the
-// next generator run rewrite those dates forever.
+// Naver analytics snippet, injects Article/RSS metadata, or edits the shared
+// footer line is not a content change — counting it would stamp every URL
+// with the same day and make the next generator run rewrite those dates forever.
 const { execFileSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
 const root = path.join(__dirname, "..", "..");
+
+// e767dab swapped the site-wide "직접 찾고 검증하는" sentence for
+// "한국 여행자들의 실제 후기를 모아 고른" in the footer and in the same
+// boilerplate on the homepage (meta, og, intro) plus i18n. That commit is
+// not a per-page content change. Later footer-only edits are ignored by
+// isSharedFooterLine even when the wording is new.
+const BOILERPLATE_ONLY_COMMITS = new Set([
+  "e767dabb49660da70553d4c713939b366910e72d",
+]);
 
 const NAVER_LINES = new Set([
   "<!-- Naver Analytics -->",
@@ -120,6 +129,10 @@ function isSeoChromeLine(line) {
   return false;
 }
 
+function isSharedFooterLine(line) {
+  return /data-i18n=["']footer_desc["']/.test(line);
+}
+
 function diffIsMeaningful(diffText) {
   if (!diffText || !diffText.trim()) return false;
   if (diffText.includes("Binary files")) return true;
@@ -132,7 +145,7 @@ function diffIsMeaningful(diffText) {
     }
     if (!line.startsWith("+") && !line.startsWith("-")) continue;
     let body = line.slice(1);
-    if (isSeoChromeLine(body)) continue;
+    if (isSeoChromeLine(body) || isSharedFooterLine(body)) continue;
     body = body.replace(/\?v=\d+/g, "?v=X");
     body = scrubArticleJsonLd(body);
     if (line.startsWith("+")) added.push(body);
@@ -159,7 +172,9 @@ function commitIsMeaningful(hash, file) {
   }
 
   let meaningful = true;
-  if (hasParent) {
+  if (BOILERPLATE_ONLY_COMMITS.has(hash)) {
+    meaningful = false;
+  } else if (hasParent) {
     let diff = "";
     try {
       diff = git(["diff", "-U0", `${hash}^`, hash, "--", file]);
