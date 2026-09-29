@@ -204,6 +204,24 @@ const BLOG_LIST = [
       meta: "Kaohsiung · Shopping Guide",
     },
   },
+  {
+    slug: "kaohsiung-fo-guang-shan-with-parents-checklist",
+    image: "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg",
+    regions: ["kaohsiung"],
+    ko: {
+      eyebrow: "가오슝 여행 가이드 · 부모님 동반",
+      title: "불광산 부모님 동반 여행, 불타기념관 계단·이동 괜찮을까?",
+      desc: "걷기 부담이 있는 부모님과 불광산에 간다면 — 교통, 휠체어 대여, 셔틀, 휴관일을 한 번에 정리했어요.",
+      meta: "가오슝 · 부모님 동반 가이드",
+    },
+    en: {
+      eyebrow: "Kaohsiung Travel Guide · With Parents",
+      title: "Fo Guang Shan with Parents: How Hard Are the Walking and Transport?",
+      desc: "Visiting Fo Guang Shan with parents who can't walk far — transport, wheelchair loans, shuttle, and closing days in one place.",
+      meta: "Kaohsiung · Traveling with Parents",
+    },
+  },
+
 ];
 
 const BLOG_POSTS = {
@@ -1210,4 +1228,110 @@ const BLOG_POSTS = {
       ],
     },
   },
+
+  "kaohsiung-fo-guang-shan-with-parents-checklist": {
+    heroImage: "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg",
+    ko: {
+      pageTitle: "불광산 부모님 동반 — 교통·휠체어·셔틀 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "불광산 부모님 동반 여행, 괜찮을까요? 가오슝에서 가는 방법, 휠체어 대여, 사찰–기념관 셔틀, 휴관일을 공식 안내로 정리했어요.",
+      ogTitle: "불광산 부모님 동반 여행, 불타기념관 계단·이동 괜찮을까?",
+      eyebrow: "가오슝 여행 가이드 · 부모님 동반",
+      title: "불광산 부모님 동반 여행, 불타기념관 계단·이동 괜찮을까?",
+      dek: "넓은 부지 때문에 걱정되는 도보 거리, 돌아올 때의 교통편, 화요일 휴관처럼 놓치기 쉬운 부분까지 — 출발 전에 확인할 것만 추렸습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "가오슝 · 부모님 동반 가이드",
+      intro: "\"불광산은 넓다던데, 무릎이 안 좋은 엄마와 가도 될까?\" 불광산 부모님 동반 여행은 가오슝 근교 다수(大樹)구 여행 중 질문이 유난히 많은 주제예요. 불타기념관 공식 안내와 실제 여행자들의 경험을 바탕으로 이동과 체력 안배 포인트를 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 가는 방법 한눈에 비교하기" },
+        {
+          type: "compareTable",
+          cities: ["고속철 쭤잉역 + 하버드쾌선", "가오슝역 + 8009·8010 버스", "택시·우버"],
+          rows: [
+            { label: "소요", values: ["고속도로 경유 약 30분(공식 안내)", "일반 도로 경유, 더 오래 걸림", "교통 상황에 따라 다름"] },
+            { label: "장점", values: ["부지 입구까지 한 번에", "시내 숙소에서 접근 쉬움", "문 앞 하차, 짐·체력 부담 적음"] },
+            { label: "주의", values: ["배차 간격을 미리 확인", "환승·대기 시간 고려", "귀가 편 호출이 늦을 수 있어 미리 계획"] },
+            { label: "추천 상황", values: ["고속철로 이동하는 날", "대중교통 위주 일정", "걷기 힘든 부모님 동반"] },
+          ],
+        },
+        { type: "h2", text: "02 · 불광산 부모님 동반, 걷는 거리 줄이는 법" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "휠체어·유모차 무료 대여", desc: "불타기념관은 리징다팅(禮敬大廳)과 본관 안내데스크에서 휠체어와 유모차를 빌려줍니다." },
+            { mark: "✓", b: "무장애 설계와 지붕 있는 회랑", desc: "공식 안내에 따르면 관 전체가 무장애 공간이고 비·햇볕을 피할 수 있는 회랑과 쉼터가 곳곳에 있어요." },
+            { mark: "✓", b: "사찰–기념관 셔틀 이용", desc: "불광산사 부얼먼(不二門)과 기념관 사이에 매일 09:00~17:00 셔틀이 다닙니다. 평일 1시간, 주말·연휴 30분 간격이에요(2026년 9월 기준)." },
+            { mark: "✓", b: "구역 줄이기", desc: "두 곳을 다 걸어서 보기보다 기념관 중심으로 보고 사찰은 셔틀로 핵심만 보는 코스가 무리가 적습니다." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg", caption: "불광산 불타기념관의 탑과 대불로 이어지는 넓은 길이에요. 햇볕이 강한 날엔 회랑 쪽으로 걷는 게 편해요." },
+        { type: "h2", text: "03 · 출발 전에 꼭 확인할 것" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "화요일 휴관", desc: "기념관은 매주 화요일 휴관이에요. 월·수~금 09:00~18:00, 주말은 리징다팅이 19:00까지 엽니다(2026년 9월 기준)." },
+            { mark: "2", b: "복장 규정", desc: "슬리퍼나 노출이 심한 옷차림은 입관이 제한될 수 있어요. 부모님 신발은 편한 운동화가 좋습니다." },
+            { mark: "3", b: "식사 계획", desc: "관 안의 식당과 카페는 채식 위주입니다. 육류는 반입도 안 되니 참고하세요." },
+            { mark: "4", b: "돌아오는 교통", desc: "택시로 갔다면 귀가 편을 미리 정해두세요. 버스 시간표는 가오슝 버스 앱으로 확인하는 게 정확합니다." },
+          ],
+        },
+        { type: "h2", text: "04 · 부모님 체력별 추천 동선" },
+        { type: "p", html: "걷기에 자신이 있다면 기념관 정문에서 대불 쪽으로 천천히 걸으며 중간중간 회랑에서 쉬어가면 됩니다. 무릎이 불편하다면 입구에서 휠체어를 빌리고 본관 실내 전시 위주로 보는 편이 좋아요. 여름 한낮은 그늘 없는 광장이 뜨거우니 오전이나 늦은 오후를 추천합니다." },
+        { type: "quote", text: "\"넓긴 한데 쉴 곳이 많아서 생각보다 괜찮았다는 말이 많아요.\" — 부모님과 다녀온 여행자들의 후기를 요약했습니다." },
+        { type: "p", html: "시내로 돌아와 부모님과 편하게 한 끼 하려면 <a href=\"/kaohsiung-taiwanese\">가오슝 대만식 맛집</a> 페이지를 보세요. 루러우판 한 그릇으로 가볍게 먹기 좋은 <a href=\"/kaohsiung-taiwanese-661\">전금육조반(前金肉燥飯)</a>도 있어요. 다른 명소는 <a href=\"/kaohsiung-attraction\">가오슝 가볼 만한 곳</a>, 전체 동선은 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 확인할 수 있어요." },
+        { type: "note", text: "이 글은 불타기념관 공식 참관·공공서비스 안내(2026년 9월 기준)와 여행자들의 경험을 바탕으로 정리했습니다. 운영시간·셔틀·버스 시간은 바뀔 수 있으니 방문 전 공식 공지를 다시 확인하는 것을 추천해요." },
+        { type: "cta", title: "지도에서 가오슝 명소도 확인해보세요", desc: "불광산 전후로 들르기 좋은 가오슝 명소와 맛집을 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=kaohsiung&cat=attraction" },
+      ],
+    },
+    en: {
+      pageTitle: "Fo Guang Shan Buddha Museum with Parents — Transport, Wheelchairs, Shuttle · My Secret Taiwan Eats",
+      metaDescription: "Is Fo Guang Shan and the Buddha Museum doable with older parents? Getting there, free wheelchair loans, the temple–museum shuttle, and closing days, based on official information.",
+      ogTitle: "Fo Guang Shan with Parents: How Hard Are the Walking and Transport?",
+      eyebrow: "Kaohsiung Travel Guide · With Parents",
+      title: "Fo Guang Shan with Parents: How Hard Are the Walking and Transport?",
+      dek: "From the long distances on site to the ride back and the Tuesday closure — only what's worth checking before you go.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Kaohsiung · Traveling with Parents",
+      intro: "\"Fo Guang Shan is huge — is it OK with a mom who has bad knees?\" Fo Guang Shan and its Buddha Museum in Kaohsiung's Dashu District get this question a lot. Based on the museum's official visitor information and real traveler experiences, here's how to handle getting around and pacing the day.",
+      blocks: [
+        { type: "h2", text: "01 · Getting There at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["HSR Zuoying + Harvard Express", "Kaohsiung Station + Bus 8009/8010", "Taxi / Uber"],
+          rows: [
+            { label: "Time", values: ["About 30 min via expressway (official)", "Local roads, takes longer", "Depends on traffic"] },
+            { label: "Pros", values: ["Straight to the site", "Easy from city hotels", "Door-to-door, least strain"] },
+            { label: "Watch out", values: ["Check the timetable", "Allow for waits and transfers", "Plan your ride back in advance"] },
+            { label: "Best for", values: ["HSR travel days", "Transit-based trips", "Parents who can't walk far"] },
+          ],
+        },
+        { type: "h2", text: "02 · Cutting Down the Walking" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Free wheelchairs and strollers", desc: "The museum lends them at the Front Hall (禮敬大廳) and the Main Hall service desk." },
+            { mark: "✓", b: "Barrier-free with covered walkways", desc: "According to the museum, the whole site is barrier-free, with sheltered corridors and rest spots throughout." },
+            { mark: "✓", b: "Temple–museum shuttle", desc: "A shuttle runs daily 09:00–17:00 between the temple's Bu'er Gate (不二門) and the museum — hourly on weekdays, every 30 minutes on weekends and holidays." },
+            { mark: "✓", b: "See less, rest more", desc: "Focusing on the museum and taking the shuttle for the temple's highlights is easier than walking both." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg", caption: "The wide avenue leading to the pagodas and the big Buddha at Fo Guang Shan's Buddha Museum — on sunny days, the covered walkways are easier." },
+        { type: "h2", text: "03 · Check Before You Go" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Closed Tuesdays", desc: "The museum is closed every Tuesday. Mon and Wed–Fri 09:00–18:00; on weekends the Front Hall stays open until 19:00." },
+            { mark: "2", b: "Dress code", desc: "Slippers and revealing clothes may be refused. Comfortable sneakers are best for parents." },
+            { mark: "3", b: "Meals", desc: "On-site restaurants and cafés are vegetarian, and meat can't be brought in." },
+            { mark: "4", b: "The ride back", desc: "If you arrive by taxi, plan the return trip. Check bus times in a Kaohsiung bus app." },
+          ],
+        },
+        { type: "h2", text: "04 · Routes by Stamina" },
+        { type: "p", html: "If walking is fine, stroll from the main gate toward the big Buddha and take breaks in the covered corridors. For sore knees, borrow a wheelchair at the entrance and focus on the indoor exhibits in the Main Hall. Midday in summer gets hot on the open plaza, so mornings or late afternoons work better." },
+        { type: "quote", text: "\"It's big, but there are so many places to rest that it was easier than expected.\" — a summary of what travelers who went with their parents often say." },
+        { type: "p", html: "Back in the city, for an easy meal with parents see the <a href=\"/kaohsiung-taiwanese\">Kaohsiung Taiwanese restaurants</a> page. <a href=\"/kaohsiung-taiwanese-661\">Qianjin Rou Zao Fan (前金肉燥飯)</a> is a light bowl of lu rou fan. Other sights are on <a href=\"/kaohsiung-attraction\">Kaohsiung attractions</a>, and the full area is on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>." },
+        { type: "note", text: "This guide is based on the Buddha Museum's official visitor and public service information (as of September 2026) and traveler experiences. Hours, shuttles, and bus times can change, so check official notices before you go." },
+        { type: "cta", title: "Find Kaohsiung Sights on the Map", desc: "Look up Kaohsiung sights and restaurants to pair with Fo Guang Shan.", btn: "Open Map →", href: "/map?region=kaohsiung&cat=attraction" },
+      ],
+    },
+  }
 };
