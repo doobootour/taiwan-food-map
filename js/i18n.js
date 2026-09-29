@@ -116,7 +116,7 @@ const I18N = {
     dup_warning_text: "근처에 비슷한 맛집이 이미 있어요: \"{name}\" ({distance}m)",
     dup_warning_view: "그 핀 보기",
 
-    popup_verified: "검증됨",
+    popup_verified: "추천 많음",
     popup_link: "구글맵에서 보기 →",
     popup_vote_up: "👍 추천해요",
     popup_vote_down: "👎 아쉬워요",
@@ -300,7 +300,7 @@ const I18N = {
     dup_warning_text: "There's already a similar spot nearby: \"{name}\" ({distance}m)",
     dup_warning_view: "View that pin",
 
-    popup_verified: "Verified",
+    popup_verified: "Popular",
     popup_link: "View on Google Maps →",
     popup_vote_up: "👍 Recommend",
     popup_vote_down: "👎 Not great",

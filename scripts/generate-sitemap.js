@@ -3,7 +3,7 @@
 // 다시 실행해서 <lastmod>를 최신화하고 새 URL을 반영해야 한다.
 //
 // <lastmod>는 실행일이 아니라 각 URL에 대응하는 HTML 파일의 마지막 '내용' 커밋 날짜다
-// (캐시 버스터 ?v= 교체, 분석 스크립트 위치, Article/RSS 메타만 바꾼 커밋은 제외).
+// (캐시 버스터 ?v= 교체, 분석 스크립트 위치, Article/RSS 메타, 공유 푸터 문장만 바꾼 커밋은 제외).
 // 이번 실행에서 그 파일의 내용이 작업 트리에 있으면 오늘(Asia/Taipei)을 쓴다.
 const fs = require("fs");
 const path = require("path");
