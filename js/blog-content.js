@@ -221,6 +221,23 @@ const BLOG_LIST = [
       meta: "Kaohsiung · Traveling with Parents",
     },
   },
+  {
+    slug: "kaohsiung-3n4d-with-mom-itinerary-check",
+    image: "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg",
+    regions: ["kaohsiung"],
+    ko: {
+      eyebrow: "가오슝 여행 가이드 · 일정 팁",
+      title: "가오슝 3박4일 부모님 일정, AI가 짠 그대로 가도 될까?",
+      desc: "AI가 짜준 가오슝 일정을 엄마와 다니기 편하게 고치는 법 — 과밀, 휴관일, 이동 거리 점검 포인트.",
+      meta: "가오슝 · 일정 가이드",
+    },
+    en: {
+      eyebrow: "Kaohsiung Travel Guide · Itinerary Tips",
+      title: "Kaohsiung 4 Days with Mom: Can You Trust an AI-Made Itinerary?",
+      desc: "How to turn an AI-generated Kaohsiung plan into one that works with Mom — overpacking, closing days, and walking distance.",
+      meta: "Kaohsiung · Itinerary Guide",
+    },
+  },
 
 ];
 
@@ -1331,6 +1348,112 @@ const BLOG_POSTS = {
         { type: "p", html: "Back in the city, for an easy meal with parents see the <a href=\"/kaohsiung-taiwanese\">Kaohsiung Taiwanese restaurants</a> page. <a href=\"/kaohsiung-taiwanese-661\">Qianjin Rou Zao Fan (前金肉燥飯)</a> is a light bowl of lu rou fan. Other sights are on <a href=\"/kaohsiung-attraction\">Kaohsiung attractions</a>, and the full area is on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>." },
         { type: "note", text: "This guide is based on the Buddha Museum's official visitor and public service information (as of September 2026) and traveler experiences. Hours, shuttles, and bus times can change, so check official notices before you go." },
         { type: "cta", title: "Find Kaohsiung Sights on the Map", desc: "Look up Kaohsiung sights and restaurants to pair with Fo Guang Shan.", btn: "Open Map →", href: "/map?region=kaohsiung&cat=attraction" },
+      ],
+    },
+  },
+
+  "kaohsiung-3n4d-with-mom-itinerary-check": {
+    heroImage: "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg",
+    ko: {
+      pageTitle: "가오슝 3박4일 부모님 — AI 일정 점검 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "가오슝 3박4일 부모님 일정을 AI로 짰다면 그대로 가도 될까요? AI 일정에서 자주 생기는 과밀·동선 문제와 점검 순서를 정리했어요.",
+      ogTitle: "가오슝 3박4일 부모님 일정, AI가 짠 그대로 가도 될까?",
+      eyebrow: "가오슝 여행 가이드 · 일정 팁",
+      title: "가오슝 3박4일 부모님 일정, AI가 짠 그대로 가도 될까?",
+      dek: "하루 다섯 곳씩 채워 넣는 과밀 일정, 휴관일 무시, 지도상으로만 가까운 동선처럼 AI 일정에서 반복되는 실수를 점검 순서대로 모았습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "가오슝 · 일정 가이드",
+      intro: "\"AI가 짜준 가오슝 3박4일 부모님 일정, 엄마랑 다니기엔 너무 빡빡하지 않을까?\" 요즘은 챗GPT·제미나이로 초안을 만들고 커뮤니티에 검수를 받는 여행자가 많아요. 실제 여행자들의 경험을 바탕으로 AI 일정을 부모님 동반용으로 고치는 방법을 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · AI 여행 일정 vs 가오슝 3박4일 부모님 일정 비교" },
+        {
+          type: "compareTable",
+          cities: ["AI 초안에서 흔한 모습", "부모님 동반용 수정안"],
+          rows: [
+            { label: "하루 방문지", values: ["4~6곳을 촘촘히 배치", "핵심 2~3곳 + 휴식 시간"] },
+            { label: "동선", values: ["지도상 가까운 곳끼리 묶음", "MRT·경전철역 기준, 도보 10분 이내로 묶기"] },
+            { label: "운영시간", values: ["휴관일·운행 시간 미반영", "요일별 휴관(예: 불타기념관 화요일) 확인"] },
+            { label: "식사", values: ["유명 맛집 위주", "앉아서 쉬기 편한 곳, 대기 짧은 곳"] },
+          ],
+        },
+        { type: "h2", text: "02 · 점검은 이 순서로 하세요" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "휴관일부터 지우기", desc: "AI는 요일별 휴관을 자주 놓칩니다. 박물관·사찰·곤돌라 같은 곳은 공식 사이트에서 휴관일을 확인하세요." },
+            { mark: "2", b: "이동 시간 실제로 계산", desc: "구글 지도로 구간별 대중교통 시간을 찍어보면 '가까워 보이던' 곳이 30분 넘게 걸리는 경우가 흔해요." },
+            { mark: "3", b: "하루 한 번은 숙소 복귀", desc: "오후에 숙소에서 한두 시간 쉬는 시간을 넣으면 저녁 야시장까지 무리 없이 소화할 수 있습니다." },
+            { mark: "4", b: "근교는 하루에 하나만", desc: "불광산·치진·다수 같은 근교는 반나절 이상 걸리니 같은 날 두 곳을 넣지 않는 게 좋아요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg", caption: "가오슝 롄츠탄(연지담) 호수 위의 누각과 탑이에요. 호숫가 산책로가 평탄해 부모님과 걷기 좋은 코스예요." },
+        { type: "h2", text: "03 · 가오슝이라 쉬운 점, 어려운 점" },
+        { type: "p", html: "가오슝은 MRT 레드·오렌지 라인과 도심을 도는 순환 경전철이 있어 시내 이동이 단순한 편입니다. 반면 명소 사이 간격이 넓고 햇볕이 강해서, 표에서 본 거리보다 체감 피로가 큽니다. 걷는 구간이 길 때는 택시나 우버를 섞는 게 부모님 동반 여행의 핵심이에요." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "숙소는 역 가까이", desc: "MRT 역 도보권 숙소를 잡으면 매일 오가는 부담이 확 줄어듭니다." },
+            { mark: "✓", b: "치진은 오전에", desc: "섬 해변 쪽은 오후 햇볕이 강해 오전 방문이 편하다는 의견이 많아요." },
+            { mark: "✓", b: "야시장은 짧게", desc: "서서 먹는 곳이 많아 부모님과는 한두 가지만 사서 숙소에서 먹는 것도 방법입니다." },
+          ],
+        },
+        { type: "h2", text: "04 · AI에게 다시 물어볼 때 쓰는 문장" },
+        { type: "p", html: "초안을 고칠 때는 조건을 구체적으로 주면 결과가 확 좋아집니다. 예를 들어 \"60대 어머니, 하루 도보 1만 보 이하, 오후 휴식 필수, MRT역 기준 동선, 요일별 휴관 반영\"처럼 적고 다시 요청해보세요. 그래도 최종 확인은 공식 사이트로 하는 게 안전합니다." },
+        { type: "quote", text: "\"AI 일정은 뼈대로만 쓰고, 하루에 한 곳씩 빼면 딱 맞는다.\" — 커뮤니티 검수를 받아본 여행자들이 자주 하는 말을 요약했습니다." },
+        { type: "p", html: "일정을 고친 뒤 빈칸은 식사로 채우면 됩니다. 아침은 <a href=\"/kaohsiung-breakfast\">가오슝 조식 맛집</a> 중 숙소 가까운 곳을 고르고, 전통 판투안을 파는 <a href=\"/kaohsiung-breakfast-745\">류제 전통 판투안·단삥 전문점</a> 같은 곳은 부모님도 부담이 적어요. 저녁 산책 삼아 <a href=\"/kaohsiung-attraction-neiwei-night-market-294\">네이웨이 야시장</a>을 넣어도 좋고, 전체 위치는 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 비교해보세요." },
+        { type: "note", text: "이 글은 가오슝을 부모님과 다녀온 여행자들의 경험과 가오슝시 관광·교통 공식 안내를 바탕으로 정리했습니다(2026년 9월 기준). 명소별 운영시간은 방문 전 다시 확인하는 것을 추천해요." },
+        { type: "cta", title: "지도에서 가오슝 맛집도 찜해두세요", desc: "수정한 동선 근처의 가오슝 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=kaohsiung" },
+      ],
+    },
+    en: {
+      pageTitle: "How to Check an AI-Made Kaohsiung Itinerary — 4 Days with Parents · My Secret Taiwan Eats",
+      metaDescription: "Built a 4-day Kaohsiung itinerary with ChatGPT or Gemini? Here are the overpacking and routing problems AI plans often have, and how to fix them for a trip with parents.",
+      ogTitle: "Kaohsiung 4 Days with Mom: Can You Trust an AI-Made Itinerary?",
+      eyebrow: "Kaohsiung Travel Guide · Itinerary Tips",
+      title: "Kaohsiung 4 Days with Mom: Can You Trust an AI-Made Itinerary?",
+      dek: "Five stops a day, ignored closing days, routes that only look close on a map — the recurring AI itinerary mistakes, in the order you should check them.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Kaohsiung · Itinerary Guide",
+      intro: "\"The AI plan looks great, but is it too packed for my mom?\" More travelers now draft trips with ChatGPT or Gemini and ask online communities to review them. Based on real traveler experiences, here's how to adapt an AI-made 4-day Kaohsiung itinerary for a trip with parents.",
+      blocks: [
+        { type: "h2", text: "01 · AI Draft vs. Parent-Friendly Plan" },
+        {
+          type: "compareTable",
+          cities: ["Typical AI draft", "Parent-friendly fix"],
+          rows: [
+            { label: "Stops per day", values: ["4–6 packed in", "2–3 highlights plus rest"] },
+            { label: "Routing", values: ["Grouped by map distance", "Grouped around MRT/LRT stations, under 10 min walk"] },
+            { label: "Opening hours", values: ["Closing days ignored", "Check weekly closures (e.g., Buddha Museum on Tuesdays)"] },
+            { label: "Meals", values: ["Famous spots only", "Places with seating and short waits"] },
+          ],
+        },
+        { type: "h2", text: "02 · Check in This Order" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Remove closing days first", desc: "AI often misses weekly closures. Check museums, temples, and cable cars on their official sites." },
+            { mark: "2", b: "Calculate real travel times", desc: "Plot each leg in Google Maps — places that look close often take 30+ minutes." },
+            { mark: "3", b: "Go back to the hotel once a day", desc: "An hour or two of afternoon rest makes an evening night market much easier." },
+            { mark: "4", b: "One day trip per day", desc: "Fo Guang Shan, Cijin, and Dashu each take half a day or more, so don't stack two in one day." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg", caption: "Pavilions and pagodas on Kaohsiung's Lotus Pond — the flat lakeside path is an easy walk with parents." },
+        { type: "h2", text: "03 · What's Easy and Hard About Kaohsiung" },
+        { type: "p", html: "Kaohsiung's Red and Orange MRT lines plus the circular light rail keep city travel simple. But sights are spread out and the sun is strong, so it feels more tiring than the map suggests. Mixing in taxis or Uber for long walks is the key to a trip with parents." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Stay near a station", desc: "A hotel within walking distance of an MRT station cuts daily effort a lot." },
+            { mark: "✓", b: "Cijin in the morning", desc: "Many say the island's beach side is easier before the afternoon sun." },
+            { mark: "✓", b: "Keep night markets short", desc: "Many stalls are standing-only, so buying a couple of dishes to eat at the hotel works well with parents." },
+          ],
+        },
+        { type: "h2", text: "04 · What to Tell the AI Next Time" },
+        { type: "p", html: "Specific constraints make a big difference. Try something like: \"Mother in her 60s, under 10,000 steps a day, afternoon rest required, routes based on MRT stations, weekly closures included.\" Still, confirm final details on official sites." },
+        { type: "quote", text: "\"Use the AI plan as a skeleton and drop one stop per day — then it fits perfectly.\" — a summary of what travelers who had their plans reviewed often say." },
+        { type: "p", html: "After you trim the plan, fill the gaps with meals. For breakfast, pick somewhere near your hotel from the <a href=\"/kaohsiung-breakfast\">Kaohsiung breakfast spots</a> page — places like <a href=\"/kaohsiung-breakfast-745\">Liujie Traditional Fantuan & Danbing</a> that serve classic fantuan are easier on parents. For an evening stroll, try <a href=\"/kaohsiung-attraction-neiwei-night-market-294\">Neiwei Night Market</a>, and compare locations on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>." },
+        { type: "note", text: "This guide is based on travelers who visited Kaohsiung with their parents and official Kaohsiung tourism and transit information (as of September 2026). Check each sight's hours before you go." },
+        { type: "cta", title: "Bookmark Kaohsiung Restaurants on the Map", desc: "Find Kaohsiung restaurants near your revised route on the map.", btn: "Open Map →", href: "/map?region=kaohsiung" },
       ],
     },
   }
