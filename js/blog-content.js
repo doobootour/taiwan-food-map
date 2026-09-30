@@ -290,6 +290,23 @@ const BLOG_LIST = [
       meta: "Taiwan Travel · Event Guide",
     },
   },
+  {
+    slug: "taipei-tainan-3n4d-itinerary-split",
+    image: "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg",
+    regions: ["taipei", "tainan"],
+    ko: {
+      eyebrow: "대만 여행 가이드 · 일정 팁",
+      title: "타이베이 타이난 3박4일, 이동 줄이려면 며칠씩 나눌까?",
+      desc: "3박4일에 타이베이와 타이난을 모두 넣고 싶다면 — 숙박 배분안 세 가지와 고속철 이동 팁을 비교했어요.",
+      meta: "타이베이·타이난 · 일정 가이드",
+    },
+    en: {
+      eyebrow: "Taiwan Travel Guide · Itinerary Tips",
+      title: "Taipei + Tainan in 4 Days: How Should You Split the Nights?",
+      desc: "Want both Taipei and Tainan in 4 days? Three ways to split your nights and tips for the HSR trip.",
+      meta: "Taipei & Tainan · Itinerary Guide",
+    },
+  },
 
 ];
 
@@ -1822,6 +1839,112 @@ const BLOG_POSTS = {
         { type: "p", html: "If you're heading to Taitung for the fireworks, pick restaurants ahead of time. Check the <a href=\"/region-taitung\">Taitung food map</a> and <a href=\"/taitung-taiwanese\">Taitung Taiwanese restaurants</a>, and for a light bite try a street stall like <a href=\"/taitung-street_food-goodfrying-379\">Hao Jian Zha (好煎炸)</a>. Staying in Taipei? Plan around the closures with the <a href=\"/region-taipei\">Taipei food map</a>." },
         { type: "note", text: "This guide is based on announcements from CNA and the Taitung County Government, plus traveler experiences (as of September 28, 2026). Event times and closures can change, so check official notices before you go." },
         { type: "cta", title: "Find Restaurants for the Long Weekend on the Map", desc: "Look up Taipei restaurants to visit over the Double Ten holiday.", btn: "Open Map →", href: "/map?region=taipei" },
+      ],
+    },
+  },
+
+  "taipei-tainan-3n4d-itinerary-split": {
+    heroImage: "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg",
+    ko: {
+      pageTitle: "타이베이 타이난 3박4일 — 숙박 나누기 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "타이베이 타이난 3박4일, 숙박을 어떻게 나눌까요? 고속철 이동 시간과 요금, 도시별 숙박 배분안 세 가지를 비교해서 정리했어요.",
+      ogTitle: "타이베이 타이난 3박4일, 이동 줄이려면 며칠씩 나눌까?",
+      eyebrow: "대만 여행 가이드 · 일정 팁",
+      title: "타이베이 타이난 3박4일, 이동 줄이려면 며칠씩 나눌까?",
+      dek: "당일치기로 다녀올지, 하룻밤 묵을지, 아예 가오슝 공항으로 나갈지 — 이동 시간을 줄이는 배분안을 표로 비교했습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "타이베이·타이난 · 일정 가이드",
+      intro: "\"타이베이 타이난 3박4일인데 숙소를 옮기는 게 나을까요?\" 두 도시를 한 번에 묶으려는 여행자에게 가장 큰 변수는 이동 시간이에요. 고속철 공식 운임과 실제 여행자들의 경험을 바탕으로 이동을 줄이는 일정 배분안을 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 일정 배분안 한눈에 비교하기" },
+        {
+          type: "compareTable",
+          cities: ["A. 타이베이 3박 + 타이난 당일", "B. 타이베이 2박 + 타이난 1박", "C. 타이베이 in · 가오슝 out"],
+          rows: [
+            { label: "숙소 이동", values: ["없음", "1회", "1회"] },
+            { label: "타이난 체류", values: ["약 6~8시간", "저녁·아침까지 여유", "1박 + 마지막 날 오전"] },
+            { label: "장점", values: ["짐 이동 없음", "야경·아침 식사까지 경험", "되돌아오는 이동이 없음"] },
+            { label: "단점", values: ["왕복 이동으로 피로", "체크인·아웃 시간 소요", "항공권 선택지가 좁을 수 있음"] },
+            { label: "추천 상황", values: ["타이난은 맛보기만", "타이난 비중이 큰 여행", "가오슝 출국편이 맞을 때"] },
+          ],
+        },
+        { type: "h2", text: "02 · 타이베이 타이난 3박4일, 고속철 이동 시간" },
+        { type: "p", html: "고속철 타이베이역에서 타이난역까지 표준석 지정석 성인 편도가 NT$1,350, 자유석이 NT$1,305입니다(2026년 9월 기준). 정차역 수에 따라 약 1시간 20분에서 2시간 정도 걸려요. 다만 고속철 타이난역은 시내와 떨어져 있어, 사룬선 기차나 버스·택시로 20~30분을 더 잡아야 합니다." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "조기 예매 할인 확인", desc: "고속철 공식 앱에서 조기 예매 할인이 열리는 경우가 있어요. 일정이 정해지면 바로 확인하세요." },
+            { mark: "✓", b: "짐은 보관하고 가볍게", desc: "당일치기라면 타이베이 숙소에 짐을 두고, 1박이라면 작은 가방만 들고 가는 여행자가 많아요." },
+            { mark: "✓", b: "타이난역 기준으로 움직이기", desc: "시내 명소는 타이난역·중시구 일대에 몰려 있어 이곳을 기점으로 동선을 짜면 편합니다." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg", caption: "붉은 지붕의 타이난 츠칸러우(적감루)예요. 타이난 구시가 명소는 이 일대에 모여 있어요." },
+        { type: "h2", text: "03 · 배분안별 추천 흐름" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "A", b: "당일치기", desc: "오전 고속철로 이동 → 츠칸러우·공자묘 일대 → 선눙제 산책 → 저녁 고속철로 복귀. 식사는 두 끼만 타이난에서 해결하는 흐름이에요." },
+            { mark: "B", b: "1박", desc: "둘째 날 오후 이동 → 안핑 노을 → 다음 날 아침 식사 후 구시가 → 오후 타이베이 복귀. 타이난 아침 메뉴를 경험하려는 여행자에게 인기예요." },
+            { mark: "C", b: "가오슝 출국", desc: "마지막 날 타이난에서 가오슝 공항까지 이동 시간을 넉넉히 잡으면 됩니다. 항공편 시간부터 확인하세요." },
+          ],
+        },
+        { type: "h2", text: "04 · 이럴 땐 타이난을 다음으로 미루세요" },
+        { type: "p", html: "첫 대만 여행이고 타이베이 근교(지우펀·예류)까지 보고 싶다면 3박4일에 두 도시는 빠듯합니다. 이동만 왕복 5시간 안팎을 쓰게 되니, 타이난은 다음 여행에서 2박 이상으로 잡는 편이 만족도가 높다는 의견도 많아요." },
+        { type: "quote", text: "\"타이난은 먹으러 가는 도시라 최소 두 끼 이상은 거기서 먹어야 아깝지 않다.\" — 타이난을 다녀온 여행자들이 자주 하는 말을 요약했습니다." },
+        { type: "p", html: "타이난에서 보내는 하루는 먹는 일정이 절반이에요. <a href=\"/region-tainan\">타이난 맛집 지도</a>로 숙소 주변부터 보고, <a href=\"/tainan-taiwanese\">타이난 대만식 맛집</a> 중 단짜이몐으로 알려진 <a href=\"/tainan-taiwanese-598\">두샤오웨 단짜이몐 타이난 본점</a>을 동선에 넣어보세요. 타이베이 쪽은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>를 참고하면 돼요." },
+        { type: "note", text: "이 글은 대만 고속철 공식 운임·시간표(2026년 9월 기준)와 여행자들의 경험을 바탕으로 정리했습니다. 운임과 할인은 바뀔 수 있으니 예매 전 고속철 공식 사이트에서 다시 확인하는 것을 추천해요." },
+        { type: "cta", title: "지도에서 타이난 맛집을 미리 찜해두세요", desc: "짧은 타이난 일정에 꼭 넣을 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=tainan" },
+      ],
+    },
+    en: {
+      pageTitle: "Splitting a 4-Day Taipei–Tainan Trip — HSR Travel and Where to Stay · My Secret Taiwan Eats",
+      metaDescription: "Combining Taipei and Tainan in 4 days and 3 nights? Here are HSR travel times and fares, plus three ways to split your nights to cut down on transit.",
+      ogTitle: "Taipei + Tainan in 4 Days: How Should You Split the Nights?",
+      eyebrow: "Taiwan Travel Guide · Itinerary Tips",
+      title: "Taipei + Tainan in 4 Days: How Should You Split the Nights?",
+      dek: "Day trip, one night, or fly out of Kaohsiung — a side-by-side look at the splits that save the most travel time.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taipei & Tainan · Itinerary Guide",
+      intro: "\"I only have 4 days, but I really want to see Tainan. Should I switch hotels?\" For travelers pairing two cities, travel time is the biggest variable. Based on official HSR fares and real traveler experiences, here's how to split your days to minimize transit.",
+      blocks: [
+        { type: "h2", text: "01 · Three Splits at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["A. 3 nights Taipei + Tainan day trip", "B. 2 nights Taipei + 1 night Tainan", "C. Fly into Taipei, out of Kaohsiung"],
+          rows: [
+            { label: "Hotel changes", values: ["None", "One", "One"] },
+            { label: "Time in Tainan", values: ["About 6–8 hours", "Evening and next morning", "One night + last morning"] },
+            { label: "Pros", values: ["No moving luggage", "Night views and breakfast included", "No backtracking"] },
+            { label: "Cons", values: ["Tiring round trip", "Check-in/out time", "Fewer flight options"] },
+            { label: "Best for", values: ["A taste of Tainan", "Tainan-focused trips", "When a Kaohsiung departure fits"] },
+          ],
+        },
+        { type: "h2", text: "02 · How Long the HSR Takes" },
+        { type: "p", html: "A standard reserved adult HSR ticket from Taipei to Tainan costs NT$1,350 one way, or NT$1,305 for non-reserved (as of September 2026). The ride takes about 1 hour 20 minutes to 2 hours depending on stops. The HSR Tainan station is outside the city center, so add 20–30 minutes by the Shalun rail line, bus, or taxi." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Look for early-bird fares", desc: "Early-bird discounts sometimes open on the official HSR app — check as soon as your dates are set." },
+            { mark: "✓", b: "Travel light", desc: "For a day trip, leave bags at your Taipei hotel; for one night, many travelers bring just a small bag." },
+            { mark: "✓", b: "Base yourself near Tainan Station", desc: "Most old-town sights cluster around Tainan Station and West Central District." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg", caption: "Tainan's red-roofed Chihkan Tower — the old-town sights are clustered around here." },
+        { type: "h2", text: "03 · Suggested Flow for Each Split" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "A", b: "Day trip", desc: "Morning HSR → Chihkan Tower and Confucius Temple area → stroll Shennong Street → evening HSR back. Plan on two meals in Tainan." },
+            { mark: "B", b: "One night", desc: "Travel on the afternoon of day 2 → Anping sunset → breakfast and old town the next morning → back to Taipei in the afternoon. Popular with travelers who want Tainan's breakfast scene." },
+            { mark: "C", b: "Fly out of Kaohsiung", desc: "Just leave plenty of time from Tainan to Kaohsiung airport on the last day. Start by checking flight times." },
+          ],
+        },
+        { type: "h2", text: "04 · When to Save Tainan for Next Time" },
+        { type: "p", html: "If it's your first Taiwan trip and you also want Jiufen and Yehliu near Taipei, two cities in 4 days is tight. The round trip alone eats around five hours, and many say Tainan is more rewarding as a separate trip of two nights or more." },
+        { type: "quote", text: "\"Tainan is a food city — eat at least two meals there or it feels like a waste.\" — a summary of what travelers who've been to Tainan often say." },
+        { type: "p", html: "A day in Tainan is half about eating. Look around your hotel on the <a href=\"/region-tainan\">Tainan restaurant map</a>, then add <a href=\"/tainan-taiwanese-598\">Duxiaoyue danzai noodles Tainan flagship</a> from <a href=\"/tainan-taiwanese\">Tainan Taiwanese food</a> to the route. For Taipei, use the <a href=\"/region-taipei\">Taipei restaurant map</a>." },
+        { type: "note", text: "This guide is based on official Taiwan High Speed Rail fares and timetables (as of September 2026) and traveler experiences. Fares and discounts can change, so check the official HSR website before booking." },
+        { type: "cta", title: "Bookmark Tainan Restaurants on the Map", desc: "Find must-try Tainan restaurants for a short visit on the map.", btn: "Open Map →", href: "/map?region=tainan" },
       ],
     },
   }
