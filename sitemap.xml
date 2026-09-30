@@ -9,7 +9,7 @@
   <url><loc>https://taiwanbite.com/region-taichung</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taiwanbite.com/region-tainan</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taiwanbite.com/region-hualien</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://taiwanbite.com/region-yilan</loc><lastmod>2026-09-30</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taiwanbite.com/region-yilan</loc><lastmod>2026-09-29</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taiwanbite.com/region-taitung</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taiwanbite.com/region-alishan</loc><lastmod>2026-09-13</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taiwanbite.com/category-beef_noodle</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -17,11 +17,11 @@
   <url><loc>https://taiwanbite.com/category-japanese</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taiwanbite.com/category-seafood</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taiwanbite.com/category-ramen</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://taiwanbite.com/category-hotpot</loc><lastmod>2026-09-30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://taiwanbite.com/category-breakfast</loc><lastmod>2026-09-30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://taiwanbite.com/category-brunch</loc><lastmod>2026-09-30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://taiwanbite.com/category-cafe</loc><lastmod>2026-09-30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://taiwanbite.com/category-shaved_ice</loc><lastmod>2026-09-30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://taiwanbite.com/category-hotpot</loc><lastmod>2026-09-29</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://taiwanbite.com/category-breakfast</loc><lastmod>2026-09-29</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://taiwanbite.com/category-brunch</loc><lastmod>2026-09-29</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://taiwanbite.com/category-cafe</loc><lastmod>2026-09-29</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://taiwanbite.com/category-shaved_ice</loc><lastmod>2026-09-29</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taiwanbite.com/category-korean</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taiwanbite.com/category-pasta</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taiwanbite.com/category-bbq</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -119,7 +119,7 @@
   <url><loc>https://taiwanbite.com/kaohsiung-cafe</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/kaohsiung-breakfast</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
   <url><loc>https://taiwanbite.com/kaohsiung-street_food</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://taiwanbite.com/blog</loc><lastmod>2026-09-29</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://taiwanbite.com/blog</loc><lastmod>2026-09-30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://taiwanbite.com/blog-taipei-taichung-kaohsiung-with-mom</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://taiwanbite.com/blog-taipei-easycard-transport-guide</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://taiwanbite.com/blog-taipei-souvenir-gift-guide</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -133,6 +133,8 @@
   <url><loc>https://taiwanbite.com/blog-kaohsiung-local-tea-shop-buying-guide</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://taiwanbite.com/blog-kaohsiung-fo-guang-shan-with-parents-checklist</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://taiwanbite.com/blog-kaohsiung-3n4d-with-mom-itinerary-check</loc><lastmod>2026-09-29</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://taiwanbite.com/blog-taiwan-private-charter-taxi-family-checklist</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://taiwanbite.com/blog-taiwan-hotel-aircon-seasonal-packing</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://taiwanbite.com/taipei-steak-chou-chao-tzu-51</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-goose-xiang-duck-taipei-jinshan-south-branch-56</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://taiwanbite.com/taipei-street_food-65</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
