@@ -22,6 +22,18 @@ function loadGlobals(files) {
 
 const { REGIONS, REGION_CONTENT, CATEGORIES, REGION_SUB_AREAS } = loadGlobals(["js/data.js", "js/region-content.js"]);
 const { slugForSpot } = require("./lib/spot-slug");
+const {
+  SITE_NAME_EN,
+  HOME_KO_URL,
+  HOME_EN_URL,
+  ensureHreflang,
+  applyLangSwitcher,
+  englishSiteNav,
+  pointHubLinksAtEnglish,
+  loadEnglishDict,
+  bakeEnglishCopy,
+  rootAbsoluteLocalAssets,
+} = require("./lib/en-shell");
 
 const supabaseConfigSrc = fs.readFileSync(path.join(root, "js/supabase-config.js"), "utf8");
 const SUPABASE_URL = supabaseConfigSrc.match(/SUPABASE_URL\s*=\s*"([^"]+)"/)[1];
@@ -42,7 +54,18 @@ async function fetchRegionSpots(regionId) {
     headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
   });
   if (!res.ok) throw new Error(`Supabase fetch failed for region=${regionId}: ${res.status}`);
-  return res.json();
+  return stableSpots(await res.json());
+}
+
+// created_at ties come back in an unstable order from PostgREST. A tie-break
+// keeps the daily regenerate job from rewriting the same pages every run.
+function stableSpots(spots) {
+  return spots.slice().sort((a, b) => {
+    const ta = a.created_at || "";
+    const tb = b.created_at || "";
+    if (ta !== tb) return ta < tb ? 1 : -1;
+    return String(b.id).localeCompare(String(a.id), "en", { numeric: true });
+  });
 }
 
 function distSq(a, b) {
@@ -139,48 +162,17 @@ function escAttr(s) {
   return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
 }
 
-const TAIPEI_KO_URL = "https://taiwanbite.com/region-taipei";
-const TAIPEI_EN_URL = "https://taiwanbite.com/en/region-taipei";
-const TAIPEI_HREFLANG = `
-<link rel="alternate" hreflang="ko" href="${TAIPEI_KO_URL}" />
-<link rel="alternate" hreflang="en" href="${TAIPEI_EN_URL}" />
-<link rel="alternate" hreflang="x-default" href="${TAIPEI_KO_URL}" />`;
-
-function taipeiLangSwitcher(html, activeLang) {
-  const koClass = activeLang === "ko" ? ' class="active"' : "";
-  const enClass = activeLang === "en" ? ' class="active"' : "";
-  const footerKo = activeLang === "ko" ? "footer-lang-btn active" : "footer-lang-btn";
-  const footerEn = activeLang === "en" ? "footer-lang-btn active" : "footer-lang-btn";
-  return html
-    .replace(
-      `          <button data-lang="ko" class="active">한국어</button>
-          <button data-lang="en">English</button>`,
-      `          <a href="/region-taipei" data-lang="ko"${koClass}>한국어</a>
-          <a href="/en/region-taipei" data-lang="en"${enClass}>English</a>`
-    )
-    .replace(
-      `          <li><button class="footer-lang-btn active" data-lang="ko">한국어</button></li>
-          <li><button class="footer-lang-btn" data-lang="en">English</button></li>`,
-      `          <li><a class="${footerKo}" href="/region-taipei" data-lang="ko">한국어</a></li>
-          <li><a class="${footerEn}" href="/en/region-taipei" data-lang="en">English</a></li>`
-    );
-}
-
-// /en/region-taipei is a two-segment URL, so relative js/ css/ assets/ resolve under /en/.
-function rootAbsoluteLocalAssets(html) {
-  return html.replace(/(href|src)="(?!\/|https?:|#|mailto:)([^"]+)"/g, '$1="/$2"');
-}
-
-function englishTaipeiPage(region, en, spots) {
-  const title = `${region.en} Travel Guide · My Secret Taiwan Eats`;
+function englishRegionPage(region, en, spots) {
+  const title = `${region.en} Travel Guide · ${SITE_NAME_EN}`;
   const description = `${region.en} travel guide and food map — ${region.subEn}`;
-  const canonicalUrl = TAIPEI_EN_URL;
+  const canonicalUrl = `https://taiwanbite.com/en/region-${region.id}`;
+  const koUrl = `https://taiwanbite.com/region-${region.id}`;
   let out = template;
 
   out = out.replace("<html lang=\"ko\">", "<html lang=\"en\">");
   out = out.replace(
     '<title id="pageTitle">지역 가이드 · 나만 알고 싶은 대만 맛집</title>',
-    `<title id="pageTitle">${escAttr(title)}</title>\n<link rel="canonical" href="${canonicalUrl}" />${TAIPEI_HREFLANG}`
+    `<title id="pageTitle">${escAttr(title)}</title>\n<link rel="canonical" href="${canonicalUrl}" />`
   );
   out = out.replace(
     /<meta id="pageDescription" name="description" content="[^"]*" \/>/,
@@ -211,8 +203,8 @@ function englishTaipeiPage(region, en, spots) {
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://taiwanbite.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Regions", "item": "https://taiwanbite.com/#regions" },
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://taiwanbite.com/en" },
+        { "@type": "ListItem", "position": 2, "name": "Regions", "item": "https://taiwanbite.com/en#regions" },
         { "@type": "ListItem", "position": 3, "name": `${region.en} Travel Guide`, "item": canonicalUrl },
       ],
     },
@@ -283,12 +275,100 @@ function englishTaipeiPage(region, en, spots) {
     `<ul class="region-activity-list" id="regionActivities">${activitiesHtml(en.activities)}</ul>`
   );
   out = out.replace(
+    'id="regionFullMapLink" href="/map"',
+    `id="regionFullMapLink" href="/map?region=${region.id}"`
+  );
+  out = out.replace(
     /<div id="regionSpotsList">[\s\S]*?<\/div>\s*<\/div>\s*<\/div>\s*<\/div>\s*<\/section>/,
     `<div id="regionSpotsList">${regionSpotsListHtml(region, spots, "en")}</div>\n      </div>\n    </div>\n  </section>`
   );
 
-  out = taipeiLangSwitcher(out, "en");
+  out = ensureHreflang(out, koUrl, canonicalUrl);
+  out = englishSiteNav(out, "regions");
+  out = pointHubLinksAtEnglish(out);
+  out = applyLangSwitcher(out, `/region-${region.id}`, `/en/region-${region.id}`, "en");
+  out = bakeEnglishCopy(out, loadEnglishDict());
   return rootAbsoluteLocalAssets(out);
+}
+
+const EN_HOME_DESC = "A Taiwan food map picked from real reviews by Korean travelers. Browse beef noodles, dim sum, shaved ice, and street food by category, then pin your own spots on the map.";
+
+function writeEnglishHome(koHtml) {
+  let out = koHtml.replace("<html lang=\"ko\">", "<html lang=\"en\">");
+  out = out.replace(/<title>[^<]*<\/title>/, `<title>${SITE_NAME_EN}</title>`);
+  out = out.replace(
+    /<link rel="canonical" href="[^"]*" \/>/,
+    `<link rel="canonical" href="${HOME_EN_URL}" />`
+  );
+  out = ensureHreflang(out, HOME_KO_URL, HOME_EN_URL);
+  out = out.replace(
+    /<meta name="description" content="[^"]*" \/>/,
+    `<meta name="description" content="${escAttr(EN_HOME_DESC)}" />`
+  );
+  out = out.replace(
+    /<meta name="keywords" content="[^"]*" \/>/,
+    `<meta name="keywords" content="Taiwan food, Taiwan travel, Taiwan food map, Taipei food, Hualien food, beef noodle, night market, TaiwanBite" />`
+  );
+  out = out.replace(
+    /<meta property="og:url" content="[^"]*" \/>/,
+    `<meta property="og:url" content="${HOME_EN_URL}" />`
+  );
+  out = out.replace(
+    '<meta property="og:locale" content="ko_KR" />',
+    '<meta property="og:locale" content="en_US" />'
+  );
+  out = out.replace(
+    /<meta property="og:title" content="[^"]*" \/>/,
+    `<meta property="og:title" content="${SITE_NAME_EN}" />`
+  );
+  out = out.replace(
+    /<meta property="og:description" content="[^"]*" \/>/,
+    `<meta property="og:description" content="${escAttr(EN_HOME_DESC)}" />`
+  );
+  const ld = {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "WebSite", "name": SITE_NAME_EN, "alternateName": "Taiwan Food Map", "url": HOME_EN_URL },
+      { "@type": "Organization", "name": SITE_NAME_EN, "url": HOME_EN_URL, "logo": "https://taiwanbite.com/assets/images/logo.webp" },
+    ],
+  };
+  out = out.replace(
+    /<script type="application\/ld\+json">[\s\S]*?<\/script>/,
+    `<script type="application/ld+json">${JSON.stringify(ld)}</script>`
+  );
+  out = englishSiteNav(out, "home");
+  out = pointHubLinksAtEnglish(out);
+  out = applyLangSwitcher(out, "/", "/en", "en");
+  out = bakeEnglishCopy(out, loadEnglishDict());
+  out = out.replace(
+    /<img class="hero-img" src="assets\/images\/hero\/flatlay_2.webp" alt="[^"]*" \/>/,
+    `<img class="hero-img" src="assets/images/hero/flatlay_2.webp" alt="Signature Taiwan dishes laid over a map of Taiwan" />`
+  );
+
+  const enRegionCards = REGIONS.map((r, i) => `
+    <a class="region-card reveal" style="--i:${i}" href="/en/region-${r.id}">
+      <img src="${r.image}" alt="${escAttr(r.en)}" loading="lazy" />
+      <span class="tag">${escAttr(r.tagEn)}</span>
+      <div class="info">
+        <div class="name">${escAttr(r.en)}</div>
+        <div class="sub">${escAttr(r.subEn)}</div>
+      </div>
+    </a>`).join("");
+  out = out.replace(
+    /<div class="region-grid" id="regionGrid">[\s\S]*?<\/div>\s*<\/div>\s*<\/section>/,
+    `<div class="region-grid" id="regionGrid">${enRegionCards}\n    </div>\n  </div>\n</section>`
+  );
+  const enCategoryLinks = CATEGORIES.map(c => `
+    <a class="category-link-chip" href="/en/category-${c.id}"><span>${c.icon}</span>${escAttr(c.en)}</a>`).join("");
+  out = out.replace(
+    /<div class="category-link-row" id="categoryLinkRow">[\s\S]*?<\/div>/,
+    `<div class="category-link-row" id="categoryLinkRow">${enCategoryLinks}\n      </div>`
+  );
+
+  fs.mkdirSync(path.join(root, "en"), { recursive: true });
+  // /en/ is a directory URL on Cloudflare until the worker canonicalizes it.
+  // Relative css/ js/ assets/ would resolve under /en/ and 404, so match region pages.
+  fs.writeFileSync(path.join(root, "en", "index.html"), rootAbsoluteLocalAssets(out));
 }
 
 /* ===================== region-<id>.html 생성 ===================== */
@@ -304,13 +384,14 @@ for (const region of REGIONS) {
   const title = `${region.ko} 여행 가이드 · 나만 알고 싶은 대만 맛집`;
   const description = `${region.ko} 여행 정보와 맛집 지도 — ${region.subKo}`;
   const canonicalUrl = `https://taiwanbite.com/region-${region.id}`;
-  const hreflang = region.id === "taipei" ? TAIPEI_HREFLANG : "";
+  const enUrl = `https://taiwanbite.com/en/region-${region.id}`;
+  const hasEnglish = !!(content.en && content.en.intro);
 
   let out = template;
 
   out = out.replace(
     '<title id="pageTitle">지역 가이드 · 나만 알고 싶은 대만 맛집</title>',
-    `<title id="pageTitle">${escAttr(title)}</title>\n<link rel="canonical" href="${canonicalUrl}" />${hreflang}`
+    `<title id="pageTitle">${escAttr(title)}</title>\n<link rel="canonical" href="${canonicalUrl}" />`
   );
   out = out.replace(
     /<meta id="pageDescription" name="description" content="[^"]*" \/>/,
@@ -415,14 +496,17 @@ for (const region of REGIONS) {
     `<div id="regionSpotsList">${regionSpotsListHtml(region, spots)}</div>\n      </div>\n    </div>\n  </section>`
   );
 
-  if (region.id === "taipei") out = taipeiLangSwitcher(out, "ko");
+  if (hasEnglish) {
+    out = ensureHreflang(out, canonicalUrl, enUrl);
+    out = applyLangSwitcher(out, `/region-${region.id}`, `/en/region-${region.id}`, "ko");
+  }
 
   fs.writeFileSync(path.join(root, `region-${region.id}.html`), out);
   generatedCount++;
 
-  if (region.id === "taipei" && content.en) {
+  if (hasEnglish) {
     fs.mkdirSync(path.join(root, "en"), { recursive: true });
-    fs.writeFileSync(path.join(root, "en", "region-taipei.html"), englishTaipeiPage(region, content.en, spots));
+    fs.writeFileSync(path.join(root, "en", `region-${region.id}.html`), englishRegionPage(region, content.en, spots));
   }
 }
 
@@ -458,9 +542,12 @@ indexHtml = indexHtml.replace(
   `<div class="category-link-row" id="categoryLinkRow">${categoryLinksHtml}\n      </div>`
 );
 
+indexHtml = ensureHreflang(indexHtml, HOME_KO_URL, HOME_EN_URL);
+indexHtml = applyLangSwitcher(indexHtml, "/", "/en", "ko");
 fs.writeFileSync(indexPath, indexHtml);
+writeEnglishHome(indexHtml);
 
-console.log(`region-*.html ${generatedCount}개 생성 완료, index.html 지역 카드 + 카테고리 링크 정적화 완료`);
+console.log(`region-*.html ${generatedCount}개 + en/region-*.html, en/index.html 생성 완료. index.html 한국어 카드 유지`);
 }
 
 main().catch(err => {

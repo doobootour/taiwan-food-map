@@ -190,6 +190,17 @@
     });
   }
 
+  function syncBlogDateLine(lang) {
+    const el = document.querySelector(".blog-post-date");
+    if (!el) return;
+    if (!el.dataset.koHtml) el.dataset.koHtml = el.innerHTML;
+    if (lang === "en") {
+      el.innerHTML = el.dataset.koHtml.replace(/게시/g, "published").replace(/수정/g, "updated");
+    } else {
+      el.innerHTML = el.dataset.koHtml;
+    }
+  }
+
   function renderPost() {
     const root = document.getElementById("blogArticle");
     if (!root) return false;
@@ -198,6 +209,7 @@
     const post = BLOG_POSTS[slug];
     if (!post) return false;
     const lang = getLang();
+    syncBlogDateLine(lang);
     applyAuthorBlurb(lang);
     const c = post[lang] || post.ko;
 

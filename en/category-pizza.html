@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4BQHKRWZE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R4BQHKRWZE');
+</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#c2703f" />
+<link rel="icon" type="image/png" href="/assets/favicon.png" />
+<title id="pageTitle">Pizza in Taiwan · My Secret Taiwan Eats</title>
+<link rel="canonical" href="https://taiwanbite.com/en/category-pizza" />
+<link rel="alternate" hreflang="ko" href="https://taiwanbite.com/category-pizza" />
+<link rel="alternate" hreflang="en" href="https://taiwanbite.com/en/category-pizza" />
+<link rel="alternate" hreflang="x-default" href="https://taiwanbite.com/category-pizza" />
+<meta id="pageDescription" name="description" content="Pizza in Taiwan — From wood-fired pizzerias to Taiwan-topped pies" />
+<meta property="og:type" content="article" />
+<meta id="ogUrl" property="og:url" content="https://taiwanbite.com/en/category-pizza" />
+<meta property="og:site_name" content="My Secret Taiwan Eats" />
+<meta property="og:locale" content="en_US" />
+<meta id="ogTitle" property="og:title" content="Pizza in Taiwan · My Secret Taiwan Eats" />
+<meta id="ogDescription" property="og:description" content="Pizza in Taiwan — From wood-fired pizzerias to Taiwan-topped pies" />
+<meta id="ogImage" property="og:image" content="https://taiwanbite.com/assets/images/categories/pizza.webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json" id="ldJson">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://taiwanbite.com/en"},{"@type":"ListItem","position":2,"name":"Find Spots","item":"https://taiwanbite.com/en#categories"},{"@type":"ListItem","position":3,"name":"Pizza in Taiwan","item":"https://taiwanbite.com/en/category-pizza"}]},{"@type":"CollectionPage","name":"Pizza in Taiwan","description":"Pizza in Taiwan — From wood-fired pizzerias to Taiwan-topped pies","url":"https://taiwanbite.com/en/category-pizza","image":"https://taiwanbite.com/assets/images/categories/pizza.webp"},{"@type":"ItemList","name":"Pizza in Taiwan","numberOfItems":10,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"LocalBusiness","name":"Drifters Pizza Pub 漂流者披薩吧","geo":{"@type":"GeoCoordinates","latitude":24.859217,"longitude":121.823307}}},{"@type":"ListItem","position":2,"item":{"@type":"LocalBusiness","name":"8818 Pizza Restaurant 比薩屋","geo":{"@type":"GeoCoordinates","latitude":22.9823181,"longitude":120.2037033}}},{"@type":"ListItem","position":3,"item":{"@type":"LocalBusiness","name":"義大利隔壁手工披薩","geo":{"@type":"GeoCoordinates","latitude":22.7718485,"longitude":121.1226841}}},{"@type":"ListItem","position":4,"item":{"@type":"LocalBusiness","name":"Bread & Circus Pizzeria/Bakery","geo":{"@type":"GeoCoordinates","latitude":22.8935274,"longitude":121.24723}}},{"@type":"ListItem","position":5,"item":{"@type":"LocalBusiness","name":"都蘭安堤歐義大利披薩Dulan Antteo A Mano Pizza","geo":{"@type":"GeoCoordinates","latitude":22.8795012,"longitude":121.2314183}}},{"@type":"ListItem","position":6,"item":{"@type":"LocalBusiness","name":"Cura Pizza","geo":{"@type":"GeoCoordinates","latitude":25.0254635,"longitude":121.4966196}}},{"@type":"ListItem","position":7,"item":{"@type":"LocalBusiness","name":"靜候披薩","geo":{"@type":"GeoCoordinates","latitude":24.6829196,"longitude":121.7954872}}},{"@type":"ListItem","position":8,"item":{"@type":"LocalBusiness","name":"BOBO PIZZA","geo":{"@type":"GeoCoordinates","latitude":24.7487352,"longitude":121.7555329}}},{"@type":"ListItem","position":9,"item":{"@type":"LocalBusiness","name":"笑ㄟCafé蘇澳店","geo":{"@type":"GeoCoordinates","latitude":24.581013,"longitude":121.8736424}}},{"@type":"ListItem","position":10,"item":{"@type":"LocalBusiness","name":"MIMI pizza義式手工披薩","geo":{"@type":"GeoCoordinates","latitude":24.8297825,"longitude":121.7724572}}}]}]}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+
+<link rel="stylesheet" href="/css/styles.css?v=1790588220" />
+</head>
+<body>
+
+<header id="site-header">
+  <div class="wrap">
+    <a href="/en" class="brand">
+      <img class="mark" src="/assets/images/logo.webp" data-i18n-alt="brand_name" alt="My Secret Taiwan Eats" />
+      <div class="name"><span data-i18n="brand_name">My Secret Taiwan Eats</span><small data-i18n="brand_tagline">Taiwan food map, curated by travelers</small></div>
+    </a>
+
+    <nav id="site-nav">
+      <a href="/en" data-i18n="nav_home">Home</a>
+      <a href="/en#categories" class="active" data-i18n="nav_categories">Find Spots</a>
+      <a href="/en#regions" data-i18n="nav_regions">Explore by Region</a>
+      <a href="/map" data-i18n="nav_map">View Map</a>
+      <a href="/blog" data-i18n="nav_blog">Blog</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn">EN ▾</button>
+        <div class="lang-menu" id="langMenu">
+          <a href="/category-pizza" data-lang="ko">한국어</a>
+          <a href="/en/category-pizza" data-lang="en" class="active">English</a>
+        </div>
+      </div>
+      <a href="/map" class="btn primary" style="padding:10px 20px;font-size:13px;" data-i18n="btn_register">Add a Spot</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero region-hero">
+    <img class="hero-img" id="categoryHeroImg" src="/assets/images/categories/pizza.webp" alt="Pizza" />
+    <div class="hero-scrim"></div>
+    <div class="hero-content reveal">
+      <span class="eyebrow" id="categoryEyebrow">A Slice, Taiwan-Style</span>
+      <h1 id="categoryTitle">Pizza in Taiwan</h1>
+      <p id="categoryTagline">From wood-fired pizzerias to Taiwan-topped pies</p>
+      <div class="hero-actions">
+        <a href="#category-map" class="btn primary" data-i18n="hero_btn_category_map">View This Category's Food Map ↓</a>
+        <a href="/en#categories" class="btn ghost" data-i18n="hero_btn_other_categories">See Other Categories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ARTICLE ================= -->
+  <section class="section">
+    <div class="wrap region-article">
+      <p class="region-intro" id="categoryIntro">Taiwan's pizza scene splits between authentic Neapolitan wood-fired specialists and casual chains with distinctly local toppings like sweet-potato mousse or potato. Delivery culture is strong, so it's easy to eat one back at your room.</p>
+
+      <h2 class="region-h2" data-i18n="category_h2_tips">What Makes It Special?</h2>
+      <div class="region-highlight-grid" id="categoryTips">
+        <div class="region-highlight-card reveal in" style="--i:0">
+          <span class="num">01</span>
+          <div>
+            <h3>Wood-fired pizzerias</h3>
+            <p>Authentic Neapolitan-style wood-fired pizzerias are increasingly common around Taipei.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:1">
+          <span class="num">02</span>
+          <div>
+            <h3>Try a local topping</h3>
+            <p>Give sweet-potato mousse, corn, or mentaiko toppings a try at least once.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:2">
+          <span class="num">03</span>
+          <div>
+            <h3>Delivery apps</h3>
+            <p>Uber Eats and Foodpanda make it easy to get pizza delivered to your accommodation.</p>
+          </div>
+        </div></div>
+
+      <h2 class="region-h2" data-i18n="category_h2_checklist">How to Enjoy It</h2>
+      <ul class="region-activity-list" id="categoryChecklist">
+        <li><span class="check">✓</span>Wood-fired spots may have a wait — a dinner reservation helps</li>
+        <li><span class="check">✓</span>Check reviews before committing to an unusual topping</li>
+        <li><span class="check">✓</span>Confirm the minimum order amount when using a delivery app</li>
+        <li><span class="check">✓</span>Solo? Look for a shop that sells pizza by the slice</li></ul>
+    </div>
+  </section>
+
+  <!-- ================= REGISTERED SPOTS + MAP ================= -->
+  <section id="category-map" class="section alt">
+    <div class="wrap">
+      <div class="region-article" style="margin-bottom:24px;">
+        <div class="section-head reveal" style="margin-bottom:0;">
+          <div>
+            <span class="eyebrow">Real spots</span>
+            <h2 data-i18n="sec_category_findings_title">Real Spots Added by Travelers</h2>
+            <p data-i18n="sec_category_findings_desc">Real spots in this category, grouped by region. New additions show up here right away. Tap a pin to leave a recommendation vote too.</p>
+          </div>
+          <a id="categoryFullMapLink" href="/map?cat=pizza" class="link-all" data-i18n="link_full_map">View Full-Screen Map →</a>
+        </div>
+      </div>
+
+      <div class="embedded-map-card reveal" style="margin-bottom:32px;">
+        <div class="map-filter-panel embedded" id="homeFilterPanel">
+          <button type="button" class="filter-toggle" id="homeFilterToggleBtn">
+            <span class="filter-toggle-label"><span class="ico">🍽️</span><span data-i18n="filter_toggle_label">Browse Spots by Menu</span></span>
+            <span class="filter-toggle-chevron">▾</span>
+          </button>
+          <div class="filter-panel-body">
+            <div class="filter-panel-head">
+              <button class="filter-action-btn" id="homeSelectAllBtn" data-i18n="filter_select_all">Select All</button>
+              <button class="filter-action-btn" id="homeClearAllBtn" data-i18n="filter_clear_all">Clear All</button>
+            </div>
+            <div class="map-filter-bar" id="homeFilterBar"></div>
+          </div>
+        </div>
+        <div class="embedded-map-wrap">
+          <div id="homeMap"></div>
+          <div class="map-loading" id="homeMapLoading"><span class="spinner"></span><span data-i18n="map_loading">Loading spots...</span></div>
+          <div class="empty-note-float" id="homeEmptyNote">
+            <span class="ico">🗺️</span>
+            <span data-i18n-html="empty_note_html">No spots in this category yet.<br/>Be the first to discover one!</span>
+          </div>
+          <div class="map-fab-col">
+            <div class="fab-item">
+              <button class="round-fab" id="homeLocateBtn" data-i18n-title="locate_title" title="Find spots near me">📍</button>
+              <span class="fab-label" data-i18n="locate_title">Find spots near me</span>
+            </div>
+            <div class="fab-item">
+              <button class="add-fab" id="homeAddFab" data-i18n-title="add_title" title="Add your own spot">+</button>
+              <span class="fab-label" data-i18n="add_title">Add your own spot</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="region-article">
+        <div id="categorySpotsList">
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Taipei</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">Cura Pizza</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/taipei-pizza-cura-pizza-249">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Cura%20Pizza/@25.0254635,121.4966196,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=25.0254635&lng=121.4966196">View on Map →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Tainan</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">8818 Pizza Restaurant 比薩屋</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/tainan-pizza-8818-pizza-restaurant-584">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/8818%20Pizza%20Restaurant%20%E6%AF%94%E8%96%A9%E5%B1%8B/@22.9823181,120.2037033,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=22.9823181&lng=120.2037033">View on Map →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Yilan</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">Drifters Pizza Pub 漂流者披薩吧</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/yilan-pizza-drifters-pizza-pub-697">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Drifters%20Pizza%20Pub%20%E6%BC%82%E6%B5%81%E8%80%85%E6%8A%AB%E8%96%A9%E5%90%A7/@24.859217,121.823307,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=24.859217&lng=121.823307">View on Map →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">靜候披薩</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/yilan-pizza-167">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E9%9D%9C%E5%80%99%E6%8A%AB%E8%96%A9/@24.6829196,121.7954872,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=24.6829196&lng=121.7954872">View on Map →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">BOBO PIZZA</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/yilan-pizza-bobo-pizza-155">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/BOBO%20PIZZA/@24.7487352,121.7555329,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=24.7487352&lng=121.7555329">View on Map →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">笑ㄟCafé蘇澳店</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/yilan-pizza-cafe-145">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E7%AC%91%E3%84%9FCaf%C3%A9%E8%98%87%E6%BE%B3%E5%BA%97/@24.581013,121.8736424,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=24.581013&lng=121.8736424">View on Map →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">MIMI pizza義式手工披薩</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/yilan-pizza-mimi-pizza-132">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/MIMI%20pizza%E7%BE%A9%E5%BC%8F%E6%89%8B%E5%B7%A5%E6%8A%AB%E8%96%A9/@24.8297825,121.7724572,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=24.8297825&lng=121.7724572">View on Map →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Taitung</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">義大利隔壁手工披薩</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/taitung-pizza-453">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%9A%94%E5%A3%81%E6%89%8B%E5%B7%A5%E6%8A%AB%E8%96%A9/@22.7718485,121.1226841,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=22.7718485&lng=121.1226841">View on Map →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">Bread &amp; Circus Pizzeria/Bakery</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/taitung-pizza-bread-circus-pizzeria-bakery-392">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Bread%20%26%20Circus%20Pizzeria%2FBakery/@22.8935274,121.24723,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=22.8935274&lng=121.24723">View on Map →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">都蘭安堤歐義大利披薩Dulan Antteo A Mano Pizza</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/taitung-pizza-dulan-antteo-a-mano-pizza-390">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E9%83%BD%E8%98%AD%E5%AE%89%E5%A0%A4%E6%AD%90%E7%BE%A9%E5%A4%A7%E5%88%A9%E6%8A%AB%E8%96%A9Dulan%20Antteo%20A%20Mano%20Pizza/@22.8795012,121.2314183,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=22.8795012&lng=121.2314183">View on Map →</a>
+              </span>
+            </div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section tight">
+    <div class="cta-band reveal">
+      <div>
+        <span class="eyebrow" style="color:rgba(255,255,255,0.85)">Join the map</span>
+        <h2 data-i18n="cta_title">Share your own hidden gem 🤫</h2>
+        <p data-i18n="cta_desc">Your discovery helps other travelers experience the real Taiwan.</p>
+      </div>
+      <a href="/map" class="btn ghost" style="border-color:#fff;" data-i18n="cta_btn">Add a Spot Now →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <img class="mark" src="/assets/images/logo.webp" data-i18n-alt="brand_name" alt="My Secret Taiwan Eats" />
+          <div class="name"><span data-i18n="brand_name">My Secret Taiwan Eats</span><small data-i18n="brand_tagline">Taiwan food map, curated by travelers</small></div>
+        </div>
+        <p class="desc" data-i18n="footer_desc">A Taiwan restaurant map picked from real reviews by Korean travelers — a real local guide, built together.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_explore">Explore</h4>
+        <ul>
+          <li><a href="/en#categories" data-i18n="footer_categories">Find Spots</a></li>
+          <li><a href="/en#regions" data-i18n="footer_regions">Explore by Region</a></li>
+          <li><a href="/map" data-i18n="footer_map">Map</a></li>
+          <li><a href="/blog" data-i18n="footer_blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_join">Get Involved</h4>
+        <ul>
+          <li><a href="/map" data-i18n="footer_register">Add a Spot</a></li>
+          <li><a href="/profile" data-i18n="footer_mypage">My Page</a></li>
+          <li><a href="/about" data-i18n="footer_about">About</a></li>
+          <li><a href="/privacy" data-i18n="footer_privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_lang">Language</h4>
+        <ul>
+          <li><a class="footer-lang-btn" href="/category-pizza" data-lang="ko">한국어</a></li>
+          <li><a class="footer-lang-btn active" href="/en/category-pizza" data-lang="en">English</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2026 My Secret Taiwan Eats</span>
+      <span>Made for travelers, by travelers</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/data.js?v=1790588220"></script>
+<script src="/js/category-content.js?v=1790588220"></script>
+<script src="/js/i18n.js?v=1790588220"></script>
+<script src="/js/supabase-config.js?v=1790588220"></script>
+<script src="/js/admin.js?v=1790588220"></script>
+<script src="/js/app.js?v=1790588220"></script>
+<script src="/js/home-map.js?v=1790588220"></script>
+<script src="/js/category.js?v=1790588220"></script>
+<!-- Naver Analytics -->
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "1c1c692e90a9a80";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+</body>
+</html>

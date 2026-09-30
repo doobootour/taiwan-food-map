@@ -52,20 +52,36 @@ async function fetchAllSpots() {
 function fileForLoc(loc) {
   const pathname = new URL(loc).pathname;
   if (pathname === "/" || pathname === "") return "index.html";
+  // /en is en/index.html, not en.html (that file would collide with the en/ directory).
+  if (pathname === "/en") return "en/index.html";
   // /en/region-taipei → en/region-taipei.html (git lastmod of that file)
   const slug = pathname.replace(/^\//, "").replace(/\/$/, "");
   return `${slug}.html`;
 }
 
-const TAIPEI_KO = "https://taiwanbite.com/region-taipei";
-const TAIPEI_EN = "https://taiwanbite.com/en/region-taipei";
+function englishFileExists(loc) {
+  return fs.existsSync(path.join(root, fileForLoc(loc)));
+}
+
+function pairFor(loc) {
+  const pathname = new URL(loc).pathname;
+  if (pathname === "/" || pathname === "/en") {
+    return ["https://taiwanbite.com/", "https://taiwanbite.com/en"];
+  }
+  const match = pathname.match(/^\/(?:en\/)?((?:region|category)-[a-z0-9_]+)$/);
+  if (!match) return null;
+  return [`https://taiwanbite.com/${match[1]}`, `https://taiwanbite.com/en/${match[1]}`];
+}
 
 function xhtmlAlternates(loc) {
-  if (loc !== TAIPEI_KO && loc !== TAIPEI_EN) return "";
+  const pair = pairFor(loc);
+  if (!pair) return "";
+  const [ko, en] = pair;
+  if (!englishFileExists(en)) return "";
   return (
-    `<xhtml:link rel="alternate" hreflang="ko" href="${TAIPEI_KO}"/>` +
-    `<xhtml:link rel="alternate" hreflang="en" href="${TAIPEI_EN}"/>` +
-    `<xhtml:link rel="alternate" hreflang="x-default" href="${TAIPEI_KO}"/>`
+    `<xhtml:link rel="alternate" hreflang="ko" href="${ko}"/>` +
+    `<xhtml:link rel="alternate" hreflang="en" href="${en}"/>` +
+    `<xhtml:link rel="alternate" hreflang="x-default" href="${ko}"/>`
   );
 }
 
@@ -82,15 +98,21 @@ async function main() {
   });
   const comboKeys = Object.keys(byRegionCategory).filter(k => byRegionCategory[k].length >= MIN_COMBO_SPOTS);
 
+  const homeEn = "https://taiwanbite.com/en";
   const urls = [
     { loc: "https://taiwanbite.com/", changefreq: "weekly", priority: "1.0" },
+    ...(englishFileExists(homeEn) ? [{ loc: homeEn, changefreq: "weekly", priority: "1.0" }] : []),
     { loc: "https://taiwanbite.com/map", changefreq: "daily", priority: "0.9" },
     ...REGIONS.flatMap(r => {
       const ko = { loc: `https://taiwanbite.com/region-${r.id}`, changefreq: "weekly", priority: "0.8" };
-      if (r.id !== "taipei") return [ko];
-      return [ko, { loc: TAIPEI_EN, changefreq: "weekly", priority: "0.8" }];
+      const en = { loc: `https://taiwanbite.com/en/region-${r.id}`, changefreq: "weekly", priority: "0.8" };
+      return englishFileExists(en.loc) ? [ko, en] : [ko];
     }),
-    ...CATEGORIES.map(c => ({ loc: `https://taiwanbite.com/category-${c.id}`, changefreq: "weekly", priority: "0.7" })),
+    ...CATEGORIES.flatMap(c => {
+      const ko = { loc: `https://taiwanbite.com/category-${c.id}`, changefreq: "weekly", priority: "0.7" };
+      const en = { loc: `https://taiwanbite.com/en/category-${c.id}`, changefreq: "weekly", priority: "0.7" };
+      return englishFileExists(en.loc) ? [ko, en] : [ko];
+    }),
     ...comboKeys.map(k => {
       const [regionId, categoryId] = k.split("|");
       return { loc: `https://taiwanbite.com/${comboSlug(regionId, categoryId)}`, changefreq: "weekly", priority: "0.65" };
