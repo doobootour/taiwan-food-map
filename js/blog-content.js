@@ -273,6 +273,24 @@ const BLOG_LIST = [
     },
   },
 
+  {
+    slug: "taiwan-double-ten-national-day-2026",
+    image: "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg",
+    regions: ["taipei", "taitung"],
+    ko: {
+      eyebrow: "대만 여행 가이드 · 행사·연휴",
+      title: "2026 쌍십절 대만 여행, 연휴 기간에 가도 괜찮을까?",
+      desc: "2026 쌍십절 연휴에 대만을 간다면 — 불꽃놀이 장소, 국경 만회, 교통 통제와 숙소 팁을 정리했어요.",
+      meta: "대만 여행 · 행사 가이드",
+    },
+    en: {
+      eyebrow: "Taiwan Travel Guide · Events & Holidays",
+      title: "Traveling in Taiwan Over Double Ten 2026: Is the Holiday a Good Time?",
+      desc: "Heading to Taiwan over Double Ten 2026 — fireworks, the gala, road closures, and booking tips in one place.",
+      meta: "Taiwan Travel · Event Guide",
+    },
+  },
+
 ];
 
 const BLOG_POSTS = {
@@ -1702,6 +1720,111 @@ const BLOG_POSTS = {
         { type: "cta", title: "Find a Café to Cool Off on the Map", desc: "Look up cafés for escaping the heat or rain on the map.", btn: "Open Map →", href: "/map?region=taipei&cat=cafe" },
       ],
     },
+  },
+
+  "taiwan-double-ten-national-day-2026": {
+    heroImage: "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg",
+    ko: {
+      pageTitle: "2026 쌍십절 대만 여행 — 행사·교통 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "2026 쌍십절 대만 여행, 연휴(10/9~10/11)에 가도 괜찮을까요? 타이둥 불꽃놀이, 국경 만회, 총통부 주변 교통 통제를 정리했어요.",
+      ogTitle: "2026 쌍십절 대만 여행, 연휴 기간에 가도 괜찮을까?",
+      eyebrow: "대만 여행 가이드 · 행사·연휴",
+      title: "2026 쌍십절 대만 여행, 연휴 기간에 가도 괜찮을까?",
+      dek: "불꽃놀이는 타이베이가 아니라 타이둥, 국경 만회는 신베이 반차오 — 올해 행사 장소와 여행자가 겪는 교통·혼잡 변수를 날짜별로 모았습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "대만 여행 · 행사 가이드",
+      intro: "\"10월 초에 대만 가는데 쌍십절이랑 겹쳐요.\" 2026 쌍십절 대만 여행은 행사 장소와 연휴 여부에 따라 체감이 크게 달라져요. 쌍십절(10월 10일)은 대만의 국경일이라 볼거리도 많지만 사람도 몰립니다. 공식 발표와 실제 여행자들의 경험을 바탕으로 확인할 것을 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 2026 쌍십절 대만 여행 행사 한눈에 보기" },
+        {
+          type: "compareTable",
+          cities: ["국경 만회(國慶晚會)", "국경 대회(기념식)", "국경 불꽃놀이(國慶焰火)"],
+          rows: [
+            { label: "날짜", values: ["10월 9일(금) 저녁", "10월 10일(토) 오전", "10월 10일(토) 20:00, 약 30분(2026년 9월 기준 발표)"] },
+            { label: "장소", values: ["신베이 반차오 제1운동장", "타이베이 총통부 앞 광장", "타이둥시 베이난강 하구"] },
+            { label: "여행자 영향", values: ["반차오역 주변 혼잡", "총통부 주변 도로 통제", "타이둥행 교통·숙소 조기 매진"] },
+            { label: "참고", values: ["입장 방식은 주최 측 공지 확인", "TV·온라인 중계", "9/29 20:00 3분 시험 발사"] },
+          ],
+        },
+        { type: "h2", text: "02 · 연휴라서 달라지는 것" },
+        { type: "p", html: "2026년 10월 10일이 토요일이라 전날인 9일(금)이 보충 휴일로 지정돼 10월 9일부터 11일까지 3일 연휴입니다. 관공서와 은행은 쉬지만 대부분의 식당·쇼핑몰·관광지는 문을 열어요. 다만 국내 여행 수요가 몰려 기차표와 근교 숙소가 빨리 찬다는 점은 꼭 기억하세요." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "타이베이 총통부 주변 우회", desc: "총통부 일대는 9월 25일부터 10월 12일까지 단계별 교통 통제가 있어요. 시먼·중정기념당 쪽 버스 노선이 바뀔 수 있습니다." },
+            { mark: "✓", b: "타이둥 불꽃놀이는 교통부터", desc: "행사 당일 중화대교는 18:30~21:00 통제되고(2026년 9월 기준 발표), 끝난 뒤 타이둥발 타이베이행 임시열차(5267편, 21:56)가 추가됩니다." },
+            { mark: "✓", b: "연휴 전날 이동은 서두르기", desc: "9일(금) 오전과 11일(일) 오후 고속철·기차는 붐비기 쉬워 미리 예매하는 게 좋아요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg", caption: "대만(중화민국) 국기예요. 쌍십절 전후에는 거리와 건물 곳곳에 이 국기가 걸려요." },
+        { type: "h2", text: "03 · 행사를 볼까, 피할까" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "행사를 보고 싶다면", desc: "불꽃놀이는 타이둥까지 가야 해서 1박 이상 일정이 필요합니다. 타이베이에서는 타이베이101 연계 연출과 중계로 분위기를 느끼는 정도예요." },
+            { mark: "2", b: "조용히 여행하고 싶다면", desc: "행사 장소를 피해 타이베이 시내 위주로 다니면 평소 주말과 크게 다르지 않다는 후기가 많습니다." },
+            { mark: "3", b: "총통부 근처 숙소라면", desc: "기념식 당일 오전에는 도보 이동이 제한될 수 있으니 동선을 미리 확인하세요." },
+          ],
+        },
+        { type: "h2", text: "04 · 출발 직전에 다시 볼 것" },
+        { type: "p", html: "불꽃놀이는 날씨에 따라 일정이 바뀔 수 있고, 관람 구역과 셔틀도 주최 측 공지로 매년 달라집니다. 출발 2~3일 전 타이둥현 관광 사이트와 교통 통제 공지를 한 번 더 확인하는 걸 추천해요." },
+        { type: "quote", text: "\"쌍십절엔 행사장만 피하면 시내는 오히려 한산한 느낌.\" — 연휴에 타이베이를 다녀온 여행자들의 후기를 요약했습니다." },
+        { type: "p", html: "불꽃놀이를 보러 타이둥에 간다면 식당부터 정해두는 게 좋아요. <a href=\"/region-taitung\">타이둥 맛집 지도</a>와 <a href=\"/taitung-taiwanese\">타이둥 대만식 맛집</a> 모음을 참고하고, 가볍게 먹을 곳으로는 <a href=\"/taitung-street_food-goodfrying-379\">하오젠자(好煎炸)</a> 같은 노점도 있어요. 타이베이에 머문다면 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 통제 구역을 피한 동선을 짜보세요." },
+        { type: "note", text: "이 글은 중앙통신사(CNA)·타이둥현 정부 발표와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 28일 기준). 행사 시간과 통제 구간은 바뀔 수 있으니 방문 전 공식 공지를 다시 확인하는 것을 추천해요." },
+        { type: "cta", title: "지도에서 연휴에 갈 맛집도 찾아보세요", desc: "쌍십절 연휴에 들르기 좋은 타이베이 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
+      ],
+    },
+    en: {
+      pageTitle: "Double Ten 2026 Taiwan Travel Guide — Fireworks, Gala, Road Closures · My Secret Taiwan Eats",
+      metaDescription: "Visiting Taiwan over the 2026 Double Ten holiday (Oct 9–11)? Fireworks in Taitung, the National Day Gala in New Taipei, and road closures around Taipei's Presidential Office.",
+      ogTitle: "Traveling in Taiwan Over Double Ten 2026: Is the Holiday a Good Time?",
+      eyebrow: "Taiwan Travel Guide · Events & Holidays",
+      title: "Traveling in Taiwan Over Double Ten 2026: Is the Holiday a Good Time?",
+      dek: "The fireworks are in Taitung, not Taipei, and the gala is in Banqiao — this year's venues plus the transport and crowd issues travelers run into, day by day.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taiwan Travel · Event Guide",
+      intro: "\"My early October trip overlaps with Double Ten. More to see, or just more people?\" Double Ten (October 10) is Taiwan's National Day, and how it feels depends a lot on where events are held and whether there's a long weekend. Based on official announcements and real traveler experiences, here's what to check for 2026.",
+      blocks: [
+        { type: "h2", text: "01 · Double Ten 2026 Events at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["National Day Gala", "National Day Ceremony", "National Day Fireworks"],
+          rows: [
+            { label: "Date", values: ["Fri, Oct 9, evening", "Sat, Oct 10, morning", "Sat, Oct 10, 20:00, about 30 min (as of Sep 2026)"] },
+            { label: "Venue", values: ["Banqiao First Stadium, New Taipei", "Plaza in front of the Presidential Office, Taipei", "Beinan River mouth, Taitung City"] },
+            { label: "Impact", values: ["Crowds around Banqiao Station", "Road closures near the Presidential Office", "Transport and hotels to Taitung sell out early"] },
+            { label: "Note", values: ["Check organizer notices for entry", "Broadcast on TV and online", "3-min test launch Sep 29 at 20:00"] },
+          ],
+        },
+        { type: "h2", text: "02 · What Changes Over the Holiday" },
+        { type: "p", html: "Since October 10, 2026 falls on a Saturday, Friday the 9th is a make-up holiday, giving a three-day weekend from October 9 to 11. Government offices and banks close, but most restaurants, malls, and attractions stay open. Domestic travel spikes, though, so trains and hotels outside Taipei fill up fast." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Detour around the Presidential Office", desc: "Phased road closures run around the Presidential Office from September 25 to October 12, and bus routes near Ximen and CKS Memorial Hall may change." },
+            { mark: "✓", b: "For the Taitung fireworks, sort transport first", desc: "Zhonghua Bridge closes 18:30–21:00 on the day (as of Sep 2026), and an extra Taitung–Taipei train (No. 5267, 21:56) runs after the show." },
+            { mark: "✓", b: "Travel early before the holiday", desc: "HSR and trains get crowded Friday morning (9th) and Sunday afternoon (11th) — book ahead." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg", caption: "The flag of Taiwan (Republic of China) — around Double Ten, it hangs on streets and buildings everywhere." },
+        { type: "h2", text: "03 · Join the Events or Avoid Them?" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "If you want to see them", desc: "The fireworks require going to Taitung, so plan at least one night there. In Taipei, you'll mostly catch the atmosphere through Taipei 101's linked display and broadcasts." },
+            { mark: "2", b: "If you want a quiet trip", desc: "Travelers often say central Taipei feels like a normal weekend if you avoid the event venues." },
+            { mark: "3", b: "If your hotel is near the Presidential Office", desc: "Walking routes may be restricted on the morning of the ceremony, so check ahead." },
+          ],
+        },
+        { type: "h2", text: "04 · What to Recheck Right Before You Go" },
+        { type: "p", html: "The fireworks can shift with the weather, and viewing zones and shuttles change every year. Check the Taitung County tourism site and traffic control notices again two or three days before departure." },
+        { type: "quote", text: "\"Avoid the event venues and the city actually feels quieter on Double Ten.\" — a summary of reviews from travelers who spent the holiday in Taipei." },
+        { type: "p", html: "If you're heading to Taitung for the fireworks, pick restaurants ahead of time. Check the <a href=\"/region-taitung\">Taitung food map</a> and <a href=\"/taitung-taiwanese\">Taitung Taiwanese restaurants</a>, and for a light bite try a street stall like <a href=\"/taitung-street_food-goodfrying-379\">Hao Jian Zha (好煎炸)</a>. Staying in Taipei? Plan around the closures with the <a href=\"/region-taipei\">Taipei food map</a>." },
+        { type: "note", text: "This guide is based on announcements from CNA and the Taitung County Government, plus traveler experiences (as of September 28, 2026). Event times and closures can change, so check official notices before you go." },
+        { type: "cta", title: "Find Restaurants for the Long Weekend on the Map", desc: "Look up Taipei restaurants to visit over the Double Ten holiday.", btn: "Open Map →", href: "/map?region=taipei" },
+      ],
+    },
   }
+
 
 };
