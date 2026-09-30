@@ -9,12 +9,18 @@ function showToast(msg) {
 }
 
 // ===================== Render: regions =====================
+function guideHref(kind, id) {
+  const path = (location.pathname || "/").replace(/\/+$/, "") || "/";
+  const english = path === "/en" || path.startsWith("/en/");
+  return english ? `/en/${kind}-${id}` : `${kind}-${id}`;
+}
+
 const regionGrid = document.getElementById("regionGrid");
 function renderRegionGrid() {
   if (!regionGrid) return;
   const lang = getLang();
   regionGrid.innerHTML = REGIONS.map((r, i) => `
-    <a class="region-card reveal" style="--i:${i}" href="region-${r.id}">
+    <a class="region-card reveal" style="--i:${i}" href="${guideHref("region", r.id)}">
       <img src="${r.image}" alt="${lang === "en" ? r.en : r.ko}" loading="lazy" />
       <span class="tag">${lang === "en" ? r.tagEn : r.tagKo}</span>
       <div class="info">
@@ -32,7 +38,7 @@ function renderCategoryLinks() {
   if (!categoryLinkRow) return;
   const lang = getLang();
   categoryLinkRow.innerHTML = CATEGORIES.map(c => `
-    <a class="category-link-chip" href="category-${c.id}"><span>${c.icon}</span>${c[lang]}</a>
+    <a class="category-link-chip" href="${guideHref("category", c.id)}"><span>${c.icon}</span>${c[lang]}</a>
   `).join("");
 }
 renderCategoryLinks();
@@ -120,13 +126,24 @@ function syncLangUI(lang) {
 }
 syncLangUI(getLang());
 
-// Taipei pair only: real links, query string kept, and tfm_lang stored on click.
-(function wireTaipeiLangLinks() {
+// Home, region, and category pairs: real links, query string kept.
+// Click handler below stores tfm_lang without stopping navigation.
+(function wirePairedLangLinks() {
   const path = (location.pathname || "/").replace(/\/+$/, "") || "/";
-  if (path !== "/region-taipei" && path !== "/en/region-taipei") return;
+  let koHref = null;
+  let enHref = null;
+  if (path === "/" || path === "/en") {
+    koHref = "/";
+    enHref = "/en";
+  } else {
+    const match = path.match(/^\/(?:en\/)?((?:region|category)-[a-z0-9_]+)$/);
+    if (!match) return;
+    koHref = "/" + match[1];
+    enHref = "/en/" + match[1];
+  }
   const search = location.search || "";
-  document.querySelectorAll('a[data-lang][href="/region-taipei"], a[data-lang][href="/en/region-taipei"]').forEach(a => {
-    a.href = (a.dataset.lang === "en" ? "/en/region-taipei" : "/region-taipei") + search;
+  document.querySelectorAll("a[data-lang]").forEach(a => {
+    a.href = (a.dataset.lang === "en" ? enHref : koHref) + search;
   });
 })();
 

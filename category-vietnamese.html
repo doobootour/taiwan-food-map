@@ -15,6 +15,9 @@
 <link rel="icon" type="image/png" href="assets/favicon.png" />
 <title id="pageTitle">대만 베트남 맛집 가이드 · 나만 알고 싶은 대만 맛집</title>
 <link rel="canonical" href="https://taiwanbite.com/category-vietnamese" />
+<link rel="alternate" hreflang="ko" href="https://taiwanbite.com/category-vietnamese" />
+<link rel="alternate" hreflang="en" href="https://taiwanbite.com/en/category-vietnamese" />
+<link rel="alternate" hreflang="x-default" href="https://taiwanbite.com/category-vietnamese" />
 <meta id="pageDescription" name="description" content="대만 베트남 맛집 정보 — 포·반미부터 로컬 베트남 식당까지" />
 <meta property="og:type" content="article" />
 <meta id="ogUrl" property="og:url" content="https://taiwanbite.com/category-vietnamese" />
@@ -24,7 +27,7 @@
 <meta id="ogDescription" property="og:description" content="대만 베트남 맛집 정보 — 포·반미부터 로컬 베트남 식당까지" />
 <meta id="ogImage" property="og:image" content="https://taiwanbite.com/assets/images/categories/vietnamese.webp" />
 <meta name="twitter:card" content="summary_large_image" />
-<script type="application/ld+json" id="ldJson">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://taiwanbite.com/"},{"@type":"ListItem","position":2,"name":"카테고리","item":"https://taiwanbite.com/#categories"},{"@type":"ListItem","position":3,"name":"베트남 맛집 가이드","item":"https://taiwanbite.com/category-vietnamese"}]},{"@type":"CollectionPage","name":"베트남 맛집 가이드","description":"대만 베트남 맛집 정보 — 포·반미부터 로컬 베트남 식당까지","url":"https://taiwanbite.com/category-vietnamese","image":"https://taiwanbite.com/assets/images/categories/vietnamese.webp"},{"@type":"ItemList","name":"대만에 등록된 베트남 맛집","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"LocalBusiness","name":"越南小廚","geo":{"@type":"GeoCoordinates","latitude":22.611524,"longitude":121.007213}}},{"@type":"ListItem","position":2,"item":{"@type":"LocalBusiness","name":"Vietnam Banh Mi","geo":{"@type":"GeoCoordinates","latitude":24.140532,"longitude":120.682375}}},{"@type":"ListItem","position":3,"item":{"@type":"LocalBusiness","name":"小夏天 petit ete","geo":{"@type":"GeoCoordinates","latitude":24.138923,"longitude":120.6814528}}},{"@type":"ListItem","position":4,"item":{"@type":"LocalBusiness","name":"育婷越南法國麵包","geo":{"@type":"GeoCoordinates","latitude":25.0632628,"longitude":121.4952588}}},{"@type":"ListItem","position":5,"item":{"@type":"LocalBusiness","name":"Ming Jih","geo":{"@type":"GeoCoordinates","latitude":25.0696223,"longitude":121.6353008}}},{"@type":"ListItem","position":6,"item":{"@type":"LocalBusiness","name":"台越 精緻小吃","geo":{"@type":"GeoCoordinates","latitude":24.77938,"longitude":121.7410276}}}]}]}</script>
+<script type="application/ld+json" id="ldJson">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://taiwanbite.com/"},{"@type":"ListItem","position":2,"name":"카테고리","item":"https://taiwanbite.com/#categories"},{"@type":"ListItem","position":3,"name":"베트남 맛집 가이드","item":"https://taiwanbite.com/category-vietnamese"}]},{"@type":"CollectionPage","name":"베트남 맛집 가이드","description":"대만 베트남 맛집 정보 — 포·반미부터 로컬 베트남 식당까지","url":"https://taiwanbite.com/category-vietnamese","image":"https://taiwanbite.com/assets/images/categories/vietnamese.webp"},{"@type":"ItemList","name":"대만에 등록된 베트남 맛집","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"LocalBusiness","name":"越南小廚","geo":{"@type":"GeoCoordinates","latitude":22.611524,"longitude":121.007213}}},{"@type":"ListItem","position":2,"item":{"@type":"LocalBusiness","name":"小夏天 petit ete","geo":{"@type":"GeoCoordinates","latitude":24.138923,"longitude":120.6814528}}},{"@type":"ListItem","position":3,"item":{"@type":"LocalBusiness","name":"Vietnam Banh Mi","geo":{"@type":"GeoCoordinates","latitude":24.140532,"longitude":120.682375}}},{"@type":"ListItem","position":4,"item":{"@type":"LocalBusiness","name":"育婷越南法國麵包","geo":{"@type":"GeoCoordinates","latitude":25.0632628,"longitude":121.4952588}}},{"@type":"ListItem","position":5,"item":{"@type":"LocalBusiness","name":"Ming Jih","geo":{"@type":"GeoCoordinates","latitude":25.0696223,"longitude":121.6353008}}},{"@type":"ListItem","position":6,"item":{"@type":"LocalBusiness","name":"台越 精緻小吃","geo":{"@type":"GeoCoordinates","latitude":24.77938,"longitude":121.7410276}}}]}]}</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,8 +58,8 @@
       <div class="lang-switch">
         <button class="lang-btn" id="langBtn">KO ▾</button>
         <div class="lang-menu" id="langMenu">
-          <button data-lang="ko" class="active">한국어</button>
-          <button data-lang="en">English</button>
+          <a href="/category-vietnamese" data-lang="ko" class="active">한국어</a>
+          <a href="/en/category-vietnamese" data-lang="en">English</a>
         </div>
       </div>
       <a href="/map" class="btn primary" style="padding:10px 20px;font-size:13px;" data-i18n="btn_register">맛집 등록하기</a>
@@ -193,19 +196,19 @@
           <div class="region-spots-group-head"><span class="ico">📍</span><span>타이중</span></div>
           
             <div class="region-spot-card">
-              <span class="name">Vietnam Banh Mi</span>
-              <span class="region-spot-links">
-                <a class="view-link" href="/taichung-vietnamese-vietnam-banh-mi-315">상세 보기 →</a>
-                <a class="view-link google-link" href="https://www.google.com/maps/search/Vietnam%20Banh%20Mi/@24.140532,120.682375,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
-                <a class="view-link" href="/map?lat=24.140532&lng=120.682375">지도에서 보기 →</a>
-              </span>
-            </div>
-            <div class="region-spot-card">
               <span class="name">小夏天 petit ete</span>
               <span class="region-spot-links">
                 <a class="view-link" href="/taichung-vietnamese-petit-ete-362">상세 보기 →</a>
                 <a class="view-link google-link" href="https://www.google.com/maps/search/%E5%B0%8F%E5%A4%8F%E5%A4%A9%20petit%20ete/@24.138923,120.6814528,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
                 <a class="view-link" href="/map?lat=24.138923&lng=120.6814528">지도에서 보기 →</a>
+              </span>
+            </div>
+            <div class="region-spot-card">
+              <span class="name">Vietnam Banh Mi</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/taichung-vietnamese-vietnam-banh-mi-315">상세 보기 →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Vietnam%20Banh%20Mi/@24.140532,120.682375,17z" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link" href="/map?lat=24.140532&lng=120.682375">지도에서 보기 →</a>
               </span>
             </div>
         </div>
@@ -281,8 +284,8 @@
       <div class="footer-col">
         <h4 data-i18n="footer_lang">언어</h4>
         <ul>
-          <li><button class="footer-lang-btn active" data-lang="ko">한국어</button></li>
-          <li><button class="footer-lang-btn" data-lang="en">English</button></li>
+          <li><a class="footer-lang-btn active" href="/category-vietnamese" data-lang="ko">한국어</a></li>
+          <li><a class="footer-lang-btn" href="/en/category-vietnamese" data-lang="en">English</a></li>
         </ul>
       </div>
     </div>

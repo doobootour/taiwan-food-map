@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4BQHKRWZE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R4BQHKRWZE');
+</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#c2703f" />
+<link rel="icon" type="image/png" href="/assets/favicon.png" />
+<title>My Secret Taiwan Eats</title>
+<meta name="description" content="A Taiwan food map picked from real reviews by Korean travelers. Browse beef noodles, dim sum, shaved ice, and street food by category, then pin your own spots on the map." />
+<meta name="keywords" content="Taiwan food, Taiwan travel, Taiwan food map, Taipei food, Hualien food, beef noodle, night market, TaiwanBite" />
+<link rel="canonical" href="https://taiwanbite.com/en" />
+<link rel="alternate" hreflang="ko" href="https://taiwanbite.com/" />
+<link rel="alternate" hreflang="en" href="https://taiwanbite.com/en" />
+<link rel="alternate" hreflang="x-default" href="https://taiwanbite.com/" />
+<meta name="google-site-verification" content="0x6WKN_lB6TCh8cunUpZXMC9bEcrLgIWppfuYeymcc8" />
+<meta name="google-site-verification" content="pdtGjw1YJD2oJwrGkr2aWIKG1Q4Mz6dIneAp48xasDg" />
+<meta name="naver-site-verification" content="c760158ee2fd3014c8e85810a84d8252241b4dfd" />
+<meta name="naver-site-verification" content="6a03b8a3bd2fd2a642c19886d291be117b081089" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://taiwanbite.com/en" />
+<meta property="og:site_name" content="My Secret Taiwan Eats" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="My Secret Taiwan Eats" />
+<meta property="og:description" content="A Taiwan food map picked from real reviews by Korean travelers. Browse beef noodles, dim sum, shaved ice, and street food by category, then pin your own spots on the map." />
+<meta property="og:image" content="https://taiwanbite.com/assets/images/hero/flatlay_2-og.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"My Secret Taiwan Eats","alternateName":"Taiwan Food Map","url":"https://taiwanbite.com/en"},{"@type":"Organization","name":"My Secret Taiwan Eats","url":"https://taiwanbite.com/en","logo":"https://taiwanbite.com/assets/images/logo.webp"}]}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+
+<link rel="stylesheet" href="/css/styles.css?v=1790588220" />
+</head>
+<body>
+
+<header id="site-header">
+  <div class="wrap">
+    <a href="/en" class="brand">
+      <img class="mark" src="/assets/images/logo.webp" data-i18n-alt="brand_name" alt="My Secret Taiwan Eats" />
+      <div class="name"><span data-i18n="brand_name">My Secret Taiwan Eats</span><small data-i18n="brand_tagline">Taiwan food map, curated by travelers</small></div>
+    </a>
+
+    <nav id="site-nav">
+      <a href="/en" class="active" data-i18n="nav_home">Home</a>
+      <a href="/en#categories" data-i18n="nav_categories">Find Spots</a>
+      <a href="/en#regions" data-i18n="nav_regions">Explore by Region</a>
+      <a href="/map" data-i18n="nav_map">View Map</a>
+      <a href="/blog" data-i18n="nav_blog">Blog</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn">EN ▾</button>
+        <div class="lang-menu" id="langMenu">
+          <a href="/" data-lang="ko">한국어</a>
+          <a href="/en" data-lang="en" class="active">English</a>
+        </div>
+      </div>
+      <a href="/map?add=1" class="btn primary" style="padding:10px 20px;font-size:13px;" data-i18n="btn_register">Add a Spot</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section id="home" class="hero">
+    <img class="hero-img" src="/assets/images/hero/flatlay_2.webp" alt="Signature Taiwan dishes laid over a map of Taiwan" />
+    <div class="hero-scrim"></div>
+    <div class="hero-content reveal">
+      <span class="eyebrow" data-i18n="hero_eyebrow">Taiwan Food Map</span>
+      <h1 data-i18n-html="hero_title_html">Down to the very last alley —<br/><em>your own</em> Taiwan food map.</h1>
+      <p data-i18n="hero_sub">From hidden alley eateries only locals know to the latest trending desserts — discover Taiwan spots picked from real reviews by Korean travelers, all on one map.</p>
+      <div class="hero-actions">
+        <a href="/en#categories" class="btn primary" data-i18n="hero_cta_primary">Find Spots Now →</a>
+        <a href="/en#regions" class="btn ghost" data-i18n="hero_cta_secondary">Browse by Region</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b id="heroStatCount">631</b><span data-i18n="hero_stat_count">Live Spots Registered</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RECENT CONTRIBUTORS BANNER ================= -->
+  <div class="recent-banner-wrap">
+    <div class="recent-banner reveal" id="recentBanner" style="display:none;">
+      <span class="rb-emoji">🎉</span>
+      <span class="rb-label" data-i18n="recent_contributors_label">Travelers who recently shared a spot</span>
+      <div class="rb-marquee">
+        <div class="rb-track" id="recentBannerNames"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= CATEGORIES + MAP ================= -->
+  <section id="categories" class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">What to eat</span>
+          <h2 data-i18n="sec_categories_title">What Should We Eat?</h2>
+          <p data-i18n="sec_categories_desc">Pick from 31 categories to find spots on the map, or search near you. Found a hidden gem of your own? Tap a pin and recommend it to fellow travelers worldwide.</p>
+        </div>
+        <a href="/map" class="link-all" data-i18n="link_full_map">View Full-Screen Map →</a>
+      </div>
+
+      <div class="category-links reveal">
+        <span class="category-links-label" data-i18n="sec_categories_more">Explore More by Category</span>
+        <div class="category-link-row" id="categoryLinkRow">
+    <a class="category-link-chip" href="/en/category-beef_noodle"><span>🍜</span>Beef Noodle</a>
+    <a class="category-link-chip" href="/en/category-noodle"><span>🍝</span>Noodles</a>
+    <a class="category-link-chip" href="/en/category-japanese"><span>🍣</span>Japanese</a>
+    <a class="category-link-chip" href="/en/category-seafood"><span>🦐</span>Seafood</a>
+    <a class="category-link-chip" href="/en/category-ramen"><span>🍥</span>Ramen</a>
+    <a class="category-link-chip" href="/en/category-hotpot"><span>🍲</span>Hot Pot</a>
+    <a class="category-link-chip" href="/en/category-breakfast"><span>🍳</span>Breakfast</a>
+    <a class="category-link-chip" href="/en/category-brunch"><span>🥞</span>Brunch</a>
+    <a class="category-link-chip" href="/en/category-cafe"><span>☕</span>Café</a>
+    <a class="category-link-chip" href="/en/category-shaved_ice"><span>🍧</span>Shaved Ice</a>
+    <a class="category-link-chip" href="/en/category-korean"><span>🍚</span>Korean</a>
+    <a class="category-link-chip" href="/en/category-pasta"><span>🍝</span>Pasta</a>
+    <a class="category-link-chip" href="/en/category-bbq"><span>🍖</span>BBQ</a>
+    <a class="category-link-chip" href="/en/category-steak"><span>🥩</span>Steak</a>
+    <a class="category-link-chip" href="/en/category-dimsum"><span>🥟</span>Dim Sum</a>
+    <a class="category-link-chip" href="/en/category-goose"><span>🦢</span>Goose</a>
+    <a class="category-link-chip" href="/en/category-street_food"><span>🥙</span>Street Food</a>
+    <a class="category-link-chip" href="/en/category-mart"><span>🛒</span>Mart</a>
+    <a class="category-link-chip" href="/en/category-fruit"><span>🍉</span>Fruit</a>
+    <a class="category-link-chip" href="/en/category-thai"><span>🌶️</span>Thai</a>
+    <a class="category-link-chip" href="/en/category-vietnamese"><span>🥖</span>Vietnamese</a>
+    <a class="category-link-chip" href="/en/category-indian"><span>🍛</span>Indian</a>
+    <a class="category-link-chip" href="/en/category-taiwanese"><span>🍗</span>Taiwanese</a>
+    <a class="category-link-chip" href="/en/category-pizza"><span>🍕</span>Pizza</a>
+    <a class="category-link-chip" href="/en/category-stinky_tofu"><span>🧇</span>Stinky Tofu</a>
+    <a class="category-link-chip" href="/en/category-bakery"><span>🥐</span>Bakery</a>
+    <a class="category-link-chip" href="/en/category-bar"><span>🍸</span>Bar</a>
+    <a class="category-link-chip" href="/en/category-gift_shop"><span>🎁</span>Gift Shop</a>
+    <a class="category-link-chip" href="/en/category-attraction"><span>🎡</span>Experience</a>
+    <a class="category-link-chip" href="/en/category-shopping"><span>🛍️</span>Shopping</a>
+    <a class="category-link-chip" href="/en/category-liquor_shop"><span>🍾</span>Liquor Shop</a>
+      </div>
+      </div>
+
+      <div class="embedded-map-card reveal">
+        <div class="map-filter-panel embedded" id="homeFilterPanel">
+          <button type="button" class="filter-toggle" id="homeFilterToggleBtn">
+            <span class="filter-toggle-label"><span class="ico">🍽️</span><span data-i18n="filter_toggle_label">Browse Spots by Menu</span></span>
+            <span class="filter-toggle-chevron">▾</span>
+          </button>
+          <div class="filter-panel-body">
+            <div class="filter-panel-head">
+              <button class="filter-action-btn" id="homeSelectAllBtn" data-i18n="filter_select_all">Select All</button>
+              <button class="filter-action-btn" id="homeClearAllBtn" data-i18n="filter_clear_all">Clear All</button>
+            </div>
+            <div class="map-filter-bar" id="homeFilterBar"></div>
+          </div>
+        </div>
+        <div class="embedded-map-wrap">
+          <div id="homeMap"></div>
+          <div class="map-loading" id="homeMapLoading"><span class="spinner"></span><span data-i18n="map_loading">Loading spots...</span></div>
+          <div class="empty-note-float" id="homeEmptyNote">
+            <span class="ico">🗺️</span>
+            <span data-i18n-html="empty_note_html">No spots in this category yet.<br/>Be the first to discover one!</span>
+          </div>
+          <div class="map-fab-col">
+            <div class="fab-item">
+              <button class="round-fab" id="homeLocateBtn" data-i18n-title="locate_title" title="Find spots near me">📍</button>
+              <span class="fab-label" data-i18n="locate_title">Find spots near me</span>
+            </div>
+            <div class="fab-item">
+              <button class="add-fab" id="homeAddFab" data-i18n-title="add_title" title="Add your own spot">+</button>
+              <span class="fab-label" data-i18n="add_title">Add your own spot</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REGIONS ================= -->
+  <section id="regions" class="section alt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Explore by region</span>
+          <h2 data-i18n="sec_regions_title">Explore by Region</h2>
+          <p data-i18n="sec_regions_desc">Every region in Taiwan has its own local food scene — pick the one that matches your route.</p>
+        </div>
+      </div>
+      <div class="region-grid" id="regionGrid">
+    <a class="region-card reveal" style="--i:0" href="/en/region-taipei">
+      <img src="/assets/images/regions/taipei.webp" alt="Taipei" loading="lazy" />
+      <span class="tag">Foodie Mecca</span>
+      <div class="info">
+        <div class="name">Taipei</div>
+        <div class="sub">From century-old eateries to Michelin stars, the capital where all of Taiwan's food comes together</div>
+      </div>
+    </a>
+    <a class="region-card reveal" style="--i:1" href="/en/region-jiufen">
+      <img src="/assets/images/regions/jiufen.webp" alt="Taipei Suburbs (Yehliu, Shifen, Shifen Waterfall, Jinguashi, Jiufen)" loading="lazy" />
+      <span class="tag">Yehliu &amp; Shifen Coastal Trail</span>
+      <div class="info">
+        <div class="name">Taipei Suburbs (Yehliu, Shifen, Shifen Waterfall, Jinguashi, Jiufen)</div>
+        <div class="sub">From dramatic rock coastlines to lantern-lit alleys</div>
+      </div>
+    </a>
+    <a class="region-card reveal" style="--i:2" href="/en/region-kaohsiung">
+      <img src="/assets/images/regions/kaohsiung.webp" alt="Kaohsiung" loading="lazy" />
+      <span class="tag">Harbor City Energy</span>
+      <div class="info">
+        <div class="name">Kaohsiung</div>
+        <div class="sub">Fiery southern flavors where the Liuhe Night Market meets harbor charm</div>
+      </div>
+    </a>
+    <a class="region-card reveal" style="--i:3" href="/en/region-taichung">
+      <img src="/assets/images/regions/taichung.webp" alt="Taichung" loading="lazy" />
+      <span class="tag">Birthplace of Bubble Tea</span>
+      <div class="info">
+        <div class="name">Taichung</div>
+        <div class="sub">A laid-back city of cafés and desserts</div>
+      </div>
+    </a>
+    <a class="region-card reveal" style="--i:4" href="/en/region-tainan">
+      <img src="/assets/images/regions/tainan.webp" alt="Tainan" loading="lazy" />
+      <span class="tag">Old Capital Flavors</span>
+      <div class="info">
+        <div class="name">Tainan</div>
+        <div class="sub">The roots of Taiwanese cuisine</div>
+      </div>
+    </a>
+    <a class="region-card reveal" style="--i:5" href="/en/region-hualien">
+      <img src="/assets/images/regions/hualien.webp" alt="Hualien" loading="lazy" />
+      <span class="tag">Taroko Gorge Eats</span>
+      <div class="info">
+        <div class="name">Hualien</div>
+        <div class="sub">The most vibrant food city</div>
+      </div>
+    </a>
+    <a class="region-card reveal" style="--i:6" href="/en/region-yilan">
+      <img src="/assets/images/regions/yilan.webp" alt="Yilan" loading="lazy" />
+      <span class="tag">Luodong Market &amp; Hot Springs</span>
+      <div class="info">
+        <div class="name">Yilan</div>
+        <div class="sub">A local flavor town scented with scallions</div>
+      </div>
+    </a>
+    <a class="region-card reveal" style="--i:7" href="/en/region-taitung">
+      <img src="/assets/images/regions/taitung.webp" alt="Taitung" loading="lazy" />
+      <span class="tag">Hot Air Balloons &amp; Slow Life</span>
+      <div class="info">
+        <div class="name">Taitung</div>
+        <div class="sub">A laid-back green highland on the east coast</div>
+      </div>
+    </a>
+    <a class="region-card reveal" style="--i:8" href="/en/region-alishan">
+      <img src="/assets/images/regions/alishan.webp" alt="Alishan / Sun Moon Lake" loading="lazy" />
+      <span class="tag">Sunrise Above the Clouds</span>
+      <div class="info">
+        <div class="name">Alishan / Sun Moon Lake</div>
+        <div class="sub">A mountain escape linking Alishan and Sun Moon Lake</div>
+      </div>
+    </a>
+    </div>
+  </div>
+</section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section tight">
+    <div class="cta-band reveal">
+      <div>
+        <span class="eyebrow" style="color:rgba(255,255,255,0.85)">Join the map</span>
+        <h2 data-i18n="cta_title">Share your own hidden gem 🤫</h2>
+        <p data-i18n="cta_desc">Your discovery helps other travelers experience the real Taiwan.</p>
+      </div>
+      <a href="/map" class="btn ghost" style="border-color:#fff;" data-i18n="cta_btn">Add a Spot Now →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <img class="mark" src="/assets/images/logo.webp" data-i18n-alt="brand_name" alt="My Secret Taiwan Eats" />
+          <div class="name"><span data-i18n="brand_name">My Secret Taiwan Eats</span><small data-i18n="brand_tagline">Taiwan food map, curated by travelers</small></div>
+        </div>
+        <p class="desc" data-i18n="footer_desc">A Taiwan restaurant map picked from real reviews by Korean travelers — a real local guide, built together.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_explore">Explore</h4>
+        <ul>
+          <li><a href="/en#categories" data-i18n="footer_categories">Find Spots</a></li>
+          <li><a href="/en#regions" data-i18n="footer_regions">Explore by Region</a></li>
+          <li><a href="/map" data-i18n="footer_map">Map</a></li>
+          <li><a href="/blog" data-i18n="footer_blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_join">Get Involved</h4>
+        <ul>
+          <li><a href="/map" data-i18n="footer_register">Add a Spot</a></li>
+          <li><a href="/profile" data-i18n="footer_mypage">My Page</a></li>
+          <li><a href="/about" data-i18n="footer_about">About</a></li>
+          <li><a href="/privacy" data-i18n="footer_privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_lang">Language</h4>
+        <ul>
+          <li><a class="footer-lang-btn" href="/" data-lang="ko">한국어</a></li>
+          <li><a class="footer-lang-btn active" href="/en" data-lang="en">English</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2026 My Secret Taiwan Eats</span>
+      <span>Made for travelers, by travelers</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/data.js?v=1790588220"></script>
+<script src="/js/i18n.js?v=1790588220"></script>
+<script src="/js/supabase-config.js?v=1790588220"></script>
+<script src="/js/admin.js?v=1790588220"></script>
+<script src="/js/app.js?v=1790588220"></script>
+<script src="/js/home-map.js?v=1790588220"></script>
+<!-- Naver Analytics -->
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "1c1c692e90a9a80";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+</body>
+</html>

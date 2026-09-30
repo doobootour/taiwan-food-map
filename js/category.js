@@ -44,7 +44,9 @@
     const descEl = document.getElementById("pageDescription");
     if (descEl) descEl.setAttribute("content", lang === "en" ? `${name} in Taiwan — ${sub}` : `대만 ${name} 맛집 정보 — ${sub}`);
 
-    document.getElementById("categoryHeroImg").src = `assets/images/categories/${category.id}.webp`;
+    const heroSrc = `assets/images/categories/${category.id}.webp`;
+    const onEnPath = location.pathname === "/en" || location.pathname.startsWith("/en/");
+    document.getElementById("categoryHeroImg").src = onEnPath ? `/${heroSrc}` : heroSrc;
     document.getElementById("categoryHeroImg").alt = name;
     document.getElementById("categoryEyebrow").textContent = tag;
     document.getElementById("categoryTitle").innerHTML = lang === "en" ? `${name} in Taiwan` : `대만 ${name} 맛집 가이드`;

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4BQHKRWZE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R4BQHKRWZE');
+</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#c2703f" />
+<link rel="icon" type="image/png" href="/assets/favicon.png" />
+<title id="pageTitle">Thai in Taiwan · My Secret Taiwan Eats</title>
+<link rel="canonical" href="https://taiwanbite.com/en/category-thai" />
+<link rel="alternate" hreflang="ko" href="https://taiwanbite.com/category-thai" />
+<link rel="alternate" hreflang="en" href="https://taiwanbite.com/en/category-thai" />
+<link rel="alternate" hreflang="x-default" href="https://taiwanbite.com/category-thai" />
+<meta id="pageDescription" name="description" content="Thai in Taiwan — Sour, sweet, and spicy — Taiwan's Thai food scene" />
+<meta property="og:type" content="article" />
+<meta id="ogUrl" property="og:url" content="https://taiwanbite.com/en/category-thai" />
+<meta property="og:site_name" content="My Secret Taiwan Eats" />
+<meta property="og:locale" content="en_US" />
+<meta id="ogTitle" property="og:title" content="Thai in Taiwan · My Secret Taiwan Eats" />
+<meta id="ogDescription" property="og:description" content="Thai in Taiwan — Sour, sweet, and spicy — Taiwan's Thai food scene" />
+<meta id="ogImage" property="og:image" content="https://taiwanbite.com/assets/images/categories/thai.webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json" id="ldJson">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://taiwanbite.com/en"},{"@type":"ListItem","position":2,"name":"Find Spots","item":"https://taiwanbite.com/en#categories"},{"@type":"ListItem","position":3,"name":"Thai in Taiwan","item":"https://taiwanbite.com/en/category-thai"}]},{"@type":"CollectionPage","name":"Thai in Taiwan","description":"Thai in Taiwan — Sour, sweet, and spicy — Taiwan's Thai food scene","url":"https://taiwanbite.com/en/category-thai","image":"https://taiwanbite.com/assets/images/categories/thai.webp"},{"@type":"ItemList","name":"Thai in Taiwan","numberOfItems":3,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"LocalBusiness","name":"Song Dang Yeshi Restaurant 送噹夜市餐廳","geo":{"@type":"GeoCoordinates","latitude":22.6258384,"longitude":120.2767813}}},{"@type":"ListItem","position":2,"item":{"@type":"LocalBusiness","name":"JL STUDIO","geo":{"@type":"GeoCoordinates","latitude":24.1504844,"longitude":120.6285429}}},{"@type":"ListItem","position":3,"item":{"@type":"LocalBusiness","name":"Mi Dang Thai Barbeque","geo":{"@type":"GeoCoordinates","latitude":23.9696001,"longitude":121.6043606}}}]}]}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+
+<link rel="stylesheet" href="/css/styles.css?v=1790588220" />
+</head>
+<body>
+
+<header id="site-header">
+  <div class="wrap">
+    <a href="/en" class="brand">
+      <img class="mark" src="/assets/images/logo.webp" data-i18n-alt="brand_name" alt="My Secret Taiwan Eats" />
+      <div class="name"><span data-i18n="brand_name">My Secret Taiwan Eats</span><small data-i18n="brand_tagline">Taiwan food map, curated by travelers</small></div>
+    </a>
+
+    <nav id="site-nav">
+      <a href="/en" data-i18n="nav_home">Home</a>
+      <a href="/en#categories" class="active" data-i18n="nav_categories">Find Spots</a>
+      <a href="/en#regions" data-i18n="nav_regions">Explore by Region</a>
+      <a href="/map" data-i18n="nav_map">View Map</a>
+      <a href="/blog" data-i18n="nav_blog">Blog</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn">EN ▾</button>
+        <div class="lang-menu" id="langMenu">
+          <a href="/category-thai" data-lang="ko">한국어</a>
+          <a href="/en/category-thai" data-lang="en" class="active">English</a>
+        </div>
+      </div>
+      <a href="/map" class="btn primary" style="padding:10px 20px;font-size:13px;" data-i18n="btn_register">Add a Spot</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero region-hero">
+    <img class="hero-img" id="categoryHeroImg" src="/assets/images/categories/thai.webp" alt="Thai" />
+    <div class="hero-scrim"></div>
+    <div class="hero-content reveal">
+      <span class="eyebrow" id="categoryEyebrow">A Crossroads of Southeast Asian Flavor</span>
+      <h1 id="categoryTitle">Thai in Taiwan</h1>
+      <p id="categoryTagline">Sour, sweet, and spicy — Taiwan's Thai food scene</p>
+      <div class="hero-actions">
+        <a href="#category-map" class="btn primary" data-i18n="hero_btn_category_map">View This Category's Food Map ↓</a>
+        <a href="/en#categories" class="btn ghost" data-i18n="hero_btn_other_categories">See Other Categories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ARTICLE ================= -->
+  <section class="section">
+    <div class="wrap region-article">
+      <p class="region-intro" id="categoryIntro">Thanks to a sizable Southeast Asian migrant community, Thai food is well established in Taiwan. Options range from crowd-pleasers like tom yum and pad thai to community favorites with more authentic flavor.</p>
+
+      <h2 class="region-h2" data-i18n="category_h2_tips">What Makes It Special?</h2>
+      <div class="region-highlight-grid" id="categoryTips">
+        <div class="region-highlight-card reveal in" style="--i:0">
+          <span class="num">01</span>
+          <div>
+            <h3>Adjust the spice</h3>
+            <p>Some places tone it down for local tastes — ask for it 'Thai spicy' if you want the real heat.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:1">
+          <span class="num">02</span>
+          <div>
+            <h3>Lunch sets</h3>
+            <p>Weekday lunch sets (fried rice, pad thai) are often good value.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:2">
+          <span class="num">03</span>
+          <div>
+            <h3>Community favorites</h3>
+            <p>Restaurants in migrant-worker hubs tend to serve more authentic flavors.</p>
+          </div>
+        </div></div>
+
+      <h2 class="region-h2" data-i18n="category_h2_checklist">How to Enjoy It</h2>
+      <ul class="region-activity-list" id="categoryChecklist">
+        <li><span class="check">✓</span>Settle on your spice level when ordering</li>
+        <li><span class="check">✓</span>Take advantage of lunch-set hours (roughly 11:30am–2pm)</li>
+        <li><span class="check">✓</span>You can ask for cilantro (香菜) to be left out</li>
+        <li><span class="check">✓</span>Community-area restaurants tend to be cash-only</li></ul>
+    </div>
+  </section>
+
+  <!-- ================= REGISTERED SPOTS + MAP ================= -->
+  <section id="category-map" class="section alt">
+    <div class="wrap">
+      <div class="region-article" style="margin-bottom:24px;">
+        <div class="section-head reveal" style="margin-bottom:0;">
+          <div>
+            <span class="eyebrow">Real spots</span>
+            <h2 data-i18n="sec_category_findings_title">Real Spots Added by Travelers</h2>
+            <p data-i18n="sec_category_findings_desc">Real spots in this category, grouped by region. New additions show up here right away. Tap a pin to leave a recommendation vote too.</p>
+          </div>
+          <a id="categoryFullMapLink" href="/map?cat=thai" class="link-all" data-i18n="link_full_map">View Full-Screen Map →</a>
+        </div>
+      </div>
+
+      <div class="embedded-map-card reveal" style="margin-bottom:32px;">
+        <div class="map-filter-panel embedded" id="homeFilterPanel">
+          <button type="button" class="filter-toggle" id="homeFilterToggleBtn">
+            <span class="filter-toggle-label"><span class="ico">🍽️</span><span data-i18n="filter_toggle_label">Browse Spots by Menu</span></span>
+            <span class="filter-toggle-chevron">▾</span>
+          </button>
+          <div class="filter-panel-body">
+            <div class="filter-panel-head">
+              <button class="filter-action-btn" id="homeSelectAllBtn" data-i18n="filter_select_all">Select All</button>
+              <button class="filter-action-btn" id="homeClearAllBtn" data-i18n="filter_clear_all">Clear All</button>
+            </div>
+            <div class="map-filter-bar" id="homeFilterBar"></div>
+          </div>
+        </div>
+        <div class="embedded-map-wrap">
+          <div id="homeMap"></div>
+          <div class="map-loading" id="homeMapLoading"><span class="spinner"></span><span data-i18n="map_loading">Loading spots...</span></div>
+          <div class="empty-note-float" id="homeEmptyNote">
+            <span class="ico">🗺️</span>
+            <span data-i18n-html="empty_note_html">No spots in this category yet.<br/>Be the first to discover one!</span>
+          </div>
+          <div class="map-fab-col">
+            <div class="fab-item">
+              <button class="round-fab" id="homeLocateBtn" data-i18n-title="locate_title" title="Find spots near me">📍</button>
+              <span class="fab-label" data-i18n="locate_title">Find spots near me</span>
+            </div>
+            <div class="fab-item">
+              <button class="add-fab" id="homeAddFab" data-i18n-title="add_title" title="Add your own spot">+</button>
+              <span class="fab-label" data-i18n="add_title">Add your own spot</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="region-article">
+        <div id="categorySpotsList">
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Kaohsiung</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">Song Dang Yeshi Restaurant 送噹夜市餐廳</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/kaohsiung-thai-song-dang-yeshi-restaurant-808">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Song%20Dang%20Yeshi%20Restaurant%20%E9%80%81%E5%99%B9%E5%A4%9C%E5%B8%82%E9%A4%90%E5%BB%B3/@22.6258384,120.2767813,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=22.6258384&lng=120.2767813">View on Map →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Taichung</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">JL STUDIO</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/taichung-thai-jl-studio-360">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/JL%20STUDIO/@24.1504844,120.6285429,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=24.1504844&lng=120.6285429">View on Map →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Hualien</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">Mi Dang Thai Barbeque</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/hualien-thai-mi-dang-thai-barbeque-39">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/Mi%20Dang%20Thai%20Barbeque/@23.9696001,121.6043606,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=23.9696001&lng=121.6043606">View on Map →</a>
+              </span>
+            </div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section tight">
+    <div class="cta-band reveal">
+      <div>
+        <span class="eyebrow" style="color:rgba(255,255,255,0.85)">Join the map</span>
+        <h2 data-i18n="cta_title">Share your own hidden gem 🤫</h2>
+        <p data-i18n="cta_desc">Your discovery helps other travelers experience the real Taiwan.</p>
+      </div>
+      <a href="/map" class="btn ghost" style="border-color:#fff;" data-i18n="cta_btn">Add a Spot Now →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <img class="mark" src="/assets/images/logo.webp" data-i18n-alt="brand_name" alt="My Secret Taiwan Eats" />
+          <div class="name"><span data-i18n="brand_name">My Secret Taiwan Eats</span><small data-i18n="brand_tagline">Taiwan food map, curated by travelers</small></div>
+        </div>
+        <p class="desc" data-i18n="footer_desc">A Taiwan restaurant map picked from real reviews by Korean travelers — a real local guide, built together.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_explore">Explore</h4>
+        <ul>
+          <li><a href="/en#categories" data-i18n="footer_categories">Find Spots</a></li>
+          <li><a href="/en#regions" data-i18n="footer_regions">Explore by Region</a></li>
+          <li><a href="/map" data-i18n="footer_map">Map</a></li>
+          <li><a href="/blog" data-i18n="footer_blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_join">Get Involved</h4>
+        <ul>
+          <li><a href="/map" data-i18n="footer_register">Add a Spot</a></li>
+          <li><a href="/profile" data-i18n="footer_mypage">My Page</a></li>
+          <li><a href="/about" data-i18n="footer_about">About</a></li>
+          <li><a href="/privacy" data-i18n="footer_privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_lang">Language</h4>
+        <ul>
+          <li><a class="footer-lang-btn" href="/category-thai" data-lang="ko">한국어</a></li>
+          <li><a class="footer-lang-btn active" href="/en/category-thai" data-lang="en">English</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2026 My Secret Taiwan Eats</span>
+      <span>Made for travelers, by travelers</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/data.js?v=1790588220"></script>
+<script src="/js/category-content.js?v=1790588220"></script>
+<script src="/js/i18n.js?v=1790588220"></script>
+<script src="/js/supabase-config.js?v=1790588220"></script>
+<script src="/js/admin.js?v=1790588220"></script>
+<script src="/js/app.js?v=1790588220"></script>
+<script src="/js/home-map.js?v=1790588220"></script>
+<script src="/js/category.js?v=1790588220"></script>
+<!-- Naver Analytics -->
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "1c1c692e90a9a80";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+</body>
+</html>

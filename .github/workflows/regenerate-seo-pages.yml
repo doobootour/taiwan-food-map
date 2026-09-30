@@ -6,6 +6,12 @@ name: Regenerate SEO static pages
 # 이 워크플로가 그 과정을 자동화한다. main에 변경사항을 push하면 Cloudflare Workers가 자동 배포한다
 # (README "배포" 항목 참고).
 #
+# English URL split stage 2: generate-region-pages.js also writes en/index.html and
+# en/region-*.html (including en/region-taipei.html). generate-category-pages.js writes
+# en/category-*.html. `git add -A -- en` is required because `*.html` does not cross
+# directories. This job does not stage js/blog-content.js. The blog-publish refresh
+# workflow shares the concurrency group below and does not regenerate these en/ files.
+#
 # 발행 봇은 02:47/06:47/10:47/14:47/18:47/22:47 Asia/Taipei에 blog HTML과 sitemap.xml을 push한다.
 # 이 잡은 그 사이(UTC 19:00 = 대만 03:00)에 돌고, push 전에 origin/main을 rebase한다.
 # 충돌이 나면 최신 main에서 스크립트를 다시 돌려 커밋을 다시 만든다.
