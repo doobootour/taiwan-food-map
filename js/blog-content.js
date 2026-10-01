@@ -341,6 +341,23 @@ const BLOG_LIST = [
       meta: "Hualien · Accommodation Guide",
     },
   },
+  {
+    slug: "taiwan-repeat-visitor-lucky-draw-2026",
+    image: "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "대만 여행 가이드 · 여행 지원금",
+      title: "대만 재방문 여행 지원금 2026, 누가 어떻게 받을 수 있을까?",
+      desc: "재방문 자유여행객 추첨으로 NT$5,000, 동행 1명 NT$3,000 — 자격과 등록 시기, 수령 방법 정리.",
+      meta: "대만 여행 · 지원금 가이드",
+    },
+    en: {
+      eyebrow: "Taiwan Travel Guide · Travel Incentives",
+      title: "Taiwan's 2026 Repeat Visitor Lucky Draw: Who Qualifies and How?",
+      desc: "NT$5,000 for repeat visitors and NT$3,000 for one companion, by weekly draw — eligibility, registration timing, and redemption.",
+      meta: "Taiwan Travel · Incentive Guide",
+    },
+  },
 
 ];
 
@@ -2187,6 +2204,112 @@ const BLOG_POSTS = {
         { type: "p", html: "If you stay downtown, plenty of restaurants are within walking distance. Look around your hotel on the <a href=\"/region-hualien\">Hualien restaurant map</a>, and check <a href=\"/hualien-taiwanese\">Hualien Taiwanese restaurants</a> too. For a snack, there's the pepper-cake stall <a href=\"/hualien-street_food-bawang-pepper-cake-24\">Bawang Pepper Cake</a>, and for early morning or late night, the soy-milk shop <a href=\"/hualien-breakfast-41\">Gai Shi Doujiang (蓋世豆漿宵夜)</a>." },
         { type: "note", text: "This guide is based on travelers' Hualien experiences, national park information, and local news reports (as of September 2026). Open sections and road controls change often, so check official notices before you go." },
         { type: "cta", title: "Find Hualien Restaurants on the Map", desc: "Look up Hualien restaurants near your hotel on the map.", btn: "Open Map →", href: "/map?region=hualien" },
+      ],
+    },
+  },
+
+  "taiwan-repeat-visitor-lucky-draw-2026": {
+    heroImage: "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg",
+    ko: {
+      pageTitle: "대만 재방문 여행 지원금 — 자격·수령 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "대만 재방문 여행 지원금은 추첨으로 NT$5,000을 주는 제도예요. 2026년 10월 10일 시작, 자격·등록 시기·동행인 혜택을 정리했어요.",
+      ogTitle: "대만 재방문 여행 지원금 2026, 누가 어떻게 받을 수 있을까?",
+      eyebrow: "대만 여행 가이드 · 여행 지원금",
+      title: "대만 재방문 여행 지원금 2026, 누가 어떻게 받을 수 있을까?",
+      dek: "'대만 가면 5천 원 준다'는 말의 실제 조건 — 전원 지급이 아니라 매주 추첨이고, 등록 시기와 입국 기록이 핵심입니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "대만 여행 · 지원금 가이드",
+      intro: "\"대만 재방문 여행 지원금을 준다던데, 저도 받을 수 있나요?\" 대만 교통부 관광서가 2026년 10월부터 재방문 여행객을 위한 추첨 이벤트 '重遊臺灣·福氣加倍(Return to Taiwan, Double Your Luck)'를 엽니다. 공식 사이트 공지와 발표 내용을 바탕으로 자격과 절차를 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 대만 재방문 여행 지원금 핵심 조건" },
+        {
+          type: "compareTable",
+          cities: ["재방문객(본인)", "동행 친구·가족(1명)"],
+          rows: [
+            { label: "혜택", values: ["NT$5,000 여행 소비 크레딧(추첨, 2026년 9월 기준 발표)", "NT$3,000(추첨, 재방문객과 함께 등록)"] },
+            { label: "자격", values: ["2023년 1월 1일 이후 대만 입국 기록이 있는 외국 여권 소지자", "2023년 1월 1일 이후 입국 기록이 없는 사람"] },
+            { label: "체류 조건", values: ["3~90일 체류 자유여행(단체관광 제외)", "재방문객과 체류 기간이 겹쳐야 함"] },
+            { label: "대상 입국 기간", values: ["2026년 10월 10일~2027년 3월 31일(예산 소진 시 조기 종료)", "동일"] },
+          ],
+        },
+        { type: "h2", text: "02 · 등록부터 수령까지 순서" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "공식 사이트 등록", desc: "5000.taiwan.net.tw에서 2026년 10월 1일 오전 10시(대만 시간)부터 등록할 수 있어요. 입국 7~90일 전에만 등록 가능해서 공항에서 바로 신청하는 건 안 됩니다." },
+            { mark: "2", b: "매주 추첨", desc: "매주 수요일 정오에 시스템 추첨이 진행되고, 결과는 이메일로 안내됩니다." },
+            { mark: "3", b: "입국 후 인증", desc: "당첨됐다면 입국 후 사이트에서 도착 인증과 항공편 정보를 입력해야 해요. 기한 안에 인증하지 않으면 당첨이 취소됩니다." },
+            { mark: "4", b: "7-Eleven에서 수령", desc: "발급된 QR코드와 여권을 가지고 지정 매장에 가면 icash 2.0·아이패스·이지카드 중 하나에 크레딧을 충전해줍니다." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg", caption: "신타이완달러 1,000원 지폐와 동전이에요. 지원금은 현금이 아니라 교통카드형 크레딧으로 충전돼요." },
+        { type: "h2", text: "03 · 헷갈리기 쉬운 부분" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "전원 지급이 아니라 추첨", desc: "등록한다고 모두 받는 게 아니에요. 주별 당첨 인원은 공지로 확인해야 합니다." },
+            { mark: "✓", b: "'첫 방문'은 본인 자격이 아님", desc: "2023년 이후 대만에 온 적이 없다면 재방문객이 아니라 동행인으로만 참여할 수 있어요." },
+            { mark: "✓", b: "거주증 소지자 제외", desc: "대만 거주증이 있는 외국인은 대상이 아닙니다." },
+            { mark: "✓", b: "사용처는 지정 가맹점", desc: "충전된 크레딧은 참여 가맹점에서만 쓸 수 있으니 수령할 때 안내를 꼭 확인하세요." },
+          ],
+        },
+        { type: "h2", text: "04 · 여행 일정에 맞춰 준비할 것" },
+        { type: "p", html: "출발일이 정해지면 입국 90일 전부터 7일 전 사이에 등록하는 게 핵심입니다. 이전 입국 기록은 여권 기준으로 확인되니 같은 여권으로 입국했는지도 살펴보세요. 여권을 새로 발급받았다면 공식 FAQ에서 처리 방법을 확인하는 게 안전해요." },
+        { type: "quote", text: "\"등록 날짜만 놓치지 않으면 손해 볼 것 없는 이벤트.\" — 이전 대만 럭키드로우에 참여해 본 여행자들의 반응을 요약했습니다." },
+        { type: "p", html: "당첨되면 여행 중 먹거리에 쓰는 사람이 많을 거예요. 선물용 간식은 <a href=\"/taipei-bakery\">타이베이 베이커리 맛집</a>에 모아 두었고, 펑리수로 알려진 <a href=\"/taipei-bakery-sunny-hills-101-795\">써니힐즈(타이베이 101 인근)</a>도 있어요. 전체 가게 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요." },
+        { type: "note", text: "이 글은 대만 교통부 관광서 공식 등록 사이트와 중앙통신사 보도를 바탕으로 정리했습니다(2026년 10월 2일 기준, 공식 등록 사이트·보도 재확인). 당첨 인원·수령 방법 등 세부 규정은 바뀔 수 있으니 등록 전 공식 사이트를 다시 확인하는 것을 추천해요." },
+        { type: "cta", title: "지원금으로 갈 맛집을 지도에서 골라보세요", desc: "대만 여행에서 들를 맛집을 지도에서 미리 찜해두세요.", btn: "지도 열기 →", href: "/map" },
+      ],
+    },
+    en: {
+      pageTitle: "Taiwan Repeat Visitor Lucky Draw 2026 (Return to Taiwan, Double Your Luck) — Eligibility, Registration, Redemption · My Secret Taiwan Eats",
+      metaDescription: "From October 10, 2026, repeat independent travelers to Taiwan can win NT$5,000 in a weekly draw. Eligibility, registration timing, the companion bonus, and how to redeem, based on official information.",
+      ogTitle: "Taiwan's 2026 Repeat Visitor Lucky Draw: Who Qualifies and How?",
+      eyebrow: "Taiwan Travel Guide · Travel Incentives",
+      title: "Taiwan's 2026 Repeat Visitor Lucky Draw: Who Qualifies and How?",
+      dek: "What \"Taiwan gives you NT$5,000\" really means — it's a weekly draw, not a handout, and registration timing and your entry record are what matter.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taiwan Travel · Incentive Guide",
+      intro: "\"I heard Taiwan gives travelers money — can I get it?\" Starting October 2026, Taiwan's Tourism Administration is running a lucky draw for repeat visitors called \"Return to Taiwan, Double Your Luck\" (重遊臺灣·福氣加倍). Based on the official site and announcements, here's who qualifies and how it works.",
+      blocks: [
+        { type: "h2", text: "01 · Key Conditions at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["Repeat visitor (you)", "Companion (1 person)"],
+          rows: [
+            { label: "Prize", values: ["NT$5,000 travel spending credit (draw)", "NT$3,000 (draw, registered with the repeat visitor)"] },
+            { label: "Eligibility", values: ["Foreign passport holder who entered Taiwan on or after Jan 1, 2023", "Someone with no Taiwan entry since Jan 1, 2023"] },
+            { label: "Stay", values: ["Independent trip of 3–90 days (no tour groups)", "Stay must overlap with the repeat visitor's"] },
+            { label: "Entry period", values: ["Oct 10, 2026 – Mar 31, 2027 (or until the budget runs out)", "Same"] },
+          ],
+        },
+        { type: "h2", text: "02 · From Registration to Redemption" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Register on the official site", desc: "Registration opens at 5000.taiwan.net.tw at 10:00 (Taiwan time) on October 1, 2026. You can only register 7–90 days before arrival, so signing up at the airport won't work." },
+            { mark: "2", b: "Weekly draw", desc: "The system draws winners every Wednesday at noon and emails the results." },
+            { mark: "3", b: "Verify after arrival", desc: "Winners must confirm arrival and enter flight details on the site after landing. Miss the deadline and the prize is forfeited." },
+            { mark: "4", b: "Collect at 7-Eleven", desc: "Bring the QR code and your passport to a designated store to load the credit onto an icash 2.0, iPASS, or EasyCard." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg", caption: "NT$1,000 notes and coins — the prize isn't cash, though; it's loaded onto a transit-style stored-value card." },
+        { type: "h2", text: "03 · Easy-to-Miss Details" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "It's a draw, not a handout", desc: "Registering doesn't guarantee a prize. Check notices for the number of weekly winners." },
+            { mark: "✓", b: "First-timers can't be the main entrant", desc: "If you haven't visited since 2023, you can only join as a companion." },
+            { mark: "✓", b: "Residence permit holders excluded", desc: "Foreigners with a Taiwan residence permit aren't eligible." },
+            { mark: "✓", b: "Only at participating merchants", desc: "The credit works only at participating stores, so read the instructions when you collect it." },
+          ],
+        },
+        { type: "h2", text: "04 · What to Prepare for Your Trip" },
+        { type: "p", html: "Once your dates are set, the key is registering between 90 and 7 days before arrival. Previous entries are checked by passport, so note whether you entered on the same one. If you've renewed your passport, check the official FAQ." },
+        { type: "quote", text: "\"As long as you don't miss the registration window, there's nothing to lose.\" — a summary of reactions from travelers who joined Taiwan's earlier lucky draws." },
+        { type: "p", html: "If you win, many travelers put the credit toward food. Gift snacks are collected on the <a href=\"/taipei-bakery\">Taipei bakery picks</a> page, including <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills near Taipei 101</a>. See all locations on the <a href=\"/region-taipei\">Taipei food map</a>." },
+        { type: "note", text: "This guide is based on Taiwan's Tourism Administration registration site and CNA reports (as of October 2, 2026, after rechecking the official registration site and news reports). Details such as winner numbers and redemption may change, so check the official site before registering." },
+        { type: "cta", title: "Pick Restaurants to Spend It On", desc: "Bookmark restaurants for your Taiwan trip on the map.", btn: "Open Map →", href: "/map" },
       ],
     },
   }
