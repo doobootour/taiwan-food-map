@@ -307,6 +307,23 @@ const BLOG_LIST = [
       meta: "Taipei & Tainan · Itinerary Guide",
     },
   },
+  {
+    slug: "taiwan-first-trip-region-choice",
+    image: "assets/images/blog/taiwan-first-trip-region-choice-1.jpg",
+    regions: ["taipei", "kaohsiung", "tainan", "taichung", "hualien"],
+    ko: {
+      eyebrow: "대만 여행 가이드 · 도시 선택",
+      title: "타이베이 말고 어디 갈까? 대만 여행 지역 추천, 일정별 선택표",
+      desc: "가오슝·타이난·타이중·화롄 중 어디가 맞을까 — 여행 일수와 관심사별 지역 선택표.",
+      meta: "대만 여행 · 도시 비교",
+    },
+    en: {
+      eyebrow: "Taiwan Travel Guide · Choosing a City",
+      title: "Beyond Taipei: Which Taiwan Region Fits a Short Trip?",
+      desc: "Kaohsiung, Tainan, Taichung, or Hualien? A region picker by trip length and interests.",
+      meta: "Taiwan Travel · City Comparison",
+    },
+  },
 
 ];
 
@@ -1945,6 +1962,110 @@ const BLOG_POSTS = {
         { type: "p", html: "A day in Tainan is half about eating. Look around your hotel on the <a href=\"/region-tainan\">Tainan restaurant map</a>, then add <a href=\"/tainan-taiwanese-598\">Duxiaoyue danzai noodles Tainan flagship</a> from <a href=\"/tainan-taiwanese\">Tainan Taiwanese food</a> to the route. For Taipei, use the <a href=\"/region-taipei\">Taipei restaurant map</a>." },
         { type: "note", text: "This guide is based on official Taiwan High Speed Rail fares and timetables (as of September 2026) and traveler experiences. Fares and discounts can change, so check the official HSR website before booking." },
         { type: "cta", title: "Bookmark Tainan Restaurants on the Map", desc: "Find must-try Tainan restaurants for a short visit on the map.", btn: "Open Map →", href: "/map?region=tainan" },
+      ],
+    },
+  },
+
+  "taiwan-first-trip-region-choice": {
+    heroImage: "assets/images/blog/taiwan-first-trip-region-choice-1.jpg",
+    ko: {
+      pageTitle: "대만 여행 지역 추천 — 타이베이 말고 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "타이베이 말고 어디 갈까요? 대만 여행 지역 추천을 가오슝·타이난·타이중·화롄 일정·관심사별로 비교하고 첫 여행 고민도 정리했어요.",
+      ogTitle: "타이베이 말고 어디 갈까? 대만 여행 지역 추천, 일정별 선택표",
+      eyebrow: "대만 여행 가이드 · 도시 선택",
+      title: "타이베이 말고 어디 갈까? 대만 여행 지역 추천, 일정별 선택표",
+      dek: "3박 이하의 짧은 일정에서 도시 하나를 고른다면 무엇을 기준으로 삼아야 할지 — 여행 일수, 관심사, 동행 조건별로 표 하나에 담았습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "대만 여행 · 도시 비교",
+      intro: "\"타이베이는 한 번 가봤는데, 이번엔 어디가 좋을까?\" 대만 여행 지역 추천을 묻는 질문이 꾸준히 올라와요. \"첫 대만인데 꼭 타이베이여야 하나?\"라는 고민도 많고요. 실제 여행자들의 경험을 바탕으로 대만 주요 지역을 일정과 취향별로 골라봤습니다.",
+      blocks: [
+        { type: "h2", text: "01 · 대만 여행 지역 추천 선택표 한눈에 보기" },
+        {
+          type: "compareTable",
+          cities: ["가오슝", "타이난", "타이중", "화롄"],
+          rows: [
+            { label: "추천 일수", values: ["2~3박", "2박 이상", "2박", "2박 이상"] },
+            { label: "잘 맞는 관심사", values: ["바다·항구 도시, 여유로운 시내", "옛 거리·사원, 먹거리", "카페·시장·근교 자연", "산과 바다, 자연 풍경"] },
+            { label: "이동 난이도", values: ["MRT·경전철로 쉬움", "시내는 도보·택시", "버스·택시 위주", "차량 이동이 필요한 구간 많음"] },
+            { label: "주의할 점", values: ["명소 간 거리가 넓음", "한낮 더위가 강함", "MRT 노선이 적음", "타이루거 일부 구간 통제(2026년 9월 기준)"] },
+          ],
+        },
+        { type: "h2", text: "02 · 첫 여행이라면: 타이베이 vs 가오슝" },
+        { type: "p", html: "첫 대만 여행에서 가장 많이 비교하는 두 도시입니다. 타이베이는 볼거리 밀도와 근교(지우펀·예류) 선택지가 압도적이고, 가오슝은 도시가 여유롭고 바다 풍경이 가까운 대신 명소 사이 이동 거리가 긴 편이에요. 한국에서 두 도시 모두 직항이 있어 항공 스케줄과 가격으로 정하는 여행자도 많습니다." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "3박 이하, 처음이라면 타이베이", desc: "교통이 가장 촘촘해 동선 실패가 적고 근교 투어도 쉽게 붙일 수 있어요." },
+            { mark: "✓", b: "북적임이 싫다면 가오슝", desc: "시내가 덜 붐비고 항구·강변 산책 코스가 많아 느긋한 일정에 잘 맞습니다." },
+            { mark: "✓", b: "두 번째라면 타이난·타이중", desc: "먹거리 도시 타이난, 카페와 시장의 타이중은 재방문객 만족도가 높다는 후기가 많아요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-first-trip-region-choice-1.jpg", caption: "대만 철도 역에 들어온 전동 열차예요. 도시 간 이동은 고속철과 일반 열차를 조합하면 편해요." },
+        { type: "h2", text: "03 · 동행 조건별로 보면" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "아이와 함께", desc: "이동이 짧은 도시가 유리합니다. 시내 교통이 편한 타이베이·가오슝이 무난해요." },
+            { mark: "2", b: "부모님과 함께", desc: "걷는 거리와 계단을 줄여야 한다면 택시 이용이 쉬운 도시 중심 일정이 좋아요." },
+            { mark: "3", b: "친구·커플", desc: "취향이 뚜렷하다면 타이난(먹거리)이나 화롄(자연)처럼 테마가 분명한 곳이 만족도가 높습니다." },
+          ],
+        },
+        { type: "h2", text: "04 · 화롄을 고를 때 꼭 확인할 것" },
+        { type: "p", html: "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이지만, 타이루거 국가공원은 일부 탐방로만 열려 있고 주요 구간은 복구 공사로 통제 중입니다(2026년 9월 기준). 방문 전 국가공원 공지에서 개방 구간을 꼭 확인하세요." },
+        { type: "quote", text: "\"도시를 하나만 고른다면 '며칠 있느냐'보다 '무엇을 하고 싶으냐'가 먼저.\" — 여러 지역을 다녀온 여행자들이 자주 하는 조언을 요약했습니다." },
+        { type: "p", html: "지역을 정했다면 도시별 지도로 먹을 곳을 먼저 보세요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>, <a href=\"/region-tainan\">타이난 맛집 지도</a>, <a href=\"/region-taichung\">타이중 맛집 지도</a>, <a href=\"/region-hualien\">화롄 맛집 지도</a>가 있어요. 먹거리 여행이 목적이면 <a href=\"/tainan-street_food\">타이난 노점 맛집</a>과 아침 우육탕으로 알려진 <a href=\"/tainan-taiwanese-a-cai-beef-soup-735\">아차이 우육탕</a>부터 보는 것도 방법이에요." },
+        { type: "note", text: "이 글은 대만 여러 지역을 다녀온 여행자들의 경험과 관광서·국가공원 공지를 바탕으로 정리했습니다(2026년 9월 기준). 교통과 개방 상황은 바뀔 수 있으니 방문 전 다시 확인하는 것을 추천해요." },
+        { type: "cta", title: "지도에서 지역별 맛집을 비교해보세요", desc: "고민 중인 도시의 맛집을 지도에서 한눈에 확인해보세요.", btn: "지도 열기 →", href: "/map" },
+      ],
+    },
+    en: {
+      pageTitle: "Where to Go in Taiwan Besides Taipei — A Region Picker by Days and Interests · My Secret Taiwan Eats",
+      metaDescription: "Curious about Taiwan beyond Taipei? Kaohsiung, Tainan, Taichung, and Hualien compared by trip length and interests, plus the Taipei vs. Kaohsiung first-trip question.",
+      ogTitle: "Beyond Taipei: Which Taiwan Region Fits a Short Trip?",
+      eyebrow: "Taiwan Travel Guide · Choosing a City",
+      title: "Beyond Taipei: Which Taiwan Region Fits a Short Trip?",
+      dek: "If you're picking just one city for a trip of three nights or fewer, here's what to base it on — trip length, interests, and who you're traveling with, in one table.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taiwan Travel · City Comparison",
+      intro: "\"I've done Taipei — where next?\" or \"It's my first time in Taiwan; does it have to be Taipei?\" These questions come up constantly. Based on real traveler experiences, here's how Taiwan's main regions match different schedules and tastes.",
+      blocks: [
+        { type: "h2", text: "01 · Region Picker at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["Kaohsiung", "Tainan", "Taichung", "Hualien"],
+          rows: [
+            { label: "Suggested stay", values: ["2–3 nights", "2+ nights", "2 nights", "2+ nights"] },
+            { label: "Good for", values: ["Harbor city, relaxed downtown", "Old streets, temples, food", "Cafés, markets, nearby nature", "Mountains, sea, scenery"] },
+            { label: "Getting around", values: ["Easy by MRT and light rail", "Walk or taxi in town", "Mostly bus and taxi", "Many spots need a car"] },
+            { label: "Watch out", values: ["Sights are spread out", "Strong midday heat", "Few MRT lines", "Parts of Taroko closed (as of Sep 2026)"] },
+          ],
+        },
+        { type: "h2", text: "02 · First Trip: Taipei vs. Kaohsiung" },
+        { type: "p", html: "These are the two cities first-timers compare most. Taipei wins on density of sights and day-trip options like Jiufen and Yehliu; Kaohsiung feels more relaxed with the sea close by, but sights are farther apart. Both have direct flights from Korea, so many travelers decide by flight schedules and prices." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "3 nights or fewer, first time: Taipei", desc: "The densest transit network means fewer routing mistakes and easy day trips." },
+            { mark: "✓", b: "Hate crowds: Kaohsiung", desc: "Less crowded, with plenty of harbor and riverside walks for a slower pace." },
+            { mark: "✓", b: "Second trip: Tainan or Taichung", desc: "Food-focused Tainan and café-and-market Taichung get great reviews from repeat visitors." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-first-trip-region-choice-1.jpg", caption: "An electric train pulling into a Taiwan Railway station — combining HSR and regular trains makes intercity travel easy." },
+        { type: "h2", text: "03 · By Travel Companion" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "With kids", desc: "Shorter transfers help. Taipei and Kaohsiung, with easy city transit, are safe picks." },
+            { mark: "2", b: "With parents", desc: "If you need less walking and fewer stairs, build the trip around a city where taxis are easy." },
+            { mark: "3", b: "Friends or couples", desc: "With clear tastes, a themed destination like Tainan (food) or Hualien (nature) tends to satisfy most." },
+          ],
+        },
+        { type: "h2", text: "04 · If You're Choosing Hualien" },
+        { type: "p", html: "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, but Taroko National Park has only some trails open, with major sections closed for reconstruction (as of September 2026). Check the park's notices for open sections before you go." },
+        { type: "quote", text: "\"When picking one city, ask what you want to do before asking how many days you have.\" — a summary of advice from travelers who've explored several regions." },
+        { type: "p", html: "Once you've picked a region, start with that city's food map. See the <a href=\"/region-kaohsiung\">Kaohsiung restaurant map</a>, <a href=\"/region-tainan\">Tainan restaurant map</a>, <a href=\"/region-taichung\">Taichung restaurant map</a>, and <a href=\"/region-hualien\">Hualien restaurant map</a>. If eating is the point of the trip, start with <a href=\"/tainan-street_food\">Tainan street food</a> and <a href=\"/tainan-taiwanese-a-cai-beef-soup-735\">A-Cai Beef Soup</a>, known for its morning beef soup." },
+        { type: "note", text: "This guide is based on travelers' experiences across Taiwan and notices from the Tourism Administration and national park (as of September 2026). Transport and access can change, so double-check before you go." },
+        { type: "cta", title: "Compare Restaurants by Region on the Map", desc: "See restaurants in the cities you're considering, all on one map.", btn: "Open Map →", href: "/map" },
       ],
     },
   }
