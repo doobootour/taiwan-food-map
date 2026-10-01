@@ -143,12 +143,25 @@
     if (canonicalEl) canonicalEl.setAttribute("href", `https://taiwanbite.com${pageUrl(current)}`);
   }
 
+  function blogPublishedDates() {
+    const el = document.getElementById("blogPublishedDates");
+    if (!el) return {};
+    try {
+      const data = JSON.parse(el.textContent || "");
+      return data && typeof data === "object" ? data : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
   function renderList() {
     const grid = document.getElementById("blogListGrid");
     if (!grid) return false;
     const lang = getLang();
     renderRegionFilter(lang);
-    const allPosts = activeRegion === "all" ? BLOG_LIST : BLOG_LIST.filter(post => (post.regions || []).includes(activeRegion));
+    const indexed = BLOG_LIST.map((post, index) => ({ post, index }));
+    const filtered = activeRegion === "all" ? indexed : indexed.filter(entry => (entry.post.regions || []).includes(activeRegion));
+    const allPosts = sortBlogPosts(filtered, blogPublishedDates());
     const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
     if (currentPage > totalPages) currentPage = totalPages;
     if (currentPage < 1) currentPage = 1;
