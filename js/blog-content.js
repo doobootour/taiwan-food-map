@@ -324,6 +324,23 @@ const BLOG_LIST = [
       meta: "Taiwan Travel · City Comparison",
     },
   },
+  {
+    slug: "hualien-hotel-location-guide",
+    image: "assets/images/blog/hualien-hotel-location-guide-1.jpg",
+    regions: ["hualien"],
+    ko: {
+      eyebrow: "화롄 여행 가이드 · 숙소",
+      title: "화롄 숙소 위치, 역 앞·시내·바다 전망 중 어디가 편할까?",
+      desc: "화롄역 앞, 시내, 치싱탄 바다 쪽 — 이동 수단과 일정에 맞는 화롄 숙소 위치를 비교했어요.",
+      meta: "화롄 · 숙소 가이드",
+    },
+    en: {
+      eyebrow: "Hualien Travel Guide · Where to Stay",
+      title: "Where to Stay in Hualien: Station, Downtown, or Sea View?",
+      desc: "Near Hualien Station, downtown, or Qixingtan by the sea — matching hotel location to transport and trip style.",
+      meta: "Hualien · Accommodation Guide",
+    },
+  },
 
 ];
 
@@ -2066,6 +2083,110 @@ const BLOG_POSTS = {
         { type: "p", html: "Once you've picked a region, start with that city's food map. See the <a href=\"/region-kaohsiung\">Kaohsiung restaurant map</a>, <a href=\"/region-tainan\">Tainan restaurant map</a>, <a href=\"/region-taichung\">Taichung restaurant map</a>, and <a href=\"/region-hualien\">Hualien restaurant map</a>. If eating is the point of the trip, start with <a href=\"/tainan-street_food\">Tainan street food</a> and <a href=\"/tainan-taiwanese-a-cai-beef-soup-735\">A-Cai Beef Soup</a>, known for its morning beef soup." },
         { type: "note", text: "This guide is based on travelers' experiences across Taiwan and notices from the Tourism Administration and national park (as of September 2026). Transport and access can change, so double-check before you go." },
         { type: "cta", title: "Compare Restaurants by Region on the Map", desc: "See restaurants in the cities you're considering, all on one map.", btn: "Open Map →", href: "/map" },
+      ],
+    },
+  },
+
+  "hualien-hotel-location-guide": {
+    heroImage: "assets/images/blog/hualien-hotel-location-guide-1.jpg",
+    ko: {
+      pageTitle: "화롄 숙소 위치 — 역 앞·시내·치싱탄 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "화롄 숙소 위치, 역 앞과 시내, 바다 전망 중 어디가 편할까요? 이동 수단·일정 유형별로 비교하고 2026년 타이루거 상황도 정리했어요.",
+      ogTitle: "화롄 숙소 위치, 역 앞·시내·바다 전망 중 어디가 편할까?",
+      eyebrow: "화롄 여행 가이드 · 숙소",
+      title: "화롄 숙소 위치, 역 앞·시내·바다 전망 중 어디가 편할까?",
+      dek: "기차로 오가는지, 차를 빌리는지, 저녁에 무엇을 하고 싶은지에 따라 답이 달라지는 화롄 숙소 위치를 기준별로 나눴습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "화롄 · 숙소 가이드",
+      intro: "\"화롄은 처음인데 역 앞이 편할까, 바다가 보이는 곳이 나을까?\" 화롄 숙소 위치는 명소가 넓게 흩어진 탓에 일정 전체의 피로도를 좌우해요. 화련이라고도 부르는 이 도시를 처음 가는 분을 위해, 실제 여행자들의 경험을 바탕으로 위치별 장단점을 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 화롄 숙소 위치별 한눈에 비교하기" },
+        {
+          type: "compareTable",
+          cities: ["화롄역 주변", "시내(둥다먼 야시장 일대)", "치싱탄 해변 쪽"],
+          rows: [
+            { label: "교통", values: ["기차·렌터카·투어 픽업이 가장 편함", "택시로 역·명소 이동", "차량 필수, 공항과 가까움"] },
+            { label: "저녁 시간", values: ["식당은 있지만 한산한 편", "야시장·식당이 많아 가장 활발", "조용하고 바다 산책 위주"] },
+            { label: "풍경", values: ["도시 풍경", "도시 풍경", "태평양 전망"] },
+            { label: "추천 상황", values: ["1~2박, 기차 여행자", "먹거리·밤 산책을 즐기는 여행", "렌터카 여행, 휴양 위주"] },
+          ],
+        },
+        { type: "h2", text: "02 · 이동 수단으로 먼저 고르세요" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "기차로 오간다면 역 주변", desc: "타이베이에서 기차로 오가는 일정이라면 짐을 들고 이동할 일이 적은 역 주변이 가장 무난합니다." },
+            { mark: "2", b: "투어를 이용한다면 픽업 위치 확인", desc: "일일 투어는 역이나 시내 호텔 픽업이 많아요. 숙소가 픽업 범위 안인지 먼저 확인하세요." },
+            { mark: "3", b: "렌터카라면 선택지가 넓어요", desc: "주차가 편한 숙소라면 치싱탄이나 외곽 민박도 부담이 적습니다." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/hualien-hotel-location-guide-1.jpg", caption: "화롄 해안의 절벽과 자갈 해변이에요. 바다 쪽 숙소를 고르면 이런 태평양 풍경을 가까이서 볼 수 있어요." },
+        { type: "h2", text: "03 · 2026년 화롄, 이 점은 알고 가세요" },
+        { type: "p", html: "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이고, 2026년 연휴에는 숙박 예약률이 크게 올랐다는 보도도 있었습니다. 다만 타이루거 국가공원은 일부 탐방로만 열려 있고 사카당·옌쯔커우·주취동 같은 주요 구간은 복구 공사로 통제 중이며, 台8선도 시간대별 통제가 있습니다(2026년 9월 기준)." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "타이루거 개방 구간 확인", desc: "숙소를 협곡 가까이 잡기 전에 국가공원 공지로 가려는 탐방로가 열려 있는지 확인하세요." },
+            { mark: "✓", b: "연휴엔 일찍 예약", desc: "국내 여행객이 몰리는 연휴에는 역 주변 숙소부터 빠르게 찹니다." },
+            { mark: "✓", b: "환불 규정 확인", desc: "태풍 시즌에는 교통이 끊길 수 있어 무료 취소 가능한 요금이 안전해요." },
+          ],
+        },
+        { type: "h2", text: "04 · 일정 유형별 추천 조합" },
+        { type: "p", html: "1박이라면 역 주변 하나로 충분하고, 2박이라면 첫날은 시내에서 야시장을 즐기고 둘째 날은 바다 쪽에서 쉬는 조합도 인기가 많아요. 남쪽 종곡(花東縱谷)까지 둘러볼 계획이라면 렌터카와 외곽 숙소를 함께 고려해보세요." },
+        { type: "quote", text: "\"화롄은 숙소보다 이동 수단을 먼저 정하면 답이 나온다.\" — 화롄을 다녀온 여행자들이 자주 하는 말을 요약했습니다." },
+        { type: "p", html: "시내에 묵는다면 걸어서 갈 수 있는 식당이 많아요. <a href=\"/region-hualien\">화롄 맛집 지도</a>에서 숙소 주변을 보고, <a href=\"/hualien-taiwanese\">화롄 대만식 맛집</a>도 함께 확인해보세요. 간식으로는 후추빵 노점 <a href=\"/hualien-street_food-bawang-pepper-cake-24\">바왕 후추빵(Bawang Pepper Cake)</a>, 이른 아침이나 늦은 밤에는 또우장 가게 <a href=\"/hualien-breakfast-41\">가이스 또우장(蓋世豆漿宵夜)</a>이 있어요." },
+        { type: "note", text: "이 글은 화롄을 다녀온 여행자들의 경험과 국가공원·지역 언론 보도를 바탕으로 정리했습니다(2026년 9월 기준). 개방 구간과 교통 통제는 수시로 바뀌니 방문 전 공식 공지를 다시 확인하는 것을 추천해요." },
+        { type: "cta", title: "지도에서 화롄 맛집도 확인해보세요", desc: "숙소 근처에서 들를 화롄 맛집을 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=hualien" },
+      ],
+    },
+    en: {
+      pageTitle: "Hualien Hotel Locations Compared — Station, Downtown, or Qixingtan · My Secret Taiwan Eats",
+      metaDescription: "Should you stay near Hualien Station, downtown, or by the sea? Locations compared by how you get around and your trip style, plus the 2026 Taroko situation.",
+      ogTitle: "Where to Stay in Hualien: Station, Downtown, or Sea View?",
+      eyebrow: "Hualien Travel Guide · Where to Stay",
+      title: "Where to Stay in Hualien: Station, Downtown, or Sea View?",
+      dek: "The right answer depends on whether you arrive by train, rent a car, and what you want to do in the evening — broken down by each factor.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Hualien · Accommodation Guide",
+      intro: "\"First time in Hualien — is near the station easier, or somewhere with a sea view?\" Hualien's sights are spread out, so hotel location shapes how tiring the whole trip feels. Based on real traveler experiences, here are the pros and cons of each area.",
+      blocks: [
+        { type: "h2", text: "01 · Locations at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["Around Hualien Station", "Downtown (Dongdamen Night Market area)", "Qixingtan Beach"],
+          rows: [
+            { label: "Transport", values: ["Easiest for trains, rentals, and tour pickups", "Taxi to the station and sights", "Car needed; close to the airport"] },
+            { label: "Evenings", values: ["Some restaurants, fairly quiet", "Most night market and dining options", "Quiet, seaside walks"] },
+            { label: "Views", values: ["City", "City", "Pacific Ocean"] },
+            { label: "Best for", values: ["1–2 nights, train travelers", "Food and night walks", "Road trips, relaxing stays"] },
+          ],
+        },
+        { type: "h2", text: "02 · Choose by How You'll Get Around" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "By train: near the station", desc: "If you're traveling to and from Taipei by train, staying near the station means less hauling luggage." },
+            { mark: "2", b: "On tours: check the pickup zone", desc: "Day tours usually pick up at the station or downtown hotels. Make sure your hotel is covered." },
+            { mark: "3", b: "By rental car: more options", desc: "With easy parking, Qixingtan or guesthouses outside town work well." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/hualien-hotel-location-guide-1.jpg", caption: "Cliffs and a pebble beach on the Hualien coast — stay by the sea and views like this are right outside." },
+        { type: "h2", text: "03 · Hualien in 2026: What to Know" },
+        { type: "p", html: "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, and local media reported strong hotel bookings over 2026 holidays. Taroko National Park, however, has only some trails open, with major sections such as Shakadang, Swallow Grotto, and the Tunnel of Nine Turns closed for reconstruction, and Provincial Highway 8 under timed traffic control (as of September 2026)." },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Check which Taroko sections are open", desc: "Before booking near the gorge, confirm on the park's notices that the trails you want are open." },
+            { mark: "✓", b: "Book early for holidays", desc: "Hotels near the station fill first when domestic travelers pour in." },
+            { mark: "✓", b: "Check refund rules", desc: "Typhoons can cut off transport, so free-cancellation rates are safer." },
+          ],
+        },
+        { type: "h2", text: "04 · Combos by Trip Type" },
+        { type: "p", html: "For one night, the station area is enough. For two, a popular combo is downtown for the night market on night one and the seaside for night two. If you're heading down the East Rift Valley, consider a rental car and a hotel outside town." },
+        { type: "quote", text: "\"In Hualien, decide how you'll get around first — the hotel choice follows.\" — a summary of what travelers who've been to Hualien often say." },
+        { type: "p", html: "If you stay downtown, plenty of restaurants are within walking distance. Look around your hotel on the <a href=\"/region-hualien\">Hualien restaurant map</a>, and check <a href=\"/hualien-taiwanese\">Hualien Taiwanese restaurants</a> too. For a snack, there's the pepper-cake stall <a href=\"/hualien-street_food-bawang-pepper-cake-24\">Bawang Pepper Cake</a>, and for early morning or late night, the soy-milk shop <a href=\"/hualien-breakfast-41\">Gai Shi Doujiang (蓋世豆漿宵夜)</a>." },
+        { type: "note", text: "This guide is based on travelers' Hualien experiences, national park information, and local news reports (as of September 2026). Open sections and road controls change often, so check official notices before you go." },
+        { type: "cta", title: "Find Hualien Restaurants on the Map", desc: "Look up Hualien restaurants near your hotel on the map.", btn: "Open Map →", href: "/map?region=hualien" },
       ],
     },
   }
