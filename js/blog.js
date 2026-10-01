@@ -159,7 +159,8 @@
     if (!grid) return false;
     const lang = getLang();
     renderRegionFilter(lang);
-    const filtered = activeRegion === "all" ? BLOG_LIST : BLOG_LIST.filter(post => (post.regions || []).includes(activeRegion));
+    const indexed = BLOG_LIST.map((post, index) => ({ post, index }));
+    const filtered = activeRegion === "all" ? indexed : indexed.filter(entry => (entry.post.regions || []).includes(activeRegion));
     const allPosts = sortBlogPosts(filtered, blogPublishedDates());
     const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
     if (currentPage > totalPages) currentPage = totalPages;
