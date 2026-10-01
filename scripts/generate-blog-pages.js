@@ -9,6 +9,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { loadFileHistory, blogDates, formatTaipeiDot } = require("./lib/git-dates");
+const { sortBlogPosts, publishRaw } = require("../js/blog-order");
 
 const root = path.join(__dirname, "..");
 const SITE = "https://taiwanbite.com";
@@ -190,8 +191,75 @@ function upsertVisibleDate(html, dates) {
   );
 }
 
+function cardHtml(post, lang) {
+  const c = (lang === "en" ? post.en : post.ko) || post.ko;
+  if (!c) return "";
+  return `        <a class="blog-card" href="/blog-${post.slug}">
+          <img class="blog-card-img" src="${escapeHtml(post.image || "")}" alt="${escapeHtml(c.title || "")}" />
+          <div class="blog-card-body">
+            <span class="blog-card-eyebrow">${escapeHtml(c.eyebrow || "")}</span>
+            <h3>${escapeHtml(c.title || "")}</h3>
+            <p>${escapeHtml(c.desc || "")}</p>
+            <span class="blog-card-meta">${escapeHtml(c.meta || "")}</span>
+          </div>
+        </a>`;
+}
+
+function replaceBlogGrid(html, cards) {
+  const startMarker = '<div class="blog-card-grid" id="blogListGrid">';
+  const start = html.indexOf(startMarker);
+  if (start < 0) return html;
+  const navAt = html.indexOf('<nav class="blog-pagination"', start);
+  if (navAt < 0) return html;
+  const close = html.lastIndexOf("</div>", navAt);
+  if (close < start) return html;
+  return `${html.slice(0, start + startMarker.length)}\n${cards.join("\n")}\n      ${html.slice(close)}`;
+}
+
+function upsertPublishedDates(html, datesBySlug) {
+  const tag = `<script type="application/json" id="blogPublishedDates">${JSON.stringify(datesBySlug)}</script>\n`;
+  if (html.includes('id="blogPublishedDates"')) {
+    return html.replace(/<script type="application\/json" id="blogPublishedDates">[\s\S]*?<\/script>\n?/, tag);
+  }
+  const marker = '<script src="js/blog-content.js';
+  if (!html.includes(marker)) return html;
+  return html.replace(marker, tag + marker);
+}
+
+function ensureBlogOrderScript(html) {
+  if (html.includes("js/blog-order.js")) return html;
+  const match = html.match(/<script src="js\/blog\.js\?v=\d+"><\/script>/);
+  if (!match) return html;
+  const v = match[0].match(/\?v=(\d+)/)[1];
+  return html.replace(match[0], `<script src="js/blog-order.js?v=${v}"></script>\n${match[0]}`);
+}
+
+// 목록(blog.html, 그리고 en/blog.html이 있으면 그쪽도)을 게시일 내림차순으로 다시 심는다.
+// 발행 봇은 카드를 BLOG_LIST 순서로 덧붙이기만 하므로, 이 스크립트를 돌리는 발행 파이프라인이
+// 다음 글도 맨 위에 오도록 유지한다. 날짜 맵은 각 글의 article:published_time과 같은 값이다.
+function syncBlogIndex(filePath, lang, publishedBySlug) {
+  if (!fs.existsSync(filePath)) return false;
+  let html = fs.readFileSync(filePath, "utf8");
+  if (!html.includes('id="blogListGrid"')) return false;
+  const sorted = sortBlogPosts(BLOG_LIST, publishedBySlug);
+  const cards = sorted.map(post => cardHtml(post, lang)).filter(Boolean);
+  const datesForClient = {};
+  sorted.forEach(post => {
+    const raw = publishRaw(post, publishedBySlug);
+    if (raw && Number.isFinite(Date.parse(raw))) datesForClient[post.slug] = raw;
+  });
+  const before = html;
+  html = replaceBlogGrid(html, cards);
+  html = upsertPublishedDates(html, datesForClient);
+  html = ensureBlogOrderScript(html);
+  if (html === before) return false;
+  fs.writeFileSync(filePath, html);
+  return true;
+}
+
 const history = loadFileHistory();
 let generatedCount = 0;
+const publishedBySlug = {};
 
 for (const post of BLOG_LIST) {
   const slug = post.slug;
@@ -221,6 +289,18 @@ for (const post of BLOG_LIST) {
   // 게시일 = 이 경로가 처음 생긴 커밋, 수정일 = 본문이 마지막으로 바뀐 커밋.
   // 봇이 기존 글 HTML을 복사해 새 글을 넣어도 날짜 칸을 직접 쓰지 않아도 된다.
   const dates = blogDates(`blog-${slug}.html`, history);
+  // git %cI is sometimes "Z" and sometimes "+00:00" for the same instant.
+  // Keep the publish-date string already on the page when the instant matches,
+  // so this run does not rewrite article dates just to change the suffix.
+  const existingPublished = (out.match(/property="article:published_time" content="([^"]*)"/) || [])[1];
+  const existingModified = (out.match(/property="article:modified_time" content="([^"]*)"/) || [])[1];
+  if (existingPublished && Date.parse(existingPublished) === Date.parse(dates.published)) {
+    dates.published = existingPublished;
+  }
+  if (existingModified && Date.parse(existingModified) === Date.parse(dates.modified)) {
+    dates.modified = existingModified;
+  }
+  publishedBySlug[slug] = dates.published;
   out = upsertArticleMeta(out, dates);
   out = upsertJsonLd(out, slug, dates, "ko");
   out = upsertVisibleDate(out, dates);
@@ -232,4 +312,10 @@ for (const post of BLOG_LIST) {
   generatedCount++;
 }
 
-console.log(`blog-*.html ${generatedCount}개 본문 정적화 완료`);
+let indexCount = 0;
+if (syncBlogIndex(path.join(root, "blog.html"), "ko", publishedBySlug)) indexCount++;
+if (syncBlogIndex(path.join(root, "en", "blog.html"), "en", publishedBySlug)) indexCount++;
+
+const sortedForLog = sortBlogPosts(BLOG_LIST, publishedBySlug);
+const top = sortedForLog.slice(0, 3).map(post => `${post.slug} ${publishRaw(post, publishedBySlug)}`).join(" | ");
+console.log(`blog-*.html ${generatedCount}개 본문 정적화 완료, 목록 ${indexCount}개 정렬 (${top})`);
