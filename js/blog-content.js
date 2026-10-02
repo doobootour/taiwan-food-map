@@ -2486,7 +2486,7 @@ const BLOG_POSTS = {
           items: [
             { mark: "✓", b: "치메이", desc: "황금 펑리수는 피와 소 비율이 2:3이라 소가 넉넉한 편이에요. 파인애플만 쓴 제품을 원하면 투펑리수(土鳳梨酥)를 고르세요." },
             { mark: "✓", b: "써니힐즈", desc: "펑리수와 사과 소 핑궈수(6개입 NT$405·10개입 NT$650), 두 가지를 섞은 선물 상자(NT$630)가 있어요(2026년 9월 기준). 본점은 민성둥루 5단 36항 4롱 1호예요." },
-            { mark: "✓", b: "치아더", desc: "본점은 난징둥루 5단 88호, MRT 난징싼민역 2번 출구 근처예요. 영업시간은 공식 사이트에서 확인하지 못해 방문 전 다시 보는 걸 추천해요." },
+            { mark: "✓", b: "치아더", desc: "본점은 난징둥루 5단 88호, MRT 난징싼민역 2번 출구 근처예요. 영업시간은 방문 전 구글맵에 등록된 정보를 확인하세요." },
           ],
         },
         { type: "figure", img: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg", caption: "시장 진열대에 쌓인 생 파인애플이에요. 펑리수 실물이 아니라 소 재료를 보여주는 참고 사진이에요." },
@@ -2536,7 +2536,7 @@ const BLOG_POSTS = {
           items: [
             { mark: "✓", b: "Chimei", desc: "The Golden cake has a 2:3 crust-to-filling ratio, so it's generous with filling. For pineapple-only, choose the 土鳳梨酥." },
             { mark: "✓", b: "SunnyHills", desc: "Besides pineapple cakes there's an apple cake (6-pack NT$405, 10-pack NT$650) and a mixed box (NT$630), as of Sept 2026. The flagship is at Lane 36, Alley 4, No. 1, Minsheng E. Rd Sec. 5." },
-            { mark: "✓", b: "Chia Te", desc: "The flagship is at No. 88, Nanjing E. Rd Sec. 5, near Exit 2 of Nanjing Sanmin MRT. We couldn't confirm opening hours on the official site, so check before you go." },
+            { mark: "✓", b: "Chia Te", desc: "The flagship is at No. 88, Nanjing E. Rd Sec. 5, near Exit 2 of Nanjing Sanmin MRT. Check the current opening hours on Google Maps before you go." },
           ],
         },
         { type: "figure", img: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg", caption: "Fresh pineapples stacked at a market stall — a reference photo of the filling fruit, not the pineapple cakes themselves." },
