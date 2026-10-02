@@ -18,6 +18,23 @@
 
 const BLOG_LIST = [
   {
+    slug: "taiwan-pineapple-cake-brand-comparison",
+    image: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg",
+    regions: ["taipei", "tainan"],
+    ko: {
+      eyebrow: "대만 여행 가이드 · 선물",
+      title: "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까?",
+      desc: "치아더·치메이·써니힐즈, 소 재료와 가격대, 사기 좋은 곳을 한 표로 비교했어요.",
+      meta: "대만 · 선물 가이드",
+    },
+    en: {
+      eyebrow: "Taiwan Travel Guide · Gifts",
+      title: "Taiwan Pineapple Cake Brands Compared: Chia Te, Chimei, or SunnyHills?",
+      desc: "Chia Te, Chimei, and SunnyHills compared by filling, price, and where to buy.",
+      meta: "Taiwan · Gift Guide",
+    },
+  },
+  {
     slug: "taiwan-arrival-card-twac-guide",
     image: "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg",
     regions: ["taipei"],
@@ -2435,6 +2452,110 @@ const BLOG_POSTS = {
         { type: "p", html: "Once entry prep is done, plan tomorrow morning's breakfast. Pick a spot near your hotel from <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, and check <a href=\"/taipei-breakfast-sihai-soy-milk-794\">Sihai Soy Milk</a>. See everything on the <a href=\"/region-taipei\">Taipei food map</a>." },
         { type: "note", text: "This guide is based on official notices from Taiwan's National Immigration Agency, including the July 2026 update (as of September 2026). Entry rules can change, so check the official TWAC site before you fly." },
         { type: "cta", title: "Find a First-Day Restaurant on the Map", desc: "Look up Taipei restaurants to hit right after you land.", btn: "Open Map →", href: "/map?region=taipei" },
+      ],
+    },
+  },
+
+  "taiwan-pineapple-cake-brand-comparison": {
+    heroImage: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg",
+    ko: {
+      pageTitle: "대만 펑리수 브랜드 비교 — 3곳 정리 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까요? 소 재료와 2026년 가격, 구매처까지 한 표로 정리했어요.",
+      ogTitle: "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까?",
+      eyebrow: "대만 여행 가이드 · 선물",
+      title: "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까?",
+      dek: "이름은 다 들어봤는데 차이는 잘 모르겠다면 — 소 재료, 가격대, 구매처를 기준으로 세 브랜드를 나란히 놓아봤습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "대만 · 선물 가이드",
+      intro: "\"펑리수는 다 비슷하지 않아요?\" 대만 펑리수 브랜드 비교를 해보면 소 재료부터 달라요. 파인애플만 쓰는 곳, 동과(冬瓜)를 섞는 곳, 사과 소를 따로 내는 곳까지 있어서 받는 사람 취향에 따라 고르는 게 좋아요. 각 브랜드 공식몰 정보와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 대만 펑리수 브랜드 비교 한눈에 보기" },
+        {
+          type: "compareTable",
+          cities: ["치메이(奇美食品)", "써니힐즈(微熱山丘)", "치아더(佳德糕餅)"],
+          rows: [
+            { label: "소 재료", values: ["황금 펑리수는 파인애플+동과, 투펑리수는 파인애플만", "파인애플 소 펑리수, 사과 소 핑궈수", "맛 종류가 여러 가지"] },
+            { label: "가격(2026년 9월 기준)", values: ["황금 펑리수 12개입 NT$588(공식몰)", "펑리수 6·10·15개입 NT$345·550·825", "매장 가격 확인 필요"] },
+            { label: "구매처", values: ["공식몰, 타오위안공항 면세점 등", "공식몰, 타이베이 민성 본점 등", "타이베이 난징둥루 본점"] },
+            { label: "후기 경향", values: ["부드럽고 달콤하다는 평", "새콤한 과육감이 있다는 평", "맛을 섞어 고르기 좋다는 평"] },
+          ],
+        },
+        { type: "h2", text: "02 · 브랜드별로 알아둘 점" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "치메이", desc: "황금 펑리수는 피와 소 비율이 2:3이라 소가 넉넉한 편이에요. 파인애플만 쓴 제품을 원하면 투펑리수(土鳳梨酥)를 고르세요." },
+            { mark: "✓", b: "써니힐즈", desc: "펑리수와 사과 소 핑궈수(6개입 NT$405·10개입 NT$650), 두 가지를 섞은 선물 상자(NT$630)가 있어요(2026년 9월 기준). 본점은 민성둥루 5단 36항 4롱 1호예요." },
+            { mark: "✓", b: "치아더", desc: "본점은 난징둥루 5단 88호, MRT 난징싼민역 2번 출구 근처예요. 영업시간은 공식 사이트에서 확인하지 못해 방문 전 다시 보는 걸 추천해요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg", caption: "시장 진열대에 쌓인 생 파인애플이에요. 펑리수 실물이 아니라 소 재료를 보여주는 참고 사진이에요." },
+        { type: "h2", text: "03 · 받는 사람별로 고르기" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "달콤한 맛을 좋아하는 부모님", desc: "동과를 섞은 소가 부드러워 무난하다는 후기가 많아요." },
+            { mark: "2", b: "새콤한 과일 맛을 좋아하는 사람", desc: "파인애플만 쓴 소를 고르세요. 브랜드마다 '土鳳梨' 표기가 있는지 보면 돼요." },
+            { mark: "3", b: "회사 동료 여러 명", desc: "개별 포장에 개수가 많은 상자가 나눠 주기 편해요." },
+            { mark: "4", b: "여러 맛을 보고 싶을 때", desc: "맛 종류가 많은 매장에서 섞어 담는 방법도 있어요." },
+          ],
+        },
+        { type: "h2", text: "04 · 사기 전에 확인할 것" },
+        { type: "p", html: "가격과 구성은 시즌과 채널에 따라 바뀌어요. 공항 면세점과 시내 매장의 가격이나 포장이 다를 수 있으니, 선물 개수를 정한 뒤 개당 가격으로 비교해보세요. 유통기한도 제품마다 달라서 귀국 후 바로 나눠 줄 계획이 아니면 날짜를 먼저 확인하는 게 좋아요." },
+        { type: "quote", text: "\"받는 사람 입맛부터 생각하고 브랜드를 고르면 실패가 적다.\" — 대만 펑리수를 여러 번 사 본 여행자들의 조언을 요약했습니다." },
+        { type: "p", html: "브랜드 매장 외에도 선택지는 많아요. <a href=\"/taipei-bakery\">타이베이 베이커리 맛집</a> 모음에서 과자점을 더 볼 수 있고, 101 근처라면 <a href=\"/taipei-bakery-sunny-hills-101-795\">써니힐즈(타이베이 101 인근)</a> 매장도 있어요. 타이난에 간다면 <a href=\"/tainan-taiwanese-640\">치메이식품 행복공장(奇美食品幸福工廠)</a>도 지도에 있고, 주변 가게는 <a href=\"/region-tainan\">타이난 맛집 지도</a>에서 볼 수 있어요." },
+        { type: "note", text: "이 글은 각 브랜드 공식몰·공식 사이트 정보와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 맛 평가는 후기 경향이며, 가격·영업시간은 방문 전 다시 확인하는 것을 추천해요." },
+        { type: "cta", title: "지도에서 타이베이 베이커리도 확인해보세요", desc: "펑리수와 함께 사기 좋은 타이베이 빵집·과자점을 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=bakery" },
+      ],
+    },
+    en: {
+      pageTitle: "Taiwan Pineapple Cake Brands Compared — Chia Te, Chimei, SunnyHills · My Secret Taiwan Eats",
+      metaDescription: "Chia Te, Chimei, and SunnyHills side by side: fillings, 2026 prices, and where to buy each Taiwanese pineapple cake.",
+      ogTitle: "Taiwan Pineapple Cake Brands Compared: Chia Te, Chimei, or SunnyHills?",
+      eyebrow: "Taiwan Travel Guide · Gifts",
+      title: "Taiwan Pineapple Cake Brands Compared: Chia Te, Chimei, or SunnyHills?",
+      dek: "You've heard all three names but aren't sure how they differ — here they are side by side by filling, price range, and where to buy.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taiwan · Gift Guide",
+      intro: "\"Aren't all pineapple cakes the same?\" Not quite. Some brands use only pineapple, some blend in winter melon (冬瓜), and some also sell an apple-filled version, so it pays to pick by the recipient's taste. Based on each brand's official store information and real traveler experiences, here's a comparison.",
+      blocks: [
+        { type: "h2", text: "01 · The Three Brands at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["Chimei (奇美食品)", "SunnyHills (微熱山丘)", "Chia Te (佳德糕餅)"],
+          rows: [
+            { label: "Filling", values: ["Golden: pineapple + winter melon; 土鳳梨酥: pineapple only", "Pineapple cake, plus an apple cake", "Several flavors"] },
+            { label: "Price (Sept 2026)", values: ["Golden 12-pack NT$588 (official store)", "6/10/15-pack NT$345/550/825", "Check in store"] },
+            { label: "Where to buy", values: ["Official store, Taoyuan Airport duty-free, etc.", "Official store, Minsheng flagship in Taipei, etc.", "Flagship on Nanjing E. Rd, Taipei"] },
+            { label: "Reviews tend to say", values: ["Soft and sweet", "Tangy, with fruit texture", "Good for mixing flavors"] },
+          ],
+        },
+        { type: "h2", text: "02 · What to Know About Each Brand" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Chimei", desc: "The Golden cake has a 2:3 crust-to-filling ratio, so it's generous with filling. For pineapple-only, choose the 土鳳梨酥." },
+            { mark: "✓", b: "SunnyHills", desc: "Besides pineapple cakes there's an apple cake (6-pack NT$405, 10-pack NT$650) and a mixed box (NT$630), as of Sept 2026. The flagship is at Lane 36, Alley 4, No. 1, Minsheng E. Rd Sec. 5." },
+            { mark: "✓", b: "Chia Te", desc: "The flagship is at No. 88, Nanjing E. Rd Sec. 5, near Exit 2 of Nanjing Sanmin MRT. We couldn't confirm opening hours on the official site, so check before you go." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg", caption: "Fresh pineapples stacked at a market stall — a reference photo of the filling fruit, not the pineapple cakes themselves." },
+        { type: "h2", text: "03 · Choosing by Recipient" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Parents who like sweet", desc: "Winter-melon blends are soft and a safe pick, reviews say." },
+            { mark: "2", b: "Fans of tangy fruit", desc: "Choose pineapple-only fillings — look for '土鳳梨' on the box." },
+            { mark: "3", b: "A whole office", desc: "Large boxes of individually wrapped cakes are easiest to hand out." },
+            { mark: "4", b: "Want to try several", desc: "Some shops let you mix flavors in one box." },
+          ],
+        },
+        { type: "h2", text: "04 · Before You Buy" },
+        { type: "p", html: "Prices and box sizes change by season and sales channel. Airport duty-free and city stores may differ in price or packaging, so decide how many you need and compare the per-piece price. Shelf life varies too, so check the date if you won't hand them out right away." },
+        { type: "quote", text: "\"Think about the recipient's taste first, then pick the brand.\" — a summary of advice from travelers who've bought plenty of pineapple cakes." },
+        { type: "p", html: "There are plenty of options beyond the brand shops. You can see more pastry shops in the <a href=\"/taipei-bakery\">Taipei bakery picks</a>, and near Taipei 101 there's the <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills (near Taipei 101)</a> shop. If you're heading to Tainan, <a href=\"/tainan-taiwanese-640\">Chimei Food Happiness Factory (奇美食品幸福工廠)</a> is on the map, and nearby shops are on the <a href=\"/region-tainan\">Tainan food map</a>." },
+        { type: "note", text: "Based on each brand's official store/site and traveler experiences (as of September 2026). Taste notes reflect review trends; check prices and hours before visiting." },
+        { type: "cta", title: "Find Taipei bakeries on the map", desc: "Look for Taipei bakeries and snack shops to visit along with your pineapple cake run.", btn: "Open Map →", href: "/map?region=taipei&cat=bakery" },
       ],
     },
   }
