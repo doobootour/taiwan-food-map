@@ -18,6 +18,23 @@
 
 const BLOG_LIST = [
   {
+    slug: "taiwan-canned-kimchi-carry-on-rules",
+    image: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "대만 여행 가이드 · 짐 싸기",
+      title: "대만 여행 김치 기내 반입, 캔 볶음김치는 어떻게 챙길까?",
+      desc: "캔 김치는 기내? 위탁? 액체류 기준과 대만 돼지고기 반입 금지까지 한 번에 정리했어요.",
+      meta: "대만 · 수하물 가이드",
+    },
+    en: {
+      eyebrow: "Taiwan Travel Guide · Packing",
+      title: "Bringing Canned Kimchi to Taiwan: Carry-on or Checked?",
+      desc: "Carry-on or checked? Kimchi liquid rules plus Taiwan's pork product ban in one place.",
+      meta: "Taiwan · Baggage Guide",
+    },
+  },
+  {
     slug: "taiwan-pineapple-cake-brand-comparison",
     image: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg",
     regions: ["taipei", "tainan"],
@@ -2556,6 +2573,110 @@ const BLOG_POSTS = {
         { type: "p", html: "There are plenty of options beyond the brand shops. You can see more pastry shops in the <a href=\"/taipei-bakery\">Taipei bakery picks</a>, and near Taipei 101 there's the <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills (near Taipei 101)</a> shop. If you're heading to Tainan, <a href=\"/tainan-taiwanese-640\">Chimei Food Happiness Factory (奇美食品幸福工廠)</a> is on the map, and nearby shops are on the <a href=\"/region-tainan\">Tainan food map</a>." },
         { type: "note", text: "Based on each brand's official store/site and traveler experiences (as of September 2026). Taste notes reflect review trends; check prices and hours before visiting." },
         { type: "cta", title: "Find Taipei bakeries on the map", desc: "Look for Taipei bakeries and snack shops to visit along with your pineapple cake run.", btn: "Open Map →", href: "/map?region=taipei&cat=bakery" },
+      ],
+    },
+  },
+
+  "taiwan-canned-kimchi-carry-on-rules": {
+    heroImage: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg",
+    ko: {
+      pageTitle: "대만 여행 김치 기내 반입 — 액체 규정 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "대만 여행 김치 기내 반입, 캔은 어떻게 할까요? 용기당 100ml 기준과 위탁 수하물, 대만 돼지고기 반입 금지까지 정리했어요.",
+      ogTitle: "대만 여행 김치 기내 반입, 캔 볶음김치는 어떻게 챙길까?",
+      eyebrow: "대만 여행 가이드 · 짐 싸기",
+      title: "대만 여행 김치 기내 반입, 캔 볶음김치는 어떻게 챙길까?",
+      dek: "작은 캔 하나 때문에 보안검색에서 버리는 일이 없도록 — 용기 기준과 대만 입국 때 더 조심할 점을 모았습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "대만 · 수하물 가이드",
+      intro: "\"볶음김치 캔 하나 정도는 가방에 넣어도 되겠죠?\" 대만 여행 김치 기내 반입은 생각보다 까다로워요. 국물이나 양념이 있는 김치·고추장은 액체류로 보기 때문이에요. 인천공항과 대만 항공경찰국 안내, 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 기내 vs 위탁 한눈에 비교하기" },
+        {
+          type: "compareTable",
+          cities: ["기내 수하물", "위탁 수하물"],
+          rows: [
+            { label: "김치·고추장 분류", values: ["액체류(국물·젤 형태)", "제한 없이 부칠 수 있음(인천공항 안내)"] },
+            { label: "용량 기준", values: ["용기당 100ml 이하, 1인 1L 투명 지퍼백 1개", "항공사 무게 한도 안에서"] },
+            { label: "캔 제품", values: ["100ml 넘는 캔은 내용물이 적어도 불가", "밀봉·완충 포장 권장"] },
+            { label: "대만 출국 때", values: ["같은 기준(용기당 100mL, 1L 지퍼백 1개)", "같음"] },
+          ],
+        },
+        { type: "h2", text: "02 · 대만 여행 김치 기내 반입, 캔은 용기 크기로 판단" },
+        { type: "p", html: "100ml 기준은 남은 양이 아니라 용기에 적힌 용량이에요. 그래서 반쯤 먹은 큰 캔도 기내에는 못 들고 갑니다. 여행용 소포장 김치라도 용량 표시가 100ml를 넘으면 위탁 수하물로 보내는 게 안전해요." },
+        { type: "figure", img: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg", caption: "젓가락 옆 유리병에 담긴 김치예요. 국물과 양념이 있어 기내에서는 액체류로 분류돼요." },
+        { type: "h2", text: "03 · 대만 입국 때 더 조심할 것: 돼지고기" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "성분표부터 확인", desc: "볶음김치나 김치찌개 캔에 돼지고기가 들어 있으면 대만 반입 금지 품목이에요. 가열·통조림 제품도 마찬가지예요." },
+            { mark: "✓", b: "벌금이 매우 커요", desc: "돼지고기 제품을 신고 없이 들여오면 첫 위반에도 NT$200,000 벌금이 부과되고(2026년 9월 기준), 외국인이 바로 내지 못하면 입국이 거부될 수 있어요." },
+            { mark: "✓", b: "자진 신고함 이용", desc: "도착 후 짐에 해당 제품이 있다는 걸 알았다면 입국 심사 전에 있는 자진 신고함(폐기함)에 버리세요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-2.jpg", caption: "나무 바닥에 놓인 회색 기내용 백팩 두 개예요. 기내 가방에는 100ml 넘는 김치 용기를 넣지 않아요." },
+        { type: "h2", text: "04 · 짐 싸기 요령" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "위탁 가방에 넣기", desc: "캔·병은 지퍼백으로 한 번 싸고 옷 사이에 넣으면 새는 걸 막을 수 있어요." },
+            { mark: "2", b: "소포장은 지퍼백에", desc: "100ml 이하 소포장만 기내용 1L 지퍼백에 넣으세요." },
+            { mark: "3", b: "성분표 사진 찍기", desc: "돼지고기 여부를 빠르게 확인할 수 있게 미리 찍어두면 편해요." },
+          ],
+        },
+        { type: "quote", text: "\"김치는 위탁, 고기 들어간 캔은 아예 빼기.\" — 대만에 반찬을 챙겨 간 여행자들이 자주 하는 말을 요약했습니다." },
+        { type: "p", html: "현지 음식이 입에 맞을지 걱정이라면 <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a>에서 익숙한 맛의 메뉴부터 골라보세요. 한식이 그리울 때를 위해 <a href=\"/hualien-korean-33\">화롄 한식당 韓食倉庫</a>처럼 지도에 등록된 한식당도 있어요. 도시별 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요." },
+        { type: "note", text: "이 글은 인천공항·대만 항공경찰국·대만 이민서·동식물방역검역서 안내와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 규정은 바뀔 수 있으니 출발 전 항공사와 공항 안내를 다시 확인해주세요." },
+        { type: "cta", title: "지도에서 타이베이 맛집을 먼저 찾아보세요", desc: "현지 음식이 걱정된다면 입맛에 맞을 만한 타이베이 식당을 지도에서 미리 골라보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
+      ],
+    },
+    en: {
+      pageTitle: "Kimchi on Flights to Taiwan — Liquid Rules and Pork Ban · My Secret Taiwan Eats",
+      metaDescription: "Kimchi counts as a liquid in carry-on bags. Here's the 100ml container rule, checked-bag options, and Taiwan's strict ban on pork products.",
+      ogTitle: "Bringing Canned Kimchi to Taiwan: Carry-on or Checked?",
+      eyebrow: "Taiwan Travel Guide · Packing",
+      title: "Bringing Canned Kimchi to Taiwan: Carry-on or Checked?",
+      dek: "So one small can doesn't end up in the security bin — container rules and what to watch for when entering Taiwan.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taiwan · Baggage Guide",
+      intro: "\"Surely one can of stir-fried kimchi is fine in my bag?\" Kimchi and gochujang with sauce or brine count as liquids, so it's trickier than it looks. Based on Incheon Airport and Taiwan Aviation Police guidance plus real traveler experiences, here's how to pack it.",
+      blocks: [
+        { type: "h2", text: "01 · Carry-on vs Checked at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["Carry-on", "Checked"],
+          rows: [
+            { label: "Kimchi/gochujang", values: ["Liquid (brine or gel)", "No quantity limit (Incheon Airport)"] },
+            { label: "Limit", values: ["100ml per container, one 1L clear bag per person", "Within airline weight limits"] },
+            { label: "Cans", values: ["Cans over 100ml not allowed, even if partly empty", "Seal and cushion well"] },
+            { label: "Leaving Taiwan", values: ["Same rule (100mL per container, one 1L bag)", "Same"] },
+          ],
+        },
+        { type: "h2", text: "02 · Cans Are Judged by Container Size" },
+        { type: "p", html: "The 100ml rule applies to the size printed on the container, not what's left inside. A half-eaten large can still can't go in your carry-on. Even travel-size packs should go in checked luggage if they're labeled over 100ml." },
+        { type: "figure", img: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg", caption: "Kimchi in a glass jar next to chopsticks — with brine and seasoning, it counts as a liquid on board." },
+        { type: "h2", text: "03 · Extra Caution Entering Taiwan: Pork" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Check the ingredients", desc: "Stir-fried kimchi or kimchi-stew cans containing pork are banned in Taiwan — cooked and canned products included." },
+            { mark: "✓", b: "The fine is huge", desc: "Undeclared pork products bring a NT$200,000 fine even for a first offense (as of Sept 2026), and foreigners who can't pay on the spot may be refused entry." },
+            { mark: "✓", b: "Use the amnesty bins", desc: "If you realize you have such a product after landing, drop it in the amnesty bin before immigration." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-2.jpg", caption: "Two gray carry-on backpacks on a wooden floor — keep kimchi containers over 100ml out of them." },
+        { type: "h2", text: "04 · Packing Tips" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Put it in checked luggage", desc: "Wrap cans and jars in a zip bag and tuck them between clothes to prevent leaks." },
+            { mark: "2", b: "Small packs in the liquids bag", desc: "Only packs of 100ml or less go in your 1L carry-on bag." },
+            { mark: "3", b: "Photograph the label", desc: "A quick photo makes it easy to confirm there's no pork." },
+          ],
+        },
+        { type: "quote", text: "\"Kimchi goes in checked bags, and cans with meat stay home.\" — a summary of what travelers who've brought side dishes to Taiwan often say." },
+        { type: "p", html: "If local food feels unfamiliar, start with <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a> for approachable menus. When you want Korean food, places like <a href=\"/hualien-korean-33\">韓食倉庫 in Hualien</a> are on the map too. Browse city spots on the <a href=\"/region-taipei\">Taipei restaurant map</a>." },
+        { type: "note", text: "Based on guidance from Incheon Airport, Taiwan's Aviation Police Bureau, National Immigration Agency, and Animal and Plant Health Inspection Agency, plus traveler experiences (as of September 2026). Rules can change, so recheck with your airline and airport before departure." },
+        { type: "cta", title: "Find Taipei restaurants on the map first", desc: "Worried about local food? Pick Taipei restaurants that suit your taste on the map ahead of time.", btn: "Open Map →", href: "/map?region=taipei" },
       ],
     },
   }
