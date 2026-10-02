@@ -18,6 +18,23 @@
 
 const BLOG_LIST = [
   {
+    slug: "taiwan-arrival-card-twac-guide",
+    image: "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "대만 여행 가이드 · 입국 준비",
+      title: "대만 입국신고서 TWAC, 언제 어떻게 작성하면 될까?",
+      desc: "종이 신고서는 끝, 이제는 온라인 TWAC — 작성 시기와 가족 대리 작성, 주의할 점을 2026년 기준으로 정리했어요.",
+      meta: "대만 여행 · 입국 가이드",
+    },
+    en: {
+      eyebrow: "Taiwan Travel Guide · Entry Prep",
+      title: "Taiwan Arrival Card (TWAC): When and How Should You Fill It Out?",
+      desc: "Paper cards are gone; it's all online TWAC now — timing, family submissions, and pitfalls as of 2026.",
+      meta: "Taiwan Travel · Entry Guide",
+    },
+  },
+  {
     slug: "taipei-taichung-kaohsiung-with-mom",
     image: "assets/images/regions/taipei.webp",
     regions: ["taipei", "taichung", "kaohsiung"],
@@ -2310,6 +2327,114 @@ const BLOG_POSTS = {
         { type: "p", html: "If you win, many travelers put the credit toward food. Gift snacks are collected on the <a href=\"/taipei-bakery\">Taipei bakery picks</a> page, including <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills near Taipei 101</a>. See all locations on the <a href=\"/region-taipei\">Taipei food map</a>." },
         { type: "note", text: "This guide is based on Taiwan's Tourism Administration registration site and CNA reports (as of October 2, 2026, after rechecking the official registration site and news reports). Details such as winner numbers and redemption may change, so check the official site before registering." },
         { type: "cta", title: "Pick Restaurants to Spend It On", desc: "Bookmark restaurants for your Taiwan trip on the map.", btn: "Open Map →", href: "/map" },
+      ],
+    },
+  },
+
+  "taiwan-arrival-card-twac-guide": {
+    heroImage: "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg",
+    ko: {
+      pageTitle: "대만 입국신고서 TWAC — 작성 시기 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "대만 입국신고서 TWAC는 도착 전 7일 이내 온라인으로만 작성해요. 작성 순서, 가족 대리 작성, 유료 대행 사이트 주의점을 정리했어요.",
+      ogTitle: "대만 입국신고서 TWAC, 언제 어떻게 작성하면 될까?",
+      eyebrow: "대만 여행 가이드 · 입국 준비",
+      title: "대만 입국신고서 TWAC, 언제 어떻게 작성하면 될까?",
+      dek: "작성 가능 기간이 '도착 전 3일'에서 '7일'로 늘어난 최신 기준과, 가족 여행자가 한 번에 등록하는 방법까지 담았습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "대만 여행 · 입국 가이드",
+      intro: "\"기내에서 입국신고서 나눠주나요?\" 대만 입국신고서 TWAC(Taiwan Arrival Card)는 2025년 10월 1일부터 종이 대신 온라인으로만 받아요. 대만 이민서 공식 공지와 실제 여행자들의 경험을 바탕으로 작성 시기와 요령을 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 예전과 지금 한눈에 비교하기" },
+        {
+          type: "compareTable",
+          cities: ["예전(종이 신고서)", "현재(TWAC, 2026년 9월 기준)"],
+          rows: [
+            { label: "작성 방식", values: ["기내·공항에서 종이에 작성", "공식 사이트에서 온라인 작성"] },
+            { label: "작성 시기", values: ["입국 심사 직전", "도착 전 7일 이내(2026년 7월 15일부터, 이전엔 3일)"] },
+            { label: "가족·일행", values: ["1인 1장", "대표 1명이 최대 16명까지 대신 작성"] },
+            { label: "심사 때 제출", values: ["종이 제출", "제출 불필요 — 여권을 스캔하면 자동 조회"] },
+            { label: "비용", values: ["무료", "무료"] },
+          ],
+        },
+        { type: "h2", text: "02 · 대만 입국신고서 TWAC 작성 순서" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "공식 사이트 접속", desc: "twac.immigration.gov.tw에 들어가 중국어나 영어로 작성합니다. 항목 설명은 한국어를 포함한 7개 언어로 볼 수 있어요." },
+            { mark: "2", b: "여권 사진 업로드", desc: "여권 정보면을 촬영해 올리면 이름·여권번호가 자동으로 입력돼 시간이 줄어요." },
+            { mark: "3", b: "항공편·숙소 입력", desc: "도착 항공편 번호와 대만 숙소 주소를 미리 준비해두면 막힘없이 끝납니다." },
+            { mark: "4", b: "확인 메일 보관", desc: "제출하면 이메일로 완료 안내가 옵니다. 심사 때 보여줄 필요는 없지만 캡처해두면 마음이 편해요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg", caption: "초록색 한국 여권과 탑승권이 꽂힌 여권 케이스예요. TWAC에는 여권 정보와 항공편 번호가 필요해요." },
+        { type: "h2", text: "03 · 자주 하는 실수" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "너무 일찍 작성하기", desc: "도착 7일 전보다 앞서서는 제출이 안 됩니다. 출발 주간에 작성하세요." },
+            { mark: "✓", b: "유료 대행 사이트", desc: "검색하면 수수료를 받는 대행 사이트가 나오는데, 공식 TWAC는 무료입니다. 주소가 immigration.gov.tw인지 꼭 확인하세요." },
+            { mark: "✓", b: "일행 누락", desc: "대리 작성 후 일행 전원이 목록에 들어갔는지 확인하세요. 수정은 제출 후에도 온라인으로 가능합니다." },
+            { mark: "✓", b: "공항에서 못 했다면", desc: "도착 공항에도 TWAC QR코드가 있어 현장에서 작성할 수 있지만, 줄이 길 때는 시간이 걸려요." },
+          ],
+        },
+        { type: "h2", text: "04 · 대상이 아닌 사람도 있어요" },
+        { type: "p", html: "TWAC는 무비자·방문 비자로 입국하는 외국인이 대상입니다. 대만 거주증이 있는 사람은 작성하지 않아도 돼요. 한국 여권으로 관광 입국한다면 대부분 작성 대상이라고 보면 됩니다." },
+        { type: "quote", text: "\"비행기 타기 전날 밤에 5분이면 끝난다.\" — TWAC를 미리 작성해 본 여행자들의 후기를 요약했습니다." },
+        { type: "p", html: "입국 준비를 마쳤다면 도착 다음 날 아침 메뉴를 정해볼 차례예요. <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>에서 숙소 가까운 곳을 고르고, 또우장 가게 <a href=\"/taipei-breakfast-sihai-soy-milk-794\">쓰하이 또우장(Sihai Soy Milk)</a>도 참고해보세요. 전체 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에 있어요." },
+        { type: "note", text: "이 글은 대만 내정부 이민서 공식 공지(2026년 7월 기준 개정 포함)를 바탕으로 정리했습니다(2026년 9월 기준). 입국 제도는 바뀔 수 있으니 출발 전 공식 TWAC 사이트에서 다시 확인하는 것을 추천해요." },
+        { type: "cta", title: "도착 첫날 갈 맛집도 지도에서 찾아보세요", desc: "입국 후 바로 들르기 좋은 타이베이 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
+      ],
+    },
+    en: {
+      pageTitle: "Taiwan Online Arrival Card (TWAC) Guide — Timing and Family Submissions · My Secret Taiwan Eats",
+      metaDescription: "Taiwan no longer accepts paper arrival cards — only the online TWAC. Submitting within 7 days of arrival, filling it out for family, and avoiding paid third-party sites, as of 2026.",
+      ogTitle: "Taiwan Arrival Card (TWAC): When and How Should You Fill It Out?",
+      eyebrow: "Taiwan Travel Guide · Entry Prep",
+      title: "Taiwan Arrival Card (TWAC): When and How Should You Fill It Out?",
+      dek: "The latest rule — the window grew from 3 days to 7 days before arrival — plus how families can register everyone at once.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taiwan Travel · Entry Guide",
+      intro: "\"Will they hand out arrival cards on the plane?\" Since October 1, 2025, Taiwan no longer accepts paper arrival cards; you declare online through the Taiwan Arrival Card (TWAC). Based on official National Immigration Agency notices and real traveler experiences, here's when and how to fill it out.",
+      blocks: [
+        { type: "h2", text: "01 · Then vs. Now" },
+        {
+          type: "compareTable",
+          cities: ["Before (paper card)", "Now (TWAC, as of Sep 2026)"],
+          rows: [
+            { label: "How", values: ["On paper, on the plane or at the airport", "Online on the official site"] },
+            { label: "When", values: ["Right before immigration", "Within 7 days before arrival (since July 15, 2026; previously 3 days)"] },
+            { label: "Family/groups", values: ["One card each", "One person can submit for up to 16 people"] },
+            { label: "At immigration", values: ["Hand in the card", "Nothing to show — scanning your passport pulls up the data"] },
+            { label: "Cost", values: ["Free", "Free"] },
+          ],
+        },
+        { type: "h2", text: "02 · How to Fill It Out" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Go to the official site", desc: "Fill it out at twac.immigration.gov.tw in Chinese or English; field guidance is available in seven languages including Korean." },
+            { mark: "2", b: "Upload a passport photo", desc: "A photo of your passport data page auto-fills your name and passport number." },
+            { mark: "3", b: "Enter flight and hotel", desc: "Have your arrival flight number and Taiwan hotel address ready." },
+            { mark: "4", b: "Keep the confirmation email", desc: "You don't need to show it at immigration, but a screenshot is reassuring." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg", caption: "A green Korean passport and boarding passes in a passport wallet — TWAC asks for your passport details and flight number." },
+        { type: "h2", text: "03 · Common Mistakes" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Submitting too early", desc: "You can't submit more than 7 days before arrival. Do it the week you fly." },
+            { mark: "✓", b: "Paid third-party sites", desc: "Search results include sites that charge fees, but the official TWAC is free. Make sure the address is immigration.gov.tw." },
+            { mark: "✓", b: "Missing a companion", desc: "After submitting for your group, confirm everyone is on the list. You can still edit online afterward." },
+            { mark: "✓", b: "If you didn't do it beforehand", desc: "Arrival airports post TWAC QR codes so you can fill it out on the spot, but it takes time when lines are long." },
+          ],
+        },
+        { type: "h2", text: "04 · Who Doesn't Need It" },
+        { type: "p", html: "TWAC is for foreigners entering visa-free or on a visitor visa. Holders of a Taiwan residence permit don't need to file it. If you're entering on a Korean passport as a tourist, assume you need it." },
+        { type: "quote", text: "\"Took five minutes the night before my flight.\" — a summary of reviews from travelers who filled out TWAC in advance." },
+        { type: "p", html: "Once entry prep is done, plan tomorrow morning's breakfast. Pick a spot near your hotel from <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, and check <a href=\"/taipei-breakfast-sihai-soy-milk-794\">Sihai Soy Milk</a>. See everything on the <a href=\"/region-taipei\">Taipei food map</a>." },
+        { type: "note", text: "This guide is based on official notices from Taiwan's National Immigration Agency, including the July 2026 update (as of September 2026). Entry rules can change, so check the official TWAC site before you fly." },
+        { type: "cta", title: "Find a First-Day Restaurant on the Map", desc: "Look up Taipei restaurants to hit right after you land.", btn: "Open Map →", href: "/map?region=taipei" },
       ],
     },
   }
