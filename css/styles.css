@@ -525,35 +525,91 @@ h1, h2, h3, h4, .display {
 
 .blog-card-grid { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 720px; margin: 0 auto; }
 .blog-card {
-  display: grid; grid-template-columns: 220px 1fr; gap: 24px;
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+  gap: 24px;
+  /* Border-box height that fits a one-line category, a 2-line title,
+     a 2-line excerpt, and the meta line at the current font sizes
+     (that stack measures ~218px inside the 1px border). */
+  height: 220px;
   background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm); overflow: hidden; text-decoration: none; color: inherit;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .blog-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
-.blog-card .blog-card-img { width: 100%; height: 100%; min-height: 180px; object-fit: cover; }
-.blog-card .blog-card-body { padding: 22px 24px 22px 0; display: flex; flex-direction: column; justify-content: center; }
-.blog-card .blog-card-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--terracotta-dark); margin-bottom: 8px; }
-.blog-card h3 { font-family: var(--font-display); font-size: 21px; font-weight: 600; color: var(--ink); margin: 0 0 10px; line-height: 1.35; }
-.blog-card p { font-size: 14.5px; color: var(--ink-soft); line-height: 1.65; margin: 0 0 12px; }
-.blog-card .blog-card-meta { font-size: 12.5px; color: var(--ink-faint); }
+.blog-card .blog-card-img {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  min-width: 0;
+  object-fit: cover;
+  object-position: center;
+}
+.blog-card .blog-card-body {
+  min-width: 0;
+  min-height: 0;
+  padding: 22px 24px 22px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-card .blog-card-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--terracotta-dark); margin-bottom: 8px; flex-shrink: 0; }
+.blog-card h3 {
+  font-family: var(--font-display); font-size: 21px; font-weight: 600; color: var(--ink);
+  margin: 0 0 10px; line-height: 1.35;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+.blog-card p {
+  font-size: 14.5px; color: var(--ink-soft); line-height: 1.65; margin: 0 0 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+.blog-card .blog-card-meta { font-size: 12.5px; color: var(--ink-faint); flex-shrink: 0; }
+.blog-card:not(:has(.blog-card-img)) { grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 641px) {
+  .blog-card:not(:has(.blog-card-img)) .blog-card-body { padding-left: 24px; }
+}
 @media (max-width: 640px) {
   /* Safari resolves height:100% on this grid image against the whole card,
-     so the photo paints under the copy. A definite height keeps the photo
-     in the top row and the text on the solid card background below it. */
+     so the photo paints under the copy. A definite aspect-ratio (not a
+     percentage height) keeps the photo in the top row. */
   .blog-card {
     grid-template-columns: 1fr;
-    grid-template-rows: 200px auto;
+    grid-template-rows: auto auto;
     gap: 0;
+    height: auto;
   }
   .blog-card .blog-card-img {
     width: 100%;
-    height: 200px;
-    min-height: 200px;
-    max-height: 200px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    min-height: 0;
+    max-height: none;
     align-self: start;
     object-fit: cover;
+    object-position: center;
   }
+  .blog-card:not(:has(.blog-card-img))::before {
+    content: "";
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    align-self: start;
+  }
+  .blog-card h3 { min-height: calc(1.35em * 2); }
+  .blog-card p { min-height: calc(1.65em * 2); }
   .blog-card .blog-card-body {
     padding: 20px;
     background: var(--surface);
