@@ -18,6 +18,23 @@
 
 const BLOG_LIST = [
   {
+    slug: "taiwan-first-trip-guidebooks",
+    image: "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "대만 여행 가이드 · 여행 준비",
+      title: "대만 여행 가이드북 추천, 첫 여행 전에 읽을 책 2권은?",
+      desc: "전역 가이드북 한 권, 마트 쇼핑 책 한 권 — 대만 첫 여행 전에 읽기 좋은 두 권을 정리했어요.",
+      meta: "대만 · 여행 준비",
+    },
+    en: {
+      eyebrow: "Taiwan Travel Guide · Trip Prep",
+      title: "Two Books to Read Before Your First Taiwan Trip",
+      desc: "An island-wide guidebook and a supermarket shopping guide — two books for a first Taiwan trip.",
+      meta: "Taiwan · Trip Prep",
+    },
+  },
+  {
     slug: "taiwan-canned-kimchi-carry-on-rules",
     image: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg",
     regions: ["taipei"],
@@ -2677,6 +2694,110 @@ const BLOG_POSTS = {
         { type: "p", html: "If local food feels unfamiliar, start with <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a> for approachable menus. When you want Korean food, places like <a href=\"/hualien-korean-33\">韓食倉庫 in Hualien</a> are on the map too. Browse city spots on the <a href=\"/region-taipei\">Taipei restaurant map</a>." },
         { type: "note", text: "Based on guidance from Incheon Airport, Taiwan's Aviation Police Bureau, National Immigration Agency, and Animal and Plant Health Inspection Agency, plus traveler experiences (as of September 2026). Rules can change, so recheck with your airline and airport before departure." },
         { type: "cta", title: "Find Taipei restaurants on the map first", desc: "Worried about local food? Pick Taipei restaurants that suit your taste on the map ahead of time.", btn: "Open Map →", href: "/map?region=taipei" },
+      ],
+    },
+  },
+
+  "taiwan-first-trip-guidebooks": {
+    heroImage: "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg",
+    ko: {
+      pageTitle: "대만 여행 가이드북 추천 — 첫 여행 2권 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "대만 여행 가이드북 추천이 필요하다면? 전역을 다룬 『디스 이즈 타이완』과 마트 쇼핑 책 한 권, 두 권을 나눠 읽는 방법을 정리했어요.",
+      ogTitle: "대만 여행 가이드북 추천, 첫 여행 전에 읽을 책 2권은?",
+      eyebrow: "대만 여행 가이드 · 여행 준비",
+      title: "대만 여행 가이드북 추천, 첫 여행 전에 읽을 책 2권은?",
+      dek: "블로그 검색만으로는 전체 그림이 안 잡힐 때 — 성격이 다른 두 권을 어떻게 나눠 읽으면 좋은지 모았습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "대만 · 여행 준비",
+      intro: "\"블로그를 아무리 봐도 대만 전체 그림이 안 그려져요.\" 대만 여행 가이드북 추천을 찾는 첫 여행자가 자주 하는 말이에요. 한 권은 지역 전체를, 한 권은 현지 마트 쇼핑을 다루는 책으로 나눠 보면 준비가 훨씬 수월해져요. 출판 정보와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 대만 여행 가이드북 추천 2권 한눈에 비교" },
+        {
+          type: "compareTable",
+          cities: ["『디스 이즈 타이완』", "『대만 현지 쇼핑 대백과』"],
+          rows: [
+            { label: "저자", values: ["신서희(테라출판사)", "오가와 지에코 지음, 김정원 옮김(클)"] },
+            { label: "최신판 출간", values: ["2026~2027 개정판, 2025년 12월 15일", "2025년 3월 26일"] },
+            { label: "분량", values: ["656쪽", "188쪽"] },
+            { label: "다루는 범위", values: ["타이베이·타이중·가오슝·타이난·컨딩·타이둥 등 대만 전역", "마트 식재료·양념·간식 고르는 법"] },
+            { label: "추천 상황", values: ["지역을 정하고 동선을 짤 때", "선물·간식 쇼핑 목록을 만들 때"] },
+          ],
+        },
+        { type: "h2", text: "02 · 두 권을 나눠 읽는 방법" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "출발 한 달 전", desc: "전역 가이드북으로 어느 도시에 며칠 머물지 먼저 정하세요. 지역별 특징을 비교하기 좋아요." },
+            { mark: "2", b: "출발 2주 전", desc: "쇼핑 책에서 사고 싶은 간식·양념을 골라 사진과 이름을 메모해두면 마트에서 헤매지 않아요." },
+            { mark: "3", b: "여행 중", desc: "두꺼운 책은 필요한 쪽만 사진으로 찍어 가면 짐이 가벼워져요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg", caption: "어두운 바닥 위에 가죽 배낭과 책, 노트, 여행 소품을 펼쳐 놓은 모습이에요." },
+        { type: "h2", text: "03 · 책으로 준비할 때 알아둘 점" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "개정 시점 확인", desc: "영업시간·요금은 책이 나온 뒤에도 바뀌어요. 책은 큰 틀을 잡는 데 쓰고, 세부 정보는 공식 사이트에서 다시 보세요." },
+            { mark: "✓", b: "도서관 희망도서 신청", desc: "도서관에 비치 희망 신청을 할 수 있는지는 도서관마다 달라요. 이용하는 도서관 안내를 확인하세요." },
+            { mark: "✓", b: "가격·재고", desc: "책 가격과 재고는 서점마다 달라 이 글에는 적지 않았어요." },
+          ],
+        },
+        { type: "h2", text: "04 · 이런 사람에게 잘 맞아요" },
+        { type: "p", html: "타이베이 외 지역도 고민 중인 첫 여행자라면 전역 가이드북이, 이미 한 번 다녀와 마트 쇼핑을 제대로 하고 싶은 재방문자라면 쇼핑 책이 더 쓸모 있어요. 가족 여행이라면 두 권을 나눠 읽고 역할을 나누는 방법도 있어요." },
+        { type: "quote", text: "\"큰 그림은 책으로, 최신 정보는 공식 사이트로.\" — 책으로 여행을 준비해 본 여행자들의 조언을 요약했습니다." },
+        { type: "p", html: "책으로 동선을 정했다면 먹을 곳은 지도로 채워보세요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 지역별 식당을 보고, 여행 첫날 간단히 먹기 좋은 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>도 모아 두었어요. 후추빵으로 알려진 <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">푸저우 스쭈 후추빵</a>처럼 책에 자주 나오는 간식 가게도 지도에 있어요." },
+        { type: "note", text: "이 글은 알라딘 도서 정보와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 책 내용 평가는 출판 정보와 후기 경향을 참고했어요." },
+        { type: "cta", title: "지도에서 타이베이 맛집도 확인해보세요", desc: "책으로 정한 동선에 맞춰 타이베이 식당을 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
+      ],
+    },
+    en: {
+      pageTitle: "Taiwan Guidebooks for First-Timers — Two Picks · My Secret Taiwan Eats",
+      metaDescription: "One island-wide guidebook and one local shopping guide — how two Korean-language books on Taiwan can split your trip prep.",
+      ogTitle: "Two Books to Read Before Your First Taiwan Trip",
+      eyebrow: "Taiwan Travel Guide · Trip Prep",
+      title: "Two Books to Read Before Your First Taiwan Trip",
+      dek: "When blog posts alone don't give you the big picture — how to use two very different books together.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taiwan · Trip Prep",
+      intro: "\"No matter how many blogs I read, I can't picture Taiwan as a whole.\" First-timers say this a lot. Splitting prep between one book on the whole island and one on local supermarket shopping makes things much easier. Based on publication details and real traveler experiences, here's how.",
+      blocks: [
+        { type: "h2", text: "01 · The Two Books at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["This Is Taiwan (디스 이즈 타이완)", "Taiwan Local Shopping Encyclopedia (대만 현지 쇼핑 대백과)"],
+          rows: [
+            { label: "Author", values: ["Shin Seo-hee (Terra)", "Chieko Ogawa, trans. Kim Jeong-won (Keul)"] },
+            { label: "Latest edition", values: ["2026–2027 edition, Dec 15, 2025", "Mar 26, 2025"] },
+            { label: "Length", values: ["656 pages", "188 pages"] },
+            { label: "Coverage", values: ["All of Taiwan: Taipei, Taichung, Kaohsiung, Tainan, Kenting, Taitung, etc.", "Picking groceries, sauces, and snacks at supermarkets"] },
+            { label: "Best for", values: ["Choosing regions and routes", "Building a gift and snack list"] },
+          ],
+        },
+        { type: "h2", text: "02 · How to Split the Reading" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "A month out", desc: "Use the island-wide guide to decide which cities and how many nights. It's great for comparing regions." },
+            { mark: "2", b: "Two weeks out", desc: "Pick snacks and sauces from the shopping book and note names and photos so you don't wander the aisles." },
+            { mark: "3", b: "During the trip", desc: "Photograph only the pages you need instead of carrying a thick book." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg", caption: "A leather backpack laid out with a book, notebook, and travel items on a dark surface." },
+        { type: "h2", text: "03 · Things to Keep in Mind" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Check the edition", desc: "Hours and fees change after publication. Use books for the big picture and official sites for details." },
+            { mark: "✓", b: "Library requests", desc: "Whether you can request a library purchase depends on the library. Check your library's guidance." },
+            { mark: "✓", b: "Price and stock", desc: "Prices and stock vary by bookstore, so they're not listed here." },
+          ],
+        },
+        { type: "h2", text: "04 · Who Each Book Suits" },
+        { type: "p", html: "First-timers considering places beyond Taipei will get more from the island-wide guide, while repeat visitors who want to shop supermarkets properly will prefer the shopping book. Families can split the two books and divide roles." },
+        { type: "quote", text: "\"Books for the big picture, official sites for the latest details.\" — a summary of advice from travelers who've prepped with books." },
+        { type: "p", html: "Once your route is set from the books, fill in where to eat on the map. Browse restaurants on the <a href=\"/region-taipei\">Taipei food map</a>, skim easy first-day bites under <a href=\"/taipei-street_food\">Taipei street food</a>, and find the often-mentioned <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">Fuzhou Shizu pepper pork bun</a> on the map too." },
+        { type: "note", text: "Based on Aladin book listings and traveler experiences (as of September 2026)." },
+        { type: "cta", title: "Find Taipei restaurants on the map", desc: "Match Taipei restaurants to the route you planned with your book.", btn: "Open Map →", href: "/map?region=taipei" },
       ],
     },
   }
