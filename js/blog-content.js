@@ -18,6 +18,23 @@
 
 const BLOG_LIST = [
   {
+    slug: "yehliu-to-jiufen-bus-luggage-route",
+    image: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg",
+    regions: ["jiufen", "taipei"],
+    ko: {
+      eyebrow: "타이베이 근교 여행 가이드 · 교통",
+      title: "예류 지우펀 버스, 캐리어 들고 이동해도 될까?",
+      desc: "예류에서 지우펀까지 지룽 환승·루이팡 경유 두 가지 길과 캐리어 보관 요령을 정리했어요.",
+      meta: "타이베이 근교 · 교통 가이드",
+    },
+    en: {
+      eyebrow: "Taipei Day Trips · Transport",
+      title: "Yehliu to Jiufen by Bus: Can You Do It With Luggage?",
+      desc: "Two routes from Yehliu to Jiufen via Keelung or Ruifang, and where to store your luggage.",
+      meta: "Taipei Area · Transport Guide",
+    },
+  },
+  {
     slug: "xiaoliuqiu-e-bike-rental-guide",
     image: "assets/images/blog/xiaoliuqiu-e-bike-rental-guide-1.jpg",
     regions: ["kaohsiung"],
@@ -3014,6 +3031,94 @@ const BLOG_POSTS = {
         { type: "p", html: "On the day you travel to or from Xiaoliuqiu, many travelers eat a meal in Kaohsiung. See the route on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>, and to carry the island-trip mood, check <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a> or the Cijin seafood restaurant <a href=\"/kaohsiung-seafood-782\">Chi Hou Seafood (旗后海產)</a>." },
         { type: "note", text: "Based on Taiwan Highway Bureau guidance, Korean IDP rules, and traveler experiences (as of September 2026). Vehicles and terms vary by rental shop." },
         { type: "cta", title: "Find Kaohsiung restaurants on the map", desc: "Look for Kaohsiung restaurants to stop at on your way to or from Xiaoliuqiu.", btn: "Open the map →", href: "/map?region=kaohsiung" },
+      ],
+    },
+  },
+
+  "yehliu-to-jiufen-bus-luggage-route": {
+    heroImage: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg",
+    ko: {
+      pageTitle: "예류 지우펀 버스 — 환승·짐 보관 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "예류 지우펀 버스는 한 번에 가지 않아요. 지룽 환승과 루이팡 경유 두 가지 경로, 캐리어 보관 요령까지 2026년 기준으로 정리했어요.",
+      ogTitle: "예류 지우펀 버스, 캐리어 들고 이동해도 될까?",
+      eyebrow: "타이베이 근교 여행 가이드 · 교통",
+      title: "예류 지우펀 버스, 캐리어 들고 이동해도 될까?",
+      dek: "한 번에 가는 버스가 있다는 말과 다르게 — 실제 환승 경로와 짐을 줄이는 방법을 모았습니다.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "타이베이 근교 · 교통 가이드",
+      intro: "\"예류에서 1815번 타면 지우펀까지 바로 간다던데요?\" 예류 지우펀 버스는 한 번에 가는 노선이 아니라 환승이 필요해요. 1815번은 타이베이와 지우펀·진과스를 잇는 노선이라 예류를 지나지 않거든요. 버스 노선 정보와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 예류 지우펀 버스 경로 한눈에 비교" },
+        {
+          type: "compareTable",
+          cities: ["지룽 환승", "루이팡 경유"],
+          rows: [
+            { label: "경로", values: ["예류 → 790·862번 → 지룽 → 788번 → 지우펀", "예류 → 지룽 → 기차로 루이팡 → 788·827·825번 → 지우펀"] },
+            { label: "환승", values: ["버스 1회", "버스·기차·버스"] },
+            { label: "장점", values: ["버스만으로 이동", "기차 구간이 있어 시간 예측이 쉬운 편"] },
+            { label: "캐리어", values: ["좌석 사이에 두기 어려움", "계단·환승이 많아 더 불편"] },
+          ],
+        },
+        { type: "h2", text: "02 · 배차와 타는 곳은 앱으로" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Taiwan Bus 앱 설치", desc: "노선 번호를 검색하면 실시간 도착 정보를 볼 수 있어요. 배차는 시간대마다 달라 이 글에는 적지 않았어요." },
+            { mark: "2", b: "방향 확인", desc: "같은 번호라도 방향에 따라 정류장이 달라요. 정류장 표지판의 종점 이름을 보세요." },
+            { mark: "3", b: "이지카드 준비", desc: "대부분 이지카드로 탈 수 있어 잔돈 걱정이 줄어요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg", caption: "홍등이 걸린 지우펀 골목의 찻집 건물이에요. 골목이 좁고 계단이 많아 캐리어를 끌기 어려워요." },
+        { type: "h2", text: "03 · 캐리어는 맡기고 가세요" },
+        { type: "p", html: "지우펀 옛거리는 좁은 골목과 계단이 이어져 캐리어를 끌고 다니기 힘들어요. 버스도 붐비는 시간에는 짐 둘 곳이 마땅치 않아요. 타이베이 메인역 코인로커나 숙소에 짐을 맡기고 가벼운 가방만 들고 출발하는 여행자가 많아요. 메인역 로커는 크기별로 요금이 다르고 주말에는 자리가 빨리 차는 편이라, 체크아웃한 숙소에 짐 보관을 부탁하는 방법이 가장 무난하다는 후기가 많아요." },
+        { type: "h2", text: "04 · 이런 날은 투어가 편해요" },
+        { type: "p", html: "부모님이나 아이와 함께이거나 비가 오는 날에는 환승이 부담스러울 수 있어요. 예류·스펀·지우펀을 묶은 투어나 택시 투어를 이용하면 짐 걱정 없이 이동할 수 있어요. 직접 간다면 해 지기 전에 지우펀에 도착해 돌아오는 버스 줄을 미리 확인해두세요." },
+        { type: "quote", text: "\"예류에서 지우펀은 두 번 타는 길, 짐은 타이베이에 두고.\" — 두 곳을 이어 다녀온 여행자들의 조언을 요약했습니다." },
+        { type: "p", html: "지우펀에 도착하면 먹을 곳부터 정해두세요. <a href=\"/region-jiufen\">지우펀 맛집 지도</a>에서 근교 식당을 볼 수 있고, 옛거리 쪽 대만식 식당 <a href=\"/jiufen-taiwanese-77\">메이핑 샤오츠(美萍小吃)</a>도 등록돼 있어요. 타이베이로 돌아와 늦은 저녁을 먹는다면 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>을 참고하세요." },
+        { type: "note", text: "이 글은 대만 버스 노선 정보와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 노선·정류장은 바뀔 수 있으니 출발 전 Taiwan Bus 앱으로 다시 확인해주세요." },
+        { type: "cta", title: "지도에서 지우펀 맛집을 찾아보세요", desc: "지우펀과 근교에서 들르기 좋은 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=jiufen" },
+      ],
+    },
+    en: {
+      pageTitle: "Yehliu to Jiufen by Bus — Transfers and Luggage · My Secret Taiwan Eats",
+      metaDescription: "There's no direct bus from Yehliu to Jiufen. Two transfer routes via Keelung or Ruifang, plus where to leave your suitcase.",
+      ogTitle: "Yehliu to Jiufen by Bus: Can You Do It With Luggage?",
+      eyebrow: "Taipei Day Trips · Transport",
+      title: "Yehliu to Jiufen by Bus: Can You Do It With Luggage?",
+      dek: "Despite what you may have heard about a direct bus — the actual transfer routes and how to travel light.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taipei Area · Transport Guide",
+      intro: "\"I heard bus 1815 goes straight from Yehliu to Jiufen?\" It doesn't — 1815 runs between Taipei and Jiufen/Jinguashi and doesn't stop at Yehliu, so you'll need to transfer. Based on bus route information and real traveler experiences, here's how.",
+      blocks: [
+        { type: "h2", text: "01 · Routes at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["Via Keelung", "Via Ruifang"],
+          rows: [
+            { label: "Route", values: ["Yehliu → bus 790/862 → Keelung → bus 788 → Jiufen", "Yehliu → Keelung → train to Ruifang → bus 788/827/825 → Jiufen"] },
+            { label: "Transfers", values: ["One bus change", "Bus, train, bus"] },
+            { label: "Pros", values: ["Buses only", "The train leg makes timing easier to predict"] },
+            { label: "Luggage", values: ["Hard to fit between seats", "More stairs and transfers"] },
+          ],
+        },
+        { type: "h2", text: "02 · Check Times and Stops in the App" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Install Taiwan Bus", desc: "Search the route number for real-time arrivals. Frequencies vary by time of day, so they're not listed here." },
+            { mark: "2", b: "Check the direction", desc: "The same number stops at different places by direction. Look for the terminus name on the sign." },
+            { mark: "3", b: "Have an EasyCard", desc: "Most buses accept EasyCard, so you won't need change." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg", caption: "A Jiufen teahouse hung with red lanterns — the narrow, stepped alleys make rolling a suitcase hard." },
+        { type: "h2", text: "03 · Leave the Suitcase Behind" },
+        { type: "p", html: "Jiufen Old Street is narrow alleys and steps, and buses have little room for bags at busy times. Many travelers leave luggage in lockers at Taipei Main Station or at their hotel and set off with a light bag. Station lockers are priced by size and fill up fast on weekends, so many reviews say asking your hotel to hold bags after checkout is the easiest option." },
+        { type: "h2", text: "04 · When a Tour Is Easier" },
+        { type: "p", html: "With parents, kids, or rain, transfers can be a hassle. Tours or taxi tours covering Yehliu, Shifen, and Jiufen let you move without worrying about bags. If you go on your own, arrive in Jiufen before dark and check the return bus queue early." },
+        { type: "quote", text: "\"Yehliu to Jiufen takes two rides — leave your bags in Taipei.\" — a summary of advice from travelers who've linked the two." },
+        { type: "p", html: "Once you arrive in Jiufen, decide where to eat first. You can see nearby restaurants on the <a href=\"/region-jiufen\">Jiufen food map</a>, and the Old Street Taiwanese restaurant <a href=\"/jiufen-taiwanese-77\">Meiping Xiaochi (美萍小吃)</a> is listed too. If you come back to Taipei for a late dinner, check <a href=\"/taipei-street_food\">Taipei street food</a>." },
+        { type: "note", text: "Based on Taiwan bus route information and traveler experiences (as of September 2026). Routes and stops can change; recheck in the Taiwan Bus app before you go." },
+        { type: "cta", title: "Find Jiufen restaurants on the map", desc: "Check places to eat in Jiufen and nearby on the map.", btn: "Open the map →", href: "/map?region=jiufen" },
       ],
     },
   }
