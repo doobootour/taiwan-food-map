@@ -18,6 +18,23 @@
 
 const BLOG_LIST = [
   {
+    slug: "kaohsiung-bts-concert-hotel-transport",
+    image: "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg",
+    regions: ["kaohsiung"],
+    ko: {
+      eyebrow: "가오슝 여행 가이드 · 공연",
+      title: "가오슝 BTS 콘서트 숙소, 국가체육장 가려면 어디에 묵을까?",
+      desc: "11월 가오슝 국가체육장 공연, 숙소 위치와 MRT 이동, 실명제 예매 포인트를 정리했어요.",
+      meta: "가오슝 · 공연 여행",
+    },
+    en: {
+      eyebrow: "Kaohsiung Travel Guide · Concerts",
+      title: "BTS in Kaohsiung: Where to Stay for the National Stadium Shows",
+      desc: "November shows at Kaohsiung National Stadium: where to stay, MRT tips, and real-name tickets.",
+      meta: "Kaohsiung · Concert Travel",
+    },
+  },
+  {
     slug: "taoyuan-airport-midnight-arrival-transport",
     image: "assets/images/blog/taoyuan-airport-midnight-arrival-transport-1.jpg",
     regions: ["taipei"],
@@ -3226,6 +3243,112 @@ const BLOG_POSTS = {
         { type: "p", html: "The morning after a late arrival, start light near your hotel. You can find doujiang shops in <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, including <a href=\"/taipei-breakfast-282\">Dingyuan Doujiang (鼎元豆漿)</a>. Restaurants near your hotel are on the <a href=\"/region-taipei\">Taipei food map</a>." },
         { type: "note", text: "Based on Kuo-Kuang, Taiwan highway bus, Airport MRT, and Taoyuan Airport guidance, team-collected info, and traveler experiences (as of September 2026)." },
         { type: "cta", title: "Find Taipei restaurants on the map", desc: "Pick a breakfast spot near your hotel for the morning after you land.", btn: "Open the map →", href: "/map?region=taipei" },
+      ],
+    },
+  },
+
+  "kaohsiung-bts-concert-hotel-transport": {
+    heroImage: "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg",
+    ko: {
+      pageTitle: "가오슝 BTS 콘서트 숙소 — 교통 정리 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "가오슝 BTS 콘서트 숙소는 어디가 편할까요? 11월 국가체육장 공연 날짜·좌석 가격, 레드라인 숙소 위치와 이동 요령을 정리했어요.",
+      ogTitle: "가오슝 BTS 콘서트 숙소, 국가체육장 가려면 어디에 묵을까?",
+      eyebrow: "가오슝 여행 가이드 · 공연",
+      title: "가오슝 BTS 콘서트 숙소, 국가체육장 가려면 어디에 묵을까?",
+      dek: "타이베이 공연으로 잘못 알고 숙소를 잡지 않도록 — 공연 장소와 날짜, 이동 동선을 먼저 확인하세요.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "가오슝 · 공연 여행",
+      intro: "\"BTS 대만 공연이 타이베이라던데 숙소를 어디로 잡죠?\" 가오슝 BTS 콘서트 숙소부터 다시 봐야 해요. BTS WORLD TOUR 'ARIRANG' 대만 공연은 2026년 11월 19일·21일·22일 가오슝 국가체육장에서 열려요. 주최사 Live Nation Taiwan 공지와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 공연 정보 한눈에 보기" },
+        {
+          type: "compareTable",
+          cities: ["내용"],
+          rows: [
+            { label: "공연", values: ["BTS WORLD TOUR 'ARIRANG' in KAOHSIUNG"] },
+            { label: "날짜", values: ["2026년 11월 19일(목), 21일(토), 22일(일), 오후 7시"] },
+            { label: "장소", values: ["가오슝 국가체육장(國家體育場), MRT 세운역(R17) 근처"] },
+            { label: "좌석 가격(2026년 9월 기준)", values: ["VIP NT$9,380, 일반석 NT$7,980~2,980(시스템 수수료 NT$200 별도)"] },
+            { label: "예매", values: ["tixcraft 실명제"] },
+          ],
+        },
+        { type: "h2", text: "02 · 가오슝 BTS 콘서트 숙소 위치 고르기" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "레드라인 역 근처", desc: "세운역은 MRT 레드라인이라 같은 노선 역 근처 숙소면 환승 없이 오갈 수 있어요." },
+            { mark: "✓", b: "쭤잉(左營) 쪽", desc: "고속철 쭤잉역과 가까워 타이베이에서 오가는 여행자에게 편해요. 세운역 바로 옆 역이에요." },
+            { mark: "✓", b: "시내 중심가", desc: "식당과 야시장이 많은 대신 공연 후 귀가 인파에 오래 기다릴 수 있어요." },
+            { mark: "✓", b: "예약은 서둘러", desc: "공연 날짜가 확정되면 경기장 주변 숙소가 먼저 차는 편이에요. 무료 취소 조건을 확인하세요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg", caption: "무대 조명 앞에서 손을 든 관객들의 실루엣이에요(일반 공연 사진, BTS 공연 아님)." },
+        { type: "h2", text: "03 · 공연 날 이동 요령" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "이지카드 미리 충전", desc: "공연 후 역 발매기에 줄이 길어질 수 있어요. 왕복 요금을 미리 충전해두세요." },
+            { mark: "2", b: "일찍 도착", desc: "입장 확인에 시간이 걸리는 실명제 공연이라 여유 있게 가는 게 좋아요." },
+            { mark: "3", b: "귀가 시간 분산", desc: "공연이 끝나자마자 역으로 가기보다 조금 기다렸다 이동하는 여행자도 많아요." },
+          ],
+        },
+        { type: "h2", text: "04 · 실명제 예매 체크" },
+        { type: "p", html: "tixcraft 실명제 공연은 예매자 정보와 신분증을 대조할 수 있어요. 여권 영문 이름과 예매 정보가 같은지 확인하고, 양도·재판매 규정은 공식 공지를 따르세요. 좌석 가격과 입장 방식은 주최 측 공지가 기준이에요." },
+        { type: "quote", text: "\"가오슝 공연은 레드라인 따라 숙소를.\" — 가오슝 국가체육장 공연을 다녀온 여행자들의 조언을 요약했습니다." },
+        { type: "p", html: "공연 전후 식사는 레드라인 역 주변에서 해결하면 편해요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 숙소 근처 식당을 보고, 가볍게 먹기 좋은 <a href=\"/kaohsiung-dimsum\">가오슝 딤섬 맛집</a>도 참고해보세요. 군만두로 알려진 <a href=\"/kaohsiung-dimsum-old-chuan-s-pot-sticker-steamed-dumpling-712\">라오촨 군만두·찐만두집(Old Chuan's)</a>도 지도에 있어요." },
+        { type: "note", text: "이 글은 주최사 Live Nation Taiwan 공지와 tixcraft·가오슝 MRT 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 공연 정보는 주최 측 발표를 다시 확인해주세요." },
+        { type: "cta", title: "지도에서 가오슝 맛집을 찾아보세요", desc: "공연 전후로 들르기 좋은 가오슝 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=kaohsiung" },
+      ],
+    },
+    en: {
+      pageTitle: "BTS Kaohsiung Concert — Where to Stay and Getting There · My Secret Taiwan Eats",
+      metaDescription: "BTS plays Kaohsiung National Stadium on Nov 19, 21, and 22, 2026. Hotel areas, MRT tips, and real-name ticket checks.",
+      ogTitle: "BTS in Kaohsiung: Where to Stay for the National Stadium Shows",
+      eyebrow: "Kaohsiung Travel Guide · Concerts",
+      title: "BTS in Kaohsiung: Where to Stay for the National Stadium Shows",
+      dek: "Don't book a Taipei hotel by mistake — confirm the venue, dates, and route first.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Kaohsiung · Concert Travel",
+      intro: "\"I heard BTS is playing Taipei — where should I stay?\" BTS WORLD TOUR 'ARIRANG' in Taiwan is at Kaohsiung National Stadium on November 19, 21, and 22, 2026. Based on organizer Live Nation Taiwan's announcement and real traveler experiences, here's what to plan.",
+      blocks: [
+        { type: "h2", text: "01 · Show Details" },
+        {
+          type: "compareTable",
+          cities: ["Details"],
+          rows: [
+            { label: "Show", values: ["BTS WORLD TOUR 'ARIRANG' in KAOHSIUNG"] },
+            { label: "Dates", values: ["Nov 19 (Thu), 21 (Sat), 22 (Sun), 2026, 7 p.m."] },
+            { label: "Venue", values: ["Kaohsiung National Stadium (國家體育場), near MRT World Games station (R17)"] },
+            { label: "Prices (Sept 2026)", values: ["VIP NT$9,380; others NT$7,980–2,980 (plus NT$200 system fee)"] },
+            { label: "Tickets", values: ["tixcraft, real-name"] },
+          ],
+        },
+        { type: "h2", text: "02 · Choosing a Hotel Area" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Near a Red Line station", desc: "World Games is on the MRT Red Line, so a hotel on the same line means no transfers." },
+            { mark: "✓", b: "Zuoying (左營)", desc: "Close to Zuoying HSR station — handy if you're coming from Taipei. It's the station next to World Games." },
+            { mark: "✓", b: "City center", desc: "More restaurants and night markets, but longer waits in post-show crowds." },
+            { mark: "✓", b: "Book early", desc: "Hotels near the stadium fill first. Check free-cancellation terms." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg", caption: "Silhouettes of an audience raising hands in front of stage lights (generic concert photo, not BTS)." },
+        { type: "h2", text: "03 · Getting There on Show Day" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Top up your EasyCard", desc: "Ticket machine lines can get long after the show. Load the round trip in advance." },
+            { mark: "2", b: "Arrive early", desc: "Real-name entry checks take time." },
+            { mark: "3", b: "Stagger your exit", desc: "Many fans wait a bit rather than heading straight to the station." },
+          ],
+        },
+        { type: "h2", text: "04 · Real-Name Ticket Checks" },
+        { type: "p", html: "tixcraft real-name shows may match ticket details against ID. Make sure your passport's English name matches your booking, and follow official rules on transfers and resale. Prices and entry procedures follow the organizer's announcements." },
+        { type: "quote", text: "\"For Kaohsiung shows, stay along the Red Line.\" — a summary of advice from fans who've attended stadium shows in Kaohsiung." },
+        { type: "p", html: "For meals before or after the show, stick to restaurants near Red Line stations. Browse the <a href=\"/region-kaohsiung\">Kaohsiung food map</a> for spots near your hotel, check <a href=\"/kaohsiung-dimsum\">Kaohsiung dim sum picks</a> for a quick bite, and look up <a href=\"/kaohsiung-dimsum-old-chuan-s-pot-sticker-steamed-dumpling-712\">Old Chuan's Pot Sticker & Steamed Dumpling</a>, known for its potstickers." },
+        { type: "note", text: "Based on organizer Live Nation Taiwan, tixcraft and Kaohsiung MRT guidance, and traveler experiences (as of September 2026). Recheck the organizer's announcements." },
+        { type: "cta", title: "Find Kaohsiung restaurants on the map", desc: "Check Kaohsiung restaurants to visit before or after the show.", btn: "Open the map →", href: "/map?region=kaohsiung" },
       ],
     },
   }
