@@ -18,6 +18,23 @@
 
 const BLOG_LIST = [
   {
+    slug: "taipei-family-budget-cash-card",
+    image: "assets/images/blog/taipei-family-budget-cash-card-1.jpg",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "타이베이 여행 가이드 · 경비",
+      title: "타이베이 가족여행 경비, 4인 3일이면 현금·카드 어떻게 나눌까?",
+      desc: "현금이 필요한 곳, 카드가 편한 곳, 이지카드로 충분한 곳을 나눠 가족 경비 짜는 법을 정리했어요.",
+      meta: "타이베이 · 경비 가이드",
+    },
+    en: {
+      eyebrow: "Taipei Travel Guide · Budget",
+      title: "Family Budget for Taipei: How Should Four People Split Cash and Cards Over Three Days?",
+      desc: "Cash, card, or EasyCard — how to split payments for a family trip to Taipei.",
+      meta: "Taipei · Budget Guide",
+    },
+  },
+  {
     slug: "taipei-fun-pass-3-day-worth-it",
     image: "assets/images/blog/taipei-fun-pass-3-day-worth-it-1.jpg",
     regions: ["taipei", "jiufen"],
@@ -3805,6 +3822,94 @@ const BLOG_POSTS = {
         { type: "p", html: "To plan your Fun Pass stops, browse <a href=\"/taipei-attraction\">things to do in Taipei</a>, including the rainy-day pick <a href=\"/taipei-attraction-102\">National Palace Museum</a>. For food near the sights, see the <a href=\"/region-taipei\">Taipei food map</a>, and if you're heading to Yehliu or Jiufen, the <a href=\"/region-jiufen\">Jiufen food map</a>." },
         { type: "note", text: "Based on the official Taipei Fun Pass site and admission guide, Maokong Gondola operating notices, and traveler experiences (as of September 2026). Prices and inclusions change; check the official page before buying." },
         { type: "cta", title: "Find Taipei sights on the map", desc: "See Fun Pass sights and nearby restaurants together on the map.", btn: "Open the map →", href: "/map?region=taipei&cat=attraction" },
+      ],
+    },
+  },
+
+  "taipei-family-budget-cash-card": {
+    heroImage: "assets/images/blog/taipei-family-budget-cash-card-1.jpg",
+    ko: {
+      pageTitle: "타이베이 가족여행 경비 — 현금·카드 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "타이베이 가족여행 경비, 현금과 카드를 어떻게 나눌까요? 결제 수단별 쓰임새와 환전 요령, 봉사료, 이지카드 한도를 정리했어요.",
+      ogTitle: "타이베이 가족여행 경비, 4인 3일이면 현금·카드 어떻게 나눌까?",
+      eyebrow: "타이베이 여행 가이드 · 경비",
+      title: "타이베이 가족여행 경비, 4인 3일이면 현금·카드 어떻게 나눌까?",
+      dek: "얼마를 환전할지보다 어디에 무엇으로 낼지를 먼저 정하면 — 가족 경비가 훨씬 단순해져요.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "타이베이 · 경비 가이드",
+      intro: "\"네 식구 3일인데 현금을 얼마나 바꿔 가야 할까요?\" 타이베이 가족여행 경비는 총액보다 결제 수단을 나누는 게 먼저예요. 야시장·노점은 현금, 호텔·백화점은 카드, 교통은 이지카드처럼 나누면 환전 금액이 자연스럽게 정해지거든요. 대만 관광서 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 타이베이 가족여행 경비, 결제 수단별로 나누기" },
+        {
+          type: "compareTable",
+          cities: ["현금(NT$)", "신용카드", "이지카드"],
+          rows: [
+            { label: "주로 쓰는 곳", values: ["야시장, 노점, 작은 식당", "호텔, 백화점, 체인 식당", "MRT·버스, 편의점"] },
+            { label: "장점", values: ["어디서나 통함", "큰 금액을 편하게 결제", "가족 인원만큼 만들면 이동이 빠름"] },
+            { label: "주의", values: ["재환전하려면 환전 영수증 필요", "가게마다 사용 가능 여부 다름", "가맹점 결제 1회 NT$1,500·1일 NT$3,000(2026년 9월 기준)"] },
+          ],
+        },
+        { type: "h2", text: "02 · 대만 돈, 이것만 알면 돼요" },
+        { type: "p", html: "대만 화폐는 신타이완달러(New Taiwan Dollar)예요. 지폐는 2000·1000·500·200·100, 동전은 50·20·10·5·1 단위가 있어요. 노점과 작은 가게에서는 큰 지폐보다 100·500 지폐와 동전을 넉넉히 가지고 다니면 계산이 편해요." },
+        { type: "figure", img: "assets/images/blog/taipei-family-budget-cash-card-1.jpg", caption: "간판과 노점이 늘어선 타이베이의 시장 거리예요. 이런 곳은 현금 결제가 많아요." },
+        { type: "h2", text: "03 · 환전과 카드, 이렇게 준비해요" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "환전은 지정 은행·호텔에서", desc: "외화 환전은 정부 지정 은행과 호텔에서 할 수 있어요. 받은 영수증은 남은 돈을 재환전할 때 필요하니 버리지 마세요." },
+            { mark: "2", b: "카드는 두 장 이상", desc: "주요 신용카드를 쓸 수 있지만 가게마다 달라요. 한 장이 안 될 때를 대비해 브랜드가 다른 카드를 챙기세요." },
+            { mark: "3", b: "봉사료 확인", desc: "호텔과 식당에는 관례적으로 10% 봉사료가 붙어요. 계산서에 이미 포함됐는지 보세요." },
+            { mark: "4", b: "아이 이지카드", desc: "가족 수만큼 이지카드를 만들면 개찰구에서 기다리지 않아요." },
+          ],
+        },
+        { type: "h2", text: "04 · 가족 경비 짜는 순서" },
+        { type: "p", html: "먼저 일정표에 야시장·노점 식사 횟수를 적고 그 부분만 현금으로 계산하세요. 나머지 식사와 쇼핑은 카드, 교통은 이지카드 충전액으로 잡으면 환전 금액이 필요 이상 커지지 않아요. 수수료가 없는 ATM이나 카드별 혜택 같은 정보는 은행·카드사 공지로 따로 확인하는 게 안전해요." },
+        { type: "quote", text: "\"현금은 야시장 몫만, 나머지는 카드와 이지카드로.\" — 가족과 타이베이를 다녀온 여행자들의 조언을 요약했습니다." },
+        { type: "p", html: "현금이 필요한 곳을 미리 알면 환전 금액을 잡기 쉬워요. <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>에서 야시장·노점 가게를 보고, 줄 서서 사 먹는 간식으로 알려진 <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">푸저우 스쭈 후추빵</a>처럼 작은 가게는 현금을 준비하는 편이 안전해요. 동선은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 한 번에 볼 수 있어요." },
+        { type: "note", text: "이 글은 대만 교통부 관광서와 이지카드 공식 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 은행·카드사 수수료와 혜택은 출발 전 각 회사 공지를 확인해주세요." },
+        { type: "cta", title: "지도에서 타이베이 노점 맛집을 찾아보세요", desc: "현금이 필요한 노점과 야시장 가게를 지도에서 미리 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=street_food" },
+      ],
+    },
+    en: {
+      pageTitle: "Taipei Family Trip Budget — Cash vs Card · My Secret Taiwan Eats",
+      metaDescription: "Where you need cash, where cards work, and where an EasyCard is enough — a simple way to plan a family budget for Taipei.",
+      ogTitle: "Family Budget for Taipei: How Should Four People Split Cash and Cards Over Three Days?",
+      eyebrow: "Taipei Travel Guide · Budget",
+      title: "Family Budget for Taipei: How Should Four People Split Cash and Cards Over Three Days?",
+      dek: "Decide what you'll pay with, and where, before deciding how much to exchange — it makes a family budget much simpler.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taipei · Budget Guide",
+      intro: "\"How much cash should a family of four exchange for three days?\" Start by splitting payment methods rather than guessing a total: cash for night markets and stalls, cards for hotels and malls, EasyCard for transport. The exchange amount then falls into place. Based on Taiwan Tourism Administration guidance and real traveler experiences, here's how.",
+      blocks: [
+        { type: "h2", text: "01 · Split by Payment Method" },
+        {
+          type: "compareTable",
+          cities: ["Cash (NT$)", "Credit card", "EasyCard"],
+          rows: [
+            { label: "Mainly for", values: ["Night markets, stalls, small eateries", "Hotels, department stores, chains", "MRT, buses, convenience stores"] },
+            { label: "Pros", values: ["Works everywhere", "Easy for large amounts", "One per person speeds up gates"] },
+            { label: "Watch out", values: ["Keep exchange receipts to change money back", "Acceptance varies by shop", "Merchant limit NT$1,500 per payment, NT$3,000 per day (Sept 2026)"] },
+          ],
+        },
+        { type: "h2", text: "02 · Taiwanese Money Basics" },
+        { type: "p", html: "Taiwan uses the New Taiwan Dollar (NT$). Notes come in 2000, 1000, 500, 200, and 100; coins in 50, 20, 10, 5, and 1. At stalls and small shops, paying is easier with plenty of 100 and 500 notes and coins rather than large bills." },
+        { type: "figure", img: "assets/images/blog/taipei-family-budget-cash-card-1.jpg", caption: "A Taipei market street lined with signs and stalls — places like this often take cash." },
+        { type: "h2", text: "03 · Exchange and Cards" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Exchange at designated banks and hotels", desc: "Foreign currency can be exchanged at government-designated banks and hotels. Keep the receipt — you need it to change leftovers back." },
+            { mark: "2", b: "Bring two or more cards", desc: "Major cards are widely accepted but not everywhere. Pack cards from different networks." },
+            { mark: "3", b: "Check service charges", desc: "Hotels and restaurants customarily add 10%. Check whether it's already on the bill." },
+            { mark: "4", b: "EasyCards for kids", desc: "One card per family member means no waiting at the gates." },
+          ],
+        },
+        { type: "h2", text: "04 · Planning Order" },
+        { type: "p", html: "List how many night-market or stall meals are on your itinerary and budget only those in cash. Put other meals and shopping on cards and transport on EasyCard top-ups, and you won't over-exchange. Check fee-free ATMs or card perks directly with banks and card issuers." },
+        { type: "quote", text: "\"Cash for the night markets only; cards and EasyCard for the rest.\" — a summary of advice from families who've visited Taipei." },
+        { type: "p", html: "Knowing where you need cash makes the exchange amount easier to plan. Browse night-market and stall shops in <a href=\"/taipei-street_food\">Taipei street food</a>, bring cash for small spots like <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">Fuzhou Shizu Pepper Pork Bun</a>, a snack people line up for, and see everything on the <a href=\"/region-taipei\">Taipei food map</a>." },
+        { type: "note", text: "Based on Taiwan Tourism Administration and EasyCard guidance and traveler experiences (as of September 2026). Check bank and card fees before departure." },
+        { type: "cta", title: "Find Taipei street food on the map", desc: "Check cash-friendly stalls and night market shops on the map ahead of time.", btn: "Open the map →", href: "/map?region=taipei&cat=street_food" },
       ],
     },
   }
