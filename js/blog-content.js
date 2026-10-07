@@ -18,6 +18,23 @@
 
 const BLOG_LIST = [
   {
+    slug: "taipei-3n5d-relaxed-itinerary",
+    image: "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg",
+    regions: ["taipei", "jiufen"],
+    ko: {
+      eyebrow: "타이베이 여행 가이드 · 일정",
+      title: "타이베이 3박5일 일정, 널널하게 짜려면 하루에 몇 곳?",
+      desc: "하루 큰 일정 두 개 원칙으로 짠 3박5일 예시와 명소별 운영 시간·휴무를 정리했어요.",
+      meta: "타이베이 · 일정 가이드",
+    },
+    en: {
+      eyebrow: "Taipei Travel Guide · Itinerary",
+      title: "A Relaxed Taipei Itinerary for 3 Nights, 5 Days: How Many Stops a Day?",
+      desc: "A sample 3-night, 5-day plan with two big stops a day, plus hours and closures.",
+      meta: "Taipei · Itinerary Guide",
+    },
+  },
+  {
     slug: "taipei-with-kids-activities-night-market",
     image: "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg",
     regions: ["taipei"],
@@ -4033,6 +4050,111 @@ const BLOG_POSTS = {
         { type: "cta", title: "Find Taipei activities on the map", desc: "Check kid-friendly sights and night markets in Taipei on the map.", btn: "Open the map →", href: "/map?region=taipei&cat=attraction" },
       ],
     },
-  }
+  },
 
+  "taipei-3n5d-relaxed-itinerary": {
+    heroImage: "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg",
+    ko: {
+      pageTitle: "타이베이 3박5일 일정 — 널널한 코스 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "타이베이 3박5일 일정, 하루에 몇 곳이 적당할까요? 하루 큰 일정 두 개로 짠 코스 예시와 명소별 운영 시간·휴무를 정리했어요.",
+      ogTitle: "타이베이 3박5일 일정, 널널하게 짜려면 하루에 몇 곳?",
+      eyebrow: "타이베이 여행 가이드 · 일정",
+      title: "타이베이 3박5일 일정, 널널하게 짜려면 하루에 몇 곳?",
+      dek: "밤 비행기로 출발해 새벽에 돌아오는 3박5일 — 첫날과 마지막 날을 비워 두면 여행이 훨씬 여유로워져요.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "타이베이 · 일정 가이드",
+      intro: "\"욕심내서 넣다 보니 하루에 다섯 곳이 됐어요.\" 타이베이 3박5일 일정은 실제로 쓸 수 있는 날이 3일 남짓이라, 하루 큰 일정 두 개 정도가 적당해요. 명소별 공식 운영 시간과 실제 여행자들의 경험을 바탕으로 널널한 코스를 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 타이베이 3박5일 일정 예시" },
+        {
+          type: "compareTable",
+          cities: ["오전", "오후·저녁"],
+          rows: [
+            { label: "1일차(밤 도착)", values: ["—", "숙소 체크인, 휴식"] },
+            { label: "2일차", values: ["중정기념당 교대식", "딤섬 점심, 시내 산책"] },
+            { label: "3일차", values: ["예류·스펀·지우펀 근교 투어", "투어 복귀 후 휴식"] },
+            { label: "4일차", values: ["시립동물원", "마오콩 곤돌라, 야경"] },
+            { label: "5일차(새벽 출발)", values: ["—", "공항 이동"] },
+          ],
+        },
+        { type: "h2", text: "02 · 명소별 운영 시간 확인" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "중정기념당", desc: "09:00~18:00 개방, 제야·춘절 초1·228기념일 휴관이에요. 의장대 교대식은 09:00~17:00 매시 정각에 열리고 비가 오면 취소돼요(2026년 9월 기준)." },
+            { mark: "✓", b: "마오콩 곤돌라", desc: "평일 09:00~21:00, 휴일 09:00~22:00 운행해요. 일부 월요일은 정기 점검으로 쉬어요(10월 12일, 11월 9·23·30일, 12월 14·28일, 2026년 9월 기준). 날씨에 따라 멈추기도 하니 당일 운행 공지를 확인하세요." },
+            { mark: "✓", b: "시립동물원", desc: "09:00~17:00 운영, 입장은 16:00까지예요(2026년 9월 기준). 판다관 같은 실내관은 월요일에 관별로 돌아가며 쉬어요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg", caption: "흰 벽과 푸른 지붕의 중정기념당 본관과 계단 앞 광장이에요." },
+        { type: "h2", text: "03 · 널널하게 만드는 요령" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "동물원과 마오콩은 같은 날", desc: "동물원역과 곤돌라 역이 가까워 한 날에 묶기 좋아요. 월요일이라면 곤돌라 점검일인지 먼저 확인하세요." },
+            { mark: "2", b: "근교 투어는 하루 통째로", desc: "예류·스펀·지우펀은 이동이 길어 다른 일정을 넣지 않는 게 좋아요." },
+            { mark: "3", b: "비 오는 날 대안", desc: "교대식이 취소될 수 있으니 실내 명소를 하나 준비해두세요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taipei-3n5d-relaxed-itinerary-2.jpg", caption: "타이베이 시립동물원 풀밭을 걷는 자이언트판다예요." },
+        { type: "h2", text: "04 · 첫날과 마지막 날은 비워 두세요" },
+        { type: "p", html: "밤에 도착하는 첫날과 새벽에 떠나는 마지막 날은 일정을 넣지 않는 게 좋아요. 딤섬집이나 야시장처럼 줄이 긴 곳은 예약이 되는지 미리 확인하고, 근교 투어는 좌석과 코스를 업체 안내로 다시 확인하세요." },
+        { type: "quote", text: "\"하루 큰 일정 두 개, 첫날과 마지막 날은 비우기.\" — 타이베이를 여유롭게 다녀온 여행자들의 조언을 요약했습니다." },
+        { type: "p", html: "2일차 딤섬 점심은 <a href=\"/taipei-dimsum\">타이베이 딤섬 맛집</a>에서 고르고, 동선이 맞는다면 <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">바팡윈지 중샤오둔화점</a>처럼 간단한 만두집도 좋아요. 숙소 주변 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>, 근교 투어 날 먹을 곳은 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>에서 볼 수 있어요." },
+        { type: "note", text: "이 글은 중정기념당·마오콩 곤돌라·타이베이 시립동물원 공식 안내와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 운영 시간은 바뀔 수 있으니 방문 전 다시 확인해주세요." },
+        { type: "cta", title: "지도에서 타이베이 맛집을 찾아보세요", desc: "일정 사이에 들르기 좋은 타이베이 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
+      ],
+    },
+    en: {
+      pageTitle: "Relaxed Taipei 3-Night, 5-Day Itinerary · My Secret Taiwan Eats",
+      metaDescription: "A 3-night, 5-day Taipei plan built on two big stops a day, with official hours and closures for CKS Hall, Maokong, and the zoo.",
+      ogTitle: "A Relaxed Taipei Itinerary for 3 Nights, 5 Days: How Many Stops a Day?",
+      eyebrow: "Taipei Travel Guide · Itinerary",
+      title: "A Relaxed Taipei Itinerary for 3 Nights, 5 Days: How Many Stops a Day?",
+      dek: "For a late-night arrival and a pre-dawn departure — leave the first and last days free and the whole trip relaxes.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taipei · Itinerary Guide",
+      intro: "\"I got greedy and ended up with five stops a day.\" A 3-night, 5-day Taipei trip really gives you about three usable days, so two big stops a day is about right. Based on official hours and real traveler experiences, here's a relaxed plan.",
+      blocks: [
+        { type: "h2", text: "01 · Sample Itinerary" },
+        {
+          type: "compareTable",
+          cities: ["Morning", "Afternoon/Evening"],
+          rows: [
+            { label: "Day 1 (night arrival)", values: ["—", "Check in, rest"] },
+            { label: "Day 2", values: ["CKS Memorial Hall guard change", "Dim sum lunch, city walk"] },
+            { label: "Day 3", values: ["Yehliu–Shifen–Jiufen day tour", "Rest after the tour"] },
+            { label: "Day 4", values: ["Taipei Zoo", "Maokong Gondola, night views"] },
+            { label: "Day 5 (early departure)", values: ["—", "To the airport"] },
+          ],
+        },
+        { type: "h2", text: "02 · Check Opening Hours" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "CKS Memorial Hall", desc: "Open 09:00–18:00; closed New Year's Eve, Lunar New Year's Day, and 228 Memorial Day. Guard changes run hourly 09:00–17:00 and are cancelled in rain (as of Sept 2026)." },
+            { mark: "✓", b: "Maokong Gondola", desc: "Weekdays 09:00–21:00, holidays 09:00–22:00. It closes on some Mondays for maintenance (Oct 12, Nov 9/23/30, Dec 14/28; as of Sept 2026), and weather can also stop it, so check the day's notice." },
+            { mark: "✓", b: "Taipei Zoo", desc: "09:00–17:00, last entry 16:00 (as of Sept 2026). Indoor houses like the panda house take turns closing on Mondays." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg", caption: "The white main hall of Chiang Kai-shek Memorial Hall with its blue roof and plaza." },
+        { type: "h2", text: "03 · Keeping It Relaxed" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Zoo and Maokong together", desc: "The zoo and gondola stations are close, so pair them. On a Monday, check first whether it's a gondola maintenance day." },
+            { mark: "2", b: "Give the day tour a full day", desc: "Yehliu, Shifen, and Jiufen involve long drives, so add nothing else." },
+            { mark: "3", b: "Rainy-day backup", desc: "Guard changes can be cancelled, so keep an indoor sight in reserve." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taipei-3n5d-relaxed-itinerary-2.jpg", caption: "A giant panda walking on the grass at Taipei Zoo." },
+        { type: "h2", text: "04 · Keep the First and Last Days Free" },
+        { type: "p", html: "Don't schedule anything on the night-arrival day or the pre-dawn departure day. For popular dim sum spots or night markets, check whether reservations are possible, and confirm day-tour seats and routes with the operator." },
+        { type: "quote", text: "\"Two big stops a day, and keep the first and last days empty.\" — a summary of advice from travelers who've done Taipei at an easy pace." },
+        { type: "p", html: "For the Day 2 dim sum lunch, pick from <a href=\"/taipei-dimsum\">Taipei dim sum spots</a>, or try a simple dumpling shop like <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">Ba Fang Dumpling Zhongxiao Dunhua</a> if it fits your route. Find places near your hotel on the <a href=\"/region-taipei\">Taipei food map</a>, and places to eat on the day-tour day on the <a href=\"/region-jiufen\">Jiufen food map</a>." },
+        { type: "note", text: "Based on official CKS Memorial Hall, Maokong Gondola, and Taipei Zoo guidance and traveler experiences (as of September 2026). Hours may change." },
+        { type: "cta", title: "Find Taipei restaurants on the map", desc: "Check Taipei restaurants to fit between sights.", btn: "Open the map →", href: "/map?region=taipei" },
+      ],
+    },
+  },
 };
