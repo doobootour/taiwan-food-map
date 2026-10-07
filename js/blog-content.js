@@ -18,6 +18,23 @@
 
 const BLOG_LIST = [
   {
+    slug: "taipei-with-kids-activities-night-market",
+    image: "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "타이베이 여행 가이드 · 아이 동반",
+      title: "아이와 타이베이 여행, 체험·야시장·포장 식사 어떻게 할까?",
+      desc: "펑리수 만들기 같은 체험, 야시장 시간대, 숙소에서 먹는 포장 식사 요령을 정리했어요.",
+      meta: "타이베이 · 아이 동반 여행",
+    },
+    en: {
+      eyebrow: "Taipei Travel Guide · With Kids",
+      title: "Taipei With Kids: Activities, Night Markets, and Takeout Meals",
+      desc: "Pineapple-cake workshops, night market timing, and takeout tips for families.",
+      meta: "Taipei · Family Travel",
+    },
+  },
+  {
     slug: "taipei-family-budget-cash-card",
     image: "assets/images/blog/taipei-family-budget-cash-card-1.jpg",
     regions: ["taipei"],
@@ -3910,6 +3927,110 @@ const BLOG_POSTS = {
         { type: "p", html: "Knowing where you need cash makes the exchange amount easier to plan. Browse night-market and stall shops in <a href=\"/taipei-street_food\">Taipei street food</a>, bring cash for small spots like <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">Fuzhou Shizu Pepper Pork Bun</a>, a snack people line up for, and see everything on the <a href=\"/region-taipei\">Taipei food map</a>." },
         { type: "note", text: "Based on Taiwan Tourism Administration and EasyCard guidance and traveler experiences (as of September 2026). Check bank and card fees before departure." },
         { type: "cta", title: "Find Taipei street food on the map", desc: "Check cash-friendly stalls and night market shops on the map ahead of time.", btn: "Open the map →", href: "/map?region=taipei&cat=street_food" },
+      ],
+    },
+  },
+
+  "taipei-with-kids-activities-night-market": {
+    heroImage: "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg",
+    ko: {
+      pageTitle: "아이와 타이베이 여행 — 체험·야시장 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "아이와 타이베이 여행, 어떻게 짜면 편할까요? 예약제 펑리수 만들기 체험, 야시장 가기 좋은 시간, 포장 식사 요령을 정리했어요.",
+      ogTitle: "아이와 타이베이 여행, 체험·야시장·포장 식사 어떻게 할까?",
+      eyebrow: "타이베이 여행 가이드 · 아이 동반",
+      title: "아이와 타이베이 여행, 체험·야시장·포장 식사 어떻게 할까?",
+      dek: "아이 컨디션에 맞춰 움직이려면 — 예약이 필요한 체험과 붐비기 전 야시장 시간을 먼저 챙기세요.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "타이베이 · 아이 동반 여행",
+      intro: "\"아이가 야시장 인파를 힘들어할까 봐 걱정이에요.\" 아이와 타이베이 여행을 준비하는 부모들이 자주 하는 말이에요. 낮에는 예약제 체험으로 한두 시간을 채우고, 저녁 야시장은 일찍 들러 포장해 오는 식으로 짜면 훨씬 수월해요. 타이베이시 관광 사이트와 업체 안내, 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 아이와 타이베이 여행, 하루 흐름 예시" },
+        {
+          type: "compareTable",
+          cities: ["추천 활동", "포인트"],
+          rows: [
+            { label: "오전", values: ["예약제 체험(펑리수 만들기 등)", "아이 집중력이 좋은 시간"] },
+            { label: "오후", values: ["숙소 휴식", "낮잠·더위 피하기"] },
+            { label: "이른 저녁", values: ["야시장 들러 포장", "붐비기 전에 둘러보기"] },
+            { label: "저녁", values: ["숙소에서 식사", "아이 컨디션 따라 일찍 마무리"] },
+          ],
+        },
+        { type: "h2", text: "02 · 예약이 필요한 체험" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "펑리수 만들기", desc: "궈위안이(郭元益) 스린 관광공장은 원린루 546호 4층, MRT 스린역 1번 출구 근처예요. 예약제이고 12세 미만 아이는 성인 1명과 아이 1명이 한 조인 부모·아이 코스로 신청해요. 동행인은 1명까지 더할 수 있고 현장에서 NT$180(동행·입장료, 만들기 체험 없음)을 내요. 수업은 정시에 시작해 20분 전까지 4층 매표소에서 체크인해야 하고, 늦으면 예약이 자동 취소돼요(2026년 9월 기준)." },
+            { mark: "✓", b: "오르골 공방", desc: "오르골 만들기 체험은 업체마다 운영 방식이 달라요. 연령 제한과 소요 시간, 예약 여부를 미리 확인하세요." },
+            { mark: "✓", b: "체험은 하루 하나", desc: "이동과 대기를 생각하면 하루에 체험 한 가지가 적당해요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taipei-with-kids-activities-night-market-2.jpg", caption: "진열장에 놓인 발레리나 오르골들이에요(일반 이미지)." },
+        { type: "h2", text: "03 · 야시장은 일찍, 포장해서" },
+        { type: "p", html: "닝샤 야시장은 매일 17:00~23:30 열리고(2026년 9월 기준) 먹거리 노점 위주라 짧게 둘러보기 좋아요. 문을 연 직후인 5~6시쯤 가면 덜 붐벼 유모차나 어린아이와 다니기 수월해요. 아이가 지치기 전에 몇 가지를 포장해 숙소에서 먹는 가족도 많아요." },
+        { type: "figure", img: "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg", caption: "위에서 내려다본 라오허제 야시장 입구와 인파예요(닝샤 야시장 아님)." },
+        { type: "h2", text: "04 · 포장 식사 요령" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "국물은 뚜껑 있는 용기", desc: "국물 요리는 새지 않게 포장해 달라고 하세요." },
+            { mark: "2", b: "물티슈·비닐봉지", desc: "숙소에서 먹을 때 정리가 편해요." },
+            { mark: "3", b: "맵지 않은 메뉴", desc: "처음 먹는 음식은 아이 입맛에 맞는지 조금만 사서 맛보세요." },
+          ],
+        },
+        { type: "quote", text: "\"체험은 오전, 야시장은 문 열 때, 저녁은 숙소에서.\" — 아이와 타이베이를 다녀온 부모들의 조언을 요약했습니다." },
+        { type: "p", html: "아이와 갈 곳은 <a href=\"/taipei-attraction\">타이베이 가볼 만한 곳</a>에 모아 두었어요. 사진 속 <a href=\"/taipei-attraction-93\">라오허제 야시장</a>도 등록돼 있고, 낮에 뛰어놀 곳으로는 <a href=\"/taipei-attraction-104\">타이페이 어린이공원</a>이 있어요. 숙소 주변 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요." },
+        { type: "note", text: "이 글은 타이베이시 관광 사이트와 궈위안이 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 체험 가격·회차는 예약 페이지에서 다시 확인해주세요." },
+        { type: "cta", title: "지도에서 타이베이 체험·명소를 찾아보세요", desc: "아이와 들르기 좋은 타이베이 명소와 야시장을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=attraction" },
+      ],
+    },
+    en: {
+      pageTitle: "Taipei With Kids — Activities and Night Markets · My Secret Taiwan Eats",
+      metaDescription: "Bookable activities like pineapple-cake making, the best time for night markets, and takeout tips for a Taipei trip with kids.",
+      ogTitle: "Taipei With Kids: Activities, Night Markets, and Takeout Meals",
+      eyebrow: "Taipei Travel Guide · With Kids",
+      title: "Taipei With Kids: Activities, Night Markets, and Takeout Meals",
+      dek: "To move at your child's pace — secure bookable activities first and hit the night market before the crowds.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taipei · Family Travel",
+      intro: "\"I'm worried the night market crowds will be too much for my kid.\" Fill an hour or two in the daytime with a bookable activity, then visit the night market early and take food back to the hotel. Based on the Taipei tourism site, operator info, and real traveler experiences, here's how.",
+      blocks: [
+        { type: "h2", text: "01 · A Sample Day" },
+        {
+          type: "compareTable",
+          cities: ["Activity", "Why"],
+          rows: [
+            { label: "Morning", values: ["Bookable activity (pineapple-cake making, etc.)", "Kids focus best"] },
+            { label: "Afternoon", values: ["Rest at the hotel", "Naps and beating the heat"] },
+            { label: "Early evening", values: ["Night market, get takeout", "Browse before the crowds"] },
+            { label: "Evening", values: ["Eat at the hotel", "Wrap up early as needed"] },
+          ],
+        },
+        { type: "h2", text: "02 · Activities That Need Booking" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Pineapple-cake making", desc: "Kuo Yuan Ye (郭元益) Shilin factory is at 4F, No. 546 Wenlin Rd, near Shilin MRT Exit 1. Reservations required; kids under 12 join the parent-child set of one adult plus one child. You can add one companion for NT$180 paid on site (entry only, no baking). Classes start on the hour, and you must check in at the 4F ticket counter 20 minutes early or the booking is cancelled (as of Sept 2026)." },
+            { mark: "✓", b: "Music-box workshops", desc: "Each operator runs things differently. Check age limits, duration, and booking." },
+            { mark: "✓", b: "One activity a day", desc: "With travel and waiting, one a day is plenty." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taipei-with-kids-activities-night-market-2.jpg", caption: "Ballerina music boxes on display (generic image)." },
+        { type: "h2", text: "03 · Go Early, Take It Away" },
+        { type: "p", html: "Ningxia Night Market runs 17:00–23:30 daily (as of Sept 2026) and is mostly food stalls, good for a short visit. Around 5–6 p.m., right after opening, it's less crowded and easier with strollers. Many families buy a few things and eat at the hotel before the kids get tired." },
+        { type: "figure", img: "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg", caption: "Raohe Street Night Market's entrance and crowds seen from above (not Ningxia)." },
+        { type: "h2", text: "04 · Takeout Tips" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "Lidded containers for soup", desc: "Ask for leak-proof packing." },
+            { mark: "2", b: "Wet wipes and bags", desc: "Cleanup at the hotel is easier." },
+            { mark: "3", b: "Mild dishes", desc: "Buy small portions of new foods to test your child's taste." },
+          ],
+        },
+        { type: "quote", text: "\"Activities in the morning, night market at opening, dinner at the hotel.\" — a summary of advice from parents who've visited Taipei with kids." },
+        { type: "p", html: "More places to take kids are on <a href=\"/taipei-attraction\">Taipei attractions</a>. <a href=\"/taipei-attraction-93\">Raohe Street Night Market</a>, the one in the photo, is listed too, and for daytime running around there's <a href=\"/taipei-attraction-104\">Taipei Children's Amusement Park</a>. Restaurants near your hotel are on the <a href=\"/region-taipei\">Taipei food map</a>." },
+        { type: "note", text: "Based on the Taipei tourism site, Kuo Yuan Ye information, and traveler experiences (as of September 2026). Check activity prices and sessions on the booking page." },
+        { type: "cta", title: "Find Taipei activities on the map", desc: "Check kid-friendly sights and night markets in Taipei on the map.", btn: "Open the map →", href: "/map?region=taipei&cat=attraction" },
       ],
     },
   }
