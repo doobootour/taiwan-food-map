@@ -16,6 +16,7 @@ const CATEGORIES = [
   { id: "bbq",          ko: "BBQ",         en: "BBQ",          icon: "🍖" },
   { id: "steak",        ko: "스테이크",    en: "Steak",        icon: "🥩" },
   { id: "dimsum",       ko: "딤섬",        en: "Dim Sum",      icon: "🥟" },
+  { id: "chinese",      ko: "중식",        en: "Chinese",      icon: "🥡" },
   { id: "goose",        ko: "거위",        en: "Goose",        icon: "🦢" },
   { id: "street_food",  ko: "노점",        en: "Street Food",  icon: "🥙" },
   { id: "mart",         ko: "마트",        en: "Mart",         icon: "🛒" },
