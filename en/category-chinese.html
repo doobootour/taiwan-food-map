@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4BQHKRWZE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R4BQHKRWZE');
+</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#c2703f" />
+<link rel="icon" type="image/png" href="/assets/favicon.png" />
+<title id="pageTitle">Chinese in Taiwan · My Secret Taiwan Eats</title>
+<link rel="canonical" href="https://taiwanbite.com/en/category-chinese" />
+<link rel="alternate" hreflang="ko" href="https://taiwanbite.com/category-chinese" />
+<link rel="alternate" hreflang="en" href="https://taiwanbite.com/en/category-chinese" />
+<link rel="alternate" hreflang="x-default" href="https://taiwanbite.com/category-chinese" />
+<meta id="pageDescription" name="description" content="Chinese in Taiwan — From numbing Sichuan heat to Cantonese and Jiangzhe classics" />
+<meta property="og:type" content="article" />
+<meta id="ogUrl" property="og:url" content="https://taiwanbite.com/en/category-chinese" />
+<meta property="og:site_name" content="My Secret Taiwan Eats" />
+<meta property="og:locale" content="en_US" />
+<meta id="ogTitle" property="og:title" content="Chinese in Taiwan · My Secret Taiwan Eats" />
+<meta id="ogDescription" property="og:description" content="Chinese in Taiwan — From numbing Sichuan heat to Cantonese and Jiangzhe classics" />
+<meta id="ogImage" property="og:image" content="https://taiwanbite.com/assets/images/categories/chinese.webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json" id="ldJson">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://taiwanbite.com/en"},{"@type":"ListItem","position":2,"name":"Find Spots","item":"https://taiwanbite.com/en#categories"},{"@type":"ListItem","position":3,"name":"Chinese in Taiwan","item":"https://taiwanbite.com/en/category-chinese"}]},{"@type":"CollectionPage","name":"Chinese in Taiwan","description":"Chinese in Taiwan — From numbing Sichuan heat to Cantonese and Jiangzhe classics","url":"https://taiwanbite.com/en/category-chinese","image":"https://taiwanbite.com/assets/images/categories/chinese.webp"},{"@type":"ItemList","name":"Chinese in Taiwan","numberOfItems":4,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"LocalBusiness","name":"美兆廚房 (Mizhao Kitchen)","geo":{"@type":"GeoCoordinates","latitude":23.9783939,"longitude":121.6045468}}},{"@type":"ListItem","position":2,"item":{"@type":"LocalBusiness","name":"YuFang SiChuan Restaurant 川揚郁坊小館","geo":{"@type":"GeoCoordinates","latitude":25.0350403,"longitude":121.5079264}}},{"@type":"ListItem","position":3,"item":{"@type":"LocalBusiness","name":"英倫港式餐廳","geo":{"@type":"GeoCoordinates","latitude":22.9812544,"longitude":120.1997319}}},{"@type":"ListItem","position":4,"item":{"@type":"LocalBusiness","name":"安迪廚房香港茶餐廳料理（週日，一公休）","geo":{"@type":"GeoCoordinates","latitude":22.753424,"longitude":121.151753}}}]}]}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+
+<link rel="stylesheet" href="/css/styles.css?v=1790588220" />
+</head>
+<body>
+
+<header id="site-header">
+  <div class="wrap">
+    <a href="/en" class="brand">
+      <img class="mark" src="/assets/images/logo.webp" data-i18n-alt="brand_name" alt="My Secret Taiwan Eats" />
+      <div class="name"><span data-i18n="brand_name">My Secret Taiwan Eats</span><small data-i18n="brand_tagline">Taiwan food map, curated by travelers</small></div>
+    </a>
+
+    <nav id="site-nav">
+      <a href="/en" data-i18n="nav_home">Home</a>
+      <a href="/en#categories" class="active" data-i18n="nav_categories">Find Spots</a>
+      <a href="/en#regions" data-i18n="nav_regions">Explore by Region</a>
+      <a href="/map" data-i18n="nav_map">View Map</a>
+      <a href="/blog" data-i18n="nav_blog">Blog</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn">EN ▾</button>
+        <div class="lang-menu" id="langMenu">
+          <a href="/category-chinese" data-lang="ko">한국어</a>
+          <a href="/en/category-chinese" data-lang="en" class="active">English</a>
+        </div>
+      </div>
+      <a href="/map" class="btn primary" style="padding:10px 20px;font-size:13px;" data-i18n="btn_register">Add a Spot</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero region-hero">
+    <img class="hero-img" id="categoryHeroImg" src="/assets/images/categories/chinese.webp" alt="Chinese" />
+    <div class="hero-scrim"></div>
+    <div class="hero-content reveal">
+      <span class="eyebrow" id="categoryEyebrow">Regional Chinese Cooking in Taiwan</span>
+      <h1 id="categoryTitle">Chinese in Taiwan</h1>
+      <p id="categoryTagline">From numbing Sichuan heat to Cantonese and Jiangzhe classics</p>
+      <div class="hero-actions">
+        <a href="#category-map" class="btn primary" data-i18n="hero_btn_category_map">View This Category's Food Map ↓</a>
+        <a href="/en#categories" class="btn ghost" data-i18n="hero_btn_other_categories">See Other Categories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ARTICLE ================= -->
+  <section class="section">
+    <div class="wrap region-article">
+      <p class="region-intro" id="categoryIntro">Many Chinese restaurants in Taiwan were opened by families who arrived from across mainland China after 1949, so you can eat Sichuan, Hunan, Cantonese, and Jiangzhe cooking all in one city. Old-school spots often carry "小館" (little restaurant) in their name, and the custom is to order several large plates and share.</p>
+
+      <h2 class="region-h2" data-i18n="category_h2_tips">What Makes It Special?</h2>
+      <div class="region-highlight-grid" id="categoryTips">
+        <div class="region-highlight-card reveal in" style="--i:0">
+          <span class="num">01</span>
+          <div>
+            <h3>Each region tastes different</h3>
+            <p>Sichuan and Hunan dishes are spicy and numbing, Cantonese is light, and Jiangzhe (Shanghai) leans sweet and savory. Check the region on the menu first.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:1">
+          <span class="num">02</span>
+          <div>
+            <h3>Order to share</h3>
+            <p>Plates are large, so 2–4 people sharing 3–4 dishes works well. Steamed rice is often ordered separately.</p>
+          </div>
+        </div>
+        <div class="region-highlight-card reveal in" style="--i:2">
+          <span class="num">03</span>
+          <div>
+            <h3>Adjust the heat</h3>
+            <p>If Sichuan food is too spicy, ask for "小辣" (mild) or "不辣" (not spicy) when ordering.</p>
+          </div>
+        </div></div>
+
+      <h2 class="region-h2" data-i18n="category_h2_checklist">How to Enjoy It</h2>
+      <ul class="region-activity-list" id="categoryChecklist">
+        <li><span class="check">✓</span>Old-school lunch spots fill with office workers — arrive before 11:30</li>
+        <li><span class="check">✓</span>Eating as a pair? Ask whether half portions (小份) are available</li>
+        <li><span class="check">✓</span>Check menu photos for dishes with mala or Sichuan pepper</li>
+        <li><span class="check">✓</span>Some older restaurants are cash-only — bring cash</li></ul>
+    </div>
+  </section>
+
+  <!-- ================= REGISTERED SPOTS + MAP ================= -->
+  <section id="category-map" class="section alt">
+    <div class="wrap">
+      <div class="region-article" style="margin-bottom:24px;">
+        <div class="section-head reveal" style="margin-bottom:0;">
+          <div>
+            <span class="eyebrow">Real spots</span>
+            <h2 data-i18n="sec_category_findings_title">Real Spots Added by Travelers</h2>
+            <p data-i18n="sec_category_findings_desc">Real spots in this category, grouped by region. New additions show up here right away. Tap a pin to leave a recommendation vote too.</p>
+          </div>
+          <a id="categoryFullMapLink" href="/map?cat=chinese" class="link-all" data-i18n="link_full_map">View Full-Screen Map →</a>
+        </div>
+      </div>
+
+      <div class="embedded-map-card reveal" style="margin-bottom:32px;">
+        <div class="map-filter-panel embedded" id="homeFilterPanel">
+          <button type="button" class="filter-toggle" id="homeFilterToggleBtn">
+            <span class="filter-toggle-label"><span class="ico">🍽️</span><span data-i18n="filter_toggle_label">Browse Spots by Menu</span></span>
+            <span class="filter-toggle-chevron">▾</span>
+          </button>
+          <div class="filter-panel-body">
+            <div class="filter-panel-head">
+              <button class="filter-action-btn" id="homeSelectAllBtn" data-i18n="filter_select_all">Select All</button>
+              <button class="filter-action-btn" id="homeClearAllBtn" data-i18n="filter_clear_all">Clear All</button>
+            </div>
+            <div class="map-filter-bar" id="homeFilterBar"></div>
+          </div>
+        </div>
+        <div class="embedded-map-wrap">
+          <div id="homeMap"></div>
+          <div class="map-loading" id="homeMapLoading"><span class="spinner"></span><span data-i18n="map_loading">Loading spots...</span></div>
+          <div class="empty-note-float" id="homeEmptyNote">
+            <span class="ico">🗺️</span>
+            <span data-i18n-html="empty_note_html">No spots in this category yet.<br/>Be the first to discover one!</span>
+          </div>
+          <div class="map-fab-col">
+            <div class="fab-item">
+              <button class="round-fab" id="homeLocateBtn" data-i18n-title="locate_title" title="Find spots near me">📍</button>
+              <span class="fab-label" data-i18n="locate_title">Find spots near me</span>
+            </div>
+            <div class="fab-item">
+              <button class="add-fab" id="homeAddFab" data-i18n-title="add_title" title="Add your own spot">+</button>
+              <span class="fab-label" data-i18n="add_title">Add your own spot</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="region-article">
+        <div id="categorySpotsList">
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Taipei</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">YuFang SiChuan Restaurant 川揚郁坊小館</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/taipei-chinese-yufang-sichuan-restaurant-849">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/YuFang%20SiChuan%20Restaurant%20%E5%B7%9D%E6%8F%9A%E9%83%81%E5%9D%8A%E5%B0%8F%E9%A4%A8/@25.0350403,121.5079264,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=25.0350403&lng=121.5079264">View on Map →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Tainan</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">英倫港式餐廳</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/tainan-chinese-618">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E8%8B%B1%E5%80%AB%E6%B8%AF%E5%BC%8F%E9%A4%90%E5%BB%B3/@22.9812544,120.1997319,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=22.9812544&lng=120.1997319">View on Map →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Hualien</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">美兆廚房 (Mizhao Kitchen)</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/hualien-chinese-mizhao-kitchen-859">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E7%BE%8E%E5%85%86%E5%BB%9A%E6%88%BF%20(Mizhao%20Kitchen)/@23.9783939,121.6045468,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=23.9783939&lng=121.6045468">View on Map →</a>
+              </span>
+            </div>
+        </div>
+        <div class="region-spots-group reveal in">
+          <div class="region-spots-group-head"><span class="ico">📍</span><span>Taitung</span></div>
+          
+            <div class="region-spot-card">
+              <span class="name">安迪廚房香港茶餐廳料理（週日，一公休）</span>
+              <span class="region-spot-links">
+                <a class="view-link" href="/taitung-chinese-447">View Details →</a>
+                <a class="view-link google-link" href="https://www.google.com/maps/search/%E5%AE%89%E8%BF%AA%E5%BB%9A%E6%88%BF%E9%A6%99%E6%B8%AF%E8%8C%B6%E9%A4%90%E5%BB%B3%E6%96%99%E7%90%86%EF%BC%88%E9%80%B1%E6%97%A5%EF%BC%8C%E4%B8%80%E5%85%AC%E4%BC%91%EF%BC%89/@22.753424,121.151753,17z" target="_blank" rel="noopener">View on Google Maps</a>
+                <a class="view-link" href="/map?lat=22.753424&lng=121.151753">View on Map →</a>
+              </span>
+            </div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section tight">
+    <div class="cta-band reveal">
+      <div>
+        <span class="eyebrow" style="color:rgba(255,255,255,0.85)">Join the map</span>
+        <h2 data-i18n="cta_title">Share your own hidden gem 🤫</h2>
+        <p data-i18n="cta_desc">Your discovery helps other travelers experience the real Taiwan.</p>
+      </div>
+      <a href="/map" class="btn ghost" style="border-color:#fff;" data-i18n="cta_btn">Add a Spot Now →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <img class="mark" src="/assets/images/logo.webp" data-i18n-alt="brand_name" alt="My Secret Taiwan Eats" />
+          <div class="name"><span data-i18n="brand_name">My Secret Taiwan Eats</span><small data-i18n="brand_tagline">Taiwan food map, curated by travelers</small></div>
+        </div>
+        <p class="desc" data-i18n="footer_desc">A Taiwan restaurant map picked from real reviews by Korean travelers — a real local guide, built together.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_explore">Explore</h4>
+        <ul>
+          <li><a href="/en#categories" data-i18n="footer_categories">Find Spots</a></li>
+          <li><a href="/en#regions" data-i18n="footer_regions">Explore by Region</a></li>
+          <li><a href="/map" data-i18n="footer_map">Map</a></li>
+          <li><a href="/blog" data-i18n="footer_blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_join">Get Involved</h4>
+        <ul>
+          <li><a href="/map" data-i18n="footer_register">Add a Spot</a></li>
+          <li><a href="/profile" data-i18n="footer_mypage">My Page</a></li>
+          <li><a href="/about" data-i18n="footer_about">About</a></li>
+          <li><a href="/privacy" data-i18n="footer_privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_lang">Language</h4>
+        <ul>
+          <li><a class="footer-lang-btn" href="/category-chinese" data-lang="ko">한국어</a></li>
+          <li><a class="footer-lang-btn active" href="/en/category-chinese" data-lang="en">English</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2026 My Secret Taiwan Eats</span>
+      <span>Made for travelers, by travelers</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/js/data.js?v=1790588220"></script>
+<script src="/js/category-content.js?v=1790588220"></script>
+<script src="/js/i18n.js?v=1790588220"></script>
+<script src="/js/supabase-config.js?v=1790588220"></script>
+<script src="/js/admin.js?v=1790588220"></script>
+<script src="/js/app.js?v=1790588220"></script>
+<script src="/js/home-map.js?v=1790588220"></script>
+<script src="/js/category.js?v=1790588220"></script>
+<!-- Naver Analytics -->
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "1c1c692e90a9a80";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+</body>
+</html>
