@@ -1,7 +1,7 @@
 # 나만 알고 싶은 대만 맛집 · My Secret Taiwan Eats
 
 대만 여행을 계획 중인 2030 여성을 타겟으로 한 "Golden Hour Taipei" 톤의 프리미엄 대만 맛집 지도 웹앱.
-한국 여행자들의 실제 후기를 모아 고른 31개 카테고리 맛집 지도입니다.
+한국 여행자들의 실제 후기를 모아 고른 32개 카테고리 맛집 지도입니다.
 
 빌드 도구 없이 정적 HTML/CSS/JS + Supabase로 동작합니다.
 
@@ -42,8 +42,8 @@ python -m http.server 5500
 
 이 사이트는 브라우저 클라이언트 JS로 화면을 그리지만(예: `js/blog.js`, `js/region.js`), 자바스크립트를 거의 실행하지 않는 크롤러(특히 네이버)는 raw HTML만 보기 때문에 아래 스크립트들이 **빌드 시점에 동일한 마크업을 미리 구워서 HTML에 심어둡니다.** 데이터 파일을 바꾼 뒤에는 해당 스크립트를 재실행하고, 결과로 바뀐 정적 HTML/`sitemap.xml`을 함께 커밋하세요.
 
-- `node scripts/generate-region-pages.js` — `region-*.html`(9개), 홈 화면의 지역 카드(`#regionGrid`)와 카테고리 링크(`#categoryLinkRow`, 31개)를 `js/data.js` + `js/region-content.js` 기준으로 정적화. Supabase에서 지역별 등록 맛집(`eats` 테이블)도 함께 불러와 `#regionSpotsList`를 굽습니다.
-- `node scripts/generate-category-pages.js` — `category-*.html`(31개)을 `js/data.js` + `js/category-content.js` 기준으로 정적화. 카테고리별 등록 맛집도 Supabase에서 불러와 함께 굽습니다.
+- `node scripts/generate-region-pages.js` — `region-*.html`(9개), 홈 화면의 지역 카드(`#regionGrid`)와 카테고리 링크(`#categoryLinkRow`, 32개)를 `js/data.js` + `js/region-content.js` 기준으로 정적화. Supabase에서 지역별 등록 맛집(`eats` 테이블)도 함께 불러와 `#regionSpotsList`를 굽습니다.
+- `node scripts/generate-category-pages.js` — `category-*.html`(32개)을 `js/data.js` + `js/category-content.js` 기준으로 정적화. 카테고리별 등록 맛집도 Supabase에서 불러와 함께 굽습니다.
 - `node scripts/generate-blog-pages.js` — `blog-<slug>.html`(10개)의 본문(`#blogArticle`)을 `js/blog-content.js` 기준으로 정적화. **이 스크립트를 실행하지 않으면 블로그 글 본문이 raw HTML에는 비어 있고 JS 실행 후에만 보입니다.**
 - `node scripts/generate-spot-pages.js` — Supabase `eats` 테이블에 등록된 맛집 하나하나에 대해 개별 상세 페이지(`<region>-<category>-<가게이름 slug>-<id>.html`)를, 그리고 "지역 × 메뉴" 조합마다(예: `taipei-beef_noodle.html`, 등록 3곳 이상인 조합만) 롱테일 랜딩 페이지를 생성합니다. 가게 이름이 한자/한글이라 라틴 문자로 못 바뀌면 이름 부분 없이 `<region>-<category>-<id>`로 대체됩니다. **맛집이 새로 등록될 때마다 재실행 필요**(781개 기준 실행됨 — 재실행 시 새 스팟만큼 페이지 수가 늘어남).
 - `node scripts/generate-sitemap.js` — `sitemap.xml`을 지역/카테고리/조합/블로그 글/스팟 상세 페이지 전체로 재생성한다. `<lastmod>`는 각 페이지 HTML의 마지막 내용 커밋 날짜다(캐시 버스터만 바꾼 커밋은 제외). 작업 트리에서 내용이 바뀐 파일만 오늘(Asia/Taipei)을 쓴다.

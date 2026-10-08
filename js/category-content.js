@@ -511,6 +511,40 @@ const CATEGORY_CONTENT = {
     },
   },
 
+  chinese: {
+    tagKo: "대만에서 만나는 중국 각지의 맛", tagEn: "Regional Chinese Cooking in Taiwan",
+    ko: {
+      sub: "얼얼한 쓰촨 요리부터 광둥·장저 요리까지",
+      intro: "대만에는 1949년 이후 중국 각지에서 건너온 사람들이 문을 연 중식당이 많아서, 쓰촨(四川)·후난(湖南)·광둥(廣東)·장저(江浙) 등 지역별 요리를 한 도시 안에서 골라 먹을 수 있어요. 오래된 노포는 '小館'(작은 식당)이라는 이름을 단 곳이 많고, 큰 접시 요리를 여러 개 시켜 함께 나눠 먹는 게 기본이에요.",
+      tips: [
+        { title: "지역별로 맛이 달라요", desc: "쓰촨·후난 요리는 맵고 얼얼하고, 광둥 요리는 담백하고, 장저(상하이) 요리는 달고 짭조름한 편이에요. 메뉴판에서 지역 이름부터 확인해 보세요." },
+        { title: "여럿이 나눠 먹기", desc: "요리가 한 접시씩 크게 나와서 2~4명이 3~4가지를 시켜 나눠 먹는 게 좋아요. 흰밥은 따로 주문하는 곳이 많아요." },
+        { title: "매운 정도 조절", desc: "쓰촨 요리가 너무 맵다면 주문할 때 '小辣'(덜 맵게)나 '不辣'(안 맵게)라고 말하면 돼요." },
+      ],
+      checklist: [
+        "점심 시간 노포는 현지 직장인으로 붐비니 11시 30분 전에 가기",
+        "인원이 적으면 반 접시(小份)가 되는지 물어보기",
+        "마라·화자오가 들어간 요리는 메뉴 사진으로 맵기 미리 확인",
+        "현금만 받는 노포가 있으니 현금 챙기기",
+      ],
+    },
+    en: {
+      sub: "From numbing Sichuan heat to Cantonese and Jiangzhe classics",
+      intro: "Many Chinese restaurants in Taiwan were opened by families who arrived from across mainland China after 1949, so you can eat Sichuan, Hunan, Cantonese, and Jiangzhe cooking all in one city. Old-school spots often carry \"小館\" (little restaurant) in their name, and the custom is to order several large plates and share.",
+      tips: [
+        { title: "Each region tastes different", desc: "Sichuan and Hunan dishes are spicy and numbing, Cantonese is light, and Jiangzhe (Shanghai) leans sweet and savory. Check the region on the menu first." },
+        { title: "Order to share", desc: "Plates are large, so 2–4 people sharing 3–4 dishes works well. Steamed rice is often ordered separately." },
+        { title: "Adjust the heat", desc: "If Sichuan food is too spicy, ask for \"小辣\" (mild) or \"不辣\" (not spicy) when ordering." },
+      ],
+      checklist: [
+        "Old-school lunch spots fill with office workers — arrive before 11:30",
+        "Eating as a pair? Ask whether half portions (小份) are available",
+        "Check menu photos for dishes with mala or Sichuan pepper",
+        "Some older restaurants are cash-only — bring cash",
+      ],
+    },
+  },
+
   goose: {
     tagKo: "대만 남부의 자부심", tagEn: "A Point of Pride in Southern Taiwan",
     ko: {
