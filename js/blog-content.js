@@ -5,6 +5,7 @@
 //   "p"            { html }                                              — 문단
 //   "h2"           { text }                                              — 소제목
 //   "compareTable" { cities: [string,...], rows: [{ label, values: [...] }] } — 비교 표
+//                  cities가 values보다 하나 많으면 첫 문자열은 빈 코너 대신 행 헤더(예: "뜻")
 //   "cityGrid"     { items: [{ img, name, tag, desc }] }                 — 도시별 이미지 카드
 //   "figure"       { img, caption }                                     — 본문 중간에 넣는 이미지 한 장(예전 히어로 사진 등)
 //   "figureGrid"   { items: [{ img, caption }] }                         — 이미지 여러 장
@@ -17,6 +18,23 @@
 // blog.js가 이 값으로 목록 페이지의 지역 필터 탭을 만든다. 여러 지역을 다루는 글이면 배열에 모두 적는다.
 
 const BLOG_LIST = [
+  {
+    slug: "taiwan-food-menu-chinese-words",
+    image: "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg",
+    regions: ["taipei"],
+    ko: {
+      eyebrow: "대만 여행 가이드 · 음식 중국어",
+      title: "대만 메뉴판 중국어, 土豆가 감자가 아니라 땅콩이라고?",
+      desc: "土豆·鳳梨·蚵仔처럼 대만 메뉴판에서 대륙식과 다르게 쓰는 음식 단어를 정리했어요.",
+      meta: "대만 · 음식 가이드",
+    },
+    en: {
+      eyebrow: "Taiwan Travel Guide · Food Chinese",
+      title: "Reading a Taiwanese Menu: Why 土豆 Means Peanuts, Not Potatoes",
+      desc: "土豆, 鳳梨, 蚵仔 and other food words Taiwanese menus use differently from the mainland.",
+      meta: "Taiwan · Food Guide",
+    },
+  },
   {
     slug: "jiufen-bus-965-from-taipei",
     image: "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg",
@@ -4366,6 +4384,120 @@ const BLOG_POSTS = {
         { type: "p", html: "Plan where to eat once you arrive. The <a href=\"/region-jiufen\">Jiufen restaurant map</a> covers spots nearby, including <a href=\"/jiufen-taiwanese-77\">Meiping Xiaochi (美萍小吃)</a> by the Old Street. Boarding at Ximen? Fill up first at <a href=\"/taipei-taiwanese-675\">a popular Ximending restaurant</a> from our <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a>." },
         { type: "note", text: "Based on Taipei e-bus route data and the Tourism Administration's Taiwan Tourist Shuttle timetable and fare table (as of October 2026). Routes, stops and frequency can change." },
         { type: "cta", title: "Find Jiufen restaurants on the map", desc: "Check Jiufen restaurants that are easy to reach on bus 965.", btn: "Open the map →", href: "/map?region=jiufen" },
+      ],
+    },
+  },
+
+  "taiwan-food-menu-chinese-words": {
+    heroImage: "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg",
+    ko: {
+      pageTitle: "대만 메뉴판 중국어 — 대륙식과 다른 말 · 나만 알고 싶은 대만 맛집",
+      metaDescription: "대만 메뉴판 중국어, 대륙식과 뭐가 다를까요? 土豆·鳳梨·蚵仔처럼 대만에서 다르게 쓰는 음식 단어를 교육부 사전 기준으로 정리했어요.",
+      ogTitle: "대만 메뉴판 중국어, 土豆가 감자가 아니라 땅콩이라고?",
+      eyebrow: "대만 여행 가이드 · 음식 중국어",
+      title: "대만 메뉴판 중국어, 土豆가 감자가 아니라 땅콩이라고?",
+      dek: "중국어를 조금 배웠어도 대만 메뉴판에서 헷갈리는 단어가 있어요 — 같은 한자, 다른 뜻부터 알아두세요.",
+      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
+      metaTopic: "대만 · 음식 가이드",
+      intro: "\"土豆면 감자 아닌가요?\" 대만 메뉴판 중국어는 중국 대륙에서 쓰는 말과 다른 단어가 꽤 있어요. 대만에서 土豆는 땅콩이고, 감자는 馬鈴薯라고 써요. 대만 교육부 『國語辭典簡編本』의 '양안 상용 어휘 대조표'와 『臺灣台語常用詞辭典』을 바탕으로 식당에서 자주 보는 단어를 정리해봤어요.",
+      blocks: [
+        { type: "h2", text: "01 · 대만 메뉴판 중국어, 헷갈리는 단어 한눈에 보기" },
+        {
+          type: "compareTable",
+          cities: ["뜻", "대만 메뉴", "대륙에서 흔한 말"],
+          rows: [
+            { label: "땅콩", values: ["土豆·花生", "花生·落花生"] },
+            { label: "감자", values: ["馬鈴薯", "洋芋·土豆"] },
+            { label: "감자칩", values: ["洋芋片", "薯片·土豆片"] },
+            { label: "파인애플", values: ["鳳梨", "菠蘿"] },
+            { label: "키위", values: ["奇異果", "獼猴桃"] },
+            { label: "아보카도", values: ["酪梨", "鱷梨"] },
+            { label: "양배추", values: ["高麗菜", "包心菜·圓白菜 등"] },
+            { label: "무", values: ["菜頭", "蘿蔔"] },
+            { label: "브로콜리", values: ["綠色花椰菜", "西蘭花"] },
+          ],
+        },
+        { type: "h2", text: "02 · 고기·생선·유제품 단어" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "생선", desc: "참치는 鮪魚(대륙 金槍魚·吞拿魚), 연어는 鮭魚(대륙 三文魚), 틸라피아는 吳郭魚(대륙 羅非魚)예요." },
+            { mark: "✓", b: "유제품", desc: "마시는 요구르트는 優酪乳(대륙 酸奶), 떠먹는 요구르트는 優格, 치즈는 起司(대륙 乳酪·芝士)라고 써요." },
+            { mark: "✓", b: "그 밖에", desc: "베이컨은 培根(대륙 煙肉), 도시락은 便當(대륙 盒飯), 일본식 계란찜은 茶碗蒸(대륙 蛋羹)이에요." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg", caption: "반숙 달걀을 올린 대만식 루러우판이에요(난터우 푸리에서 찍은 사진)." },
+        { type: "h2", text: "03 · 굴은 蚵仔, 무는 菜頭" },
+        { type: "p", html: "대만 메뉴에서 자주 보이는 蚵仔는 굴이에요. 대만어로 '오아(ô-á)'라고 읽고, 교육부 대만어 사전도 牡蠣(굴)로 풀이해요. 야시장 대표 메뉴 蚵仔煎이 바로 굴전이에요. 菜頭는 무를 가리켜서 菜頭粿는 무떡이에요. 豆花는 대만에서 그대로 豆花, 대륙에서는 豆腐腦·豆腐花라고도 불러요." },
+        { type: "figure", img: "assets/images/blog/taiwan-food-menu-chinese-words-2.jpg", caption: "그릇에 담긴 볶은 땅콩이에요. 대만에서는 土豆라고도 불러요(일반 이미지)." },
+        { type: "h2", text: "04 · 메뉴판 볼 때 기억할 점" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "대조표는 대표적인 쓰임이에요", desc: "대만에서도 番茄·蕃茄를 함께 쓰는 것처럼, 가게와 세대에 따라 표현이 섞여 있어요." },
+            { mark: "2", b: "土豆가 보이면 한 번 더 확인", desc: "감자를 기대했다면 메뉴 사진을 보거나 직원에게 가리켜 물어보세요." },
+            { mark: "3", b: "번체로 찾기", desc: "대만 메뉴판은 번체자로 적혀 있으니 번역 앱도 번체 중국어로 맞춰두면 편해요." },
+          ],
+        },
+        { type: "quote", text: "\"같은 한자라도 대만에서는 뜻이 다를 수 있어요.\" — 대만과 대륙의 음식 단어 차이를 정리한 여행자 글을 요약했습니다." },
+        { type: "p", html: "단어를 익혔다면 직접 주문해볼 차례예요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 동선을 짜고, <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a> 중 여행자들이 루러우판과 무떡, 굴전을 맛있게 먹었다고 남긴 <a href=\"/taipei-taiwanese-684\">天天利美食坊</a>에서 메뉴판을 펼쳐보세요." },
+        { type: "note", text: "이 글은 대만 교육부 『國語辭典簡編本』 양안 상용 어휘 대조표와 『臺灣台語常用詞辭典』을 바탕으로 정리했습니다(2026년 10월 기준). 실제 메뉴 표기는 가게마다 다를 수 있어요." },
+        { type: "cta", title: "지도에서 타이베이 대만식 맛집을 찾아보세요", desc: "루러우판·굴전 같은 대만 음식을 먹기 좋은 타이베이 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=taiwanese" },
+      ],
+    },
+    en: {
+      pageTitle: "Taiwanese Menu Chinese — Words That Differ · My Secret Taiwan Eats",
+      metaDescription: "Taiwanese menus use different food words from mainland Chinese. 土豆, 鳳梨, 蚵仔 and more, checked against Taiwan's Ministry of Education dictionary.",
+      ogTitle: "Reading a Taiwanese Menu: Why 土豆 Means Peanuts, Not Potatoes",
+      eyebrow: "Taiwan Travel Guide · Food Chinese",
+      title: "Reading a Taiwanese Menu: Why 土豆 Means Peanuts, Not Potatoes",
+      dek: "Even if you've studied some Chinese, a few menu words in Taiwan can trip you up — start with the ones that look the same but mean something else.",
+      metaAuthor: "My Secret Taiwan Eats Editorial",
+      metaTopic: "Taiwan · Food Guide",
+      intro: "\"Isn't 土豆 potato?\" Many food words on Taiwanese menus differ from mainland usage. In Taiwan, 土豆 means peanuts, and potato is 馬鈴薯. Here are the words you'll see most in restaurants, based on the cross-strait word table in Taiwan's Ministry of Education Concise Mandarin Dictionary and its Taiwanese Hokkien dictionary.",
+      blocks: [
+        { type: "h2", text: "01 · Menu Words at a Glance" },
+        {
+          type: "compareTable",
+          cities: ["Meaning", "On a Taiwanese menu", "Common on the mainland"],
+          rows: [
+            { label: "Peanuts", values: ["土豆·花生", "花生·落花生"] },
+            { label: "Potato", values: ["馬鈴薯", "洋芋·土豆"] },
+            { label: "Potato chips", values: ["洋芋片", "薯片·土豆片"] },
+            { label: "Pineapple", values: ["鳳梨", "菠蘿"] },
+            { label: "Kiwi", values: ["奇異果", "獼猴桃"] },
+            { label: "Avocado", values: ["酪梨", "鱷梨"] },
+            { label: "Cabbage", values: ["高麗菜", "包心菜·圓白菜, etc."] },
+            { label: "Radish", values: ["菜頭", "蘿蔔"] },
+            { label: "Broccoli", values: ["綠色花椰菜", "西蘭花"] },
+          ],
+        },
+        { type: "h2", text: "02 · Meat, Fish, and Dairy" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "✓", b: "Fish", desc: "Tuna is 鮪魚 (mainland 金槍魚·吞拿魚), salmon is 鮭魚 (三文魚), and tilapia is 吳郭魚 (羅非魚)." },
+            { mark: "✓", b: "Dairy", desc: "Drinking yogurt is 優酪乳 (mainland 酸奶), spoonable yogurt is 優格, and cheese is 起司 (乳酪·芝士)." },
+            { mark: "✓", b: "Others", desc: "Bacon is 培根 (mainland 煙肉), a lunch box is 便當 (盒飯), and Japanese-style steamed egg is 茶碗蒸 (蛋羹)." },
+          ],
+        },
+        { type: "figure", img: "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg", caption: "Taiwanese braised pork rice topped with a soft-boiled egg (photographed in Puli, Nantou)." },
+        { type: "h2", text: "03 · Oysters Are 蚵仔, Radish Is 菜頭" },
+        { type: "p", html: "蚵仔, common on Taiwanese menus, means oysters. It's read ô-á in Taiwanese, and the Ministry of Education's Taiwanese dictionary glosses it as 牡蠣 (oyster). The night-market classic 蚵仔煎 is an oyster omelette. 菜頭 means radish, so 菜頭粿 is radish cake. 豆花 stays 豆花 in Taiwan, while on the mainland it's also called 豆腐腦 or 豆腐花." },
+        { type: "figure", img: "assets/images/blog/taiwan-food-menu-chinese-words-2.jpg", caption: "A bowl of roasted peanuts, also called 土豆 in Taiwan (generic image)." },
+        { type: "h2", text: "04 · Tips for Reading the Menu" },
+        {
+          type: "tipList",
+          items: [
+            { mark: "1", b: "The table shows typical usage", desc: "Taiwan uses both 番茄 and 蕃茄 for tomato, and wording mixes by shop and generation." },
+            { mark: "2", b: "Double-check 土豆", desc: "If you were expecting potatoes, look at the menu photo or point and ask." },
+            { mark: "3", b: "Search in Traditional Chinese", desc: "Taiwanese menus use traditional characters, so set your translation app to Traditional Chinese." },
+          ],
+        },
+        { type: "quote", text: "\"The same characters can mean something different in Taiwan.\" — a summary of a traveler's post on food words across the strait." },
+        { type: "p", html: "Once you know the words, try ordering. Plan your route with the <a href=\"/region-taipei\">Taipei restaurant map</a>, then open the menu at <a href=\"/taipei-taiwanese-684\">天天利美食坊</a>, one of our <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a>, where travelers enjoyed the braised pork rice, radish cake and oyster omelette." },
+        { type: "note", text: "Based on the cross-strait word table in Taiwan's Ministry of Education Concise Mandarin Dictionary and its Dictionary of Frequently-Used Taiwan Taigi (as of October 2026). Actual menu wording varies by shop." },
+        { type: "cta", title: "Find Taipei Taiwanese restaurants on the map", desc: "Check Taipei restaurants for braised pork rice, oyster omelette and other Taiwanese dishes.", btn: "Open the map →", href: "/map?region=taipei&cat=taiwanese" },
       ],
     },
   },
