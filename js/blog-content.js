@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "yilan-kavalan-distillery-cafe-course",
+    "image": "assets/images/blog/yilan-kavalan-distillery-cafe-course-1.jpg",
+    "regions": [
+      "yilan"
+    ],
+    "ko": {
+      "eyebrow": "이란 여행 가이드 · 근교 코스",
+      "title": "이란 카발란 양조장, 입장권부터 케이크 카페까지 반나절 코스는?",
+      "desc": "카발란 입장권 요금과 차감 방식, 한국어 투어 시간, 가는 법, 이란 케이크 카페까지 정리했어요.",
+      "meta": "이란 · 근교 코스"
+    },
+    "en": {
+      "eyebrow": "Yilan Travel Guide · Day Trip",
+      "title": "Kavalan Distillery in Yilan: Tickets, Tours and a Cake Café Half-Day",
+      "desc": "Kavalan ticket prices and credit, tour times, how to get there, and a Yilan cake café.",
+      "meta": "Yilan · Day Trip"
+    }
+  },
+  {
     slug: "kaohsiung-tainan-youbike-rental-tips",
     image: "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-1.jpg",
     regions: ["kaohsiung", "tainan"],
@@ -4623,5 +4642,349 @@ const BLOG_POSTS = {
         { type: "cta", title: "Find Tainan restaurants on the map", desc: "Check Tainan restaurants that are easy to reach by YouBike.", btn: "Open the map →", href: "/map?region=tainan" },
       ],
     },
+  },
+
+  "yilan-kavalan-distillery-cafe-course": {
+    "heroImage": "assets/images/blog/yilan-kavalan-distillery-cafe-course-1.jpg",
+    "ko": {
+      "pageTitle": "카발란 양조장 — 입장권·투어·카페 코스 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "카발란 양조장, 2026년부터 입장권이 생겼어요. 요금과 차감 방식, 한국어 투어 시간, 이란역에서 가는 버스·택시, 함께 들르기 좋은 이란 케이크 카페를 정리했어요.",
+      "ogTitle": "이란 카발란 양조장, 입장권부터 케이크 카페까지 반나절 코스는?",
+      "eyebrow": "이란 여행 가이드 · 근교 코스",
+      "title": "이란 카발란 양조장, 입장권부터 케이크 카페까지 반나절 코스는?",
+      "dek": "무료로 둘러보던 곳이 유료가 됐지만 표값은 그대로 시음이나 기념품으로 돌려쓸 수 있어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "이란 · 근교 코스",
+      "intro": "\"카발란 양조장, 이제 돈 내고 들어가야 하나요?\" 맞아요. 카발란 양조장(噶瑪蘭威士忌酒廠)은 2026년 3월 1일부터 입장권을 받고 있어요. 이란현 위안산향 위안산로 2단 326번지에 있고, 이란 시내에서 버스나 택시로 갈 수 있어요. 공식 홈페이지의 입장권·투어·교통 안내와 카페 공식 공지를 바탕으로 반나절 코스를 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 카발란 양조장 입장권 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "요금",
+            "대상"
+          ],
+          "rows": [
+            {
+              "label": "일반",
+              "values": [
+                "NT$200",
+                "일반 방문객"
+              ]
+            },
+            {
+              "label": "우대",
+              "values": [
+                "NT$100",
+                "중·고등학생, 이란현 주민, 65세 이상(증빙 필요)"
+              ]
+            },
+            {
+              "label": "무료",
+              "values": [
+                "NT$0",
+                "12세 이하 어린이, 장애인(동반 1인 포함)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "입장권 금액은 경내 시음 체험과 상품 구매에 전액 차감할 수 있어요(2026년 10월 기준). 영업시간은 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 카발란 한국어 투어는 매일 14:00"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "입장권 먼저",
+              "desc": "무료 가이드 투어는 입장권을 산 뒤 참여해요. 한국어는 매일 14:00, 중국어 10:00·16:00, 영어 11:00, 일본어 13:00이에요(2026년 10월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "홈페이지에서 등록",
+              "desc": "정해진 시간에 정해진 장소로 모이는 방식이라 공식 홈페이지 예약 페이지 아래쪽 양식으로 미리 등록해두면 편해요. 인원이 80명을 넘으면 음성 안내로 바뀔 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "약 60분 코스",
+              "desc": "홍보 영상, 증류 공장 견학, 1층 유료 시음 구역·기념품점 순서로 돌아요. 술을 마신 뒤에는 공장 견학을 할 수 없으니 시음은 투어 뒤로 미루세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yilan-kavalan-distillery-cafe-course-1.jpg",
+          "caption": "숙성고에 쌓인 위스키 오크통이에요(일반 이미지, 카발란에서 찍은 사진 아님)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 이란역에서 카발란 가는 법"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "타는 곳 → 내리는 곳",
+            "참고"
+          ],
+          "rows": [
+            {
+              "label": "752번 버스(宜蘭勁好行)",
+              "values": [
+                "이란 버스터미널(宜蘭轉運站) → 員山農會成功分部",
+                "도보 5분, 돌아올 땐 金車酒廠 정류장"
+              ]
+            },
+            {
+              "label": "1786번 버스(國光客運)",
+              "values": [
+                "이란 버스터미널 → 下深溝",
+                "도보 10분"
+              ]
+            },
+            {
+              "label": "택시",
+              "values": [
+                "이란역·버스터미널 앞",
+                "15~20분, 약 NT$250~300(2026년 10월 기준)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "시음을 할 계획이라면 차를 빌리지 말고 버스나 택시로 다녀오세요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 돌아오는 길, 이란 케이크 카페"
+        },
+        {
+          "type": "p",
+          "html": "양조장을 보고 이란 시내로 돌아왔다면 케이크 카페 花轟小姐(Cake.Coffee.Dessert)에 들러볼 만해요. 이란점은 이란시 타이산로(泰山路) 285번지에 있고, 2026년 10월 자오시점(礁溪鄉 中山路一段 225號)도 문을 열었어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "예약 없이 현장 대기",
+              "desc": "예약은 받지 않고, 6세 이상은 1인 음료 1잔이 최소 주문이에요."
+            },
+            {
+              "mark": "2",
+              "b": "대기 손님이 있으면 90분",
+              "desc": "기다리는 사람이 있으면 이용 시간이 90분으로 제한돼요."
+            },
+            {
+              "mark": "3",
+              "b": "늦게 가면 아쉬울 수 있어요",
+              "desc": "디저트는 매일 바뀌고 일찍 다 팔리면 일찍 닫아요. 휴무일은 공식 페이스북·인스타그램에 올라오니 방문 전 구글맵에 등록된 영업시간도 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yilan-kavalan-distillery-cafe-course-2.jpg",
+          "caption": "케이크 한 조각과 커피예요(일반 이미지, 花轟小姐 사진 아님)."
+        },
+        {
+          "type": "quote",
+          "text": "\"투어 먼저, 시음은 나중에, 디저트는 마지막에.\" — 공식 안내를 바탕으로 정리한 반나절 코스 요약입니다."
+        },
+        {
+          "type": "p",
+          "html": "이란에서 더 먹을 곳을 찾는다면 <a href=\"/region-yilan\">이란 맛집 지도</a>를 열어보세요. <a href=\"/yilan-cafe\">이란 카페 맛집</a>에 <a href=\"/yilan-cafe-dessert-coffee-cake-844\">花轟小姐</a>가 등록돼 있고, 출출할 땐 여행자가 올린 이란 노점 <a href=\"/yilan-street_food-696\">柯氏蔥油餅</a>도 있어요. 이란을 여행지로 넣을지 고민 중이라면 <a href=\"/blog-taiwan-first-trip-region-choice\">타이베이 말고 어디 갈까</a> 글도 함께 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 카발란 공식 홈페이지의 입장권 공고·가이드 투어·교통 안내와 花轟小姐 공식 이용 안내를 바탕으로 정리했습니다(2026년 10월 기준). 요금과 투어 일정은 바뀔 수 있으니 방문 전 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 이란 카페를 찾아보세요",
+          "desc": "양조장 전후로 들르기 좋은 이란 카페를 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=yilan&cat=cafe"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Kavalan Distillery — Tickets, Tours and Café · My Secret Taiwan Eats",
+      "metaDescription": "Kavalan Distillery now charges admission. Ticket prices and how they're credited, the Korean tour time, buses and taxis from Yilan, and a cake café to pair with your visit.",
+      "ogTitle": "Kavalan Distillery in Yilan: Tickets, Tours and a Cake Café Half-Day",
+      "eyebrow": "Yilan Travel Guide · Day Trip",
+      "title": "Kavalan Distillery in Yilan: Tickets, Tours and a Cake Café Half-Day",
+      "dek": "The once-free visit now has a ticket — but you can spend the full amount on tastings or souvenirs.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Yilan · Day Trip",
+      "intro": "\"Do I have to pay to visit Kavalan now?\" Yes. Kavalan Distillery (噶瑪蘭威士忌酒廠) has charged admission since March 1, 2026. It's at No. 326, Sec. 2, Yuanshan Rd., Yuanshan Township, Yilan County, reachable by bus or taxi from central Yilan. Here's a half-day plan based on Kavalan's official ticket, tour and transport pages and the café's own notices.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Kavalan Distillery Tickets at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Price",
+            "Who"
+          ],
+          "rows": [
+            {
+              "label": "General",
+              "values": [
+                "NT$200",
+                "General visitors"
+              ]
+            },
+            {
+              "label": "Concession",
+              "values": [
+                "NT$100",
+                "Junior/senior high students, Yilan County residents, 65+ (ID required)"
+              ]
+            },
+            {
+              "label": "Free",
+              "values": [
+                "NT$0",
+                "Children 12 and under, visitors with disabilities (plus one companion)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The full ticket price can be credited toward tastings and purchases on site (as of October 2026). Check the current opening hours on Google Maps before you go."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Kavalan Korean Tours Daily at 14:00"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Ticket first",
+              "desc": "Free guided tours start after you buy a ticket. Korean runs daily at 14:00, Chinese at 10:00 and 16:00, English at 11:00 and Japanese at 13:00 (as of October 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Register online",
+              "desc": "Tours meet at a set time and place, so register with the form at the bottom of the official reservation page. With more than 80 people, the tour may switch to an audio broadcast."
+            },
+            {
+              "mark": "✓",
+              "b": "About 60 minutes",
+              "desc": "A company video, the distillery production line, then the paid tasting area and gift shop on the first floor. You can't tour the factory after drinking, so save tastings for afterward."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yilan-kavalan-distillery-cafe-course-1.jpg",
+          "caption": "Whisky barrels stacked in an aging warehouse (generic image, not taken at Kavalan)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There from Yilan Station"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "From → To",
+            "Notes"
+          ],
+          "rows": [
+            {
+              "label": "Bus 752 (宜蘭勁好行)",
+              "values": [
+                "Yilan Transfer Station (宜蘭轉運站) → 員山農會成功分部",
+                "5-min walk; return from the 金車酒廠 stop"
+              ]
+            },
+            {
+              "label": "Bus 1786 (Kuo-Kuang)",
+              "values": [
+                "Yilan Transfer Station → 下深溝",
+                "10-min walk"
+              ]
+            },
+            {
+              "label": "Taxi",
+              "values": [
+                "Yilan Station or the transfer station",
+                "15–20 min, about NT$250–300 (as of October 2026)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If you plan to taste, skip the rental car and take the bus or a taxi."
+        },
+        {
+          "type": "h2",
+          "text": "04 · On the Way Back: A Yilan Cake Café"
+        },
+        {
+          "type": "p",
+          "html": "Back in Yilan city, stop at the cake café 花轟小姐 (Cake.Coffee.Dessert). The Yilan shop is at No. 285, Taishan Rd., and a Jiaoxi branch (No. 225, Sec. 1, Zhongshan Rd., Jiaoxi) opened in October 2026."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Walk-in only",
+              "desc": "No reservations, and everyone 6 and up orders at least one drink."
+            },
+            {
+              "mark": "2",
+              "b": "90 minutes when busy",
+              "desc": "If people are waiting, seating is limited to 90 minutes."
+            },
+            {
+              "mark": "3",
+              "b": "Don't go too late",
+              "desc": "Desserts change daily and the shop closes early when they sell out. Days off are posted on its Facebook and Instagram, so check the current opening hours on Google Maps before you go."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yilan-kavalan-distillery-cafe-course-2.jpg",
+          "caption": "A slice of cake with coffee (generic image, not from 花轟小姐)."
+        },
+        {
+          "type": "quote",
+          "text": "\"Tour first, taste later, dessert last.\" — a half-day summary based on the official guidance."
+        },
+        {
+          "type": "p",
+          "html": "Looking for more to eat in Yilan? Open the <a href=\"/region-yilan\">Yilan restaurant map</a>. <a href=\"/yilan-cafe-dessert-coffee-cake-844\">花轟小姐</a> is listed among our <a href=\"/yilan-cafe\">Yilan cafes</a>, and for a snack there's the traveler-added street stall <a href=\"/yilan-street_food-696\">柯氏蔥油餅</a>. Still deciding whether to add Yilan? See <a href=\"/blog-taiwan-first-trip-region-choice\">where to go beyond Taipei</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Kavalan's official ticket notice, guided tour and transport pages, and 花轟小姐's official visitor notice (as of October 2026). Prices and tour times can change, so check again before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Find Yilan cafés on the map",
+          "desc": "Check Yilan cafés to visit before or after the distillery.",
+          "btn": "Open the map →",
+          "href": "/map?region=yilan&cat=cafe"
+        }
+      ]
+    }
   },
 };
