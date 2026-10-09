@@ -5,16 +5,24 @@
         return `<p>${block.html}</p>`;
       case "h2":
         return `<h2 class="region-h2">${block.text}</h2>`;
-      case "compareTable":
+      case "compareTable": {
+        // cities usually labels the value columns; the first cell is a blank corner.
+        // When cities has one extra entry, that first string is the row-header label
+        // (for example "뜻" above the meaning column).
+        const valueCount = block.rows[0] && Array.isArray(block.rows[0].values) ? block.rows[0].values.length : block.cities.length;
+        const cornerIsHeader = block.cities.length === valueCount + 1;
+        const corner = cornerIsHeader ? block.cities[0] : "";
+        const headers = cornerIsHeader ? block.cities.slice(1) : block.cities;
         return `
           <div class="blog-compare-table-wrap">
             <table class="blog-compare-table">
-              <thead><tr><th></th>${block.cities.map(c => `<th>${c}</th>`).join("")}</tr></thead>
+              <thead><tr><th>${corner}</th>${headers.map(c => `<th>${c}</th>`).join("")}</tr></thead>
               <tbody>
                 ${block.rows.map(row => `<tr><td>${row.label}</td>${row.values.map(v => `<td>${v}</td>`).join("")}</tr>`).join("")}
               </tbody>
             </table>
           </div>`;
+      }
       case "cityGrid":
         return `
           <div class="blog-city-grid">
