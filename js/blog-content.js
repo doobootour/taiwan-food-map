@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-google-translate-camera-menu",
+    "image": "assets/images/blog/taiwan-google-translate-camera-menu-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 여행 앱",
+      "title": "대만 식당 중국어 메뉴판, 구글 번역 카메라로 읽을 수 있을까?",
+      "desc": "카메라·사진 번역 순서와 오프라인 설정, 구글 지도 메뉴 사진 활용법을 정리했어요.",
+      "meta": "대만 · 여행 앱 가이드"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Travel Apps",
+      "title": "No Korean or English Menu in Taiwan? Reading It with Google Translate Camera",
+      "desc": "Live and photo translation, offline setup, and using Google Maps menu photos.",
+      "meta": "Taiwan · Travel App Guide"
+    }
+  },
+  {
     "slug": "taiwan-7-eleven-self-microwave-qr",
     "image": "assets/images/blog/taiwan-7-eleven-self-microwave-qr-1.jpg",
     "regions": [
@@ -5306,6 +5325,304 @@ const BLOG_POSTS = {
           "desc": "Check Taipei restaurants for a local breakfast instead of the convenience store.",
           "btn": "Open Map →",
           "href": "/map?region=taipei&cat=breakfast"
+        }
+      ]
+    }
+  },
+
+  "taiwan-google-translate-camera-menu": {
+    "heroImage": "assets/images/blog/taiwan-google-translate-camera-menu-1.jpg",
+    "ko": {
+      "pageTitle": "구글 번역 카메라 메뉴 — 대만 식당 팁 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "한국어 메뉴 없는 대만 식당, 구글 번역 카메라로 메뉴를 읽어볼까요? 카메라·사진 번역 순서와 오프라인 설정, 구글 지도 메뉴 사진 활용법을 정리했어요.",
+      "ogTitle": "대만 식당 중국어 메뉴판, 구글 번역 카메라로 읽을 수 있을까?",
+      "eyebrow": "대만 여행 가이드 · 여행 앱",
+      "title": "대만 식당 중국어 메뉴판, 구글 번역 카메라로 읽을 수 있을까?",
+      "dek": "벽에 붙은 한자 메뉴판 앞에서 막막할 때 휴대폰 카메라 하나로 꽤 많은 걸 해결할 수 있어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 · 여행 앱 가이드",
+      "intro": "\"한국어 메뉴가 없는 가게는 그냥 지나쳐야 할까요?\" 구글 번역 카메라 메뉴 기능을 쓰면 휴대폰을 메뉴판에 비추기만 해도 화면 위에 한국어 번역이 겹쳐 나와요. 안드로이드와 아이폰 모두 같은 앱으로 쓸 수 있어요. Google 번역·Google 지도 고객센터 안내를 바탕으로 대만 식당에서 쓰기 좋은 방법을 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 구글 번역 카메라 메뉴 기능 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "기능",
+            "이럴 때",
+            "지원 언어(Google Play 기준)"
+          ],
+          "rows": [
+            {
+              "label": "즉석 카메라 번역",
+              "values": [
+                "메뉴판에 바로 비춰 볼 때",
+                "94개 언어"
+              ]
+            },
+            {
+              "label": "사진 번역",
+              "values": [
+                "찍어 둔 사진·스크린샷을 볼 때",
+                "90개 언어"
+              ]
+            },
+            {
+              "label": "오프라인 번역",
+              "values": [
+                "데이터가 안 터질 때",
+                "언어팩 다운로드 필요"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "대만 메뉴판은 번체자라 중국어(번체)를 출발어로 고르거나 '언어 감지'를 쓰면 돼요(2026년 10월 기준)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 카메라로 메뉴 읽는 순서"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "언어 고르기",
+              "desc": "앱에서 출발어는 중국어(번체) 또는 '언어 감지', 도착어는 한국어로 맞춰요."
+            },
+            {
+              "mark": "2",
+              "b": "카메라 비추기",
+              "desc": "홈 화면의 카메라를 누르고 메뉴판에 비추면 번역이 화면에 겹쳐 보여요."
+            },
+            {
+              "mark": "3",
+              "b": "화면 고정하기",
+              "desc": "촬영 버튼을 누르면 화면이 멈춰서 천천히 읽을 수 있어요."
+            },
+            {
+              "mark": "4",
+              "b": "필요한 줄만 고르기",
+              "desc": "'원문 보기'를 켠 뒤 단어를 탭하고 앵커를 끌어 범위를 조정하면, 그 부분 번역이 카드로 따로 떠요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-google-translate-camera-menu-1.jpg",
+          "caption": "중국어 간판과 메뉴가 걸린 대만 야시장 딤섬 가게예요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가기 전에 미리 읽어두기"
+        },
+        {
+          "type": "p",
+          "html": "가게에 들어가기 전 구글 지도 앱에서 식당을 열고 정보 탭의 '메뉴'를 누르면 사용자가 올린 요리 사진과 리뷰를 볼 수 있어요. 다만 모든 요리가 등록돼 있지는 않아요. 메뉴판 사진을 캡처해 두었다가 번역 앱 카메라 화면에서 '모든 이미지'를 눌러 불러오면 사진 번역으로 읽을 수 있어요. 출발어·도착어 언어팩을 미리 받아두면 인터넷 없이도 카메라 번역을 쓸 수 있어요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 번역이 이상할 때"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "글씨 상태 확인",
+              "desc": "글씨가 작거나 흐리거나 붓글씨처럼 꾸민 서체면 정확도가 떨어져요. 가까이 찍고, 어두우면 플래시를 켜세요."
+            },
+            {
+              "mark": "✓",
+              "b": "복사·검색 활용",
+              "desc": "번역된 메뉴명을 골라 '텍스트 복사'나 '검색'을 누르면 Google에서 사진을 바로 찾아볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "단어는 따로 알아두기",
+              "desc": "土豆처럼 대만에서 뜻이 다른 단어는 번역기도 헷갈릴 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "버전 차이",
+              "desc": "앱 메뉴 이름과 버튼 위치는 앱 버전과 OS에 따라 조금씩 달라요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-google-translate-camera-menu-2.jpg",
+          "caption": "식탁 위 음식을 스마트폰으로 찍는 모습이에요(일반 이미지, 번역 화면 아님)."
+        },
+        {
+          "type": "quote",
+          "text": "\"비추고, 멈추고, 필요한 줄만 고르기.\" — Google 번역 고객센터 안내를 바탕으로 정리한 한 줄 요약입니다."
+        },
+        {
+          "type": "p",
+          "html": "번역기만으로 헷갈리는 음식 단어는 <a href=\"/blog-taiwan-food-menu-chinese-words\">대만 메뉴판 중국어</a> 글에서 미리 익혀두세요. 연습할 곳이 필요하다면 <a href=\"/region-taipei\">타이베이 맛집 지도</a>의 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>이나 메뉴가 단출한 <a href=\"/taipei-noodle-86\">아종면선</a>부터 시작해보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 Google 번역 고객센터 '이미지 번역하기', Google Play 앱 정보, Google 지도 고객센터 안내를 바탕으로 정리했습니다(2026년 10월 기준). 기능 이름과 지원 언어 수는 앱 업데이트에 따라 바뀔 수 있어요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 노점 맛집을 찾아보세요",
+          "desc": "번역 앱을 들고 도전해보기 좋은 타이베이 노점을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=street_food"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Google Translate Camera for Menus — Taiwan · My Secret Taiwan Eats",
+      "metaDescription": "No translated menu at a Taiwanese restaurant? How to read it with Google Translate's camera — live and photo translation, offline setup, and using Google Maps menu photos.",
+      "ogTitle": "No Korean or English Menu in Taiwan? Reading It with Google Translate Camera",
+      "eyebrow": "Taiwan Travel Guide · Travel Apps",
+      "title": "No Korean or English Menu in Taiwan? Reading It with Google Translate Camera",
+      "dek": "Stuck in front of a wall of Chinese characters? Your phone camera can solve more than you'd think.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan · Travel App Guide",
+      "intro": "\"Should I just skip places without a translated menu?\" With Google Translate's camera, point your phone at the menu and the translation appears on top of it. It works in the same app on Android and iPhone. Here's how to use it in Taiwanese restaurants, based on Google Translate and Google Maps help pages.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Features at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Feature",
+            "Use it when",
+            "Languages (per Google Play)"
+          ],
+          "rows": [
+            {
+              "label": "Instant camera translation",
+              "values": [
+                "Pointing at a menu",
+                "94"
+              ]
+            },
+            {
+              "label": "Photo translation",
+              "values": [
+                "Reading saved photos or screenshots",
+                "90"
+              ]
+            },
+            {
+              "label": "Offline translation",
+              "values": [
+                "You have no data",
+                "Download the language first"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Taiwanese menus use traditional characters, so set the source to Chinese (Traditional) or use Detect language (as of October 2026)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Reading a Menu with the Camera"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Pick languages",
+              "desc": "Set the source to Chinese (Traditional) or Detect language, and the target to your language."
+            },
+            {
+              "mark": "2",
+              "b": "Point the camera",
+              "desc": "Tap Camera on the home screen and aim at the menu; the translation overlays the text."
+            },
+            {
+              "mark": "3",
+              "b": "Freeze it",
+              "desc": "Tap the shutter button to freeze the view and read at your own pace."
+            },
+            {
+              "mark": "4",
+              "b": "Select just one line",
+              "desc": "Turn on Show original text, tap a word and drag the anchors; that part's translation appears on a card."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-google-translate-camera-menu-1.jpg",
+          "caption": "A dim sum stall in a Taiwanese night market with Chinese signs and menus."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Read Ahead Before You Go"
+        },
+        {
+          "type": "p",
+          "html": "In the Google Maps app, open a restaurant and tap Menu in the About tab to see dishes with photos and reviews from users — though not every dish is listed. Screenshot a menu photo, then in Translate's camera view tap All images to translate it as a photo. Download your source and target languages in advance to use camera translation offline."
+        },
+        {
+          "type": "h2",
+          "text": "04 · When the Translation Looks Off"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Check the text",
+              "desc": "Small, blurry or stylized text translates less accurately. Get closer, and turn on the flash in dim light."
+            },
+            {
+              "mark": "✓",
+              "b": "Copy and search",
+              "desc": "Select a dish name and tap Copy text or Search to look up photos on Google."
+            },
+            {
+              "mark": "✓",
+              "b": "Learn a few words",
+              "desc": "Words like 土豆 that mean something different in Taiwan can trip up translation too."
+            },
+            {
+              "mark": "✓",
+              "b": "Versions differ",
+              "desc": "Menu names and button positions vary slightly by app version and OS."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-google-translate-camera-menu-2.jpg",
+          "caption": "Hands photographing food on a table with a smartphone (generic image, not a translation screen)."
+        },
+        {
+          "type": "quote",
+          "text": "\"Point, freeze, then pick the line you need.\" — a one-line takeaway from Google Translate's help center."
+        },
+        {
+          "type": "p",
+          "html": "Learn the tricky food words in advance with our <a href=\"/blog-taiwan-food-menu-chinese-words\">Taiwanese menu Chinese</a> guide. Need a place to practice? Start with <a href=\"/taipei-street_food\">Taipei street food</a> on the <a href=\"/region-taipei\">Taipei restaurant map</a>, or <a href=\"/taipei-noodle-86\">Ay-Chung Flour-Rice Noodle</a>, which has a short menu."
+        },
+        {
+          "type": "note",
+          "text": "Based on Google Translate's \"Translate images\" help page, the Google Play app listing and Google Maps help (as of October 2026). Feature names and language counts can change with app updates."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei street food on the map",
+          "desc": "Check Taipei street food stalls to try with your translation app.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=street_food"
         }
       ]
     }
