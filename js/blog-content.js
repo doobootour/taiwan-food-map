@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-7-eleven-self-microwave-qr",
+    "image": "assets/images/blog/taiwan-7-eleven-self-microwave-qr-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 편의점",
+      "title": "대만 세븐일레븐 셀프 전자레인지, QR코드로 어떻게 데울까?",
+      "desc": "도시락 라벨 QR코드로 데우는 순서와 데우면 안 되는 포장, 헷갈릴 때 대처법을 정리했어요.",
+      "meta": "대만 · 편의점 가이드"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Convenience Stores",
+      "title": "7-Eleven Self-Service Microwaves in Taiwan: How to Heat Food with the QR Code",
+      "desc": "How to heat food with the label's QR code, what not to microwave, and what to do if you get stuck.",
+      "meta": "Taiwan · Convenience Store Guide"
+    }
+  },
+  {
     "slug": "yilan-kavalan-distillery-cafe-course",
     "image": "assets/images/blog/yilan-kavalan-distillery-cafe-course-1.jpg",
     "regions": [
@@ -4983,6 +5002,310 @@ const BLOG_POSTS = {
           "desc": "Check Yilan cafés to visit before or after the distillery.",
           "btn": "Open the map →",
           "href": "/map?region=yilan&cat=cafe"
+        }
+      ]
+    }
+  },
+
+  "taiwan-7-eleven-self-microwave-qr": {
+    "heroImage": "assets/images/blog/taiwan-7-eleven-self-microwave-qr-1.jpg",
+    "ko": {
+      "pageTitle": "대만 세븐일레븐 전자레인지 — QR 사용법 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 세븐일레븐 셀프 전자레인지, 어떻게 쓸까요? 도시락 라벨 QR코드로 시간을 맞추는 순서와 데우면 안 되는 포장, 헷갈릴 때 대처법을 정리했어요.",
+      "ogTitle": "대만 세븐일레븐 셀프 전자레인지, QR코드로 어떻게 데울까?",
+      "eyebrow": "대만 여행 가이드 · 편의점",
+      "title": "대만 세븐일레븐 셀프 전자레인지, QR코드로 어떻게 데울까?",
+      "dek": "버튼을 몇 번 눌러야 할지 고민할 필요 없이 라벨만 대면 시간이 맞춰져요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 · 편의점 가이드",
+      "intro": "\"계산했는데 직원이 전자레인지를 가리키기만 해요.\" 대만 세븐일레븐 전자레인지는 매장에 따라 손님이 직접 데우는 셀프(自助微波) 방식이에요. 새 기계는 도시락 라벨의 QR코드를 읽어 가열 시간을 자동으로 맞춰줘요. 세븐일레븐 발표 내용과 매장에 붙은 사용 안내를 바탕으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 대만 세븐일레븐 전자레인지 사용 순서 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "순서",
+            "할 일"
+          ],
+          "rows": [
+            {
+              "label": "1",
+              "values": [
+                "포장에 QR코드가 있는지 확인해요"
+              ]
+            },
+            {
+              "label": "2",
+              "values": [
+                "QR코드를 전자레인지의 스캔 영역에 대요"
+              ]
+            },
+            {
+              "label": "3",
+              "values": [
+                "'삐' 소리가 나면 시간이 입력된 거예요"
+              ]
+            },
+            {
+              "label": "4",
+              "values": [
+                "음식을 가운데에 넣고 문을 닫은 뒤 시작 버튼을 눌러요"
+              ]
+            },
+            {
+              "label": "5",
+              "values": [
+                "완료음이 울리면 매장 트레이로 꺼내요"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "매장에 붙은 '自助微波操作流程' 안내문 기준이에요(2026년 10월 기준)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · QR 전자레인지, 얼마나 있을까?"
+        },
+        {
+          "type": "p",
+          "html": "세븐일레븐은 2020년 미래형 매장 X-STORE 1호점에 스캔식 전자레인지를 처음 들였고, 당시 도시락·주먹밥·면·샐러드·조리빵 등 70종 이상이 QR코드 가열을 지원했어요. QR코드에는 제품별 출력과 시간, 나눠서 데우는 단계까지 담겨 있어요. 2024년부터 일반 매장에도 차례로 들어왔고, 2025년 1월 업체 발표 기준으로 전국 매장의 약 40%에 설치됐어요. 모든 매장, 모든 기계에 있는 건 아니에요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-7-eleven-self-microwave-qr-1.jpg",
+          "caption": "밤에 불이 켜진 타이베이 시내 세븐일레븐이에요(매장 외관 사진)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 이건 데우면 안 돼요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "알루미늄·금속",
+              "desc": "알루미늄 포장과 금속 용기는 넣지 마세요."
+            },
+            {
+              "mark": "✓",
+              "b": "컵라면",
+              "desc": "컵라면은 전자레인지에 넣으면 안 되는 품목이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "우유",
+              "desc": "우유는 입구를 연 뒤 데워요."
+            },
+            {
+              "mark": "✓",
+              "b": "작동 중",
+              "desc": "돌아가는 동안 안을 들여다보지 말고, 꺼낼 땐 뜨거우니 매장 트레이를 쓰세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 헷갈릴 땐 이렇게"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "QR이 없거나 안 읽히면",
+              "desc": "계산대 직원에게 포장을 보여주며 물어보세요."
+            },
+            {
+              "mark": "2",
+              "b": "말이 안 통하면",
+              "desc": "2025년 1월 발표 기준 세븐일레븐은 전 매장에 실시간 번역이 되는 태블릿을 두고 있고, 특정 상권 약 250개 매장에는 외국어 포스터·메뉴도 있어요."
+            },
+            {
+              "mark": "3",
+              "b": "패밀리마트도 비슷해요",
+              "desc": "패밀리마트 셀프 전자레인지 안내도 여러 언어로 나와 있어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-7-eleven-self-microwave-qr-2.jpg",
+          "caption": "세븐일레븐 간판이 보이는 타이베이 골목이에요."
+        },
+        {
+          "type": "quote",
+          "text": "\"버튼을 찾지 말고 라벨부터 대보세요.\" — 매장 사용 안내를 바탕으로 정리한 한 줄 요약입니다."
+        },
+        {
+          "type": "p",
+          "html": "편의점 도시락도 좋지만 하루쯤은 현지 아침을 먹어보세요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>을 고르고, 여행자들이 많이 찾는 두유 가게 <a href=\"/taipei-breakfast-281\">푸항또우장</a>도 확인해보세요. 편의점에서 교통카드 잔액을 보는 법은 <a href=\"/blog-taipei-easycard-balance-check-topup\">이지카드 잔액 조회</a> 글에 정리했어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 세븐일레븐(統一超商) 발표를 다룬 대만 언론 보도와 매장 '自助微波操作流程' 안내를 바탕으로 정리했습니다(2026년 10월 기준). 기계 종류와 셀프 여부는 매장마다 다를 수 있어요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 조식 맛집을 찾아보세요",
+          "desc": "편의점 대신 현지 아침을 먹기 좋은 타이베이 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=breakfast"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "7-Eleven Taiwan Microwave — Using the QR Code · My Secret Taiwan Eats",
+      "metaDescription": "How to use the self-service microwaves at 7-Eleven in Taiwan — scanning the QR code on the label, what you shouldn't heat, and what to do if you get stuck.",
+      "ogTitle": "7-Eleven Self-Service Microwaves in Taiwan: How to Heat Food with the QR Code",
+      "eyebrow": "Taiwan Travel Guide · Convenience Stores",
+      "title": "7-Eleven Self-Service Microwaves in Taiwan: How to Heat Food with the QR Code",
+      "dek": "No need to guess which button to press — hold the label up and the time is set for you.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan · Convenience Store Guide",
+      "intro": "\"I paid, and the clerk just pointed at the microwave.\" At many 7-Eleven stores in Taiwan, you heat your own food (自助微波). Newer machines read the QR code on the label and set the heating time automatically. Here's how it works, based on 7-Eleven's announcements and the instructions posted in stores.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Step by Step"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Step",
+            "What to do"
+          ],
+          "rows": [
+            {
+              "label": "1",
+              "values": [
+                "Check the package has a QR code"
+              ]
+            },
+            {
+              "label": "2",
+              "values": [
+                "Hold the QR code to the microwave's scanning area"
+              ]
+            },
+            {
+              "label": "3",
+              "values": [
+                "A beep means the time has been entered"
+              ]
+            },
+            {
+              "label": "4",
+              "values": [
+                "Put the food in the center, close the door and press start"
+              ]
+            },
+            {
+              "label": "5",
+              "values": [
+                "When it chimes, take it out using a store tray"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Based on the '自助微波操作流程' notice posted in stores (as of October 2026)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · How Common Are QR Microwaves?"
+        },
+        {
+          "type": "p",
+          "html": "7-Eleven first introduced scanning microwaves at its X-STORE concept store in 2020, when more than 70 items — lunch boxes, rice balls, noodles, salads and prepared breads — supported QR heating. The code holds each product's power level, time and even multi-stage heating. Regular stores began getting them from 2024, and by the company's January 2025 figure about 40% of its stores nationwide had one. Not every store, or every machine, has it."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-7-eleven-self-microwave-qr-1.jpg",
+          "caption": "A brightly lit 7-Eleven in downtown Taipei at night (store exterior)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Don't Microwave These"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Aluminum and metal",
+              "desc": "Keep aluminum packaging and metal containers out."
+            },
+            {
+              "mark": "✓",
+              "b": "Cup noodles",
+              "desc": "Cup noodles are on the do-not-microwave list."
+            },
+            {
+              "mark": "✓",
+              "b": "Milk",
+              "desc": "Open the carton before heating."
+            },
+            {
+              "mark": "✓",
+              "b": "While it runs",
+              "desc": "Don't stare into the microwave, and use a store tray because the food will be hot."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · If You Get Stuck"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "No QR code, or it won't scan",
+              "desc": "Show the package to the cashier and ask."
+            },
+            {
+              "mark": "2",
+              "b": "Language barrier",
+              "desc": "As of the January 2025 announcement, 7-Eleven has real-time translation tablets in every store, and about 250 stores in certain districts have foreign-language posters and menus."
+            },
+            {
+              "mark": "3",
+              "b": "FamilyMart is similar",
+              "desc": "FamilyMart's self-service microwave instructions also come in several languages."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-7-eleven-self-microwave-qr-2.jpg",
+          "caption": "A Taipei street with a 7-Eleven sign."
+        },
+        {
+          "type": "quote",
+          "text": "\"Don't hunt for buttons — try the label first.\" — a one-line takeaway from the in-store instructions."
+        },
+        {
+          "type": "p",
+          "html": "Convenience-store meals are handy, but try a local breakfast at least once. Pick from our <a href=\"/taipei-breakfast\">Taipei breakfast spots</a> on the <a href=\"/region-taipei\">Taipei restaurant map</a>, including the popular soy milk shop <a href=\"/taipei-breakfast-281\">Fu Hang Soy Milk</a>. To check your transit card balance at a convenience store, see our <a href=\"/blog-taipei-easycard-balance-check-topup\">EasyCard balance guide</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taiwanese media reports of 7-Eleven (President Chain Store) announcements and the '自助微波操作流程' notice posted in stores (as of October 2026). Machines and self-service vary by store."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei breakfast spots on the map",
+          "desc": "Check Taipei restaurants for a local breakfast instead of the convenience store.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=breakfast"
         }
       ]
     }
