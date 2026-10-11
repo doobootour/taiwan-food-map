@@ -620,13 +620,20 @@ function extractNameFromUrl(text) {
 
 const autofillBtn = document.getElementById("autofillBtn");
 autofillBtn.addEventListener("click", async () => {
-  const val = gmapLinkInput.value.trim();
-  if (!val) { showToast(t("toast_paste_link_first")); return; }
+  const raw = gmapLinkInput.value.trim();
+  if (!raw) { showToast(t("toast_paste_link_first")); return; }
+  // 모바일 구글맵 '공유 > 복사'는 "가게 이름\nhttps://maps.app.goo.gl/..." 처럼 이름과 링크를
+  // 함께 복사하므로, 텍스트 안의 첫 번째 URL만 꺼내 쓴다
+  const urlMatch = raw.match(/https?:\/\/\S+/);
+  const val = urlMatch ? urlMatch[0] : raw;
+  const sharedName = urlMatch ? raw.replace(urlMatch[0], "").replace(/\s+/g, " ").trim() : "";
+  if (urlMatch && val !== raw) gmapLinkInput.value = val;
 
   const applyResult = (lat, lng, name) => {
     setPickedLatLng(lat, lng);
     map.panTo([lat, lng]);
     if (!linkInput.value.trim()) linkInput.value = val;
+    name = name || sharedName || null;
     if (name && !nameInput.value.trim()) nameInput.value = name;
     updateSubmitState();
   };
@@ -635,7 +642,7 @@ autofillBtn.addEventListener("click", async () => {
   if (localCoords) {
     const localName = extractNameFromUrl(val);
     applyResult(localCoords.lat, localCoords.lng, localName);
-    showToast(localName ? t("toast_found_loc_name") : t("toast_found_loc"));
+    showToast((localName || sharedName) ? t("toast_found_loc_name") : t("toast_found_loc"));
     return;
   }
 
@@ -658,7 +665,7 @@ autofillBtn.addEventListener("click", async () => {
       return;
     }
     applyResult(data.lat, data.lng, data.name);
-    showToast(data.name ? t("toast_found_loc_name") : t("toast_found_loc"));
+    showToast((data.name || sharedName) ? t("toast_found_loc_name") : t("toast_found_loc"));
   } catch (err) {
     console.error(err);
     showToast(t("toast_link_error"));
@@ -666,6 +673,11 @@ autofillBtn.addEventListener("click", async () => {
     autofillBtn.disabled = false;
     autofillBtn.textContent = t("autofill_btn");
   }
+});
+
+// 링크를 붙여넣으면 버튼을 누르지 않아도 바로 위치/가게 이름을 채운다
+gmapLinkInput.addEventListener("paste", () => {
+  setTimeout(() => { if (gmapLinkInput.value.trim() && !autofillBtn.disabled) autofillBtn.click(); }, 0);
 });
 
 const sheetIntro = document.getElementById("sheetIntro");
