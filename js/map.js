@@ -661,6 +661,11 @@ autofillBtn.addEventListener("click", async () => {
     });
     const data = await res.json();
     if (!res.ok || typeof data.lat !== "number") {
+      // 좌표를 못 찾아도 가게 이름은 채워 두고, 위치만 지도에서 직접 고르게 한다
+      const fallbackName = data.name || sharedName;
+      if (fallbackName && !nameInput.value.trim()) nameInput.value = fallbackName;
+      if (!linkInput.value.trim()) linkInput.value = val;
+      updateSubmitState();
       showToast(t("toast_link_no_coords"));
       return;
     }
