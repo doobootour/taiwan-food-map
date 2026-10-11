@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-station-luggage-storage",
+    "image": "assets/images/blog/taipei-station-luggage-storage-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 교통",
+      "title": "타이베이역 짐 보관, 캐리어 맡기면 하루 얼마일까?",
+      "desc": "수하물 보관소 크기별 요금과 운영시간, 무인 보관함 요금을 정리했어요.",
+      "meta": "타이베이 · 교통 가이드"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Transport",
+      "title": "Taipei Main Station Luggage Storage: How Much per Bag per Day?",
+      "desc": "Size-based fees and hours at the baggage office, plus coin-locker rates.",
+      "meta": "Taipei · Transport Guide"
+    }
+  },
+  {
     "slug": "taiwan-google-translate-camera-menu",
     "image": "assets/images/blog/taiwan-google-translate-camera-menu-1.jpg",
     "regions": [
@@ -5623,6 +5642,338 @@ const BLOG_POSTS = {
           "desc": "Check Taipei street food stalls to try with your translation app.",
           "btn": "Open Map →",
           "href": "/map?region=taipei&cat=street_food"
+        }
+      ]
+    }
+  },
+
+  "taipei-station-luggage-storage": {
+    "heroImage": "assets/images/blog/taipei-station-luggage-storage-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이역 짐 보관 — 캐리어 보관 요금·시간 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이역 짐 보관, 대만철도 수하물 보관소에 캐리어를 맡기면 하루 NT$30~70이에요. 크기별 요금과 운영시간, 무인 보관함 요금을 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "타이베이역 짐 보관, 캐리어 맡기면 하루 얼마일까?",
+      "eyebrow": "타이베이 여행 가이드 · 교통",
+      "title": "타이베이역 짐 보관, 캐리어 맡기면 하루 얼마일까?",
+      "dek": "체크아웃은 끝났는데 기차나 비행기까지 시간이 남았다면 — 역에 짐을 맡기고 가볍게 움직이는 방법이 있어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 교통 가이드",
+      "intro": "\"캐리어를 끌고 마지막 날을 보내야 할까요?\" 타이베이역 짐 보관은 대만철도(臺鐵) 수하물 보관소(行李房)에 맡기는 방법과 역 안 무인 보관함을 쓰는 방법 두 가지가 있습니다. 대만철도 공식 안내와 요금표(2026년 10월 기준)를 바탕으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구분",
+            "수하물 보관소(行李房)",
+            "무인 보관함"
+          ],
+          "rows": [
+            {
+              "label": "요금 기준",
+              "values": [
+                "1개·1일",
+                "3시간마다"
+              ]
+            },
+            {
+              "label": "요금(2026년 10월 기준)",
+              "values": [
+                "NT$30·50·70",
+                "NT$40~110"
+              ]
+            },
+            {
+              "label": "이용 시간",
+              "values": [
+                "08:00~20:00",
+                "역 영업시간 동안"
+              ]
+            },
+            {
+              "label": "이럴 때",
+              "values": [
+                "큰 캐리어, 하루 이상",
+                "몇 시간만 짧게"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "대만철도 안내(2026년 10월 7일 갱신)에서 임시 보관을 멈춘 역은 신주·톈중·얼수이·민슝 네 곳뿐이고, 타이베이역은 여기에 들어가지 않습니다."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 수하물 보관소 요금 계산법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "세 변을 더하기",
+              "desc": "가로+세로+높이 합으로 요금이 정해져요. 100cm 이하 NT$30, 101~150cm NT$50, 151cm 이상 NT$70이고 1개·1일 기준, 세금 포함입니다."
+            },
+            {
+              "mark": "2",
+              "b": "기내용 캐리어도 확인",
+              "desc": "흔히 쓰는 기내용 규격 55×40×23cm만 해도 합이 118cm라 NT$50 구간이에요."
+            },
+            {
+              "mark": "3",
+              "b": "둥근 짐은 따로",
+              "desc": "둥근 물건은 '지름×2+높이'로 재고, 모양이 불규칙하면 역에서 판단합니다."
+            },
+            {
+              "mark": "4",
+              "b": "유모차·자전거",
+              "desc": "유모차, 자전거, 접이식 휠체어는 1대·1일 NT$50이에요."
+            },
+            {
+              "mark": "5",
+              "b": "오래 맡길 때",
+              "desc": "10일을 넘기면 11일째부터 요금이 두 배가 되고, 최장 6개월까지 맡길 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-station-luggage-storage-1.jpg",
+          "caption": "타이베이역 외관의 臺北車站 간판이에요(역 건물 사진, 보관소 내부 아님)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 맡기기 전에 확인할 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "찾는 시간",
+              "desc": "대만철도 연락처 표(2026년 10월 6일판) 기준 타이베이역 수하물 보관소는 08:00~20:00 운영합니다. 늦게 찾을 예정이면 (02)2314-1223으로 미리 전화해보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "맡길 수 없는 짐",
+              "desc": "위험물과 귀중품, 포장이 허술하거나 너무 큰 물건, 상하기 쉬운 음식, 냄새 나는 물건, 동물은 받지 않아요."
+            },
+            {
+              "mark": "✓",
+              "b": "짐이 여러 개면",
+              "desc": "요금은 짐마다 크기별로 따로 붙어요. 작은 가방과 큰 캐리어를 함께 맡기면 각각 더해서 계산하면 됩니다."
+            },
+            {
+              "mark": "✓",
+              "b": "위치 묻기",
+              "desc": "역 안내데스크에서 '行李房(싱리팡)'이라고 보여주면 길을 알려줘요."
+            },
+            {
+              "mark": "✓",
+              "b": "현장 공지 우선",
+              "desc": "요금표는 공식 기준이지만 실제 운영은 역 공지가 우선이에요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 몇 시간만이라면 무인 보관함"
+        },
+        {
+          "type": "p",
+          "html": "대만철도 자동 보관함 안내(2026년 7월 29일 갱신) 기준 타이베이역 보관함은 크기에 따라 7가지이고, 3시간마다 NT$40~110이 붙는 터치스크린 방식입니다. 역 영업시간 동안 쓸 수 있고, 실제 요금은 현장 기계 안내가 기준이에요. 같은 보관함이 반차오·쑹산 등 54개 역에 있어서 다른 역에서 짐을 맡기는 것도 방법입니다."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-station-luggage-storage-2.jpg",
+          "caption": "타이베이역 1층 대합실에 여행객이 모여 있는 모습이에요."
+        },
+        {
+          "type": "quote",
+          "text": "\"크고 오래면 수하물 보관소, 짧으면 보관함.\" — 대만철도 공식 요금표를 바탕으로 정리한 한 줄 요약입니다."
+        },
+        {
+          "type": "p",
+          "html": "마지막 날 동선은 <a href=\"/blog-taipei-afternoon-flight-last-day-itinerary\">타이베이 마지막 날 오후 비행기 코스</a>, 근교로 나간다면 <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">예류 지우펀 버스</a> 글도 함께 보세요. 짐을 맡긴 뒤에는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>의 <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>이나 역에서 가까운 베이먼 쪽 <a href=\"/taipei-breakfast-66\">粥大福 중정 베이먼점</a>에 들러보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만철도(臺鐵) 수하물 탁송 안내(2026년 10월 7일 갱신), 운임표, 역별 수하물 보관소 연락처 표(2026년 10월 6일), 자동 보관함 안내(2026년 7월 29일)를 바탕으로 정리했습니다. 요금과 시간은 바뀔 수 있으니 현장 공지도 함께 확인해보세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 조식 맛집을 찾아보세요",
+          "desc": "짐을 맡기고 가볍게 들르기 좋은 타이베이 아침 맛집을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=breakfast"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taipei Main Station Luggage Storage — Fees & Hours · My Secret Taiwan Eats",
+      "metaDescription": "Taipei Main Station luggage storage costs NT$30–70 per bag per day at the TRA baggage office. Size-based fees, hours and coin-locker rates, as of October 2026.",
+      "ogTitle": "Taipei Main Station Luggage Storage: How Much per Bag per Day?",
+      "eyebrow": "Taipei Travel Guide · Transport",
+      "title": "Taipei Main Station Luggage Storage: How Much per Bag per Day?",
+      "dek": "Checked out but still hours before your train or flight? You can leave your bags at the station and explore light.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Transport Guide",
+      "intro": "\"Do I have to drag my suitcase around all day?\" At Taipei Main Station you can leave luggage at the Taiwan Railway (TRA) baggage office (行李房) or use the coin lockers inside the station. Here's how both work, based on TRA's official notices and fee tables (as of October 2026).",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Quick Comparison"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Option",
+            "Baggage office (行李房)",
+            "Coin lockers"
+          ],
+          "rows": [
+            {
+              "label": "Charged by",
+              "values": [
+                "Per bag, per day",
+                "Every 3 hours"
+              ]
+            },
+            {
+              "label": "Fee (as of Oct 2026)",
+              "values": [
+                "NT$30 / 50 / 70",
+                "NT$40–110"
+              ]
+            },
+            {
+              "label": "Hours",
+              "values": [
+                "08:00–20:00",
+                "During station hours"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Big suitcases, a day or more",
+                "A few hours"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "TRA's notice (updated October 7, 2026) lists only four stations that have paused temporary storage — Hsinchu, Tianzhong, Ershui and Minxiong. Taipei is not one of them."
+        },
+        {
+          "type": "h2",
+          "text": "02 · How the Baggage Office Charges"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Add up three sides",
+              "desc": "The fee depends on length + width + height: NT$30 up to 100 cm, NT$50 for 101–150 cm, NT$70 for 151 cm and up, per bag per day, tax included."
+            },
+            {
+              "mark": "2",
+              "b": "Carry-ons count too",
+              "desc": "A common carry-on size of 55×40×23 cm adds up to 118 cm, which puts it in the NT$50 band."
+            },
+            {
+              "mark": "3",
+              "b": "Round items",
+              "desc": "Round items are measured as diameter × 2 + height; irregular shapes are judged by station staff."
+            },
+            {
+              "mark": "4",
+              "b": "Strollers and bikes",
+              "desc": "Strollers, bicycles and folding wheelchairs are NT$50 each per day."
+            },
+            {
+              "mark": "5",
+              "b": "Longer stays",
+              "desc": "After 10 days the fee doubles from day 11, and the maximum storage period is six months."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-station-luggage-storage-1.jpg",
+          "caption": "The 臺北車站 sign on Taipei Main Station's facade (station exterior, not the baggage office)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Before You Drop Off"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Pick-up time",
+              "desc": "TRA's contact table (October 6, 2026 edition) lists Taipei's baggage office hours as 08:00–20:00. If you'll be late, call (02)2314-1223 first."
+            },
+            {
+              "mark": "✓",
+              "b": "Items not accepted",
+              "desc": "Dangerous goods and valuables, poorly packed or oversized items, perishable food, items with strong odors, and animals are refused."
+            },
+            {
+              "mark": "✓",
+              "b": "Several bags",
+              "desc": "Each bag is charged by its own size, so add the fees for a small bag and a big suitcase separately."
+            },
+            {
+              "mark": "✓",
+              "b": "Finding it",
+              "desc": "Show 行李房 to the station information desk and staff will point the way."
+            },
+            {
+              "mark": "✓",
+              "b": "Posted notices win",
+              "desc": "The fee table is official, but on-site notices take priority."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Just a Few Hours? Use a Locker"
+        },
+        {
+          "type": "p",
+          "html": "According to TRA's locker notice (updated July 29, 2026), Taipei Station's touchscreen lockers come in seven sizes and cost NT$40–110 per 3 hours. They're available during station hours, and the machine's on-screen rate is what you pay. The same lockers are at 54 stations, including Banqiao and Songshan, so another station can work too."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-station-luggage-storage-2.jpg",
+          "caption": "Travelers gathered in the ground-floor hall of Taipei Main Station."
+        },
+        {
+          "type": "quote",
+          "text": "\"Big bag or long stay: baggage office. Short stop: locker.\" — a one-line takeaway from TRA's official fee tables."
+        },
+        {
+          "type": "p",
+          "html": "Planning your last day? See our <a href=\"/blog-taipei-afternoon-flight-last-day-itinerary\">Taipei last-day afternoon flight plan</a>, or the <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">Yehliu to Jiufen bus guide</a> for a day trip. Once your bags are stored, browse <a href=\"/taipei-breakfast\">Taipei breakfast spots</a> on the <a href=\"/region-taipei\">Taipei restaurant map</a>, or try <a href=\"/taipei-breakfast-66\">粥大福 Zhongzheng Beimen</a>, close to the station."
+        },
+        {
+          "type": "note",
+          "text": "Based on TRA's baggage and parcel notice (updated October 7, 2026), its fee table, its station baggage office contact table (October 6, 2026) and its coin-locker notice (July 29, 2026). Fees and hours can change, so check on-site notices too."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei breakfast spots on the map",
+          "desc": "Check Taipei breakfast places to stop by once your bags are stored.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=breakfast"
         }
       ]
     }
