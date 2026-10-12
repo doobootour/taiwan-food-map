@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taoyuan-airport-terminal1-free-shower",
+    "image": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타오위안 공항 가이드 · 편의시설",
+      "title": "타오위안공항 1터미널 무료 샤워실, 수건은 챙겨야 할까?",
+      "desc": "1터미널 4층·입국층 무료 샤워실 위치와 이용 시간, 수건 등 준비물을 정리했어요.",
+      "meta": "타오위안 · 공항 가이드"
+    },
+    "en": {
+      "eyebrow": "Taoyuan Airport Guide · Facilities",
+      "title": "Taoyuan Airport T1 Free Showers: Where, When, What to Bring",
+      "desc": "Where T1's free showers are, their hours, and what to pack.",
+      "meta": "Taoyuan · Airport Guide"
+    }
+  },
+  {
     "slug": "taichung-lukang-bus-9018",
     "image": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
     "regions": [
@@ -798,6 +817,341 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taoyuan-airport-terminal1-free-shower": {
+      "heroImage": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
+      "ko": {
+        "pageTitle": "타오위안공항 무료 샤워실 — 위치·시간 · 나만 알고 싶은 대만 맛집",
+        "metaDescription": "타오위안공항 무료 샤워실은 1터미널 4층 출국 구역에 있고 06:00~22:00, 1인 15분이에요. 입국층 샤워실과 수건 등 준비물까지 2026년 10월 기준으로 정리했어요.",
+        "ogTitle": "타오위안공항 1터미널 무료 샤워실, 수건은 챙겨야 할까?",
+        "eyebrow": "타오위안 공항 가이드 · 편의시설",
+        "title": "타오위안공항 1터미널 무료 샤워실, 수건은 챙겨야 할까?",
+        "dek": "출국 심사 뒤 4층 체험 구역부터 입국층 샤워실까지 — 찾아가는 길과 이용 시간, 챙길 것만 골라 정리했습니다.",
+        "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+        "metaTopic": "타오위안 · 공항 가이드",
+        "intro": "“새벽 비행기 타기 전에 공항에서 씻을 수 있을까요?” 타오위안공항 무료 샤워실은 1터미널 출국 구역과 입국 구역에 모두 있어요. 공항 공식 시설 안내와 2026년 2월 공항공사 발표, 대만 언론 보도를 바탕으로 위치와 이용법, 준비물을 정리해봤어요.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "01 · 한눈에 비교하기"
+          },
+          {
+            "type": "compareTable",
+            "cities": [
+              "구분",
+              "출국 쪽 (4층 체험 구역)",
+              "입국 쪽 (도착 구역)"
+            ],
+            "rows": [
+              {
+                "label": "위치",
+                "values": [
+                  "출국 심사 뒤 면세 구역 4층, 환야(Plaza Premium) 라운지 옆 무료 ‘공항 체험 구역(機場體驗區)’",
+                  "수하물 수취대 쪽 — 공식 안내상 2층 2곳·1층 1곳"
+                ]
+              },
+              {
+                "label": "이용 시간",
+                "values": [
+                  "샤워실 06:00~22:00, 체험 구역 좌석은 24시간 (2026년 10월 기준)",
+                  "24시간 (2026년 10월 기준)"
+                ]
+              },
+              {
+                "label": "요금·예약",
+                "values": [
+                  "무료, 예약 없이 도착 순서대로",
+                  "무료"
+                ]
+              },
+              {
+                "label": "이용 제한",
+                "values": [
+                  "1인 15분",
+                  "세관을 지나 자동문 밖으로 나가면 다시 못 들어가요"
+                ]
+              },
+              {
+                "label": "잘 맞는 상황",
+                "values": [
+                  "새벽·장거리 비행 출발 전",
+                  "장거리 비행 뒤 씻고 바로 이동할 때"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "html": "공항 공식 시설 안내에는 1터미널 도착 구역 샤워실 3곳(24시간)이 나와 있고, 4층 체험 구역의 무료 샤워실은 2026년 2월 공항공사가 춘절 편의 서비스로 다시 소개했습니다. 2터미널에도 샤워실이 따로 있지만, 이 글은 1터미널 기준이에요."
+          },
+          {
+            "type": "h2",
+            "text": "02 · 출국 전 4층 무료 샤워실 찾아가는 법"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "1",
+                "b": "출국 심사부터 끝내기",
+                "desc": "4층 샤워실은 출국 심사를 마친 면세 구역 안에 있어요. 체크인만 하고는 갈 수 없으니 보안 검색과 출국 심사를 먼저 끝내세요."
+              },
+              {
+                "mark": "2",
+                "b": "환야 라운지 옆 체험 구역",
+                "desc": "4층 환야(Plaza Premium) 라운지 옆 ‘機場體驗區’ 안에 있어요. 유료 라운지가 아니라 누구나 쓰는 무료 공간이라 카드나 탑승권 등급과 상관없습니다."
+              },
+              {
+                "mark": "3",
+                "b": "06:00~22:00, 1인 15분",
+                "desc": "좌석은 24시간이지만 샤워실은 06:00~22:00에만 열려요. 예약 없이 도착 순서대로 쓰고 1인 15분이에요(2026년 10월 기준). 문 앞 이용 안내문을 먼저 읽어 보세요."
+              },
+              {
+                "mark": "4",
+                "b": "기다리는 동안 쓸 수 있는 것",
+                "desc": "체험 구역에는 긴 테이블·소파 좌석, 무료 USB 충전, 수유실이 있어요. 샤워 순서를 기다리며 휴대폰을 충전해 두기 좋습니다."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
+            "caption": "타오위안공항 활주로를 달리는 중화항공 여객기예요. 출발 전에 씻을 생각이면 탑승 시각에서 거꾸로 계산해 샤워 시간을 넉넉히 잡아 두세요."
+          },
+          {
+            "type": "h2",
+            "text": "03 · 샤워실 시설과 준비물"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "✓",
+                "b": "공식 안내 시설",
+                "desc": "남녀 샤워실이 나뉘어 있고 냉·온수 샤워가 되며, 테이블·의자·옷걸이 고리·거울이 있어요(공항 공식 안내)."
+              },
+              {
+                "mark": "✓",
+                "b": "수건은 꼭 챙기기",
+                "desc": "수건은 비치돼 있지 않아요. 작은 수건이나 잘 마르는 여행용 수건을 기내 가방에 넣어 두세요."
+              },
+              {
+                "mark": "✓",
+                "b": "세면도구는 소용량으로",
+                "desc": "샴푸·바디워시가 있었다는 보도와 없었다는 후기가 엇갈려요. 여행용 세면도구를 챙기는 편이 안전하고, 출국 심사 뒤에 쓰는 것이라 액체는 100ml 이하 용기로 준비하세요."
+              },
+              {
+                "mark": "✓",
+                "b": "드라이기",
+                "desc": "벽에 붙은 드라이기가 있다는 보도가 있어요. 머리숱이 많으면 말리는 시간까지 15분 안에 들어가도록 순서를 정해 두는 게 좋아요."
+              },
+              {
+                "mark": "✓",
+                "b": "갈아입을 옷은 가방 맨 위에",
+                "desc": "위탁 수하물은 이미 부친 뒤라, 갈아입을 옷과 속옷은 기내 가방 맨 위에 따로 넣어 두면 시간이 줄어요."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-2.jpg",
+            "caption": "수건과 비누를 올려 둔 일반 욕실 소품 사진이에요. 공항 샤워실에는 수건이 없으니 작은 수건 하나는 꼭 챙기세요."
+          },
+          {
+            "type": "h2",
+            "text": "04 · 입국 후 샤워실은 세관 전에"
+          },
+          {
+            "type": "p",
+            "html": "장거리 비행 뒤 바로 씻고 싶다면 입국 쪽 샤워실을 쓰면 돼요. 공식 안내상 1터미널 도착 구역 2층에 2곳, 1층에 1곳이 24시간 열려 있고, 수하물 수취대 근처에 있다고 보도됐습니다. 세관을 지나 자동문 밖으로 나가면 다시 들어올 수 없으니, 짐을 찾은 뒤 세관을 통과하기 전에 이용하세요."
+          },
+          {
+            "type": "quote",
+            "text": "“짐 찾고 세관 나가기 전에 씻으세요 — 자동문 밖으로 나가면 다시 못 들어옵니다.” — 입국 샤워실을 소개한 대만 언론 보도에서 빠지지 않는 당부예요."
+          },
+          {
+            "type": "p",
+            "html": "새벽에 도착해 시내로 들어갈 계획이면 <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">타오위안공항 새벽 도착 교통 가이드</a>를, 마지막 날 숙소 없이 새벽 비행기를 탄다면 <a href=\"/blog-taipei-overnight-red-eye-flight-last-day\">타이베이 마지막 날 새벽 비행기 정리</a>를 함께 보세요. 공항 가기 전 든든하게 먹을 곳은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>와 <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>, <a href=\"/taipei-breakfast-282\">딩위안 또우장(鼎元豆漿)</a>에서 고를 수 있어요."
+          },
+          {
+            "type": "note",
+            "text": "이 글은 타오위안공항 공식 시설 안내, 2026년 2월 공항공사 발표(중앙통신 보도), 대만 언론 보도를 바탕으로 2026년 10월 기준으로 정리했습니다. 운영 시간과 위치는 공사·운영 사정으로 바뀔 수 있으니 출발 전 타오위안공항 홈페이지 시설 안내와 현장 안내문을 다시 확인하는 것을 추천해요."
+          },
+          {
+            "type": "cta",
+            "title": "지도에서 공항 가기 전 맛집도 확인해보세요",
+            "desc": "출국 전에 들를 타이베이 조식·식사 맛집을 미리 찜해 두면 마지막 날 동선이 편해져요.",
+            "btn": "지도 열기 →",
+            "href": "/map?region=taipei&cat=breakfast"
+          }
+        ]
+      },
+      "en": {
+        "pageTitle": "Taoyuan Airport Free Showers — T1 Guide · My Secret Taiwan Eats",
+        "metaDescription": "Taoyuan Airport T1 has free showers airside on 4F (06:00–22:00, 15 min each) and 24-hour showers in arrivals. Locations and what to pack, as of October 2026.",
+        "ogTitle": "Taoyuan Airport T1 Free Showers: Where, When, What to Bring",
+        "eyebrow": "Taoyuan Airport Guide · Facilities",
+        "title": "Taoyuan Airport T1 Free Showers: Where, When, What to Bring",
+        "dek": "From the airside 4F experience zone to the arrivals showers — how to find them, opening hours, and what to bring.",
+        "metaAuthor": "My Secret Taiwan Eats Editorial",
+        "metaTopic": "Taoyuan · Airport Guide",
+        "intro": "Can you shower at the airport before an early flight? Taoyuan Airport Terminal 1 has free showers both airside on the departure side and in the arrivals area. This guide is based on the airport's official facility listing, a February 2026 airport company announcement, and Taiwanese press reports.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "01 · At a glance"
+          },
+          {
+            "type": "compareTable",
+            "cities": [
+              "Item",
+              "Departures (4F experience zone)",
+              "Arrivals"
+            ],
+            "rows": [
+              {
+                "label": "Location",
+                "values": [
+                  "Airside after passport control, 4F, in the free Airport Experience Zone (機場體驗區) next to the Plaza Premium Lounge",
+                  "By the baggage claim — officially two on 2F and one on 1F"
+                ]
+              },
+              {
+                "label": "Hours",
+                "values": [
+                  "Showers 06:00–22:00; zone seating 24 hours (as of October 2026)",
+                  "24 hours (as of October 2026)"
+                ]
+              },
+              {
+                "label": "Cost / booking",
+                "values": [
+                  "Free, no booking, first come first served",
+                  "Free"
+                ]
+              },
+              {
+                "label": "Limits",
+                "values": [
+                  "15 minutes per person",
+                  "Once you pass customs and the automatic doors, you can't go back in"
+                ]
+              },
+              {
+                "label": "Best for",
+                "values": [
+                  "Before a red-eye or long-haul departure",
+                  "Freshening up right after a long flight"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "html": "The airport's official facility list shows three 24-hour arrivals showers in Terminal 1, and the airport company highlighted the free 4F experience-zone showers again in February 2026. Terminal 2 has its own showers; this guide covers Terminal 1."
+          },
+          {
+            "type": "h2",
+            "text": "02 · Finding the 4F free showers before departure"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "1",
+                "b": "Clear passport control first",
+                "desc": "The 4F showers are inside the airside duty-free area. You can't reach them after check-in alone—finish security and passport control first."
+              },
+              {
+                "mark": "2",
+                "b": "Experience zone by Plaza Premium",
+                "desc": "Look for the 機場體驗區 sign next to the Plaza Premium Lounge on 4F. It is a free public space, not the paid lounge, so any passenger can use it."
+              },
+              {
+                "mark": "3",
+                "b": "06:00–22:00, 15 minutes each",
+                "desc": "Seating is open 24 hours, but the showers run 06:00–22:00 only. No booking; it's first come first served with a 15-minute limit (as of October 2026). Read the notice at the door."
+              },
+              {
+                "mark": "4",
+                "b": "While you wait",
+                "desc": "The zone has long tables and sofa seating, free USB charging, and a nursing room—handy for charging your phone while you wait your turn."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
+            "caption": "A China Airlines jet taxiing at Taoyuan Airport. If you plan to shower before flying, work backward from boarding time and leave extra margin."
+          },
+          {
+            "type": "h2",
+            "text": "03 · Facilities and what to bring"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "✓",
+                "b": "Official facilities",
+                "desc": "Separate men's and women's showers with hot and cold settings, plus a table, chair, hooks, and mirror (official airport listing)."
+              },
+              {
+                "mark": "✓",
+                "b": "Bring a towel",
+                "desc": "Towels are not provided. Pack a small or quick-dry travel towel in your carry-on."
+              },
+              {
+                "mark": "✓",
+                "b": "Travel-size toiletries",
+                "desc": "Reports differ on whether shampoo and body wash are stocked, so bring your own. Since you're airside, keep liquids in containers of 100 ml or less."
+              },
+              {
+                "mark": "✓",
+                "b": "Hair dryer",
+                "desc": "Press reports mention a wall-mounted hair dryer. If you have thick hair, plan so drying fits within your 15 minutes."
+              },
+              {
+                "mark": "✓",
+                "b": "Fresh clothes on top",
+                "desc": "Your checked bag is already gone, so keep a change of clothes at the top of your carry-on to save time."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-2.jpg",
+            "caption": "A generic bathroom still life of towels and soap. The airport showers don't supply towels, so pack a small one."
+          },
+          {
+            "type": "h2",
+            "text": "04 · Arrivals showers: use them before customs"
+          },
+          {
+            "type": "p",
+            "html": "Want to shower right after a long flight? Use the arrivals showers. Per the official listing, Terminal 1 arrivals has two on 2F and one on 1F, all open 24 hours, and press reports place them near the baggage claim. Once you pass customs and exit through the automatic doors you can't come back, so shower after collecting your bags and before customs."
+          },
+          {
+            "type": "quote",
+            "text": "“Shower before you clear customs — once you're through the automatic doors, there's no going back.” — a reminder repeated in Taiwanese press coverage of the arrivals showers."
+          },
+          {
+            "type": "p",
+            "html": "Landing late and heading into the city? See the <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">Taoyuan late-night arrival transport guide</a>. Flying out early without a last hotel night? Read <a href=\"/blog-taipei-overnight-red-eye-flight-last-day\">Taipei last day before a red-eye flight</a>. For a good meal before the airport, browse the <a href=\"/region-taipei\">Taipei food map</a>, <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, and <a href=\"/taipei-breakfast-282\">Ding Yuan Soy Milk (鼎元豆漿)</a>."
+          },
+          {
+            "type": "note",
+            "text": "This guide is based on Taoyuan Airport's official facility listing, a February 2026 airport company announcement (reported by CNA), and Taiwanese press reports, as of October 2026. Hours and locations can change with construction or operations, so recheck the airport website's facility page and on-site notices before you go."
+          },
+          {
+            "type": "cta",
+            "title": "Save pre-flight food spots on the map",
+            "desc": "Pin a Taipei breakfast or meal stop before heading to the airport to make your last day easier.",
+            "btn": "Open Map →",
+            "href": "/map?region=taipei&cat=breakfast"
+          }
+        ]
+      }
+    },
   "taichung-lukang-bus-9018": {
       "heroImage": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
       "ko": {
