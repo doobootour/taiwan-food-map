@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taichung-lukang-bus-9018",
+    "image": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "타이중·창화 여행 가이드 · 교통",
+      "title": "타이중 루강 버스 9018, 어디서 타고 얼마일까?",
+      "desc": "중록커윈 9018 요금·정류장·국도버스 탑승 규칙을 정리했어요.",
+      "meta": "타이중 · 교통 가이드"
+    },
+    "en": {
+      "eyebrow": "Taichung & Changhua Travel Guide · Transport",
+      "title": "Taichung to Lukang Bus 9018: Where to Board and How Much?",
+      "desc": "Chunglu 9018 fares, stops, and freeway-bus boarding rules.",
+      "meta": "Taichung · Transport Guide"
+    }
+  },
+  {
     "slug": "taipei-station-luggage-storage",
     "image": "assets/images/blog/taipei-station-luggage-storage-1.jpg",
     "regions": [
@@ -779,6 +798,321 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taichung-lukang-bus-9018": {
+      "heroImage": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
+      "ko": {
+        "pageTitle": "타이중 루강 버스 9018 — 정류장·요금 · 나만 알고 싶은 대만 맛집",
+        "metaDescription": "타이중 루강 버스 9018은 중록커윈 국도버스로, 타이중역(푸싱로)에서 루강까지 일반 NT$96이에요. 정류장·카드 결제·탑승 규칙을 2026년 10월 기준으로 정리했어요.",
+        "ogTitle": "타이중 루강 버스 9018, 어디서 타고 얼마일까?",
+        "eyebrow": "타이중·창화 여행 가이드 · 교통",
+        "title": "타이중 루강 버스 9018, 어디서 타고 얼마일까?",
+        "dek": "타이중역에서 루강 옛거리까지 — 중록커윈 9018 타는 곳과 요금, 국도버스 규칙만 골라 정리했습니다.",
+        "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+        "metaTopic": "타이중 · 교통 가이드",
+        "intro": "“타이중에서 루강은 버스로 어떻게 가죠?” 중록커윈 9018은 타이중역(푸싱로)과 루강을 국도 1호선으로 잇는 국도버스예요. 공로총국 운임과 애버스 노선 안내(2026년 10월 기준)를 바탕으로 정류장·요금·탑승 규칙만 정리해봤어요.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "01 · 한눈에 비교하기"
+          },
+          {
+            "type": "compareTable",
+            "cities": [
+              "구분",
+              "타이중역→루강",
+              "차오마→루강"
+            ],
+            "rows": [
+              {
+                "label": "운영",
+                "values": [
+                  "중록커윈(中鹿客運) 9018",
+                  "같은 노선·일부 편은 차오마 출발"
+                ]
+              },
+              {
+                "label": "일반 요금",
+                "values": [
+                  "NT$96 (2026년 10월 기준)",
+                  "NT$70 (2026년 10월 기준)"
+                ]
+              },
+              {
+                "label": "할인 요금",
+                "values": [
+                  "NT$48 (2026년 10월 기준)",
+                  "NT$35 (2026년 10월 기준)"
+                ]
+              },
+              {
+                "label": "결제",
+                "values": [
+                  "현금·이지카드·아이패스·아이캐시",
+                  "동일"
+                ]
+              },
+              {
+                "label": "성격",
+                "values": [
+                  "국도버스(고속 진입 전 승차만)",
+                  "국도 하차 후 정류장은 하차만"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "html": "공로총국(公路總局) 운임 조회와 애버스(愛巴士) 노선 안내를 기준으로 정리했습니다. 원글에 나오던 ‘약 38원’ 같은 숫자는 공식 일반·할인 요금과 맞지 않아 넣지 않았어요."
+          },
+          {
+            "type": "h2",
+            "text": "02 · 어디서 타면 될까"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "1",
+                "b": "타이중역(푸싱로) 정류장",
+                "desc": "공식 표기는 臺中車站(復興路)예요. 역 주변 푸싱로 쪽 국도버스 정류장에서 탑니다. 방문 전 구글맵이나 버스 앱에서 ‘9018’·‘臺中車站(復興路)’로 위치를 확인하세요."
+              },
+              {
+                "mark": "2",
+                "b": "시내 경유 정류장",
+                "desc": "간청(干城站)·민권계광가 입구·타이중교육대학·과학박물관(타이완대로)·MRT 시정부역·신광싼웨·차오마(타이완대로) 등을 지나 국도에 올라가요."
+              },
+              {
+                "mark": "3",
+                "b": "루강 쪽 하차",
+                "desc": "동팡초등학교·난안리·후비푸·치거우쯔·푸싱향 공소·옛 타이탕 기차역·루강진 공소·루강역 순으로 내려요. 2026년 8월 4일부터 루강 민권로 공사로 루강진 공소·옛 타이탕 정류장은 우회 운행 중일 수 있으니, 당일 공지를 확인하는 편이 좋아요."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
+            "caption": "루강 마쭈묘(鹿港天后宮) 패루와 홍등이에요. 9018을 타고 루강에 내리면 옛거리·사원 일대를 걸어서 둘러보기 좋아요."
+          },
+          {
+            "type": "h2",
+            "text": "03 · 요금·카드·국도버스 규칙"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "✓",
+                "b": "공식 운임(일반)",
+                "desc": "타이중역→루강역 NT$96, 타이중역→루강진 공소 NT$92, 차오마→루강역 NT$70이에요(2026년 10월 기준, 공로총국 운임 조회)."
+              },
+              {
+                "mark": "✓",
+                "b": "할인 운임",
+                "desc": "같은 구간 할인은 타이중역→루강역 NT$48, 차오마→루강역 NT$35 수준이에요. 적용 대상은 현장·카드사 기준을 따르세요."
+              },
+              {
+                "mark": "✓",
+                "b": "교통카드",
+                "desc": "이지카드·아이패스·아이캐시로 낼 수 있어요(애버스 안내)."
+              },
+              {
+                "mark": "✓",
+                "b": "국도버스 탑승 규칙",
+                "desc": "고속도로에 오르기 전 정류장에서는 승차만, 내려온 뒤 정류장에서는 하차만 할 수 있어요. 짧은 시내 구간만 가려면 시내버스를 타는 것이 맞습니다."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "04 · 시간표와 당일 확인"
+          },
+          {
+            "type": "p",
+            "html": "월~목·금요일·주말·공휴일 시간표가 따로 있어요. 월~목 타이중역 출발은 대략 06:00부터 22:00까지 하루 여러 편이고, 금요일 일부 편은 차오마에서 출발하기도 합니다. 배차와 우회는 바뀔 수 있으니 출발 전에 <a href=\"https://www.ibus.com.tw/intercity-bus/middle-tw/route9018/\" rel=\"nofollow\">애버스 9018 노선</a>이나 교통부 TDX 기반 버스 앱에서 당일 시각을 확인하세요."
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taichung-lukang-bus-9018-2.jpg",
+            "caption": "창화 사원 앞 축제 인파예요. 루강·창화 일대는 주말·행사일에 사람이 많아지니 넉넉히 잡는 편이 좋아요."
+          },
+          {
+            "type": "quote",
+            "text": "국도버스는 ‘타기만 / 내리기만’ 구간이 나뉘어 있어요 — 시내 한두 정류장만 가려다 잘못 타면 헷갈리기 쉽습니다."
+          },
+          {
+            "type": "p",
+            "html": "루강에서 내려 맛집을 찾거나, 타이중으로 돌아와 저녁을 이어가려면 <a href=\"/region-taichung\">타이중 맛집 지도</a>와 <a href=\"/taichung-taiwanese\">타이중 대만식 맛집</a>, <a href=\"/taichung-shaved_ice\">타이중 빙수</a>를 함께 보면 동선이 잡히기 쉬워요. 스쿠터를 빌릴지 고민 중이면 <a href=\"/blog-taichung-scooter-rental-license-insurance\">타이중 스쿠터 렌트 면허·보험 가이드</a>도 참고해 보세요."
+          },
+          {
+            "type": "note",
+            "text": "이 글은 공로총국 운임 조회·애버스 9018 노선 안내·중록커윈 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금·시간표·우회는 바뀔 수 있으니 출발 전 공식 노선·버스 앱에서 다시 확인하는 것을 추천해요."
+          },
+          {
+            "type": "cta",
+            "title": "지도에서 타이중·루강 근처 맛집 준비하세요",
+            "desc": "버스에서 내린 뒤 바로 갈 대만식·빙수·카페를 미리 찜해 두면 동선이 편해져요.",
+            "btn": "지도 열기 →",
+            "href": "/map?region=taichung&cat=taiwanese"
+          }
+        ]
+      },
+      "en": {
+        "pageTitle": "Taichung–Lukang Bus 9018 — Stops & Fares · My Secret Taiwan Eats",
+        "metaDescription": "Taichung–Lukang bus 9018 is a Chunglu freeway coach: NT$96 full fare from Taichung Station (Fuxing Rd) to Lukang. Stops, cards, and boarding rules as of October 2026.",
+        "ogTitle": "Taichung to Lukang Bus 9018: Where to Board and How Much?",
+        "eyebrow": "Taichung & Changhua Travel Guide · Transport",
+        "title": "Taichung to Lukang Bus 9018: Where to Board and How Much?",
+        "dek": "From Taichung Station to Lukang old street — where to board Chunglu 9018, what it costs, and freeway-bus rules.",
+        "metaAuthor": "My Secret Taiwan Eats Editorial",
+        "metaTopic": "Taichung · Transport Guide",
+        "intro": "Wondering how to reach Lukang from Taichung by bus? Chunglu 9018 links Taichung Station (Fuxing Rd) and Lukang on National Freeway 1. Here are stops, fares, and boarding rules from Highway Bureau and iBus data (as of October 2026).",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "01 · At a glance"
+          },
+          {
+            "type": "compareTable",
+            "cities": [
+              "Item",
+              "Taichung Station → Lukang",
+              "Chaoma → Lukang"
+            ],
+            "rows": [
+              {
+                "label": "Operator",
+                "values": [
+                  "Chunglu Bus (中鹿客運) 9018",
+                  "Same route; some Friday trips start at Chaoma"
+                ]
+              },
+              {
+                "label": "Full fare",
+                "values": [
+                  "NT$96 (as of Oct 2026)",
+                  "NT$70 (as of Oct 2026)"
+                ]
+              },
+              {
+                "label": "Discount fare",
+                "values": [
+                  "NT$48 (as of Oct 2026)",
+                  "NT$35 (as of Oct 2026)"
+                ]
+              },
+              {
+                "label": "Payment",
+                "values": [
+                  "Cash, EasyCard, iPASS, iCash",
+                  "Same"
+                ]
+              },
+              {
+                "label": "Type",
+                "values": [
+                  "Freeway coach (board-only before on-ramp)",
+                  "Alight-only after exiting the freeway"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "html": "Fares follow the Highway Bureau fare table and iBus route notes. A cafe tip that said “about NT$38” does not match the official full/discount fares, so it is left out."
+          },
+          {
+            "type": "h2",
+            "text": "02 · Where to board"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "1",
+                "b": "Taichung Station (Fuxing Rd)",
+                "desc": "Official stop name: 臺中車站(復興路). Board at the freeway-bus stop on Fuxing Road near the station. Check Google Maps or a bus app for “9018” before you go."
+              },
+              {
+                "mark": "2",
+                "b": "City stops before the freeway",
+                "desc": "The coach also serves Gancheng, Minquan–Jiguang, National Taichung University of Education, National Museum of Natural Science (Taiwan Blvd), City Hall MRT, Shin Kong Mitsukoshi, and Chaoma (Taiwan Blvd) before entering National Freeway 1."
+              },
+              {
+                "mark": "3",
+                "b": "Getting off in Lukang",
+                "desc": "Stops include Dongfang Elementary, Nan’an, Houbipu, Qigouzi, Fuxing Township Office, the old Taiwan Sugar station, Lukang Township Office, and Lukang Station. Since 4 Aug 2026, Minquan Rd works may divert Township Office / old Sugar stops—check the day’s notice."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
+            "caption": "The paifang and lanterns at Lukang Mazu Temple (天后宮). After 9018, the old street and temple area are an easy walk."
+          },
+          {
+            "type": "h2",
+            "text": "03 · Fares, cards, freeway rules"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "✓",
+                "b": "Official full fares",
+                "desc": "Taichung Station → Lukang Station NT$96; → Lukang Township Office NT$92; Chaoma → Lukang Station NT$70 (Oct 2026, Highway Bureau fare query)."
+              },
+              {
+                "mark": "✓",
+                "b": "Discount fares",
+                "desc": "About NT$48 Station→Lukang and NT$35 Chaoma→Lukang. Eligibility follows the operator and card rules on the day."
+              },
+              {
+                "mark": "✓",
+                "b": "Transit cards",
+                "desc": "EasyCard, iPASS, and iCash are accepted (iBus)."
+              },
+              {
+                "mark": "✓",
+                "b": "Freeway boarding rules",
+                "desc": "Before the on-ramp you may only board; after the off-ramp you may only alight. For short city hops, take a city bus instead."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "04 · Timetable and same-day checks"
+          },
+          {
+            "type": "p",
+            "html": "Weekday, Friday, and weekend/holiday timetables differ. Mon–Thu departures from Taichung Station roughly run from about 06:00 to 22:00 with many trips; some Friday trips start at Chaoma. Schedules and detours change—confirm on the <a href=\"https://www.ibus.com.tw/intercity-bus/middle-tw/route9018/\" rel=\"nofollow\">iBus 9018 page</a> or a MOTC TDX-based bus app before you leave."
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taichung-lukang-bus-9018-2.jpg",
+            "caption": "A festival crowd at a Changhua temple. Lukang and Changhua get busy on weekends and event days, so leave extra time."
+          },
+          {
+            "type": "quote",
+            "text": "Freeway coaches split “board-only” and “alight-only” segments — easy to mix up if you only need a couple of city stops."
+          },
+          {
+            "type": "p",
+            "html": "For food after you arrive, open the <a href=\"/region-taichung\">Taichung food map</a>, <a href=\"/taichung-taiwanese\">Taichung Taiwanese picks</a>, and <a href=\"/taichung-shaved_ice\">Taichung shaved ice</a>. If you are weighing a scooter instead, see the <a href=\"/blog-taichung-scooter-rental-license-insurance\">Taichung scooter license and insurance guide</a>."
+          },
+          {
+            "type": "note",
+            "text": "This guide is based on Highway Bureau fare data, the iBus 9018 route page, and Chunglu notices, as of October 2026. Recheck fares, times, and detours on official channels before you travel."
+          },
+          {
+            "type": "cta",
+            "title": "Save Taichung & Lukang food spots on the map",
+            "desc": "Pin Taiwanese, shaved-ice, and cafe stops before you get off the bus.",
+            "btn": "Open Map →",
+            "href": "/map?region=taichung&cat=taiwanese"
+          }
+        ]
+      }
+    },
   "taipei-taichung-kaohsiung-with-mom": {
     heroImage: "assets/images/regions/taipei.webp",
     ko: {
