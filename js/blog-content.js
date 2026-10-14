@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-songshan-airport-egate-registration",
+    "image": "assets/images/blog/taipei-songshan-airport-egate-registration-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 공항·출입국",
+      "title": "송산공항 e-Gate 등록, 입국 전에 뭘 준비할까?",
+      "desc": "송산공항 e-Gate 등록 장소와 한국인 조건, 입국신고서·재등록 요건을 정리했어요.",
+      "meta": "타이베이 · 공항·출입국 가이드"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Airport & Immigration",
+      "title": "Songshan Airport e-Gate: How Koreans Register and What to Prep",
+      "desc": "Where to enroll at Songshan, Korean eligibility, TWAC, and when to re-register.",
+      "meta": "Taipei · Airport & Immigration"
+    }
+  },
+  {
     "slug": "taipei-national-palace-museum-tips",
     "image": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
     "regions": [
@@ -855,6 +874,381 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-songshan-airport-egate-registration": {
+    "heroImage": "assets/images/blog/taipei-songshan-airport-egate-registration-1.jpg",
+    "ko": {
+      "pageTitle": "송산공항 e-Gate — 등록·입국 준비 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "송산공항 e-Gate는 한국 전자여권으로 인공 등록 후 쓸 수 있어요. 등록 장소·입국신고서·재등록 조건을 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "송산공항 e-Gate 등록, 입국 전에 뭘 준비할까?",
+      "eyebrow": "타이베이 여행 가이드 · 공항·출입국",
+      "title": "송산공항 e-Gate 등록, 입국 전에 뭘 준비할까?",
+      "dek": "한국인 등록 조건부터 송산공항 카운터 위치, 입국신고서(TWAC)와 여권 갱신 후 재등록까지 — 줄 서기 전에 챙길 것만 골랐습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 공항·출입국 가이드",
+      "intro": "“송산공항에서 e-Gate 등록하려면 뭘 미리 해야 할까요?” 대만 이민서는 한국을 자동출입국 상호 이용국으로 두고 있고, 한국 전자여권 소지자는 인공 등록 후 e-Gate를 쓸 수 있어요. 이민서·한국 출입국·외국인정책본부의 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 송산공항 e-Gate, 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "내용",
+            "비고"
+          ],
+          "rows": [
+            {
+              "label": "대상 국가",
+              "values": [
+                "한국 포함 8개 상호 이용국",
+                "미국은 Global Entry 회원만"
+              ]
+            },
+            {
+              "label": "한국인 조건",
+              "values": [
+                "전자여권·만 17세·키 140cm 이상",
+                "여권 유효기간 6개월 이상(한국 출입국 안내)"
+              ]
+            },
+            {
+              "label": "등록 방식",
+              "values": [
+                "인공 등록(얼굴+양손 지문)",
+                "상호 이용국은 게이트 자가등록 대상 아님"
+              ]
+            },
+            {
+              "label": "등록 소요",
+              "values": [
+                "약 1분(공식)",
+                "대기 줄은 별도"
+              ]
+            },
+            {
+              "label": "입국 전 필수",
+              "values": [
+                "온라인 입국신고서(入國登記表)",
+                "거류증 없는 여행객"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "대만 이민서(2026년 9월 23일 갱신)는 미국(Global Entry 회원만)·한국·호주·이탈리아·독일·싱가포르·말레이시아·뉴질랜드를 상호 이용국으로 적어요. 출국할 때는 거류 여부와 관계없이 외국인이 e-Gate를 쓸 수 있습니다. 상호 이용국 여행객은 입국·출국 모두 쓰기 전에 인공 등록 카운터에서 여권을 보여 주고 얼굴과 양손 지문을 등록해야 해요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 송산공항 e-Gate 등록 장소와 시간"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "입국 심사대(제한구역 안)",
+              "desc": "항공편 시간에 맞춰 상시 접수해요. 송산으로 들어와 바로 등록할 때 쓰는 곳입니다."
+            },
+            {
+              "mark": "✓",
+              "b": "출국 심사대(제한구역 안)",
+              "desc": "국제선 출국 시간에 맞춰 접수해요. 출국 전에 등록을 마치면 다음 입국부터 e-Gate를 노려볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "제1터미널 1층 출국 로비 7-11 옆",
+              "desc": "제한구역 밖이라 시내에서 들를 수 있어요. 매일 07:00~18:00, 문의 ☎02-2547-5547·02-2547-4161(2026년 8월 공지, 2026년 10월 확인)."
+            },
+            {
+              "mark": "✓",
+              "b": "다른 공항도 가능",
+              "desc": "타오위안 1·2터미널, 타이중·가오슝 공항에도 인공 등록 카운터가 있어요. 시간대가 공항마다 다르니 출발 전에 이민서 '申辦地點' 페이지를 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-songshan-airport-egate-registration-1.jpg",
+          "caption": "전망대에서 내려다본 송산공항 계류장과 여객기예요. e-Gate 등록은 입국·출국 심사대나 1터미널 로비 카운터에서 해요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 입국 전 준비: TWAC와 여권"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "온라인 입국신고서(TWAC)",
+              "desc": "거류증이 없으면 입국 전에 入國登記表를 작성해야 입국 때 e-Gate를 쓸 수 있어요. 작성을 안 했거나 전송이 끝나지 않으면 일반 심사대로 가야 합니다."
+            },
+            {
+              "mark": "2",
+              "b": "전자여권·유효기간",
+              "desc": "한국 출입국·외국인정책본부 안내 기준(2026년 10월 확인)으로 전자여권, 만 17세 이상, 키 140cm 이상, 여권 유효기간 6개월 이상이 필요해요."
+            },
+            {
+              "mark": "3",
+              "b": "거류 비자 입국은 예외",
+              "desc": "상호 이용국 여행객이 거류 비자로 입국할 때는 e-Gate를 쓸 수 없어요. 관광·단기 입국과 목적이 다르면 일반 심사대를 이용하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "여권 갱신 후엔 재등록",
+              "desc": "여권을 바꾸면 다시 등록해야 해요. 상호 이용국의 이용 기간은 협정·상호주의에 따르고, 자세한 나라는 egate.immigration.gov.tw에서 확인합니다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "입국신고서 작성 순서와 입력 항목은 <a href=\"/blog-taiwan-arrival-card-twac-guide\">대만 입국신고서(TWAC) 작성 가이드</a>에 따로 정리해 두었어요. 심야에 타오위안으로 들어온다면 <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">타오위안공항 심야 도착 교통</a>과 <a href=\"/blog-taoyuan-airport-terminal1-free-shower\">1터미널 무료 샤워실</a> 글도 참고하면 동선이 덜 꼬입니다."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 등록 후 이용, 신세대 e-Gate, One ID"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "게이트에서 여권 스캔",
+              "desc": "상호 이용국 여행객은 전자여권을 리더에 올려요. 첫 문이 열리면 안으로 들어가 얼굴 인식이 이뤄지고, 등록 때 지문을 남겼다면 얼굴이 안 맞을 때 지문으로 보조할 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "신세대 e-Gate(2025~)",
+              "desc": "이민서는 2025년부터 1세대 장비를 모두 교체했고, 기존 등록자는 다시 등록하지 않아도 된다고 안내합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "One ID는 다른 서비스",
+              "desc": "2026년 4월 16일 송산공항이 연 얼굴 인식 탑승 서비스 'One ID'는 체크인·수하물·탑승용이고, 이민서 e-Gate와는 별개예요."
+            },
+            {
+              "mark": "✓",
+              "b": "안 되면 일반 심사대",
+              "desc": "생체 인식이 실패하면 두 번째 문이 열리지 않고 이민관이 도와줘요. 서두르기보다 일반 심사대로 안내받는 편이 안전합니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-songshan-airport-egate-registration-2.jpg",
+          "caption": "송산공항 제1터미널 건물 외관이에요. 제한구역 밖 등록 카운터는 1층 출국 로비 7-11 옆에 있어요."
+        },
+        {
+          "type": "quote",
+          "text": "“若未持有居留證，入境前請務必先行上網填寫入國登記表，始可於入境時使用e-Gate.” — 거류증이 없으면 입국 전에 온라인 입국신고서를 작성해야 입국 때 e-Gate를 쓸 수 있다는 이민서 안내예요."
+        },
+        {
+          "type": "p",
+          "html": "타이베이 일정과 공항 동선을 짜는 중이라면 <a href=\"/region-taipei\">타이베이 맛집 지도</a>와 <a href=\"/taipei-attraction\">타이베이 체험·관광지</a>도 함께 보면 좋아요. 송산에서 시내로 들어온 뒤에는 야시장·카페 핀을 미리 찜해 두는 편이 편합니다."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 이민서 '외래인구 e-Gate 신청 및 사용 안내'(2026년 9월 23일 갱신), '申辦地點'(2026년 8월 3일 갱신), '신세대 자동출입국 시스템' 안내, 송산공항 One ID 보도(2026년 4월 16일), 한국 출입국·외국인정책본부 '자동출입국심사서비스 상호 이용' 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 등록 장소 운영 시간과 조건은 바뀔 수 있으니 출발 전에 이민서·한국 출입국 공식 페이지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 송산·중산 근처 식당도 확인해보세요",
+          "desc": "등록과 입국을 마친 뒤 시내에서 첫 끼를 고를 때, 미리 찜해 둔 핀이 있으면 동선이 단순해져요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=taiwanese"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Songshan e-Gate — Enroll & Prep · My Secret Taiwan Eats",
+      "metaDescription": "Korean e-passport holders can use Taiwan e-Gate after in-person enrollment at Songshan. Registration spots, TWAC, and re-enrollment rules as of October 2026.",
+      "ogTitle": "Songshan Airport e-Gate: How Koreans Register and What to Prep",
+      "eyebrow": "Taipei Travel Guide · Airport & Immigration",
+      "title": "Songshan Airport e-Gate: How Koreans Register and What to Prep",
+      "dek": "Korean eligibility, Songshan enrollment counters, the online arrival card (TWAC), and when you must re-register — what to finish before you join the queue.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Airport & Immigration",
+      "intro": "“What do I need before enrolling for e-Gate at Songshan Airport?” Taiwan’s National Immigration Agency lists Korea among reciprocal e-Gate partners, and Korean e-passport holders can use the gates after in-person registration. This guide follows NIA and Korea Immigration Service pages, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Songshan e-Gate at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Detail",
+            "Note"
+          ],
+          "rows": [
+            {
+              "label": "Partner countries",
+              "values": [
+                "Korea and 7 other partners",
+                "U.S. travelers need Global Entry"
+              ]
+            },
+            {
+              "label": "Korean eligibility",
+              "values": [
+                "E-passport, age 17+, height 140 cm+",
+                "Passport valid 6+ months (Korea Immigration)"
+              ]
+            },
+            {
+              "label": "Enrollment",
+              "values": [
+                "In-person (face + both fingerprints)",
+                "Partner travelers cannot self-enroll at the gate"
+              ]
+            },
+            {
+              "label": "Enrollment time",
+              "values": [
+                "About 1 minute (official)",
+                "Queue time is separate"
+              ]
+            },
+            {
+              "label": "Before arrival",
+              "values": [
+                "Online arrival card (TWAC)",
+                "Required if you have no ARC"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "NIA’s foreign-traveler e-Gate page (updated 23 September 2026) lists the United States (Global Entry members only), Korea, Australia, Italy, Germany, Singapore, Malaysia, and New Zealand. All foreign travelers may use e-Gate for departure. Partner-country travelers must first enroll at a staffed counter with face and fingerprint capture before using the gates for entry or exit."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Where to Enroll at Songshan"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Arrival immigration (airside)",
+              "desc": "Open around flight times. Handy if you land at Songshan and enroll right away."
+            },
+            {
+              "mark": "✓",
+              "b": "Departure immigration (airside)",
+              "desc": "Open around international departures. Enrolling before you leave can let you use e-Gate on your next arrival."
+            },
+            {
+              "mark": "✓",
+              "b": "T1 1F departure lobby by 7-Eleven",
+              "desc": "Landside, so you can visit from the city. Daily 07:00–18:00; ☎02-2547-5547 / 02-2547-4161 (August 2026 notice, checked October 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Other airports",
+              "desc": "Taoyuan T1/T2, Taichung, and Kaohsiung also have counters. Hours differ — check NIA’s enrollment-locations page before you go."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-songshan-airport-egate-registration-1.jpg",
+          "caption": "Songshan Airport apron and aircraft from an observation deck. Enrollment is at arrival/departure immigration or the T1 lobby counter."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Before You Arrive: TWAC and Passport"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Online arrival card (TWAC)",
+              "desc": "Without an ARC, complete the arrival card online before entry if you want to use e-Gate on arrival. Incomplete transmission means the regular desk."
+            },
+            {
+              "mark": "2",
+              "b": "E-passport and validity",
+              "desc": "Korea Immigration Service (checked October 2026) lists an e-passport, age 17+, height 140 cm+, and at least six months of passport validity."
+            },
+            {
+              "mark": "3",
+              "b": "Resident visas are excluded",
+              "desc": "Partner-country travelers entering on a resident visa cannot use e-Gate. Use the regular desk for that purpose."
+            },
+            {
+              "mark": "✓",
+              "b": "Re-enroll after passport renewal",
+              "desc": "A new passport needs a new enrollment. Validity for partner travelers follows the reciprocal agreement; check egate.immigration.gov.tw for country details."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For the arrival-card steps, see the <a href=\"/blog-taiwan-arrival-card-twac-guide\">Taiwan arrival card (TWAC) guide</a>. If you land late at Taoyuan, also skim <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">midnight arrival transport</a> and the <a href=\"/blog-taoyuan-airport-terminal1-free-shower\">T1 free showers</a> post."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Using the Gate, New-Gen e-Gate, and One ID"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Scan your passport at the gate",
+              "desc": "Partner travelers place the e-passport on the reader, step in for face matching, and can use stored fingerprints if face match fails."
+            },
+            {
+              "mark": "✓",
+              "b": "New-generation e-Gate (from 2025)",
+              "desc": "NIA says first-generation units were fully replaced from 2025, and prior enrollees do not need to re-register for the new hardware."
+            },
+            {
+              "mark": "✓",
+              "b": "One ID is separate",
+              "desc": "Songshan’s One ID face-boarding service, launched 16 April 2026, covers check-in, bag drop, and boarding — not NIA e-Gate."
+            },
+            {
+              "mark": "✓",
+              "b": "If biometrics fail",
+              "desc": "The second door stays closed and an officer helps. Switching to the regular desk is safer than forcing the gate."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-songshan-airport-egate-registration-2.jpg",
+          "caption": "Songshan Airport Terminal 1 exterior. The landside enrollment counter sits by the 7-Eleven in the 1F departure lobby."
+        },
+        {
+          "type": "quote",
+          "text": "“If you do not hold a residence certificate, complete the online arrival card before entry to use e-Gate on arrival.” — NIA’s foreign-traveler e-Gate usage note."
+        },
+        {
+          "type": "p",
+          "html": "Planning Taipei days after immigration? Browse the <a href=\"/region-taipei\">Taipei food map</a> and <a href=\"/taipei-attraction\">Taipei attractions</a>. Pinning a first meal near Songshan or Zhongshan keeps the afternoon simple."
+        },
+        {
+          "type": "note",
+          "text": "Based on NIA pages on foreign e-Gate enrollment and usage (updated 23 September 2026), enrollment locations (updated 3 August 2026), the new-generation e-Gate overview, the Songshan One ID notice (16 April 2026), and Korea Immigration Service’s reciprocal automated clearance page, as of October 2026. Counter hours and rules can change — check the official pages again before you fly."
+        },
+        {
+          "type": "cta",
+          "title": "Find places to eat near Songshan or Zhongshan",
+          "desc": "After enrollment and entry, a pinned first meal makes the city transfer less rushed.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=taiwanese"
+        }
+      ]
+    }
+  },
   "taipei-national-palace-museum-tips": {
       "heroImage": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
       "ko": {
