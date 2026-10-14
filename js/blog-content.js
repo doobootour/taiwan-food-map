@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-national-palace-museum-tips",
+    "image": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 박물관",
+      "title": "타이베이 고궁박물원 입장료, 오디오가이드까지 얼마일까?",
+      "desc": "고궁박물원 입장료와 무료 대상, 한국어 오디오가이드, 휴관일과 스린역 버스를 정리했어요.",
+      "meta": "타이베이 · 박물관 가이드"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Museums",
+      "title": "National Palace Museum Taipei: Tickets, Audio Guide, and How to Get There",
+      "desc": "Ticket prices, free days, the audio guide, Monday closures, and the bus from Shilin.",
+      "meta": "Taipei · Museum Guide"
+    }
+  },
+  {
     "slug": "jiufen-car-stay-parking-guide",
     "image": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
     "regions": [
@@ -836,6 +855,339 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-national-palace-museum-tips": {
+      "heroImage": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
+      "ko": {
+        "pageTitle": "고궁박물원 입장료 — 오디오가이드·관람 팁 · 나만 알고 싶은 대만 맛집",
+        "metaDescription": "타이베이 고궁박물원 입장료는 일반 NT$350, 만 18세 미만은 무료예요. 한국어 오디오가이드 요금과 휴관일, 스린역에서 가는 법을 2026년 10월 기준으로 정리했어요.",
+        "ogTitle": "타이베이 고궁박물원 입장료, 오디오가이드까지 얼마일까?",
+        "eyebrow": "타이베이 여행 가이드 · 박물관",
+        "title": "타이베이 고궁박물원 입장료, 오디오가이드까지 얼마일까?",
+        "dek": "무료 대상과 무료 개방일, 한국어 오디오가이드 빌리는 곳, 월요일 휴관과 버스 타는 곳까지 — 가기 전에 알아 두면 덜 헤매는 것만 골랐습니다.",
+        "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+        "metaTopic": "타이베이 · 박물관 가이드",
+        "intro": "“고궁박물원 입장료는 얼마고, 한국어 오디오가이드도 있을까요?” 타이베이 스린에 있는 국립고궁박물원은 첫 대만 여행 일정에 자주 들어가는 곳이지만, 오디오가이드 요금이나 휴관일은 예전 정보가 섞여 돌아다녀요. 고궁박물원 공식 홈페이지의 요금·개관·교통 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "01 · 고궁박물원 입장료 한눈에 비교하기"
+          },
+          {
+            "type": "compareTable",
+            "cities": [
+              "구분",
+              "요금",
+              "대상"
+            ],
+            "rows": [
+              {
+                "label": "일반권",
+                "values": [
+                  "NT$350",
+                  "한국인 성인 여행자 대부분"
+                ]
+              },
+              {
+                "label": "우대권",
+                "values": [
+                  "NT$150",
+                  "국제학생증(ISIC) 소지자 등"
+                ]
+              },
+              {
+                "label": "무료",
+                "values": [
+                  "NT$0",
+                  "만 18세 미만(국적 무관), 장애인과 동반자 1명 등"
+                ]
+              },
+              {
+                "label": "단체권",
+                "values": [
+                  "1인 NT$320",
+                  "10인 이상, 단체 음성 안내기 1인 NT$50 별도"
+                ]
+              },
+              {
+                "label": "101 전망대 연계권",
+                "values": [
+                  "NT$820",
+                  "第一展覽館 + 타이베이 101 전망대"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "html": "요금은 고궁박물원 공식 요금표 기준이에요(2026년 10월 기준). 표는 북부원구 第一展覽館(본관) 요금이고, 1월 1일·정월대보름·5월 18일·9월 27일·10월 10일은 국적과 관계없이 무료로 개방합니다. 2026년에는 10월 17일(토, 대만 문화의 날)도 무료이고, 10월 31일 저녁에는 '타이베이 백야(臺北白晝之夜)' 행사로 무료 관람이 열려요."
+          },
+          {
+            "type": "h2",
+            "text": "02 · 한국어 오디오가이드, 어디서 얼마에 빌릴까"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "✓",
+                "b": "성인용 NT$200",
+                "desc": "한국어를 포함해 영어·일본어 등 여러 언어가 있고, 第一展覽館 1층 오디오가이드 카운터에서 1회 NT$200에 빌려요(2026년 10월 기준)."
+              },
+              {
+                "mark": "✓",
+                "b": "어린이용 NT$150",
+                "desc": "7~12세용 가이드는 중국어·영어 두 가지예요. 한국어판은 없으니 아이와 간다면 미리 알아 두세요."
+              },
+              {
+                "mark": "✓",
+                "b": "여권은 맡기지 않아요",
+                "desc": "빌릴 때 신분증이나 보증금 영수증을 스캔만 하고 돌려받아요. 여권을 맡겨야 한다는 예전 정보와 달라졌습니다."
+              },
+              {
+                "mark": "✓",
+                "b": "정시 해설은 수신기 NT$50",
+                "desc": "영어 정시 해설은 화~일 10:00·15:00, 중국어는 10:30·14:30에 1층 카운터 앞에서 출발해요. 온라인 신청이고 회당 20명, 해설용 수신기 대여료 NT$50이 따로 듭니다."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
+            "caption": "계단과 광장을 지나 들어가는 고궁박물원 본관 정면이에요. 홍30번 버스를 타면 계단 대신 B1 입구 앞에서 내릴 수 있어요."
+          },
+          {
+            "type": "h2",
+            "text": "03 · 고궁박물원 휴관일과 개관 시간"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "1",
+                "b": "화~일 09:00~17:00",
+                "desc": "표 판매와 교환은 16:30에 끝나요(2026년 10월 기준). 늦은 오후에 간다면 시간을 넉넉히 잡으세요."
+              },
+              {
+                "mark": "2",
+                "b": "월요일은 정기 휴관",
+                "desc": "다만 '월요일 특별 개관일'이 따로 있어요. 2026년 남은 날은 10월 26일, 11월 9일, 12월 7일입니다."
+              },
+              {
+                "mark": "3",
+                "b": "인기 국보는 순회 중일 수 있어요",
+                "desc": "취옥백채(翠玉白菜)와 육형석(肉形石)은 2026년에도 해외·남부원구·다른 박물관 전시를 오갔어요. 꼭 보고 싶다면 공식 홈페이지의 두 작품 '展覽動態' 공지를 출발 전에 확인하세요."
+              },
+              {
+                "mark": "✓",
+                "b": "아이와 함께라면 B1",
+                "desc": "第一展覽館 B1 어린이 학습센터(兒童學藝中心)는 무료이고 개관 시간이 본관과 같아요. 옆 정원 지선원(至善園)도 무료로 들어갈 수 있습니다."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "04 · 스린역에서 고궁박물원 가는 법과 주차"
+          },
+          {
+            "type": "p",
+            "html": "MRT 단수이신이선 스린역(R16) 1번 출구로 나와 1~2분 걸으면 중정로(中正路) 버스 정류장이 나와요. 여기서 홍30(紅30)번을 타면 약 15분 뒤 본관 B1 입구 앞에 내려 줍니다. 815·304·300·255·소18·소19·시민소형버스1번도 고궁박물원 앞까지 가고, 이지카드로 탈 수 있어요. 원산선을 탄다면 젠난루역(BR15)에서 종20·남7번, 다즈역(BR14)에서 종13번 버스로 약 10분이에요."
+          },
+          {
+            "type": "p",
+            "html": "차로 간다면 박물관 주변 공영 주차장에 소형차 88면이 있고, 평일 1회 NT$50, 주말·공휴일 시간당 NT$40이에요(2025년 6월 공지, 2026년 10월 확인). 오토바이 주차는 무료입니다."
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taipei-national-palace-museum-tips-2.jpg",
+            "caption": "녹색 기와지붕과 흰 난간이 이어지는 고궁박물원 본관 외관이에요. 정원과 광장까지 둘러보면 반나절은 금방 지나가요."
+          },
+          {
+            "type": "quote",
+            "text": "“年齡未滿18歲者（不分國籍）” — 만 18세 미만은 국적과 관계없이 무료라는 고궁박물원 공식 요금표 문구예요."
+          },
+          {
+            "type": "p",
+            "html": "타이베이 일정에 박물관을 넣을지 고민된다면 <a href=\"/blog-taipei-fun-pass-3-day-worth-it\">타이베이 펀패스 3일권 본전 계산</a>과 <a href=\"/blog-taipei-101-observatory-child-ticket\">타이베이 101 전망대 아이 요금</a>도 함께 보세요. 박물관 정보는 <a href=\"/taipei-attraction-102\">국립고궁박물원</a> 페이지에, 다른 명소는 <a href=\"/taipei-attraction\">타이베이 체험·관광지</a>와 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에 모아 두었어요. 관람을 마치고 스린역으로 돌아왔다면 역 근처 딤섬집 <a href=\"/taipei-dimsum-bao-bao-bao-817\">Bao Bao Bao</a>도 있어요."
+          },
+          {
+            "type": "note",
+            "text": "이 글은 국립고궁박물원 공식 홈페이지의 요금(票價資訊), 오디오가이드(語音導覽, 2026년 4월 갱신), 정시 해설(個人導覽預約), 개관 시간, 대중교통, 주차(2025년 6월 갱신) 안내와 2026년 최신 소식 공지를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금과 개관일은 바뀔 수 있으니 방문 전에 공식 홈페이지 공지를 다시 확인하는 것을 추천해요."
+          },
+          {
+            "type": "cta",
+            "title": "지도에서 스린 근처 딤섬집도 확인해보세요",
+            "desc": "박물관을 나와 스린역으로 돌아가는 길에 들를 식당을 미리 찜해 두면 오후 동선이 편해져요.",
+            "btn": "지도 열기 →",
+            "href": "/map?region=taipei&cat=dimsum"
+          }
+        ]
+      },
+      "en": {
+        "pageTitle": "National Palace Museum Tickets — Audio Guide & Tips · My Secret Taiwan Eats",
+        "metaDescription": "National Palace Museum Taipei tickets (NT$350, free under 18), the NT$200 audio guide, Monday closures, and the bus from Shilin Station, as of October 2026.",
+        "ogTitle": "National Palace Museum Taipei: Tickets, Audio Guide, and How to Get There",
+        "eyebrow": "Taipei Travel Guide · Museums",
+        "title": "National Palace Museum Taipei: Tickets, Audio Guide, and How to Get There",
+        "dek": "Who gets in free, the free-admission days, where to rent the Korean or English audio guide, Monday closures, and which bus to take — the short list before you go.",
+        "metaAuthor": "My Secret Taiwan Eats Editorial",
+        "metaTopic": "Taipei · Museum Guide",
+        "intro": "“How much is the National Palace Museum, and is there an audio guide in my language?” The museum in Shilin is on most first-time Taipei itineraries, but older information about audio guide prices and closing days still circulates. This guide uses the museum's official pages on tickets, hours, and transport, as of October 2026.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "01 · Ticket Prices at a Glance"
+          },
+          {
+            "type": "compareTable",
+            "cities": [
+              "Ticket",
+              "Price",
+              "Who"
+            ],
+            "rows": [
+              {
+                "label": "Regular",
+                "values": [
+                  "NT$350",
+                  "Most adult visitors"
+                ]
+              },
+              {
+                "label": "Discount",
+                "values": [
+                  "NT$150",
+                  "ISIC student card holders and others"
+                ]
+              },
+              {
+                "label": "Free",
+                "values": [
+                  "NT$0",
+                  "Under 18 (any nationality), visitors with disabilities plus one companion, and others"
+                ]
+              },
+              {
+                "label": "Group",
+                "values": [
+                  "NT$320 per person",
+                  "10+ people, plus NT$50 group audio system"
+                ]
+              },
+              {
+                "label": "Taipei 101 combo",
+                "values": [
+                  "NT$820",
+                  "Exhibition Area I + Taipei 101 Observatory"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "html": "Prices are from the museum's official ticket page for Exhibition Area I of the Northern Branch (as of October 2026). Admission is free for everyone on January 1, the Lantern Festival, May 18, September 27, and October 10. In 2026, October 17 (Saturday, Taiwan Culture Day) is also free, and the museum opens free in the evening of October 31 for Nuit Blanche Taipei."
+          },
+          {
+            "type": "h2",
+            "text": "02 · Renting the Audio Guide"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "✓",
+                "b": "Adults: NT$200",
+                "desc": "Available in Korean, English, Japanese, and many other languages at the audio guide counter on 1F of Exhibition Area I, NT$200 per rental (as of October 2026)."
+              },
+              {
+                "mark": "✓",
+                "b": "Kids: NT$150",
+                "desc": "The guide for ages 7–12 comes in Mandarin and English only."
+              },
+              {
+                "mark": "✓",
+                "b": "No passport deposit",
+                "desc": "Staff scan your ID or deposit receipt and hand it back. Older advice about leaving your passport no longer applies."
+              },
+              {
+                "mark": "✓",
+                "b": "Scheduled tours: NT$50 receiver",
+                "desc": "English tours run Tuesday to Sunday at 10:00 and 15:00, Mandarin at 10:30 and 14:30, from the 1F tour counter. Sign up online; each tour takes 20 people and the receiver costs NT$50."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
+            "caption": "The front of the main building, reached by the stairs across the plaza. Bus R30 drops you at the B1 entrance instead."
+          },
+          {
+            "type": "h2",
+            "text": "03 · Opening Hours and Closing Days"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "1",
+                "b": "Tue–Sun 09:00–17:00",
+                "desc": "Ticket sales and exchanges end at 16:30 (as of October 2026)."
+              },
+              {
+                "mark": "2",
+                "b": "Closed on Mondays",
+                "desc": "Except special Monday openings. The remaining ones in 2026 are October 26, November 9, and December 7."
+              },
+              {
+                "mark": "3",
+                "b": "Star pieces may be on loan",
+                "desc": "The Jadeite Cabbage and the Meat-shaped Stone traveled abroad, to the Southern Branch, and to other museums in 2026. Check the museum's exhibition update notice for both pieces before you go."
+              },
+              {
+                "mark": "✓",
+                "b": "With kids, head to B1",
+                "desc": "The Children's Gallery on B1 of Exhibition Area I is free and keeps the same hours. The Zhishan Garden next door is free too."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "04 · Getting There from Shilin Station, and Parking"
+          },
+          {
+            "type": "p",
+            "html": "Take MRT Tamsui-Xinyi Line to Shilin Station (R16), leave by Exit 1, and walk 1–2 minutes to the Zhongzheng Rd. bus stop. Bus R30 reaches the B1 entrance of the main building in about 15 minutes; 815, 304, 300, 255, S18, S19, and M1 also go to the museum, and EasyCard works on all of them. From the Wenhu Line, take BR20 or BL7 from Jiannan Rd. Station (BR15) or BR13 from Dazhi Station (BR14), about 10 minutes."
+          },
+          {
+            "type": "p",
+            "html": "If you drive, the public lots near the museum have 88 car spaces: NT$50 per entry on weekdays and NT$40 per hour on weekends and holidays (June 2025 notice, checked October 2026). Scooter parking is free."
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/taipei-national-palace-museum-tips-2.jpg",
+            "caption": "Green tiled roofs and white balustrades along the main building. With the garden and plaza, half a day goes quickly."
+          },
+          {
+            "type": "quote",
+            "text": "“Under 18, regardless of nationality” — the free-admission line on the museum's official ticket page."
+          },
+          {
+            "type": "p",
+            "html": "If you are still deciding whether the museum fits your days, see <a href=\"/blog-taipei-fun-pass-3-day-worth-it\">whether the Taipei Fun Pass 3-day pass pays off</a> and <a href=\"/blog-taipei-101-observatory-child-ticket\">Taipei 101 Observatory child tickets</a>. The museum has its own <a href=\"/taipei-attraction-102\">National Palace Museum</a> page, and more sights are on <a href=\"/taipei-attraction\">Taipei attractions</a> and the <a href=\"/region-taipei\">Taipei food map</a>. Back at Shilin Station, the dim sum spot <a href=\"/taipei-dimsum-bao-bao-bao-817\">Bao Bao Bao</a> is close by."
+          },
+          {
+            "type": "note",
+            "text": "This guide is based on the National Palace Museum's official pages on tickets, audio guides (updated April 2026), scheduled tours, opening hours, public transport, parking (updated June 2025), and its 2026 news notices, as of October 2026. Prices and opening days can change, so check the official notices again before your visit."
+          },
+          {
+            "type": "cta",
+            "title": "Find dim sum near Shilin on the map",
+            "desc": "Pin a place to eat on the way back to Shilin Station and your afternoon gets easier.",
+            "btn": "Open Map →",
+            "href": "/map?region=taipei&cat=dimsum"
+          }
+        ]
+      }
+  },
   "jiufen-car-stay-parking-guide": {
       "heroImage": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
       "ko": {
