@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "jiufen-car-stay-parking-guide",
+    "image": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
+    "regions": [
+      "jiufen"
+    ],
+    "ko": {
+      "eyebrow": "지우펀 여행 가이드 · 렌터카·주차",
+      "title": "지우펀 렌터카 숙박, 차는 어디에 세우고 숙소까지 갈까?",
+      "desc": "지우펀 주차장 요금과 주말 교통 통제, 숙소까지 차로 갈 때 확인할 것을 정리했어요.",
+      "meta": "지우펀 · 렌터카 가이드"
+    },
+    "en": {
+      "eyebrow": "Jiufen Travel Guide · Driving & Parking",
+      "title": "Staying in Jiufen by Rental Car: Where to Park and How to Reach Your Stay",
+      "desc": "Jiufen parking rates, weekend traffic control, and tips for driving to your stay.",
+      "meta": "Jiufen · Driving Guide"
+    }
+  },
+  {
     "slug": "taoyuan-airport-terminal1-free-shower",
     "image": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
     "regions": [
@@ -817,6 +836,353 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "jiufen-car-stay-parking-guide": {
+      "heroImage": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
+      "ko": {
+        "pageTitle": "지우펀 주차장 — 렌터카 숙박 가이드 · 나만 알고 싶은 대만 맛집",
+        "metaDescription": "지우펀 주차장은 隔頂 공영(평일 1회 NT$150·주말 시간당 NT$50)과 무료 水湳洞 주차장이 있어요. 주말 교통 통제와 숙소 진입 팁을 2026년 10월 기준으로 정리했어요.",
+        "ogTitle": "지우펀 렌터카 숙박, 차는 어디에 세우고 숙소까지 갈까?",
+        "eyebrow": "지우펀 여행 가이드 · 렌터카·주차",
+        "title": "지우펀 렌터카 숙박, 차는 어디에 세우고 숙소까지 갈까?",
+        "dek": "隔頂 공영주차장 요금부터 주말 A급 통제, 체크인 시간 잡는 법까지 — 차를 끌고 지우펀에 묵기 전에 챙길 것만 골랐습니다.",
+        "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+        "metaTopic": "지우펀 · 렌터카 가이드",
+        "intro": "“렌터카로 지우펀에 하루 묵으려는데, 차는 어디에 세워야 할까요?” 지우펀 주차장은 자리가 적고, 주말·연휴에는 경찰 교통 통제까지 걸려서 미리 알고 가는 편이 훨씬 편해요. 신베이시 교통국 발표와 경찰 통제 안내, 대만 언론 보도를 바탕으로 주차 선택지와 숙소까지 가는 요령을 정리해봤어요.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "01 · 지우펀 주차장 한눈에 비교하기"
+          },
+          {
+            "type": "compareTable",
+            "cities": [
+              "구분",
+              "隔頂 공영주차장",
+              "水湳洞 주차장",
+              "新九號 주차장"
+            ],
+            "rows": [
+              {
+                "label": "규모",
+                "values": [
+                  "소형차 61면",
+                  "소형차 422면·대형차 10면",
+                  "대형차 80면 중심(일부 소형차 자리)"
+                ]
+              },
+              {
+                "label": "요금",
+                "values": [
+                  "평일 1회 NT$150, 주말·공휴일 시간당 NT$50",
+                  "무료",
+                  "유료(현장 요금표 확인)"
+                ]
+              },
+              {
+                "label": "결제",
+                "values": [
+                  "이지카드·LINE Pay·Apple Pay",
+                  "—",
+                  "현장 확인"
+                ]
+              },
+              {
+                "label": "지우펀까지",
+                "values": [
+                  "지우펀 안쪽이라 바로 이동",
+                  "통제 때 셔틀버스로 갈아타기",
+                  "통제 때 셔틀버스로 갈아타기"
+                ]
+              },
+              {
+                "label": "추천 상황",
+                "values": [
+                  "평일 도착, 짐이 많을 때",
+                  "주말·연휴, 통제가 걸렸을 때",
+                  "관광버스 환승용이라 승용차는 차선책"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "html": "요금과 면수는 신베이시 교통국 발표 기준이에요(2025년 4월 隔頂 주차장 재개장, 2026년 10월 확인). 隔頂 주차장은 2024년 9월부터 구청이 30분당 NT$20을 받던 자리를 새로 정비해 2025년 4월 26일 다시 문을 열었습니다. 교통국은 新九號가 관광버스 환승용이라며 승용차는 水湳洞 주차장이나 루이팡역(瑞芳火車站) 주변 공영주차장을 먼저 쓰라고 안내해요."
+          },
+          {
+            "type": "h2",
+            "text": "02 · 주말 지우펀 교통 통제, 언제 걸릴까"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "1",
+                "b": "일반 관리",
+                "desc": "관광버스·중형 버스 같은 대형차만 진입을 막고 승용차는 그대로 들어갈 수 있어요."
+              },
+              {
+                "mark": "2",
+                "b": "A급 통제",
+                "desc": "지우펀 일대 주차장이 80% 넘게 차면 시작돼요. 승용차는 新九號나 水湳洞 주차장에 세우고 셔틀버스로 갈아타야 합니다."
+              },
+              {
+                "mark": "3",
+                "b": "雙A급 통제",
+                "desc": "그래도 차가 몰리면 버스·택시 같은 대중교통과 주민 차량 등만 들어갈 수 있어요. 청명절 연휴 보도에서는 통행증 차량과 민박 투숙객 차량도 예외로 소개됐습니다."
+              },
+              {
+                "mark": "✓",
+                "b": "통제 시간",
+                "desc": "2024년 추석 연휴에는 매일 08:00~18:00에 3단계 통제를 운영했어요. 연휴마다 경찰이 따로 공지하니 출발 전에 루이팡 경찰분국 공지를 확인해 보세요."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
+            "caption": "밤이 되면 홍등이 켜지는 지우펀 골목이에요. 계단과 좁은 골목이 많아서 숙소 앞까지 차로 못 가는 곳도 있어요."
+          },
+          {
+            "type": "h2",
+            "text": "03 · 렌터카로 지우펀 숙소 찾아갈 때 확인할 것"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "✓",
+                "b": "숙소에 주차 방법부터 묻기",
+                "desc": "전용 주차 자리가 있는지, 가까운 제휴 주차장이 있는지, 주차권을 주는지 예약할 때 메시지로 확인해 두세요."
+              },
+              {
+                "mark": "✓",
+                "b": "통제 때 진입 방법 확인",
+                "desc": "雙A급 통제에는 민박 투숙객 차량이 예외로 소개되지만, 현장에서 무엇을 보여 줘야 하는지는 숙소에 미리 물어보는 게 안전해요."
+              },
+              {
+                "mark": "✓",
+                "b": "체크인 시간은 통제 밖으로",
+                "desc": "주말·연휴라면 통제가 시작되기 전 이른 오전이나 통제가 끝난 저녁에 도착하도록 일정을 짜면 덜 헤매요. 평일 도착이 가장 편합니다."
+              },
+              {
+                "mark": "✓",
+                "b": "내비 목적지는 주차장으로",
+                "desc": "숙소 주소를 그대로 찍으면 차가 못 들어가는 골목 입구로 안내될 수 있어요. 숙소가 알려 준 주차장을 목적지로 잡고 마지막은 걸어가세요."
+              },
+              {
+                "mark": "✓",
+                "b": "사설 주차장은 요금표 먼저",
+                "desc": "2024년 '1회 요금을 시간 요금으로 바꿔 받는다'는 논란 뒤 신베이시가 합동 점검을 하고 있어요. 들어가기 전 요금표를 보고 영수증을 꼭 받아 두세요."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "04 · 주말이면 차는 두고 버스로 들어가기"
+          },
+          {
+            "type": "p",
+            "html": "주말에 묵는다면 차를 水湳洞 무료 주차장이나 루이팡역 주변 공영주차장에 두고 버스로 들어가는 방법도 있어요. 신베이시 교통국은 788·965·1062번 등이 지우펀까지 가고, 루이팡역에서는 1062·788·825·827·856번을 탈 수 있다고 안내합니다. 캐리어가 크면 숙소에 픽업이나 짐 옮기기를 도와줄 수 있는지도 물어보세요."
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/jiufen-car-stay-parking-guide-2.jpg",
+            "caption": "지우펀 거리의 홍등이에요. 주말 오후에는 차보다 사람이 먼저 몰리니 차는 일찍 세워 두는 편이 마음 편해요."
+          },
+          {
+            "type": "quote",
+            "text": "“지우펀에 갈 땐 대중교통을 이용해 주세요.” — 신베이시 교통국이 지우펀 주차 안내를 낼 때마다 덧붙이는 당부예요."
+          },
+          {
+            "type": "p",
+            "html": "렌터카 대신 버스로 가고 싶다면 <a href=\"/blog-jiufen-bus-965-from-taipei\">지우펀 965번 버스 타는 법</a>을, 요일별로 얼마나 붐비는지는 <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">지우펀 금요일 vs 일요일 혼잡도</a>를 함께 보세요. 숙소에 짐을 풀고 들를 곳은 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>와 <a href=\"/jiufen-cafe\">지우펀 카페 맛집</a>에서 고를 수 있어요. 아침에는 옛거리 위쪽 골목의 <a href=\"/jiufen-cafe-twilight-cafe-843\">微光森林 Twilight Cafe</a>, 출출할 땐 <a href=\"/jiufen-taiwanese-77\">메이핑 샤오츠(美萍小吃)</a>도 있어요."
+          },
+          {
+            "type": "note",
+            "text": "이 글은 신베이시 교통국의 隔頂·水湳洞·新九號 주차장 발표(2023년 6월, 2025년 4월), 루이팡 경찰분국 교통 통제 안내를 다룬 대만 언론 보도(2024년 추석 연휴 등), 2024년 지우펀 주차 요금 점검 보도를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금과 통제 방식은 바뀔 수 있으니 출발 전에 숙소와 신베이시 교통국 공지를 다시 확인하는 것을 추천해요."
+          },
+          {
+            "type": "cta",
+            "title": "지도에서 지우펀 카페도 확인해보세요",
+            "desc": "숙소에 차를 세운 뒤 걸어갈 카페와 맛집을 미리 찜해 두면 저녁·아침 동선이 편해져요.",
+            "btn": "지도 열기 →",
+            "href": "/map?region=jiufen&cat=cafe"
+          }
+        ]
+      },
+      "en": {
+        "pageTitle": "Jiufen Parking — Rental Car Stay Guide · My Secret Taiwan Eats",
+        "metaDescription": "Jiufen parking for rental-car stays: Geding public lot rates, the free Shuinandong lot, weekend traffic control, and what to ask your guesthouse, as of October 2026.",
+        "ogTitle": "Staying in Jiufen by Rental Car: Where to Park and How to Reach Your Stay",
+        "eyebrow": "Jiufen Travel Guide · Driving & Parking",
+        "title": "Staying in Jiufen by Rental Car: Where to Park and How to Reach Your Stay",
+        "dek": "Geding lot rates, weekend A-level traffic control, and when to check in — what to sort out before you drive to an overnight stay in Jiufen.",
+        "metaAuthor": "My Secret Taiwan Eats Editorial",
+        "metaTopic": "Jiufen · Driving Guide",
+        "intro": "Driving a rental car to Jiufen for the night and wondering where to leave it? Parking in Jiufen is tight, and police traffic control kicks in on busy weekends and holidays, so it pays to plan ahead. This guide is based on New Taipei City Transportation Department announcements, police traffic-control notices, and Taiwanese press reports.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "01 · Jiufen parking at a glance"
+          },
+          {
+            "type": "compareTable",
+            "cities": [
+              "Item",
+              "Geding public lot (隔頂)",
+              "Shuinandong lot (水湳洞)",
+              "New No. 9 lot (新九號)"
+            ],
+            "rows": [
+              {
+                "label": "Size",
+                "values": [
+                  "61 car spaces",
+                  "422 car + 10 bus spaces",
+                  "Mainly 80 bus spaces (some for cars)"
+                ]
+              },
+              {
+                "label": "Rate",
+                "values": [
+                  "Weekdays NT$150 per entry; weekends/holidays NT$50 per hour",
+                  "Free",
+                  "Paid (check the posted rates)"
+                ]
+              },
+              {
+                "label": "Payment",
+                "values": [
+                  "EasyCard, LINE Pay, Apple Pay",
+                  "—",
+                  "Check on site"
+                ]
+              },
+              {
+                "label": "To Jiufen",
+                "values": [
+                  "Already in Jiufen",
+                  "Shuttle bus during traffic control",
+                  "Shuttle bus during traffic control"
+                ]
+              },
+              {
+                "label": "Best for",
+                "values": [
+                  "Weekday arrivals, lots of luggage",
+                  "Weekends/holidays under control",
+                  "Built for tour-bus transfers; a fallback for cars"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "html": "Rates and space counts come from the New Taipei City Transportation Department (Geding lot reopened April 2025; checked October 2026). The Geding site had charged NT$20 per 30 minutes under the district office from September 2024 before it was rebuilt and reopened on April 26, 2025. The department says New No. 9 mainly serves tour buses, so cars should first try Shuinandong or the public lots around Ruifang Station (瑞芳火車站)."
+          },
+          {
+            "type": "h2",
+            "text": "02 · When does weekend traffic control start?"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "1",
+                "b": "General control",
+                "desc": "Only tour buses and other large vehicles are kept out; cars can still drive in."
+              },
+              {
+                "mark": "2",
+                "b": "A-level control",
+                "desc": "Starts when Jiufen's parking is over 80% full. Cars must park at New No. 9 or Shuinandong and switch to the shuttle bus."
+              },
+              {
+                "mark": "3",
+                "b": "Double-A control",
+                "desc": "If traffic keeps building, only public transport such as buses and taxis, residents' vehicles and similar can enter. A Qingming holiday press report also listed permit holders and guesthouse guests as exceptions."
+              },
+              {
+                "mark": "✓",
+                "b": "Hours",
+                "desc": "During the 2024 Mid-Autumn holiday the three-stage control ran daily 08:00–18:00. Police announce each holiday separately, so check the Ruifang police notice before you set off."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
+            "caption": "A Jiufen lane under red lanterns at night. With so many steps and narrow alleys, some guesthouses can't be reached by car at all."
+          },
+          {
+            "type": "h2",
+            "text": "03 · What to check before driving to your Jiufen stay"
+          },
+          {
+            "type": "tipList",
+            "items": [
+              {
+                "mark": "✓",
+                "b": "Ask how parking works",
+                "desc": "When you book, message the property to ask whether it has its own spaces, a partner lot nearby, or parking vouchers."
+              },
+              {
+                "mark": "✓",
+                "b": "Ask about entry during control",
+                "desc": "Guesthouse guests are reported as an exception under double-A control, but ask your host what you need to show at the checkpoint."
+              },
+              {
+                "mark": "✓",
+                "b": "Arrive outside control hours",
+                "desc": "On weekends and holidays, aim to arrive early in the morning before control starts or in the evening after it ends. A weekday arrival is easiest."
+              },
+              {
+                "mark": "✓",
+                "b": "Navigate to the car park",
+                "desc": "Entering the guesthouse address may lead you to an alley cars can't use. Set the car park your host recommends as the destination and walk the last stretch."
+              },
+              {
+                "mark": "✓",
+                "b": "Private lots: read the rates first",
+                "desc": "After a 2024 row over lots switching from per-entry to hourly charges, the city has been running joint inspections. Check the posted rates before entering and keep your receipt."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "04 · On weekends, leave the car and take the bus"
+          },
+          {
+            "type": "p",
+            "html": "If you're staying over a weekend, you can also leave the car at the free Shuinandong lot or a public lot near Ruifang Station and ride the bus in. The Transportation Department lists routes 788, 965 and 1062 among those serving Jiufen, and from Ruifang Station you can take 1062, 788, 825, 827 or 856. If you have a big suitcase, ask your host whether they can pick you up or help with luggage."
+          },
+          {
+            "type": "figure",
+            "img": "assets/images/blog/jiufen-car-stay-parking-guide-2.jpg",
+            "caption": "Red lanterns on a Jiufen street. On weekend afternoons the crowds arrive before the cars do, so park early."
+          },
+          {
+            "type": "quote",
+            "text": "“Please use public transport when visiting Jiufen.” — a line the New Taipei City Transportation Department adds to almost every Jiufen parking notice."
+          },
+          {
+            "type": "p",
+            "html": "Prefer the bus? See <a href=\"/blog-jiufen-bus-965-from-taipei\">how to ride bus 965 to Jiufen</a>, and check <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">Jiufen crowds on Friday vs Sunday</a> before you pick a date. Once you have checked in, browse the <a href=\"/region-jiufen\">Jiufen food map</a> and <a href=\"/jiufen-cafe\">Jiufen cafés</a>. For breakfast there is <a href=\"/jiufen-cafe-twilight-cafe-843\">Twilight Cafe (微光森林)</a> in the lanes above the old street, and for a snack <a href=\"/jiufen-taiwanese-77\">Mei Ping Xiao Chi (美萍小吃)</a>."
+          },
+          {
+            "type": "note",
+            "text": "This guide is based on New Taipei City Transportation Department announcements on the Geding, Shuinandong and New No. 9 lots (June 2023, April 2025), Taiwanese press reports on Ruifang police traffic control (including the 2024 Mid-Autumn holiday), and a 2024 report on Jiufen parking-fee inspections, as of October 2026. Rates and control rules can change, so recheck with your host and the city's notices before you go."
+          },
+          {
+            "type": "cta",
+            "title": "Find Jiufen cafés on the map",
+            "desc": "Pin a café or restaurant within walking distance of where you park to make your evening and morning easier.",
+            "btn": "Open Map →",
+            "href": "/map?region=jiufen&cat=cafe"
+          }
+        ]
+      }
+    },
   "taoyuan-airport-terminal1-free-shower": {
       "heroImage": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
       "ko": {
