@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "xiaoliuqiu-turtle-snorkeling-beach-tips",
+    "image": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 근교 여행 가이드 · 소류구·스노클링",
+      "title": "소류구 거북이 스노클링, 어느 해변이 나을까?",
+      "desc": "중아오 산란기 야간 출입 금지와 거북이 관찰 수칙, 합법 업체·섬 버스 601을 정리했어요.",
+      "meta": "가오슝 근교 · 소류구 가이드"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung Day Trip · Xiaoliuqiu & Snorkeling",
+      "title": "Xiaoliuqiu Turtle Snorkeling: Which Beach and What Rules?",
+      "desc": "Zhong'ao night beach ban, turtle-viewing rules, licensed operators, and island bus 601.",
+      "meta": "Near Kaohsiung · Xiaoliuqiu Guide"
+    }
+  },
+  {
     "slug": "taipei-songshan-airport-egate-registration",
     "image": "assets/images/blog/taipei-songshan-airport-egate-registration-1.jpg",
     "regions": [
@@ -874,6 +893,421 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "xiaoliuqiu-turtle-snorkeling-beach-tips": {
+  "heroImage": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
+  "ko": {
+    "pageTitle": "소류구 거북이 스노클링 — 해변·팁 · 나만 알고 싶은 대만 맛집",
+    "metaDescription": "소류구 거북이 스노클링, 해변과 수칙부터 볼까요? 중아오 야간 출입 금지·看龜守則·합법 업체를 2026년 10월 기준으로 정리했어요.",
+    "ogTitle": "소류구 거북이 스노클링, 어느 해변이 나을까?",
+    "eyebrow": "가오슝 근교 여행 가이드 · 소류구·스노클링",
+    "title": "소류구 거북이 스노클링, 어느 해변이 나을까?",
+    "dek": "동강 페리와 중아오 산란기 야간 출입 금지, 대붕만 관리처 看龜守則과 합법 업체 선택까지 — 들어가기 전에 챙길 것만 골랐습니다.",
+    "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+    "metaTopic": "가오슝 근교 · 소류구 가이드",
+    "intro": "\"소류구에서 거북이 보려면 어느 해변으로 가야 할까요?\" 소류구(小琉球)는 핑둥현 남서쪽 산호초 섬으로, 동강(東港)에서 배로 약 25~30분이면 닿아요. 어느 해변에 거북이가 가장 많다는 말은 공식으로 확인되지 않았고, 대신 산란기 야간 출입 금지와 관찰 수칙이 명확합니다. 琉球鄉公所·대붕만 국가풍경구 관리처 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "01 · 소류구 거북이 스노클링, 한눈에 비교하기"
+      },
+      {
+        "type": "compareTable",
+        "cities": [
+          "항목",
+          "내용",
+          "비고"
+        ],
+        "rows": [
+          {
+            "label": "위치",
+            "values": [
+              "핑둥현 남서쪽 산호초 섬",
+              "동강에서 배로 약 25~30분"
+            ]
+          },
+          {
+            "label": "배 도착지",
+            "values": [
+              "민영 東琉線 → 白沙觀光港",
+              "공영선 → 大福漁港"
+            ]
+          },
+          {
+            "label": "쭤잉 HSR",
+            "values": [
+              "台灣好行 9127D → 東琉線碼頭站",
+              "편도 NT$120(2026년 10월 확인)"
+            ]
+          },
+          {
+            "label": "중아오(中澳)",
+            "values": [
+              "白沙尾 관광부두 왼쪽·白沙國小 뒤",
+              "5/1~10/31 20:00~05:00 출입 금지"
+            ]
+          },
+          {
+            "label": "거북이 수칙",
+            "values": [
+              "만지지 않기·5m 이상·먹이 금지",
+              "야생동물보호법 처벌 가능"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "html": "관리처는 합법 등록 업체를 고르고 看龜守則을 지키라고 안내해요. 개별 스노클링 허용 구역은 방문 전 핑둥현·대붕만 관리처 최신 공지를 확인하세요."
+      },
+      {
+        "type": "h2",
+        "text": "02 · 동강까지, 그리고 배로 소류구"
+      },
+      {
+        "type": "tipList",
+        "items": [
+          {
+            "mark": "✓",
+            "b": "쭤잉 고속철 → 9127D",
+            "desc": "高鐵左營站에서 台灣好行 9127D를 타면 東琉線碼頭站에 내려요. 단정 안내 기준 편도 NT$120입니다(2026년 10월 확인)."
+          },
+          {
+            "mark": "✓",
+            "b": "배 약 25~30분",
+            "desc": "동강 항구에서 교통선을 타면 약 25~30분이에요. 민영 東琉線은 白沙觀光港, 공영선은 大福漁港에 닿습니다."
+          },
+          {
+            "mark": "✓",
+            "b": "기차·시외버스",
+            "desc": "가오슝역·핑둥역에서 시외버스로 동강에 내린 뒤 부두까지 약 10분 걷는 동선도 공소에서 안내해요."
+          },
+          {
+            "mark": "✓",
+            "b": "배 시각은 당일 확인",
+            "desc": "선사 시각과 해상 상황은 자주 바뀌어요. 출발 전에 東琉線·공영선 공지를 다시 보세요."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
+        "caption": "수면 위로 고개를 내민 녹색바다거북이에요(일반 사진, 소류구에서 찍은 사진 아님). 소류구 연안에서도 같은 종을 볼 수 있다고 관리처가 안내해요."
+      },
+      {
+        "type": "h2",
+        "text": "03 · 중아오 해변과 산란기 야간 출입 금지"
+      },
+      {
+        "type": "tipList",
+        "items": [
+          {
+            "mark": "1",
+            "b": "중아오(中澳沙灘) 위치",
+            "desc": "白沙尾 관광부두 왼쪽, 白沙國小 뒤의 넓은 백사장으로 안내돼요. 물놀이·해변 활동 장소로도 소개됩니다."
+          },
+          {
+            "mark": "2",
+            "b": "5/1~10/31 야간 출입 금지",
+            "desc": "녹색바다거북 산란 해변이라, 매년 5월 1일~10월 31일 매일 20:00~이튿날 05:00에는 보호구역 해변과 조간대 출입이 금지돼요."
+          },
+          {
+            "mark": "3",
+            "b": "야간엔 강한 빛·소음 피하기",
+            "desc": "산란기에는 밤 해변 활동을 줄이고, 불가피하면 소리를 낮추고 강한 불빛을 피하는 것이 관리처 권고예요."
+          },
+          {
+            "mark": "✓",
+            "b": "美人洞·花瓶岩",
+            "desc": "관리처 소류구 명소 목록에 있어요. 거북이 '최다' 해변으로 단정할 공식 근거는 없으므로, 스노클링은 합법 업체 코스를 기준으로 고르세요."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "04 · 거북이 관찰 수칙과 스노클링"
+      },
+      {
+        "type": "tipList",
+        "items": [
+          {
+            "mark": "✓",
+            "b": "看龜守則 핵심",
+            "desc": "만지거나 잡거나 놀라게 하거나 쫓거나 둘러싸지 않아요. 길을 막지 않고 5m 이상 거리를 두며, 먹이를 주지 않습니다."
+          },
+          {
+            "mark": "✓",
+            "b": "합법 등록 업체",
+            "desc": "浮潛·潛水는 영업등록이 된 합법 업체를 고르라고 관리처가 권해요. 목록은 대붕만 공식 페이지에서 확인할 수 있습니다."
+          },
+          {
+            "mark": "✓",
+            "b": "구명조끼·버디",
+            "desc": "정부 잠수(浮潛 포함) 관리 지침은 CNS 규격 구명조끼와 스노클·마스크·핀, 짝(버디)을 권장해요. 마스크·아쿠아슈즈만으로 충분하다는 말은 공식 확인이 없습니다."
+          },
+          {
+            "mark": "✓",
+            "b": "보호종·신고",
+            "desc": "바다거북은 1급 보호종이에요. 괴롭히면 1년 이하 징역 또는 NT$6만~30만 벌금이 가능하고, 위반을 보면 해순 118에 신고합니다."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-2.jpg",
+        "caption": "밝은 낮의 열대 해변 풍경이에요(일반 사진, 소류구 중아오가 아님). 산란기에는 밤 해변 출입 금지를 먼저 확인하세요."
+      },
+      {
+        "type": "h2",
+        "text": "05 · 섬 안 이동과 전기자전거"
+      },
+      {
+        "type": "tipList",
+        "items": [
+          {
+            "mark": "✓",
+            "b": "台灣好行 601",
+            "desc": "관광부두 출발 순환버스로 美人洞·花瓶岩 등을 경유해요. 이지카드·iPASS·iCash를 쓸 수 있고, 1일권은 버스 안에서 판매합니다."
+          },
+          {
+            "mark": "✓",
+            "b": "전기자전거는 별도 규정",
+            "desc": "번호판·보험·면허 규정이 따로 있어요. 대여 전에 <a href=\"/blog-xiaoliuqiu-e-bike-rental-guide\">소류구 전기자전거 대여 가이드</a>를 함께 보세요."
+          },
+          {
+            "mark": "✓",
+            "b": "가오슝 환승",
+            "desc": "쭤잉·가오슝을 거쳐 오가는 날에는 <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">가오슝·타이난 유바이크</a> 글도 참고할 수 있어요."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "\"不觸碰、不捉、不驚擾、不追逐、不圍繞海龜.\" — 만지지 말고, 잡지 말고, 놀라게 하지 말고, 쫓지 말고, 둘러싸지 말라는 대붕만 관리처 看龜守則의 첫 줄이에요."
+      },
+      {
+        "type": "p",
+        "html": "소류구를 오가는 길에 가오슝에서 먹을 곳을 고른다면 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>와 <a href=\"/kaohsiung-street_food\">가오슝 노점 맛집</a>, 치진의 <a href=\"/kaohsiung-seafood-782\">치허우 해산(旗后海產)</a>을 함께 보면 동선이 단순해져요."
+      },
+      {
+        "type": "note",
+        "text": "이 글은 屏東縣琉球鄉公所 '前往小琉球' 안내, 대붕만 국가풍경구 관리처 '小琉球旅遊指引'·中澳沙灘 안내·看龜守則, 台灣好行 9127D 요금 안내, 고웅객운 601 노선 안내, 잠수(浮潛 포함) 관리 지침을 바탕으로 2026년 10월 기준으로 정리했습니다. 배 시각·요금·야간 출입 금지 구간·합법 업체 목록은 바뀔 수 있으니 출발 전에 공식 페이지를 다시 확인하는 것을 추천해요."
+      },
+      {
+        "type": "cta",
+        "title": "지도에서 가오슝 맛집도 확인해보세요",
+        "desc": "소류구 오가는 길에 들르기 좋은 가오슝 식당을 미리 찜해 두면 환승 일정이 덜 바빠져요.",
+        "btn": "지도 열기 →",
+        "href": "/map?region=kaohsiung"
+      }
+    ]
+  },
+  "en": {
+    "pageTitle": "Xiaoliuqiu Turtle Snorkeling — Beach Tips · My Secret Taiwan Eats",
+    "metaDescription": "Xiaoliuqiu turtle snorkeling basics: Zhong'ao night beach ban, viewing rules, and licensed operators, as of October 2026.",
+    "ogTitle": "Xiaoliuqiu Turtle Snorkeling: Which Beach and What Rules?",
+    "eyebrow": "Kaohsiung Day Trip · Xiaoliuqiu & Snorkeling",
+    "title": "Xiaoliuqiu Turtle Snorkeling: Which Beach and What Rules?",
+    "dek": "Donggang ferries, Zhong'ao's nesting-season night beach ban, DBNSA turtle-viewing rules, and picking a licensed operator — what to check before you enter the water.",
+    "metaAuthor": "My Secret Taiwan Eats Editorial",
+    "metaTopic": "Near Kaohsiung · Xiaoliuqiu Guide",
+    "intro": "\"Which beach should I pick to see turtles on Xiaoliuqiu?\" Xiaoliuqiu (小琉球) is a coral island southwest of Pingtung; the ferry from Donggang (東港) takes about 25–30 minutes. Claims that one beach has the most turtles are not officially confirmed; the nesting-season night ban and viewing code are. This guide follows Liuchiu Township and Dapeng Bay National Scenic Area (DBNSA) pages, as of October 2026.",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "01 · Turtle Snorkeling on Xiaoliuqiu at a Glance"
+      },
+      {
+        "type": "compareTable",
+        "cities": [
+          "Item",
+          "Detail",
+          "Note"
+        ],
+        "rows": [
+          {
+            "label": "Location",
+            "values": [
+              "Coral island SW of Pingtung",
+              "About 25–30 min by ferry from Donggang"
+            ]
+          },
+          {
+            "label": "Ferry piers",
+            "values": [
+              "Private Tungliu line → Baisha Visitor Pier",
+              "Public ferry → Dafu Fishing Harbor"
+            ]
+          },
+          {
+            "label": "Zuoying HSR",
+            "values": [
+              "Taiwan Tourist Shuttle 9127D → Tungliu Pier stop",
+              "NT$120 one-way (checked Oct 2026)"
+            ]
+          },
+          {
+            "label": "Zhong'ao Beach",
+            "values": [
+              "Left of Baisha visitor pier, behind Baisha Elementary",
+              "May 1–Oct 31, 20:00–05:00 access banned"
+            ]
+          },
+          {
+            "label": "Turtle rules",
+            "values": [
+              "No touch; stay ≥5 m; no feeding",
+              "Penalties under the Wildlife Conservation Act"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "html": "DBNSA asks visitors to choose licensed operators and follow the turtle-viewing code. For DIY snorkel zones, check Pingtung County and DBNSA notices before you go."
+      },
+      {
+        "type": "h2",
+        "text": "02 · To Donggang, Then the Ferry"
+      },
+      {
+        "type": "tipList",
+        "items": [
+          {
+            "mark": "✓",
+            "b": "Zuoying HSR → 9127D",
+            "desc": "From THSR Zuoying, take Taiwan Tourist Shuttle 9127D and alight at the Tungliu Pier stop. Official fare info lists NT$120 one-way (checked October 2026)."
+          },
+          {
+            "mark": "✓",
+            "b": "Ferry ~25–30 minutes",
+            "desc": "Liuchiu Township says the passenger boat from Donggang takes about 25–30 minutes. Private Tungliu boats arrive at Baisha Visitor Pier; the public ferry arrives at Dafu Fishing Harbor."
+          },
+          {
+            "mark": "✓",
+            "b": "Train + highway bus",
+            "desc": "From Kaohsiung or Pingtung stations, take a highway bus to Donggang, then walk about 10 minutes to the pier."
+          },
+          {
+            "mark": "✓",
+            "b": "Recheck sailings the same day",
+            "desc": "Schedules change with weather and operations. Recheck Tungliu and public-ferry notices before you leave."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
+        "caption": "A green sea turtle at the surface (generic photo, not taken on Xiaoliuqiu). DBNSA notes the same species visits the island's waters."
+      },
+      {
+        "type": "h2",
+        "text": "03 · Zhong'ao Beach and the Nesting-Season Night Ban"
+      },
+      {
+        "type": "tipList",
+        "items": [
+          {
+            "mark": "1",
+            "b": "Where Zhong'ao is",
+            "desc": "DBNSA describes Zhong'ao as the wide white beach left of Baishawei visitor pier, behind Baisha Elementary — also listed for swimming and beach activities."
+          },
+          {
+            "mark": "2",
+            "b": "Night ban May 1–Oct 31",
+            "desc": "Green turtles nest here. Each year from May 1 to October 31, from 20:00 to 05:00 the next morning, entry to the protected beach and intertidal zone is banned."
+          },
+          {
+            "mark": "3",
+            "b": "Keep nights quiet and dim",
+            "desc": "During nesting season, avoid night beach activity when possible; keep noise down and avoid strong lights."
+          },
+          {
+            "mark": "✓",
+            "b": "Beauty Cave & Vase Rock",
+            "desc": "Both appear on DBNSA's sights list. There is no official \"most turtles\" ranking by beach, so snorkel via a licensed operator's route."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "04 · Turtle Rules and Snorkeling"
+      },
+      {
+        "type": "tipList",
+        "items": [
+          {
+            "mark": "✓",
+            "b": "Turtle-viewing code",
+            "desc": "Do not touch, catch, startle, chase, or encircle turtles. Do not block their path; stay at least 5 m away; do not feed them."
+          },
+          {
+            "mark": "✓",
+            "b": "Licensed operators only",
+            "desc": "For snorkeling and diving, DBNSA recommends operators with a valid business registration. A licensed list is on the DBNSA site."
+          },
+          {
+            "mark": "✓",
+            "b": "Life jacket and buddy",
+            "desc": "Government diving guidance (including snorkeling) recommends a CNS-compliant life jacket plus snorkel, mask, and fins, and a buddy system."
+          },
+          {
+            "mark": "✓",
+            "b": "Protected species & reporting",
+            "desc": "Sea turtles are Class I protected wildlife. Harassment can mean up to one year in prison or a fine of NT$60,000–300,000. Report violations to the Coast Guard at 118."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-2.jpg",
+        "caption": "A bright tropical beach scene (generic photo, not Zhong'ao on Xiaoliuqiu). Check the night access ban first in nesting season."
+      },
+      {
+        "type": "h2",
+        "text": "05 · Getting Around the Island"
+      },
+      {
+        "type": "tipList",
+        "items": [
+          {
+            "mark": "✓",
+            "b": "Taiwan Tourist Shuttle 601",
+            "desc": "The loop bus starts at the visitor pier and stops near Beauty Cave and Vase Rock. EasyCard, iPASS, and iCash work; a day pass is sold on the bus."
+          },
+          {
+            "mark": "✓",
+            "b": "E-bikes have separate rules",
+            "desc": "Scooters and e-bikes have plate, insurance, and license rules. Read the <a href=\"/blog-xiaoliuqiu-e-bike-rental-guide\">Xiaoliuqiu e-bike rental guide</a> before you rent."
+          },
+          {
+            "mark": "✓",
+            "b": "A transfer in Kaohsiung",
+            "desc": "On transfer days, the <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">Kaohsiung–Tainan YouBike tips</a> post can help with short hops."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "\"Do not touch, catch, startle, chase, or encircle sea turtles.\" — the first line of DBNSA's turtle-viewing code."
+      },
+      {
+        "type": "p",
+        "html": "If you will eat in Kaohsiung on the way, use the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>, <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a>, and Cijin's <a href=\"/kaohsiung-seafood-782\">Chi Hou Seafood (旗后海產)</a> to keep the route simple."
+      },
+      {
+        "type": "note",
+        "text": "This guide is based on Liuchiu Township's getting-there page, DBNSA Xiaoliuqiu travel tips, Zhong'ao Beach notes, the turtle-viewing code, Taiwan Tourist Shuttle 9127D fare info, Kaohsiung Bus route 601 notes, and government diving (including snorkeling) guidance, as of October 2026. Ferry times, fares, night-ban zones, and licensed-operator lists can change — recheck official pages before you go."
+      },
+      {
+        "type": "cta",
+        "title": "Check Kaohsiung restaurants on the map",
+        "desc": "Pinning a few Kaohsiung stops before your Xiaoliuqiu day makes the transfer schedule less rushed.",
+        "btn": "Open map →",
+        "href": "/map?region=kaohsiung"
+      }
+    ]
+  }
+},
   "taipei-songshan-airport-egate-registration": {
     "heroImage": "assets/images/blog/taipei-songshan-airport-egate-registration-1.jpg",
     "ko": {
