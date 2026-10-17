@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "hualien-korean-restaurant-jinxing-set-meal",
+    "image": "assets/images/blog/hualien-korean-restaurant-jinxing-set-meal-1.jpg",
+    "regions": [
+      "hualien"
+    ],
+    "ko": {
+      "eyebrow": "화롄 여행 가이드 · 한식당",
+      "title": "화롄 한식당 금성한정식, 몇 시에 가야 먹을 수 있을까?",
+      "desc": "화롄 시내 금성한정식의 위치·점심 저녁 영업시간·정식 구성과 근처 한식당을 정리했어요.",
+      "meta": "화롄 · 한식 맛집 가이드"
+    },
+    "en": {
+      "eyebrow": "Hualien Travel Guide · Korean Food",
+      "title": "Jinxing Korean Set Meals in Hualien: When Can You Actually Eat There?",
+      "desc": "Location, lunch and dinner hours, what comes with the set meal, and other Korean spots nearby in Hualien.",
+      "meta": "Hualien · Korean Food Guide"
+    }
+  },
+  {
     "slug": "yehliu-jiufen-taxi-vs-bus-tour",
     "image": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
     "regions": [
@@ -913,6 +932,289 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "hualien-korean-restaurant-jinxing-set-meal": {
+    "heroImage": "assets/images/blog/hualien-korean-restaurant-jinxing-set-meal-1.jpg",
+    "ko": {
+      "pageTitle": "화롄 한식당 금성한정식 — 영업시간·위치 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "화롄 한식당 금성한정식(金星韓定食), 언제 문을 열고 어디에 있을까요? 博愛街 위치, 점심·저녁 영업시간, 정식 구성을 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "화롄 한식당 금성한정식, 몇 시에 가야 먹을 수 있을까?",
+      "eyebrow": "화롄 여행 가이드 · 한식당",
+      "title": "화롄 한식당 금성한정식, 몇 시에 가야 먹을 수 있을까?",
+      "dek": "점심 두 시간 반, 저녁 두 시간 반 — 짧은 영업시간과 적은 좌석, 정식 한 상 구성까지 가기 전에 알아 둘 것만 골랐습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "화롄 · 한식 맛집 가이드",
+      "intro": "\"화롄에서 며칠 지내다 보니 김치랑 밥이 그리운데, 한식당 어디 없을까요?\" 화롄 시내 博愛街(보아이제)에 있는 화롄 한식당 금성한정식(金星韓定食)은 맛집 지도에 여행자가 직접 등록한 곳이에요. 구글 지도 등록 정보, 배달 앱 매장 페이지, 현지 블로그 방문 후기를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 금성한정식 기본 정보, 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "금성한정식(金星韓定食)"
+          ],
+          "rows": [
+            {
+              "label": "주소",
+              "values": [
+                "花蓮縣花蓮市博愛街86號 (화롄 시내, 화롄역에서 직선 약 2km)"
+              ]
+            },
+            {
+              "label": "영업시간",
+              "values": [
+                "월~토 12:00~14:30 / 18:00~20:30 (구글 지도 등록 정보)"
+              ]
+            },
+            {
+              "label": "휴무",
+              "values": [
+                "일요일"
+              ]
+            },
+            {
+              "label": "예약",
+              "values": [
+                "받지 않음 (구글 지도 등록명에 '無提供訂位' 표기)"
+              ]
+            },
+            {
+              "label": "배달",
+              "values": [
+                "foodpanda·Uber Eats 입점"
+              ]
+            },
+            {
+              "label": "가격 예",
+              "values": [
+                "돼지불고기 정식 NT$220 (2023년 7월 방문 후기)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "영업시간은 2026년 10월 기준 구글 지도 등록 정보예요. 배달 앱에는 점심 12:30~14:00, 저녁 18:30~20:00 전후로 더 짧게 잡혀 있어서, 매장에 직접 간다면 마감 30분 전에는 도착하는 편이 안전합니다."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 금성한정식 정식 한 상에는 뭐가 나올까"
+        },
+        {
+          "type": "p",
+          "html": "2023년 7월 현지 블로거의 방문 후기를 보면 돼지불고기 정식(韓式烤肉定食)에 반찬 6가지, 불고기, 밥 한 공기, 국 한 그릇, 김이 함께 나왔고 가격은 NT$220이었어요. 후기에서는 잔멸치 반찬이 특히 맛있었다고 했습니다. 2024년 9월에 덧붙인 사진에는 짜장면과 짬뽕(炒碼麵)도 있어서 정식 말고 면 요리도 고를 수 있어요. 가격은 그 뒤에 바뀌었을 수 있으니 현장 메뉴판을 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/hualien-korean-restaurant-jinxing-set-meal-1.jpg",
+          "caption": "한정식 한 상에는 밥과 국 옆에 반찬이 여러 가지 깔려요. 사진은 한식 반찬 예시예요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가기 전에 알아 둘 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "일요일은 쉬어요",
+              "desc": "월~토에만 문을 열어요. 화롄 일정이 주말에 걸리면 토요일로 잡는 게 안전합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "점심은 14:30까지",
+              "desc": "2023년 후기에도 점심 영업이 2시 반까지라고 적혀 있어요. 투어 끝나고 늦은 점심을 먹을 생각이면 마감 시간부터 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "좌석이 적어요",
+              "desc": "후기에 따르면 매장 공식 페이스북에도 좌석이 적다고 안내돼 있어요. 식사 시간 한가운데를 조금 피해 가면 덜 기다릴 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "예약은 안 돼요",
+              "desc": "구글 지도 등록명에 예약을 받지 않는다고 적혀 있어요. 인원이 많으면 포장이나 배달도 방법이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "숙소에서 배달로도",
+              "desc": "foodpanda와 Uber Eats에 입점해 있고, foodpanda 평점은 4.9점(리뷰 89개)으로 나와 있어요(2026년 10월 확인)."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 화롄 시내 다른 한식당도 같이 보기"
+        },
+        {
+          "type": "p",
+          "html": "금성한정식이 쉬는 날이나 자리가 없을 때는 같은 博愛街에 있는 <a href=\"/hualien-korean-890\">夫婦韓食堂 부부한식당</a>(博愛街117號, 김밥 위주)이나, 현지 블로그에서 화롄의 오래된 한식당으로 소개하는 <a href=\"/hualien-korean-arirang-restaurant-889\">아리랑 한식당(阿里郎韓式料理)</a>도 맛집 지도에 있어요. 부부한식당은 영업시간이 후기마다 달라서 방문 전에 구글 지도로 확인하는 걸 추천합니다."
+        },
+        {
+          "type": "quote",
+          "text": "\"套餐有6樣小菜+一份烤豬肉+一碗白飯+一碗湯+一份小海苔.\" — 정식에 반찬 6가지, 불고기, 밥, 국, 김이 나왔다는 2023년 현지 블로거의 방문 후기예요."
+        },
+        {
+          "type": "p",
+          "html": "화롄 한식당을 더 보고 싶다면 <a href=\"/hualien-korean\">화롄 한식 맛집</a> 목록과 <a href=\"/region-hualien\">화롄 맛집 지도</a>를 함께 보세요. 상세 페이지는 <a href=\"/hualien-korean-891\">金星韓定食 금성한정식</a>에 있고, 아직 숙소를 정하지 않았다면 <a href=\"/blog-hualien-hotel-location-guide\">화롄 숙소 위치 가이드</a>도 참고할 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 구글 지도 등록 정보(주소·영업시간·예약 여부), foodpanda·Uber Eats 매장 페이지, 현지 블로그 방문 후기(2023년 7월 작성, 2024년 9월 업데이트)를 바탕으로 2026년 10월 기준으로 정리했습니다. 가격·메뉴·영업시간은 바뀔 수 있으니 방문 전에 구글 지도와 매장 공지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 화롄 한식 맛집도 확인해보세요",
+          "desc": "금성한정식, 부부한식당, 아리랑까지 화롄 시내 한식당을 지도에서 한 번에 볼 수 있어요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=hualien&cat=korean"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Jinxing Korean Set Meal Hualien — Hours & Location · My Secret Taiwan Eats",
+      "metaDescription": "Jinxing Korean Set Meal (金星韓定食) in Hualien: Bo'ai Street location, lunch and dinner hours, and what the set meal includes, as of October 2026.",
+      "ogTitle": "Jinxing Korean Set Meals in Hualien: When Can You Actually Eat There?",
+      "eyebrow": "Hualien Travel Guide · Korean Food",
+      "title": "Jinxing Korean Set Meals in Hualien: When Can You Actually Eat There?",
+      "dek": "Two and a half hours at lunch, two and a half at dinner — short hours, few seats, and what you get on the tray, checked before you go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Hualien · Korean Food Guide",
+      "intro": "\"A few days into Hualien and I'm craving kimchi and rice — is there a Korean place?\" Jinxing Korean Set Meal (金星韓定食) on Bo'ai Street (博愛街) in central Hualien is on our map, added by a traveler. This guide is based on its Google Maps listing, delivery-app store pages and a local blogger's visit, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Jinxing at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Jinxing Korean Set Meal (金星韓定食)"
+          ],
+          "rows": [
+            {
+              "label": "Address",
+              "values": [
+                "No. 86, Bo'ai St, Hualien City (central Hualien, about 2 km in a straight line from Hualien Station)"
+              ]
+            },
+            {
+              "label": "Hours",
+              "values": [
+                "Mon–Sat 12:00–14:30 / 18:00–20:30 (Google Maps listing)"
+              ]
+            },
+            {
+              "label": "Closed",
+              "values": [
+                "Sunday"
+              ]
+            },
+            {
+              "label": "Reservations",
+              "values": [
+                "Not accepted (the Google Maps name says 無提供訂位)"
+              ]
+            },
+            {
+              "label": "Delivery",
+              "values": [
+                "foodpanda and Uber Eats"
+              ]
+            },
+            {
+              "label": "Price example",
+              "values": [
+                "Pork bulgogi set NT$220 (July 2023 visit)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The hours above are from the Google Maps listing as of October 2026. Delivery apps list shorter windows, roughly 12:30–14:00 and 18:30–20:00, so if you are eating in, aim to arrive at least 30 minutes before closing."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What comes with the set meal"
+        },
+        {
+          "type": "p",
+          "html": "A local blogger who visited in July 2023 got the pork bulgogi set (韓式烤肉定食) with six side dishes, bulgogi, a bowl of rice, soup and seaweed for NT$220, and singled out the small dried anchovies as the best side. Photos added in September 2024 also show jajangmyeon and jjamppong (炒碼麵), so noodles are an option too. Prices may have changed since, so check the menu on site."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/hualien-korean-restaurant-jinxing-set-meal-1.jpg",
+          "caption": "A Korean set meal comes with rice, soup and several side dishes. This is an example photo of Korean banchan."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Before you go"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Closed on Sundays",
+              "desc": "It opens Monday to Saturday only. If your Hualien days fall on a weekend, Saturday is the safer pick."
+            },
+            {
+              "mark": "✓",
+              "b": "Lunch ends at 14:30",
+              "desc": "The 2023 review also notes lunch runs until 2:30 p.m. Planning a late lunch after a tour? Check the closing time first."
+            },
+            {
+              "mark": "✓",
+              "b": "Few seats",
+              "desc": "According to the review, the shop's own Facebook page says seating is limited. Going slightly before or after the peak can mean a shorter wait."
+            },
+            {
+              "mark": "✓",
+              "b": "No reservations",
+              "desc": "The Google Maps listing says reservations aren't taken. For a bigger group, takeaway or delivery is an option."
+            },
+            {
+              "mark": "✓",
+              "b": "Delivery to your hotel",
+              "desc": "It's on foodpanda and Uber Eats; foodpanda shows a 4.9 rating from 89 reviews (checked October 2026)."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Other Korean spots in central Hualien"
+        },
+        {
+          "type": "p",
+          "html": "If Jinxing is closed or full, <a href=\"/hualien-korean-890\">夫婦韓食堂 Bubu Korean Kitchen</a> (No. 117, Bo'ai St, mostly gimbap) on the same street and <a href=\"/hualien-korean-arirang-restaurant-889\">Arirang Restaurant (阿里郎韓式料理)</a>, described by local bloggers as a long-running Hualien Korean restaurant, are also on our map. Bubu's hours differ between reviews, so check Google Maps before you go."
+        },
+        {
+          "type": "quote",
+          "text": "\"套餐有6樣小菜+一份烤豬肉+一碗白飯+一碗湯+一份小海苔.\" — a local blogger's 2023 review: six sides, bulgogi, rice, soup and seaweed."
+        },
+        {
+          "type": "p",
+          "html": "For more, see <a href=\"/hualien-korean\">Korean restaurants in Hualien</a> and the <a href=\"/region-hualien\">Hualien food map</a>. Jinxing's own page is <a href=\"/hualien-korean-891\">金星韓定食 Jinxing</a>, and if you haven't booked a room yet, our <a href=\"/blog-hualien-hotel-location-guide\">Hualien hotel location guide</a> may help."
+        },
+        {
+          "type": "note",
+          "text": "Based on the Google Maps listing (address, hours, reservations), foodpanda and Uber Eats store pages, and a local blogger's review (written July 2023, updated September 2024), as of October 2026. Prices, menu and hours can change, so check Google Maps and the shop's notices before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Check Korean restaurants in Hualien on the map",
+          "desc": "See Jinxing, Bubu and Arirang on one map of central Hualien.",
+          "btn": "Open Map →",
+          "href": "/map?region=hualien&cat=korean"
+        }
+      ]
+    }
+  },
   "yehliu-jiufen-taxi-vs-bus-tour": {
     "heroImage": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
     "ko": {
