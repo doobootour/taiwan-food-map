@@ -1053,7 +1053,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "북촌순두부(北村豆腐家)는 꾸이린루(桂林路) 1호, 예전 까르푸 꾸이린점 건물 4층에 있어요. 순두부 밥 세트, 불고기 철판덮밥, 오징어볶음이 추천 메뉴로 꼽히고, 칼칼하고 간이 적당하다는 평입니다. 2025년 1월 후기 기준으로 3명이 NT$1,221을 냈어요. <a href=\"https://maps.app.goo.gl/dsfWgvNaffdEexW17\" target=\"_blank\" rel=\"noopener\">구글맵에서 북촌순두부 보기</a>"
+          "html": "북촌순두부(北村豆腐家)는 꾸이린루(桂林路) 1호, 예전 까르푸 꾸이린점 건물 4층에 있어요. 순두부 밥 세트, 불고기 철판덮밥, 오징어볶음이 추천 메뉴로 꼽히고, 칼칼하고 간이 적당하다는 평입니다. 2025년 1월 후기 기준으로 3명이 NT$1,221을 냈어요. <a href=\"https://maps.app.goo.gl/dsfWgvNaffdEexW17\" target=\"_blank\" rel=\"noopener\">구글맵에서 북촌순두부 보기</a> · <a href=\"/taipei-korean-85\">taiwanbite 맛집 지도에서 북촌순두부 보기</a>"
         },
         {
           "type": "tipList",
