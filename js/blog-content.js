@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-ximending-korean-mart-soju-price",
+    "image": "assets/images/blog/taipei-ximending-korean-mart-soju-price-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 쇼핑",
+      "title": "타이베이 시먼딩 한국 소주, 어디서 사야 제일 저렴할까?",
+      "desc": "시먼딩 홍러우 뒤 한국 식품점 4곳의 위치·영업시간과 후기 속 소주 가격을 비교했어요.",
+      "meta": "타이베이 · 시먼딩 쇼핑 가이드"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Shopping",
+      "title": "Korean Soju in Ximending: Where Is It Cheapest?",
+      "desc": "Four Korean grocery shops behind the Red House in Ximending: locations, hours and soju prices from reviews.",
+      "meta": "Taipei · Ximending Shopping Guide"
+    }
+  },
+  {
     "slug": "hualien-korean-restaurant-jinxing-set-meal",
     "image": "assets/images/blog/hualien-korean-restaurant-jinxing-set-meal-1.jpg",
     "regions": [
@@ -932,6 +951,361 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-ximending-korean-mart-soju-price": {
+    "heroImage": "assets/images/blog/taipei-ximending-korean-mart-soju-price-1.jpg",
+    "ko": {
+      "pageTitle": "시먼딩 한국 소주 싸게 사는 곳 — 가격 비교 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "시먼딩에서 한국 소주를 싸게 살 수 있는 한국 식품점 4곳의 위치·영업시간과 후기 속 소주 가격을 대만 일반 판매가와 비교해 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "타이베이 시먼딩 한국 소주, 어디서 사야 제일 저렴할까?",
+      "eyebrow": "타이베이 여행 가이드 · 쇼핑",
+      "title": "타이베이 시먼딩 한국 소주, 어디서 사야 제일 저렴할까?",
+      "dek": "홍러우 뒤 100m 안에 모인 한국 식품점 네 곳, 후기에 남은 한 병 가격, 사기 전에 챙길 나이 확인까지 — 숙소 가는 길에 들르기 좋게 묶었습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 시먼딩 쇼핑 가이드",
+      "intro": "\"대만 편의점 소주는 비싸던데, 시먼딩에 한국 소주 싸게 파는 데가 있다면서요?\" 시먼딩 홍러우(西門紅樓) 뒤 西寧南路(시닝난루)와 內江街(네이장제) 일대에는 한국 식품점이 모여 있어서, 시먼딩에서 한국 소주를 싸게 사려면 이 골목이 첫 후보예요. 매장 공식 안내, 구글 지도 후기, 대만 현지 기사와 블로그를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 시먼딩 한국 소주 가격, 후기로 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "어디서",
+            "후기 속 가격 (360ml 한 병)",
+            "자료 시점"
+          ],
+          "rows": [
+            {
+              "label": "韓聯 한국 식품점(시먼딩)",
+              "values": [
+                "꿀레몬 소주 NT$120 (작은 소주잔 증정)",
+                "2022년 2월 구글 지도 후기"
+              ]
+            },
+            {
+              "label": "韓聯 (옛 기록)",
+              "values": [
+                "오리지널 NT$120, 유자 소주 NT$150",
+                "2015년 SNS 가격 기록"
+              ]
+            },
+            {
+              "label": "시먼딩 한국 식품점 vs 대형마트",
+              "values": [
+                "과일 소주 NT$140 vs 대형마트 NT$169~189",
+                "온라인 후기(작성 시점 불분명)"
+              ]
+            },
+            {
+              "label": "대만 일반 매장",
+              "values": [
+                "보통 NT$180 안팎, NT$150짜리도 있음",
+                "2025년 4월 대만 블로거 글"
+              ]
+            },
+            {
+              "label": "대만 한식당",
+              "values": [
+                "NT$250~300 이상",
+                "2025년 4월 대만 블로거 글"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "후기에 남은 시먼딩 한국 식품점 소주 값은 NT$120~150 선이고, 다른 매장 이야기는 NT$150~180대가 많아요. 'NT$100에 판다'는 이야기도 있지만 이번에 찾은 자료에서는 확인되지 않았어요. 브랜드·맛·행사에 따라 다르니 현장 가격표를 꼭 보세요. 편의점과 대형마트의 공식 가격표도 찾지 못해서 위 표는 모두 후기 기준이에요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 홍러우 뒤 한국 식품점 4곳, 위치와 영업시간"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "韓聯食品百貨 (한련)",
+              "desc": "西寧南路82巷8號. 공식 안내 기준 월~토 10:00~20:00, 일 12:00~17:00이고, 시먼역 1번 출구 근처예요. 한국어 상담이 된다고 안내하고, 네 곳 중 가장 크다고 소개됩니다."
+            },
+            {
+              "mark": "2",
+              "b": "百昌韓式百貨 (백창)",
+              "desc": "西寧南路201號. 소주·과일 소주·막걸리 등 술 종류가 30가지가 넘는다고 소개된 곳이에요. 구글 지도 기준 월~토 10:00~20:00, 일요일 휴무예요."
+            },
+            {
+              "mark": "3",
+              "b": "天颺韓國食品百貨",
+              "desc": "內江街63號. 업소용 대용량이 많지만 낱개로도 판다고 소개됐어요."
+            },
+            {
+              "mark": "4",
+              "b": "高麗商行",
+              "desc": "內江街54號. 가장 작은 가게지만 과자 종류가 가장 많다고 소개됐어요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "2022년 대만 기사에 따르면 네 곳은 西寧南路와 內江街가 만나는 곳을 중심으로 반경 100m 안에 모여 있어서, 한 바퀴 돌며 가격표를 비교하기 쉬워요. 天颺와 高麗商行은 영업시간을 확인하지 못했으니 방문 전에 구글 지도로 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-ximending-korean-mart-soju-price-1.jpg",
+          "caption": "익숙한 초록 병 소주도 시먼딩 한국 식품점에서 살 수 있어요. 사진은 소주 예시예요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 시먼딩에서 한국 소주 싸게 사는 요령"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "한 바퀴 돌고 비교",
+              "desc": "네 곳이 걸어서 몇 분 거리라 같은 소주 가격을 가게마다 비교해 보기 좋아요."
+            },
+            {
+              "mark": "✓",
+              "b": "오리지널이 과일 소주보다 쌀 수 있어요",
+              "desc": "한련 옛 기록에서도 오리지널 NT$120, 유자 소주 NT$150처럼 차이가 났어요."
+            },
+            {
+              "mark": "✓",
+              "b": "여러 병이면 박스 가격 물어보기",
+              "desc": "한련은 도매와 소매를 함께 하고, 상품 안내에 소주를 20병 한 박스 단위로 적어 두었어요. 박스 가격은 매장에 물어보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "술은 매장에서만",
+              "desc": "한련 상품 안내에 술은 온라인으로 주문할 수 없다고 적혀 있어요. 직접 가서 사야 합니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 사기 전에 챙길 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "만 18세 미만은 살 수 없어요",
+              "desc": "대만은 18세 미만에게 술을 팔지 않고, 한련 상품 안내에도 '未滿18歲請勿飲酒(18세 미만 음주 금지)'가 적혀 있어요. 나이 확인을 요청받을 수 있으니 신분증을 챙기면 편해요."
+            },
+            {
+              "mark": "✓",
+              "b": "일요일 오후는 서두르기",
+              "desc": "한련은 일요일에 12:00~17:00만 열고, 백창은 구글 지도 기준 일요일에 쉬어요."
+            },
+            {
+              "mark": "✓",
+              "b": "한국에 가져갈 거라면",
+              "desc": "한국 입국 주류 면세는 합계 2L, 미화 400달러 이하예요. 360ml 소주 5병이면 1.8L입니다. 자세한 건 <a href=\"/blog-taipei-liquid-checked-baggage-guide\">대만 간식·술 기내 반입 가이드</a>를 보세요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"西門町的韓貨商行除了有超多在大賣場找不到的商品之外，動輒 30%~50% 的差價絕對值得你專程前往.\" — 시먼딩 한국 식품점은 대형마트보다 30~50% 싼 경우가 많다는 2022년 대만 기사 내용이에요."
+        },
+        {
+          "type": "p",
+          "html": "소주와 함께 먹을 저녁은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 고를 수 있고, 한식이 그리우면 <a href=\"/taipei-korean-nabiya-846\">Nabiya 나비야 한식</a>도 지도에 있어요. 한잔 더 하고 싶다면 <a href=\"/taipei-bar\">타이베이 바</a> 목록도 있습니다. 숙소를 고르는 중이라면 <a href=\"/blog-taipei-hotel-location-ximen-main-station-zhongshan\">시먼·메인역·중산 숙소 위치 비교</a>를 참고하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 韓聯企業 공식 홈페이지(주소·영업시간·상품 안내, 2026년 10월 확인), 百昌韓式百貨 공식 페이지, 구글 지도 등록 정보와 후기(2022년 2월), 2022년 7월 대만 기사(電影神搜), 2015년 SNS 가격 기록, 2024년 9월 Threads 글, 2025년 4월 대만 블로거 글을 바탕으로 2026년 10월 기준으로 정리했습니다. 소주 가격은 모두 후기 기준이라 지금은 다를 수 있으니 현장 가격표를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 시먼딩 근처 맛집도 확인해보세요",
+          "desc": "소주 사러 가는 길에 들를 타이베이 맛집을 지도에서 미리 찜해 두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Cheap Korean Soju in Ximending — Korean Grocers · My Secret Taiwan Eats",
+      "metaDescription": "Where to buy Korean soju cheaply in Ximending: four Korean grocery shops, their locations and hours, and review-based soju prices compared with typical Taiwan retail, as of October 2026.",
+      "ogTitle": "Korean Soju in Ximending: Where Is It Cheapest?",
+      "eyebrow": "Taipei Travel Guide · Shopping",
+      "title": "Korean Soju in Ximending: Where Is It Cheapest?",
+      "dek": "Four Korean grocers within 100 m behind the Red House, the per-bottle prices people have reported, and the age check to expect — grouped so you can stop by on your way back to the hotel.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Ximending Shopping Guide",
+      "intro": "\"Soju at Taiwan's convenience stores felt pricey — is there somewhere in Ximending that sells it cheaper?\" Behind the Red House (西門紅樓), around Xining South Road (西寧南路) and Neijiang Street (內江街), there is a small cluster of Korean grocery shops, and it's the first place to check. This guide is based on the shops' own pages, Google Maps reviews, a Taiwanese article and blogs, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Ximending soju prices from reviews"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Where",
+            "Reported price (360 ml bottle)",
+            "Source date"
+          ],
+          "rows": [
+            {
+              "label": "Hanlien (韓聯), Ximending",
+              "values": [
+                "Honey-lemon soju NT$120 (with a small shot glass)",
+                "Google Maps review, Feb 2022"
+              ]
+            },
+            {
+              "label": "Hanlien (older record)",
+              "values": [
+                "Original NT$120, yuzu soju NT$150",
+                "Social post, 2015"
+              ]
+            },
+            {
+              "label": "Ximending Korean shop vs hypermarket",
+              "values": [
+                "Fruit soju NT$140 vs NT$169–189 at hypermarkets",
+                "Online review (date unclear)"
+              ]
+            },
+            {
+              "label": "Typical Taiwan retail",
+              "values": [
+                "Usually around NT$180, some at NT$150",
+                "Taiwanese blogger, Apr 2025"
+              ]
+            },
+            {
+              "label": "Korean restaurants in Taiwan",
+              "values": [
+                "NT$250–300 or more",
+                "Taiwanese blogger, Apr 2025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Reviews put soju at Ximending's Korean grocers around NT$120–150, while other shops are usually mentioned at NT$150–180. You may hear NT$100, but we could not confirm that in the sources we found. Prices vary by brand, flavor and promotion, so check the shelf tag. We also could not find official convenience-store or hypermarket price lists, so everything in the table is review-based."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Four Korean grocers behind the Red House"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Hanlien Korean Food (韓聯食品百貨)",
+              "desc": "No. 8, Ln. 82, Xining S. Rd. Officially open Mon–Sat 10:00–20:00 and Sun 12:00–17:00, near Ximen Station Exit 1. It says Korean is spoken, and it is described as the largest of the four."
+            },
+            {
+              "mark": "2",
+              "b": "Baichang Korean Store (百昌韓式百貨)",
+              "desc": "No. 201, Xining S. Rd. Described as having 30+ kinds of soju, fruit soju and makgeolli. Google Maps lists Mon–Sat 10:00–20:00, closed Sunday."
+            },
+            {
+              "mark": "3",
+              "b": "Tianyang Korean Food (天颺韓國食品百貨)",
+              "desc": "No. 63, Neijiang St. Lots of bulk restaurant-size goods, but single items are sold too."
+            },
+            {
+              "mark": "4",
+              "b": "Gaoli Store (高麗商行)",
+              "desc": "No. 54, Neijiang St. The smallest shop, but described as having the widest range of snacks."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "A 2022 Taiwanese article says all four sit within about 100 m of the Xining S. Rd and Neijiang St intersection, so it's easy to walk a loop and compare tags. We could not confirm hours for Tianyang and Gaoli, so check Google Maps before you go."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-ximending-korean-mart-soju-price-1.jpg",
+          "caption": "The familiar green soju bottles are easy to find at Ximending's Korean grocers. This is an example photo."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Tips for buying soju cheaply in Ximending"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Walk the loop and compare",
+              "desc": "The four shops are a few minutes apart, so you can compare the same bottle across them."
+            },
+            {
+              "mark": "✓",
+              "b": "Original can be cheaper than fruit flavors",
+              "desc": "Hanlien's older record shows original at NT$120 and yuzu at NT$150."
+            },
+            {
+              "mark": "✓",
+              "b": "Buying several? Ask about a case",
+              "desc": "Hanlien is a wholesaler and retailer and lists soju in cases of 20 bottles. Ask in store for the case price."
+            },
+            {
+              "mark": "✓",
+              "b": "Alcohol is in-store only",
+              "desc": "Hanlien's product pages say alcohol can't be ordered online, so you have to buy it in person."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Before you buy"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Under 18? You can't buy",
+              "desc": "Taiwan does not sell alcohol to under-18s, and Hanlien's product pages carry the notice 未滿18歲請勿飲酒 (no drinking under 18). You may be asked for ID, so carry some."
+            },
+            {
+              "mark": "✓",
+              "b": "Sunday afternoons are short",
+              "desc": "Hanlien is open only 12:00–17:00 on Sundays, and Google Maps lists Baichang as closed on Sundays."
+            },
+            {
+              "mark": "✓",
+              "b": "Taking it back to Korea?",
+              "desc": "Korea's duty-free alcohol allowance is 2 L total and US$400 or less. Five 360 ml bottles come to 1.8 L. See our <a href=\"/blog-taipei-liquid-checked-baggage-guide\">Taiwan snacks and alcohol baggage guide</a>."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"西門町的韓貨商行除了有超多在大賣場找不到的商品之外，動輒 30%~50% 的差價絕對值得你專程前往.\" — a 2022 Taiwanese article saying Ximending's Korean grocers are often 30–50% cheaper than hypermarkets."
+        },
+        {
+          "type": "p",
+          "html": "Pick a dinner to go with your soju on the <a href=\"/region-taipei\">Taipei food map</a>, or if you miss Korean food, <a href=\"/taipei-korean-nabiya-846\">Nabiya Korean</a> is on the map too. For another round, see <a href=\"/taipei-bar\">Taipei bars</a>. Still choosing a hotel? Try our <a href=\"/blog-taipei-hotel-location-ximen-main-station-zhongshan\">Ximen vs Main Station vs Zhongshan comparison</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Hanlien's official website (address, hours, product notes; checked October 2026), Baichang's official page, Google Maps listings and a February 2022 review, a July 2022 Taiwanese article (Agent Movie), a 2015 social price record, a September 2024 Threads post and an April 2025 Taiwanese blog, as of October 2026. All soju prices are from reviews and may have changed, so check the shelf price in store."
+        },
+        {
+          "type": "cta",
+          "title": "Find restaurants near Ximending on the map",
+          "desc": "Pin a few Taipei spots to stop by on your soju run.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
+  },
   "hualien-korean-restaurant-jinxing-set-meal": {
     "heroImage": "assets/images/blog/hualien-korean-restaurant-jinxing-set-meal-1.jpg",
     "ko": {
