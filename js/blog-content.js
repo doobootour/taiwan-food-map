@@ -1016,7 +1016,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "은하동(銀河洞)은 룽창제(龍昌街) 7호에 있는 한식 포차예요. 한국인 사장님이 있어서 중국어를 못 해도 주문이 어렵지 않고, 맛도 한국과 같다는 평이 있는 곳입니다. <a href=\"https://maps.app.goo.gl/epUjkWuo6wkqoctp9\" target=\"_blank\" rel=\"noopener\">구글맵에서 은하동 보기</a>"
+          "html": "은하동(銀河洞)은 룽창제(龍昌街) 7호에 있는 한식 포차예요. 한국인 사장님이 있어서 중국어를 못 해도 주문이 어렵지 않고, 맛도 한국과 같다는 평이 있는 곳입니다. <a href=\"https://maps.app.goo.gl/epUjkWuo6wkqoctp9\" target=\"_blank\" rel=\"noopener\">구글맵에서 은하동 보기</a> · <a href=\"/taipei-korean-pocha-977\">taiwanbite 맛집 지도에서 은하동 보기</a>"
         },
         {
           "type": "tipList",
@@ -1091,7 +1091,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "東大門韓國特色料理 西門店(동대문)은 쿤밍제(昆明街) 92-1호 4층, 西門客棧 건물에 있어요. 한국분이 운영하는 식당으로, 부대찌개·닭도리탕·불고기·고기구이를 냅니다. 메뉴 구성과 가격은 구글맵에서 미리 확인해보세요. 구글맵 기준 11:30에 열고, 전화는 02-2331-5582입니다. <a href=\"https://maps.app.goo.gl/Wo6zMLUBuxLTYM8x5\" target=\"_blank\" rel=\"noopener\">구글맵에서 동대문 보기</a>"
+          "html": "東大門韓國特色料理 西門店(동대문)은 쿤밍제(昆明街) 92-1호 4층, 西門客棧 건물에 있어요. 한국분이 운영하는 식당으로, 부대찌개·닭도리탕·불고기·고기구이를 냅니다. 메뉴 구성과 가격은 구글맵에서 미리 확인해보세요. 구글맵 기준 11:30에 열고, 전화는 02-2331-5582입니다. <a href=\"https://maps.app.goo.gl/Wo6zMLUBuxLTYM8x5\" target=\"_blank\" rel=\"noopener\">구글맵에서 동대문 보기</a> · <a href=\"/taipei-korean-978\">taiwanbite 맛집 지도에서 동대문 보기</a>"
         },
         {
           "type": "h2",
@@ -1099,7 +1099,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "금하동(金河洞)은 청두루(成都路) 100之1호 1층의 삼겹살 전문점이에요. 리뷰 6,012개에 ★4.9로 네 곳 중 리뷰가 가장 많습니다. 삼겹살이 초벌돼 나오고, 마지막에 전골까지 먹으면 좋다는 추천이 있어요. 전화 예약은 받지 않고 온라인 예약(MENU 店+)을 받으니 저녁 시간이면 미리 예약해 두는 편이 편해요. 구글맵 기준 새벽 2시까지 영업해요. <a href=\"https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%B3%E6%B4%9E-%E9%9F%93%E5%BC%8F%E7%83%A4%E8%82%89%E5%B0%88%E9%96%80%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E6%88%90%E9%83%BD%E8%B7%AF100%E4%B9%8B1%E8%99%9F\" target=\"_blank\" rel=\"noopener\">구글맵에서 금하동 보기</a>"
+          "html": "금하동(金河洞)은 청두루(成都路) 100之1호 1층의 삼겹살 전문점이에요. 리뷰 6,012개에 ★4.9로 네 곳 중 리뷰가 가장 많습니다. 삼겹살이 초벌돼 나오고, 마지막에 전골까지 먹으면 좋다는 추천이 있어요. 전화 예약은 받지 않고 온라인 예약(MENU 店+)을 받으니 저녁 시간이면 미리 예약해 두는 편이 편해요. 구글맵 기준 새벽 2시까지 영업해요. <a href=\"https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%B3%E6%B4%9E-%E9%9F%93%E5%BC%8F%E7%83%A4%E8%82%89%E5%B0%88%E9%96%80%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E6%88%90%E9%83%BD%E8%B7%AF100%E4%B9%8B1%E8%99%9F\" target=\"_blank\" rel=\"noopener\">구글맵에서 금하동 보기</a> · <a href=\"/taipei-korean-979\">taiwanbite 맛집 지도에서 금하동 보기</a>"
         },
         {
           "type": "figure",
