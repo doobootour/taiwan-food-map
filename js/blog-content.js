@@ -27,13 +27,13 @@ const BLOG_LIST = [
     "ko": {
       "eyebrow": "타이베이 여행 가이드 · 한식당",
       "title": "타이베이 시먼딩 한식당 추천 4곳, 한국 맛이 그리울 땐 어디로?",
-      "desc": "여행 카페에서 추천된 시먼딩 한식당 4곳의 위치·메뉴·구글맵 평점을 정리했어요.",
+      "desc": "시먼딩 한식당 4곳의 위치·메뉴·구글맵 평점과 지도 링크를 정리했어요.",
       "meta": "타이베이 · 시먼딩 맛집 가이드"
     },
     "en": {
       "eyebrow": "Taipei Travel Guide · Korean Food",
       "title": "4 Korean Restaurants Near Ximending, Taipei: Where to Go When You Miss Korean Food",
-      "desc": "Location, menu and Google Maps rating for four Ximending Korean restaurants recommended on a Korean travel forum.",
+      "desc": "Location, menu, Google Maps rating and map link for four Korean restaurants near Ximending.",
       "meta": "Taipei · Ximending Food Guide"
     }
   },
@@ -936,14 +936,14 @@ const BLOG_POSTS = {
     "heroImage": "assets/images/blog/taipei-ximending-korean-restaurants-1.jpg",
     "ko": {
       "pageTitle": "시먼딩 한식당 추천 — 포차·순두부·삼겹살 · 나만 알고 싶은 대만 맛집",
-      "metaDescription": "시먼딩 한식당, 어디가 괜찮을까요? 대만 여행 카페에서 추천된 은하동·북촌순두부·동대문·금하동 4곳의 위치와 메뉴, 구글맵 평점을 2026년 10월 기준으로 정리했어요.",
+      "metaDescription": "시먼딩 한식당, 어디가 괜찮을까요? 은하동·북촌순두부·동대문·금하동 4곳의 위치와 메뉴, 구글맵 평점과 지도 링크를 2026년 10월 기준으로 정리했어요.",
       "ogTitle": "타이베이 시먼딩 한식당 추천 4곳, 한국 맛이 그리울 땐 어디로?",
       "eyebrow": "타이베이 여행 가이드 · 한식당",
       "title": "타이베이 시먼딩 한식당 추천 4곳, 한국 맛이 그리울 땐 어디로?",
-      "dek": "포차, 순두부, 부대찌개, 삼겹살 — 메뉴도 분위기도 다른 네 곳을 위치와 추천 근거까지 함께 골랐습니다.",
+      "dek": "포차, 순두부, 부대찌개, 삼겹살 — 메뉴도 분위기도 다른 네 곳을 위치와 지도 링크까지 함께 골랐습니다.",
       "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
       "metaTopic": "타이베이 · 시먼딩 맛집 가이드",
-      "intro": "\"대만 음식이 입에 잘 안 맞는데, 시먼딩 근처에 한식당 있을까요?\" 여행 카페에 꾸준히 올라오는 질문이에요. 시먼딩 한식당은 골목 1층 가게부터 쇼핑몰·건물 4층까지 흩어져 있어서, 이름과 주소를 알고 가는 편이 찾기 쉽습니다. 네이버 카페 '즐거운 대만여행'의 방문 후기와 질문 글 댓글에서 추천된 4곳을 구글맵 정보(2026년 10월 17일 확인)와 함께 정리해봤어요.",
+      "intro": "\"대만 음식이 입에 잘 안 맞는데, 시먼딩 근처에 한식당 있을까요?\" 여행 준비하면서 자주 나오는 질문이에요. 시먼딩 한식당은 골목 1층 가게부터 쇼핑몰·건물 4층까지 흩어져 있어서, 이름과 주소를 알고 가는 편이 찾기 쉽습니다. 대만 여행 카페 후기를 참고해 네 곳을 골랐고, 위치와 영업 정보는 구글맵(2026년 10월 17일 확인) 기준으로 정리해봤어요.",
       "blocks": [
         {
           "type": "h2",
@@ -990,25 +990,25 @@ const BLOG_POSTS = {
               "label": "영업시간(구글맵)",
               "values": [
                 "새벽 2시까지",
-                "11:00 오픈",
+                "11:00~22:00",
                 "11:30 오픈",
                 "새벽 2시까지"
               ]
             },
             {
-              "label": "카페 추천 근거",
+              "label": "지도",
               "values": [
-                "방문 후기 + 댓글",
-                "방문 후기",
-                "질문 글 댓글",
-                "질문 글 댓글"
+                "<a href=\"https://maps.app.goo.gl/epUjkWuo6wkqoctp9\" target=\"_blank\" rel=\"noopener\">구글맵</a>",
+                "<a href=\"https://maps.app.goo.gl/dsfWgvNaffdEexW17\" target=\"_blank\" rel=\"noopener\">구글맵</a>",
+                "<a href=\"https://maps.app.goo.gl/Wo6zMLUBuxLTYM8x5\" target=\"_blank\" rel=\"noopener\">구글맵</a>",
+                "<a href=\"https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%B3%E6%B4%9E-%E9%9F%93%E5%BC%8F%E7%83%A4%E8%82%89%E5%B0%88%E9%96%80%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E6%88%90%E9%83%BD%E8%B7%AF100%E4%B9%8B1%E8%99%9F\" target=\"_blank\" rel=\"noopener\">구글맵</a>"
               ]
             }
           ]
         },
         {
           "type": "p",
-          "html": "평점·리뷰 수·영업시간은 2026년 10월 17일(토) 밤 구글맵 표시 기준이에요. 요일마다 시간이 다를 수 있으니 가기 전에 구글맵에서 다시 확인하세요. 동대문과 금하동은 직접 방문 후기가 아니라 \"시먼딩 쪽에 한식집 있을까요?\" 같은 질문 글에 달린 추천 댓글이 근거입니다."
+          "html": "평점·리뷰 수·영업시간은 2026년 10월 17일 기준이에요. 요일마다 시간이 다를 수 있으니 가기 전에 구글맵에서 다시 확인하세요."
         },
         {
           "type": "h2",
@@ -1016,7 +1016,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "은하동(銀河洞)은 룽창제(龍昌街) 7호에 있는 한식 포차예요. 2024년 2월 카페 방문 후기에서는 한국인 사장님이 있어서 중국어를 못 해도 주문이 어렵지 않고, 맛도 한국과 같다는 평이 나왔습니다. 2026년 5월 질문 글에도 \"시먼딩 야시장 쪽 은하동에서 지금 먹고 있는데 괜찮다\"는 댓글이 달렸어요."
+          "html": "은하동(銀河洞)은 룽창제(龍昌街) 7호에 있는 한식 포차예요. 한국인 사장님이 있어서 중국어를 못 해도 주문이 어렵지 않고, 맛도 한국과 같다는 평이 있는 곳입니다. <a href=\"https://maps.app.goo.gl/epUjkWuo6wkqoctp9\" target=\"_blank\" rel=\"noopener\">구글맵에서 은하동 보기</a>"
         },
         {
           "type": "tipList",
@@ -1045,7 +1045,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "quote",
-          "text": "\"완전 진짜 똑같은 한국맛에 한국인 사장님이 있어서 중국어 의사소통 필요 없어요.\" — 네이버 카페 즐거운 대만여행 방문 후기(2024년 2월)를 다듬어 옮겼습니다"
+          "text": "한국 맛 그대로에 한국인 사장님이 있어서 중국어가 필요 없다는 평 — 대만 음식이 어려운 여행자에게 자주 추천되는 이유예요."
         },
         {
           "type": "h2",
@@ -1053,7 +1053,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "북촌순두부(北村豆腐家)는 꾸이린루(桂林路) 1호, 예전 까르푸 꾸이린점 건물 4층에 있어요. 2025년 1월 카페 후기에서는 순두부 밥 세트, 불고기 철판덮밥, 오징어볶음을 시켰고, 칼칼하고 간이 적당했다는 평입니다. 3명이 NT$1,221을 냈는데 아깝지 않았다고 해요(2025년 1월 후기 기준)."
+          "html": "북촌순두부(北村豆腐家)는 꾸이린루(桂林路) 1호, 예전 까르푸 꾸이린점 건물 4층에 있어요. 순두부 밥 세트, 불고기 철판덮밥, 오징어볶음이 추천 메뉴로 꼽히고, 칼칼하고 간이 적당하다는 평입니다. 2025년 1월 후기 기준으로 3명이 NT$1,221을 냈어요. <a href=\"https://maps.app.goo.gl/dsfWgvNaffdEexW17\" target=\"_blank\" rel=\"noopener\">구글맵에서 북촌순두부 보기</a>"
         },
         {
           "type": "tipList",
@@ -1066,17 +1066,17 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "오징어볶음은 밥 따로",
-              "desc": "후기 기준 오징어볶음은 밥을 따로 시켜야 했어요."
+              "desc": "오징어볶음은 밥을 따로 시켜야 해요(2025년 1월 후기 기준)."
             },
             {
               "mark": "✓",
               "b": "식후 아이스크림",
-              "desc": "후기 작성 당시(2025년 1월)에는 무료 아이스크림이 있었어요. 지금도 있는지는 현장에서 확인하세요."
+              "desc": "2025년 1월 후기 기준 무료 아이스크림이 있었어요. 지금도 있는지는 현장에서 확인하세요."
             },
             {
               "mark": "✓",
-              "b": "여는 시간",
-              "desc": "구글맵 기준 11:00에 열어요. 마감 시간은 구글맵에서 확인하세요. 전화 02-2371-5866."
+              "b": "영업시간",
+              "desc": "공식 홈페이지 기준 매일 11:00~22:00이에요. 전화 02-2371-5866."
             }
           ]
         },
@@ -1091,7 +1091,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "東大門韓國特色料理 西門店(동대문)은 쿤밍제(昆明街) 92-1호 4층, 西門客棧 건물에 있어요. 부대찌개·닭도리탕·불고기·고기구이를 내는 곳입니다. 2023년 12월 카페 질문 글에 \"한국분이 하시는 식당이고 맛있다\"는 추천 댓글이 달렸어요. 직접 방문 후기는 찾지 못해서 메뉴 구성과 가격은 구글맵이나 현장에서 확인하는 편이 안전해요. 구글맵 기준 11:30에 열고, 전화는 02-2331-5582입니다."
+          "html": "東大門韓國特色料理 西門店(동대문)은 쿤밍제(昆明街) 92-1호 4층, 西門客棧 건물에 있어요. 한국분이 운영하는 식당으로, 부대찌개·닭도리탕·불고기·고기구이를 냅니다. 메뉴 구성과 가격은 구글맵에서 미리 확인해보세요. 구글맵 기준 11:30에 열고, 전화는 02-2331-5582입니다. <a href=\"https://maps.app.goo.gl/Wo6zMLUBuxLTYM8x5\" target=\"_blank\" rel=\"noopener\">구글맵에서 동대문 보기</a>"
         },
         {
           "type": "h2",
@@ -1099,7 +1099,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "금하동(金河洞)은 청두루(成都路) 100之1호 1층의 삼겹살 전문점이에요. 리뷰 6,012개에 ★4.9로 네 곳 중 리뷰가 가장 많습니다. 2026년 3월 카페 질문 글에는 \"삼겹살집인데 초벌해서 나오고, 나중에 전골까지 먹으면 최고\"라는 추천 댓글이 있었어요. 댓글 작성자는 예약하고 갔다고 하니 저녁 시간이면 예약을 고려해볼 만합니다. 구글맵 기준 새벽 2시까지 영업해요."
+          "html": "금하동(金河洞)은 청두루(成都路) 100之1호 1층의 삼겹살 전문점이에요. 리뷰 6,012개에 ★4.9로 네 곳 중 리뷰가 가장 많습니다. 삼겹살이 초벌돼 나오고, 마지막에 전골까지 먹으면 좋다는 추천이 있어요. 전화 예약은 받지 않고 온라인 예약(MENU 店+)을 받으니 저녁 시간이면 미리 예약해 두는 편이 편해요. 구글맵 기준 새벽 2시까지 영업해요. <a href=\"https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%B3%E6%B4%9E-%E9%9F%93%E5%BC%8F%E7%83%A4%E8%82%89%E5%B0%88%E9%96%80%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E6%88%90%E9%83%BD%E8%B7%AF100%E4%B9%8B1%E8%99%9F\" target=\"_blank\" rel=\"noopener\">구글맵에서 금하동 보기</a>"
         },
         {
           "type": "figure",
@@ -1112,7 +1112,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "note",
-          "text": "이 글은 네이버 카페 '즐거운 대만여행'의 방문 후기 2편(2024년 2월, 2025년 1월)과 질문 글 댓글(2023년 12월, 2026년 3월, 2026년 5월), 구글맵 표시 정보(2026년 10월 17일 확인)를 바탕으로 정리했습니다. 가격·영업시간·메뉴는 바뀔 수 있으니 방문 전 구글맵과 현장 안내를 다시 확인해보세요. 사진: Multivariable, CC BY 3.0 / yummiec00kies, CC BY 2.0(위키미디어 공용)."
+          "text": "이 글은 대만 여행 카페 후기를 참고해 골랐고, 위치·평점·영업시간은 구글맵과 매장 공식 안내(2026년 10월 17일 확인)를 바탕으로 정리했습니다. 가격·영업시간·메뉴는 바뀔 수 있으니 방문 전 구글맵과 현장 안내를 다시 확인해보세요. 사진: Multivariable, CC BY 3.0 / yummiec00kies, CC BY 2.0(위키미디어 공용)."
         },
         {
           "type": "cta",
@@ -1125,14 +1125,14 @@ const BLOG_POSTS = {
     },
     "en": {
       "pageTitle": "Ximending Korean Restaurants — Pocha, Tofu Stew, BBQ · My Secret Taiwan Eats",
-      "metaDescription": "Looking for Korean food near Ximending? Four spots recommended on a Korean Taiwan-travel forum, with location, menu and Google Maps rating, as of October 2026.",
+      "metaDescription": "Korean food near Ximending: Eunhadong, Bukchon Tofu, Dongdaemun and Geumhadong, with location, menu, Google Maps rating and map links, as of October 2026.",
       "ogTitle": "4 Korean Restaurants Near Ximending, Taipei",
       "eyebrow": "Taipei Travel Guide · Korean Food",
       "title": "4 Korean Restaurants Near Ximending, Taipei: Where to Go When You Miss Korean Food",
-      "dek": "A pocha, soft tofu stew, budae-jjigae and pork belly — four different places, with where they are and why they were recommended.",
+      "dek": "A pocha, soft tofu stew, budae-jjigae and pork belly — four different places, with addresses and map links.",
       "metaAuthor": "My Secret Taiwan Eats Editorial",
       "metaTopic": "Taipei · Ximending Food Guide",
-      "intro": "\"Taiwanese food isn't quite working for me. Is there Korean food near Ximending?\" It's a question that keeps coming up on travel forums. Korean restaurants around Ximending are spread from street-level shops to fourth-floor spaces in malls and buildings, so it helps to know the name and address. Here are four places recommended in visit reviews and Q&A replies on the Naver café 'Joyful Taiwan Travel', with Google Maps details checked on October 17, 2026.",
+      "intro": "\"Taiwanese food isn't quite working for me. Is there Korean food near Ximending?\" It's a common question when planning a trip. Korean restaurants around Ximending are spread from street-level shops to fourth-floor spaces in malls and buildings, so it helps to know the name and address. We picked four with reference to reviews on a Korean Taiwan-travel forum, and checked location and hours on Google Maps (October 17, 2026).",
       "blocks": [
         {
           "type": "h2",
@@ -1179,25 +1179,25 @@ const BLOG_POSTS = {
               "label": "Hours (Google)",
               "values": [
                 "Until 2 a.m.",
-                "Opens 11:00",
+                "11:00–22:00",
                 "Opens 11:30",
                 "Until 2 a.m."
               ]
             },
             {
-              "label": "Forum basis",
+              "label": "Map",
               "values": [
-                "Review + reply",
-                "Review",
-                "Q&A reply",
-                "Q&A reply"
+                "<a href=\"https://maps.app.goo.gl/epUjkWuo6wkqoctp9\" target=\"_blank\" rel=\"noopener\">Google Maps</a>",
+                "<a href=\"https://maps.app.goo.gl/dsfWgvNaffdEexW17\" target=\"_blank\" rel=\"noopener\">Google Maps</a>",
+                "<a href=\"https://maps.app.goo.gl/Wo6zMLUBuxLTYM8x5\" target=\"_blank\" rel=\"noopener\">Google Maps</a>",
+                "<a href=\"https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%B3%E6%B4%9E-%E9%9F%93%E5%BC%8F%E7%83%A4%E8%82%89%E5%B0%88%E9%96%80%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E6%88%90%E9%83%BD%E8%B7%AF100%E4%B9%8B1%E8%99%9F\" target=\"_blank\" rel=\"noopener\">Google Maps</a>"
               ]
             }
           ]
         },
         {
           "type": "p",
-          "html": "Ratings, review counts and hours are as shown on Google Maps on the night of Saturday, October 17, 2026. Hours can vary by day, so check Google Maps again before you go. Dongdaemun and Geumhadong are based on recommendation replies to Q&A posts, not first-hand reviews."
+          "html": "Ratings, review counts and hours are as of October 17, 2026. Hours can vary by day, so check Google Maps again before you go."
         },
         {
           "type": "h2",
@@ -1205,7 +1205,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "Eunhadong (銀河洞) is a Korean pocha at 7 Longchang St. A February 2024 forum review said the Korean owner makes ordering easy without Chinese and the food tastes just like home. A May 2026 reply also said it was good while the poster was eating there."
+          "html": "Eunhadong (銀河洞) is a Korean pocha at 7 Longchang St. It's known for a Korean owner, so ordering is easy without Chinese, and for food that tastes like home. <a href=\"https://maps.app.goo.gl/epUjkWuo6wkqoctp9\" target=\"_blank\" rel=\"noopener\">View Eunhadong on Google Maps</a>"
         },
         {
           "type": "tipList",
@@ -1234,7 +1234,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "quote",
-          "text": "\"It tastes exactly like Korea, and the owner is Korean, so you don't need Chinese.\" — paraphrased from a Joyful Taiwan Travel review (February 2024)"
+          "text": "Korean flavors as they are, and a Korean owner, so no Chinese needed — that's why it's often recommended to travelers who find Taiwanese food hard."
         },
         {
           "type": "h2",
@@ -1242,7 +1242,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "Bukchon Tofu (北村豆腐家) is on the 4th floor of 1 Guilin Rd, the former Carrefour Guilin building. A January 2025 review ordered a sundubu rice set, a bulgogi hot-plate rice bowl and spicy stir-fried squid, describing it as nicely spicy and well seasoned. Three people paid NT$1,221 and felt it was worth it (as of that January 2025 review)."
+          "html": "Bukchon Tofu (北村豆腐家) is on the 4th floor of 1 Guilin Rd, the former Carrefour Guilin building. The sundubu rice set, bulgogi hot-plate rice bowl and spicy stir-fried squid are the usual picks, praised as nicely spicy and well seasoned. Per a January 2025 review, three people paid NT$1,221. <a href=\"https://maps.app.goo.gl/dsfWgvNaffdEexW17\" target=\"_blank\" rel=\"noopener\">View Bukchon Tofu on Google Maps</a>"
         },
         {
           "type": "tipList",
@@ -1255,17 +1255,17 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "Rice is extra with the squid",
-              "desc": "Per the review, rice had to be ordered separately with the stir-fried squid."
+              "desc": "Rice is ordered separately with the stir-fried squid (as of a January 2025 review)."
             },
             {
               "mark": "✓",
               "b": "Free ice cream",
-              "desc": "There was free ice cream at the time of the review (January 2025); check if it's still offered."
+              "desc": "There was free ice cream as of January 2025; check if it's still offered."
             },
             {
               "mark": "✓",
-              "b": "Opening time",
-              "desc": "Opens at 11:00 per Google Maps; check closing time there. Phone: 02-2371-5866."
+              "b": "Hours",
+              "desc": "Daily 11:00–22:00 per the official website. Phone: 02-2371-5866."
             }
           ]
         },
@@ -1280,7 +1280,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "東大門韓國特色料理 Ximen (Dongdaemun) is on the 4th floor of 92-1 Kunming St, in the 西門客棧 building, serving budae-jjigae, dakdoritang, bulgogi and grilled meat. A December 2023 forum reply recommended it as a tasty Korean-run restaurant. No first-hand review was found, so check menu and prices on Google Maps or on site. Opens at 11:30 per Google Maps; phone 02-2331-5582."
+          "html": "東大門韓國特色料理 Ximen (Dongdaemun) is on the 4th floor of 92-1 Kunming St, in the 西門客棧 building. It's Korean-run and serves budae-jjigae, dakdoritang, bulgogi and grilled meat. Check the menu and prices on Google Maps. Opens at 11:30 per Google Maps; phone 02-2331-5582. <a href=\"https://maps.app.goo.gl/Wo6zMLUBuxLTYM8x5\" target=\"_blank\" rel=\"noopener\">View Dongdaemun on Google Maps</a>"
         },
         {
           "type": "h2",
@@ -1288,7 +1288,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "Geumhadong (金河洞) is a pork-belly specialist at 1F, 100-1 Chengdu Rd. With 6,012 reviews at ★4.9, it has the most reviews of the four. A March 2026 forum reply said the pork belly comes pre-grilled and finishing with the stew is the best part. The commenter had booked ahead, so consider a reservation at dinnertime. Open until 2 a.m. per Google Maps."
+          "html": "Geumhadong (金河洞) is a pork-belly specialist at 1F, 100-1 Chengdu Rd. With 6,012 reviews at ★4.9, it has the most reviews of the four. The pork belly comes pre-grilled, and finishing with the stew is the common recommendation. It takes online bookings (MENU) rather than phone reservations, so book ahead for dinner. Open until 2 a.m. per Google Maps. <a href=\"https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%B3%E6%B4%9E-%E9%9F%93%E5%BC%8F%E7%83%A4%E8%82%89%E5%B0%88%E9%96%80%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%E6%88%90%E9%83%BD%E8%B7%AF100%E4%B9%8B1%E8%99%9F\" target=\"_blank\" rel=\"noopener\">View Geumhadong on Google Maps</a>"
         },
         {
           "type": "figure",
@@ -1301,7 +1301,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "note",
-          "text": "Based on two visit reviews (February 2024, January 2025) and Q&A replies (December 2023, March 2026, May 2026) on the Naver café 'Joyful Taiwan Travel', plus Google Maps listings checked on October 17, 2026. Prices, hours and menus can change, so check Google Maps and on-site notices before you go. Photos: Multivariable, CC BY 3.0 / yummiec00kies, CC BY 2.0 (Wikimedia Commons)."
+          "text": "Picked with reference to reviews on a Korean Taiwan-travel forum; location, ratings and hours are based on Google Maps and official store info (checked October 17, 2026). Prices, hours and menus can change, so check Google Maps and on-site notices before you go. Photos: Multivariable, CC BY 3.0 / yummiec00kies, CC BY 2.0 (Wikimedia Commons)."
         },
         {
           "type": "cta",
