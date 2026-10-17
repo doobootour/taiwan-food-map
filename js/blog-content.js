@@ -19,6 +19,26 @@
 
 const BLOG_LIST = [
   {
+    "slug": "yehliu-jiufen-taxi-vs-bus-tour",
+    "image": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
+    "regions": [
+      "jiufen",
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 근교 여행 가이드 · 투어 비교",
+      "title": "예스폭진지 택시투어 vs 버스투어, 뭐가 나을까?",
+      "desc": "예스폭진지 버스투어와 택시투어의 가격 구조·일정 자유도·가이드 여부·지우펀 주말 통제를 비교했어요.",
+      "meta": "타이베이 근교 · 예스폭진지 가이드"
+    },
+    "en": {
+      "eyebrow": "Taipei Day Trips · Tour Comparison",
+      "title": "Yehliu–Shifen–Jiufen Day Trip: Taxi Tour or Bus Tour?",
+      "desc": "Bus tour vs taxi tour for Yehliu, Shifen, and Jiufen: pricing, schedule freedom, guiding, and weekend traffic control.",
+      "meta": "Near Taipei · Yehliu–Jiufen Guide"
+    }
+  },
+  {
     "slug": "xiaoliuqiu-turtle-snorkeling-beach-tips",
     "image": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
     "regions": [
@@ -893,6 +913,445 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "yehliu-jiufen-taxi-vs-bus-tour": {
+    "heroImage": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
+    "ko": {
+      "pageTitle": "예스폭진지 택시투어 vs 버스투어 — 비교 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "예스폭진지 택시투어와 버스투어, 뭐가 다를까요? 가격 구조·체류 시간·가이드 여부·지우펀 주말 교통 통제를 2026년 10월 기준으로 비교했어요.",
+      "ogTitle": "예스폭진지 택시투어 vs 버스투어, 뭐가 나을까?",
+      "eyebrow": "타이베이 근교 여행 가이드 · 투어 비교",
+      "title": "예스폭진지 택시투어 vs 버스투어, 뭐가 나을까?",
+      "dek": "1인 요금과 차 1대 요금, 정해진 일정과 내가 짜는 일정, 가이드와 기사, 그리고 주말 지우펀 통제까지 — 예약 전에 따질 것만 골랐습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 근교 · 예스폭진지 가이드",
+      "intro": "\"예스폭진지, 택시투어로 갈까 버스투어로 갈까요?\" 예스진지는 예류(野柳)·스펀(十分)·진과스(金瓜石)·지우펀(九份)을 하루에 도는 타이베이 출발 코스이고, 예스폭진지는 여기에 스펀폭포를 더한 코스예요. 예스폭진지 택시투어와 버스투어는 요금 매기는 방식부터 달라요. 예류지질공원 공식 안내, 신베이시 교통국 보도자료, 여행 플랫폼 상품 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 예스폭진지 택시투어 vs 버스투어, 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "버스투어(가이드 합류형)",
+            "택시·전세차 투어"
+          ],
+          "rows": [
+            {
+              "label": "가격 기준",
+              "values": [
+                "1인당 요금",
+                "차 1대당 요금"
+              ]
+            },
+            {
+              "label": "가격 예",
+              "values": [
+                "1인 약 1만 원 안팎, 프리미엄형 3만 원대",
+                "차 1대 NT$4,000부터(약 9시간)"
+              ]
+            },
+            {
+              "label": "출발·소요",
+              "values": [
+                "메인역·시먼역 집합, 10:00~12:30 출발, 9~11시간",
+                "출발 시각·순서를 직접 정함"
+              ]
+            },
+            {
+              "label": "안내",
+              "values": [
+                "한국어 가이드 동행 상품이 많음",
+                "운전만 하는 기사가 많음"
+              ]
+            },
+            {
+              "label": "승하차",
+              "values": [
+                "정해진 집합 장소",
+                "숙소 앞 승하차(도심 밖·공항은 추가 요금)"
+              ]
+            },
+            {
+              "label": "지우펀 주말 통제",
+              "values": [
+                "셔틀 대신 대중교통 이용 가능",
+                "외곽 주차장에서 셔틀로 갈아탈 수 있음"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가격은 여행 플랫폼 판매 페이지와 업체 표시가 기준이라 시즌·환율·상품마다 달라요(2026년 10월 기준). 예류지질공원 입장료는 공식 기준 일반 NT$120, 6~12세·65세 이상 NT$60, 6세 미만 무료이고, 개장 시간은 08:00~17:00(여름 08:00~18:00)입니다. 입장료는 두 방식 모두 대개 따로 내요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 가격 구조, 1인 요금 vs 차 1대 요금"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "버스투어는 1인당 계산",
+              "desc": "합류형 한국어 가이드 버스투어는 1인 약 9,600~11,600원, 프리미엄형은 3만 원대로 판매되고 있어요(2026년 10월 판매 페이지 기준). 입장료·풍등·식사는 대부분 별도입니다."
+            },
+            {
+              "mark": "✓",
+              "b": "택시투어는 차 1대 기준",
+              "desc": "예류→지우펀→스펀 코스를 차 1대 NT$4,000부터(최대 9시간) 받는 업체가 있고, 9인승 밴은 NT$5,500부터예요. 4명이 5인승 1대를 나누면 1인 NT$1,000 수준이 됩니다."
+            },
+            {
+              "mark": "✓",
+              "b": "추가 요금 항목",
+              "desc": "초과 시간은 시간당 NT$400~700, 타이베이 도심 밖이나 공항 승하차는 NT$300~1,300이 붙는 상품이 많아요. 유류비·통행료·주차비 포함 여부도 업체마다 달라요."
+            },
+            {
+              "mark": "✓",
+              "b": "인원 제한",
+              "desc": "5인승은 최대 4명, 9인승은 최대 8명이 기준이에요. 캐리어까지 싣는다면 짐 개수를 예약할 때 같이 알려 주세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
+          "caption": "등불이 걸린 지우펀 계단 골목의 밤 풍경이에요(Pexels 사진). 버스투어는 보통 이 시간대에 지우펀에 도착하는 일정이 많아요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 일정 자유도와 머무는 시간"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "버스투어는 시간이 정해져 있어요",
+              "desc": "집합 시각과 장소별 체류 시간이 일정표로 정해져 있어요. 장소별로 얼마나 머무는지는 상품마다 달라서, 예약 전에 일정표를 꼭 확인하세요."
+            },
+            {
+              "mark": "2",
+              "b": "최소 출발 인원",
+              "desc": "15명 이상이 모여야 출발하는 상품도 있어요. 인원이 모자라면 며칠 전에 취소 안내가 오니 마지막 날 일정에 넣을 때는 대안을 생각해 두는 편이 좋습니다."
+            },
+            {
+              "mark": "3",
+              "b": "택시투어는 순서를 바꿀 수 있어요",
+              "desc": "오전에 예류를 먼저 보고 지우펀은 붐비기 전에 들르는 식으로 순서를 직접 정할 수 있어요. 스펀폭포를 넣을지 빼서 '예스폭지·예스진지'로 줄일지도 고를 수 있습니다."
+            },
+            {
+              "mark": "4",
+              "b": "가이드 vs 기사",
+              "desc": "버스투어 가이드는 풍등·간식 주문 같은 현장 안내를 도와주는 경우가 많아요. 택시투어 기사는 운전만 하는 상품이 많으니 설명이 필요하면 예약할 때 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 지우펀 주말 교통 통제와 승하차"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "주차장이 차면 탄력 통제",
+              "desc": "신베이시 교통국은 휴일에 지우펀 옛거리 주변 주차장이 차면 경찰이 교통 예고·탄력 통제를 시작해 차량을 新九號·水湳洞 주차장으로 보내고, 셔틀버스로 갈아타게 한다고 안내해요(2026년 2월 보도자료)."
+            },
+            {
+              "mark": "✓",
+              "b": "버스투어도 영향을 받아요",
+              "desc": "주말·공휴일 통제 때는 셔틀 대신 대중교통(편도 NT$15, 본인 부담)으로 지우펀에 올라가는 버스투어 상품도 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "통제 시간은 공지마다 달라요",
+              "desc": "연휴마다 통제 단계와 시간이 다르게 공지돼요. 주말·연휴에 택시투어를 예약했다면 기사에게 통제 때 어디서 내리는지 미리 물어보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "숙소 앞 승하차",
+              "desc": "택시투어는 숙소 앞에서 타고 내릴 수 있어 마지막 날 캐리어를 실은 채 돌다가 공항으로 가는 일정도 짤 수 있어요. 공항 하차는 추가 요금이 붙는 경우가 많습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-2.jpg",
+          "caption": "예류지질공원의 여왕머리 바위예요(Pexels 사진). 입장료는 두 투어 방식 모두 대개 따로 내요."
+        },
+        {
+          "type": "h2",
+          "text": "05 · 어떤 여행자에게 맞을까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "혼자·2명이면 버스투어",
+              "desc": "1인 요금이 낮고 가이드가 동선을 챙겨 줘서 혼자나 둘이 가는 첫 대만 여행이면 부담이 적어요."
+            },
+            {
+              "mark": "✓",
+              "b": "4명 이상·부모님 동반이면 택시투어",
+              "desc": "차 1대 요금을 나누면 1인 부담이 줄고, 숙소 앞 승하차와 쉬는 시간을 마음대로 정할 수 있어요. 가족 예약 체크리스트는 <a href=\"/blog-taiwan-private-charter-taxi-family-checklist\">대만 가족여행 프라이빗 택시</a> 글을 보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "대중교통으로 직접 가고 싶다면",
+              "desc": "투어 없이 가려면 <a href=\"/blog-jiufen-bus-965-from-taipei\">지우펀 965번 버스 타는 법</a>과 <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">예류→지우펀 버스 이동</a>을 참고할 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "렌터카로 직접 운전한다면",
+              "desc": "주차 위치와 통제 때 동선은 <a href=\"/blog-jiufen-car-stay-parking-guide\">지우펀 렌터카 주차 가이드</a>에 정리해 뒀습니다."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"當九份老街周邊停車位趨於飽和時，警方即啟動交通預警與彈性管制措施.\" — 지우펀 옛거리 주변 주차장이 차면 경찰이 교통 예고와 탄력 통제를 시작한다는 신베이시 교통국 안내예요."
+        },
+        {
+          "type": "p",
+          "html": "지우펀에서 머무는 시간을 어떻게 쓸지 정했다면 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>와 <a href=\"/jiufen-cafe\">지우펀 카페 맛집</a>에서 미리 골라 두세요. 옛거리 위쪽의 <a href=\"/jiufen-cafe-twilight-cafe-843\">微光森林 Twilight Cafe</a>, 스펀에서 출출할 때는 <a href=\"/jiufen-street_food-720\">스펀 소세지</a>도 지도에 있어요. 영업시간은 방문 전 구글맵에 등록된 정보를 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 예류지질공원 공식 홈페이지의 입장료·개장 시간, 북해안 및 관음산 국가풍경구 관리처 안내, 신베이시 교통국 2026년 2월 보도자료, 여행 플랫폼(KKday·Klook) 버스투어·전세차 상품 안내와 전세차 업체 표시가를 바탕으로 2026년 10월 기준으로 정리했습니다. 투어 가격·일정·추가 요금·지우펀 통제 방식은 바뀔 수 있으니 예약 전에 상품 페이지와 최신 공지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 지우펀 맛집도 확인해보세요",
+          "desc": "투어 일정 사이사이 들를 지우펀·스펀 먹거리를 미리 찜해 두면 짧은 체류 시간도 덜 아까워요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Yehliu–Jiufen Taxi Tour vs Bus Tour · My Secret Taiwan Eats",
+      "metaDescription": "Yehliu–Shifen–Jiufen taxi tour vs bus tour: price structure, time at each stop, guide or driver-only, and Jiufen weekend traffic control, as of October 2026.",
+      "ogTitle": "Yehliu–Shifen–Jiufen Day Trip: Taxi Tour or Bus Tour?",
+      "eyebrow": "Taipei Day Trips · Tour Comparison",
+      "title": "Yehliu–Shifen–Jiufen Day Trip: Taxi Tour or Bus Tour?",
+      "dek": "Per-person vs per-car pricing, a fixed timetable vs your own, guide vs driver, and Jiufen's weekend traffic control — what to weigh before you book.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Near Taipei · Yehliu–Jiufen Guide",
+      "intro": "\"Should we do the Yehliu–Shifen–Jiufen day by taxi tour or bus tour?\" Korean travelers call the Yehliu (野柳), Shifen (十分), Jinguashi (金瓜石), and Jiufen (九份) day trip from Taipei \"Yes-Jin-Ji\", and the version that adds Shifen Waterfall \"Yes-Pok-Jin-Ji\". Taxi tours and bus tours price this day very differently. This guide follows Yehliu Geopark's official page, a New Taipei Transportation Department press release, and travel-platform listings, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Yehliu–Shifen–Jiufen Taxi Tour vs Bus Tour at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Bus tour (join-in, guided)",
+            "Taxi / private car tour"
+          ],
+          "rows": [
+            {
+              "label": "Pricing",
+              "values": [
+                "Per person",
+                "Per vehicle"
+              ]
+            },
+            {
+              "label": "Price example",
+              "values": [
+                "About KRW 10,000 per person; premium versions around KRW 30,000",
+                "From NT$4,000 per car (up to about 9 hours)"
+              ]
+            },
+            {
+              "label": "Start & length",
+              "values": [
+                "Meet at Taipei Main Station / Ximen, depart 10:00–12:30, 9–11 hours",
+                "You set the start time and order"
+              ]
+            },
+            {
+              "label": "Guiding",
+              "values": [
+                "Many include a Korean-speaking guide",
+                "Many drivers only drive"
+              ]
+            },
+            {
+              "label": "Pickup",
+              "values": [
+                "Fixed meeting point",
+                "Hotel door (extra fee outside the city or at the airport)"
+              ]
+            },
+            {
+              "label": "Jiufen weekend control",
+              "values": [
+                "May switch to public transport instead of the shuttle",
+                "May have to transfer to a shuttle from an outer car park"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Prices come from travel-platform listings and operator rates, so they shift with season, exchange rate, and product (as of October 2026). Yehliu Geopark's official admission is NT$120 standard, NT$60 for ages 6–12 and 65+, free under 6, open 08:00–17:00 (08:00–18:00 in summer). Admission is usually paid separately on both tour types."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Pricing: Per Person vs Per Car"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Bus tours charge per person",
+              "desc": "Join-in bus tours with a Korean-speaking guide sell for about KRW 9,600–11,600 per person, with premium versions around KRW 30,000 (listings as of October 2026). Admission, sky lanterns, and meals are mostly extra."
+            },
+            {
+              "mark": "✓",
+              "b": "Taxi tours charge per car",
+              "desc": "One operator lists Yehliu → Jiufen → Shifen from NT$4,000 per car (up to 9 hours) and a 9-seat van from NT$5,500. Four people sharing a 5-seater pay about NT$1,000 each."
+            },
+            {
+              "mark": "✓",
+              "b": "Extra charges",
+              "desc": "Many products add NT$400–700 per extra hour and NT$300–1,300 for pickup or drop-off outside central Taipei or at the airport. Whether fuel, tolls, and parking are included differs by operator."
+            },
+            {
+              "mark": "✓",
+              "b": "Seat limits",
+              "desc": "A 5-seater takes up to 4 passengers and a 9-seater up to 8. If you bring suitcases, give the luggage count when you book."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
+          "caption": "A lantern-lit stair lane in Jiufen at night (Pexels photo). Many bus tours reach Jiufen around this time of day."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Schedule Freedom and Time at Each Stop"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Bus tours run on a fixed timetable",
+              "desc": "Meeting time and time at each stop are set in the itinerary. Stop lengths differ by product, so read the itinerary before you book."
+            },
+            {
+              "mark": "2",
+              "b": "Minimum group size",
+              "desc": "Some products need at least 15 people to run and send a cancellation notice a few days ahead if they fall short. Have a backup if you plan it for your last day."
+            },
+            {
+              "mark": "3",
+              "b": "Taxi tours let you reorder stops",
+              "desc": "You can see Yehliu first in the morning and reach Jiufen before the evening rush. You can also drop Shifen Waterfall or Jinguashi to shorten the day."
+            },
+            {
+              "mark": "4",
+              "b": "Guide vs driver",
+              "desc": "Bus-tour guides often help with on-site tasks like sky lanterns and snack orders. Many taxi-tour drivers only drive, so ask when booking if you want commentary."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Jiufen Weekend Traffic Control and Pickup"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Flexible control when car parks fill",
+              "desc": "New Taipei's Transportation Department says that on holidays, once parking around Jiufen Old Street nears capacity, police start traffic warnings and flexible control, sending cars to the Xin Jiuhao (新九號) and Shuinandong (水湳洞) car parks and onto shuttle buses (February 2026 press release)."
+            },
+            {
+              "mark": "✓",
+              "b": "Bus tours are affected too",
+              "desc": "Some bus tours say that during weekend or holiday control, guests ride public transport up to Jiufen instead of the shuttle (NT$15 one-way, paid by you)."
+            },
+            {
+              "mark": "✓",
+              "b": "Control hours vary by notice",
+              "desc": "Control stages and hours are announced differently for each holiday. If you book a taxi tour for a weekend, ask the driver where you will be dropped if control is on."
+            },
+            {
+              "mark": "✓",
+              "b": "Hotel-door pickup",
+              "desc": "Taxi tours pick up and drop off at your hotel, so on your last day you can keep suitcases in the car and finish at the airport. Airport drop-off usually costs extra."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-2.jpg",
+          "caption": "Queen's Head rock at Yehliu Geopark (Pexels photo). Admission is usually paid separately on both tour types."
+        },
+        {
+          "type": "h2",
+          "text": "05 · Which Traveler Fits Which Tour"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Solo or two people: bus tour",
+              "desc": "The per-person price is low and the guide handles the route, which suits a first Taiwan trip alone or as a pair."
+            },
+            {
+              "mark": "✓",
+              "b": "Four or more, or with parents: taxi tour",
+              "desc": "Splitting one car lowers the per-person cost, and you choose hotel pickup and rest stops. See <a href=\"/blog-taiwan-private-charter-taxi-family-checklist\">booking a private taxi for a family trip</a> for a checklist."
+            },
+            {
+              "mark": "✓",
+              "b": "Prefer public transport?",
+              "desc": "Without a tour, see <a href=\"/blog-jiufen-bus-965-from-taipei\">how to ride bus 965 to Jiufen</a> and <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">Yehliu to Jiufen by bus</a>."
+            },
+            {
+              "mark": "✓",
+              "b": "Driving yourself?",
+              "desc": "Parking and control-day routes are in the <a href=\"/blog-jiufen-car-stay-parking-guide\">Jiufen rental-car parking guide</a>."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"When parking around Jiufen Old Street nears capacity, police start traffic warnings and flexible control.\" — New Taipei Transportation Department."
+        },
+        {
+          "type": "p",
+          "html": "Once you know how much time you will have in Jiufen, pick a few stops on the <a href=\"/region-jiufen\">Jiufen food map</a> and <a href=\"/jiufen-cafe\">Jiufen cafés</a>. <a href=\"/jiufen-cafe-twilight-cafe-843\">Twilight Cafe (微光森林)</a> sits above the old street, and <a href=\"/jiufen-street_food-720\">Shifen sausage</a> is on the map for a snack in Shifen. Check the current opening hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on Yehliu Geopark's official ticket and hours page, the North Coast & Guanyinshan National Scenic Area page, New Taipei's February 2026 Transportation Department press release, KKday and Klook bus-tour and private-car listings, and a charter operator's published rates, as of October 2026. Tour prices, schedules, surcharges, and Jiufen traffic control can change — recheck the product page and latest notices before you book."
+        },
+        {
+          "type": "cta",
+          "title": "Check Jiufen restaurants on the map",
+          "desc": "Pinning a few Jiufen and Shifen bites before your tour makes short stops feel less rushed.",
+          "btn": "Open map →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    }
+  },
   "xiaoliuqiu-turtle-snorkeling-beach-tips": {
   "heroImage": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
   "ko": {
