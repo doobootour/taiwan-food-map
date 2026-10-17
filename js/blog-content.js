@@ -948,7 +948,7 @@ const BLOG_POSTS = {
             {
               "label": "가격 예",
               "values": [
-                "1인 약 1만 원 안팎, 프리미엄형 3만 원대",
+                "최신 가격은 예약 사이트에서 확인하세요",
                 "차 1대 NT$4,000부터(약 9시간)"
               ]
             },
@@ -996,7 +996,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "버스투어는 1인당 계산",
-              "desc": "합류형 한국어 가이드 버스투어는 1인 약 9,600~11,600원, 프리미엄형은 3만 원대로 판매되고 있어요(2026년 10월 판매 페이지 기준). 입장료·풍등·식사는 대부분 별도입니다."
+              "desc": "합류형 한국어 가이드 버스투어는 1인당 요금이고 프리미엄형 상품도 있어요. 예약 사이트에서 최신 가격을 확인하세요. 입장료·풍등·식사는 대부분 별도입니다."
             },
             {
               "mark": "✓",
@@ -1166,7 +1166,7 @@ const BLOG_POSTS = {
             {
               "label": "Price example",
               "values": [
-                "About KRW 10,000 per person; premium versions around KRW 30,000",
+                "Check the booking site for the latest price",
                 "From NT$4,000 per car (up to about 9 hours)"
               ]
             },
@@ -1214,7 +1214,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "Bus tours charge per person",
-              "desc": "Join-in bus tours with a Korean-speaking guide sell for about KRW 9,600–11,600 per person, with premium versions around KRW 30,000 (listings as of October 2026). Admission, sky lanterns, and meals are mostly extra."
+              "desc": "Join-in bus tours with a Korean-speaking guide are priced per person, and premium versions are also sold. Check the booking site for the latest price. Admission, sky lanterns, and meals are mostly extra."
             },
             {
               "mark": "✓",
@@ -1363,7 +1363,7 @@ const BLOG_POSTS = {
     "dek": "동강 페리와 중아오 산란기 야간 출입 금지, 대붕만 관리처 看龜守則과 합법 업체 선택까지 — 들어가기 전에 챙길 것만 골랐습니다.",
     "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
     "metaTopic": "가오슝 근교 · 소류구 가이드",
-    "intro": "\"소류구에서 거북이 보려면 어느 해변으로 가야 할까요?\" 소류구(小琉球)는 핑둥현 남서쪽 산호초 섬으로, 동강(東港)에서 배로 약 25~30분이면 닿아요. 어느 해변에 거북이가 가장 많다는 말은 공식으로 확인되지 않았고, 대신 산란기 야간 출입 금지와 관찰 수칙이 명확합니다. 琉球鄉公所·대붕만 국가풍경구 관리처 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+    "intro": "\"소류구에서 거북이 보려면 어느 해변으로 가야 할까요?\" 소류구(小琉球)는 핑둥현 남서쪽 산호초 섬으로, 동강(東港)에서 배로 약 25~30분이면 닿아요. 해변을 고르기 전에 산란기 야간 출입 금지와 거북이 관찰 수칙부터 알아 두세요. 琉球鄉公所·대붕만 국가풍경구 관리처 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
     "blocks": [
       {
         "type": "h2",
@@ -1477,7 +1477,7 @@ const BLOG_POSTS = {
           {
             "mark": "✓",
             "b": "美人洞·花瓶岩",
-            "desc": "관리처 소류구 명소 목록에 있어요. 거북이 '최다' 해변으로 단정할 공식 근거는 없으므로, 스노클링은 합법 업체 코스를 기준으로 고르세요."
+            "desc": "관리처 소류구 명소 목록에 있어요. 스노클링 장소는 합법 업체 코스를 기준으로 고르세요."
           }
         ]
       },
@@ -1501,7 +1501,7 @@ const BLOG_POSTS = {
           {
             "mark": "✓",
             "b": "구명조끼·버디",
-            "desc": "정부 잠수(浮潛 포함) 관리 지침은 CNS 규격 구명조끼와 스노클·마스크·핀, 짝(버디)을 권장해요. 마스크·아쿠아슈즈만으로 충분하다는 말은 공식 확인이 없습니다."
+            "desc": "정부 잠수(浮潛 포함) 관리 지침은 CNS 규격 구명조끼와 스노클·마스크·핀, 짝(버디)을 권장해요."
           },
           {
             "mark": "✓",
@@ -1569,7 +1569,7 @@ const BLOG_POSTS = {
     "dek": "Donggang ferries, Zhong'ao's nesting-season night beach ban, DBNSA turtle-viewing rules, and picking a licensed operator — what to check before you enter the water.",
     "metaAuthor": "My Secret Taiwan Eats Editorial",
     "metaTopic": "Near Kaohsiung · Xiaoliuqiu Guide",
-    "intro": "\"Which beach should I pick to see turtles on Xiaoliuqiu?\" Xiaoliuqiu (小琉球) is a coral island southwest of Pingtung; the ferry from Donggang (東港) takes about 25–30 minutes. Claims that one beach has the most turtles are not officially confirmed; the nesting-season night ban and viewing code are. This guide follows Liuchiu Township and Dapeng Bay National Scenic Area (DBNSA) pages, as of October 2026.",
+    "intro": "\"Which beach should I pick to see turtles on Xiaoliuqiu?\" Xiaoliuqiu (小琉球) is a coral island southwest of Pingtung; the ferry from Donggang (東港) takes about 25–30 minutes. Before picking a beach, learn the nesting-season night ban and the turtle-viewing code. This guide follows Liuchiu Township and Dapeng Bay National Scenic Area (DBNSA) pages, as of October 2026.",
     "blocks": [
       {
         "type": "h2",
@@ -1683,7 +1683,7 @@ const BLOG_POSTS = {
           {
             "mark": "✓",
             "b": "Beauty Cave & Vase Rock",
-            "desc": "Both appear on DBNSA's sights list. There is no official \"most turtles\" ranking by beach, so snorkel via a licensed operator's route."
+            "desc": "Both appear on DBNSA's sights list. Choose your snorkeling spot by following a licensed operator's route."
           }
         ]
       },
