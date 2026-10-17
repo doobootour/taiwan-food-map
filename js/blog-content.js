@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-ximending-korean-restaurants",
+    "image": "assets/images/blog/taipei-ximending-korean-restaurants-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 한식당",
+      "title": "타이베이 시먼딩 한식당 추천 4곳, 한국 맛이 그리울 땐 어디로?",
+      "desc": "여행 카페에서 추천된 시먼딩 한식당 4곳의 위치·메뉴·구글맵 평점을 정리했어요.",
+      "meta": "타이베이 · 시먼딩 맛집 가이드"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Korean Food",
+      "title": "4 Korean Restaurants Near Ximending, Taipei: Where to Go When You Miss Korean Food",
+      "desc": "Location, menu and Google Maps rating for four Ximending Korean restaurants recommended on a Korean travel forum.",
+      "meta": "Taipei · Ximending Food Guide"
+    }
+  },
+  {
     "slug": "yehliu-jiufen-taxi-vs-bus-tour",
     "image": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
     "regions": [
@@ -28,13 +47,13 @@ const BLOG_LIST = [
     "ko": {
       "eyebrow": "타이베이 근교 여행 가이드 · 투어 비교",
       "title": "예스폭진지 택시투어 vs 버스투어, 뭐가 나을까?",
-      "desc": "예스폭진지 버스투어와 택시투어의 가격 구조·일정 자유도·가이드 여부·지우펀 주말 통제를 비교했어요.",
+      "desc": "1인 1만 원대 버스투어와 차 1대 요금 택시투어의 가격·코스·짐·우천 대응을 비교하고, 방식별 추천 코스를 골랐어요.",
       "meta": "타이베이 근교 · 예스폭진지 가이드"
     },
     "en": {
       "eyebrow": "Taipei Day Trips · Tour Comparison",
       "title": "Yehliu–Shifen–Jiufen Day Trip: Taxi Tour or Bus Tour?",
-      "desc": "Bus tour vs taxi tour for Yehliu, Shifen, and Jiufen: pricing, schedule freedom, guiding, and weekend traffic control.",
+      "desc": "Bus tour vs taxi tour for Yehliu, Shifen, and Jiufen: price, route, luggage and rain, plus which route to pick for each.",
       "meta": "Near Taipei · Yehliu–Jiufen Guide"
     }
   },
@@ -913,18 +932,399 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-ximending-korean-restaurants": {
+    "heroImage": "assets/images/blog/taipei-ximending-korean-restaurants-1.jpg",
+    "ko": {
+      "pageTitle": "시먼딩 한식당 추천 — 포차·순두부·삼겹살 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "시먼딩 한식당, 어디가 괜찮을까요? 대만 여행 카페에서 추천된 은하동·북촌순두부·동대문·금하동 4곳의 위치와 메뉴, 구글맵 평점을 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "타이베이 시먼딩 한식당 추천 4곳, 한국 맛이 그리울 땐 어디로?",
+      "eyebrow": "타이베이 여행 가이드 · 한식당",
+      "title": "타이베이 시먼딩 한식당 추천 4곳, 한국 맛이 그리울 땐 어디로?",
+      "dek": "포차, 순두부, 부대찌개, 삼겹살 — 메뉴도 분위기도 다른 네 곳을 위치와 추천 근거까지 함께 골랐습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 시먼딩 맛집 가이드",
+      "intro": "\"대만 음식이 입에 잘 안 맞는데, 시먼딩 근처에 한식당 있을까요?\" 여행 카페에 꾸준히 올라오는 질문이에요. 시먼딩 한식당은 골목 1층 가게부터 쇼핑몰·건물 4층까지 흩어져 있어서, 이름과 주소를 알고 가는 편이 찾기 쉽습니다. 네이버 카페 '즐거운 대만여행'의 방문 후기와 질문 글 댓글에서 추천된 4곳을 구글맵 정보(2026년 10월 17일 확인)와 함께 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 시먼딩 한식당 4곳 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "은하동",
+            "북촌순두부",
+            "동대문",
+            "금하동"
+          ],
+          "rows": [
+            {
+              "label": "종류",
+              "values": [
+                "한식 포차",
+                "순두부·덮밥",
+                "부대찌개·닭도리탕",
+                "삼겹살 구이"
+              ]
+            },
+            {
+              "label": "위치",
+              "values": [
+                "龍昌街 7號",
+                "桂林路 1號 4층",
+                "昆明街 92-1號 4층",
+                "成都路 100之1號 1층"
+              ]
+            },
+            {
+              "label": "구글맵 평점",
+              "values": [
+                "★4.8 (1,153)",
+                "★4.5 (1,844)",
+                "★4.5 (934)",
+                "★4.9 (6,012)"
+              ]
+            },
+            {
+              "label": "영업시간(구글맵)",
+              "values": [
+                "새벽 2시까지",
+                "11:00 오픈",
+                "11:30 오픈",
+                "새벽 2시까지"
+              ]
+            },
+            {
+              "label": "카페 추천 근거",
+              "values": [
+                "방문 후기 + 댓글",
+                "방문 후기",
+                "질문 글 댓글",
+                "질문 글 댓글"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "평점·리뷰 수·영업시간은 2026년 10월 17일(토) 밤 구글맵 표시 기준이에요. 요일마다 시간이 다를 수 있으니 가기 전에 구글맵에서 다시 확인하세요. 동대문과 금하동은 직접 방문 후기가 아니라 \"시먼딩 쪽에 한식집 있을까요?\" 같은 질문 글에 달린 추천 댓글이 근거입니다."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 은하동 — 새벽 2시까지 여는 시먼딩 한식 포차"
+        },
+        {
+          "type": "p",
+          "html": "은하동(銀河洞)은 룽창제(龍昌街) 7호에 있는 한식 포차예요. 2024년 2월 카페 방문 후기에서는 한국인 사장님이 있어서 중국어를 못 해도 주문이 어렵지 않고, 맛도 한국과 같다는 평이 나왔습니다. 2026년 5월 질문 글에도 \"시먼딩 야시장 쪽 은하동에서 지금 먹고 있는데 괜찮다\"는 댓글이 달렸어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "늦은 저녁",
+              "desc": "구글맵 기준 새벽 2시까지 영업해요. 시먼딩 구경을 마치고 늦게 들르기 좋은 편입니다."
+            },
+            {
+              "mark": "✓",
+              "b": "예산",
+              "desc": "구글맵 가격대 표시는 1인 NT$600~800이에요(2026년 10월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "예약",
+              "desc": "구글맵에서 inline 온라인 예약을 지원해요. 전화는 02-2381-5281입니다."
+            },
+            {
+              "mark": "✓",
+              "b": "메뉴",
+              "desc": "후기에 구체적인 메뉴 이름은 나오지 않아요. 현장 메뉴판에서 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"완전 진짜 똑같은 한국맛에 한국인 사장님이 있어서 중국어 의사소통 필요 없어요.\" — 네이버 카페 즐거운 대만여행 방문 후기(2024년 2월)를 다듬어 옮겼습니다"
+        },
+        {
+          "type": "h2",
+          "text": "03 · 북촌순두부 — 꾸이린루 쇼핑몰 4층 순두부"
+        },
+        {
+          "type": "p",
+          "html": "북촌순두부(北村豆腐家)는 꾸이린루(桂林路) 1호, 예전 까르푸 꾸이린점 건물 4층에 있어요. 2025년 1월 카페 후기에서는 순두부 밥 세트, 불고기 철판덮밥, 오징어볶음을 시켰고, 칼칼하고 간이 적당했다는 평입니다. 3명이 NT$1,221을 냈는데 아깝지 않았다고 해요(2025년 1월 후기 기준)."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "지점 이름 확인",
+              "desc": "구글맵 지점명이 'Guilin Prosperity Plaza Branch(桂林萬家福店)'로 바뀌어 있어요. 검색할 때 참고하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "오징어볶음은 밥 따로",
+              "desc": "후기 기준 오징어볶음은 밥을 따로 시켜야 했어요."
+            },
+            {
+              "mark": "✓",
+              "b": "식후 아이스크림",
+              "desc": "후기 작성 당시(2025년 1월)에는 무료 아이스크림이 있었어요. 지금도 있는지는 현장에서 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "여는 시간",
+              "desc": "구글맵 기준 11:00에 열어요. 마감 시간은 구글맵에서 확인하세요. 전화 02-2371-5866."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-ximending-korean-restaurants-2.jpg",
+          "caption": "돌솥에 끓여 나오는 순두부찌개 예시 사진이에요(북촌순두부 메뉴 사진 아님)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 동대문 — 쿤밍제 4층 부대찌개·닭도리탕"
+        },
+        {
+          "type": "p",
+          "html": "東大門韓國特色料理 西門店(동대문)은 쿤밍제(昆明街) 92-1호 4층, 西門客棧 건물에 있어요. 부대찌개·닭도리탕·불고기·고기구이를 내는 곳입니다. 2023년 12월 카페 질문 글에 \"한국분이 하시는 식당이고 맛있다\"는 추천 댓글이 달렸어요. 직접 방문 후기는 찾지 못해서 메뉴 구성과 가격은 구글맵이나 현장에서 확인하는 편이 안전해요. 구글맵 기준 11:30에 열고, 전화는 02-2331-5582입니다."
+        },
+        {
+          "type": "h2",
+          "text": "05 · 금하동 — 초벌 삼겹살에 전골까지"
+        },
+        {
+          "type": "p",
+          "html": "금하동(金河洞)은 청두루(成都路) 100之1호 1층의 삼겹살 전문점이에요. 리뷰 6,012개에 ★4.9로 네 곳 중 리뷰가 가장 많습니다. 2026년 3월 카페 질문 글에는 \"삼겹살집인데 초벌해서 나오고, 나중에 전골까지 먹으면 최고\"라는 추천 댓글이 있었어요. 댓글 작성자는 예약하고 갔다고 하니 저녁 시간이면 예약을 고려해볼 만합니다. 구글맵 기준 새벽 2시까지 영업해요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-ximending-korean-restaurants-1.jpg",
+          "caption": "시먼딩 보행자 거리 입구의 저녁 풍경이에요(2009년 사진이라 지금과 간판이 달라요. 소개한 식당 사진 아님)."
+        },
+        {
+          "type": "p",
+          "html": "시먼 쪽에 묵을지 고민 중이라면 <a href=\"/blog-taipei-hotel-location-ximen-main-station-zhongshan\">타이베이 숙소 위치 비교</a>, 근처 완화 쪽 저녁 동선은 <a href=\"/blog-taipei-longshan-temple-night-guide\">용산사 야경 가이드</a>도 함께 보세요. 다른 동네 한식당은 <a href=\"/category-korean\">대만 한식 맛집</a>, 시먼딩 주변 맛집은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 네이버 카페 '즐거운 대만여행'의 방문 후기 2편(2024년 2월, 2025년 1월)과 질문 글 댓글(2023년 12월, 2026년 3월, 2026년 5월), 구글맵 표시 정보(2026년 10월 17일 확인)를 바탕으로 정리했습니다. 가격·영업시간·메뉴는 바뀔 수 있으니 방문 전 구글맵과 현장 안내를 다시 확인해보세요. 사진: Multivariable, CC BY 3.0 / yummiec00kies, CC BY 2.0(위키미디어 공용)."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 한식 맛집도 확인해보세요",
+          "desc": "시먼딩 밖 한식당까지 지도에서 한 번에 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=korean"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Ximending Korean Restaurants — Pocha, Tofu Stew, BBQ · My Secret Taiwan Eats",
+      "metaDescription": "Looking for Korean food near Ximending? Four spots recommended on a Korean Taiwan-travel forum, with location, menu and Google Maps rating, as of October 2026.",
+      "ogTitle": "4 Korean Restaurants Near Ximending, Taipei",
+      "eyebrow": "Taipei Travel Guide · Korean Food",
+      "title": "4 Korean Restaurants Near Ximending, Taipei: Where to Go When You Miss Korean Food",
+      "dek": "A pocha, soft tofu stew, budae-jjigae and pork belly — four different places, with where they are and why they were recommended.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Ximending Food Guide",
+      "intro": "\"Taiwanese food isn't quite working for me. Is there Korean food near Ximending?\" It's a question that keeps coming up on travel forums. Korean restaurants around Ximending are spread from street-level shops to fourth-floor spaces in malls and buildings, so it helps to know the name and address. Here are four places recommended in visit reviews and Q&A replies on the Naver café 'Joyful Taiwan Travel', with Google Maps details checked on October 17, 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Four Ximending Korean Restaurants at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Eunhadong",
+            "Bukchon Tofu",
+            "Dongdaemun",
+            "Geumhadong"
+          ],
+          "rows": [
+            {
+              "label": "Type",
+              "values": [
+                "Korean pocha",
+                "Soft tofu stew, rice bowls",
+                "Budae-jjigae, dakdoritang",
+                "Pork belly BBQ"
+              ]
+            },
+            {
+              "label": "Address",
+              "values": [
+                "7 Longchang St",
+                "4F, 1 Guilin Rd",
+                "4F, 92-1 Kunming St",
+                "1F, 100-1 Chengdu Rd"
+              ]
+            },
+            {
+              "label": "Google rating",
+              "values": [
+                "★4.8 (1,153)",
+                "★4.5 (1,844)",
+                "★4.5 (934)",
+                "★4.9 (6,012)"
+              ]
+            },
+            {
+              "label": "Hours (Google)",
+              "values": [
+                "Until 2 a.m.",
+                "Opens 11:00",
+                "Opens 11:30",
+                "Until 2 a.m."
+              ]
+            },
+            {
+              "label": "Forum basis",
+              "values": [
+                "Review + reply",
+                "Review",
+                "Q&A reply",
+                "Q&A reply"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Ratings, review counts and hours are as shown on Google Maps on the night of Saturday, October 17, 2026. Hours can vary by day, so check Google Maps again before you go. Dongdaemun and Geumhadong are based on recommendation replies to Q&A posts, not first-hand reviews."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Eunhadong — A Korean Pocha Open Until 2 a.m."
+        },
+        {
+          "type": "p",
+          "html": "Eunhadong (銀河洞) is a Korean pocha at 7 Longchang St. A February 2024 forum review said the Korean owner makes ordering easy without Chinese and the food tastes just like home. A May 2026 reply also said it was good while the poster was eating there."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Late nights",
+              "desc": "Google Maps lists it as open until 2 a.m., handy after an evening in Ximending."
+            },
+            {
+              "mark": "✓",
+              "b": "Budget",
+              "desc": "Google Maps shows NT$600–800 per person (as of October 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Booking",
+              "desc": "Online booking via inline is available on Google Maps. Phone: 02-2381-5281."
+            },
+            {
+              "mark": "✓",
+              "b": "Menu",
+              "desc": "The review doesn't name specific dishes, so check the menu on site."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"It tastes exactly like Korea, and the owner is Korean, so you don't need Chinese.\" — paraphrased from a Joyful Taiwan Travel review (February 2024)"
+        },
+        {
+          "type": "h2",
+          "text": "03 · Bukchon Tofu — Soft Tofu Stew on the 4th Floor on Guilin Rd"
+        },
+        {
+          "type": "p",
+          "html": "Bukchon Tofu (北村豆腐家) is on the 4th floor of 1 Guilin Rd, the former Carrefour Guilin building. A January 2025 review ordered a sundubu rice set, a bulgogi hot-plate rice bowl and spicy stir-fried squid, describing it as nicely spicy and well seasoned. Three people paid NT$1,221 and felt it was worth it (as of that January 2025 review)."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Branch name",
+              "desc": "Google Maps now lists it as 'Guilin Prosperity Plaza Branch (桂林萬家福店)'."
+            },
+            {
+              "mark": "✓",
+              "b": "Rice is extra with the squid",
+              "desc": "Per the review, rice had to be ordered separately with the stir-fried squid."
+            },
+            {
+              "mark": "✓",
+              "b": "Free ice cream",
+              "desc": "There was free ice cream at the time of the review (January 2025); check if it's still offered."
+            },
+            {
+              "mark": "✓",
+              "b": "Opening time",
+              "desc": "Opens at 11:00 per Google Maps; check closing time there. Phone: 02-2371-5866."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-ximending-korean-restaurants-2.jpg",
+          "caption": "An example of soft tofu stew in a stone pot (not a photo from Bukchon Tofu)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Dongdaemun — Budae-jjigae on the 4th Floor on Kunming St"
+        },
+        {
+          "type": "p",
+          "html": "東大門韓國特色料理 Ximen (Dongdaemun) is on the 4th floor of 92-1 Kunming St, in the 西門客棧 building, serving budae-jjigae, dakdoritang, bulgogi and grilled meat. A December 2023 forum reply recommended it as a tasty Korean-run restaurant. No first-hand review was found, so check menu and prices on Google Maps or on site. Opens at 11:30 per Google Maps; phone 02-2331-5582."
+        },
+        {
+          "type": "h2",
+          "text": "05 · Geumhadong — Pre-grilled Pork Belly, Then Stew"
+        },
+        {
+          "type": "p",
+          "html": "Geumhadong (金河洞) is a pork-belly specialist at 1F, 100-1 Chengdu Rd. With 6,012 reviews at ★4.9, it has the most reviews of the four. A March 2026 forum reply said the pork belly comes pre-grilled and finishing with the stew is the best part. The commenter had booked ahead, so consider a reservation at dinnertime. Open until 2 a.m. per Google Maps."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-ximending-korean-restaurants-1.jpg",
+          "caption": "The entrance to Ximending's pedestrian zone in the evening (a 2009 photo; signs have changed, and it doesn't show the restaurants above)."
+        },
+        {
+          "type": "p",
+          "html": "Choosing where to stay? See our <a href=\"/blog-taipei-hotel-location-ximen-main-station-zhongshan\">Taipei hotel location comparison</a>, and for an evening nearby, the <a href=\"/blog-taipei-longshan-temple-night-guide\">Longshan Temple night guide</a>. Find more <a href=\"/category-korean\">Korean restaurants in Taiwan</a>, or browse the <a href=\"/region-taipei\">Taipei restaurant map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on two visit reviews (February 2024, January 2025) and Q&A replies (December 2023, March 2026, May 2026) on the Naver café 'Joyful Taiwan Travel', plus Google Maps listings checked on October 17, 2026. Prices, hours and menus can change, so check Google Maps and on-site notices before you go. Photos: Multivariable, CC BY 3.0 / yummiec00kies, CC BY 2.0 (Wikimedia Commons)."
+        },
+        {
+          "type": "cta",
+          "title": "Find Korean restaurants in Taipei on the map",
+          "desc": "See Korean spots beyond Ximending on one map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=korean"
+        }
+      ]
+    }
+  },
   "yehliu-jiufen-taxi-vs-bus-tour": {
     "heroImage": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
     "ko": {
       "pageTitle": "예스폭진지 택시투어 vs 버스투어 — 비교 · 나만 알고 싶은 대만 맛집",
-      "metaDescription": "예스폭진지 택시투어와 버스투어, 뭐가 다를까요? 가격 구조·체류 시간·가이드 여부·지우펀 주말 교통 통제를 2026년 10월 기준으로 비교했어요.",
+      "metaDescription": "예스폭진지 택시투어와 버스투어, 뭐가 나을까요? 1인 1만 원대 버스투어와 차 1대 요금 택시투어의 코스·짐·우천 대응을 2026년 10월 기준으로 비교하고 추천 코스를 골랐어요.",
       "ogTitle": "예스폭진지 택시투어 vs 버스투어, 뭐가 나을까?",
       "eyebrow": "타이베이 근교 여행 가이드 · 투어 비교",
       "title": "예스폭진지 택시투어 vs 버스투어, 뭐가 나을까?",
-      "dek": "1인 요금과 차 1대 요금, 정해진 일정과 내가 짜는 일정, 가이드와 기사, 그리고 주말 지우펀 통제까지 — 예약 전에 따질 것만 골랐습니다.",
+      "dek": "1인 1만 원대 버스투어와 차 1대 요금 택시투어 — 가격만큼 중요한 건 하루에 몇 곳을 넣느냐예요.",
       "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
       "metaTopic": "타이베이 근교 · 예스폭진지 가이드",
-      "intro": "\"예스폭진지, 택시투어로 갈까 버스투어로 갈까요?\" 예스진지는 예류(野柳)·스펀(十分)·진과스(金瓜石)·지우펀(九份)을 하루에 도는 타이베이 출발 코스이고, 예스폭진지는 여기에 스펀폭포를 더한 코스예요. 예스폭진지 택시투어와 버스투어는 요금 매기는 방식부터 달라요. 예류지질공원 공식 안내, 신베이시 교통국 보도자료, 여행 플랫폼 상품 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "intro": "\"예스폭진지, 택시투어로 갈까 버스투어로 갈까요?\" 예스폭진지는 예류(野柳)·스펀(十分)·스펀폭포(十分瀑布)·진과스(金瓜石)·지우펀(九份) 다섯 곳의 앞 글자를 딴 이름이에요. 여기서 '폭'이 스펀폭포이고, 진과스를 빼면 예스폭지, 폭포까지 빼면 예스지가 됩니다. 예스폭진지 택시투어와 버스투어는 요금 방식부터 짐·비 오는 날 대응까지 달라서, 판매 페이지와 공식 안내를 바탕으로 2026년 10월 기준으로 비교해봤어요.",
       "blocks": [
         {
           "type": "h2",
@@ -939,176 +1339,180 @@ const BLOG_POSTS = {
           ],
           "rows": [
             {
-              "label": "가격 기준",
+              "label": "가격",
               "values": [
-                "1인당 요금",
-                "차 1대당 요금"
-              ]
-            },
-            {
-              "label": "가격 예",
-              "values": [
-                "최신 가격은 예약 사이트에서 확인하세요",
+                "1인 1만 1천 원대(일반 상품)",
                 "차 1대 NT$4,000부터(약 9시간)"
               ]
             },
             {
-              "label": "출발·소요",
+              "label": "추천 코스",
               "values": [
-                "메인역·시먼역 집합, 10:00~12:30 출발, 9~11시간",
-                "출발 시각·순서를 직접 정함"
+                "예스지(예류·스펀·지우펀)",
+                "예스지 또는 예스폭지"
               ]
             },
             {
-              "label": "안내",
+              "label": "일정",
               "values": [
-                "한국어 가이드 동행 상품이 많음",
-                "운전만 하는 기사가 많음"
+                "출발 시각·체류 시간 고정",
+                "순서·체류 시간 직접 조정"
               ]
             },
             {
-              "label": "승하차",
+              "label": "인원",
               "values": [
-                "정해진 집합 장소",
-                "숙소 앞 승하차(도심 밖·공항은 추가 요금)"
+                "최소 15명 모여야 출발하는 상품 있음",
+                "5인승 4명, 9인승 8명까지"
               ]
             },
             {
-              "label": "지우펀 주말 통제",
+              "label": "짐",
               "values": [
-                "셔틀 대신 대중교통 이용 가능",
-                "외곽 주차장에서 셔틀로 갈아탈 수 있음"
+                "캐리어 차량 보관 가능 상품 있음",
+                "차종별 26인치 캐리어 4~8개"
+              ]
+            },
+            {
+              "label": "비 오는 날",
+              "values": [
+                "우천에도 정상 진행",
+                "코스·순서를 업체와 상의"
               ]
             }
           ]
         },
         {
           "type": "p",
-          "html": "가격은 여행 플랫폼 판매 페이지와 업체 표시가 기준이라 시즌·환율·상품마다 달라요(2026년 10월 기준). 예류지질공원 입장료는 공식 기준 일반 NT$120, 6~12세·65세 이상 NT$60, 6세 미만 무료이고, 개장 시간은 08:00~17:00(여름 08:00~18:00)입니다. 입장료는 두 방식 모두 대개 따로 내요."
+          "html": "버스투어 가격은 마이리얼트립 판매 페이지 표시가(2026년 10월 17일, 예스지·예스폭지·예스폭진지 일반 상품 1인 11,000~11,600원)이고, 프리미엄 상품은 3만 원대도 있어요. 택시투어 가격은 한 전세차 업체의 표시가라 업체마다 다릅니다. 예류지질공원 입장료(일반 NT$120, 6~12세·65세 이상 NT$60, 6세 미만 무료)와 풍등·식사는 두 방식 모두 대개 따로 내요."
         },
         {
           "type": "h2",
-          "text": "02 · 가격 구조, 1인 요금 vs 차 1대 요금"
+          "text": "02 · 버스투어라면 예스지를 추천하는 이유"
         },
         {
           "type": "tipList",
           "items": [
             {
               "mark": "✓",
-              "b": "버스투어는 1인당 계산",
-              "desc": "합류형 한국어 가이드 버스투어는 1인당 요금이고 프리미엄형 상품도 있어요. 예약 사이트에서 최신 가격을 확인하세요. 입장료·풍등·식사는 대부분 별도입니다."
+              "b": "1만 원대로 이동이 해결돼요",
+              "desc": "한국어 가이드가 동행하는 합류형 버스투어는 1인 1만 원 안팎이라 혼자나 둘이 가면 가장 부담이 적어요."
             },
             {
               "mark": "✓",
-              "b": "택시투어는 차 1대 기준",
-              "desc": "예류→지우펀→스펀 코스를 차 1대 NT$4,000부터(최대 9시간) 받는 업체가 있고, 9인승 밴은 NT$5,500부터예요. 4명이 5인승 1대를 나누면 1인 NT$1,000 수준이 됩니다."
+              "b": "곳을 줄일수록 한 곳에 오래 머물러요",
+              "desc": "버스투어는 정해진 시간 안에 모든 곳을 돌아야 해서, 다섯 곳을 다 넣는 예스폭진지는 장소마다 머무는 시간이 짧아지기 쉬워요. 예스지는 세 곳만 돌아서 '지우펀 2시간'을 내건 상품도 있습니다."
             },
             {
               "mark": "✓",
-              "b": "추가 요금 항목",
-              "desc": "초과 시간은 시간당 NT$400~700, 타이베이 도심 밖이나 공항 승하차는 NT$300~1,300이 붙는 상품이 많아요. 유류비·통행료·주차비 포함 여부도 업체마다 달라요."
+              "b": "가격 차이는 크지 않아요",
+              "desc": "같은 판매 페이지에서 예스지와 예스폭진지 일반 상품의 가격 차이는 몇백 원 수준이에요. 가격보다 하루를 얼마나 여유 있게 쓰고 싶은지로 고르는 편이 좋습니다."
             },
             {
               "mark": "✓",
-              "b": "인원 제한",
-              "desc": "5인승은 최대 4명, 9인승은 최대 8명이 기준이에요. 캐리어까지 싣는다면 짐 개수를 예약할 때 같이 알려 주세요."
+              "b": "오후 출발도 고를 수 있어요",
+              "desc": "13~14시에 출발해 지우펀 야경까지 보고 돌아오는 예스지 상품이 있어서 오전 일정을 따로 쓸 수 있어요."
             }
           ]
         },
         {
           "type": "figure",
           "img": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
-          "caption": "등불이 걸린 지우펀 계단 골목의 밤 풍경이에요(Pexels 사진). 버스투어는 보통 이 시간대에 지우펀에 도착하는 일정이 많아요."
+          "caption": "등불이 걸린 지우펀 계단 골목의 밤 풍경이에요(Pexels 사진). 오후 출발 버스투어는 보통 이 시간대에 지우펀에 머물러요."
         },
         {
           "type": "h2",
-          "text": "03 · 일정 자유도와 머무는 시간"
+          "text": "03 · 택시투어라면 예스지 또는 예스폭지"
         },
         {
           "type": "tipList",
           "items": [
             {
-              "mark": "1",
-              "b": "버스투어는 시간이 정해져 있어요",
-              "desc": "집합 시각과 장소별 체류 시간이 일정표로 정해져 있어요. 장소별로 얼마나 머무는지는 상품마다 달라서, 예약 전에 일정표를 꼭 확인하세요."
+              "mark": "✓",
+              "b": "차 1대 요금을 나눠요",
+              "desc": "예류→지우펀→스펀 코스를 차 1대 NT$4,000부터(최대 9시간) 받는 업체가 있고, 유류비·통행료·주차비 포함으로 안내해요(2026년 10월 기준). 4명이 나누면 1인 NT$1,000 수준입니다."
             },
             {
-              "mark": "2",
-              "b": "최소 출발 인원",
-              "desc": "15명 이상이 모여야 출발하는 상품도 있어요. 인원이 모자라면 며칠 전에 취소 안내가 오니 마지막 날 일정에 넣을 때는 대안을 생각해 두는 편이 좋습니다."
+              "mark": "✓",
+              "b": "폭포를 넣기 쉬워요",
+              "desc": "버스투어는 정해진 코스를 따르지만 택시는 스펀폭포 앞까지 바로 갈 수 있어서 예스폭지로 넣어도 부담이 덜해요. 시간이 빠듯하면 예스지로 줄이면 됩니다."
             },
             {
-              "mark": "3",
-              "b": "택시투어는 순서를 바꿀 수 있어요",
-              "desc": "오전에 예류를 먼저 보고 지우펀은 붐비기 전에 들르는 식으로 순서를 직접 정할 수 있어요. 스펀폭포를 넣을지 빼서 '예스폭지·예스진지'로 줄일지도 고를 수 있습니다."
+              "mark": "✓",
+              "b": "다섯 곳 욕심은 덜어내기",
+              "desc": "9시간 안에 다섯 곳을 모두 넣으면 택시라도 이동 시간이 길어져요. 진과스를 빼고 예스폭지로 잡으면 지우펀과 스펀에서 더 머물 수 있습니다."
             },
             {
-              "mark": "4",
-              "b": "가이드 vs 기사",
-              "desc": "버스투어 가이드는 풍등·간식 주문 같은 현장 안내를 도와주는 경우가 많아요. 택시투어 기사는 운전만 하는 상품이 많으니 설명이 필요하면 예약할 때 확인하세요."
+              "mark": "✓",
+              "b": "기사 언어 확인",
+              "desc": "운전만 하는 기사가 많고, 영어 기사는 하루 NT$500을 더 받는 업체도 있어요. 설명이 필요하면 예약할 때 확인하세요."
             }
           ]
         },
         {
           "type": "h2",
-          "text": "04 · 지우펀 주말 교통 통제와 승하차"
+          "text": "04 · 짐·비 오는 날·부모님과 아이"
         },
         {
           "type": "tipList",
           "items": [
             {
               "mark": "✓",
-              "b": "주차장이 차면 탄력 통제",
-              "desc": "신베이시 교통국은 휴일에 지우펀 옛거리 주변 주차장이 차면 경찰이 교통 예고·탄력 통제를 시작해 차량을 新九號·水湳洞 주차장으로 보내고, 셔틀버스로 갈아타게 한다고 안내해요(2026년 2월 보도자료)."
+              "b": "캐리어가 있다면",
+              "desc": "차량에 캐리어를 보관해 주는 버스투어 상품이 있어요. 택시투어는 업체 안내 기준 5인승은 4명+26인치 캐리어 4개, 7인승은 4명+캐리어 4개(짐 없으면 5명), 9인승은 8명+캐리어 8개까지예요."
             },
             {
               "mark": "✓",
-              "b": "버스투어도 영향을 받아요",
-              "desc": "주말·공휴일 통제 때는 셔틀 대신 대중교통(편도 NT$15, 본인 부담)으로 지우펀에 올라가는 버스투어 상품도 있어요."
+              "b": "비가 오면",
+              "desc": "버스투어는 우천에도 정상 진행하는 상품이 많아요. 예류·스펀은 야외라 비가 오면 걷기 불편하니, 택시투어라면 순서나 코스를 기사와 상의해보세요. 차에 우산을 비치한 업체도 있습니다."
             },
             {
               "mark": "✓",
-              "b": "통제 시간은 공지마다 달라요",
-              "desc": "연휴마다 통제 단계와 시간이 다르게 공지돼요. 주말·연휴에 택시투어를 예약했다면 기사에게 통제 때 어디서 내리는지 미리 물어보세요."
+              "b": "부모님 동반",
+              "desc": "택시투어는 숙소 앞에서 타고 내리고 쉬는 시간을 직접 정할 수 있어 걷는 양을 줄이기 좋아요. 버스투어는 집합 시간에 맞춰 움직여야 합니다."
             },
             {
               "mark": "✓",
-              "b": "숙소 앞 승하차",
-              "desc": "택시투어는 숙소 앞에서 타고 내릴 수 있어 마지막 날 캐리어를 실은 채 돌다가 공항으로 가는 일정도 짤 수 있어요. 공항 하차는 추가 요금이 붙는 경우가 많습니다."
+              "b": "아이 동반",
+              "desc": "한 버스투어 상품은 24개월 미만 유아가 무료이고 보호자가 안고 타며 카시트는 없어요. 택시투어도 카시트가 필요하면 예약할 때 따로 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "출발 확정 여부",
+              "desc": "버스투어는 최소 15명이 모여야 출발하는 상품이 있어서, 인원이 모자라면 3~4일 전에 취소 안내가 와요. 마지막 날 일정이라면 '출발 확정' 상품인지 보세요."
             }
           ]
         },
         {
           "type": "figure",
           "img": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-2.jpg",
-          "caption": "예류지질공원의 여왕머리 바위예요(Pexels 사진). 입장료는 두 투어 방식 모두 대개 따로 내요."
+          "caption": "예류지질공원의 여왕머리 바위예요(Pexels 사진). 바닷가 야외 산책로라 비 오는 날엔 걷기가 불편해요."
         },
         {
           "type": "h2",
-          "text": "05 · 어떤 여행자에게 맞을까"
+          "text": "05 · 지우펀 주말 교통 통제와 결론"
+        },
+        {
+          "type": "p",
+          "html": "신베이시 교통국은 휴일에 지우펀 옛거리 주변 주차장이 차면 탄력 통제를 시작해 차량을 외곽 주차장으로 보내고 셔틀버스로 갈아타게 한다고 안내해요(2026년 2월 보도자료). 이때 버스투어는 대중교통(편도 NT$15, 본인 부담)으로 올라가는 상품이 있고, 택시투어도 내리는 곳이 바뀔 수 있으니 기사에게 미리 물어보세요."
         },
         {
           "type": "tipList",
           "items": [
             {
               "mark": "✓",
-              "b": "혼자·2명이면 버스투어",
-              "desc": "1인 요금이 낮고 가이드가 동선을 챙겨 줘서 혼자나 둘이 가는 첫 대만 여행이면 부담이 적어요."
+              "b": "혼자·2명, 가격이 중요하면",
+              "desc": "버스투어 예스지. 1인 1만 원대로 가이드까지 함께해요."
             },
             {
               "mark": "✓",
-              "b": "4명 이상·부모님 동반이면 택시투어",
-              "desc": "차 1대 요금을 나누면 1인 부담이 줄고, 숙소 앞 승하차와 쉬는 시간을 마음대로 정할 수 있어요. 가족 예약 체크리스트는 <a href=\"/blog-taiwan-private-charter-taxi-family-checklist\">대만 가족여행 프라이빗 택시</a> 글을 보세요."
+              "b": "3~4명, 부모님·아이·캐리어가 있으면",
+              "desc": "택시투어 예스지나 예스폭지. 차 1대 요금을 나누고 숙소 앞에서 타고 내려요. 가족 예약 체크리스트는 <a href=\"/blog-taiwan-private-charter-taxi-family-checklist\">대만 가족여행 프라이빗 택시</a> 글을 보세요."
             },
             {
               "mark": "✓",
-              "b": "대중교통으로 직접 가고 싶다면",
-              "desc": "투어 없이 가려면 <a href=\"/blog-jiufen-bus-965-from-taipei\">지우펀 965번 버스 타는 법</a>과 <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">예류→지우펀 버스 이동</a>을 참고할 수 있어요."
-            },
-            {
-              "mark": "✓",
-              "b": "렌터카로 직접 운전한다면",
-              "desc": "주차 위치와 통제 때 동선은 <a href=\"/blog-jiufen-car-stay-parking-guide\">지우펀 렌터카 주차 가이드</a>에 정리해 뒀습니다."
+              "b": "투어 없이 직접 가려면",
+              "desc": "<a href=\"/blog-jiufen-bus-965-from-taipei\">지우펀 965번 버스 타는 법</a>, <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">예류→지우펀 버스 이동</a>, <a href=\"/blog-jiufen-car-stay-parking-guide\">지우펀 렌터카 주차 가이드</a>를 참고하세요."
             }
           ]
         },
@@ -1118,11 +1522,11 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "지우펀에서 머무는 시간을 어떻게 쓸지 정했다면 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>와 <a href=\"/jiufen-cafe\">지우펀 카페 맛집</a>에서 미리 골라 두세요. 옛거리 위쪽의 <a href=\"/jiufen-cafe-twilight-cafe-843\">微光森林 Twilight Cafe</a>, 스펀에서 출출할 때는 <a href=\"/jiufen-street_food-720\">스펀 소세지</a>도 지도에 있어요. 영업시간은 방문 전 구글맵에 등록된 정보를 확인하세요."
+          "html": "지우펀에서 머무는 시간을 어떻게 쓸지 정했다면 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>와 <a href=\"/jiufen-cafe\">지우펀 카페 맛집</a>에서 미리 골라 두세요. 옛거리 위쪽의 <a href=\"/jiufen-cafe-twilight-cafe-843\">微光森林 Twilight Cafe</a>, 스펀에서 출출할 때는 <a href=\"/jiufen-street_food-720\">스펀 소세지</a>도 지도에 있어요."
         },
         {
           "type": "note",
-          "text": "이 글은 예류지질공원 공식 홈페이지의 입장료·개장 시간, 북해안 및 관음산 국가풍경구 관리처 안내, 신베이시 교통국 2026년 2월 보도자료, 여행 플랫폼(KKday·Klook) 버스투어·전세차 상품 안내와 전세차 업체 표시가를 바탕으로 2026년 10월 기준으로 정리했습니다. 투어 가격·일정·추가 요금·지우펀 통제 방식은 바뀔 수 있으니 예약 전에 상품 페이지와 최신 공지를 다시 확인하는 것을 추천해요."
+          "text": "이 글은 마이리얼트립 예스진지 투어 판매 페이지(2026년 10월 17일 표시가), KKday 예스지 버스투어 상품 안내(최소 출발 인원·캐리어 보관·우천 진행·유아 규정), 전세차 업체 표시가와 차종별 정원, 예류지질공원 공식 입장료, 신베이시 교통국 2026년 2월 보도자료를 바탕으로 2026년 10월 기준으로 정리했습니다. 가격·일정·통제 방식은 바뀔 수 있으니 예약 전에 상품 페이지와 최신 공지를 다시 확인하는 것을 추천해요."
         },
         {
           "type": "cta",
@@ -1134,219 +1538,223 @@ const BLOG_POSTS = {
       ]
     },
     "en": {
-      "pageTitle": "Yehliu–Jiufen Taxi Tour vs Bus Tour · My Secret Taiwan Eats",
-      "metaDescription": "Yehliu–Shifen–Jiufen taxi tour vs bus tour: price structure, time at each stop, guide or driver-only, and Jiufen weekend traffic control, as of October 2026.",
+      "pageTitle": "Yehliu–Jiufen Taxi Tour vs Bus Tour — Comparison · My Secret Taiwan Eats",
+      "metaDescription": "Yehliu–Shifen–Jiufen taxi tour vs bus tour: per-person bus fares around KRW 11,000, per-car taxi fares, route choice, luggage and rain, as of October 2026.",
       "ogTitle": "Yehliu–Shifen–Jiufen Day Trip: Taxi Tour or Bus Tour?",
       "eyebrow": "Taipei Day Trips · Tour Comparison",
       "title": "Yehliu–Shifen–Jiufen Day Trip: Taxi Tour or Bus Tour?",
-      "dek": "Per-person vs per-car pricing, a fixed timetable vs your own, guide vs driver, and Jiufen's weekend traffic control — what to weigh before you book.",
+      "dek": "A bus seat for about KRW 11,000 or a whole car for a flat fare — and just as important, how many stops you squeeze into one day.",
       "metaAuthor": "My Secret Taiwan Eats Editorial",
       "metaTopic": "Near Taipei · Yehliu–Jiufen Guide",
-      "intro": "\"Should we do the Yehliu–Shifen–Jiufen day by taxi tour or bus tour?\" Korean travelers call the Yehliu (野柳), Shifen (十分), Jinguashi (金瓜石), and Jiufen (九份) day trip from Taipei \"Yes-Jin-Ji\", and the version that adds Shifen Waterfall \"Yes-Pok-Jin-Ji\". Taxi tours and bus tours price this day very differently. This guide follows Yehliu Geopark's official page, a New Taipei Transportation Department press release, and travel-platform listings, as of October 2026.",
+      "intro": "\"Should I do the Yehliu–Jiufen day trip by taxi or by bus tour?\" Korean travelers call the five-stop version 'Ye-Seu-Pok-Jin-Ji': Yehliu (野柳), Shifen (十分), Shifen Waterfall (十分瀑布), Jinguashi (金瓜石) and Jiufen (九份). Drop Jinguashi and it's Ye-Seu-Pok-Ji; drop the waterfall too and it's Ye-Seu-Ji. Here's how taxi and bus tours compare on price, luggage and rainy days, based on sales pages and official notices as of October 2026.",
       "blocks": [
         {
           "type": "h2",
-          "text": "01 · Yehliu–Shifen–Jiufen Taxi Tour vs Bus Tour at a Glance"
+          "text": "01 · Taxi Tour vs Bus Tour at a Glance"
         },
         {
           "type": "compareTable",
           "cities": [
-            "Item",
-            "Bus tour (join-in, guided)",
-            "Taxi / private car tour"
+            "",
+            "Bus tour (join-in)",
+            "Taxi / private car"
           ],
           "rows": [
             {
-              "label": "Pricing",
+              "label": "Price",
               "values": [
-                "Per person",
-                "Per vehicle"
+                "About KRW 11,000 per person (standard)",
+                "From NT$4,000 per car (about 9 hours)"
               ]
             },
             {
-              "label": "Price example",
+              "label": "Suggested route",
               "values": [
-                "Check the booking site for the latest price",
-                "From NT$4,000 per car (up to about 9 hours)"
+                "Yehliu–Shifen–Jiufen",
+                "Yehliu–Shifen–Jiufen, or add the waterfall"
               ]
             },
             {
-              "label": "Start & length",
+              "label": "Schedule",
               "values": [
-                "Meet at Taipei Main Station / Ximen, depart 10:00–12:30, 9–11 hours",
-                "You set the start time and order"
+                "Fixed departure and stop times",
+                "You set the order and timing"
               ]
             },
             {
-              "label": "Guiding",
+              "label": "Group size",
               "values": [
-                "Many include a Korean-speaking guide",
-                "Many drivers only drive"
+                "Some need 15 people to run",
+                "Up to 4 (5-seater) or 8 (9-seater)"
               ]
             },
             {
-              "label": "Pickup",
+              "label": "Luggage",
               "values": [
-                "Fixed meeting point",
-                "Hotel door (extra fee outside the city or at the airport)"
+                "Some keep suitcases on the bus",
+                "4–8 26-inch suitcases by vehicle"
               ]
             },
             {
-              "label": "Jiufen weekend control",
+              "label": "Rain",
               "values": [
-                "May switch to public transport instead of the shuttle",
-                "May have to transfer to a shuttle from an outer car park"
+                "Runs rain or shine",
+                "Adjust the route with the driver"
               ]
             }
           ]
         },
         {
           "type": "p",
-          "html": "Prices come from travel-platform listings and operator rates, so they shift with season, exchange rate, and product (as of October 2026). Yehliu Geopark's official admission is NT$120 standard, NT$60 for ages 6–12 and 65+, free under 6, open 08:00–17:00 (08:00–18:00 in summer). Admission is usually paid separately on both tour types."
+          "html": "Bus prices are as listed on Myrealtrip on October 17, 2026 (standard Yehliu–Jiufen bus tours KRW 11,000–11,600 per person); premium versions run around KRW 34,000. The taxi fare is one charter company's listed rate and varies by operator. Yehliu Geopark entry (NT$120; NT$60 for ages 6–12 and 65+; free under 6), sky lanterns and meals are usually extra either way."
         },
         {
           "type": "h2",
-          "text": "02 · Pricing: Per Person vs Per Car"
+          "text": "02 · On a Bus Tour, Pick Yehliu–Shifen–Jiufen"
         },
         {
           "type": "tipList",
           "items": [
             {
               "mark": "✓",
-              "b": "Bus tours charge per person",
-              "desc": "Join-in bus tours with a Korean-speaking guide are priced per person, and premium versions are also sold. Check the booking site for the latest price. Admission, sky lanterns, and meals are mostly extra."
+              "b": "Transport sorted for about KRW 10,000",
+              "desc": "Join-in tours with a Korean-speaking guide are the cheapest choice for solo travelers and couples."
             },
             {
               "mark": "✓",
-              "b": "Taxi tours charge per car",
-              "desc": "One operator lists Yehliu → Jiufen → Shifen from NT$4,000 per car (up to 9 hours) and a 9-seat van from NT$5,500. Four people sharing a 5-seater pay about NT$1,000 each."
+              "b": "Fewer stops, more time at each",
+              "desc": "Bus tours must fit every stop into a fixed day, so the five-stop route tends to mean shorter stops. Three-stop tours even advertise two hours in Jiufen."
             },
             {
               "mark": "✓",
-              "b": "Extra charges",
-              "desc": "Many products add NT$400–700 per extra hour and NT$300–1,300 for pickup or drop-off outside central Taipei or at the airport. Whether fuel, tolls, and parking are included differs by operator."
+              "b": "The price gap is small",
+              "desc": "On the same sales page, three-stop and five-stop standard tours differ by only a few hundred won, so choose by pace, not price."
             },
             {
               "mark": "✓",
-              "b": "Seat limits",
-              "desc": "A 5-seater takes up to 4 passengers and a 9-seater up to 8. If you bring suitcases, give the luggage count when you book."
+              "b": "Afternoon departures",
+              "desc": "Some three-stop tours leave at 1–2 p.m. and include Jiufen after dark, leaving your morning free."
             }
           ]
         },
         {
           "type": "figure",
           "img": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-1.jpg",
-          "caption": "A lantern-lit stair lane in Jiufen at night (Pexels photo). Many bus tours reach Jiufen around this time of day."
+          "caption": "A lantern-lit stairway alley in Jiufen at night (Pexels). Afternoon bus tours usually reach Jiufen around this time."
         },
         {
           "type": "h2",
-          "text": "03 · Schedule Freedom and Time at Each Stop"
+          "text": "03 · On a Taxi Tour, Three Stops or Add the Waterfall"
         },
         {
           "type": "tipList",
           "items": [
             {
-              "mark": "1",
-              "b": "Bus tours run on a fixed timetable",
-              "desc": "Meeting time and time at each stop are set in the itinerary. Stop lengths differ by product, so read the itinerary before you book."
+              "mark": "✓",
+              "b": "Split one car fare",
+              "desc": "One operator lists Yehliu→Jiufen→Shifen from NT$4,000 per car (up to 9 hours), including fuel, tolls and parking (as of October 2026). Four people pay about NT$1,000 each."
             },
             {
-              "mark": "2",
-              "b": "Minimum group size",
-              "desc": "Some products need at least 15 people to run and send a cancellation notice a few days ahead if they fall short. Have a backup if you plan it for your last day."
+              "mark": "✓",
+              "b": "Easy to add the waterfall",
+              "desc": "A taxi can take you right to Shifen Waterfall, so adding it costs little time. If the day is tight, stick to three stops."
             },
             {
-              "mark": "3",
-              "b": "Taxi tours let you reorder stops",
-              "desc": "You can see Yehliu first in the morning and reach Jiufen before the evening rush. You can also drop Shifen Waterfall or Jinguashi to shorten the day."
+              "mark": "✓",
+              "b": "Don't force all five",
+              "desc": "Squeezing five stops into nine hours means a lot of driving even by taxi. Skipping Jinguashi buys more time in Jiufen and Shifen."
             },
             {
-              "mark": "4",
-              "b": "Guide vs driver",
-              "desc": "Bus-tour guides often help with on-site tasks like sky lanterns and snack orders. Many taxi-tour drivers only drive, so ask when booking if you want commentary."
+              "mark": "✓",
+              "b": "Check the driver's language",
+              "desc": "Many drivers only drive; one operator charges NT$500 a day extra for an English-speaking driver."
             }
           ]
         },
         {
           "type": "h2",
-          "text": "04 · Jiufen Weekend Traffic Control and Pickup"
+          "text": "04 · Luggage, Rain, Parents and Kids"
         },
         {
           "type": "tipList",
           "items": [
             {
               "mark": "✓",
-              "b": "Flexible control when car parks fill",
-              "desc": "New Taipei's Transportation Department says that on holidays, once parking around Jiufen Old Street nears capacity, police start traffic warnings and flexible control, sending cars to the Xin Jiuhao (新九號) and Shuinandong (水湳洞) car parks and onto shuttle buses (February 2026 press release)."
+              "b": "With suitcases",
+              "desc": "Some bus tours keep suitcases on board. One taxi operator lists 4 people + four 26-inch suitcases for a 5-seater, 4 + 4 (or 5 without luggage) for a 7-seater, and 8 + 8 for a 9-seater."
             },
             {
               "mark": "✓",
-              "b": "Bus tours are affected too",
-              "desc": "Some bus tours say that during weekend or holiday control, guests ride public transport up to Jiufen instead of the shuttle (NT$15 one-way, paid by you)."
+              "b": "If it rains",
+              "desc": "Many bus tours run rain or shine. Yehliu and Shifen are outdoors, so on a taxi tour, ask the driver about changing the order or route. Some cars carry umbrellas."
             },
             {
               "mark": "✓",
-              "b": "Control hours vary by notice",
-              "desc": "Control stages and hours are announced differently for each holiday. If you book a taxi tour for a weekend, ask the driver where you will be dropped if control is on."
+              "b": "With parents",
+              "desc": "A taxi tour picks you up at your hotel and lets you set rest stops, cutting down on walking. Bus tours run to meeting times."
             },
             {
               "mark": "✓",
-              "b": "Hotel-door pickup",
-              "desc": "Taxi tours pick up and drop off at your hotel, so on your last day you can keep suitcases in the car and finish at the airport. Airport drop-off usually costs extra."
+              "b": "With kids",
+              "desc": "One bus tour lets under-24-month infants ride free on a parent's lap, with no car seats. If you need a car seat on a taxi tour, ask when booking."
+            },
+            {
+              "mark": "✓",
+              "b": "Guaranteed departure",
+              "desc": "Some bus tours need 15 people and cancel 3–4 days ahead if short. For a last-day trip, look for 'guaranteed departure'."
             }
           ]
         },
         {
           "type": "figure",
           "img": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-2.jpg",
-          "caption": "Queen's Head rock at Yehliu Geopark (Pexels photo). Admission is usually paid separately on both tour types."
+          "caption": "The Queen's Head rock at Yehliu Geopark (Pexels). It's an exposed seaside trail, so rain makes walking harder."
         },
         {
           "type": "h2",
-          "text": "05 · Which Traveler Fits Which Tour"
+          "text": "05 · Jiufen Weekend Traffic Control and the Verdict"
+        },
+        {
+          "type": "p",
+          "html": "New Taipei's Transportation Department says that on holidays, when parking around Jiufen Old Street fills up, police start flexible traffic control, send cars to outer lots and switch visitors to shuttle buses (February 2026 press release). Some bus tours then go up by public bus (NT$15 one way, paid by you), and taxi drop-off points can change too, so ask your driver."
         },
         {
           "type": "tipList",
           "items": [
             {
               "mark": "✓",
-              "b": "Solo or two people: bus tour",
-              "desc": "The per-person price is low and the guide handles the route, which suits a first Taiwan trip alone or as a pair."
+              "b": "Solo or two, on a budget",
+              "desc": "Three-stop bus tour: about KRW 11,000 with a guide."
             },
             {
               "mark": "✓",
-              "b": "Four or more, or with parents: taxi tour",
-              "desc": "Splitting one car lowers the per-person cost, and you choose hotel pickup and rest stops. See <a href=\"/blog-taiwan-private-charter-taxi-family-checklist\">booking a private taxi for a family trip</a> for a checklist."
+              "b": "Three or four, with parents, kids or suitcases",
+              "desc": "Taxi tour, three stops or with the waterfall: split one fare and ride from your hotel. See our <a href=\"/blog-taiwan-private-charter-taxi-family-checklist\">Taiwan family private taxi checklist</a>."
             },
             {
               "mark": "✓",
-              "b": "Prefer public transport?",
-              "desc": "Without a tour, see <a href=\"/blog-jiufen-bus-965-from-taipei\">how to ride bus 965 to Jiufen</a> and <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">Yehliu to Jiufen by bus</a>."
-            },
-            {
-              "mark": "✓",
-              "b": "Driving yourself?",
-              "desc": "Parking and control-day routes are in the <a href=\"/blog-jiufen-car-stay-parking-guide\">Jiufen rental-car parking guide</a>."
+              "b": "Going on your own",
+              "desc": "See <a href=\"/blog-jiufen-bus-965-from-taipei\">Bus 965 to Jiufen</a>, <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">Yehliu to Jiufen by bus</a> and the <a href=\"/blog-jiufen-car-stay-parking-guide\">Jiufen parking guide</a>."
             }
           ]
         },
         {
           "type": "quote",
-          "text": "\"When parking around Jiufen Old Street nears capacity, police start traffic warnings and flexible control.\" — New Taipei Transportation Department."
+          "text": "\"當九份老街周邊停車位趨於飽和時，警方即啟動交通預警與彈性管制措施.\" — New Taipei's notice that police begin traffic warnings and flexible control once parking near Jiufen Old Street is nearly full."
         },
         {
           "type": "p",
-          "html": "Once you know how much time you will have in Jiufen, pick a few stops on the <a href=\"/region-jiufen\">Jiufen food map</a> and <a href=\"/jiufen-cafe\">Jiufen cafés</a>. <a href=\"/jiufen-cafe-twilight-cafe-843\">Twilight Cafe (微光森林)</a> sits above the old street, and <a href=\"/jiufen-street_food-720\">Shifen sausage</a> is on the map for a snack in Shifen. Check the current opening hours on Google Maps before you go."
+          "html": "Plan your time in Jiufen with the <a href=\"/region-jiufen\">Jiufen restaurant map</a> and <a href=\"/jiufen-cafe\">Jiufen cafés</a>, including <a href=\"/jiufen-cafe-twilight-cafe-843\">微光森林 Twilight Cafe</a>, and grab a <a href=\"/jiufen-street_food-720\">Shifen sausage</a> on the way."
         },
         {
           "type": "note",
-          "text": "This guide is based on Yehliu Geopark's official ticket and hours page, the North Coast & Guanyinshan National Scenic Area page, New Taipei's February 2026 Transportation Department press release, KKday and Klook bus-tour and private-car listings, and a charter operator's published rates, as of October 2026. Tour prices, schedules, surcharges, and Jiufen traffic control can change — recheck the product page and latest notices before you book."
+          "text": "Based on Myrealtrip's Yehliu–Jiufen tour listings (prices shown October 17, 2026), a KKday three-stop bus tour notice (minimum group, luggage, rain, infants), a charter company's listed fares and vehicle capacities, Yehliu Geopark's official admission, and New Taipei's February 2026 press release. Prices, schedules and traffic control can change, so check product pages and notices before booking."
         },
         {
           "type": "cta",
-          "title": "Check Jiufen restaurants on the map",
-          "desc": "Pinning a few Jiufen and Shifen bites before your tour makes short stops feel less rushed.",
-          "btn": "Open map →",
+          "title": "Find Jiufen food on the map",
+          "desc": "Pin Jiufen and Shifen bites in advance so short stops feel worth it.",
+          "btn": "Open Map →",
           "href": "/map?region=jiufen"
         }
       ]
