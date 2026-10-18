@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "alishan-zhaoping-line-ticket-exchange",
+    "image": "assets/images/blog/alishan-zhaoping-line-ticket-exchange-1.jpg",
+    "regions": [
+      "alishan"
+    ],
+    "ko": {
+      "eyebrow": "아리산 여행 가이드 · 삼림열차",
+      "title": "아리산 쟈오핑선, 입장권 세트 QR은 어디서 바꿀까?",
+      "desc": "입장권+쟈오핑선 세트 QR 교환 위치와 시각표·요금, 지선 1일권 계산, 쟈오핑역 하산 동선을 정리했어요.",
+      "meta": "아리산 · 삼림열차 가이드"
+    },
+    "en": {
+      "eyebrow": "Alishan Travel Guide · Forest Railway",
+      "title": "Alishan Zhaoping Line: Where Do You Exchange the Combo Ticket QR?",
+      "desc": "Where to exchange the entry + Zhaoping combo QR, timetable and fares, the day-pass math, and the walk down from Zhaoping.",
+      "meta": "Alishan · Forest Railway Guide"
+    }
+  },
+  {
     "slug": "taipei-ximending-korean-restaurants",
     "image": "assets/images/blog/taipei-ximending-korean-restaurants-1.jpg",
     "regions": [
@@ -932,6 +951,437 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "alishan-zhaoping-line-ticket-exchange": {
+    "heroImage": "assets/images/blog/alishan-zhaoping-line-ticket-exchange-1.jpg",
+    "ko": {
+      "pageTitle": "아리산 쟈오핑선 — QR 교환·시각표 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "아리산 쟈오핑선 표가 든 입장권 세트, QR은 어디서 바꿀까요? 아리산역 교환법과 시각표·요금, 지선 1일권, 쟈오핑역에서 걸어 내려오는 동선을 정리했어요.",
+      "ogTitle": "아리산 쟈오핑선, 입장권 세트 QR은 어디서 바꿀까?",
+      "eyebrow": "아리산 여행 가이드 · 삼림열차",
+      "title": "아리산 쟈오핑선, 입장권 세트 QR은 어디서 바꿀까?",
+      "dek": "입장 QR은 유락구 매표소에서, 열차 QR은 아리산역에서 — 같은 세트라도 쓰는 곳이 두 군데예요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "아리산 · 삼림열차 가이드",
+      "intro": "\"입장권이랑 같이 산 쟈오핑선 표, QR만 보여 주고 타면 되나요?\" 아리산 쟈오핑선(沼平線)은 아리산역과 쟈오핑역을 약 6분에 잇는 숲속 지선 열차예요. 입장권과 열차표를 묶은 세트는 QR 하나로 끝나지 않고 쓰는 곳이 나뉩니다. 林業及自然保育署 아리산 임업철도 공식 안내와 공식 전자 입장권 사이트를 바탕으로 교환법, 시각표, 쟈오핑역 이후 동선을 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 아리산 쟈오핑선 표, 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "입장권+쟈오핑선 세트",
+            "현장에서 따로 사기",
+            "지선 1일권"
+          ],
+          "rows": [
+            {
+              "label": "일반 요금",
+              "values": [
+                "NT$300(입장권+편도 1회)",
+                "입장권 NT$300 + 열차 NT$100",
+                "NT$400(입장권 별도)"
+              ]
+            },
+            {
+              "label": "사는 곳",
+              "values": [
+                "공식 전자 입장권 사이트 '森林好好玩'",
+                "열차: 아리산역 2층 창구(08:30~16:30) 또는 林鐵 웹 예약",
+                "아리산역 2층(이용 전날·당일)"
+              ]
+            },
+            {
+              "label": "쓰는 법",
+              "values": [
+                "입장 QR은 매표소, 열차 QR은 아리산역에서 종이 표로 교환",
+                "종이 표(지선은 전자표 없음)",
+                "날짜 도장이 찍힌 날 지선 3개 무제한"
+              ]
+            },
+            {
+              "label": "유효 기간",
+              "values": [
+                "처음 쓴 날부터 이틀 안",
+                "탑승일 지정",
+                "1일권 하루, 2일권(NT$500) 이틀"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "요금은 2026년 10월 기준 공식 안내예요. 森林好好玩 세트는 정가 NT$400(입장권 300+열차 100)을 NT$300에 팔고 있어서, 일반 입장권 값에 쟈오핑선 편도가 붙는 셈입니다. 열차는 6~11세 또는 키 115~150cm 어린이가 반값(NT$50)이고, 6세 미만이거나 키 115cm 미만이면 좌석을 쓰지 않는 조건으로 무료예요. 버스 같은 대중교통 표를 가지고 들어가면 입장권이 NT$150로 내려가니, 버스로 올라왔다면 표를 버리지 마세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 입장권 세트 QR, 어디서 무엇으로 바꿀까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "유락구 매표소에서 입장 QR",
+              "desc": "아리산 국가삼림유락구 입구 매표소(收費站)에서 직원이 QR을 찍으면 바로 들어가요. 전자 입장권을 보여 주면 주차비도 받지 않는다고 안내합니다."
+            },
+            {
+              "mark": "2",
+              "b": "아리산역에서 열차 QR을 종이 표로",
+              "desc": "쟈오핑선 QR은 개찰구에 바로 찍는 방식이 아니에요. 아리산역에서 직원에게 QR을 보여 주고 실물 표로 바꾼 뒤 들어갑니다."
+            },
+            {
+              "mark": "3",
+              "b": "이틀 안에 모두 쓰기",
+              "desc": "세트는 어느 하나를 처음 쓴 날부터 이틀 안(둘째 날 23:59까지)에 나머지도 써야 해요. 첫날 입장하고 다음 날 아침에 열차를 타는 일정도 됩니다."
+            },
+            {
+              "mark": "4",
+              "b": "바꾼 뒤에는 환불이 안 돼요",
+              "desc": "세트 중 하나라도 쓰거나 바꾸면 환불되지 않아요. 날씨가 애매하면 탈 시간이 정해진 뒤에 열차 표로 바꾸세요."
+            },
+            {
+              "mark": "5",
+              "b": "여권 챙기기",
+              "desc": "열차는 표에 맞는 신분증 원본을 보여 달라고 할 수 있어요. 어린이 반값표를 쓰려면 나이를 확인할 여권을 챙기세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-zhaoping-line-ticket-exchange-1.jpg",
+          "caption": "안개 낀 아리산 숲속 돌다리를 지나는 빨간 삼림열차예요(Pexels 사진)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 아리산 쟈오핑선 시각표와 지선 1일권"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구분",
+            "아리산역 출발",
+            "쟈오핑역 출발"
+          ],
+          "rows": [
+            {
+              "label": "오전",
+              "values": [
+                "09:00·09:30·10:00·10:30·11:00·11:30",
+                "09:20·09:50·10:20·10:50·11:20·11:50"
+              ]
+            },
+            {
+              "label": "오후",
+              "values": [
+                "13:00·13:30·14:00·14:30·15:10·15:40",
+                "13:20·13:50·14:20·15:00·15:30·16:00"
+              ]
+            },
+            {
+              "label": "걸리는 시간",
+              "values": [
+                "약 6분",
+                "약 6분"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "공식 시각표(2024년 7월 6일부터 적용, 2026년 10월 기준)예요. 11:30 다음 열차가 13:00이라 점심 무렵 1시간 반이 비고, 쟈오핑역에서 아리산역으로 돌아오는 막차는 16:00입니다. 수요일에는 노송나무(檜木) 객차가 붙어서 달려요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "지선 1일권이 이득인 경우",
+              "desc": "지선 1일권 NT$400(2일권 NT$500)은 쟈오핑·선무(神木)·주산(祝山) 3개 지선을 무제한 타는 표예요. 쟈오핑 편도와 선무 편도만 타면 NT$200이라 따로 사는 편이 싸고, 같은 날 주산선 왕복(NT$300)까지 타면 1일권이 NT$100 이득입니다. 입장권은 들어 있지 않아요."
+            },
+            {
+              "mark": "✓",
+              "b": "웹 예약은 14일 전부터",
+              "desc": "林鐵 웹 예약은 탑승 14일 전부터 전날까지 열려요. 지선은 전자표가 없어서 역 창구나 세븐일레븐 ibon에서 종이 표로 받아야 합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "주산선 일출 열차",
+              "desc": "주산선 일출 열차 출발 시각은 전날 16:30에 林鐵 웹사이트와 아리산역, 유락구 입구에 공지돼요. 1일권은 1월 1일 일출 열차에는 쓸 수 없어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 쟈오핑역에서 걸어 내려오는 동선"
+        },
+        {
+          "type": "p",
+          "html": "쟈오핑역은 아리산역보다 높은 곳에 있어서, 올라갈 때 열차를 타고 내려올 때 걸으며 보는 순서가 편해요. 쟈오핑역에서 자매담(姊妹潭) 쪽으로 내려가 수진궁(受鎮宮)과 거목군 잔도(巨木群棧道)를 지나 아리산역 쪽으로 돌아오면 됩니다. 수산(水山) 쪽 산책로도 쟈오핑역에서 내려 걸어가요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "비가 오면 전동 유원차",
+              "desc": "아리산 전동 유원차(電動遊園車) 香林線은 수진궁 옆 香林站에 서고 방문자센터(遊客中心站)와 이어져요. 철도와 따로 요금을 내고, 정해진 시각표 없이 현장 상황에 맞춰 다닌다고 안내합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "열차로 돌아온다면 16:00 막차 기준",
+              "desc": "걷지 않고 쟈오핑역에서 열차로 내려오려면 16:00 막차를 기준으로 일정을 거꾸로 잡으세요."
+            },
+            {
+              "mark": "✓",
+              "b": "산 위 날씨 확인",
+              "desc": "해발 2,000m가 넘는 숲이라 평지보다 서늘하고 날씨가 자주 바뀌어요. 태풍·폭우 때는 유락구를 닫거나 일부를 막을 수 있으니 출발 전에 林鐵와 유락구 공지를 보세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-zhaoping-line-ticket-exchange-2.jpg",
+          "caption": "'祝山 ⇄ 阿里山' 표지판이 붙은 주산선 객차예요(Pexels 사진). 숲 안 지선 열차는 이렇게 빨간 객차로 다녀요."
+        },
+        {
+          "type": "quote",
+          "text": "\"持電子憑證(QR Code)至阿里山車站，給服務人員掃描QR code後，兌換實體票後入場.\" — 전자 QR을 아리산역 직원에게 보여 주고 실물 표로 바꾼 뒤 들어가라는 공식 판매처의 쟈오핑선 세트 안내예요."
+        },
+        {
+          "type": "p",
+          "html": "아리산에 오르기 전이나 내려온 뒤 자이(嘉義) 시내에서 한 끼를 해결한다면 <a href=\"/region-alishan\">아리산/일월담 맛집 지도</a>를 먼저 보세요. 자이역 근처 칠면조덮밥집 <a href=\"/alishan-taiwanese-959\">嘉義車頭火雞肉飯</a>, 자이 구 감옥 맞은편 핸드드립 카페 <a href=\"/alishan-cafe-845\">幸福原在咖啡</a>도 지도에 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 林業及自然保育署 阿里山林業鐵路及文化資產管理處 공식 사이트(지선 시각표·지선 요금·售票說明·지선 1일권/2일권), 林鐵 웹 예약 시스템의 유락구 입장권 안내, 林業保育署 국가삼림유락구 전자 입장권 사이트 '森林好好玩'의 입장권·쟈오핑선 세트 안내, 아리산 전동 유원차 판매 페이지를 바탕으로 2026년 10월 기준으로 정리했습니다. 시각표·요금·세트 가격은 바뀔 수 있으니 출발 전 공식 공지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 아리산·자이 맛집도 확인해보세요",
+          "desc": "산에 오르기 전후 자이 시내에서 들를 곳을 미리 찜해 두면 일정이 덜 빠듯해요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=alishan"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Alishan Zhaoping Line — QR Exchange & Timetable · My Secret Taiwan Eats",
+      "metaDescription": "Bought an Alishan entry + Zhaoping Line combo? Where to swap the QR code for a paper ticket, the timetable and fares, the branch-line day pass, and the walk back down.",
+      "ogTitle": "Alishan Zhaoping Line: Where Do You Exchange the Combo Ticket QR?",
+      "eyebrow": "Alishan Travel Guide · Forest Railway",
+      "title": "Alishan Zhaoping Line: Where Do You Exchange the Combo Ticket QR?",
+      "dek": "The entry QR is scanned at the park gate and the train QR at Alishan Station — one combo, two places to use it.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Alishan · Forest Railway Guide",
+      "intro": "\"I bought the Zhaoping Line ticket together with my park entry. Can I just show the QR and board?\" The Zhaoping Line (沼平線) is a forest branch train that links Alishan Station and Zhaoping Station in about six minutes. A combo of park entry and train ticket isn't a single scan, though. Based on the Forestry and Nature Conservation Agency's Alishan Forest Railway pages and its official e-ticket site, here's how the exchange works, the timetable, and what to do after Zhaoping, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Alishan Zhaoping Line Tickets at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Entry + Zhaoping combo",
+            "Buy separately on site",
+            "Branch-line day pass"
+          ],
+          "rows": [
+            {
+              "label": "Standard fare",
+              "values": [
+                "NT$300 (entry + one ride)",
+                "Entry NT$300 + train NT$100",
+                "NT$400 (entry not included)"
+              ]
+            },
+            {
+              "label": "Where to buy",
+              "values": [
+                "Official e-ticket site 森林好好玩 (Forest Pass)",
+                "Train: Alishan Station 2F window (08:30–16:30) or railway web booking",
+                "Alishan Station 2F (day before or same day)"
+              ]
+            },
+            {
+              "label": "How to use",
+              "values": [
+                "Entry QR at the gate; train QR swapped for a paper ticket at Alishan Station",
+                "Paper ticket (no e-tickets on branch lines)",
+                "Unlimited rides on all three branch lines on the stamped date"
+              ]
+            },
+            {
+              "label": "Valid",
+              "values": [
+                "Within two days of first use",
+                "Date of travel",
+                "One day; two-day pass NT$500"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Fares are from official pages as of October 2026. The Forest Pass combo lists NT$400 (entry 300 + train 100) for NT$300, so the Zhaoping ride effectively comes with a standard entry ticket. Children aged 6–11 or 115–150 cm tall ride for half (NT$50); under 6 or under 115 cm ride free without their own seat. Entry drops to NT$150 if you arrive with a public bus or train ticket stub, so keep yours."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Using the Combo QR: What Goes Where"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Entry QR at the park gate",
+              "desc": "Staff at the Alishan National Forest Recreation Area tollgate (收費站) scan the QR and you're in. The official site says e-ticket holders also skip the parking fee."
+            },
+            {
+              "mark": "2",
+              "b": "Train QR becomes a paper ticket at Alishan Station",
+              "desc": "You don't tap the Zhaoping QR at the gate. Show it to staff at Alishan Station, get a paper ticket, then go through."
+            },
+            {
+              "mark": "3",
+              "b": "Use everything within two days",
+              "desc": "Once you use any part, the rest must be used by 23:59 the next day. Entering on day one and riding the next morning works."
+            },
+            {
+              "mark": "4",
+              "b": "No refunds after exchange",
+              "desc": "Once any part is used or exchanged, the combo can't be refunded. If the weather is uncertain, swap the train QR once your plan is set."
+            },
+            {
+              "mark": "5",
+              "b": "Bring your passport",
+              "desc": "Railway staff may ask for ID matching your ticket type. For a child fare, carry the child's passport."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-zhaoping-line-ticket-exchange-1.jpg",
+          "caption": "A red Alishan forest train crossing a stone bridge in the misty forest (Pexels)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Alishan Zhaoping Line Timetable and Day Pass"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "From Alishan",
+            "From Zhaoping"
+          ],
+          "rows": [
+            {
+              "label": "Morning",
+              "values": [
+                "09:00 · 09:30 · 10:00 · 10:30 · 11:00 · 11:30",
+                "09:20 · 09:50 · 10:20 · 10:50 · 11:20 · 11:50"
+              ]
+            },
+            {
+              "label": "Afternoon",
+              "values": [
+                "13:00 · 13:30 · 14:00 · 14:30 · 15:10 · 15:40",
+                "13:20 · 13:50 · 14:20 · 15:00 · 15:30 · 16:00"
+              ]
+            },
+            {
+              "label": "Ride time",
+              "values": [
+                "About 6 min",
+                "About 6 min"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "This is the official timetable (in effect since July 6, 2024; as of October 2026). There's a 90-minute midday gap after 11:30, and the last train from Zhaoping back to Alishan leaves at 16:00. On Wednesdays a cypress-wood (檜木) carriage is attached."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "When the day pass pays off",
+              "desc": "The NT$400 day pass (NT$500 for two days) covers unlimited rides on the Zhaoping, Shenmu (神木) and Zhushan (祝山) lines. Zhaoping plus Shenmu one way each is only NT$200, but add a Zhushan round trip (NT$300) the same day and the pass saves NT$100. Park entry isn't included."
+            },
+            {
+              "mark": "✓",
+              "b": "Web booking opens 14 days ahead",
+              "desc": "Railway web booking runs from 14 days to one day before travel. Branch lines have no e-tickets, so collect paper tickets at a station window or a 7-Eleven ibon kiosk."
+            },
+            {
+              "mark": "✓",
+              "b": "Zhushan sunrise train",
+              "desc": "The sunrise departure time is posted at 16:30 the day before on the railway website, at Alishan Station and at the park gate. The day pass isn't valid for the New Year's Day sunrise train."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Walking Down from Zhaoping Station"
+        },
+        {
+          "type": "p",
+          "html": "Zhaoping Station sits higher than Alishan Station, so ride up and walk down. From Zhaoping, head toward Sister Ponds (姊妹潭), pass Shouzhen Temple (受鎮宮) and the Giant Tree Trail (巨木群棧道), and loop back toward Alishan Station. The Shuishan (水山) trail is also reached on foot from Zhaoping Station."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "If it rains, the electric park shuttle",
+              "desc": "The park's electric shuttle (電動遊園車) Xianglin route stops at Xianglin stop next to Shouzhen Temple and links to the visitor center. It's priced separately from the railway and runs on demand rather than to a timetable, according to its sales page."
+            },
+            {
+              "mark": "✓",
+              "b": "Riding back? Plan around 16:00",
+              "desc": "If you'd rather take the train down from Zhaoping, work your day backward from the 16:00 last train."
+            },
+            {
+              "mark": "✓",
+              "b": "Check mountain weather",
+              "desc": "The forest is above 2,000 m, cooler than the lowlands, and the weather changes fast. In typhoons or heavy rain the park may close fully or in part, so check railway and park notices before you go."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-zhaoping-line-ticket-exchange-2.jpg",
+          "caption": "A Zhushan Line carriage with its '祝山 ⇄ 阿里山' route plate (Pexels). The branch trains inside the park run with red carriages like this."
+        },
+        {
+          "type": "quote",
+          "text": "\"持電子憑證(QR Code)至阿里山車站，給服務人員掃描QR code後，兌換實體票後入場.\" — The official ticket site's instruction for the Zhaoping combo: show the QR to staff at Alishan Station and exchange it for a paper ticket before entering."
+        },
+        {
+          "type": "p",
+          "html": "If you eat in Chiayi (嘉義) before or after the mountain, start with the <a href=\"/region-alishan\">Alishan / Sun Moon Lake food map</a>. It includes the turkey-rice spot <a href=\"/alishan-taiwanese-959\">嘉義車頭火雞肉飯</a> near Chiayi Station and the hand-drip café <a href=\"/alishan-cafe-845\">幸福原在咖啡</a> across from the Old Chiayi Prison."
+        },
+        {
+          "type": "note",
+          "text": "Based on the Alishan Forest Railway and Cultural Heritage Office's official pages (branch-line timetable and fares, ticketing rules, branch-line day passes), the railway web booking system's park entry notes, the Forestry and Nature Conservation Agency's e-ticket site 森林好好玩 (entry and Zhaoping combo), and the Alishan electric park shuttle sales page, as of October 2026. Timetables, fares and combo prices can change, so check official notices before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Find Alishan and Chiayi food on the map",
+          "desc": "Pin a few Chiayi stops before or after the mountain so the day feels less rushed.",
+          "btn": "Open Map →",
+          "href": "/map?region=alishan"
+        }
+      ]
+    }
+  },
   "taipei-ximending-korean-restaurants": {
     "heroImage": "assets/images/blog/taipei-ximending-korean-restaurants-1.jpg",
     "ko": {
