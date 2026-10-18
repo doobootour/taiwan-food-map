@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taichung-airport-departure-tips",
+    "image": "assets/images/blog/taichung-airport-departure-tips-1.jpg",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "타이중 여행 가이드 · 공항",
+      "title": "타이중 공항 출국, 캐리어 무게와 편의점은 어디서 챙길까?",
+      "desc": "층별 출국 동선, 캐리어 무게 확인 방법, 심사 전에 들를 편의점·환전, 3층 출국장 식당·자판기를 정리했어요.",
+      "meta": "타이중 · 공항 가이드"
+    },
+    "en": {
+      "eyebrow": "Taichung Travel Guide · Airport",
+      "title": "Taichung Airport Departure: Where to Weigh Bags and Grab Snacks",
+      "desc": "The departure floors, how to check bag weight, convenience stores and exchange before immigration, and food past passport control.",
+      "meta": "Taichung · Airport Guide"
+    }
+  },
+  {
     "slug": "alishan-zhaoping-line-ticket-exchange",
     "image": "assets/images/blog/alishan-zhaoping-line-ticket-exchange-1.jpg",
     "regions": [
@@ -951,6 +970,367 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taichung-airport-departure-tips": {
+    "heroImage": "assets/images/blog/taichung-airport-departure-tips-1.jpg",
+    "ko": {
+      "pageTitle": "타이중 공항 출국 — 저울·편의점·출국장 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이중 공항 출국할 때 캐리어 무게는 어디서 재고, 출국심사 뒤 편의점은 있을까요? 층별 동선과 출국장 식당·자판기·면세점을 정리했어요.",
+      "ogTitle": "타이중 공항 출국, 캐리어 무게와 편의점은 어디서 챙길까?",
+      "eyebrow": "타이중 여행 가이드 · 공항",
+      "title": "타이중 공항 출국, 캐리어 무게와 편의점은 어디서 챙길까?",
+      "dek": "편의점은 출국심사 전에만 있고, 심사 뒤 3층에는 식당·카페·자판기가 있어요 — 순서만 알면 시간이 남습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이중 · 공항 가이드",
+      "intro": "\"타이중 공항에서 캐리어 무게는 어디서 재고, 출국심사 뒤에도 편의점이 있을까요?\" 타이중 공항 출국은 타오위안보다 터미널이 작아서 동선이 단순하지만, 편의점이 전부 심사 전 구역에 있다는 점은 미리 알아 두는 게 좋아요. 타이중 국제공항(臺中國際機場)을 운영하는 臺中航空站의 공식 층별 안내와 시설 목록을 바탕으로 출국 순서와 쓸 만한 시설을 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이중 공항 출국 동선, 층별로 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "층·구역",
+            "있는 것",
+            "들르면 좋은 때"
+          ],
+          "rows": [
+            {
+              "label": "B1 버스 승차장(국제선)",
+              "values": [
+                "공항버스 승차장(1~3번 승강장), 자판기, 충전기",
+                "버스로 공항에 도착할 때"
+              ]
+            },
+            {
+              "label": "1층 출국 로비",
+              "values": [
+                "3번 문 왼쪽 안내데스크·이민서·세관/택스리펀 카운터·은행, 3번 문 옆 보험·통신, 2번 문 옆 짐 포장 카운터, 스타벅스(06:00~19:30)",
+                "체크인, 택스리펀 확인, 짐 정리"
+              ]
+            },
+            {
+              "label": "1층 입국 로비",
+              "values": [
+                "패밀리마트(06:00~20:00), 환전 창구(06:00~23:00), ATM, 코인 로커, 식당 hómee KITCHEN(08:00~20:30)",
+                "출국심사 전 간식·교통카드 잔액 쓰기"
+              ]
+            },
+            {
+              "label": "3층 출국장(심사 후)",
+              "values": [
+                "면세점·라운지·기도실, 식당·카페(06:00~20:30/23:00), 자판기",
+                "탑승 전 식사·쇼핑"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "시설 위치와 영업시간은 臺中航空站 공식 안내(2026년 10월 기준)예요. 국제선 출국 순서는 1층에서 체크인과 짐 부치기를 마친 뒤 보안검색과 출국심사를 거쳐 3층 대합실로 올라가는 흐름입니다. 시내에서 오는 공항버스는 국제선 B1에 서고, 공식 안내 기준 타이중역과 공항을 잇는 노선은 500·333번, 고속철 타이중역과 잇는 노선은 156번이에요. 영업시간은 항공편에 맞춰 바뀔 수 있으니 방문 전 구글맵에 등록된 시간도 함께 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 캐리어 무게, 체크인 전에 어디서 확인할까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "공용 저울은 공식 안내에 없어요",
+              "desc": "臺中航空站 시설 목록에는 승객이 마음대로 쓰는 저울이 따로 나와 있지 않아요. 무게가 걱정되면 1층 출국 로비 3번 문 왼쪽 여행자 안내데스크(06:00~23:00, 항공편에 따라 조정)에 먼저 물어보는 편이 빠릅니다."
+            },
+            {
+              "mark": "2",
+              "b": "짐을 다시 싸야 하면 2번 문 근처",
+              "desc": "국제선 1층 2번 문 근처 수하물 서비스 카운터(08:30~20:30)에서 캐리어 벨트와 택배 서비스를 운영해요. 짐을 나눠 담거나 묶어야 할 때 들르기 좋아요."
+            },
+            {
+              "mark": "3",
+              "b": "체크인은 이륙 2~3시간 전",
+              "desc": "공식 출국 안내는 이륙 2~3시간 전에 항공사 카운터로 가라고 권해요. 체크인 마감 시각과 위탁·기내 수하물 무게 규정은 항공사마다 다르니 예약한 항공사 기준으로 확인하세요."
+            },
+            {
+              "mark": "4",
+              "b": "택스리펀 물건은 꺼내기 쉽게",
+              "desc": "신고하거나 택스리펀 확인을 받을 물건이 있으면 1층 세관 출국 카운터에 들르라고 안내해요. 택스리펀 기계는 1층 출국 로비에 있고 06:00~22:00에 쓸 수 있어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-airport-departure-tips-1.jpg",
+          "caption": "타이중 공항 출국 로비의 항공사 체크인 카운터예요(2019년 촬영, 사진: Wpcpey / CC BY-SA 4.0, Wikimedia Commons, 일부 자름)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 출국심사 전에 끝낼 것: 편의점·교통카드·환전"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "편의점은 심사 전에만 있어요",
+              "desc": "공식 매장 목록의 편의점은 국제선 1층 입국 로비 패밀리마트(06:00~20:00)와 국내선 1층 보안검색대 옆 하이라이프(05:00~21:00) 두 곳이에요. 3층 출국장 목록에는 편의점이 없으니 과자나 음료는 심사 전에 사 두세요."
+            },
+            {
+              "mark": "✓",
+              "b": "남은 교통카드 잔액 쓰기",
+              "desc": "패밀리마트는 교통카드와 전자지갑 충전·결제 서비스를 안내하고 있어요. 이지카드 잔액이 조금 남았다면 출국 전에 간식값으로 쓰기 좋습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "환전과 ATM은 1층 입국 로비",
+              "desc": "대만은행 환전 창구는 국제선 1층 입국 로비에서 06:00~23:00에 열고, 같은 층에 ATM도 있어요. 1층 출국 로비의 대만은행 창구(09:00~15:30)는 일반 금융 업무용이라고 안내합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "커피는 출국 로비 스타벅스",
+              "desc": "국제선 1층 출국 로비 스타벅스는 06:00~19:30에 열어요. 저녁 늦은 비행기라면 3층 출국장 카페를 이용하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 타이중 공항 출국장(3층)에서 쓸 수 있는 것"
+        },
+        {
+          "type": "p",
+          "html": "출국심사를 마치면 3층 대합실로 들어가요. 탑승구는 1~6번이고, 안쪽 시설이 많지는 않지만 한 끼와 마지막 쇼핑은 해결할 수 있습니다."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "식당과 카페",
+              "desc": "1·2번 탑승구 근처 hómee KITCHEN은 06:00~20:30(마지막 주문 19:40)에 중식·양식 간단한 식사와 타이중 지역 샤오츠를 팔고, 3·4번 탑승구 근처 Wing Café는 06:00~23:00에 커피와 간단한 식사를 팔아요."
+            },
+            {
+              "mark": "✓",
+              "b": "자판기와 라멘 자판기",
+              "desc": "5·6번 탑승구 옆에 음료 자판기와 라멘 자판기가 있어요. 기계마다 받는 결제 수단이 다를 수 있으니 동전과 소액 지폐를 조금 남겨 두면 편합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "면세점",
+              "desc": "昇恆昌 면세점이 3층 대합실에서 06:00~23:00에 화장품·향수와 주류·담배·초콜릿을 팔아요. 공식 층별 안내에 따르면 대합실 양쪽에 면세점이 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "라운지·안내데스크·충전",
+              "desc": "만다린항공과 스타럭스 라운지가 5·6번 탑승구 근처에서 출국편 시간에 맞춰 운영해요. 3·4번 탑승구 옆 안내데스크와 대합실 충전 스테이션도 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-airport-departure-tips-2.jpg",
+          "caption": "3·4·5번 탑승구 표지판이 보이는 출국장 면세 구역이에요(2019년 촬영, 사진: Wpcpey / CC BY-SA 4.0, Wikimedia Commons, 일부 자름). 매장 구성은 지금과 다를 수 있어요."
+        },
+        {
+          "type": "quote",
+          "text": "\"國際線出境旅客通過證照查驗後，即進入候機區。左側設有免稅商店與貴賓室；右側則設有免稅商店與祈禱室。\" — 출국심사를 마치면 바로 대합실이고, 왼쪽에 면세점과 라운지, 오른쪽에 면세점과 기도실이 있다는 臺中航空站 공식 3층 안내예요."
+        },
+        {
+          "type": "p",
+          "html": "공항 가기 전 타이중 시내에서 마지막 한 끼나 차 한 잔을 찾는다면 <a href=\"/region-taichung\">타이중 맛집 지도</a>와 <a href=\"/taichung-cafe\">타이중 카페 모음</a>을 먼저 보세요. 패션프루트 녹차가 소개된 차 음료 가게 <a href=\"/taichung-cafe-chi-cha-san-chen-715\">Chi Cha San Chen</a>과 젤라토 가게 <a href=\"/taichung-shaved_ice-minimal-839\">MINIMAL</a>도 지도에 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 臺中航空站(타이중 국제공항) 공식 사이트의 국제선 출국 절차, 1층·3층 층별 안내, 餐飲商店·金融·服務台·行李·貴賓室·其他服務 시설 목록, 공항버스 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 매장과 영업시간은 항공편에 따라 바뀔 수 있으니 출발 전 공식 안내와 구글맵에 등록된 영업시간을 다시 확인하는 것을 추천해요. 사진: Wpcpey, CC BY-SA 4.0(Wikimedia Commons)."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중 카페도 확인해보세요",
+          "desc": "공항 가는 날 들를 카페를 미리 찜해 두면 마지막 날이 덜 바빠요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung&cat=cafe"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taichung Airport Departure — Bag Weight, Snacks & Gates · My Secret Taiwan Eats",
+      "metaDescription": "Flying out of Taichung Airport? Where to check your bag weight, why to shop before immigration, and what food, vending machines and duty free wait past passport control.",
+      "ogTitle": "Taichung Airport Departure: Where to Weigh Bags and Grab Snacks",
+      "eyebrow": "Taichung Travel Guide · Airport",
+      "title": "Taichung Airport Departure: Where to Weigh Bags and Grab Snacks",
+      "dek": "Convenience stores are only before immigration, while the third-floor gate area has food, cafés and vending machines — get the order right and you'll have time to spare.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taichung · Airport Guide",
+      "intro": "\"Where can I weigh my suitcase at Taichung Airport, and is there a convenience store after immigration?\" Taichung International Airport (臺中國際機場) is far smaller than Taoyuan, so the route is simple, but every convenience store sits before passport control. Based on the official floor guide and facility lists from the Taichung Airport authority (臺中航空站), here's the departure sequence and what's worth using, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taichung Airport Departure Floors at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Floor / area",
+            "What's there",
+            "Stop here when"
+          ],
+          "rows": [
+            {
+              "label": "B1 bus area (international)",
+              "values": [
+                "Airport bus bays 1–3, vending machine, charging",
+                "Arriving by bus"
+              ]
+            },
+            {
+              "label": "1F departure hall",
+              "values": [
+                "Left of Door 3: information desk, immigration office, customs/tax-refund counter, bank; insurance and telecom by Door 3; baggage-wrapping counter by Door 2; Starbucks (06:00–19:30)",
+                "Check-in, tax-refund checks, repacking"
+              ]
+            },
+            {
+              "label": "1F arrival hall",
+              "values": [
+                "FamilyMart (06:00–20:00), currency exchange (06:00–23:00), ATMs, coin lockers, hómee KITCHEN (08:00–20:30)",
+                "Snacks and spending EasyCard balance before immigration"
+              ]
+            },
+            {
+              "label": "3F gate area (after immigration)",
+              "values": [
+                "Duty free, lounges, prayer room, restaurant and café (06:00–20:30 / 23:00), vending machines",
+                "A meal or last shopping before boarding"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Locations and hours are from the Taichung Airport authority's official pages (as of October 2026). For international flights you check in and drop bags on 1F, clear security and immigration, then go up to the 3F waiting area. City buses stop at international B1; per the official bus page, routes 500 and 333 link Taichung Station with the airport, and route 156 links the Taichung HSR station. Hours can shift with flight schedules, so check the current opening hours on Google Maps before you go."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Checking Bag Weight Before Check-in"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "No public scale in the official guide",
+              "desc": "The airport's facility list doesn't include a scale for passengers. If you're worried about weight, ask the information desk left of Door 3 in the 1F departure hall (06:00–23:00, adjusted to flights) first."
+            },
+            {
+              "mark": "2",
+              "b": "Repacking? Head to Door 2",
+              "desc": "The baggage service counter near Door 2 on international 1F (08:30–20:30) offers luggage straps and courier delivery, handy if you need to split or secure a bag."
+            },
+            {
+              "mark": "3",
+              "b": "Check in 2–3 hours ahead",
+              "desc": "The official departure guide recommends reaching your airline counter 2–3 hours before take-off. Check-in deadlines and baggage weight limits vary by airline, so follow your carrier's rules."
+            },
+            {
+              "mark": "4",
+              "b": "Keep tax-refund items handy",
+              "desc": "If you have goods to declare or get tax-refund checks on, the airport says to visit the customs departure counter on 1F. The tax-refund kiosk in the 1F departure hall runs 06:00–22:00."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-airport-departure-tips-1.jpg",
+          "caption": "Airline check-in counters in the Taichung Airport departure hall (taken 2019; photo: Wpcpey / CC BY-SA 4.0, Wikimedia Commons, cropped)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Before Immigration: Snacks, Transit Card and Cash"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Convenience stores are landside only",
+              "desc": "The official store list has two: FamilyMart in the international 1F arrival hall (06:00–20:00) and Hi-Life next to domestic 1F security (05:00–21:00). There's no convenience store on the 3F list, so buy snacks and drinks before immigration."
+            },
+            {
+              "mark": "✓",
+              "b": "Spend leftover transit-card balance",
+              "desc": "FamilyMart lists transit-card and e-wallet top-up and payment services, so a small EasyCard balance can go on snacks before you fly."
+            },
+            {
+              "mark": "✓",
+              "b": "Exchange and ATMs in the arrival hall",
+              "desc": "The Bank of Taiwan exchange counter in the international 1F arrival hall opens 06:00–23:00, with ATMs on the same floor. The branch in the 1F departure hall (09:00–15:30) is listed for general banking."
+            },
+            {
+              "mark": "✓",
+              "b": "Coffee at departure-hall Starbucks",
+              "desc": "Starbucks in the international 1F departure hall opens 06:00–19:30. For a late flight, use the café past immigration instead."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · What's in the Taichung Airport Gate Area (3F)"
+        },
+        {
+          "type": "p",
+          "html": "After immigration you go straight into the 3F waiting area. Gates are numbered 1–6; there isn't a lot airside, but you can manage a meal and some last shopping."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Restaurant and café",
+              "desc": "hómee KITCHEN near Gates 1–2 serves simple Chinese and Western meals and central-Taiwan snacks 06:00–20:30 (last order 19:40), and Wing Café near Gates 3–4 serves coffee and light meals 06:00–23:00."
+            },
+            {
+              "mark": "✓",
+              "b": "Vending machines, including ramen",
+              "desc": "Drink vending machines and a ramen vending machine stand next to Gates 5–6. Accepted payment can vary by machine, so keep a few coins and small notes."
+            },
+            {
+              "mark": "✓",
+              "b": "Duty free",
+              "desc": "Ever Rich (昇恆昌) duty free in the 3F waiting area sells cosmetics, fragrance, liquor, tobacco and chocolate 06:00–23:00. The official floor guide places duty-free shops on both sides of the hall."
+            },
+            {
+              "mark": "✓",
+              "b": "Lounges, info desk and charging",
+              "desc": "Mandarin Airlines and STARLUX lounges near Gates 5–6 open around departing flights. There's also an information desk by Gates 3–4 and charging stations in the waiting area."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-airport-departure-tips-2.jpg",
+          "caption": "The airside duty-free corridor with signs for Gates 3–5 (taken 2019; photo: Wpcpey / CC BY-SA 4.0, Wikimedia Commons, cropped). Shops may differ today."
+        },
+        {
+          "type": "quote",
+          "text": "\"國際線出境旅客通過證照查驗後，即進入候機區。左側設有免稅商店與貴賓室；右側則設有免稅商店與祈禱室。\" — The official 3F guide: after passport control you're in the waiting area, with duty free and lounges on the left and duty free and a prayer room on the right."
+        },
+        {
+          "type": "p",
+          "html": "For a last meal or drink in the city before your flight, start with the <a href=\"/region-taichung\">Taichung food map</a> and the <a href=\"/taichung-cafe\">Taichung café list</a>. The tea-drink shop <a href=\"/taichung-cafe-chi-cha-san-chen-715\">Chi Cha San Chen</a> and the gelato shop <a href=\"/taichung-shaved_ice-minimal-839\">MINIMAL</a> are on the map too."
+        },
+        {
+          "type": "note",
+          "text": "Based on the Taichung Airport authority's official site (international departure procedure, 1F and 3F floor guides, facility lists for dining, banking, information desks, baggage, lounges and other services, and airport bus routes), as of October 2026. Shops and hours can change with flight schedules, so check official notices and the opening hours on Google Maps before you go. Photos: Wpcpey, CC BY-SA 4.0 (Wikimedia Commons)."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taichung cafés on the map",
+          "desc": "Pin a café for your airport day so the last morning feels less rushed.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung&cat=cafe"
+        }
+      ]
+    }
+  },
   "alishan-zhaoping-line-ticket-exchange": {
     "heroImage": "assets/images/blog/alishan-zhaoping-line-ticket-exchange-1.jpg",
     "ko": {
