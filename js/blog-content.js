@@ -19,6 +19,26 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taichung-tainan-tra-vs-thsr",
+    "image": "assets/images/blog/taichung-tainan-tra-vs-thsr-1.jpg",
+    "regions": [
+      "taichung",
+      "tainan"
+    ],
+    "ko": {
+      "eyebrow": "타이중·타이난 여행 가이드 · 교통",
+      "title": "타이중 타이난 이동, 고속철보다 일반열차가 나을 때는?",
+      "desc": "고속철은 두 번 갈아타고, 대만철도 자강호는 한 번에 가요. 요금·시간·타는 곳을 비교하고 숙소 위치별로 골라봤어요.",
+      "meta": "타이중·타이난 · 교통 가이드"
+    },
+    "en": {
+      "eyebrow": "Taichung & Tainan Travel Guide · Transport",
+      "title": "Taichung to Tainan by Train: When Regular TRA Beats the High-Speed Rail",
+      "desc": "THSR means two transfers, while a TRA Tze-Chiang train runs straight through. Fares, times and where to board, compared by hotel location.",
+      "meta": "Taichung & Tainan · Transport Guide"
+    }
+  },
+  {
     "slug": "taichung-airport-departure-tips",
     "image": "assets/images/blog/taichung-airport-departure-tips-1.jpg",
     "regions": [
@@ -970,6 +990,375 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taichung-tainan-tra-vs-thsr": {
+    "heroImage": "assets/images/blog/taichung-tainan-tra-vs-thsr-1.jpg",
+    "ko": {
+      "pageTitle": "타이중 타이난 기차 — 자강호 vs 고속철 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이중 타이난 이동은 고속철이 늘 빠를까요? 두 번 갈아타는 고속철과 한 번에 가는 대만철도 자강호의 요금·시간을 비교하고 숙소 위치별로 골라봤어요.",
+      "ogTitle": "타이중 타이난 이동, 고속철보다 일반열차가 나을 때는?",
+      "eyebrow": "타이중·타이난 여행 가이드 · 교통",
+      "title": "타이중 타이난 이동, 고속철보다 일반열차가 나을 때는?",
+      "dek": "고속철 구간은 40분 안팎이지만 역이 둘 다 시 외곽이에요 — 시내 역에서 시내 역으로 간다면 계산이 달라집니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이중·타이난 · 교통 가이드",
+      "intro": "\"타이중에서 타이난 갈 때 고속철을 타야 할까요, 그냥 기차를 타도 될까요?\" 타이중 타이난 이동은 고속철이 당연히 빠를 것 같지만, 고속철 타이중역은 우르(烏日), 타이난역은 구이런(歸仁)에 있어 시내까지 열차를 두 번 더 타야 해요. 대만고속철도와 대만철도(臺鐵)의 공식 요금표·시각표와 교통부 TDX 공개 시각표를 바탕으로 두 방법을 2026년 10월 기준으로 비교해봤습니다.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이중 타이난 기차, 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "고속철 + 환승 2번",
+            "대만철도 자강호(직행)",
+            "대만철도 구간차(직행)"
+          ],
+          "rows": [
+            {
+              "label": "성인 편도 요금",
+              "values": [
+                "NT$650(자유석 NT$630) + 연결 열차",
+                "NT$487",
+                "NT$314"
+              ]
+            },
+            {
+              "label": "타는 시간",
+              "values": [
+                "고속철 36~54분, 환승 포함 1시간 30분 안팎",
+                "1시간 35분~2시간 15분",
+                "약 3시간"
+              ]
+            },
+            {
+              "label": "갈아타기",
+              "values": [
+                "신우르역·사룬역에서 2번",
+                "없음",
+                "없음"
+              ]
+            },
+            {
+              "label": "타는 곳 → 내리는 곳",
+              "values": [
+                "臺中역 → 新烏日 → 고속철 → 沙崙 → 臺南역",
+                "臺中역 → 臺南역",
+                "臺中역 → 臺南역"
+              ]
+            },
+            {
+              "label": "이런 분께",
+              "values": [
+                "고속철역 근처에서 출발하거나 시간이 정확해야 할 때",
+                "시내 역 근처 숙소끼리 이동할 때",
+                "급하지 않고 요금을 아끼고 싶을 때"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "요금은 대만고속철도 공식 운임표와 대만철도 공식 운임표(2025년 6월 23일 시행분) 기준이고, 2026년 10월 기준이에요. 타는 시간은 교통부 TDX 공개 시각표 기준으로, 고속철은 직행이 36분이고 정차가 많은 열차는 54분까지 걸립니다. 대만철도 직행은 하루 40편 남짓이고 가장 빠른 푸유마호가 1시간 35분이에요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 고속철로 가면 어디서 갈아탈까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "타이중 쪽: 臺中역 → 新烏日역",
+              "desc": "고속철 타이중역은 대만철도 신우르(新烏日)역과 붙어 있어요. 시내 臺中역에서 신우르역까지는 구간차로 10분 남짓이라, 고속철 출발 시각보다 넉넉히 나서는 편이 좋습니다."
+            },
+            {
+              "mark": "2",
+              "b": "고속철 구간: 36~54분",
+              "desc": "표준석 NT$650, 자유석 NT$630이에요. 자유석 표는 탑승 당일 역에서만 사고, 일반 이지카드는 안 되며 자동충전을 켠 고속철 제휴 카드만 바로 찍고 탈 수 있어요."
+            },
+            {
+              "mark": "3",
+              "b": "타이난 쪽: 2층 통로로 沙崙역",
+              "desc": "고속철 타이난역 2층 통로로 대만철도 사룬(沙崙)역에 가서 사룬선 구간차를 타요. 臺南역까지 24분, 요금은 NT$37이며 낮에는 대략 20~40분 간격으로 다닙니다."
+            },
+            {
+              "mark": "4",
+              "b": "고속철역 근처가 목적지라면",
+              "desc": "고속철 타이난역에서는 치메이 박물관을 지나 시청까지 가는 H31 고속철 셔틀버스도 다녀요. 목적지가 시내 서쪽이 아니라면 이쪽이 더 편할 수 있어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-tainan-tra-vs-thsr-2.jpg",
+          "caption": "고속철 타이난역과 이어진 대만철도 사룬역 승강장이에요. 여기서 臺南역 방향 구간차를 타요(2025년 촬영, 사진: 4300streetcar / CC BY 4.0, Wikimedia Commons)."
+        },
+        {
+          "type": "quote",
+          "text": "\"旅客可由高鐵台南站2樓通廊到沙崙火車站，轉乘臺鐵沙崙線往臺南、永康等站。\" — 고속철 타이난역 2층 통로로 사룬역에 가서 臺南·永康 방향 사룬선으로 갈아탈 수 있다는 대만고속철도 공식 안내예요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 대만철도 자강호가 나은 경우"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "숙소가 臺中역·臺南역 근처",
+              "desc": "출발과 도착이 모두 시내 기차역이라면 자강호 직행이 1시간 35분~2시간 남짓으로, 환승까지 합친 고속철과 시간이 비슷하고 요금은 NT$160 넘게 싸요."
+            },
+            {
+              "mark": "✓",
+              "b": "캐리어가 크거나 부모님과 함께",
+              "desc": "갈아타지 않으니 계단과 환승 통로를 오갈 일이 없어요. 짐이 많을수록 환승 2번이 생각보다 번거롭습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "열차 종류에 따라 시간이 달라요",
+              "desc": "같은 자강호라도 푸유마호·EMU3000은 1시간 35분~50분, 기관차가 끄는 자강호는 2시간이 넘기도 해요. 시각표에서 도착 시각을 꼭 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "좌석은 미리 예약",
+              "desc": "주말과 연휴에는 자강호 좌석이 일찍 마감될 수 있어요. 대만철도 공식 사이트나 앱에서 미리 예약해 두면 서서 가지 않아도 됩니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-tainan-tra-vs-thsr-1.jpg",
+          "caption": "대만철도 臺中역 승강장에 선 자강호 EMU3000이에요(2022년 촬영, 사진: DontShy200 / CC BY-SA 4.0, Wikimedia Commons)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 대만철도 구간차와 그 밖의 팁"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "구간차는 이지카드로 바로",
+              "desc": "구간차는 예약 없이 이지카드를 찍고 타면 돼요. 직행 요금은 NT$314로 가장 싸지만 약 3시간이 걸리니 일정에 여유가 있을 때 골라 보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "첫차와 막차 확인",
+              "desc": "TDX 공개 시각표 기준 대만철도 臺中→臺南 직행은 05:30에 첫차, 21:46에 막차가 떠나요. 늦은 시간이라면 고속철과 사룬선 막차 시각을 같이 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "시각표는 바뀔 수 있어요",
+              "desc": "대만철도는 수시로 열차 시각을 조정한다고 안내해요. 출발 일주일 전쯤 공식 시각표로 다시 확인하는 편이 안전합니다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "타이난에 도착해 첫 끼를 고른다면 <a href=\"/region-tainan\">타이난 맛집 지도</a>와 <a href=\"/tainan-beef_noodle\">타이난 우육면·우육탕 모음</a>부터 보세요. 부드러운 우육탕 고기로 소개된 <a href=\"/tainan-beef_noodle-562\">아차이 우육탕</a>과 안핑의 <a href=\"/tainan-seafood-chou-s-shrimp-rolls-736\">저우스 새우롤</a>도 지도에 있어요. 출발 전 타이중에서 들를 곳은 <a href=\"/region-taichung\">타이중 맛집 지도</a>에, 타이베이에서 타이난으로 바로 가는 일정은 <a href=\"/blog-taipei-tainan-3n4d-itinerary-split\">타이베이 타이난 3박4일 글</a>에 정리해 두었습니다."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만고속철도 공식 운임표·자유석 안내·타이난역 환승 안내, 대만철도 공식 운임표(2025년 6월 23일 시행)와 사룬선 시각표(2026년 4월 9일 개정), 교통부 TDX 공개 시각표(2026년 10월 데이터)를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금과 시각표는 바뀔 수 있으니 출발 전 공식 사이트에서 다시 확인하는 것을 추천해요. 사진: DontShy200, CC BY-SA 4.0 / 4300streetcar, CC BY 4.0(Wikimedia Commons)."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이난 우육탕도 확인해보세요",
+          "desc": "도착하는 날 먹을 곳을 미리 찜해 두면 역에서 바로 움직일 수 있어요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=tainan&cat=beef_noodle"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taichung to Tainan by Train — TRA vs THSR · My Secret Taiwan Eats",
+      "metaDescription": "Is the high-speed rail always faster from Taichung to Tainan? Fares, ride times and transfers for THSR versus a direct TRA Tze-Chiang train, and which to pick by hotel location.",
+      "ogTitle": "Taichung to Tainan by Train: When Regular TRA Beats the High-Speed Rail",
+      "eyebrow": "Taichung & Tainan Travel Guide · Transport",
+      "title": "Taichung to Tainan by Train: When Regular TRA Beats the High-Speed Rail",
+      "dek": "The high-speed leg takes about 40 minutes, but both HSR stations sit outside the city — if you're going downtown to downtown, the maths changes.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taichung & Tainan · Transport Guide",
+      "intro": "\"Should I take the high-speed rail from Taichung to Tainan, or is a regular train fine?\" It's easy to assume THSR wins, but its Taichung station is in Wuri (烏日) and its Tainan station is in Gueiren (歸仁), so reaching either city centre means two extra train rides. Using the official fare tables and timetables from Taiwan High Speed Rail and Taiwan Railway (臺鐵), plus the transport ministry's TDX public timetable, here's how the two options compare as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taichung to Tainan by Train at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "THSR + 2 transfers",
+            "TRA Tze-Chiang (direct)",
+            "TRA local (direct)"
+          ],
+          "rows": [
+            {
+              "label": "Adult one-way fare",
+              "values": [
+                "NT$650 (non-reserved NT$630) + connecting trains",
+                "NT$487",
+                "NT$314"
+              ]
+            },
+            {
+              "label": "Time on board",
+              "values": [
+                "36–54 min on THSR, about 1.5 hours with transfers",
+                "1 h 35 min – 2 h 15 min",
+                "About 3 hours"
+              ]
+            },
+            {
+              "label": "Transfers",
+              "values": [
+                "Two, at Xinwuri and Shalun",
+                "None",
+                "None"
+              ]
+            },
+            {
+              "label": "Route",
+              "values": [
+                "Taichung Stn → Xinwuri → THSR → Shalun → Tainan Stn",
+                "Taichung Stn → Tainan Stn",
+                "Taichung Stn → Tainan Stn"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Starting near an HSR station or needing exact timing",
+                "Hotels near the city-centre stations",
+                "Saving money when you're not in a hurry"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Fares are from the official THSR fare table and the official TRA fare table (effective 23 June 2025), as of October 2026. Ride times are from the TDX public timetable: the nonstop THSR takes 36 minutes and stopping services up to 54. TRA runs around 40-plus direct trains a day, and the fastest Puyuma takes 1 hour 35 minutes."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Where You Change Trains on the THSR Route"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Taichung side: Taichung Stn → Xinwuri",
+              "desc": "THSR Taichung Station connects to TRA Xinwuri (新烏日) Station. The local train from downtown Taichung Station takes a little over 10 minutes, so leave plenty of time before your HSR departure."
+            },
+            {
+              "mark": "2",
+              "b": "The THSR leg: 36–54 minutes",
+              "desc": "Standard seats are NT$650 and non-reserved NT$630. Non-reserved tickets are sold only at the station on the day, and a regular EasyCard won't work; only THSR co-branded cards with auto-reload can tap straight in."
+            },
+            {
+              "mark": "3",
+              "b": "Tainan side: 2F walkway to Shalun",
+              "desc": "From THSR Tainan Station, take the 2F walkway to TRA Shalun (沙崙) Station and board a Shalun Line local train. It's 24 minutes and NT$37 to Tainan Station, with trains roughly every 20–40 minutes during the day."
+            },
+            {
+              "mark": "4",
+              "b": "Heading somewhere near the HSR station?",
+              "desc": "The H31 HSR shuttle bus runs from THSR Tainan past the Chimei Museum to Tainan City Hall, which can be easier if you're not going to the west side of downtown."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-tainan-tra-vs-thsr-2.jpg",
+          "caption": "The platform at TRA Shalun Station, linked to THSR Tainan. Local trains to Tainan Station leave from here (taken 2025; photo: 4300streetcar / CC BY 4.0, Wikimedia Commons)."
+        },
+        {
+          "type": "quote",
+          "text": "\"旅客可由高鐵台南站2樓通廊到沙崙火車站，轉乘臺鐵沙崙線往臺南、永康等站。\" — THSR's official note: use the 2F walkway at THSR Tainan to reach Shalun Station and change to the TRA Shalun Line toward Tainan and Yongkang."
+        },
+        {
+          "type": "h2",
+          "text": "03 · When a TRA Tze-Chiang Train Is the Better Pick"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Hotels near Taichung or Tainan Station",
+              "desc": "If you start and finish at the city-centre stations, a direct Tze-Chiang takes 1 h 35 min to a little over 2 hours, about the same as THSR once transfers are counted, and costs over NT$160 less."
+            },
+            {
+              "mark": "✓",
+              "b": "Big suitcases or travelling with parents",
+              "desc": "No transfers means no stairs or connecting walkways. The more luggage you have, the more two changes add up."
+            },
+            {
+              "mark": "✓",
+              "b": "Train type changes the time",
+              "desc": "Puyuma and EMU3000 services take 1 h 35–50 min, while locomotive-hauled Tze-Chiang trains can take over 2 hours. Check the arrival time in the timetable."
+            },
+            {
+              "mark": "✓",
+              "b": "Reserve a seat",
+              "desc": "Tze-Chiang seats can sell out early on weekends and holidays. Booking ahead on TRA's official website or app saves you from standing."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-tainan-tra-vs-thsr-1.jpg",
+          "caption": "A TRA EMU3000 Tze-Chiang train at Taichung Station (taken 2022; photo: DontShy200 / CC BY-SA 4.0, Wikimedia Commons)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · TRA Local Trains and Other Tips"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Local trains: just tap your EasyCard",
+              "desc": "Local trains need no booking; tap your EasyCard and ride. At NT$314 direct it's the cheapest option, but it takes about 3 hours, so save it for a relaxed day."
+            },
+            {
+              "mark": "✓",
+              "b": "First and last trains",
+              "desc": "Per the TDX public timetable, the first direct TRA train from Taichung to Tainan leaves at 05:30 and the last at 21:46. Travelling late, check the last THSR and Shalun Line trains too."
+            },
+            {
+              "mark": "✓",
+              "b": "Timetables change",
+              "desc": "TRA says it adjusts train times from time to time, so recheck the official timetable about a week before you travel."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For your first meal in Tainan, start with the <a href=\"/region-tainan\">Tainan food map</a> and the <a href=\"/tainan-beef_noodle\">Tainan beef noodle and beef soup list</a>. <a href=\"/tainan-beef_noodle-562\">A-Cai Beef Soup</a>, noted for its tender beef, and <a href=\"/tainan-seafood-chou-s-shrimp-rolls-736\">Chou's Shrimp Rolls</a> in Anping are on the map too. For stops before you leave Taichung, see the <a href=\"/region-taichung\">Taichung food map</a>, and for a Taipei–Tainan trip, see our <a href=\"/blog-taipei-tainan-3n4d-itinerary-split\">Taipei and Tainan 3-night itinerary</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on THSR's official fare table, non-reserved seat guide and Tainan Station transfer guide, TRA's official fare table (effective 23 June 2025) and Shalun Line timetable (revised 9 April 2026), and the transport ministry's TDX public timetable (October 2026 data), as of October 2026. Fares and timetables can change, so recheck the official sites before you travel. Photos: DontShy200, CC BY-SA 4.0 / 4300streetcar, CC BY 4.0 (Wikimedia Commons)."
+        },
+        {
+          "type": "cta",
+          "title": "Find Tainan beef soup on the map",
+          "desc": "Pin a place for your arrival day so you can head straight there from the station.",
+          "btn": "Open Map →",
+          "href": "/map?region=tainan&cat=beef_noodle"
+        }
+      ]
+    }
+  },
   "taichung-airport-departure-tips": {
     "heroImage": "assets/images/blog/taichung-airport-departure-tips-1.jpg",
     "ko": {
