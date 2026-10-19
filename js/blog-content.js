@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-esim-data-vs-tourist-sim",
+    "image": "assets/images/blog/taiwan-esim-data-vs-tourist-sim-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 통신",
+      "title": "대만 eSIM, 데이터 전용과 현지 여행자 유심 중 뭘 고를까?",
+      "desc": "대만 번호가 필요한지에 따라 데이터 전용 eSIM과 통신사 여행자 카드 중 고르는 법, 하루 데이터 사용량, 中華電信·台灣大哥大 공식 요금을 정리했어요.",
+      "meta": "대만 전역 · 통신"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Mobile Data",
+      "title": "Taiwan eSIM: Data-Only eSIM or a Local Tourist SIM?",
+      "desc": "How to choose between a data-only eSIM and a Taiwanese carrier tourist SIM, how much data you'll use per day, and official Chunghwa and Taiwan Mobile prices.",
+      "meta": "All of Taiwan · Mobile Data"
+    }
+  },
+  {
     "slug": "taipei-zoo-shuttle-train-route",
     "image": "assets/images/blog/taipei-zoo-shuttle-train-route-1.jpg",
     "regions": [
@@ -1028,6 +1047,363 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taiwan-esim-data-vs-tourist-sim": {
+    "heroImage": "assets/images/blog/taiwan-esim-data-vs-tourist-sim-1.jpg",
+    "ko": {
+      "pageTitle": "대만 eSIM — 데이터 전용 vs 유심 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 eSIM은 대만 전화번호가 필요한지부터 정하면 쉬워요. 데이터 전용 eSIM과 통신사 여행자 카드 차이, 하루 데이터 사용량, 공식 요금을 정리했어요.",
+      "ogTitle": "대만 eSIM, 데이터 전용과 현지 여행자 유심 중 뭘 고를까?",
+      "eyebrow": "대만 여행 가이드 · 통신",
+      "title": "대만 eSIM, 데이터 전용과 현지 여행자 유심 중 뭘 고를까?",
+      "dek": "가격표보다 먼저 볼 것은 대만 번호가 필요한지예요 — 번호, 데이터 양, 휴대폰 순서로 짚어봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 전역 · 통신",
+      "intro": "\"대만 eSIM, 그냥 제일 싼 걸로 사면 될까요?\" 출국 전에 가장 많이 나오는 질문 중 하나예요. 해외 판매처에서 사는 여행용 eSIM은 대부분 데이터 전용이라 대만 전화번호가 없고, 대만 번호가 필요하면 현지 통신사 여행자 카드를 사야 합니다. 中華電信·台灣大哥大 공식 안내와 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 고르는 순서를 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 대만 eSIM과 여행자 유심, 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "데이터 전용 eSIM(해외 판매처)",
+            "대만 통신사 여행자 카드(SIM·eSIM)"
+          ],
+          "rows": [
+            {
+              "label": "대만 전화번호",
+              "values": [
+                "대부분 없음",
+                "있음(현지 전화·문자 수신)"
+              ]
+            },
+            {
+              "label": "사는 곳",
+              "values": [
+                "출국 전 온라인",
+                "공항·통신사 매장 창구"
+              ]
+            },
+            {
+              "label": "데이터",
+              "values": [
+                "상품별 용량형·무제한형",
+                "기간 안에 국내 데이터 무제한"
+              ]
+            },
+            {
+              "label": "요금(2026년 10월 기준)",
+              "values": [
+                "판매처·행사마다 달라요",
+                "4G 3일 NT$300, 5G 3일 NT$500"
+              ]
+            },
+            {
+              "label": "이런 분께",
+              "values": [
+                "도착하자마자 지도·검색만 쓸 때",
+                "현지 번호 인증·일행과 핫스팟 공유가 필요할 때"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "통신사 여행자 카드는 中華電信·台灣大哥大 모두 실물 SIM과 eSIM으로 팔고, 4G 3일 NT$300, 5G 3일 NT$500, 5일 NT$600, 7일 NT$800으로 두 회사 공식 요금이 같아요(2026년 10월 기준). 창구에서 실명 확인을 하니 여권 원본을 꼭 챙기세요. 中華電信은 두 번째 신분증으로 비자·국제학생증 등을 받고, 없으면 본국의 사진 있는 공식 신분증(운전면허증 등)을 받는다고 안내합니다. 결제는 中華電信이 대만달러 현금만, 台灣大哥大는 대만달러·신용카드·은련카드·알리페이가 됩니다. 中華電信은 만 18세 미만이 혼자 개통할 수 없다고 안내해요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 대만 여행 데이터, 하루에 얼마나 쓸까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "지도·검색·택시 앱 위주",
+              "desc": "하루 1~2GB면 충분했다는 여행자가 많아요. 3박 4일 동안 3~5GB대를 썼다는 경험담이 흔해서, 용량형 eSIM으로도 넉넉한 편입니다."
+            },
+            {
+              "mark": "2",
+              "b": "영상·SNS 업로드가 많다면",
+              "desc": "숙소 밖에서 영상을 보거나 사진을 자주 올린다면 무제한형이 마음 편해요. 대만 통신사 여행자 카드는 기간 안에 국내 데이터를 제한 없이 씁니다."
+            },
+            {
+              "mark": "3",
+              "b": "일행과 핫스팟으로 나눠 쓸 때",
+              "desc": "5G 여행자 카드는 핫스팟 공유량이 따로 정해져 있어요(3일 3GB, 5일 5GB, 7일 7GB). 공유량을 다 쓰면 핫스팟만 막히고 본인 데이터는 계속 쓸 수 있습니다."
+            },
+            {
+              "mark": "4",
+              "b": "짧고 가볍게 쓴다면 용량형 카드",
+              "desc": "中華電信에는 16일 동안 쓰는 용량형 카드도 있어요. 1.2GB NT$280, 2.2GB NT$400, 5GB NT$699입니다(2026년 10월 기준)."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-esim-data-vs-tourist-sim-1.jpg",
+          "caption": "스마트폰으로 지도 앱을 보는 여행자 이미지예요. 대만 현지 사진은 아니에요(사진: ArtHouse Studio / Pexels)."
+        },
+        {
+          "type": "quote",
+          "text": "\"검색하고 지도 보고 택시 부르는 정도면 하루 1~2GB로 충분했어요.\" — 대만 eSIM을 고민하는 여행자들 사이에서 자주 나오는 경험담이에요. 쓰는 양은 사바사라 본인 사용 습관을 기준으로 보세요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 대만 eSIM 사기 전 휴대폰 체크"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "eSIM 지원 기종인지",
+              "desc": "휴대폰이 eSIM을 지원하지 않으면 통신사 여행자 카드도 실물 SIM으로 사야 해요. 구입 전에 휴대폰 설정에서 eSIM 추가 메뉴가 있는지 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "통신사 잠금이 풀려 있는지",
+              "desc": "특정 통신사 전용으로 잠긴 휴대폰은 다른 회선을 쓸 수 없어요. 해외에서 산 휴대폰이나 약정 휴대폰이라면 특히 미리 확인하는 편이 좋습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "설치는 출국 전, 켜는 건 도착 후",
+              "desc": "대부분의 판매처는 eSIM을 출국 전에 설치해 두고 대만에 도착한 뒤 그 회선의 데이터를 켜라고 안내해요. 설치용 QR 코드는 다른 기기 화면이나 인쇄본으로 준비해 두면 편합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "5G 상품이면 5G 휴대폰인지",
+              "desc": "台灣大哥大는 5G가 안 되는 곳에서는 4G로 바뀌어 서비스된다고 안내해요. 4G 휴대폰이라면 굳이 5G 상품을 살 필요가 없습니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 여행자 카드는 기간 계산을 꼭 확인하기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "中華電信은 개통 다음 날 0시부터",
+              "desc": "3일권이라면 개통한 다음 날 00:00부터 연속 72시간이에요. 도착한 날 저녁에 개통하면 그날은 덤으로 쓰는 셈입니다."
+            },
+            {
+              "mark": "2",
+              "b": "台灣大哥大는 개통 시점부터 24시간 단위",
+              "desc": "5일권이라면 개통한 때부터 120시간 동안 쓸 수 있어요. 귀국편 시간을 거꾸로 계산해서 며칠짜리를 살지 정하세요."
+            },
+            {
+              "mark": "3",
+              "b": "기간 연장은 안 돼요",
+              "desc": "두 회사 모두 여행자 카드의 사용 기간은 늘릴 수 없다고 안내해요. 일정이 애매하면 하루 넉넉한 상품을 고르는 편이 낫습니다."
+            },
+            {
+              "mark": "4",
+              "b": "남은 혜택은 기간이 끝나면 사라져요",
+              "desc": "함께 주는 통화 요금이나 핫스팟 공유량은 기간이 끝나면 없어져요. 돌려받거나 다른 번호로 넘길 수 없습니다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "공항에 도착해 바로 시내로 갈 계획이라면 <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">타오위안 공항 심야 도착 교통 정리</a>와 <a href=\"/blog-taipei-easycard-transport-guide\">타이베이 이지카드 교통 가이드</a>도 함께 보세요. 데이터를 가장 많이 쓰는 순간은 메뉴판 번역일 때가 많아서 <a href=\"/blog-taiwan-google-translate-camera-menu\">구글 번역 카메라로 메뉴판 읽기</a>도 도움이 돼요. 연결되자마자 갈 곳은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>의 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>이나 <a href=\"/taipei-noodle-86\">아종면선</a>부터 찾아보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 中華電信 관광 선불카드 요금·안내 페이지, 台灣大哥大 여행자 카드 공식 페이지와 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리했습니다. 해외 판매처 eSIM 가격과 행사는 수시로 바뀌니 구입 전에 판매처 페이지를 다시 확인하는 것을 추천해요. 사진: ArtHouse Studio, Pexels License."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 확인해보세요",
+          "desc": "데이터가 연결되면 바로 찾아갈 수 있게 가고 싶은 곳을 미리 찜해 두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=street_food"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taiwan eSIM — Data-Only vs. Tourist SIM · My Secret Taiwan Eats",
+      "metaDescription": "Choosing a Taiwan eSIM starts with one question: do you need a Taiwan number? Data-only eSIMs vs. tourist SIMs, daily data use and official prices.",
+      "ogTitle": "Taiwan eSIM: Data-Only eSIM or a Local Tourist SIM?",
+      "eyebrow": "Taiwan Travel Guide · Mobile Data",
+      "title": "Taiwan eSIM: Data-Only eSIM or a Local Tourist SIM?",
+      "dek": "Before you compare prices, decide whether you need a Taiwan phone number — then check data use and your phone.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "All of Taiwan · Mobile Data",
+      "intro": "\"Can I just buy the cheapest Taiwan eSIM?\" It's one of the most common pre-trip questions. Most travel eSIMs sold by overseas resellers are data-only, with no Taiwan phone number. If you need a Taiwan number, you'll want a tourist SIM from a local carrier. Based on Chunghwa Telecom and Taiwan Mobile's official pages and real travellers' experiences, here's how to choose, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taiwan eSIM vs. Tourist SIM at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Data-only eSIM (overseas reseller)",
+            "Taiwanese carrier tourist SIM (SIM or eSIM)"
+          ],
+          "rows": [
+            {
+              "label": "Taiwan phone number",
+              "values": [
+                "Usually none",
+                "Yes (local calls and texts)"
+              ]
+            },
+            {
+              "label": "Where to buy",
+              "values": [
+                "Online before you fly",
+                "Airport or carrier store counters"
+              ]
+            },
+            {
+              "label": "Data",
+              "values": [
+                "Fixed-data or unlimited plans",
+                "Unlimited domestic data during the pass"
+              ]
+            },
+            {
+              "label": "Price (as of October 2026)",
+              "values": [
+                "Varies by reseller and promotion",
+                "4G 3 days NT$300, 5G 3 days NT$500"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Maps and search from the moment you land",
+                "Local number verification or sharing a hotspot"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Chunghwa Telecom and Taiwan Mobile both sell tourist passes as a physical SIM or eSIM, and their official prices match: 4G 3 days NT$300, 5G 3 days NT$500, 5 days NT$600 and 7 days NT$800 (as of October 2026). The counter checks your identity, so bring your original passport. Chunghwa says it accepts a visa or international student card as a second ID, or otherwise an official photo ID from your home country, such as a driver's licence. Chunghwa takes Taiwan dollar cash only; Taiwan Mobile takes Taiwan dollars, credit cards, UnionPay and Alipay. Chunghwa says under-18s can't sign up on their own."
+        },
+        {
+          "type": "h2",
+          "text": "02 · How Much Data Will You Use in Taiwan?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Mostly maps, search and ride-hailing",
+              "desc": "Many travellers say 1–2GB a day is plenty. Using 3–5GB over a 3-night, 4-day trip is a common experience, so a fixed-data eSIM is often enough."
+            },
+            {
+              "mark": "2",
+              "b": "Lots of video or social uploads",
+              "desc": "If you stream outside the hotel or post photos often, unlimited is less stressful. Taiwanese tourist SIMs give unlimited domestic data during the pass."
+            },
+            {
+              "mark": "3",
+              "b": "Sharing a hotspot with your group",
+              "desc": "5G tourist SIMs come with a separate tethering allowance (3GB for 3 days, 5GB for 5 days, 7GB for 7 days). Once it runs out, only the hotspot stops; your own data keeps working."
+            },
+            {
+              "mark": "4",
+              "b": "Short trip, light use: a fixed-data card",
+              "desc": "Chunghwa also sells 16-day fixed-data cards: 1.2GB for NT$280, 2.2GB for NT$400 and 5GB for NT$699 (as of October 2026)."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-esim-data-vs-tourist-sim-1.jpg",
+          "caption": "A traveller checking a map app on a smartphone. This is a general image, not taken in Taiwan (photo: ArtHouse Studio / Pexels)."
+        },
+        {
+          "type": "quote",
+          "text": "\"Searching, maps and calling taxis only took 1–2GB a day.\" — a common experience among travellers weighing up a Taiwan eSIM. Everyone's usage differs, so go by your own habits."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Check Your Phone Before Buying a Taiwan eSIM"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Does it support eSIM?",
+              "desc": "If not, you'll need a physical tourist SIM. Before buying, check whether your phone's settings have an option to add an eSIM."
+            },
+            {
+              "mark": "✓",
+              "b": "Is it carrier-unlocked?",
+              "desc": "A phone locked to one carrier can't use another line. Check in advance, especially for phones on contract or bought abroad."
+            },
+            {
+              "mark": "✓",
+              "b": "Install before you fly, switch on after landing",
+              "desc": "Most resellers tell you to install the eSIM before departure and turn on that line's data after arriving in Taiwan. Keep the install QR code on another screen or printed out."
+            },
+            {
+              "mark": "✓",
+              "b": "Buying 5G? Check your phone is 5G",
+              "desc": "Taiwan Mobile says service switches to 4G where 5G isn't available. With a 4G phone, there's no need to pay for a 5G pass."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Check How Tourist SIM Days Are Counted"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Chunghwa: from midnight the next day",
+              "desc": "A 3-day pass runs for 72 hours from 00:00 the day after activation. Activate on your arrival evening and that night is a bonus."
+            },
+            {
+              "mark": "2",
+              "b": "Taiwan Mobile: 24-hour blocks from activation",
+              "desc": "A 5-day pass lasts 120 hours from activation. Count back from your return flight time to pick the right length."
+            },
+            {
+              "mark": "3",
+              "b": "Passes can't be extended",
+              "desc": "Both carriers say a tourist SIM's validity can't be extended. If your dates are tight, pick the pass with an extra day."
+            },
+            {
+              "mark": "4",
+              "b": "Leftover extras expire",
+              "desc": "Bundled call credit and tethering allowance disappear when the pass ends. They can't be refunded or moved to another number."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If you're heading straight into the city from the airport, see our guides to <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">late-night Taoyuan Airport arrivals</a> and <a href=\"/blog-taipei-easycard-transport-guide\">getting around Taipei with an EasyCard</a>. Menu translation is often where you use the most data, so <a href=\"/blog-taiwan-google-translate-camera-menu\">reading menus with Google Translate's camera</a> helps too. Once you're connected, start with the <a href=\"/region-taipei\">Taipei food map</a>, <a href=\"/taipei-street_food\">Taipei street food</a> or <a href=\"/taipei-noodle-86\">Ah-Chung Flour-Rice Noodle</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Chunghwa Telecom's tourist prepaid card price and terms page, Taiwan Mobile's official tourist SIM page and real travellers' experiences, as of October 2026. Overseas reseller eSIM prices and promotions change often, so check the seller's page again before you buy. Photo: ArtHouse Studio, Pexels License."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei food spots on the map",
+          "desc": "Pin the places you want to visit so you can head straight there once you're online.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=street_food"
+        }
+      ]
+    }
+  },
   "taipei-zoo-shuttle-train-route": {
     "heroImage": "assets/images/blog/taipei-zoo-shuttle-train-route-1.jpg",
     "ko": {
