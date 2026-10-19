@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-zoo-shuttle-train-route",
+    "image": "assets/images/blog/taipei-zoo-shuttle-train-route-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 동물원",
+      "title": "타이베이 동물원, 셔틀로 올라가 걸어 내려오면 덜 힘들까?",
+      "desc": "타이베이 동물원 입장료와 셔틀(遊客列車) 첫차·막차, 조류원역에서 걸어 내려오는 공식 추천 동선과 월요일 실내관 휴관을 정리했어요.",
+      "meta": "타이베이 · 동물원"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Zoo",
+      "title": "Taipei Zoo: Ride the Shuttle Train Up, Then Walk Down",
+      "desc": "Taipei Zoo tickets, shuttle train times, the official walk-down route from Bird World Station and which indoor houses close on Mondays.",
+      "meta": "Taipei · Zoo"
+    }
+  },
+  {
     "slug": "kaohsiung-fengshan-longshan-temple-shoujing",
     "image": "assets/images/blog/kaohsiung-fengshan-longshan-temple-shoujing-1.jpg",
     "regions": [
@@ -1009,6 +1028,363 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-zoo-shuttle-train-route": {
+    "heroImage": "assets/images/blog/taipei-zoo-shuttle-train-route-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이 동물원 — 셔틀·입장료·동선 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 동물원은 셔틀로 조류원까지 올라간 뒤 걸어 내려오면 덜 힘들어요. 입장료와 셔틀 첫차·막차, 공식 추천 동선, 월요일 실내관 휴관까지 정리했어요.",
+      "ogTitle": "타이베이 동물원, 셔틀로 올라가 걸어 내려오면 덜 힘들까?",
+      "eyebrow": "타이베이 여행 가이드 · 동물원",
+      "title": "타이베이 동물원, 셔틀로 올라가 걸어 내려오면 덜 힘들까?",
+      "dek": "정문부터 걸어 올라가면 오후엔 다리가 먼저 지쳐요 — NT$5짜리 셔틀 한 번으로 체력을 아끼는 순서를 짚어봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 동물원",
+      "intro": "\"타이베이 동물원은 넓다던데, 아이랑 하루에 다 돌 수 있을까요?\" 타이베이 시립동물원(臺北市立動物園)은 MRT 원후선 동물원역 바로 앞에 있지만, 안쪽 조류원까지는 오르막이 이어지는 큰 동물원이에요. 그래서 공식 추천 동선도 셔틀(遊客列車)로 조류원역까지 올라간 뒤 길을 따라 내려오는 순서입니다. 동물원 공식 홈페이지의 요금·운영 시간·추천 동선과 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이베이 동물원 입장료와 운영 시간, 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "정문 입구(MRT 동물원역 쪽)",
+            "동물원 남역 입구(마오콩 곤돌라 쪽)"
+          ],
+          "rows": [
+            {
+              "label": "일반",
+              "values": [
+                "NT$100",
+                "NT$105(셔틀 편도 포함)"
+              ]
+            },
+            {
+              "label": "6~11세·ISIC 학생증",
+              "values": [
+                "NT$50",
+                "NT$55(셔틀 편도 포함)"
+              ]
+            },
+            {
+              "label": "0~5세",
+              "values": [
+                "무료",
+                "NT$5(셔틀 요금)"
+              ]
+            },
+            {
+              "label": "셔틀 첫차·막차",
+              "values": [
+                "총역(列車總站) 09:00~16:30",
+                "남역 09:00~16:00"
+              ]
+            },
+            {
+              "label": "이런 분께",
+              "values": [
+                "MRT로 와서 하루를 넉넉히 쓸 때",
+                "마오콩 곤돌라를 타고 내려와 바로 들어갈 때"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "동물원은 09:00~17:00에 열고 입장은 16:00까지, 동물 전시는 16:30까지예요(공식 홈페이지, 2026년 10월 기준). 12세 미만 외국인 어린이도 대만 어린이와 같은 요금이 적용되니 여권처럼 사진과 나이가 나온 신분증을 입구에서 보여 주세요. 온라인 예매는 지금 중단돼 있어서 입구 자동판매기(현금·신용카드·교통카드)에서 사거나, 이지카드 실물 카드를 게이트에 찍으면 일반 요금 NT$100이 바로 빠져나갑니다."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 타이베이 동물원 셔틀(遊客列車) 타는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "요금은 1회 NT$5",
+              "desc": "정문으로 들어왔다면 총역(列車總站)에서 타요. 0~5세는 무료이고, 공식 추천 동선은 대만 동물구와 코알라관을 먼저 보고 총역으로 가는 순서입니다."
+            },
+            {
+              "mark": "2",
+              "b": "조류원역(鳥園車站)에서 내리기",
+              "desc": "셔틀은 총역에서 맨 위 조류원역까지 올라가요. 총역과 남역 사이에는 직통이 없어서, 남역으로 가려면 조류원역에서 갈아타야 합니다(역 밖으로 나갈 필요 없음)."
+            },
+            {
+              "mark": "3",
+              "b": "막차 시간 기억하기",
+              "desc": "총역 출발 막차는 16:30, 조류원역에서 총역으로 내려가는 막차는 17:00, 남역으로 가는 막차는 16:40이에요. 야간 개장 기간에는 막차가 늦어지니 공식 공지를 보세요."
+            },
+            {
+              "mark": "4",
+              "b": "남역 입구는 곤돌라와 함께 쉬어요",
+              "desc": "마오콩 곤돌라가 정기 점검이나 날씨로 멈추면 동물원 남역도 문을 닫아요. 월요일에 곤돌라 쪽으로 들어갈 계획이라면 곤돌라 운행 공지를 먼저 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-zoo-shuttle-train-route-1.jpg",
+          "caption": "타이베이 시립동물원에서 나뭇가지에 앉아 쉬는 자이언트판다예요(2025년 3월 촬영, 사진: Snow Chang / Pexels)."
+        },
+        {
+          "type": "quote",
+          "text": "\"臺灣動物區 ▶ 無尾熊館 ▶ 列車總站 → 鳥園車站 ▶ 鳥園 ▶ 兩棲爬蟲動物館 ▶ 溫帶動物區 ▶ 企鵝館 ▶ 沿路往下 ▶ 非洲動物區 ▶ 熱帶雨林區 ▶ 穿山甲館 ▶ 大貓熊館\" — 대만 동물구와 코알라관을 보고 셔틀로 조류원역까지 간 뒤, 길을 따라 내려오며 판다관에서 마치는 타이베이 동물원 공식 하루 추천 동선이에요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 걸어 내려오며 보는 순서"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "조류원·양서파충류관",
+              "desc": "조류원역에서 내려 조류원, 양서파충류관 순서로 봐요. 체력이 가장 좋을 때 맨 위 구역부터 보는 셈입니다."
+            },
+            {
+              "mark": "2",
+              "b": "온대동물구·펭귄관",
+              "desc": "내리막을 따라 내려오면 온대동물구와 펭귄관이 나와요. 펭귄관은 실내관이라 더운 날 쉬어 가기에도 좋습니다."
+            },
+            {
+              "mark": "3",
+              "b": "아프리카 동물구·열대우림구",
+              "desc": "야외 구역이 길게 이어지는 구간이에요. 걸어서 내려가는 길이라 아이와 함께여도 오르막보다 훨씬 덜 힘들어요."
+            },
+            {
+              "mark": "4",
+              "b": "천산갑관·판다관에서 마무리",
+              "desc": "판다관은 정문에서 멀지 않아 마지막에 들르기 좋아요. 1~2시간만 있다면 셔틀 없이 대만 동물구·코알라관·판다관·천산갑관만 보는 짧은 공식 동선도 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 타이베이 동물원 가기 전에 알아둘 점"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "월요일엔 실내관 휴관 확인",
+              "desc": "판다관은 매달 첫째 주, 천산갑관·펭귄관은 둘째 주, 양서파충류관은 셋째 주, 곤충관은 넷째 주 월요일에 쉬어요. 교육센터는 매주 월요일 휴관이고, 연휴와 겹치면 휴관일이 미뤄질 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "유모차·휠체어는 빌릴 수 있어요",
+              "desc": "방문객 서비스센터 옆과 조류원역에서 09:00~16:00에 빌려요. 유모차는 1회 NT$50~100에 보증금 NT$1,000, 수동 휠체어는 신분증을 맡기면 무료예요."
+            },
+            {
+              "mark": "✓",
+              "b": "짐은 보관함에",
+              "desc": "방문객 서비스센터 옆과 정문 광장 출구 쪽에 보관함이 있어요. 3시간에 소형 NT$40, 대형 NT$60입니다."
+            },
+            {
+              "mark": "✓",
+              "b": "다시 들어올 거라면 손 도장",
+              "desc": "출구 앞에서 재입장 손 도장을 받으면 그날 다시 들어올 수 있어요. 더운 날에는 동물이 실내에 들어가 있는 경우가 많다는 후기도 많으니 실내관을 일정에 섞어 두세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "동물원 전후로 먹을 곳을 찾는다면 <a href=\"/region-taipei\">타이베이 맛집 지도</a>와 <a href=\"/taipei-attraction\">타이베이 체험·관광지 모음</a>부터 보세요. 아이와 하루 더 놀 곳을 찾는다면 <a href=\"/taipei-attraction-104\">타이페이 어린이공원</a>도 지도에 있어요. 동물원과 마오콩 곤돌라를 같은 날 묶은 일정은 <a href=\"/blog-taipei-3n5d-relaxed-itinerary\">타이베이 3박5일 널널한 일정</a>, 아이와 다닐 체험·야시장은 <a href=\"/blog-taipei-with-kids-activities-night-market\">아이와 타이베이 여행 정리</a>도 함께 참고하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 타이베이 시립동물원 공식 홈페이지(입장료·요금 안내, 운영 시간·셔틀 시간, 추천 동선, 유모차·휠체어·보관함 안내, 자주 묻는 질문)와 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리했습니다. 요금과 운영 시간은 바뀔 수 있으니 방문 전 공식 홈페이지 공지를 다시 확인하는 것을 추천해요. 사진: Snow Chang, Pexels License."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 관광지도 확인해보세요",
+          "desc": "동물원 전후로 들를 곳을 미리 찜해 두면 하루 동선이 훨씬 가벼워져요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=attraction"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taipei Zoo Shuttle Train — Tickets & Route · My Secret Taiwan Eats",
+      "metaDescription": "See Taipei Zoo with less uphill walking: ride the shuttle train to Bird World, then walk down. Tickets, shuttle times, the official route and Monday closures.",
+      "ogTitle": "Taipei Zoo: Ride the Shuttle Train Up, Then Walk Down",
+      "eyebrow": "Taipei Travel Guide · Zoo",
+      "title": "Taipei Zoo: Ride the Shuttle Train Up, Then Walk Down",
+      "dek": "Walk uphill from the main gate and your legs give out by mid-afternoon — here's how one NT$5 shuttle ride saves your energy.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Zoo",
+      "intro": "\"Taipei Zoo is huge — can we really see it all in a day with the kids?\" Taipei Zoo (臺北市立動物園) sits right outside MRT Taipei Zoo Station, but the path keeps climbing all the way up to Bird World. That's why the zoo's own suggested route is to ride the shuttle train (遊客列車) up to Bird World Station and walk back down. Based on the zoo's official tickets, opening times and suggested itinerary pages and real travellers' experiences, here's a guide as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taipei Zoo Tickets and Hours at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Main gate (MRT Taipei Zoo Station side)",
+            "Zoo South Station gate (Maokong Gondola side)"
+          ],
+          "rows": [
+            {
+              "label": "Adult",
+              "values": [
+                "NT$100",
+                "NT$105 (includes one-way shuttle)"
+              ]
+            },
+            {
+              "label": "Ages 6–11 / ISIC student",
+              "values": [
+                "NT$50",
+                "NT$55 (includes one-way shuttle)"
+              ]
+            },
+            {
+              "label": "Ages 0–5",
+              "values": [
+                "Free",
+                "NT$5 (shuttle fare)"
+              ]
+            },
+            {
+              "label": "Shuttle first / last train",
+              "values": [
+                "Shuttle Train Station 09:00–16:30",
+                "Zoo South Station 09:00–16:00"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Arriving by MRT with a full day",
+                "Coming straight down from the Maokong Gondola"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The zoo is open 09:00–17:00 with last entry at 16:00, and animal exhibits close at 16:30 (official website, as of October 2026). Foreign children under 12 get the same rates as Taiwanese children, so show a photo ID with their age, such as a passport, at the gate. Online ticketing is currently suspended: buy at the ticket machines by the gate (cash, credit card or transit card), or tap a physical EasyCard at the gate to pay the NT$100 adult fare."
+        },
+        {
+          "type": "h2",
+          "text": "02 · How to Ride the Taipei Zoo Shuttle Train (遊客列車)"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "NT$5 per ride",
+              "desc": "Coming in through the main gate, board at Shuttle Train Station (列車總站). Children aged 0–5 ride free, and the official route visits the Formosan Animal Area and Koala House before heading to the station."
+            },
+            {
+              "mark": "2",
+              "b": "Get off at Bird World Station (鳥園車站)",
+              "desc": "The shuttle climbs from Shuttle Train Station to Bird World Station at the top. There's no direct train between Shuttle Train Station and Zoo South Station, so transfer at Bird World Station (no need to exit)."
+            },
+            {
+              "mark": "3",
+              "b": "Remember the last trains",
+              "desc": "The last train from Shuttle Train Station is at 16:30, from Bird World Station down to Shuttle Train Station at 17:00, and to Zoo South Station at 16:40. Last trains run later during night openings, so check the zoo's notices."
+            },
+            {
+              "mark": "4",
+              "b": "The South Station gate closes with the gondola",
+              "desc": "When the Maokong Gondola stops for maintenance or bad weather, Zoo South Station closes too. If you plan to enter from the gondola side on a Monday, check the gondola's service notice first."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-zoo-shuttle-train-route-1.jpg",
+          "caption": "A giant panda resting on a branch at Taipei Zoo (taken March 2025; photo: Snow Chang / Pexels)."
+        },
+        {
+          "type": "quote",
+          "text": "\"臺灣動物區 ▶ 無尾熊館 ▶ 列車總站 → 鳥園車站 ▶ 鳥園 ▶ 兩棲爬蟲動物館 ▶ 溫帶動物區 ▶ 企鵝館 ▶ 沿路往下 ▶ 非洲動物區 ▶ 熱帶雨林區 ▶ 穿山甲館 ▶ 大貓熊館\" — Taipei Zoo's official one-day route: see the Formosan Animal Area and Koala House, ride the shuttle up to Bird World Station, then walk downhill and finish at the Giant Panda House."
+        },
+        {
+          "type": "h2",
+          "text": "03 · The Walk-Down Order"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Bird World and the Amphibian and Reptile House",
+              "desc": "Both are right by Bird World Station. Start at the top while you still have the most energy."
+            },
+            {
+              "mark": "2",
+              "b": "Temperate Zone and Penguin House",
+              "desc": "Follow the downhill path to the Temperate Zone and Penguin House. Being indoors, the Penguin House is also a good break on a hot day."
+            },
+            {
+              "mark": "3",
+              "b": "African Animal Area and Tropical Rainforest Area",
+              "desc": "This is the long outdoor stretch. Walking it downhill is far easier than the climb, even with kids."
+            },
+            {
+              "mark": "4",
+              "b": "Finish at the Pangolin Dome and Giant Panda House",
+              "desc": "The Giant Panda House is close to the main gate, so it's an easy last stop. With only 1–2 hours, the zoo also suggests a short route without the shuttle: the Formosan Animal Area, Koala House, Giant Panda House and Pangolin Dome."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Before You Visit Taipei Zoo"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Check Monday indoor closures",
+              "desc": "The Giant Panda House closes on the first Monday of the month, the Pangolin Dome and Penguin House on the second, the Amphibian and Reptile House on the third and the Insectarium on the fourth. The Education Center closes every Monday, and closures may shift when a holiday falls on a Monday."
+            },
+            {
+              "mark": "✓",
+              "b": "Strollers and wheelchairs for hire",
+              "desc": "Rent them next to the Visitor Service Center or at Bird World Station from 09:00 to 16:00. Strollers cost NT$50–100 per rental with a NT$1,000 deposit; manual wheelchairs are free if you leave an ID."
+            },
+            {
+              "mark": "✓",
+              "b": "Lockers for bags",
+              "desc": "Lockers are next to the Visitor Service Center and by the main plaza exit: NT$40 (small) or NT$60 (large) per 3 hours."
+            },
+            {
+              "mark": "✓",
+              "b": "Get a hand stamp to re-enter",
+              "desc": "Get a re-entry stamp before the exit and you can come back the same day. Many travellers say the animals tend to stay indoors on hot days, so mix some indoor houses into your plan."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For food before or after the zoo, start with the <a href=\"/region-taipei\">Taipei food map</a> and the <a href=\"/taipei-attraction\">Taipei attractions list</a>. For another kid-friendly day, <a href=\"/taipei-attraction-104\">Taipei Children's Amusement Park</a> is on the map too. For a plan that pairs the zoo with the Maokong Gondola, see our <a href=\"/blog-taipei-3n5d-relaxed-itinerary\">relaxed 3-night, 5-day Taipei itinerary</a>, and for activities and night markets with kids, see <a href=\"/blog-taipei-with-kids-activities-night-market\">Taipei with kids</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taipei Zoo's official website (tickets and fare rules, opening and shuttle times, suggested itineraries, stroller, wheelchair and locker information, and FAQ) and real travellers' experiences, as of October 2026. Fares and hours can change, so check the zoo's official notices again before you visit. Photo: Snow Chang, Pexels License."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei attractions on the map",
+          "desc": "Pin a few places for before or after the zoo to keep the day easy.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=attraction"
+        }
+      ]
+    }
+  },
   "kaohsiung-fengshan-longshan-temple-shoujing": {
     "heroImage": "assets/images/blog/kaohsiung-fengshan-longshan-temple-shoujing-1.jpg",
     "ko": {
