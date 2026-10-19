@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kaohsiung-fengshan-longshan-temple-shoujing",
+    "image": "assets/images/blog/kaohsiung-fengshan-longshan-temple-shoujing-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 사찰 체험",
+      "title": "가오슝 봉산 용산사 수경(收驚), 언제 어떻게 받을까?",
+      "desc": "국가 고적인 봉산 용산사에서 수경을 받는 순서와 가는 길, 시간이 안 맞을 때 근처 쌍자전에서 받는 방법까지 정리했어요.",
+      "meta": "가오슝 · 사찰 체험"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Temple Experience",
+      "title": "Fengshan Longshan Temple in Kaohsiung: How to Receive a Shoujing Blessing",
+      "desc": "How to reach Fengshan Longshan Temple, the order of worship for a shoujing blessing, and a nearby temple with fixed hours as a backup.",
+      "meta": "Kaohsiung · Temple Experience"
+    }
+  },
+  {
     "slug": "taichung-tainan-tra-vs-thsr",
     "image": "assets/images/blog/taichung-tainan-tra-vs-thsr-1.jpg",
     "regions": [
@@ -990,6 +1009,353 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kaohsiung-fengshan-longshan-temple-shoujing": {
+    "heroImage": "assets/images/blog/kaohsiung-fengshan-longshan-temple-shoujing-1.jpg",
+    "ko": {
+      "pageTitle": "봉산 용산사 수경 — 시간·참배 순서 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 봉산 용산사에서 수경(收驚)을 받으려면 언제 가야 할까요? 가는 길과 참배 순서, 시간이 안 맞을 때 들를 근처 쌍자전 수경 시간까지 정리했어요.",
+      "ogTitle": "가오슝 봉산 용산사 수경(收驚), 언제 어떻게 받을까?",
+      "eyebrow": "가오슝 여행 가이드 · 사찰 체험",
+      "title": "가오슝 봉산 용산사 수경(收驚), 언제 어떻게 받을까?",
+      "dek": "향을 올리고 봉사자 앞에 줄을 서면 되지만, 수경 시간은 사찰마다 달라요 — 가기 전에 챙길 것부터 짚어봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 사찰 체험",
+      "intro": "\"가오슝 봉산 용산사에서 수경을 받아 보고 싶은데, 그냥 가도 되나요?\" 수경(收驚)은 크게 놀랐거나 마음이 불안할 때 기운을 다독이려고 받는 대만의 민간 의식이에요. 봉산 용산사는 관음보살을 모시는 국가 고적 사찰로, 봉사자(師兄·師姐)들이 직접 수경을 해 줍니다. 사찰 공식 홈페이지와 문화부 문화자산국 자료, 같은 봉산구 쌍자전(雙慈殿)의 공식 안내, 그리고 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 봉산 용산사 수경, 한눈에 정리하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "봉산 용산사(鳳山龍山寺)",
+            "봉산 쌍자전(雙慈殿)"
+          ],
+          "rows": [
+            {
+              "label": "주소",
+              "values": [
+                "高雄市 鳳山區 中山路 7號",
+                "高雄市 鳳山區 三民路 285-1號"
+              ]
+            },
+            {
+              "label": "대표전화",
+              "values": [
+                "07-746-7391",
+                "07-746-8637"
+              ]
+            },
+            {
+              "label": "모시는 신",
+              "values": [
+                "관음보살(주신)",
+                "관음보살·마조(천상성모)"
+              ]
+            },
+            {
+              "label": "개방·수경 시간",
+              "values": [
+                "개방 07:00~21:00, 수경 시간은 방문 전 전화로 확인",
+                "수경 매일 09:00~14:10(사찰 공식 안내)"
+              ]
+            },
+            {
+              "label": "이런 분께",
+              "values": [
+                "고적 사찰 구경과 수경을 함께 하고 싶을 때",
+                "정해진 시간에 맞춰 수경을 받고 싶을 때"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "봉산 용산사 주소·전화는 사찰 공식 홈페이지, 개방 시간은 문화부 문화자산국 공개 자료, 쌍자전 수경 시간은 쌍자전 공식 홈페이지 기준이에요(2026년 10월 기준). 명절이나 법회가 있는 날은 운영이 달라질 수 있으니 방문 전 구글맵에 등록된 시간도 같이 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 봉산 용산사 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "MRT: 오렌지라인 다둥(大東)역",
+              "desc": "2번 출구로 나와 다둥1로(大東一路)를 따라가다 중산로(中山路)에서 왼쪽으로 돌면 걸어서 15분 정도예요. 사찰 공식 교통 안내에 나온 길입니다."
+            },
+            {
+              "mark": "2",
+              "b": "대만철도: 봉산(鳳山)역",
+              "desc": "자강호·쥐광호를 타고 봉산역에서 내리면 걸어서 약 18분이에요. 더운 날이나 짐이 있으면 택시가 편합니다."
+            },
+            {
+              "mark": "3",
+              "b": "고속철: 신쭤잉(新左營)역에서 환승",
+              "desc": "고속철로 오면 신쭤잉역에서 대만철도로 갈아타 봉산역까지 간 뒤, 걸어가거나 택시를 타면 돼요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-fengshan-longshan-temple-shoujing-1.jpg",
+          "caption": "봉산 용산사 정문이에요. 국가 고적답게 문짝과 들보마다 금빛 조각이 촘촘해요(2017년 촬영, 사진: Polyxyz / CC BY-SA 4.0, Wikimedia Commons, 아래쪽을 잘라 사용)."
+        },
+        {
+          "type": "quote",
+          "text": "\"搭乘高捷橘線 ➔ 大東站下車 ➔ 二號出口 ➔ 沿大東一路左轉中山路 ➔ 約步行約十五分鐘\" — MRT 오렌지라인 다둥역 2번 출구에서 다둥1로를 따라 중산로로 꺾어 15분쯤 걸으면 된다는 봉산 용산사 공식 교통 안내예요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 수경 받는 순서와 참배 예절"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "향을 피워 먼저 참배",
+              "desc": "여행자들은 보통 향을 피워 주신인 관음보살께 먼저 인사드리고, 다른 신들께 차례로 참배한 뒤 수경 줄로 가요. 향 꽂는 순서가 헷갈리면 사찰 안내판이나 봉사자에게 물어보세요."
+            },
+            {
+              "mark": "2",
+              "b": "봉사자 앞에 줄 서기",
+              "desc": "수경은 사찰 봉사자(師兄·師姐)들이 돌아가며 해 줘요. 앞사람이 끝날 때까지 조용히 기다렸다가 차례가 오면 봉사자 안내를 따르면 됩니다."
+            },
+            {
+              "mark": "3",
+              "b": "평안부를 받는 경우도",
+              "desc": "의식이 끝난 뒤 평안부(平安符)를 받았다는 여행자 경험도 있어요. 지갑이나 가방에 넣어 다니는 부적이라 잘 챙겨 두세요."
+            },
+            {
+              "mark": "4",
+              "b": "비용은 현장에서 먼저 확인",
+              "desc": "수경 비용과 헌금(香油錢) 방식은 현장 안내판이나 봉사자에게 먼저 물어보는 편이 좋아요. 잔돈을 조금 준비해 가면 편합니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 봉산 용산사 가기 전에 알아둘 점"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "수경 시간은 전화로 확인",
+              "desc": "수경은 개방 시간 내내 하는 것이 아니라 봉사자가 있는 시간대에만 해요. 방문 전 사찰 대표전화(07-746-7391)로 그날 수경 시간을 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "반려동물은 사찰 안에 못 들어가요",
+              "desc": "2026년 10월 대만 언론 보도에 따르면 봉산 용산사는 반려동물 수경을 더 받지 않고, 반려동물의 사찰 출입도 막고 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "시간이 안 맞으면 쌍자전",
+              "desc": "같은 봉산구 쌍자전은 공식 홈페이지에 수경 시간을 매일 09:00~14:10으로 안내해요(2026년 10월 기준). 오전에 봉산에 간다면 두 곳을 묶어 일정을 짜도 좋습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "의식 중인 사람은 찍지 않기",
+              "desc": "고적 건물과 조각은 볼거리가 많지만, 수경을 받는 사람이나 봉사자를 가까이에서 찍는 건 삼가는 게 예의예요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "참배를 마치고 가오슝 시내에서 먹을 곳을 찾는다면 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>와 <a href=\"/kaohsiung-street_food\">가오슝 노점 맛집 모음</a>부터 보세요. 미쉐린 빕 구르망에 오른 <a href=\"/kaohsiung-taiwanese-743\">라오디엔 바이홍 루자오 옌청점</a>과 따뜻할 때 먹기 좋은 <a href=\"/kaohsiung-street_food-739\">무명 총유빙·부추전</a>도 지도에 있어요. 부모님과 다른 가오슝 사찰을 둘러볼 계획이라면 <a href=\"/blog-kaohsiung-fo-guang-shan-with-parents-checklist\">불광산 부모님 동반 체크리스트</a>도 함께 참고하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 봉산 용산사 공식 홈페이지(교통 안내·역사), 문화부 문화자산국 공개 자료(개방 시간), 쌍자전 공식 홈페이지(수경 시간), 2026년 10월 대만 언론 보도와 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리했습니다. 수경 시간과 운영은 바뀔 수 있으니 방문 전 사찰에 다시 확인하는 것을 추천해요. 사진: Polyxyz, CC BY-SA 4.0(Wikimedia Commons, 일부 잘라 사용)."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 노점 맛집도 확인해보세요",
+          "desc": "참배 뒤 들를 곳을 미리 찜해 두면 동선이 훨씬 가벼워져요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung&cat=street_food"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Fengshan Longshan Temple Shoujing — Hours & Steps · My Secret Taiwan Eats",
+      "metaDescription": "Planning a shoujing (收驚) blessing at Fengshan Longshan Temple in Kaohsiung? How to get there, the order of worship, and a nearby temple with fixed shoujing hours.",
+      "ogTitle": "Fengshan Longshan Temple in Kaohsiung: How to Receive a Shoujing Blessing",
+      "eyebrow": "Kaohsiung Travel Guide · Temple Experience",
+      "title": "Fengshan Longshan Temple in Kaohsiung: How to Receive a Shoujing Blessing",
+      "dek": "Light incense, then queue for a volunteer — but shoujing hours differ from temple to temple, so here's what to check before you go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Temple Experience",
+      "intro": "\"I'd like to try a shoujing blessing at Fengshan Longshan Temple in Kaohsiung — can I just turn up?\" Shoujing (收驚) is a Taiwanese folk ritual for calming someone who has had a fright or feels unsettled. Fengshan Longshan Temple is a national monument dedicated to Guanyin, and its volunteers (師兄·師姐) perform shoujing in person. Based on the temple's official website, the Ministry of Culture's Bureau of Cultural Heritage, the official notice of nearby Shuangci Temple (雙慈殿) and real travellers' experiences, here's a guide as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Fengshan Longshan Temple Shoujing at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Fengshan Longshan Temple (鳳山龍山寺)",
+            "Fengshan Shuangci Temple (雙慈殿)"
+          ],
+          "rows": [
+            {
+              "label": "Address",
+              "values": [
+                "No. 7, Zhongshan Rd, Fengshan District, Kaohsiung (高雄市鳳山區中山路7號)",
+                "No. 285-1, Sanmin Rd, Fengshan District, Kaohsiung (高雄市鳳山區三民路285-1號)"
+              ]
+            },
+            {
+              "label": "Phone",
+              "values": [
+                "07-746-7391",
+                "07-746-8637"
+              ]
+            },
+            {
+              "label": "Main deities",
+              "values": [
+                "Guanyin (principal deity)",
+                "Guanyin and Mazu"
+              ]
+            },
+            {
+              "label": "Opening & shoujing hours",
+              "values": [
+                "Open 07:00–21:00; call ahead for shoujing hours",
+                "Shoujing daily 09:00–14:10 (official notice)"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Seeing a historic temple and receiving shoujing",
+                "Receiving shoujing at fixed hours"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The Longshan Temple address and phone number are from its official website, its opening hours from the Bureau of Cultural Heritage's public data, and the Shuangci Temple shoujing hours from its official website, as of October 2026. Hours can change on festival or ceremony days, so check the hours listed on Google Maps before you go."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Getting to Fengshan Longshan Temple"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "MRT: Orange Line, Dadong (大東) Station",
+              "desc": "Leave by Exit 2, follow Dadong 1st Road (大東一路) and turn left onto Zhongshan Road (中山路); it's about a 15-minute walk. This is the route in the temple's official directions."
+            },
+            {
+              "mark": "2",
+              "b": "Taiwan Railway: Fengshan (鳳山) Station",
+              "desc": "Take a Tze-Chiang or Chu-Kuang train to Fengshan Station, then walk about 18 minutes. A taxi is easier on hot days or with luggage."
+            },
+            {
+              "mark": "3",
+              "b": "High-speed rail: change at Xinzuoying (新左營)",
+              "desc": "Coming by THSR, change to Taiwan Railway at Xinzuoying, ride to Fengshan Station, then walk or take a taxi."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-fengshan-longshan-temple-shoujing-1.jpg",
+          "caption": "The main gate of Fengshan Longshan Temple, a national monument with gilded carvings on every door and beam (taken 2017; photo: Polyxyz / CC BY-SA 4.0, Wikimedia Commons, cropped)."
+        },
+        {
+          "type": "quote",
+          "text": "\"搭乘高捷橘線 ➔ 大東站下車 ➔ 二號出口 ➔ 沿大東一路左轉中山路 ➔ 約步行約十五分鐘\" — The temple's official directions: take the Kaohsiung MRT Orange Line to Dadong, leave by Exit 2, follow Dadong 1st Road, turn left onto Zhongshan Road and walk about 15 minutes."
+        },
+        {
+          "type": "h2",
+          "text": "03 · The Order of Worship and Temple Etiquette"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Light incense and pay respects first",
+              "desc": "Travellers usually light incense, greet Guanyin, the principal deity, first, then pay respects to the other deities in turn before joining the shoujing queue. If you're unsure of the order, ask at the information board or a volunteer."
+            },
+            {
+              "mark": "2",
+              "b": "Queue for a volunteer",
+              "desc": "Shoujing is performed by the temple's volunteers (師兄·師姐) in turns. Wait quietly until the person ahead is finished, then follow the volunteer's lead."
+            },
+            {
+              "mark": "3",
+              "b": "You may receive a peace charm",
+              "desc": "Some travellers were given a peace charm (平安符) after the ritual. It's meant to be carried in a wallet or bag, so keep it safe."
+            },
+            {
+              "mark": "4",
+              "b": "Ask about the cost on site",
+              "desc": "It's best to ask at the information board or a volunteer about any fee or offering (香油錢) first. Bringing some small change makes things easier."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Before You Visit Fengshan Longshan Temple"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Call ahead for shoujing hours",
+              "desc": "Shoujing isn't offered for the whole opening day, only when volunteers are on duty. Call the temple (07-746-7391) to check that day's shoujing hours before you go."
+            },
+            {
+              "mark": "✓",
+              "b": "No pets inside the temple",
+              "desc": "According to Taiwanese media reports in October 2026, Fengshan Longshan Temple no longer performs shoujing for pets and doesn't allow pets inside."
+            },
+            {
+              "mark": "✓",
+              "b": "Shuangci Temple as a backup",
+              "desc": "Shuangci Temple, also in Fengshan District, lists shoujing daily from 09:00 to 14:10 on its official website (as of October 2026). If you're in Fengshan in the morning, you can visit both."
+            },
+            {
+              "mark": "✓",
+              "b": "Don't photograph the ritual",
+              "desc": "The historic buildings and carvings are worth a look, but it's polite not to take close-up photos of people receiving shoujing or of the volunteers."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For food after your visit, start with the <a href=\"/region-kaohsiung\">Kaohsiung food map</a> and the <a href=\"/kaohsiung-street_food\">Kaohsiung street food list</a>. <a href=\"/kaohsiung-taiwanese-743\">Lao Dian Bai Hong Lu Zao (Yancheng)</a>, a Michelin Bib Gourmand pick, and an <a href=\"/kaohsiung-street_food-739\">unnamed scallion pancake and chive pancake stall</a> best eaten warm are on the map too. If you're visiting other Kaohsiung temples with your parents, see our <a href=\"/blog-kaohsiung-fo-guang-shan-with-parents-checklist\">Fo Guang Shan checklist for visiting with parents</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Fengshan Longshan Temple's official website (directions and history), the Ministry of Culture's Bureau of Cultural Heritage public data (opening hours), Shuangci Temple's official website (shoujing hours), Taiwanese media reports from October 2026 and real travellers' experiences, as of October 2026. Shoujing hours and arrangements can change, so check with the temple again before you visit. Photo: Polyxyz, CC BY-SA 4.0 (Wikimedia Commons, cropped)."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung street food on the map",
+          "desc": "Pin a few places for after your temple visit to keep the day easy.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung&cat=street_food"
+        }
+      ]
+    }
+  },
   "taichung-tainan-tra-vs-thsr": {
     "heroImage": "assets/images/blog/taichung-tainan-tra-vs-thsr-1.jpg",
     "ko": {
