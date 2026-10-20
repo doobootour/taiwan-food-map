@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kaohsiung-formosa-boulevard-luggage-locker",
+    "image": "assets/images/blog/kaohsiung-formosa-boulevard-luggage-locker-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 교통·짐 보관",
+      "title": "가오슝 미려도역 짐보관함, 공항 가는 날 어디에 맡길까?",
+      "desc": "미려도역 보관함 6곳의 위치와 개찰구 안팎 구분, 크기별 칸 수와 요금, 캐리어가 들어갈 칸 고르는 법, 레드라인으로 공항 가는 날 짐 찾는 순서를 정리했어요.",
+      "meta": "가오슝 · 교통·짐 보관"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Transport & Luggage",
+      "title": "Formosa Boulevard Station Lockers in Kaohsiung: Where to Leave Bags on Your Airport Day",
+      "desc": "Six locker spots at Formosa Boulevard Station, inside or outside the gates, sizes and fares, which one fits a suitcase, and how to collect bags before the Red Line to the airport.",
+      "meta": "Kaohsiung · Transport & Luggage"
+    }
+  },
+  {
     "slug": "taiwan-typhoon-flight-cancellation",
     "image": "assets/images/blog/taiwan-typhoon-flight-cancellation-1.jpg",
     "regions": [
@@ -1066,6 +1085,399 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kaohsiung-formosa-boulevard-luggage-locker": {
+    "heroImage": "assets/images/blog/kaohsiung-formosa-boulevard-luggage-locker-1.jpg",
+    "ko": {
+      "pageTitle": "가오슝 미려도역 짐보관함 — 위치·요금 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 미려도역 짐보관함은 개찰구 밖 B1과 개찰구 안 B2 승강장에 있어요. 위치별 칸 수와 크기, NT$10~40 요금, 공항 가는 날 동선을 정리했어요.",
+      "ogTitle": "가오슝 미려도역 짐보관함, 공항 가는 날 어디에 맡길까?",
+      "eyebrow": "가오슝 여행 가이드 · 교통·짐 보관",
+      "title": "가오슝 미려도역 짐보관함, 공항 가는 날 어디에 맡길까?",
+      "dek": "개찰구 밖이냐 안이냐에 따라 동선이 달라져요 — 보관함 위치, 칸 크기, 공항 가는 날 순서로 짚어봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 교통·짐 보관",
+      "intro": "\"체크아웃하고 비행기까지 반나절이 남는데, 캐리어는 어디에 두죠?\" 가오슝 마지막 날 자주 나오는 고민이에요. 가오슝 미려도역 짐보관함은 레드라인과 오렌지라인이 만나는 환승역 안 여러 곳에 흩어져 있고, 일부는 개찰구 안쪽에 있어서 어디에 맡기느냐에 따라 움직이는 길이 달라집니다. 가오슝 MRT(高雄捷運) 공식 보관함 목록과 운임 안내, 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 가오슝 미려도역 짐보관함, 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "구역",
+            "보관함 종류·칸 수",
+            "요금"
+          ],
+          "rows": [
+            {
+              "label": "B1 4번 출구 근처(화장실 옆)",
+              "values": [
+                "개찰구 밖",
+                "전자식 중형 32·대형 16",
+                "중형 NT$20·대형 NT$40 / 2시간"
+              ]
+            },
+            {
+              "label": "B1 1번 출구 근처",
+              "values": [
+                "개찰구 밖",
+                "일반 소형 36·대형 8",
+                "소형 NT$10·대형 NT$20 / 1시간"
+              ]
+            },
+            {
+              "label": "B1 2번 출구 근처",
+              "values": [
+                "개찰구 밖",
+                "일반 소형 26·대형 8",
+                "소형 NT$10·대형 NT$20 / 1시간"
+              ]
+            },
+            {
+              "label": "B1 3·4번과 5~8번 출구 사이",
+              "values": [
+                "개찰구 밖",
+                "일반 소형 16",
+                "소형 NT$10 / 1시간"
+              ]
+            },
+            {
+              "label": "B2 오렌지라인 하마싱(哈瑪星) 방향 승강장",
+              "values": [
+                "개찰구 안",
+                "전자식 중형 28·대형 14",
+                "중형 NT$20·대형 NT$40 / 2시간"
+              ]
+            },
+            {
+              "label": "B2 오렌지라인 다랴오(大寮) 방향 승강장",
+              "values": [
+                "개찰구 안",
+                "전자식 중형 24·대형 12",
+                "중형 NT$20·대형 NT$40 / 2시간"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "표는 가오슝 MRT의 '車站置物櫃設置一覽表'(2026년 5월 22일 갱신)를 2026년 10월 기준으로 옮긴 거예요. 전자식 보관함은 2시간 단위라 2시간이 안 돼도 2시간 요금이 붙고, 일반 보관함은 1시간 단위로 계산합니다. 공식 안내도 실제 크기·수량·요금은 현장 게시가 기준이라고 밝히고 있으니, 맡기기 전에 보관함 앞 안내문을 한 번 더 보세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 캐리어가 들어가는 칸은 어디일까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "대형 칸은 높이 80~85cm",
+              "desc": "공식 목록 기준 전자식 대형(L2)은 높이 80×폭 34×깊이 56cm, 일반 대형(L3)은 높이 85×폭 32~36×깊이 56cm예요. 기내용보다 큰 캐리어라면 대형 칸부터 보는 편이 안전합니다."
+            },
+            {
+              "mark": "2",
+              "b": "중형 칸은 높이 40cm",
+              "desc": "전자식 중형(M2)은 높이 40×폭 34×깊이 56cm예요. 배낭이나 작은 기내용 가방을 눕혀 넣는 크기라, 출발 전에 내 캐리어의 높이·폭·두께를 재 두면 현장에서 고민이 줄어요."
+            },
+            {
+              "mark": "3",
+              "b": "소형 칸은 쇼핑백·배낭용",
+              "desc": "일반 소형(S1~S4)은 높이 14~39cm로 칸마다 달라요. 3·4번과 5~8번 출구 사이 보관함은 소형만 있으니 캐리어라면 다른 곳으로 가세요."
+            },
+            {
+              "mark": "4",
+              "b": "대형 칸이 가장 많은 곳은 4번 출구 쪽",
+              "desc": "개찰구 밖에서 대형 칸이 가장 많은 곳은 B1 4번 출구 근처 전자식 보관함(대형 16칸)이에요. 가족 여행처럼 캐리어가 여러 개라면 이곳부터 확인해보세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 미려도역 보관함, 개찰구 안과 밖 차이"
+        },
+        {
+          "type": "p",
+          "html": "가오슝 MRT는 미려도역 보관함 일부가 개찰구 안(付費區)에 있다고 따로 공지하고 있어요. B2 오렌지라인 승강장 화장실 옆 두 곳이 여기에 해당합니다. 같은 공지에 따르면 B2 오렌지라인의 하마싱 방향과 다랴오 방향 승강장은 바로 이어지지 않아, 반대편으로 가려면 B3 레드라인 승강장을 거쳐야 해요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "오렌지라인으로 도착했다면 B2",
+              "desc": "숙소가 오렌지라인 쪽이라 캐리어를 끌고 미려도역에 내렸다면, 개찰구를 나가지 않고 내린 승강장 보관함에 바로 맡길 수 있어요. 레드라인으로 갈아탈 때도 동선이 짧습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "역 밖에서 왔다면 B1",
+              "desc": "택시나 도보로 왔다면 B1 개찰구 밖 보관함이 편해요. 개찰구를 지나지 않아도 맡기고 찾을 수 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "엘리베이터는 1·3번 출구",
+              "desc": "공식 역 안내 기준 무장애 엘리베이터는 1번과 3번 출구에 있어요. 4번 출구는 에스컬레이터와 화장실이 있는 쪽이라, 무거운 캐리어라면 1번 출구로 드나들고 4번 출구 쪽 보관함까지 B1에서 걸어가는 방법도 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "결제는 화면 안내를 따라",
+              "desc": "결제 방법은 보관함 종류마다 다를 수 있어요. 보관함 화면과 안내문을 확인하고, NT$10 동전을 몇 개 챙겨 두면 마음이 편합니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-formosa-boulevard-luggage-locker-1.jpg",
+          "caption": "미려도역 B1 콘코스의 '빛의 돔(光之穹頂)'이에요. 역 분위기를 보여 주는 사진이고, 보관함이 찍힌 사진은 아니에요(사진: WorldExplorer120322 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "quote",
+          "text": "\"짐만 맡기면 마지막 날이 반나절 더 생기는 느낌이에요.\" — 가오슝에서 오후·저녁 비행기를 타는 여행자들 사이에서 자주 나오는 이야기예요. 보관함 위치만 미리 알아 두면 체크아웃 뒤 시간이 훨씬 가벼워집니다."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 공항 가는 날, 미려도역에서 짐 찾는 순서"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "공항까지 레드라인으로 16분",
+              "desc": "가오슝 MRT 공식 운임 조회 기준 미려도역에서 고웅국제공항역(R4)까지는 갈아타지 않고 약 16분, 편도 NT$30(1회권·일반 카드 기준)이에요(2026년 10월 기준). 짐 찾는 시간과 승강장까지 걷는 시간을 더해 여유 있게 나서세요."
+            },
+            {
+              "mark": "2",
+              "b": "막차 전에 짐 찾기",
+              "desc": "보관함은 역 안에 있어서 역이 운영하는 시간에 찾아야 해요. 미려도역 샤오강(小港·공항) 방향 첫차는 06:12, 막차는 24:32입니다(2026년 10월 기준)."
+            },
+            {
+              "mark": "3",
+              "b": "저녁은 리우허 야시장",
+              "desc": "가오슝시 관광 사이트(高雄旅遊網)에 따르면 리우허 야시장(六合夜市)은 미려도역 11번 출구 바로 옆이에요. 짐을 맡기고 저녁을 먹은 뒤 다시 역으로 돌아오기 좋습니다. 야시장 영업시간은 방문 전 구글맵에 등록된 정보를 확인하세요."
+            },
+            {
+              "mark": "4",
+              "b": "자리가 없으면 가오슝역",
+              "desc": "한 정거장 옆 가오슝역(R11)은 미려도역에서 약 2분이고, B2 2번 출구와 B1 1번 출구 근처에 전자식 중형·대형 보관함이 있어요. 공항역(R4) B1 6번 출구 근처에도 일반 소형·대형 보관함이 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "타이베이에서도 짐을 맡길 일이 있다면 <a href=\"/blog-taipei-station-luggage-storage\">타이베이역 짐 보관 요금·시간</a>을, 가오슝 레드라인 숙소 위치는 <a href=\"/blog-kaohsiung-bts-concert-hotel-transport\">가오슝 콘서트 숙소·교통 정리</a>를 함께 보세요. 짐을 맡긴 뒤 저녁에는 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>와 <a href=\"/kaohsiung-street_food\">가오슝 노점 맛집</a>에서 먹을 곳을 고르고, 공항에 일찍 도착했다면 <a href=\"/kaohsiung-mart-familymart-kaohsiung-airport-686\">가오슝 공항 패밀리마트</a>에서 간단히 요기하는 것도 방법이에요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 가오슝 MRT(高雄捷運) 공식 '車站置物櫃設置一覽表'(2026년 5월 22일 갱신)와 레드·오렌지라인 보관함 목록 PDF(칸 크기 포함), 미려도역 역 안내와 첫차·막차 시간, 공식 운임 조회, 高雄旅遊網의 리우허 야시장 안내와 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리했습니다. 보관함 칸 수와 요금은 바뀔 수 있으니 현장 안내문을 다시 확인하는 것을 추천해요. 사진: WorldExplorer120322, Wikimedia Commons, CC0 1.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 짐 맡기고 갈 가오슝 노점 맛집도 확인해보세요",
+          "desc": "미려도역 근처에서 먹을 곳을 미리 찜해 두면 마지막 날 동선을 짜기 편해요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung&cat=street_food"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Formosa Boulevard Station Lockers, Kaohsiung — Locations & Fees · My Secret Taiwan Eats",
+      "metaDescription": "Kaohsiung's Formosa Boulevard Station has lockers outside the gates on B1 and inside on the B2 platforms. Locations, sizes, fares and an airport-day plan.",
+      "ogTitle": "Formosa Boulevard Station Lockers in Kaohsiung: Where to Leave Bags on Your Airport Day",
+      "eyebrow": "Kaohsiung Travel Guide · Transport & Luggage",
+      "title": "Formosa Boulevard Station Lockers in Kaohsiung: Where to Leave Bags on Your Airport Day",
+      "dek": "Whether a locker is inside or outside the fare gates changes your route — locations, sizes, then an airport-day plan.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Transport & Luggage",
+      "intro": "\"We've checked out and our flight isn't until the evening — where do we leave the suitcases?\" It's a common last-day question in Kaohsiung. The lockers at Formosa Boulevard Station, where the Red and Orange Lines meet, are spread around the station, and some sit inside the fare gates, so where you store your bags changes how you move. Based on Kaohsiung Metro (KRTC)'s official locker list and fare information, plus real travellers' experiences, here's how it works, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Formosa Boulevard Station Lockers at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Area",
+            "Locker type and count",
+            "Fee"
+          ],
+          "rows": [
+            {
+              "label": "B1 near Exit 4 (beside toilets)",
+              "values": [
+                "Outside the gates",
+                "Smart lockers: 32 medium, 16 large",
+                "Medium NT$20, large NT$40 per 2 hours"
+              ]
+            },
+            {
+              "label": "B1 near Exit 1",
+              "values": [
+                "Outside the gates",
+                "Standard: 36 small, 8 large",
+                "Small NT$10, large NT$20 per hour"
+              ]
+            },
+            {
+              "label": "B1 near Exit 2",
+              "values": [
+                "Outside the gates",
+                "Standard: 26 small, 8 large",
+                "Small NT$10, large NT$20 per hour"
+              ]
+            },
+            {
+              "label": "B1 between Exits 3–4 and 5–8",
+              "values": [
+                "Outside the gates",
+                "Standard: 16 small",
+                "Small NT$10 per hour"
+              ]
+            },
+            {
+              "label": "B2 Orange Line platform toward Hamasen (哈瑪星)",
+              "values": [
+                "Inside the gates",
+                "Smart lockers: 28 medium, 14 large",
+                "Medium NT$20, large NT$40 per 2 hours"
+              ]
+            },
+            {
+              "label": "B2 Orange Line platform toward Daliao (大寮)",
+              "values": [
+                "Inside the gates",
+                "Smart lockers: 24 medium, 12 large",
+                "Medium NT$20, large NT$40 per 2 hours"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The table follows KRTC's station locker list (updated 22 May 2026), as of October 2026. Smart lockers charge in 2-hour blocks, so anything under 2 hours counts as 2 hours; standard lockers charge by the hour. KRTC notes that the notices posted at each locker are what count for actual sizes, numbers and fees, so read the sign before you store your bags."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Which Locker Fits a Suitcase?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Large lockers are 80–85cm tall",
+              "desc": "According to KRTC's list, large smart lockers (L2) are 80cm high × 34cm wide × 56cm deep, and large standard lockers (L3) are 85 × 32–36 × 56cm. For anything bigger than a carry-on, start with a large locker."
+            },
+            {
+              "mark": "2",
+              "b": "Medium lockers are 40cm tall",
+              "desc": "Medium smart lockers (M2) are 40 × 34 × 56cm — right for a backpack or a small carry-on laid flat. Measure your suitcase's height, width and depth before you go so you're not guessing on the spot."
+            },
+            {
+              "mark": "3",
+              "b": "Small lockers suit shopping bags and backpacks",
+              "desc": "Small standard lockers (S1–S4) range from 14 to 39cm high. The lockers between Exits 3–4 and 5–8 are small only, so take a suitcase elsewhere."
+            },
+            {
+              "mark": "4",
+              "b": "Most large lockers: the Exit 4 side",
+              "desc": "Outside the gates, the smart lockers near Exit 4 on B1 have the most large compartments (16). If your family has several suitcases, check there first."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Formosa Boulevard Lockers: Inside vs Outside the Gates"
+        },
+        {
+          "type": "p",
+          "html": "KRTC specifically notes that some Formosa Boulevard lockers are inside the fare gates (paid area) — the two sets beside the toilets on the B2 Orange Line platforms. The same notice says the two B2 Orange Line platforms (toward Hamasen and toward Daliao) aren't directly connected; to cross between them you go via the B3 Red Line platform."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Arriving on the Orange Line? Use B2",
+              "desc": "If your hotel is on the Orange Line and you get off at Formosa Boulevard with your suitcase, you can store it at the platform lockers without leaving the gates. It's also a short walk when you switch to the Red Line later."
+            },
+            {
+              "mark": "✓",
+              "b": "Coming from outside? Use B1",
+              "desc": "If you arrive by taxi or on foot, the B1 lockers outside the gates are easiest — you can store and collect without passing through the fare gates."
+            },
+            {
+              "mark": "✓",
+              "b": "Lifts are at Exits 1 and 3",
+              "desc": "According to KRTC's station guide, the accessible lifts are at Exits 1 and 3. Exit 4 has escalators and the toilets, so with a heavy case you can use Exit 1 and walk along B1 to the Exit 4 lockers."
+            },
+            {
+              "mark": "✓",
+              "b": "Follow the on-screen payment steps",
+              "desc": "Payment methods can differ by locker type. Check the locker screen and notice, and carry a few NT$10 coins just in case."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-formosa-boulevard-luggage-locker-1.jpg",
+          "caption": "The Dome of Light (光之穹頂) on the B1 concourse at Formosa Boulevard Station. It shows the station, not the lockers themselves (photo: WorldExplorer120322 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "quote",
+          "text": "\"Once the bags were in a locker, it felt like we'd gained an extra half day.\" — a common line among travellers catching afternoon or evening flights from Kaohsiung. Knowing where the lockers are makes the time after check-out much lighter."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Airport Day: Collecting Your Bags at Formosa Boulevard"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "16 minutes to the airport on the Red Line",
+              "desc": "KRTC's official fare search puts Formosa Boulevard to Kaohsiung International Airport (R4) at about 16 minutes with no change, NT$30 one way on a single-journey token or standard card (as of October 2026). Add time for collecting your bags and walking to the platform."
+            },
+            {
+              "mark": "2",
+              "b": "Collect before the last train",
+              "desc": "The lockers are inside the station, so collect your bags while the station is running. From Formosa Boulevard toward Siaogang (小港, via the airport), the first train is 06:12 and the last is 24:32 (as of October 2026)."
+            },
+            {
+              "mark": "3",
+              "b": "Dinner at Liuhe Night Market",
+              "desc": "According to Kaohsiung's official tourism site, Liuhe Night Market (六合夜市) is right next to Exit 11 of Formosa Boulevard Station — easy for dinner before heading back for your bags. Check the current opening hours on Google Maps before you go."
+            },
+            {
+              "mark": "4",
+              "b": "Full? Try Kaohsiung Main Station",
+              "desc": "Kaohsiung Main Station (R11) is about 2 minutes away, one stop over, with medium and large smart lockers near Exit 2 on B2 and Exit 1 on B1. Airport station (R4) also has small and large standard lockers near Exit 6 on B1."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If you need to store bags in Taipei too, see <a href=\"/blog-taipei-station-luggage-storage\">Taipei Station luggage storage fees and hours</a>, and for where to stay along Kaohsiung's Red Line, <a href=\"/blog-kaohsiung-bts-concert-hotel-transport\">our Kaohsiung concert hotel and transport guide</a>. Once your bags are stored, pick an evening meal from the <a href=\"/region-kaohsiung\">Kaohsiung food map</a> or <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a>, and if you reach the airport early, <a href=\"/kaohsiung-mart-familymart-kaohsiung-airport-686\">FamilyMart at Kaohsiung Airport</a> is handy for a quick bite."
+        },
+        {
+          "type": "note",
+          "text": "Based on KRTC's official station locker list (updated 22 May 2026) and Red and Orange Line locker PDFs (including sizes), the Formosa Boulevard station guide and first/last train times, KRTC's official fare search, Kaohsiung's official tourism site on Liuhe Night Market, and real travellers' experiences, as of October 2026. Locker numbers and fees can change, so check the notice at the lockers again. Photo: WorldExplorer120322, Wikimedia Commons, CC0 1.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung street food near your lockers on the map",
+          "desc": "Pin spots near Formosa Boulevard so your last day is easy to plan.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung&cat=street_food"
+        }
+      ]
+    }
+  },
   "taiwan-typhoon-flight-cancellation": {
     "heroImage": "assets/images/blog/taiwan-typhoon-flight-cancellation-1.jpg",
     "ko": {
