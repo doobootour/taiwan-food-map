@@ -19,6 +19,26 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-kaohsiung-train-ticket-booking",
+    "image": "assets/images/blog/taipei-kaohsiung-train-ticket-booking-1.jpg",
+    "regions": [
+      "taipei",
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 철도 예매",
+      "title": "타이베이 가오슝 기차표 예매, 연휴엔 언제 열릴까?",
+      "desc": "고속철·대만철도의 평소 예매 시작일, 2026년 12월 25일 연휴 예매 오픈 날짜, 외국인 여권번호 예매, 결제 기한, 지정석 매진 때 자유석 타는 법을 정리했어요.",
+      "meta": "타이베이·가오슝 · 철도 예매"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Rail Booking",
+      "title": "Booking Taipei–Kaohsiung Train Tickets: When Do Holiday Seats Open?",
+      "desc": "Regular booking windows for THSR and TRA, the 2026 Christmas-weekend opening dates, booking with a passport number, payment deadlines and non-reserved seats if you sell out.",
+      "meta": "Taipei & Kaohsiung · Rail Booking"
+    }
+  },
+  {
     "slug": "kaohsiung-formosa-boulevard-luggage-locker",
     "image": "assets/images/blog/kaohsiung-formosa-boulevard-luggage-locker-1.jpg",
     "regions": [
@@ -1085,6 +1105,429 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-kaohsiung-train-ticket-booking": {
+    "heroImage": "assets/images/blog/taipei-kaohsiung-train-ticket-booking-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이 가오슝 기차표 예매 — 연휴 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 가오슝 기차표 예매는 고속철 29일, 대만철도 28일 전부터 열려요. 12월 25일 연휴 예매일과 매진 때 대안까지 정리했어요.",
+      "ogTitle": "타이베이 가오슝 기차표 예매, 연휴엔 언제 열릴까?",
+      "eyebrow": "대만 여행 가이드 · 철도 예매",
+      "title": "타이베이 가오슝 기차표 예매, 연휴엔 언제 열릴까?",
+      "dek": "고속철과 대만철도는 표가 열리는 날이 하루 차이예요 — 평소 예매일, 12월 연휴 오픈일, 매진 때 대안 순서로 짚어봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이·가오슝 · 철도 예매",
+      "intro": "\"크리스마스에 타이베이에서 가오슝으로 내려가는데, 기차표는 언제 사야 하죠?\" 연말 대만 여행을 준비할 때 자주 나오는 질문이에요. 타이베이 가오슝 기차표 예매는 고속철(台灣高鐵)과 대만철도(臺鐵)가 표를 여는 규칙이 서로 다르고, 연휴에는 평소와 다른 날짜에 따로 열려요. 두 회사의 공식 예매 안내와 2026년 연휴 예매 일정표를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이베이 가오슝 기차표 예매, 평소엔 언제 열릴까"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "고속철(THSR)",
+            "대만철도(TRA)"
+          ],
+          "rows": [
+            {
+              "label": "예매 시작",
+              "values": [
+                "승차일 포함 29일 안",
+                "승차 4주(28일) 전"
+              ]
+            },
+            {
+              "label": "주말 표",
+              "values": [
+                "금·토요일에 4주 뒤 일요일 표까지",
+                "금요일에 4주 뒤 금·토·일 표까지"
+              ]
+            },
+            {
+              "label": "마감",
+              "values": [
+                "웹 출발 1시간 전, T-EX 앱 출발 5분 전",
+                "당일 표는 출발 30분 전까지"
+              ]
+            },
+            {
+              "label": "한 번에 살 수 있는 표",
+              "values": [
+                "1회 10장(왕복은 각 5장)",
+                "1인 1승차일 9장(왕복 18장)"
+              ]
+            },
+            {
+              "label": "외국인 예매",
+              "values": [
+                "여권번호로 예매·발권",
+                "여권번호 또는 거류증 번호로 예매"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "표는 고속철 공식 '對號座訂位開放時程'·'網路訂票' 안내와 대만철도 공식 '網路購票' 안내(2026년 10월 14일 갱신)를 2026년 10월 기준으로 옮긴 거예요. 대만철도 예매 시스템은 매일 0시에 새 날짜가 열리니, 인기 열차는 승차 28일 전 0시에 맞춰 들어가는 게 가장 확실해요. 고속철 공식 예시로는 1월 1일(월)에 1월 29일(월) 표까지, 1월 5일(금)에는 2월 2~4일(금~일) 표까지 살 수 있어요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 2026년 12월 25일 연휴, 기차표 예매 오픈일"
+        },
+        {
+          "type": "p",
+          "html": "대만은 12월 25일이 행헌기념일(行憲紀念日)이라 2026년에는 25일(금)부터 27일(일)까지 연휴예요. 연휴에는 두 회사 모두 평소 규칙 대신 따로 정한 날에 표를 열어요."
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "예매 오픈",
+            "해당 승차 기간"
+          ],
+          "rows": [
+            {
+              "label": "대만철도 행헌기념일 연휴",
+              "values": [
+                "11월 24일(화) 0시",
+                "12월 22일(화)~28일(월)"
+              ]
+            },
+            {
+              "label": "고속철 행헌기념일 수송 기간",
+              "values": [
+                "11월 26일(목)",
+                "12월 24일(목)~28일(월)"
+              ]
+            },
+            {
+              "label": "대만철도 2027년 새해 연휴",
+              "values": [
+                "12월 1일(화) 0시",
+                "12월 29일(화)~2027년 1월 4일(월)"
+              ]
+            },
+            {
+              "label": "고속철 2027년 새해 수송 기간",
+              "values": [
+                "12월 3일(목)",
+                "12월 31일(목)~2027년 1월 4일(월)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "대만철도가 이틀 먼저 열려요",
+              "desc": "대만철도 2026년 연휴 예매 일정표 기준으로 행헌기념일 연휴 표는 11월 24일(화) 0시에 열리고, 고속철 공식 '疏運期間及開放預售日期一覽表'에는 11월 26일(목)로 나와 있어요. 두 날짜를 모두 달력에 적어 두세요."
+            },
+            {
+              "mark": "2",
+              "b": "11월 말에도 붐비는 기간이 있어요",
+              "desc": "고속철은 지방선거 기간인 11월 27일(금)~30일(월)도 수송 기간으로 정해 두고, 이 기간 표를 10월 30일(금)에 열어요(2026년 10월 기준). 11월 말 이동이라면 이 날짜도 확인하세요."
+            },
+            {
+              "mark": "3",
+              "b": "오픈일은 바뀔 수 있어요",
+              "desc": "두 회사 모두 연휴 직전에 나오는 수송 계획(疏運計畫) 공지를 최종 기준으로 삼는다고 밝히고 있어요. 예매 1~2주 전에 공식 사이트 공지를 한 번 더 보세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-kaohsiung-train-ticket-booking-1.jpg",
+          "caption": "대만철도(臺鐵) 푸유마(普悠瑪) 열차가 승강장으로 들어오는 모습이에요. 분위기를 보여 주는 사진으로, 타이베이~가오슝 구간에서 찍은 사진은 아니에요(사진: Will Chen / Pexels, Pexels License)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 외국인이 기차표 예매할 때 챙길 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "여권번호를 미리 준비",
+              "desc": "대만철도는 신분증 번호가 없는 외국인은 여권번호나 거류증 번호로 예매하라고 안내해요. 역 창구에서 표를 받을 때 예매한 사람의 신분증 원본을 확인할 수 있으니 여권을 챙기세요."
+            },
+            {
+              "mark": "✓",
+              "b": "대만철도는 다음 날 밤 12시까지 결제",
+              "desc": "대만철도는 예매한 날 다음 날 24시까지 결제하고 출발 전에 표를 받아야 해요. 승차 전날 예매하면 그날 24시까지, 당일 예매면 출발 20분 전까지 결제해야 합니다. 한 달에 6번 결제하지 않으면 1개월 동안 예매가 막히니, 안 탈 표는 기한 안에 취소하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "고속철은 출발일에 따라 결제 기한이 달라요",
+              "desc": "고속철은 3일 뒤 이후 출발 표라면 예매일을 포함해 3일 안에, 3일 안에 출발하는 표라면 승차 전날까지 결제해야 해요. 결제하지 않으면 예약이 사라집니다."
+            },
+            {
+              "mark": "✓",
+              "b": "고속철 변경은 1번 무료",
+              "desc": "결제한 고속철 표는 출발 30분 전까지 날짜·시간을 한 번 무료로 바꿀 수 있고(출발·도착역은 변경 불가), 환불하면 한 장에 NT$20 수수료가 붙어요(2026년 10월 기준)."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 지정석이 매진됐을 때 대안"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "고속철 자유석",
+              "desc": "고속철 T-EX 앱에서는 승차 당일 역에 도착해 블루투스를 켜면 자유석 표를 살 수 있어요(매일 05:00~23:59, 1회 1장). 타이베이 쪽에서는 노선의 첫 역인 난강(南港)에서 타면 빈 차로 출발하니, 자리를 잡기가 조금 더 수월해요."
+            },
+            {
+              "mark": "2",
+              "b": "고속철과 대만철도 나눠 타기",
+              "desc": "고속철과 대만철도는 예매 규칙이 달라 한쪽이 매진돼도 다른 쪽에 자리가 남아 있을 수 있어요. 같은 날 두 회사의 잔여석을 모두 확인해보세요."
+            },
+            {
+              "mark": "3",
+              "b": "출발 시간 옮기기",
+              "desc": "연휴 첫날 오전과 마지막 날 오후가 가장 붐비기 쉬워요. 하루 앞당기거나 이른 아침·늦은 밤 열차로 옮기면 남은 표가 있을 수 있어요."
+            },
+            {
+              "mark": "4",
+              "b": "취소표 다시 보기",
+              "desc": "대만철도는 결제 기한이 지난 예약이 풀리고, 고속철도 결제하지 않은 예약은 남겨 두지 않아요. 매진이라도 결제 기한이 지난 뒤 잔여석을 다시 확인해보세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "중간에 타이중·타이난에 들를 계획이라면 <a href=\"/blog-taichung-tainan-tra-vs-thsr\">타이중 타이난 이동, 고속철과 일반열차 비교</a>를, 가오슝에 도착해 짐부터 맡겨야 한다면 <a href=\"/blog-kaohsiung-formosa-boulevard-luggage-locker\">가오슝 미려도역 짐보관함</a>을 함께 보세요. 도착한 날 저녁은 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>와 <a href=\"/kaohsiung-street_food\">가오슝 노점 맛집</a>에서 고르고, 따뜻한 국물이 당긴다면 <a href=\"/kaohsiung-beef_noodle-673\">항원우육면</a>도 후보로 넣어 두세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 고속철(台灣高鐵) 공식 '對號座訂位開放時程'·'網路訂票'·'T-EX 行動購票 App' 안내와 '疏運期間及開放預售日期一覽表', 대만철도(臺鐵) 공식 '網路購票' 안내(2026년 10월 14일 갱신)와 '115年各假期開放訂票期程一覽表'(2026년 4월 24일 갱신), 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리했습니다. 예매 일정은 각 회사의 연휴 수송 공지에 따라 바뀔 수 있으니 예매 전에 공식 사이트를 다시 확인하는 것을 추천해요. 사진: Will Chen, Pexels, Pexels License."
+        },
+        {
+          "type": "cta",
+          "title": "가오슝에 도착하면 먹을 곳도 지도에서 골라보세요",
+          "desc": "기차표를 잡았다면 도착한 날 저녁 먹을 노점 맛집을 미리 찜해 두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung&cat=street_food"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taipei–Kaohsiung Train Tickets — Holiday Booking Dates · My Secret Taiwan Eats",
+      "metaDescription": "THSR opens 29 days ahead and TRA 28 days ahead. The 2026 Christmas-weekend booking dates, how to book as a foreigner, and what to do if seats sell out.",
+      "ogTitle": "Booking Taipei–Kaohsiung Train Tickets: When Do Holiday Seats Open?",
+      "eyebrow": "Taiwan Travel Guide · Rail Booking",
+      "title": "Booking Taipei–Kaohsiung Train Tickets: When Do Holiday Seats Open?",
+      "dek": "THSR and TRA open seats a day apart — regular booking windows, the December holiday dates, then what to do if you sell out.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei & Kaohsiung · Rail Booking",
+      "intro": "\"We're heading from Taipei to Kaohsiung over Christmas — when should we buy train tickets?\" It's a common question when planning a year-end Taiwan trip. Taiwan High Speed Rail (THSR) and Taiwan Railway (TRA) open tickets on different rules, and over public holidays both open seats on separate dates. Based on both operators' official booking guides and their 2026 holiday booking schedules, here's how it works, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taipei–Kaohsiung Train Tickets: Regular Booking Windows"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "High Speed Rail (THSR)",
+            "Taiwan Railway (TRA)"
+          ],
+          "rows": [
+            {
+              "label": "Booking opens",
+              "values": [
+                "Within 29 days, counting the travel day",
+                "4 weeks (28 days) before travel"
+              ]
+            },
+            {
+              "label": "Weekend tickets",
+              "values": [
+                "On Fri and Sat, up to the Sunday 4 weeks later",
+                "On Fri, up to Fri–Sun 4 weeks later"
+              ]
+            },
+            {
+              "label": "Booking closes",
+              "values": [
+                "Web: 1 hour before; T-EX app: 5 minutes before",
+                "Same-day tickets: 30 minutes before"
+              ]
+            },
+            {
+              "label": "Tickets per booking",
+              "values": [
+                "10 per transaction (5 each way for returns)",
+                "9 per person per travel day (18 for returns)"
+              ]
+            },
+            {
+              "label": "Booking as a foreigner",
+              "values": [
+                "Book and collect with your passport number",
+                "Book with your passport or ARC number"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The table follows THSR's official booking schedule and online booking guide and TRA's official online booking guide (updated 14 October 2026), as of October 2026. TRA releases new dates at midnight every day, so for popular trains, logging in at 00:00 exactly 28 days ahead is the safest bet. THSR's own example: on Monday 1 January you can book up to Monday 29 January, and on Friday 5 January up to Friday 2 – Sunday 4 February."
+        },
+        {
+          "type": "h2",
+          "text": "02 · The 25 December 2026 Holiday: When Tickets Open"
+        },
+        {
+          "type": "p",
+          "html": "25 December is Constitution Day (行憲紀念日) in Taiwan, so in 2026 there's a long weekend from Friday 25 to Sunday 27 December. For holidays, both operators open tickets on set dates instead of the usual rule."
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Booking opens",
+            "Travel dates covered"
+          ],
+          "rows": [
+            {
+              "label": "TRA Constitution Day holiday",
+              "values": [
+                "Tue 24 Nov, 00:00",
+                "Tue 22 – Mon 28 Dec"
+              ]
+            },
+            {
+              "label": "THSR Constitution Day period",
+              "values": [
+                "Thu 26 Nov",
+                "Thu 24 – Mon 28 Dec"
+              ]
+            },
+            {
+              "label": "TRA New Year 2027 holiday",
+              "values": [
+                "Tue 1 Dec, 00:00",
+                "Tue 29 Dec – Mon 4 Jan 2027"
+              ]
+            },
+            {
+              "label": "THSR New Year 2027 period",
+              "values": [
+                "Thu 3 Dec",
+                "Thu 31 Dec – Mon 4 Jan 2027"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "TRA opens two days earlier",
+              "desc": "According to TRA's 2026 holiday booking schedule, Constitution Day tickets open at 00:00 on Tuesday 24 November, while THSR's official holiday table lists Thursday 26 November. Put both dates in your calendar."
+            },
+            {
+              "mark": "2",
+              "b": "Late November is busy too",
+              "desc": "THSR also treats the local elections period, Friday 27 – Monday 30 November, as a holiday travel period, with tickets opening on Friday 30 October (as of October 2026). If you're travelling in late November, check this date as well."
+            },
+            {
+              "mark": "3",
+              "b": "Opening dates can change",
+              "desc": "Both operators say the holiday transport plan (疏運計畫) published just before each holiday is final. Check the official sites again a week or two before you book."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-kaohsiung-train-ticket-booking-1.jpg",
+          "caption": "A TRA Puyuma (普悠瑪) train pulling into a platform. It's here for atmosphere and wasn't taken on the Taipei–Kaohsiung route (photo: Will Chen / Pexels, Pexels License)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Booking Train Tickets as a Foreigner"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Have your passport number ready",
+              "desc": "TRA asks visitors without a Taiwanese ID number to book with a passport or ARC number. Station staff may check the booker's original ID when you collect tickets at the counter, so bring your passport."
+            },
+            {
+              "mark": "✓",
+              "b": "TRA: pay by midnight the next day",
+              "desc": "For TRA, pay by 24:00 the day after booking and collect before departure. Book the day before travel and you must pay by 24:00 that day; book on the day and you must pay 20 minutes before departure. Six unpaid bookings within a month block you from booking for a month, so cancel tickets you won't use."
+            },
+            {
+              "mark": "✓",
+              "b": "THSR: the payment deadline depends on the travel date",
+              "desc": "For THSR trips departing 3 or more days later, pay within 3 days of booking (counting the booking day); for trips within 3 days, pay by the day before travel. Unpaid bookings are released."
+            },
+            {
+              "mark": "✓",
+              "b": "THSR: one free change",
+              "desc": "A paid THSR ticket can have its date and time changed once for free up to 30 minutes before departure (stations can't change), and refunds cost NT$20 per ticket (as of October 2026)."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · If Reserved Seats Sell Out"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "THSR non-reserved seats",
+              "desc": "In THSR's T-EX app, you can buy a non-reserved ticket on the day once you're at the station with Bluetooth on (daily 05:00–23:59, one ticket per purchase). From the Taipei side, boarding at Nangang (南港), the first station on the line, means the train starts empty, so finding a seat is a little easier."
+            },
+            {
+              "mark": "2",
+              "b": "Check both operators",
+              "desc": "Because THSR and TRA open tickets on different rules, one may still have seats when the other is sold out. Check seat availability on both for the same day."
+            },
+            {
+              "mark": "3",
+              "b": "Shift your departure",
+              "desc": "The first morning and last afternoon of a long weekend tend to be busiest. Leaving a day earlier or taking an early-morning or late-night train can turn up remaining seats."
+            },
+            {
+              "mark": "4",
+              "b": "Look again for released seats",
+              "desc": "TRA releases bookings that pass their payment deadline, and THSR doesn't hold unpaid bookings either. Even if it's sold out, check availability again after the payment deadlines pass."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If you're stopping in Taichung or Tainan on the way, see <a href=\"/blog-taichung-tainan-tra-vs-thsr\">Taichung to Tainan: TRA vs high-speed rail</a>, and if you need to drop your bags as soon as you reach Kaohsiung, see <a href=\"/blog-kaohsiung-formosa-boulevard-luggage-locker\">Formosa Boulevard Station lockers</a>. For dinner on arrival, browse the <a href=\"/region-kaohsiung\">Kaohsiung food map</a> and <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a>, and for a hot bowl of soup, add <a href=\"/kaohsiung-beef_noodle-673\">Hang Yuan Beef Noodles</a> to your list."
+        },
+        {
+          "type": "note",
+          "text": "Based on THSR's official booking schedule, online booking and T-EX app guides and its holiday period table, TRA's official online booking guide (updated 14 October 2026) and 2026 holiday booking schedule (updated 24 April 2026), plus real travellers' experiences, as of October 2026. Booking dates can change with each operator's holiday transport notices, so check the official sites again before you book. Photo: Will Chen, Pexels, Pexels License."
+        },
+        {
+          "type": "cta",
+          "title": "Pick where to eat in Kaohsiung on the map",
+          "desc": "Once your tickets are sorted, pin a street food stop for your first evening.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung&cat=street_food"
+        }
+      ]
+    }
+  },
   "kaohsiung-formosa-boulevard-luggage-locker": {
     "heroImage": "assets/images/blog/kaohsiung-formosa-boulevard-luggage-locker-1.jpg",
     "ko": {
