@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-typhoon-flight-cancellation",
+    "image": "assets/images/blog/taiwan-typhoon-flight-cancellation-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 항공·날씨",
+      "title": "대만 태풍 결항, 언제 알 수 있고 호텔·보험은 어떻게 할까?",
+      "desc": "태풍 경보와 결항의 차이, 항공사·공항 異動航班으로 확인하는 법, 결항 뒤 대체편·호텔 환불 요청 순서, 여행자보험 지연·결항 특약에서 볼 항목을 정리했어요.",
+      "meta": "대만 전역 · 항공·날씨"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Flights & Weather",
+      "title": "Taiwan Typhoon Flight Cancellations: When You'll Know and What to Do",
+      "desc": "The difference between typhoon warnings and cancellations, how to check airline and airport updates, what to do after a cancellation, hotel refund requests and travel insurance.",
+      "meta": "All of Taiwan · Flights & Weather"
+    }
+  },
+  {
     "slug": "taiwan-esim-data-vs-tourist-sim",
     "image": "assets/images/blog/taiwan-esim-data-vs-tourist-sim-1.jpg",
     "regions": [
@@ -1047,6 +1066,411 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taiwan-typhoon-flight-cancellation": {
+    "heroImage": "assets/images/blog/taiwan-typhoon-flight-cancellation-1.jpg",
+    "ko": {
+      "pageTitle": "대만 태풍 결항 — 확인·호텔·보험 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 태풍 결항은 기상서 경보가 아니라 항공사가 정해요. 경보 발표 시점, 공항 異動航班 확인법, 호텔 환불 요청과 여행자보험 결항 특약에서 볼 것을 정리했어요.",
+      "ogTitle": "대만 태풍 결항, 언제 알 수 있고 호텔·보험은 어떻게 할까?",
+      "eyebrow": "대만 여행 가이드 · 항공·날씨",
+      "title": "대만 태풍 결항, 언제 알 수 있고 호텔·보험은 어떻게 할까?",
+      "dek": "태풍 경보가 떴다고 바로 결항은 아니에요 — 확인할 곳, 결항 뒤 할 일, 호텔과 보험 순서로 짚어봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 전역 · 항공·날씨",
+      "intro": "\"태풍이 온다는데 비행기 결항은 언제 확정되나요?\" 여름부터 가을까지 대만 여행을 앞두고 가장 많이 나오는 질문이에요. 대만 태풍 결항 여부는 기상 예보가 아니라 항공사가 정하고, 호텔 환불과 여행자보험은 또 각자의 규정을 따릅니다. 交通部 中央氣象署·民用航空局·타오위안공항 공식 안내와 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 대만 태풍 결항, 누가 정하고 어디서 확인할까"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "태풍 경보",
+            "출근·등교 중단(停班停課)",
+            "항공편 결항·시간 변경"
+          ],
+          "rows": [
+            {
+              "label": "정하는 곳",
+              "values": [
+                "中央氣象署(CWA)",
+                "각 시·현 정부",
+                "항공사"
+              ]
+            },
+            {
+              "label": "확인하는 곳",
+              "values": [
+                "CWA 홈페이지·'生活氣象' 앱",
+                "行政院人事行政總處 발표 페이지",
+                "항공사 앱·문자, 공항 '異動航班' 페이지"
+              ]
+            },
+            {
+              "label": "알려 주는 것",
+              "values": [
+                "태풍 위치·세력과 영향 지역",
+                "그 지역 관공서·학교가 쉬는지",
+                "내 비행기가 실제로 뜨는지"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "태풍 경보가 나왔다고 결항이 확정된 건 아니에요. 항공사가 최신 기상 정보를 보며 항공편을 계속 조정하고, 타오위안공항도 공항에 가기 전에 항공사에 항공편 상태를 확인하라고 안내합니다. 타오위안공항 홈페이지의 '異動航班' 페이지에서는 어제·오늘·내일 날짜와 시간대, 터미널별로 결항(取消)과 시간 변경(時間更改) 항공편을 볼 수 있어요(2026년 10월 기준)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 태풍 경보 시점으로 결항 가능성 가늠하기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "해상 태풍 경보는 약 24시간 전",
+              "desc": "CWA는 태풍의 7급 바람 반경이 대만 주변 100km 바다에 들어올 것으로 예상되면 그 24시간 전에 해상 태풍 경보를 냅니다. 이후 3시간마다 경보를 새로 내요."
+            },
+            {
+              "mark": "2",
+              "b": "육상 태풍 경보는 약 18시간 전",
+              "desc": "7급 바람 반경이 육지에 닿기 18시간 전에 육상 경보가 나오고, 3시간마다 경보, 매시간 태풍 위치가 갱신됩니다. 이때부터는 항공사 공지를 자주 확인하는 편이 좋아요."
+            },
+            {
+              "mark": "3",
+              "b": "停班停課는 지자체가 따로 발표",
+              "desc": "출근·등교 중단 여부는 각 시·현 정부가 정합니다. 그날 갈 관광지나 박물관 운영도 바뀔 수 있으니 시설 공지를 따로 확인하세요."
+            },
+            {
+              "mark": "4",
+              "b": "출발 시각이 앞당겨질 수도 있어요",
+              "desc": "태풍 영향이 커지면 출발·도착 시각이 앞당겨지거나 늦춰지고 뒤 항공편도 밀릴 수 있다고 타오위안공항은 안내해요. 결항뿐 아니라 시간 변경 알림도 챙기세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 대만 태풍 결항 통보를 받았다면 이 순서로"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "대체편부터 잡기",
+              "desc": "결항 직후에는 대체편 문의가 몰려요. 항공사 앱·홈페이지에서 바꿀 수 있는 날짜를 먼저 확인하세요. 민항국도 일정 변경 알림을 받을 수 있게 예약에 연락처를 남겨 두라고 안내합니다."
+            },
+            {
+              "mark": "2",
+              "b": "결항 증빙 남기기",
+              "desc": "결항 안내 문자·이메일, 원래 항공권, 바뀐 항공권을 캡처해 두세요. 호텔 환불 요청과 보험 청구에 같은 자료를 씁니다."
+            },
+            {
+              "mark": "3",
+              "b": "숙소는 대체편이 정해진 뒤",
+              "desc": "새 출발 날짜가 정해져야 연장 숙박이나 취소 범위가 정해져요. 연휴와 겹치면 연장 숙박 요금이 오른다는 여행자 경험담도 많아서, 대체편을 잡자마자 숙소에 연락하는 편이 낫습니다."
+            },
+            {
+              "mark": "4",
+              "b": "대만 국내선은 수수료 없이 환불·변경",
+              "desc": "국내선이 태풍 같은 불가항력으로 결항되면 원래 판매처에서 수수료 없이 환불이나 변경을 할 수 있다고 민항국은 안내해요. 국제선은 항공사별 규정을 따르니 예약한 항공사 안내를 확인하세요."
+            },
+            {
+              "mark": "5",
+              "b": "숙식 지원은 기대를 낮추기",
+              "desc": "민항국은 태풍 같은 악천후 지연을 불가항력으로 보고, 이때 항공사 지원은 의무 이상의 조치라 기대에 못 미칠 수 있다고 설명합니다. 귀국 다음 날 일정은 넉넉히 잡아 두세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-typhoon-flight-cancellation-1.jpg",
+          "caption": "공항 출발 안내 전광판 이미지예요. 튀르키예 앙카라 공항에서 찍은 일반 사진이고, 대만 공항이나 태풍 결항 장면은 아니에요(사진: Cemrecan Yurtman / Pexels)."
+        },
+        {
+          "type": "quote",
+          "text": "\"경보가 떴다고 바로 결항되는 건 아니더라고요. 결국 항공사 문자가 기준이었어요.\" — 태풍 소식에 일정을 고민하는 여행자들 사이에서 자주 나오는 이야기예요. 경보는 참고로 보고, 판단은 항공사 공지로 하세요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 태풍 결항 때 호텔 환불, 이렇게 요청해보세요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "환불 불가 요금이어도 문의는 해보기",
+              "desc": "결항 증빙을 보내면 날짜 변경이나 일부 환불을 해 줬다는 경험담이 있어요. 숙소 재량이라 결과는 사바사이니 정중하게 요청하는 편이 좋습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "예약한 곳에 기록이 남게 연락",
+              "desc": "예약 사이트로 잡았다면 숙소와 예약 사이트 양쪽에 같은 내용을 남기세요. 전화보다 메시지나 이메일이 나중에 확인하기 편해요."
+            },
+            {
+              "mark": "✓",
+              "b": "연장 숙박은 총액부터 확인",
+              "desc": "같은 숙소에 하루 더 묵어도 기존 요금이 아니라 그날 요금이 붙을 수 있어요. 연장하기 전에 총액을 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "태풍 시즌엔 무료 취소 요금",
+              "desc": "여름부터 가을까지는 처음부터 무료 취소가 되는 요금을 고르는 편이 안전해요. 요금이 조금 더 비싸도 결항 때 부담이 줄어듭니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 여행자보험 결항 특약, 출국 전에 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "지연·결항 보장이 들어 있는지",
+              "desc": "여행자보험이나 신용카드 부가 보험에 항공기 지연·결항 보장이 들어 있는 경우가 있어요. 민항국도 출발 전에 카드사에 보험 내용을 물어보라고 안내합니다."
+            },
+            {
+              "mark": "2",
+              "b": "보장 조건과 한도",
+              "desc": "몇 시간 이상 늦어져야 보장하는지, 숙박·식비·교통비 중 무엇을 얼마까지 주는지는 상품마다 달라요. 가입한 약관에서 직접 확인하세요."
+            },
+            {
+              "mark": "3",
+              "b": "가입 시점",
+              "desc": "태풍이 이미 생겼거나 경보가 나온 뒤에 가입하면 보장에서 빠질 수 있어요. 태풍 시즌 여행이라면 항공권을 살 때 보험도 함께 정해 두는 편이 좋습니다."
+            },
+            {
+              "mark": "4",
+              "b": "서류는 모두 보관",
+              "desc": "필요한 서류는 보험사마다 달라요. 결항 증빙, 원래와 바뀐 항공권, 숙박·식비 영수증을 모두 보관해 두고 보험사에 필요한 서류를 물어보세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "출발 전 날씨 보는 법은 <a href=\"/blog-taiwan-hotel-aircon-seasonal-packing\">대만 계절별 옷차림과 기상서 예보 확인</a>에서, 태풍 시즌 숙소 환불 규정은 <a href=\"/blog-hualien-hotel-location-guide\">화롄 숙소 위치 정리</a>에서도 짚었어요. 공항 대기가 길어지면 <a href=\"/blog-taoyuan-airport-terminal1-free-shower\">타오위안공항 1터미널 무료 샤워실</a>을, 결항 알림을 놓치지 않으려면 <a href=\"/blog-taiwan-esim-data-vs-tourist-sim\">대만 eSIM 고르는 법</a>도 함께 보세요. 비 오는 날 숙소 근처에서 먹을 곳은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>의 <a href=\"/taipei-hotpot\">타이베이 훠궈 맛집</a>이나 <a href=\"/taipei-hotpot-shabu-le-wagyu-hot-pot-682\">Shabu Le Wagyu Hot Pot</a>처럼 실내에서 오래 머물 수 있는 곳부터 찾아보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 交通部 中央氣象署 자주 묻는 질문(태풍 경보 발표 기준·停班停課), 交通部 民用航空局 승객 안내와 국내선 결항 환불 규정, 타오위안공항 異動航班 페이지·공지와 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리했습니다. 국제선 환불과 보험 보장은 항공사·보험사마다 다르니 예약한 항공사와 가입한 보험 약관을 다시 확인하는 것을 추천해요. 사진: Cemrecan Yurtman, Pexels License."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 비 오는 날 갈 타이베이 맛집도 확인해보세요",
+          "desc": "숙소 근처 실내 맛집을 미리 찜해 두면 날씨가 궂은 날에도 동선을 짜기 편해요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=hotpot"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taiwan Typhoon Flight Cancellations — Hotels & Insurance · My Secret Taiwan Eats",
+      "metaDescription": "Typhoon warnings don't cancel flights in Taiwan; airlines do. When warnings are issued, how to check cancellations, hotel refunds and travel insurance.",
+      "ogTitle": "Taiwan Typhoon Flight Cancellations: When You'll Know and What to Do",
+      "eyebrow": "Taiwan Travel Guide · Flights & Weather",
+      "title": "Taiwan Typhoon Flight Cancellations: When You'll Know and What to Do",
+      "dek": "A typhoon warning doesn't mean your flight is cancelled — where to check, what to do next, then hotels and insurance.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "All of Taiwan · Flights & Weather",
+      "intro": "\"A typhoon is coming — when will I know if my flight is cancelled?\" It's one of the most common questions before a summer or autumn trip to Taiwan. Airlines, not the weather forecast, decide whether a flight is cancelled, and hotel refunds and travel insurance each follow their own rules. Based on official guidance from Taiwan's Central Weather Administration, Civil Aviation Administration and Taoyuan Airport, plus real travellers' experiences, here's what to do, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Typhoon Flight Cancellations in Taiwan: Who Decides and Where to Check"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Typhoon warning",
+            "Work and school closures (停班停課)",
+            "Flight cancellations and time changes"
+          ],
+          "rows": [
+            {
+              "label": "Decided by",
+              "values": [
+                "Central Weather Administration (CWA)",
+                "Each city or county government",
+                "Your airline"
+              ]
+            },
+            {
+              "label": "Where to check",
+              "values": [
+                "CWA website and the 生活氣象 app",
+                "Directorate-General of Personnel Administration announcement page",
+                "Airline app and texts, the airport's 異動航班 (revised flights) page"
+              ]
+            },
+            {
+              "label": "What it tells you",
+              "values": [
+                "The typhoon's position, strength and affected areas",
+                "Whether local offices and schools close",
+                "Whether your flight actually operates"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "A typhoon warning doesn't mean flights are cancelled. Airlines keep adjusting flights based on the latest weather, and Taoyuan Airport tells travellers to check their flight status with the airline before heading to the airport. The airport's 異動航班 page lists cancelled (取消) and retimed (時間更改) flights for yesterday, today and tomorrow, by time slot and terminal (as of October 2026)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Reading Typhoon Warnings to Gauge the Risk"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Sea warning: about 24 hours ahead",
+              "desc": "The CWA issues a sea typhoon warning 24 hours before the typhoon's force-7 wind radius is expected to reach waters within 100km of Taiwan. Warnings are then updated every 3 hours."
+            },
+            {
+              "mark": "2",
+              "b": "Land warning: about 18 hours ahead",
+              "desc": "A land warning comes 18 hours before the force-7 wind radius is expected to reach land, with warnings every 3 hours and the typhoon's position every hour. From this point, check airline notices often."
+            },
+            {
+              "mark": "3",
+              "b": "Closures are announced separately",
+              "desc": "Each city or county government decides on work and school closures. Attractions and museums may change their hours too, so check the notice for anywhere you plan to visit."
+            },
+            {
+              "mark": "4",
+              "b": "Flights can move earlier, too",
+              "desc": "Taoyuan Airport says that as typhoon effects grow, departure and arrival times may move earlier or later, with knock-on delays. Watch for time-change alerts, not just cancellations."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · If Your Flight Is Cancelled by a Typhoon, Do This in Order"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Rebook first",
+              "desc": "Rebooking requests pile up right after a cancellation. Check available dates in the airline's app or website first. The CAA also advises leaving your contact details on the booking so you get schedule-change alerts."
+            },
+            {
+              "mark": "2",
+              "b": "Keep proof of the cancellation",
+              "desc": "Screenshot the cancellation text or email, your original ticket and your new ticket. You'll use the same documents for hotel refund requests and insurance claims."
+            },
+            {
+              "mark": "3",
+              "b": "Sort out your hotel after rebooking",
+              "desc": "You need your new departure date to know how many nights to extend or cancel. Many travellers say extra nights get pricier when a cancellation overlaps a holiday, so contact your hotel as soon as you've rebooked."
+            },
+            {
+              "mark": "4",
+              "b": "Taiwan domestic flights: free refund or change",
+              "desc": "The CAA says that if a domestic flight is cancelled by force majeure such as a typhoon, you can get a refund or change from the original seller with no fee. International flights follow each airline's rules, so check with your airline."
+            },
+            {
+              "mark": "5",
+              "b": "Keep expectations low on meals and hotels",
+              "desc": "The CAA treats typhoon delays as force majeure and says any airline support goes beyond what's required and may not meet expectations. Leave some slack in your plans for the day after you're due home."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-typhoon-flight-cancellation-1.jpg",
+          "caption": "An airport departures board. This is a general photo taken at Ankara Airport in Türkiye, not a Taiwanese airport or a typhoon cancellation (photo: Cemrecan Yurtman / Pexels)."
+        },
+        {
+          "type": "quote",
+          "text": "\"A warning going up didn't mean the flight was cancelled. In the end, the airline's text was what counted.\" — a common refrain among travellers weighing up a trip during typhoon news. Treat warnings as a heads-up and go by airline notices."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Asking Your Hotel for a Refund After a Typhoon Cancellation"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Ask even on a non-refundable rate",
+              "desc": "Some travellers say sending proof of the cancellation got them a date change or partial refund. It's at the hotel's discretion and results vary, so ask politely."
+            },
+            {
+              "mark": "✓",
+              "b": "Contact them in writing",
+              "desc": "If you booked through a booking site, send the same message to both the hotel and the site. Messages or email are easier to refer back to than a phone call."
+            },
+            {
+              "mark": "✓",
+              "b": "Check the total before extending",
+              "desc": "An extra night at the same hotel may be charged at that day's rate, not your original one. Confirm the total before you extend."
+            },
+            {
+              "mark": "✓",
+              "b": "Book free-cancellation rates in typhoon season",
+              "desc": "From summer through autumn, a free-cancellation rate is the safer choice from the start. Even if it costs a little more, it takes the sting out of a cancellation."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · Travel Insurance: What to Check Before You Fly"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Is delay and cancellation cover included?",
+              "desc": "Some travel insurance and credit card travel cover includes flight delays and cancellations. The CAA also suggests asking your card issuer about its travel insurance before you travel."
+            },
+            {
+              "mark": "2",
+              "b": "Conditions and limits",
+              "desc": "How long the delay has to be, and which costs (hotel, meals, transport) are covered up to what amount, varies by policy. Check your own policy wording."
+            },
+            {
+              "mark": "3",
+              "b": "When you buy it",
+              "desc": "Buying cover after a typhoon has formed or a warning has been issued may mean it isn't covered. For a typhoon-season trip, decide on insurance when you book your flights."
+            },
+            {
+              "mark": "4",
+              "b": "Keep every document",
+              "desc": "Required documents vary by insurer. Keep the cancellation proof, original and new tickets, and hotel and meal receipts, and ask your insurer what it needs."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "We cover checking the forecast before you fly in <a href=\"/blog-taiwan-hotel-aircon-seasonal-packing\">what to pack for Taiwan by season</a>, and refundable rates in typhoon season in <a href=\"/blog-hualien-hotel-location-guide\">where to stay in Hualien</a>. If you end up waiting at the airport, see <a href=\"/blog-taoyuan-airport-terminal1-free-shower\">Taoyuan Airport Terminal 1's free showers</a>, and to make sure cancellation alerts reach you, <a href=\"/blog-taiwan-esim-data-vs-tourist-sim\">choosing a Taiwan eSIM</a>. For a rainy-day meal near your hotel, start with the <a href=\"/region-taipei\">Taipei food map</a>, <a href=\"/taipei-hotpot\">Taipei hot pot</a> or <a href=\"/taipei-hotpot-shabu-le-wagyu-hot-pot-682\">Shabu Le Wagyu Hot Pot</a> — places where you can stay indoors for a while."
+        },
+        {
+          "type": "note",
+          "text": "Based on the Central Weather Administration's FAQ (typhoon warning criteria and closures), the Civil Aviation Administration's passenger guide and domestic cancellation refund rules, Taoyuan Airport's revised flights page and notices, and real travellers' experiences, as of October 2026. International refunds and insurance cover differ by airline and insurer, so check again with your airline and your policy. Photo: Cemrecan Yurtman, Pexels License."
+        },
+        {
+          "type": "cta",
+          "title": "Find rainy-day Taipei food spots on the map",
+          "desc": "Pin indoor spots near your hotel so it's easy to plan even when the weather turns.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=hotpot"
+        }
+      ]
+    }
+  },
   "taiwan-esim-data-vs-tourist-sim": {
     "heroImage": "assets/images/blog/taiwan-esim-data-vs-tourist-sim-1.jpg",
     "ko": {
