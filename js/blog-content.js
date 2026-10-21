@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "alishan-sun-moon-lake-where-to-eat",
+    "image": "assets/images/blog/alishan-sun-moon-lake-where-to-eat-1.jpg",
+    "regions": [
+      "alishan"
+    ],
+    "ko": {
+      "eyebrow": "자이·난터우 여행 가이드 · 먹거리",
+      "title": "아리산 맛집, 1박2일엔 어디서 먹고 홍차는 어디서 살까?",
+      "desc": "펀치후 도시락이 생긴 배경, 아리산 숙소 근처 식당이 여닫는 시간, 일월담 수이서·이다샤오에서 먹을 것, 홍차 臺茶18號(홍옥) 고르는 법을 정리했어요.",
+      "meta": "자이·난터우 · 먹거리"
+    },
+    "en": {
+      "eyebrow": "Chiayi & Nantou Travel Guide · Food",
+      "title": "Alishan & Sun Moon Lake in 2 Days: Where to Eat and Where to Find Black Tea",
+      "desc": "How the Fenqihu bento began, when Alishan's park restaurants open and close, what to eat in Shuishe and Ita Thao, and how to pick TTES No. 18 (Ruby) black tea.",
+      "meta": "Chiayi & Nantou · Food"
+    }
+  },
+  {
     "slug": "taipei-kaohsiung-train-ticket-booking",
     "image": "assets/images/blog/taipei-kaohsiung-train-ticket-booking-1.jpg",
     "regions": [
@@ -1105,6 +1124,323 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "alishan-sun-moon-lake-where-to-eat": {
+    "heroImage": "assets/images/blog/alishan-sun-moon-lake-where-to-eat-1.jpg",
+    "ko": {
+      "pageTitle": "아리산 맛집·일월담 홍차 — 1박2일 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "아리산 맛집은 어디에 모여 있을까요? 펀치후 도시락이 생긴 배경, 아리산 숙소 근처 식사 시간, 일월담 홍차 臺茶18號 고르는 법을 정리했어요.",
+      "ogTitle": "아리산 맛집, 1박2일엔 어디서 먹고 홍차는 어디서 살까?",
+      "eyebrow": "자이·난터우 여행 가이드 · 먹거리",
+      "title": "아리산 맛집, 1박2일엔 어디서 먹고 홍차는 어디서 살까?",
+      "dek": "산 위에서는 식당이 몇 군데에 모여 있어요 — 끼니를 어디서 챙길지 먼저 정해두면 일정이 훨씬 편해집니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "자이·난터우 · 먹거리",
+      "intro": "\"아리산 올라가면 맛집이 많나요?\" 아리산과 일월담을 묶은 1박2일 일정을 짤 때 자주 나오는 질문이에요. 아리산 맛집은 도시처럼 골목마다 흩어져 있지 않고 역 앞 노가와 유락구 상점가처럼 몇 군데에 모여 있어서, 어디서 끼니를 챙길지 미리 정해두는 게 핵심이에요. 아리산림업철도 관리처, 아리산 국가삼림유락구, 일월담 국가풍경구, 대만 농업부 차 연구기관의 공식 자료를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "아리산 쪽",
+            "일월담 쪽"
+          ],
+          "rows": [
+            {
+              "label": "대표 먹거리",
+              "values": [
+                "펀치후(奮起湖) 철도 도시락",
+                "일월담 홍차, 사오족 먹거리"
+              ]
+            },
+            {
+              "label": "먹는 곳",
+              "values": [
+                "펀치후역 주변 노가, 유락구 상점가",
+                "수이서(水社)·이다샤오(伊達邵) 상권"
+              ]
+            },
+            {
+              "label": "챙길 것",
+              "values": [
+                "저녁·아침 시간 미리 정하기",
+                "차를 살 때 품종 표기 확인"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · 아리산 맛집 하면 왜 펀치후 도시락일까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "등산선에서 가장 큰 중간역",
+              "desc": "펀치후역(奮起湖車站)은 아리산림업철도 등산선의 가장 큰 중간역(中繼站)이에요. 관리처 자료에 따르면 예전에는 오르내리는 열차가 이곳에서 물을 채우고 기관차를 바꾸느라 30분쯤 머물렀고, 그 사이에 철도 도시락 문화가 자랐어요."
+            },
+            {
+              "mark": "✓",
+              "b": "임업 노동자 식사에서 관광 명물로",
+              "desc": "처음에는 산속 임장 직원들에게 식사를 대던 역 옆 식당에서 시작했고, 1963년 철도가 관광 노선으로 바뀐 뒤 열차에 들고 타기 좋은 도시락이 여행자들 사이에서 명물이 됐다고 해요."
+            },
+            {
+              "mark": "✓",
+              "b": "역 주변 노가에서 사는 구조",
+              "desc": "지금은 역 주변 노가(老街)에 도시락 가게가 모여 있어요. 가게마다 쉬는 날과 문 닫는 시간이 다르니, 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-sun-moon-lake-where-to-eat-1.jpg",
+          "caption": "펀치후역(奮起湖車站)에 서 있는 아리산림업철도 열차예요. 역 분위기를 보여 주는 사진이고, 도시락 가게를 찍은 사진은 아니에요(사진: 姜 明雄 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 아리산 위에서 끼니 챙기는 순서"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "식당은 유락구 상점가에 모여 있어요",
+              "desc": "아리산 국가삼림유락구 안에서는 여행자 센터 앞 상점가에 아침·점심·저녁을 파는 식당과 특산품·찻잎 가게가 모여 있어요. 주산(祝山) 서비스 구역, 쟈오핑(沼平)역 1층 상점가에서도 간단한 먹거리를 팔아요."
+            },
+            {
+              "mark": "2",
+              "b": "저녁은 일찍 챙기기",
+              "desc": "유락구 공식 식당 안내를 보면 저녁 영업이 19시~21시 사이에 끝나는 곳이 많고, 점심·저녁 단품은 대체로 NT$100~150부터 시작해요(2026년 10월 기준). 산 위 숙소에 묵는다면 해 지고 너무 늦기 전에 저녁을 먹는 편이 마음 편합니다."
+            },
+            {
+              "mark": "3",
+              "b": "일출 보는 날 아침",
+              "desc": "주산 일출을 보는 날은 새벽에 움직여요. 상점가에는 아침 6시부터 여는 아침 가게도 안내돼 있어서(2026년 10월 기준), 일출을 보고 내려와 아침을 먹는 순서도 가능해요."
+            },
+            {
+              "mark": "4",
+              "b": "도시락을 챙겨 가도 돼요",
+              "desc": "유락구는 간단한 음식을 가지고 들어가 먹어도 된다고 안내해요. 펀치후에서 산 도시락을 들고 올라가는 것도 방법이지만, 야생동물에게 먹이를 주는 건 금지예요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 일월담에서 먹을 곳과 홍차 臺茶18號 고르는 법"
+        },
+        {
+          "type": "p",
+          "html": "일월담에서는 호수 양쪽 마을이 식사 거점이에요. 수이서(水社) 상권은 호텔·식당·작은 가게와 버스 환승장, 유람선 매표 부두가 모인 곳이고, 호수 건너편 이다샤오(伊達邵) 상권에서는 산돼지고기 소시지, 대통밥(竹筒飯), 좁쌀 모치 같은 사오족(邵族) 먹거리와 일월담 홍차, 표고버섯 차예단을 만날 수 있어요. 두 상권 모두 가게마다 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "臺茶18號는 어떤 차일까",
+              "desc": "일월담이 있는 난터우 위츠향(魚池鄉)에는 대만 농업부 茶及飲料作物改良場의 중부분장(옛 위츠 분장)이 있어요. 이곳에서 육성한 臺茶18號는 미얀마 대엽종과 대만 야생 산차를 교배한 홍차용 품종으로 '홍옥(紅玉)'이라고 불리고, 은은한 박하·계피 향이 특징이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "포장에서 품종 표기 보기",
+              "desc": "위츠 일대 홍차는 품종이 여러 가지예요. 홍옥을 원한다면 포장에 '臺茶18號' 또는 '紅玉' 표기가 있는지 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "선물용이면 작은 포장 여러 개",
+              "desc": "여러 사람에게 나눠줄 거라면 큰 봉지 하나보다 작은 포장 여러 개가 편해요. 가볍고 부피가 작아 마지막 날 짐 싸기도 수월합니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 1박2일 먹거리 동선 짜는 팁"
+        },
+        {
+          "type": "p",
+          "html": "아리산과 일월담은 서로 떨어져 있어 하루에 둘 다 깊게 보기는 어려워요. 먹거리 기준으로는 첫날 아리산림업철도를 타며 펀치후 도시락과 유락구 상점가 저녁, 둘째 날 일월담에서 이다샤오 먹거리와 홍차 쇼핑으로 나누는 구성이 무난합니다."
+        },
+        {
+          "type": "p",
+          "html": "아리산 열차표와 입장권 교환은 <a href=\"/blog-alishan-zhaoping-line-ticket-exchange\">아리산 쟈오핑선 입장권 QR 교환</a> 글에, 홍차 말고 다른 선물 후보는 <a href=\"/blog-taipei-souvenir-gift-guide\">대만 여행 선물 추천</a> 글에 정리해뒀어요. 산에 오르기 전 자이 시내에서 한 끼 먹는다면 <a href=\"/region-alishan\">아리산·일월담 맛집 지도</a>에서 자이역 근처 칠면조덮밥집 <a href=\"/alishan-taiwanese-959\">嘉義車頭火雞肉飯</a>을, 일월담에서 따뜻한 국물이 당긴다면 우육면집 <a href=\"/alishan-beef_noodle-xiaolin-beef-noodle-restaurant-958\">小林牛肉麵</a>을 확인해보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 林業及自然保育署 阿里山林業鐵路及文化資產管理處의 펀치후역 안내와 자료집 「老街拾味，奮起湖」, 林業保育署 '台灣山林悠遊網'의 아리산 국가삼림유락구 안내(식당·서비스 구역), 日月潭國家風景區管理處의 수이서·이다샤오 상권 안내, 農業部 茶及飲料作物改良場의 臺茶18號 품종 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 가게 영업시간은 바뀔 수 있으니 방문 전 구글맵에 등록된 영업시간을 확인하세요. 사진: 姜 明雄, Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 아리산·자이 맛집도 확인해보세요",
+          "desc": "자이 시내나 일월담에서 한 끼 더 먹는다면 지도에서 근처 맛집을 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=alishan"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Alishan & Sun Moon Lake Food Guide — 2 Days · My Secret Taiwan Eats",
+      "metaDescription": "Where to eat on Alishan: why the Fenqihu railway bento exists, when the park's restaurants open, and how to pick Sun Moon Lake's TTES No. 18 (Ruby) black tea.",
+      "ogTitle": "Alishan & Sun Moon Lake in 2 Days: Where to Eat and Where to Find Black Tea",
+      "eyebrow": "Chiayi & Nantou Travel Guide · Food",
+      "title": "Alishan & Sun Moon Lake in 2 Days: Where to Eat and Where to Find Black Tea",
+      "dek": "Up in the mountains, places to eat cluster in just a few spots — decide where each meal happens and the trip gets much easier.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Chiayi & Nantou · Food",
+      "intro": "\"Are there lots of places to eat on Alishan?\" It's a common question when planning two days on Alishan and Sun Moon Lake. Food here isn't spread across every street like in a city; it clusters around the station's old street and the recreation area's shopping strip, so the key is deciding in advance where each meal happens. Based on official information from the Alishan Forest Railway office, the Alishan National Forest Recreation Area, the Sun Moon Lake National Scenic Area and Taiwan's tea research station, here's a rundown as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · At a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Alishan side",
+            "Sun Moon Lake side"
+          ],
+          "rows": [
+            {
+              "label": "Signature food",
+              "values": [
+                "Fenqihu (奮起湖) railway bento",
+                "Sun Moon Lake black tea, Thao snacks"
+              ]
+            },
+            {
+              "label": "Where to eat",
+              "values": [
+                "Old street by Fenqihu Station, the park's shopping area",
+                "Shuishe (水社) and Ita Thao (伊達邵)"
+              ]
+            },
+            {
+              "label": "Plan ahead",
+              "values": [
+                "Fix dinner and breakfast times",
+                "Check the cultivar on tea packs"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · Why Alishan Food Means the Fenqihu Bento"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "The biggest stop on the mountain line",
+              "desc": "Fenqihu Station is the largest intermediate station on the Alishan Forest Railway's mountain line. According to the railway office, trains in both directions used to stop here for about 30 minutes to take on water and change locomotives, and a railway bento culture grew up around those stops."
+            },
+            {
+              "mark": "✓",
+              "b": "From forestry workers' meals to a famous souvenir",
+              "desc": "It began with a station-side canteen feeding forestry staff, and after the line turned to tourism in 1963, bentos that were easy to carry onto the train became a favourite with travellers."
+            },
+            {
+              "mark": "✓",
+              "b": "Bought on the old street",
+              "desc": "Today the bento shops line the old street (老街) around the station. Each has its own closing days and hours, so check the current opening hours on Google Maps before you go."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-sun-moon-lake-where-to-eat-1.jpg",
+          "caption": "An Alishan Forest Railway train standing at Fenqihu Station (奮起湖車站). It shows the station, not any bento shop (photo: 姜 明雄 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Planning Meals Up on Alishan"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Restaurants cluster in the shopping area",
+              "desc": "Inside the Alishan National Forest Recreation Area, the shopping area in front of the visitor centre has restaurants serving breakfast, lunch and dinner plus shops selling local products and tea. The Zhushan (祝山) service area and the shops on the ground floor of Zhaoping (沼平) Station also sell food."
+            },
+            {
+              "mark": "2",
+              "b": "Eat dinner early",
+              "desc": "The park's official restaurant list shows many places finishing dinner service between 19:00 and 21:00, with lunch and dinner dishes generally starting from NT$100–150 (as of October 2026). If you're staying on the mountain, eat before it gets too late."
+            },
+            {
+              "mark": "3",
+              "b": "Breakfast on sunrise day",
+              "desc": "Watching the Zhushan sunrise means an early start. The list includes a breakfast shop opening at 06:00 (as of October 2026), so you can see the sunrise first and eat breakfast afterwards."
+            },
+            {
+              "mark": "4",
+              "b": "Bringing your bento is fine",
+              "desc": "The recreation area says simple food may be brought in and eaten there. Carrying a Fenqihu bento up works, but feeding wildlife is not allowed."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Eating at Sun Moon Lake and Picking TTES No. 18 Tea"
+        },
+        {
+          "type": "p",
+          "html": "At Sun Moon Lake, the villages on either side of the lake are your meal bases. Shuishe (水社) gathers hotels, restaurants, small shops, the bus transfer station and the main boat-ticket pier, while across the lake Ita Thao (伊達邵) is known for Thao (邵族) foods such as wild boar sausage, bamboo-tube rice (竹筒飯) and millet mochi, plus Sun Moon Lake black tea and shiitake tea eggs. Shop hours vary in both areas, so check the current opening hours on Google Maps before you go."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "What TTES No. 18 is",
+              "desc": "Yuchi Township (魚池鄉), home to Sun Moon Lake, hosts the Central Branch (formerly the Yuchi Branch) of Taiwan's Tea and Beverage Research Station. TTES No. 18, bred there from a Burmese large-leaf variety and Taiwanese wild mountain tea, is a black-tea cultivar nicknamed 'Ruby' (紅玉), known for gentle mint and cinnamon notes."
+            },
+            {
+              "mark": "✓",
+              "b": "Check the label",
+              "desc": "Black teas from the Yuchi area come in several cultivars. If you want Ruby, look for '臺茶18號' or '紅玉' on the pack."
+            },
+            {
+              "mark": "✓",
+              "b": "Small packs for gifts",
+              "desc": "If you're sharing with several people, a few small packs are handier than one big bag. Tea is light and compact, so it's easy to pack on your last day."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · Planning Two Days Around Food"
+        },
+        {
+          "type": "p",
+          "html": "Alishan and Sun Moon Lake are far apart, so seeing both properly in one day is hard. Food-wise, a simple plan is day one on the Alishan Forest Railway with a Fenqihu bento and dinner at the park's shopping area, then day two at Sun Moon Lake for Ita Thao snacks and tea shopping."
+        },
+        {
+          "type": "p",
+          "html": "For Alishan train tickets and swapping your park-entry QR, see <a href=\"/blog-alishan-zhaoping-line-ticket-exchange\">Alishan Zhaoping Line ticket exchange</a>, and for gift ideas beyond tea, see <a href=\"/blog-taipei-souvenir-gift-guide\">Taiwan souvenir guide</a>. If you eat in Chiayi before heading up, the <a href=\"/region-alishan\">Alishan & Sun Moon Lake food map</a> has the turkey-rice spot <a href=\"/alishan-taiwanese-959\">嘉義車頭火雞肉飯</a> near Chiayi Station, and at Sun Moon Lake you can check the beef noodle shop <a href=\"/alishan-beef_noodle-xiaolin-beef-noodle-restaurant-958\">Xiaolin Beef Noodle (小林牛肉麵)</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on the Alishan Forest Railway and Cultural Heritage Office's Fenqihu Station page and its booklet on Fenqihu old street, the Forestry and Nature Conservation Agency's Alishan National Forest Recreation Area page (restaurants and service areas), the Sun Moon Lake National Scenic Area's pages on Shuishe and Ita Thao, and the Tea and Beverage Research Station's TTES No. 18 cultivar page, as of October 2026. Shop hours can change, so check the current opening hours on Google Maps before you go. Photo: 姜 明雄, Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Alishan & Chiayi eats on the map",
+          "desc": "Eating once more in Chiayi or at Sun Moon Lake? Pin nearby spots on the map too.",
+          "btn": "Open Map →",
+          "href": "/map?region=alishan"
+        }
+      ]
+    }
+  },
   "taipei-kaohsiung-train-ticket-booking": {
     "heroImage": "assets/images/blog/taipei-kaohsiung-train-ticket-booking-1.jpg",
     "ko": {
