@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kaohsiung-cijin-ferry-gushan-vs-zhongzhou",
+    "image": "assets/images/blog/kaohsiung-cijin-ferry-gushan-vs-zhongzhou-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 교통·페리",
+      "title": "가오슝 치진섬 페리, 구산 말고 중저우 배도 탈까?",
+      "desc": "치진섬 가는 구산–치진, 첸전–중저우 두 페리의 선착장·운항 시간·배 간격·요금을 비교하고, 교통카드 결제와 중저우 노선이 맞는 경우, 섬 안 이동 순서를 정리했어요.",
+      "meta": "가오슝 · 교통·페리"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Transport & Ferries",
+      "title": "Kaohsiung Cijin Island Ferry: Gushan or the Quieter Zhongzhou Boat?",
+      "desc": "The two ferries to Cijin Island compared — piers, hours, frequency and fares — plus card payment, when the Zhongzhou route makes sense, and getting around the island.",
+      "meta": "Kaohsiung · Transport & Ferries"
+    }
+  },
+  {
     "slug": "taiwan-alcohol-restaurant-byob-mini-liquor",
     "image": "assets/images/blog/taiwan-alcohol-restaurant-byob-mini-liquor-1.jpg",
     "regions": [
@@ -1162,6 +1181,365 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kaohsiung-cijin-ferry-gushan-vs-zhongzhou": {
+    "heroImage": "assets/images/blog/kaohsiung-cijin-ferry-gushan-vs-zhongzhou-1.jpg",
+    "ko": {
+      "pageTitle": "가오슝 치진섬 페리 — 구산·중저우 비교 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 치진섬 페리는 구산–치진, 첸전–중저우 두 노선이 있어요. 선착장 위치와 운항 시간, NT$30 요금, 교통카드 결제, 섬 안 이동법을 정리했어요.",
+      "ogTitle": "가오슝 치진섬 페리, 구산 말고 중저우 배도 탈까?",
+      "eyebrow": "가오슝 여행 가이드 · 교통·페리",
+      "title": "가오슝 치진섬 페리, 구산 말고 중저우 배도 탈까?",
+      "dek": "배는 두 노선이고 요금은 같아요 — 어느 선착장에서 타느냐가 섬에 내리는 위치를 바꿉니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 교통·페리",
+      "intro": "\"치진섬은 시즈완 쪽 구산 선착장에서만 배를 타나요?\" 가오슝 일정을 짜다 보면 한 번쯤 나오는 질문이에요. 가오슝 치진섬 페리는 구산(鼓山)–치진(旗津) 노선 말고도 첸전(前鎮)–중저우(中洲) 노선이 있고, 두 노선은 요금은 같지만 섬에 내리는 위치와 배 간격이 꽤 다릅니다. 가오슝시 윤선공사(高雄市輪船) 공식 안내와 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 가오슝 치진섬 페리 두 노선, 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "구산–치진(旗鼓)",
+            "첸전–중저우(前中)"
+          ],
+          "rows": [
+            {
+              "label": "육지 쪽 선착장",
+              "values": [
+                "구산 선착장(鼓山區 濱海二路 1號)",
+                "첸전 선착장(前鎮區 臨水路 2號)"
+              ]
+            },
+            {
+              "label": "치진 쪽 선착장",
+              "values": [
+                "치진 선착장(旗津區 海岸路 10號)",
+                "중저우 선착장(旗津區 中洲巷 77號)"
+              ]
+            },
+            {
+              "label": "배 타는 시간",
+              "values": [
+                "약 5분",
+                "약 15분"
+              ]
+            },
+            {
+              "label": "운항 시간",
+              "values": [
+                "05:00(치진 출발)~다음 날 02:00",
+                "06:00(중저우 출발)~22:00(첸전 출발)"
+              ]
+            },
+            {
+              "label": "배 간격",
+              "values": [
+                "출퇴근 5~7분, 그 외 10~15분",
+                "출퇴근 30~40분, 그 외 약 60분"
+              ]
+            },
+            {
+              "label": "어른 요금",
+              "values": [
+                "NT$30",
+                "NT$30"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "표는 고웅시 윤선공사 공식 자주 묻는 질문과 노선 안내, 가오슝시 관광 사이트(高雄旅遊網)의 소요 시간을 2026년 10월 기준으로 옮긴 거예요. 구산–치진 노선은 정해진 시간표 없이 사람에 맞춰 자주 다니고, 주말에는 배를 더 띄운다고 안내합니다. 첸전–중저우 노선은 시간표대로 다니니 공식 시간표를 먼저 보고 가세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 치진섬 페리 요금과 교통카드 결제"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "동전이나 교통카드로 탑승",
+              "desc": "두 노선 모두 현금(동전 투입)이나 이카통(一卡通)·이지카드(悠遊卡)·아이패스(愛金卡) 같은 전자 교통카드로 낼 수 있어요. 카드로 내면 할인 요금이 따로 있으니 금액은 선착장 요금표에서 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "카드는 한 사람에 한 장",
+              "desc": "공식 안내에 따르면 교통카드 한 장은 한 번만 찍을 수 있어요. 일행이 다섯 명이면 카드도 다섯 장이 필요하니, 카드가 모자라면 나머지는 동전으로 내세요."
+            },
+            {
+              "mark": "✓",
+              "b": "아이와 어르신은 우대 요금",
+              "desc": "6~12세 어린이와 65세 이상은 우대 요금 NT$15, 6세 미만은 무료예요. 무료인 아이는 타기 전에 직원에게 인원수를 말하라고 안내합니다(2026년 10월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "자전거도 함께 탈 수 있어요",
+              "desc": "자전거는 NT$10, 오토바이는 NT$30을 따로 내요. 학생 요금 NT$25는 학생증을 보여 줘야 합니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 중저우 페리는 언제 타면 좋을까"
+        },
+        {
+          "type": "p",
+          "html": "OpenStreetMap 기준으로 구산 노선이 닿는 치진 선착장에서 천후궁(天后宮)까지는 약 150m라, 치진 옛거리 구경은 이 선착장에서 시작하기 좋아요. 반면 중저우 선착장은 치진 선착장에서 남동쪽으로 직선 약 5km 떨어져 있어서, 옛거리가 목적이라면 구산 노선이 훨씬 가깝습니다. 그래도 중저우 노선이 맞는 경우가 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "숙소가 첸전·남쪽이라면",
+              "desc": "구산 선착장은 MRT 시즈완역(西子灣)·경전철 하마싱역(哈瑪星) 쪽이고, 첸전 선착장은 가오슝 남쪽 첸전구에 있어요. 공식 안내 기준 첸전 선착장에는 214A·紅9A·紅9B 버스가 섭니다."
+            },
+            {
+              "mark": "2",
+              "b": "섬을 자전거로 한 바퀴 돌 계획이라면",
+              "desc": "중저우 선착장에는 가오슝 공공자전거 대여소가 있다고 공식 안내에 나와 있어요. 중저우에서 내려 자전거로 섬을 따라 올라가 옛거리를 보고, 구산 노선으로 나오면 같은 길을 되돌아오지 않아도 됩니다."
+            },
+            {
+              "mark": "3",
+              "b": "주말 구산 선착장이 붐빌 때",
+              "desc": "구산–치진 노선은 주말에 관광객이 몰리는 노선이에요. 운항 시간 안이라면 중저우 노선을 대안으로 두면 마음이 편합니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-cijin-ferry-gushan-vs-zhongzhou-1.jpg",
+          "caption": "구산–치진 노선을 오가는 페리 旗鼓二號예요. 2014년에 찍힌 사진이라 지금 다니는 배와 다를 수 있어요(사진: Loeffle / Wikimedia Commons, 퍼블릭 도메인)."
+        },
+        {
+          "type": "quote",
+          "text": "\"중저우 선착장에서 내려 자전거로 옛거리까지 20분쯤 걸렸어요.\" — 중저우 페리를 타 본 여행자의 경험담이에요. 걸리는 시간은 자전거 속도와 쉬는 곳에 따라 달라요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 치진섬에서 나올 때 챙길 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "중저우 막배는 22:00",
+              "desc": "첸전–중저우 노선 막배는 첸전에서 22:00에 떠나요. 중저우에서 나오는 마지막 배 시각은 공식 시간표로 확인하고, 저녁까지 있을 계획이면 구산 노선으로 나오는 편이 안전합니다."
+            },
+            {
+              "mark": "2",
+              "b": "주말엔 해상버스도 있어요",
+              "desc": "공식 안내에 따르면 주말·공휴일에는 구산·잔얼쿠(棧貳庫)·치진을 잇는 해상버스가 따로 다니고, 어른 요금은 NT$80이에요. 운항 시각은 공식 시간표로 확인하세요."
+            },
+            {
+              "mark": "3",
+              "b": "해산물 거리 영업시간은 미리",
+              "desc": "치진 선착장 앞 해산물 식당들은 가게마다 쉬는 날과 시간이 달라요. 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가오슝 일정을 짜는 중이라면 <a href=\"/blog-kaohsiung-3n4d-with-mom-itinerary-check\">가오슝 3박4일 일정 점검</a>에서 치진을 어느 날에 넣을지 보고, 섬에서 자전거를 빌릴 생각이면 <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">가오슝·타이난 유바이크 대여 팁</a>도 함께 보세요. 배에서 내린 뒤 먹을 곳은 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>와 <a href=\"/kaohsiung-street_food\">가오슝 노점 맛집</a>에서 고르고, 치진 해산물은 <a href=\"/kaohsiung-seafood-782\">치허우 해산(旗后海產)</a> 페이지를 참고하면 좋아요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 고웅시 윤선공사(高雄市輪船) 공식 자주 묻는 질문과 旗鼓·前中 노선 안내, 선착장별 주소·교통 안내, 가오슝시 관광 사이트(高雄旅遊網)의 노선별 소요 시간, OpenStreetMap의 선착장 위치와 실제 여행자들의 경험을 바탕으로 2026년 10월 기준으로 정리했습니다. 운항 시간과 요금은 바뀔 수 있으니 방문 전 공식 사이트와 선착장 안내를 다시 확인하는 것을 추천해요. 사진: Loeffle, Wikimedia Commons, 퍼블릭 도메인."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 치진 해산물 맛집도 확인해보세요",
+          "desc": "배에서 내린 뒤 들를 곳을 미리 찜해 두면 섬 일정을 짜기 편해요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung&cat=seafood"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Kaohsiung Cijin Ferry — Gushan vs Zhongzhou Routes · My Secret Taiwan Eats",
+      "metaDescription": "Kaohsiung's Cijin Island has two ferry routes, Gushan–Cijin and Qianzhen–Zhongzhou. Piers, hours, the NT$30 fare, card payment and getting around.",
+      "ogTitle": "Kaohsiung Cijin Island Ferry: Gushan or the Quieter Zhongzhou Boat?",
+      "eyebrow": "Kaohsiung Travel Guide · Transport & Ferries",
+      "title": "Kaohsiung Cijin Island Ferry: Gushan or the Quieter Zhongzhou Boat?",
+      "dek": "Two routes, the same fare — but the pier you leave from changes where you land on the island.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Transport & Ferries",
+      "intro": "\"Is the Gushan pier near Sizihwan the only place to catch a boat to Cijin?\" It's a question that comes up when planning Kaohsiung. Besides the Gushan (鼓山)–Cijin (旗津) route, there's also a Qianzhen (前鎮)–Zhongzhou (中洲) ferry. The fare is the same, but where you land and how often the boats run are quite different. Based on Kaohsiung Ferry Company (高雄市輪船)'s official information and real travellers' experiences, here's how it works, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Kaohsiung Cijin Ferry Routes at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Gushan–Cijin",
+            "Qianzhen–Zhongzhou"
+          ],
+          "rows": [
+            {
+              "label": "Mainland pier",
+              "values": [
+                "Gushan Pier (No. 1, Binhai 2nd Rd, Gushan)",
+                "Qianzhen Pier (No. 2, Linshui Rd, Qianzhen)"
+              ]
+            },
+            {
+              "label": "Cijin-side pier",
+              "values": [
+                "Cijin Pier (No. 10, Haian Rd, Cijin)",
+                "Zhongzhou Pier (No. 77, Zhongzhou Lane, Cijin)"
+              ]
+            },
+            {
+              "label": "Crossing time",
+              "values": [
+                "About 5 minutes",
+                "About 15 minutes"
+              ]
+            },
+            {
+              "label": "Operating hours",
+              "values": [
+                "05:00 (from Cijin) to 02:00 next day",
+                "06:00 (from Zhongzhou) to 22:00 (from Qianzhen)"
+              ]
+            },
+            {
+              "label": "Frequency",
+              "values": [
+                "Every 5–7 min at rush hour, 10–15 min otherwise",
+                "Every 30–40 min at rush hour, about 60 min otherwise"
+              ]
+            },
+            {
+              "label": "Adult fare",
+              "values": [
+                "NT$30",
+                "NT$30"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The table follows Kaohsiung Ferry Company's official FAQ and route pages, plus crossing times from Kaohsiung's official tourism site, as of October 2026. The Gushan–Cijin boats run flexibly with demand rather than to a fixed timetable, with extra sailings at weekends. The Qianzhen–Zhongzhou route runs to a timetable, so check the official schedule before you go."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Cijin Ferry Fares and Card Payment"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Pay with coins or a transit card",
+              "desc": "Both routes take cash (coins) or electronic transit cards such as iPASS (一卡通), EasyCard (悠遊卡) and icash (愛金卡). Cards get a separate discounted fare — check the fare board at the pier for the amount."
+            },
+            {
+              "mark": "✓",
+              "b": "One card per person",
+              "desc": "According to the official notice, each card can only be tapped once per crossing. A group of five needs five cards, so pay the rest in coins if you're short."
+            },
+            {
+              "mark": "✓",
+              "b": "Concessions for kids and seniors",
+              "desc": "Children aged 6–12 and people 65 and over pay NT$15, and under-6s ride free. Tell the staff how many free children are with you before boarding (as of October 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Bikes can come along",
+              "desc": "A bicycle costs NT$10 and a scooter NT$30. The NT$25 student fare requires a student ID."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · When Does the Zhongzhou Ferry Make Sense?"
+        },
+        {
+          "type": "p",
+          "html": "On OpenStreetMap, the Tianhou Temple (天后宮) is only about 150m from Cijin Pier, where the Gushan boats land, so it's the natural start for Cijin's old street. Zhongzhou Pier, by contrast, is roughly 5km in a straight line south-east of Cijin Pier, so if the old street is your goal, the Gushan route is much closer. Still, there are times when Zhongzhou fits better."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Staying in Qianzhen or the south",
+              "desc": "Gushan Pier is near MRT Sizihwan (西子灣) and the Hamasen (哈瑪星) light rail stop, while Qianzhen Pier is in southern Kaohsiung. According to the official page, buses 214A, Red 9A and Red 9B stop at Qianzhen Pier."
+            },
+            {
+              "mark": "2",
+              "b": "Cycling the length of the island",
+              "desc": "The official page lists a Kaohsiung public bike station at Zhongzhou Pier. Land at Zhongzhou, ride up the island to the old street, then leave on the Gushan boat — no doubling back."
+            },
+            {
+              "mark": "3",
+              "b": "When Gushan is busy at weekends",
+              "desc": "The Gushan–Cijin route draws weekend crowds. Within its operating hours, Zhongzhou is a handy back-up."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-cijin-ferry-gushan-vs-zhongzhou-1.jpg",
+          "caption": "The Chi Gu No. 2 ferry on the Gushan–Cijin route. The photo is from 2014, so the boats running today may differ (photo: Loeffle / Wikimedia Commons, public domain)."
+        },
+        {
+          "type": "quote",
+          "text": "\"From Zhongzhou Pier it took us about 20 minutes by bike to reach the old street.\" — one traveller's experience on the Zhongzhou ferry. Your time will depend on your pace and stops."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Leaving Cijin Island"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Zhongzhou's last boat is 22:00",
+              "desc": "The last Qianzhen–Zhongzhou sailing leaves Qianzhen at 22:00, so check the official timetable for the last boat from Zhongzhou. If you're staying into the evening, the Gushan route is the safer way out."
+            },
+            {
+              "mark": "2",
+              "b": "A sea bus runs at weekends",
+              "desc": "According to the official FAQ, a separate sea bus links Gushan, Pier-2 (棧貳庫) and Cijin on weekends and holidays, with an adult fare of NT$80. Check the official timetable for sailing times."
+            },
+            {
+              "mark": "3",
+              "b": "Check seafood restaurant hours",
+              "desc": "The seafood restaurants by Cijin Pier each have their own hours and days off. Check the current opening hours on Google Maps before you go."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If you're planning a Kaohsiung trip, our <a href=\"/blog-kaohsiung-3n4d-with-mom-itinerary-check\">Kaohsiung 3-night itinerary check</a> helps you decide which day suits Cijin, and if you plan to cycle on the island, see <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">YouBike rental tips for Kaohsiung and Tainan</a>. For food after the crossing, browse the <a href=\"/region-kaohsiung\">Kaohsiung food map</a> and <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a>, and for seafood on Cijin, see <a href=\"/kaohsiung-seafood-782\">Qihou Seafood (旗后海產)</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Kaohsiung Ferry Company (高雄市輪船)'s official FAQ, its Gushan–Cijin and Qianzhen–Zhongzhou route pages and pier address and access pages, crossing times from Kaohsiung's official tourism site, pier locations on OpenStreetMap, and real travellers' experiences, as of October 2026. Hours and fares can change, so check the official site and pier notices again before you go. Photo: Loeffle, Wikimedia Commons, public domain."
+        },
+        {
+          "type": "cta",
+          "title": "Find Cijin seafood spots on the map",
+          "desc": "Pin places to visit after the crossing so your island day is easy to plan.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung&cat=seafood"
+        }
+      ]
+    }
+  },
   "taiwan-alcohol-restaurant-byob-mini-liquor": {
     "heroImage": "assets/images/blog/taiwan-alcohol-restaurant-byob-mini-liquor-1.jpg",
     "ko": {
