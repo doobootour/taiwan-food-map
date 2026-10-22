@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-alcohol-restaurant-byob-mini-liquor",
+    "image": "assets/images/blog/taiwan-alcohol-restaurant-byob-mini-liquor-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 술·선물",
+      "title": "대만 식당 술, 가져가도 될까? 반입 매너·미니어처 선물",
+      "desc": "대만 식당에서 술을 주문하거나 가져갈 때 물어볼 것, 미니어처 술 선물 고르는 법, 한국 들어올 때 주류 면세 한도까지 정리했어요.",
+      "meta": "대만 전역 · 술·선물"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Drinks & Gifts",
+      "title": "Drinking in Taiwan Restaurants: Bringing Your Own and Mini Liquor Souvenirs",
+      "desc": "Ordering drinks in Taiwan restaurants, asking before you bring your own, picking mini liquor gifts, and Korea's duty-free alcohol limit.",
+      "meta": "All of Taiwan · Drinks & Gifts"
+    }
+  },
+  {
     "slug": "kaohsiung-zuoying-thsr-transfer-meal",
     "image": "assets/images/blog/kaohsiung-zuoying-thsr-transfer-meal-1.jpg",
     "regions": [
@@ -1143,6 +1162,299 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taiwan-alcohol-restaurant-byob-mini-liquor": {
+    "heroImage": "assets/images/blog/taiwan-alcohol-restaurant-byob-mini-liquor-1.jpg",
+    "ko": {
+      "pageTitle": "대만 식당 술 — 반입 매너·면세 한도 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 식당 술, 가게마다 파는지·가져가도 되는지 달라요. 술 반입 전에 물어볼 것, 미니어처 술 선물 고르는 법, 한국 주류 면세 한도(2L·400달러)를 정리했어요.",
+      "ogTitle": "대만 식당 술, 가져가도 될까? 반입 매너·미니어처 선물",
+      "eyebrow": "대만 여행 가이드 · 술·선물",
+      "title": "대만 식당 술, 가져가도 될까? 반입 매너·미니어처 선물",
+      "dek": "술을 파는지, 가져가도 되는지는 가게마다 달라요 — 주문 전에 물어볼 것과 돌아올 때 면세 한도를 함께 챙겨봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 전역 · 술·선물",
+      "intro": "\"훠궈집에서 맥주 한잔하고 싶은데, 편의점에서 사 가도 되나요?\" 대만 식당 술 문제는 여행 중 자주 나오는 질문이에요. 대만 식당은 술을 직접 파는 곳, 술을 팔지 않는 곳, 손님이 가져온 술을 허용하는 곳이 섞여 있어요. 식당에서 확인할 것과 한국 관세청 공식 안내를 묶어 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "할 일"
+          ],
+          "rows": [
+            {
+              "label": "메뉴에 술이 있는 식당",
+              "values": [
+                "메뉴판에서 골라 주문"
+              ]
+            },
+            {
+              "label": "메뉴에 술이 없는 식당",
+              "values": [
+                "술을 가져가도 되는지 먼저 물어보기"
+              ]
+            },
+            {
+              "label": "술을 가져갈 때",
+              "values": [
+                "잔·병따개 제공 여부, 추가 요금 여부 확인"
+              ]
+            },
+            {
+              "label": "선물로 술을 살 때",
+              "values": [
+                "한국 면세 한도(2L·400달러, 2026년 10월 기준) 안에서 고르기"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · 대만 식당에서 술 주문할 때"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "술을 안 파는 식당도 많아요",
+              "desc": "국수집, 아침 가게, 디저트 가게는 술을 팔지 않는 곳이 많아요."
+            },
+            {
+              "mark": "✓",
+              "b": "가격은 메뉴판 기준으로",
+              "desc": "같은 맥주라도 가게마다 값이 달라요. 주문 전에 메뉴판 가격을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-alcohol-restaurant-byob-mini-liquor-1.jpg",
+          "caption": "대만 볶음요리 식당(熱炒)의 실내 모습이에요. 분위기를 보여 주는 예시 사진이고, 이 글에서 소개하는 식당은 아니에요(사진: 羽諾 YUNO / Wikimedia Commons, CC BY-SA 2.0, 일부 잘라냄)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 대만 식당에 술 가져가도 될까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "먼저 물어보는 게 매너",
+              "desc": "술 반입 허용 여부와 추가 요금은 가게마다 정해요. 자리에 앉기 전에 \"술을 가져가도 되나요?\"라고 물어보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "잔·병따개는 따로 확인",
+              "desc": "허용하더라도 잔이나 병따개를 주지 않는 곳이 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "식당 규칙을 우선으로",
+              "desc": "가게 안에 반입 금지 안내가 붙어 있다면 그대로 따르세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 대만 미니어처 술 선물 고를 때"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "작은 병 여러 개로 나누기",
+              "desc": "여러 사람에게 나눠줄 거라면 작은 병 세트가 편해요."
+            },
+            {
+              "mark": "✓",
+              "b": "위탁 수하물 포장은 꼼꼼히",
+              "desc": "병이 깨지지 않도록 옷 사이에 넣고 비닐로 한 번 더 감싸세요."
+            },
+            {
+              "mark": "✓",
+              "b": "용량을 더해서 계산",
+              "desc": "미니어처라도 면세 한도는 전체 용량과 금액을 합쳐서 봐요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 한국 들어올 때 주류 면세 한도"
+        },
+        {
+          "type": "p",
+          "html": "한국 관세청 안내 기준(2026년 10월 확인)으로 만 19세 이상 여행자는 술을 병 수와 관계없이 <strong>합계 2L 이하, 총 400달러 이하</strong>까지 면세로 들여올 수 있어요. 2025년 3월 21일 반입분부터 병 수 제한이 없어졌고, 이 한도를 넘으면 신고 대상이에요. 만 19세 미만이 들여오는 술은 면세가 적용되지 않고, 술 면세 한도는 일반 물품 면세 한도(800달러)와 따로 계산합니다."
+        },
+        {
+          "type": "p",
+          "html": "술을 기내에 들고 탈지 위탁 수하물로 부칠지는 <a href=\"/blog-taipei-liquid-checked-baggage-guide\">대만 간식·술 기내 반입 정리</a>에서, 술 말고 다른 선물은 <a href=\"/blog-taipei-souvenir-gift-guide\">대만 여행 선물 추천</a>에서 볼 수 있어요. 선물용 술을 살 곳은 <a href=\"/category-liquor_shop\">대만 주류샵 모음</a>과 <a href=\"/taichung-liquor_shop-731\">타이중 성태양주(星泰洋酒)</a>를, 술 한잔 곁들이기 좋은 곳은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>의 <a href=\"/taipei-hotpot\">타이베이 훠궈 맛집</a>부터 찾아보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글의 면세 기준은 한국 관세청 고객지원센터 상담사례(주류 면세 범위)와 관세청 여행자 휴대품 안내를 바탕으로 2026년 10월 기준으로 정리했어요. 식당별 술 반입 규칙과 가격은 바뀔 수 있으니 방문 전 가게에 직접 물어보세요. 사진: 羽諾 YUNO, Wikimedia Commons, CC BY-SA 2.0(일부 잘라냄)."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 술 한잔하기 좋은 맛집도 확인해보세요",
+          "desc": "훠궈집을 지도에서 미리 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=hotpot"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Drinking in Taiwan Restaurants — BYO & Duty-Free · My Secret Taiwan Eats",
+      "metaDescription": "Ordering drinks in Taiwan restaurants, asking before you bring your own, picking mini liquor gifts, and Korea's duty-free alcohol limit (2L, US$400).",
+      "ogTitle": "Drinking in Taiwan Restaurants: Bringing Your Own and Mini Liquor Souvenirs",
+      "eyebrow": "Taiwan Travel Guide · Drinks & Gifts",
+      "title": "Drinking in Taiwan Restaurants: Bringing Your Own and Mini Liquor Souvenirs",
+      "dek": "Whether a place sells alcohol, or lets you bring your own, depends on the restaurant — here's what to ask first, plus the duty-free limit for the trip home.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "All of Taiwan · Drinks & Gifts",
+      "intro": "\"I'd love a beer with hot pot — can I just bring one from the convenience store?\" It's a common question on a Taiwan trip. Some restaurants in Taiwan sell alcohol, some don't, and some let guests bring their own. This guide covers what to check at the restaurant and Korea Customs Service's official duty-free guidance, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · At a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "What to do"
+          ],
+          "rows": [
+            {
+              "label": "Alcohol on the menu",
+              "values": [
+                "Order from the menu"
+              ]
+            },
+            {
+              "label": "No alcohol on the menu",
+              "values": [
+                "Ask first whether you can bring your own"
+              ]
+            },
+            {
+              "label": "Bringing your own",
+              "values": [
+                "Check whether glasses/openers are provided and whether there's a fee"
+              ]
+            },
+            {
+              "label": "Buying liquor as a gift",
+              "values": [
+                "Stay within Korea's duty-free limit (2L, US$400, as of October 2026)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · Ordering drinks in a Taiwan restaurant"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Many places don't sell alcohol",
+              "desc": "Noodle shops, breakfast shops and dessert shops often don't sell alcohol."
+            },
+            {
+              "mark": "✓",
+              "b": "Go by the menu price",
+              "desc": "The same beer can cost different amounts at different places. Check the menu price before you order."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-alcohol-restaurant-byob-mini-liquor-1.jpg",
+          "caption": "Inside a Taiwanese stir-fry restaurant (rechao, 熱炒). This is an example of the atmosphere, not a restaurant featured in this guide (Photo: 羽諾 YUNO / Wikimedia Commons, CC BY-SA 2.0, cropped)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Can you bring your own alcohol?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Asking first is good manners",
+              "desc": "Each restaurant sets its own rules and fees for outside drinks. Ask \"Can I bring my own alcohol?\" before you sit down."
+            },
+            {
+              "mark": "✓",
+              "b": "Check glasses and openers",
+              "desc": "Even where it's allowed, some places don't provide glasses or bottle openers."
+            },
+            {
+              "mark": "✓",
+              "b": "House rules come first",
+              "desc": "If there's a no-outside-drinks sign, follow it."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Picking mini liquor souvenirs"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Split into small bottles",
+              "desc": "If you're giving gifts to several people, a set of small bottles is handy."
+            },
+            {
+              "mark": "✓",
+              "b": "Pack checked bags carefully",
+              "desc": "Wrap bottles in clothes and an extra plastic bag so they don't break."
+            },
+            {
+              "mark": "✓",
+              "b": "Add up the total",
+              "desc": "Even miniatures count toward the duty-free limit by total volume and total price."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · Korea's duty-free alcohol limit"
+        },
+        {
+          "type": "p",
+          "html": "According to Korea Customs Service (checked October 2026), travelers aged 19 and over can bring in alcohol duty-free up to <strong>2L in total and US$400 in total value</strong>, with no limit on the number of bottles. The bottle limit was removed for alcohol brought in from March 21, 2025; anything over the limit must be declared. Alcohol brought in by travelers under 19 isn't duty-free, and the alcohol allowance is counted separately from the general US$800 allowance."
+        },
+        {
+          "type": "p",
+          "html": "For carry-on vs checked bags, see <a href=\"/blog-taipei-liquid-checked-baggage-guide\">Taiwan snacks and alcohol on flights</a>; for other gift ideas, see <a href=\"/blog-taipei-souvenir-gift-guide\">Taiwan souvenir ideas</a>. To shop for bottles, browse <a href=\"/category-liquor_shop\">Taiwan liquor shops</a> and <a href=\"/taichung-liquor_shop-731\">Xing Tai Yang Jiu (星泰洋酒) in Taichung</a>, and for a meal with a drink, start with <a href=\"/taipei-hotpot\">Taipei hot pot</a> on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Duty-free details are based on Korea Customs Service's customer center answer on alcohol allowances and its traveler goods guidance, as of October 2026. Restaurant rules and prices can change, so ask the restaurant directly before you go. Photo: 羽諾 YUNO, Wikimedia Commons, CC BY-SA 2.0 (cropped)."
+        },
+        {
+          "type": "cta",
+          "title": "Find a spot for a drink on the map",
+          "desc": "Pin hot pot restaurants on the map before you go.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=hotpot"
+        }
+      ]
+    }
+  },
   "kaohsiung-zuoying-thsr-transfer-meal": {
     "heroImage": "assets/images/blog/kaohsiung-zuoying-thsr-transfer-meal-1.jpg",
     "ko": {
