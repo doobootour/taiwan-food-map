@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kaohsiung-zuoying-thsr-transfer-meal",
+    "image": "assets/images/blog/kaohsiung-zuoying-thsr-transfer-meal-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 교통·먹거리",
+      "title": "쭤잉역 맛집, 고속철 내려서 밥은 어디서 먹을까?",
+      "desc": "고속철 쭤잉역과 대만철도 신쭤잉역, MRT 쭤잉역이 어떻게 이어지는지, 환승 시간에 밥 먹을 곳과 가오슝식 판투안 아침을 정리했어요.",
+      "meta": "가오슝 · 교통·먹거리"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Transport & Food",
+      "title": "Zuoying Station in Kaohsiung: Where to Eat Between THSR, Train and MRT",
+      "desc": "How THSR Zuoying, TRA Xinzuoying and MRT R16 connect, where to eat during a transfer, and what a Kaohsiung-style fantuan breakfast is.",
+      "meta": "Kaohsiung · Transport & Food"
+    }
+  },
+  {
     "slug": "alishan-sun-moon-lake-where-to-eat",
     "image": "assets/images/blog/alishan-sun-moon-lake-where-to-eat-1.jpg",
     "regions": [
@@ -1124,6 +1143,305 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kaohsiung-zuoying-thsr-transfer-meal": {
+    "heroImage": "assets/images/blog/kaohsiung-zuoying-thsr-transfer-meal-1.jpg",
+    "ko": {
+      "pageTitle": "쭤잉역 맛집 — 고속철 환승 식사 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "쭤잉역 맛집 찾기 전에 환승 동선부터 봐요. 고속철·대만철도·MRT가 한 건물에 모인 가오슝 쭤잉역에서 밥 먹을 곳과 가오슝식 판투안 아침을 정리했어요.",
+      "ogTitle": "쭤잉역 맛집, 고속철 내려서 밥은 어디서 먹을까?",
+      "eyebrow": "가오슝 여행 가이드 · 교통·먹거리",
+      "title": "쭤잉역 맛집, 고속철 내려서 밥은 어디서 먹을까?",
+      "dek": "세 노선이 한 건물에 모여 있어서 — 환승 시간만 정하면 역 밖으로 나가지 않고도 한 끼를 해결할 수 있어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 교통·먹거리",
+      "intro": "\"쭤잉역 맛집 찾아서 먹고 갈까, 바로 시내로 갈까?\" 타이베이에서 고속철로 가오슝에 내려오는 여행자들이 쭤잉역에서 자주 하는 고민이에요. 쭤잉역은 고속철, 대만철도, 가오슝 MRT가 한 건물에 모여 있어서 동선만 알면 환승 중에도 한 끼를 챙기기 쉬워요. 대만 고속철, 가오슝 MRT, 역 쇼핑몰의 공식 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "고속철 쭤잉역",
+            "대만철도 신쭤잉역(新左營)",
+            "MRT 쭤잉역(R16)"
+          ],
+          "rows": [
+            {
+              "label": "연결",
+              "values": [
+                "2층 중앙 통로로 대만철도와 바로 연결",
+                "고속철역과 같은 건물(共構)",
+                "1번 출구는 고속철, 2번 출구는 대만철도"
+              ]
+            },
+            {
+              "label": "식사",
+              "values": [
+                "역 안 매장",
+                "역 건물 1~4층 Global Mall",
+                "2번 출구로 나가 Global Mall"
+              ]
+            },
+            {
+              "label": "이런 분께",
+              "values": [
+                "바로 다음 열차를 타는 분",
+                "30분 이상 여유가 있는 분",
+                "시내로 가기 전 한 끼"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · 가오슝 쭤잉역 세 노선, 이렇게 이어져요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "고속철과 대만철도는 2층에서",
+              "desc": "대만 고속철 안내에 따르면 고속철 쭤잉역과 대만철도 신쭤잉역은 같은 건물이라 2층 중앙 통로로 바로 갈아탈 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "MRT는 출구 번호로 구분",
+              "desc": "가오슝 MRT 쭤잉역(R16)은 1번 출구가 고속철, 2번 출구가 대만철도 신쭤잉역 쪽이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "시내로 갈 땐 레드라인",
+              "desc": "MRT 레드라인을 타면 미려도역 같은 시내 환승역으로 바로 이어져요. 짐을 맡길 곳이 필요하면 <a href=\"/blog-kaohsiung-formosa-boulevard-luggage-locker\">가오슝 미려도역 짐보관함</a> 글을 참고하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-zuoying-thsr-transfer-meal-1.jpg",
+          "caption": "臺鐵 신쭤잉역(新左營) 건물 외관이에요. 역 모습을 보여 주는 사진이고, 식당을 찍은 사진은 아니에요(사진: 玄史生 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 쭤잉역 환승 시간에 밥 먹을 곳"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "여유가 30분 이상이면 역 건물 쇼핑몰",
+              "desc": "Global Mall 신쭤잉역점은 대만철도 역 건물 1~4층에 있고, MRT 2번 출구로 나오면 바로 닿아요. 식당 구성은 바뀔 수 있으니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "바로 다음 열차라면 역 안 매장",
+              "desc": "시간이 빠듯하면 개찰구 근처 매장에서 간단히 사서 열차에서 먹는 편이 안전해요."
+            },
+            {
+              "mark": "✓",
+              "b": "캐리어가 있다면 동선부터 정하기",
+              "desc": "짐이 크면 식당을 오래 찾아다니기 힘들어요. 내릴 출구와 다시 탈 노선을 먼저 정하고 그 근처에서 먹는 게 편해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 가오슝식 판투안(飯糰), 아침으로 먹어볼까"
+        },
+        {
+          "type": "p",
+          "html": "판투안은 찹쌀밥 안에 여러 재료를 넣어 손으로 꼭 쥐어 만든 대만식 주먹밥이에요. 가오슝에서는 판투안을 아침 메뉴로 파는 아침 가게를 쉽게 볼 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "이른 아침에 가기",
+              "desc": "아침 가게는 일찍 열고 일찍 닫는 곳이 많아요. 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "재료는 골라서 주문",
+              "desc": "가게마다 넣는 재료와 크기가 달라요. 처음이면 기본 메뉴부터 시켜보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "열차에서 먹기 좋은 메뉴",
+              "desc": "손에 들고 먹기 편해서 이른 고속철을 타기 전에 사 가기 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가오슝에서 판투안을 파는 아침 가게는 <a href=\"/kaohsiung-breakfast\">가오슝 조식 맛집</a> 모음에서 볼 수 있고, 그중 <a href=\"/kaohsiung-breakfast-745\">류제 전통 판투안·단삥 전문점</a>도 정리돼 있어요. 다른 도시로 이어서 이동한다면 <a href=\"/blog-taichung-tainan-tra-vs-thsr\">타이중→타이난 대만철도 vs 고속철</a> 글을, 시내 맛집을 더 찾는다면 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>를 참고하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 台灣高鐵 쭤잉역 안내, 高雄捷運 R16 쭤잉역 안내, Global Mall 新左營車站店 안내를 바탕으로 2026년 10월 기준으로 정리했어요. 매장 구성과 영업시간은 바뀔 수 있으니 방문 전 구글맵에 등록된 영업시간을 확인하세요. 사진: 玄史生, Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 맛집도 확인해보세요",
+          "desc": "쭤잉역에서 시내로 나가기 전에 가오슝 맛집을 지도에 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Zuoying Station Food — THSR Transfers · My Secret Taiwan Eats",
+      "metaDescription": "How THSR Zuoying, TRA Xinzuoying and MRT R16 connect, where to grab a meal during a transfer, and what a Kaohsiung-style fantuan breakfast is.",
+      "ogTitle": "Zuoying Station in Kaohsiung: Where to Eat Between THSR, Train and MRT",
+      "eyebrow": "Kaohsiung Travel Guide · Transport & Food",
+      "title": "Zuoying Station in Kaohsiung: Where to Eat Between THSR, Train and MRT",
+      "dek": "Three lines share one building, so once you know your transfer time you can eat without leaving the station.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Transport & Food",
+      "intro": "\"Eat at Zuoying Station, or head straight into the city?\" It's a common question for travelers riding the high-speed rail down from Taipei to Kaohsiung. THSR, the Taiwan Railway (TRA) and the Kaohsiung MRT all meet in one building at Zuoying, so a meal fits easily into a transfer once you know the layout. This guide is based on official information from Taiwan High Speed Rail, Kaohsiung MRT and the station mall, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · At a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "THSR Zuoying",
+            "TRA Xinzuoying (新左營)",
+            "MRT Zuoying (R16)"
+          ],
+          "rows": [
+            {
+              "label": "Connection",
+              "values": [
+                "Direct transfer to TRA via the central 2F passage",
+                "Same building as the THSR station",
+                "Exit 1 for THSR, Exit 2 for TRA"
+              ]
+            },
+            {
+              "label": "Food",
+              "values": [
+                "Shops inside the station",
+                "Global Mall on 1F–4F of the station building",
+                "Exit 2 to Global Mall"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Catching the next train",
+                "Having 30+ minutes to spare",
+                "A meal before heading into the city"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · How the three Zuoying lines connect"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "THSR and TRA meet on 2F",
+              "desc": "According to Taiwan High Speed Rail, THSR Zuoying and TRA Xinzuoying share one building, and you can transfer directly through the central passage on the second floor."
+            },
+            {
+              "mark": "✓",
+              "b": "Use exit numbers for the MRT",
+              "desc": "At Kaohsiung MRT Zuoying (R16), Exit 1 leads to THSR and Exit 2 leads to TRA Xinzuoying."
+            },
+            {
+              "mark": "✓",
+              "b": "Take the Red Line into the city",
+              "desc": "The MRT Red Line runs straight to downtown transfer stations such as Formosa Boulevard. If you need to drop your bags, see <a href=\"/blog-kaohsiung-formosa-boulevard-luggage-locker\">Formosa Boulevard Station luggage lockers</a>."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-zuoying-thsr-transfer-meal-1.jpg",
+          "caption": "The TRA Xinzuoying Station building. It shows the station, not any restaurant (Photo: 玄史生 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Where to eat during a Zuoying transfer"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "30+ minutes: the station mall",
+              "desc": "Global Mall Xinzuoying occupies 1F–4F of the TRA station building and is right outside MRT Exit 2. The restaurant lineup can change, so check the current opening hours on Google Maps before you go."
+            },
+            {
+              "mark": "✓",
+              "b": "Next train soon: shops in the station",
+              "desc": "If time is tight, it's safer to grab something quick near the ticket gates and eat on the train."
+            },
+            {
+              "mark": "✓",
+              "b": "Plan your route first if you have luggage",
+              "desc": "Big suitcases make it hard to wander around looking for food. Decide which exit you'll use and which line you'll take next, then eat nearby."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Try a Kaohsiung-style fantuan (飯糰) for breakfast"
+        },
+        {
+          "type": "p",
+          "html": "Fantuan is a Taiwanese rice roll: sticky rice wrapped tightly by hand around a mix of fillings. In Kaohsiung, breakfast shops selling fantuan are easy to find."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Go early",
+              "desc": "Many breakfast shops open early and close early. Check the current opening hours on Google Maps before you go."
+            },
+            {
+              "mark": "✓",
+              "b": "Choose your fillings",
+              "desc": "Fillings and sizes vary by shop. If it's your first time, start with the basic option."
+            },
+            {
+              "mark": "✓",
+              "b": "Easy to eat on the train",
+              "desc": "It's easy to eat by hand, so it's a good thing to pick up before an early high-speed train."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "You can find Kaohsiung breakfast shops that sell fantuan in our <a href=\"/kaohsiung-breakfast\">Kaohsiung breakfast list</a>, including <a href=\"/kaohsiung-breakfast-745\">Liujie traditional fantuan and danbing shop</a>. If you're continuing to another city, see <a href=\"/blog-taichung-tainan-tra-vs-thsr\">Taichung to Tainan: TRA vs THSR</a>, and for more food in the city, open the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taiwan High Speed Rail's Zuoying Station page, Kaohsiung MRT's R16 Zuoying station page and Global Mall Xinzuoying's store information, as of October 2026. Shops and hours can change, so check the current opening hours on Google Maps before you go. Photo: 玄史生, Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung eats on the map",
+          "desc": "Before you leave Zuoying for the city, pin Kaohsiung spots on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    }
+  },
   "alishan-sun-moon-lake-where-to-eat": {
     "heroImage": "assets/images/blog/alishan-sun-moon-lake-where-to-eat-1.jpg",
     "ko": {
