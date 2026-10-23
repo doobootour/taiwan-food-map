@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kaohsiung-shoushan-zoo-tickets-kids-tips",
+    "image": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 관광·아이 동반",
+      "title": "서우산 동물원 가는 법, 입장료와 아이랑 갈 때 팁은?",
+      "desc": "가오슝 서우산 동물원을 아이와 가려는 여행자를 위해 56번 버스 타는 곳, 연령별 입장료와 결제 방법, 휴원일, 원숭이 주의점과 유모차·수유실 정보를 정리했어요.",
+      "meta": "가오슝 · 관광·아이 동반"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Sights · With Kids",
+      "title": "Shoushan Zoo, Kaohsiung: Getting There, Tickets and Tips with Kids",
+      "desc": "Taking kids to Kaohsiung's Shoushan Zoo? Where to catch bus 56, ticket prices by age, payment, closing days, macaque rules, and strollers and nursing rooms.",
+      "meta": "Kaohsiung · Sights · With Kids"
+    }
+  },
+  {
     "slug": "kaohsiung-light-rail-fare-art-museum",
     "image": "assets/images/blog/kaohsiung-light-rail-fare-art-museum-1.jpg",
     "regions": [
@@ -1220,6 +1239,389 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kaohsiung-shoushan-zoo-tickets-kids-tips": {
+    "heroImage": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
+    "ko": {
+      "pageTitle": "서우산 동물원 — 입장료·가는 법 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 서우산 동물원은 화~일 09:00~17:00에 열고 입장료는 NT$40이에요. 56번 버스 타는 곳, 아이·어르신 요금, 원숭이 주의점까지 정리했어요.",
+      "ogTitle": "서우산 동물원 가는 법, 입장료와 아이랑 갈 때 팁은?",
+      "eyebrow": "가오슝 여행 가이드 · 관광·아이 동반",
+      "title": "서우산 동물원 가는 법, 입장료와 아이랑 갈 때 팁은?",
+      "dek": "입장료는 NT$40, 월요일은 휴원 — 그리고 먹을 건 가방 안에. 이 세 가지만 챙기면 아이와 가기 편한 동물원입니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 관광·아이 동반",
+      "intro": "\"가오슝에서 아이랑 반나절 갈 만한 곳 없을까?\" 이런 고민이라면 서우산 동물원(壽山動物園)이 후보에 자주 오릅니다. 가오슝 서우산 동물원은 구산(鼓山)구 서우산 자락에 있어 시내에서 버스로 갈 수 있고, 입장료가 부담 없는 편이에요. 서우산 동물원 공식 사이트의 관람·교통·편의시설 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 서우산 동물원 운영 시간과 입장료, 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "내용 (2026년 10월 기준)"
+          ],
+          "rows": [
+            {
+              "label": "운영 시간",
+              "values": [
+                "화~일 09:00~17:00, 마지막 입장 16:30"
+              ]
+            },
+            {
+              "label": "휴원일",
+              "values": [
+                "매주 월요일·음력 섣달그믐(除夕). 월요일이 국경일이면 개원"
+              ]
+            },
+            {
+              "label": "일반",
+              "values": [
+                "NT$40"
+              ]
+            },
+            {
+              "label": "6세 이상 18세 미만",
+              "values": [
+                "NT$20 (증빙 확인)"
+              ]
+            },
+            {
+              "label": "무료",
+              "values": [
+                "6세 미만, 65세 이상 등 (증빙 확인)"
+              ]
+            },
+            {
+              "label": "주소",
+              "values": [
+                "高雄市鼓山區萬壽路350號"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "예약 없이 가도 되고, 현장 매표소나 자동발매기에서 표를 살 수 있어요. 미리 사고 싶다면 공식 안내에 나온 ibon·KKday·Klook 예매도 있습니다. 결제는 이카통(一卡通)·이지카드(悠遊卡)·신용카드·LINE Pay·아이캐시(愛金卡)·현금을 받아요. 반값·무료 요금은 증빙을 확인하니 아이와 어르신 여권을 챙기고, 매표소에서 적용 여부를 물어보세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 서우산 동물원 가는 법, 56번 버스가 가장 편해요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "가오슝역에서 출발",
+              "desc": "가오슝 기차역 앞 중산1로(中山一路, 325항 입구 근처) 정류장에서 동물원 전용 56번 버스를 탑니다."
+            },
+            {
+              "mark": "2",
+              "b": "MRT 옌청푸(鹽埕埔)역",
+              "desc": "오렌지선 옌청푸역 4번 출구로 나와 우푸4로(五福四路)로 오른쪽 약 10m, 화난은행(華南銀行) 앞 정류장에서 56번을 타요."
+            },
+            {
+              "mark": "3",
+              "b": "경전철 원우성뎬(文武聖殿)역",
+              "desc": "내려서 다궁로(大公路)를 따라 구산1로(鼓山一路)까지 간 뒤 오른쪽 약 50m 타이뎬(台電) 정류장에서 탑니다. 돌아올 때는 젠궈4로커우(建國四路口)에서 내려 250m 되돌아가면 경전철 서우산공원(壽山公園)역이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "배차는 평일 40분, 주말 20분",
+              "desc": "56번은 매일 08:30~17:30에 다니고, 주말·공휴일에는 옌청푸역에서 동물원까지 10~15분 간격 노선이 더해져요. 동물원이 쉬는 월요일에는 운행하지 않습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "219번은 걸어 올라가야 해요",
+              "desc": "219번 버스를 타면 구산행정센터(鼓山行政中心)에서 내려 완서우로(萬壽路) 오르막을 걸어야 하니, 아이나 어르신과 함께라면 56번이 낫습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
+          "caption": "서우산 동물원 안쪽 광장과 전망 엘리베이터 모습이에요. 2024년 2월에 찍힌 사진이라 지금과 조금 다를 수 있어요(사진: Yu tptw / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 아이랑 서우산 동물원 갈 때 알아두면 좋은 시설"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "시설",
+            "이용 방법 (2026년 10월 기준)"
+          ],
+          "rows": [
+            {
+              "label": "ZOO ZOO BUS 관람 열차",
+              "values": [
+                "09:20~16:20, 1회 약 15분, 1인 NT$70. 2세 이하 안긴 아기 무료, 키 120cm 이하는 어른 동반"
+              ]
+            },
+            {
+              "label": "어린이 목장 먹이 주기",
+              "values": [
+                "화~일 10:00~11:00·14:00~15:00, 비 오면 중단, 준비된 풀이 떨어지면 종료"
+              ]
+            },
+            {
+              "label": "물놀이 광장(親水廣場)",
+              "values": [
+                "야외 물놀이 공간, 매주 목요일 오전은 청소로 휴장"
+              ]
+            },
+            {
+              "label": "서비스센터",
+              "values": [
+                "입구 쪽, 유모차·휠체어·원숭이 방지 배낭 대여, 수유실 3실"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "화장실은 서비스센터·물놀이 광장·사자 우리 옆 등 6곳에 있어요. 물놀이 광장은 날씨와 점검에 따라 운영이 바뀔 수 있으니, 아이 여벌옷을 챙기기 전에 공식 사이트 최신 소식을 한 번 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 원숭이 주의, 먹을 건 가방 안에"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "음식은 꺼내지 않기",
+              "desc": "서우산에는 야생 원숭이(마카크)가 많아 동물원 안에서도 가까이 마주쳐요. 먹을 것은 가방 속에 넣고, 손에 들거나 유모차에 걸지 마세요."
+            },
+            {
+              "mark": "✓",
+              "b": "걸으면서 먹지 않기",
+              "desc": "식사는 실내에서 하라는 게 공식 안내예요. 식당 주변이 원숭이가 자주 나오는 곳이라 더 조심하는 게 좋습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "빼앗기면 그냥 놓기",
+              "desc": "원숭이가 음식을 낚아채면 당기지 말고 손을 놓으세요. 눈을 오래 마주치지 않는 것도 공식 수칙이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "반입 금지 물건",
+              "desc": "반려동물(가방 속도 안 돼요), 자전거·유아 세발자전거·킥보드·인라인은 들어갈 수 없고, 동물원 전체가 금연입니다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "56번 버스는 경전철 원우성뎬(文武聖殿)역 근처에서도 탈 수 있으니, 경전철 표 사는 법은 <a href=\"/blog-kaohsiung-light-rail-fare-art-museum\">가오슝 경전철 타는 법</a> 글을 같이 보세요. 같은 날 경전철로 <a href=\"/kaohsiung-attraction-295\">가오슝시립미술관</a>까지 묶어도 좋고, 타이베이 일정에도 동물원이 있다면 <a href=\"/blog-taipei-zoo-shuttle-train-route\">타이베이 동물원 셔틀·입장료</a> 글이 도움이 돼요. 동물원 전후로 들를 곳은 <a href=\"/kaohsiung-attraction\">가오슝 체험·관광지</a>와 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 골라 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 서우산 동물원 공식 사이트의 관람 정보(운영 시간·입장료·예매·결제·교통·주차), 관람 수칙, 서비스·편의시설 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 운영 내용은 바뀔 수 있으니 방문 전 공식 사이트를 다시 확인하는 것을 추천해요. 사진: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 가볼 곳도 확인해보세요",
+          "desc": "동물원 오가는 길에 들를 곳을 미리 찜해 두면 반나절 일정을 짜기 편해요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung&cat=attraction"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Shoushan Zoo Kaohsiung — Tickets and Getting There · My Secret Taiwan Eats",
+      "metaDescription": "Kaohsiung's Shoushan Zoo opens Tue–Sun 09:00–17:00 and costs NT$40. Where to catch bus 56, child and senior tickets, and how to keep food away from the macaques.",
+      "ogTitle": "Shoushan Zoo, Kaohsiung: Getting There, Tickets and Tips with Kids",
+      "eyebrow": "Kaohsiung Travel Guide · Sights · With Kids",
+      "title": "Shoushan Zoo, Kaohsiung: Getting There, Tickets and Tips with Kids",
+      "dek": "NT$40 to get in, closed on Mondays — and keep your snacks in your bag. Remember those three things and it's an easy zoo to do with kids.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Sights · With Kids",
+      "intro": "\"Is there somewhere in Kaohsiung we can take the kids for half a day?\" Shoushan Zoo (壽山動物園) often comes up. It sits on Shoushan hill in Gushan (鼓山) District, is reachable by city bus, and admission is cheap. This guide is based on the zoo's official visitor, transport and facilities information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Shoushan Zoo hours and tickets at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Details (as of October 2026)"
+          ],
+          "rows": [
+            {
+              "label": "Hours",
+              "values": [
+                "Tue–Sun 09:00–17:00, last entry 16:30"
+              ]
+            },
+            {
+              "label": "Closed",
+              "values": [
+                "Mondays and Lunar New Year's Eve (除夕); open if a Monday is a national holiday"
+              ]
+            },
+            {
+              "label": "Standard",
+              "values": [
+                "NT$40"
+              ]
+            },
+            {
+              "label": "Age 6 to under 18",
+              "values": [
+                "NT$20 (ID checked)"
+              ]
+            },
+            {
+              "label": "Free",
+              "values": [
+                "Under 6, 65 and over, and others (ID checked)"
+              ]
+            },
+            {
+              "label": "Address",
+              "values": [
+                "高雄市鼓山區萬壽路350號"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "No booking is needed: buy at the ticket booth or a ticket machine on the day. To buy ahead, the official site lists ibon, KKday and Klook. Payment by iPASS (一卡通), EasyCard (悠遊卡), credit card, LINE Pay, iCash (愛金卡) or cash. Reduced and free tickets require ID, so bring passports for kids and seniors and ask at the booth whether they apply."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Getting to Shoushan Zoo: bus 56 is easiest"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "From Kaohsiung Station",
+              "desc": "Catch the zoo bus 56 on Zhongshan 1st Rd (中山一路, near Lane 325) in front of Kaohsiung railway station."
+            },
+            {
+              "mark": "2",
+              "b": "MRT Yanchengpu (鹽埕埔)",
+              "desc": "Leave Orange Line Yanchengpu by Exit 4, turn right onto Wufu 4th Rd (五福四路) for about 10 m, and board bus 56 at the stop in front of Hua Nan Bank (華南銀行)."
+            },
+            {
+              "mark": "3",
+              "b": "Light rail Wenwu Temple (文武聖殿)",
+              "desc": "Walk along Dagong Rd (大公路) to Gushan 1st Rd (鼓山一路), turn right and go about 50 m to the Taipower (台電) stop. On the way back, get off at Jianguo 4th Rd (建國四路口) and walk 250 m back to Shoushan Park (壽山公園) light rail station."
+            },
+            {
+              "mark": "✓",
+              "b": "Every 40 min weekdays, 20 min weekends",
+              "desc": "Bus 56 runs daily 08:30–17:30, with an extra Yanchengpu-to-zoo service every 10–15 minutes on weekends and holidays. It does not run on Mondays, when the zoo is closed."
+            },
+            {
+              "mark": "✓",
+              "b": "Bus 219 means an uphill walk",
+              "desc": "From bus 219 you get off at Gushan District Office (鼓山行政中心) and walk up Wanshou Rd (萬壽路), so with kids or older parents bus 56 is the better choice."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
+          "caption": "The plaza and viewing lift inside Shoushan Zoo. The photo is from February 2024, so things may look slightly different today (photo: Yu tptw / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Facilities worth knowing with kids"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Facility",
+            "How it works (as of October 2026)"
+          ],
+          "rows": [
+            {
+              "label": "ZOO ZOO BUS tour tram",
+              "values": [
+                "09:20–16:20, about 15 min per ride, NT$70 per person. Free for babies 2 and under on a lap; children 120 cm and under ride with an adult"
+              ]
+            },
+            {
+              "label": "Children's farm feeding",
+              "values": [
+                "Tue–Sun 10:00–11:00 and 14:00–15:00, cancelled in rain, ends when the hay runs out"
+              ]
+            },
+            {
+              "label": "Water play plaza (親水廣場)",
+              "values": [
+                "Outdoor splash area, closed Thursday mornings for cleaning"
+              ]
+            },
+            {
+              "label": "Service centre",
+              "values": [
+                "By the entrance: stroller, wheelchair and anti-monkey backpack rental, 3 nursing rooms"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "There are six toilet blocks, including by the service centre, the water play plaza and the lion enclosure. The water play plaza can change with weather and maintenance, so check the latest news on the official site before packing spare clothes."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Watch out for the macaques: keep food in your bag"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Keep food out of sight",
+              "desc": "Shoushan has many wild macaques, and you'll meet them up close inside the zoo too. Keep food in your bag, not in your hand or hanging from the stroller."
+            },
+            {
+              "mark": "✓",
+              "b": "Don't eat while walking",
+              "desc": "The official advice is to eat indoors. The restaurant area is a macaque hotspot, so take extra care there."
+            },
+            {
+              "mark": "✓",
+              "b": "If one grabs, let go",
+              "desc": "If a macaque snatches food, let go rather than pulling back. Avoiding long eye contact is also an official rule."
+            },
+            {
+              "mark": "✓",
+              "b": "Not allowed in",
+              "desc": "No pets (not even in a bag), and no bicycles, toddler tricycles, scooters or inline skates. The whole zoo is non-smoking."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Bus 56 also stops near Wenwu Temple (文武聖殿) light rail station, so see <a href=\"/blog-kaohsiung-light-rail-fare-art-museum\">how to ride the Kaohsiung Light Rail</a> for tickets. You can pair the zoo with the <a href=\"/kaohsiung-attraction-295\">Kaohsiung Museum of Fine Arts</a> by light rail, and if Taipei is on your trip too, read our <a href=\"/blog-taipei-zoo-shuttle-train-route\">Taipei Zoo shuttle and tickets</a> guide. For stops before or after the zoo, browse <a href=\"/kaohsiung-attraction\">Kaohsiung attractions</a> and the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Shoushan Zoo's official visitor information (hours, tickets, booking, payment, transport and parking), visitor rules, and services and facilities pages, as of October 2026. Details can change, so check the official site again before you go. Photo: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find places to visit in Kaohsiung on the map",
+          "desc": "Pin spots on the way to and from the zoo so your half-day plan is easy.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung&cat=attraction"
+        }
+      ]
+    }
+  },
   "kaohsiung-light-rail-fare-art-museum": {
     "heroImage": "assets/images/blog/kaohsiung-light-rail-fare-art-museum-1.jpg",
     "ko": {
