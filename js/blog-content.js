@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kaohsiung-light-rail-fare-art-museum",
+    "image": "assets/images/blog/kaohsiung-light-rail-fare-art-museum-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 교통·경전철",
+      "title": "가오슝 경전철 타는 법, 요금·결제와 미술관 가는 길은?",
+      "desc": "가오슝 경전철 순환선을 처음 타는 여행자를 위해 거리별 요금, 동전 단일권과 교통카드 차이, 운행 간격, 미술관역에서 시립미술관 가는 길과 휴관일을 정리했어요.",
+      "meta": "가오슝 · 교통·경전철"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Transport · Light Rail",
+      "title": "Kaohsiung Light Rail: Fares, Payment and Getting to the Museum of Fine Arts",
+      "desc": "First time on Kaohsiung's circular light rail? Fares by distance, coin tickets vs transit cards, frequencies, and how to reach the Museum of Fine Arts and when it's closed.",
+      "meta": "Kaohsiung · Transport · Light Rail"
+    }
+  },
+  {
     "slug": "pingxi-line-ruifang-houtong-shifen",
     "image": "assets/images/blog/pingxi-line-ruifang-houtong-shifen-1.jpg",
     "regions": [
@@ -1201,6 +1220,423 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kaohsiung-light-rail-fare-art-museum": {
+    "heroImage": "assets/images/blog/kaohsiung-light-rail-fare-art-museum-1.jpg",
+    "ko": {
+      "pageTitle": "가오슝 경전철 — 요금·미술관 가는 법 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 경전철은 거리에 따라 NT$20~35이고, 동전 단일권이나 교통카드로 타요. 운행 간격, 타고 내릴 때 찍는 법, 시립미술관 휴관일과 입장료를 정리했어요.",
+      "ogTitle": "가오슝 경전철 타는 법, 요금·결제와 미술관 가는 길은?",
+      "eyebrow": "가오슝 여행 가이드 · 교통·경전철",
+      "title": "가오슝 경전철 타는 법, 요금·결제와 미술관 가는 길은?",
+      "dek": "동전 아니면 교통카드, 그리고 타고 내릴 때 한 번씩 — 이 두 가지만 기억하면 순환선이 어렵지 않습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 교통·경전철",
+      "intro": "\"보얼에서 미술관까지 경전철 타면 되는데, 표는 어떻게 사지?\" 가오슝 서쪽 일정을 짜다 보면 꼭 나오는 질문이에요. 가오슝 경전철(高雄輕軌)은 시내를 한 바퀴 도는 순환선이라 보얼(駁二)·하마싱(哈瑪星)·시립미술관·아이허(愛河)를 한 노선으로 이어 줍니다. 가오슝 메트로(高雄捷運, KRTC)의 경전철 요금·승차 방법·시간표 공식 안내와 가오슝시립미술관(高美館) 공식 관람 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 가오슝 경전철 요금과 걸리는 시간, 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구간(→ C21 미술관역)",
+            "걸리는 시간",
+            "요금(단일권·교통카드)"
+          ],
+          "rows": [
+            {
+              "label": "C24 아이허즈신(愛河之心)",
+              "values": [
+                "약 7분",
+                "NT$20"
+              ]
+            },
+            {
+              "label": "C14 하마싱(哈瑪星)",
+              "values": [
+                "약 18분",
+                "NT$20"
+              ]
+            },
+            {
+              "label": "C12 보얼다이(駁二大義)",
+              "values": [
+                "약 22분",
+                "NT$25"
+              ]
+            },
+            {
+              "label": "C9 뤼윈중신(旅運中心)",
+              "values": [
+                "약 28분",
+                "NT$30"
+              ]
+            },
+            {
+              "label": "C5 멍스다이(夢時代)",
+              "values": [
+                "약 38분",
+                "NT$35"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "표는 가오슝 메트로 공식 사이트의 요금·소요 시간 조회로 뽑은 값이에요(2026년 10월 기준). 경전철은 2024년부터 거리 요금제로 바뀌어 5km까지 NT$20, 2km마다 NT$5씩 올라 9km를 넘으면 최고 NT$35입니다. 그래서 요금은 NT$20·25·30·35 네 가지뿐이고, 공식 조회 기준 단일권과 일반 교통카드 요금은 같아요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 가오슝 경전철 결제, 동전 단일권 vs 교통카드"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "단일권은 동전만 받아요",
+              "desc": "정류장 자동판매기는 단일권만 팔고 지폐를 받지 않으니 동전을 미리 준비하세요. 한 사람당 한 장이고, 산 뒤 120분 안에 써야 합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "교통카드는 이카통·이지카드·아이캐시",
+              "desc": "이카통(一卡通 iPASS)·이지카드(悠遊卡)·아이캐시(愛金卡)를 쓸 수 있어요. 타이베이에서 쓰던 이지카드를 그대로 가져가면 동전 걱정이 없습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "카드 잔액은 미리 충전",
+              "desc": "정류장 개찰기의 자동 충전은 교통카드 기능이 붙은 대만 신용카드에서 자동충전을 켜 둔 경우에만 돼요. 일반 교통카드는 편의점 같은 충전처에서 미리 채워 두세요."
+            },
+            {
+              "mark": "✓",
+              "b": "6세 미만은 무료",
+              "desc": "공식 안내 기준 6세 미만 아이는 표를 산 어른과 함께 타면 무료예요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-light-rail-fare-art-museum-1.jpg",
+          "caption": "보얼(駁二) 예술특구 옆 선로를 달리는 가오슝 경전철 열차예요. 2025년 3월에 찍힌 사진이라 지금 모습과 조금 다를 수 있어요(사진: Takeshi Aida / Wikimedia Commons, CC BY-SA 2.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 순환선 타는 법, 운행 간격과 찍는 순서"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "방향부터 고르기",
+              "desc": "순환선이라 C1 리쯔네이(籬仔內)에서 순행(順行)과 역행(逆行) 두 방향으로 출발해요. 공식 조회 기준 하마싱·보얼에서 미술관 쪽은 순행, 아이허즈신에서는 역행 승강장이라 정류장 표지를 보고 타면 됩니다."
+            },
+            {
+              "mark": "2",
+              "b": "탈 때·내릴 때 모두 찍기",
+              "desc": "교통카드는 승강장 개찰기에 들어갈 때 한 번, 나올 때 한 번 찍어야 해요. 나올 때 안 찍으면 카드가 잠기고, 다음 운행일에 최고 요금 NT$35에 초과 요금 NT$20을 더한 NT$55가 빠집니다."
+            },
+            {
+              "mark": "3",
+              "b": "문은 버튼을 눌러 열기",
+              "desc": "열차가 서면 타고 내리는 사람이 직접 문 옆 버튼을 눌러야 열려요. 차 안에서는 먹고 마시는 게 금지라 음료는 내리기 전까지 넣어 두세요."
+            },
+            {
+              "mark": "4",
+              "b": "운행 간격은 10~15분",
+              "desc": "운행 시간은 C1 출발 기준 06:30~22:30이고, 평일 06:30~08:30·16:30~18:30과 주말 14:00~18:00은 10분, 나머지 시간은 15분 간격이에요(2026년 10월 기준). 태풍 때는 간격이 바뀌기도 해서, 2026년 10월 23일에는 하루 종일 20분 간격으로 다녔습니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 시립미술관 들르기, 휴관일과 입장료"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "내용(2026년 10월 기준)"
+          ],
+          "rows": [
+            {
+              "label": "가까운 정류장",
+              "values": [
+                "C21 미술관(美術館)역, 주차장을 지나 걸어서 약 5~8분"
+              ]
+            },
+            {
+              "label": "관람 시간",
+              "values": [
+                "화~일 09:30~17:30, 매표 09:30~17:00"
+              ]
+            },
+            {
+              "label": "휴관일",
+              "values": [
+                "매주 월요일, 음력 섣달그믐(除夕)"
+              ]
+            },
+            {
+              "label": "입장료",
+              "values": [
+                "일반 NT$90, 대학생 이상 학생증 NT$45, 특별전은 별도 표"
+              ]
+            },
+            {
+              "label": "주소",
+              "values": [
+                "高雄市鼓山區美術館路80號(관람 입구는 美術東二路 쪽)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "월요일은 피하기",
+              "desc": "미술관은 월요일에 문을 닫아요. 경전철 일정 중 미술관을 넣을 거라면 화~일요일로 잡으세요."
+            },
+            {
+              "mark": "✓",
+              "b": "큰 짐은 맡기고 입장",
+              "desc": "A3보다 큰 가방이나 캐리어는 맡겨야 해요. 안내 데스크에서 큰 짐을 받아 주고, 지하에 무료 코인 보관함이 있습니다. 전시실 안에서는 물을 포함해 먹고 마시는 것도 안 돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "아이와 함께라면 C21A역",
+              "desc": "어린이미술관(兒童美術館)은 바로 다음 정류장인 C21A 네이웨이 예술센터(內惟藝術中心)역에서 걸어서 약 8~10분이에요. 운영 시간이 본관과 다르니 공식 안내를 한 번 더 보세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가오슝 시내 동선을 더 짜고 있다면 공항 가는 날 짐 맡길 곳을 정리한 <a href=\"/blog-kaohsiung-formosa-boulevard-luggage-locker\">가오슝 미려도역 짐보관함</a> 글과, 경전철 하마싱역 근처 구산 선착장에서 배를 타는 <a href=\"/blog-kaohsiung-cijin-ferry-gushan-vs-zhongzhou\">가오슝 치진섬 페리</a> 글도 함께 보세요. 미술관 정보는 <a href=\"/kaohsiung-attraction-295\">가오슝시립미술관</a> 페이지에, 옆 정류장 근처 <a href=\"/kaohsiung-attraction-neiwei-arts-center-296\">네이웨이 예술센터(Neiwei Arts Center)</a>는 따로 정리돼 있어요. 연선에서 들를 곳은 <a href=\"/kaohsiung-attraction\">가오슝 체험·관광지</a>와 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 골라 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 가오슝 메트로(高雄捷運) 공식 사이트의 경전철 요금·소요 시간 조회, 승차 방법, 단일권, 경전철 요금 Q&A, 첫차·막차와 운행 간격 안내, 2026년 10월 23일 태풍 운행 공지와 가오슝시립미술관 공식 관람 시간·관람료·교통 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금과 운행은 바뀔 수 있으니 방문 전에 공식 사이트를 다시 확인하는 것을 추천해요. 사진: Takeshi Aida, Wikimedia Commons, CC BY-SA 2.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 경전철 연선 가볼 곳도 확인해보세요",
+          "desc": "미술관·보얼 근처 들를 곳을 미리 찜해 두면 순환선 일정을 짜기 편해요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung&cat=attraction"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Kaohsiung Light Rail — Fares and Museum Access · My Secret Taiwan Eats",
+      "metaDescription": "Kaohsiung Light Rail costs NT$20–35 by distance, paid by coin ticket or transit card. Frequencies, tapping in and out, and the Museum of Fine Arts hours and tickets.",
+      "ogTitle": "Kaohsiung Light Rail: Fares, Payment and Getting to the Museum of Fine Arts",
+      "eyebrow": "Kaohsiung Travel Guide · Transport · Light Rail",
+      "title": "Kaohsiung Light Rail: Fares, Payment and Getting to the Museum of Fine Arts",
+      "dek": "Coins or a transit card, and tap once on and once off — remember those two things and the loop line is easy.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Transport · Light Rail",
+      "intro": "\"I'll take the light rail from Pier-2 to the art museum — but how do I buy a ticket?\" It's a question that comes up whenever you plan western Kaohsiung. The Kaohsiung Light Rail (高雄輕軌) is a circular line around the city that links Pier-2 (駁二), Hamasen (哈瑪星), the Museum of Fine Arts and the Love River (愛河). This guide is based on Kaohsiung Rapid Transit (KRTC)'s official fare, riding and timetable information and the Kaohsiung Museum of Fine Arts (KMFA)'s official visitor information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Kaohsiung Light Rail fares and journey times at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "From (→ C21 Museum of Fine Arts)",
+            "Journey time",
+            "Fare (ticket or card)"
+          ],
+          "rows": [
+            {
+              "label": "C24 Heart of Love River (愛河之心)",
+              "values": [
+                "about 7 min",
+                "NT$20"
+              ]
+            },
+            {
+              "label": "C14 Hamasen (哈瑪星)",
+              "values": [
+                "about 18 min",
+                "NT$20"
+              ]
+            },
+            {
+              "label": "C12 Pier-2 Dayi (駁二大義)",
+              "values": [
+                "about 22 min",
+                "NT$25"
+              ]
+            },
+            {
+              "label": "C9 Cruise Terminal (旅運中心)",
+              "values": [
+                "about 28 min",
+                "NT$30"
+              ]
+            },
+            {
+              "label": "C5 Dream Mall (夢時代)",
+              "values": [
+                "about 38 min",
+                "NT$35"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "These figures come from the fare and journey-time search on KRTC's official site (as of October 2026). Since 2024 the light rail has charged by distance: NT$20 up to 5 km, then NT$5 more every 2 km, capped at NT$35 beyond 9 km. So there are only four fares — NT$20, 25, 30 and 35 — and in the official search a single-journey ticket and a regular transit card cost the same."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Paying for the Kaohsiung Light Rail: coin ticket vs transit card"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Single tickets take coins only",
+              "desc": "Station machines only sell single-journey tickets and don't accept notes, so carry coins. It's one ticket per person, valid for 120 minutes after purchase."
+            },
+            {
+              "mark": "✓",
+              "b": "Transit cards: iPASS, EasyCard, icash",
+              "desc": "iPASS (一卡通), EasyCard (悠遊卡) and icash (愛金卡) all work. Bring the EasyCard you used in Taipei and you won't need coins."
+            },
+            {
+              "mark": "✓",
+              "b": "Top up before you ride",
+              "desc": "Validators only auto top-up Taiwanese credit cards with a built-in transit-card function and auto-reload switched on. Top up a regular transit card in advance, for example at a convenience store."
+            },
+            {
+              "mark": "✓",
+              "b": "Under-6s ride free",
+              "desc": "According to the official guide, children under six ride free with a paying adult."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-light-rail-fare-art-museum-1.jpg",
+          "caption": "A Kaohsiung Light Rail tram running beside the Pier-2 Art Center. The photo is from March 2025, so things may look slightly different today (photo: Takeshi Aida / Wikimedia Commons, CC BY-SA 2.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Riding the loop: frequencies and when to tap"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Pick your direction",
+              "desc": "Trains leave C1 Lizihnei (籬仔內) in two directions, clockwise (順行) and anticlockwise (逆行). In the official search, Hamasen and Pier-2 use the 順行 platform towards the museum and Heart of Love River uses the 逆行 platform, so follow the signs at the stop."
+            },
+            {
+              "mark": "2",
+              "b": "Tap on and tap off",
+              "desc": "With a transit card, tap the platform validator when you enter and again when you leave. Forget to tap off and the card is locked; next operating day you're charged the top fare of NT$35 plus a NT$20 overtime fee — NT$55."
+            },
+            {
+              "mark": "3",
+              "b": "Press the button to open the doors",
+              "desc": "When the tram stops, passengers press the button by the door themselves. Eating and drinking are banned on board, so keep drinks packed away."
+            },
+            {
+              "mark": "4",
+              "b": "Every 10–15 minutes",
+              "desc": "Service runs 06:30–22:30 from C1. Trains come every 10 minutes on weekdays 06:30–08:30 and 16:30–18:30 and weekends 14:00–18:00, and every 15 minutes otherwise (as of October 2026). Typhoons can change this — on 23 October 2026 trains ran every 20 minutes all day."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Visiting the Museum of Fine Arts: closing days and tickets"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Details (as of October 2026)"
+          ],
+          "rows": [
+            {
+              "label": "Nearest stop",
+              "values": [
+                "C21 Museum of Fine Arts (美術館), about 5–8 min on foot through the car park"
+              ]
+            },
+            {
+              "label": "Opening hours",
+              "values": [
+                "Tue–Sun 09:30–17:30, ticket sales 09:30–17:00"
+              ]
+            },
+            {
+              "label": "Closed",
+              "values": [
+                "Every Monday and Lunar New Year's Eve (除夕)"
+              ]
+            },
+            {
+              "label": "Admission",
+              "values": [
+                "NT$90 standard, NT$45 for university students with ID, special exhibitions ticketed separately"
+              ]
+            },
+            {
+              "label": "Address",
+              "values": [
+                "高雄市鼓山區美術館路80號 (exhibition entrance on 美術東二路)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Avoid Mondays",
+              "desc": "The museum is closed on Mondays, so put it on a Tuesday-to-Sunday light rail day."
+            },
+            {
+              "mark": "✓",
+              "b": "Check in big bags",
+              "desc": "Bags larger than A3 and suitcases must be checked. The information desk takes large luggage and there are free coin lockers in the basement. No food or drink, including water, in the galleries."
+            },
+            {
+              "mark": "✓",
+              "b": "With kids, use C21A",
+              "desc": "The Children's Art Museum (兒童美術館) is about 8–10 minutes on foot from the next stop, C21A Neiwei Arts Center (內惟藝術中心). Its hours differ from the main building, so check the official page again."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Planning more of Kaohsiung? See where to leave bags on your airport day in <a href=\"/blog-kaohsiung-formosa-boulevard-luggage-locker\">Formosa Boulevard Station lockers</a>, and catch a boat near the Hamasen light rail stop with our <a href=\"/blog-kaohsiung-cijin-ferry-gushan-vs-zhongzhou\">Cijin Island ferry</a> guide. The museum has its own <a href=\"/kaohsiung-attraction-295\">Kaohsiung Museum of Fine Arts</a> page, and the <a href=\"/kaohsiung-attraction-neiwei-arts-center-296\">Neiwei Arts Center</a> by the next stop is listed too. For stops along the line, browse <a href=\"/kaohsiung-attraction\">Kaohsiung attractions</a> and the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on KRTC (高雄捷運)'s official light rail fare and journey-time search, riding guide, single-ticket page, fare Q&A, first/last train and frequency information, its 23 October 2026 typhoon service notice, and the Kaohsiung Museum of Fine Arts' official opening hours, admission and transport pages, as of October 2026. Fares and services can change, so check the official sites again before you go. Photo: Takeshi Aida, Wikimedia Commons, CC BY-SA 2.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find places along the light rail on the map",
+          "desc": "Pin spots near the museum and Pier-2 so your loop-line day is easy to plan.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung&cat=attraction"
+        }
+      ]
+    }
+  },
   "pingxi-line-ruifang-houtong-shifen": {
     "heroImage": "assets/images/blog/pingxi-line-ruifang-houtong-shifen-1.jpg",
     "ko": {
