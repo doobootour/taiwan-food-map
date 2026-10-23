@@ -19,6 +19,26 @@
 
 const BLOG_LIST = [
   {
+    "slug": "pingxi-line-ruifang-houtong-shifen",
+    "image": "assets/images/blog/pingxi-line-ruifang-houtong-shifen-1.jpg",
+    "regions": [
+      "jiufen",
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 근교 여행 가이드 · 교통·기차",
+      "title": "핑시선 기차 타는 법, 루이팡 환승·허우통·스펀 순서는?",
+      "desc": "투어 없이 기차로 가는 핑시선 — 타이베이에서 루이팡 환승, 허우통·스펀·징퉁 순서, 구간별 시간·요금, 1일권이 이득인 경우와 막차 확인법을 정리했어요.",
+      "meta": "타이베이 근교 · 교통·기차"
+    },
+    "en": {
+      "eyebrow": "Taipei Day Trip Guide · Trains",
+      "title": "Pingxi Line by Train: Ruifang Transfer, Houtong and Shifen in Order",
+      "desc": "The Pingxi Line without a tour — transferring at Ruifang, the Houtong–Shifen–Jingtong order, times and fares per leg, when the day pass pays off and last trains.",
+      "meta": "Taipei Outskirts · Trains"
+    }
+  },
+  {
     "slug": "kaohsiung-cijin-ferry-gushan-vs-zhongzhou",
     "image": "assets/images/blog/kaohsiung-cijin-ferry-gushan-vs-zhongzhou-1.jpg",
     "regions": [
@@ -1181,6 +1201,369 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "pingxi-line-ruifang-houtong-shifen": {
+    "heroImage": "assets/images/blog/pingxi-line-ruifang-houtong-shifen-1.jpg",
+    "ko": {
+      "pageTitle": "핑시선 기차 — 루이팡 환승·스펀 순서 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "핑시선 기차는 루이팡에서 갈아타 허우통·스펀·징퉁을 차례로 돌 수 있어요. 구간별 시간과 요금, 1일권 계산법, 막차와 운행 상태 확인법을 정리했어요.",
+      "ogTitle": "핑시선 기차 타는 법, 루이팡 환승·허우통·스펀 순서는?",
+      "eyebrow": "타이베이 근교 여행 가이드 · 교통·기차",
+      "title": "핑시선 기차 타는 법, 루이팡 환승·허우통·스펀 순서는?",
+      "dek": "열차는 대략 한 시간에 한 대 — 내릴 역 순서와 막차만 정해 두면 투어 없이도 하루가 충분합니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 근교 · 교통·기차",
+      "intro": "\"예스지 투어 말고 기차로 스펀까지 가도 될까?\" 근교 일정을 짜다 보면 한 번쯤 드는 고민이에요. 핑시선 기차는 타이베이에서 루이팡(瑞芳)까지 간 뒤 갈아타면, 허우통(猴硐)·스펀(十分)·핑시(平溪)·징퉁(菁桐)을 한 노선으로 이어서 돌 수 있습니다. 대만철도(台鐵) 공식 시간표·운임 조회와 1일권 안내, 신베이시 관광 사이트(新北市觀光旅遊網)를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 핑시선 기차 구간별 시간과 요금, 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구간",
+            "걸리는 시간",
+            "1회 요금(어른)"
+          ],
+          "rows": [
+            {
+              "label": "타이베이 → 루이팡(區間車)",
+              "values": [
+                "약 45~55분",
+                "NT$73"
+              ]
+            },
+            {
+              "label": "타이베이 → 허우통(區間車)",
+              "values": [
+                "약 55분",
+                "NT$83"
+              ]
+            },
+            {
+              "label": "루이팡 → 허우통",
+              "values": [
+                "약 6분",
+                "NT$22"
+              ]
+            },
+            {
+              "label": "허우통 → 스펀",
+              "values": [
+                "약 20분",
+                "NT$22"
+              ]
+            },
+            {
+              "label": "스펀 → 징퉁",
+              "values": [
+                "약 18분",
+                "NT$22"
+              ]
+            },
+            {
+              "label": "징퉁 → 루이팡",
+              "values": [
+                "약 50~60분",
+                "NT$44"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "표는 대만철도 공식 시간표 조회에서 2026년 10월 31일(토) 열차로 뽑은 값이고, 요금은 어른 1회 요금이에요(2026년 10월 기준). 루이팡에서 징퉁 방면 핑시선 열차는 이른 아침부터 밤까지 대략 한 시간에 한 대씩 있고, 시간대에 따라 간격이 한 시간 반 가까이 벌어지기도 합니다. 그래서 역마다 머무는 시간은 다음 열차 시각에 맞춰 정하는 편이 좋아요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 루이팡 환승부터 허우통·스펀까지, 타는 순서"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "타이베이역에서 區間車로 루이팡까지",
+              "desc": "지정석 없는 區間車는 이지카드(悠遊卡) 같은 교통카드를 찍고 바로 탈 수 있어요. 대만철도 규정상 교통카드는 핑시선을 포함한 지선에서도 쓸 수 있습니다."
+            },
+            {
+              "mark": "2",
+              "b": "행선지 菁桐을 보고 갈아타기",
+              "desc": "핑시선 열차는 루이팡에서 출발하기도 하고, 바두(八堵)나 바더우쯔(八斗子)에서 출발해 루이팡을 지나가기도 해요. 출발역이 달라도 행선지가 징퉁(菁桐)이면 같은 핑시선 열차입니다."
+            },
+            {
+              "mark": "3",
+              "b": "허우통을 먼저 들르기",
+              "desc": "허우통은 루이팡에서 약 6분 거리이고, 타이베이에서 오는 區間車도 서는 역이에요. 신베이시 관광 사이트에 따르면 고양이 마을(猴硐貓村)이 역 바로 옆에 있어서, 가장 먼저 들르고 다음 핑시선 열차로 스펀에 가면 동선이 깔끔합니다."
+            },
+            {
+              "mark": "4",
+              "b": "스펀에서 핑시·징퉁으로",
+              "desc": "스펀은 핑시선에서 가장 큰 역이고, 옛거리 한가운데로 열차가 지나가는 풍경과 천등(天燈)으로 알려져 있어요. 그 뒤 핑시·징퉁 옛거리를 보고 징퉁에서 루이팡 방면 열차로 돌아오면 같은 길을 되짚지 않아도 됩니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/pingxi-line-ruifang-houtong-shifen-1.jpg",
+          "caption": "스펀 옛거리 한가운데를 지나는 핑시선 열차예요. 2016년에 찍힌 사진이라 지금 다니는 열차·거리 모습과 다를 수 있어요(사진: Cassiopeia sweet / Wikimedia Commons, 퍼블릭 도메인)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 핑시선 1일권, 사는 게 이득일까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "1일권은 어른 NT$120",
+              "desc": "대만철도 공식 안내 기준 핑시선·선아오선 1일권(平溪線/深澳雙支線一日週遊券)은 어른 NT$120, 우대 NT$60이에요. 바더우쯔–루이팡–징퉁 구간 안에서 그날 하루 횟수 제한 없이 타고 내릴 수 있습니다(2026년 10월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "네 번 타면 낱장이 더 싸요",
+              "desc": "루이팡→허우통→스펀→징퉁→루이팡처럼 네 번 타면 낱장 요금 합계가 NT$110(22+22+22+44)이라 1일권보다 싸요. 여기에 핑시역을 한 번 더 끼워 다섯 번 타면 NT$132가 되어 1일권이 이득입니다."
+            },
+            {
+              "mark": "✓",
+              "b": "타이베이–루이팡 구간은 따로",
+              "desc": "1일권은 바더우쯔–루이팡–징퉁 구간 전용이라 타이베이에서 루이팡까지 가는 요금은 따로 내야 해요. 타이베이·반차오·쑹산역과 루이팡·허우통·스펀·핑시·징퉁역 등에서 팔고, 산 날에만 쓸 수 있으며 환불은 안 됩니다."
+            },
+            {
+              "mark": "✓",
+              "b": "교통카드로 그냥 타도 돼요",
+              "desc": "내릴 역이 서너 곳뿐이라면 1일권 없이 이지카드를 찍고 타도 충분해요. 펀패스가 있다면 핑시선 왕복 1회가 들어 있으니 아래 펀패스 글에서 함께 계산해 보세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 핑시선 기차 타기 전 확인할 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "비가 많이 오면 운행이 멈춰요",
+              "desc": "핑시선은 2025년 10월 하순 폭우로 선로 아래 흙이 쓸려 나가 운행을 멈췄다가 2026년 1월 31일에 전 구간 운행을 다시 시작했어요. 태풍이 올 때도 전 구간을 멈추니, 출발 전 대만철도 '노선 운행 상태(路線運行狀態)' 페이지를 확인하세요."
+            },
+            {
+              "mark": "2",
+              "b": "막차는 저녁 8~9시대",
+              "desc": "2026년 10월 31일(토) 시간표 조회 기준 루이팡 방면 마지막 열차는 징퉁 20:30, 스펀 20:57 출발이에요. 요일에 따라 달라질 수 있어 대만철도는 출발 일주일 전쯤 시간표를 다시 보라고 안내합니다."
+            },
+            {
+              "mark": "3",
+              "b": "스펀 옛거리에선 선로를 건너지 않기",
+              "desc": "신베이시 관광 사이트는 스펀 옛거리에서 안내 표지를 따르고 선로를 함부로 건너지 말라고 안내해요. 열차가 옛거리를 지나갈 때는 가장자리로 물러나 있는 편이 안전합니다."
+            },
+            {
+              "mark": "4",
+              "b": "허우통 고양이에게 먹이는 주지 않기",
+              "desc": "신베이시 동물보호처는 허우통 고양이들은 자원봉사자가 매일 정해진 시간에 밥을 주니 따로 먹이를 챙기지 말고, 쫓거나 억지로 안지 말라고 안내해요. 옛거리 가게들은 쉬는 날이 제각각이니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "근교 하루 일정을 아직 고민 중이라면 <a href=\"/blog-yehliu-jiufen-taxi-vs-bus-tour\">예스폭진지 택시투어 vs 버스투어 비교</a>와 핑시선 왕복이 들어 있는 <a href=\"/blog-taipei-fun-pass-3-day-worth-it\">타이베이 펀패스 3일권 계산법</a>도 함께 보세요. 스펀·지우펀 쪽 먹을 곳은 <a href=\"/region-jiufen\">타이베이 근교 맛집 지도</a>와 <a href=\"/jiufen-cafe\">근교 카페 맛집</a>에서 고르고, 스펀 옛거리 간식은 <a href=\"/jiufen-street_food-720\">스펀 소세지</a> 페이지를 참고하면 좋아요. 타이베이 시내로 돌아와 저녁을 먹을 계획이면 <a href=\"/region-taipei\">타이베이 맛집 지도</a>도 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만철도(台鐵) 공식 시간표·운임 조회(2026년 10월 31일 열차 기준), 핑시선·선아오선 1일권 공식 안내, 대만철도 교통카드 승차 규정과 노선 운행 상태 페이지, 중앙통신(CNA)의 2026년 1월 운행 재개 보도, 신베이시 관광 사이트의 허우통 고양이 마을·스펀역·스펀 옛거리 안내, 농업부 동물보호 정보망의 허우통 고양이 마을 보도자료를 바탕으로 2026년 10월 기준으로 정리했습니다. 열차 시각과 요금은 바뀔 수 있으니 방문 전 대만철도 공식 사이트에서 다시 확인하는 것을 추천해요. 사진: Cassiopeia sweet, Wikimedia Commons, 퍼블릭 도메인."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 스펀·지우펀 먹거리도 확인해보세요",
+          "desc": "역마다 들를 간식집을 미리 찜해 두면 열차 시간에 맞춰 움직이기 편해요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=jiufen&cat=street_food"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Pingxi Line by Train — Ruifang Transfer & Shifen · My Secret Taiwan Eats",
+      "metaDescription": "Ride the Pingxi Line from Ruifang to Houtong, Shifen and Jingtong. Times and fares per leg, whether the day pass pays off, last trains and service status.",
+      "ogTitle": "Pingxi Line by Train: Ruifang Transfer, Houtong and Shifen in Order",
+      "eyebrow": "Taipei Day Trip Guide · Trains",
+      "title": "Pingxi Line by Train: Ruifang Transfer, Houtong and Shifen in Order",
+      "dek": "Roughly one train an hour — decide your stop order and last train, and you won't need a tour.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei Outskirts · Trains",
+      "intro": "\"Can I skip the Yehliu–Shifen–Jiufen tour and get to Shifen by train?\" It's a common question when planning a day out of Taipei. Take a train to Ruifang (瑞芳), change to the Pingxi Line, and you can visit Houtong (猴硐), Shifen (十分), Pingxi (平溪) and Jingtong (菁桐) on a single line. Based on Taiwan Railway (台鐵)'s official timetable and fare search, its day-pass page and New Taipei City's official tourism site, here's how it works, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Pingxi Line Train Times and Fares at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Leg",
+            "Travel time",
+            "Adult single fare"
+          ],
+          "rows": [
+            {
+              "label": "Taipei → Ruifang (local train)",
+              "values": [
+                "About 45–55 min",
+                "NT$73"
+              ]
+            },
+            {
+              "label": "Taipei → Houtong (local train)",
+              "values": [
+                "About 55 min",
+                "NT$83"
+              ]
+            },
+            {
+              "label": "Ruifang → Houtong",
+              "values": [
+                "About 6 min",
+                "NT$22"
+              ]
+            },
+            {
+              "label": "Houtong → Shifen",
+              "values": [
+                "About 20 min",
+                "NT$22"
+              ]
+            },
+            {
+              "label": "Shifen → Jingtong",
+              "values": [
+                "About 18 min",
+                "NT$22"
+              ]
+            },
+            {
+              "label": "Jingtong → Ruifang",
+              "values": [
+                "About 50–60 min",
+                "NT$44"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The table comes from Taiwan Railway's official timetable search for trains on Saturday 31 October 2026, with adult single fares (as of October 2026). Pingxi Line trains toward Jingtong leave Ruifang roughly once an hour from early morning until night, with some gaps of nearly an hour and a half. Plan how long to stay at each stop around the next train."
+        },
+        {
+          "type": "h2",
+          "text": "02 · From the Ruifang Transfer to Houtong and Shifen"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Local train from Taipei Station to Ruifang",
+              "desc": "Unreserved local trains (區間車) let you just tap in with a transit card such as EasyCard (悠遊卡). Under Taiwan Railway's rules, transit cards also work on branch lines including the Pingxi Line."
+            },
+            {
+              "mark": "2",
+              "b": "Board the train marked 菁桐",
+              "desc": "Some Pingxi Line trains start at Ruifang, others start at Badu (八堵) or Badouzi (八斗子) and pass through Ruifang. Whatever the origin, if the destination reads Jingtong (菁桐), it's your train."
+            },
+            {
+              "mark": "3",
+              "b": "Stop at Houtong first",
+              "desc": "Houtong is about 6 minutes from Ruifang, and local trains from Taipei stop there too. According to New Taipei's tourism site, the cat village (猴硐貓村) is right beside the station, so visiting it first and catching the next Pingxi train to Shifen keeps the route tidy."
+            },
+            {
+              "mark": "4",
+              "b": "Shifen, then Pingxi and Jingtong",
+              "desc": "Shifen is the biggest station on the line, known for trains running through its old street and for sky lanterns (天燈). Then see the Pingxi and Jingtong old streets and take a train back toward Ruifang from Jingtong — no doubling back."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/pingxi-line-ruifang-houtong-shifen-1.jpg",
+          "caption": "A Pingxi Line train running right through Shifen Old Street. The photo is from 2016, so today's trains and street may look different (photo: Cassiopeia sweet / Wikimedia Commons, public domain)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Is the Pingxi Line Day Pass Worth It?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "The day pass costs NT$120",
+              "desc": "According to Taiwan Railway, the Pingxi/Shen'ao Line One-Day Pass (平溪線/深澳雙支線一日週遊券) is NT$120 for adults and NT$60 concession. It gives unlimited rides that day between Badouzi, Ruifang and Jingtong (as of October 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Four rides are cheaper as singles",
+              "desc": "Ruifang → Houtong → Shifen → Jingtong → Ruifang is four rides totalling NT$110 (22+22+22+44), less than the pass. Add one more stop at Pingxi to make five rides and it comes to NT$132, so the pass wins."
+            },
+            {
+              "mark": "✓",
+              "b": "Taipei–Ruifang is extra",
+              "desc": "The pass only covers Badouzi–Ruifang–Jingtong, so you pay separately from Taipei to Ruifang. It's sold at stations including Taipei, Banqiao, Songshan, Ruifang, Houtong, Shifen, Pingxi and Jingtong, is valid only on the day of purchase and can't be refunded."
+            },
+            {
+              "mark": "✓",
+              "b": "A transit card is fine too",
+              "desc": "If you only plan three or four stops, just tap an EasyCard. If you have a Taipei Fun Pass, it includes one Pingxi Line round trip — see the Fun Pass post below to do the maths."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Before You Ride the Pingxi Line"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Heavy rain can stop the line",
+              "desc": "Heavy rain in late October 2025 washed out part of the track bed, and the full line only reopened on 31 January 2026. Services are also suspended during typhoons, so check Taiwan Railway's service status page (路線運行狀態) before you set out."
+            },
+            {
+              "mark": "2",
+              "b": "Last trains leave around 8–9 pm",
+              "desc": "On the Saturday 31 October 2026 timetable, the last trains toward Ruifang leave Jingtong at 20:30 and Shifen at 20:57. Times can vary by day, and Taiwan Railway suggests rechecking the timetable about a week before travel."
+            },
+            {
+              "mark": "3",
+              "b": "Don't cross the tracks in Shifen",
+              "desc": "New Taipei's tourism site asks visitors to follow the warning signs on Shifen Old Street and not to cross the tracks casually. Step to the side when a train comes through the street."
+            },
+            {
+              "mark": "4",
+              "b": "Don't feed the Houtong cats",
+              "desc": "New Taipei's animal protection office says volunteers feed the Houtong cats at set times every day, so don't bring food, chase them or pick them up. Old-street shops close on different days — check the current opening hours on Google Maps before you go."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If you're still choosing how to do the day, compare our <a href=\"/blog-yehliu-jiufen-taxi-vs-bus-tour\">Yehliu–Shifen–Jiufen taxi tour vs bus tour</a> guide, and see the <a href=\"/blog-taipei-fun-pass-3-day-worth-it\">Taipei Fun Pass 3-day maths</a>, which includes a Pingxi Line round trip. For food around Shifen and Jiufen, browse the <a href=\"/region-jiufen\">Taipei outskirts food map</a> and <a href=\"/jiufen-cafe\">outskirts cafés</a>, and for an old-street snack see <a href=\"/jiufen-street_food-720\">Shifen Sausage</a>. Heading back into the city for dinner? Try the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taiwan Railway (台鐵)'s official timetable and fare search (trains on 31 October 2026), its official Pingxi/Shen'ao day-pass page, its transit-card rules and service status page, CNA's January 2026 report on the line reopening, New Taipei City's official tourism pages for Houtong Cat Village, Shifen Station and Shifen Old Street, and the Ministry of Agriculture animal protection press release on Houtong, as of October 2026. Train times and fares can change, so check Taiwan Railway's official site again before you go. Photo: Cassiopeia sweet, Wikimedia Commons, public domain."
+        },
+        {
+          "type": "cta",
+          "title": "Find Shifen and Jiufen snacks on the map",
+          "desc": "Pin snack stops at each station so it's easy to move with the train times.",
+          "btn": "Open Map →",
+          "href": "/map?region=jiufen&cat=street_food"
+        }
+      ]
+    }
+  },
   "kaohsiung-cijin-ferry-gushan-vs-zhongzhou": {
     "heroImage": "assets/images/blog/kaohsiung-cijin-ferry-gushan-vs-zhongzhou-1.jpg",
     "ko": {
