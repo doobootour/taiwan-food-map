@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-atm-travel-card-no-fee",
+    "image": "assets/images/blog/taiwan-atm-travel-card-no-fee-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 환전·현금",
+      "title": "대만 ATM 수수료 없이 뽑으려면? 트래블카드 인출 체크",
+      "desc": "대만에서 트래블카드로 현금을 뽑을 때 붙는 수수료 두 가지, 충전·한도 조건, 편의점·은행·공항의 국제카드 ATM 찾는 법, 수수료 안내 화면 대처법을 정리했어요.",
+      "meta": "대만 · 환전·현금"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Money & Cash",
+      "title": "Taiwan ATM Fees: How to Withdraw Cash with a Travel Card",
+      "desc": "The two fees on a Taiwan ATM withdrawal, travel card top-up and limit rules, where to find ATMs that take foreign cards, and what to do when a fee notice pops up.",
+      "meta": "Taiwan · Money & Cash"
+    }
+  },
+  {
     "slug": "kaohsiung-shoushan-zoo-tickets-kids-tips",
     "image": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
     "regions": [
@@ -1239,6 +1258,459 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taiwan-atm-travel-card-no-fee": {
+    "heroImage": "assets/images/blog/taiwan-atm-travel-card-no-fee-1.jpg",
+    "ko": {
+      "pageTitle": "대만 ATM 수수료 — 트래블카드 인출 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 ATM 수수료는 카드사 수수료와 현지 ATM 수수료로 나뉘어요. 트래블카드 인출 조건, 국제카드 되는 ATM 찾는 법, 수수료 안내가 뜰 때 대처법을 정리했어요.",
+      "ogTitle": "대만 ATM 수수료 없이 뽑으려면? 트래블카드 인출 체크",
+      "eyebrow": "대만 여행 가이드 · 환전·현금",
+      "title": "대만 ATM 수수료 없이 뽑으려면? 트래블카드 인출 체크",
+      "dek": "카드사 몫은 충전과 한도로, ATM 몫은 기기 선택으로 — 두 가지를 따로 챙기면 현금 인출 비용이 확 줄어듭니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 · 환전·현금",
+      "intro": "\"트래블카드로 대만 ATM에서 뽑으면 정말 수수료가 없을까?\" 결론부터 말하면 대만 ATM 수수료는 두 군데서 붙을 수 있어서, 카드 조건과 ATM 선택을 따로 봐야 해요. 카드사 고객센터 안내와 대만 중앙은행이 공개한 국제카드 인출 ATM 목록을 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 대만 ATM 수수료, 어디서 붙는지 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구분",
+            "누가 받나",
+            "줄이는 방법"
+          ],
+          "rows": [
+            {
+              "label": "카드사 해외 인출 수수료",
+              "values": [
+                "내 카드를 발급한 카드사",
+                "트래블카드의 면제 조건(월 한도 등) 안에서 뽑기"
+              ]
+            },
+            {
+              "label": "현지 ATM 이용 수수료",
+              "values": [
+                "ATM을 운영하는 대만 은행",
+                "수수료 안내가 뜨면 취소하고 다른 은행 ATM 쓰기"
+              ]
+            },
+            {
+              "label": "환율",
+              "values": [
+                "트래블카드는 충전할 때 적용",
+                "앱에서 대만 달러(TWD)를 미리 충전해 두기"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "트래블카드의 '수수료 무료'는 보통 첫째 줄, 카드사 몫을 말해요. 현지 ATM 운영사가 따로 받는 수수료는 카드사가 대신 없애 주는 게 아니라서, 어떤 ATM에서 뽑느냐가 나머지 절반을 정합니다."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 트래블카드로 대만 ATM 인출 전 확인할 점"
+        },
+        {
+          "type": "p",
+          "html": "예로 트래블월렛 고객센터 안내(2026년 10월 24일 확인)를 보면 조건이 꽤 구체적이에요. 카드마다 조건이 다르니 쓰는 카드 앱의 '해외 ATM 출금' 안내를 같은 항목으로 확인해 보세요."
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "트래블월렛 안내 (2026년 10월 24일 확인)"
+          ],
+          "rows": [
+            {
+              "label": "충전 통화",
+              "values": [
+                "출금하는 나라 통화와 같아야 해요. 대만에서는 TWD를 충전해야 뽑을 수 있어요"
+              ]
+            },
+            {
+              "label": "카드 종류",
+              "values": [
+                "실물 카드만 가능, 모바일 카드로는 출금 불가"
+              ]
+            },
+            {
+              "label": "쓸 수 있는 ATM",
+              "values": [
+                "VISA 로고가 붙은 해외 ATM"
+              ]
+            },
+            {
+              "label": "출금 한도",
+              "values": [
+                "1회 US$400, 1일 US$1,000, 1개월 US$2,000 (한국 시간 매월 1일~말일)"
+              ]
+            },
+            {
+              "label": "카드사 출금 수수료",
+              "values": [
+                "월 US$500 이하 무료, 넘는 금액은 2%"
+              ]
+            },
+            {
+              "label": "현지 ATM 수수료",
+              "values": [
+                "나라·기기에 따라 현지 ATM 업체 수수료가 생길 수 있음"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "출발 전 TWD 충전",
+              "desc": "원화나 달러만 있으면 대만 ATM에서 출금이 안 되는 조건이 있어요. 공항에 내리기 전에 앱에서 TWD를 채워 두세요."
+            },
+            {
+              "mark": "✓",
+              "b": "월 무료 한도 계산",
+              "desc": "한 달 무료 한도를 넘기면 수수료가 붙는 카드가 있어요. 여행 중 쓸 현금 총액을 먼저 정하고 그 안에서 뽑으세요."
+            },
+            {
+              "mark": "✓",
+              "b": "실물 카드 챙기기",
+              "desc": "휴대폰 속 모바일 카드로는 ATM 출금이 안 되는 경우가 있으니 실물 카드를 꼭 가져가세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 국제카드 되는 대만 ATM 찾는 법"
+        },
+        {
+          "type": "p",
+          "html": "대만 중앙은행과 재금정보공사(財金資訊)가 매달 공개하는 '국제카드 대만 인출 ATM 위치' 목록(2026년 9월 갱신분)에는 약 2만 5천 곳이 올라 있어요. 여행자가 자주 마주치는 곳을 목록 기준으로 정리하면 이렇습니다."
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "장소",
+            "목록에 나온 ATM (2026년 9월 갱신 기준)"
+          ],
+          "rows": [
+            {
+              "label": "세븐일레븐",
+              "values": [
+                "중국신탁(中國信託) ATM"
+              ]
+            },
+            {
+              "label": "패밀리마트",
+              "values": [
+                "타이신(台新)·국태세화(國泰世華)·위산(玉山) ATM"
+              ]
+            },
+            {
+              "label": "하이라이프·OK마트",
+              "values": [
+                "하이라이프는 주로 국태세화, OK마트는 타이신 ATM"
+              ]
+            },
+            {
+              "label": "타오위안공항 1터미널 입국장",
+              "values": [
+                "대만은행(臺灣銀行)·자오펑(兆豐)은행 ATM"
+              ]
+            },
+            {
+              "label": "우체국·은행 지점",
+              "values": [
+                "중화우정(우체국) ATM, 각 은행 지점의 24시간 ATM 코너"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-atm-travel-card-no-fee-1.jpg",
+          "caption": "타이베이 시먼 지역 합작금고은행(合作金庫) 24시간 ATM 코너예요. 왼쪽 간판 아래에 VISA 등 국제 카드 로고가 붙어 있어요. 2018년 9월 사진이라 지금과 다를 수 있어요(사진: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "p",
+          "html": "목록에 있어도 모든 카드 브랜드를 받는다는 뜻은 아니에요. 기기나 간판에 내 카드와 같은 로고(VISA·PLUS 또는 Mastercard·Cirrus)가 붙어 있는지 먼저 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 대만 ATM에서 수수료 안내가 뜨면 이렇게"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "로고 맞는 기기 고르기",
+              "desc": "카드 뒷면 브랜드와 같은 로고가 붙은 ATM을 고릅니다. 트래블월렛이라면 VISA 로고를 보세요."
+            },
+            {
+              "mark": "2",
+              "b": "수수료 안내 화면 읽기",
+              "desc": "현지 ATM 수수료가 있는 기기에서는 출금 전에 금액 안내가 나올 수 있어요. 동의하기 전에 금액을 꼭 읽으세요."
+            },
+            {
+              "mark": "3",
+              "b": "붙으면 취소하고 옮기기",
+              "desc": "수수료가 보이면 취소하고 근처 다른 은행 ATM을 써 보세요. 편의점마다 ATM 은행이 달라 몇 걸음이면 바꿀 수 있어요."
+            },
+            {
+              "mark": "4",
+              "b": "앱 알림으로 확인",
+              "desc": "출금 뒤 카드 앱 내역에서 인출액과 수수료를 바로 확인하면, 다음 인출 때 어떤 ATM을 쓸지 정하기 쉬워요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "현금이 꼭 필요한 곳은 야시장·노점이에요. 얼마나 뽑을지는 <a href=\"/blog-taipei-family-budget-cash-card\">타이베이 가족여행 현금·카드 나누는 법</a> 글을 참고하고, <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>이나 줄 서서 사 먹는 <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">푸저우 스쭈 후추빵</a>처럼 현금을 챙겨 가면 편한 가게를 미리 골라 두세요. 도착하자마자 공항에서 뽑을 계획이라면 <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">타오위안공항 새벽 도착 교통</a>과 <a href=\"/blog-taiwan-esim-data-vs-tourist-sim\">대만 eSIM·유심 고르기</a>도 함께 보면 좋아요. 동선은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 한 번에 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 트래블월렛 고객센터의 해외 ATM 출금 안내와 트래블페이 카드 안내(2026년 10월 24일 확인), 대만 중앙은행·재금정보공사의 '국제카드 대만 인출 ATM 위치' 공개 목록(2026년 9월 갱신분)을 바탕으로 정리했습니다. 카드사 조건과 현지 ATM 수수료는 바뀔 수 있으니 출발 전 카드 앱 공지를 다시 확인하는 것을 추천해요. 사진: Solomon203, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 현금 챙겨 갈 노점 맛집도 확인해보세요",
+          "desc": "야시장·노점처럼 현금이 필요한 곳을 미리 찜해 두면 얼마나 뽑을지 정하기 쉬워요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=street_food"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taiwan ATM Fees — Travel Card Withdrawals · My Secret Taiwan Eats",
+      "metaDescription": "Taiwan ATM fees come from your card issuer and from the ATM operator. Travel card withdrawal rules, finding ATMs that take foreign cards, and what to do when a fee notice appears.",
+      "ogTitle": "Taiwan ATM Fees: How to Withdraw Cash with a Travel Card",
+      "eyebrow": "Taiwan Travel Guide · Money & Cash",
+      "title": "Taiwan ATM Fees: How to Withdraw Cash with a Travel Card",
+      "dek": "Your card's share comes down to top-ups and limits, the ATM's share to which machine you pick — handle them separately and cash costs drop fast.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan · Money & Cash",
+      "intro": "\"If I use a travel card at a Taiwan ATM, is it really fee-free?\" Short answer: fees can come from two places, so you need to check the card's conditions and the ATM you choose separately. This guide is based on card issuer help pages and the list of ATMs accepting international cards published by Taiwan's central bank, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taiwan ATM fees at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Fee",
+            "Who charges it",
+            "How to cut it"
+          ],
+          "rows": [
+            {
+              "label": "Card issuer's overseas withdrawal fee",
+              "values": [
+                "The company that issued your card",
+                "Stay within your travel card's fee-free conditions (monthly cap, etc.)"
+              ]
+            },
+            {
+              "label": "Local ATM fee",
+              "values": [
+                "The Taiwanese bank running the ATM",
+                "If a fee notice appears, cancel and use another bank's ATM"
+              ]
+            },
+            {
+              "label": "Exchange rate",
+              "values": [
+                "Travel cards apply it when you top up",
+                "Load New Taiwan dollars (TWD) in the app in advance"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "A travel card's \"no fee\" usually refers to the first row, the issuer's share. A separate fee charged by the local ATM operator isn't waived by your card, so which ATM you use decides the other half."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What to check before withdrawing with a travel card"
+        },
+        {
+          "type": "p",
+          "html": "Travel Wallet's help centre (checked 24 October 2026) is a good example of how specific the conditions are. Rules differ by card, so look up the same items under 'overseas ATM withdrawal' in your own card's app."
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Travel Wallet help centre (checked 24 Oct 2026)"
+          ],
+          "rows": [
+            {
+              "label": "Loaded currency",
+              "values": [
+                "Must match the local currency, so you need TWD loaded to withdraw in Taiwan"
+              ]
+            },
+            {
+              "label": "Card type",
+              "values": [
+                "Physical card only; no withdrawals with the mobile card"
+              ]
+            },
+            {
+              "label": "Usable ATMs",
+              "values": [
+                "Overseas ATMs displaying the VISA logo"
+              ]
+            },
+            {
+              "label": "Limits",
+              "values": [
+                "US$400 per withdrawal, US$1,000 per day, US$2,000 per month (calendar month, Korea time)"
+              ]
+            },
+            {
+              "label": "Issuer withdrawal fee",
+              "values": [
+                "Free up to US$500 a month, 2% on amounts above"
+              ]
+            },
+            {
+              "label": "Local ATM fee",
+              "values": [
+                "Local ATM operators may charge a fee depending on country and machine"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Load TWD before you fly",
+              "desc": "Some cards can't withdraw in Taiwan with only KRW or USD loaded. Top up TWD in the app before you land."
+            },
+            {
+              "mark": "✓",
+              "b": "Work out the monthly free cap",
+              "desc": "Some cards charge once you pass the monthly free amount. Decide your total cash budget first and withdraw within it."
+            },
+            {
+              "mark": "✓",
+              "b": "Bring the physical card",
+              "desc": "Mobile cards on your phone may not work at ATMs, so pack the physical card."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Finding Taiwan ATMs that take international cards"
+        },
+        {
+          "type": "p",
+          "html": "Taiwan's central bank and the Financial Information Service Co. (財金資訊) publish a monthly list of ATM locations for international card withdrawals; the September 2026 update has about 25,000 entries. Here's where travellers usually run into them, based on that list."
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Place",
+            "ATMs on the list (September 2026 update)"
+          ],
+          "rows": [
+            {
+              "label": "7-Eleven",
+              "values": [
+                "CTBC (中國信託) ATMs"
+              ]
+            },
+            {
+              "label": "FamilyMart",
+              "values": [
+                "Taishin (台新), Cathay United (國泰世華) and E.SUN (玉山) ATMs"
+              ]
+            },
+            {
+              "label": "Hi-Life and OK Mart",
+              "values": [
+                "Mostly Cathay United at Hi-Life, Taishin at OK Mart"
+              ]
+            },
+            {
+              "label": "Taoyuan Airport T1 arrivals",
+              "values": [
+                "Bank of Taiwan (臺灣銀行) and Mega Bank (兆豐) ATMs"
+              ]
+            },
+            {
+              "label": "Post offices and bank branches",
+              "values": [
+                "Chunghwa Post ATMs and 24-hour ATM lobbies at bank branches"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-atm-travel-card-no-fee-1.jpg",
+          "caption": "A Taiwan Cooperative Bank (合作金庫) 24-hour ATM lobby in Taipei's Ximen area, with Visa and other card network logos under the sign on the left. The photo is from September 2018, so it may look different today (photo: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "p",
+          "html": "Being on the list doesn't mean a machine takes every card brand. Check that the ATM or its sign shows the same logo as your card (VISA/PLUS or Mastercard/Cirrus)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · What to do when a Taiwan ATM shows a fee notice"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Pick a machine with your logo",
+              "desc": "Choose an ATM with the same network logo as the back of your card. For Travel Wallet, look for VISA."
+            },
+            {
+              "mark": "2",
+              "b": "Read the fee screen",
+              "desc": "Machines that charge a local fee may show the amount before you withdraw. Read it before you agree."
+            },
+            {
+              "mark": "3",
+              "b": "If there's a fee, cancel and move",
+              "desc": "If you see a fee, cancel and try another bank's ATM nearby. Convenience stores use different banks, so a switch is often just a short walk."
+            },
+            {
+              "mark": "4",
+              "b": "Check the app notification",
+              "desc": "Look at the withdrawal and any fee in your card app right after, so you know which ATM to use next time."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Cash matters most at night markets and street stalls. For how much to take out, see our <a href=\"/blog-taipei-family-budget-cash-card\">Taipei family budget: cash vs. cards</a> guide, and pick cash-friendly spots ahead of time from <a href=\"/taipei-street_food\">Taipei street food</a>, such as the queue-worthy <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">Fuzhou Shizu pepper bun</a>. If you plan to withdraw at the airport on arrival, also read <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">Taoyuan Airport late-night arrival transport</a> and <a href=\"/blog-taiwan-esim-data-vs-tourist-sim\">choosing a Taiwan eSIM or SIM</a>. Browse everything on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Travel Wallet's help centre pages on overseas ATM withdrawals and the Travel Pay card (checked 24 October 2026), and the 'international card withdrawals in Taiwan — ATM locations' list published by Taiwan's central bank and the Financial Information Service Co. (September 2026 update). Card terms and local ATM fees can change, so check your card app's notices again before you travel. Photo: Solomon203, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find cash-only street food on the map",
+          "desc": "Pin night-market and stall spots that need cash, and it's easier to decide how much to withdraw.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=street_food"
+        }
+      ]
+    }
+  },
   "kaohsiung-shoushan-zoo-tickets-kids-tips": {
     "heroImage": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
     "ko": {
