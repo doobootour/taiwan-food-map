@@ -104,8 +104,7 @@ function attractionCard(item, nearby, data, idx) {
       <p class="att-src">참고: ${sources}</p>
       <p><a class="att-map" href="${mapsUrl(item)}" target="_blank" rel="noopener">구글맵에서 위치 보기 →</a></p>
       ${klookLinks(item.id).length ? `<div class="att-klook"><h3>관련 투어·입장권 (Klook)</h3>
-      <ul>${klookLinks(item.id).map(l => `<li><a href="${l.url}" target="_blank" rel="sponsored noopener">${esc(l.title)}</a></li>`).join("")}</ul>
-      <p class="att-src">제휴 링크예요. 예약하시면 사이트 운영에 작은 도움이 돼요. 일정과 요금은 Klook에서 확인해 주세요.</p></div>` : ""}
+      <ul>${klookLinks(item.id).map(l => `<li><a href="${l.url}" target="_blank" rel="sponsored noopener">${esc(l.title)}</a></li>`).join("")}</ul></div>` : ""}
       ${nearby.length ? `<h3>근처 맛집 ${nearby.length}곳</h3>
       ${nearby[nearby.length - 1].d > 5 ? `<p class="att-src">바로 옆에 등록된 맛집이 아직 없어서, 거리가 가장 가까운 곳을 골랐어요.</p>` : ""}
       <ul class="att-foods">${foods}</ul>` : `<h3>근처 맛집</h3>
