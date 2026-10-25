@@ -33,7 +33,7 @@
             '<span class="attr-pop-name">' + esc(it.ko) + '</span>' +
             '<span class="attr-pop-zh">' + esc(it.zh) + '</span>' +
             '<a class="attr-pop-btn" href="' + href + '">관광지 안내 보기 →</a></div>',
-            { className: "attr-popup", maxWidth: 280, minWidth: 0, offset: [0, -4], autoPan: true, autoPanPaddingTopLeft: L.point(16, 70), autoPanPaddingBottomRight: L.point(window.innerWidth < 768 ? 130 : 24, window.innerWidth < 768 ? 40 : 24) })
+            { className: "attr-popup", maxWidth: 280, minWidth: 0, offset: [0, -4], autoPan: true, autoPanPaddingTopLeft: L.point(16, 70), autoPanPaddingBottomRight: L.point(window.innerWidth < 768 ? 170 : 24, window.innerWidth < 768 ? 60 : 24) })
           .addTo(group);
       });
     });
