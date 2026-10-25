@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-ntuh-emergency-room-insurance-claim",
+    "image": "assets/images/blog/taipei-ntuh-emergency-room-insurance-claim-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 병원·보험",
+      "title": "타이베이 여행 중 아플 때, 대만대병원 응급실 가도 될까?",
+      "desc": "대만대병원 응급실 위치와 입구, 외국인 접수, 영문 진단서·영수증을 병원에서 바로 챙기는 법, 여행자보험 청구 준비를 정리했어요.",
+      "meta": "타이베이 · 병원·보험"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Hospital & Insurance",
+      "title": "Sick in Taipei? Using the NTUH Emergency Room and Travel Insurance Claims",
+      "desc": "Where the NTUH emergency entrance is, registering as a foreign visitor, and collecting English certificates and receipts for your travel insurance claim.",
+      "meta": "Taipei · Hospital & Insurance"
+    }
+  },
+  {
     "slug": "taiwan-car-rental-24h-mileage-insurance",
     "image": "assets/images/blog/taiwan-car-rental-24h-mileage-insurance-1.jpg",
     "regions": [
@@ -1315,6 +1334,321 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-ntuh-emergency-room-insurance-claim": {
+    "heroImage": "assets/images/blog/taipei-ntuh-emergency-room-insurance-claim-1.jpg",
+    "ko": {
+      "pageTitle": "대만대병원 응급실 — 외국인 서류·보험 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만대병원 응급실은 동쪽 건물 북측, 쉬저우로 쪽에 있어요. 외국인 접수와 결제, 영문 진단서·영수증 받는 순서, 여행자보험 청구 준비를 공식 안내로 정리했어요.",
+      "ogTitle": "타이베이 여행 중 아플 때, 대만대병원 응급실 가도 될까?",
+      "eyebrow": "타이베이 여행 가이드 · 병원·보험",
+      "title": "타이베이 여행 중 아플 때, 대만대병원 응급실 가도 될까?",
+      "dek": "응급실 입구와 서류 받는 순서만 알아두면 — 아픈 와중에도 보험 청구까지 한 번에 챙길 수 있어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 병원·보험",
+      "intro": "\"밤에 아이가 열이 나는데 대만대병원 응급실로 가도 될까?\" 타이베이 여행 중 이런 상황을 겪는 여행자가 적지 않아요. 대만대병원(臺大醫院) 공식 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요. 생명이 위급하면 대만 구급 번호 119로 먼저 연락하세요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구분",
+            "응급실(急診)",
+            "국제특약 외래(國際特約門診)"
+          ],
+          "rows": [
+            {
+              "label": "위치",
+              "values": [
+                "동쪽 건물(東址) 북측, 쉬저우로(徐州路) 쪽",
+                "동쪽 건물 1층(中山南路 7號)"
+              ]
+            },
+            {
+              "label": "이런 분께",
+              "values": [
+                "갑자기 아프거나 다쳤을 때",
+                "급하지 않고 영어 안내가 필요할 때"
+              ]
+            },
+            {
+              "label": "예약",
+              "values": [
+                "바로 방문",
+                "전화·이메일 예약"
+              ]
+            },
+            {
+              "label": "운영 (2026년 10월 기준)",
+              "values": [
+                "응급 진료",
+                "평일 낮(주말·공휴일 휴무)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "진료비는 증상·검사에 따라 크게 달라서 이 글에는 넣지 않았어요. 요금은 방문 전 공식 안내를 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-ntuh-emergency-room-insurance-claim-1.jpg",
+          "caption": "중산난로(中山南路)에 있는 대만대병원 동쪽 건물(東址) 정문이에요. 응급실 입구는 이 정문이 아니라 건물 북측 쉬저우로(徐州路) 쪽에 따로 있어요. 2019년 8월 사진이라 지금과 다를 수 있어요(사진: Mcador HO Anwoalds / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 대만대병원 응급실 찾아가기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "주소는 中山南路 7號, 입구는 쉬저우로 쪽",
+              "desc": "대만대병원은 동쪽·서쪽 건물이 따로 있어요. 응급실은 입원·응급을 맡는 동쪽 건물(東址) 북측에 있고 쉬저우로를 향해 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "MRT는 台大醫院역",
+              "desc": "단수이신이선 台大醫院역에서 내리면 가까워요. 택시를 탈 땐 '臺大醫院 急診'이라고 보여주면 편합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "들어가면 접수·안내 창구부터",
+              "desc": "응급실 로비 가운데에 접수·안내 창구가 있고, 오른쪽에 증상을 먼저 보는 분류 구역(急診篩檢站)이 있어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 외국인 접수와 결제"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "여권 원본 지참",
+              "desc": "대만 건강보험이 없는 외국인은 자비로 진료받아요. 접수와 서류 신청 모두 여권 원본이 필요합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "결제는 현금·카드",
+              "desc": "병원 국제의료센터 안내 기준 현금과 Visa·Master·은련·JCB 카드를 받아요."
+            },
+            {
+              "mark": "✓",
+              "b": "보험사가 병원과 계약이 없다면",
+              "desc": "먼저 자비로 내고, 영문 영수증과 진단서로 보험사에 청구하는 방식이에요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 대만 여행자보험 청구, 병원에서 바로 챙길 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "영문 진단서는 진료 중에 요청",
+              "desc": "응급 진료 진단서는 응급실 간호사실에 신청하면 응급 주치의가 발급하고, 응급 결제 창구에서 결제한 뒤 날인받아요. 영문은 1시간 정도 기다려야 해요."
+            },
+            {
+              "mark": "2",
+              "b": "나가기 전에 신청하기",
+              "desc": "퇴원할 때 신청하지 않으면 나중에 다시 접수해야 해서 번거로워요. 귀국 일정이 빠듯하면 꼭 그 자리에서 받으세요."
+            },
+            {
+              "mark": "3",
+              "b": "영수증 원본은 잘 보관",
+              "desc": "영수증 사본·진료비 명세서는 동쪽 건물 의료사무실 창구(주말엔 PAT 창구)에서 원본 영수증을 가지고 신청해요."
+            },
+            {
+              "mark": "4",
+              "b": "필요 서류는 내 보험사 기준",
+              "desc": "보험사마다 요구 서류가 달라요. 출국 전 가입한 보험사 안내를 휴대폰에 저장해 두세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "항공 지연·결항까지 보장되는지는 <a href=\"/blog-taiwan-typhoon-flight-cancellation\">대만 태풍 결항·여행자보험</a> 글도 참고하세요. 병원에 가기 전 짐이 많다면 <a href=\"/blog-taipei-station-luggage-storage\">타이베이역 짐보관</a> 글을 보고 맡겨 두면 움직이기 편해요. 몸이 회복되면 속이 편한 음식부터 찾게 되죠. <a href=\"/taipei-taiwanese\">타이베이 대만 음식 맛집</a>에서 가볍게 먹을 곳을 고르고, 동선은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 한 번에 확인해 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만대병원(臺大醫院)과 국제의료센터 공식 안내, 타이베이 MRT, 대만 내정부 소방서 안내를 바탕으로 2026년 10월 25일 기준으로 정리했어요. 요금은 방문 전 공식 안내를 확인하세요. 창구 운영 시간은 방문 전 구글맵에 등록된 영업시간을 확인하세요. 사진: Mcador HO Anwoalds, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 확인해보세요",
+          "desc": "몸이 회복되면 가볍게 들를 타이베이 맛집을 지도에 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "NTUH Emergency Room — Foreigners & Insurance · My Secret Taiwan Eats",
+      "metaDescription": "Where the NTUH emergency entrance is, how foreign visitors register and pay, and how to collect English medical certificates and receipts for a travel insurance claim, from official hospital information.",
+      "ogTitle": "Sick in Taipei? Using the NTUH Emergency Room and Travel Insurance Claims",
+      "eyebrow": "Taipei Travel Guide · Hospital & Insurance",
+      "title": "Sick in Taipei? Using the NTUH Emergency Room and Travel Insurance Claims",
+      "dek": "Know the emergency entrance and the order for getting your paperwork — and you can sort out your insurance claim even while you're unwell.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Hospital & Insurance",
+      "intro": "\"My child has a fever at night — can we go to the NTUH emergency room?\" It's a situation more travellers in Taipei face than you'd think. This guide is based on official information from National Taiwan University Hospital (臺大醫院), as of October 2026. In a life-threatening emergency, call 119, Taiwan's ambulance number, first.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · At a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Emergency room (急診)",
+            "International clinic (國際特約門診)"
+          ],
+          "rows": [
+            {
+              "label": "Location",
+              "values": [
+                "North side of the East Campus (東址), facing Xuzhou Road (徐州路)",
+                "East Campus 1F (No. 7 Zhongshan S. Rd.)"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Sudden illness or injury",
+                "Non-urgent care with English support"
+              ]
+            },
+            {
+              "label": "Booking",
+              "values": [
+                "Walk in",
+                "Book by phone or email"
+              ]
+            },
+            {
+              "label": "Hours (Oct 2026)",
+              "values": [
+                "Emergency care",
+                "Weekday daytime (closed weekends and public holidays)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Medical costs vary widely with symptoms and tests, so they're not included here. Check official pricing before you go."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-ntuh-emergency-room-insurance-claim-1.jpg",
+          "caption": "The main entrance of NTUH's East Campus (東址) on Zhongshan South Road. The emergency entrance is not this door — it is separate, on the north side of the building facing Xuzhou Road (徐州路). The photo is from August 2019, so it may look different today (photo: Mcador HO Anwoalds / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Finding the NTUH emergency room"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Address: No. 7 Zhongshan S. Rd., entrance on Xuzhou Road",
+              "desc": "NTUH has separate East and West campuses. The emergency room is on the north side of the East Campus (東址), which handles inpatient and emergency care, facing Xuzhou Road."
+            },
+            {
+              "mark": "✓",
+              "b": "MRT: NTU Hospital Station",
+              "desc": "Get off at NTU Hospital Station (台大醫院) on the Tamsui–Xinyi Line. In a taxi, show the driver '臺大醫院 急診'."
+            },
+            {
+              "mark": "✓",
+              "b": "Start at the registration desk",
+              "desc": "The registration and information desk is in the middle of the emergency lobby, with the triage area (急診篩檢站) on the right."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Registering and paying as a foreign visitor"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Bring your original passport",
+              "desc": "Foreign visitors without Taiwan's national health insurance pay out of pocket. You need your original passport both to register and to request documents."
+            },
+            {
+              "mark": "✓",
+              "b": "Cash or card",
+              "desc": "According to the hospital's International Medical Service Center, cash and Visa, Mastercard, UnionPay and JCB cards are accepted."
+            },
+            {
+              "mark": "✓",
+              "b": "If your insurer has no agreement with the hospital",
+              "desc": "Pay first, then claim from your insurer with the English receipt and medical certificate."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Travel insurance claims: what to collect at the hospital"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Ask for an English certificate during treatment",
+              "desc": "For emergency visits, request the medical certificate at the emergency nurses' station; the attending emergency doctor issues it, and it's stamped after you pay at the emergency cashier. English certificates take about an hour."
+            },
+            {
+              "mark": "2",
+              "b": "Request it before you leave",
+              "desc": "If you don't ask before discharge, you'll have to register again later. If your flight home is soon, get it on the spot."
+            },
+            {
+              "mark": "3",
+              "b": "Keep the original receipt",
+              "desc": "Receipt copies and itemised bills are issued at the East Campus medical affairs counter (the PAT counter on weekends) when you bring the original receipt."
+            },
+            {
+              "mark": "4",
+              "b": "Follow your insurer's document list",
+              "desc": "Each insurer asks for different documents. Save your insurer's claim guide on your phone before you fly."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "To see whether flight delays and cancellations are covered too, read our guide to <a href=\"/blog-taiwan-typhoon-flight-cancellation\">typhoon flight cancellations and travel insurance</a>. If you're carrying luggage, see <a href=\"/blog-taipei-station-luggage-storage\">luggage storage at Taipei Main Station</a> first. Once you feel better, start with something gentle: pick a place from <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a> and plan your route on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on official information from National Taiwan University Hospital (臺大醫院) and its International Medical Service Center, Taipei Metro and Taiwan's National Fire Agency, as of 25 October 2026. Check official pricing before you go. Check the current opening hours on Google Maps before you go. Photo: Mcador HO Anwoalds, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei restaurants on the map",
+          "desc": "Feeling better? Pin an easy meal in Taipei on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
+  },
   "taiwan-car-rental-24h-mileage-insurance": {
     "heroImage": "assets/images/blog/taiwan-car-rental-24h-mileage-insurance-1.jpg",
     "ko": {
