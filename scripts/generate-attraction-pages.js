@@ -76,12 +76,17 @@ function attractionCard(item, nearby, data, idx) {
   return `
     <article class="att-card" id="${esc(item.id)}">
       <h2>${esc(item.ko)} <small>${esc(item.zh)}</small></h2>
+      <h3>이름의 유래</h3>
+      <p>${esc(item.origin)}</p>
+      <h3>어떤 곳인가요</h3>
       <p>${esc(item.intro)}</p>
+      <h3>대표 볼거리와 즐기는 법</h3>
+      <p>${esc(item.highlights)}</p>
+      <h3>추천 시간대·계절</h3>
+      <p>${esc(item.season)}</p>
       <h3>가는 방법</h3>
       <p>${esc(item.access)}</p>
-      <h3>운영·통제 상황</h3>
-      <p>${esc(item.status)}</p>
-      <p class="att-src">${fmtDate(item.checked)} 확인 · 출처: ${sources}</p>
+      <p class="att-src">참고: ${sources}</p>
       <p><a class="att-map" href="${mapsUrl(item)}" target="_blank" rel="noopener">구글맵에서 위치 보기 →</a></p>
       <h3>근처 맛집 ${nearby.length}곳</h3>
       ${nearby[nearby.length - 1].d > 5 ? `<p class="att-src">바로 옆에 등록된 맛집이 아직 없어서, 거리가 가장 가까운 곳을 골랐어요.</p>` : ""}
@@ -96,7 +101,6 @@ const STYLE = `<style>
   .policy-updated { color: var(--ink-faint); font-size: 13px; margin-bottom: 20px; }
   .policy-wrap p, .policy-wrap li { color: var(--ink-soft); font-size: 14.5px; line-height: 1.8; }
   .policy-wrap a { color: var(--terracotta-dark); font-weight: 600; }
-  .att-notice { background: var(--cream, #fbf5ec); border-left: 4px solid var(--terracotta-dark, #a8562c); padding: 12px 16px; border-radius: 8px; margin: 16px 0 8px; }
   .att-toc { list-style: disc; padding-left: 20px; margin: 12px 0 8px; }
   .att-card { border-top: 1px solid rgba(0,0,0,.08); padding-top: 28px; margin-top: 32px; }
   .att-card h2 { font-size: 21px; margin: 0 0 10px; color: var(--ink); }
@@ -124,7 +128,7 @@ function buildPage(region, data, cards) {
       { "@type": "ItemList", "name": data.title, "url": url, "numberOfItems": data.items.length,
         "itemListElement": data.items.map((it, i) => ({
           "@type": "ListItem", "position": i + 1, "url": `${url}#${it.id}`,
-          "item": { "@type": "TouristAttraction", "name": `${it.ko} (${it.zh})`, "description": it.intro,
+          "item": { "@type": "TouristAttraction", "name": `${it.ko} (${it.zh})`, "description": `${it.origin} ${it.intro}`,
             "geo": { "@type": "GeoCoordinates", "latitude": it.lat, "longitude": it.lng } },
         })) },
     ],
@@ -147,7 +151,6 @@ ${STYLE}\n<script type="application/ld+json">${JSON.stringify(ld)}</script>`);
     <h1>${esc(data.title)}</h1>
     <p class="policy-updated">관광지 + 근처 맛집 · 나만 알고 싶은 대만 맛집</p>
     <p>${esc(data.intro)}</p>
-    <p class="att-notice">${esc(data.notice)}</p>
     <ul class="att-toc">${toc}</ul>
     <div id="attractionsMap" data-region="${region.id}" style="height:360px;border-radius:12px;margin:20px 0 8px;"></div>
     <p class="att-src">⭐ 표시를 누르면 관광지 설명으로 이동해요.</p>
@@ -181,7 +184,7 @@ function injectRegionTeaser(region, data, slug) {
   const block = `
       <!-- ATTRACTIONS:START -->
       <h2 class="region-h2">꼭 가볼 곳</h2>
-      <p class="region-intro">대표 관광지 ${data.items.length}곳의 가는 방법, 현재 통제 상황, 근처 맛집을 정리했어요.</p>
+      <p class="region-intro">대표 관광지 ${data.items.length}곳의 이름 유래와 볼거리, 가는 방법, 근처 맛집을 정리했어요.</p>
       <ul class="att-region-list" style="padding-left:20px;list-style:disc;margin:8px 0;line-height:1.9;">${list}</ul>
       <p><a class="view-link" href="/${slug}">${esc(data.title)} 전체 보기 →</a></p>
       <!-- ATTRACTIONS:END -->`;
