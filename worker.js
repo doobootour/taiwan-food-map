@@ -40,6 +40,17 @@ export default {
       return new Response(indexResponse.body, indexResponse);
     }
 
-    return env.ASSETS.fetch(request);
+    const response = await env.ASSETS.fetch(request);
+    const type = response.headers.get("content-type") || "";
+    if (!type.includes("text/html")) return response;
+    // 관광지 별 마커: leaflet.js를 쓰는 모든 페이지에 attractions.js + attraction-stars.js를 붙인다.
+    // HTML 파일을 직접 고치지 않으므로 03:00 재생성 뒤에도 유지된다.
+    return new HTMLRewriter()
+      .on('script[src*="leaflet@1.9.4/dist/leaflet.js"]', {
+        element(el) {
+          el.after('<script src="/js/attractions.js"></script><script src="/js/attraction-stars.js"></script>', { html: true });
+        },
+      })
+      .transform(response);
   },
 };

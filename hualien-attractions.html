@@ -30,6 +30,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/styles.css?v=1790588220" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   .policy-wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
   .policy-wrap h1 { font-size: 28px; margin-bottom: 6px; }
@@ -37,11 +38,10 @@
   .policy-wrap p, .policy-wrap li { color: var(--ink-soft); font-size: 14.5px; line-height: 1.8; }
   .policy-wrap a { color: var(--terracotta-dark); font-weight: 600; }
   .att-notice { background: var(--cream, #fbf5ec); border-left: 4px solid var(--terracotta-dark, #a8562c); padding: 12px 16px; border-radius: 8px; margin: 16px 0 8px; }
-  .att-toc { list-style: none; padding-left: 0; margin: 12px 0 8px; }
+  .att-toc { list-style: disc; padding-left: 20px; margin: 12px 0 8px; }
   .att-card { border-top: 1px solid rgba(0,0,0,.08); padding-top: 28px; margin-top: 32px; }
   .att-card h2 { font-size: 21px; margin: 0 0 10px; color: var(--ink); }
   .att-card h2 small { font-size: 14px; color: var(--ink-faint); font-weight: 500; margin-left: 4px; }
-  .att-num { color: var(--terracotta-dark, #a8562c); margin-right: 10px; font-family: Fraunces, serif; }
   .att-card h3 { font-size: 15px; margin: 18px 0 4px; color: var(--ink); }
   .att-src { font-size: 12.5px !important; color: var(--ink-faint) !important; }
   .att-foods { padding-left: 20px; margin: 6px 0; }
@@ -88,10 +88,12 @@
     <p class="policy-updated">관광지 + 근처 맛집 · 나만 알고 싶은 대만 맛집</p>
     <p>화롄은 협곡, 바다 절벽, 호수, 야시장이 차로 한 시간 안에 모여 있는 곳이에요. 관광지마다 근처에 등록된 맛집을 거리순으로 붙여 두었으니, 구경하고 바로 먹을 곳까지 정해 보세요.</p>
     <p class="att-notice">2026년 10월 태풍 薔琵(Champi) 이후 일부 관광지가 아직 통제 중이에요. 아래 상태는 표시한 날짜에 공식 발표로 확인한 내용이라, 출발 전에 링크한 공식 페이지를 한 번 더 확인해 주세요.</p>
-    <ul class="att-toc"><li>⭐ <a href="#taroko">타이루거 협곡 太魯閣國家公園</a></li><li>⭐ <a href="#qingshui-cliff">청수단애 清水斷崖</a></li><li>⭐ <a href="#qixingtan">칠성담 七星潭</a></li><li>⭐ <a href="#liyu-lake">리위탄 鯉魚潭</a></li><li>⭐ <a href="#dongdamen">동대문 야시장 東大門夜市</a></li></ul>
+    <ul class="att-toc"><li><a href="#taroko">타이루거 협곡 太魯閣國家公園</a></li><li><a href="#qingshui-cliff">청수단애 清水斷崖</a></li><li><a href="#qixingtan">칠성담 七星潭</a></li><li><a href="#liyu-lake">리위탄 鯉魚潭</a></li><li><a href="#dongdamen">동대문 야시장 東大門夜市</a></li></ul>
+    <div id="attractionsMap" data-region="hualien" style="height:360px;border-radius:12px;margin:20px 0 8px;"></div>
+    <p class="att-src">⭐ 표시를 누르면 관광지 설명으로 이동해요.</p>
 
     <article class="att-card" id="taroko">
-      <h2><span class="att-num" aria-hidden="true">⭐</span>타이루거 협곡 <small>太魯閣國家公園</small></h2>
+      <h2>타이루거 협곡 <small>太魯閣國家公園</small></h2>
       <p>대리석 절벽 사이로 立霧溪가 깎아 낸 대만 대표 협곡이에요. 2024년 4월 3일 지진 이후 복구가 이어지고 있어서, 예전처럼 협곡 안쪽 步道를 마음껏 걷기는 아직 어려워요.</p>
       <h3>가는 방법</h3>
       <p>화롄역에서 차로 약 40분 걸려요. 新城역 쪽에서 들어가면 더 가까워요. 대중교통은 태로코 버스 302번 노선이 있지만 통제 중에는 운행이 바뀔 수 있어요.</p>
@@ -106,7 +108,7 @@
     </article>
 
     <article class="att-card" id="qingshui-cliff">
-      <h2><span class="att-num" aria-hidden="true">⭐</span>청수단애 <small>清水斷崖</small></h2>
+      <h2>청수단애 <small>清水斷崖</small></h2>
       <p>산이 바다로 곧장 떨어지는 해안 절벽이에요. 蘇花公路를 따라 달리면서 보는 풍경으로 유명하고, 태로코 국가공원 구역 안에 있어요.</p>
       <h3>가는 방법</h3>
       <p>화롄역에서 蘇花公路(台9線)를 따라 북쪽으로 차로 약 40~50분이에요. 대중교통으로는 가기 어려워서 차나 투어로 가는 편이 편해요.</p>
@@ -121,7 +123,7 @@
     </article>
 
     <article class="att-card" id="qixingtan">
-      <h2><span class="att-num" aria-hidden="true">⭐</span>칠성담 <small>七星潭</small></h2>
+      <h2>칠성담 <small>七星潭</small></h2>
       <p>화롄 시내 북쪽, 자갈이 깔린 초승달 모양 해변이에요. 탁 트인 태평양과 중앙산맥을 같이 볼 수 있어서 해 뜰 무렵이나 별 보기 명소로 사랑받아요.</p>
       <h3>가는 방법</h3>
       <p>화롄역에서 차로 약 15분이에요. 시내에서 자전거로 가는 사람도 많아요.</p>
@@ -136,7 +138,7 @@
     </article>
 
     <article class="att-card" id="liyu-lake">
-      <h2><span class="att-num" aria-hidden="true">⭐</span>리위탄 <small>鯉魚潭</small></h2>
+      <h2>리위탄 <small>鯉魚潭</small></h2>
       <p>화롄에서 가장 큰 내륙 호수예요. 호수를 한 바퀴 도는 길이 약 4km라 천천히 걸어도 한 시간쯤이면 돌 수 있고, 맑은 날엔 鯉魚山 위로 패러글라이딩이 보이기도 해요.</p>
       <h3>가는 방법</h3>
       <p>화롄역에서 차로 약 30분이에요. 화롄 버스터미널에서 303번이나 台灣好行 303B·303C를 타고 鯉魚潭潭北遊客中心에서 내려요.</p>
@@ -151,7 +153,7 @@
     </article>
 
     <article class="att-card" id="dongdamen">
-      <h2><span class="att-num" aria-hidden="true">⭐</span>동대문 야시장 <small>東大門夜市</small></h2>
+      <h2>동대문 야시장 <small>東大門夜市</small></h2>
       <p>화롄 시내 한가운데 있는 큰 야시장이에요. 원주민 꼬치구이부터 각 지역 대만 간식까지 한곳에 모여 있어서, 낮에 협곡이나 바다를 보고 저녁을 해결하기 좋아요.</p>
       <h3>가는 방법</h3>
       <p>화롄역에서 차로 약 10분이에요. 시내 숙소라면 걸어서 갈 수 있는 거리예요. 주소는 花蓮市 重慶路 572號예요.</p>
@@ -218,6 +220,17 @@ wcs_add["wa"] = "1c1c692e90a9a80";
 if(window.wcs) {
   wcs_do();
 }
+</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function () {
+  var el = document.getElementById("attractionsMap");
+  if (!el || !window.L) return;
+  var items = ATTRACTIONS[el.dataset.region].items;
+  var map = L.map(el, { scrollWheelZoom: false });
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap contributors", maxZoom: 19 }).addTo(map);
+  map.fitBounds(items.map(function (i) { return [i.lat, i.lng]; }), { padding: [30, 30] });
+})();
 </script>
 </body>
 </html>
