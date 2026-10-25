@@ -309,6 +309,7 @@ function buildSpotPage(spot, region, category, siblings, hasCombo) {
       </div>
 
       ${comboLinkHtml}
+      ${region.id === "hualien" ? `<p class="region-intro" style="margin:0 0 32px;">화롄 여행이라면 현지 여행사 두부투어의 화롄 맛집 지도와 타이루거 투어도 함께 참고해 보세요. <a class="link-all" href="https://doobootour.com/" target="_blank" rel="noopener">두부투어 화롄 맛집 지도 보기 →</a></p>` : ""}
       ${siblingsHtml}
     </div>
   </section>
