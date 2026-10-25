@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { slugForSpot } = require("./lib/spot-slug");
+const { klookLinks } = require("./klook-attraction-links");
 
 const root = path.join(__dirname, "..");
 
@@ -102,6 +103,9 @@ function attractionCard(item, nearby, data, idx) {
       <p>${esc(item.access)}</p>
       <p class="att-src">참고: ${sources}</p>
       <p><a class="att-map" href="${mapsUrl(item)}" target="_blank" rel="noopener">구글맵에서 위치 보기 →</a></p>
+      ${klookLinks(item.id).length ? `<div class="att-klook"><h3>관련 투어·입장권 (Klook)</h3>
+      <ul>${klookLinks(item.id).map(l => `<li><a href="${l.url}" target="_blank" rel="sponsored noopener">${esc(l.title)}</a></li>`).join("")}</ul>
+      <p class="att-src">제휴 링크예요. 예약하시면 사이트 운영에 작은 도움이 돼요. 일정과 요금은 Klook에서 확인해 주세요.</p></div>` : ""}
       ${nearby.length ? `<h3>근처 맛집 ${nearby.length}곳</h3>
       ${nearby[nearby.length - 1].d > 5 ? `<p class="att-src">바로 옆에 등록된 맛집이 아직 없어서, 거리가 가장 가까운 곳을 골랐어요.</p>` : ""}
       <ul class="att-foods">${foods}</ul>` : `<h3>근처 맛집</h3>
@@ -125,6 +129,8 @@ const STYLE = `<style>
   .att-foods { padding-left: 20px; margin: 6px 0; }
   .att-meta { color: var(--ink-faint); font-size: 12.5px; }
   .att-tour { margin-top: 12px; }
+  .att-klook { background: #faf6f1; border-radius: 12px; padding: 4px 16px 6px; margin: 14px 0; }
+  .att-klook ul { list-style: disc; padding-left: 18px; margin: 4px 0; }
   .att-photo { margin: 0 0 14px; }
   .att-photo img { display: block; width: 100%; max-width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 14px; background: #eee; }
   .att-photo figcaption { margin-top: 6px; font-size: 11.5px; line-height: 1.5; color: var(--ink-faint); word-break: break-all; }
