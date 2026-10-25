@@ -12,8 +12,8 @@
     ".attr-pop-badge{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:700;color:var(--terracotta-dark,#a8562c);background:var(--terracotta-tint,#f6e6da);padding:3px 9px;border-radius:999px;line-height:1.3}" +
     ".attr-pop-name{display:block;margin:10px 0 0;font-family:var(--font-display,inherit);font-weight:700;font-size:15px;line-height:1.35;color:var(--ink,#2b2420);word-break:keep-all;overflow-wrap:anywhere}" +
     ".attr-pop-zh{display:block;margin:2px 0 0;font-size:12px;line-height:1.4;color:var(--ink-faint,#9a8f86)}" +
-    ".attr-pop-btn{display:block;margin:12px 0 0;padding:9px 12px;border-radius:12px;background:var(--sage-tint,#e6efe6);color:var(--sage,#4f7a5a)!important;font-size:12.5px;font-weight:700;text-align:center;text-decoration:none}" +
-    ".attr-pop-btn:hover{filter:brightness(.96)}" +
+    ".attr-pop-btn{display:block;margin:12px 0 0;padding:9px 12px;border-radius:12px;background:var(--terracotta,#c2703f);color:#fff!important;box-shadow:0 2px 6px rgba(156,82,40,.28);font-size:12.5px;font-weight:700;text-align:center;text-decoration:none}" +
+    ".attr-pop-btn:hover,.attr-pop-btn:active{background:var(--terracotta-dark,#9c5228)}" +
     ".attr-popup a.leaflet-popup-close-button{top:8px;right:8px}";
   document.head.appendChild(css);
   var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
@@ -33,7 +33,7 @@
             '<span class="attr-pop-name">' + esc(it.ko) + '</span>' +
             '<span class="attr-pop-zh">' + esc(it.zh) + '</span>' +
             '<a class="attr-pop-btn" href="' + href + '">관광지 안내 보기 →</a></div>',
-            { className: "attr-popup", maxWidth: 280, minWidth: 0, offset: [0, -4] })
+            { className: "attr-popup", maxWidth: 280, minWidth: 0, offset: [0, -4], autoPan: true, autoPanPaddingTopLeft: L.point(16, 70), autoPanPaddingBottomRight: L.point(window.innerWidth < 768 ? 130 : 24, window.innerWidth < 768 ? 40 : 24) })
           .addTo(group);
       });
     });
