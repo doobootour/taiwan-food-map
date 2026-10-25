@@ -75,7 +75,7 @@ function attractionCard(item, nearby, data, idx) {
     : "";
   return `
     <article class="att-card" id="${esc(item.id)}">
-      <h2><span class="att-num">${String(idx + 1).padStart(2, "0")}</span>${esc(item.ko)} <small>${esc(item.zh)}</small></h2>
+      <h2><span class="att-num" aria-hidden="true">⭐</span>${esc(item.ko)} <small>${esc(item.zh)}</small></h2>
       <p>${esc(item.intro)}</p>
       <h3>가는 방법</h3>
       <p>${esc(item.access)}</p>
@@ -97,7 +97,7 @@ const STYLE = `<style>
   .policy-wrap p, .policy-wrap li { color: var(--ink-soft); font-size: 14.5px; line-height: 1.8; }
   .policy-wrap a { color: var(--terracotta-dark); font-weight: 600; }
   .att-notice { background: var(--cream, #fbf5ec); border-left: 4px solid var(--terracotta-dark, #a8562c); padding: 12px 16px; border-radius: 8px; margin: 16px 0 8px; }
-  .att-toc { padding-left: 20px; margin: 12px 0 8px; }
+  .att-toc { list-style: none; padding-left: 0; margin: 12px 0 8px; }
   .att-card { border-top: 1px solid rgba(0,0,0,.08); padding-top: 28px; margin-top: 32px; }
   .att-card h2 { font-size: 21px; margin: 0 0 10px; color: var(--ink); }
   .att-card h2 small { font-size: 14px; color: var(--ink-faint); font-weight: 500; margin-left: 4px; }
@@ -140,7 +140,7 @@ function buildPage(region, data, cards) {
   r(/<meta property="og:description" content="[^"]*" \/>/, `<meta property="og:description" content="${esc(data.description)}" />`);
   r(/<meta property="og:image" content="[^"]*" \/>/, `<meta property="og:image" content="https://taiwanbite.com/assets/images/regions/${region.id}-og.jpg" />`);
   r(/<style>[\s\S]*?<\/style>/, `${STYLE}\n<script type="application/ld+json">${JSON.stringify(ld)}</script>`);
-  const toc = data.items.map(it => `<li><a href="#${esc(it.id)}">${esc(it.ko)} ${esc(it.zh)}</a></li>`).join("");
+  const toc = data.items.map(it => `<li>⭐ <a href="#${esc(it.id)}">${esc(it.ko)} ${esc(it.zh)}</a></li>`).join("");
   r(/<main>[\s\S]*?<\/main>/, `<main>
   <div class="policy-wrap">
     <p class="policy-updated"><a href="/region-${region.id}">← ${esc(region.ko)} 여행 가이드</a></p>
@@ -148,7 +148,7 @@ function buildPage(region, data, cards) {
     <p class="policy-updated">관광지 + 근처 맛집 · 나만 알고 싶은 대만 맛집</p>
     <p>${esc(data.intro)}</p>
     <p class="att-notice">${esc(data.notice)}</p>
-    <ol class="att-toc">${toc}</ol>
+    <ul class="att-toc">${toc}</ul>
 ${cards}
     <p style="margin-top:40px;"><a href="/region-${region.id}">${esc(region.ko)} 맛집 전체 보기 →</a> · <a href="/map?region=${region.id}">지도에서 보기 →</a></p>
   </div>
@@ -163,7 +163,7 @@ function injectRegionTeaser(region, data, slug) {
   const file = path.join(root, `region-${region.id}.html`);
   if (!fs.existsSync(file)) return;
   let html = fs.readFileSync(file, "utf8").replace(BLOCK_RE, "");
-  const list = data.items.map(it => `<li><span class="check">✓</span><a href="/${slug}#${esc(it.id)}">${esc(it.ko)} ${esc(it.zh)}</a></li>`).join("");
+  const list = data.items.map(it => `<li><span class="check" aria-hidden="true">⭐</span><a href="/${slug}#${esc(it.id)}">${esc(it.ko)} ${esc(it.zh)}</a></li>`).join("");
   const block = `
       <!-- ATTRACTIONS:START -->
       <h2 class="region-h2">꼭 가볼 곳</h2>
