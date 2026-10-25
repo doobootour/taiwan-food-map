@@ -46,6 +46,11 @@
   .att-foods { padding-left: 20px; margin: 6px 0; }
   .att-meta { color: var(--ink-faint); font-size: 12.5px; }
   .att-tour { margin-top: 12px; }
+  .att-photo { margin: 0 0 14px; }
+  .att-photo img { display: block; width: 100%; max-width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 14px; background: #eee; }
+  .att-photo figcaption { margin-top: 6px; font-size: 11.5px; line-height: 1.5; color: var(--ink-faint); word-break: break-all; }
+  .att-photo figcaption a { color: var(--ink-faint); font-weight: 500; }
+  @media (max-width: 600px) { .att-photo img { border-radius: 10px; } }
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://taiwanbite.com/"},{"@type":"ListItem","position":2,"name":"화롄 여행 가이드","item":"https://taiwanbite.com/region-hualien"},{"@type":"ListItem","position":3,"name":"화롄 꼭 가볼 곳 5곳","item":"https://taiwanbite.com/hualien-attractions"}]},{"@type":"ItemList","name":"화롄 꼭 가볼 곳 5곳","url":"https://taiwanbite.com/hualien-attractions","numberOfItems":5,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://taiwanbite.com/hualien-attractions#taroko","item":{"@type":"TouristAttraction","name":"타이루거 협곡 (太魯閣國家公園)","description":"'타이루거(太魯閣)'는 이 골짜기에 살아온 원주민 트루쿠(Truku)족의 이름에서 왔어요. 청나라 때는 '大魯閣', 일본 통치기에는 'Taroko'로 불렸고, 그 발음이 지금의 이름으로 굳었어요. 수억 년 전 바다 밑 생물이 쌓여 만들어진 석회암이 열과 압력을 받아 대리석이 됐고, 대만 섬이 솟아오르는 동안 立霧溪가 그 대리석을 깊게 깎아 내려 거의 수직인 협곡이 생겼어요. 1986년에 국가공원으로 지정됐어요.","geo":{"@type":"GeoCoordinates","latitude":24.1577,"longitude":121.6222}}},{"@type":"ListItem","position":2,"url":"https://taiwanbite.com/hualien-attractions#qingshui-cliff","item":{"@type":"TouristAttraction","name":"청수단애 (清水斷崖)","description":"'清水'는 절벽 뒤에 솟은 清水山에서 따온 이름이에요. 和平에서 崇德까지 약 21km 이어지는 해안 절벽으로, 예부터 '대만 8경'의 하나로 꼽혀 왔어요. 필리핀해판과 유라시아판이 부딪히며 땅이 솟아올랐고, 단단한 대리석과 편마암이 드러나면서 1,000m 넘는 산자락이 거의 90도로 태평양에 떨어지는 지형이 됐어요. 1932년 개통한 蘇花公路가 이 절벽 허리를 따라 나 있어요.","geo":{"@type":"GeoCoordinates","latitude":24.2104,"longitude":121.6792}}},{"@type":"ListItem","position":3,"url":"https://taiwanbite.com/hualien-attractions#qixingtan","item":{"@type":"TouristAttraction","name":"칠성담 (七星潭)","description":"이름에 '潭(못)'이 붙었지만 호수가 아니라 바다예요. 원래 지금의 화롄 공항 자리에 크고 작은 호수가 있었는데, 일본 통치기에 비행장을 지으면서 메워졌어요. 해안가로 옮겨 온 주민들이 옛 마을 이름을 그대로 쓰면서 이 바닷가가 '七星潭'이 됐어요. 단층이 만든 초승달 모양 해안이라 '月牙灣'이라고도 불러요. 파도에 둥글게 다듬어진 검은 자갈이 해변을 덮고 있고, 뒤로는 중앙산맥이, 북쪽 멀리로는 청수단애가 보여요.","geo":{"@type":"GeoCoordinates","latitude":24.0264,"longitude":121.632}}},{"@type":"ListItem","position":4,"url":"https://taiwanbite.com/hualien-attractions#liyu-lake","item":{"@type":"TouristAttraction","name":"리위탄 (鯉魚潭)","description":"호수 동쪽에 있는 鯉魚山에서 이름을 따왔어요. 면적 약 104헥타르로 화롄에서 가장 큰 내륙 호수예요. 남북으로 길쭉한 타원형이고, 계절에 따라 호수 크기가 조금씩 달라져요.","geo":{"@type":"GeoCoordinates","latitude":23.927826,"longitude":121.50987}}},{"@type":"ListItem","position":5,"url":"https://taiwanbite.com/hualien-attractions#dongdamen","item":{"@type":"TouristAttraction","name":"동대문 야시장 (東大門夜市)","description":"화롄의 오래된 야시장들을 한곳에 모아 2015년에 문을 연 야시장이에요. 해변에 있던 南濱夜市의 뒤를 잇는 福町夜市와, 시내에 따로 있던 自強夜市 등이 옮겨 와 하나가 됐어요. 福町夜市, 原住民一條街, 各省一條街, 自強夜市 네 구역으로 나뉘어 있고, 400개가 넘는 노점이 모인 화롄 최대 야시장이에요. 옛 화롄역 자리 바로 옆이라 낮에는 옛 철길 흔적을 따라 걸어 볼 수도 있어요.","geo":{"@type":"GeoCoordinates","latitude":23.9736,"longitude":121.6112}}}]}]}</script>
 </head>
@@ -88,9 +93,9 @@
     <p>화롄은 협곡, 바다 절벽, 호수, 야시장이 차로 한 시간 안에 모여 있는 곳이에요. 관광지마다 근처에 등록된 맛집을 거리순으로 붙여 두었으니, 구경하고 바로 먹을 곳까지 정해 보세요.</p>
     <ul class="att-toc"><li><a href="#taroko">타이루거 협곡 太魯閣國家公園</a></li><li><a href="#qingshui-cliff">청수단애 清水斷崖</a></li><li><a href="#qixingtan">칠성담 七星潭</a></li><li><a href="#liyu-lake">리위탄 鯉魚潭</a></li><li><a href="#dongdamen">동대문 야시장 東大門夜市</a></li></ul>
     <div id="attractionsMap" data-region="hualien" style="height:360px;border-radius:12px;margin:20px 0 8px;"></div>
-    <p class="att-src">⭐ 표시를 누르면 관광지 설명으로 이동해요.</p>
 
     <article class="att-card" id="taroko">
+      <figure class="att-photo"><img src="/assets/images/attractions/hualien/taroko.webp" alt="타이루거 협곡 燕子口에서 올려다본 대리석 절벽" width="1200" height="1805" loading="eager" decoding="async" /><figcaption>사진: <a href="https://commons.wikimedia.org/wiki/File:View_From_Swallow_Grotto_in_Taroko_Gorge_(5448560308).jpg" target="_blank" rel="noopener">edwin.11</a> / <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a> · Wikimedia Commons</figcaption></figure>
       <h2>타이루거 협곡 <small>太魯閣國家公園</small></h2>
       <h3>이름의 유래</h3>
       <p>'타이루거(太魯閣)'는 이 골짜기에 살아온 원주민 트루쿠(Truku)족의 이름에서 왔어요. 청나라 때는 '大魯閣', 일본 통치기에는 'Taroko'로 불렸고, 그 발음이 지금의 이름으로 굳었어요.</p>
@@ -111,6 +116,7 @@
     </article>
 
     <article class="att-card" id="qingshui-cliff">
+      <figure class="att-photo"><img src="/assets/images/attractions/hualien/qingshui-cliff.webp" alt="태평양으로 떨어지는 청수단애 절벽과 푸른 바다" width="1200" height="800" loading="lazy" decoding="async" /><figcaption>사진: <a href="https://commons.wikimedia.org/wiki/File:Taroko_National_Park_Qingshui_Cliff_(Huaiwun).jpg" target="_blank" rel="noopener">Huaiwun</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener license">CC BY-SA 4.0</a> · Wikimedia Commons</figcaption></figure>
       <h2>청수단애 <small>清水斷崖</small></h2>
       <h3>이름의 유래</h3>
       <p>'清水'는 절벽 뒤에 솟은 清水山에서 따온 이름이에요. 和平에서 崇德까지 약 21km 이어지는 해안 절벽으로, 예부터 '대만 8경'의 하나로 꼽혀 왔어요.</p>
@@ -131,6 +137,7 @@
     </article>
 
     <article class="att-card" id="qixingtan">
+      <figure class="att-photo"><img src="/assets/images/attractions/hualien/qixingtan.webp" alt="야자수 너머로 보이는 칠성담 해안과 산" width="1200" height="800" loading="lazy" decoding="async" /><figcaption>사진: <a href="https://commons.wikimedia.org/wiki/File:Qixingtan_Beach,_Taiwan.jpg" target="_blank" rel="noopener">Artemas Liu</a> / <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener license">CC BY-SA 2.0</a> · Wikimedia Commons</figcaption></figure>
       <h2>칠성담 <small>七星潭</small></h2>
       <h3>이름의 유래</h3>
       <p>이름에 '潭(못)'이 붙었지만 호수가 아니라 바다예요. 원래 지금의 화롄 공항 자리에 크고 작은 호수가 있었는데, 일본 통치기에 비행장을 지으면서 메워졌어요. 해안가로 옮겨 온 주민들이 옛 마을 이름을 그대로 쓰면서 이 바닷가가 '七星潭'이 됐어요.</p>
@@ -151,6 +158,7 @@
     </article>
 
     <article class="att-card" id="liyu-lake">
+      <figure class="att-photo"><img src="/assets/images/attractions/hualien/liyu-lake.webp" alt="산에 둘러싸인 리위탄 호숫가 산책로" width="1200" height="801" loading="lazy" decoding="async" /><figcaption>사진: <a href="https://commons.wikimedia.org/wiki/File:Liyu_Lake_Hualien_(37723288612).jpg" target="_blank" rel="noopener">darrenlmh</a> / <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a> · Wikimedia Commons</figcaption></figure>
       <h2>리위탄 <small>鯉魚潭</small></h2>
       <h3>이름의 유래</h3>
       <p>호수 동쪽에 있는 鯉魚山에서 이름을 따왔어요.</p>
@@ -171,6 +179,7 @@
     </article>
 
     <article class="att-card" id="dongdamen">
+      <figure class="att-photo"><img src="/assets/images/attractions/hualien/dongdamen.webp" alt="사람들로 붐비는 화롄 동대문 야시장 입구" width="1200" height="856" loading="lazy" decoding="async" /><figcaption>사진: <a href="https://commons.wikimedia.org/wiki/File:Hualien_Dongdamen_Night_Market.jpg" target="_blank" rel="noopener">Rutger van der Maar</a> / <a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener license">CC BY 2.0</a> · Wikimedia Commons</figcaption></figure>
       <h2>동대문 야시장 <small>東大門夜市</small></h2>
       <h3>이름의 유래</h3>
       <p>화롄의 오래된 야시장들을 한곳에 모아 2015년에 문을 연 야시장이에요. 해변에 있던 南濱夜市의 뒤를 잇는 福町夜市와, 시내에 따로 있던 自強夜市 등이 옮겨 와 하나가 됐어요.</p>
