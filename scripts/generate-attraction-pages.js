@@ -42,21 +42,30 @@ function km(a, b) {
   return 2 * R * Math.asin(Math.sqrt(h));
 }
 
-async function fetchRegionSpots(regionId) {
-  const url = `${SUPABASE_URL}/rest/v1/eats?select=id,name,category,region,lat,lng&region=eq.${regionId}&order=id.asc`;
-  const res = await fetch(url, { headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` } });
-  if (!res.ok) throw new Error(`Supabase fetch failed for region=${regionId}: ${res.status}`);
-  return res.json();
+// 지역 경계에 걸친 관광지도 있어서(예: 신베이·일월담) 모든 지역 맛집을 한 번에 받아 거리로만 고른다
+async function fetchAllSpots() {
+  const all = [];
+  for (let from = 0; ; from += 1000) {
+    const url = `${SUPABASE_URL}/rest/v1/eats?select=id,name,category,region,lat,lng&order=id.asc`;
+    const res = await fetch(url, { headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}`, Range: `${from}-${from + 999}` } });
+    if (!res.ok) throw new Error(`Supabase fetch failed: ${res.status}`);
+    const rows = await res.json();
+    all.push(...rows);
+    if (rows.length < 1000) break;
+  }
+  return all;
 }
 
+const NEARBY_FAR_KM = 25; // 이보다 멀면 '근처 맛집'이라 부르지 않는다
+
 function nearbySpots(item, spots) {
-  // 가까운 순. 5km 안에서 최대 5곳, 그 안에 3곳이 안 되면 가장 가까운 3곳
+  // 가까운 순. 5km 안에서 최대 5곳, 그 안에 3곳이 안 되면 25km 안에서 가장 가까운 3곳
   const ranked = spots
     .filter(s => s.name && String(s.name).trim() && !NON_FOOD.has(s.category) && isFinite(s.lat) && isFinite(s.lng))
     .map(s => ({ s, d: km(item, s) }))
     .sort((a, b) => a.d - b.d || String(a.s.id).localeCompare(String(b.s.id), "en", { numeric: true }));
   const within = ranked.filter(r => r.d <= 5).slice(0, NEARBY_MAX);
-  return within.length >= NEARBY_MIN ? within : ranked.slice(0, NEARBY_MIN);
+  return within.length >= NEARBY_MIN ? within : ranked.filter(r => r.d <= NEARBY_FAR_KM).slice(0, NEARBY_MIN);
 }
 
 const fmtKm = d => (d < 1 ? `${Math.round(d * 1000)}m` : `${d.toFixed(1)}km`);
@@ -70,11 +79,16 @@ function attractionCard(item, nearby, data, idx) {
     return `<li><a href="/${slugForSpot(s)}">${esc(s.name)}</a> <span class="att-meta">${c ? `${c.icon} ${esc(c.ko)} · ` : ""}약 ${fmtKm(d)}</span></li>`;
   }).join("");
   const sources = item.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(" · ");
+  const img = item.image
+    ? `<figure class="att-photo"><img src="${esc(item.image.src)}" alt="${esc(item.image.alt || `${item.ko}(${item.zh}) 풍경`)}" width="${item.image.width}" height="${item.image.height}" loading="${idx === 0 ? "eager" : "lazy"}" decoding="async" />` +
+      `<figcaption>사진: <a href="${esc(item.image.sourceUrl)}" target="_blank" rel="noopener">${esc(item.image.credit)}</a> / ${item.image.licenseUrl ? `<a href="${esc(item.image.licenseUrl)}" target="_blank" rel="noopener license">${esc(item.image.license)}</a>` : esc(item.image.license)} · Wikimedia Commons</figcaption></figure>`
+    : "";
   const tour = item.doobootour
     ? `<p class="att-tour">화롄에서 한국어 투어로 편하게 다녀오고 싶다면 <a href="${esc(data.doobootourUrl)}" target="_blank" rel="noopener">두부투어</a>를 참고해 보세요.</p>`
     : "";
   return `
     <article class="att-card" id="${esc(item.id)}">
+      ${img}
       <h2>${esc(item.ko)} <small>${esc(item.zh)}</small></h2>
       <h3>이름의 유래</h3>
       <p>${esc(item.origin)}</p>
@@ -88,9 +102,10 @@ function attractionCard(item, nearby, data, idx) {
       <p>${esc(item.access)}</p>
       <p class="att-src">참고: ${sources}</p>
       <p><a class="att-map" href="${mapsUrl(item)}" target="_blank" rel="noopener">구글맵에서 위치 보기 →</a></p>
-      <h3>근처 맛집 ${nearby.length}곳</h3>
+      ${nearby.length ? `<h3>근처 맛집 ${nearby.length}곳</h3>
       ${nearby[nearby.length - 1].d > 5 ? `<p class="att-src">바로 옆에 등록된 맛집이 아직 없어서, 거리가 가장 가까운 곳을 골랐어요.</p>` : ""}
-      <ul class="att-foods">${foods}</ul>
+      <ul class="att-foods">${foods}</ul>` : `<h3>근처 맛집</h3>
+      <p class="att-src">아직 근처에 등록된 맛집이 없어요.</p>`}
       ${tour}
     </article>`;
 }
@@ -110,6 +125,11 @@ const STYLE = `<style>
   .att-foods { padding-left: 20px; margin: 6px 0; }
   .att-meta { color: var(--ink-faint); font-size: 12.5px; }
   .att-tour { margin-top: 12px; }
+  .att-photo { margin: 0 0 14px; }
+  .att-photo img { display: block; width: 100%; max-width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 14px; background: #eee; }
+  .att-photo figcaption { margin-top: 6px; font-size: 11.5px; line-height: 1.5; color: var(--ink-faint); word-break: break-all; }
+  .att-photo figcaption a { color: var(--ink-faint); font-weight: 500; }
+  @media (max-width: 600px) { .att-photo img { border-radius: 10px; } }
 </style>`;
 
 function buildPage(region, data, cards) {
@@ -122,8 +142,10 @@ function buildPage(region, data, cards) {
     "@graph": [
       { "@type": "BreadcrumbList", "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://taiwanbite.com/" },
-        { "@type": "ListItem", "position": 2, "name": `${region.ko} 여행 가이드`, "item": `https://taiwanbite.com/region-${region.id}` },
-        { "@type": "ListItem", "position": 3, "name": data.title, "item": url },
+        ...(region.hasPage
+          ? [{ "@type": "ListItem", "position": 2, "name": `${region.ko} 여행 가이드`, "item": `https://taiwanbite.com/region-${region.id}` },
+             { "@type": "ListItem", "position": 3, "name": data.title, "item": url }]
+          : [{ "@type": "ListItem", "position": 2, "name": data.title, "item": url }]),
       ] },
       { "@type": "ItemList", "name": data.title, "url": url, "numberOfItems": data.items.length,
         "itemListElement": data.items.map((it, i) => ({
@@ -147,15 +169,14 @@ ${STYLE}\n<script type="application/ld+json">${JSON.stringify(ld)}</script>`);
   const toc = data.items.map(it => `<li><a href="#${esc(it.id)}">${esc(it.ko)} ${esc(it.zh)}</a></li>`).join("");
   r(/<main>[\s\S]*?<\/main>/, `<main>
   <div class="policy-wrap">
-    <p class="policy-updated"><a href="/region-${region.id}">← ${esc(region.ko)} 여행 가이드</a></p>
+    <p class="policy-updated">${region.hasPage ? `<a href="/region-${region.id}">← ${esc(region.ko)} 여행 가이드</a>` : `<a href="/">← 홈</a>`}</p>
     <h1>${esc(data.title)}</h1>
     <p class="policy-updated">관광지 + 근처 맛집 · 나만 알고 싶은 대만 맛집</p>
     <p>${esc(data.intro)}</p>
     <ul class="att-toc">${toc}</ul>
     <div id="attractionsMap" data-region="${region.id}" style="height:360px;border-radius:12px;margin:20px 0 8px;"></div>
-    <p class="att-src">⭐ 표시를 누르면 관광지 설명으로 이동해요.</p>
 ${cards}
-    <p style="margin-top:40px;"><a href="/region-${region.id}">${esc(region.ko)} 맛집 전체 보기 →</a> · <a href="/map?region=${region.id}">지도에서 보기 →</a></p>
+    ${region.hasPage ? `<p style="margin-top:40px;"><a href="/region-${region.id}">${esc(region.ko)} 맛집 전체 보기 →</a> · <a href="/map?region=${region.id}">지도에서 보기 →</a></p>` : `<p style="margin-top:40px;"><a href="/map">지도에서 맛집 보기 →</a></p>`}
   </div>
 </main>`);
   const mapInit = `<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -195,14 +216,16 @@ function injectRegionTeaser(region, data, slug) {
 }
 
 async function main() {
+  const spots = await fetchAllSpots();
   for (const [regionId, data] of Object.entries(ATTRACTIONS)) {
-    const region = REGIONS.find(r => r.id === regionId);
+    // 맛집 지역(REGIONS)에 없는 곳(예: 컨딩)은 data.region으로 이름만 정하고 지역 페이지 링크는 뺀다
+    const known = REGIONS.find(r => r.id === regionId);
+    const region = known ? { ...known, hasPage: fs.existsSync(path.join(root, `region-${regionId}.html`)) } : data.region ? { ...data.region, hasPage: false } : null;
     if (!region) throw new Error(`unknown region ${regionId}`);
-    const spots = await fetchRegionSpots(regionId);
     const counts = [];
     const cards = data.items.map((item, i) => {
       const nearby = nearbySpots(item, spots);
-      counts.push(`${item.ko} ${nearby.length}곳(최대 ${fmtKm(nearby[nearby.length - 1].d)})`);
+      counts.push(nearby.length ? `${item.ko} ${nearby.length}곳(최대 ${fmtKm(nearby[nearby.length - 1].d)})` : `${item.ko} 0곳`);
       return attractionCard(item, nearby, data, i);
     }).join("\n");
     const slug = buildPage(region, data, cards);
