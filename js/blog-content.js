@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-car-rental-24h-mileage-insurance",
+    "image": "assets/images/blog/taiwan-car-rental-24h-mileage-insurance-1.jpg",
+    "regions": [
+      "yilan"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 렌터카",
+      "title": "대만 렌터카, 24시간 요금제와 보험은 어떻게 볼까?",
+      "desc": "타이베이에서 차 빌려 이란 당일치기 가기 전에, 24시간 요금제·연체 규칙·기본 보험·외국인 서류를 공식 약관으로 정리했어요.",
+      "meta": "대만 전역 · 렌터카"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Car Rental",
+      "title": "Renting a Car in Taiwan: 24-Hour Rates and Insurance",
+      "desc": "Before you drive from Taipei to Yilan: 24-hour billing, late-return rules, basic insurance and documents for foreign drivers, from official rental terms.",
+      "meta": "All of Taiwan · Car Rental"
+    }
+  },
+  {
     "slug": "taipei-beitou-private-hot-spring-booking",
     "image": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
     "regions": [
@@ -1296,6 +1315,311 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taiwan-car-rental-24h-mileage-insurance": {
+    "heroImage": "assets/images/blog/taiwan-car-rental-24h-mileage-insurance-1.jpg",
+    "ko": {
+      "pageTitle": "대만 렌터카 — 24시간·보험·면허 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 렌터카는 24시간 단위로 계산하고 늦게 반납하면 시간 단위로 더 붙어요. 기본 보험 범위와 외국인 준비 서류, 국제운전면허 30일 규칙을 정리했어요.",
+      "ogTitle": "대만 렌터카, 24시간 요금제와 보험은 어떻게 볼까?",
+      "eyebrow": "대만 여행 가이드 · 렌터카",
+      "title": "대만 렌터카, 24시간 요금제와 보험은 어떻게 볼까?",
+      "dek": "차 고르는 것보다 반납 시간과 보험 범위를 먼저 봐야 — 대만 렌터카 계산서가 예상과 달라지지 않아요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 전역 · 렌터카",
+      "intro": "\"타이베이에서 아침에 대만 렌터카를 빌려 이란 다녀오면 하루 요금이면 될까?\" 대만에서 처음 차를 빌리는 여행자들이 자주 하는 고민이에요. 대만 렌터카 회사 공식 약관과 교통부 공로국 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 대만 렌터카 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "확인할 내용 (和運租車 약관, 2026년 10월 기준)",
+            "체크 포인트"
+          ],
+          "rows": [
+            {
+              "label": "요금 단위",
+              "values": [
+                "하루 = 24시간",
+                "빌린 시각 기준으로 반납 시각 정하기"
+              ]
+            },
+            {
+              "label": "늦은 반납",
+              "values": [
+                "1시간 이상 늦으면 시간당 추가, 6시간 이상이면 하루 추가",
+                "연장은 반납 전에 미리 연락"
+              ]
+            },
+            {
+              "label": "기본 보험",
+              "values": [
+                "차량손해·도난·탑승자·의무 책임보험·제3자 배상",
+                "자연재해·차 안 물건은 보장 밖"
+              ]
+            },
+            {
+              "label": "기타 비용",
+              "values": [
+                "주행거리 기준 유류비, 고속도로 통행료(E-tag), 주차비·과태료",
+                "반납할 때 정산"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "요금과 보험 자기부담금은 업체·차종·시기마다 달라서 이 글에는 넣지 않았어요. 요금은 방문 전 공식 안내를 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-car-rental-24h-mileage-insurance-1.jpg",
+          "caption": "국도 5호선 쑤아오 구간에서 북쪽(뤄둥·이란 방향)으로 달리며 찍은 고속도로 풍경이에요. 렌터카 업체 차량이나 특정 지점 사진은 아니고, 2016년 12월 사진이라 지금과 다를 수 있어요(사진: Hung1101 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 외국인이 준비할 서류와 국제운전면허"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "한국 국제운전면허로 운전 가능",
+              "desc": "대만 외교부에 따르면 2022년 2월 한·대만 국제운전면허 상호인정 각서가 발효됐어요. 교통부 공로국 안내로는 입국 30일 이내 단기 체류면 따로 등록 없이 운전할 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "4가지를 함께 챙기기",
+              "desc": "和運租車는 입국 30일 안에 반납하는 외국인에게 여권, 국제운전면허, 한국 운전면허 원본, 유효기간 6개월 이상 남은 신용카드를 요구해요."
+            },
+            {
+              "mark": "✓",
+              "b": "나이 기준도 확인",
+              "desc": "같은 약관 기준 만 20세 이상이 빌릴 수 있어요. 함께 운전할 사람도 서류를 같이 준비하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 대만 렌터카 보험, 이렇게 고르면 덜 헷갈려요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "기본 보장 범위부터 읽기",
+              "desc": "기본 보장에는 차량손해, 도난, 탑승자, 의무 책임보험, 제3자 배상이 들어가요. 다만 태풍·지진 같은 자연재해와 차 안 물건 분실은 빠져요."
+            },
+            {
+              "mark": "✓",
+              "b": "수리 기간 영업손실도 체크",
+              "desc": "사고로 차를 못 쓰는 기간의 영업손실을 빌린 사람이 부담하는 조항이 있어요. 이 부분까지 덮는 추가 보장이 있는지 카운터에서 물어보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "예약 사이트 보험과 비교하기",
+              "desc": "대행 사이트에서 따로 파는 보험은 현지에서 먼저 내고 나중에 청구하는 방식일 수 있어요. 보장 범위와 청구 방법을 각 약관으로 비교한 뒤 고르세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 타이베이→이란 당일치기 체크"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "반납 시각 역산하기",
+              "desc": "24시간제라 아침 9시에 빌리면 다음 날 9시가 기준이에요. 당일 반납이면 저녁 교통 체증까지 감안해 여유 있게 잡으세요."
+            },
+            {
+              "mark": "2",
+              "b": "통행료·유류비는 반납 때 정산",
+              "desc": "고속도로 통행료는 E-tag로 기록돼 반납할 때 함께 내고, 유류비는 주행거리 기준으로 계산돼요."
+            },
+            {
+              "mark": "3",
+              "b": "주차비·과태료는 본인 부담",
+              "desc": "주차비와 교통 과태료는 빌린 사람이 내요. 다른 지점 반납(甲租乙還)은 예약할 때 신청하고, 차량 사정에 따라 정해져요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "스쿠터는 규정이 따로라 <a href=\"/blog-taichung-scooter-rental-license-insurance\">타이중 스쿠터 렌트 면허·보험</a> 글을 참고하세요. 관광지 주차 요령은 <a href=\"/blog-jiufen-car-stay-parking-guide\">지우펀 렌터카 주차</a> 글에 정리해 뒀어요. 차로 이란에 간다면 <a href=\"/yilan-taiwanese\">이란 대만 음식 맛집</a>에서 점심을 고르고, 동선은 <a href=\"/region-yilan\">이란 맛집 지도</a>에서 한 번에 확인해 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 和運租車 공식 약관, 대만 교통부 공로국, 대만 외교부 안내를 바탕으로 2026년 10월 25일 기준으로 정리했어요. 요금은 방문 전 공식 안내를 확인하세요. 지점 운영 시간은 방문 전 구글맵에 등록된 영업시간을 확인하세요. 사진: Hung1101, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 이란 맛집도 확인해보세요",
+          "desc": "차로 이란에 간다면 들를 맛집을 지도에 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=yilan&cat=taiwanese"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taiwan Car Rental — 24h Rates & Insurance · My Secret Taiwan Eats",
+      "metaDescription": "Taiwan car rentals are billed in 24-hour blocks with hourly late charges. Basic insurance coverage, documents for foreign drivers and the 30-day IDP rule, from official sources.",
+      "ogTitle": "Renting a Car in Taiwan: 24-Hour Rates and Insurance",
+      "eyebrow": "Taiwan Travel Guide · Car Rental",
+      "title": "Renting a Car in Taiwan: 24-Hour Rates and Insurance",
+      "dek": "Check the return time and insurance cover before you pick a car — that's what keeps a Taiwan rental bill from surprising you.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "All of Taiwan · Car Rental",
+      "intro": "\"If I rent a car in Taipei in the morning and drive to Yilan, is one day's rate enough?\" It's a common question for first-time drivers in Taiwan. This guide is based on a Taiwanese rental company's official terms and Taiwan's Highway Bureau, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taiwan car rental at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "What to check (和運租車 terms, Oct 2026)",
+            "Tip"
+          ],
+          "rows": [
+            {
+              "label": "Billing unit",
+              "values": [
+                "One day = 24 hours",
+                "Plan your return time from your pick-up time"
+              ]
+            },
+            {
+              "label": "Late return",
+              "values": [
+                "1+ hour late adds hourly charges; 6+ hours adds a full day",
+                "Call ahead before your return time to extend"
+              ]
+            },
+            {
+              "label": "Basic insurance",
+              "values": [
+                "Vehicle damage, theft, passengers, compulsory liability, third-party liability",
+                "Natural disasters and items in the car aren't covered"
+              ]
+            },
+            {
+              "label": "Other costs",
+              "values": [
+                "Fuel by mileage, freeway tolls (E-tag), parking and traffic fines",
+                "Settled when you return the car"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Rates and insurance deductibles vary by company, car and season, so they're not included here. Check official pricing before you go."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-car-rental-24h-mileage-insurance-1.jpg",
+          "caption": "National Freeway 5 near Su'ao, heading north toward Luodong and Yilan. It is not a rental company's car or branch, and the photo is from December 2016, so the road may look different today (photo: Hung1101 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Documents for foreign drivers"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "A Korean IDP works in Taiwan",
+              "desc": "According to Taiwan's Ministry of Foreign Affairs, the Taiwan–Korea mutual recognition of international driving permits took effect in February 2022. The Highway Bureau says visitors staying under 30 days can drive without extra registration."
+            },
+            {
+              "mark": "✓",
+              "b": "Bring all four",
+              "desc": "和運租車 asks foreign renters returning within 30 days of arrival for a passport, an international driving permit, their original home licence and a credit card valid for at least six more months."
+            },
+            {
+              "mark": "✓",
+              "b": "Check the age rule",
+              "desc": "Under the same terms, renters must be 20 or older. Any second driver should bring the same documents."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Choosing insurance without the confusion"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Read the basic cover first",
+              "desc": "Basic cover includes vehicle damage, theft, passengers, compulsory liability and third-party liability. Typhoons, earthquakes and other natural disasters, and items lost from the car, are excluded."
+            },
+            {
+              "mark": "✓",
+              "b": "Ask about loss of use",
+              "desc": "The terms make the renter pay the company's lost income while a damaged car is repaired. Ask at the counter whether extra cover handles this."
+            },
+            {
+              "mark": "✓",
+              "b": "Compare with booking-site insurance",
+              "desc": "Insurance sold by booking sites may mean paying locally first and claiming later. Compare cover and claim steps in each policy before choosing."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Taipei to Yilan day-trip checklist"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Work back from the return time",
+              "desc": "With 24-hour billing, a 9 a.m. pick-up is due back at 9 a.m. the next day. For a same-day return, allow for evening traffic."
+            },
+            {
+              "mark": "2",
+              "b": "Tolls and fuel are settled at return",
+              "desc": "Freeway tolls are recorded by E-tag and paid when you return the car, and fuel is charged by mileage."
+            },
+            {
+              "mark": "3",
+              "b": "Parking and fines are on you",
+              "desc": "The renter pays parking and traffic fines. One-way returns (甲租乙還) must be requested when booking and depend on car availability."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Scooters follow different rules, so see our guide to <a href=\"/blog-taichung-scooter-rental-license-insurance\">scooter rental licences and insurance in Taichung</a>. For parking at busy sights, read <a href=\"/blog-jiufen-car-stay-parking-guide\">driving and parking in Jiufen</a>. If you're driving to Yilan, pick lunch from <a href=\"/yilan-taiwanese\">Yilan Taiwanese restaurants</a> and plan your route on the <a href=\"/region-yilan\">Yilan food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on 和運租車's official terms, Taiwan's Highway Bureau and Ministry of Foreign Affairs, as of 25 October 2026. Check official pricing before you go. Check the current opening hours on Google Maps before you go. Photo: Hung1101, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Yilan restaurants on the map",
+          "desc": "Driving to Yilan? Pin a place to eat on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=yilan&cat=taiwanese"
+        }
+      ]
+    }
+  },
   "taipei-beitou-private-hot-spring-booking": {
     "heroImage": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
     "ko": {
