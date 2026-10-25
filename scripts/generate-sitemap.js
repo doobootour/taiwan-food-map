@@ -26,6 +26,7 @@ function loadGlobals(files) {
 
 const { REGIONS, CATEGORIES } = loadGlobals(["js/data.js"]);
 const { BLOG_LIST } = loadGlobals(["js/blog-content.js"]);
+const { ATTRACTIONS } = loadGlobals(["js/attractions.js"]);
 const { slugForSpot, comboSlug } = require("./lib/spot-slug");
 const { isIndexableSpot } = require("./lib/indexable");
 
@@ -108,6 +109,9 @@ async function main() {
       const en = { loc: `https://taiwanbite.com/en/region-${r.id}`, changefreq: "weekly", priority: "0.8" };
       return englishFileExists(en.loc) ? [ko, en] : [ko];
     }),
+    ...Object.keys(ATTRACTIONS)
+      .filter(id => REGION_IDS.has(id))
+      .map(id => ({ loc: `https://taiwanbite.com/${id}-attractions`, changefreq: "weekly", priority: "0.75" })),
     ...CATEGORIES.flatMap(c => {
       const ko = { loc: `https://taiwanbite.com/category-${c.id}`, changefreq: "weekly", priority: "0.7" };
       const en = { loc: `https://taiwanbite.com/en/category-${c.id}`, changefreq: "weekly", priority: "0.7" };
