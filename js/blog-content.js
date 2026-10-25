@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-beitou-private-hot-spring-booking",
+    "image": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 온천",
+      "title": "베이터우 프라이빗 온천, 예약할까 현장 대기할까?",
+      "desc": "베이터우 湯屋는 호텔마다 예약 방식이 달라요. 예약제·현장 대기 차이와 1회 이용 시간, 늦었을 때 규칙, 비 오는 날 팁을 정리했어요.",
+      "meta": "타이베이 · 온천"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Hot Springs",
+      "title": "Beitou Private Hot Spring Rooms: Book or Walk In?",
+      "desc": "Each Beitou hotel runs its private hot spring rooms differently. Reservations vs. walk-in queues, session lengths, late-arrival rules and rainy-day tips.",
+      "meta": "Taipei · Hot Springs"
+    }
+  },
+  {
     "slug": "kaohsiung-solo-trip-budget-transport",
     "image": "assets/images/blog/kaohsiung-solo-trip-budget-transport-1.jpg",
     "regions": [
@@ -1277,6 +1296,311 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-beitou-private-hot-spring-booking": {
+    "heroImage": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
+    "ko": {
+      "pageTitle": "베이터우 프라이빗 온천 — 예약·현장 대기 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "베이터우 프라이빗 온천은 호텔마다 예약제, 현장 대기, 둘 다 가능한 곳으로 나뉘어요. 이용 시간 단위와 늦었을 때 규칙, 비 오는 날 동선까지 정리했어요.",
+      "ogTitle": "베이터우 프라이빗 온천, 예약할까 현장 대기할까?",
+      "eyebrow": "타이베이 여행 가이드 · 온천",
+      "title": "베이터우 프라이빗 온천, 예약할까 현장 대기할까?",
+      "dek": "같은 베이터우라도 호텔마다 받는 방식이 달라서 — 가기 전에 '예약제인지, 줄 서는 곳인지'만 알아도 기다리는 시간이 줄어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 온천",
+      "intro": "\"주말에 그냥 가면 베이터우 프라이빗 온천에 바로 들어갈 수 있을까?\" 베이터우 당일 온천을 계획하면 꼭 나오는 질문이에요. 베이터우 온천 호텔들의 공식 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 베이터우 프라이빗 온천 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "호텔 (공식 안내 기준)",
+            "프라이빗 탕 받는 방식",
+            "1회 이용 시간 (2026년 10월 기준)"
+          ],
+          "rows": [
+            {
+              "label": "일승생 가가야(日勝生加賀屋)",
+              "values": [
+                "온라인 예약, 예약 후 10분까지 보류",
+                "2인 90분"
+              ]
+            },
+            {
+              "label": "베이터우 아태(北投亞太)",
+              "values": [
+                "현장 대기 또는 7일 이내 예약",
+                "2인 120분"
+              ]
+            },
+            {
+              "label": "베이터우 리시(北投麗禧)",
+              "values": [
+                "예약제, 24시간 운영",
+                "호텔 안내 확인"
+              ]
+            },
+            {
+              "label": "수이메이(北投水美)",
+              "values": [
+                "예약 없이 현장 대기",
+                "호텔 안내 확인"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "요금은 호텔·요일·인원에 따라 달라서 이 글에는 넣지 않았어요. 요금은 방문 전 각 호텔 공식 안내를 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
+          "caption": "신베이터우 온천가 안쪽에 있는 지열곡(地熱谷)이에요. 김이 피어오르는 온천수를 둘러보는 곳이고, 이 글에서 소개한 호텔 탕 사진은 아니에요. 2024년 4월 사진이라 지금과 다를 수 있어요(사진: GiveMeMollusks / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 예약제 vs 현장 대기, 뭐가 다를까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "예약제는 시간 약속이 핵심",
+              "desc": "가가야는 예약을 10분까지만 잡아두고, 늦게 도착하면 끝나는 시간을 미뤄주지 않고 이용 시간이 줄어든다고 안내해요. MRT 환승 시간까지 넉넉히 잡고 출발하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "현장 대기는 일찍 가는 쪽이 유리",
+              "desc": "수이메이처럼 예약을 받지 않는 곳은 도착 순서대로 안내해요. 주말·공휴일엔 대기가 길어질 수 있으니 오전이나 이른 오후를 노려보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "둘 다 되는 곳은 전화로 확인",
+              "desc": "아태처럼 현장 대기와 예약을 모두 받는 곳은 가기 전에 전화로 빈 시간을 묻는 게 확실해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 베이터우 온천 들어가기 전에 알아두면 좋은 규칙"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "인원 기준은 대부분 2인",
+              "desc": "소개한 호텔의 프라이빗 탕은 2인 기준이고, 방 크기에 따라 최대 4인까지 받는 곳도 있어요. 아이 기준(키·나이)도 호텔마다 달라요."
+            },
+            {
+              "mark": "✓",
+              "b": "탕 안에서는 음식 금지인 곳도",
+              "desc": "가가야는 위생 때문에 프라이빗 탕 안에 음식을 가지고 들어갈 수 없어요."
+            },
+            {
+              "mark": "✓",
+              "b": "세면도구는 챙겨 가기",
+              "desc": "가가야는 정부 정책에 맞춰 2025년 1월부터 일회용 어메니티를 주지 않아요. 칫솔 같은 건 직접 챙기는 게 편해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 비 오는 날 베이터우, 이렇게 움직여요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "MRT 신베이터우 지선 이용",
+              "desc": "단수이신이선 베이터우역에서 신베이터우행 지선으로 갈아타면 온천가 입구에 바로 닿아요."
+            },
+            {
+              "mark": "2",
+              "b": "비 오는 날은 대기가 몰릴 수 있어요",
+              "desc": "야외 관광 대신 실내 온천을 찾는 사람이 늘 수 있으니 예약제 호텔을 고르는 편이 마음 편해요."
+            },
+            {
+              "mark": "3",
+              "b": "태풍 예보가 있으면",
+              "desc": "운영 여부를 호텔에 먼저 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "베이터우까지는 MRT로 가니 교통카드 잔액은 <a href=\"/blog-taipei-easycard-balance-check-topup\">타이베이 이지카드 잔액 확인·충전</a> 글을 보고 미리 채워 두세요. 태풍 시즌이라면 <a href=\"/blog-taiwan-typhoon-flight-cancellation\">대만 태풍 결항 대처</a>도 함께 보면 좋아요. 온천 뒤에는 따뜻한 대만 음식이 당기기 마련이에요. <a href=\"/taipei-taiwanese\">타이베이 대만 음식 맛집</a>에서 저녁 메뉴를 고르고, 동선은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 한 번에 확인해 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 베이터우 온천 호텔(일승생 가가야·베이터우 아태·베이터우 리시·수이메이)의 공식 안내와 타이베이 MRT 공식 안내를 바탕으로 2026년 10월 25일 기준으로 정리했어요. 요금은 방문 전 각 호텔 공식 안내를 확인하세요. 운영 시간은 방문 전 구글맵에 등록된 영업시간을 확인하세요. 사진: GiveMeMollusks, Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 확인해보세요",
+          "desc": "온천 끝나고 들를 타이베이 맛집을 지도에 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=taiwanese"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Beitou Private Hot Springs — Booking & Walk-In · My Secret Taiwan Eats",
+      "metaDescription": "Beitou hotels handle private hot spring rooms differently: reservations only, walk-in queues, or both. Session lengths, late-arrival rules and rainy-day tips from official hotel information.",
+      "ogTitle": "Beitou Private Hot Spring Rooms: Book or Walk In?",
+      "eyebrow": "Taipei Travel Guide · Hot Springs",
+      "title": "Beitou Private Hot Spring Rooms: Book or Walk In?",
+      "dek": "Every Beitou hotel does it differently — knowing whether a place takes bookings or runs a queue cuts your waiting time.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Hot Springs",
+      "intro": "\"If I just turn up on a weekend, can I get straight into a private hot spring room in Beitou?\" It's the question everyone asks when planning a Beitou day trip. This guide is based on official information from Beitou hot spring hotels, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Beitou private hot spring rooms compared"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Hotel (official info)",
+            "How private rooms work",
+            "Session length (Oct 2026)"
+          ],
+          "rows": [
+            {
+              "label": "Kagaya (日勝生加賀屋)",
+              "values": [
+                "Online booking, held for 10 minutes",
+                "90 min for 2"
+              ]
+            },
+            {
+              "label": "Beitou Asia Pacific (北投亞太)",
+              "values": [
+                "Walk-in queue or booking up to 7 days ahead",
+                "120 min for 2"
+              ]
+            },
+            {
+              "label": "Grand View Resort Beitou (北投麗禧)",
+              "values": [
+                "Reservations only, open 24 hours",
+                "See hotel info"
+              ]
+            },
+            {
+              "label": "Sweetme (北投水美)",
+              "values": [
+                "Walk-in queue, no bookings",
+                "See hotel info"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Prices vary by hotel, day and group size, so they're not included here. Check each hotel's official pricing before you go."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
+          "caption": "Thermal Valley (地熱谷) in the Xinbeitou hot spring area, where you can watch the steaming spring water. It is not one of the hotel baths in this guide. The photo is from April 2024, so it may look different today (photo: GiveMeMollusks / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Booking vs. walk-in: what's the difference?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "With a booking, be on time",
+              "desc": "Kagaya holds a reservation for only 10 minutes, and if you arrive late your session ends at the original time rather than being extended. Leave plenty of time for the MRT transfer."
+            },
+            {
+              "mark": "✓",
+              "b": "For walk-ins, go early",
+              "desc": "Places like Sweetme that don't take bookings serve guests in order of arrival. Queues can be longer on weekends and holidays, so aim for the morning or early afternoon."
+            },
+            {
+              "mark": "✓",
+              "b": "If a hotel does both, call ahead",
+              "desc": "At places like Beitou Asia Pacific that take both walk-ins and bookings, calling to ask about free slots is the surest option."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Rules to know before your Beitou soak"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Rooms are mostly for two",
+              "desc": "The private rooms at these hotels are priced for two, and some larger rooms take up to four. Rules for children (height or age) differ by hotel."
+            },
+            {
+              "mark": "✓",
+              "b": "No food in some rooms",
+              "desc": "Kagaya doesn't allow food inside its private rooms, for hygiene reasons."
+            },
+            {
+              "mark": "✓",
+              "b": "Bring your own toiletries",
+              "desc": "In line with government policy, Kagaya stopped providing single-use amenities in January 2025. Pack a toothbrush and similar items yourself."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Getting around Beitou on a rainy day"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Take the Xinbeitou branch line",
+              "desc": "Change at Beitou Station on the Tamsui-Xinyi Line for the branch to Xinbeitou, which brings you right to the edge of the hot spring area."
+            },
+            {
+              "mark": "2",
+              "b": "Rain can mean longer queues",
+              "desc": "More people may head indoors for a soak instead of sightseeing, so a hotel that takes reservations is the calmer choice."
+            },
+            {
+              "mark": "3",
+              "b": "If a typhoon is forecast",
+              "desc": "Check with the hotel that it's open before you set out."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "You reach Beitou by MRT, so top up your card first with our guide to <a href=\"/blog-taipei-easycard-balance-check-topup\">checking and topping up an EasyCard</a>. In typhoon season, also read <a href=\"/blog-taiwan-typhoon-flight-cancellation\">what to do when a typhoon cancels your flight</a>. A soak usually leaves you hungry for warm Taiwanese food. Pick dinner from <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a> and plan your route on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on official information from Beitou hot spring hotels (Kagaya, Beitou Asia Pacific, Grand View Resort Beitou and Sweetme) and the Taipei Metro, as of 25 October 2026. Check each hotel's official pricing before you go. Check the current opening hours on Google Maps before you go. Photo: GiveMeMollusks, Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei restaurants on the map",
+          "desc": "Pin a Taipei restaurant for after your soak.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=taiwanese"
+        }
+      ]
+    }
+  },
   "kaohsiung-solo-trip-budget-transport": {
     "heroImage": "assets/images/blog/kaohsiung-solo-trip-budget-transport-1.jpg",
     "ko": {
