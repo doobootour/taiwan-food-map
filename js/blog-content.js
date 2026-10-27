@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "jiufen-bus-965-sunday-queue-return-stop",
+    "image": "assets/images/blog/jiufen-bus-965-sunday-queue-return-stop-1.jpg",
+    "regions": [
+      "jiufen"
+    ],
+    "ko": {
+      "eyebrow": "지우펀 여행 가이드 · 교통",
+      "title": "지우펀 965번 버스 일요일, 줄 서기와 돌아오는 정류장은?",
+      "desc": "일요일 965번은 탈 때도 돌아올 때도 줄을 각오하세요. 九份老街 정류장 하차 뒤 동선과, 타이베이행은 어느 쪽 정류장에서 타는지 정리했어요.",
+      "meta": "지우펀 · 교통 가이드"
+    },
+    "en": {
+      "eyebrow": "Jiufen Travel Guide · Transport",
+      "title": "Bus 965 to Jiufen on a Sunday: Queues, Getting Off, and the Stop for the Ride Back",
+      "desc": "Sunday on bus 965 means lines both ways. What to do after getting off at Jiufen Old Street, and which shelter serves buses back to Taipei.",
+      "meta": "Jiufen · Transport Guide"
+    }
+  },
+  {
     "slug": "tainan-chimei-museum-ticket-nearby-eats",
     "image": "assets/images/attractions/tainan/chimei-museum.webp",
     "regions": [
@@ -1391,6 +1410,353 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "jiufen-bus-965-sunday-queue-return-stop": {
+    "heroImage": "assets/images/blog/jiufen-bus-965-sunday-queue-return-stop-1.jpg",
+    "ko": {
+      "pageTitle": "지우펀 965번 버스 일요일 — 줄·귀가 정류장 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "지우펀 965번 버스는 일요일엔 타는 곳부터 줄이 생길 수 있어요. 옛거리 정류장에 내린 뒤 동선과 타이베이로 돌아오는 정류장 위치를 정리했어요.",
+      "ogTitle": "지우펀 965번 버스 일요일, 줄 서기와 돌아오는 정류장은?",
+      "eyebrow": "지우펀 여행 가이드 · 교통",
+      "title": "지우펀 965번 버스 일요일, 줄 서기와 돌아오는 정류장은?",
+      "dek": "주말엔 타는 곳에서도, 돌아오는 정류장에서도 줄을 서요 — 내릴 곳과 돌아올 곳만 알면 덜 헤매요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "지우펀 · 교통 가이드",
+      "intro": "\"일요일에 지우펀 965번 버스 타도 괜찮을까요?\" 일요일 오전 10시가 넘어 시먼 쪽 정류장에서 탔더니 줄을 서서 기다렸고, 가는 데 약 1시간, 오는 데도 약 1시간 걸렸다는 여행자 글이 있어요. 대臺北公車 노선 정보와 台灣好行(타이완 하오싱) 공식 시간표, 지우펀 정류장 사진을 바탕으로 일요일에 965번을 탈 때 알아둘 점을 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 일요일 지우펀 965번 버스, 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "내용 (2026년 10월 기준)"
+          ],
+          "rows": [
+            {
+              "label": "주말 배차",
+              "values": [
+                "공식 시간표상 예가일(주말·공휴일)은 10~30분 간격, 정시 출발만 공개하고 나머지는 상황에 따라 배차"
+              ]
+            },
+            {
+              "label": "타는 줄",
+              "values": [
+                "일요일 오전에도 시내 정류장에서 줄을 설 수 있음(여행자 글 기준)"
+              ]
+            },
+            {
+              "label": "걸리는 시간",
+              "values": [
+                "여행자 글 기준 편도 약 1시간, 도로 사정에 따라 달라짐"
+              ]
+            },
+            {
+              "label": "내리는 곳",
+              "values": [
+                "九份老街(지우펀 옛거리) 정류장, 九份派出所·代天府 다음"
+              ]
+            },
+            {
+              "label": "돌아오는 곳",
+              "values": [
+                "같은 이름 九份老街 정류장 중 '往臺北' 표지가 있는 위쪽 정류장"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "핵심은 <b>갈 때와 돌아올 때 정류장 이름은 같지만 서는 자리가 다르다</b>는 점이에요. 대臺北公車 노선 정보의 정류장 좌표를 보면 타이베이 방향 九份老街 정류장은 지우펀 방향 정류장보다 동쪽으로 약 30m 떨어진 별도 자리예요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-bus-965-sunday-queue-return-stop-1.jpg",
+          "caption": "九份老街 정류장의 타이베이·반차오·루이팡역 방향 정류장이에요. 표지판에 진과스·수이난둥 방향은 아래쪽 정류장으로 돌아가서 타라고 적혀 있어요. 2020년 6월 사진이라 지금 표지와 다를 수 있어요(사진: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 일요일에 965번 탈 때 줄 서기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "오전에도 줄을 각오하기",
+              "desc": "여행자 글에 따르면 일요일 오전 10시가 넘은 시간에 시먼 쪽 정류장에서도 줄을 서서 탔어요. 출발 정류장에 가까운 쪽일수록 자리가 남아 있을 가능성이 커요."
+            },
+            {
+              "mark": "✓",
+              "b": "실시간 도착 정보 보기",
+              "desc": "공식 시간표에는 정시 출발만 나오고 그 사이 버스는 상황에 따라 다녀요. 대臺北公車(5284) 사이트나 앱에서 965번 실시간 위치를 보고 정류장에 나가세요."
+            },
+            {
+              "mark": "✓",
+              "b": "베이먼역은 출구가 갈려요",
+              "desc": "台灣好行 시간표 안내 기준 지우펀 방향은 捷運北門站 2번 출구, 타이베이 방향은 1번 출구 쪽에서 기다려요."
+            },
+            {
+              "mark": "✓",
+              "b": "주말엔 길도 막혀요",
+              "desc": "원글에서는 주말 지우펀이 투어버스가 들어가기 어려울 만큼 붐볐다고 해요. 편도 1시간에 여유를 더해 일정을 잡으세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 九份老街 정류장에서 내린 뒤 동선"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "代天府 다음 정류장에서 하차",
+              "desc": "지우펀 방향 버스는 九份派出所 → 代天府 → 九份老街 순서로 서요. 옛거리 입구 쪽에서 내리려면 九份老街에서 내리면 돼요."
+            },
+            {
+              "mark": "2",
+              "b": "세븐일레븐을 기준점으로",
+              "desc": "정류장 근처 도로변에 세븐일레븐(統一超商 九份門市)이 있어서 일행과 만날 곳이나 돌아올 때 기준점으로 잡기 좋아요."
+            },
+            {
+              "mark": "3",
+              "b": "화장실은 조금 걸어서",
+              "desc": "원글 작성자는 세븐일레븐 화장실보다 옛거리 안쪽 계단 중간에 있는 화장실이 덜 붐볐다고 해요. 붐비는 시간이라면 옛거리를 걷다가 들르는 편이 나을 수 있어요."
+            },
+            {
+              "mark": "4",
+              "b": "내린 자리 사진 찍어두기",
+              "desc": "돌아올 때 정류장 위치가 갈리니, 내린 곳과 주변 간판을 사진으로 남겨두면 헷갈리지 않아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-bus-965-sunday-queue-return-stop-2.jpg",
+          "caption": "지우펀 세븐일레븐 앞 도로에서 버스를 기다리는 줄이에요. 사진 속 버스는 965번이 아니라 지룽객운 버스예요. 2019년 8월 사진이에요(사진: Kemgung YAMSAUM OOI / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 965번 버스로 타이베이 돌아오는 정류장"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "'往臺北' 표지가 있는 위쪽 정류장",
+              "desc": "원글 작성자는 돌아올 때 세븐일레븐보다 조금 위쪽 정류장에서 탔어요. 2020년 정류장 사진에도 '往臺北、板橋、瑞芳火車站' 표지와 함께 진과스 방향은 아래쪽 정류장으로 가라는 안내가 붙어 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "돌아오는 길은 루이팡역 경유",
+              "desc": "대臺北公車 노선 정보 기준 타이베이 방향은 九份老街 다음 代天府·九份派出所를 지나 瑞芳火車站에 들른 뒤 捷運北門站으로 가요."
+            },
+            {
+              "mark": "✓",
+              "b": "줄 선 노선 확인하기",
+              "desc": "같은 정류장에 다른 노선 줄이 따로 생기기도 해요. 줄 앞쪽 표지판이 965번(타이베이 방향)인지 보고 서세요."
+            },
+            {
+              "mark": "✓",
+              "b": "막차보다 일찍 움직이기",
+              "desc": "일요일 저녁엔 돌아오는 사람이 몰려요. 원글 기준 돌아오는 데도 약 1시간이 걸렸으니, 막차 시간에 기대지 말고 여유 있게 정류장으로 가세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "965번 타는 곳, 첫차·막차와 배차 간격은 <a href=\"/blog-jiufen-bus-965-from-taipei\">지우펀 965번 버스, 타이베이 어디서 타고 얼마나 자주 올까?</a>에 정리해 두었어요. 요일별로 얼마나 붐비는지는 <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">지우펀 금요일 vs 일요일</a> 글을 참고하세요. 내린 뒤 먹을 곳은 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>와 <a href=\"/jiufen-cafe\">지우펀 카페</a> 목록에서 고르고, 옛거리 쪽 대만식 식당 <a href=\"/jiufen-taiwanese-77\">메이핑 샤오츠(美萍小吃)</a>처럼 상세 페이지에서 위치를 확인해 보세요. 둘러볼 곳은 <a href=\"/jiufen-attractions\">지우펀 볼거리</a>에 모아 두었어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대臺北公車 965 노선·정류장 정보, 交通部觀光署 台灣好行 九份金瓜石線 시간표, 네이버 카페 여행자 글(2026년 10월), Wikimedia Commons의 九份老街 정류장 사진을 바탕으로 2026년 10월 28일 기준으로 정리했어요. 걸리는 시간과 줄은 그날 상황에 따라 달라요. 노선·정류장은 바뀔 수 있으니 출발 전 공식 안내를 확인하세요. 사진: Solomon203, Kemgung YAMSAUM OOI(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 지우펀 맛집을 찾아보세요",
+          "desc": "965번 버스에서 내려 들르기 좋은 식당과 카페를 지도에 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Bus 965 to Jiufen on Sunday — Queues & Return Stop · My Secret Taiwan Eats",
+      "metaDescription": "Bus 965 to Jiufen can mean lines on Sundays. Where you get off, how to move around Jiufen Old Street, and which shelter to use for the bus back to Taipei.",
+      "ogTitle": "Bus 965 to Jiufen on a Sunday: Queues, Getting Off, and the Stop for the Ride Back",
+      "eyebrow": "Jiufen Travel Guide · Transport",
+      "title": "Bus 965 to Jiufen on a Sunday: Queues, Getting Off, and the Stop for the Ride Back",
+      "dek": "On weekends you queue at both ends — know where you get off and where you get back on.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Jiufen · Transport Guide",
+      "intro": "\"Is bus 965 to Jiufen OK on a Sunday?\" One traveller boarded at a stop on the Ximen side after 10 a.m. on a Sunday, had to wait in line, and spent about an hour each way. Based on Taipei e-bus route data, the official Taiwan Tourist Shuttle timetable and photos of the Jiufen stops, here's what to know about riding 965 on a Sunday, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Bus 965 to Jiufen on Sunday at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Details (as of Oct 2026)"
+          ],
+          "rows": [
+            {
+              "label": "Weekend frequency",
+              "values": [
+                "Official timetable: every 10–30 min on weekends and holidays; only on-the-hour departures are listed, others run as needed"
+              ]
+            },
+            {
+              "label": "Lines",
+              "values": [
+                "You may queue at city stops even on Sunday morning (per a traveller's post)"
+              ]
+            },
+            {
+              "label": "Ride time",
+              "values": [
+                "About 1 hour each way per a traveller's post; depends on traffic"
+              ]
+            },
+            {
+              "label": "Get off at",
+              "values": [
+                "Jiufen Old Street (九份老街), after Jiufen Police Station and Daitian Temple"
+              ]
+            },
+            {
+              "label": "Ride back from",
+              "values": [
+                "The upper Jiufen Old Street shelter signed '往臺北' (to Taipei)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The key point: <b>both directions use a stop called Jiufen Old Street, but they're in different spots</b>. Stop coordinates in Taipei e-bus route data put the Taipei-bound stop about 30 m east of the Jiufen-bound one."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-bus-965-sunday-queue-return-stop-1.jpg",
+          "caption": "The Jiufen Old Street shelter for buses to Taipei, Banqiao and Ruifang Station. The sign tells riders heading to Jinguashi and Shuinandong to go back down to the lower shelter. Photo from June 2020, so signs may have changed (photo: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Queuing for bus 965 on a Sunday"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Expect a line even in the morning",
+              "desc": "One traveller queued at a Ximen-side stop after 10 a.m. on a Sunday. Stops closer to the start of the route are more likely to have seats left."
+            },
+            {
+              "mark": "✓",
+              "b": "Check live arrivals",
+              "desc": "The official timetable lists only on-the-hour runs; buses in between run as needed. Track 965 on the Taipei e-bus (5284) site or app before heading to the stop."
+            },
+            {
+              "mark": "✓",
+              "b": "Beimen uses two exits",
+              "desc": "Per the Taiwan Tourist Shuttle timetable notes, wait near Exit 2 of MRT Beimen toward Jiufen and near Exit 1 toward Taipei."
+            },
+            {
+              "mark": "✓",
+              "b": "Roads get busy too",
+              "desc": "The traveller noted that weekend Jiufen was so crowded tour buses struggled to get in. Add a buffer to the one-hour ride."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · After you get off at Jiufen Old Street"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Get off after Daitian Temple",
+              "desc": "Toward Jiufen the bus stops at Jiufen Police Station → Daitian Temple → Jiufen Old Street. Get off at Jiufen Old Street for the Old Street entrance."
+            },
+            {
+              "mark": "2",
+              "b": "Use the 7-Eleven as a landmark",
+              "desc": "There's a 7-Eleven (統一超商 九份門市) by the road near the stop — an easy meeting point and landmark for the ride back."
+            },
+            {
+              "mark": "3",
+              "b": "Walk a bit for the toilets",
+              "desc": "The traveller found the toilets partway up the steps inside the Old Street less crowded than the 7-Eleven's. At busy times it may be easier to stop there as you walk."
+            },
+            {
+              "mark": "4",
+              "b": "Snap a photo of where you got off",
+              "desc": "The return stop is in a different spot, so a quick photo of the stop and nearby signs helps."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-bus-965-sunday-queue-return-stop-2.jpg",
+          "caption": "A line of people waiting for buses by the 7-Eleven in Jiufen. The bus in the photo is a Keelung Bus, not route 965. Photo from August 2019 (photo: Kemgung YAMSAUM OOI / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Where to catch bus 965 back to Taipei"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "The upper shelter signed '往臺北'",
+              "desc": "The traveller caught the bus back a little uphill from the 7-Eleven. A 2020 photo of the stop shows a sign for Taipei, Banqiao and Ruifang Station, plus a note telling Jinguashi-bound riders to go back down to the lower shelter."
+            },
+            {
+              "mark": "✓",
+              "b": "The way back goes via Ruifang Station",
+              "desc": "Per Taipei e-bus route data, the Taipei-bound bus runs from Jiufen Old Street past Daitian Temple and Jiufen Police Station, stops at Ruifang Station, then heads to MRT Beimen."
+            },
+            {
+              "mark": "✓",
+              "b": "Check which line you're in",
+              "desc": "Separate lines can form for different routes at the same stop. Make sure the sign at the front is for 965 toward Taipei."
+            },
+            {
+              "mark": "✓",
+              "b": "Leave before the last bus",
+              "desc": "Sunday evenings are busy, and the ride back took about an hour for the traveller. Don't count on the last bus — head to the stop with time to spare."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For where to board 965, first and last buses and frequency, see <a href=\"/blog-jiufen-bus-965-from-taipei\">Bus 965 to Jiufen: where to board in Taipei and how often it runs</a>. For how crowds differ by day, read <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">Jiufen on Friday vs Sunday</a>. For food after you get off, browse the <a href=\"/region-jiufen\">Jiufen food map</a> and <a href=\"/jiufen-cafe\">Jiufen cafés</a>, and check locations on detail pages such as <a href=\"/jiufen-taiwanese-77\">Meiping Xiaochi (美萍小吃)</a> near the Old Street. Sights are collected in <a href=\"/jiufen-attractions\">things to see in Jiufen</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taipei e-bus route and stop data for 965, the Tourism Administration's Taiwan Tourist Shuttle Jiufen–Jinguashi timetable, a traveller's post on a Naver café (October 2026) and Wikimedia Commons photos of the Jiufen Old Street stop, as of 28 October 2026. Ride times and lines vary day to day, and routes and stops can change — check official information before you go. Photos: Solomon203, Kemgung YAMSAUM OOI (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Jiufen restaurants on the map",
+          "desc": "Pin places to eat and cafés near the bus 965 stop.",
+          "btn": "Open Map →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    }
+  },
   "tainan-chimei-museum-ticket-nearby-eats": {
     "heroImage": "assets/images/attractions/tainan/chimei-museum.webp",
     "ko": {
