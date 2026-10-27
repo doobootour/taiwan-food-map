@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "tainan-chimei-museum-ticket-nearby-eats",
+    "image": "assets/images/attractions/tainan/chimei-museum.webp",
+    "regions": [
+      "tainan"
+    ],
+    "ko": {
+      "eyebrow": "타이난 여행 가이드 · 볼거리·먹거리",
+      "title": "치메이 박물관 입장권과 근처 맛집, 관람 뒤엔 어디서 먹을까?",
+      "desc": "타이난 치메이 박물관은 어떤 곳인지, 바오안역·고속철에서 가는 법, 2026년 관람 시간과 입장료, 관람 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "meta": "타이난 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Tainan Travel Guide · Sights & Food",
+      "title": "Chimei Museum Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "desc": "What Tainan's Chimei Museum is, how to get there from Bao'an Station or THSR, 2026 hours and admission, and nearby restaurants from our map.",
+      "meta": "Tainan · Sights & Food"
+    }
+  },
+  {
     "slug": "taipei-101-din-tai-fung-queue-wait",
     "image": "assets/images/blog/taipei-101-din-tai-fung-queue-wait-1.jpg",
     "regions": [
@@ -1372,6 +1391,393 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "tainan-chimei-museum-ticket-nearby-eats": {
+    "heroImage": "assets/images/attractions/tainan/chimei-museum.webp",
+    "ko": {
+      "pageTitle": "치메이 박물관 입장권·근처 맛집 — 타이난 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이난 치메이 박물관은 어떤 곳인지, 바오안역·고속철에서 가는 법, 2026년 관람 시간과 입장료, 관람 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "치메이 박물관 입장권과 근처 맛집, 관람 뒤엔 어디서 먹을까?",
+      "eyebrow": "타이난 여행 가이드 · 볼거리·먹거리",
+      "title": "치메이 박물관 입장권과 근처 맛집, 관람 뒤엔 어디서 먹을까?",
+      "dek": "유럽 궁전 같은 박물관을 둘러본 다음, 지도에 등록된 근처 맛집까지 한 번에 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이난 · 볼거리·먹거리",
+      "intro": "타이난 여행 사진에서 둥근 돔 건물과 분수가 보인다면 대개 치메이 박물관(奇美博物館)이에요. 실내 전시는 날씨와 상관없이 볼 수 있어서 비 오는 날 일정으로도 좋아요. 다만 타이난 구시가지에서 떨어진 런더구(仁德區)에 있어서, 관람 뒤 어디서 먹을지 미리 정해두면 동선이 편해져요. 박물관 공식 참관 안내와 交通部觀光署 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 치메이 박물관은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "대만 기업 奇美가 세운 박물관이라 회사 이름을 따서 불러요. 둥근 돔이 올라간 유럽 궁전풍 정면과 넓은 정원이 어우러져 있어요. 상설전은 서양 미술, 동물, 무기, 악기 네 갈래로 꾸며져 있어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/tainan/chimei-museum.webp",
+          "caption": "밤에 조명이 켜진 치메이 박물관이에요(사진: Deon / Wikimedia Commons, CC BY-SA 2.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 정원에서 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "아폴론 분수",
+              "desc": "박물관 정면 정원의 대표 볼거리예요."
+            },
+            {
+              "mark": "✓",
+              "b": "올림포스 신들의 다리",
+              "desc": "올림포스 신들의 조각이 해자 위 다리에 늘어서 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "'榮耀天使' 조각",
+              "desc": "프랑스 조각가 Louis-Ernest Barrias의 작품을 본뜬 조각이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "사진은 맑은 날 오후",
+              "desc": "정원 사진은 맑은 날 오후 햇빛이 정면을 비출 때 예뻐요. 야외 정원은 무료로 둘러볼 수 있어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "기차(台鐵) 바오안(保安)역",
+              "desc": "바오안역에서 걸어서 약 15분이에요. 바오안 환승센터(保安轉運站)에서 紅3·紅4 버스를 타도 돼요."
+            },
+            {
+              "mark": "2",
+              "b": "고속철 타이난역에서",
+              "desc": "고속철 셔틀버스 H31(臺南市政府線)로 약 15분이에요. 台鐵 사룬선(沙崙線)으로 바오안역까지 간 뒤 걷거나 버스를 타는 방법도 있어요."
+            },
+            {
+              "mark": "3",
+              "b": "타이난 공항에서",
+              "desc": "H31이나 紅3 버스로 약 10분이에요."
+            },
+            {
+              "mark": "4",
+              "b": "그 밖의 버스",
+              "desc": "시내버스 25번, 가오슝객운 239·8046번도 박물관에 가요(8042번은 휴일 일부 편만 운행)."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 관람 시간과 입장료 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "내용"
+          ],
+          "rows": [
+            {
+              "label": "박물관",
+              "values": [
+                "9:30~17:30, 상설전 마지막 입장 17:00"
+              ]
+            },
+            {
+              "label": "야외 정원",
+              "values": [
+                "9:00~18:30, 무료"
+              ]
+            },
+            {
+              "label": "휴관",
+              "values": [
+                "매주 수요일, 음력 섣달그믐(除夕), 별도 공지일"
+              ]
+            },
+            {
+              "label": "상설전 현장가",
+              "values": [
+                "일반 NT$200, 7~22세·65세 이상 NT$150(사진·생년월일 있는 신분증 필요), 7세 미만 무료"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "특별전 《埃及之王：法老》(2026.1.29~2027.1.10)는 상설전과 별도 티켓이에요. 클룩 상품은 상설전 입장권이라, 특별전까지 볼 생각이면 박물관 공식 사이트에서 따로 확인하세요."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F8875-chimei-museum-permanent-exhibition-ticket-tainan%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 치메이 박물관 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · 관람 뒤 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "박물관 바로 앞에는 지도에 등록된 식당이 없어요. 가장 가까운 곳이 약 1.9km 떨어져 있고, 나머지는 3~5km 거리라 택시나 차로 이동하는 편이 편해요. 아래 거리는 박물관에서 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/tainan-taiwanese-640\">奇美食品幸福工廠</a> · 대만식 · 북서쪽 약 1.9km",
+              "desc": "펑리수 브랜드 비교 글에서 소개한 치메이식품(奇美食品)의 행복공장이에요. 지도에는 '대만식'으로 등록돼 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/tainan-cafe-crema-cafe-645\">CREMA CAFE</a> · 카페 · 북쪽 약 3.4km",
+              "desc": "지도에 카페로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/tainan-hotpot-42\">阿裕牛肉涮涮鍋</a> · 훠궈 · 동쪽 약 3.6km",
+              "desc": "지도에 훠궈로 등록된 소고기 샤브샤브(牛肉涮涮鍋)집이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/tainan-bakery-570\">小樣貝果 ／樣貝果</a> · 베이커리 · 북쪽 약 3.8km",
+              "desc": "지도에 베이커리로 등록된 베이글집이에요."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/tainan-ramen-594\">麵屋青鳥</a> · 라멘 · 북쪽 약 3.9km",
+              "desc": "지도에 라멘집으로 등록된 곳이에요."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/tainan-brunch-531\">日成咖啡早午餐</a> · 브런치 · 북쪽 약 3.9km",
+              "desc": "지도에 브런치로 등록된 커피·브런치집이에요."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/tainan-goose-532\">阿林鵝肉</a> · 거위 · 북쪽 약 4.7km",
+              "desc": "지도에 거위 요리로 등록된 거위고기(鵝肉)집이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요. 펑리수 선물을 고민 중이라면 <a href=\"/blog-taiwan-pineapple-cake-brand-comparison\">대만 펑리수 브랜드 비교</a> 글도 함께 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 奇美博物館 공식 참관 안내(관람 시간·입장료·교통)와 交通部觀光署의 奇美博物館 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 시간과 요금은 바뀔 수 있으니 방문 전 공식 사이트를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Deon, Wikimedia Commons, CC BY-SA 2.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이난 맛집도 확인해보세요",
+          "desc": "박물관 일정 앞뒤로 들를 타이난 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Chimei Museum Tickets & Nearby Eats — Tainan · My Secret Taiwan Eats",
+      "metaDescription": "What Tainan's Chimei Museum is, how to get there from Bao'an Station or THSR, 2026 hours and admission, and nearby restaurants from our map.",
+      "ogTitle": "Chimei Museum Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "eyebrow": "Tainan Travel Guide · Sights & Food",
+      "title": "Chimei Museum Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "dek": "Tour the palace-like museum, then pick a nearby restaurant from our map in one go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Tainan · Sights & Food",
+      "intro": "If a Tainan travel photo shows a domed building and a fountain, it's usually the Chimei Museum (奇美博物館). The indoor galleries work in any weather, so it's a good rainy-day pick. It sits in Rende District (仁德區), away from Tainan's old town, so deciding where to eat afterwards makes the day easier. Based on the museum's official visitor guide and Taiwan Tourism Administration information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is the Chimei Museum?"
+        },
+        {
+          "type": "p",
+          "html": "It was founded by the Taiwanese company 奇美 (Chimei) and named after it. A European palace-style façade topped with a dome looks out over wide gardens. The permanent collection covers four areas: Western art, animals, arms and armour, and musical instruments."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/tainan/chimei-museum.webp",
+          "caption": "The Chimei Museum lit up at night (photo: Deon / Wikimedia Commons, CC BY-SA 2.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What to See in the Gardens"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Apollo Fountain",
+              "desc": "The signature sight of the front garden."
+            },
+            {
+              "mark": "✓",
+              "b": "Bridge of the Olympian gods",
+              "desc": "Statues of the Olympian gods line the bridge over the moat."
+            },
+            {
+              "mark": "✓",
+              "b": "'榮耀天使' statue",
+              "desc": "A statue modelled on a work by French sculptor Louis-Ernest Barrias."
+            },
+            {
+              "mark": "✓",
+              "b": "Photos on a sunny afternoon",
+              "desc": "The garden looks best on a clear afternoon when the sun lights the façade. The outdoor park is free to walk around."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "TRA Bao'an (保安) Station",
+              "desc": "About a 15-minute walk from the station, or take bus 紅3 or 紅4 from the Bao'an transfer station (保安轉運站)."
+            },
+            {
+              "mark": "2",
+              "b": "From THSR Tainan",
+              "desc": "The H31 THSR shuttle bus (臺南市政府線) takes about 15 minutes. You can also take the TRA Shalun Line (沙崙線) to Bao'an Station and walk or take the bus."
+            },
+            {
+              "mark": "3",
+              "b": "From Tainan Airport",
+              "desc": "About 10 minutes by bus H31 or 紅3."
+            },
+            {
+              "mark": "4",
+              "b": "Other buses",
+              "desc": "City bus 25 and Kaohsiung Bus 239 and 8046 also stop at the museum (8042 runs only some trips on holidays)."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Hours and Admission (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Details"
+          ],
+          "rows": [
+            {
+              "label": "Museum",
+              "values": [
+                "9:30–17:30, last entry to the permanent collection 17:00"
+              ]
+            },
+            {
+              "label": "Outdoor park",
+              "values": [
+                "9:00–18:30, free"
+              ]
+            },
+            {
+              "label": "Closed",
+              "values": [
+                "Every Wednesday, Lunar New Year's Eve (除夕), and announced closure days"
+              ]
+            },
+            {
+              "label": "Permanent collection (at the door)",
+              "values": [
+                "Adults NT$200; ages 7–22 and 65+ NT$150 (photo ID with date of birth required); under 7 free"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The special exhibition 《埃及之王：法老》 (2026.1.29–2027.1.10) needs a separate ticket. The Klook product is a permanent-collection ticket, so check the museum's official site if you also want the special exhibition."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F8875-chimei-museum-permanent-exhibition-ticket-tainan%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Chimei Museum tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · Nearby Restaurants for After Your Visit"
+        },
+        {
+          "type": "p",
+          "html": "There are no restaurants on our map right outside the museum. The closest is about 1.9 km away and the rest are 3–5 km away, so a taxi or car is easier. Distances below are straight-line from the museum, so the actual route will be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/tainan-taiwanese-640\">奇美食品幸福工廠</a> · Taiwanese · about 1.9 km northwest",
+              "desc": "The Chimei Food (奇美食品) Happiness Factory we mentioned in our pineapple cake brand comparison. It's listed as Taiwanese on the map."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/tainan-cafe-crema-cafe-645\">CREMA CAFE</a> · Café · about 3.4 km north",
+              "desc": "Listed as a café on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/tainan-hotpot-42\">阿裕牛肉涮涮鍋</a> · Hot Pot · about 3.6 km east",
+              "desc": "A beef shabu-shabu (牛肉涮涮鍋) spot listed as hot pot on the map."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/tainan-bakery-570\">小樣貝果 ／樣貝果</a> · Bakery · about 3.8 km north",
+              "desc": "A bagel shop listed as a bakery on the map."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/tainan-ramen-594\">麵屋青鳥</a> · Ramen · about 3.9 km north",
+              "desc": "Listed as a ramen shop on the map."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/tainan-brunch-531\">日成咖啡早午餐</a> · Brunch · about 3.9 km north",
+              "desc": "A coffee and brunch spot listed as brunch on the map."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/tainan-goose-532\">阿林鵝肉</a> · Goose · about 4.7 km north",
+              "desc": "A goose meat (鵝肉) restaurant listed as goose on the map."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check Google Maps before you go. If you're thinking about pineapple cake gifts, see our <a href=\"/blog-taiwan-pineapple-cake-brand-comparison\">Taiwan pineapple cake brand comparison</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on the Chimei Museum's official visitor guide (hours, admission, transport) and the Taiwan Tourism Administration's Chimei Museum page, as of October 2026. Hours and prices can change, so check the official site before you go. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Deon, Wikimedia Commons, CC BY-SA 2.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Tainan eats on the map",
+          "desc": "Save Tainan restaurants to visit before or after the museum.",
+          "btn": "Open Map →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    }
+  },
   "taipei-101-din-tai-fung-queue-wait": {
     "heroImage": "assets/images/blog/taipei-101-din-tai-fung-queue-wait-1.jpg",
     "ko": {
