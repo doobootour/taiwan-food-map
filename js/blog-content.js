@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-101-din-tai-fung-queue-wait",
+    "image": "assets/images/blog/taipei-101-din-tai-fung-queue-wait-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 신이·101",
+      "title": "타이베이 101 딘타이펑 대기, 번호표 받고 전망대 다녀와도 될까?",
+      "desc": "101 딘타이펑은 매장 앞에서 번호표를 받아요. 공식 대기 조회 보는 법, 기다리는 동안 전망대·쇼핑몰 동선, 신이 지역 다른 지점까지 정리했어요.",
+      "meta": "타이베이 · 맛집 대기 가이드"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Xinyi & 101",
+      "title": "Din Tai Fung at Taipei 101: How the Queue Works and Whether to Visit the Observatory While You Wait",
+      "desc": "Taipei 101's Din Tai Fung hands out queue numbers on site. How to read the official wait-time page, what to do while waiting, and nearby Xinyi branches.",
+      "meta": "Taipei · Restaurant Queue Guide"
+    }
+  },
+  {
     "slug": "keelung-heping-island-sandiaoling-tunnel",
     "image": "assets/images/blog/keelung-heping-island-sandiaoling-tunnel-1.jpg",
     "regions": [
@@ -1353,6 +1372,343 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-101-din-tai-fung-queue-wait": {
+    "heroImage": "assets/images/blog/taipei-101-din-tai-fung-queue-wait-1.jpg",
+    "ko": {
+      "pageTitle": "101 딘타이펑 대기 — 번호표·대기 조회 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 101 딘타이펑 대기는 매장 앞 번호표로 시작해요. 공식 대기 조회로 인원별 호출 번호를 보며 전망대·쇼핑몰을 도는 법과 근처 지점을 정리했어요.",
+      "ogTitle": "타이베이 101 딘타이펑 대기, 번호표 받고 전망대 다녀와도 될까?",
+      "eyebrow": "타이베이 여행 가이드 · 신이·101",
+      "title": "타이베이 101 딘타이펑 대기, 번호표 받고 전망대 다녀와도 될까?",
+      "dek": "번호표는 현장에서, 순서 확인은 휴대폰으로 — 인원별 호출 번호만 제대로 보면 기다리는 시간을 따로 쓸 수 있어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 맛집 대기 가이드",
+      "intro": "\"타이베이 101 딘타이펑 대기가 몇 시간이라는데, 번호만 받아 두고 전망대에 다녀와도 될까?\" 주말 저녁엔 대기가 꽤 길어진다는 여행자 이야기가 많아요. 딘타이펑(鼎泰豐) 공식 사이트의 매장 안내와 '현장 대기정보 조회' 페이지, 타이베이 101 공식 안내를 바탕으로 101점 대기 방법을 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이베이 101 딘타이펑 대기, 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "101점 기준 (2026년 10월 공식 안내)"
+          ],
+          "rows": [
+            {
+              "label": "위치",
+              "values": [
+                "타이베이 101 쇼핑몰 지하 1층(台北市市府路45號B1), MRT 타이베이101/세계무역센터역 4번 출구"
+              ]
+            },
+            {
+              "label": "대기 방식",
+              "values": [
+                "매장 앞에서 현장 번호표를 받는 방식"
+              ]
+            },
+            {
+              "label": "순서 확인",
+              "values": [
+                "공식 '현장 대기정보 조회' 페이지·딘타이펑 앱 — 예상 대기 시간, 번호 발급 중지 예상 시간, 인원별 호출 번호"
+              ]
+            },
+            {
+              "label": "번호 발급 마감",
+              "values": [
+                "대기 인원이 많으면 마지막 번호 발급이 앞당겨질 수 있음"
+              ]
+            },
+            {
+              "label": "영업시간",
+              "values": [
+                "방문 전 구글맵에 등록된 영업시간을 확인하세요"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "핵심은 <b>번호표는 직접 받아야 하고, 그다음부터는 휴대폰으로 순서를 볼 수 있다</b>는 점이에요. 공식 조회 페이지에서 지점을 '101점'으로 고르면 지금 기다리는 시간(분)과 오늘 번호 발급을 멈출 예상 시각이 나와요. 공식 앱 소개에도 호출 번호를 보여주니 자리에서 기다리지 않아도 된다고 적혀 있습니다."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-101-din-tai-fung-queue-wait-1.jpg",
+          "caption": "타이베이 101 쇼핑몰 지하 1층의 딘타이펑 앞 모습이에요. 위쪽 화면에 호출 번호가 떠요. 2023년 7월 사진이라 지금 배치와 다를 수 있어요(사진: 玄 史生 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 딘타이펑 대기 조회, 인원별 번호 보는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "가기 전에 예상 대기부터",
+              "desc": "출발 전에 조회 페이지에서 101점 예상 대기 시간과 번호 발급 중지 예상 시각을 보세요. 저녁 늦게 가면 영업이 끝나기 전에 번호 발급이 먼저 끝날 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "번호는 인원 그룹별로 따로 불러요",
+              "desc": "101점 조회 화면은 1~2명, 3~4명, 5~6명, 7명 이상 칸으로 나뉘어 호출 번호를 보여줘요. 내 번호표의 인원 그룹 칸 숫자만 보면 됩니다."
+            },
+            {
+              "mark": "✓",
+              "b": "포장 번호는 따로",
+              "desc": "같은 화면에 포장(外帶) 호출 번호가 따로 떠요. 매장 식사 번호와 헷갈리지 않게 보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "번호를 놓쳤을 때는 직원에게",
+              "desc": "호출 때 자리에 없으면 어떻게 되는지는 번호표를 받을 때 직원에게 물어보세요. 그 답을 기준으로 돌아올 시간을 잡으면 안전해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 번호표 받고 101 전망대·쇼핑몰 둘러보기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "전망대 매표소는 쇼핑몰 5층",
+              "desc": "타이베이 101 공식 안내 기준 전망대는 89층이고, 표는 쇼핑몰 5층 전망대 매표소에서 사요. 공식 온라인 예매 사이트도 있어요. 요금은 방문 전 공식 안내를 확인하세요."
+            },
+            {
+              "mark": "2",
+              "b": "예상 대기가 넉넉할 때만 올라가기",
+              "desc": "전망대도 붐비는 시간에는 줄이 생길 수 있어요. 조회 화면의 예상 대기 시간이 넉넉할 때 올라가고, 짧다면 같은 건물 쇼핑몰을 도는 편이 마음 편해요."
+            },
+            {
+              "mark": "3",
+              "b": "호출 번호가 가까워지면 미리 복귀",
+              "desc": "인원 그룹 칸 번호가 내 번호에 가까워지면 지하 1층으로 내려오세요. 전망대 엘리베이터와 몰 안 이동에도 시간이 걸려요."
+            },
+            {
+              "mark": "4",
+              "b": "일행이 나눠 움직이기",
+              "desc": "한 명은 매장 근처에 남고 나머지가 둘러보면 번호를 놓칠 걱정이 줄어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-101-din-tai-fung-queue-wait-2.jpg",
+          "caption": "타이베이 101 건물 바깥에 있는 딘타이펑 간판이에요. 매장은 쇼핑몰 지하 1층에 있어요. 2017년 8월 사진이에요(사진: Jason Zhang / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 대기가 너무 길면 신이 지역 다른 지점도"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "같은 조회 페이지에서 지점 비교",
+              "desc": "조회 페이지에서 지점만 바꾸면 다른 매장의 예상 대기도 볼 수 있어요. 101 가까이에는 A4점(신광미츠코시 신이 A4관 지하 2층)과 A13점(위안바이 신이 A13 1층)이 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "A4·A13점은 시청역 쪽",
+              "desc": "공식 안내 기준 두 곳 모두 MRT 반난선 스정푸(市政府)역 3번 출구에서 걸어서 3~5분 거리예요. A13점은 주말·공휴일에 1층 북쪽 문(르 메르디앙 호텔 옆)에서 미리 대기를 받는다고 안내하고 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "포장 주문이라는 선택지",
+              "desc": "딘타이펑 공식 매장 안내에는 101점 포장 전용 온라인 주문 링크가 있어요. 메뉴 가격은 방문 전 공식 안내를 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "전망대에 아이와 함께 올라갈 계획이라면 <a href=\"/blog-taipei-101-observatory-child-ticket\">타이베이 101 전망대 아이 요금</a> 글을 먼저 보세요. 101 주변 볼거리는 <a href=\"/taipei-attractions\">타이베이 꼭 가볼 곳</a>에 모아 두었어요. 대기가 너무 길어 다른 곳을 찾는다면 <a href=\"/taipei-dimsum\">타이베이 딤섬 맛집</a> 목록과 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 고르고, 딘타이펑 대신 들렀다는 후기가 있는 <a href=\"/taipei-dimsum-hi-lai-shanghainese-dumpling-taipei-drea-822\">Hi-Lai 상하이 딤섬</a>이나 101 근처 <a href=\"/taipei-bakery-sunny-hills-101-795\">써니힐</a>처럼 상세 페이지에서 위치를 확인해 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 딘타이펑 공식 사이트 매장 안내(101점·A4점·A13점)와 '현장 대기정보 조회' 페이지, 딘타이펑 공식 앱 소개, 타이베이 101 공식 사이트의 전망대 안내를 바탕으로 2026년 10월 27일 기준으로 정리했어요. 영업시간과 번호 발급 마감은 그날 상황에 따라 바뀔 수 있으니 방문 전 구글맵에 등록된 영업시간을 확인하세요. 요금은 방문 전 공식 안내를 확인하세요. 사진: 玄 史生(CC0), Jason Zhang(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 딤섬 맛집도 확인해보세요",
+          "desc": "대기가 길 때 갈 만한 근처 딤섬집을 지도에 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=dimsum"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Din Tai Fung Taipei 101 Queue Guide · My Secret Taiwan Eats",
+      "metaDescription": "Din Tai Fung at Taipei 101 runs on in-person queue numbers. How to track your number on the official wait-time page, use the wait for the mall or observatory, and compare nearby branches.",
+      "ogTitle": "Din Tai Fung at Taipei 101: How the Queue Works and Whether to Visit the Observatory While You Wait",
+      "eyebrow": "Taipei Travel Guide · Xinyi & 101",
+      "title": "Din Tai Fung at Taipei 101: How the Queue Works and Whether to Visit the Observatory While You Wait",
+      "dek": "Take the number in person, track it on your phone — read the right party-size column and the wait becomes free time.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Restaurant Queue Guide",
+      "intro": "\"The wait at Din Tai Fung in Taipei 101 is hours long — can we grab a number and go up the observatory?\" Many travellers say weekend evenings get especially long. This guide to the 101 branch queue is based on Din Tai Fung's (鼎泰豐) official store listings and Branch Wait Time Lookup page, and Taipei 101's official information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Din Tai Fung Taipei 101 queue at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Taipei 101 Branch (official info, Oct 2026)"
+          ],
+          "rows": [
+            {
+              "label": "Location",
+              "values": [
+                "B1, Taipei 101 Mall (台北市市府路45號B1), MRT Taipei 101/World Trade Center Station Exit 4"
+              ]
+            },
+            {
+              "label": "Queue system",
+              "values": [
+                "Take a queue number in person at the restaurant"
+              ]
+            },
+            {
+              "label": "Tracking",
+              "values": [
+                "Official Branch Wait Time Lookup page and Din Tai Fung app — estimated wait, estimated halt time for numbers, called numbers by party size"
+              ]
+            },
+            {
+              "label": "Last numbers",
+              "values": [
+                "Number distribution may end early when the queue is long"
+              ]
+            },
+            {
+              "label": "Hours",
+              "values": [
+                "Check the current opening hours on Google Maps before you go."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The key point: <b>you have to collect the number in person, but after that you can follow the queue on your phone</b>. Choose the '101 Branch' on the official lookup page to see the current wait in minutes and the estimated time number distribution will stop. The official app description also says its number display means you don't have to wait on the spot."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-101-din-tai-fung-queue-wait-1.jpg",
+          "caption": "The front of Din Tai Fung on B1 of the Taipei 101 mall, with called numbers shown on the screen above. Photo from July 2023, so the layout may have changed (photo: 玄 史生 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Reading the Din Tai Fung wait-time page by party size"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Check the estimated wait first",
+              "desc": "Before you head out, look up the 101 branch's estimated wait and the estimated halt time for numbers. In the late evening, numbers can run out before the restaurant closes."
+            },
+            {
+              "mark": "✓",
+              "b": "Numbers are called by party size",
+              "desc": "The 101 branch display is split into 1–2, 3–4, 5–6 and 7+ people. Just watch the column that matches the party size on your ticket."
+            },
+            {
+              "mark": "✓",
+              "b": "Takeout numbers are separate",
+              "desc": "Takeout (外帶) numbers appear separately on the same screen, so don't mix them up with dine-in numbers."
+            },
+            {
+              "mark": "✓",
+              "b": "Ask staff about missed numbers",
+              "desc": "When you get your ticket, ask staff what happens if you're not there when your number is called, and plan your return time around that."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Exploring the observatory or mall while you wait"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Observatory tickets on mall 5F",
+              "desc": "According to Taipei 101, the observatory is on 89F and tickets are sold at the observatory ticket office on the mall's 5th floor; there is also an official online ticket site. Check official pricing before you go."
+            },
+            {
+              "mark": "2",
+              "b": "Go up only if the wait is long",
+              "desc": "The observatory can have its own line at busy times. Go up when the estimated wait leaves plenty of margin; if it's short, browsing the mall is the safer choice."
+            },
+            {
+              "mark": "3",
+              "b": "Head back early",
+              "desc": "When your party-size column gets close to your number, return to B1 — elevators and walking through the mall take time."
+            },
+            {
+              "mark": "4",
+              "b": "Split up",
+              "desc": "Leave one person near the restaurant while the others explore, so nobody misses the call."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-101-din-tai-fung-queue-wait-2.jpg",
+          "caption": "The Din Tai Fung sign outside Taipei 101; the restaurant itself is on the mall's B1 level. Photo from August 2017 (photo: Jason Zhang / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Too long? Check other Xinyi branches"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Compare branches on the same page",
+              "desc": "Switch the branch on the lookup page to see other restaurants' waits. Near 101 there's the A4 Branch (B2, Shin Kong Mitsukoshi Xinyi A4) and the A13 Branch (1F, Far Eastern Department Store Xinyi A13)."
+            },
+            {
+              "mark": "✓",
+              "b": "A4 and A13 are by City Hall Station",
+              "desc": "Per the official listings, both are a 3–5 minute walk from Exit 3 of Taipei City Hall (市政府) Station on the Bannan Line. A13 notes that on weekends and holidays you can queue early at the 1F north door next to Le Méridien."
+            },
+            {
+              "mark": "✓",
+              "b": "Takeout is an option",
+              "desc": "Din Tai Fung's official store listing includes an online takeout-only ordering link for the 101 branch. Check official pricing before you go."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If you're taking kids up to the observatory, read our <a href=\"/blog-taipei-101-observatory-child-ticket\">Taipei 101 observatory child ticket guide</a> first. For other sights around 101, see <a href=\"/taipei-attractions\">must-see places in Taipei</a>. If the wait is too long, pick an alternative from <a href=\"/taipei-dimsum\">Taipei dim sum spots</a> and the <a href=\"/region-taipei\">Taipei food map</a>, and check locations on detail pages such as <a href=\"/taipei-dimsum-hi-lai-shanghainese-dumpling-taipei-drea-822\">Hi-Lai Shanghainese Dumpling</a> — which travellers mention as a Din Tai Fung alternative — or <a href=\"/taipei-bakery-sunny-hills-101-795\">Sunny Hills</a> near 101."
+        },
+        {
+          "type": "note",
+          "text": "Based on Din Tai Fung's official store listings (101, A4 and A13 branches), its Branch Wait Time Lookup page and official app description, and Taipei 101's official observatory information, as of 27 October 2026. Hours and the cut-off for queue numbers can change daily — check the current opening hours on Google Maps before you go. Check official pricing before you go. Photos: 玄 史生 (CC0), Jason Zhang (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei dim sum spots on the map",
+          "desc": "Pin a nearby dim sum place in case the wait is too long.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=dimsum"
+        }
+      ]
+    }
+  },
   "keelung-heping-island-sandiaoling-tunnel": {
     "heroImage": "assets/images/blog/keelung-heping-island-sandiaoling-tunnel-1.jpg",
     "ko": {
