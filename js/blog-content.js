@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "keelung-heping-island-sandiaoling-tunnel",
+    "image": "assets/images/blog/keelung-heping-island-sandiaoling-tunnel-1.jpg",
+    "regions": [
+      "jiufen"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 근교 여행 가이드 · 지룽·루이팡",
+      "title": "지룽 허핑다오·산댜오링 터널, 하루에 묶어 갈 수 있을까?",
+      "desc": "산댜오링 터널 예약·입구와 허핑다오 공원 입장·보관함·버스, 루이팡역 짐 보관까지 하루 동선으로 정리했어요.",
+      "meta": "지룽·루이팡 · 교통·관광"
+    },
+    "en": {
+      "eyebrow": "Day Trips from Taipei · Keelung & Ruifang",
+      "title": "Keelung's Heping Island and the Sandiaoling Tunnel in One Day: Booking, Lockers and Route",
+      "desc": "Sandiaoling Tunnel booking and entrances, Heping Island Park tickets, lockers and buses, plus luggage storage at Ruifang Station — as a one-day route.",
+      "meta": "Keelung & Ruifang · Transport & Sights"
+    }
+  },
+  {
     "slug": "taipei-ntuh-emergency-room-insurance-claim",
     "image": "assets/images/blog/taipei-ntuh-emergency-room-insurance-claim-1.jpg",
     "regions": [
@@ -1334,6 +1353,359 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "keelung-heping-island-sandiaoling-tunnel": {
+    "heroImage": "assets/images/blog/keelung-heping-island-sandiaoling-tunnel-1.jpg",
+    "ko": {
+      "pageTitle": "지룽 허핑다오·산댜오링 터널 가는 법 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "지룽 허핑다오와 산댜오링 터널을 하루에 도는 순서, 터널 무료 예약·화요일 휴무, 허핑다오 입장료·보관함, 루이팡역 짐 보관을 공식 안내로 정리했어요.",
+      "ogTitle": "지룽 허핑다오·산댜오링 터널, 하루에 묶어 갈 수 있을까?",
+      "eyebrow": "타이베이 근교 여행 가이드 · 지룽·루이팡",
+      "title": "지룽 허핑다오·산댜오링 터널, 하루에 묶어 갈 수 있을까?",
+      "dek": "터널은 예약 시간과 휴무일, 허핑다오는 문 닫는 시간 — 이 두 가지만 맞추면 하루 동선이 깔끔해져요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "지룽·루이팡 · 교통·관광",
+      "intro": "\"지룽 허핑다오랑 산댜오링 터널을 하루에 같이 볼 수 있을까?\" 루이팡(瑞芳)·허우통(猴硐) 쪽 일정을 짜다 보면 자주 나오는 질문이에요. 허핑다오 지질공원(和平島地質公園) 공식 사이트, 신베이시 관광국의 산댜오링 생태우호 터널(三貂嶺生態友善隧道) 안내, 대만철도·지룽시 버스 공식 정보를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 허핑다오와 산댜오링 터널, 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구분",
+            "산댜오링 생태우호 터널",
+            "허핑다오 지질공원"
+          ],
+          "rows": [
+            {
+              "label": "입장",
+              "values": [
+                "무료, 온라인 사전 예약 필수",
+                "유료(어른 NT$120), 온라인 전자 티켓 가능"
+              ]
+            },
+            {
+              "label": "운영 (2026년 10월 기준)",
+              "values": [
+                "08:30~16:30, 마지막 입장 16:00",
+                "5~10월 08:00~19:00, 11~4월 08:00~18:00(문 닫기 1시간 전 매표 마감)"
+              ]
+            },
+            {
+              "label": "휴무",
+              "values": [
+                "매주 화요일(연휴엔 운영)",
+                "연중무휴(태풍 등 공지 시 휴원)"
+              ]
+            },
+            {
+              "label": "가까운 교통",
+              "values": [
+                "허우통역·무단역",
+                "지룽시 버스 101·102번, T99 '和平島公園' 정류장"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "동선은 <b>오전에 산댜오링 터널, 오후에 허핑다오</b> 순서가 무난해요. 터널은 오후 4시면 입장이 끝나고 예약한 시간대에 맞춰야 하지만, 허핑다오는 저녁까지 열려 있어서 뒤로 미루기 쉽습니다. 다만 화요일에는 터널이 쉬니 날짜부터 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/keelung-heping-island-sandiaoling-tunnel-1.jpg",
+          "caption": "허핑다오 공원 해안의 바위 지형이에요. 바닷물에 깎인 사암 바위가 길게 이어져요. 2023년 4월 사진이라 지금과 다를 수 있어요(사진: 氏子 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 산댜오링 터널 예약과 입구 찾기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "예약은 공식 사이트에서, 14일 전부터",
+              "desc": "1시간 단위 시간대마다 정원이 있고, 다 차면 현장 대기는 받지 않아요. 아이·어른 모두 인원에 넣고, 받은 QR 코드를 입구에서 보여주면 됩니다. 입장료가 없으니 유료 티켓을 파는 곳은 피하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "산댜오링역이 아니라 허우통역·무단역",
+              "desc": "이름과 달리 산댜오링(三貂嶺)역에는 터널로 나가는 통로가 없어요. 입구는 루이팡 쪽 허우통역 방면(侯三公路)과 솽시 쪽 무단(牡丹)역 방면 두 곳입니다."
+            },
+            {
+              "mark": "✓",
+              "b": "역에서 입구까지는 지도 앱 필수",
+              "desc": "역에서 입구까지 가는 길이 헷갈린다는 이야기가 많아요. 구글맵 도보 경로를 미리 저장해 두거나, 허우통역·무단역 앞 YouBike를 이용하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "한쪽으로 들어가 반대쪽으로 나오기",
+              "desc": "전체 약 3.19km라 걸어서 지나간 뒤 반대편 역에서 기차를 타면 왔던 길을 되돌아가지 않아도 돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "슬리퍼·하이힐은 금지",
+              "desc": "바닥이 틈이 있는 철망 구조라 슬리퍼와 하이힐은 신을 수 없어요. 산댜오링 쪽에는 높은 고가 구간도 있어 고소공포가 있다면 미리 감안하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/keelung-heping-island-sandiaoling-tunnel-2.jpg",
+          "caption": "옛 철도 터널을 고친 산댜오링 생태우호 터널 내부예요. 조명이 어두운 편이라 발밑을 보며 걸어야 해요. 2024년 6월 사진이에요(사진: Jaller94 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 지룽 허핑다오 공원 가는 법과 보관함"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "지룽역 앞 버스 101번",
+              "desc": "지룽역 옆 지룽 버스터미널(基隆轉運站)에서 101번을 타고 '和平島公園' 정류장에 내리면 걸어서 5분 정도예요. 102번, 관광버스 T99 濱海奇基線도 같은 정류장을 지나요."
+            },
+            {
+              "mark": "✓",
+              "b": "전자 티켓으로 줄 없이",
+              "desc": "공식 사이트에서 전자 티켓을 사 두면 매표 줄을 서지 않아도 돼요. 입장권으로는 바위 보호구역과 아라바오만(阿拉寶灣)에는 들어갈 수 없습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "보관함·샤워실은 동전식",
+              "desc": "방문자센터와 샤워실에 동전 보관함(1회 NT$20)이 있고, 샤워·드라이어도 유료예요(2026년 10월 기준). 해수 수영장은 매일 13:00~14:00에 쉬어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 캐리어는 루이팡역에 맡길까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "루이팡역 코인로커",
+              "desc": "대만철도 안내 기준 루이팡역에는 자동 보관함(存物箱)이 있지만, 짐을 맡아 주는 수하물 창구(行李房)는 공사로 쉬고 있어요. 보관함은 칸 크기가 정해져 있어 큰 캐리어는 안 들어갈 수 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "역 앞 가게 짐 보관",
+              "desc": "역 앞 가게에 캐리어를 맡겼다는 여행자도 있어요. 맡기기 전에 요금과 찾는 시간을 가게에 직접 물어보세요."
+            },
+            {
+              "mark": "3",
+              "b": "지룽역 보관함도 선택지",
+              "desc": "지룽역에도 자동 보관함이 있어요. 허핑다오를 마지막에 보고 지룽에서 타이베이로 돌아간다면 지룽역에 맡기는 편이 동선이 짧아요."
+            },
+            {
+              "mark": "4",
+              "b": "지룽↔루이팡 기차는 시간표 확인",
+              "desc": "열차에 따라 바두(八堵)역에서 갈아타야 할 수 있어요. 대만철도 공식 앱이나 홈페이지에서 출발 전에 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "보관함·가게 보관 요금은 현장마다 달라요. 요금은 방문 전 공식 안내를 확인하세요."
+        },
+        {
+          "type": "p",
+          "html": "루이팡에서 허우통까지 기차 타는 법과 시간표 보는 법은 <a href=\"/blog-pingxi-line-ruifang-houtong-shifen\">핑시선 기차 타는 법</a> 글에 정리해 두었어요. 캐리어를 들고 근교를 옮겨 다닐 계획이라면 <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">예류 지우펀 버스·캐리어</a> 글도 함께 보세요. 루이팡에서 가까운 지우펀까지 들를 생각이면 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>와 <a href=\"/jiufen-cafe\">지우펀 카페</a> 목록에서 쉬어 갈 곳을 고르고, 바다 보이는 찻집은 <a href=\"/jiufen-cafe-sf-station-787\">SF Station</a>처럼 상세 페이지에서 위치를 확인해 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 허핑다오 지질공원(和平島地質公園) 공식 사이트, 신베이시 관광국 산댜오링 생태우호 터널 예약 사이트, 대만철도(台鐵) 루이팡역·자동 보관함 안내, 지룽시 버스관리처 101번 노선 안내를 바탕으로 2026년 10월 27일 기준으로 정리했어요. 운영 시간과 휴무는 공지에 따라 바뀔 수 있으니 방문 전 구글맵에 등록된 영업시간을 확인하세요. 요금은 방문 전 공식 안내를 확인하세요. 사진: 氏子(CC BY-SA 4.0), Jaller94(CC0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 지우펀·루이팡 맛집도 확인해보세요",
+          "desc": "터널과 바다를 본 뒤 들를 지우펀 카페와 맛집을 지도에 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Heping Island & Sandiaoling Tunnel Guide · My Secret Taiwan Eats",
+      "metaDescription": "How to pair Keelung's Heping Island Park with the Sandiaoling Tunnel in one day: free tunnel booking and Tuesday closure, park tickets and lockers, and luggage at Ruifang Station.",
+      "ogTitle": "Keelung's Heping Island and the Sandiaoling Tunnel in One Day: Booking, Lockers and Route",
+      "eyebrow": "Day Trips from Taipei · Keelung & Ruifang",
+      "title": "Keelung's Heping Island and the Sandiaoling Tunnel in One Day: Booking, Lockers and Route",
+      "dek": "Match the tunnel's booking slot and closing day with the park's closing time — and the day falls neatly into place.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Keelung & Ruifang · Transport & Sights",
+      "intro": "\"Can we see Heping Island in Keelung and the Sandiaoling Tunnel on the same day?\" It's a common question when planning around Ruifang (瑞芳) and Houtong (猴硐). This guide is based on the official Heping Island Geopark (和平島地質公園) website, New Taipei City's Sandiaoling Eco-Friendly Tunnel (三貂嶺生態友善隧道) information, and official Taiwan Railway and Keelung City Bus information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Heping Island vs. Sandiaoling Tunnel at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Sandiaoling Eco-Friendly Tunnel",
+            "Heping Island Geopark"
+          ],
+          "rows": [
+            {
+              "label": "Entry",
+              "values": [
+                "Free, online booking required",
+                "Paid (adults NT$120), e-tickets available"
+              ]
+            },
+            {
+              "label": "Hours (Oct 2026)",
+              "values": [
+                "08:30–16:30, last entry 16:00",
+                "May–Oct 08:00–19:00, Nov–Apr 08:00–18:00 (ticket sales end 1 hour before closing)"
+              ]
+            },
+            {
+              "label": "Closed",
+              "values": [
+                "Every Tuesday (open on long holidays)",
+                "Open daily (closed for typhoons when announced)"
+              ]
+            },
+            {
+              "label": "Getting there",
+              "values": [
+                "Houtong or Mudan Station",
+                "Keelung City Bus 101/102 or T99 to '和平島公園'"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The easiest order is <b>Sandiaoling Tunnel in the morning, Heping Island in the afternoon</b>. Tunnel entry ends at 4 pm and you must arrive in your booked slot, while Heping Island stays open into the evening. Note that the tunnel is closed on Tuesdays, so check your date first."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/keelung-heping-island-sandiaoling-tunnel-1.jpg",
+          "caption": "Eroded sandstone along the shore of Heping Island Park. The photo is from April 2023, so it may look different today (photo: 氏子 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Booking the Sandiaoling Tunnel and finding the entrance"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Book on the official site, from 14 days ahead",
+              "desc": "Each one-hour slot has a cap, and there's no on-site waiting list once it's full. Count everyone, children included, and show your QR code at the entrance. Entry is free, so avoid anyone selling paid tickets."
+            },
+            {
+              "mark": "✓",
+              "b": "Use Houtong or Mudan Station, not Sandiaoling",
+              "desc": "Despite the name, Sandiaoling Station (三貂嶺) has no exit to the tunnel. The two entrances are on the Houtong side (侯三公路, Ruifang) and the Mudan (牡丹) side in Shuangxi."
+            },
+            {
+              "mark": "✓",
+              "b": "Have a map app ready",
+              "desc": "Many visitors find the way from the station to the entrance confusing. Save the Google Maps walking route in advance, or use the YouBike stations at Houtong and Mudan."
+            },
+            {
+              "mark": "✓",
+              "b": "Go in one end, out the other",
+              "desc": "The route is about 3.19 km, so walk through and catch the train from the station at the other end instead of doubling back."
+            },
+            {
+              "mark": "✓",
+              "b": "No slippers or high heels",
+              "desc": "The floor is open steel grating, so slippers and high heels aren't allowed. There's also an elevated section on the Sandiaoling end — keep that in mind if you're uneasy with heights."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/keelung-heping-island-sandiaoling-tunnel-2.jpg",
+          "caption": "Inside the Sandiaoling Eco-Friendly Tunnel, a converted old railway tunnel. Lighting is dim, so watch your step. Photo from June 2024 (photo: Jaller94 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting to Heping Island Park and using the lockers"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Bus 101 from Keelung Station",
+              "desc": "From the Keelung Bus Terminal (基隆轉運站) next to Keelung Station, take bus 101 to the '和平島公園' stop, about a 5-minute walk away. Bus 102 and the T99 tourist shuttle also stop there."
+            },
+            {
+              "mark": "✓",
+              "b": "Skip the ticket line with an e-ticket",
+              "desc": "Buy an e-ticket on the official site to skip the ticket line. Tickets don't cover the rock conservation zone or Alapawan Bay (阿拉寶灣)."
+            },
+            {
+              "mark": "✓",
+              "b": "Coin lockers and showers",
+              "desc": "Coin lockers (NT$20 per use) are at the visitor centre and shower rooms; showers and hair dryers are also paid (as of Oct 2026). The seawater pools close daily from 13:00 to 14:00."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Should you leave your suitcase at Ruifang Station?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Ruifang Station coin lockers",
+              "desc": "According to Taiwan Railway, Ruifang Station has automatic lockers (存物箱), but the staffed baggage room (行李房) is suspended for station works. Locker sizes are fixed, so a large suitcase may not fit."
+            },
+            {
+              "mark": "2",
+              "b": "Shops near the station",
+              "desc": "Some travellers have left suitcases at shops in front of the station. Ask the shop directly about the fee and pick-up time before you hand it over."
+            },
+            {
+              "mark": "3",
+              "b": "Keelung Station lockers",
+              "desc": "Keelung Station also has automatic lockers. If you finish at Heping Island and head back to Taipei from Keelung, leaving bags there makes for a shorter route."
+            },
+            {
+              "mark": "4",
+              "b": "Check the Keelung–Ruifang timetable",
+              "desc": "Depending on the train, you may need to change at Badu (八堵). Check the official Taiwan Railway app or website before you set off."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Locker and shop storage fees vary by location. Check official pricing before you go."
+        },
+        {
+          "type": "p",
+          "html": "For how to ride the train from Ruifang to Houtong and read the timetable, see our <a href=\"/blog-pingxi-line-ruifang-houtong-shifen\">Pingxi Line train guide</a>. If you're moving between day-trip spots with a suitcase, also read <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">Yehliu to Jiufen by bus with luggage</a>. If you'll also stop by nearby Jiufen, pick a place to rest from the <a href=\"/region-jiufen\">Jiufen food map</a> and <a href=\"/jiufen-cafe\">Jiufen cafes</a>, and check the location of a sea-view spot like <a href=\"/jiufen-cafe-sf-station-787\">SF Station</a> on its detail page."
+        },
+        {
+          "type": "note",
+          "text": "Based on the official Heping Island Geopark website, New Taipei City Tourism's Sandiaoling Eco-Friendly Tunnel booking site, Taiwan Railway's Ruifang Station and locker information, and the Keelung City Bus route 101 page, as of 27 October 2026. Hours and closures can change with notices — check the current opening hours on Google Maps before you go. Check official pricing before you go. Photos: 氏子 (CC BY-SA 4.0), Jaller94 (CC0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Jiufen and Ruifang restaurants on the map",
+          "desc": "After the tunnel and the sea, pin a Jiufen cafe or restaurant on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    }
+  },
   "taipei-ntuh-emergency-room-insurance-claim": {
     "heroImage": "assets/images/blog/taipei-ntuh-emergency-room-insurance-claim-1.jpg",
     "ko": {
