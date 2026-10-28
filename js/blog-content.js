@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-101-observatory-ticket-nearby-eats",
+    "image": "assets/images/attractions/taipei/taipei-101.webp",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 볼거리·먹거리",
+      "title": "타이베이 101 전망대 입장권과 근처 맛집, 야경 보고 어디서 먹을까?",
+      "desc": "타이베이 101 전망대 볼거리와 MRT로 가는 법, 2026년 운영 시간과 입장료, 전망대 내려와서 걸어서 갈 수 있는 지도 속 근처 맛집을 정리했어요.",
+      "meta": "타이베이 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Sights & Food",
+      "title": "Taipei 101 Observatory Tickets and Nearby Eats: Where to Eat After the Night View",
+      "desc": "What to see at the Taipei 101 Observatory, how to get there by MRT, 2026 hours and admission, and nearby restaurants from our map within walking distance.",
+      "meta": "Taipei · Sights & Food"
+    }
+  },
+  {
     "slug": "taiwan-restaurant-corkage-byob-ask-first",
     "image": "assets/images/blog/taiwan-restaurant-corkage-byob-ask-first-1.jpg",
     "regions": [
@@ -1429,6 +1448,361 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-101-observatory-ticket-nearby-eats": {
+    "heroImage": "assets/images/attractions/taipei/taipei-101.webp",
+    "ko": {
+      "pageTitle": "타이베이 101 전망대 입장권·근처 맛집 — 타이베이 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 101 전망대 볼거리와 MRT로 가는 법, 2026년 운영 시간과 입장료, 전망대 내려와서 걸어서 갈 수 있는 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "타이베이 101 전망대 입장권과 근처 맛집, 야경 보고 어디서 먹을까?",
+      "eyebrow": "타이베이 여행 가이드 · 볼거리·먹거리",
+      "title": "타이베이 101 전망대 입장권과 근처 맛집, 야경 보고 어디서 먹을까?",
+      "dek": "89층 전망대에서 야경을 본 다음, 걸어서 갈 수 있는 신이 지구 맛집까지 한 번에 정해보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 볼거리·먹거리",
+      "intro": "타이베이 여행에서 야경 한 번은 꼭 보고 싶다면 타이베이 101 전망대가 가장 쉬운 선택이에요. MRT역과 바로 이어져 있고, 건물 아래와 주변 신이(信義) 지구에 식당이 많아서 전망대 앞뒤로 한 끼를 붙이기 좋아요. 台北101 공식 사이트와 交通部觀光署 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이베이 101은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "지상 101층 건물이라 '101'이라는 이름이 붙었어요. 중화권에서 길한 숫자로 여기는 8을 바탕으로 8개 층을 한 마디로 쌓아 올린 대나무 모양이에요. 저층부는 쇼핑몰이고 주변으로 백화점이 이어져 타이베이에서 가장 번화한 상권을 이뤄요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/taipei/taipei-101.webp",
+          "caption": "신이 지구에 우뚝 선 타이베이 101이에요(사진: Uwe Aranas (CEphoto) / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 전망대에서 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "37초 엘리베이터",
+              "desc": "5층에서 엘리베이터를 타면 분속 1,010m로 약 37초 만에 382m 높이 89층 전망대에 닿아요."
+            },
+            {
+              "mark": "✓",
+              "b": "윈드 댐퍼",
+              "desc": "강풍과 지진에 대비해 매달아 둔 660톤 무게의 윈드 댐퍼를 전망대 안에서 직접 볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "해 질 무렵",
+              "desc": "해 질 무렵 오르면 낮 풍경과 야경을 한 번에 볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "四四南村 사진",
+              "desc": "근처 옛 眷村을 살린 四四南村에서 101을 올려다보는 사진도 인기예요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "MRT",
+              "desc": "淡水信義線 台北101/世貿역과 바로 이어져 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "매표소 위치",
+              "desc": "2026년 7월 1일부터 매표소와 입구가 台北101 오피스 빌딩 1층으로 임시 이전했다고 공식 사이트에 안내돼 있어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 운영 시간과 요금 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "내용"
+          ],
+          "rows": [
+            {
+              "label": "운영 시간",
+              "values": [
+                "매일 10:00~21:00, 연중무휴"
+              ]
+            },
+            {
+              "label": "일반 입장권",
+              "values": [
+                "NT$600(89층 전망대와 88층 출구층)"
+              ]
+            },
+            {
+              "label": "어린이",
+              "values": [
+                "키 115cm 이하 무료, 입장권을 산 보호자 동반"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "아이와 함께라면 <a href=\"/blog-taipei-101-observatory-child-ticket\">타이베이 101 전망대 어린이 요금</a> 글도 함께 보세요."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 타이베이 101 전망대 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · 전망대 내려와서 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "101 건물 안과 바로 옆에 지도에 등록된 가게가 여러 곳 있어요. 가장 먼 곳도 1km 안쪽이라 걸어서 갈 수 있어요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taipei-bakery-sunny-hills-101-795\">Sunny Hills (타이베이 101 인근)</a> · 베이커리 · 바로 옆",
+              "desc": "지도 메모: 펑리수 선물용으로 써니힐을 골랐고, 받은 분이 좋아해 선택이 좋았다."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taipei-hotpot-689\">하이디라오 신이점</a> · 훠궈 · 북동쪽 약 0.2km",
+              "desc": "지도 메모: 가족  4명이 너무 맛있게 잘 먹었다고 함."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taipei-taiwanese-60\">키키레스토랑</a> · 대만식 · 북동쪽 약 0.2km",
+              "desc": "지도에 대만식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taipei-taiwanese-karen-779\">카렌 (Karen)</a> · 대만식 · 서쪽 약 0.3km",
+              "desc": "지도에 대만식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/taipei-bar-fake-sober-taipei-59\">Fake Sober Taipei</a> · 바/펍 · 북동쪽 약 0.3km",
+              "desc": "지도에 바/펍(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/taipei-hotpot-magma-hotpot-breeze-xinyi-branch-214\">Magma Hotpot Breeze Xinyi Branch</a> · 훠궈 · 북쪽 약 0.8km",
+              "desc": "지도에 훠궈(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/taipei-dimsum-hi-lai-shanghainese-dumpling-taipei-drea-822\">Hi-Lai Shanghainese Dumpling Taipei DREAM PLAZA Branch</a> · 딤섬 · 북동쪽 약 0.8km",
+              "desc": "지도 메모: 딘타이펑 대기 대신 갔는데, 마라 완탕이 대만에서 먹은 것 중 최고였다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 台北101 공식 사이트의 전망대 운영 시간·요금 안내와 交通部觀光署의 台北101 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 시간과 요금은 바뀔 수 있으니 방문 전 공식 사이트를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Uwe Aranas (CEphoto), Wikimedia Commons, CC BY-SA 3.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 확인해보세요",
+          "desc": "야경 일정 앞뒤로 들를 타이베이 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taipei 101 Observatory Tickets & Nearby Eats — Taipei · My Secret Taiwan Eats",
+      "metaDescription": "What to see at the Taipei 101 Observatory, how to get there by MRT, 2026 hours and admission, and nearby restaurants from our map within walking distance.",
+      "ogTitle": "Taipei 101 Observatory Tickets and Nearby Eats: Where to Eat After the Night View",
+      "eyebrow": "Taipei Travel Guide · Sights & Food",
+      "title": "Taipei 101 Observatory Tickets and Nearby Eats: Where to Eat After the Night View",
+      "dek": "See the night view from the 89th-floor observatory, then pick a Xinyi District restaurant within walking distance in one go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Sights & Food",
+      "intro": "If you want to see one night view on your Taipei trip, the Taipei 101 Observatory is the easiest pick. It connects directly to the MRT station, and there are plenty of restaurants in the building and around Xinyi District (信義), so it's easy to fit a meal before or after. Based on the official 台北101 site and 交通部觀光署 information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is Taipei 101?"
+        },
+        {
+          "type": "p",
+          "html": "The name comes from its 101 floors above ground. Its bamboo-like shape stacks eight floors per segment, based on the number 8, considered lucky in Chinese-speaking cultures. The lower floors are a shopping mall, and department stores around it make this Taipei's busiest shopping area."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/taipei/taipei-101.webp",
+          "caption": "Taipei 101 towering over Xinyi District (photo: Uwe Aranas (CEphoto) / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What to See at the Observatory"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "The 37-second elevator",
+              "desc": "From the 5th floor, the elevator climbs at 1,010 m per minute and reaches the 89th-floor observatory, 382 m up, in about 37 seconds."
+            },
+            {
+              "mark": "✓",
+              "b": "Wind damper",
+              "desc": "Inside the observatory you can see the 660-tonne wind damper that hangs there to counter strong winds and earthquakes."
+            },
+            {
+              "mark": "✓",
+              "b": "Around sunset",
+              "desc": "Go up around sunset to see both the daytime view and the night view in one visit."
+            },
+            {
+              "mark": "✓",
+              "b": "Photos at 四四南村",
+              "desc": "Photos looking up at 101 from 四四南村, a restored former military dependents' village (眷村) nearby, are also popular."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "MRT",
+              "desc": "It connects directly to Taipei 101/World Trade Center (台北101/世貿) Station on the Tamsui-Xinyi Line (淡水信義線)."
+            },
+            {
+              "mark": "2",
+              "b": "Ticket office location",
+              "desc": "The official site says that from July 1, 2026, the ticket office and entrance have temporarily moved to the 1st floor of the 台北101 office tower."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Hours and Admission (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Details"
+          ],
+          "rows": [
+            {
+              "label": "Hours",
+              "values": [
+                "Daily 10:00–21:00, open year-round"
+              ]
+            },
+            {
+              "label": "Regular ticket",
+              "values": [
+                "NT$600 (89th-floor observatory and 88th-floor exit level)"
+              ]
+            },
+            {
+              "label": "Children",
+              "values": [
+                "Free for children 115 cm or shorter, with a ticketed guardian"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If you're going with kids, also see our post on <a href=\"/blog-taipei-101-observatory-child-ticket\">Taipei 101 Observatory child tickets</a>."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Taipei 101 Observatory tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · Nearby Restaurants for After the Observatory"
+        },
+        {
+          "type": "p",
+          "html": "Several places on our map are inside 101 or right next to it. Even the farthest is under 1 km, so you can walk. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taipei-bakery-sunny-hills-101-795\">Sunny Hills (near Taipei 101)</a> · Bakery · right next door",
+              "desc": "Map note: Chose Sunny Hills for pineapple cake gifts, and the recipient loved them. A good choice."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taipei-hotpot-689\">Haidilao Xinyi</a> · Hot Pot · about 0.2 km northeast",
+              "desc": "Map note: A family of four said they enjoyed it very much."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taipei-taiwanese-60\">KiKi Restaurant</a> · Taiwanese · about 0.2 km northeast",
+              "desc": "Listed as Taiwanese on the map."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taipei-taiwanese-karen-779\">Karen</a> · Taiwanese · about 0.3 km west",
+              "desc": "Listed as Taiwanese on the map."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/taipei-bar-fake-sober-taipei-59\">Fake Sober Taipei</a> · Bar/Pub · about 0.3 km northeast",
+              "desc": "Listed as bar/pub on the map."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/taipei-hotpot-magma-hotpot-breeze-xinyi-branch-214\">Magma Hotpot Breeze Xinyi Branch</a> · Hot Pot · about 0.8 km north",
+              "desc": "Listed as hot pot on the map."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/taipei-dimsum-hi-lai-shanghainese-dumpling-taipei-drea-822\">Hi-Lai Shanghainese Dumpling Taipei DREAM PLAZA Branch</a> · Dim Sum · about 0.8 km northeast",
+              "desc": "Map note: Went here instead of waiting for Din Tai Fung, and the mala wontons were the best thing I ate in Taiwan."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on the official 台北101 site's observatory hours and admission information and 交通部觀光署's 台北101 page, as of October 2026. Hours and prices can change, so check the official site before you go. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Uwe Aranas (CEphoto), Wikimedia Commons, CC BY-SA 3.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei eats on the map",
+          "desc": "Save Taipei restaurants to visit before or after your night view.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
+  },
   "taiwan-restaurant-corkage-byob-ask-first": {
     "heroImage": "assets/images/blog/taiwan-restaurant-corkage-byob-ask-first-1.jpg",
     "ko": {
