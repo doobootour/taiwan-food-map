@@ -3349,6 +3349,10 @@ const BLOG_POSTS = {
           "caption": "타이베이 101 건물 바깥에 있는 딘타이펑 간판이에요. 매장은 쇼핑몰 지하 1층에 있어요. 2017년 8월 사진이에요(사진: Jason Zhang / Wikimedia Commons, CC BY-SA 4.0)."
         },
         {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 타이베이 101 전망대 입장권 보기 →</a>"
+        },
+        {
           "type": "h2",
           "text": "04 · 대기가 너무 길면 신이 지역 다른 지점도"
         },
@@ -3514,6 +3518,10 @@ const BLOG_POSTS = {
           "type": "figure",
           "img": "assets/images/blog/taipei-101-din-tai-fung-queue-wait-2.jpg",
           "caption": "The Din Tai Fung sign outside Taipei 101; the restaurant itself is on the mall's B1 level. Photo from August 2017 (photo: Jason Zhang / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Taipei 101 Observatory tickets on Klook →</a>"
         },
         {
           "type": "h2",
@@ -6762,6 +6770,10 @@ const BLOG_POSTS = {
           ]
         },
         {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F3521-jiufen-full-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 지우펀·스펀·예류 일일 투어 (한국어 가이드) 보기 →</a>"
+        },
+        {
           "type": "h2",
           "text": "04 · 핑시선 기차 타기 전 확인할 것"
         },
@@ -6940,6 +6952,10 @@ const BLOG_POSTS = {
               "desc": "If you only plan three or four stops, just tap an EasyCard. If you have a Taipei Fun Pass, it includes one Pingxi Line round trip — see the Fun Pass post below to do the maths."
             }
           ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F3521-jiufen-full-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Jiufen, Shifen & Yehliu day tour on Klook →</a>"
         },
         {
           "type": "h2",
@@ -8074,6 +8090,10 @@ const BLOG_POSTS = {
           ]
         },
         {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F137776-explore-sun-moon-lake-gaomei-wetlands-day-tour-from-taichung%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 타이중 출발 일월담·무지개마을·가오메이습지 일일투어 보기 →</a>"
+        },
+        {
           "type": "h2",
           "text": "05 · 1박2일 먹거리 동선 짜는 팁"
         },
@@ -8229,6 +8249,10 @@ const BLOG_POSTS = {
               "desc": "If you're sharing with several people, a few small packs are handier than one big bag. Tea is light and compact, so it's easy to pack on your last day."
             }
           ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F137776-explore-sun-moon-lake-gaomei-wetlands-day-tour-from-taichung%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Sun Moon Lake & Gaomei Wetland day tour from Taichung on Klook →</a>"
         },
         {
           "type": "h2",
@@ -12256,6 +12280,10 @@ const BLOG_POSTS = {
           "caption": "예류지질공원의 여왕머리 바위예요(Pexels 사진). 바닷가 야외 산책로라 비 오는 날엔 걷기가 불편해요."
         },
         {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27672-bus-day-tour-taipei-korean-guide%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 예스폭진지 일일 버스투어 (한국인 가이드) 보기 →</a>"
+        },
+        {
           "type": "h2",
           "text": "05 · 지우펀 주말 교통 통제와 결론"
         },
@@ -12476,6 +12504,10 @@ const BLOG_POSTS = {
           "type": "figure",
           "img": "assets/images/blog/yehliu-jiufen-taxi-vs-bus-tour-2.jpg",
           "caption": "The Queen's Head rock at Yehliu Geopark (Pexels). It's an exposed seaside trail, so rain makes walking harder."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27672-bus-day-tour-taipei-korean-guide%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Yehliu–Shifen–Jiufen bus day tour on Klook →</a>"
         },
         {
           "type": "h2",
@@ -13447,6 +13479,10 @@ const BLOG_POSTS = {
             ]
           },
           {
+            "type": "p",
+            "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10136-national-palace-museum-ticket-package-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 국립고궁박물원 입장권 보기 →</a>"
+          },
+          {
             "type": "h2",
             "text": "04 · 스린역에서 고궁박물원 가는 법과 주차"
           },
@@ -13610,6 +13646,10 @@ const BLOG_POSTS = {
                 "desc": "The Children's Gallery on B1 of Exhibition Area I is free and keeps the same hours. The Zhishan Garden next door is free too."
               }
             ]
+          },
+          {
+            "type": "p",
+            "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10136-national-palace-museum-ticket-package-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See National Palace Museum tickets on Klook →</a>"
           },
           {
             "type": "h2",
@@ -15696,6 +15736,7 @@ const BLOG_POSTS = {
             { mark: "4", b: "돌아오는 교통", desc: "택시로 갔다면 귀가 편을 미리 정해두세요. 버스 시간표는 가오슝 버스 앱으로 확인하는 게 정확합니다." },
           ],
         },
+        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F79807-kaohsiung-city-day-tour-experience%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 가오슝 일일 투어 (불광산·연지담·보얼) 보기 →</a>" },
         { type: "h2", text: "04 · 부모님 체력별 추천 동선" },
         { type: "p", html: "걷기에 자신이 있다면 기념관 정문에서 대불 쪽으로 천천히 걸으며 중간중간 회랑에서 쉬어가면 됩니다. 무릎이 불편하다면 입구에서 휠체어를 빌리고 본관 실내 전시 위주로 보는 편이 좋아요. 여름 한낮은 그늘 없는 광장이 뜨거우니 오전이나 늦은 오후를 추천합니다." },
         { type: "quote", text: "\"넓긴 한데 쉴 곳이 많아서 생각보다 괜찮았다는 말이 많아요.\" — 부모님과 다녀온 여행자들의 후기를 요약했습니다." },
@@ -15747,6 +15788,7 @@ const BLOG_POSTS = {
             { mark: "4", b: "The ride back", desc: "If you arrive by taxi, plan the return trip. Check bus times in a Kaohsiung bus app." },
           ],
         },
+        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F79807-kaohsiung-city-day-tour-experience%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Kaohsiung day tour (Fo Guang Shan, Lotus Pond, Pier-2) on Klook →</a>" },
         { type: "h2", text: "04 · Routes by Stamina" },
         { type: "p", html: "If walking is fine, stroll from the main gate toward the big Buddha and take breaks in the covered corridors. For sore knees, borrow a wheelchair at the entrance and focus on the indoor exhibits in the Main Hall. Midday in summer gets hot on the open plaza, so mornings or late afternoons work better." },
         { type: "quote", text: "\"It's big, but there are so many places to rest that it was easier than expected.\" — a summary of what travelers who went with their parents often say." },
@@ -17237,6 +17279,7 @@ const BLOG_POSTS = {
         { type: "figure", img: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg", caption: "홍등이 걸린 지우펀 골목의 찻집 건물이에요. 골목이 좁고 계단이 많아 캐리어를 끌기 어려워요." },
         { type: "h2", text: "03 · 캐리어는 맡기고 가세요" },
         { type: "p", html: "지우펀 옛거리는 좁은 골목과 계단이 이어져 캐리어를 끌고 다니기 힘들어요. 버스도 붐비는 시간에는 짐 둘 곳이 마땅치 않아요. 타이베이 메인역 코인로커나 숙소에 짐을 맡기고 가벼운 가방만 들고 출발하는 여행자가 많아요. 메인역 로커는 크기별로 요금이 다르고 주말에는 자리가 빨리 차는 편이라, 체크아웃한 숙소에 짐 보관을 부탁하는 방법이 가장 무난하다는 후기가 많아요." },
+        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27672-bus-day-tour-taipei-korean-guide%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 예스폭진지 일일 버스투어 (한국인 가이드) 보기 →</a>" },
         { type: "h2", text: "04 · 이런 날은 투어가 편해요" },
         { type: "p", html: "부모님이나 아이와 함께이거나 비가 오는 날에는 환승이 부담스러울 수 있어요. 예류·스펀·지우펀을 묶은 투어나 택시 투어를 이용하면 짐 걱정 없이 이동할 수 있어요. 직접 간다면 해 지기 전에 지우펀에 도착해 돌아오는 버스 줄을 미리 확인해두세요." },
         { type: "quote", text: "\"예류에서 지우펀은 두 번 타는 길, 짐은 타이베이에 두고.\" — 두 곳을 이어 다녀온 여행자들의 조언을 요약했습니다." },
@@ -17279,6 +17322,7 @@ const BLOG_POSTS = {
         { type: "figure", img: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg", caption: "A Jiufen teahouse hung with red lanterns — the narrow, stepped alleys make rolling a suitcase hard." },
         { type: "h2", text: "03 · Leave the Suitcase Behind" },
         { type: "p", html: "Jiufen Old Street is narrow alleys and steps, and buses have little room for bags at busy times. Many travelers leave luggage in lockers at Taipei Main Station or at their hotel and set off with a light bag. Station lockers are priced by size and fill up fast on weekends, so many reviews say asking your hotel to hold bags after checkout is the easiest option." },
+        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27672-bus-day-tour-taipei-korean-guide%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Yehliu–Shifen–Jiufen bus day tour on Klook →</a>" },
         { type: "h2", text: "04 · When a Tour Is Easier" },
         { type: "p", html: "With parents, kids, or rain, transfers can be a hassle. Tours or taxi tours covering Yehliu, Shifen, and Jiufen let you move without worrying about bags. If you go on your own, arrive in Jiufen before dark and check the return bus queue early." },
         { type: "quote", text: "\"Yehliu to Jiufen takes two rides — leave your bags in Taipei.\" — a summary of advice from travelers who've linked the two." },
@@ -17633,6 +17677,7 @@ const BLOG_POSTS = {
             { mark: "✓", b: "유모차", desc: "유모차를 가져간다면 엘리베이터 이용과 보관 방법을 현장 안내에서 확인하세요." },
           ],
         },
+        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 타이베이 101 전망대 입장권 보기 →</a>" },
         { type: "h2", text: "04 · 알아두면 좋은 점" },
         { type: "p", html: "스카이라인 460은 키 145cm 이상만 참여할 수 있어 어린아이와 함께라면 일반 전망대만 보는 게 현실적이에요. 펀패스가 있다면 1층 펀패스 발권기에서 입장 시간을 예약해 표로 바꿔야 해요. 요금 정책은 바뀔 수 있으니 방문 직전에 공식 요금표를 다시 확인해보세요." },
         { type: "quote", text: "\"외국인 아이는 나이 말고 키, 115cm가 기준.\" — 아이와 101 전망대를 다녀온 여행자들의 조언을 요약했습니다." },
@@ -17679,6 +17724,7 @@ const BLOG_POSTS = {
             { mark: "✓", b: "Strollers", desc: "If you bring a stroller, check elevator use and storage with on-site staff." },
           ],
         },
+        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Taipei 101 Observatory tickets on Klook →</a>" },
         { type: "h2", text: "04 · Good to Know" },
         { type: "p", html: "Skyline 460 requires a height of 145cm+, so with young kids the regular observatory is the realistic choice. With a FunPass, reserve a time slot at the 1F FunPass kiosk to get your ticket. Policies can change, so recheck the official price list before you go." },
         { type: "quote", text: "\"For foreign kids it's height, not age — 115cm is the line.\" — a summary of advice from families who've visited Taipei 101." },
@@ -18287,6 +18333,7 @@ const BLOG_POSTS = {
         { type: "h2", text: "02 · 타이베이에서 965번 버스 타는 곳" },
         { type: "p", html: "지우펀 방향은 捷運府中站 → 新北板橋公車站 → 萬華車站 → 捷運西門站 → 中華路北站 → 捷運北門站 순서로 서요. 捷運北門站(베이먼역)에서 탈 때는 2번 출구 쪽에서 기다리면 돼요. 베이먼 다음부터는 고가도로와 고속도로를 타고 루이팡 쪽까지 서지 않고 달려요. 지우펀에서는 九份派出所, 代天府 다음 九份老街 정류장에서 내리면 옛거리 입구예요." },
         { type: "figure", img: "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg", caption: "산비탈을 따라 집들이 들어선 지우펀 마을의 낮 풍경이에요(965번 버스 사진 아님)." },
+        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F3521-jiufen-full-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 지우펀·스펀·예류 일일 투어 (한국어 가이드) 보기 →</a>" },
         { type: "h2", text: "03 · 돌아올 때 내리는 곳과 알아둘 점" },
         {
           type: "tipList",
@@ -18330,6 +18377,7 @@ const BLOG_POSTS = {
         { type: "h2", text: "02 · Where to Board in Taipei" },
         { type: "p", html: "Toward Jiufen, the bus stops at MRT Fuzhong → New Taipei Banqiao Bus Station → Wanhua Station → MRT Ximen → Zhonghua Rd. North → MRT Beimen. At MRT Beimen, wait near Exit 2. After Beimen it runs on the elevated road and freeway without stopping until the Ruifang area. In Jiufen, get off at Jiufen Old Street (九份老街), after Jiufen Police Station and Daitian Temple." },
         { type: "figure", img: "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg", caption: "Jiufen village on the hillside in daytime (not a photo of bus 965)." },
+        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F3521-jiufen-full-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Jiufen, Shifen & Yehliu day tour on Klook →</a>" },
         { type: "h2", text: "03 · Getting Back and Good to Know" },
         {
           type: "tipList",
@@ -18688,6 +18736,10 @@ const BLOG_POSTS = {
           "html": "시음을 할 계획이라면 차를 빌리지 말고 버스나 택시로 다녀오세요."
         },
         {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F113318-yilan-guishan-island-cruise-animal-farm-whisky-tasting-from-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 구이산섬·카발란 양조장 일일 투어 보기 →</a>"
+        },
+        {
           "type": "h2",
           "text": "04 · 돌아오는 길, 이란 케이크 카페"
         },
@@ -18856,6 +18908,10 @@ const BLOG_POSTS = {
         {
           "type": "p",
           "html": "If you plan to taste, skip the rental car and take the bus or a taxi."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F113318-yilan-guishan-island-cruise-animal-farm-whisky-tasting-from-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Guishan Island & Kavalan distillery day tour on Klook →</a>"
         },
         {
           "type": "h2",
