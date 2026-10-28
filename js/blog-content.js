@@ -19,6 +19,26 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-yehliu-tour-vs-zoo-kids",
+    "image": "assets/images/blog/taipei-yehliu-tour-vs-zoo-kids-1.jpg",
+    "regions": [
+      "taipei",
+      "jiufen"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 아이와 여행",
+      "title": "예스지 투어 vs 타이베이 동물원, 초등 저학년 아이와 어디?",
+      "desc": "예류·스펀·지우펀을 도는 예스지 투어와 타이베이 동물원을 초등 저학년 아이 기준으로 비교했어요. 날씨별 선택법과 휴관일, 현장 규칙까지 담았어요.",
+      "meta": "타이베이·신베이 · 아이와 여행"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Travelling with Kids",
+      "title": "Yehliu Day Tour or Taipei Zoo: Which Suits Young Kids Better?",
+      "desc": "Comparing a Yehliu–Shifen–Jiufen day tour with Taipei Zoo for early primary-school kids: picking by weather, closure days and on-site rules.",
+      "meta": "Taipei & New Taipei · Family Travel"
+    }
+  },
+  {
     "slug": "changhua-baguashan-sky-playground-kids",
     "image": "assets/images/blog/changhua-baguashan-sky-playground-kids-1.jpg",
     "regions": [
@@ -1467,6 +1487,399 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-yehliu-tour-vs-zoo-kids": {
+    "heroImage": "assets/images/blog/taipei-yehliu-tour-vs-zoo-kids-1.jpg",
+    "ko": {
+      "pageTitle": "예스지 투어 vs 타이베이 동물원, 아이와 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "예스지 투어와 타이베이 동물원, 초등 저학년 아이와는 어디가 맞을까요? 체력·날씨·그늘·볼거리 기준으로 비교하고 휴관일과 주의할 점을 정리했어요.",
+      "ogTitle": "예스지 투어 vs 타이베이 동물원, 초등 저학년 아이와 어디?",
+      "eyebrow": "타이베이 여행 가이드 · 아이와 여행",
+      "title": "예스지 투어 vs 타이베이 동물원, 초등 저학년 아이와 어디?",
+      "dek": "바닷가 기암과 풍등이냐, 판다와 코알라냐 — 아이 체력과 그날 날씨로 고르면 실패가 적어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이·신베이 · 아이와 여행",
+      "intro": "예스지 투어와 타이베이 동물원 중 하루만 고른다면, 초등 저학년 아이에게는 어디가 나을까요? 예스지 투어는 예류(野柳)·스펀(十分)·지우펀(九份)을 하루에 도는 신베이 근교 코스이고, 타이베이 시립동물원은 MRT로 갈 수 있는 시내 동물원이에요. 아이와 다녀온 여행자들의 의견은 꽤 갈려서, 예류 지질공원과 동물원 공식 안내를 바탕으로 아이 기준 차이를 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 예스지 투어 vs 타이베이 동물원, 한눈에 비교"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "예스지 투어 (예류·스펀·지우펀)",
+            "타이베이 동물원"
+          ],
+          "rows": [
+            {
+              "label": "아이가 좋아할 포인트",
+              "values": [
+                "기암·화석 관찰, 풍등에 소원 쓰기",
+                "판다·코알라·펭귄 등 동물, 실내관"
+              ]
+            },
+            {
+              "label": "하루 흐름",
+              "values": [
+                "세 곳을 차로 이동, 곳마다 짧게 머묾",
+                "한 곳에서 원하는 만큼, 1~2시간 짧은 동선도 있음"
+              ]
+            },
+            {
+              "label": "날씨 영향",
+              "values": [
+                "바닷가라 바람·비에 크게 좌우돼요",
+                "실내관이 있어 비 오는 날 대안이 돼요"
+              ]
+            },
+            {
+              "label": "운영 (2026년 10월 기준)",
+              "values": [
+                "예류 08:00~17:00(여름 18:00까지)",
+                "09:00~17:00, 입장 마감 16:00"
+              ]
+            },
+            {
+              "label": "쉬는 날",
+              "values": [
+                "예류는 강풍·태풍 때 문을 닫기도 해요",
+                "음력 섣달그믐·6월 하순 휴원, 월요일마다 일부 관 휴관"
+              ]
+            },
+            {
+              "label": "요금",
+              "values": [
+                "요금은 방문 전 공식 안내를 확인하세요",
+                "요금은 방문 전 공식 안내를 확인하세요"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "아이와 다녀온 여행자들 사이에서는 <b>예스지 투어 쪽을 고른 의견이 더 많았어요</b>. 스펀에서 풍등을 날린 것과 예류에서 화석을 찾아본 것이 기억에 남았다는 이야기가 나왔습니다. 반대로 예류는 그늘이 거의 없고 감흥이 사람마다 다르다는 의견, 동물원은 넓은 데 비해 볼거리가 기대보다 적었다는 의견도 함께 있었어요. 결국 아이의 관심사와 그날 날씨가 기준이에요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-yehliu-tour-vs-zoo-kids-1.jpg",
+          "caption": "예류 지질공원의 버섯바위(蕈狀岩) 지대예요. 바위에 오르거나 만지며 넘어가는 건 금지돼 있어요(사진: Balon Greyjoy / Wikimedia Commons, CC0, 2019년 4월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 예스지 투어, 아이와 가면 이런 점을 챙기세요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "예류 화석은 '찾아보기'만",
+              "desc": "예류 지질공원 1구역에는 성게 화석(海膽化石), 2구역에는 생흔 화석(生痕化石)이 안내돼 있어요. 화석·돌·조개껍데기를 가져가는 것은 법으로 금지돼 있으니 눈으로 찾는 놀이로 해주세요."
+            },
+            {
+              "mark": "✓",
+              "b": "바위 오르기·난간 넘기 금지",
+              "desc": "기암에 올라가거나 안전선·난간을 넘는 행위는 금지되고 벌금 대상이에요. 아이가 바위에 올라가고 싶어 할 수 있으니 미리 약속해 두면 편해요."
+            },
+            {
+              "mark": "✓",
+              "b": "킥보드·자전거는 못 들어가요",
+              "desc": "예류 지질공원은 자전거·킥보드를 포함한 모든 탈것의 진입을 막고 있어요. 아이 킥보드는 차에 두고 내리세요."
+            },
+            {
+              "mark": "✓",
+              "b": "바람 부는 날은 휴원 공지부터",
+              "desc": "예류는 동북계절풍으로 바람과 파도가 셀 때 공원을 임시로 닫은 적이 있어요(2025년 10월 20일 북관처 공지). 가을·겨울에는 당일 아침 공식 공지를 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "스펀 풍등은 소원 쓰기부터",
+              "desc": "신베이시 관광 안내에 따르면 스펀 옛거리에서는 붓으로 풍등에 소원을 쓰고, 가게에서 날리는 자세와 사진 촬영을 도와줘요. 열차가 옛거리 한가운데로 지나가니 선로를 함부로 건너지 않게 아이 손을 꼭 잡아 주세요."
+            },
+            {
+              "mark": "✓",
+              "b": "지우펀은 인파 대비",
+              "desc": "지우펀은 주말에 특히 붐벼요. 좁은 골목에서 아이를 놓치지 않게 만날 장소를 미리 정해 두면 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 타이베이 동물원, 아이와 덜 지치는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "공식 '아이 동반' 코스를 쓰세요",
+              "desc": "동물원 공식 추천 코스에는 아이 동반용이 따로 있어요. 1~2시간짜리 짧은 코스는 대만 동물구 → 교육센터 → 천산갑관 → 판다관 → 코알라관 순서예요."
+            },
+            {
+              "mark": "✓",
+              "b": "동물 전시는 16:30까지",
+              "desc": "개원은 09:00~17:00이지만 입장 마감은 16:00, 동물 전시는 16:30까지예요. 오후 늦게 가면 볼 시간이 짧아져요."
+            },
+            {
+              "mark": "✓",
+              "b": "월요일엔 휴관하는 관 확인",
+              "desc": "매달 첫째 월요일 판다관, 둘째 월요일 열대우림 실내관(천산갑관)·펭귄관, 셋째 월요일 양서파충류관, 넷째 월요일 곤충관이 쉬어요. 교육센터는 월요일마다 휴관이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "비 오는 날엔 실내관 위주로",
+              "desc": "판다관·코알라관·펭귄관·곤충관처럼 실내 전시관이 여럿이라, 비가 오면 실내관을 묶어서 보는 동선이 편해요. 태풍으로 타이베이시가 휴무를 발표한 날은 동물원도 쉬어요."
+            },
+            {
+              "mark": "✓",
+              "b": "한 번에 다 보려 하지 않기",
+              "desc": "동물원도 '넓어서 한 번에 다 보기 힘들다'고 안내해요. 아이가 좋아하는 동물 2~3곳을 먼저 정하고 가면 만족도가 높아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-yehliu-tour-vs-zoo-kids-2.jpg",
+          "caption": "타이베이 시립동물원 입구 간판이에요(사진: Ralff Nestor Nacor / Wikimedia Commons, CC BY-SA 4.0, 2024년 12월)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 우리 아이에게는 어디가 맞을까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "차 이동이 괜찮고 바다·돌을 좋아한다면",
+              "desc": "예스지 투어가 맞아요. 다만 이동이 길어 하루가 빡빡하니 전날 일정을 가볍게 잡아 두세요."
+            },
+            {
+              "mark": "2",
+              "b": "동물을 좋아하고 쉬엄쉬엄 다니고 싶다면",
+              "desc": "동물원이 맞아요. 지치면 바로 돌아올 수 있고, 남는 시간은 시내 일정으로 채울 수 있어요."
+            },
+            {
+              "mark": "3",
+              "b": "날씨가 애매한 날이라면",
+              "desc": "비나 강풍 예보가 있으면 실내관이 있는 동물원이 안전한 선택이에요. 맑고 바람이 약한 날을 예스지 투어로 쓰세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "동물원 가는 법과 셔틀 열차 동선은 <a href=\"/blog-taipei-zoo-shuttle-train-route\">타이베이 동물원, 셔틀로 올라가 걸어 내려오면 덜 힘들까?</a>에, 투어 방식 비교는 <a href=\"/blog-yehliu-jiufen-taxi-vs-bus-tour\">예스폭진지 택시투어 vs 버스투어</a>에, 대중교통으로 도는 법은 <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">예류 지우펀 버스</a>와 <a href=\"/blog-pingxi-line-ruifang-houtong-shifen\">핑시선 루이팡·허우퉁·스펀</a> 글에 정리해 두었어요. 지우펀이 붐비는 요일은 <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">지우펀 금요일 vs 일요일</a>을, 아이와 갈 만한 다른 곳은 <a href=\"/blog-taipei-with-kids-activities-night-market\">아이와 타이베이 여행</a>과 <a href=\"/taipei-attraction-104\">타이페이 어린이공원</a>을 참고하세요. 먹을 곳은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>, <a href=\"/taipei-attraction\">타이베이 체험·관광지</a>, <a href=\"/region-jiufen\">예류·스펀·지우펀 맛집 지도</a>와 <a href=\"/jiufen-street_food-720\">스펀 소세지</a> 상세 페이지에서 고르면 돼요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 예류 지질공원 공식 사이트(개방시간·관람 규칙·기암 안내), 북해안 및 관음산 국가풍경구 관리처 공지(2025년 10월 20일 휴원), 신베이시 관광여행망의 스펀 옛거리 안내, 타이베이 시립동물원 공식 사이트(개방시간·관별 휴관표·추천 코스), 네이버 카페 여행자 질문 답변(2026년 10월)을 바탕으로 2026년 10월 29일에 정리했어요. 운영과 휴원은 날씨에 따라 바뀔 수 있으니 방문 전 공식 공지를 확인하세요. 사진: Balon Greyjoy(CC0), Ralff Nestor Nacor(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 체험·관광지도 확인해보세요",
+          "desc": "아이와 들를 곳과 근처 먹을 곳을 지도에서 미리 골라 보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=attraction"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Yehliu Tour vs Taipei Zoo with Kids · My Secret Taiwan Eats",
+      "metaDescription": "Yehliu day tour or Taipei Zoo with young kids? A comparison by stamina, weather, shade and what kids enjoy, plus closure days and rules to know.",
+      "ogTitle": "Yehliu Day Tour or Taipei Zoo: Which Suits Young Kids Better?",
+      "eyebrow": "Taipei Travel Guide · Travelling with Kids",
+      "title": "Yehliu Day Tour or Taipei Zoo: Which Suits Young Kids Better?",
+      "dek": "Sea-carved rocks and sky lanterns, or pandas and koalas — pick by your child's stamina and the day's weather.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei & New Taipei · Family Travel",
+      "intro": "If you only have one day, which is better for an early primary-school child: a Yehliu day tour or Taipei Zoo? The 'Ye-Shi-Ji' tour covers Yehliu (野柳), Shifen (十分) and Jiufen (九份) in New Taipei in one day, while Taipei Zoo is a city zoo reachable by MRT. Parents who have done both are split, so here is a kid-focused comparison based on the official Yehliu Geopark and Taipei Zoo information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Yehliu tour vs Taipei Zoo at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Yehliu tour (Yehliu · Shifen · Jiufen)",
+            "Taipei Zoo"
+          ],
+          "rows": [
+            {
+              "label": "What kids enjoy",
+              "values": [
+                "Rock formations, spotting fossils, writing wishes on sky lanterns",
+                "Pandas, koalas, penguins and indoor halls"
+              ]
+            },
+            {
+              "label": "Shape of the day",
+              "values": [
+                "Three stops by car, short time at each",
+                "One place at your own pace; 1–2 hour short routes exist"
+              ]
+            },
+            {
+              "label": "Weather",
+              "values": [
+                "Coastal, so wind and rain matter a lot",
+                "Indoor halls make it a rainy-day option"
+              ]
+            },
+            {
+              "label": "Hours (as of Oct 2026)",
+              "values": [
+                "Yehliu 08:00–17:00 (to 18:00 in summer)",
+                "09:00–17:00, last entry 16:00"
+              ]
+            },
+            {
+              "label": "Closures",
+              "values": [
+                "Yehliu can close in strong wind or typhoons",
+                "Closed Lunar New Year's Eve and late June; some halls closed on Mondays"
+              ]
+            },
+            {
+              "label": "Fees",
+              "values": [
+                "Check the official information before you go",
+                "Check the official information before you go"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Among parents who answered, <b>more picked the Yehliu tour</b> — releasing a sky lantern in Shifen and looking for fossils at Yehliu were what kids remembered. Others noted that Yehliu has almost no shade and isn't for everyone, and some felt the zoo was huge but had less to see than expected. In the end it comes down to your child's interests and the weather."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-yehliu-tour-vs-zoo-kids-1.jpg",
+          "caption": "Mushroom rocks (蕈狀岩) at Yehliu Geopark. Climbing on the rock formations is prohibited (photo: Balon Greyjoy / Wikimedia Commons, CC0, April 2019)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Yehliu tour with kids: what to keep in mind"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Fossils are for looking only",
+              "desc": "Yehliu Geopark marks sea urchin fossils (海膽化石) in Zone 1 and trace fossils (生痕化石) in Zone 2. Taking fossils, stones or shells is illegal, so make it a spotting game."
+            },
+            {
+              "mark": "✓",
+              "b": "No climbing rocks or crossing barriers",
+              "desc": "Climbing the rock formations or crossing safety lines and railings is prohibited and fined. Agree on this with your kids beforehand."
+            },
+            {
+              "mark": "✓",
+              "b": "No scooters or bikes",
+              "desc": "All vehicles, including bicycles and kick scooters, are banned inside the geopark. Leave the scooter in the car."
+            },
+            {
+              "mark": "✓",
+              "b": "Windy day? Check for closures",
+              "desc": "Yehliu has closed temporarily when the northeast monsoon brought strong wind and waves (North Coast scenic area notice, 20 October 2025). In autumn and winter, check the official notice that morning."
+            },
+            {
+              "mark": "✓",
+              "b": "Shifen lanterns start with a wish",
+              "desc": "According to New Taipei's tourism site, you write your wish on the lantern with a brush, and shops show you how to release it and help with photos. Trains run right through the old street, so hold your child's hand and don't cross the tracks."
+            },
+            {
+              "mark": "✓",
+              "b": "Jiufen gets crowded",
+              "desc": "Jiufen is especially busy at weekends. Agree on a meeting point in case you get separated in the narrow lanes."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Taipei Zoo with kids: how to tire less"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Use the official 'with children' routes",
+              "desc": "The zoo publishes routes for families with kids. The 1–2 hour version goes Formosan Animal Area → Education Center → Pangolin House → Giant Panda House → Koala House."
+            },
+            {
+              "mark": "✓",
+              "b": "Animal displays end at 16:30",
+              "desc": "The zoo is open 09:00–17:00, but last entry is 16:00 and animals are on display until 16:30, so arriving late leaves little time."
+            },
+            {
+              "mark": "✓",
+              "b": "Check Monday hall closures",
+              "desc": "The Giant Panda House closes on the 1st Monday, the Rainforest indoor hall (Pangolin House) and Penguin House on the 2nd, the Amphibian and Reptile House on the 3rd and the Insectarium on the 4th. The Education Center closes every Monday."
+            },
+            {
+              "mark": "✓",
+              "b": "Rainy day? Go indoor",
+              "desc": "With several indoor halls such as the panda, koala, penguin and insect houses, a rainy-day route linking them works well. When Taipei City declares a typhoon day off, the zoo closes too."
+            },
+            {
+              "mark": "✓",
+              "b": "Don't try to see it all",
+              "desc": "The zoo itself says it's too big to see in one go. Pick two or three animals your child loves first."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-yehliu-tour-vs-zoo-kids-2.jpg",
+          "caption": "The sign at the Taipei Zoo entrance (photo: Ralff Nestor Nacor / Wikimedia Commons, CC BY-SA 4.0, December 2024)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Which one suits your child?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Fine with car rides and loves the sea and rocks",
+              "desc": "Go for the Yehliu tour. It's a long day of driving, so keep the day before light."
+            },
+            {
+              "mark": "2",
+              "b": "Loves animals and prefers an easy pace",
+              "desc": "Choose the zoo. You can leave whenever they tire and fill the rest of the day in the city."
+            },
+            {
+              "mark": "3",
+              "b": "Uncertain weather",
+              "desc": "With rain or strong wind in the forecast, the zoo and its indoor halls are the safer choice. Save the Yehliu tour for a clear, calm day."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For getting to the zoo and the shuttle train, see <a href=\"/blog-taipei-zoo-shuttle-train-route\">Taipei Zoo: ride the shuttle train up, then walk down</a>. Tour types are compared in <a href=\"/blog-yehliu-jiufen-taxi-vs-bus-tour\">Yehliu–Shifen–Jiufen: taxi tour or bus tour?</a>, and public transport is covered in <a href=\"/blog-yehliu-to-jiufen-bus-luggage-route\">Yehliu to Jiufen by bus</a> and <a href=\"/blog-pingxi-line-ruifang-houtong-shifen\">the Pingxi Line via Ruifang, Houtong and Shifen</a>. For Jiufen crowd days read <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">Jiufen on Friday vs Sunday</a>, and for more kid-friendly ideas see <a href=\"/blog-taipei-with-kids-activities-night-market\">Taipei with kids</a> and <a href=\"/taipei-attraction-104\">Taipei Children's Amusement Park</a>. For food, browse the <a href=\"/region-taipei\">Taipei food map</a>, <a href=\"/taipei-attraction\">Taipei attractions</a>, the <a href=\"/region-jiufen\">Yehliu–Shifen–Jiufen food map</a> and <a href=\"/jiufen-street_food-720\">Shifen sausage</a>."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 29 October 2026 from the official Yehliu Geopark website (hours, visitor rules, rock formation guide), a North Coast and Guanyinshan National Scenic Area notice (closure on 20 October 2025), New Taipei City's tourism page for Shifen Old Street, the official Taipei Zoo website (hours, hall closure table, suggested routes) and answers to a traveller's question on a Naver café (October 2026). Opening and closures can change with the weather — check official notices before you go. Photos: Balon Greyjoy (CC0), Ralff Nestor Nacor (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei attractions on the map",
+          "desc": "Pick kid-friendly stops and places to eat nearby before you go.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=attraction"
+        }
+      ]
+    }
+  },
   "changhua-baguashan-sky-playground-kids": {
     "heroImage": "assets/images/blog/changhua-baguashan-sky-playground-kids-1.jpg",
     "ko": {
