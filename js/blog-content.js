@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "changhua-baguashan-sky-playground-kids",
+    "image": "assets/images/blog/changhua-baguashan-sky-playground-kids-1.jpg",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "장화 여행 가이드 · 아이와 공원",
+      "title": "장화 팔괘산 하늘놀이터, 아이와 대불 보고 놀다 올까?",
+      "desc": "팔괘산 대불 바로 옆, 구름 모양 놀이기구가 있는 장화현 공원이에요. 시설 구성과 화장실·주차, 가는 방법과 한낮 더위 피하는 법을 모았어요.",
+      "meta": "장화 · 아이와 여행"
+    },
+    "en": {
+      "eyebrow": "Changhua Travel Guide · Parks with Kids",
+      "title": "Baguashan Sky Playground in Changhua: Big Buddha and a Play Stop with Kids",
+      "desc": "A cloud-themed county park right by the Baguashan Great Buddha. Facilities, toilets, parking, getting there and beating the midday heat.",
+      "meta": "Changhua · Family Travel"
+    }
+  },
+  {
     "slug": "taipei-101-observatory-ticket-nearby-eats",
     "image": "assets/images/attractions/taipei/taipei-101.webp",
     "regions": [
@@ -1448,6 +1467,323 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "changhua-baguashan-sky-playground-kids": {
+    "heroImage": "assets/images/blog/changhua-baguashan-sky-playground-kids-1.jpg",
+    "ko": {
+      "pageTitle": "장화 팔괘산 하늘놀이터 — 아이와 대불 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "장화 팔괘산 하늘놀이터는 대불 풍경구 안에 있는 장화현 공원이에요. 미끄럼틀·트램펄린·모래놀이 같은 시설과 화장실·주차, 더운 낮에 쉬어 갈 곳을 정리했어요.",
+      "ogTitle": "장화 팔괘산 하늘놀이터, 아이와 대불 보고 놀다 올까?",
+      "eyebrow": "장화 여행 가이드 · 아이와 공원",
+      "title": "장화 팔괘산 하늘놀이터, 아이와 대불 보고 놀다 올까?",
+      "dek": "대불을 보고 내려오는 길에 아이가 한참 놀 수 있는 곳 — 시설과 쉬어 갈 곳을 먼저 알고 가면 편해요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "장화 · 아이와 여행",
+      "intro": "장화 팔괘산 하늘놀이터(八卦山天空遊戲場)는 팔괘산 대불 풍경구 안, 옛 민족신촌(民族新村) 자리에 장화현이 만든 공원이에요. 2025년 10월 10일부터 시범 운영을 시작했고, 구름을 주제로 한 곡선형 놀이기구가 이어져 있어요. 아이와 대불을 보고 놀이터까지 들르는 일정을 생각한다면 무엇이 있고 언제 가면 편한지 장화현 공식 안내를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 장화 팔괘산 하늘놀이터, 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "내용 (2026년 10월 기준)"
+          ],
+          "rows": [
+            {
+              "label": "위치",
+              "values": [
+                "장화시 卦山路 8-1호 일대, 팔괘산 대불 풍경구 안"
+              ]
+            },
+            {
+              "label": "개방시간",
+              "values": [
+                "장화현 공원 안내에 '全天(종일)'로 적혀 있어요"
+              ]
+            },
+            {
+              "label": "어린이 시설",
+              "values": [
+                "모래놀이장, 미끄럼틀, 클라이밍 네트, 트램펄린, 그네"
+              ]
+            },
+            {
+              "label": "함께 노는 시설",
+              "values": [
+                "새둥지 그네, 휠체어로 탈 수 있는 회전판, 클라이밍 프레임"
+              ]
+            },
+            {
+              "label": "화장실",
+              "values": [
+                "일반 3칸, 장애인 화장실 1칸, 가족(친자) 화장실은 없어요"
+              ]
+            },
+            {
+              "label": "주차",
+              "values": [
+                "49면, 장애인 주차 2면"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "장화현은 이곳을 <b>아이부터 어르신, 휠체어 이용자까지 함께 노는 '전 연령 공융(共融) 공원'</b>으로 소개해요. 구름 미끄럼틀과 떠 있는 줄그물, 무장애 모래놀이장, 부모와 함께 타는 그네 구역, 잔디밭이 있고 밤에는 조명이 켜지도록 설계했다고 해요. 개장 때 장화현 발표에는 물놀이 구역과 그늘 정자, 선베드도 함께 소개됐어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/changhua-baguashan-sky-playground-kids-1.jpg",
+          "caption": "팔괘산 대불 풍경구의 대불과 광장 모습이에요. 놀이터 자체 사진은 아니에요(사진: Ralff Nestor Nacor / Wikimedia Commons, CC BY-SA 4.0, 2024년 10월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 팔괘산 놀이터 가기 전에 알아둘 점"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "한낮은 덥다",
+              "desc": "원글 여행자도 한낮에는 걷기 힘들 만큼 덥다고 했어요. 오전이나 해 질 무렵에 가고, 모자와 갈아입을 옷을 챙기면 편해요."
+            },
+            {
+              "mark": "✓",
+              "b": "쉬어 갈 곳은 관광안내소",
+              "desc": "대불 구역 근처에 참산 국가풍경구의 팔괘산맥 생태 관광안내소(卦山路 13-7호)가 있어요. 안내 기준 매일 08:30~17:30(2026년 10월 기준)이고, 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "평일이 한산한 편",
+              "desc": "원글에서는 평일에 사람이 적어 여유롭게 놀았다고 했어요. 주말에는 붐빌 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "가족 화장실은 없어요",
+              "desc": "공원 안내에 가족(친자) 화장실은 없다고 적혀 있어요. 기저귀를 갈아야 하는 아이라면 미리 준비해 두세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 장화역에서 팔괘산 하늘놀이터 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "타이중에서 장화역까지",
+              "desc": "타이중역에서 타이완철도(TRA) 남쪽 방향 일반열차를 타면 장화역에 내릴 수 있어요. 시간표와 요금은 방문 전 공식 안내를 확인하세요."
+            },
+            {
+              "mark": "2",
+              "b": "장화역에서 택시·우버",
+              "desc": "놀이터는 장화역에서 지도상 직선으로 약 1.3km지만 오르막이에요. 원글 여행자도 우버로 오가는 게 편했다고 했어요."
+            },
+            {
+              "mark": "3",
+              "b": "차로 간다면",
+              "desc": "공원 주차장이 49면이고, 대불 풍경구에도 주차장이 따로 있어요. 요금은 방문 전 공식 안내를 확인하세요."
+            },
+            {
+              "mark": "4",
+              "b": "천공보도(天空步道)와 묶기",
+              "desc": "놀이터 옆으로 팔괘산 천공보도 2기 구간이 이어져 있어요. 1기 구간은 2026년 3~8월 보수 공사로 닫혔던 적이 있으니 방문 전 장화현 공고를 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/changhua-baguashan-sky-playground-kids-2.jpg",
+          "caption": "팔괘산 대불 풍경구 안의 산책로 모습이에요. 놀이터와는 다른 구역이에요(사진: 阿道 / Wikimedia Commons, CC BY-SA 4.0, 2023년 6월)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 대불과 놀이터, 아이와 도는 순서"
+        },
+        {
+          "type": "p",
+          "html": "놀이터와 대불이 같은 풍경구 안에 있어서, 시원한 오전에 대불을 먼저 보고 내려와 놀이터에서 노는 순서가 무난해요. 더워지면 관광안내소에서 쉬었다가 택시로 장화역이나 시내 식당으로 이동하면 돼요. 젖은 옷을 갈아입힐 수 있게 수건과 여벌 옷을 챙기면 물놀이 구역에서도 편해요."
+        },
+        {
+          "type": "p",
+          "html": "장화까지 가는 길이 고민이라면 타이중에서 일반열차를 타는 방법은 <a href=\"/blog-taichung-tainan-tra-vs-thsr\">타이중 타이난 이동, 고속철보다 일반열차가 나을 때는?</a>을, 같은 장화현의 루강으로 이어 가려면 <a href=\"/blog-taichung-lukang-bus-9018\">타이중 루강 버스 9018</a> 글을 참고하세요. 놀고 나서 갈 식당은 <a href=\"/region-taichung\">타이중 맛집 지도</a>와 <a href=\"/taichung-attractions\">타이중 꼭 가볼 곳</a>에서 고르고, 더위를 식히기 좋은 <a href=\"/taichung-shaved_ice\">타이중 빙수 맛집</a> 중 <a href=\"/taichung-shaved_ice-minimal-839\">MINIMAL</a> 상세 페이지도 함께 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 장화현 공원 안내 '樂遊彰化公園'의 八卦山天空遊戲場 페이지와 장화현 城市暨觀光發展處 소개글, 개장 당시 중앙통신사 보도(2025년 10월 9일), 참산 국가풍경구 관리처의 관광안내소 안내, 네이버 카페 여행자 원글(2026년 10월)을 바탕으로 2026년 10월 28일에 정리했어요. 시설과 개방 여부는 바뀔 수 있으니 방문 전 장화현 공고를 확인하세요. 사진: Ralff Nestor Nacor(CC BY-SA 4.0), 阿道(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중 맛집도 찜해두세요",
+          "desc": "장화에서 놀고 타이중으로 돌아와 먹을 곳을 지도에서 미리 골라 보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung&cat=shaved_ice"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Baguashan Sky Playground, Changhua — with Kids · My Secret Taiwan Eats",
+      "metaDescription": "Baguashan Sky Playground sits in Changhua's Great Buddha Scenic Area. Slides, trampolines, sand play, toilets, parking and where to cool off on a hot day.",
+      "ogTitle": "Baguashan Sky Playground in Changhua: Big Buddha and a Play Stop with Kids",
+      "eyebrow": "Changhua Travel Guide · Parks with Kids",
+      "title": "Baguashan Sky Playground in Changhua: Big Buddha and a Play Stop with Kids",
+      "dek": "A place for kids to burn off energy after seeing the Great Buddha — know the facilities and where to cool off before you go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Changhua · Family Travel",
+      "intro": "Baguashan Sky Playground (八卦山天空遊戲場) is a Changhua County park built on the former Minzu New Village (民族新村) site inside the Baguashan Great Buddha Scenic Area. Trial operation began on 10 October 2025, and its curving play structures follow a cloud theme. If you're planning to see the Great Buddha and stop at the playground with kids, here's what's there and when it's easiest to go, based on Changhua County's official information as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Baguashan Sky Playground at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Details (as of Oct 2026)"
+          ],
+          "rows": [
+            {
+              "label": "Location",
+              "values": [
+                "Around No. 8-1, Guashan Rd (卦山路), Changhua City, inside the Great Buddha Scenic Area"
+              ]
+            },
+            {
+              "label": "Opening",
+              "values": [
+                "Listed as '全天' (all day) on the county park guide"
+              ]
+            },
+            {
+              "label": "Children's play",
+              "values": [
+                "Sandpit, slides, climbing net, trampolines, swings"
+              ]
+            },
+            {
+              "label": "Inclusive play",
+              "values": [
+                "Bird's-nest swing, wheelchair-accessible spinner, climbing frame"
+              ]
+            },
+            {
+              "label": "Toilets",
+              "values": [
+                "3 toilets, 1 accessible toilet, no family toilet"
+              ]
+            },
+            {
+              "label": "Parking",
+              "values": [
+                "49 spaces, 2 accessible spaces"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The county describes it as <b>an all-ages inclusive park for children, older people and wheelchair users alike</b>. There's a cloud slide, floating rope nets, an accessible sandpit, a parent-and-child swing area and a lawn, with lighting designed for the evening. At the opening, the county also listed a water-play area, shaded pavilions and loungers."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/changhua-baguashan-sky-playground-kids-1.jpg",
+          "caption": "The Great Buddha and plaza in the Baguashan Great Buddha Scenic Area — not a photo of the playground itself (photo: Ralff Nestor Nacor / Wikimedia Commons, CC BY-SA 4.0, October 2024)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Before you go to the Baguashan playground"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Midday is hot",
+              "desc": "The original traveller's post says it gets too hot to walk around at midday. Go in the morning or near sunset, and bring a hat and a change of clothes."
+            },
+            {
+              "mark": "✓",
+              "b": "Cool off at the visitor centre",
+              "desc": "The Tri-Mountain National Scenic Area's Bagua Mountain Ecological Visitor Center (No. 13-7, Guashan Rd) is near the Buddha area, listed as open daily 08:30–17:30 (as of Oct 2026). Check the current opening hours on Google Maps before you go."
+            },
+            {
+              "mark": "✓",
+              "b": "Weekdays are quieter",
+              "desc": "The original post says it was uncrowded on a weekday. Weekends can be busier."
+            },
+            {
+              "mark": "✓",
+              "b": "No family toilet",
+              "desc": "The park guide lists no family toilet, so plan ahead if your child still needs nappy changes."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting to Baguashan Sky Playground from Changhua Station"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Taichung to Changhua",
+              "desc": "Southbound Taiwan Railway (TRA) local trains from Taichung Station stop at Changhua Station. Check the official timetable and fares before you go."
+            },
+            {
+              "mark": "2",
+              "b": "Taxi or Uber from the station",
+              "desc": "The playground is about 1.3 km from Changhua Station in a straight line on the map, but it's uphill. The original traveller found Uber the easiest way there and back."
+            },
+            {
+              "mark": "3",
+              "b": "By car",
+              "desc": "The park has 49 parking spaces, and the Great Buddha area has its own car parks. Check the official information for fees."
+            },
+            {
+              "mark": "4",
+              "b": "Combine with the Sky Walk (天空步道)",
+              "desc": "Phase 2 of the Baguashan Sky Walk runs next to the playground. Phase 1 was closed for repairs from March to August 2026, so check Changhua County notices before you go."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/changhua-baguashan-sky-playground-kids-2.jpg",
+          "caption": "A walkway inside the Baguashan Great Buddha Scenic Area, a different part of the area from the playground (photo: 阿道 / Wikimedia Commons, CC BY-SA 4.0, June 2023)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Buddha and playground: an easy order with kids"
+        },
+        {
+          "type": "p",
+          "html": "Since the playground and the Great Buddha are in the same scenic area, an easy plan is to see the Buddha in the cooler morning, then head down to the playground. When it heats up, rest at the visitor centre and take a taxi to Changhua Station or a restaurant in town. A towel and spare clothes help if the kids head for the water-play area."
+        },
+        {
+          "type": "p",
+          "html": "To get to Changhua, see <a href=\"/blog-taichung-tainan-tra-vs-thsr\">Taichung to Tainan: when local trains beat the HSR</a>, and if you continue to Lukang in the same county, read <a href=\"/blog-taichung-lukang-bus-9018\">Taichung to Lukang bus 9018</a>. For a meal afterwards, browse the <a href=\"/region-taichung\">Taichung food map</a> and <a href=\"/taichung-attractions\">top things to see in Taichung</a>, and cool off with <a href=\"/taichung-shaved_ice\">shaved ice in Taichung</a> such as <a href=\"/taichung-shaved_ice-minimal-839\">MINIMAL</a>."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 28 October 2026 from Changhua County's park guide (樂遊彰化公園) page for 八卦山天空遊戲場, the county Urban and Tourism Development Department's introduction, the Central News Agency report at the opening (9 October 2025), the Tri-Mountain National Scenic Area visitor centre page and a traveller's post on a Naver café (October 2026). Facilities and access can change — check Changhua County notices before you go. Photos: Ralff Nestor Nacor (CC BY-SA 4.0), 阿道 (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Pin Taichung eats on the map",
+          "desc": "Pick places to eat when you head back to Taichung after Changhua.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung&cat=shaved_ice"
+        }
+      ]
+    }
+  },
   "taipei-101-observatory-ticket-nearby-eats": {
     "heroImage": "assets/images/attractions/taipei/taipei-101.webp",
     "ko": {
