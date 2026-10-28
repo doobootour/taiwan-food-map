@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-restaurant-corkage-byob-ask-first",
+    "image": "assets/images/blog/taiwan-restaurant-corkage-byob-ask-first-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 식당·술",
+      "title": "대만 식당 콜키지, 술 가져가기 전에 뭘 물어볼까?",
+      "desc": "편의점 술을 들고 가도 되는 식당이 많지만, 병마다 콜키지를 받는 곳도 있어요. 예약 안내에서 볼 곳과 현장에서 물어볼 중국어 문장을 모았어요.",
+      "meta": "대만 전역 · 식당 가이드"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Dining & Drinks",
+      "title": "Corkage in Taiwan Restaurants: What to Ask Before You Bring Your Own Drinks",
+      "desc": "Many places are relaxed about BYOB, but some charge corkage per bottle. Where to check booking notes and the Chinese phrases to ask on the spot.",
+      "meta": "All Taiwan · Dining Guide"
+    }
+  },
+  {
     "slug": "jiufen-bus-965-sunday-queue-return-stop",
     "image": "assets/images/blog/jiufen-bus-965-sunday-queue-return-stop-1.jpg",
     "regions": [
@@ -1410,6 +1429,353 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taiwan-restaurant-corkage-byob-ask-first": {
+    "heroImage": "assets/images/blog/taiwan-restaurant-corkage-byob-ask-first-1.jpg",
+    "ko": {
+      "pageTitle": "대만 식당 콜키지 — 술 반입 전 확인 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 식당 콜키지는 가게마다 달라요. 병마다 서비스료를 받는 곳도 있으니 술을 가져가기 전에 예약 안내를 보고, 중국어 한 문장으로 먼저 물어보는 법을 정리했어요.",
+      "ogTitle": "대만 식당 콜키지, 술 가져가기 전에 뭘 물어볼까?",
+      "eyebrow": "대만 여행 가이드 · 식당·술",
+      "title": "대만 식당 콜키지, 술 가져가기 전에 뭘 물어볼까?",
+      "dek": "\"술 가져가도 돼요?\" 한마디면 돼요 — 그래도 병마다 서비스료를 받는 식당이 있으니 먼저 확인하세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 전역 · 식당 가이드",
+      "intro": "대만 식당 콜키지, 따로 받을까요? 여행자 커뮤니티 답변을 보면 술을 팔지 않는 식당은 편의점에서 산 술을 가져와도 대체로 너그럽다는 의견이 많아요. 다만 식당마다 다르고, 병마다 콜키지(자체 반입 서비스료)를 받는 곳도 있다는 답변이 있어요. 실제로 타이베이의 대만 요리 체인 欣葉(신예) 일부 지점은 온라인 예약 안내에 '自備酒水服務費'를 병 단위로 적어 두었어요. 술을 가져가기 전에 무엇을 확인하고 어떻게 물어보면 좋은지 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 대만 식당 콜키지, 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "상황",
+            "알아둘 점 (2026년 10월 기준)"
+          ],
+          "rows": [
+            {
+              "label": "술을 팔지 않는 작은 식당",
+              "values": [
+                "편의점 술 반입에 너그러운 편이라는 여행자 답변이 많지만, 가게마다 달라요"
+              ]
+            },
+            {
+              "label": "예약을 받는 큰 식당·체인",
+              "values": [
+                "예약 안내에 자체 반입 서비스료(自備酒水服務費)를 적어 둔 곳이 있어요"
+              ]
+            },
+            {
+              "label": "요금 기준",
+              "values": [
+                "欣葉 일부 지점 예약 안내 기준 병마다 받고, 와인·음료와 독주의 기준이 달라요"
+              ]
+            },
+            {
+              "label": "음료도 해당될 수 있음",
+              "values": [
+                "같은 안내에 '飲料(음료)'도 함께 적혀 있어요. 술이 아닌 음료를 가져갈 때도 확인하세요"
+              ]
+            },
+            {
+              "label": "금액",
+              "values": [
+                "가게마다 다르고 바뀔 수 있어요. 방문 전 예약 페이지나 가게에 직접 확인하세요"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "핵심은 <b>'가져가도 되는지'와 '돈을 받는지'를 따로 물어보는 것</b>이에요. 반입을 허락하는 식당도 병마다 서비스료를 받을 수 있어서, 계산할 때 놀라지 않으려면 둘 다 확인하는 편이 좋아요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-restaurant-corkage-byob-ask-first-1.jpg",
+          "caption": "대만 식당 테이블 위 타이완 맥주 예시 사진이에요. 글에서 소개하는 식당의 사진이 아니에요(사진: takuma mori / Wikimedia Commons, CC BY 2.0, 2009년 12월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 콜키지 있는지 미리 확인하는 곳"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "온라인 예약 페이지의 안내문",
+              "desc": "TableCheck 같은 예약 페이지에는 가게가 직접 쓴 안내문이 붙어 있어요. '自備酒水', '開瓶費'라는 단어가 있는지 찾아보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "예약 메모란에 적기",
+              "desc": "예약할 때 메모란에 술을 몇 병 가져갈 예정인지 적어 두면, 가게가 안 된다거나 요금이 있다고 미리 알려줄 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "예약 없는 가게는 들어가서 바로",
+              "desc": "작은 식당은 앉기 전에 카운터에서 병을 보여주며 물어보면 돼요. 거절하면 가게 안에서 파는 술을 주문하면 돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "훠궈·뷔페는 따로 확인",
+              "desc": "코스나 무제한 음료가 있는 가게는 반입 규칙이 다를 수 있어요. 메뉴판이나 예약 안내를 먼저 보세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 술 반입 전에 쓰는 중국어 한 문장"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "請問可以自己帶酒嗎？",
+              "desc": "칭원 커이 쯔지 다이 지우 마? — \"술을 가져와도 될까요?\""
+            },
+            {
+              "mark": "2",
+              "b": "有收開瓶費嗎？",
+              "desc": "여우 서우 카이핑페이 마? — \"콜키지(병 따는 비용)를 받나요?\""
+            },
+            {
+              "mark": "3",
+              "b": "一瓶多少？",
+              "desc": "이 핑 둬사오? — \"한 병에 얼마예요?\" 요금이 있다고 하면 이어서 물어보세요."
+            },
+            {
+              "mark": "4",
+              "b": "可以給我們杯子嗎？",
+              "desc": "커이 게이 워먼 베이쯔 마? — \"컵 좀 주실 수 있나요?\" 반입이 된다면 컵을 따로 부탁하면 돼요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-restaurant-corkage-byob-ask-first-2.jpg",
+          "caption": "두부 요리와 타이완 맥주 병을 함께 놓은 예시 사진이에요. 특정 식당을 소개하는 사진이 아니에요(사진: Lirrel boyman / Wikimedia Commons, CC BY-SA 4.0, 2023년 4월)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 대만 식당에 술 가져갈 때 매너"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "허락을 먼저, 병은 나중에",
+              "desc": "묻기 전에 병부터 따지 마세요. 여행자 답변에서도 가게마다 다르니 먼저 양해를 구하라는 의견이 많았어요."
+            },
+            {
+              "mark": "✓",
+              "b": "가게 술도 하나쯤 주문",
+              "desc": "가게에서 술을 판다면, 가져간 술만 마시기보다 맥주 한 병이라도 함께 시키면 분위기가 한결 편해요."
+            },
+            {
+              "mark": "✓",
+              "b": "빈 병은 정리해서",
+              "desc": "다 마신 병은 테이블 한쪽에 모아 두거나 직원에게 어떻게 버리면 되는지 물어보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "영업시간 확인",
+              "desc": "늦게까지 마실 생각이라면 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "식당에서 술을 주문할 때의 매너와 미니어처 술 선물, 한국 입국 면세 한도는 <a href=\"/blog-taiwan-alcohol-restaurant-byob-mini-liquor\">대만 식당 술, 가져가도 될까?</a> 글에 따로 정리해 두었어요. 술을 사 갈 곳은 <a href=\"/category-liquor_shop\">대만 주류샵 모음</a>과 타이중의 <a href=\"/taichung-liquor_shop-731\">성태양주(星泰洋酒)</a> 상세 페이지를 참고하세요. 술과 잘 어울리는 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>, <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a>, <a href=\"/taipei-hotpot\">타이베이 훠궈 맛집</a>에서 고르고, <a href=\"/taipei-taiwanese-sixty-years-of-dining-88\">Sixty Years of Dining</a>처럼 상세 페이지에서 위치를 확인한 뒤 가게에 직접 물어보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 네이버 카페 여행자 Q&A 답변(2026년 10월)과 欣葉台菜 創始店·忠孝店, 欣葉·鐘菜의 TableCheck 예약 안내문(2026년 10월 28일 확인)을 바탕으로 정리했어요. 콜키지 여부와 금액은 가게마다 다르고 바뀔 수 있으니 방문 전 예약 페이지나 가게에 직접 확인하세요. 사진: takuma mori(CC BY 2.0), Lirrel boyman(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 대만 맛집을 찾아보세요",
+          "desc": "술과 함께하기 좋은 식당을 지도에 찜해두고, 가기 전에 반입 여부를 물어보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Corkage in Taiwan Restaurants — What to Ask · My Secret Taiwan Eats",
+      "metaDescription": "Corkage rules in Taiwan vary by restaurant, and some charge per bottle. Check the booking notes and ask with one simple Chinese phrase before you bring your own.",
+      "ogTitle": "Corkage in Taiwan Restaurants: What to Ask Before You Bring Your Own Drinks",
+      "eyebrow": "Taiwan Travel Guide · Dining & Drinks",
+      "title": "Corkage in Taiwan Restaurants: What to Ask Before You Bring Your Own Drinks",
+      "dek": "\"Can I bring my own?\" is usually all it takes — but some restaurants charge per bottle, so ask first.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "All Taiwan · Dining Guide",
+      "intro": "Do restaurants in Taiwan charge corkage? Answers in a travellers' forum say that places that don't sell alcohol are usually relaxed about drinks bought at a convenience store. But it varies, and some answers mention restaurants that charge corkage per bottle. Some branches of the Taipei Taiwanese restaurant chain Shin Yeh (欣葉), for example, list a per-bottle '自備酒水服務費' (BYO service charge) in their online booking notes. Here's what to check and how to ask before you bring your own, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Corkage in Taiwan at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Situation",
+            "What to know (as of Oct 2026)"
+          ],
+          "rows": [
+            {
+              "label": "Small places that don't sell alcohol",
+              "values": [
+                "Travellers say they're usually relaxed about BYOB, but it varies"
+              ]
+            },
+            {
+              "label": "Larger restaurants and chains that take bookings",
+              "values": [
+                "Some list a BYO service charge (自備酒水服務費) in their booking notes"
+              ]
+            },
+            {
+              "label": "How it's charged",
+              "values": [
+                "Per Shin Yeh branch booking notes: per bottle, with different rates for wine/drinks and spirits"
+              ]
+            },
+            {
+              "label": "Soft drinks may count too",
+              "values": [
+                "The same notes list '飲料' (beverages) — check if you bring non-alcoholic drinks"
+              ]
+            },
+            {
+              "label": "Amount",
+              "values": [
+                "Varies by restaurant and can change — check the booking page or ask the restaurant"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The key is to <b>ask two separate questions: can I bring it, and is there a charge</b>. A restaurant that allows BYOB may still charge per bottle, so check both to avoid a surprise on the bill."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-restaurant-corkage-byob-ask-first-1.jpg",
+          "caption": "An example photo of Taiwan Beer on a restaurant table in Taiwan, not a photo of any restaurant mentioned here (photo: takuma mori / Wikimedia Commons, CC BY 2.0, December 2009)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Where to check for corkage in advance"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Notes on the online booking page",
+              "desc": "Booking pages such as TableCheck show notes written by the restaurant. Look for '自備酒水' or '開瓶費'."
+            },
+            {
+              "mark": "✓",
+              "b": "Use the booking remarks",
+              "desc": "Mention how many bottles you plan to bring in the remarks field, so the restaurant can tell you in advance if it's not allowed or there's a fee."
+            },
+            {
+              "mark": "✓",
+              "b": "No booking? Ask at the counter",
+              "desc": "At small eateries, show the bottle at the counter and ask before you sit down. If they say no, order from their drinks list instead."
+            },
+            {
+              "mark": "✓",
+              "b": "Hot pot and buffets may differ",
+              "desc": "Places with set courses or free-flow drinks can have different rules. Check the menu or booking notes first."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · One Chinese phrase before you bring your own"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "請問可以自己帶酒嗎？",
+              "desc": "Qǐngwèn kěyǐ zìjǐ dài jiǔ ma? — \"May we bring our own alcohol?\""
+            },
+            {
+              "mark": "2",
+              "b": "有收開瓶費嗎？",
+              "desc": "Yǒu shōu kāipíng fèi ma? — \"Is there a corkage fee?\""
+            },
+            {
+              "mark": "3",
+              "b": "一瓶多少？",
+              "desc": "Yì píng duōshǎo? — \"How much per bottle?\" Ask this if they say there's a fee."
+            },
+            {
+              "mark": "4",
+              "b": "可以給我們杯子嗎？",
+              "desc": "Kěyǐ gěi wǒmen bēizi ma? — \"Could we have some glasses?\""
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-restaurant-corkage-byob-ask-first-2.jpg",
+          "caption": "An example photo of a tofu dish next to a bottle of Taiwan Beer, not a photo of a restaurant we recommend (photo: Lirrel boyman / Wikimedia Commons, CC BY-SA 4.0, April 2023)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Etiquette when you bring drinks"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Ask first, open later",
+              "desc": "Don't open a bottle before asking. Travellers' answers also stress that it varies, so ask politely first."
+            },
+            {
+              "mark": "✓",
+              "b": "Order something from the house",
+              "desc": "If the restaurant sells drinks, ordering at least a beer alongside yours keeps things friendly."
+            },
+            {
+              "mark": "✓",
+              "b": "Tidy up empty bottles",
+              "desc": "Keep empties to one side of the table or ask staff where to put them."
+            },
+            {
+              "mark": "✓",
+              "b": "Check closing time",
+              "desc": "If you plan a long night, check the current opening hours on Google Maps before you go."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For drinking etiquette when ordering, mini liquor souvenirs and Korea's duty-free allowance, see <a href=\"/blog-taiwan-alcohol-restaurant-byob-mini-liquor\">Drinking in Taiwan restaurants</a>. To buy bottles, browse <a href=\"/category-liquor_shop\">liquor shops in Taiwan</a> and the detail page for <a href=\"/taichung-liquor_shop-731\">Xingtai Liquor (星泰洋酒)</a> in Taichung. For places to eat, try the <a href=\"/region-taipei\">Taipei food map</a>, <a href=\"/taipei-taiwanese\">Taiwanese food in Taipei</a> and <a href=\"/taipei-hotpot\">Taipei hot pot</a>, check a detail page such as <a href=\"/taipei-taiwanese-sixty-years-of-dining-88\">Sixty Years of Dining</a>, then ask the restaurant directly."
+        },
+        {
+          "type": "note",
+          "text": "Based on travellers' Q&A answers on a Naver café (October 2026) and the TableCheck booking notes of Shin Yeh's original restaurant, Zhongxiao branch and Shin Yeh Taiwanese Signature (checked 28 October 2026). Corkage rules and fees vary by restaurant and can change — check the booking page or ask the restaurant before you go. Photos: takuma mori (CC BY 2.0), Lirrel boyman (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taiwan restaurants on the map",
+          "desc": "Pin places that go well with a drink, then ask about BYOB before you go.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
+  },
   "jiufen-bus-965-sunday-queue-return-stop": {
     "heroImage": "assets/images/blog/jiufen-bus-965-sunday-queue-return-stop-1.jpg",
     "ko": {
