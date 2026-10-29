@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kaohsiung-love-river-cruise-consulate",
+    "image": "assets/images/blog/kaohsiung-love-river-cruise-consulate-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 야경·노을",
+      "title": "가오슝 아이허 유람선, 영국영사관 노을과 하루에 묶을까?",
+      "desc": "다가오 영국영사관에서 노을을 보고 아이허 유람선으로 야경까지 이어 가는 저녁 코스예요. 운항·개방 시간, 수요일 휴관, 날씨 변수까지 담았어요.",
+      "meta": "가오슝 · 야경·노을"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Sunset & Night Views",
+      "title": "Kaohsiung Love River Cruise and Takao Consulate Sunset in One Evening",
+      "desc": "An evening route from sunset at the British Consulate at Takao to a Love River night cruise, with hours, the Wednesday closure and weather tips.",
+      "meta": "Kaohsiung · Sunset & Night Views"
+    }
+  },
+  {
     "slug": "taipei-yehliu-tour-vs-zoo-kids",
     "image": "assets/images/blog/taipei-yehliu-tour-vs-zoo-kids-1.jpg",
     "regions": [
@@ -1487,6 +1506,397 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kaohsiung-love-river-cruise-consulate": {
+    "heroImage": "assets/images/blog/kaohsiung-love-river-cruise-consulate-1.jpg",
+    "ko": {
+      "pageTitle": "가오슝 아이허 유람선·영국영사관 노을 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 아이허 유람선은 언제 타고, 영국영사관 노을은 몇 시까지 볼 수 있을까요? 운항·개방 시간과 휴관일, 저녁 동선을 공식 안내로 정리했어요.",
+      "ogTitle": "가오슝 아이허 유람선, 영국영사관 노을과 하루에 묶을까?",
+      "eyebrow": "가오슝 여행 가이드 · 야경·노을",
+      "title": "가오슝 아이허 유람선, 영국영사관 노을과 하루에 묶을까?",
+      "dek": "언덕 위 붉은 벽돌 영사관에서 해 지는 걸 보고, 강 위에서 야경으로 마무리하는 가오슝 저녁 코스예요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 야경·노을",
+      "intro": "가오슝 아이허 유람선과 다가오(打狗) 영국영사관 노을, 하루 저녁에 둘 다 볼 수 있을까요? 영사관은 서쪽 바다가 보이는 시쯔완(西子灣) 언덕에 있고, 아이허(愛河) 유람선은 오후 3시부터 밤까지 다녀서 순서만 잘 잡으면 충분히 이어집니다. 애지선 사업을 맡고 있는 가오슝시 윤선공사와 영사관을 관리하는 가오슝시 문화국의 공식 안내를 바탕으로, 2026년 10월 기준 시간과 휴관일, 동선을 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 아이허 유람선 vs 영국영사관, 한눈에 비교"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "아이허 유람선 (愛之船)",
+            "다가오 영국영사관 문화원구"
+          ],
+          "rows": [
+            {
+              "label": "위치",
+              "values": [
+                "국빈 승선장(愛河國賓站), 前金區 河東路176號 맞은편",
+                "鼓山區 蓮海路20號, 시쯔완 언덕"
+              ]
+            },
+            {
+              "label": "운영 (2026년 10월 기준)",
+              "values": [
+                "15:00~22:00",
+                "월·화·목·금 10:00~19:00, 토·일·공휴일 09:00~19:00"
+              ]
+            },
+            {
+              "label": "마감",
+              "values": [
+                "운항 간격은 현장 상황에 따라 조정돼요",
+                "매표·입장 18:30 마감"
+              ]
+            },
+            {
+              "label": "쉬는 날",
+              "values": [
+                "태풍 등 기상 악화 때 운항 중지, 음력 섣달그믐 휴무(2026년 공지)",
+                "매주 수요일(공휴일이면 개방), 기상으로 정시 휴무 발표 시"
+              ]
+            },
+            {
+              "label": "걸리는 시간",
+              "values": [
+                "한 바퀴 약 25분",
+                "관저·사무실·오솔길까지 여유 있게"
+              ]
+            },
+            {
+              "label": "요금",
+              "values": [
+                "요금은 방문 전 공식 안내를 확인하세요",
+                "요금은 방문 전 공식 안내를 확인하세요"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "두 곳을 묶을 때 핵심은 <b>영사관 입장 마감(18:30)</b>이에요. 노을은 영사관에서, 야경은 유람선에서 보는 순서로 잡으면 시간이 자연스럽게 이어집니다. 영사관이 쉬는 <b>수요일만 피하면</b> 평일·주말 모두 가능해요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-love-river-cruise-consulate-1.jpg",
+          "caption": "해 질 무렵의 아이허(愛河) 풍경이에요. 강변 산책로와 다리 조명이 켜지기 시작하는 시간대예요(사진: David Stanley / Wikimedia Commons, CC BY 2.0, 2017년 11월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 다가오 영국영사관 노을, 이렇게 보세요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "18:30 전에 들어가기",
+              "desc": "폐관은 19:00지만 매표와 입장은 18:30에 끝나요. 해 지는 시각이 늦은 여름에는 입장 마감과 겹칠 수 있으니 일찍 들어가 두는 편이 안전해요."
+            },
+            {
+              "mark": "✓",
+              "b": "해 지는 시각은 미리 확인",
+              "desc": "일몰 시각은 계절마다 달라요. 중앙기상서(CWA)의 일출·일몰 표에서 가오슝 시각을 보고, 그보다 30분쯤 먼저 도착하면 여유 있게 자리를 잡을 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "수요일은 휴관",
+              "desc": "매주 수요일은 고적 유지보수로 문을 닫아요. 수요일이 공휴일이면 개방하고, 태풍 등으로 가오슝시가 출근·등교 중지를 발표한 날은 휴관이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "MRT 하마싱역 2번 출구에서 출발",
+              "desc": "MRT 오렌지선 하마싱역(哈瑪星, 옛 시쯔완역) 2번 출구에서 셔틀버스 橘1을 타고 雄鎮北門·西子灣 정류장에서 내리거나, 哨船街를 따라 걸어 蓮海路로 올라가면 돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "언덕 위 관저도 다시 열렸어요",
+              "desc": "문화원구 공지에 따르면 언덕 위 관저(山上官邸) 수리가 끝나 2026년 7월부터 정상 운영 중이에요. 아래 사무실과 관저는 옛 오솔길(登山古道)로 이어져 있어 계단을 조금 오르게 됩니다."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "영사관은 노을 보기 좋지만 해 질 무렵엔 모기가 많으니 기피제를 챙기라는 이야기가 있어요. — 영사관에 다녀온 여행자 글을 요약했어요"
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-love-river-cruise-consulate-2.jpg",
+          "caption": "다가오 영국영사관 문화원구의 붉은 벽돌 건물이에요. 언덕 위 관저와 아래 사무실이 옛 오솔길로 이어져 있어요(사진: Allervous / Wikimedia Commons, CC BY-SA 4.0, 2025년 4월)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 아이허 유람선 탈 때 알아둘 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "승선장은 국빈 승선장 한 곳",
+              "desc": "공식 안내 기준 승선 장소는 국빈호텔 근처 愛河國賓站(河東路176號 맞은편)이고, 내리는 곳도 같아요. 영사관에서 갈 때는 MRT 오렌지선을 타고 시내 쪽으로 이동한 뒤 강변으로 걸어가면 돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "한 바퀴 약 25분 왕복 코스",
+              "desc": "태양광 전기 배로 中正橋를 지나 七賢橋 앞에서 돌고, 高雄橋(五福橋)를 지나 真愛碼頭까지 갔다가 승선장으로 돌아와요. 배 한 척에 36명 또는 42명이 타요."
+            },
+            {
+              "mark": "✓",
+              "b": "보통 30분 간격, 현장 조정 있음",
+              "desc": "운영사 공지로는 오후 3시부터 30분 간격으로 다니고 예약 없이 현장에서 타요. 다만 출발 시간은 현장 상황에 따라 조정된다고 안내하고 있고, 사람이 어느 정도 모여야 출발했다는 여행자 이야기도 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "날씨 나쁜 날은 공지부터",
+              "desc": "태풍으로 가오슝시가 휴무를 발표한 날에는 하루 운항을 멈춘 적이 있어요. 임시 변경은 고웅 애지선(高雄愛之船) 페이스북 공지가 기준이라, 비바람이 있으면 출발 전에 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-love-river-cruise-consulate-3.jpg",
+          "caption": "아이허 유람선(愛之船) 국빈 승선장 매표소 건물이에요. 표 사기와 승선, 하선이 모두 이곳에서 이뤄져요(사진: Jonashtand / Wikimedia Commons, CC BY-SA 4.0, 2024년 7월)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 하루 저녁 동선 예시"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "오후: 하마싱·시쯔완",
+              "desc": "영사관 입장 마감(18:30) 전에 도착해 관저와 오솔길을 둘러보고 바다 쪽 노을을 기다려요."
+            },
+            {
+              "mark": "2",
+              "b": "해 진 뒤: MRT로 이동",
+              "desc": "하마싱역에서 MRT 오렌지선을 타고 시내 쪽으로 옮겨 가요. 저녁은 옌청(鹽埕)이나 강변 근처에서 해결하면 동선이 짧아요."
+            },
+            {
+              "mark": "3",
+              "b": "밤: 아이허 유람선",
+              "desc": "운항은 22:00까지라 저녁을 먹고 타도 시간이 남아요. 조명이 켜진 다리와 강변을 25분 동안 돌아보고 같은 승선장에서 내리면 끝이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "하마싱·보얼 쪽으로 경전철을 타고 오는 법은 <a href=\"/blog-kaohsiung-light-rail-fare-art-museum\">가오슝 경전철 타는 법</a>에, 영사관 근처 구산 선착장에서 치진섬으로 넘어가는 배는 <a href=\"/blog-kaohsiung-cijin-ferry-gushan-vs-zhongzhou\">치진섬 페리, 구산 vs 중저우</a>에 정리해 두었어요. 혼자 다니는 일정이라면 <a href=\"/blog-kaohsiung-solo-trip-budget-transport\">가오슝 혼자 여행 교통</a>도 함께 보세요. 유람선 전후로 먹을 곳은 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>와 <a href=\"/kaohsiung-attraction\">가오슝 체험·관광지</a>, 더운 날 들르기 좋은 <a href=\"/kaohsiung-shaved_ice\">가오슝 빙수 맛집</a>과 옌청 쪽 <a href=\"/kaohsiung-shaved_ice-737\">옌청 우자 금귤 또우화</a> 상세 페이지에서 고르면 돼요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 가오슝시 윤선공사(高雄市輪船股份有限公司) 공식 사이트의 애지선 안내(운영시간·승선장·항로·정원), 고웅 애지선 운영사 공지(운항 간격·섣달그믐 휴무·태풍 운항 중지), 다가오 영국영사관 문화원구 공식 사이트(개방시간·수요일 휴관·교통·2026년 7월 관저 재개방 공지), 네이버 카페 여행자 글(2026년 10월)을 바탕으로 2026년 10월 29일에 정리했어요. 운항과 개방은 날씨에 따라 바뀔 수 있으니 방문 전 공식 공지를 확인하세요. 사진: David Stanley(CC BY 2.0), Allervous(CC BY-SA 4.0), Jonashtand(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 체험·관광지도 확인해보세요",
+          "desc": "노을과 야경 사이에 들를 곳과 근처 먹을 곳을 지도에서 미리 골라 보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung&cat=attraction"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Love River Cruise & Takao Consulate Sunset · My Secret Taiwan Eats",
+      "metaDescription": "When does the Love River boat run in Kaohsiung, and how late can you catch sunset at the British Consulate at Takao? Hours, closures and an evening route.",
+      "ogTitle": "Kaohsiung Love River Cruise and Takao Consulate Sunset in One Evening",
+      "eyebrow": "Kaohsiung Travel Guide · Sunset & Night Views",
+      "title": "Kaohsiung Love River Cruise and Takao Consulate Sunset in One Evening",
+      "dek": "Watch the sun go down from a red-brick consulate on the hill, then finish with the city lights from the river.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Sunset & Night Views",
+      "intro": "Can you fit both the Love River cruise and sunset at the British Consulate at Takao (打狗) into one evening in Kaohsiung? The consulate sits on a hill above Sizihwan (西子灣) facing the sea, and the Love River (愛河) boats run from 3 pm into the night, so with the right order it works well. Based on official information from the Kaohsiung City Shipping Company, which oversees the boats, and the Kaohsiung Bureau of Cultural Affairs, which manages the consulate, here are the hours, closures and route as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Love River cruise vs British Consulate at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Love River cruise (愛之船)",
+            "British Consulate at Takao"
+          ],
+          "rows": [
+            {
+              "label": "Location",
+              "values": [
+                "Ambassador pier (愛河國賓站), opposite No. 176 Hedong Rd, Qianjin",
+                "No. 20 Lianhai Rd, Gushan, on the Sizihwan hill"
+              ]
+            },
+            {
+              "label": "Hours (as of Oct 2026)",
+              "values": [
+                "15:00–22:00",
+                "Mon/Tue/Thu/Fri 10:00–19:00; Sat/Sun/holidays 09:00–19:00"
+              ]
+            },
+            {
+              "label": "Cut-off",
+              "values": [
+                "Departure intervals may be adjusted on site",
+                "Tickets and last entry 18:30"
+              ]
+            },
+            {
+              "label": "Closures",
+              "values": [
+                "Suspended in typhoons and bad weather; closed on Lunar New Year's Eve (2026 notice)",
+                "Every Wednesday (open if a national holiday), and when the city declares a weather day off"
+              ]
+            },
+            {
+              "label": "Time needed",
+              "values": [
+                "About 25 minutes per loop",
+                "Allow time for the residence, office and old path"
+              ]
+            },
+            {
+              "label": "Fees",
+              "values": [
+                "Check the official information before you go",
+                "Check the official information before you go"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The key is the consulate's <b>last entry at 18:30</b>. Sunset at the consulate, then night views from the boat, makes the timing flow naturally. <b>Just avoid Wednesdays</b>, when the consulate is closed."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-love-river-cruise-consulate-1.jpg",
+          "caption": "The Love River (愛河) at dusk, when the riverside path and bridge lights start to come on (photo: David Stanley / Wikimedia Commons, CC BY 2.0, November 2017)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Sunset at the British Consulate at Takao"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Get in before 18:30",
+              "desc": "The site closes at 19:00, but tickets and entry stop at 18:30. In summer, when the sun sets later, this can clash with sunset, so go in early."
+            },
+            {
+              "mark": "✓",
+              "b": "Check the sunset time",
+              "desc": "Sunset varies by season. Look up Kaohsiung on the Central Weather Administration (CWA) sunrise and sunset table and arrive about 30 minutes earlier."
+            },
+            {
+              "mark": "✓",
+              "b": "Closed on Wednesdays",
+              "desc": "Every Wednesday is a maintenance day for the historic site. It opens if Wednesday is a national holiday, and it closes when Kaohsiung City declares a day off for weather such as typhoons."
+            },
+            {
+              "mark": "✓",
+              "b": "Start from MRT Hamasen Exit 2",
+              "desc": "From Exit 2 of MRT Orange Line Hamasen (哈瑪星, formerly Sizihwan) station, take shuttle bus Orange 1 (橘1) to Xiongzhen North Gate or Sizihwan, or walk along Shaochuan St up to Lianhai Rd."
+            },
+            {
+              "mark": "✓",
+              "b": "The hilltop residence has reopened",
+              "desc": "According to the park's notice, repairs on the hilltop residence (山上官邸) finished and it has been fully open since July 2026. The office below and the residence are linked by an old path with some steps."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "The consulate is great for sunset, but mosquitoes come out around dusk, so bring repellent. — summarised from a traveller's post about the consulate"
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-love-river-cruise-consulate-2.jpg",
+          "caption": "Red-brick buildings at the British Consulate at Takao cultural park; the hilltop residence and the office below are linked by an old path (photo: Allervous / Wikimedia Commons, CC BY-SA 4.0, April 2025)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Riding the Love River boat"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "One pier: Ambassador",
+              "desc": "Officially, boarding is at 愛河國賓站 near the Ambassador Hotel (opposite No. 176 Hedong Rd), and you get off at the same place. From the consulate, take the MRT Orange Line towards the city and walk to the riverside."
+            },
+            {
+              "mark": "✓",
+              "b": "A 25-minute loop",
+              "desc": "The solar electric boat passes Zhongzheng Bridge, turns before Qixian Bridge, passes Kaohsiung (Wufu) Bridge to True Love Pier and returns. Each boat carries 36 or 42 people."
+            },
+            {
+              "mark": "✓",
+              "b": "Usually every 30 minutes",
+              "desc": "The operator says boats leave every 30 minutes from 3 pm with no reservation needed, but departure times are adjusted on site, and some travellers say the boat waited until enough people boarded."
+            },
+            {
+              "mark": "✓",
+              "b": "Bad weather? Check first",
+              "desc": "The boats have stopped for a full day when the city declared a typhoon day off. Temporary changes are posted on the Kaohsiung Love Boat (高雄愛之船) Facebook page, so check it if rain or wind is forecast."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-love-river-cruise-consulate-3.jpg",
+          "caption": "The Love Boat (愛之船) office at the Ambassador (國賓) pier, where you buy tickets, board and get off (photo: Jonashtand / Wikimedia Commons, CC BY-SA 4.0, July 2024)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · A sample evening"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Afternoon: Hamasen and Sizihwan",
+              "desc": "Arrive before the 18:30 last entry, explore the residence and old path, and wait for the sunset over the sea."
+            },
+            {
+              "mark": "2",
+              "b": "After sunset: move by MRT",
+              "desc": "Take the MRT Orange Line from Hamasen towards the city. Eating in Yancheng (鹽埕) or near the river keeps the route short."
+            },
+            {
+              "mark": "3",
+              "b": "Night: Love River cruise",
+              "desc": "Boats run until 22:00, so there's time after dinner. Enjoy 25 minutes of lit bridges and riverside, and get off where you boarded."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "To reach Hamasen and Pier-2 by light rail, see <a href=\"/blog-kaohsiung-light-rail-fare-art-museum\">How to ride the Kaohsiung Light Rail</a>, and for the ferry from Gushan pier near the consulate to Cijin Island, see <a href=\"/blog-kaohsiung-cijin-ferry-gushan-vs-zhongzhou\">Cijin ferry: Gushan vs Zhongzhou</a>. Travelling alone? <a href=\"/blog-kaohsiung-solo-trip-budget-transport\">Kaohsiung solo trip transport</a> may help too. For food before or after the cruise, browse the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>, <a href=\"/kaohsiung-attraction\">Kaohsiung attractions</a>, <a href=\"/kaohsiung-shaved_ice\">Kaohsiung shaved ice</a> and the <a href=\"/kaohsiung-shaved_ice-737\">Yancheng kumquat douhua</a> page."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 29 October 2026 from the Kaohsiung Shipping Company (高雄市輪船股份有限公司) official Love Boat page (hours, pier, route, capacity), notices from the Love Boat operator (intervals, Lunar New Year's Eve closure, typhoon suspension), the official British Consulate at Takao website (hours, Wednesday closure, access, July 2026 residence reopening notice) and a traveller's post on a Naver café (October 2026). Boat services and opening can change with the weather — check official notices before you go. Photos: David Stanley (CC BY 2.0), Allervous (CC BY-SA 4.0), Jonashtand (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung attractions on the map",
+          "desc": "Pick stops and places to eat between sunset and the night cruise.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung&cat=attraction"
+        }
+      ]
+    }
+  },
   "taipei-yehliu-tour-vs-zoo-kids": {
     "heroImage": "assets/images/blog/taipei-yehliu-tour-vs-zoo-kids-1.jpg",
     "ko": {
