@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "yilan-guishan-island-whale-watching-wushi-eats",
+    "image": "assets/images/attractions/yilan/guishan-island.webp",
+    "regions": [
+      "yilan"
+    ],
+    "ko": {
+      "eyebrow": "이란 여행 가이드 · 볼거리·먹거리",
+      "title": "구이산섬 고래관찰 반일투어, 우스항에 내려서 뭘 먹을까?",
+      "desc": "이란 구이산섬 고래관찰 투어 전에 알아둘 구이산섬 이야기와 시즌, 우스항에서 가는 법, 배에서 내려 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "meta": "이란 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Yilan Travel Guide · Sights & Food",
+      "title": "Guishan Island Whale Watching Half-Day Tour: What to Eat at Wushi Harbor Afterwards",
+      "desc": "About Guishan Island and the season before a whale watching tour in Yilan, how to get to Wushi Harbor, and nearby restaurants from our map for after you get off the boat.",
+      "meta": "Yilan · Sights & Food"
+    }
+  },
+  {
     "slug": "kaohsiung-love-river-cruise-consulate",
     "image": "assets/images/blog/kaohsiung-love-river-cruise-consulate-1.jpg",
     "regions": [
@@ -1506,6 +1525,281 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "yilan-guishan-island-whale-watching-wushi-eats": {
+    "heroImage": "assets/images/attractions/yilan/guishan-island.webp",
+    "ko": {
+      "pageTitle": "구이산섬 고래관찰 반일투어·우스항 맛집 — 이란 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "이란 구이산섬 고래관찰 투어 전에 알아둘 구이산섬 이야기와 시즌, 우스항에서 가는 법, 배에서 내려 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "구이산섬 고래관찰 반일투어, 우스항에 내려서 뭘 먹을까?",
+      "eyebrow": "이란 여행 가이드 · 볼거리·먹거리",
+      "title": "구이산섬 고래관찰 반일투어, 우스항에 내려서 뭘 먹을까?",
+      "dek": "배 타고 구이산섬을 돌기 전에 볼거리와 시즌을 확인하고, 우스항 근처 해산물집까지 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "이란 · 볼거리·먹거리",
+      "intro": "이란(宜蘭) 바닷가 어디서나 보이는 구이산섬(龜山島)은 배를 타고 둘레를 돌며 고래와 돌고래를 찾는 투어로 유명해요. 배가 뜨고 내리는 터우청(頭城) 우스항(烏石港) 근처에 해산물집이 모여 있어서, 배에서 내린 뒤 바로 한 끼를 먹기 좋아요. 交通部觀光署 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 구이산섬은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "바다에 떠 있는 모습이 거북(龜)을 닮아 '龜山島'라는 이름이 붙었어요. 頭城 동쪽 바다 약 10km에 떠 있는 활화산 섬이고, 이란의 상징으로 꼽혀요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/yilan/guishan-island.webp",
+          "caption": "터우청 바다 위로 보이는 구이산섬이에요(사진: Ma7ged / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 배 위에서 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "고래와 돌고래",
+              "desc": "4월부터 9월까지가 배를 타고 고래와 돌고래를 보러 나가기 좋은 때예요. 바다 생물이라 매번 보장되지는 않아요."
+            },
+            {
+              "mark": "✓",
+              "b": "龜山八景",
+              "desc": "섬 둘레를 돌며 기암과 바다 풍경 '龜山八景'을 보는 것이 대표 코스예요."
+            },
+            {
+              "mark": "✓",
+              "b": "섬 상륙은 따로",
+              "desc": "섬 위 401高地까지는 1,706개 계단이 이어져요. 상륙 여부는 상품마다 다르니 상품 페이지를 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "우스항에서 출발",
+              "desc": "배는 頭城 烏石港에서 떠요."
+            },
+            {
+              "mark": "2",
+              "b": "투어 확인",
+              "desc": "일정, 포함 사항, 출발 장소와 시간은 상품 옵션마다 달라요. 예약 전에 클룩 상품 페이지에서 꼭 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10737-turtle-island-whale-watching-tour-yilan%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 구이산섬 고래관찰 투어 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 배에서 내려 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "우스항 바로 앞 0.2~0.5km에 해산물집 두 곳이 있고, 나머지는 2km 안팎의 터우청 쪽이에요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/yilan-seafood-106\">小豪海鮮</a> · 해산물 · 서쪽 약 0.2km",
+              "desc": "지도에 해산물(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/yilan-seafood-146\">石港春帆精緻海鮮餐廳</a> · 해산물 · 북쪽 약 0.5km",
+              "desc": "지도에 해산물(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/yilan-shaved_ice-105\">阿宗芋冰城</a> · 빙수 · 남서쪽 약 1.7km",
+              "desc": "지도에 빙수(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/yilan-pizza-drifters-pizza-pub-697\">Drifters Pizza Pub 漂流者披薩吧</a> · 피자 · 남서쪽 약 1.8km",
+              "desc": "지도 메모: 매우 기억에 남는 피자펍이라며 꼭 방문해 보라고 추천."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/yilan-noodle-117\">阿茂麵攤</a> · 국수 · 남서쪽 약 2.1km",
+              "desc": "지도에 국수(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/yilan-beef_noodle-longji-beef-noodle-restaurant-128\">Longji Beef Noodle Restaurant</a> · 우육면 · 남서쪽 약 2.2km",
+              "desc": "지도에 우육면(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/yilan-pasta-kanea-137\">Kanea廚房-餐酒小館</a> · 파스타 · 남서쪽 약 2.2km",
+              "desc": "지도에 파스타(으)로 등록된 곳이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 交通部觀光署의 龜山島 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 투어 일정과 요금, 출항 여부는 클룩 상품 페이지를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Ma7ged, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 이란 맛집도 확인해보세요",
+          "desc": "투어 앞뒤로 들를 이란 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=yilan"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Guishan Island Whale Watching Half-Day Tour & Wushi Harbor Eats — Yilan · My Secret Taiwan Eats",
+      "metaDescription": "About Guishan Island and the season before a whale watching tour in Yilan, how to get to Wushi Harbor, and nearby restaurants from our map for after you get off the boat.",
+      "ogTitle": "Guishan Island Whale Watching Half-Day Tour: What to Eat at Wushi Harbor Afterwards",
+      "eyebrow": "Yilan Travel Guide · Sights & Food",
+      "title": "Guishan Island Whale Watching Half-Day Tour: What to Eat at Wushi Harbor Afterwards",
+      "dek": "Before circling Guishan Island by boat, check what to see and the season, plus seafood spots near Wushi Harbor.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Yilan · Sights & Food",
+      "intro": "Guishan Island (龜山島), visible from almost anywhere on the Yilan (宜蘭) coast, is known for boat tours that circle the island looking for whales and dolphins. Seafood restaurants cluster near Wushi Harbor (烏石港) in Toucheng (頭城), where the boats depart and return, so it's easy to eat right after you get off. Based on 交通部觀光署 information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is Guishan Island?"
+        },
+        {
+          "type": "p",
+          "html": "It's named '龜山島' because it looks like a turtle (龜) floating on the sea. It's an active volcanic island about 10 km off the coast east of 頭城, and is considered a symbol of Yilan."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/yilan/guishan-island.webp",
+          "caption": "Guishan Island seen across the sea from Toucheng (photo: Ma7ged / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What to See from the Boat"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Whales and dolphins",
+              "desc": "April to September is the best time to head out by boat to see whales and dolphins. They're wild animals, so sightings aren't guaranteed."
+            },
+            {
+              "mark": "✓",
+              "b": "龜山八景",
+              "desc": "The classic route circles the island to see its rock formations and sea views, known as the '龜山八景'."
+            },
+            {
+              "mark": "✓",
+              "b": "Landing on the island is separate",
+              "desc": "On the island, 1,706 steps lead up to 401高地. Whether a landing is included depends on the product, so check the product page."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Departs from Wushi Harbor",
+              "desc": "Boats leave from 烏石港 in 頭城."
+            },
+            {
+              "mark": "2",
+              "b": "Check the tour details",
+              "desc": "Schedule, inclusions, departure point and time vary by product option. Check the Klook product page before you book."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10737-turtle-island-whale-watching-tour-yilan%2F\" target=\"_blank\" rel=\"sponsored noopener\">See the Guishan Island whale watching tour on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Nearby Restaurants for After the Boat"
+        },
+        {
+          "type": "p",
+          "html": "Two seafood spots are just 0.2–0.5 km from Wushi Harbor, and the rest are around 2 km away toward Toucheng. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/yilan-seafood-106\">小豪海鮮</a> · Seafood · about 0.2 km west",
+              "desc": "Listed as seafood on the map."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/yilan-seafood-146\">石港春帆精緻海鮮餐廳</a> · Seafood · about 0.5 km north",
+              "desc": "Listed as seafood on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/yilan-shaved_ice-105\">阿宗芋冰城</a> · Shaved Ice · about 1.7 km southwest",
+              "desc": "Listed as shaved ice on the map."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/yilan-pizza-drifters-pizza-pub-697\">Drifters Pizza Pub 漂流者披薩吧</a> · Pizza · about 1.8 km southwest",
+              "desc": "Map note: A very memorable pizza pub. Highly recommends a visit."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/yilan-noodle-117\">阿茂麵攤</a> · Noodles · about 2.1 km southwest",
+              "desc": "Listed as noodles on the map."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/yilan-beef_noodle-longji-beef-noodle-restaurant-128\">Longji Beef Noodle Restaurant</a> · Beef Noodles · about 2.2 km southwest",
+              "desc": "Listed as beef noodles on the map."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/yilan-pasta-kanea-137\">Kanea廚房-餐酒小館</a> · Pasta · about 2.2 km southwest",
+              "desc": "Listed as pasta on the map."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on 交通部觀光署's 龜山島 information, as of October 2026. For tour schedules, prices and whether boats sail, check the Klook product page. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Ma7ged, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Yilan eats on the map",
+          "desc": "Save Yilan restaurants to visit before or after your tour.",
+          "btn": "Open Map →",
+          "href": "/map?region=yilan"
+        }
+      ]
+    }
+  },
   "kaohsiung-love-river-cruise-consulate": {
     "heroImage": "assets/images/blog/kaohsiung-love-river-cruise-consulate-1.jpg",
     "ko": {
