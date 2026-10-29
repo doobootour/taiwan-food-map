@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-mrt-credit-card-contactless",
+    "image": "assets/images/blog/taipei-mrt-credit-card-contactless-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 교통",
+      "title": "타이베이 MRT 신용카드 탑승, 이지카드 없이 될까?",
+      "desc": "2026년 7월부터 타이베이 MRT 전 역에서 비접촉 신용카드로 바로 탈 수 있어요. 공항철도 전용 통로, 같은 카드로 나가기, 이지카드가 나은 경우까지 담았어요.",
+      "meta": "타이베이 · 교통 가이드"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Transport",
+      "title": "Taipei MRT by Contactless Credit Card: Do You Still Need an EasyCard?",
+      "desc": "Since July 2026 every Taipei MRT station takes contactless credit cards. Airport MRT card lanes, using the same card to exit, and when an EasyCard is still better.",
+      "meta": "Taipei · Transport Guide"
+    }
+  },
+  {
     "slug": "yilan-guishan-island-whale-watching-wushi-eats",
     "image": "assets/images/attractions/yilan/guishan-island.webp",
     "regions": [
@@ -1525,6 +1544,387 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-mrt-credit-card-contactless": {
+    "heroImage": "assets/images/blog/taipei-mrt-credit-card-contactless-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이 MRT 신용카드 탑승 가이드 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 MRT 신용카드 탑승, 2026년 7월부터 전 역에서 돼요. 쓸 수 있는 카드, 찍는 위치, 공항철도와 다른 점, 할인 차이를 공식 안내로 정리했어요.",
+      "ogTitle": "타이베이 MRT 신용카드 탑승, 이지카드 없이 될까?",
+      "eyebrow": "타이베이 여행 가이드 · 교통",
+      "title": "타이베이 MRT 신용카드 탑승, 이지카드 없이 될까?",
+      "dek": "카드 한 장으로 개찰구를 지나도 되는지, 공항철도에서는 뭐가 다른지, 이지카드를 사야 하는 경우는 언제인지 짚어봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 교통 가이드",
+      "intro": "타이베이 MRT 신용카드 탑승, 이제 이지카드 없이도 될까요? 여행자 사이에서는 공항철도는 되는데 시내 MRT는 됐다·안 됐다 이야기가 갈렸지만, 타이베이 메트로는 2026년 7월 1일부터 모든 역에서 국내외 신용카드와 휴대폰 결제 감응 승차를 열었어요. 타이베이 메트로와 타오위안 공항철도의 공식 안내를 바탕으로 2026년 10월 기준 쓸 수 있는 카드, 찍는 위치, 놓치기 쉬운 차이를 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이베이 MRT vs 공항철도 신용카드 승차, 한눈에 비교"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "타이베이 MRT (臺北捷運)",
+            "타오위안 공항철도 (桃園機場捷運)"
+          ],
+          "rows": [
+            {
+              "label": "신용카드 승차 (2026년 10월 기준)",
+              "values": [
+                "2026년 7월 1일부터 전 역 개찰구",
+                "역마다 신용카드 전용 통로"
+              ]
+            },
+            {
+              "label": "카드 브랜드",
+              "values": [
+                "Visa, Mastercard, JCB, 銀聯(UnionPay), Diners Club, Discover, 체크카드 포함",
+                "Visa, Mastercard, JCB 비접촉 카드(체크카드 포함), 銀聯"
+              ]
+            },
+            {
+              "label": "휴대폰 결제",
+              "values": [
+                "Apple Pay·Google Pay·Samsung Pay, Apple Pay 익스프레스 모드 지원",
+                "NFC 휴대폰·스마트워치에 등록한 신용카드"
+              ]
+            },
+            {
+              "label": "찍는 곳",
+              "values": [
+                "개찰구의 '信用卡' 감응 구역",
+                "'信用卡感應區' (IC카드·토큰 구역과 다름)"
+              ]
+            },
+            {
+              "label": "요금",
+              "values": [
+                "1회권 요금 그대로 결제, 요금은 방문 전 공식 안내를 확인하세요",
+                "1회권 공시 요금, 요금은 방문 전 공식 안내를 확인하세요"
+              ]
+            },
+            {
+              "label": "할인",
+              "values": [
+                "상시 이용 할인·버스 환승 할인·TPASS 적용 안 됨",
+                "신용카드 기능 이용 시 할인 없음"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "정리하면 <b>두 노선 모두 비접촉 신용카드로 바로 탈 수 있어요</b>. 다만 신용카드는 일반(성인) 요금으로 한 번씩 결제되는 방식이라, 할인이나 아이 요금이 필요하면 이지카드 같은 교통카드가 여전히 유리합니다."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-mrt-credit-card-contactless-2.jpg",
+          "caption": "새 다중 결제 개찰구 예시예요. 화면 오른쪽 VISA·Mastercard 표시가 붙은 칸이 신용카드 감응 구역이고, 아래 큰 칸이 이지카드 같은 IC 카드 구역이에요(환상선 스쓰장역, 사진: Sinsyuan / Wikimedia Commons, CC BY-SA 4.0, 2026년 1월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 타이베이 MRT 신용카드, 이렇게 찍어요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "신용카드 칸에 대기",
+              "desc": "개찰구에는 신용카드, QR 코드, 이지카드(IC 카드) 감응 구역이 따로 있어요. 신용카드나 휴대폰은 '信用卡' 표시 칸에 대고, 피아노 소리와 초록 화살표가 뜨면 지나가면 돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "들어갈 때와 같은 카드로 나가기",
+              "desc": "카드 한 장은 한 사람만 쓸 수 있어요. 휴대폰에 카드를 여러 장 등록해 두었다면 나갈 때 다른 카드가 잡혀 막히는 경우가 있다고 타이베이 메트로가 안내하고 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "아이폰은 익스프레스 모드",
+              "desc": "Apple Pay 지갑에서 카드를 교통카드(익스프레스 모드)로 설정하면 잠금 해제 없이 찍을 수 있어요. Google Pay·Samsung Pay는 잠금을 풀고 대는 방식이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "이지카드 겸용 카드는 위치 주의",
+              "desc": "이지카드 기능이 붙은 신용카드는 어느 칸에 대느냐로 결제가 갈려요. 신용카드 칸이면 카드 결제, 이지카드 칸이면 충전 잔액에서 빠져나가요."
+            },
+            {
+              "mark": "✓",
+              "b": "만료·정지 카드는 안 돼요",
+              "desc": "은행 승인이 필요해서 유효기간이 지났거나 발급사가 막아 둔 카드는 개찰구를 통과하지 못해요. 해외 결제가 막혀 있지 않은지 출국 전에 카드사 앱에서 확인해 두세요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "공항철도는 신용카드로 바로 탔는데, 시내 MRT에서는 된다는 사람과 안 됐다는 사람이 갈렸어요. — 2026년 7월 전면 개방 전후 여행자 질문과 답변을 요약했어요"
+        },
+        {
+          "type": "h2",
+          "text": "03 · 타오위안 공항철도에서 다른 점"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "신용카드 전용 통로로",
+              "desc": "공항철도는 모든 개찰구가 아니라 역마다 마련된 신용카드 전용 통로에서 카드를 찍어야 해요. 감응 구역도 이지카드·토큰 구역과 떨어져 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "비접촉 표시 확인",
+              "desc": "카드 앞면에 Visa·Mastercard·JCB 로고와 비접촉(물결) 표시가 함께 있어야 해요. 銀聯 카드도 안내 대상에 들어가 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "같은 카드, 같은 휴대폰",
+              "desc": "실물 카드는 들어갈 때와 나갈 때 같은 카드를, 휴대폰은 같은 기기·같은 결제 앱·같은 등록 카드를 써야 해요. 개찰구를 제대로 지나지 않으면 나중에 카드로 요금이 청구될 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "잘못 찍었으면 안내소로",
+              "desc": "이지카드 겸용 신용카드를 IC 카드 구역에 잘못 댔다면 역 안내소에 카드를 보여 주고 처리를 도움받으면 돼요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-mrt-credit-card-contactless-1.jpg",
+          "caption": "타오위안 공항철도 A2 싼충역 개찰구 앞이에요. 공항철도는 역마다 신용카드 전용 통로를 따로 두고 있어요(사진: Padai / Wikimedia Commons, CC BY-SA 4.0, 2017년 4월)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 그래도 이지카드가 나은 경우"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "MRT와 버스를 자주 갈아탈 때",
+              "desc": "신용카드 승차에는 버스 환승 할인과 타이베이 메트로 상시 이용 할인이 붙지 않아요. 이지카드·아이패스(一卡通) 같은 교통카드는 기존 할인을 그대로 받아요."
+            },
+            {
+              "mark": "2",
+              "b": "아이와 함께일 때",
+              "desc": "신용카드는 일반 요금으로 결제돼요. 6세 미만 아이는 표를 산 어른과 함께면 무료로 탈 수 있지만, 할인 요금이 필요한 나이라면 교통카드나 창구 안내를 따르는 편이 편해요."
+            },
+            {
+              "mark": "3",
+              "b": "가족이 카드 한 장만 있을 때",
+              "desc": "신용카드 한 장은 한 사람만 쓸 수 있어요. 일행 중 비접촉 카드가 없는 사람은 파란 토큰 1회권이나 '台北捷運Go' 앱 QR 1회권을 쓰면 돼요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "이지카드를 따로 살지 고민된다면 <a href=\"/blog-taipei-easycard-transport-guide\">타이베이 첫 여행, 이지카드만으로 충분할까</a>와 <a href=\"/blog-taipei-easycard-balance-check-topup\">이지카드 잔액 조회·충전</a>을, 공항에 늦게 도착하는 날은 <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">타오위안공항 새벽 도착 교통</a>도 함께 보세요. MRT로 이동한 뒤 먹을 곳은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>와 <a href=\"/taipei-beef_noodle\">타이베이 우육면 맛집</a>, <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a>, 상세 페이지 <a href=\"/taipei-taiwanese-wang-s-broth-74\">Wang's Broth</a>에서 고르면 돼요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 타이베이 메트로(臺北捷運) 공식 사이트의 신용카드 승차 안내·자주 묻는 질문·2026년 7월 1일 보도자료, 타이베이시 정부 보도자료, 타이베이 메트로 이용 안내서(PDF), 타오위안 메트로(桃園捷運) 공식 사이트의 신용카드 승차 안내와 FAQ, 네이버 카페 여행자 글(2026년 10월)을 바탕으로 2026년 10월 29일에 정리했어요. 결제 방식과 대상 카드는 바뀔 수 있으니 출발 전 두 회사의 공식 안내를 다시 확인하세요. 사진: Sinsyuan(CC BY-SA 4.0), Padai(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 우육면 맛집도 확인해보세요",
+          "desc": "MRT역 근처에서 먹을 곳을 지도에서 미리 찜해 두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=beef_noodle"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taipei MRT Credit Card Guide · My Secret Taiwan Eats",
+      "metaDescription": "Since July 2026 you can tap a contactless credit card at every Taipei MRT station. Accepted cards, where to tap, the Airport MRT and what discounts you lose.",
+      "ogTitle": "Taipei MRT by Contactless Credit Card: Do You Still Need an EasyCard?",
+      "eyebrow": "Taipei Travel Guide · Transport",
+      "title": "Taipei MRT by Contactless Credit Card: Do You Still Need an EasyCard?",
+      "dek": "Whether one card gets you through the gates, what's different on the Airport MRT, and when an EasyCard still makes sense.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Transport Guide",
+      "intro": "Can you ride the Taipei MRT with just a contactless credit card now? Travellers used to say it worked on the Airport MRT but was hit-and-miss in the city, but since 1 July 2026 Taipei Metro has accepted domestic and foreign credit cards and phone wallets at every station. Based on official information from Taipei Metro and the Taoyuan Airport MRT, here are the accepted cards, where to tap and the differences that are easy to miss, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taipei MRT vs Airport MRT by credit card at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Taipei MRT (臺北捷運)",
+            "Taoyuan Airport MRT (桃園機場捷運)"
+          ],
+          "rows": [
+            {
+              "label": "Credit card travel (as of Oct 2026)",
+              "values": [
+                "All station gates since 1 July 2026",
+                "Dedicated credit card lanes at each station"
+              ]
+            },
+            {
+              "label": "Card networks",
+              "values": [
+                "Visa, Mastercard, JCB, UnionPay, Diners Club, Discover, debit cards included",
+                "Visa, Mastercard, JCB contactless (debit included), UnionPay"
+              ]
+            },
+            {
+              "label": "Phone wallets",
+              "values": [
+                "Apple Pay, Google Pay, Samsung Pay; Apple Pay Express Mode supported",
+                "Cards added to NFC phones or smartwatches"
+              ]
+            },
+            {
+              "label": "Where to tap",
+              "values": [
+                "The '信用卡' credit card reader on the gate",
+                "The credit card reader (separate from the IC card/token reader)"
+              ]
+            },
+            {
+              "label": "Fare",
+              "values": [
+                "Charged the single-journey fare; check the official information before you go",
+                "Published single-journey fare; check the official information before you go"
+              ]
+            },
+            {
+              "label": "Discounts",
+              "values": [
+                "No frequent-rider, bus transfer or TPASS discounts",
+                "No discount when using the credit card function"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "In short, <b>both systems take contactless credit cards directly</b>. But each ride is charged at the regular adult fare, so if you want discounts or child fares, a transit card such as EasyCard is still the better choice."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-mrt-credit-card-contactless-2.jpg",
+          "caption": "One of the new multi-payment gates: the panel marked with VISA and Mastercard is the credit card reader, and the large pad below is for IC cards such as EasyCard (Circular Line Shisizhang station; photo: Sinsyuan / Wikimedia Commons, CC BY-SA 4.0, January 2026)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · How to tap on the Taipei MRT"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Use the credit card reader",
+              "desc": "Gates have separate readers for credit cards, QR codes and IC cards like EasyCard. Hold your card or phone to the '信用卡' reader and walk through when you hear the piano chime and see the green arrow."
+            },
+            {
+              "mark": "✓",
+              "b": "Exit with the same card",
+              "desc": "One card is for one person. Taipei Metro notes that people with several cards in their phone wallet sometimes get stopped on exit because a different card was picked up."
+            },
+            {
+              "mark": "✓",
+              "b": "iPhone: Express Mode",
+              "desc": "Set a card as your Express Transit card in Apple Wallet and you can tap without unlocking. With Google Pay or Samsung Pay, unlock the phone first."
+            },
+            {
+              "mark": "✓",
+              "b": "EasyCard co-branded cards",
+              "desc": "On a credit card with a built-in EasyCard, the reader you use decides the payment: the credit card reader charges the card, the IC card reader deducts the stored balance."
+            },
+            {
+              "mark": "✓",
+              "b": "Expired or blocked cards won't work",
+              "desc": "Each tap needs bank authorisation, so expired cards or cards blocked by the issuer won't open the gate. Check in your bank app that overseas payments are enabled before you fly."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "The Airport MRT took my credit card straight away, but people were split on whether it worked on the city MRT. — summarised from traveller questions and answers around the full July 2026 launch"
+        },
+        {
+          "type": "h2",
+          "text": "03 · What's different on the Taoyuan Airport MRT"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Use the credit card lane",
+              "desc": "Not every gate takes cards: use the dedicated credit card lane at each station. Its reader is separate from the IC card and token reader."
+            },
+            {
+              "mark": "✓",
+              "b": "Look for the contactless mark",
+              "desc": "Your card needs the Visa, Mastercard or JCB logo plus the contactless symbol on the front. UnionPay cards are also listed."
+            },
+            {
+              "mark": "✓",
+              "b": "Same card, same phone",
+              "desc": "Use the same physical card to enter and exit, or the same device, wallet app and linked card. If you don't pass the gates properly, the fare can be charged to your card later."
+            },
+            {
+              "mark": "✓",
+              "b": "Tapped the wrong reader?",
+              "desc": "If you touched a co-branded card on the IC card reader by mistake, show it at the station information counter and staff will sort it out."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-mrt-credit-card-contactless-1.jpg",
+          "caption": "The gates at Taoyuan Airport MRT A2 Sanchong station. The Airport MRT has dedicated credit card lanes at each station (photo: Padai / Wikimedia Commons, CC BY-SA 4.0, April 2017)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · When an EasyCard is still better"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Lots of MRT–bus transfers",
+              "desc": "Credit card rides don't get bus transfer discounts or Taipei Metro frequent-rider rebates. Transit cards such as EasyCard and iPASS keep those discounts."
+            },
+            {
+              "mark": "2",
+              "b": "Travelling with children",
+              "desc": "Credit cards are charged the regular fare. Children under 6 ride free with a paying adult, but if your child needs a concession fare, use a transit card or ask at the counter."
+            },
+            {
+              "mark": "3",
+              "b": "One card for the whole family",
+              "desc": "A credit card covers one person. Anyone without a contactless card can use a blue single-journey token or a QR single ticket from the Taipei Metro Go (台北捷運Go) app."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Still deciding on an EasyCard? See <a href=\"/blog-taipei-easycard-transport-guide\">Is an EasyCard enough for a first Taipei trip?</a> and <a href=\"/blog-taipei-easycard-balance-check-topup\">EasyCard balance checks and top-ups</a>, and for late arrivals, <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">Taoyuan Airport midnight arrival transport</a>. For food after the ride, browse the <a href=\"/region-taipei\">Taipei food map</a>, <a href=\"/taipei-beef_noodle\">Taipei beef noodles</a>, <a href=\"/taipei-taiwanese\">Taipei Taiwanese food</a> and the <a href=\"/taipei-taiwanese-wang-s-broth-74\">Wang's Broth</a> page."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 29 October 2026 from Taipei Metro (臺北捷運) official pages on credit card travel, its FAQ and 1 July 2026 press release, a Taipei City Government press release, the Taipei Metro guide (PDF), Taoyuan Metro (桃園捷運) official credit card and FAQ pages, and a traveller's post on a Naver café (October 2026). Payment options and accepted cards can change, so check both operators' official information before you travel. Photos: Sinsyuan (CC BY-SA 4.0), Padai (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei beef noodles on the map",
+          "desc": "Save places to eat near your MRT stops before you go.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=beef_noodle"
+        }
+      ]
+    }
+  },
   "yilan-guishan-island-whale-watching-wushi-eats": {
     "heroImage": "assets/images/attractions/yilan/guishan-island.webp",
     "ko": {
