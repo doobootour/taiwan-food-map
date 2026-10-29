@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taichung-kids-science-museum-921-opera",
+    "image": "assets/images/blog/taichung-kids-science-museum-921-opera-1.jpg",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "타이중 여행 가이드 · 가족여행",
+      "title": "타이중 아이와 갈 곳, 과학박물관·921·가극원 어디부터?",
+      "desc": "초등 아이와 타이중에서 하루를 보낸다면 자연과학박물관·921지진교육원구·국가가극원을 어떻게 묶을까요? 월요일 휴관과 이동 방법까지 담았어요.",
+      "meta": "타이중 · 가족여행"
+    },
+    "en": {
+      "eyebrow": "Taichung Travel Guide · Family Trips",
+      "title": "Taichung with Kids: Science Museum, 921 Museum or Opera House First?",
+      "desc": "How to combine Taichung's Natural Science Museum, 921 Earthquake Museum and National Taichung Theater with primary-school kids, including Monday closures and transport.",
+      "meta": "Taichung · Family Trips"
+    }
+  },
+  {
     "slug": "taipei-mrt-credit-card-contactless",
     "image": "assets/images/blog/taipei-mrt-credit-card-contactless-1.jpg",
     "regions": [
@@ -1544,6 +1563,459 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taichung-kids-science-museum-921-opera": {
+    "heroImage": "assets/images/blog/taichung-kids-science-museum-921-opera-1.jpg",
+    "ko": {
+      "pageTitle": "타이중 아이와 갈 곳 — 과학박물관·가극원 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이중 아이와 갈 곳으로 많이 꼽히는 자연과학박물관, 921지진교육원구, 국가가극원의 개방 시간과 월요일 휴관, 가는 법, 하루 동선을 정리했어요.",
+      "ogTitle": "타이중 아이와 갈 곳, 과학박물관·921·가극원 어디부터?",
+      "eyebrow": "타이중 여행 가이드 · 가족여행",
+      "title": "타이중 아이와 갈 곳, 과학박물관·921·가극원 어디부터?",
+      "dek": "공룡과 우주를 보는 과학박물관, 지진을 배우는 921지진교육원구, 동굴 같은 건물의 가극원까지 — 월요일만 피하면 아이와 하루가 꽉 찹니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이중 · 가족여행",
+      "intro": "타이중 아이와 갈 곳을 찾으면 국립자연과학박물관, 921지진교육원구, 국가가극원이 자주 함께 나와요. 초등학생과 갈 곳을 묻는 여행자 질문에도 이 세 곳이 추천으로 올라왔습니다. 문제는 세 곳의 문 여는 시간과 위치가 꽤 다르다는 점이에요. 박물관 두 곳은 아침 9시에 열고 가극원은 11시 30분에 열며, 세 곳 모두 월요일에 쉽니다. 각 기관 공식 안내를 바탕으로 2026년 10월 기준 시간과 가는 법, 하루 동선을 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이중 아이와 갈 곳 세 곳, 한눈에 비교"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "국립자연과학박물관 (科博館)",
+            "921지진교육원구",
+            "국가가극원 (歌劇院)"
+          ],
+          "rows": [
+            {
+              "label": "위치",
+              "values": [
+                "北區 館前路1號, 시내",
+                "霧峰區 新生路192號, 시내에서 남동쪽",
+                "西屯區 惠來路二段101號, 신도심"
+              ]
+            },
+            {
+              "label": "개방 (2026년 10월 기준)",
+              "values": [
+                "화~일 09:00~17:00",
+                "화~일 09:00~17:00",
+                "화~일·공휴일 11:30~21:00"
+              ]
+            },
+            {
+              "label": "마감",
+              "values": [
+                "매표 16:30, 입장 17:00 마감",
+                "매표 16:30, 입장 17:00 마감",
+                "공중정원은 폐관 15분 전 입장 마감"
+              ]
+            },
+            {
+              "label": "쉬는 날",
+              "values": [
+                "월요일(국정공휴일·대체휴일이면 개방), 음력 섣달그믐·설날",
+                "월요일(국정공휴일·대체휴일이면 개방), 음력 섣달그믐·설날",
+                "월요일"
+              ]
+            },
+            {
+              "label": "아이에게 좋은 점",
+              "values": [
+                "공룡·우주·식물원까지 한곳에",
+                "지진으로 무너진 학교 건물을 그대로 보존",
+                "어린이 음성 가이드(6~12세 권장)"
+              ]
+            },
+            {
+              "label": "요금",
+              "values": [
+                "요금은 방문 전 공식 안내를 확인하세요",
+                "요금은 방문 전 공식 안내를 확인하세요",
+                "요금은 방문 전 공식 안내를 확인하세요"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "세 곳을 묶을 때 가장 먼저 볼 것은 <b>월요일 휴관</b>이에요. 박물관 두 곳은 월요일이 국정공휴일이면 문을 열지만 가극원은 월요일 휴관으로만 안내돼 있어서, 아이와 가는 날은 <b>화요일~일요일</b>로 잡는 편이 안전합니다. 또 921지진교육원구는 시내에서 떨어져 있어 과학박물관과 같은 날 묶으려면 이동 시간을 넉넉히 잡아야 해요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-kids-science-museum-921-opera-1.jpg",
+          "caption": "국립자연과학박물관 정문 쪽 표지석과 건물이에요(사진: Ralff Nestor Nacor / Wikimedia Commons, CC BY-SA 4.0, 2024년 11월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 국립자연과학박물관, 아침 일찍 가면 좋은 이유"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "9시 개관, 16:30 매표 마감",
+              "desc": "화~일 09:00~17:00에 열고, 표는 16:30까지만 팔아요. 전시관이 넓어서 오후 늦게 들어가면 다 못 보고 나오기 쉽습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "시내 버스로 가기 쉬워요",
+              "desc": "박물관 공식 안내에 따르면 타이완대로(臺灣大道)를 지나는 300~308번 버스가 타이중역과 이어져요. 시내 숙소라면 버스 한 번으로 닿는 거리예요."
+            },
+            {
+              "mark": "✓",
+              "b": "공사·폐쇄 공지 확인",
+              "desc": "2026년 10월 기준 과학센터 2층 '반도체의 세계' 전시 일부가 시간대별로 닫히고, 생명과학관 지하 1층 화장실은 10월 1일부터 쓸 수 없다고 공지돼 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "11월 28일은 오후만",
+              "desc": "2026년 11월 28일(토) 투표일에는 본관이 오후 1시~5시만 열어요. 이날 여행이라면 오전 일정을 다른 곳으로 바꾸세요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "초등학생과 타이중에서 갈 곳을 묻는 글에 과학박물관, 국립대만미술관, 국가가극원, 921지진교육원구를 추천하는 답이 달렸어요. — 네이버 카페 여행자 질문글을 요약했어요"
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-kids-science-museum-921-opera-2.jpg",
+          "caption": "우펑(霧峰)에 있는 921지진교육원구 입구 표지예요(사진: Ralff Nestor Nacor / Wikimedia Commons, CC BY-SA 4.0, 2025년 2월)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 921지진교육원구, 반나절은 따로 잡기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "과학박물관 분관이에요",
+              "desc": "1999년 9월 21일 대지진을 기록한 곳으로, 국립자연과학박물관이 운영하는 원구예요. 개방 시간도 화~일 09:00~17:00, 매표 16:30 마감으로 같습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "직행 버스는 없어요",
+              "desc": "박물관 공식 답변으로는 과학박물관에서 921지진교육원구로 바로 가는 버스가 없어요. 타이중역으로 가서 갈아타야 합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "타이중역에서 50번이 편해요",
+              "desc": "타이중역 퉁롄(統聯) 정류장에서 50번(921지진교육원구행)을 타면 원구 주차장 앞에 서고, 배차도 많은 편이라고 안내해요. 100번 등은 光復新村에서 내려 11분쯤 걸어요."
+            },
+            {
+              "mark": "✓",
+              "b": "11월 28일은 하루 휴관",
+              "desc": "2026년 11월 28일(토) 투표일에는 921지진교육원구가 하루 종일 문을 닫아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-kids-science-museum-921-opera-3.jpg",
+          "caption": "곡선 벽이 특징인 타이중 국가가극원 외관이에요(사진: Nico Kaiser / Wikimedia Commons, CC BY 2.0, 2019년 10월)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 국가가극원, 오후와 저녁에 맞는 곳"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "11:30에 열고 21:00에 닫아요",
+              "desc": "화~일·공휴일 11:30~21:00이라 박물관을 보고 오후에 넘어가기 좋아요. 옥상 공중정원은 폐관 15분 전에 입장을 막아요."
+            },
+            {
+              "mark": "✓",
+              "b": "어린이 음성 가이드",
+              "desc": "가극원은 건축·식물 음성 가이드와 함께 6~12세 권장 어린이 음성 가이드를 빌려줘요. 지도를 들고 건물 안을 직접 찾아다니는 방식이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "MRT 시정부역 1번 출구",
+              "desc": "타이중 MRT 그린라인 시정부(市政府)역 1번 출구로 나와 시정공원을 따라 10~15분 걸으면 돼요. 타이중역에서는 300~308번 버스로 新光/遠百 정류장에 내려 8분쯤 걷습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "야간 도슨트는 수·금 19:00",
+              "desc": "공식 안내 기준 수·금 19:00에 야간 도슨트가 있고, 대극장 공연이 있는 날은 쉬어요. 참가 방법은 가극원 홈페이지에서 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 아이와 하루 동선 예시"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "오전: 국립자연과학박물관",
+              "desc": "9시 개관에 맞춰 들어가면 더위를 피해 실내에서 오전을 보낼 수 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "점심 뒤: 국가가극원",
+              "desc": "11:30 이후 열리니 점심을 먹고 버스로 이동해요. 두 곳 모두 타이완대로 300번대 버스 노선 근처라 갈아타기가 단순합니다."
+            },
+            {
+              "mark": "3",
+              "b": "다른 날 오전: 921지진교육원구",
+              "desc": "타이중역에서 50번 버스로 따로 반나절을 잡아요. 월요일과 2026년 11월 28일만 피하면 돼요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "타이중 공항으로 들어오고 나가는 일정이라면 <a href=\"/blog-taichung-airport-departure-tips\">타이중 공항 출국 팁</a>을, 타이난까지 이어 간다면 <a href=\"/blog-taichung-tainan-tra-vs-thsr\">타이중→타이난 일반열차 vs 고속철</a>을 함께 보세요. 아이와 하루 더 쓸 수 있다면 장화의 <a href=\"/blog-changhua-baguashan-sky-playground-kids\">팔괘산 하늘놀이터</a>도 가까워요. 박물관 사이에 먹을 곳은 <a href=\"/region-taichung\">타이중 맛집 지도</a>, <a href=\"/taichung-attractions\">타이중 체험·관광지</a>, 더운 날엔 <a href=\"/taichung-shaved_ice\">타이중 빙수 맛집</a>에서 골라 보세요. 간단한 한 끼로는 <a href=\"/taichung-noodle-785\">왕왕 몐셴후(王罔麵線糊)</a>도 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 국립자연과학박물관 공식 사이트(개방 시간·휴관일·자주 묻는 질문의 921지진교육원구 가는 버스), 921지진교육원구 공식 개방 시간 안내, 2026년 11월 28일 투표일 개관 시간 조정 공지, 타이중 국가가극원 공식 사이트(개관 시간·교통·도슨트 안내), 네이버 카페 여행자 질문글(2026년 10월)을 바탕으로 2026년 10월 30일에 정리했어요. 휴관과 운영 시간은 바뀔 수 있으니 방문 전 공식 공지를 확인하세요. 사진: Ralff Nestor Nacor(CC BY-SA 4.0), Nico Kaiser(CC BY 2.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중 체험·관광지도 확인해보세요",
+          "desc": "박물관 사이에 들를 곳과 근처 먹을 곳을 지도에서 미리 골라 보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung&cat=attraction"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taichung with Kids: Museums & Opera House · My Secret Taiwan Eats",
+      "metaDescription": "Taichung with kids: hours, Monday closures, how to get there and a day plan for the Natural Science Museum, the 921 Earthquake Museum and the opera house.",
+      "ogTitle": "Taichung with Kids: Science Museum, 921 Museum or Opera House First?",
+      "eyebrow": "Taichung Travel Guide · Family Trips",
+      "title": "Taichung with Kids: Science Museum, 921 Museum or Opera House First?",
+      "dek": "Dinosaurs and space at the science museum, earthquake lessons at the 921 museum and a cave-like opera house — skip Mondays and the day fills itself.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taichung · Family Trips",
+      "intro": "Search for things to do in Taichung with kids and the National Museum of Natural Science, the 921 Earthquake Museum and the National Taichung Theater keep coming up together, and travellers asking where to go with primary-school children got the same suggestions. The catch is that their hours and locations differ: the two museums open at 9 am, the theater at 11:30 am, and all three close on Mondays. Based on each venue's official information, here are the hours, transport and a day plan as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Three places for kids in Taichung at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "National Museum of Natural Science",
+            "921 Earthquake Museum",
+            "National Taichung Theater"
+          ],
+          "rows": [
+            {
+              "label": "Location",
+              "values": [
+                "No. 1 Guanqian Rd, North District, central",
+                "No. 192 Xinsheng Rd, Wufeng, south-east of the city",
+                "No. 101, Sec. 2, Huilai Rd, Xitun, new downtown"
+              ]
+            },
+            {
+              "label": "Hours (as of Oct 2026)",
+              "values": [
+                "Tue–Sun 09:00–17:00",
+                "Tue–Sun 09:00–17:00",
+                "Tue–Sun & holidays 11:30–21:00"
+              ]
+            },
+            {
+              "label": "Cut-off",
+              "values": [
+                "Tickets until 16:30, entry until 17:00",
+                "Tickets until 16:30, entry until 17:00",
+                "Sky garden closes to entry 15 min before closing"
+              ]
+            },
+            {
+              "label": "Closed",
+              "values": [
+                "Mondays (open if a national or make-up holiday), Lunar New Year's Eve and Day",
+                "Mondays (open if a national or make-up holiday), Lunar New Year's Eve and Day",
+                "Mondays"
+              ]
+            },
+            {
+              "label": "Good for kids",
+              "values": [
+                "Dinosaurs, space and a botanical garden in one place",
+                "A school building preserved as the quake left it",
+                "Children's audio guide (ages 6–12)"
+              ]
+            },
+            {
+              "label": "Fees",
+              "values": [
+                "Check the official information before you go",
+                "Check the official information before you go",
+                "Check the official information before you go"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The first thing to check is the <b>Monday closure</b>. The two museums open on Mondays that are national holidays, but the theater lists Mondays as closed, so plan your kids' day for <b>Tuesday to Sunday</b>. The 921 Earthquake Museum is also outside the centre, so allow plenty of travel time if you pair it with the science museum."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-kids-science-museum-921-opera-1.jpg",
+          "caption": "The name stone and main building of the National Museum of Natural Science (photo: Ralff Nestor Nacor / Wikimedia Commons, CC BY-SA 4.0, November 2024)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · National Museum of Natural Science: go early"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Opens 9:00, tickets until 16:30",
+              "desc": "Open Tue–Sun 09:00–17:00, with ticket sales ending at 16:30. It's large, so arriving late in the afternoon means missing a lot."
+            },
+            {
+              "mark": "✓",
+              "b": "Easy by city bus",
+              "desc": "According to the museum, buses 300–308 along Taiwan Boulevard (臺灣大道) link it with Taichung Station. From a central hotel it's usually one bus."
+            },
+            {
+              "mark": "✓",
+              "b": "Check closure notices",
+              "desc": "As of October 2026, part of the 'World of Semiconductors' area on the Science Center's 2nd floor closes at certain times, and the B1 toilets in the Life Science Hall have been out of use since 1 October."
+            },
+            {
+              "mark": "✓",
+              "b": "Afternoon only on 28 November",
+              "desc": "On the 28 November 2026 (Sat) voting day, the main museum opens only from 1 pm to 5 pm. Plan your morning elsewhere that day."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Asked where to go in Taichung with primary-school kids, travellers suggested the science museum, the National Taiwan Museum of Fine Arts, the National Taichung Theater and the 921 Earthquake Museum. — summarised from a traveller's question on a Naver café"
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-kids-science-museum-921-opera-2.jpg",
+          "caption": "The entrance sign of the 921 Earthquake Museum of Taiwan in Wufeng (霧峰) (photo: Ralff Nestor Nacor / Wikimedia Commons, CC BY-SA 4.0, February 2025)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 921 Earthquake Museum: give it a separate half day"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "A branch of the science museum",
+              "desc": "It records the earthquake of 21 September 1999 and is run by the National Museum of Natural Science, with the same Tue–Sun 09:00–17:00 hours and 16:30 ticket cut-off."
+            },
+            {
+              "mark": "✓",
+              "b": "No direct bus",
+              "desc": "The museum's FAQ says there is no direct bus from the science museum to the 921 site. Go to Taichung Station and change there."
+            },
+            {
+              "mark": "✓",
+              "b": "Bus 50 from Taichung Station",
+              "desc": "Bus 50 from the Ubus (統聯) stop at Taichung Station stops at the museum car park and runs fairly often. Routes such as 100 stop at Guangfu Xincun (光復新村), about an 11-minute walk."
+            },
+            {
+              "mark": "✓",
+              "b": "Closed all day on 28 November",
+              "desc": "The 921 Earthquake Museum is closed for the whole of the 28 November 2026 (Sat) voting day."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-kids-science-museum-921-opera-3.jpg",
+          "caption": "The curved walls of the National Taichung Theater (photo: Nico Kaiser / Wikimedia Commons, CC BY 2.0, October 2019)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · National Taichung Theater: afternoons and evenings"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Open 11:30–21:00",
+              "desc": "Tue–Sun and holidays 11:30–21:00, so it fits well after a museum morning. The rooftop sky garden stops entry 15 minutes before closing."
+            },
+            {
+              "mark": "✓",
+              "b": "Children's audio guide",
+              "desc": "Along with architecture and plant audio guides, the theater lends a children's audio guide recommended for ages 6–12, used with a map to explore the building."
+            },
+            {
+              "mark": "✓",
+              "b": "MRT City Hall Exit 1",
+              "desc": "From Exit 1 of City Hall (市政府) station on the Taichung MRT Green Line, walk 10–15 minutes through the park. From Taichung Station, take buses 300–308 to Xinguang/Yuanbai (新光/遠百) and walk about 8 minutes."
+            },
+            {
+              "mark": "✓",
+              "b": "Night tours Wed & Fri at 19:00",
+              "desc": "Officially, night guided tours run Wednesday and Friday at 19:00 and pause when the Grand Theater has a show. Check the theater's website for how to join."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · A sample day with kids"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Morning: Natural Science Museum",
+              "desc": "Arrive at the 9:00 opening and spend the hot morning indoors."
+            },
+            {
+              "mark": "2",
+              "b": "After lunch: National Taichung Theater",
+              "desc": "It opens at 11:30, so have lunch and take the bus. Both sit near the Taiwan Boulevard 300-series bus corridor, so the transfer is simple."
+            },
+            {
+              "mark": "3",
+              "b": "Another morning: 921 Earthquake Museum",
+              "desc": "Take bus 50 from Taichung Station for a separate half day. Just avoid Mondays and 28 November 2026."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Flying in or out of Taichung? See <a href=\"/blog-taichung-airport-departure-tips\">Taichung Airport departure tips</a>, and if you're heading on to Tainan, <a href=\"/blog-taichung-tainan-tra-vs-thsr\">Taichung to Tainan by TRA vs THSR</a>. With an extra day, the <a href=\"/blog-changhua-baguashan-sky-playground-kids\">Baguashan sky playground</a> in Changhua is close by. For food between museums, browse the <a href=\"/region-taichung\">Taichung food map</a>, <a href=\"/taichung-attractions\">Taichung attractions</a>, <a href=\"/taichung-shaved_ice\">Taichung shaved ice</a> on hot days, or the <a href=\"/taichung-noodle-785\">Wang Wang mianxian (王罔麵線糊)</a> page for a quick meal."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 30 October 2026 from the National Museum of Natural Science official site (hours, closures, FAQ on buses to the 921 Earthquake Museum), the 921 Earthquake Museum's official hours page, the notice on adjusted hours for the 28 November 2026 voting day, the National Taichung Theater official site (hours, transport, guided tours) and a traveller's question on a Naver café (October 2026). Closures and hours can change, so check official notices before you go. Photos: Ralff Nestor Nacor (CC BY-SA 4.0), Nico Kaiser (CC BY 2.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taichung attractions on the map",
+          "desc": "Pick stops and places to eat between museums.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung&cat=attraction"
+        }
+      ]
+    }
+  },
   "taipei-mrt-credit-card-contactless": {
     "heroImage": "assets/images/blog/taipei-mrt-credit-card-contactless-1.jpg",
     "ko": {
