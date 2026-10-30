@@ -15,6 +15,7 @@
     ".attr-pop-btn{display:block;margin:12px 0 0;padding:9px 12px;border-radius:12px;background:var(--terracotta,#c2703f);color:#fff!important;box-shadow:0 2px 6px rgba(156,82,40,.28);font-size:12.5px;font-weight:700;text-align:center;text-decoration:none}" +
     "@media (max-width:767px){body.attr-pop-open .map-fab-col{opacity:0;visibility:hidden;pointer-events:none;transition:opacity .15s}}" +
     ".attr-pop-btn:hover,.attr-pop-btn:active{background:var(--terracotta-dark,#9c5228)}" +
+    ".attr-pop-btn2{margin-top:6px;background:#fff;color:var(--terracotta-dark,#a8562c)!important;border:1px solid var(--terracotta,#c2703f);box-shadow:none}" +
     ".attr-popup a.leaflet-popup-close-button{top:8px;right:8px}";
   document.head.appendChild(css);
   var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
@@ -39,6 +40,19 @@
           .addTo(group);
       });
     });
+    if (typeof ACTIVITIES !== "undefined") {
+      ACTIVITIES.forEach(function (it) {
+        L.marker([it.lat, it.lng], { icon: icon, zIndexOffset: 2000, title: it.ko, keyboard: true })
+          .bindPopup(
+            '<div class="attr-pop"><span class="attr-pop-badge">★ 액티비티</span>' +
+            '<span class="attr-pop-name">' + esc(it.ko) + '</span>' +
+            '<span class="attr-pop-zh">' + esc(it.line) + '</span>' +
+            '<a class="attr-pop-btn" href="' + esc(it.url) + '" target="_blank" rel="sponsored noopener">클룩에서 보기</a>' +
+            (it.blog ? '<a class="attr-pop-btn attr-pop-btn2" href="' + esc(it.blog) + '">블로그 글 보기 →</a>' : '') + '</div>',
+            { className: "attr-popup", maxWidth: 280, minWidth: 0, offset: [0, -4], autoPan: true, autoPanPaddingTopLeft: L.point(8, 70), autoPanPaddingBottomRight: L.point(window.innerWidth < 768 ? 16 : 24, window.innerWidth < 768 ? 60 : 24) })
+          .addTo(group);
+      });
+    }
     function sync() {
       var show = alwaysOn || map.getZoom() >= MIN_ZOOM;
       if (show && !map.hasLayer(group)) group.addTo(map);
