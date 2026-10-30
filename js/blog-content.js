@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "alishan-day-trip-tainan-bus-7329",
+    "image": "assets/images/blog/alishan-day-trip-tainan-bus-7329-1.jpg",
+    "regions": [
+      "alishan"
+    ],
+    "ko": {
+      "eyebrow": "아리산 여행 가이드 · 교통",
+      "title": "아리산 당일치기, 타이난에서 7329번 버스로 될까?",
+      "desc": "타이난에서 아리산을 하루에 다녀올 수 있을까요? 고속철 자이역에서 타는 7329번 버스 시간표와 막차, 아리산에서 쓸 수 있는 시간을 담았어요.",
+      "meta": "아리산 · 교통"
+    },
+    "en": {
+      "eyebrow": "Alishan Travel Guide · Transport",
+      "title": "Alishan Day Trip from Tainan: Can You Do It by Bus 7329?",
+      "desc": "Can you see Alishan in a day from Tainan? The bus 7329 timetable from THSR Chiayi, the last bus down and how much time you get on the mountain.",
+      "meta": "Alishan · Transport"
+    }
+  },
+  {
     "slug": "taichung-kids-science-museum-921-opera",
     "image": "assets/images/blog/taichung-kids-science-museum-921-opera-1.jpg",
     "regions": [
@@ -1563,6 +1582,473 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "alishan-day-trip-tainan-bus-7329": {
+    "heroImage": "assets/images/blog/alishan-day-trip-tainan-bus-7329-1.jpg",
+    "ko": {
+      "pageTitle": "아리산 당일치기 — 7329번 버스 시간표 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "아리산 당일치기를 타이난에서 가려면 고속철 자이역에서 7329번 버스를 타요. 2026년 10월 기준 시간표와 막차 16:40, 타는 곳, 좌석 예약을 정리했어요.",
+      "ogTitle": "아리산 당일치기, 타이난에서 7329번 버스로 될까?",
+      "eyebrow": "아리산 여행 가이드 · 교통",
+      "title": "아리산 당일치기, 타이난에서 7329번 버스로 될까?",
+      "dek": "아침 8시 40분 버스로 올라가 오후 4시 40분 막차로 내려오면 산 위에서 5시간 반 — 시간표만 맞추면 하루 일정이 됩니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "아리산 · 교통",
+      "intro": "아리산 당일치기, 타이난에 숙소를 두고도 가능할까요? 타이난에서 고속철로 자이역까지 간 뒤 7329번 버스로 올라가면 하루 안에 다녀올 수 있어요. 고속철 타이난역과 자이역은 바로 이웃한 역이라 아침 버스 시간만 맞추면 됩니다. 관건은 산에서 내려오는 버스가 하루 몇 대뿐이고 막차가 오후 4시 40분이라는 점이에요. 台灣好行 공식 시간표를 바탕으로 2026년 10월 기준 버스 시간과 타는 곳, 산 위에서 쓸 수 있는 시간을 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 7329번 버스 시간표 한눈에 보기 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "고속철 자이역 출발",
+            "아리산 도착(예정)",
+            "아리산 출발",
+            "고속철 자이역 도착(예정)"
+          ],
+          "rows": [
+            {
+              "label": "1",
+              "values": [
+                "08:40",
+                "11:10",
+                "10:10 (奮起湖 경유)",
+                "13:10"
+              ]
+            },
+            {
+              "label": "2",
+              "values": [
+                "09:30",
+                "12:00",
+                "12:20 (奮起湖 경유)",
+                "15:20"
+              ]
+            },
+            {
+              "label": "3",
+              "values": [
+                "10:10",
+                "12:40",
+                "13:30",
+                "16:10"
+              ]
+            },
+            {
+              "label": "4",
+              "values": [
+                "11:00 (奮起湖 경유)",
+                "14:05",
+                "14:40",
+                "17:10"
+              ]
+            },
+            {
+              "label": "5",
+              "values": [
+                "13:10",
+                "15:40",
+                "16:40 (막차)",
+                "19:10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "모두 매일 다니는 台灣好行 아리산선 A선(7329·7329A) 시간이에요. 오르막은 약 2시간 30분, 奮起湖를 거치는 편은 30분쯤 더 걸립니다. 당일치기라면 <b>08:40에 올라가 16:40 막차로 내려오는 조합</b>이 산 위에서 가장 오래(약 5시간 30분) 머무는 방법이에요. 막차를 놓치면 그날은 이 노선으로 내려올 수 없으니 16:40은 꼭 기억해 두세요. 요금은 방문 전 공식 안내를 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-day-trip-tainan-bus-7329-1.jpg",
+          "caption": "아리산 국가삼림유락구 안쪽 도로와 임무국(林務局) 건물이에요(사진: Rasputinemark / Wikimedia Commons, CC BY-SA 4.0, 2020년 6월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 아리산 당일치기, 7329번 타는 곳과 내리는 곳"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "고속철 자이역 2번 출구 7번 승강장",
+              "desc": "공식 안내 기준 7329번은 고속철 자이역 2번 출구 쪽 7번 승강장에서 출발해요. 고속철에서 내려 바로 갈아탈 수 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "아리산에서는 轉運站 승강장",
+              "desc": "아리산 쪽 승하차는 삼림유락구 입구 매표소 오른쪽 앞의 아리산 轉運站이에요. 예전 정류장(세븐일레븐 대리 판매처)에서 옮겨졌으니 내려올 때 헷갈리지 마세요."
+            },
+            {
+              "mark": "✓",
+              "b": "奮起湖 경유 편은 정류장이 달라요",
+              "desc": "2026년 8월 1일부터 奮起湖 정류장이 '第一停車場'으로 바뀌었어요. 중간에 奮起湖에 들를 계획이라면 이곳에서 타고 내립니다."
+            },
+            {
+              "mark": "✓",
+              "b": "타이베이·타이중에서 온다면 B선도 있어요",
+              "desc": "일반열차(台鐵) 자이역 앞에서는 아리산선 B선이 출발해요. 고속철 자이역에서 BRT로 일반열차 자이역까지는 약 25분이라고 안내돼 있어요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "고속철로 자이까지 가서 7329번 버스로 2시간 30분쯤 올라갔고, 아리산에서 5시간 30분 정도 머문 뒤 16:40 버스로 내려와 고속철을 타고 20:06에 타이난에 도착했다는 기록이 있어요. — 네이버 카페 여행 기록을 요약했어요"
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-day-trip-tainan-bus-7329-2.jpg",
+          "caption": "7329번 버스가 출발하는 고속철 자이역 앞 광장이에요(사진: 象心力 / Wikimedia Commons, CC BY-SA 3.0, 2011년 7월)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 좌석 예약과 결제, 미리 알면 편한 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "29일 전부터 좌석 예약",
+              "desc": "阿里山easy go, 嘉義縣公車處 예약 시스템, FamiTicket(全網) 또는 패밀리마트 FamiPort에서 탑승일 29일 전부터 예약할 수 있어요. 예약 구간은 출발역~아리산 轉運站처럼 기점과 종점 사이만 됩니다."
+            },
+            {
+              "mark": "✓",
+              "b": "발차 10분 전 기사에게 체크인",
+              "desc": "예약표 QR을 발차 10분 전까지 기사에게 보여주고, 5분 전까지 체크인하지 않으면 줄 선 순서대로 자리가 넘어가요. 원래 편을 놓쳐도 그날 안에는 표를 들고 다른 편에 줄을 서서 빈자리에 탈 수 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "현금 말고 교통카드도 돼요",
+              "desc": "차내 현금 외에 이지카드(悠遊卡)·iPASS(一卡通)·icash, 悠遊付 등 QR 결제를 받는다고 안내돼 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "아이 기준은 키로",
+              "desc": "키 115~150cm 어린이는 반표, 115cm 미만이거나 6세 미만이면 어른과 함께일 때 무료예요(어른 1명당 2명까지, 자리를 차지하면 반표)."
+            },
+            {
+              "mark": "✓",
+              "b": "큰 짐은 줄이기",
+              "desc": "관광버스가 아닌 일반 버스라 짐칸이 좁다고 안내해요. 당일치기라면 캐리어는 숙소나 역 보관함에 두고 가볍게 타는 편이 낫습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-day-trip-tainan-bus-7329-3.jpg",
+          "caption": "유락구 산책로에 있는 자매못 중 언니못(姊潭)이에요(사진: Jāzeps Baško / Wikimedia Commons, CC BY 2.0, 2008년 1월)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 타이난 출발 하루 동선 예시"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "아침: 고속철 타이난역 → 자이역",
+              "desc": "08:40 버스에 맞춰 고속철을 타요. 열차 시간은 고속철 공식 시간표로 정하고, 버스 체크인 시간까지 여유를 두세요."
+            },
+            {
+              "mark": "2",
+              "b": "11:10 무렵: 아리산 도착",
+              "desc": "산 위에서 약 5시간 30분이 생겨요. 쟈오핑선·선무선 같은 산속 열차와 거목 산책로를 고르면 됩니다. 원글은 안개 낀 선무역 쪽 풍경을 추천했어요."
+            },
+            {
+              "mark": "3",
+              "b": "16:40: 막차로 하산",
+              "desc": "轉運站 승강장에서 16:40 버스를 타면 고속철 자이역에 19:10 예정이에요. 아이나 부모님과 함께라면 14:40 편(17:10 도착)으로 당겨도 좋습니다."
+            },
+            {
+              "mark": "4",
+              "b": "저녁: 고속철로 타이난 복귀",
+              "desc": "산길은 공사나 통제로 늦어질 수 있어요. 돌아가는 고속철은 넉넉히 잡거나 현장에서 정하는 편이 안전합니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 산길 버스, 이것만 조심하세요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "도착 시간은 예상치예요",
+              "desc": "중간 정류장 시간은 예상일 뿐이고 공사·예방 통제가 있으면 늦어진다고 공식 안내에 적혀 있어요. 출발 전 台灣好行 버스 동태 시스템으로 실제 위치를 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "화장실은 石棹에서",
+              "desc": "올라가는 길에 石棹 주유소에 잠시 서서 화장실을 쓸 수 있게 해 준다고 해요. 그날 도로 사정에 따라 다르니 필요하면 기사에게 미리 말하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "산 위는 쌀쌀해요",
+              "desc": "해발 약 200m에서 2,500m까지 올라가는 길이라 시내와 기온 차가 커요. 얇은 겉옷을 하나 챙기세요."
+            },
+            {
+              "mark": "✓",
+              "b": "영업시간은 미리 확인",
+              "desc": "산 위 식당과 매점은 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "아리산 안에서 쟈오핑선 열차와 입장권 세트를 쓸 계획이라면 <a href=\"/blog-alishan-zhaoping-line-ticket-exchange\">아리산 쟈오핑선 입장권 세트 교환법</a>을, 산 위와 일월담에서 먹을 곳은 <a href=\"/blog-alishan-sun-moon-lake-where-to-eat\">아리산·일월담 어디서 먹을까</a>를 함께 보세요. 타이중에서 내려오는 일정이라면 <a href=\"/blog-taichung-tainan-tra-vs-thsr\">타이중→타이난 일반열차 vs 고속철</a>도 도움이 돼요. 출발 전후 끼니는 <a href=\"/region-alishan\">아리산·자이 맛집 지도</a>와 <a href=\"/tainan-taiwanese\">타이난 대만 요리 맛집</a>에서 고르고, 자이 시내에 들른다면 <a href=\"/alishan-taiwanese-959\">자이 처터우 훠지러우판(嘉義車頭火雞肉飯)</a>도 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 台灣好行 공식 사이트의 아리산선 A선(7329·7329A) 시간표·노선 안내(타는 곳, 좌석 예약, 어린이 요금 기준, 奮起湖 정류장 변경), 공로총국 버스 시간표 조회(taiwanbus.tw), 嘉義縣公車處 아리산선 예약·버스 동태 사이트, 네이버 카페 여행 기록(타이난 출발 당일치기)을 바탕으로 2026년 10월 30일에 정리했어요. 산길 공사·통제로 시간이 늦어질 수 있으니 출발 전 버스 동태 시스템을 확인하세요. 요금은 방문 전 공식 안내를 확인하세요. 사진: Rasputinemark(CC BY-SA 4.0), 象心力(CC BY-SA 3.0), Jāzeps Baško(CC BY 2.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 아리산·자이 맛집도 확인해보세요",
+          "desc": "버스 타기 전후에 들를 곳을 지도에서 미리 골라 보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=alishan"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Alishan Day Trip by Bus 7329 · My Secret Taiwan Eats",
+      "metaDescription": "An Alishan day trip from Tainan by THSR and bus 7329: the October 2026 timetable, the 16:40 last bus down, where to board and how seat reservations work.",
+      "ogTitle": "Alishan Day Trip from Tainan: Can You Do It by Bus 7329?",
+      "eyebrow": "Alishan Travel Guide · Transport",
+      "title": "Alishan Day Trip from Tainan: Can You Do It by Bus 7329?",
+      "dek": "Take the 8:40 bus up and the 16:40 last bus down and you get five and a half hours on the mountain — it works if the timetable does.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Alishan · Transport",
+      "intro": "Can you do an Alishan day trip while staying in Tainan? Take the high-speed rail to Chiayi and bus 7329 up the mountain, and it fits in a day. THSR Tainan and Chiayi are neighbouring stations, so the only thing to time is the morning bus. The catch is that only a few buses come down each day and the last one leaves at 16:40. Based on the official Taiwan Tripper timetable, here are the October 2026 bus times, boarding points and how much time you get up top.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Bus 7329 timetable at a glance (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Dep. THSR Chiayi",
+            "Arr. Alishan (est.)",
+            "Dep. Alishan",
+            "Arr. THSR Chiayi (est.)"
+          ],
+          "rows": [
+            {
+              "label": "1",
+              "values": [
+                "08:40",
+                "11:10",
+                "10:10 (via Fenqihu)",
+                "13:10"
+              ]
+            },
+            {
+              "label": "2",
+              "values": [
+                "09:30",
+                "12:00",
+                "12:20 (via Fenqihu)",
+                "15:20"
+              ]
+            },
+            {
+              "label": "3",
+              "values": [
+                "10:10",
+                "12:40",
+                "13:30",
+                "16:10"
+              ]
+            },
+            {
+              "label": "4",
+              "values": [
+                "11:00 (via Fenqihu)",
+                "14:05",
+                "14:40",
+                "17:10"
+              ]
+            },
+            {
+              "label": "5",
+              "values": [
+                "13:10",
+                "15:40",
+                "16:40 (last bus)",
+                "19:10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "All run daily on Taiwan Tripper Alishan Line A (7329/7329A). The climb takes about 2.5 hours, and services via Fenqihu add around 30 minutes. For a day trip, <b>going up at 08:40 and coming down on the 16:40 last bus</b> gives you the most time on the mountain, about 5.5 hours. Miss the last bus and there is no later service on this route that day. Check the official information for fares before you go."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-day-trip-tainan-bus-7329-1.jpg",
+          "caption": "The road and Forestry Bureau building inside Alishan National Forest Recreation Area (photo: Rasputinemark / Wikimedia Commons, CC BY-SA 4.0, June 2020)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Where to board bus 7329 for an Alishan day trip"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "THSR Chiayi, Exit 2, platform 7",
+              "desc": "According to the official page, bus 7329 leaves from platform 7 by Exit 2 of THSR Chiayi Station, so you can transfer straight off the train."
+            },
+            {
+              "mark": "✓",
+              "b": "At Alishan: the transfer station platform",
+              "desc": "On the mountain, buses use the Alishan transfer station (轉運站) in front of and to the right of the recreation area's entrance ticket booth. It moved from the old stop by the 7-Eleven agent, so don't go to the wrong place on the way down."
+            },
+            {
+              "mark": "✓",
+              "b": "Fenqihu services use a different stop",
+              "desc": "Since 1 August 2026, the Fenqihu stop has been the First Parking Lot (第一停車場). Use it if you break the journey at Fenqihu."
+            },
+            {
+              "mark": "✓",
+              "b": "Line B from the TRA station",
+              "desc": "Alishan Line B leaves from in front of TRA Chiayi Station. The official page says the BRT from THSR Chiayi to TRA Chiayi takes about 25 minutes."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "One traveller took the THSR to Chiayi, rode bus 7329 for about 2.5 hours, spent around 5.5 hours on Alishan, caught the 16:40 bus down and was back in Tainan by THSR at 20:06. — summarised from a Naver café trip report"
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-day-trip-tainan-bus-7329-2.jpg",
+          "caption": "The forecourt of THSR Chiayi Station, where bus 7329 starts (photo: 象心力 / Wikimedia Commons, CC BY-SA 3.0, July 2011)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Seat reservations and payment"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Reserve up to 29 days ahead",
+              "desc": "Seats can be booked from 29 days before travel on Alishan easy go, the Chiayi County Bus reservation system, FamiTicket or FamiPort kiosks at FamilyMart. Reservations only cover terminal-to-terminal trips, such as the starting station to Alishan transfer station."
+            },
+            {
+              "mark": "✓",
+              "b": "Check in 10 minutes before",
+              "desc": "Show your QR to the driver 10 minutes before departure; if you haven't checked in 5 minutes before, your seat goes to the queue. If you miss your bus, the ticket lets you queue for spare seats on other services the same day."
+            },
+            {
+              "mark": "✓",
+              "b": "Transit cards accepted",
+              "desc": "Besides cash on board, the route accepts EasyCard, iPASS and icash, plus QR payments such as Easy Wallet."
+            },
+            {
+              "mark": "✓",
+              "b": "Child fares go by height",
+              "desc": "Children 115–150 cm pay half fare; under 115 cm or under 6 ride free with an adult (up to two per adult, half fare if they take a seat)."
+            },
+            {
+              "mark": "✓",
+              "b": "Travel light",
+              "desc": "These are regular buses with limited luggage space. On a day trip, leave big suitcases at your hotel or a station locker."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/alishan-day-trip-tainan-bus-7329-3.jpg",
+          "caption": "Elder Sister Pond (姊潭) on the recreation area's walking trails (photo: Jāzeps Baško / Wikimedia Commons, CC BY 2.0, January 2008)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · A sample day from Tainan"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Morning: THSR Tainan → Chiayi",
+              "desc": "Pick a train that gets you to the 08:40 bus with time to check in, using the official THSR timetable."
+            },
+            {
+              "mark": "2",
+              "b": "Around 11:10: arrive at Alishan",
+              "desc": "You get about 5.5 hours. Choose between the mountain trains such as the Zhaoping and Shenmu lines and the giant-tree trails. The original trip report recommended the misty scenery around Shenmu station."
+            },
+            {
+              "mark": "3",
+              "b": "16:40: last bus down",
+              "desc": "The 16:40 from the transfer station is due at THSR Chiayi at 19:10. With kids or older parents, the 14:40 (due 17:10) is a calmer option."
+            },
+            {
+              "mark": "4",
+              "b": "Evening: THSR back to Tainan",
+              "desc": "Mountain roads can be delayed by works or traffic control, so leave slack before your return train or buy it on the spot."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · Mountain bus tips"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Arrival times are estimates",
+              "desc": "The official page says intermediate times are estimates and roadworks or preventive closures cause delays. Check the Taiwan Tripper live bus system before you leave."
+            },
+            {
+              "mark": "✓",
+              "b": "Toilet stop at Shizhuo",
+              "desc": "On the way up, buses may pause at the Shizhuo (石棹) petrol station for a toilet break, depending on the day's road conditions. Tell the driver in advance if you need it."
+            },
+            {
+              "mark": "✓",
+              "b": "It's cooler up there",
+              "desc": "The road climbs from about 200 m to 2,500 m, so the temperature drops a lot. Bring a light jacket."
+            },
+            {
+              "mark": "✓",
+              "b": "Check opening hours",
+              "desc": "For restaurants and shops on the mountain, check the current opening hours on Google Maps before you go."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If you plan to ride the Zhaoping Line with a combo ticket, see <a href=\"/blog-alishan-zhaoping-line-ticket-exchange\">where to exchange the Alishan Zhaoping Line combo QR</a>, and for meals on the mountain, <a href=\"/blog-alishan-sun-moon-lake-where-to-eat\">where to eat at Alishan and Sun Moon Lake</a>. Coming down from Taichung? <a href=\"/blog-taichung-tainan-tra-vs-thsr\">Taichung to Tainan by TRA vs THSR</a> helps too. For meals before or after, browse the <a href=\"/region-alishan\">Alishan & Chiayi food map</a> and <a href=\"/tainan-taiwanese\">Tainan Taiwanese restaurants</a>, or the <a href=\"/alishan-taiwanese-959\">Chiayi Chetou turkey rice (嘉義車頭火雞肉飯)</a> page if you stop in Chiayi city."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 30 October 2026 from the Taiwan Tripper official site's Alishan Line A (7329/7329A) timetable and route page (boarding points, seat reservations, child fare rules, Fenqihu stop change), the Directorate General of Highways timetable lookup (taiwanbus.tw), the Chiayi County Bus reservation and live-bus site, and a Naver café trip report (a day trip from Tainan). Mountain roadworks and traffic control can cause delays, so check the live bus system before you go. Check the official information for fares before you go. Photos: Rasputinemark (CC BY-SA 4.0), 象心力 (CC BY-SA 3.0), Jāzeps Baško (CC BY 2.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Alishan & Chiayi eats on the map",
+          "desc": "Pick places to stop before or after the bus.",
+          "btn": "Open Map →",
+          "href": "/map?region=alishan"
+        }
+      ]
+    }
+  },
   "taichung-kids-science-museum-921-opera": {
     "heroImage": "assets/images/blog/taichung-kids-science-museum-921-opera-1.jpg",
     "ko": {
