@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taichung-gaomei-wetland-miyahara-rainbow-village-tour-eats",
+    "image": "assets/images/attractions/taichung/gaomei-wetland.webp",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "타이중 여행 가이드 · 볼거리·먹거리",
+      "title": "가오메이 습지·궁원안과·무지개마을 투어, 타이중 시내에선 뭘 먹을까?",
+      "desc": "타이중 가오메이 습지, 궁원안과, 무지개마을이 어떤 곳인지와 꼭 볼 것, 투어 중 들르는 궁원안과 근처 지도 속 맛집을 정리했어요.",
+      "meta": "타이중 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Taichung Travel Guide · Sights & Food",
+      "title": "Gaomei Wetlands, Miyahara & Rainbow Village Tour: What to Eat in Central Taichung",
+      "desc": "What Taichung's Gaomei Wetlands, Miyahara and Rainbow Village are, what not to miss, and restaurants from our map near Miyahara, where the tour stops.",
+      "meta": "Taichung · Sights & Food"
+    }
+  },
+  {
     "slug": "alishan-day-trip-tainan-bus-7329",
     "image": "assets/images/blog/alishan-day-trip-tainan-bus-7329-1.jpg",
     "regions": [
@@ -1582,6 +1601,271 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taichung-gaomei-wetland-miyahara-rainbow-village-tour-eats": {
+    "heroImage": "assets/images/attractions/taichung/gaomei-wetland.webp",
+    "ko": {
+      "pageTitle": "가오메이 습지·궁원안과·무지개마을 일일투어·근처 맛집 — 타이중 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이중 가오메이 습지, 궁원안과, 무지개마을이 어떤 곳인지와 꼭 볼 것, 투어 중 들르는 궁원안과 근처 지도 속 맛집을 정리했어요.",
+      "ogTitle": "가오메이 습지·궁원안과·무지개마을 투어, 타이중 시내에선 뭘 먹을까?",
+      "eyebrow": "타이중 여행 가이드 · 볼거리·먹거리",
+      "title": "가오메이 습지·궁원안과·무지개마을 투어, 타이중 시내에선 뭘 먹을까?",
+      "dek": "노을 명소와 벽화 마을, 옛 안과 건물을 도는 투어 전에, 궁원안과 근처 맛집을 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이중 · 볼거리·먹거리",
+      "intro": "타이중(臺中) 명소 가운데 가오메이 습지(高美濕地), 궁원안과(宮原眼科), 무지개마을(彩虹眷村)은 서로 떨어져 있어서 하루에 묶으려면 투어가 편해요. 타이중역 옆 궁원안과 주변에는 지도에 등록된 맛집이 많아서 그 근처에서 한 끼를 해결하기 좋아요. 交通部觀光署와 臺中觀光旅遊網 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 세 곳은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "가오메이 습지는 大甲溪 하구 남쪽의 약 701.3헥타르 습지로 120종 넘는 새가 찾아오는 생태 보호구역이에요. 궁원안과는 1927년 지은 옛 안과 병원을 日出 팀이 디저트 가게로 바꾼 곳이고, 무지개마을은 黃永阜 할아버지의 그림이 골목 벽과 바닥을 덮은 작은 마을이에요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/taichung/gaomei-wetland.webp",
+          "caption": "노을 진 가오메이 습지 나무 데크와 풍력 발전기예요(사진: 劉柏辰 (Buslion Liu) / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "가오메이 습지 노을",
+              "desc": "바다 쪽 풍력 발전기 뒤로 해가 지는 풍경이 가장 유명해요. 갯벌 위 나무 데크는 물때에 맞춰 열려요."
+            },
+            {
+              "mark": "✓",
+              "b": "궁원안과 책장 진열대",
+              "desc": "천장까지 닿는 책장 모양 진열대가 볼거리이고, 아이스크림과 펑리수 같은 선물용 과자가 인기예요."
+            },
+            {
+              "mark": "✓",
+              "b": "무지개마을",
+              "desc": "어디를 찍어도 색이 선명해서 사진 찍기 좋아요. 30분~1시간이면 둘러볼 수 있어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "투어로 가기",
+              "desc": "일정, 포함 사항, 출발 장소와 시간은 상품 옵션마다 달라요. 예약 전에 클룩 상품 페이지에서 꼭 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F102390-taichung-day-tour-from-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 가오메이 습지 타이중 투어 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 궁원안과 근처에서 들르기 좋은 맛집"
+        },
+        {
+          "type": "p",
+          "html": "궁원안과에서 0.3km 안쪽, 타이중역 앞에 지도에 등록된 가게가 모여 있어요. 아래 거리는 궁원안과에서 잰 직선거리예요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taichung-shaved_ice-333\">궁원안과 미야하라아이스크림</a> · 빙수 · 궁원안과 건물 안",
+              "desc": "지도에 빙수(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taichung-hotpot-taiwan-chen-hot-pot-314\">Taiwan Chen Hot Pot</a> · 훠궈 · 북서쪽 약 0.1km",
+              "desc": "지도에 훠궈(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taichung-bakery-abu-s-scone-store-341\">Abu's Scone Store</a> · 베이커리 · 북서쪽 약 0.2km",
+              "desc": "지도에 베이커리(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taichung-shaved_ice-4-805\">제4신용합작소</a> · 빙수 · 북서쪽 약 0.2km",
+              "desc": "지도 메모: 식사 후 들른 아이스크림집. 2층이 여유롭고 매장·화장실이 깨끗해 편했다."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/taichung-taiwanese-taichung-traditional-cuisine-370\">Taichung Traditional Cuisine</a> · 대만식 · 북동쪽 약 0.2km",
+              "desc": "지도에 대만식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/taichung-vietnamese-petit-ete-362\">小夏天 petit ete</a> · 베트남 · 북서쪽 약 0.2km",
+              "desc": "지도에 베트남(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/taichung-breakfast-337\">時光 (早餐 / 甜點 / 咖啡)</a> · 조식 · 북서쪽 약 0.3km",
+              "desc": "지도에 조식(으)로 등록된 곳이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 交通部觀光署의 高美濕地·宮原眼科·彩虹眷村 안내와 臺中觀光旅遊網 자료를 바탕으로 2026년 10월 기준으로 정리했습니다. 투어 일정과 요금은 클룩 상품 페이지를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: 劉柏辰 (Buslion Liu), Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중 맛집도 확인해보세요",
+          "desc": "투어 앞뒤로 들를 타이중 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Gaomei Wetlands, Miyahara & Rainbow Village Day Tour & Nearby Eats — Taichung · My Secret Taiwan Eats",
+      "metaDescription": "What Taichung's Gaomei Wetlands, Miyahara and Rainbow Village are, what not to miss, and restaurants from our map near Miyahara, where the tour stops.",
+      "ogTitle": "Gaomei Wetlands, Miyahara & Rainbow Village Tour: What to Eat in Central Taichung",
+      "eyebrow": "Taichung Travel Guide · Sights & Food",
+      "title": "Gaomei Wetlands, Miyahara & Rainbow Village Tour: What to Eat in Central Taichung",
+      "dek": "Before a tour of a sunset spot, a mural village and an old eye clinic building, check out restaurants near Miyahara.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taichung · Sights & Food",
+      "intro": "Among Taichung's (臺中) sights, Gaomei Wetlands (高美濕地), Miyahara (宮原眼科) and Rainbow Village (彩虹眷村) are far apart, so a tour is the easy way to combine them in one day. There are many restaurants on our map around Miyahara, next to Taichung Station, so it's a good place for a meal. Based on 交通部觀光署 and 臺中觀光旅遊網 information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Are the Three Stops?"
+        },
+        {
+          "type": "p",
+          "html": "Gaomei Wetlands is an ecological reserve of about 701.3 hectares south of the 大甲溪 estuary, visited by more than 120 bird species. Miyahara is a former eye clinic built in 1927 that the 日出 team turned into a dessert shop, and Rainbow Village is a small village where Grandpa 黃永阜's paintings cover the alley walls and ground."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/taichung/gaomei-wetland.webp",
+          "caption": "The boardwalk and wind turbines at Gaomei Wetlands at sunset (photo: 劉柏辰 (Buslion Liu) / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What Not to Miss"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Sunset at Gaomei Wetlands",
+              "desc": "The sun setting behind the wind turbines by the sea is the most famous view. The boardwalk over the mudflats opens according to the tides."
+            },
+            {
+              "mark": "✓",
+              "b": "Miyahara's bookshelf displays",
+              "desc": "The bookshelf-style displays reaching the ceiling are the highlight, and ice cream and gift sweets like pineapple cake are popular."
+            },
+            {
+              "mark": "✓",
+              "b": "Rainbow Village",
+              "desc": "The colours are vivid wherever you point the camera, so it's great for photos. You can see it in 30 minutes to an hour."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Going on a tour",
+              "desc": "Schedule, inclusions, departure point and time vary by product option. Check the Klook product page before you book."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F102390-taichung-day-tour-from-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See the Gaomei Wetlands Taichung tour on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Restaurants Near Miyahara"
+        },
+        {
+          "type": "p",
+          "html": "Places on our map cluster within 0.3 km of Miyahara, in front of Taichung Station. Distances below are straight-line from Miyahara."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taichung-shaved_ice-333\">宮原眼科 Miyahara Ice Cream</a> · Shaved Ice · inside the Miyahara building",
+              "desc": "Listed as shaved ice on the map."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taichung-hotpot-taiwan-chen-hot-pot-314\">Taiwan Chen Hot Pot</a> · Hot Pot · about 0.1 km northwest",
+              "desc": "Listed as hot pot on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taichung-bakery-abu-s-scone-store-341\">Abu's Scone Store</a> · Bakery · about 0.2 km northwest",
+              "desc": "Listed as bakery on the map."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taichung-shaved_ice-4-805\">第四信用合作社 (Dai-Shin Cooperative ice shop)</a> · Shaved Ice · about 0.2 km northwest",
+              "desc": "Map note: An ice cream stop after a meal. The 2nd floor was relaxed, and the shop and restrooms were clean and comfortable."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/taichung-taiwanese-taichung-traditional-cuisine-370\">Taichung Traditional Cuisine</a> · Taiwanese · about 0.2 km northeast",
+              "desc": "Listed as Taiwanese on the map."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/taichung-vietnamese-petit-ete-362\">小夏天 petit ete</a> · Vietnamese · about 0.2 km northwest",
+              "desc": "Listed as Vietnamese on the map."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/taichung-breakfast-337\">時光 (早餐 / 甜點 / 咖啡)</a> · Breakfast · about 0.3 km northwest",
+              "desc": "Listed as breakfast on the map."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on 交通部觀光署's information on 高美濕地, 宮原眼科 and 彩虹眷村 and 臺中觀光旅遊網, as of October 2026. For tour schedules and prices, check the Klook product page. Restaurant distances are straight-line from the coordinates registered on our map. Photo: 劉柏辰 (Buslion Liu), Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taichung eats on the map",
+          "desc": "Save Taichung restaurants to visit before or after your tour.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung"
+        }
+      ]
+    }
+  },
   "alishan-day-trip-tainan-bus-7329": {
     "heroImage": "assets/images/blog/alishan-day-trip-tainan-bus-7329-1.jpg",
     "ko": {
