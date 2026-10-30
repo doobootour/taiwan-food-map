@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "pingtung-indigenous-park-day-trip",
+    "image": "assets/images/blog/pingtung-indigenous-park-day-trip-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝·핑둥 여행 가이드 · 당일치기",
+      "title": "핑둥 원주민 문화원구, 가오슝에서 당일치기 될까?",
+      "desc": "가오슝에서 하루가 비면 핑둥 원주민 문화원구에 가 볼까요? 수이먼 환승 동선, 공연 시간, 평일 셔틀 예약과 현금 준비를 담았어요.",
+      "meta": "가오슝·핑둥 · 당일치기"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung & Pingtung Travel Guide · Day Trip",
+      "title": "Taiwan Indigenous Peoples Cultural Park: A Day Trip from Kaohsiung?",
+      "desc": "A free day in Kaohsiung? How to reach the Indigenous Peoples Cultural Park via Shuimen, show times, weekday shuttle booking and why to bring cash.",
+      "meta": "Kaohsiung & Pingtung · Day Trip"
+    }
+  },
+  {
     "slug": "taipei-restaurant-easycard-payment",
     "image": "assets/images/blog/taipei-restaurant-easycard-payment-1.jpg",
     "regions": [
@@ -1620,6 +1639,429 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "pingtung-indigenous-park-day-trip": {
+    "heroImage": "assets/images/blog/pingtung-indigenous-park-day-trip-1.jpg",
+    "ko": {
+      "pageTitle": "핑둥 원주민 문화원구 — 가는 법·공연 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "핑둥 원주민 문화원구는 가오슝에서 당일치기로 다녀올 수 있어요. 2026년 10월 기준 월요일 휴관, 10:30·14:30 공연, 수이먼 환승과 평일 셔틀 예약을 정리했어요.",
+      "ogTitle": "핑둥 원주민 문화원구, 가오슝에서 당일치기 될까?",
+      "eyebrow": "가오슝·핑둥 여행 가이드 · 당일치기",
+      "title": "핑둥 원주민 문화원구, 가오슝에서 당일치기 될까?",
+      "dek": "월요일 휴관과 공연 두 번, 그리고 수이먼에서 갈아타는 마지막 구간만 챙기면 하루 코스로 충분합니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝·핑둥 · 당일치기",
+      "intro": "핑둥 원주민 문화원구(臺灣原住民族文化園區)는 가오슝에서 하루가 비었을 때 가 볼 만한 곳으로 자주 이야기돼요. 핑둥현 마자향(瑪家鄉)에 있는 대만 원주민 16개 부족의 전통 가옥과 공연을 한곳에서 볼 수 있는 원구라서, 가는 길만 알면 반나절 이상 알차게 보낼 수 있습니다. 원구 공식 안내를 기준으로 2026년 10월 현재 개방일, 공연 시간, 버스·셔틀 동선과 현금 준비까지 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 핑둥 원주민 문화원구, 한눈에 보기 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "공식 안내",
+            "여행 팁"
+          ],
+          "rows": [
+            {
+              "label": "개방",
+              "values": [
+                "화~일 08:30~17:00, 매주 월요일 휴원",
+                "월요일이 공휴일이면 개방, 연휴 다음 날 쉬는 경우 있음"
+              ]
+            },
+            {
+              "label": "가무 공연",
+              "values": [
+                "매일 10:30·14:30 가무관(歌舞館), 약 40~50분",
+                "좌석표를 받아야 해요(현장·온라인 수량 따로)"
+              ]
+            },
+            {
+              "label": "환영 공연",
+              "values": [
+                "09:30·16:30 입구 왼쪽 광장, 약 10분",
+                "일찍 도착하면 볼 수 있어요"
+              ]
+            },
+            {
+              "label": "입장료",
+              "values": [
+                "성인 NT$150, 학생 NT$80",
+                "원구 안 결제는 현금만, 카드 안 됨"
+              ]
+            },
+            {
+              "label": "대중교통",
+              "values": [
+                "수이먼 전운참(水門轉運站)에서 환승",
+                "평일은 셔틀 예약, 주말은 603B 버스"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "공식 안내에는 <b>매주 월요일 휴원(공휴일이면 개방)</b>이 기본이고, 2026년에는 9월 28일·10월 26일(월)을 열고 다음 날인 9월 29일·10월 27일(화)을 쉬는 식으로 조정 공지가 나왔어요. 연휴 전후에 간다면 최신 공지를 꼭 보세요. 입장료에는 가무 공연, 문화 체험, 예약제 해설이 포함돼 있습니다."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/pingtung-indigenous-park-day-trip-1.jpg",
+          "caption": "원주민 문화원구에서 촬영된 유리구슬(琉璃珠) 공예 작업대 모습이에요. 구슬 굽기 체험은 2026년 11월 8·10·26·29일 시설 점검으로 쉰다고 공지됐어요(사진: Sin-siōng / Wikimedia Commons, CC BY-SA 4.0, 2024년 1월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 가오슝에서 핑둥 원주민 문화원구 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "기차로 핑둥역까지",
+              "desc": "대만철도로 핑둥역에 내린 뒤 수이먼·싼디먼 방면 핑둥커윈(屏東客運) 버스(8227·8228·8229·8231·8232번)를 타고 수이먼 전운참에서 내려요."
+            },
+            {
+              "mark": "2",
+              "b": "신쭤잉역에서 바로",
+              "desc": "대만철도 신쭤잉(新左營)역에서 고웅커윈(高雄客運) 511번을 타면 수이먼 전운참까지 한 번에 가요. 고속철로 쭤잉에 도착하는 일정이라면 이쪽이 편합니다."
+            },
+            {
+              "mark": "3",
+              "b": "주말·공휴일은 603B",
+              "desc": "수이먼 전운참에서 원구까지 고웅커윈 603B가 주말·공휴일에 하루 8회 다닌다고 안내돼 있어요. 시각은 출발 전 버스 회사 안내로 확인하세요."
+            },
+            {
+              "mark": "4",
+              "b": "평일은 원구 셔틀 예약",
+              "desc": "화~금요일에는 원구 전동 셔틀이 수이먼 전운참과 원구를 약 10분에 이어요. 원구 공식 사이트의 接駁車預約이나 전화(08-7991219 내선 238)로 미리 예약해야 하고, 좌석이 차면 마감됩니다."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "가오슝에서 핑둥까지 급행열차로 20분 정도였고, 핑둥역에서는 택시를 탔는데 버스로도 갈 수 있었어요. 공연까지 보고 셔틀로 원구를 도니 4시간쯤 걸렸어요. — 2026년 1월 네이버 카페 여행자 글을 요약했어요"
+        },
+        {
+          "type": "h2",
+          "text": "03 · 공연 시간에 맞춘 하루 동선"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "평일 셔틀 시각 (2026년 10월 기준)",
+              "desc": "수이먼 출발 09:00·10:00·13:00·15:00, 원구 출발 08:50·09:50·12:50·14:50·16:50이에요. 셔틀은 원구 대형버스 주차장 정류장에서 타요."
+            },
+            {
+              "mark": "✓",
+              "b": "오전 공연을 보려면",
+              "desc": "10:30 공연에 맞추려면 수이먼 09:00 셔틀이 여유 있어요. 10:00 셔틀은 도착 후 표를 받고 가무관까지 이동하기 빠듯할 수 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "오후 공연 뒤 돌아오기",
+              "desc": "14:30 공연은 약 40~50분이라, 끝나고 원구를 더 둘러본 뒤 16:50 셔틀로 나오는 흐름이 무난해요."
+            },
+            {
+              "mark": "✓",
+              "b": "공연 내용은 날마다 달라요",
+              "desc": "가무관 공연은 부족별 프로그램이 기간마다 바뀌어요. 공식 歌舞節目 페이지에서 날짜별 공연명과 남은 좌석을 볼 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/pingtung-indigenous-park-day-trip-2.jpg",
+          "caption": "원주민 문화원구로 가는 버스를 갈아타는 수이먼 전운참(水門轉運站)이에요. 평일 셔틀과 주말 603B 버스가 여기서 출발해요(사진: 雅婕 / Wikimedia Commons, CC BY-SA 4.0, 2021년 3월, 아래 날짜 표시 부분은 잘라냄)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 원구 안에서 챙길 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "현금 필수",
+              "desc": "공식 안내 기준 원구 안 결제는 모두 현금이고 카드는 받지 않아요. 입장료와 간식·기념품 값은 미리 현금으로 준비하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "원구가 넓고 산길이에요",
+              "desc": "원구 안은 셔틀(遊園車)이 산길을 따라 구역을 이어요. 16개 부족 전통 가옥이 여러 구역에 흩어져 있어 동선을 미리 보고 가면 좋아요."
+            },
+            {
+              "mark": "✓",
+              "b": "문화 체험은 화~일 08:30~16:30",
+              "desc": "팽이 돌리기·대나무 악기 같은 체험과 활쏘기, 엮기 체험이 있어요. 활쏘기는 12세 이상만 가능하고 12:00~13:00은 쉬어요."
+            },
+            {
+              "mark": "✓",
+              "b": "유모차·휠체어는 직접",
+              "desc": "원구에서 유모차와 휠체어를 빌려주지 않는다고 안내돼 있어요. 장애인 화장실과 수유실은 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 핑둥 원주민 문화원구 가기 전 체크리스트"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "요일 확인",
+              "desc": "월요일·연휴 다음 날 휴원 공지를 먼저 보세요."
+            },
+            {
+              "mark": "2",
+              "b": "평일이면 셔틀 예약",
+              "desc": "화~금요일은 수이먼 셔틀을 미리 예약하고, 주말이면 603B 시각을 확인하세요."
+            },
+            {
+              "mark": "3",
+              "b": "공연 좌석표",
+              "desc": "가무 공연은 좌석표를 받아야 하니 입장할 때 함께 챙기세요."
+            },
+            {
+              "mark": "4",
+              "b": "돌아오는 차편",
+              "desc": "마지막 셔틀(16:50)이나 버스 시각을 정해 두고, 핑둥·신쭤잉 기차 시각도 미리 보세요. 요금은 방문 전 공식 안내를 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가오슝 시내 일정은 <a href=\"/blog-kaohsiung-solo-trip-budget-transport\">가오슝 혼자 여행 교통·예산</a>을, 511번 버스가 출발하는 신쭤잉역에서 밥까지 해결하려면 <a href=\"/blog-kaohsiung-zuoying-thsr-transfer-meal\">쭤잉 고속철 환승 식사</a>를 보세요. 다른 근교 하루 코스가 궁금하면 <a href=\"/blog-kaohsiung-fo-guang-shan-with-parents-checklist\">부모님과 포광산 가기</a>도 있어요. 돌아와서 먹을 곳은 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>와 <a href=\"/kaohsiung-street_food\">가오슝 길거리 음식</a>에서 고르고, 저녁 산책은 <a href=\"/kaohsiung-attraction\">가오슝 볼거리</a> 중 <a href=\"/kaohsiung-attraction-neiwei-night-market-294\">네이웨이 야시장(內惟)</a>을 묶어 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 원주민족위원회 원주민족문화발전센터(臺灣原住民族文化園區) 공식 사이트의 票價及營業時間, 歌舞節目 일정표, 交通資訊·接駁車預約, 文化體驗, 최신 공지(2026년 하반기 휴원일 조정, 琉璃珠 체험 일시 중단)와 네이버 카페 여행자 글 1건(2026년 1월)을 바탕으로 2026년 10월 31일에 정리했어요. 공연 프로그램·셔틀 시각·휴원일은 바뀔 수 있으니 출발 전에 공식 사이트를 다시 확인하는 것을 추천해요. 사진: Sin-siōng, 雅婕(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 맛집도 확인해보세요",
+          "desc": "원구에서 돌아와 저녁 먹을 곳을 가오슝 지도에서 미리 골라 보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Indigenous Peoples Cultural Park Day Trip · My Secret Taiwan Eats",
+      "metaDescription": "Visiting the Taiwan Indigenous Peoples Cultural Park from Kaohsiung: Monday closures, 10:30 and 14:30 shows, the Shuimen bus hub and weekday shuttles (Oct 2026).",
+      "ogTitle": "Taiwan Indigenous Peoples Cultural Park: A Day Trip from Kaohsiung?",
+      "eyebrow": "Kaohsiung & Pingtung Travel Guide · Day Trip",
+      "title": "Taiwan Indigenous Peoples Cultural Park: A Day Trip from Kaohsiung?",
+      "dek": "Mind the Monday closure, the two daily shows and the last leg from Shuimen, and it works as a day trip.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung & Pingtung · Day Trip",
+      "intro": "The Taiwan Indigenous Peoples Cultural Park (臺灣原住民族文化園區) often comes up as a good use of a spare day in Kaohsiung. Set in Majia Township (瑪家鄉), Pingtung, it brings together traditional houses and performances of Taiwan's 16 Indigenous peoples, so once you know the route you can easily fill half a day or more. Based on the park's official information, here are the opening days, show times, bus and shuttle connections and cash tips as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · The cultural park at a glance (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Official information",
+            "Travel tip"
+          ],
+          "rows": [
+            {
+              "label": "Opening",
+              "values": [
+                "Tue–Sun 08:30–17:00, closed Mondays",
+                "Open on Monday public holidays; may close the day after a long weekend"
+              ]
+            },
+            {
+              "label": "Dance show",
+              "values": [
+                "Daily 10:30 and 14:30 at the Dance Hall (歌舞館), about 40–50 min",
+                "You need a seat ticket (separate on-site and online quotas)"
+              ]
+            },
+            {
+              "label": "Welcome song",
+              "values": [
+                "09:30 and 16:30, plaza left of the entrance, about 10 min",
+                "Arrive early to catch it"
+              ]
+            },
+            {
+              "label": "Admission",
+              "values": [
+                "Adult NT$150, student NT$80",
+                "Cash only inside the park, no cards"
+              ]
+            },
+            {
+              "label": "Public transport",
+              "values": [
+                "Change at Shuimen Bus Station (水門轉運站)",
+                "Weekday shuttle by booking; bus 603B at weekends"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The park is <b>closed every Monday (open if it's a public holiday)</b>. For 2026 it announced openings on Monday 28 September and 26 October with closures on the following Tuesdays, 29 September and 27 October, so check the latest notice around long weekends. Admission includes the dance show, cultural experiences and booked guided tours."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/pingtung-indigenous-park-day-trip-1.jpg",
+          "caption": "A glass-bead (琉璃珠) workbench photographed at the cultural park. The park says the bead-firing demo pauses on 8, 10, 26 and 29 November 2026 for maintenance (photo: Sin-siōng / Wikimedia Commons, CC BY-SA 4.0, January 2024)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Getting there from Kaohsiung"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Train to Pingtung",
+              "desc": "Take a TRA train to Pingtung Station, then a Pingtung Bus (屏東客運) towards Shuimen/Sandimen (routes 8227, 8228, 8229, 8231 or 8232) to Shuimen Bus Station."
+            },
+            {
+              "mark": "2",
+              "b": "Direct from Xinzuoying",
+              "desc": "Kaohsiung Bus (高雄客運) 511 runs from TRA Xinzuoying (新左營) Station to Shuimen Bus Station, handy if you arrive by high-speed rail at Zuoying."
+            },
+            {
+              "mark": "3",
+              "b": "Weekends: bus 603B",
+              "desc": "Kaohsiung Bus 603B runs from Shuimen to the park eight times a day on weekends and holidays. Check times with the bus company before you go."
+            },
+            {
+              "mark": "4",
+              "b": "Weekdays: book the park shuttle",
+              "desc": "Tuesday to Friday, the park's electric shuttle links Shuimen and the park in about 10 minutes. Book ahead via 接駁車預約 on the official site or by phone (08-7991219 ext. 238); seats are limited."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "It was about 20 minutes from Kaohsiung to Pingtung by express train. I took a taxi from Pingtung Station, though buses go too. With the show and the shuttle around the park, it took about four hours. — summarised from a January 2026 Naver café traveller post"
+        },
+        {
+          "type": "h2",
+          "text": "03 · Planning the day around the shows"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Weekday shuttle times (Oct 2026)",
+              "desc": "From Shuimen 09:00, 10:00, 13:00, 15:00; from the park 08:50, 09:50, 12:50, 14:50, 16:50. Board at the coach car park stop inside the park."
+            },
+            {
+              "mark": "✓",
+              "b": "For the morning show",
+              "desc": "The 09:00 shuttle from Shuimen gives you time for the 10:30 show. The 10:00 shuttle can be tight once you collect a seat ticket and walk to the hall."
+            },
+            {
+              "mark": "✓",
+              "b": "After the afternoon show",
+              "desc": "The 14:30 show runs 40–50 minutes, so exploring afterwards and taking the 16:50 shuttle out works well."
+            },
+            {
+              "mark": "✓",
+              "b": "Programmes change",
+              "desc": "Each period features a different people's programme. The official 歌舞節目 page lists the show name and remaining seats by date."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/pingtung-indigenous-park-day-trip-2.jpg",
+          "caption": "Shuimen Bus Station (水門轉運站), where you change buses for the cultural park. The weekday shuttle and weekend 603B bus leave from here (photo: 雅婕 / Wikimedia Commons, CC BY-SA 4.0, March 2021, cropped to remove the date stamp)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Inside the park"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Bring cash",
+              "desc": "Officially, all payments inside the park are cash only. Have cash ready for admission, snacks and souvenirs."
+            },
+            {
+              "mark": "✓",
+              "b": "Big, hilly grounds",
+              "desc": "A park shuttle (遊園車) climbs the mountain road between zones, and the 16 peoples' traditional houses are spread across several areas, so look at the map first."
+            },
+            {
+              "mark": "✓",
+              "b": "Experiences Tue–Sun 08:30–16:30",
+              "desc": "Try traditional toys and bamboo instruments, archery and weaving. Archery is for ages 12 and up, with a 12:00–13:00 break."
+            },
+            {
+              "mark": "✓",
+              "b": "Bring your own stroller or wheelchair",
+              "desc": "The park doesn't lend strollers or wheelchairs. Accessible toilets and a nursing room are available."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · Checklist before you go"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Check the day",
+              "desc": "Look for Monday and post-holiday closure notices first."
+            },
+            {
+              "mark": "2",
+              "b": "Book the shuttle on weekdays",
+              "desc": "Tuesday to Friday, book the Shuimen shuttle; at weekends, check 603B times."
+            },
+            {
+              "mark": "3",
+              "b": "Show seat ticket",
+              "desc": "Collect a seat ticket for the dance show when you enter."
+            },
+            {
+              "mark": "4",
+              "b": "Plan the way back",
+              "desc": "Fix your last shuttle (16:50) or bus, and check trains from Pingtung or Xinzuoying. Check the official information for fares before you go."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For getting around Kaohsiung itself, see <a href=\"/blog-kaohsiung-solo-trip-budget-transport\">Kaohsiung solo trip: transport and budget</a>, and for a meal at Xinzuoying, where bus 511 starts, <a href=\"/blog-kaohsiung-zuoying-thsr-transfer-meal\">eating at Zuoying HSR station</a>. Looking for another day out? Try <a href=\"/blog-kaohsiung-fo-guang-shan-with-parents-checklist\">Fo Guang Shan with parents</a>. Back in town, pick dinner on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a> or among <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a>, and pair an evening walk from <a href=\"/kaohsiung-attraction\">Kaohsiung sights</a> such as <a href=\"/kaohsiung-attraction-neiwei-night-market-294\">Neiwei night market</a>."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 31 October 2026 from the official site of the Indigenous Peoples Cultural Development Center (臺灣原住民族文化園區): tickets and hours, the dance-programme schedule, transport and shuttle-booking pages, cultural-experience listings and recent notices (2026 second-half closure changes, glass-bead demo pauses), plus one Naver café traveller post (January 2026). Show programmes, shuttle times and closure days can change, so check the official site again before you go. Photos: Sin-siōng and 雅婕 (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung eats on the map",
+          "desc": "Pick a dinner spot for when you're back from the park.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    }
+  },
   "taipei-restaurant-easycard-payment": {
     "heroImage": "assets/images/blog/taipei-restaurant-easycard-payment-1.jpg",
     "ko": {
