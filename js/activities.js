@@ -90,7 +90,8 @@ const ACTIVITIES = [
   "lat": 23.53245,
   "lng": 120.805053,
   "line": "거목 숲길과 펀치후 옛 거리를 도는 아리산 투어",
-  "url": "https://affiliate.klook.com/redirect?aid=42148&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F86344-alishan-day-tour-from-taichung-chiayi-kaohsiung%2F"
+  "url": "https://affiliate.klook.com/redirect?aid=42148&k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F86344-alishan-day-tour-from-taichung-chiayi-kaohsiung%2F",
+  "blog": "/blog-alishan-day-trip-tainan-bus-7329"
  },
  {
   "id": "8875",
