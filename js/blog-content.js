@@ -1801,6 +1801,14 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
+          "html": "버스 시간표를 맞추고 갈아타는 게 부담스럽다면, 타이중·자이·가오슝에서 차량으로 데려다주는 아리산 일일투어도 있어요. 거목 숲길과 펀치후 옛 거리까지 하루에 둘러볼 수 있어 처음 가는 분께 편해요."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F86344-alishan-day-tour-from-taichung-chiayi-kaohsiung%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 아리산 일일투어 보기 →</a>"
+        },
+        {
+          "type": "p",
           "html": "아리산 안에서 쟈오핑선 열차와 입장권 세트를 쓸 계획이라면 <a href=\"/blog-alishan-zhaoping-line-ticket-exchange\">아리산 쟈오핑선 입장권 세트 교환법</a>을, 산 위와 일월담에서 먹을 곳은 <a href=\"/blog-alishan-sun-moon-lake-where-to-eat\">아리산·일월담 어디서 먹을까</a>를 함께 보세요. 타이중에서 내려오는 일정이라면 <a href=\"/blog-taichung-tainan-tra-vs-thsr\">타이중→타이난 일반열차 vs 고속철</a>도 도움이 돼요. 출발 전후 끼니는 <a href=\"/region-alishan\">아리산·자이 맛집 지도</a>와 <a href=\"/tainan-taiwanese\">타이난 대만 요리 맛집</a>에서 고르고, 자이 시내에 들른다면 <a href=\"/alishan-taiwanese-959\">자이 처터우 훠지러우판(嘉義車頭火雞肉飯)</a>도 있어요."
         },
         {
