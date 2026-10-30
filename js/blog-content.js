@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-restaurant-easycard-payment",
+    "image": "assets/images/blog/taipei-restaurant-easycard-payment-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 결제",
+      "title": "타이베이 식당 이지카드 결제, 어디까지 될까?",
+      "desc": "이지카드로 밥값까지 낼 수 있을까요? 공식 사용처 목록에 있는 식당 체인과 계산대에서 확인하는 법, 현금을 챙겨야 하는 곳을 담았어요.",
+      "meta": "타이베이 · 결제 가이드"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Payments",
+      "title": "Paying with EasyCard at Taipei Restaurants: Where Does It Work?",
+      "desc": "Can your EasyCard pay for meals too? Restaurant chains on the official merchant list, how to check at the counter and when cash is still needed.",
+      "meta": "Taipei · Payment Guide"
+    }
+  },
+  {
     "slug": "taichung-gaomei-wetland-miyahara-rainbow-village-tour-eats",
     "image": "assets/images/attractions/taichung/gaomei-wetland.webp",
     "regions": [
@@ -1601,6 +1620,439 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-restaurant-easycard-payment": {
+    "heroImage": "assets/images/blog/taipei-restaurant-easycard-payment-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이 식당 이지카드 결제 — 되는 곳 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 식당 이지카드 결제는 공식 사용처 체인이면 대체로 돼요. 2026년 10월 기준 맥도날드·팔방운집 등 목록, 1,500위안 한도, 현금이 필요한 곳을 정리했어요.",
+      "ogTitle": "타이베이 식당 이지카드 결제, 어디까지 될까?",
+      "eyebrow": "타이베이 여행 가이드 · 결제",
+      "title": "타이베이 식당 이지카드 결제, 어디까지 될까?",
+      "dek": "패스트푸드·만두 체인·음료 가게는 공식 사용처 목록에 많지만, 동네 식당과 노점은 여전히 현금이 기본입니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 결제 가이드",
+      "intro": "타이베이 식당 이지카드 결제, 교통카드처럼 어디서나 될까요? 여행자 글을 보면 맥도날드·모스버거·버거킹 같은 체인에서는 잘 됐는데, 여행자에게 인기 있는 식당 중에는 안 받는 곳이 꽤 있었다는 이야기가 있어요. 이지카드 회사(悠遊卡公司)가 공개한 공식 사용처 목록을 기준으로 2026년 10월 현재 이지카드로 밥값을 낼 수 있는 체인과 계산대에서 확인하는 법, 현금을 꼭 챙겨야 하는 경우를 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이베이 식당 이지카드, 한눈에 보기 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "공식 사용처 목록",
+            "계산 전 확인"
+          ],
+          "rows": [
+            {
+              "label": "패스트푸드 체인",
+              "values": [
+                "맥도날드·버거킹 전 매장, 모스버거 일반 매장",
+                "모스버거는 마트 안 일부 매장 제외"
+              ]
+            },
+            {
+              "label": "만두·훠궈 체인",
+              "values": [
+                "八方雲集·石二鍋 전 매장, 鬍鬚張 일부 매장",
+                "鬍鬚張은 매장마다 확인"
+              ]
+            },
+            {
+              "label": "음료·카페",
+              "values": [
+                "50嵐·清心福全·스타벅스 전 매장 등",
+                "대부분 바로 결제"
+              ]
+            },
+            {
+              "label": "역·푸드코트",
+              "values": [
+                "臺鐵便當 전 매장, 大食代 푸드코트",
+                "백화점은 층·매장별로 다를 수 있음"
+              ]
+            },
+            {
+              "label": "동네 식당·노점·야시장",
+              "values": [
+                "목록에 없는 곳이 대부분",
+                "현금 준비가 기본"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "공식 목록에는 음료·카페·식당·빵집·패스트푸드·아침 가게·푸드코트로 나뉜 체인이 올라 있어요. 다만 목록 페이지에도 <b>실제 적용 매장과 결제 방식은 매장 설비에 따라 다르다</b>고 적혀 있으니, 체인이라도 계산 전에 한 번 확인하는 편이 안전합니다."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-restaurant-easycard-payment-1.jpg",
+          "caption": "타이베이의 한 빵집 계산대 예시예요. 가운데 흰 단말기와 앞쪽 '歡迎使用' 안내판의 알록달록한 로고가 이지카드 표시예요(사진: MAm ROFOW 022 / Wikimedia Commons, CC0, 2024년 3월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 공식 목록에 있는 식당 체인, 이렇게 적혀 있어요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "맥도날드·버거킹",
+              "desc": "두 곳 모두 '전국 매장에서 이지카드 결제 가능'으로 안내돼 있어요. 버거킹은 이지카드 앱 결제(悠遊付)도 됩니다."
+            },
+            {
+              "mark": "✓",
+              "b": "모스버거",
+              "desc": "전국 일반 매장에서 이지카드·悠遊付를 쓸 수 있고, 대형 마트 안 일부 매장은 제외라고 적혀 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "팔방운집(八方雲集)·石二鍋",
+              "desc": "만두 체인 八方雲集과 1인 훠궈 체인 石二鍋는 전 매장 결제 가능으로 안내돼 있어 간단한 한 끼에 쓰기 좋아요."
+            },
+            {
+              "mark": "✓",
+              "b": "루러우판 체인 鬍鬚張",
+              "desc": "'일부 매장'만 이지카드·悠遊付를 받는다고 적혀 있어요. 들어가기 전에 계산대 로고를 보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "臺鐵便當·大食代",
+              "desc": "기차역 도시락 臺鐵便當 매장과 푸드코트 大食代도 전 매장 결제 가능으로 올라 있어요. 50嵐·清心福全 같은 음료 가게와 스타벅스도 목록에 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "맥도날드·모스버거·버거킹 같은 체인은 이지카드를 받았지만, 여행자에게 인기 있는 식당 중에는 안 받는 곳이 많았다는 확인 글이 있어요. — 네이버 카페 여행자 글 2건을 요약했어요"
+        },
+        {
+          "type": "h2",
+          "text": "03 · 계산대에서 이지카드 되는지 보는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "로고 스티커부터",
+              "desc": "공식 안내 기준 이지카드는 4대 편의점 체인과 이지카드 로고를 붙인 가맹점에서 쓸 수 있어요. 계산대나 입구의 알록달록한 悠遊卡 로고, '歡迎使用' 안내판을 찾아보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "한마디로 묻기",
+              "desc": "로고가 안 보이면 \"可以用悠遊卡嗎?(커이 융 유유카 마?)\"라고 물어보면 돼요. 주문 전에 물어보면 계산할 때 당황하지 않습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "한 번에 1,500위안까지",
+              "desc": "가맹점 결제는 1회 NT$1,500, 카드 1장당 하루 NT$3,000이 상한이에요(2026년 10월 기준, 교통 요금은 제외). 여럿이 훠궈를 먹고 한 번에 내기에는 부족할 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "잔액이 모자라면 결제 안 돼요",
+              "desc": "버스·MRT는 한 번(60위안 이내) 대신 내주는 기능이 있지만, 식당·가게 결제는 대납이 없다고 안내돼 있어요. 계산 전에 잔액을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-restaurant-easycard-payment-2.jpg",
+          "caption": "타이베이역 1층의 臺鐵便當本舖 1號店 앞 모습이에요. 臺鐵便當은 이지카드 공식 사용처 목록에 있어요(사진: Solomon203 / Wikimedia Commons, CC BY-SA 4.0, 2021년 6월 휴업 기간 촬영)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 이지카드만 믿으면 곤란한 경우"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "노점·야시장·작은 식당",
+              "desc": "공식 목록은 주로 체인이라 동네 식당과 노점은 대부분 목록에 없어요. 이런 곳은 현금을 기본으로 생각하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "인기 식당도 예외 아님",
+              "desc": "유명한 곳이라고 이지카드를 받는 건 아니에요. 가고 싶은 식당이 있다면 가게 공식 안내나 현장 안내판으로 결제수단을 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "단체·코스 식사",
+              "desc": "1회 1,500위안 상한 때문에 여럿이 먹는 자리에서는 신용카드나 현금이 더 편해요. 카드 결제 여부도 가게마다 다릅니다."
+            },
+            {
+              "mark": "✓",
+              "b": "결제를 거절당했다면",
+              "desc": "로고가 있는데도 안 받아 준다면 체인 본사나 이지카드 고객센터에 매장·시간을 알려 문의할 수 있다고 공식 FAQ에 나와 있어요. 그 자리에서는 현금으로 내는 게 빠릅니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 타이베이 식당 결제, 이렇게 준비하세요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "이지카드는 넉넉히 충전",
+              "desc": "교통비에 체인 식당·음료값까지 쓸 생각이라면 편의점이나 MRT 역에서 미리 충전해 두세요. 카드 잔액은 최대 NT$10,000까지예요."
+            },
+            {
+              "mark": "2",
+              "b": "현금은 100·500위안권 위주로",
+              "desc": "노점과 작은 식당에서는 큰 지폐보다 작은 단위가 편해요. 요금은 방문 전 공식 안내를 확인하세요."
+            },
+            {
+              "mark": "3",
+              "b": "신용카드는 큰 결제용",
+              "desc": "레스토랑·백화점 식당가처럼 금액이 큰 곳은 신용카드가 편해요. 한 장이 안 될 때를 대비해 브랜드가 다른 카드를 챙기세요."
+            },
+            {
+              "mark": "4",
+              "b": "영업시간은 따로 확인",
+              "desc": "식당 영업시간은 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "교통에서 이지카드를 어디까지 쓸지는 <a href=\"/blog-taipei-easycard-transport-guide\">타이베이 첫 여행, 이지카드만으로 충분할까?</a>를, 잔액 확인과 충전은 <a href=\"/blog-taipei-easycard-balance-check-topup\">이지카드 잔액 조회 글</a>을 보세요. MRT를 신용카드로 탈 계획이라면 <a href=\"/blog-taipei-mrt-credit-card-contactless\">타이베이 MRT 신용카드 탑승</a>, 가족 경비를 현금·카드로 나누는 법은 <a href=\"/blog-taipei-family-budget-cash-card\">타이베이 가족여행 경비</a>에 있어요. 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 고르고, 현금이 필요한 노점은 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>, 공식 목록에 있는 팔방운집 매장 하나는 <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">팔방운집 중샤오둔화점(八方雲集)</a>에서 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 悠遊卡公司 공식 사이트의 사용처 목록(使用範圍 · 餐飲美食)과 브랜드별 안내(麥當勞·漢堡王·摩斯漢堡·八方雲集·石二鍋·鬍鬚張·星巴克·50嵐·清心福全·臺鐵便當·大食代), 이용 안내(특약 가맹점 결제 한도)와 자주 묻는 질문(대납 불가·결제 거절 시 대처), 네이버 카페 여행자 글 2건을 바탕으로 2026년 10월 30일에 정리했어요. 공식 목록에도 실제 적용 매장과 결제 방식은 매장 설비에 따라 다르다고 적혀 있으니, 계산 전에 로고를 보거나 직원에게 물어보세요. 사진: MAm ROFOW 022(CC0), Solomon203(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 확인해보세요",
+          "desc": "이지카드로 들를 체인과 현금이 필요한 노점을 지도에서 미리 골라 보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taipei Restaurants & EasyCard · My Secret Taiwan Eats",
+      "metaDescription": "Which Taipei restaurants take EasyCard? Chains on the official merchant list as of October 2026, the NT$1,500 per-payment limit and when to carry cash.",
+      "ogTitle": "Paying with EasyCard at Taipei Restaurants: Where Does It Work?",
+      "eyebrow": "Taipei Travel Guide · Payments",
+      "title": "Paying with EasyCard at Taipei Restaurants: Where Does It Work?",
+      "dek": "Fast-food, dumpling and drinks chains are all over the official merchant list, but neighbourhood eateries and stalls are still cash first.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Payment Guide",
+      "intro": "Does your EasyCard work at Taipei restaurants the way it does on the MRT? Travellers often say it worked fine at McDonald's, MOS Burger and Burger King, but quite a few popular restaurants didn't take it. Using the official merchant list published by the EasyCard Corporation (悠遊卡公司), here are the restaurant chains that accept EasyCard as of October 2026, how to check at the counter and when you still need cash.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taipei restaurants and EasyCard at a glance (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Official merchant list",
+            "Check before paying"
+          ],
+          "rows": [
+            {
+              "label": "Fast-food chains",
+              "values": [
+                "All McDonald's and Burger King, regular MOS Burger stores",
+                "Some MOS Burger stores inside hypermarkets excluded"
+              ]
+            },
+            {
+              "label": "Dumpling & hot-pot chains",
+              "values": [
+                "All Bafang Yunji and Shi Er Guo, some Formosa Chang",
+                "Check each Formosa Chang"
+              ]
+            },
+            {
+              "label": "Drinks & cafés",
+              "values": [
+                "All 50 Lan, Ching Shin Fu Chuan, Starbucks and more",
+                "Usually straightforward"
+              ]
+            },
+            {
+              "label": "Stations & food courts",
+              "values": [
+                "All TRA Bento shops, Food Republic food courts",
+                "Department stores may vary by floor or outlet"
+              ]
+            },
+            {
+              "label": "Local eateries, stalls, night markets",
+              "values": [
+                "Mostly not on the list",
+                "Bring cash"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The official list groups chains into drinks, cafés, restaurants, bakeries, fast food, breakfast shops and food courts. Even so, the list page itself says <b>actual stores and payment methods depend on each store's equipment</b>, so it's worth checking before you pay, even at a chain."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-restaurant-easycard-payment-1.jpg",
+          "caption": "An example bakery counter in Taipei. The white reader in the middle and the colourful logo on the '歡迎使用' sign in front mean EasyCard is accepted (photo: MAm ROFOW 022 / Wikimedia Commons, CC0, March 2024)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What the official list says about restaurant chains"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "McDonald's and Burger King",
+              "desc": "Both are listed as accepting EasyCard at all stores nationwide. Burger King also takes the Easy Wallet (悠遊付) app."
+            },
+            {
+              "mark": "✓",
+              "b": "MOS Burger",
+              "desc": "Regular stores nationwide take EasyCard and Easy Wallet; some stores inside hypermarkets are excluded."
+            },
+            {
+              "mark": "✓",
+              "b": "Bafang Yunji (八方雲集) and Shi Er Guo (石二鍋)",
+              "desc": "The dumpling chain and the single-pot hot-pot chain are listed for all stores, handy for a quick meal."
+            },
+            {
+              "mark": "✓",
+              "b": "Formosa Chang (鬍鬚張)",
+              "desc": "The braised-pork-rice chain is listed for 'some stores' only. Look for the logo at the counter first."
+            },
+            {
+              "mark": "✓",
+              "b": "TRA Bento and Food Republic",
+              "desc": "TRA Bento (臺鐵便當) shops and Food Republic (大食代) food courts are listed for all locations. Drinks chains such as 50 Lan and Ching Shin Fu Chuan, and Starbucks, are on the list too."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Chains such as McDonald's, MOS Burger and Burger King took EasyCard, but many restaurants popular with travellers did not, according to travellers who checked. — summarised from two Naver café traveller posts"
+        },
+        {
+          "type": "h2",
+          "text": "03 · How to tell at the counter"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Look for the logo",
+              "desc": "Officially, EasyCard works at the four major convenience-store chains and at merchants displaying the EasyCard logo. Look for the colourful 悠遊卡 logo or a '歡迎使用' sign at the counter or door."
+            },
+            {
+              "mark": "✓",
+              "b": "Just ask",
+              "desc": "If you can't see a logo, ask \"可以用悠遊卡嗎? (kěyǐ yòng yōuyóukǎ ma?)\" before you order."
+            },
+            {
+              "mark": "✓",
+              "b": "NT$1,500 per payment",
+              "desc": "Merchant payments are capped at NT$1,500 per transaction and NT$3,000 per card per day (as of October 2026; transport fares excluded). That may not cover a group hot-pot bill in one go."
+            },
+            {
+              "mark": "✓",
+              "b": "No credit if the balance is short",
+              "desc": "Buses and the MRT let you go negative once (up to NT$60), but the FAQ says purchases at shops and restaurants get no advance. Check your balance before paying."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-restaurant-easycard-payment-2.jpg",
+          "caption": "Taiwan Railway Bento shop No. 1 on the ground floor of Taipei Station. TRA bento shops are on the official EasyCard merchant list (photo: Solomon203 / Wikimedia Commons, CC BY-SA 4.0, taken during a June 2021 closure)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · When EasyCard alone won't do"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Stalls, night markets, small eateries",
+              "desc": "The official list is mostly chains, so most neighbourhood eateries and stalls aren't on it. Assume cash."
+            },
+            {
+              "mark": "✓",
+              "b": "Popular doesn't mean EasyCard",
+              "desc": "Being famous doesn't mean a restaurant takes EasyCard. For places on your list, check the restaurant's own information or the sign at the door."
+            },
+            {
+              "mark": "✓",
+              "b": "Group or set meals",
+              "desc": "With the NT$1,500 cap, a credit card or cash is easier for group meals. Card acceptance also varies by restaurant."
+            },
+            {
+              "mark": "✓",
+              "b": "If staff refuse",
+              "desc": "The official FAQ says you can report the store and time to the chain's head office or EasyCard customer service if a store showing the logo refuses. On the spot, paying cash is quicker."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · Getting ready to pay for meals in Taipei"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Top up enough",
+              "desc": "If you'll use the card for chain meals and drinks as well as transport, top up at a convenience store or MRT station. A card holds up to NT$10,000."
+            },
+            {
+              "mark": "2",
+              "b": "Carry small notes",
+              "desc": "NT$100 and NT$500 notes are easier than big ones at stalls and small eateries. Check the official information for fares before you go."
+            },
+            {
+              "mark": "3",
+              "b": "Credit card for bigger bills",
+              "desc": "Restaurants and department-store dining floors are easier by credit card. Bring cards from two different networks in case one is declined."
+            },
+            {
+              "mark": "4",
+              "b": "Check opening hours",
+              "desc": "Check restaurants' current opening hours on Google Maps before you go."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For how far an EasyCard goes on transport, see <a href=\"/blog-taipei-easycard-transport-guide\">Is an EasyCard enough for a first Taipei trip?</a>, and for balance checks and top-ups, <a href=\"/blog-taipei-easycard-balance-check-topup\">checking your EasyCard balance</a>. Riding the MRT by credit card? Read <a href=\"/blog-taipei-mrt-credit-card-contactless\">Taipei MRT by contactless credit card</a>, and for splitting a family budget between cash and cards, <a href=\"/blog-taipei-family-budget-cash-card\">family budget for Taipei</a>. Pick restaurants on the <a href=\"/region-taipei\">Taipei food map</a>, find cash-only stalls among <a href=\"/taipei-street_food\">Taipei street food</a>, or see one Bafang Yunji branch on the list at <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">Ba Fang Dumpling Zhongxiao Dunhua (八方雲集)</a>."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 30 October 2026 from the EasyCard Corporation's official merchant list (使用範圍 · food and drink) and brand pages (McDonald's, Burger King, MOS Burger, Bafang Yunji, Shi Er Guo, Formosa Chang, Starbucks, 50 Lan, Ching Shin Fu Chuan, TRA Bento, Food Republic), its usage terms (merchant payment limits) and FAQ (no advance on purchases, what to do if staff refuse), plus two Naver café traveller posts. The official list itself notes that actual stores and payment methods depend on each store's equipment, so look for the logo or ask before you pay. Photos: MAm ROFOW 022 (CC0), Solomon203 (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei eats on the map",
+          "desc": "Pick EasyCard-friendly chains and cash-only stalls on the map before you go.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
+  },
   "taichung-gaomei-wetland-miyahara-rainbow-village-tour-eats": {
     "heroImage": "assets/images/attractions/taichung/gaomei-wetland.webp",
     "ko": {
