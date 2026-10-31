@@ -3350,7 +3350,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "Rainbow Village",
-              "desc": "The colours are vivid wherever you point the camera, so it's great for photos. You can see it in 30 minutes to an hour."
+              "desc": "The colors are vivid wherever you point the camera, so it's great for photos. You can see it in 30 minutes to an hour."
             }
           ]
         },
@@ -4566,7 +4566,7 @@ const BLOG_POSTS = {
       "dek": "Whether one card gets you through the gates, what's different on the Airport MRT, and when an EasyCard still makes sense.",
       "metaAuthor": "My Secret Taiwan Eats Editorial",
       "metaTopic": "Taipei · Transport Guide",
-      "intro": "Can you ride the Taipei MRT with just a contactless credit card now? Travellers used to say it worked on the Airport MRT but was hit-and-miss in the city, but since 1 July 2026 Taipei Metro has accepted domestic and foreign credit cards and phone wallets at every station. Based on official information from Taipei Metro and the Taoyuan Airport MRT, here are the accepted cards, where to tap and the differences that are easy to miss, as of October 2026.",
+      "intro": "Can you ride the Taipei MRT with just a contactless credit card now? Travelers used to say it worked on the Airport MRT but was hit-and-miss in the city, but since 1 July 2026 Taipei Metro has accepted domestic and foreign credit cards and phone wallets at every station. Based on official information from Taipei Metro and the Taoyuan Airport MRT, here are the accepted cards, where to tap and the differences that are easy to miss, as of October 2026.",
       "blocks": [
         {
           "type": "h2",
@@ -4663,13 +4663,13 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "Expired or blocked cards won't work",
-              "desc": "Each tap needs bank authorisation, so expired cards or cards blocked by the issuer won't open the gate. Check in your bank app that overseas payments are enabled before you fly."
+              "desc": "Each tap needs bank authorization, so expired cards or cards blocked by the issuer won't open the gate. Check in your bank app that overseas payments are enabled before you fly."
             }
           ]
         },
         {
           "type": "quote",
-          "text": "The Airport MRT took my credit card straight away, but people were split on whether it worked on the city MRT. — summarised from traveller questions and answers around the full July 2026 launch"
+          "text": "The Airport MRT took my credit card straight away, but people were split on whether it worked on the city MRT. — summarized from traveler questions and answers around the full July 2026 launch"
         },
         {
           "type": "h2",
@@ -4719,7 +4719,7 @@ const BLOG_POSTS = {
             },
             {
               "mark": "2",
-              "b": "Travelling with children",
+              "b": "Traveling with children",
               "desc": "Credit cards are charged the regular fare. Children under 6 ride free with a paying adult, but if your child needs a concession fare, use a transit card or ask at the counter."
             },
             {
@@ -4735,7 +4735,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "note",
-          "text": "Compiled on 29 October 2026 from Taipei Metro (臺北捷運) official pages on credit card travel, its FAQ and 1 July 2026 press release, a Taipei City Government press release, the Taipei Metro guide (PDF), Taoyuan Metro (桃園捷運) official credit card and FAQ pages, and a traveller's post on a Naver café (October 2026). Payment options and accepted cards can change, so check both operators' official information before you travel. Photos: Sinsyuan (CC BY-SA 4.0), Padai (CC BY-SA 4.0), Wikimedia Commons."
+          "text": "Compiled on 29 October 2026 from Taipei Metro (臺北捷運) official pages on credit card travel, its FAQ and 1 July 2026 press release, a Taipei City Government press release, the Taipei Metro guide (PDF), Taoyuan Metro (桃園捷運) official credit card and FAQ pages, and a traveler's post on a Naver café (October 2026). Payment options and accepted cards can change, so check both operators' official information before you travel. Photos: Sinsyuan (CC BY-SA 4.0), Padai (CC BY-SA 4.0), Wikimedia Commons."
         },
         {
           "type": "cta",
@@ -7383,7 +7383,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "It was founded by the Taiwanese company 奇美 (Chimei) and named after it. A European palace-style façade topped with a dome looks out over wide gardens. The permanent collection covers four areas: Western art, animals, arms and armour, and musical instruments."
+          "html": "It was founded by the Taiwanese company 奇美 (Chimei) and named after it. A European palace-style façade topped with a dome looks out over wide gardens. The permanent collection covers four areas: Western art, animals, arms and armor, and musical instruments."
         },
         {
           "type": "figure",
@@ -7410,7 +7410,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "'榮耀天使' statue",
-              "desc": "A statue modelled on a work by French sculptor Louis-Ernest Barrias."
+              "desc": "A statue modeled on a work by French sculptor Louis-Ernest Barrias."
             },
             {
               "mark": "✓",
@@ -10872,7 +10872,7 @@ const BLOG_POSTS = {
             {
               "mark": "1",
               "b": "Pick your direction",
-              "desc": "Trains leave C1 Lizihnei (籬仔內) in two directions, clockwise (順行) and anticlockwise (逆行). In the official search, Hamasen and Pier-2 use the 順行 platform towards the museum and Heart of Love River uses the 逆行 platform, so follow the signs at the stop."
+              "desc": "Trains leave C1 Lizihnei (籬仔內) in two directions, clockwise (順行) and counterclockwise (逆行). In the official search, Hamasen and Pier-2 use the 順行 platform towards the museum and Heart of Love River uses the 逆行 platform, so follow the signs at the stop."
             },
             {
               "mark": "2",
@@ -10905,7 +10905,7 @@ const BLOG_POSTS = {
             {
               "label": "Nearest stop",
               "values": [
-                "C21 Museum of Fine Arts (美術館), about 5–8 min on foot through the car park"
+                "C21 Museum of Fine Arts (美術館), about 5–8 min on foot through the parking lot"
               ]
             },
             {
@@ -11278,7 +11278,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "Four rides are cheaper as singles",
-              "desc": "Ruifang → Houtong → Shifen → Jingtong → Ruifang is four rides totalling NT$110 (22+22+22+44), less than the pass. Add one more stop at Pingxi to make five rides and it comes to NT$132, so the pass wins."
+              "desc": "Ruifang → Houtong → Shifen → Jingtong → Ruifang is four rides totaling NT$110 (22+22+22+44), less than the pass. Add one more stop at Pingxi to make five rides and it comes to NT$132, so the pass wins."
             },
             {
               "mark": "✓",
@@ -11288,7 +11288,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "A transit card is fine too",
-              "desc": "If you only plan three or four stops, just tap an EasyCard. If you have a Taipei Fun Pass, it includes one Pingxi Line round trip — see the Fun Pass post below to do the maths."
+              "desc": "If you only plan three or four stops, just tap an EasyCard. If you have a Taipei Fun Pass, it includes one Pingxi Line round trip — see the Fun Pass post below to do the math."
             }
           ]
         },
@@ -11532,7 +11532,7 @@ const BLOG_POSTS = {
       "dek": "Two routes, the same fare — but the pier you leave from changes where you land on the island.",
       "metaAuthor": "My Secret Taiwan Eats Editorial",
       "metaTopic": "Kaohsiung · Transport & Ferries",
-      "intro": "\"Is the Gushan pier near Sizihwan the only place to catch a boat to Cijin?\" It's a question that comes up when planning Kaohsiung. Besides the Gushan (鼓山)–Cijin (旗津) route, there's also a Qianzhen (前鎮)–Zhongzhou (中洲) ferry. The fare is the same, but where you land and how often the boats run are quite different. Based on Kaohsiung Ferry Company (高雄市輪船)'s official information and real travellers' experiences, here's how it works, as of October 2026.",
+      "intro": "\"Is the Gushan pier near Sizihwan the only place to catch a boat to Cijin?\" It's a question that comes up when planning Kaohsiung. Besides the Gushan (鼓山)–Cijin (旗津) route, there's also a Qianzhen (前鎮)–Zhongzhou (中洲) ferry. The fare is the same, but where you land and how often the boats run are quite different. Based on Kaohsiung Ferry Company (高雄市輪船)'s official information and real travelers' experiences, here's how it works, as of October 2026.",
       "blocks": [
         {
           "type": "h2",
@@ -11658,7 +11658,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "quote",
-          "text": "\"From Zhongzhou Pier it took us about 20 minutes by bike to reach the old street.\" — one traveller's experience on the Zhongzhou ferry. Your time will depend on your pace and stops."
+          "text": "\"From Zhongzhou Pier it took us about 20 minutes by bike to reach the old street.\" — one traveler's experience on the Zhongzhou ferry. Your time will depend on your pace and stops."
         },
         {
           "type": "h2",
@@ -11690,7 +11690,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "note",
-          "text": "Based on Kaohsiung Ferry Company (高雄市輪船)'s official FAQ, its Gushan–Cijin and Qianzhen–Zhongzhou route pages and pier address and access pages, crossing times from Kaohsiung's official tourism site, pier locations on OpenStreetMap, and real travellers' experiences, as of October 2026. Hours and fares can change, so check the official site and pier notices again before you go. Photo: Loeffle, Wikimedia Commons, public domain."
+          "text": "Based on Kaohsiung Ferry Company (高雄市輪船)'s official FAQ, its Gushan–Cijin and Qianzhen–Zhongzhou route pages and pier address and access pages, crossing times from Kaohsiung's official tourism site, pier locations on OpenStreetMap, and real travelers' experiences, as of October 2026. Hours and fares can change, so check the official site and pier notices again before you go. Photo: Loeffle, Wikimedia Commons, public domain."
         },
         {
           "type": "cta",
@@ -15092,10 +15092,10 @@ const BLOG_POSTS = {
       "ogTitle": "Taichung to Tainan by Train: When Regular TRA Beats the High-Speed Rail",
       "eyebrow": "Taichung & Tainan Travel Guide · Transport",
       "title": "Taichung to Tainan by Train: When Regular TRA Beats the High-Speed Rail",
-      "dek": "The high-speed leg takes about 40 minutes, but both HSR stations sit outside the city — if you're going downtown to downtown, the maths changes.",
+      "dek": "The high-speed leg takes about 40 minutes, but both HSR stations sit outside the city — if you're going downtown to downtown, the math changes.",
       "metaAuthor": "My Secret Taiwan Eats Editorial",
       "metaTopic": "Taichung & Tainan · Transport Guide",
-      "intro": "\"Should I take the high-speed rail from Taichung to Tainan, or is a regular train fine?\" It's easy to assume THSR wins, but its Taichung station is in Wuri (烏日) and its Tainan station is in Gueiren (歸仁), so reaching either city centre means two extra train rides. Using the official fare tables and timetables from Taiwan High Speed Rail and Taiwan Railway (臺鐵), plus the transport ministry's TDX public timetable, here's how the two options compare as of October 2026.",
+      "intro": "\"Should I take the high-speed rail from Taichung to Tainan, or is a regular train fine?\" It's easy to assume THSR wins, but its Taichung station is in Wuri (烏日) and its Tainan station is in Gueiren (歸仁), so reaching either city center means two extra train rides. Using the official fare tables and timetables from Taiwan High Speed Rail and Taiwan Railway (臺鐵), plus the transport ministry's TDX public timetable, here's how the two options compare as of October 2026.",
       "blocks": [
         {
           "type": "h2",
@@ -15146,7 +15146,7 @@ const BLOG_POSTS = {
               "label": "Best for",
               "values": [
                 "Starting near an HSR station or needing exact timing",
-                "Hotels near the city-centre stations",
+                "Hotels near the city-center stations",
                 "Saving money when you're not in a hurry"
               ]
             }
@@ -15204,11 +15204,11 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "Hotels near Taichung or Tainan Station",
-              "desc": "If you start and finish at the city-centre stations, a direct Tze-Chiang takes 1 h 35 min to a little over 2 hours, about the same as THSR once transfers are counted, and costs over NT$160 less."
+              "desc": "If you start and finish at the city-center stations, a direct Tze-Chiang takes 1 h 35 min to a little over 2 hours, about the same as THSR once transfers are counted, and costs over NT$160 less."
             },
             {
               "mark": "✓",
-              "b": "Big suitcases or travelling with parents",
+              "b": "Big suitcases or traveling with parents",
               "desc": "No transfers means no stairs or connecting walkways. The more luggage you have, the more two changes add up."
             },
             {
@@ -15243,7 +15243,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "First and last trains",
-              "desc": "Per the TDX public timetable, the first direct TRA train from Taichung to Tainan leaves at 05:30 and the last at 21:46. Travelling late, check the last THSR and Shalun Line trains too."
+              "desc": "Per the TDX public timetable, the first direct TRA train from Taichung to Tainan leaves at 05:30 and the last at 21:46. Traveling late, check the last THSR and Shalun Line trains too."
             },
             {
               "mark": "✓",
@@ -17865,7 +17865,7 @@ const BLOG_POSTS = {
         "ogTitle": "National Palace Museum Taipei: Tickets, Audio Guide, and How to Get There",
         "eyebrow": "Taipei Travel Guide · Museums",
         "title": "National Palace Museum Taipei: Tickets, Audio Guide, and How to Get There",
-        "dek": "Who gets in free, the free-admission days, where to rent the Korean or English audio guide, Monday closures, and which bus to take — the short list before you go.",
+        "dek": "Who gets in free, the free-admission days, where to rent an audio guide in your language, Monday closures, and which bus to take — the short list before you go.",
         "metaAuthor": "My Secret Taiwan Eats Editorial",
         "metaTopic": "Taipei · Museum Guide",
         "intro": "“How much is the National Palace Museum, and is there an audio guide in my language?” The museum in Shilin is on most first-time Taipei itineraries, but older information about audio guide prices and closing days still circulates. This guide uses the museum's official pages on tickets, hours, and transport, as of October 2026.",
@@ -20741,7 +20741,7 @@ const BLOG_POSTS = {
           ],
         },
         { type: "h2", text: "02 · First Trip: Taipei vs. Kaohsiung" },
-        { type: "p", html: "These are the two cities first-timers compare most. Taipei wins on density of sights and day-trip options like Jiufen and Yehliu; Kaohsiung feels more relaxed with the sea close by, but sights are farther apart. Both have direct flights from Korea, so many travelers decide by flight schedules and prices." },
+        { type: "p", html: "These are the two cities first-timers compare most. Taipei wins on density of sights and day-trip options like Jiufen and Yehliu; Kaohsiung feels more relaxed with the sea close by, but sights are farther apart. Both cities have international airports, so many travelers decide by flight schedules and prices." },
         {
           type: "tipList",
           items: [
@@ -21079,7 +21079,7 @@ const BLOG_POSTS = {
           ],
         },
         { type: "h2", text: "04 · Who Doesn't Need It" },
-        { type: "p", html: "TWAC is for foreigners entering visa-free or on a visitor visa. Holders of a Taiwan residence permit don't need to file it. If you're entering on a Korean passport as a tourist, assume you need it." },
+        { type: "p", html: "TWAC is for foreigners entering visa-free or on a visitor visa. Holders of a Taiwan residence permit don't need to file it. If you're visiting as a tourist on a foreign passport, assume you need it." },
         { type: "quote", text: "\"Took five minutes the night before my flight.\" — a summary of reviews from travelers who filled out TWAC in advance." },
         { type: "p", html: "Once entry prep is done, plan tomorrow morning's breakfast. Pick a spot near your hotel from <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, and check <a href=\"/taipei-breakfast-sihai-soy-milk-794\">Sihai Soy Milk</a>. See everything on the <a href=\"/region-taipei\">Taipei food map</a>." },
         { type: "note", text: "This guide is based on official notices from Taiwan's National Immigration Agency, including the July 2026 update (as of September 2026). Entry rules can change, so check the official TWAC site before you fly." },
@@ -21743,7 +21743,7 @@ const BLOG_POSTS = {
         {
           type: "tipList",
           items: [
-            { mark: "✓", b: "New Taipei stop", desc: "Since January 1, 2025, the Taipei end is Taipei Bus Station 4F, platform 409." },
+            { mark: "✓", b: "Taipei terminal", desc: "Since January 1, 2025, the Taipei end is Taipei Bus Station 4F, platform 409." },
             { mark: "✓", b: "Ticket counter hours", desc: "Terminal 1 is 24 hours; Terminal 2 runs 07:30–22:00 (as of Sept 2026). Arriving at T2 late at night, check how to buy a ticket." },
             { mark: "✓", b: "EasyCard", desc: "Kuo-Kuang says EasyCard and other transit cards are accepted. The T2 ticket counter is closed late at night, so top up your card before you fly." },
           ],
@@ -23134,7 +23134,7 @@ const BLOG_POSTS = {
     },
     "en": {
       "pageTitle": "Kavalan Distillery — Tickets, Tours and Café · My Secret Taiwan Eats",
-      "metaDescription": "Kavalan Distillery now charges admission. Ticket prices and how they're credited, the Korean tour time, buses and taxis from Yilan, and a cake café to pair with your visit.",
+      "metaDescription": "Kavalan Distillery now charges admission. Ticket prices and how they're credited, guided tour times, buses and taxis from Yilan, and a cake café to pair with your visit.",
       "ogTitle": "Kavalan Distillery in Yilan: Tickets, Tours and a Cake Café Half-Day",
       "eyebrow": "Yilan Travel Guide · Day Trip",
       "title": "Kavalan Distillery in Yilan: Tickets, Tours and a Cake Café Half-Day",
@@ -23183,7 +23183,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "h2",
-          "text": "02 · Kavalan Korean Tours Daily at 14:00"
+          "text": "02 · Free Guided Tours: English Daily at 11:00"
         },
         {
           "type": "tipList",
@@ -23191,7 +23191,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "Ticket first",
-              "desc": "Free guided tours start after you buy a ticket. Korean runs daily at 14:00, Chinese at 10:00 and 16:00, English at 11:00 and Japanese at 13:00 (as of October 2026)."
+              "desc": "Free guided tours start after you buy a ticket. English runs daily at 11:00, Chinese at 10:00 and 16:00, Japanese at 13:00 and Korean at 14:00 (as of October 2026)."
             },
             {
               "mark": "✓",

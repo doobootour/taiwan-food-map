@@ -26,6 +26,7 @@ function loadGlobals(files) {
 
 const { REGIONS, CATEGORIES } = loadGlobals(["js/data.js"]);
 const { BLOG_LIST } = loadGlobals(["js/blog-content.js"]);
+const { EN_BLOG_SLUGS } = require("../js/blog-en");
 const { ATTRACTIONS } = loadGlobals(["js/attractions.js"]);
 const { slugForSpot, comboSlug } = require("./lib/spot-slug");
 const { isIndexableSpot } = require("./lib/indexable");
@@ -69,7 +70,10 @@ function pairFor(loc) {
   if (pathname === "/" || pathname === "/en") {
     return ["https://taiwanbite.com/", "https://taiwanbite.com/en"];
   }
-  const match = pathname.match(/^\/(?:en\/)?((?:region|category)-[a-z0-9_]+)$/);
+  if (pathname === "/blog" || pathname === "/en/blog") {
+    return ["https://taiwanbite.com/blog", "https://taiwanbite.com/en/blog"];
+  }
+  const match = pathname.match(/^\/(?:en\/)?((?:region|category)-[a-z0-9_]+|blog-[a-z0-9-]+)$/);
   if (!match) return null;
   return [`https://taiwanbite.com/${match[1]}`, `https://taiwanbite.com/en/${match[1]}`];
 }
@@ -122,7 +126,12 @@ async function main() {
       return { loc: `https://taiwanbite.com/${comboSlug(regionId, categoryId)}`, changefreq: "weekly", priority: "0.65" };
     }),
     { loc: "https://taiwanbite.com/blog", changefreq: "weekly", priority: "0.7" },
-    ...BLOG_LIST.map(p => ({ loc: `https://taiwanbite.com/blog-${p.slug}`, changefreq: "monthly", priority: "0.6" })),
+    ...(englishFileExists("https://taiwanbite.com/en/blog") ? [{ loc: "https://taiwanbite.com/en/blog", changefreq: "weekly", priority: "0.7" }] : []),
+    ...BLOG_LIST.flatMap(p => {
+      const ko = { loc: `https://taiwanbite.com/blog-${p.slug}`, changefreq: "monthly", priority: "0.6" };
+      const en = { loc: `https://taiwanbite.com/en/blog-${p.slug}`, changefreq: "monthly", priority: "0.6" };
+      return EN_BLOG_SLUGS.includes(p.slug) && englishFileExists(en.loc) ? [ko, en] : [ko];
+    }),
     ...indexableSpots.map(s => ({ loc: `https://taiwanbite.com/${slugForSpot(s)}`, changefreq: "monthly", priority: "0.5" })),
     { loc: "https://taiwanbite.com/board", changefreq: "daily", priority: "0.6" },
     { loc: "https://taiwanbite.com/about", changefreq: "monthly", priority: "0.4" },

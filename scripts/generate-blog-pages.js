@@ -10,6 +10,17 @@ const path = require("path");
 const vm = require("vm");
 const { loadFileHistory, blogDates, formatTaipeiDot } = require("./lib/git-dates");
 const { sortBlogPosts, publishRaw } = require("../js/blog-order");
+const { EN_BLOG_SLUGS } = require("../js/blog-en");
+const {
+  SITE_NAME_EN,
+  ensureHreflang,
+  applyLangSwitcher,
+  englishSiteNav,
+  pointHubLinksAtEnglish,
+  loadEnglishDict,
+  bakeEnglishCopy,
+  rootAbsoluteLocalAssets,
+} = require("./lib/en-shell");
 
 const root = path.join(__dirname, "..");
 const SITE = "https://taiwanbite.com";
@@ -31,8 +42,9 @@ function loadGlobals(files) {
   const code = files
     .map(f => fs.readFileSync(path.join(root, f), "utf8"))
     .join("\n")
-    .replace(/\bconst\b/g, "var")
-    .replace(/\blet\b/g, "var");
+    // Only rewrite top-level declarations. A global \blet\b replace also rewrote
+    // English body text ("trains let you tap in" → "trains var you tap in").
+    .replace(/^(?:const|let) /gm, "var ");
   const sandbox = {};
   vm.createContext(sandbox);
   vm.runInContext(code, sandbox);
@@ -199,7 +211,8 @@ function upsertVisibleDate(html, dates) {
 function cardHtml(post, lang) {
   const c = (lang === "en" ? post.en : post.ko) || post.ko;
   if (!c) return "";
-  return `        <a class="blog-card" href="/blog-${post.slug}">
+  const href = lang === "en" && EN_SET.has(post.slug) ? `/en/blog-${post.slug}` : `/blog-${post.slug}`;
+  return `        <a class="blog-card" href="${href}">
           <img class="blog-card-img" src="${escapeHtml(post.image || "")}" alt="${escapeHtml(c.title || "")}" />
           <div class="blog-card-body">
             <span class="blog-card-eyebrow">${escapeHtml(c.eyebrow || "")}</span>
@@ -231,6 +244,13 @@ function upsertPublishedDates(html, datesBySlug) {
   return html.replace(marker, tag + marker);
 }
 
+function ensureBlogEnScript(html) {
+  if (html.includes("js/blog-en.js")) return html;
+  const match = html.match(/<script src="(\/?)js\/blog-order\.js\?v=(\d+)"><\/script>/);
+  if (!match) return html;
+  return html.replace(match[0], `<script src="${match[1]}js/blog-en.js?v=${match[2]}"></script>\n${match[0]}`);
+}
+
 function ensureBlogOrderScript(html) {
   if (html.includes("js/blog-order.js")) return html;
   const match = html.match(/<script src="js\/blog\.js\?v=\d+"><\/script>/);
@@ -246,8 +266,9 @@ function syncBlogIndex(filePath, lang, publishedBySlug) {
   if (!fs.existsSync(filePath)) return false;
   let html = fs.readFileSync(filePath, "utf8");
   if (!html.includes('id="blogListGrid"')) return false;
-  const sorted = sortBlogPosts(BLOG_LIST, publishedBySlug);
-  const cards = sorted.map(post => cardHtml(post, lang)).filter(Boolean);
+  const source = lang === "en" ? BLOG_LIST.filter(post => EN_SET.has(post.slug) && fs.existsSync(enPostFile(post.slug))) : BLOG_LIST;
+  const sorted = sortBlogPosts(source, publishedBySlug);
+  const cards = sorted.map(post => cardHtml(post, lang)).filter(Boolean).map(card => (lang === "en" ? rootAbsoluteLocalAssets(card) : card));
   const datesForClient = {};
   sorted.forEach(post => {
     const raw = publishRaw(post, publishedBySlug);
@@ -257,13 +278,138 @@ function syncBlogIndex(filePath, lang, publishedBySlug) {
   html = replaceBlogGrid(html, cards);
   html = upsertPublishedDates(html, datesForClient);
   html = ensureBlogOrderScript(html);
+  if (lang === "en") html = ensureBlogEnScript(html);
   if (html === before) return false;
   fs.writeFileSync(filePath, html);
   return true;
 }
 
+// ===================== English pages (/en/blog, /en/blog-<slug>) =====================
+// A post gets an English page when its slug is in js/blog-en.js and it has `en` content.
+// Same approach as the /en region/category pages: a separate static file under en/,
+// self canonical, ko/en/x-default(=ko) hreflang on both versions. No worker routing change.
+const EN_SET = new Set(EN_BLOG_SLUGS.filter(slug => BLOG_POSTS[slug] && BLOG_POSTS[slug].en && BLOG_LIST.some(p => p.slug === slug && p.en)));
+EN_BLOG_SLUGS.filter(slug => !EN_SET.has(slug)).forEach(slug => console.warn(`skip en: ${slug} (en 본문 또는 목록 항목 없음)`));
+const EN_DICT = loadEnglishDict();
+const EN_AUTHOR_NAME = "My Secret Taiwan Eats Editorial";
+const PAIRED_HUB_RE = /href="\/((?:region|category)-[a-z0-9_]+)"/g;
+
+function enPostFile(slug) {
+  return path.join(root, "en", `blog-${slug}.html`);
+}
+
+function stripTags(s) {
+  return String(s).replace(/<[^>]*>/g, "");
+}
+
+// Links inside English bodies: posts with an English page and paired hubs stay on /en.
+// Klook affiliate targets switch from the Korean to the English storefront.
+function englishBodyLinks(html) {
+  return html
+    .replace(/href="\/blog-([a-z0-9-]+)"/g, (m, slug) => (EN_SET.has(slug) ? `href="/en/blog-${slug}"` : m))
+    .replace(PAIRED_HUB_RE, (m, rest) => (fs.existsSync(path.join(root, "en", `${rest}.html`)) ? `href="/en/${rest}"` : m))
+    .replace(/(k_site=https%3A%2F%2Fwww\.klook\.com)%2Fko%2F/g, "$1%2Fen-US%2F");
+}
+
+function englishDateParagraph(dates) {
+  const publishedLabel = formatTaipeiDot(dates.published);
+  const modifiedLabel = formatTaipeiDot(dates.modified);
+  const published = `Published <time datetime="${dates.published}">${publishedLabel}</time>`;
+  if (publishedLabel === modifiedLabel) return `<p class="blog-post-date">${published}</p>`;
+  return `<p class="blog-post-date">${published} · Updated <time datetime="${dates.modified}">${modifiedLabel}</time></p>`;
+}
+
+function setMeta(html, re, value) {
+  return html.replace(re, (m, pre, post) => `${pre}${escapeHtml(value)}${post}`);
+}
+
+function englishHead(html, { title, description, url, ogTitle, ogType }) {
+  let out = html.replace('<html lang="ko">', '<html lang="en">');
+  out = out.replace(/<link rel="alternate" type="application\/rss\+xml"[^>]*\/>\n/, "");
+  out = out.replace(/(<title id="pageTitle">)[\s\S]*?(<\/title>)/, (m, a, b) => `${a}${escapeHtml(title)}${b}`);
+  out = out.replace(/<link rel="canonical"( id="canonicalLink")? href="[^"]*" \/>/, (m, id) => `<link rel="canonical"${id || ""} href="${url}" />`);
+  out = setMeta(out, /(<meta id="pageDescription" name="description" content=")[^"]*(" \/>)/, description);
+  out = out.replace(/<meta name="keywords" content="[^"]*" \/>\n/, "");
+  out = setMeta(out, /(<meta property="og:url" content=")[^"]*(" \/>)/, url);
+  out = out.replace('<meta property="og:locale" content="ko_KR" />', '<meta property="og:locale" content="en_US" />');
+  out = setMeta(out, /(<meta (?:id="ogTitle" )?property="og:title" content=")[^"]*(" \/>)/, ogTitle || title);
+  out = setMeta(out, /(<meta (?:id="ogDescription" )?property="og:description" content=")[^"]*(" \/>)/, description);
+  return out;
+}
+
+function englishShell(html, koPath, enPath) {
+  let out = ensureHreflang(html, `${SITE}${koPath}`, `${SITE}${enPath}`);
+  out = englishSiteNav(out, "blog");
+  out = pointHubLinksAtEnglish(out);
+  out = applyLangSwitcher(out, koPath, enPath, "en");
+  out = bakeEnglishCopy(out, EN_DICT);
+  out = out.replace('aria-label="블로그 페이지 이동"', 'aria-label="Blog pages"');
+  return rootAbsoluteLocalAssets(out);
+}
+
+function englishPostPage(koHtml, listItem, data, slug, dates) {
+  const en = data.en;
+  const url = `${SITE}/en/blog-${slug}`;
+  const headline = stripTags(en.title);
+  let out = englishHead(koHtml, { title: en.pageTitle, description: en.metaDescription, url, ogTitle: en.ogTitle });
+  out = out.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/, (full, json) => {
+    let ld;
+    try { ld = JSON.parse(json); } catch { return full; }
+    (ld["@graph"] || []).forEach(node => {
+      if (node["@type"] === "BreadcrumbList") {
+        node.itemListElement = [
+          { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/en` },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE}/en/blog` },
+          { "@type": "ListItem", position: 3, name: headline, item: url },
+        ];
+      }
+      if (node["@type"] === "Article") {
+        node.headline = headline;
+        node.description = en.metaDescription;
+        if (node.publisher) node.publisher.name = SITE_NAME_EN;
+        node.author = { "@type": "Organization", name: EN_AUTHOR_NAME, url: `${SITE}/en`, description: AUTHOR_DESCRIPTION.en };
+        node.mainEntityOfPage = url;
+        node.inLanguage = "en";
+        node.datePublished = dates.published;
+        node.dateModified = dates.modified;
+      }
+    });
+    return `<script type="application/ld+json">${JSON.stringify(ld)}</script>`;
+  });
+  out = out.replace(/(<span class="eyebrow" id="blogHeroEyebrow">)[\s\S]*?(<\/span>)/, (m, a, b) => `${a}${escapeHtml(en.eyebrow)}${b}`);
+  out = out.replace(/(<h1 class="blog-post-title" id="blogHeroTitle">)[\s\S]*?(<\/h1>)/, (m, a, b) => `${a}${en.title}${b}`);
+  out = out.replace(/(<p class="blog-post-dek" id="blogHeroDek">)[\s\S]*?(<\/p>)/, (m, a, b) => `${a}${escapeHtml(en.dek)}${b}`);
+  out = out.replace(/<p class="blog-post-date">[\s\S]*?<\/p>/, englishDateParagraph(dates));
+  out = upsertAuthorBlurb(out, "en");
+  out = out.replace(
+    /<div class="wrap region-article" id="blogArticle">[\s\S]*?<\/div>\s*<\/section>/,
+    () => `<div class="wrap region-article" id="blogArticle">${englishBodyLinks(articleHtml(en))}</div>\n  </section>`
+  );
+  return englishShell(out, `/blog-${slug}`, `/en/blog-${slug}`);
+}
+
+function englishBlogIndex(koHtml) {
+  const url = `${SITE}/en/blog`;
+  const title = "Taiwan Travel Blog: Transport, Sights & Food Tips · My Secret Taiwan Eats";
+  const description = "Practical Taiwan travel guides in English: getting around by MRT, train and bus, entry prep, sights and where to eat nearby, checked against official sources.";
+  let out = englishHead(koHtml, { title, description, url, ogTitle: "Taiwan Travel Blog · My Secret Taiwan Eats" });
+  out = out.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, () => `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "BreadcrumbList", itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/en` },
+        { "@type": "ListItem", position: 2, name: "Blog", item: url },
+      ] },
+      { "@type": "Blog", name: `${SITE_NAME_EN} Blog`, url, inLanguage: "en" },
+    ],
+  })}</script>`);
+  out = out.replace('alt="대만 여행 풍경"', 'alt="Taiwan travel scenery"');
+  return englishShell(out, "/blog", "/en/blog");
+}
+
 const history = loadFileHistory();
 let generatedCount = 0;
+let enCount = 0;
 const publishedBySlug = {};
 
 for (const post of BLOG_LIST) {
@@ -311,6 +457,22 @@ for (const post of BLOG_LIST) {
   out = upsertVisibleDate(out, dates);
   out = upsertAuthorBlurb(out, "ko");
 
+  if (EN_SET.has(slug)) {
+    out = ensureHreflang(out, `${SITE}/blog-${slug}`, `${SITE}/en/blog-${slug}`);
+    out = applyLangSwitcher(out, `/blog-${slug}`, `/en/blog-${slug}`, "ko");
+    const listItem = BLOG_LIST.find(p => p.slug === slug);
+    const enHtml = englishPostPage(out, listItem, data, slug, dates);
+    fs.mkdirSync(path.join(root, "en"), { recursive: true });
+    const enFile = enPostFile(slug);
+    if (!fs.existsSync(enFile) || fs.readFileSync(enFile, "utf8") !== enHtml) {
+      fs.writeFileSync(enFile, enHtml);
+      enCount++;
+    }
+  } else {
+    // Korean blog URLs no longer switch language in place; English goes to /en/blog.
+    out = applyLangSwitcher(out, `/blog-${slug}`, "/en/blog", "ko");
+  }
+
   if (out === before) continue;
 
   fs.writeFileSync(filePath, out);
@@ -318,9 +480,30 @@ for (const post of BLOG_LIST) {
 }
 
 let indexCount = 0;
+// Korean list: hreflang pair with /en/blog and real switcher links.
+{
+  const koIndex = path.join(root, "blog.html");
+  let html = fs.readFileSync(koIndex, "utf8");
+  const before = html;
+  if (EN_SET.size) {
+    html = ensureHreflang(html, `${SITE}/blog`, `${SITE}/en/blog`);
+    html = applyLangSwitcher(html, "/blog", "/en/blog", "ko");
+  }
+  if (html !== before) fs.writeFileSync(koIndex, html);
+  // English list shell is rebuilt from the Korean template each run; cards are filled below.
+  if (EN_SET.size) {
+    const enIndex = path.join(root, "en", "blog.html");
+    const shell = englishBlogIndex(html);
+    const prev = fs.existsSync(enIndex) ? fs.readFileSync(enIndex, "utf8") : null;
+    // Write the fresh shell, then let syncBlogIndex fill the newest-first cards.
+    fs.mkdirSync(path.join(root, "en"), { recursive: true });
+    fs.writeFileSync(enIndex, shell);
+    syncBlogIndex(enIndex, "en", publishedBySlug);
+    if (fs.readFileSync(enIndex, "utf8") !== prev) indexCount++;
+  }
+}
 if (syncBlogIndex(path.join(root, "blog.html"), "ko", publishedBySlug)) indexCount++;
-if (syncBlogIndex(path.join(root, "en", "blog.html"), "en", publishedBySlug)) indexCount++;
 
 const sortedForLog = sortBlogPosts(BLOG_LIST, publishedBySlug);
 const top = sortedForLog.slice(0, 3).map(post => `${post.slug} ${publishRaw(post, publishedBySlug)}`).join(" | ");
-console.log(`blog-*.html ${generatedCount}개 본문 정적화 완료, 목록 ${indexCount}개 정렬 (${top})`);
+console.log(`blog-*.html ${generatedCount}개 본문 정적화 완료, en/blog-*.html ${enCount}개 갱신(영어판 ${EN_SET.size}개), 목록 ${indexCount}개 정렬 (${top})`);

@@ -80,10 +80,20 @@
     return n <= 1 ? location.pathname : `${location.pathname}?page=${n}`;
   }
 
+  // /en/blog lists only posts that have an English page (js/blog-en.js) and links to /en/blog-<slug>.
+  const IS_EN_PATH = /^\/en(?:\/|$)/.test(location.pathname || "");
+  const EN_SET = new Set(typeof EN_BLOG_SLUGS !== "undefined" ? EN_BLOG_SLUGS : []);
+  function listSource() {
+    return IS_EN_PATH ? BLOG_LIST.filter(post => EN_SET.has(post.slug)) : BLOG_LIST;
+  }
+  function postHref(slug) {
+    return IS_EN_PATH && EN_SET.has(slug) ? `/en/blog-${slug}` : `/blog-${slug}`;
+  }
+
   function renderRegionFilter(lang) {
     const bar = document.getElementById("blogRegionFilter");
     if (!bar) return;
-    const usedIds = [...new Set(BLOG_LIST.flatMap(post => post.regions || []))];
+    const usedIds = [...new Set(listSource().flatMap(post => post.regions || []))];
     if (usedIds.length < 2) { bar.innerHTML = ""; return; }
     const usedRegions = (typeof REGIONS !== "undefined" ? REGIONS : []).filter(r => usedIds.includes(r.id));
     const allLabel = lang === "en" ? "All" : "전체";
@@ -167,7 +177,7 @@
     if (!grid) return false;
     const lang = getLang();
     renderRegionFilter(lang);
-    const indexed = BLOG_LIST.map((post, index) => ({ post, index }));
+    const indexed = listSource().map((post, index) => ({ post, index }));
     const filtered = activeRegion === "all" ? indexed : indexed.filter(entry => (entry.post.regions || []).includes(activeRegion));
     const allPosts = sortBlogPosts(filtered, blogPublishedDates());
     const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
@@ -179,8 +189,8 @@
     grid.innerHTML = posts.map(post => {
       const c = post[lang] || post.ko;
       return `
-        <a class="blog-card" href="/blog-${post.slug}">
-          <img class="blog-card-img" src="${post.image}" alt="${c.title}" />
+        <a class="blog-card" href="${postHref(post.slug)}">
+          <img class="blog-card-img" src="${IS_EN_PATH && !/^(?:https?:)?\//.test(post.image) ? "/" + post.image : post.image}" alt="${c.title}" />
           <div class="blog-card-body">
             <span class="blog-card-eyebrow">${c.eyebrow}</span>
             <h3>${c.title}</h3>
@@ -229,6 +239,9 @@
     const slug = pathMatch && pathMatch[1];
     const post = BLOG_POSTS[slug];
     if (!post) return false;
+    // /en/blog-<slug> is baked in English by the generator (English links, root-absolute
+    // images, en-US affiliate links). Re-rendering here would undo that, so keep it.
+    if (IS_EN_PATH && root.children.length) return true;
     const lang = getLang();
     syncBlogDateLine(lang);
     applyAuthorBlurb(lang);
