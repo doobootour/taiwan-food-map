@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "tainan-station-underground-exits",
+    "image": "assets/images/blog/tainan-station-underground-exits-1.jpg",
+    "regions": [
+      "tainan"
+    ],
+    "ko": {
+      "eyebrow": "타이난 여행 가이드 · 교통",
+      "title": "타이난역 지하화 후 이용법, 출구 3곳과 옛 역사는?",
+      "desc": "타이난역 지하화 후 처음 간다면 어느 출구로 들어가야 할까요? 1·2·3번 출구 동선과 승강장 방향, 1936년 옛 역사 이용법을 정리했어요.",
+      "meta": "타이난 · 기차역 이용"
+    },
+    "en": {
+      "eyebrow": "Tainan Travel Guide · Transport",
+      "title": "Tainan Station Underground: Exits and the 1936 Building",
+      "desc": "Using the new underground Tainan Station for the first time? The three exits, which platform goes which way and how the 1936 station fits in.",
+      "meta": "Tainan · Train station"
+    }
+  },
+  {
     "slug": "hualien-whale-watching-turumoan-ticket-eats",
     "image": "assets/images/regions/hualien.webp",
     "regions": [
@@ -1677,6 +1696,403 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "tainan-station-underground-exits": {
+    "heroImage": "assets/images/blog/tainan-station-underground-exits-1.jpg",
+    "ko": {
+      "pageTitle": "타이난역 지하화 이용법 — 출구 안내 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이난역 지하화로 2026년 10월 17일 새 지하역이 열렸어요. 1·2·3번 출구 차이, B1 개찰구와 B2 승강장, 1936년 옛 역사 드나드는 법을 정리했어요.",
+      "ogTitle": "타이난역 지하화 후 이용법, 출구 3곳과 옛 역사는?",
+      "eyebrow": "타이난 여행 가이드 · 교통",
+      "title": "타이난역 지하화 후 이용법, 출구 3곳과 옛 역사는?",
+      "dek": "기차는 이제 지하로 다녀요. 출구를 잘 고르면 걷는 거리가 확 줄어듭니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이난 · 기차역 이용",
+      "intro": "<b>타이난역은 2026년 10월 17일부터 지하역으로 바뀌었고, 출구는 1번(北門路 옛 역사 쪽)·2번(前鋒路·大學路 교차로)·3번(前鋒路·小東路 쪽) 세 곳이에요.</b> 어느 출구로 들어가든 B1 대합실의 개찰구를 지나 B2 승강장으로 내려가는데, 옛 역사 쪽 1번 출구는 임시 육교를 건너야 해서 걷는 거리가 가장 길어요. 짐이 많거나 기차 시간이 빠듯하면 2번이나 3번 출구를 쓰는 편이 편합니다.<br><br>1936년에 지은 옛 역사는 헐리지 않고 남아 지금도 1번 출구로 드나들 수 있어요. 교통부 보도자료와 타이난시 교통국의 동선 안내를 기준으로, 처음 가는 사람이 헷갈리기 쉬운 부분만 골라 정리했습니다.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이난역 지하화 후 출구 3곳 한눈에 보기 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "출구",
+            "위치",
+            "알아둘 점"
+          ],
+          "rows": [
+            {
+              "label": "1번",
+              "values": [
+                "北門路, 옛 역사 앞",
+                "옛 1번 승강장을 따라 걷다가 임시 육교로 선로를 건너요. 걷는 거리가 가장 길어요"
+              ]
+            },
+            {
+              "label": "2번",
+              "values": [
+                "前鋒路·大學路 교차로",
+                "하부 광장(下沉式廣場)을 지나 B1 대합실 남쪽으로. 매표소·안내데스크·상점이 여기 모여 있어요"
+              ]
+            },
+            {
+              "label": "3번",
+              "values": [
+                "前鋒路, 小東路 쪽",
+                "에스컬레이터·엘리베이터로 B1 대합실 북쪽에 바로 닿아요. 매표소 있음"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "세 출구 모두 <b>B1 대합실에서 개찰구를 통과</b>한 뒤 B2 승강장으로 내려가요. 타이난시 교통국 안내에 따르면 <b>북쪽 방향(타이중·타이베이 쪽)은 2번 승강장, 남쪽 방향(가오슝 쪽)은 1번 승강장</b>이에요. 예전처럼 옛 역사에서 바로 승강장으로 나가던 때보다 걷는 시간이 늘었으니, 처음 이용한다면 출발 시각보다 여유 있게 도착하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-station-underground-exits-1.jpg",
+          "caption": "1936년에 지은 옛 타이난역 역사(국정 고적)예요. 지하화 뒤에도 이 건물 앞 北門路 쪽이 1번 출구로 쓰여요(사진: CEphoto, Uwe Aranas / Wikimedia Commons, CC BY-SA 3.0, 2015년 12월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 1번 출구(옛 역사 쪽)로 들어갈 때"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "옛 역사로 들어가요",
+              "desc": "北門路 쪽 옛 역사 출구가 그대로 1번 출구예요. 구시가나 역 앞 로터리 쪽에서 오면 가장 가까운 입구입니다."
+            },
+            {
+              "mark": "2",
+              "b": "옛 1번 승강장을 따라 걸어요",
+              "desc": "교통국 안내에 따르면 옛 1번 승강장의 6~7호차 위치까지 걸어가면 임시 육교(棧橋)가 있어요."
+            },
+            {
+              "mark": "3",
+              "b": "육교로 선로를 건너 하부 광장으로",
+              "desc": "육교를 건너면 새 역 광장이 나오고, 하부 광장(下沉式廣場)을 거쳐 B1 대합실로 들어가요."
+            },
+            {
+              "mark": "4",
+              "b": "택시·버스 타는 곳은 그대로",
+              "desc": "1번 출구 쪽 택시 승차장, 오토바이 픽업 구역, 버스 정류장은 지하화 전과 같은 자리예요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 2번·3번 출구가 편한 경우"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "표를 사거나 물어볼 게 있다면 2번",
+              "desc": "매표소, 안내데스크, 상점, 수유실, 기도실 같은 주요 시설이 B1 대합실 남쪽 2번 출구 쪽에 모여 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "짐이 많다면 3번",
+              "desc": "3번 출구는 에스컬레이터나 엘리베이터로 B1 대합실 북쪽에 바로 내려가요. 이쪽에도 매표소가 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "택시·차로 내린다면",
+              "desc": "前鋒路 쪽 2·3번 출구 앞에 택시 승차장이 있고, 승용차 임시 정차 구역이 새로 생겼어요. 3번 출구 옆에는 지하 주차장도 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "한국어 안내 표지",
+              "desc": "교통부에 따르면 새 역의 안내 표지는 중국어·영어·일본어·한국어 4개 언어로 되어 있어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-station-underground-exits-2.jpg",
+          "caption": "공사 가림막을 두른 옛 역사 정면 모습이에요. 지하화 공사 중이던 2022년 7월 사진이라 지금 모습과는 다를 수 있어요(사진: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 1936년 옛 타이난역 역사, 지금은 어떻게 쓰나"
+        },
+        {
+          "type": "p",
+          "html": "지금 남아 있는 옛 역사는 1936년에 완공된 2대 타이난역으로, 국정 고적이에요. 지하화 뒤에도 헐지 않고 새 지하역과 이어 쓰는 방식이라, 옛 역사로 들어가 새 역 승강장까지 걸어갈 수 있어요. 다만 앞으로 옛 역사와 옛 승강장 복원 공사가 이어질 예정이라 내부 동선이나 개방 구역은 단계적으로 바뀔 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "역 앞 광장은 공사 중",
+              "desc": "보도에 따르면 옛 역사 앞 광장 공사는 2027년 말 완공이 목표이고, 새 픽업 구역은 2027년 4월, 버스 대기 공간은 2027년 하반기에 문을 열 예정이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "매장·보관함",
+              "desc": "대만철도는 새 역에 편의점, 드러그스토어, 식음료 매장을 들이고 다국어 화면의 짐 보관함을 두었다고 밝혔어요. 매장은 2026년 말까지 늘려 갈 계획이라 지금 있는 가게는 현장에서 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "새 역은 더 늘어나요",
+              "desc": "교통부 발표로는 같은 지하 구간에 린썬(林森)역이 2029년 말, 남타이난(南臺南)역이 2030년 말에 생길 예정이에요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 자주 묻는 질문"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "타이난역 지하화는 언제부터예요?",
+              "desc": "2026년 10월 17일 오전 6시부터 기차가 지하로 다니고, 같은 날 새 지하역이 문을 열었어요."
+            },
+            {
+              "mark": "Q",
+              "b": "옛 타이난역 건물로 아직 들어갈 수 있나요?",
+              "desc": "네, 2026년 10월 기준 옛 역사 쪽이 1번 출구로 쓰여요. 다만 임시 육교를 건너 새 역으로 가야 해서 걷는 거리가 길어요."
+            },
+            {
+              "mark": "Q",
+              "b": "타이난역에서 가오슝 가는 기차는 몇 번 승강장이에요?",
+              "desc": "남쪽 방향은 B2층 1번 승강장, 타이중·타이베이로 가는 북쪽 방향은 2번 승강장이에요."
+            },
+            {
+              "mark": "Q",
+              "b": "표는 어디서 사요?",
+              "desc": "B1 대합실 남쪽(2번 출구 쪽)과 북쪽(3번 출구 쪽)에 매표소가 있어요. 개찰구는 B1에 있어요."
+            },
+            {
+              "mark": "Q",
+              "b": "기차 시간 전에 얼마나 일찍 가야 해요?",
+              "desc": "정해진 시간은 없지만, 타이난시는 예전보다 걷는 시간이 늘었으니 처음 이용하면 여유 있게 오라고 안내하고 있어요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "타이난에서 다른 도시로 이동할 계획이라면 <a href=\"/blog-taichung-tainan-tra-vs-thsr\">타이중-타이난 일반 기차 vs 고속철</a>과 <a href=\"/blog-alishan-day-trip-tainan-bus-7329\">타이난에서 아리산 당일치기</a>를, 근교 박물관까지 간다면 <a href=\"/blog-tainan-chimei-museum-ticket-nearby-eats\">치메이 박물관 입장권과 근처 맛집</a>도 함께 보세요. 역에 내려 먹을 곳은 <a href=\"/region-tainan\">타이난 맛집 지도</a>와 <a href=\"/tainan-street_food\">타이난 노점 맛집</a>에서 고르면 되고, 첫 끼로 우육탕을 먹는다면 <a href=\"/tainan-beef_noodle-562\">아차이 우육탕(阿財牛肉湯)</a>이 지도에 있어요. 구시가 볼거리는 <a href=\"/tainan-attractions\">타이난 꼭 가볼 곳</a>에 모아 두었습니다."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 교통부(交通部)·철도국(鐵道局)의 타이난 철도 지하화 1단계 개통 보도자료(2026년 10월 16일)와 타이난역 현판식 보도자료(2026년 9월 10일), 타이난시 교통국의 '새 타이난 지하역 동선 안내'(2026년 10월 12일), 중앙통신사(CNA)·자유시보 보도(대만철도 매장·보관함, 역 앞 광장 공사 일정, 옛 역사 복원 계획)와 네이버 카페 여행자 글을 바탕으로 2026년 10월 31일에 정리했어요. 개통 초기라 동선과 공사 구역이 바뀔 수 있으니, 가기 전에 대만철도 공식 사이트와 역 안 안내 표지를 다시 확인하세요. 사진: CEphoto, Uwe Aranas(CC BY-SA 3.0), Solomon203(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이난 맛집도 확인해보세요",
+          "desc": "역에 내려 바로 갈 타이난 노점 맛집을 지도에서 미리 찜해 두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=tainan&cat=street_food"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Tainan Station Underground — Exits · My Secret Taiwan Eats",
+      "metaDescription": "Tainan Station moved underground on 17 October 2026. Which of the three exits to use, the B1 gates and B2 platforms, and how the 1936 station still works.",
+      "ogTitle": "Tainan Station Underground: Exits and the 1936 Building",
+      "eyebrow": "Tainan Travel Guide · Transport",
+      "title": "Tainan Station Underground: Exits and the 1936 Building",
+      "dek": "Trains now run underground. Pick the right exit and you'll walk a lot less.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Tainan · Train station",
+      "intro": "<b>Tainan Station moved underground on 17 October 2026 and has three exits: Exit 1 (Beimen Road, at the old station), Exit 2 (Qianfeng Road at Daxue Road) and Exit 3 (Qianfeng Road near Xiaodong Road).</b> Whichever you use, you pass the ticket gates in the B1 concourse and go down to the B2 platforms. Exit 1 at the old building involves crossing a temporary footbridge, so it is the longest walk; with heavy bags or a tight connection, Exit 2 or 3 is easier.<br><br>The 1936 station building was kept and you can still enter through it as Exit 1. Based on the Ministry of Transportation's press release and the Tainan City Transportation Bureau's route guide, here are the points first-time visitors tend to get wrong.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Tainan Station's three exits at a glance (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Exit",
+            "Location",
+            "Good to know"
+          ],
+          "rows": [
+            {
+              "label": "Exit 1",
+              "values": [
+                "Beimen Road, at the old station",
+                "Walk along old Platform 1, then cross the tracks on a temporary footbridge. The longest walk"
+              ]
+            },
+            {
+              "label": "Exit 2",
+              "values": [
+                "Qianfeng Rd & Daxue Rd",
+                "Through the sunken plaza to the south end of the B1 concourse, where the ticket office, information desk and shops are"
+              ]
+            },
+            {
+              "label": "Exit 3",
+              "values": [
+                "Qianfeng Rd, near Xiaodong Rd",
+                "Escalator or lift straight down to the north end of the B1 concourse; ticket office here too"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "From every exit you <b>pass the ticket gates in the B1 concourse</b> and then go down to the B2 platforms. According to the Tainan City Transportation Bureau, <b>northbound trains (towards Taichung and Taipei) use Platform 2 and southbound trains (towards Kaohsiung) use Platform 1</b>. The walk is longer than when you went straight from the old building to the tracks, so allow extra time on your first visit."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-station-underground-exits-1.jpg",
+          "caption": "The 1936 Tainan Station building, a national monument. After the move underground, the Beimen Road side in front of it still serves as Exit 1 (photo: CEphoto, Uwe Aranas / Wikimedia Commons, CC BY-SA 3.0, December 2015)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Entering by Exit 1 (old station side)"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Go in through the old building",
+              "desc": "The old station entrance on Beimen Road is now Exit 1, the closest entrance if you're coming from the old town or the station roundabout."
+            },
+            {
+              "mark": "2",
+              "b": "Walk along old Platform 1",
+              "desc": "The Transportation Bureau says to walk to about the car 6–7 position on old Platform 1, where the temporary footbridge (棧橋) starts."
+            },
+            {
+              "mark": "3",
+              "b": "Cross to the sunken plaza",
+              "desc": "The footbridge takes you over the tracks to the new station square; from there the sunken plaza (下沉式廣場) leads into the B1 concourse."
+            },
+            {
+              "mark": "4",
+              "b": "Taxis and buses haven't moved",
+              "desc": "The taxi rank, scooter pick-up area and bus stops on the Exit 1 side are where they were before."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · When Exit 2 or 3 is better"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Buying tickets or asking questions: Exit 2",
+              "desc": "The ticket office, information desk, shops, nursing room and prayer room are at the south end of the B1 concourse by Exit 2."
+            },
+            {
+              "mark": "✓",
+              "b": "Lots of luggage: Exit 3",
+              "desc": "Exit 3 takes you straight down to the north end of the B1 concourse by escalator or lift, and it has a ticket office too."
+            },
+            {
+              "mark": "✓",
+              "b": "Arriving by taxi or car",
+              "desc": "Exits 2 and 3 on Qianfeng Road have taxi ranks and new short-stay drop-off bays for cars, and an underground car park sits next to Exit 3."
+            },
+            {
+              "mark": "✓",
+              "b": "Signs in four languages",
+              "desc": "The ministry says signage at the new station is in Chinese, English, Japanese and Korean."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-station-underground-exits-2.jpg",
+          "caption": "The old station front wrapped in construction screens, photographed in July 2022 during the underground works, so it may look different today (photo: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · The 1936 station building today"
+        },
+        {
+          "type": "p",
+          "html": "The surviving building is the second Tainan Station, completed in 1936 and listed as a national monument. Instead of being demolished it was joined to the new underground station, so you can walk in through it and on to the new platforms. Restoration of the old building and its platforms is still to come, so the routes and open areas inside may change in stages."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Station square works",
+              "desc": "Reports say the square in front of the old building is due to be finished by the end of 2027, with a new pick-up area in April 2027 and a bus waiting area in the second half of 2027."
+            },
+            {
+              "mark": "✓",
+              "b": "Shops and lockers",
+              "desc": "Taiwan Railway says the new station has a convenience store, drugstore and food outlets plus lockers with multilingual screens, with more shops planned by the end of 2026, so check what's open on site."
+            },
+            {
+              "mark": "✓",
+              "b": "More stations coming",
+              "desc": "The ministry says Linsen (林森) station on the same underground line is due at the end of 2029 and South Tainan (南臺南) at the end of 2030."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · FAQ"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "When did Tainan Station go underground?",
+              "desc": "Trains have run underground since 6 a.m. on 17 October 2026, when the new underground station opened."
+            },
+            {
+              "mark": "Q",
+              "b": "Can I still use the old Tainan Station building?",
+              "desc": "Yes. As of October 2026 the old building serves as Exit 1, but you cross a temporary footbridge to reach the new station, so the walk is long."
+            },
+            {
+              "mark": "Q",
+              "b": "Which platform for trains to Kaohsiung?",
+              "desc": "Southbound trains use Platform 1 on B2; northbound trains to Taichung and Taipei use Platform 2."
+            },
+            {
+              "mark": "Q",
+              "b": "Where do I buy tickets?",
+              "desc": "There are ticket offices at the south (Exit 2) and north (Exit 3) ends of the B1 concourse, where the ticket gates also are."
+            },
+            {
+              "mark": "Q",
+              "b": "How early should I arrive?",
+              "desc": "There's no fixed rule, but Tainan City advises first-time users to allow extra time because the walk to the platforms is longer than before."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Moving on to another city? See <a href=\"/blog-taichung-tainan-tra-vs-thsr\">Taichung to Tainan: regular train vs high-speed rail</a> and <a href=\"/blog-alishan-day-trip-tainan-bus-7329\">an Alishan day trip from Tainan</a>; for a museum outside town, try <a href=\"/blog-tainan-chimei-museum-ticket-nearby-eats\">Chimei Museum tickets and nearby eats</a>. For food after you arrive, browse the <a href=\"/region-tainan\">Tainan food map</a> and <a href=\"/tainan-street_food\">Tainan street food</a>; if beef soup is your first meal, <a href=\"/tainan-beef_noodle-562\">A-Tsai Beef Soup (阿財牛肉湯)</a> is on the map. Old-town sights are collected in <a href=\"/tainan-attractions\">Tainan must-sees</a>."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 31 October 2026 from the Ministry of Transportation and Railway Bureau press releases on the first-phase opening of the Tainan underground railway (16 October 2026) and the station name unveiling (10 September 2026), the Tainan City Transportation Bureau's guide to walking and transfer routes at the new underground station (12 October 2026), CNA and Liberty Times reports (shops and lockers, station-square works, restoration plans for the old building) and a Naver café traveller post. Routes and work zones may change in the early months, so check the Taiwan Railway website and in-station signs before you go. Photos: CEphoto, Uwe Aranas (CC BY-SA 3.0) and Solomon203 (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Tainan street food on the map",
+          "desc": "Save a street-food stop for when you step off the train.",
+          "btn": "Open Map →",
+          "href": "/map?region=tainan&cat=street_food"
+        }
+      ]
+    }
+  },
   "hualien-whale-watching-turumoan-ticket-eats": {
     "heroImage": "assets/images/regions/hualien.webp",
     "ko": {
