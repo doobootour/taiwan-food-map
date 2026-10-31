@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "changhua-lukang-tianhou-temple-old-street",
+    "image": "assets/images/blog/changhua-lukang-tianhou-temple-old-street-1.jpg",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "장화·루강 여행 가이드 · 사원과 옛거리",
+      "title": "루강 천후궁과 옛거리, 주말엔 어떤 순서로 돌까?",
+      "desc": "루강 천후궁과 옛거리, 주말에 가면 어디부터 볼까요? 사당 개방 시간, 붐비는 시기, 옛거리 골목 순서와 굴 요리 먹을 곳까지 정리했어요.",
+      "meta": "장화 루강 · 사원/옛거리"
+    },
+    "en": {
+      "eyebrow": "Changhua & Lukang Guide · Temple and old streets",
+      "title": "Lukang Tianhou Temple and Old Street: Which Order?",
+      "desc": "Visiting Lukang at the weekend? Temple hours, the busiest seasons, the best order for the old-street lanes and where to try oyster dishes.",
+      "meta": "Lukang, Changhua · Temple & old street"
+    }
+  },
+  {
     "slug": "tainan-station-underground-exits",
     "image": "assets/images/blog/tainan-station-underground-exits-1.jpg",
     "regions": [
@@ -1696,6 +1715,359 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "changhua-lukang-tianhou-temple-old-street": {
+    "heroImage": "assets/images/blog/changhua-lukang-tianhou-temple-old-street-1.jpg",
+    "ko": {
+      "pageTitle": "루강 천후궁·옛거리 — 둘러보는 순서 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "루강 천후궁은 매일 06:00~22:00 무료로 열려요. 붐비는 시기와 시간, 천후궁에서 야오린제·푸터우제 옛거리로 이어 걷는 순서를 정리했어요.",
+      "ogTitle": "루강 천후궁과 옛거리, 주말엔 어떤 순서로 돌까?",
+      "eyebrow": "장화·루강 여행 가이드 · 사원과 옛거리",
+      "title": "루강 천후궁과 옛거리, 주말엔 어떤 순서로 돌까?",
+      "dek": "사당은 아침 일찍, 옛거리는 가게가 문을 연 뒤에. 순서만 바꿔도 덜 붐벼요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "장화 루강 · 사원/옛거리",
+      "intro": "<b>루강 천후궁(鹿港天后宮)은 연중무휴로 매일 오전 6시부터 밤 10시까지 무료로 열려요. 주말에 간다면 오전 일찍 천후궁부터 보고, 가게들이 문을 여는 10시 무렵부터 야오린제(瑤林街)·푸터우제(埔頭街) 옛거리로 걸어가는 순서가 덜 붐벼요.</b> 음력 1~3월 진향(進香) 시즌에는 사당 주변이 특히 붐비니 이 시기라면 더 일찍 움직이세요.<br><br>내정부와 창화현 관광 사이트 안내를 기준으로, 처음 가는 사람이 알아두면 좋은 부분만 골라 정리했습니다.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 루강 천후궁 기본 정보 (2026년 11월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "루강 천후궁",
+            "루강 옛거리"
+          ],
+          "rows": [
+            {
+              "label": "주소",
+              "values": [
+                "彰化縣鹿港鎮中山路430號",
+                "彰化縣鹿港鎮瑤林街·埔頭街 일대"
+              ]
+            },
+            {
+              "label": "시간",
+              "values": [
+                "매일 06:00~22:00, 연중무휴",
+                "창화현 관광 사이트 표기 10:00~18:00(가게마다 다름)"
+              ]
+            },
+            {
+              "label": "입장료",
+              "values": [
+                "무료",
+                "거리는 자유롭게 걸을 수 있어요"
+              ]
+            },
+            {
+              "label": "붐비는 때",
+              "values": [
+                "음력 1~3월 진향 시즌, 음력 3월 23일 마조 탄신일, 음력 9월 9일",
+                "주말 낮"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "천후궁은 국정 고적으로, 창화현 관광 사이트에 따르면 청나라 옹정 3년(1725년)에 지금 자리로 옮겨 지었어요. 대만에서 유일하게 메이저우(湄洲) 조묘의 개기(開基) 마조상을 모시는 사당이라 일 년 내내 참배객이 많아요. 매년 큰 행사일은 음력 3월 23일 마조 탄신일과 음력 9월 9일 마조 비승(飛昇) 기념일이에요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/changhua-lukang-tianhou-temple-old-street-2.jpg",
+          "caption": "루강 천후궁 앞마당에서 참배하는 사람들이에요. 2016년 4월 사진이라 지금 모습과 다를 수 있어요(사진: YuanFolk / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 주말에 루강 천후궁과 옛거리를 도는 순서"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "오전 일찍 천후궁부터",
+              "desc": "사당은 오전 6시에 열어요. 사람이 몰리기 전에 정전(正殿)과 목조·석조 장식을 천천히 볼 수 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "10시 무렵 야오린제로",
+              "desc": "야오린제는 길이가 30m 정도인 가장 짧은 옛거리예요. 옛 선박 무역상 합화행(合和行)과 맞은편 합덕당(合德堂) 고택, 담 안팎으로 반씩 걸친 반쪽 우물(半邊井)이 이 거리에 있어요. 고택은 대부분 안에 들어갈 수 없고 밖에서 보는 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "모퉁이를 돌아 푸터우제",
+              "desc": "야오린제 끝 모퉁이를 돌면 푸터우제예요. 바람과 도둑을 막으려고 길을 일부러 꺾어 놓아 골목이 여러 번 굽어요. 전통 과자·공예품 가게와 카페가 줄지어 있어요."
+            },
+            {
+              "mark": "4",
+              "b": "루강 공회당과 남정궁",
+              "desc": "1928년에 지은 루강 공회당(鹿港公會堂)은 지금 전시 공간으로 쓰이고, 바로 옆 남정궁(南靖宮)은 1783년에 지은 작은 관우 사당이에요. 옛거리 끝에서 함께 보기 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/changhua-lukang-tianhou-temple-old-street-1.jpg",
+          "caption": "붉은 벽돌 골목이 이어지는 루강 옛거리 풍경이에요(사진: Aa940325 / Wikimedia Commons, CC BY-SA 4.0, 2019년 8월)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 루강 옛거리에서 굴 요리 먹기"
+        },
+        {
+          "type": "p",
+          "html": "루강은 굴 요리로 잘 알려진 동네라, 원글을 쓴 여행자도 이 동네는 굴국수와 굴 요리가 유명하다고 적었어요. 창화현 관광 사이트에 소개된 곳 중 하나가 천후궁 근처 민성루(民生路)의 <b>三姐妹蚵仔煎(彰化縣鹿港鎮民生路28號)</b>으로, 관광 사이트 표기 영업시간은 10:00~20:00이에요. 굴전(蚵仔煎)이 대표 메뉴이고, 영업시간은 바뀔 수 있으니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "점심은 조금 이르게",
+              "desc": "주말 점심때는 옛거리 식당도 붐비기 쉬우니, 천후궁을 일찍 보고 점심 피크보다 조금 이르게 먹는 편이 여유로워요."
+            },
+            {
+              "mark": "✓",
+              "b": "전통 과자는 선물로",
+              "desc": "창화현 관광 사이트는 옛거리에 100년 넘게 이어 온 과자·면차(麵茶)·숭어알(烏魚子) 가게가 있다고 소개해요. 들고 가기 편한 선물을 고르기 좋아요."
+            },
+            {
+              "mark": "✓",
+              "b": "골목은 걸어서",
+              "desc": "옛거리는 붉은 벽돌 골목이 좁고 굽어 있어 걸어서 도는 곳이에요. 편한 신발이면 충분해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 자주 묻는 질문"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "루강 천후궁은 몇 시에 열어요?",
+              "desc": "2026년 11월 기준 매일 오전 6시부터 밤 10시까지 열고, 연중무휴예요."
+            },
+            {
+              "mark": "Q",
+              "b": "루강 천후궁 입장료가 있나요?",
+              "desc": "없어요. 누구나 무료로 들어가 참배하고 둘러볼 수 있어요."
+            },
+            {
+              "mark": "Q",
+              "b": "가장 붐비는 때는 언제예요?",
+              "desc": "음력 1~3월 진향 시즌, 특히 음력 3월 23일 마조 탄신일 전후가 가장 붐벼요. 평소에도 주말 낮은 사람이 많아요."
+            },
+            {
+              "mark": "Q",
+              "b": "루강 옛거리는 어디부터 어디까지예요?",
+              "desc": "보통 야오린제와 푸터우제 두 거리를 말해요. 야오린제에서 모퉁이를 돌면 바로 푸터우제로 이어져요."
+            },
+            {
+              "mark": "Q",
+              "b": "타이중에서 루강은 어떻게 가요?",
+              "desc": "타이중역(푸싱로)에서 중록커윈 9018번 국도버스를 타면 루강까지 바로 가요. 타는 곳과 요금은 9018번 버스 글에 정리해 두었어요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "타이중에서 루강까지 버스로 간다면 <a href=\"/blog-taichung-lukang-bus-9018\">타이중 루강 버스 9018 타는 곳과 요금</a>을 먼저 보세요. 아이와 장화(彰化)를 하루 더 돈다면 <a href=\"/blog-changhua-baguashan-sky-playground-kids\">장화 팔괘산 하늘놀이터</a>도 함께 묶기 좋아요. 타이중으로 돌아와 저녁을 먹는다면 <a href=\"/region-taichung\">타이중 맛집 지도</a>와 <a href=\"/taichung-taiwanese\">타이중 대만식 맛집</a>에서 고르면 되고, 지도에 있는 <a href=\"/taichung-taiwanese-989\">饕之鄉李姐的店</a>도 그중 한 곳이에요. 타이중 시내 볼거리는 <a href=\"/taichung-attractions\">타이중 꼭 가볼 곳</a>에 모아 두었습니다."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 내정부 '대만 종교 백경(臺灣宗教百景)'의 루강 천후궁 안내(개방 시간·무료·연중무휴·2대 기념일), 창화현 관광 사이트(彰化旅遊資訊網)의 루강 천후궁·루강 옛거리·三姐妹蚵仔煎 안내, 교통부 관광서의 루강 옛거리 안내, 루강 천후궁 공식 사이트(주소·전화)와 네이버 카페 여행자 글을 바탕으로 2026년 11월 1일에 정리했어요. 개방 시간과 가게 영업시간은 바뀔 수 있으니 방문 전 공식 안내와 구글맵에 등록된 영업시간을 다시 확인하세요. 사진: Aa940325(CC BY-SA 4.0), YuanFolk(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중 맛집도 확인해보세요",
+          "desc": "루강에서 돌아와 먹을 타이중 대만식 맛집을 지도에서 미리 찜해 두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung&cat=taiwanese"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Lukang Tianhou Temple & Old Street · My Secret Taiwan Eats",
+      "metaDescription": "Lukang Tianhou Temple is open free daily 06:00–22:00. When it gets busy, and an easy order for the temple and the Yaolin and Putou old streets.",
+      "ogTitle": "Lukang Tianhou Temple and Old Street: Which Order?",
+      "eyebrow": "Changhua & Lukang Guide · Temple and old streets",
+      "title": "Lukang Tianhou Temple and Old Street: Which Order?",
+      "dek": "Temple early, old street once the shops open. Just switching the order means fewer crowds.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Lukang, Changhua · Temple & old street",
+      "intro": "<b>Lukang Tianhou Temple (鹿港天后宮) is open every day of the year from 6 a.m. to 10 p.m. and entry is free. At the weekend, see the temple first thing in the morning and walk to the Yaolin Street (瑤林街) and Putou Street (埔頭街) old lanes from around 10 a.m., when the shops open, to avoid the worst crowds.</b> The pilgrimage season in lunar months 1–3 is especially busy around the temple, so go even earlier then.<br><br>Based on the Ministry of the Interior and the Changhua County tourism site, here is what first-time visitors find useful.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Lukang Tianhou Temple basics (as of November 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Lukang Tianhou Temple",
+            "Lukang Old Street"
+          ],
+          "rows": [
+            {
+              "label": "Address",
+              "values": [
+                "彰化縣鹿港鎮中山路430號",
+                "Around 瑤林街 and 埔頭街, Lukang"
+              ]
+            },
+            {
+              "label": "Hours",
+              "values": [
+                "Daily 06:00–22:00, open all year",
+                "10:00–18:00 per the Changhua tourism site (varies by shop)"
+              ]
+            },
+            {
+              "label": "Entry",
+              "values": [
+                "Free",
+                "Free to walk"
+              ]
+            },
+            {
+              "label": "Busiest",
+              "values": [
+                "Lunar months 1–3 (pilgrimage season), lunar 3/23 Mazu's birthday, lunar 9/9",
+                "Weekend daytime"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The temple is a national monument; according to the Changhua County tourism site it was moved to its present site in 1725. It is the only temple in Taiwan that houses an original founding Mazu statue from the Meizhou (湄洲) ancestral temple, so worshippers come all year. The two big festival days are Mazu's birthday on the 23rd day of the third lunar month and the anniversary of her ascension on the 9th day of the ninth lunar month."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/changhua-lukang-tianhou-temple-old-street-2.jpg",
+          "caption": "Worshippers in the front courtyard of Lukang Tianhou Temple, photographed in April 2016, so it may look different today (photo: YuanFolk / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · A weekend order for the temple and old street"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Temple first, early",
+              "desc": "The temple opens at 6 a.m. Before the crowds build you can take your time with the main hall and its wood and stone carvings."
+            },
+            {
+              "mark": "2",
+              "b": "Yaolin Street around 10 a.m.",
+              "desc": "At about 30 m, Yaolin Street is the shortest old street. It has the old shipping house 合和行, the 合德堂 mansion opposite and the Half-Well (半邊井) that sits half inside and half outside a wall. Most mansions can only be viewed from outside."
+            },
+            {
+              "mark": "3",
+              "b": "Round the corner to Putou Street",
+              "desc": "Putou Street starts at the corner. Its many bends were built to block wind and thieves, and the lanes are lined with traditional pastry and craft shops and cafés."
+            },
+            {
+              "mark": "4",
+              "b": "Lukang Assembly Hall and Nanjing Temple",
+              "desc": "The 1928 Lukang Assembly Hall (鹿港公會堂) is now an exhibition space, and the small Nanjing Temple (南靖宮) next door, a Guan Yu shrine, dates from 1783."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/changhua-lukang-tianhou-temple-old-street-1.jpg",
+          "caption": "Red-brick lanes in Lukang's old street area (photo: Aa940325 / Wikimedia Commons, CC BY-SA 4.0, August 2019)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Oyster dishes on the old street"
+        },
+        {
+          "type": "p",
+          "html": "Lukang is known for oyster dishes, and the traveller whose post this guide drew on also mentions oyster noodles and oyster dishes. One place listed on the Changhua County tourism site is <b>三姐妹蚵仔煎 (彰化縣鹿港鎮民生路28號)</b> on Minsheng Road near the temple, with hours given as 10:00–20:00. Oyster omelette (蚵仔煎) is the signature; hours can change, so check Google Maps before you go."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Eat lunch a little early",
+              "desc": "Old-street restaurants tend to fill up at weekend lunchtime, so after an early temple visit it's easier to eat a little before the peak."
+            },
+            {
+              "mark": "✓",
+              "b": "Traditional snacks as gifts",
+              "desc": "The Changhua tourism site notes old-street shops that have made pastries, 麵茶 and mullet roe (烏魚子) for over a century, handy for gifts."
+            },
+            {
+              "mark": "✓",
+              "b": "Explore on foot",
+              "desc": "The red-brick lanes are narrow and winding, so this is a walking area; comfortable shoes are all you need."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · FAQ"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "What time does Lukang Tianhou Temple open?",
+              "desc": "As of November 2026 it is open daily from 6 a.m. to 10 p.m., all year round."
+            },
+            {
+              "mark": "Q",
+              "b": "Is there an entry fee?",
+              "desc": "No. Anyone can enter, worship and look around for free."
+            },
+            {
+              "mark": "Q",
+              "b": "When is it busiest?",
+              "desc": "The pilgrimage season in lunar months 1–3, especially around Mazu's birthday on lunar 3/23. Weekend daytime is busy all year."
+            },
+            {
+              "mark": "Q",
+              "b": "Which streets are Lukang Old Street?",
+              "desc": "Usually Yaolin Street and Putou Street; Putou Street begins right around the corner from Yaolin Street."
+            },
+            {
+              "mark": "Q",
+              "b": "How do I get to Lukang from Taichung?",
+              "desc": "Chunglu bus 9018 runs from Taichung Station (Fuxing Rd) straight to Lukang. Boarding points and fares are in our bus 9018 guide."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Going by bus from Taichung? Start with <a href=\"/blog-taichung-lukang-bus-9018\">Taichung–Lukang bus 9018: where to board and fares</a>. With kids and another day in Changhua, pair it with <a href=\"/blog-changhua-baguashan-sky-playground-kids\">the Baguashan sky playground</a>. Back in Taichung for dinner, browse the <a href=\"/region-taichung\">Taichung food map</a> and <a href=\"/taichung-taiwanese\">Taichung Taiwanese restaurants</a>; <a href=\"/taichung-taiwanese-989\">饕之鄉李姐的店</a> is one of the places on the map. City sights are collected in <a href=\"/taichung-attractions\">Taichung must-sees</a>."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 1 November 2026 from the Ministry of the Interior's Taiwan Religious Landscapes entry for Lukang Tianhou Temple (hours, free entry, open all year, two main festival days), the Changhua County tourism site's pages on the temple, Lukang Old Street and 三姐妹蚵仔煎, the Tourism Administration's Lukang Old Street page, the temple's official website (address and phone) and a Naver café traveller post. Hours can change, so check the official pages and the hours listed on Google Maps before you go. Photos: Aa940325 (CC BY-SA 4.0) and YuanFolk (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taichung eats on the map",
+          "desc": "Save a Taichung Taiwanese restaurant for when you're back from Lukang.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung&cat=taiwanese"
+        }
+      ]
+    }
+  },
   "tainan-station-underground-exits": {
     "heroImage": "assets/images/blog/tainan-station-underground-exits-1.jpg",
     "ko": {
