@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "hualien-whale-watching-turumoan-ticket-eats",
+    "image": "assets/images/regions/hualien.webp",
+    "regions": [
+      "hualien"
+    ],
+    "ko": {
+      "eyebrow": "화롄 여행 가이드 · 볼거리·먹거리",
+      "title": "화롄 고래관찰 투어(Turumoan), 배 타기 전후 어디서 먹을까?",
+      "desc": "화롄 Turumoan 고래관찰 투어의 출항 시간과 체크인 장소, 관찰률, 배 타기 전후 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "meta": "화롄 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Hualien Travel Guide · Sights & Food",
+      "title": "Hualien Whale Watching Tour (Turumoan): Where to Eat Before or After the Boat",
+      "desc": "Departure times and check-in for the Turumoan whale watching tour in Hualien, sighting rates, and nearby restaurants from our map for before or after the boat.",
+      "meta": "Hualien · Sights & Food"
+    }
+  },
+  {
     "slug": "taichung-calligraphy-greenway-walk",
     "image": "assets/images/blog/taichung-calligraphy-greenway-walk-1.jpg",
     "regions": [
@@ -1658,6 +1677,271 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "hualien-whale-watching-turumoan-ticket-eats": {
+    "heroImage": "assets/images/regions/hualien.webp",
+    "ko": {
+      "pageTitle": "화롄 고래관찰 투어(Turumoan)·근처 맛집 — 화롄 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "화롄 Turumoan 고래관찰 투어의 출항 시간과 체크인 장소, 관찰률, 배 타기 전후 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "화롄 고래관찰 투어(Turumoan), 배 타기 전후 어디서 먹을까?",
+      "eyebrow": "화롄 여행 가이드 · 볼거리·먹거리",
+      "title": "화롄 고래관찰 투어(Turumoan), 배 타기 전후 어디서 먹을까?",
+      "dek": "화롄항에서 고래와 돌고래를 보러 가기 전에, 출항 시간과 체크인 장소, 근처 맛집을 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "화롄 · 볼거리·먹거리",
+      "intro": "Turumoan(多羅滿)은 화롄항에서 출항하는 고래·돌고래 관찰 배예요. 多羅滿賞鯨 공식 사이트를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Turumoan 고래관찰은 어떤 투어일까"
+        },
+        {
+          "type": "p",
+          "html": "기본 코스는 약 2시간 동안 화롄 앞바다로 나가 고래와 돌고래를 찾아요. 공식 사이트에 따르면 2025년 관찰률은 93.36%였어요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 가기 전에 알아둘 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "출항 시간",
+              "desc": "06:30, 08:30, 10:30, 14:00, 16:00에 출항해요."
+            },
+            {
+              "mark": "✓",
+              "b": "체크인 장소",
+              "desc": "花蓮市 港濱路 35-1호 向日廣場에서 체크인해요."
+            },
+            {
+              "mark": "✓",
+              "b": "날씨",
+              "desc": "바다 상황에 따라 출항이 바뀔 수 있으니 전날 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "체크인 장소까지",
+              "desc": "向日廣場(花蓮市 港濱路 35-1호)으로 가요."
+            },
+            {
+              "mark": "2",
+              "b": "상품 확인",
+              "desc": "일정, 포함 사항, 출발 장소와 시간은 상품 옵션마다 달라요. 예약 전에 클룩 상품 페이지에서 꼭 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F697-hualien-whale-watching-rafting-hualien%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 화롄 고래관찰 투어 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 배 타기 전후 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/hualien-seafood-mei-lun-seafood-950\">Mei-Lun Seafood (美崙海鮮)</a> · 해산물 · 북서쪽 약 0.6km",
+              "desc": "지도 메모: 화롄 골프장 근처에서 라운딩 전후로 들르기 좋은 동네 식당이에요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/hualien-hotpot-994\">八方悅日式鍋物 花蓮中美店</a> · 훠궈 · 북서쪽 약 0.6km",
+              "desc": "지도에 훠궈(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/hualien-beef_noodle-947\">六里屯麵食專家 美崙旗艦店</a> · 우육면 · 북서쪽 약 0.6km",
+              "desc": "지도 메모: 화롄 골프장 근처에서 라운딩 전후로 들르기 좋은 동네 식당이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/hualien-bakery-gaston-gaby-22\">Gaston & Gaby 家家法式烘培坊</a> · 베이커리 · 서쪽 약 1.0km",
+              "desc": "지도에 베이커리(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/hualien-noodle-949\">削削麵（原美崙第一刀削麵）</a> · 국수 · 서쪽 약 1.2km",
+              "desc": "지도 메모: 화롄 골프장 근처에서 라운딩 전후로 들르기 좋은 동네 식당이에요."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/hualien-japanese-993\">阿九壽司</a> · 일식 · 서쪽 약 1.3km",
+              "desc": "지도에 일식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/hualien-japanese-happy-wood-tonkatsu-948\">Happy Wood Tonkatsu (木樂日式炸豬排)</a> · 일식 · 북쪽 약 1.3km",
+              "desc": "지도 메모: 화롄 골프장 근처에서 라운딩 전후로 들르기 좋은 동네 식당이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 多羅滿賞鯨 공식 사이트의 출항 시간·체크인 안내와 관찰률 기록을 바탕으로 2026년 10월 기준으로 정리했습니다. 요금은 클룩 상품 페이지에서 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 화롄 맛집도 확인해보세요",
+          "desc": "배 일정 앞뒤로 들를 화롄 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=hualien"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Hualien Whale Watching Tour (Turumoan) & Nearby Eats — Hualien · My Secret Taiwan Eats",
+      "metaDescription": "Departure times and check-in for the Turumoan whale watching tour in Hualien, sighting rates, and nearby restaurants from our map for before or after the boat.",
+      "ogTitle": "Hualien Whale Watching Tour (Turumoan): Where to Eat Before or After the Boat",
+      "eyebrow": "Hualien Travel Guide · Sights & Food",
+      "title": "Hualien Whale Watching Tour (Turumoan): Where to Eat Before or After the Boat",
+      "dek": "Before heading out from Hualien Port to see whales and dolphins, check departure times, the check-in point and nearby restaurants.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Hualien · Sights & Food",
+      "intro": "Turumoan (多羅滿) runs whale and dolphin watching boats from Hualien Port. Based on the official 多羅滿賞鯨 site, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is the Turumoan Whale Watching Tour?"
+        },
+        {
+          "type": "p",
+          "html": "The standard trip spends about 2 hours off the Hualien coast looking for whales and dolphins. According to the official site, the 2025 sighting rate was 93.36%."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Good to Know Before You Go"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Departure times",
+              "desc": "Boats depart at 06:30, 08:30, 10:30, 14:00 and 16:00."
+            },
+            {
+              "mark": "✓",
+              "b": "Check-in point",
+              "desc": "Check in at 向日廣場, No. 35-1, 港濱路, 花蓮市."
+            },
+            {
+              "mark": "✓",
+              "b": "Weather",
+              "desc": "Sailings can change with sea conditions, so check the day before."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Getting to check-in",
+              "desc": "Head to 向日廣場 (No. 35-1, 港濱路, 花蓮市)."
+            },
+            {
+              "mark": "2",
+              "b": "Check the product",
+              "desc": "Schedule, inclusions, departure point and time vary by product option. Check the Klook product page before you book."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F697-hualien-whale-watching-rafting-hualien%2F\" target=\"_blank\" rel=\"sponsored noopener\">See the Hualien whale watching tour on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Nearby Restaurants for Before or After the Boat"
+        },
+        {
+          "type": "p",
+          "html": "Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/hualien-seafood-mei-lun-seafood-950\">Mei-Lun Seafood (美崙海鮮)</a> · Seafood · about 0.6 km northwest",
+              "desc": "Map note: A neighbourhood restaurant near the Hualien golf course, handy before or after a round."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/hualien-hotpot-994\">八方悅日式鍋物 花蓮中美店</a> · Hot Pot · about 0.6 km northwest",
+              "desc": "Listed as hot pot on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/hualien-beef_noodle-947\">六里屯麵食專家 美崙旗艦店</a> · Beef Noodles · about 0.6 km northwest",
+              "desc": "Map note: A neighbourhood restaurant near the Hualien golf course, handy before or after a round."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/hualien-bakery-gaston-gaby-22\">Gaston & Gaby 家家法式烘培坊</a> · Bakery · about 1.0 km west",
+              "desc": "Listed as bakery on the map."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/hualien-noodle-949\">削削麵（原美崙第一刀削麵）</a> · Noodles · about 1.2 km west",
+              "desc": "Map note: A neighbourhood restaurant near the Hualien golf course, handy before or after a round."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/hualien-japanese-993\">阿九壽司</a> · Japanese · about 1.3 km west",
+              "desc": "Listed as Japanese on the map."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/hualien-japanese-happy-wood-tonkatsu-948\">Happy Wood Tonkatsu (木樂日式炸豬排)</a> · Japanese · about 1.3 km north",
+              "desc": "Map note: A neighbourhood restaurant near the Hualien golf course, handy before or after a round."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on the official 多羅滿賞鯨 site's departure times, check-in information and sighting records, as of October 2026. Check prices on the Klook product page. Restaurant distances are straight-line from the coordinates registered on our map."
+        },
+        {
+          "type": "cta",
+          "title": "Find Hualien eats on the map",
+          "desc": "Save Hualien restaurants to visit before or after your boat trip.",
+          "btn": "Open Map →",
+          "href": "/map?region=hualien"
+        }
+      ]
+    }
+  },
   "taichung-calligraphy-greenway-walk": {
     "heroImage": "assets/images/blog/taichung-calligraphy-greenway-walk-1.jpg",
     "ko": {
