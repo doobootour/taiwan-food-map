@@ -386,6 +386,9 @@ function getLang() {
   // Lock those Korean URLs to Korean so an English browser locale cannot
   // duplicate the /en pages. Pages without a pair keep localStorage → detectDefaultLang().
   if (path === "/" || /^\/(?:region|category)-[a-z0-9_]+$/.test(path)) return "ko";
+  // Stage 3: Korean blog and attraction URLs always render Korean. English readers
+  // get the separate /en/blog and /en/blog-<slug> pages instead of a JS language swap.
+  if (path === "/blog" || /^\/blog-[a-z0-9-]+$/.test(path) || /^\/[a-z]+-attractions$/.test(path)) return "ko";
   return localStorage.getItem("tfm_lang") || detectDefaultLang();
 }
 

@@ -20,7 +20,7 @@ function ensureHreflang(html, koUrl, enUrl) {
   const block = hreflangBlock(koUrl, enUrl);
   const existing = /\n<link rel="alternate" hreflang="ko" href="[^"]*" \/>\n<link rel="alternate" hreflang="en" href="[^"]*" \/>\n<link rel="alternate" hreflang="x-default" href="[^"]*" \/>/;
   if (existing.test(html)) return html.replace(existing, block);
-  return html.replace(/<link rel="canonical" href="[^"]*" \/>/, match => `${match}${block}`);
+  return html.replace(/<link rel="canonical"[^>]*\/>/, match => `${match}${block}`);
 }
 
 function applyLangSwitcher(html, koHref, enHref, activeLang) {
@@ -56,7 +56,7 @@ function englishSiteNav(html, active) {
     ["categories", "/en#categories", "nav_categories", "Find Spots"],
     ["regions", "/en#regions", "nav_regions", "Explore by Region"],
     ["map", "/map", "nav_map", "View Map"],
-    ["blog", "/blog", "nav_blog", "Blog"],
+    ["blog", "/en/blog", "nav_blog", "Blog"],
   ];
   const links = items.map(([id, href, key, label]) => {
     const cls = id === active ? ' class="active"' : "";
@@ -65,7 +65,8 @@ function englishSiteNav(html, active) {
   return html.replace(/<nav id="site-nav">[\s\S]*?<\/nav>/, `<nav id="site-nav">\n${links}\n    </nav>`);
 }
 
-// Hub anchors on English pages must stay on /en. Spot, map, about, and blog hrefs are left alone.
+// Hub anchors on English pages must stay on /en, and the blog index goes to /en/blog.
+// Spot, map, about, and individual blog post hrefs are left alone here.
 function pointHubLinksAtEnglish(html) {
   return html
     .replace(/href="\/#categories"/g, 'href="/en#categories"')
@@ -73,6 +74,7 @@ function pointHubLinksAtEnglish(html) {
     .replace(/href="#categories"/g, 'href="/en#categories"')
     .replace(/href="#regions"/g, 'href="/en#regions"')
     .replace(/href="#home"/g, 'href="/en"')
+    .replace(/href="\/blog"/g, 'href="/en/blog"')
     .replace(/<a href="\/" class="brand">/g, '<a href="/en" class="brand">');
 }
 
