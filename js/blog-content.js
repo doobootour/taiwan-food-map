@@ -3192,7 +3192,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "가오메이 습지는 大甲溪 하구 남쪽의 약 701.3헥타르 습지로 120종 넘는 새가 찾아오는 생태 보호구역이에요. 궁원안과는 1927년 지은 옛 안과 병원을 日出 팀이 디저트 가게로 바꾼 곳이고, 무지개마을은 黃永阜 할아버지의 그림이 골목 벽과 바닥을 덮은 작은 마을이에요."
+          "html": "가오메이 습지는 大甲溪 하구 남쪽의 약 701.3헥타르 습지로 120종 넘는 새가 찾아오는 생태 보호구역이에요. 궁원안과는 1927년 지은 옛 안과 병원을 日出 팀이 디저트 가게로 바꾼 곳이고, 무지개마을은 黃永阜 할아버지가 그림을 그려 알려진 작은 마을이에요. 2022년 7월 일부 벽화가 페인트로 덧칠돼 훼손됐고, 지금은 할아버지의 원작과 시민·학생이 함께 그린 새 작품이 섞여 있어요(타이중시 문화국 발표)."
         },
         {
           "type": "figure",
@@ -3219,7 +3219,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "무지개마을",
-              "desc": "어디를 찍어도 색이 선명해서 사진 찍기 좋아요. 30분~1시간이면 둘러볼 수 있어요."
+              "desc": "원작 벽화는 일부만 남아 있고 나머지는 시민 공동 창작 작품이에요. 그래도 색이 화려해 사진 찍기 좋고, 30분~1시간이면 둘러볼 수 있어요."
             }
           ]
         },
@@ -3323,7 +3323,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "Gaomei Wetlands is an ecological reserve of about 701.3 hectares south of the 大甲溪 estuary, visited by more than 120 bird species. Miyahara is a former eye clinic built in 1927 that the 日出 team turned into a dessert shop, and Rainbow Village is a small village where Grandpa 黃永阜's paintings cover the alley walls and ground."
+          "html": "Gaomei Wetlands is an ecological reserve of about 701.3 hectares south of the 大甲溪 estuary, visited by more than 120 bird species. Miyahara is a former eye clinic built in 1927 that the 日出 team turned into a dessert shop, and Rainbow Village is a small village made famous by Grandpa 黃永阜's paintings. Some murals were painted over and damaged in July 2022; today his originals sit alongside new works painted by residents and students (Taichung Cultural Affairs Bureau)."
         },
         {
           "type": "figure",
@@ -3350,7 +3350,7 @@ const BLOG_POSTS = {
             {
               "mark": "✓",
               "b": "Rainbow Village",
-              "desc": "The colors are vivid wherever you point the camera, so it's great for photos. You can see it in 30 minutes to an hour."
+              "desc": "Only part of the original murals remain; the rest are community-made works. It's still colorful and good for photos, and 30 minutes to an hour is enough."
             }
           ]
         },
@@ -17752,7 +17752,7 @@ const BLOG_POSTS = {
           },
           {
             "type": "p",
-            "html": "요금은 고궁박물원 공식 요금표 기준이에요(2026년 10월 기준). 표는 북부원구 第一展覽館(본관) 요금이고, 1월 1일·정월대보름·5월 18일·9월 27일·10월 10일은 국적과 관계없이 무료로 개방합니다. 2026년에는 10월 17일(토, 대만 문화의 날)도 무료이고, 10월 31일 저녁에는 '타이베이 백야(臺北白晝之夜)' 행사로 무료 관람이 열려요."
+            "html": "요금은 고궁박물원 공식 요금표 기준이에요(2026년 10월 기준). 표는 북부원구 第一展覽館(본관) 요금이고, 1월 1일·정월대보름·5월 18일·9월 27일·10월 10일은 국적과 관계없이 무료로 개방합니다."
           },
           {
             "type": "h2",
@@ -17803,7 +17803,7 @@ const BLOG_POSTS = {
               {
                 "mark": "2",
                 "b": "월요일은 정기 휴관",
-                "desc": "다만 '월요일 특별 개관일'이 따로 있어요. 2026년 남은 날은 10월 26일, 11월 9일, 12월 7일입니다."
+                "desc": "가끔 월요일 특별 개관일이 공지되니, 월요일에 가려면 공식 사이트 공지를 먼저 확인하세요."
               },
               {
                 "mark": "3",
@@ -17921,7 +17921,7 @@ const BLOG_POSTS = {
           },
           {
             "type": "p",
-            "html": "Prices are from the museum's official ticket page for Exhibition Area I of the Northern Branch (as of October 2026). Admission is free for everyone on January 1, the Lantern Festival, May 18, September 27, and October 10. In 2026, October 17 (Saturday, Taiwan Culture Day) is also free, and the museum opens free in the evening of October 31 for Nuit Blanche Taipei."
+            "html": "Prices are from the museum's official ticket page for Exhibition Area I of the Northern Branch (as of October 2026). Admission is free for everyone on January 1, the Lantern Festival, May 18, September 27, and October 10."
           },
           {
             "type": "h2",
@@ -17972,7 +17972,7 @@ const BLOG_POSTS = {
               {
                 "mark": "2",
                 "b": "Closed on Mondays",
-                "desc": "Except special Monday openings. The remaining ones in 2026 are October 26, November 9, and December 7."
+                "desc": "The museum occasionally announces special Monday openings, so check its official notices if you plan a Monday visit."
               },
               {
                 "mark": "3",
@@ -19134,7 +19134,7 @@ const BLOG_POSTS = {
           cities: ["이지카드(EasyCard)", "신용카드(컨택리스)", "우버 / 택시"],
           rows: [
             { label: "지하철(MRT)", values: ["가능 — 공항철도 포함 전 노선", "가능 — 카드 뒷면에 컨택리스 결제 아이콘이 있어야 합니다", "필요할 때만 이용"] },
-            { label: "버스", values: ["가능", "아직 지원 안 됨", "필요할 때만 이용"] },
+            { label: "버스", values: ["가능", "불가 — 시내버스는 컨택리스 신용카드 미지원(2026년 10월 기준)", "필요할 때만 이용"] },
             { label: "편의점 · 마트", values: ["가능 — 충전 잔액으로 바로 결제", "가능", "해당 없음"] },
             { label: "충전 · 준비", values: ["공항·지하철역·편의점에서 구매 및 충전", "기존에 쓰던 카드 그대로 사용, 별도 발급 불필요", "출국 전 앱 설치 및 카드 등록"] },
             { label: "첫 여행자 추천도", values: ["대중교통 위주라면 필수", "카드 결제를 선호한다면 보조 수단으로 좋습니다", "체력이 떨어지거나 짐이 많을 때, 혹은 편하게 이동하고 싶을 때 좋아요"] },
@@ -19163,7 +19163,7 @@ const BLOG_POSTS = {
             { mark: "✓", b: "이지카드부터 챙기기", desc: "공항 도착 후 지하철역이나 편의점에서 바로 구매·충전할 수 있습니다. 지하철, 버스, 편의점까지 한 장으로 해결돼요." },
             { mark: "✓", b: "구글 지도 앱 미리 준비", desc: "노선 검색은 물론 버스 하차 알림까지 챙겨주니, 초행길에 특히 유용해요." },
             { mark: "✓", b: "우버 앱도 함께 준비하기", desc: "짐이 많거나 체력이 떨어졌을 때는 물론, 깔끔한 차량과 정찰 요금을 선호해서 길거리 택시 대신 우버를 즐겨 타는 여행자도 많아요. 미리 설치해두면 언제든 편하게 쓸 수 있습니다." },
-            { mark: "✓", b: "컨택리스 신용카드 확인", desc: "카드 뒷면에 와이파이 모양(옆으로 누운) 아이콘이 있다면 지하철 결제가 가능합니다. 다만 버스는 아직 지원하지 않아요." },
+            { mark: "✓", b: "컨택리스 신용카드 확인", desc: "카드 뒷면에 와이파이 모양(옆으로 누운) 아이콘이 있다면 2026년 7월부터 타이베이 MRT 전 역에서 결제가 가능합니다. 시내버스는 신용카드 결제를 받지 않으니(2026년 10월 기준) 이지카드를 쓰세요." },
           ],
         },
         { type: "cta", title: "타이베이 맛집도 지도에서 미리 찜해두세요", desc: "이지카드로 이동하면서 들르기 좋은 타이베이 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
@@ -19187,7 +19187,7 @@ const BLOG_POSTS = {
           cities: ["EasyCard", "Contactless Credit Card", "Uber / Taxi"],
           rows: [
             { label: "MRT", values: ["Yes — every line, including the Airport MRT", "Yes — your card needs the contactless payment icon on the back", "Use only when needed"] },
-            { label: "Buses", values: ["Yes", "Not supported yet", "Use only when needed"] },
+            { label: "Buses", values: ["Yes", "No — city buses don't take contactless credit cards (as of October 2026)", "Use only when needed"] },
             { label: "Convenience stores & marts", values: ["Yes — pay straight from your card balance", "Yes", "N/A"] },
             { label: "Getting set up", values: ["Buy and top up at the airport, MRT stations, or convenience stores", "Just use the card you already have — no extra sign-up", "Install the app and register a card before you fly"] },
             { label: "Good for first-timers?", values: ["Essential if you're mostly using public transit", "A solid backup if you prefer paying by card", "Great when you're worn out, carrying a lot, or just want an easy ride"] },
@@ -19216,7 +19216,7 @@ const BLOG_POSTS = {
             { mark: "✓", b: "Get an EasyCard first", desc: "You can buy and top one up right at the airport MRT station or a convenience store. One card covers the MRT, buses, and convenience stores." },
             { mark: "✓", b: "Set up Google Maps beforehand", desc: "It handles route search and bus-stop alerts, which is especially useful when you don't know the city yet." },
             { mark: "✓", b: "Set up Uber too", desc: "Beyond just tired-and-carrying-too-much situations, plenty of travelers prefer Uber's clean cars and upfront pricing over hailing a taxi off the street. Get it registered ahead of time so it's ready whenever you want it." },
-            { mark: "✓", b: "Check for contactless on your credit card", desc: "If the back of your card has the sideways Wi-Fi-shaped icon, it works on the MRT — just not on buses yet." },
+            { mark: "✓", b: "Check for contactless on your credit card", desc: "If the back of your card has the sideways Wi-Fi-shaped icon, it works at every Taipei MRT station (since July 2026). City buses don't accept credit cards (as of October 2026), so use an EasyCard there." },
           ],
         },
         { type: "cta", title: "Bookmark Taipei Restaurants on the Map Too", desc: "Find Taipei restaurants worth stopping at while you get around on your EasyCard.", btn: "Open Map →", href: "/map?region=taipei" },
@@ -20687,7 +20687,7 @@ const BLOG_POSTS = {
             { label: "추천 일수", values: ["2~3박", "2박 이상", "2박", "2박 이상"] },
             { label: "잘 맞는 관심사", values: ["바다·항구 도시, 여유로운 시내", "옛 거리·사원, 먹거리", "카페·시장·근교 자연", "산과 바다, 자연 풍경"] },
             { label: "이동 난이도", values: ["MRT·경전철로 쉬움", "시내는 도보·택시", "버스·택시 위주", "차량 이동이 필요한 구간 많음"] },
-            { label: "주의할 점", values: ["명소 간 거리가 넓음", "한낮 더위가 강함", "MRT 노선이 적음", "타이루거 일부 구간 통제(2026년 9월 기준)"] },
+            { label: "주의할 점", values: ["명소 간 거리가 넓음", "한낮 더위가 강함", "MRT 노선이 적음", "타이루거 일부 구간 통제(2026년 10월 기준)"] },
           ],
         },
         { type: "h2", text: "02 · 첫 여행이라면: 타이베이 vs 가오슝" },
@@ -20711,7 +20711,7 @@ const BLOG_POSTS = {
           ],
         },
         { type: "h2", text: "04 · 화롄을 고를 때 꼭 확인할 것" },
-        { type: "p", html: "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이지만, 타이루거 국가공원은 일부 탐방로만 열려 있고 주요 구간은 복구 공사로 통제 중입니다(2026년 9월 기준). 방문 전 국가공원 공지에서 개방 구간을 꼭 확인하세요." },
+        { type: "p", html: "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이지만, 타이루거 국가공원은 일부 탐방로만 열려 있고 주요 구간은 복구 공사로 통제 중입니다(2026년 10월 기준). 방문 전 국가공원 공지에서 개방 구간을 꼭 확인하세요." },
         { type: "quote", text: "\"도시를 하나만 고른다면 '며칠 있느냐'보다 '무엇을 하고 싶으냐'가 먼저.\" — 여러 지역을 다녀온 여행자들이 자주 하는 조언을 요약했습니다." },
         { type: "p", html: "지역을 정했다면 도시별 지도로 먹을 곳을 먼저 보세요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>, <a href=\"/region-tainan\">타이난 맛집 지도</a>, <a href=\"/region-taichung\">타이중 맛집 지도</a>, <a href=\"/region-hualien\">화롄 맛집 지도</a>가 있어요. 먹거리 여행이 목적이면 <a href=\"/tainan-street_food\">타이난 노점 맛집</a>과 아침 우육탕으로 알려진 <a href=\"/tainan-taiwanese-a-cai-beef-soup-735\">아차이 우육탕</a>부터 보는 것도 방법이에요." },
         { type: "note", text: "이 글은 대만 여러 지역을 다녀온 여행자들의 경험과 관광서·국가공원 공지를 바탕으로 정리했습니다(2026년 9월 기준). 교통과 개방 상황은 바뀔 수 있으니 방문 전 다시 확인하는 것을 추천해요." },
@@ -20761,7 +20761,7 @@ const BLOG_POSTS = {
           ],
         },
         { type: "h2", text: "04 · If You're Choosing Hualien" },
-        { type: "p", html: "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, but Taroko National Park has only some trails open, with major sections closed for reconstruction (as of September 2026). Check the park's notices for open sections before you go." },
+        { type: "p", html: "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, but Taroko National Park has only some trails open, with major sections closed for reconstruction (as of October 2026). Check the park's notices for open sections before you go." },
         { type: "quote", text: "\"When picking one city, ask what you want to do before asking how many days you have.\" — a summary of advice from travelers who've explored several regions." },
         { type: "p", html: "Once you've picked a region, start with that city's food map. See the <a href=\"/region-kaohsiung\">Kaohsiung restaurant map</a>, <a href=\"/region-tainan\">Tainan restaurant map</a>, <a href=\"/region-taichung\">Taichung restaurant map</a>, and <a href=\"/region-hualien\">Hualien restaurant map</a>. If eating is the point of the trip, start with <a href=\"/tainan-street_food\">Tainan street food</a> and <a href=\"/tainan-taiwanese-a-cai-beef-soup-735\">A-Cai Beef Soup</a>, known for its morning beef soup." },
         { type: "note", text: "This guide is based on travelers' experiences across Taiwan and notices from the Tourism Administration and national park (as of September 2026). Transport and access can change, so double-check before you go." },
@@ -20805,7 +20805,7 @@ const BLOG_POSTS = {
         },
         { type: "figure", img: "assets/images/blog/hualien-hotel-location-guide-1.jpg", caption: "화롄 해안의 절벽과 자갈 해변이에요. 바다 쪽 숙소를 고르면 이런 태평양 풍경을 가까이서 볼 수 있어요." },
         { type: "h2", text: "03 · 2026년 화롄, 이 점은 알고 가세요" },
-        { type: "p", html: "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이고, 2026년 연휴에는 숙박 예약률이 크게 올랐다는 보도도 있었습니다. 다만 타이루거 국가공원은 일부 탐방로만 열려 있고 사카당·옌쯔커우·주취동 같은 주요 구간은 복구 공사로 통제 중이며, 台8선도 시간대별 통제가 있습니다(2026년 9월 기준)." },
+        { type: "p", html: "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이고, 2026년 연휴에는 숙박 예약률이 크게 올랐다는 보도도 있었습니다. 다만 타이루거 국가공원은 일부 탐방로만 열려 있고 사카당·옌쯔커우·주취동 같은 주요 구간은 복구 공사로 통제 중이며, 台8선도 시간대별 통제가 있습니다(2026년 10월 기준)." },
         {
           type: "tipList",
           items: [
@@ -20855,7 +20855,7 @@ const BLOG_POSTS = {
         },
         { type: "figure", img: "assets/images/blog/hualien-hotel-location-guide-1.jpg", caption: "Cliffs and a pebble beach on the Hualien coast — stay by the sea and views like this are right outside." },
         { type: "h2", text: "03 · Hualien in 2026: What to Know" },
-        { type: "p", html: "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, and local media reported strong hotel bookings over 2026 holidays. Taroko National Park, however, has only some trails open, with major sections such as Shakadang, Swallow Grotto, and the Tunnel of Nine Turns closed for reconstruction, and Provincial Highway 8 under timed traffic control (as of September 2026)." },
+        { type: "p", html: "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, and local media reported strong hotel bookings over 2026 holidays. Taroko National Park, however, has only some trails open, with major sections such as Shakadang, Swallow Grotto, and the Tunnel of Nine Turns closed for reconstruction, and Provincial Highway 8 under timed traffic control (as of October 2026)." },
         {
           type: "tipList",
           items: [
@@ -21690,7 +21690,7 @@ const BLOG_POSTS = {
           type: "compareTable",
           cities: ["궈광 1819 버스", "공항 택시", "공항철도"],
           rows: [
-            { label: "운행", values: ["24시간, 공항 출발 00:20 첫차·23:30 막차, 약 30분 간격", "24시간", "대략 05:30~23:00, 자정 이후 없음"] },
+            { label: "운행", values: ["밤새 운행(심야 포함 24시간), 공항 2터미널 출발 00:20부터 23:50까지, 심야엔 약 10~40분 간격", "24시간", "대략 05:30~23:00, 자정 이후 없음"] },
             { label: "요금(2026년 9월 기준)", values: ["3열 좌석 NT$164, 4열 좌석 NT$133", "미터 요금+15%, 통행료 별도", "타이베이역까지 NT$160"] },
             { label: "내리는 곳", values: ["타이베이 버스터미널(台北轉運站)", "숙소 앞", "타이베이역"] },
             { label: "추천 상황", values: ["혼자·둘, 짐이 적을 때", "가족·짐 많을 때, 숙소가 역에서 멀 때", "아침 도착"] },
@@ -21733,7 +21733,7 @@ const BLOG_POSTS = {
           type: "compareTable",
           cities: ["Kuo-Kuang bus 1819", "Airport taxi", "Airport MRT"],
           rows: [
-            { label: "Service", values: ["24 hours; from the airport first 00:20, last 23:30, about every 30 min", "24 hours", "Roughly 05:30–23:00, none after midnight"] },
+            { label: "Service", values: ["Runs through the night (24 hours); from Terminal 2 the day's departures run 00:20 to 23:50, roughly every 10–40 min overnight", "24 hours", "Roughly 05:30–23:00, none after midnight"] },
             { label: "Fare (Sept 2026)", values: ["3-row seat NT$164, 4-row seat NT$133", "Meter +15%, tolls extra", "NT$160 to Taipei Main"] },
             { label: "Drop-off", values: ["Taipei Bus Station (台北轉運站)", "Your hotel", "Taipei Main Station"] },
             { label: "Best for", values: ["Solo or pairs with light luggage", "Families, lots of bags, hotels far from stations", "Morning arrivals"] },
