@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-uber-sms-verification-airport-pickup",
+    "image": "assets/images/blog/taiwan-uber-sms-verification-airport-pickup-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 교통",
+      "title": "대만 우버 처음 쓸 때, 문자 인증과 공항 픽업은?",
+      "desc": "대만에서 우버를 처음 탄다면 무엇부터 할까요? 출국 전 문자 인증, 인증 문자가 안 올 때, 타오위안공항 픽업 위치와 캐리어 수에 맞는 차종을 정리했어요.",
+      "meta": "대만 · 교통 가이드"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Transport",
+      "title": "Using Uber in Taiwan: SMS Code and Airport Pickup",
+      "desc": "First Uber ride in Taiwan? Verify your number before you leave, what to do if the code doesn't arrive, Taoyuan Airport pickup spots and luggage space.",
+      "meta": "Taiwan · Transport guide"
+    }
+  },
+  {
     "slug": "changhua-lukang-tianhou-temple-old-street",
     "image": "assets/images/blog/changhua-lukang-tianhou-temple-old-street-1.jpg",
     "regions": [
@@ -1715,6 +1734,345 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taiwan-uber-sms-verification-airport-pickup": {
+    "heroImage": "assets/images/blog/taiwan-uber-sms-verification-airport-pickup-1.jpg",
+    "ko": {
+      "pageTitle": "대만 우버 — 문자 인증·공항 픽업 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 우버를 처음 쓴다면 문자 인증은 출국 전 한국에서 끝내 두세요. 타오위안공항 픽업 위치 찾는 법과 짐에 맞는 차종 고르는 법도 정리했어요.",
+      "ogTitle": "대만 우버 처음 쓸 때, 문자 인증과 공항 픽업은?",
+      "eyebrow": "대만 여행 가이드 · 교통",
+      "title": "대만 우버 처음 쓸 때, 문자 인증과 공항 픽업은?",
+      "dek": "인증은 한국에서, 공항에서는 짐을 찾은 뒤에. 순서만 지켜도 덜 헤매요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 · 교통 가이드",
+      "intro": "<b>대만 우버를 처음 쓴다면 앱 가입과 전화번호 문자 인증은 출국 전 한국에서 끝내 두는 편이 안전해요. 타오위안공항에서는 짐을 찾은 뒤 앱에서 차를 부르고, 앱이 알려 주는 픽업 장소로 가면 됩니다.</b> 캐리어가 3개 이상이면 처음부터 큰 차종을 고르세요.<br><br>여행자 커뮤니티에서 자주 나오는 고민을 우버 공식 도움말과 공항 안내 페이지로 확인해 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 대만 우버, 출국 전에 할 일 (2026년 11월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "한국에서 미리",
+            "대만 도착 후"
+          ],
+          "rows": [
+            {
+              "label": "문자 인증",
+              "values": [
+                "한국 번호로 바로 받을 수 있어요",
+                "한국 번호 로밍(문자 수신)이 켜져 있어야 받아요"
+              ]
+            },
+            {
+              "label": "결제수단 등록",
+              "values": [
+                "앱에서 여유 있게 등록",
+                "입국장에서 급하게 하게 돼요"
+              ]
+            },
+            {
+              "label": "인증 문자가 안 올 때",
+              "values": [
+                "통신사에 바로 문의 가능",
+                "해외에서는 문의가 번거로워요"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "우버 공식 도움말에 따르면 계정을 만들거나 전화번호를 바꿀 때 문자로 인증 코드가 오고, 해외 번호도 절차는 똑같아요. 다만 지금 있는 곳에서 내 통신사 신호가 잡혀야 한다고 안내합니다. 대만에서 데이터용 이심만 켜 두고 한국 번호를 꺼 두면 인증 문자를 못 받을 수 있으니, 인증은 한국에서 끝내 두는 게 편해요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 대만 우버 인증 문자가 안 올 때"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "번호부터 다시 확인",
+              "desc": "국가번호와 번호가 맞는지 고친 뒤 인증 화면에서 다시 보내기를 눌러요."
+            },
+            {
+              "mark": "2",
+              "b": "통신사에 단축번호 문자 확인",
+              "desc": "우버는 단축번호 문자로 코드를 보내요. 통신사가 막고 있을 수 있으니 단축번호 문자 수신이 켜져 있는지 문의하고, 해외 발신 문자를 차단해 두지 않았는지도 보세요."
+            },
+            {
+              "mark": "3",
+              "b": "전화로 코드 받기",
+              "desc": "로그인 화면에서 '코드를 받지 못했어요'를 누르면 문자 재전송이나 전화로 코드 받기를 고를 수 있어요."
+            },
+            {
+              "mark": "4",
+              "b": "휴대폰 재시작",
+              "desc": "휴대폰을 껐다 켜면 통신망에 다시 붙어 문자가 들어오기도 해요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-uber-sms-verification-airport-pickup-2.jpg",
+          "caption": "타오위안공항 2터미널 입국장이에요. 짐을 찾고 나온 뒤 앱에서 차를 부르면 만날 장소를 알려 줘요(사진: AirportTerminalGuy / Wikimedia Commons, CC BY 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 타오위안공항에서 우버 타는 법"
+        },
+        {
+          "type": "p",
+          "html": "우버 공식 TPE 픽업 안내에 따르면 공항에 내린 뒤 앱에서 차를 부르고, 기사가 배정되면 앱의 '픽업 장소 안내'를 따라가면 돼요. 픽업 장소는 차종에 따라 달라질 수 있고, 차량 공유 픽업 구역 표지판을 따라가도 됩니다. 기사를 못 찾으면 앱으로 연락하세요. 여행자 커뮤니티에서는 공항에서 바로 잡기 어려웠다는 의견도 있어, 시간이 빠듯하면 공식 안내 페이지와 앱에서 날짜·시간을 넣어 예약할 수 있는지 미리 확인해 두는 편이 마음 편해요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "캐리어 2개면 UberX",
+              "desc": "공식 안내에 따르면 UberX는 보통 캐리어 2개, UberXL은 보통 3개가 실려요. 공간은 보장되지 않으니 배정 후 기사에게 앱으로 물어보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "큰 짐이 많으면 UberXXL",
+              "desc": "28인치 큰 캐리어 4개 이상을 실을 수 있는 차종으로 안내돼요. 짐이 다 안 들어가면 취소하고 더 큰 차를 다시 부르라고 안내해요."
+            },
+            {
+              "mark": "✓",
+              "b": "요금은 앱 견적으로",
+              "desc": "요금은 차종, 거리, 시간, 통행료, 수요에 따라 달라져요. 부르기 전에 앱에서 출발지와 도착지를 넣고 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-uber-sms-verification-airport-pickup-1.jpg",
+          "caption": "타이베이 시먼 호텔 앞에 선 우버 택시예요. 대만에서는 노란 택시도 우버 앱으로 부를 수 있어요(사진: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 자주 묻는 질문"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "한국 번호로 대만 우버를 쓸 수 있나요?",
+              "desc": "네. 우버 도움말에 따르면 해외 번호도 절차가 같아요. 다만 현지에서 인증 문자를 받으려면 한국 번호 신호가 잡혀야 해요."
+            },
+            {
+              "mark": "Q",
+              "b": "인증 문자가 안 오면 어떻게 하나요?",
+              "desc": "번호를 확인하고 다시 보내기를 눌러 보세요. 그래도 안 오면 전화로 코드 받기를 고르거나 통신사에 단축번호 문자 수신을 문의하세요."
+            },
+            {
+              "mark": "Q",
+              "b": "타오위안공항 우버는 어디서 타요?",
+              "desc": "차를 부른 뒤 앱의 픽업 장소 안내를 따라가요. 차종에 따라 장소가 다를 수 있어요."
+            },
+            {
+              "mark": "Q",
+              "b": "새벽에도 우버가 있나요?",
+              "desc": "우버 공식 안내상 24시간 운영해요. 이른 아침이나 늦은 밤에는 기사가 오기까지 더 오래 걸릴 수 있어요."
+            },
+            {
+              "mark": "Q",
+              "b": "일행이 많으면 차를 여러 대 부를 수 있나요?",
+              "desc": "공식 안내상 계정 하나로 최대 3대까지 부를 수 있어요. 앞 차가 출발한 뒤에 다음 차를 부르는 방식이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "공항에 밤늦게 내린다면 <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">타오위안공항 새벽 도착, 시내까지 뭐 타고 갈까</a>도 같이 보세요. 데이터는 현지 이심으로 쓰고 한국 번호는 문자만 받게 두는 방법은 <a href=\"/blog-taiwan-esim-data-vs-tourist-sim\">대만 이심 vs 현지 유심</a>에 정리해 두었어요. 타이베이에 도착해 첫 끼를 고른다면 <a href=\"/region-taipei\">타이베이 맛집 지도</a>와 <a href=\"/taipei-dimsum\">타이베이 딤섬·만두 맛집</a>에서 찾아보세요. 지도에 있는 <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">八方雲集 중샤오둔화점</a>도 그중 한 곳이에요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 우버 공식 도움말(라이더 전화번호 변경·해외 번호 안내, 인증 문자가 오지 않을 때, 2단계 인증 문제 해결)과 우버 공식 타오위안공항(TPE) 픽업·드롭오프 안내 페이지, 네이버 카페 여행자 글 요약을 바탕으로 2026년 11월 3일에 정리했어요. 차종, 예약 기능, 요금은 바뀔 수 있으니 출발 전 우버 앱에서 다시 확인하세요. 사진: Solomon203(CC BY-SA 4.0), AirportTerminalGuy(CC BY 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 확인해보세요",
+          "desc": "공항에서 시내로 들어가 먹을 첫 끼를 지도에서 미리 찜해 두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=dimsum"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Uber in Taiwan — SMS Code & Airport Pickup · My Secret Taiwan Eats",
+      "metaDescription": "First time using Uber in Taiwan? Finish the SMS check at home before you fly. How Taoyuan Airport pickups work and which car fits your luggage.",
+      "ogTitle": "Using Uber in Taiwan: SMS Code and Airport Pickup",
+      "eyebrow": "Taiwan Travel Guide · Transport",
+      "title": "Using Uber in Taiwan: SMS Code and Airport Pickup",
+      "dek": "Verify at home, request after baggage claim. Getting the order right saves a lot of hassle.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan · Transport guide",
+      "intro": "<b>If it's your first time using Uber in Taiwan, sign up and finish the SMS phone check before you leave home. At Taoyuan Airport, request a ride after baggage claim and follow the pickup spot shown in the app.</b> With three or more suitcases, choose a larger ride from the start.<br><br>We checked the questions travellers ask most often against Uber's official Help pages and airport guide.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Uber in Taiwan: what to do before you fly (as of November 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "At home",
+            "After landing in Taiwan"
+          ],
+          "rows": [
+            {
+              "label": "SMS check",
+              "values": [
+                "Your home number receives it right away",
+                "Only if your home line is roaming and can receive texts"
+              ]
+            },
+            {
+              "label": "Payment method",
+              "values": [
+                "Add it in the app with time to spare",
+                "You end up doing it in a rush in arrivals"
+              ]
+            },
+            {
+              "label": "Code not arriving",
+              "values": [
+                "Easy to call your carrier",
+                "Harder to sort out abroad"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "According to Uber Help, a verification code is sent by text when you create an account or change your number, and the process is the same for foreign numbers, as long as your carrier has coverage where you are. If you only keep a data eSIM on in Taiwan and switch your home line off, the code may not reach you, so it's easier to verify before you go."
+        },
+        {
+          "type": "h2",
+          "text": "02 · When the Uber code doesn't arrive"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Check the number",
+              "desc": "Fix the country code or number, then tap Resend on the verification screen."
+            },
+            {
+              "mark": "2",
+              "b": "Ask your carrier about short codes",
+              "desc": "Uber sends codes from a short code. Ask your carrier to confirm short-code SMS is enabled, and make sure you aren't blocking texts from abroad."
+            },
+            {
+              "mark": "3",
+              "b": "Get the code by phone call",
+              "desc": "On the sign-in screen, tap \"I didn't receive a code\" to resend by SMS or choose a call with the code."
+            },
+            {
+              "mark": "4",
+              "b": "Restart your phone",
+              "desc": "Turning the phone off and on can reconnect it to the network so the text comes through."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-uber-sms-verification-airport-pickup-2.jpg",
+          "caption": "The Terminal 2 arrivals hall at Taoyuan Airport. Request your ride after baggage claim and the app shows where to meet the driver (photo: AirportTerminalGuy / Wikimedia Commons, CC BY 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Taking an Uber from Taoyuan Airport"
+        },
+        {
+          "type": "p",
+          "html": "Uber's official TPE pickup guide says to request a ride after you land, then follow \"Directions to pickup\" in the app once a driver is matched. The pickup spot can depend on the ride type, and you can follow signs for rideshare pickup zones. If you can't find the driver, contact them in the app. Some travellers say it was hard to get a car straight away at the airport, so if your schedule is tight, check on the official page and in the app whether you can enter a date and time to book ahead."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Two suitcases: UberX",
+              "desc": "Uber says UberX usually holds 2 suitcases and UberXL usually 3. Space isn't guaranteed, so message the driver in the app once matched."
+            },
+            {
+              "mark": "✓",
+              "b": "Lots of big bags: UberXXL",
+              "desc": "Described as having trunk space for at least four large 28-inch suitcases. If your luggage doesn't fit, Uber suggests cancelling and requesting a larger ride."
+            },
+            {
+              "mark": "✓",
+              "b": "Check the fare in the app",
+              "desc": "Fares depend on ride type, distance, time, tolls and demand. Enter your pickup and drop-off in the app before you request."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-uber-sms-verification-airport-pickup-1.jpg",
+          "caption": "An Uber taxi outside a hotel in Ximen, Taipei. In Taiwan you can also hail yellow taxis through the Uber app (photo: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · FAQ"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "Can I use Uber in Taiwan with a foreign number?",
+              "desc": "Yes. Uber Help says the process is the same for foreign numbers, but you need coverage on that line to receive the code locally."
+            },
+            {
+              "mark": "Q",
+              "b": "What if the code doesn't arrive?",
+              "desc": "Check the number and tap Resend. If it still fails, choose a call with the code or ask your carrier about short-code SMS."
+            },
+            {
+              "mark": "Q",
+              "b": "Where do I catch an Uber at Taoyuan Airport?",
+              "desc": "After you request, follow the pickup directions in the app. The spot can vary by ride type."
+            },
+            {
+              "mark": "Q",
+              "b": "Is Uber available late at night?",
+              "desc": "Uber says it runs 24/7, though driver arrival times can be longer early in the morning or late at night."
+            },
+            {
+              "mark": "Q",
+              "b": "Can I request several cars for a group?",
+              "desc": "Uber says one account can request up to three rides at once; each ride must start before you request the next."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Landing late at night? See also <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">Landing at Taoyuan after midnight</a>. To use a travel eSIM for data while your home number only receives texts, check <a href=\"/blog-taiwan-esim-data-vs-tourist-sim\">Taiwan eSIM vs local SIM</a>. For your first meal in Taipei, browse the <a href=\"/region-taipei\">Taipei food map</a> and <a href=\"/taipei-dimsum\">Taipei dim sum and dumplings</a>; <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">八方雲集 Zhongxiao Dunhua</a> is one of the places on the map."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 3 November 2026 from Uber's official Help pages (updating your phone number and foreign numbers, not receiving the verification SMS, troubleshooting 2-step verification), Uber's official Taoyuan Airport (TPE) pickup and drop-off pages, and a summary of Naver café traveller posts. Ride options, booking features and fares can change, so check the Uber app before you travel. Photos: Solomon203 (CC BY-SA 4.0) and AirportTerminalGuy (CC BY 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei eats on the map",
+          "desc": "Save a spot for your first meal once you're into the city.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=dimsum"
+        }
+      ]
+    }
+  },
   "changhua-lukang-tianhou-temple-old-street": {
     "heroImage": "assets/images/blog/changhua-lukang-tianhou-temple-old-street-1.jpg",
     "ko": {
