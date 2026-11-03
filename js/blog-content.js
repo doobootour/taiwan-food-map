@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "newtaipei-yehliu-shifen-jiufen-golden-waterfall-tour-eats",
+    "image": "assets/images/attractions/jiufen/yehliu.webp",
+    "regions": [
+      "jiufen"
+    ],
+    "ko": {
+      "eyebrow": "신베이 여행 가이드 · 볼거리·먹거리",
+      "title": "예류·스펀·지우펀·황금폭포 일일투어, 지우펀에선 뭘 먹을까?",
+      "desc": "예류 지질공원, 스펀, 지우펀, 황금폭포가 어떤 곳인지와 각 명소 볼거리, 지우펀 옛 거리에서 들르기 좋은 지도 속 맛집을 정리했어요.",
+      "meta": "신베이 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "New Taipei Travel Guide · Sights & Food",
+      "title": "Yehliu, Shifen, Jiufen & Golden Waterfall Day Tour: What to Eat in Jiufen",
+      "desc": "What Yehliu Geopark, Shifen, Jiufen and the Golden Waterfall are, what to see at each, and restaurants from our map on Jiufen Old Street.",
+      "meta": "New Taipei · Sights & Food"
+    }
+  },
+  {
     "slug": "taiwan-zizhucan-buffet-bento-search",
     "image": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
     "regions": [
@@ -1791,6 +1810,271 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "newtaipei-yehliu-shifen-jiufen-golden-waterfall-tour-eats": {
+    "heroImage": "assets/images/attractions/jiufen/yehliu.webp",
+    "ko": {
+      "pageTitle": "예류·스펀·지우펀·황금폭포 일일투어·지우펀 맛집 — 신베이 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "예류 지질공원, 스펀, 지우펀, 황금폭포가 어떤 곳인지와 각 명소 볼거리, 지우펀 옛 거리에서 들르기 좋은 지도 속 맛집을 정리했어요.",
+      "ogTitle": "예류·스펀·지우펀·황금폭포 일일투어, 지우펀에선 뭘 먹을까?",
+      "eyebrow": "신베이 여행 가이드 · 볼거리·먹거리",
+      "title": "예류·스펀·지우펀·황금폭포 일일투어, 지우펀에선 뭘 먹을까?",
+      "dek": "하루에 북부 명소 네 곳을 도는 투어 전에, 곳곳의 볼거리와 지우펀 골목 맛집을 미리 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "신베이 · 볼거리·먹거리",
+      "intro": "타이베이 근교 북부 해안과 산골 마을을 하루에 묶는 투어는 예류(野柳), 스펀(十分), 지우펀(九份), 황금폭포(黃金瀑布)를 차례로 둘러보는 경우가 많아요. 대중교통으로는 하루에 다 돌기 빠듯한 곳들이라 투어가 편하고, 마지막에 들르는 지우펀 골목에서 저녁을 해결하면 동선이 깔끔해요. 交通部觀光署 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 투어로 가는 네 곳은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "예류는 바닷물과 바람이 바위를 깎아 만든 버섯바위·두부바위가 모인 해안이고, 스펀은 平溪線 기찻길 양옆에 가게가 붙은 마을이에요. 지우펀은 1890년 무렵 금이 발견되며 번성한 산비탈 광산 마을이고, 황금폭포는 그 아래 水湳洞 쪽 金水公路 옆에 있는 폭포예요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/jiufen/yehliu.webp",
+          "caption": "예류 해안의 여왕머리 바위와 관광객이에요(사진: 姜 明雄 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 명소별로 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "예류 '女王頭'",
+              "desc": "옆얼굴이 여왕을 닮은 버섯바위예요. 곶 끝까지 이어진 길을 따라 여러 모양의 기암을 차례로 볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "스펀 풍등과 十分瀑布",
+              "desc": "철길 위에서 소원을 적은 풍등(天燈)을 날리는 것이 대표 체험이에요. 근처 十分瀑布는 '대만의 나이아가라'라 불리는 커튼형 폭포예요."
+            },
+            {
+              "mark": "✓",
+              "b": "지우펀 基山街와 豎崎路",
+              "desc": "좁은 골목 基山街를 따라 먹거리 가게가 이어지고, 돌계단 길 豎崎路에는 붉은 등이 달린 찻집이 늘어서 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "황금폭포",
+              "desc": "광맥을 지나온 물과 빗물이 만나 바위가 금빛·주황빛으로 물든 폭포예요. 1년 내내 열려 있고 입장료가 없어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "투어로 가기",
+              "desc": "네 곳은 서로 떨어져 있어 하루에 묶으려면 투어가 편해요. 일정, 포함 사항, 출발 장소와 시간은 상품 옵션마다 달라요. 예약 전에 클룩 상품 페이지에서 꼭 확인하세요."
+            },
+            {
+              "mark": "2",
+              "b": "직접 간다면",
+              "desc": "택시와 버스를 섞는 방법은 <a href=\"/blog-yehliu-jiufen-taxi-vs-bus-tour\">예류·지우펀 택시 vs 버스투어</a>, 스펀 기차 동선은 <a href=\"/blog-pingxi-line-ruifang-houtong-shifen\">핑시선 루이팡·허우퉁·스펀</a> 글에 정리해뒀어요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F76306-yehliu-jiufen-shifen-golden-waterfall-day-tour%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 예류·스펀·지우펀 투어 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 지우펀 옛 거리에서 들르기 좋은 맛집"
+        },
+        {
+          "type": "p",
+          "html": "투어 마지막 코스인 지우펀 옛 거리 안쪽에 지도에 등록된 가게가 모여 있어요. 모두 골목 안 0.1~0.2km 거리라 자유 시간에 걸어서 들르기 좋아요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/jiufen-taiwanese-973\">安迪藥燉排骨</a> · 대만식 · 북쪽 약 0.1km",
+              "desc": "지도 메모: 지우펀의 국수집으로, 시원한 국물의 국수와 육즙 가득한 만두를 저렴하게 즐길 수 있다."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/jiufen-cafe-974\">石頭貓</a> · 카페 · 북서쪽 약 0.1km",
+              "desc": "지도 메모: 지우펀의 고양이 소품 가게 겸 카페로, 허니 포멜로 티가 맛있고 음료 가격도 착하다."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/jiufen-shaved_ice-1009\">阿柑姨芋圓</a> · 빙수 · 남서쪽 약 0.1km",
+              "desc": "지도 메모: 지우펀의 유명한 위위안(토란떡) 가게로, 걷다가 목마를 때 먹는 위위안 빙수가 맛있다."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/jiufen-noodle-1010\">魚丸伯仔</a> · 국수 · 북동쪽 약 0.1km",
+              "desc": "지도 메모: 지우펀의 어묵탕 가게로, 어묵탕과 비빔국수를 함께 시켜 먹기 좋다. 1인 1메뉴 주문이 원칙이다."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/jiufen-cafe-twilight-cafe-843\">微光森林 Twilight Cafe</a> · 카페 · 남동쪽 약 0.2km",
+              "desc": "지도 메모: 지우펀 옛거리 위쪽 골목의 카페로, 숲속 같은 분위기에서 좋은 커피와 아침 식사를 즐길 수 있다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 交通部觀光署의 野柳·十分·九份·黃金瀑布 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 투어 일정과 요금은 클룩 상품 페이지를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: 姜 明雄, Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 지우펀·근교 맛집도 확인해보세요",
+          "desc": "투어 자유 시간에 들를 곳을 지도에서 미리 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Yehliu, Shifen, Jiufen & Golden Waterfall Day Tour & Jiufen Eats — New Taipei · My Secret Taiwan Eats",
+      "metaDescription": "What Yehliu Geopark, Shifen, Jiufen and the Golden Waterfall are, what to see at each, and restaurants from our map on Jiufen Old Street.",
+      "ogTitle": "Yehliu, Shifen, Jiufen & Golden Waterfall Day Tour: What to Eat in Jiufen",
+      "eyebrow": "New Taipei Travel Guide · Sights & Food",
+      "title": "Yehliu, Shifen, Jiufen & Golden Waterfall Day Tour: What to Eat in Jiufen",
+      "dek": "Before a tour of four northern sights in a day, check what to see at each stop and the restaurants in Jiufen's alleys.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "New Taipei · Sights & Food",
+      "intro": "Day tours combining northern coast and mountain villages near Taipei often visit Yehliu (野柳), Shifen (十分), Jiufen (九份) and the Golden Waterfall (黃金瀑布) in turn. They're hard to fit into one day by public transport, so a tour is easier, and eating dinner in Jiufen's alleys at the last stop keeps the route simple. Based on 交通部觀光署 information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Are the Four Tour Stops?"
+        },
+        {
+          "type": "p",
+          "html": "Yehliu is a coastline of mushroom rocks and tofu rocks carved by seawater and wind, and Shifen is a village with shops lining both sides of the 平溪線 railway. Jiufen is a hillside mining town that boomed after gold was found around 1890, and the Golden Waterfall is below it, beside the 金水公路 near 水湳洞."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/jiufen/yehliu.webp",
+          "caption": "The Queen's Head rock and visitors on the Yehliu coast (photo: 姜 明雄 / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What Not to Miss at Each Stop"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Yehliu's '女王頭'",
+              "desc": "A mushroom rock whose profile resembles a queen. Along the path to the tip of the cape you can see many other rock shapes."
+            },
+            {
+              "mark": "✓",
+              "b": "Shifen sky lanterns and 十分瀑布",
+              "desc": "Releasing a sky lantern (天燈) with your wishes written on it from the railway tracks is the signature experience. Nearby 十分瀑布 is a curtain-shaped waterfall called 'Taiwan's Niagara'."
+            },
+            {
+              "mark": "✓",
+              "b": "Jiufen's 基山街 and 豎崎路",
+              "desc": "Food stalls line the narrow 基山街 alley, and teahouses hung with red lanterns line the stone steps of 豎崎路."
+            },
+            {
+              "mark": "✓",
+              "b": "Golden Waterfall",
+              "desc": "A waterfall where water that has passed through ore veins mixes with rainwater, staining the rocks gold and orange. It's open year-round with no admission fee."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Going on a tour",
+              "desc": "The four sights are far apart, so a tour is easier for doing them in one day. Schedule, inclusions, departure point and time vary by product option. Check the Klook product page before you book."
+            },
+            {
+              "mark": "2",
+              "b": "Going on your own",
+              "desc": "For mixing taxis and buses, see <a href=\"/blog-yehliu-jiufen-taxi-vs-bus-tour\">Yehliu & Jiufen: taxi vs bus tour</a>, and for the Shifen train route, see <a href=\"/blog-pingxi-line-ruifang-houtong-shifen\">Pingxi Line: Ruifang, Houtong & Shifen</a>."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F76306-yehliu-jiufen-shifen-golden-waterfall-day-tour%2F\" target=\"_blank\" rel=\"sponsored noopener\">See the Yehliu, Shifen & Jiufen tour on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Restaurants on Jiufen Old Street"
+        },
+        {
+          "type": "p",
+          "html": "Places on our map cluster inside Jiufen Old Street, the last stop of the tour. All are 0.1–0.2 km apart in the alleys, so you can walk to them during free time. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/jiufen-taiwanese-973\">安迪藥燉排骨</a> · Taiwanese · about 0.1 km north",
+              "desc": "Map note: A Jiufen noodle shop with refreshing noodle soup and juicy dumplings at low prices."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/jiufen-cafe-974\">石頭貓</a> · Café · about 0.1 km northwest",
+              "desc": "Map note: A cat goods shop and café in Jiufen. The honey pomelo tea is tasty and drinks are reasonably priced."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/jiufen-shaved_ice-1009\">阿柑姨芋圓</a> · Shaved Ice · about 0.1 km southwest",
+              "desc": "Map note: A famous Jiufen taro ball (芋圓) shop. The taro ball shaved ice is great when you get thirsty walking around."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/jiufen-noodle-1010\">魚丸伯仔</a> · Noodles · about 0.1 km northeast",
+              "desc": "Map note: A fish ball soup shop in Jiufen. Fish ball soup with dry mixed noodles makes a good order. One item per person is required."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/jiufen-cafe-twilight-cafe-843\">微光森林 Twilight Cafe</a> · Café · about 0.2 km southeast",
+              "desc": "Map note: A café in an alley above Jiufen Old Street, with good coffee and breakfast in a forest-like setting."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on 交通部觀光署's information on 野柳, 十分, 九份 and 黃金瀑布, as of October 2026. For tour schedules and prices, check the Klook product page. Restaurant distances are straight-line from the coordinates registered on our map. Photo: 姜 明雄, Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Jiufen and nearby eats on the map",
+          "desc": "Save places to visit during the tour's free time on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    }
+  },
   "taiwan-zizhucan-buffet-bento-search": {
     "heroImage": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
     "ko": {
