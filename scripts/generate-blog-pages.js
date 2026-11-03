@@ -308,8 +308,13 @@ function englishBodyLinks(html) {
   return html
     .replace(/href="\/blog-([a-z0-9-]+)"/g, (m, slug) => (EN_SET.has(slug) ? `href="/en/blog-${slug}"` : m))
     .replace(PAIRED_HUB_RE, (m, rest) => (fs.existsSync(path.join(root, "en", `${rest}.html`)) ? `href="/en/${rest}"` : m))
-    .replace(/(k_site=https%3A%2F%2Fwww\.klook\.com)%2Fko%2F/g, "$1%2Fen-US%2F");
+    .replace(/(k_site=https%3A%2F%2Fwww\.klook\.com)%2Fko%2F(activity%2F(\d+))/g, (m, pre, rest, id) =>
+      KLOOK_KO_ONLY.has(id) ? m : `${pre}%2Fen-US%2F${rest}`)
+    .replace(/(k_site=https%3A%2F%2Fwww\.klook\.com)%2Fko%2F(?!activity%2F)/g, "$1%2Fen-US%2F");
 }
+
+// Klook activities sold only on the Korean storefront (en-US page is 404): keep /ko/ on English pages.
+const KLOOK_KO_ONLY = new Set(["138221"]);
 
 function englishDateParagraph(dates) {
   const publishedLabel = formatTaipeiDot(dates.published);
