@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taiwan-zizhucan-buffet-bento-search",
+    "image": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 팁 · 식사",
+      "title": "대만 자조찬 식당, 自助餐·便當 검색어로 찾는 법",
+      "desc": "대만에서 반찬을 골라 담는 식당을 찾을 땐 어떤 검색어를 쓸까요? 自助餐·便當 검색법과 무게·눈대중 계산법, 계산 전 확인할 점을 정리했어요.",
+      "meta": "대만 전역 · 식사 팁"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Tips · Food",
+      "title": "Taiwan Zizhucan Buffets: How to Find Them by Search Word",
+      "desc": "Which words to search for Taiwan's pick-your-own dish canteens and bento shops, how they price your plate, and what to check before you pay.",
+      "meta": "All of Taiwan · Food tips"
+    }
+  },
+  {
     "slug": "tainan-sicao-green-tunnel-raft-ticket-anping-eats",
     "image": "assets/images/regions/tainan.webp",
     "regions": [
@@ -1772,6 +1791,377 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taiwan-zizhucan-buffet-bento-search": {
+    "heroImage": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
+    "ko": {
+      "pageTitle": "대만 자조찬(自助餐) 식당 찾는 법 — 검색어·계산법 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만에서 반찬을 골라 담는 자조찬 식당은 自助餐, 도시락집은 便當으로 검색하면 찾기 쉬워요. 무게·눈대중 계산법과 계산 전에 확인할 점을 정리했어요.",
+      "ogTitle": "대만 자조찬 식당, 自助餐·便當 검색어로 찾는 법",
+      "eyebrow": "대만 여행 팁 · 식사",
+      "title": "대만 자조찬 식당, 自助餐·便當 검색어로 찾는 법",
+      "dek": "반찬을 골라 담는 식당은 自助餐, 도시락집은 便當으로 찾고, 계산 방식은 담기 전에 확인하세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 전역 · 식사 팁",
+      "intro": "<b>대만에서 반찬을 직접 골라 담는 식당은 구글맵에서 '自助餐(자조찬)'으로, 도시락집은 '便當(볜당)'으로 검색하면 찾기 쉬워요. 계산은 무게로 재는 가게와 직원이 눈대중으로 매기는 가게가 있어서, 담기 전에 어떤 방식인지 보는 게 좋아요.</b><br><br>여행자 커뮤니티에서 나온 질문을 지자체 소비자보호 안내와 臺鐵便當 공식 사이트로 확인해 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 자조찬·도시락집 검색어 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "검색어",
+            "찾을 수 있는 곳",
+            "참고"
+          ],
+          "rows": [
+            {
+              "label": "自助餐",
+              "values": [
+                "반찬을 직접 골라 담는 식당",
+                "'台式自助餐'이라고 적힌 간판도 많아요"
+              ]
+            },
+            {
+              "label": "便當",
+              "values": [
+                "도시락을 파는 가게",
+                "메인 반찬을 고르면 밥과 곁반찬이 같이 나와요"
+              ]
+            },
+            {
+              "label": "素食自助餐",
+              "values": [
+                "채식 자조찬",
+                "고기를 먹지 않는다면 이 검색어로"
+              ]
+            },
+            {
+              "label": "臺鐵便當",
+              "values": [
+                "대만철도 도시락 매장",
+                "역 안에 있어 이동 중에 사기 좋아요"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "자조찬(自助餐)은 한국의 '뷔페'와 글자는 같지만, 대만 동네 식당에서는 진열대에 놓인 반찬을 내 접시나 도시락 상자에 담고 마지막에 한 번에 계산하는 방식을 말해요. 호텔 뷔페처럼 정액으로 무제한 먹는 곳과는 달라요. 구글맵에서 '自助餐'을 검색하면 근처 가게가 나오고, 사진과 영업시간을 함께 볼 수 있어요. 점심과 저녁 시간에만 여는 곳도 있으니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
+          "caption": "대만 자조찬 식당의 반찬 진열대 예시예요. 원하는 반찬을 골라 담고 마지막에 계산해요(사진: DONGIE 829 EFUOA / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 자조찬 계산법, 무게와 눈대중 두 가지"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "무게로 재는 가게(秤重)",
+              "desc": "담은 접시를 저울에 올려 무게로 값을 매겨요. 新北市 소비자보호관은 무게로 계산하는 가게라면 손님 쪽에서 무게·단가·총액을 볼 수 있어야 한다고 안내했어요."
+            },
+            {
+              "mark": "2",
+              "b": "눈대중으로 매기는 가게",
+              "desc": "직원이 담긴 반찬 종류와 양을 보고 값을 매기는 곳도 흔하다고 대만 언론이 전했어요. 같은 양이라도 고른 반찬에 따라 값이 달라질 수 있어요."
+            },
+            {
+              "mark": "3",
+              "b": "비싼 반찬은 따로 표시",
+              "desc": "소비자보호관은 원가가 높은 반찬을 더 받는 경우 따로 공지해 알리는 방법을 권했어요. 생선이나 큰 고기 반찬 앞 안내문을 한 번 보세요."
+            },
+            {
+              "mark": "4",
+              "b": "궁금하면 계산 전에 묻기",
+              "desc": "값이 걱정되면 담기 전이나 계산 전에 직원에게 물어보세요. 국물이 많은 반찬은 무게가 늘 수 있어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 역에서 사는 臺鐵便當 (2026년 11월 기준)"
+        },
+        {
+          "type": "p",
+          "html": "자조찬 가게를 찾기 어려운 날에는 대만철도(臺鐵) 역 안의 臺鐵便當本舖가 편해요. 공식 사이트에 따르면 타이베이역 1호점은 1층 西3門 옆에 있고, 판매 시간은 09:30~14:00, 14:00~19:00로 나뉘어 있어요. 같은 사이트의 타이베이 메뉴에는 排骨經典便當(갈비 도시락)·雞腿便當(닭다리 도시락)이 NT$100, 控肉便當(삼겹살 조림 도시락)이 NT$120으로 올라 있어요(2026년 11월 기준). 반차오(板橋)·타오위안(桃園) 등 다른 역 매장도 공식 사이트에서 위치와 시간을 볼 수 있어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-2.jpg",
+          "caption": "타이베이역 1층 西3門 옆 臺鐵便當本舖 1호점 매장 입구예요(사진: Bigmorr / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 자조찬 이용할 때 알아두면 좋은 점"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "줄 서는 방향 보기",
+              "desc": "보통 쟁반이나 도시락 상자를 먼저 들고 진열대를 따라 이동해요. 앞사람을 보고 같은 방향으로 따라가면 돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "밥은 따로일 수 있어요",
+              "desc": "밥이나 국을 별도로 받는 가게도 있어요. 가게마다 다르니 직원이 밥이 필요한지 물으면 답하면 돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "결제 수단은 가게마다 달라요",
+              "desc": "현금만 받는 곳도 있으니 작은 지폐와 동전을 챙기세요. 이지카드가 되는지는 계산대 표시를 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "문제가 생기면 1950",
+              "desc": "新北市 소비자보호관은 소비 분쟁이 생기면 1950 전국 소비자 서비스 전화로 상담할 수 있다고 안내했어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 자주 묻는 질문"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "대만 자조찬은 무슨 검색어로 찾아요?",
+              "desc": "구글맵에서 '自助餐'으로 검색하세요. 채식이면 '素食自助餐', 도시락집은 '便當'이 편해요."
+            },
+            {
+              "mark": "Q",
+              "b": "자조찬은 무제한 뷔페인가요?",
+              "desc": "아니요. 동네 자조찬은 담은 만큼 계산하는 방식이라 정액 무제한 뷔페와 달라요."
+            },
+            {
+              "mark": "Q",
+              "b": "값은 어떻게 매겨요?",
+              "desc": "저울로 무게를 재는 가게와 직원이 눈대중으로 매기는 가게가 있어요. 무게로 재는 곳은 손님이 무게·단가·총액을 볼 수 있어야 해요."
+            },
+            {
+              "mark": "Q",
+              "b": "臺鐵便當은 얼마예요?",
+              "desc": "2026년 11월 기준 공식 사이트의 타이베이 메뉴에서 갈비·닭다리 도시락은 NT$100, 삼겹살 조림 도시락은 NT$120이에요."
+            },
+            {
+              "mark": "Q",
+              "b": "타이베이역 臺鐵便當은 몇 시까지 팔아요?",
+              "desc": "공식 사이트에 따르면 1호점은 09:30~14:00, 14:00~19:00에 팔아요. 가기 전에 공식 사이트에서 다시 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "메뉴판 한자가 어렵다면 <a href=\"/blog-taiwan-food-menu-chinese-words\">대만 메뉴판 중국어 단어</a>와 <a href=\"/blog-taiwan-google-translate-camera-menu\">구글 번역 카메라로 메뉴판 읽기</a>를 같이 보세요. 臺鐵便當 이지카드 결제는 <a href=\"/blog-taipei-restaurant-easycard-payment\">타이베이 식당 이지카드 결제</a>에 정리해 두었어요. 자조찬 말고 앉아서 먹을 곳을 찾는다면 <a href=\"/region-taipei\">타이베이 맛집 지도</a>와 <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a>을 먼저 둘러보세요. 지도에 있는 <a href=\"/taipei-taiwanese-260\">野宴食堂</a>도 대만식 가정식을 내는 곳이에요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 新北市政府 법제국 소비자보호관 보도자료(2023-04-10, 자조찬 전자저울 표시), 臺中市政府 地方稅務局 소비자 안내(2024-09-20 갱신), 臺鐵便當 공식 사이트의 매장 위치·판매 시간과 도시락 메뉴 가격, 三立新聞 보도, 네이버 카페 여행자 글 요약을 바탕으로 2026년 11월 3일에 정리했어요. 가격과 판매 시간은 바뀔 수 있으니 가기 전에 공식 사이트나 구글맵에 등록된 영업시간을 다시 확인하세요. 사진: DONGIE 829 EFUOA(CC0), Bigmorr(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 대만식 맛집도 확인해보세요",
+          "desc": "자조찬 말고 앉아서 먹을 대만식 식당을 지도에서 골라보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=taiwanese"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taiwan Zizhucan (自助餐) Buffets — Search Words & Pricing · My Secret Taiwan Eats",
+      "metaDescription": "Search 自助餐 for pick-your-own dish canteens and 便當 for bento shops in Taiwan. How weight-based and eyeballed pricing work, and what to check before paying.",
+      "ogTitle": "Taiwan Zizhucan Buffets: How to Find Them by Search Word",
+      "eyebrow": "Taiwan Travel Tips · Food",
+      "title": "Taiwan Zizhucan Buffets: How to Find Them by Search Word",
+      "dek": "Search 自助餐 for pick-your-own dish canteens and 便當 for bento shops, and check how a shop prices your plate before you fill it.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "All of Taiwan · Food tips",
+      "intro": "<b>In Taiwan, canteens where you pick your own dishes are easiest to find by searching '自助餐' (zizhucan) on Google Maps, and bento shops by searching '便當' (biandang). Some shops price your plate by weight and others by eye, so check which method they use before you fill it.</b><br><br>We checked questions from traveller communities against local consumer protection notices and TRA Bento's official site.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Search Words at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Search word",
+            "What you'll find",
+            "Note"
+          ],
+          "rows": [
+            {
+              "label": "自助餐",
+              "values": [
+                "Canteens where you pick your own dishes",
+                "Many signs say '台式自助餐'"
+              ]
+            },
+            {
+              "label": "便當",
+              "values": [
+                "Bento (lunch box) shops",
+                "Pick a main and it comes with rice and sides"
+              ]
+            },
+            {
+              "label": "素食自助餐",
+              "values": [
+                "Vegetarian zizhucan",
+                "Use this if you don't eat meat"
+              ]
+            },
+            {
+              "label": "臺鐵便當",
+              "values": [
+                "Taiwan Railway bento shops",
+                "Inside stations, handy on travel days"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "At a neighbourhood zizhucan (自助餐), you put the dishes you want from the counter onto your plate or into a box and pay once at the end. It isn't an all-you-can-eat buffet with a fixed price like at a hotel. Searching '自助餐' on Google Maps shows shops nearby with photos and hours. Some open only at lunch and dinner, so check the hours listed on Google Maps before you go."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
+          "caption": "An example of a zizhucan counter in Taiwan. You pick the dishes you want and pay at the end (photo: DONGIE 829 EFUOA / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · How Zizhucan Prices Your Plate"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "By weight (秤重)",
+              "desc": "Your plate goes on a scale. New Taipei City's consumer protection officer said shops pricing by weight should let customers see the weight, unit price and total."
+            },
+            {
+              "mark": "2",
+              "b": "By eye",
+              "desc": "Taiwanese media report that many shops have staff price your plate by looking at the dishes and amounts. The same amount can cost different prices depending on what you chose."
+            },
+            {
+              "mark": "3",
+              "b": "Pricier dishes may be marked",
+              "desc": "The officer suggested shops post a notice when high-cost dishes are charged extra, so look for signs by fish or large meat dishes."
+            },
+            {
+              "mark": "4",
+              "b": "Ask before you pay",
+              "desc": "If you're unsure about the price, ask staff before you fill up or before paying. Dishes with a lot of sauce can add weight."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · TRA Bento at the Station (as of November 2026)"
+        },
+        {
+          "type": "p",
+          "html": "If there's no zizhucan nearby, TRA Bento (臺鐵便當本舖) inside Taiwan Railway stations is an easy option. Its official site lists Taipei Station store No. 1 by West Gate 3 on the ground floor, selling 09:30–14:00 and 14:00–19:00. The Taipei menu on the same site lists the pork chop bento (排骨經典便當) and chicken leg bento (雞腿便當) at NT$100 and the braised pork belly bento (控肉便當) at NT$120 (as of November 2026). Other station stores such as Banqiao and Taoyuan are listed on the site too."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-2.jpg",
+          "caption": "The entrance of TR Bento store No. 1 by West Gate 3 on the ground floor of Taipei Station (photo: Bigmorr / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Good to Know at a Zizhucan"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Follow the line",
+              "desc": "You usually take a tray or box first and move along the counter. Just follow the person in front of you."
+            },
+            {
+              "mark": "✓",
+              "b": "Rice may be separate",
+              "desc": "Some shops serve rice or soup separately, so answer if staff ask whether you want rice."
+            },
+            {
+              "mark": "✓",
+              "b": "Payment varies by shop",
+              "desc": "Some shops take cash only, so carry small notes and coins. Look for signs at the counter to see if EasyCard works."
+            },
+            {
+              "mark": "✓",
+              "b": "Problems? Call 1950",
+              "desc": "New Taipei City's consumer protection officer says you can call the national 1950 consumer service line about disputes."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · FAQ"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "What should I search to find a zizhucan in Taiwan?",
+              "desc": "Search '自助餐' on Google Maps. Use '素食自助餐' for vegetarian and '便當' for bento shops."
+            },
+            {
+              "mark": "Q",
+              "b": "Is a zizhucan all-you-can-eat?",
+              "desc": "No. Neighbourhood zizhucan charge for what you take, unlike fixed-price buffets."
+            },
+            {
+              "mark": "Q",
+              "b": "How is the price worked out?",
+              "desc": "Some shops weigh your plate and others price it by eye. Weight-based shops should let you see the weight, unit price and total."
+            },
+            {
+              "mark": "Q",
+              "b": "How much is a TRA bento?",
+              "desc": "As of November 2026 the official Taipei menu lists the pork chop and chicken leg bentos at NT$100 and the braised pork belly bento at NT$120."
+            },
+            {
+              "mark": "Q",
+              "b": "When does TRA Bento at Taipei Station sell?",
+              "desc": "The official site lists store No. 1 at 09:30–14:00 and 14:00–19:00. Check the site again before you go."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If the characters on the menu are tricky, see <a href=\"/blog-taiwan-food-menu-chinese-words\">Chinese words on Taiwanese menus</a> and <a href=\"/blog-taiwan-google-translate-camera-menu\">reading menus with Google Translate camera</a>. Paying for TRA bento by EasyCard is covered in <a href=\"/blog-taipei-restaurant-easycard-payment\">EasyCard at Taipei restaurants</a>. For a sit-down meal instead, browse the <a href=\"/region-taipei\">Taipei food map</a> and <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a>, including <a href=\"/taipei-taiwanese-260\">野宴食堂</a> on the map."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 3 November 2026 from a New Taipei City consumer protection press release (10 April 2023, on buffet scale displays), a Taichung City tax bureau consumer notice (updated 20 September 2024), TRA Bento's official store and menu pages, a SETN news report, and a summary of Naver café traveller posts. Prices and hours can change, so check the official site or the hours listed on Google Maps before you go. Photos: DONGIE 829 EFUOA (CC0) and Bigmorr (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei Taiwanese restaurants on the map",
+          "desc": "Pick a sit-down Taiwanese restaurant on the map instead.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=taiwanese"
+        }
+      ]
+    }
+  },
   "tainan-sicao-green-tunnel-raft-ticket-anping-eats": {
     "heroImage": "assets/images/regions/tainan.webp",
     "ko": {
