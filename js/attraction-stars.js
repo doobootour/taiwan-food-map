@@ -2,6 +2,24 @@
 // worker.js가 leaflet.js 바로 뒤에 이 파일과 attractions.js를 끼워 넣으므로
 // 지도 스크립트가 L.map()을 부르기 전에 훅이 등록된다. 지역을 추가하면 자동으로 별이 생긴다.
 (function () {
+
+// 마우스가 있는 기기에서는 마커에 커서를 올리면 팝업이 뜨고, 팝업 안으로 옮겨도 잠시 유지된다(링크 클릭 가능).
+// 터치 기기는 기존처럼 탭으로 연다. 호버로 열린 뒤 클릭해도 닫히지 않게 한다.
+function tfmHoverPopup(marker) {
+  if (!window.matchMedia || !window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+  var t = null;
+  var clear = function () { if (t) { clearTimeout(t); t = null; } };
+  var later = function () { clear(); t = setTimeout(function () { marker.closePopup(); }, 250); };
+  marker.off("click", marker._openPopup, marker);
+  marker.on("click", function () { clear(); marker.openPopup(); });
+  marker.on("mouseover", function () { clear(); if (!marker.isPopupOpen()) marker.openPopup(); });
+  marker.on("mouseout", later);
+  marker.on("popupopen", function (e) {
+    var el = e.popup.getElement();
+    if (el && !el._tfmHover) { el._tfmHover = 1; el.addEventListener("mouseenter", clear); el.addEventListener("mouseleave", later); }
+  });
+}
+  window.tfmHoverPopup = tfmHoverPopup;
   if (!window.L || !L.Map || typeof ATTRACTIONS === "undefined") return;
   var css = document.createElement("style");
   css.textContent =
@@ -30,7 +48,7 @@
     Object.keys(ATTRACTIONS).forEach(function (regionId) {
       (ATTRACTIONS[regionId].items || []).forEach(function (it) {
         var href = "/" + regionId + "-attractions#" + it.id;
-        L.marker([it.lat, it.lng], { icon: icon, zIndexOffset: 2000, title: it.ko + " " + it.zh, keyboard: true })
+        var mk = L.marker([it.lat, it.lng], { icon: icon, zIndexOffset: 2000, title: it.ko + " " + it.zh, keyboard: true })
           .bindPopup(
             '<div class="attr-pop"><span class="attr-pop-badge">★ 관광지</span>' +
             '<span class="attr-pop-name">' + esc(it.ko) + '</span>' +
@@ -38,11 +56,12 @@
             '<a class="attr-pop-btn" href="' + href + '">관광지 안내 보기 →</a></div>',
             { className: "attr-popup", maxWidth: 280, minWidth: 0, offset: [0, -4], autoPan: true, autoPanPaddingTopLeft: L.point(8, 70), autoPanPaddingBottomRight: L.point(window.innerWidth < 768 ? 16 : 24, window.innerWidth < 768 ? 60 : 24) })
           .addTo(group);
+        tfmHoverPopup(mk);
       });
     });
     if (typeof ACTIVITIES !== "undefined") {
       ACTIVITIES.forEach(function (it) {
-        L.marker([it.lat, it.lng], { icon: icon, zIndexOffset: 2000, title: it.ko, keyboard: true })
+        var mk = L.marker([it.lat, it.lng], { icon: icon, zIndexOffset: 2000, title: it.ko, keyboard: true })
           .bindPopup(
             '<div class="attr-pop"><span class="attr-pop-badge">★ 액티비티</span>' +
             '<span class="attr-pop-name">' + esc(it.ko) + '</span>' +
@@ -51,6 +70,7 @@
             (it.blog ? '<a class="attr-pop-btn attr-pop-btn2" href="' + esc(it.blog) + '">블로그 글 보기 →</a>' : '') + '</div>',
             { className: "attr-popup", maxWidth: 280, minWidth: 0, offset: [0, -4], autoPan: true, autoPanPaddingTopLeft: L.point(8, 70), autoPanPaddingBottomRight: L.point(window.innerWidth < 768 ? 16 : 24, window.innerWidth < 768 ? 60 : 24) })
           .addTo(group);
+        tfmHoverPopup(mk);
       });
     }
     function sync() {

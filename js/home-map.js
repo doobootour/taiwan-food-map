@@ -134,6 +134,7 @@
       const marker = L.marker([spot.lat, spot.lng], { icon: pinIcon(spot) });
       marker.spotData = spot; // 클러스터 아이콘에서 NEW 뱃지 노출 여부를 판단할 때 참조
       marker.bindPopup(popupHtml(spot));
+      if (window.tfmHoverPopup) window.tfmHoverPopup(marker);
       marker.on("popupopen", () => {
         filterPanel.classList.remove("expanded");
         document.querySelectorAll(".vote-btn").forEach(btn => {
