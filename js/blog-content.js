@@ -38,6 +38,8 @@ const BLOG_LIST = [
     }
   },
   
+  
+  
   {
     "slug": "taiwan-zizhucan-buffet-bento-search",
     "image": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
@@ -1861,8 +1863,8 @@ const BLOG_POSTS = {
             },
             {
               "mark": "✓",
-              "b": "지우펀 基山街와 豎崎路",
-              "desc": "좁은 골목 基山街를 따라 먹거리 가게가 이어지고, 돌계단 길 豎崎路에는 붉은 등이 달린 찻집이 늘어서 있어요."
+              "b": "지우펀 골목과 돌계단 길",
+              "desc": "좁은 골목을 따라 먹거리 가게가 이어지고, 돌계단 길에는 애니메이션 「센과 치히로의 행방불명」의 모티브가 된 것으로 유명해진 아메이찻집이 있어요."
             }
           ]
         },
@@ -1891,7 +1893,35 @@ const BLOG_POSTS = {
         },
         {
           "type": "h2",
-          "text": "04 · 지우펀 옛 거리에서 들르기 좋은 맛집"
+          "text": "04 · 스펀에서 무조건 먹어야 하는 맛 3대장"
+        },
+        {
+          "type": "p",
+          "html": "스펀 옛 거리(十分街)에서 풍등을 날린 뒤 들르기 좋은, 저희가 직접 추천하는 세 곳이에요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/jiufen-street_food-1022\">스펀 리우거 닭날개볶음밥 (十分溜哥燒烤雞翅包飯)</a>",
+              "desc": "버스투어 승객 모두가 아는 맛"
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/jiufen-stinky_tofu-50\">스펀 취두부 (十分寶桂臭豆腐)</a>",
+              "desc": "대만 취두부 도전하기 딱 좋은 맛"
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/jiufen-street_food-720\">스펀 소세지 (十分黑豬肉香腸)</a>",
+              "desc": "1개만 먹으면 후회하는 맛"
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 지우펀 옛 거리에서 들르기 좋은 맛집"
         },
         {
           "type": "p",
@@ -1992,8 +2022,8 @@ const BLOG_POSTS = {
             },
             {
               "mark": "✓",
-              "b": "Jiufen's 基山街 and 豎崎路",
-              "desc": "Food stalls line the narrow 基山街 alley, and teahouses hung with red lanterns line the stone steps of 豎崎路."
+              "b": "Jiufen's alleys and stone-stair street",
+              "desc": "Food shops line the narrow alley, and on the stone-stair street is A-Mei Teahouse, which became famous as a motif for the animated film Spirited Away."
             }
           ]
         },
@@ -2022,7 +2052,35 @@ const BLOG_POSTS = {
         },
         {
           "type": "h2",
-          "text": "04 · Restaurants on Jiufen Old Street"
+          "text": "04 · Shifen's Big Three: Must-Eat Bites"
+        },
+        {
+          "type": "p",
+          "html": "Three spots on Shifen Old Street (十分街) that we personally recommend, easy to drop by after releasing a sky lantern."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/jiufen-street_food-1022\">Shifen LiouGou Chicken Wing Rice (十分溜哥燒烤雞翅包飯)</a>",
+              "desc": "The taste every bus-tour passenger knows."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/jiufen-stinky_tofu-50\">Shifen Stinky Tofu (十分寶桂臭豆腐)</a>",
+              "desc": "Just right for trying Taiwanese stinky tofu for the first time."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/jiufen-street_food-720\">Shifen Sausage (十分黑豬肉香腸)</a>",
+              "desc": "Eat just one and you'll regret it."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · Restaurants on Jiufen Old Street"
         },
         {
           "type": "p",
@@ -2076,6 +2134,8 @@ const BLOG_POSTS = {
       ]
     }
   },
+  
+  
   
   "taiwan-zizhucan-buffet-bento-search": {
     "heroImage": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
