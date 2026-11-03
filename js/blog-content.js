@@ -39,6 +39,7 @@ const BLOG_LIST = [
   },
   
   
+  
   {
     "slug": "taiwan-zizhucan-buffet-bento-search",
     "image": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
@@ -1862,8 +1863,8 @@ const BLOG_POSTS = {
             },
             {
               "mark": "✓",
-              "b": "지우펀 基山街와 豎崎路",
-              "desc": "좁은 골목 基山街를 따라 먹거리 가게가 이어지고, 돌계단 길 豎崎路에는 붉은 등이 달린 찻집이 늘어서 있어요."
+              "b": "지우펀 골목과 돌계단 길",
+              "desc": "좁은 골목을 따라 먹거리 가게가 이어지고, 돌계단 길에는 애니메이션 「센과 치히로의 행방불명」의 모티브가 된 것으로 유명해진 아메이찻집이 있어요."
             }
           ]
         },
@@ -2021,8 +2022,8 @@ const BLOG_POSTS = {
             },
             {
               "mark": "✓",
-              "b": "Jiufen's 基山街 and 豎崎路",
-              "desc": "Food stalls line the narrow 基山街 alley, and teahouses hung with red lanterns line the stone steps of 豎崎路."
+              "b": "Jiufen's alleys and stone-stair street",
+              "desc": "Food shops line the narrow alley, and on the stone-stair street is A-Mei Teahouse, which became famous as a motif for the animated film Spirited Away."
             }
           ]
         },
@@ -2133,6 +2134,7 @@ const BLOG_POSTS = {
       ]
     }
   },
+  
   
   
   "taiwan-zizhucan-buffet-bento-search": {
