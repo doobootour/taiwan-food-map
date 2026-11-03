@@ -40,6 +40,7 @@ const BLOG_LIST = [
   
   
   
+  
   {
     "slug": "taiwan-zizhucan-buffet-bento-search",
     "image": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
@@ -1889,7 +1890,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F76306-yehliu-jiufen-shifen-golden-waterfall-day-tour%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 예류·스펀·지우펀 투어 보기 →</a>"
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F138221-yehliu-geopark-shifen-golden-waterfall-jiufen-night-view-tour%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 예류·스펀·지우펀 투어 보기 →</a>"
         },
         {
           "type": "h2",
@@ -1963,7 +1964,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "note",
-          "text": "이 글은 交通部觀光署의 野柳·十分·十分瀑布·九份 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 클룩 상품의 공식 이름은 「예류 지질공원 & 지우펀 & 스펀 & 황금 폭포 일일 투어」예요. 투어 일정과 요금은 클룩 상품 페이지를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: 姜 明雄, Wikimedia Commons, CC0."
+          "text": "이 글은 交通部觀光署의 野柳·十分·十分瀑布·九份 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 클룩 상품의 공식 이름은 「[예스폭지+야경] 대만 버스투어 한국어 가이드 시먼역 / 메인역 탑승 가능」이에요. 투어 일정과 요금은 클룩 상품 페이지를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: 姜 明雄, Wikimedia Commons, CC0."
         },
         {
           "type": "cta",
@@ -2048,7 +2049,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F76306-yehliu-jiufen-shifen-golden-waterfall-day-tour%2F\" target=\"_blank\" rel=\"sponsored noopener\">See the Yehliu, Shifen & Jiufen tour on Klook →</a>"
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F138221-yehliu-geopark-shifen-golden-waterfall-jiufen-night-view-tour%2F\" target=\"_blank\" rel=\"sponsored noopener\">See the Yehliu, Shifen & Jiufen tour on Klook →</a>"
         },
         {
           "type": "h2",
@@ -2122,7 +2123,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "note",
-          "text": "Based on 交通部觀光署's information on 野柳, 十分, 十分瀑布 and 九份, as of October 2026. The Klook product's official name is \"Yehliu Geopark & Jiufen & Shifen & Golden Waterfall Day Tour\". For tour schedules and prices, check the Klook product page. Restaurant distances are straight-line from the coordinates registered on our map. Photo: 姜 明雄, Wikimedia Commons, CC0."
+          "text": "Based on 交通部觀光署's information on 野柳, 十分, 十分瀑布 and 九份, as of October 2026. The Klook product's official name is \"[예스폭지+야경] 대만 버스투어 한국어 가이드 시먼역 / 메인역 탑승 가능\" (a Korean-guided bus tour from Ximen or Taipei Main Station). For tour schedules and prices, check the Klook product page. Restaurant distances are straight-line from the coordinates registered on our map. Photo: 姜 明雄, Wikimedia Commons, CC0."
         },
         {
           "type": "cta",
@@ -2134,6 +2135,7 @@ const BLOG_POSTS = {
       ]
     }
   },
+  
   
   
   
