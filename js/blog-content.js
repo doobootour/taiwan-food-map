@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "tainan-thsr-day-trip-h31-anping",
+    "image": "assets/images/blog/tainan-thsr-day-trip-h31-anping-1.jpg",
+    "regions": [
+      "tainan"
+    ],
+    "ko": {
+      "eyebrow": "타이난 여행 팁 · 교통",
+      "title": "타이난 고속철 당일치기, 가오슝에서 H31·안핑까지",
+      "desc": "쭤잉에서 고속철로 타이난에 가서 H31 무료 셔틀로 공자묘, 오후엔 안핑, 저녁엔 츠칸러우까지 도는 하루 동선이에요. 요금과 운영시간도 함께 봐요.",
+      "meta": "타이난 · 당일치기 교통"
+    },
+    "en": {
+      "eyebrow": "Tainan Travel Tips · Transport",
+      "title": "Tainan HSR Day Trip from Kaohsiung: H31 Bus to Anping",
+      "desc": "Zuoying to Tainan by HSR, the free H31 shuttle to the Confucius Temple, Anping in the afternoon and Chihkan Tower in the evening, with fares and hours.",
+      "meta": "Tainan · Day-trip transport"
+    }
+  },
+  {
     "slug": "newtaipei-yehliu-shifen-jiufen-golden-waterfall-tour-eats",
     "image": "assets/images/attractions/jiufen/yehliu.webp",
     "regions": [
@@ -1814,6 +1833,419 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "tainan-thsr-day-trip-h31-anping": {
+    "heroImage": "assets/images/blog/tainan-thsr-day-trip-h31-anping-1.jpg",
+    "ko": {
+      "pageTitle": "타이난 고속철 당일치기 — 가오슝에서 H31 셔틀·안핑 동선 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 쭤잉에서 고속철로 타이난에 가서 무료 H31 셔틀로 시내에 들어가는 당일치기 동선이에요. 요금과 안핑·츠칸러우 운영시간을 정리했어요.",
+      "ogTitle": "타이난 고속철 당일치기, 가오슝에서 H31·안핑까지",
+      "eyebrow": "타이난 여행 팁 · 교통",
+      "title": "타이난 고속철 당일치기, 가오슝에서 H31·안핑까지",
+      "dek": "고속철 타이난역은 시내에서 멀어요. H31 무료 셔틀로 들어가 안핑은 17:30 전에, 츠칸러우는 저녁에 보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이난 · 당일치기 교통",
+      "intro": "<b>가오슝 쭤잉(左營)에서 고속철을 타면 타이난역까지 표준석 NT$140이에요(2026년 11월 기준). 고속철 타이난역은 시내와 떨어져 있어서, 당일 고속철 승차권이 있으면 무료인 H31 셔틀로 공자묘 근처까지 들어가는 게 편해요. 안핑구바오·안핑수옥은 17:30에 닫으니 오후에 먼저 보고, 21:30까지 여는 츠칸러우는 저녁에 보면 돼요.</b><br><br>여행자 커뮤니티에 올라온 동선을 고속철·타이난시 공식 안내로 확인해 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 하루 동선 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "시간대",
+            "어디로",
+            "확인할 점 (2026년 11월 기준)"
+          ],
+          "rows": [
+            {
+              "label": "오전",
+              "values": [
+                "쭤잉 → 고속철 타이난역",
+                "표준석 NT$140, 자유석 NT$135"
+              ]
+            },
+            {
+              "label": "오전~점심",
+              "values": [
+                "H31 → 建興國中(府前路) 하차, 공자묘",
+                "공자묘 08:30~17:20, 매표 17:00까지"
+              ]
+            },
+            {
+              "label": "오후",
+              "values": [
+                "택시·유바이크로 안핑",
+                "안핑구바오·안핑수옥 08:30~17:30"
+              ]
+            },
+            {
+              "label": "저녁",
+              "values": [
+                "츠칸러우 → 고속철역",
+                "츠칸러우 08:30~21:30"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "원글은 안핑을 먼저, 츠칸러우를 나중에 보라고 했어요. 문을 닫는 시간이 다르기 때문이에요. 타이난시 문화자산관리처 개방시간표에 따르면 안핑구바오(安平古堡)와 안핑수옥(安平樹屋)은 08:30~17:30, 츠칸러우(赤崁樓)는 08:30~21:30이에요. 그래서 낮에는 공자묘와 안핑, 해가 진 뒤에는 시내의 츠칸러우를 보는 순서가 시간을 덜 버려요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 쭤잉에서 고속철 타이난역까지"
+        },
+        {
+          "type": "p",
+          "html": "台灣高鐵 공식 운임표 기준으로 쭤잉~타이난 표준석 성인 요금은 NT$140, 자유석(自由座)은 NT$135예요(2026년 11월 기준). 자유석 표는 표에 적힌 날짜에만 쓸 수 있고, 차편과 좌석을 지정하지 않으며 자유석 칸에만 탈 수 있어요. 출발 시각은 고속철 공식 사이트의 시간표 조회에서 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · H31 무료 셔틀 타는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "1번 승강장에서 타요",
+              "desc": "고속철 공식 안내에 따르면 H31은 타이난역 버스 1번 승강장(第1月台)에서 출발해요. 고속철역 출발은 06:35~24:00, 15~30분 간격이에요."
+            },
+            {
+              "mark": "2",
+              "b": "당일 고속철 승차권이 있으면 무료",
+              "desc": "고속철역에서 타거나 내리는 고속철 승객은 무료예요. 당일 고속철 승차권을 보여줘야 하니 내린 뒤에도 버리지 마세요."
+            },
+            {
+              "mark": "3",
+              "b": "그 밖의 승객은 유료",
+              "desc": "타이난시 버스 사이트에 따르면 고속철 승객이 아니면 구간에 따라 NT$18 또는 NT$36을 내요. 고속도로 구간은 입석이 안 돼요."
+            },
+            {
+              "mark": "4",
+              "b": "공자묘는 建興國中(府前路)에서",
+              "desc": "H31은 치메이 박물관, 延平郡王祠를 지나 建興國中(府前路)·小西門·市政中心으로 가요. 臺南市美術館 교통 안내도 建興國中을 공자묘 정류장으로 안내해요. 노선 전체는 약 50분이에요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-thsr-day-trip-h31-anping-1.jpg",
+          "caption": "타이난 시내버스 H31 고속철 셔틀버스예요. 차체에 '高鐵快捷公車'라고 적혀 있어요(사진: 綠豆還有綠豆糕 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "p",
+          "html": "기차가 편하다면 고속철역 2층 통로로 대만철도 사룬(沙崙)역에 가서 사룬선으로 타이난역까지 갈 수도 있어요. 다만 타이난역에서 공자묘·안핑까지는 다시 이동해야 해서, 공자묘부터 볼 생각이면 H31이 더 단순해요. 차편은 대만철도 시간표에서 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 공자묘와 안핑은 오후 5시 반 전에"
+        },
+        {
+          "type": "p",
+          "html": "臺南孔廟 공식 안내에 따르면 공자묘(孔廟)는 08:30~17:20에 열고, 표는 東大成坊 입구에서 17:00까지 팔아요. 금·토요일은 21:00까지 열어요. 2026년 1월 30일부터 전체 구역이 유료가 되어 성인 NT$70이에요. 안핑구바오·안핑수옥·억재금성(億載金城)도 개방시간표상 08:30~17:30이고, 성인 요금은 NT$70이에요(2026년 11월 기준)."
+        },
+        {
+          "type": "p",
+          "html": "공자묘 근처에서 안핑까지는 택시나 유바이크로 가는 여행자가 많아요. 고속철역에서 바로 안핑으로 가고 싶다면, 고속철 공식 안내에 나온 32번(高鐵台南站~安平漁人碼頭) 일반 시내버스가 3번 승강장에서 출발해요. 이 노선은 H31과 달리 일반 요금을 내요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-thsr-day-trip-h31-anping-2.jpg",
+          "caption": "안핑수옥(安平樹屋)은 반얀나무 뿌리가 옛 창고 벽을 덮은 곳이에요(사진: Mk2010 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "05 · 저녁 츠칸러우, 돌아가는 길"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "츠칸러우는 21:30까지",
+              "desc": "개방시간표 기준 08:30~21:30이라 안핑을 본 뒤 저녁에 가도 돼요. 주소는 中西區 民族路二段212號예요."
+            },
+            {
+              "mark": "✓",
+              "b": "돌아갈 땐 小西門이나 建興國中에서",
+              "desc": "H31 고속철역 방향은 시내 정류장에서 타요. 막차 시각은 타이난시 버스 사이트에서 미리 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "무료 조건 다시 확인",
+              "desc": "무료는 당일 고속철 승차권 확인이 조건이에요. 돌아가는 고속철 표를 미리 사 두면 확인받기 편해요."
+            },
+            {
+              "mark": "✓",
+              "b": "고속철 타이난역은 24:00까지",
+              "desc": "고속철 공식 안내 기준 역 운영은 05:45~24:00이에요. 쭤잉행 마지막 차편은 시간표 조회로 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-thsr-day-trip-h31-anping-3.jpg",
+          "caption": "조명이 켜진 츠칸러우(赤崁樓) 모습이에요(사진: Koika / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "06 · 자주 묻는 질문"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "쭤잉에서 타이난까지 고속철 요금은 얼마예요?",
+              "desc": "2026년 11월 기준 성인 표준석 NT$140, 자유석 NT$135예요."
+            },
+            {
+              "mark": "Q",
+              "b": "H31 셔틀은 누구나 무료예요?",
+              "desc": "아니요. 당일 고속철 승차권이 있는 고속철 승객만 무료이고, 다른 승객은 구간에 따라 NT$18 또는 NT$36을 내요."
+            },
+            {
+              "mark": "Q",
+              "b": "공자묘에 가려면 H31 어디서 내려요?",
+              "desc": "建興國中(府前路) 정류장에서 내리면 돼요. 臺南市美術館도 이 정류장을 공자묘 정류장으로 안내해요."
+            },
+            {
+              "mark": "Q",
+              "b": "안핑과 츠칸러우 중 어디를 먼저 가요?",
+              "desc": "안핑구바오·안핑수옥은 17:30, 츠칸러우는 21:30에 닫아서 안핑을 먼저 보는 게 좋아요."
+            },
+            {
+              "mark": "Q",
+              "b": "H31이 안핑까지 가요?",
+              "desc": "아니요. H31은 시내 市政中心 방향으로 가요. 안핑은 시내에서 택시·유바이크로 가거나, 고속철역에서 32번 시내버스를 타요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "타이난 시내에서 먹을 곳은 <a href=\"/region-tainan\">타이난 맛집 지도</a>와 <a href=\"/tainan-taiwanese\">타이난 대만식 맛집</a>에서 골라보세요. 안핑구바오 근처라면 지도에 있는 <a href=\"/tainan-taiwanese-anping-bean-jelly-2-960\">同記安平豆花 安平2店</a>도 볼 수 있어요. 쭤잉역 환승과 식사는 <a href=\"/blog-kaohsiung-zuoying-thsr-transfer-meal\">쭤잉 고속철 환승 가이드</a>, 사룬선과 타이난역 출구는 <a href=\"/blog-tainan-station-underground-exits\">타이난역 지하화 후 이용법</a>, 안핑까지 자전거는 <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">가오슝·타이난 유바이크 팁</a>에 정리해 두었어요. H31이 지나는 치메이 박물관은 <a href=\"/blog-tainan-chimei-museum-ticket-nearby-eats\">치메이 박물관 글</a>을 참고하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 台灣高鐵 공식 사이트의 운임표·자유석 안내와 台南站 교통 안내(H31·沙崙線·32번), 臺南市 대중교통 사이트(busmap.tainan.gov.tw)의 H31 노선·요금, 臺南市 문화자산관리처 고적 개방시간표, 臺南孔廟 공식 참관 안내, 臺南市美術館 교통 안내, 네이버 카페 여행자 글 요약을 바탕으로 2026년 11월 4일에 정리했어요. 원글의 '안핑 17시 입장 마감'은 공식 개방시간(08:30~17:30)으로 바로잡았어요. 요금과 시간은 바뀔 수 있으니 가기 전에 공식 사이트를 다시 확인하세요. 사진: 綠豆還有綠豆糕(CC BY-SA 4.0), Mk2010(CC BY-SA 4.0), Koika(CC BY-SA 3.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이난 맛집도 확인해보세요",
+          "desc": "공자묘·츠칸러우 근처에서 먹을 곳을 지도에서 골라보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Tainan HSR Day Trip from Kaohsiung — H31 Shuttle & Anping · My Secret Taiwan Eats",
+      "metaDescription": "A day trip from Kaohsiung Zuoying to Tainan by HSR, the free H31 shuttle into the old town, then Anping and Chihkan Tower, with fares and opening hours.",
+      "ogTitle": "Tainan HSR Day Trip from Kaohsiung: H31 Bus to Anping",
+      "eyebrow": "Tainan Travel Tips · Transport",
+      "title": "Tainan HSR Day Trip from Kaohsiung: H31 Bus to Anping",
+      "dek": "THSR Tainan Station is far from downtown. Ride the free H31 shuttle in, see Anping before 17:30 and Chihkan Tower in the evening.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Tainan · Day-trip transport",
+      "intro": "<b>From Zuoying in Kaohsiung, the HSR to Tainan costs NT$140 in a standard reserved seat (as of November 2026). THSR Tainan Station is far from the old town, so the H31 shuttle, free with a same-day HSR ticket, is the easy way to the Confucius Temple area. Anping Old Fort and the Tree House close at 17:30, so see them in the afternoon and leave Chihkan Tower, open until 21:30, for the evening.</b><br><br>We checked a route shared in a traveller community against official THSR and Tainan City information.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · The Day at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Time",
+            "Where",
+            "Check (as of Nov 2026)"
+          ],
+          "rows": [
+            {
+              "label": "Morning",
+              "values": [
+                "Zuoying → THSR Tainan",
+                "Reserved NT$140, non-reserved NT$135"
+              ]
+            },
+            {
+              "label": "Late morning",
+              "values": [
+                "H31 → 建興國中(府前路), Confucius Temple",
+                "Temple 08:30–17:20, tickets until 17:00"
+              ]
+            },
+            {
+              "label": "Afternoon",
+              "values": [
+                "Taxi or YouBike to Anping",
+                "Old Fort & Tree House 08:30–17:30"
+              ]
+            },
+            {
+              "label": "Evening",
+              "values": [
+                "Chihkan Tower → HSR",
+                "Chihkan Tower 08:30–21:30"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The original post suggested Anping first and Chihkan Tower later because they close at different times. The Tainan Cultural Assets Management Bureau lists Anping Old Fort (安平古堡) and Anping Tree House (安平樹屋) at 08:30–17:30 and Chihkan Tower (赤崁樓) at 08:30–21:30. Seeing the temple and Anping by day and Chihkan Tower after dark wastes the least time."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Zuoying to THSR Tainan"
+        },
+        {
+          "type": "p",
+          "html": "THSR's official fare table lists Zuoying–Tainan at NT$140 for an adult standard reserved seat and NT$135 non-reserved (自由座) (as of November 2026). Non-reserved tickets are valid only on the date printed, with no set train or seat, and only in non-reserved cars. Check departures with the timetable search on THSR's official site."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Riding the Free H31 Shuttle"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Board at platform 1",
+              "desc": "THSR says H31 leaves from bus platform 1 (第1月台) at Tainan Station, running 06:35–24:00 from the station every 15–30 minutes."
+            },
+            {
+              "mark": "2",
+              "b": "Free with a same-day HSR ticket",
+              "desc": "HSR passengers boarding or alighting at the station ride free. You need to show your same-day HSR ticket, so keep it after you arrive."
+            },
+            {
+              "mark": "3",
+              "b": "Others pay",
+              "desc": "Tainan City's bus site lists NT$18 or NT$36 by section for non-HSR passengers. No standing on the expressway section."
+            },
+            {
+              "mark": "4",
+              "b": "Get off at 建興國中(府前路) for the temple",
+              "desc": "H31 passes the Chimei Museum and 延平郡王祠 before 建興國中(府前路), 小西門 and 市政中心. The Tainan Art Museum also gives 建興國中 as the Confucius Temple stop. The full route takes about 50 minutes."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-thsr-day-trip-h31-anping-1.jpg",
+          "caption": "An example of the H31 HSR shuttle bus, marked '高鐵快捷公車' on the side (photo: 綠豆還有綠豆糕 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "p",
+          "html": "If you prefer the train, a 2F walkway leads from the HSR station to TRA Shalun (沙崙) Station, where the Shalun line runs to Tainan Station. From there you still need to get to the temple or Anping, so H31 is simpler if the temple is your first stop. Check train times on the TRA timetable."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Confucius Temple and Anping Before 17:30"
+        },
+        {
+          "type": "p",
+          "html": "The Tainan Confucius Temple's official page lists hours of 08:30–17:20, with tickets sold at the 東大成坊 entrance until 17:00, and until 21:00 on Fridays and Saturdays. Since 30 January 2026 the whole grounds are ticketed at NT$70 for adults. Anping Old Fort, Anping Tree House and Eternal Golden Castle (億載金城) are listed at 08:30–17:30, NT$70 for adults (as of November 2026)."
+        },
+        {
+          "type": "p",
+          "html": "Many travellers take a taxi or YouBike from the temple area to Anping. To go straight to Anping from the HSR station, THSR lists city bus 32 (高鐵台南站–安平漁人碼頭) from platform 3. Unlike H31, it charges a normal fare."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-thsr-day-trip-h31-anping-2.jpg",
+          "caption": "At Anping Tree House (安平樹屋), banyan roots cover the walls of an old warehouse (photo: Mk2010 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "05 · Chihkan Tower in the Evening, and Getting Back"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Chihkan Tower until 21:30",
+              "desc": "Listed at 08:30–21:30, so it works after Anping. The address is 中西區 民族路二段212號."
+            },
+            {
+              "mark": "✓",
+              "b": "Head back from 小西門 or 建興國中",
+              "desc": "Catch H31 towards the HSR at a downtown stop. Check the last bus on Tainan City's bus site beforehand."
+            },
+            {
+              "mark": "✓",
+              "b": "Remember the free-ride rule",
+              "desc": "The free ride depends on showing a same-day HSR ticket. Buying your return HSR ticket in advance makes this easier."
+            },
+            {
+              "mark": "✓",
+              "b": "THSR Tainan closes at 24:00",
+              "desc": "THSR lists station hours of 05:45–24:00. Check the last train to Zuoying with the timetable search."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/tainan-thsr-day-trip-h31-anping-3.jpg",
+          "caption": "Chihkan Tower (赤崁樓) lit up after dark (photo: Koika / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "06 · FAQ"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "How much is the HSR from Zuoying to Tainan?",
+              "desc": "As of November 2026, NT$140 for an adult standard reserved seat and NT$135 non-reserved."
+            },
+            {
+              "mark": "Q",
+              "b": "Is the H31 shuttle free for everyone?",
+              "desc": "No. It's free for HSR passengers with a same-day ticket. Others pay NT$18 or NT$36 by section."
+            },
+            {
+              "mark": "Q",
+              "b": "Where do I get off H31 for the Confucius Temple?",
+              "desc": "At 建興國中(府前路). The Tainan Art Museum gives the same stop for the temple."
+            },
+            {
+              "mark": "Q",
+              "b": "Should I see Anping or Chihkan Tower first?",
+              "desc": "Anping first. Its Old Fort and Tree House close at 17:30, while Chihkan Tower is open until 21:30."
+            },
+            {
+              "mark": "Q",
+              "b": "Does H31 go to Anping?",
+              "desc": "No. H31 heads to the city hall area downtown. Take a taxi or YouBike from downtown, or city bus 32 from the HSR station."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For food in Tainan, browse the <a href=\"/region-tainan\">Tainan food map</a> and <a href=\"/tainan-taiwanese\">Tainan Taiwanese restaurants</a>. Near Anping Old Fort, <a href=\"/tainan-taiwanese-anping-bean-jelly-2-960\">同記安平豆花 安平2店</a> is on the map too. Transfers at Zuoying are in <a href=\"/blog-kaohsiung-zuoying-thsr-transfer-meal\">our Zuoying HSR transfer guide</a>, the Shalun line and Tainan Station exits in <a href=\"/blog-tainan-station-underground-exits\">Tainan Station after the move underground</a>, and cycling to Anping in <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">YouBike tips for Kaohsiung and Tainan</a>. H31 also passes the Chimei Museum, covered in <a href=\"/blog-tainan-chimei-museum-ticket-nearby-eats\">our Chimei Museum post</a>."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 4 November 2026 from THSR's official fare table, non-reserved seat notes and Tainan Station access page (H31, Shalun line, route 32), Tainan City's bus site (busmap.tainan.gov.tw) for H31 stops and fares, the Tainan Cultural Assets Management Bureau's opening-hours list, the Tainan Confucius Temple's official visitor page, the Tainan Art Museum's access page, and a summary of Naver café traveller posts. The original post's '17:00 last entry in Anping' was corrected to the official hours (08:30–17:30). Fares and hours can change, so check the official sites before you go. Photos: 綠豆還有綠豆糕 (CC BY-SA 4.0), Mk2010 (CC BY-SA 4.0) and Koika (CC BY-SA 3.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Tainan restaurants on the map",
+          "desc": "Pick somewhere to eat near the Confucius Temple and Chihkan Tower.",
+          "btn": "Open Map →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    }
+  },
   "newtaipei-yehliu-shifen-jiufen-golden-waterfall-tour-eats": {
     "heroImage": "assets/images/attractions/jiufen/yehliu.webp",
     "ko": {
