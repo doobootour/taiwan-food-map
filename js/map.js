@@ -195,6 +195,9 @@ function renderMarkers() {
     };
     marker.on("mouseover", () => { clearHoverCloseTimer(); marker.openPopup(); });
     marker.on("mouseout", scheduleHoverClose);
+    // 호버로 이미 열린 팝업을 클릭하면 Leaflet 기본 동작(토글) 때문에 닫히던 문제 방지
+    marker.off("click", marker._openPopup, marker);
+    marker.on("click", () => { clearHoverCloseTimer(); marker.openPopup(); });
 
     marker.on("popupopen", (e) => {
       const popupEl = e.popup.getElement();
