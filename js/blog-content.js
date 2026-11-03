@@ -26,17 +26,18 @@ const BLOG_LIST = [
     ],
     "ko": {
       "eyebrow": "신베이 여행 가이드 · 볼거리·먹거리",
-      "title": "예류·스펀·지우펀·황금폭포 일일투어, 지우펀에선 뭘 먹을까?",
-      "desc": "예류 지질공원, 스펀, 지우펀, 황금폭포가 어떤 곳인지와 각 명소 볼거리, 지우펀 옛 거리에서 들르기 좋은 지도 속 맛집을 정리했어요.",
+      "title": "예류·스펀·스펀폭포·지우펀 일일투어, 지우펀에선 뭘 먹을까?",
+      "desc": "예류 지질공원, 스펀, 스펀폭포, 지우펀이 어떤 곳인지와 각 명소 볼거리, 지우펀 옛 거리에서 들르기 좋은 지도 속 맛집을 정리했어요.",
       "meta": "신베이 · 볼거리·먹거리"
     },
     "en": {
       "eyebrow": "New Taipei Travel Guide · Sights & Food",
-      "title": "Yehliu, Shifen, Jiufen & Golden Waterfall Day Tour: What to Eat in Jiufen",
-      "desc": "What Yehliu Geopark, Shifen, Jiufen and the Golden Waterfall are, what to see at each, and restaurants from our map on Jiufen Old Street.",
+      "title": "Yehliu, Shifen, Shifen Waterfall & Jiufen Day Tour: What to Eat in Jiufen",
+      "desc": "What Yehliu Geopark, Shifen, Shifen Waterfall and Jiufen are, what to see at each, and restaurants from our map on Jiufen Old Street.",
       "meta": "New Taipei · Sights & Food"
     }
   },
+  
   {
     "slug": "taiwan-zizhucan-buffet-bento-search",
     "image": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
@@ -1813,15 +1814,15 @@ const BLOG_POSTS = {
   "newtaipei-yehliu-shifen-jiufen-golden-waterfall-tour-eats": {
     "heroImage": "assets/images/attractions/jiufen/yehliu.webp",
     "ko": {
-      "pageTitle": "예류·스펀·지우펀·황금폭포 일일투어·지우펀 맛집 — 신베이 · 나만 알고 싶은 대만 맛집",
-      "metaDescription": "예류 지질공원, 스펀, 지우펀, 황금폭포가 어떤 곳인지와 각 명소 볼거리, 지우펀 옛 거리에서 들르기 좋은 지도 속 맛집을 정리했어요.",
-      "ogTitle": "예류·스펀·지우펀·황금폭포 일일투어, 지우펀에선 뭘 먹을까?",
+      "pageTitle": "예류·스펀·스펀폭포·지우펀 일일투어·지우펀 맛집 — 신베이 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "예류 지질공원, 스펀, 스펀폭포, 지우펀이 어떤 곳인지와 각 명소 볼거리, 지우펀 옛 거리에서 들르기 좋은 지도 속 맛집을 정리했어요.",
+      "ogTitle": "예류·스펀·스펀폭포·지우펀 일일투어, 지우펀에선 뭘 먹을까?",
       "eyebrow": "신베이 여행 가이드 · 볼거리·먹거리",
-      "title": "예류·스펀·지우펀·황금폭포 일일투어, 지우펀에선 뭘 먹을까?",
+      "title": "예류·스펀·스펀폭포·지우펀 일일투어, 지우펀에선 뭘 먹을까?",
       "dek": "하루에 북부 명소 네 곳을 도는 투어 전에, 곳곳의 볼거리와 지우펀 골목 맛집을 미리 챙겨보세요.",
       "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
       "metaTopic": "신베이 · 볼거리·먹거리",
-      "intro": "타이베이 근교 북부 해안과 산골 마을을 하루에 묶는 투어는 예류(野柳), 스펀(十分), 지우펀(九份), 황금폭포(黃金瀑布)를 차례로 둘러보는 경우가 많아요. 대중교통으로는 하루에 다 돌기 빠듯한 곳들이라 투어가 편하고, 마지막에 들르는 지우펀 골목에서 저녁을 해결하면 동선이 깔끔해요. 交通部觀光署 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "intro": "타이베이 근교 북부 해안과 산골 마을을 하루에 묶는 이 투어는 예류(野柳), 스펀(十分), 스펀폭포(十分瀑布), 지우펀(九份)을 차례로 둘러봐요. 대중교통으로는 하루에 다 돌기 빠듯한 곳들이라 투어가 편하고, 마지막에 들르는 지우펀 골목에서 저녁을 해결하면 동선이 깔끔해요. 交通部觀光署 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
       "blocks": [
         {
           "type": "h2",
@@ -1829,7 +1830,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "예류는 바닷물과 바람이 바위를 깎아 만든 버섯바위·두부바위가 모인 해안이고, 스펀은 平溪線 기찻길 양옆에 가게가 붙은 마을이에요. 지우펀은 1890년 무렵 금이 발견되며 번성한 산비탈 광산 마을이고, 황금폭포는 그 아래 水湳洞 쪽 金水公路 옆에 있는 폭포예요."
+          "html": "예류는 바닷물과 바람이 바위를 깎아 만든 버섯바위·두부바위가 모인 해안이고, 스펀은 平溪線 기찻길 양옆에 가게가 붙은 마을이에요. 스펀폭포는 스펀 마을 근처에 있는 커튼형 폭포이고, 지우펀은 1890년 무렵 금이 발견되며 번성한 산비탈 광산 마을이에요."
         },
         {
           "type": "figure",
@@ -1850,18 +1851,18 @@ const BLOG_POSTS = {
             },
             {
               "mark": "✓",
-              "b": "스펀 풍등과 十分瀑布",
-              "desc": "철길 위에서 소원을 적은 풍등(天燈)을 날리는 것이 대표 체험이에요. 근처 十分瀑布는 '대만의 나이아가라'라 불리는 커튼형 폭포예요."
+              "b": "스펀 풍등",
+              "desc": "철길 위에서 소원을 적은 풍등(天燈)을 날리는 것이 대표 체험이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "스펀폭포(十分瀑布)",
+              "desc": "'대만의 나이아가라'라 불리는 커튼형 폭포예요. 스펀 마을에서 가까워 풍등을 날린 뒤 이어서 들르기 좋아요."
             },
             {
               "mark": "✓",
               "b": "지우펀 基山街와 豎崎路",
               "desc": "좁은 골목 基山街를 따라 먹거리 가게가 이어지고, 돌계단 길 豎崎路에는 붉은 등이 달린 찻집이 늘어서 있어요."
-            },
-            {
-              "mark": "✓",
-              "b": "황금폭포",
-              "desc": "광맥을 지나온 물과 빗물이 만나 바위가 금빛·주황빛으로 물든 폭포예요. 1년 내내 열려 있고 입장료가 없어요."
             }
           ]
         },
@@ -1932,7 +1933,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "note",
-          "text": "이 글은 交通部觀光署의 野柳·十分·九份·黃金瀑布 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 투어 일정과 요금은 클룩 상품 페이지를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: 姜 明雄, Wikimedia Commons, CC0."
+          "text": "이 글은 交通部觀光署의 野柳·十分·十分瀑布·九份 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 클룩 상품의 공식 이름은 「예류 지질공원 & 지우펀 & 스펀 & 황금 폭포 일일 투어」예요. 투어 일정과 요금은 클룩 상품 페이지를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: 姜 明雄, Wikimedia Commons, CC0."
         },
         {
           "type": "cta",
@@ -1944,15 +1945,15 @@ const BLOG_POSTS = {
       ]
     },
     "en": {
-      "pageTitle": "Yehliu, Shifen, Jiufen & Golden Waterfall Day Tour & Jiufen Eats — New Taipei · My Secret Taiwan Eats",
-      "metaDescription": "What Yehliu Geopark, Shifen, Jiufen and the Golden Waterfall are, what to see at each, and restaurants from our map on Jiufen Old Street.",
-      "ogTitle": "Yehliu, Shifen, Jiufen & Golden Waterfall Day Tour: What to Eat in Jiufen",
+      "pageTitle": "Yehliu, Shifen, Shifen Waterfall & Jiufen Day Tour & Jiufen Eats — New Taipei · My Secret Taiwan Eats",
+      "metaDescription": "What Yehliu Geopark, Shifen, Shifen Waterfall and Jiufen are, what to see at each, and restaurants from our map on Jiufen Old Street.",
+      "ogTitle": "Yehliu, Shifen, Shifen Waterfall & Jiufen Day Tour: What to Eat in Jiufen",
       "eyebrow": "New Taipei Travel Guide · Sights & Food",
-      "title": "Yehliu, Shifen, Jiufen & Golden Waterfall Day Tour: What to Eat in Jiufen",
+      "title": "Yehliu, Shifen, Shifen Waterfall & Jiufen Day Tour: What to Eat in Jiufen",
       "dek": "Before a tour of four northern sights in a day, check what to see at each stop and the restaurants in Jiufen's alleys.",
       "metaAuthor": "My Secret Taiwan Eats Editorial",
       "metaTopic": "New Taipei · Sights & Food",
-      "intro": "Day tours combining northern coast and mountain villages near Taipei often visit Yehliu (野柳), Shifen (十分), Jiufen (九份) and the Golden Waterfall (黃金瀑布) in turn. They're hard to fit into one day by public transport, so a tour is easier, and eating dinner in Jiufen's alleys at the last stop keeps the route simple. Based on 交通部觀光署 information, as of October 2026.",
+      "intro": "This day tour combining the northern coast and mountain villages near Taipei visits Yehliu (野柳), Shifen (十分), Shifen Waterfall (十分瀑布) and Jiufen (九份) in turn. They're hard to fit into one day by public transport, so a tour is easier, and eating dinner in Jiufen's alleys at the last stop keeps the route simple. Based on 交通部觀光署 information, as of October 2026.",
       "blocks": [
         {
           "type": "h2",
@@ -1960,7 +1961,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "Yehliu is a coastline of mushroom rocks and tofu rocks carved by seawater and wind, and Shifen is a village with shops lining both sides of the 平溪線 railway. Jiufen is a hillside mining town that boomed after gold was found around 1890, and the Golden Waterfall is below it, beside the 金水公路 near 水湳洞."
+          "html": "Yehliu is a coastline of mushroom rocks and tofu rocks carved by seawater and wind, and Shifen is a village with shops lining both sides of the 平溪線 railway. Shifen Waterfall is a curtain-shaped waterfall near Shifen village, and Jiufen is a hillside mining town that boomed after gold was found around 1890."
         },
         {
           "type": "figure",
@@ -1981,18 +1982,18 @@ const BLOG_POSTS = {
             },
             {
               "mark": "✓",
-              "b": "Shifen sky lanterns and 十分瀑布",
-              "desc": "Releasing a sky lantern (天燈) with your wishes written on it from the railway tracks is the signature experience. Nearby 十分瀑布 is a curtain-shaped waterfall called 'Taiwan's Niagara'."
+              "b": "Shifen sky lanterns",
+              "desc": "Releasing a sky lantern (天燈) with your wishes written on it from the railway tracks is the signature experience."
+            },
+            {
+              "mark": "✓",
+              "b": "Shifen Waterfall (十分瀑布)",
+              "desc": "A curtain-shaped waterfall called 'Taiwan's Niagara'. It's close to Shifen village, so it's an easy next stop after releasing a sky lantern."
             },
             {
               "mark": "✓",
               "b": "Jiufen's 基山街 and 豎崎路",
               "desc": "Food stalls line the narrow 基山街 alley, and teahouses hung with red lanterns line the stone steps of 豎崎路."
-            },
-            {
-              "mark": "✓",
-              "b": "Golden Waterfall",
-              "desc": "A waterfall where water that has passed through ore veins mixes with rainwater, staining the rocks gold and orange. It's open year-round with no admission fee."
             }
           ]
         },
@@ -2063,7 +2064,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "note",
-          "text": "Based on 交通部觀光署's information on 野柳, 十分, 九份 and 黃金瀑布, as of October 2026. For tour schedules and prices, check the Klook product page. Restaurant distances are straight-line from the coordinates registered on our map. Photo: 姜 明雄, Wikimedia Commons, CC0."
+          "text": "Based on 交通部觀光署's information on 野柳, 十分, 十分瀑布 and 九份, as of October 2026. The Klook product's official name is \"Yehliu Geopark & Jiufen & Shifen & Golden Waterfall Day Tour\". For tour schedules and prices, check the Klook product page. Restaurant distances are straight-line from the coordinates registered on our map. Photo: 姜 明雄, Wikimedia Commons, CC0."
         },
         {
           "type": "cta",
@@ -2075,6 +2076,7 @@ const BLOG_POSTS = {
       ]
     }
   },
+  
   "taiwan-zizhucan-buffet-bento-search": {
     "heroImage": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
     "ko": {
