@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "tainan-sicao-green-tunnel-raft-ticket-anping-eats",
+    "image": "assets/images/regions/tainan.webp",
+    "regions": [
+      "tainan"
+    ],
+    "ko": {
+      "eyebrow": "타이난 여행 가이드 · 볼거리·먹거리",
+      "title": "쓰차오 녹색터널 대나무 뗏목, 타고 나서 어디서 먹을까?",
+      "desc": "타이난 쓰차오 녹색터널은 어떤 곳인지, 뗏목에서 볼 것과 2026년 운항 시간·요금, 타고 나서 들르기 좋은 안핑 쪽 지도 속 맛집을 정리했어요.",
+      "meta": "타이난 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Tainan Travel Guide · Sights & Food",
+      "title": "Sicao Green Tunnel Bamboo Raft: Where to Eat After the Ride",
+      "desc": "What Tainan's Sicao Green Tunnel is, what to see from the raft, 2026 hours and prices, and restaurants from our map in Anping for after the ride.",
+      "meta": "Tainan · Sights & Food"
+    }
+  },
+  {
     "slug": "taichung-airport-bus-302-city",
     "image": "assets/images/blog/taichung-airport-bus-302-city-1.jpg",
     "regions": [
@@ -1753,6 +1772,321 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "tainan-sicao-green-tunnel-raft-ticket-anping-eats": {
+    "heroImage": "assets/images/regions/tainan.webp",
+    "ko": {
+      "pageTitle": "쓰차오 녹색터널 대나무 뗏목 승선권·안핑 쪽 맛집 — 타이난 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이난 쓰차오 녹색터널은 어떤 곳인지, 뗏목에서 볼 것과 2026년 운항 시간·요금, 타고 나서 들르기 좋은 안핑 쪽 지도 속 맛집을 정리했어요.",
+      "ogTitle": "쓰차오 녹색터널 대나무 뗏목, 타고 나서 어디서 먹을까?",
+      "eyebrow": "타이난 여행 가이드 · 볼거리·먹거리",
+      "title": "쓰차오 녹색터널 대나무 뗏목, 타고 나서 어디서 먹을까?",
+      "dek": "맹그로브 숲 터널을 뗏목으로 지난 다음, 가까운 안핑 쪽 맛집까지 한 번에 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이난 · 볼거리·먹거리",
+      "intro": "쓰차오 녹색터널(四草綠色隧道)은 타이난 안난구(安南區)의 맹그로브 물길을 뗏목으로 지나는 코스예요. 근처에는 지도에 등록된 식당이 없어서, 타고 나서 안핑(安平) 쪽으로 이동해 먹는 동선이 편해요. 雲嘉南濱海國家風景區와 臺南旅遊網 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 쓰차오 녹색터널은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "四草大眾廟 뒤 배수로 양쪽에 수령 50년이 넘는 맹그로브가 자라 터널처럼 덮인 곳으로, 대만에서 하나뿐인 물 위 녹색 물길로 소개돼요. 한 바퀴 도는 데 약 30분이 걸려요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 뗏목에서 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "맹그로브 네 종",
+              "desc": "五梨跤, 水筆仔, 欖李, 海茄苳 네 종의 맹그로브가 자라요."
+            },
+            {
+              "mark": "✓",
+              "b": "갯벌 생물",
+              "desc": "맹그로브 아래 농게(招潮蟹)와 짱뚱어(彈塗魚)를 볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "四草大眾廟",
+              "desc": "출발점인 300년 넘은 사당이에요. 옆에 향유고래 표본을 둔 작은 전시관도 있어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "출발점",
+              "desc": "四草大眾廟 옆 선착장에서 타요. 주소는 臺南市 安南區 大眾路 360호예요."
+            },
+            {
+              "mark": "2",
+              "b": "준비물",
+              "desc": "배에 오르기 전에 구명조끼와 햇빛 가리개용 삿갓을 받아요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 운영 시간과 요금 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "내용"
+          ],
+          "rows": [
+            {
+              "label": "운항 시간",
+              "values": [
+                "매일 08:00~16:00"
+              ]
+            },
+            {
+              "label": "녹색터널 요금",
+              "values": [
+                "일반 NT$200, 초등학생 NT$100, 0~6세·80세 이상 NT$30"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F53210-sicao-green-tunnel-tainan%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 쓰차오 녹색터널 승선권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · 타고 나서 들르기 좋은 안핑 쪽 맛집"
+        },
+        {
+          "type": "p",
+          "html": "녹색터널 근처에는 지도에 등록된 식당이 없어요. 가장 가까운 곳들이 약 2.9~3.9km 떨어진 안핑 쪽이라 택시나 차로 이동하는 편이 편해요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/tainan-japanese-534\">煉‧瓦 日式餐廳</a> · 일식 · 남동쪽 약 2.9km",
+              "desc": "지도에 일식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/tainan-bakery-629\">同記安平豆花 安平總店</a> · 베이커리 · 남동쪽 약 3.0km",
+              "desc": "지도에 베이커리(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/tainan-taiwanese-anping-bean-jelly-2-960\">Anping Bean Jelly (同記安平豆花 安平2店)</a> · 대만식 · 남동쪽 약 3.4km",
+              "desc": "지도 메모: 안핑 더양함 근처의 오래된 두부디저트 가게로, 단골이 많을 만큼 맛이 꾸준하다."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/tainan-seafood-chou-s-shrimp-rolls-736\">저우스 새우롤 노점 (Chou’s Shrimp Rolls / 周氏蝦捲 老店)</a> · 해산물 · 남동쪽 약 3.5km",
+              "desc": "지도 메모: 새우튀김이 ‘맛있지만 튀김이라 느끼하다’고 했고 ‘꼭 드셔보세요’라고 권했다."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/tainan-beef_noodle-562\">아차이 우육탕 (阿財牛肉湯)</a> · 우육면 · 남동쪽 약 3.6km",
+              "desc": "지도 메모: 소고기 공심채를 ‘진짜 맛있어요’라고 했고, 우육탕 고기가 가오슝 항원우육면보다 부드럽다고 했다."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/tainan-cafe-la-belle-maison-cafe-564\">La Belle Maison Cafe法國傳統手工甜品咖啡餐廳</a> · 카페 · 남동쪽 약 3.7km",
+              "desc": "지도에 카페(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/tainan-cafe-meller-630\">Meller 墨樂咖啡</a> · 카페 · 남동쪽 약 3.9km",
+              "desc": "지도에 카페(으)로 등록된 곳이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 雲嘉南濱海國家風景區의 四草綠色隧道 안내와 臺南旅遊網의 운항 시간·요금 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 시간과 요금은 바뀔 수 있으니 방문 전 공식 안내를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이난 맛집도 확인해보세요",
+          "desc": "뗏목 일정 앞뒤로 들를 타이난 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Sicao Green Tunnel Bamboo Raft Tickets & Anping Eats — Tainan · My Secret Taiwan Eats",
+      "metaDescription": "What Tainan's Sicao Green Tunnel is, what to see from the raft, 2026 hours and prices, and restaurants from our map in Anping for after the ride.",
+      "ogTitle": "Sicao Green Tunnel Bamboo Raft: Where to Eat After the Ride",
+      "eyebrow": "Tainan Travel Guide · Sights & Food",
+      "title": "Sicao Green Tunnel Bamboo Raft: Where to Eat After the Ride",
+      "dek": "Float through the mangrove tunnel by raft, then pick a restaurant in nearby Anping in one go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Tainan · Sights & Food",
+      "intro": "The Sicao Green Tunnel (四草綠色隧道) is a raft ride through mangrove waterways in Annan District (安南區), Tainan. There are no restaurants on our map nearby, so heading to Anping (安平) to eat afterwards is easiest. Based on information from 雲嘉南濱海國家風景區 and 臺南旅遊網, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is the Sicao Green Tunnel?"
+        },
+        {
+          "type": "p",
+          "html": "Behind 四草大眾廟, mangroves over 50 years old grow on both sides of a drainage channel and cover it like a tunnel. It's described as Taiwan's only green waterway of its kind. One loop takes about 30 minutes."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What to See from the Raft"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Four mangrove species",
+              "desc": "Four species of mangrove grow here: 五梨跤, 水筆仔, 欖李 and 海茄苳."
+            },
+            {
+              "mark": "✓",
+              "b": "Mudflat creatures",
+              "desc": "You can see fiddler crabs (招潮蟹) and mudskippers (彈塗魚) under the mangroves."
+            },
+            {
+              "mark": "✓",
+              "b": "四草大眾廟",
+              "desc": "The starting point is a temple over 300 years old. Next to it is a small exhibition hall with a sperm whale specimen."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Starting point",
+              "desc": "Board at the pier next to 四草大眾廟, No. 360, 大眾路, 安南區, 臺南市."
+            },
+            {
+              "mark": "2",
+              "b": "What you get",
+              "desc": "Before boarding you're given a life jacket and a conical hat for shade."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Hours and Admission (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Details"
+          ],
+          "rows": [
+            {
+              "label": "Hours",
+              "values": [
+                "Daily 08:00–16:00"
+              ]
+            },
+            {
+              "label": "Green tunnel fare",
+              "values": [
+                "General NT$200, elementary school students NT$100, ages 0–6 and 80+ NT$30"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F53210-sicao-green-tunnel-tainan%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Sicao Green Tunnel raft tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · Anping Restaurants for After the Ride"
+        },
+        {
+          "type": "p",
+          "html": "There are no restaurants on our map near the green tunnel. The closest are about 2.9–3.9 km away in Anping, so a taxi or car is easier. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/tainan-japanese-534\">煉‧瓦 日式餐廳</a> · Japanese · about 2.9 km southeast",
+              "desc": "Listed as Japanese on the map."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/tainan-bakery-629\">同記安平豆花 安平總店</a> · Bakery · about 3.0 km southeast",
+              "desc": "Listed as bakery on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/tainan-taiwanese-anping-bean-jelly-2-960\">Anping Bean Jelly (同記安平豆花 安平2店)</a> · Taiwanese · about 3.4 km southeast",
+              "desc": "Map note: An old tofu dessert shop near Anping's 德陽艦, consistently tasty enough to have many regulars."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/tainan-seafood-chou-s-shrimp-rolls-736\">Chou’s Shrimp Rolls (周氏蝦捲 老店)</a> · Seafood · about 3.5 km southeast",
+              "desc": "Map note: Said the fried shrimp is 'tasty but greasy since it's fried', and urged 'you have to try it'."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/tainan-beef_noodle-562\">阿財牛肉湯 (A-Cai Beef Soup)</a> · Beef Noodles · about 3.6 km southeast",
+              "desc": "Map note: Called the beef with water spinach 'really delicious', and said the beef soup meat is more tender than at Hang Yuan Beef Noodles in Kaohsiung."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/tainan-cafe-la-belle-maison-cafe-564\">La Belle Maison Cafe法國傳統手工甜品咖啡餐廳</a> · Café · about 3.7 km southeast",
+              "desc": "Listed as café on the map."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/tainan-cafe-meller-630\">Meller 墨樂咖啡</a> · Café · about 3.9 km southeast",
+              "desc": "Listed as café on the map."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on 雲嘉南濱海國家風景區's 四草綠色隧道 information and 臺南旅遊網's hours and fares, as of October 2026. Hours and prices can change, so check official information before you go. Restaurant distances are straight-line from the coordinates registered on our map."
+        },
+        {
+          "type": "cta",
+          "title": "Find Tainan eats on the map",
+          "desc": "Save Tainan restaurants to visit before or after your raft ride.",
+          "btn": "Open Map →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    }
+  },
   "taichung-airport-bus-302-city": {
     "heroImage": "assets/images/blog/taichung-airport-bus-302-city-1.jpg",
     "ko": {

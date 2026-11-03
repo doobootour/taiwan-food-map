@@ -25,6 +25,7 @@
     "alishan-zhaoping-line-ticket-exchange",
     "hualien-hotel-location-guide",
     "yilan-kavalan-distillery-cafe-course",
+    "tainan-sicao-green-tunnel-raft-ticket-anping-eats",
   ];
   if (typeof module === "object" && module.exports) module.exports = { EN_BLOG_SLUGS };
   root.EN_BLOG_SLUGS = EN_BLOG_SLUGS;
