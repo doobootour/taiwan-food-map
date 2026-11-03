@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taichung-airport-bus-302-city",
+    "image": "assets/images/blog/taichung-airport-bus-302-city-1.jpg",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "타이중 여행 가이드 · 교통",
+      "title": "타이중공항 302번 버스, 타이중역까지 어떻게 탈까?",
+      "desc": "타이중공항에서 시내로 갈 때 302번 버스는 어디서 탈까요? 승강장, 첫차·막차와 배차, 과학박물관·타이중역 정류장, 이지카드 찍는 법을 정리했어요.",
+      "meta": "타이중 · 교통 가이드"
+    },
+    "en": {
+      "eyebrow": "Taichung Travel Guide · Transport",
+      "title": "Taichung Airport Bus 302: Getting to Taichung Station",
+      "desc": "Where to catch bus 302 from Taichung Airport into the city: the platform, first and last buses, key stops and how to pay with an EasyCard.",
+      "meta": "Taichung · Transport guide"
+    }
+  },
+  {
     "slug": "taiwan-uber-sms-verification-airport-pickup",
     "image": "assets/images/blog/taiwan-uber-sms-verification-airport-pickup-1.jpg",
     "regions": [
@@ -1734,6 +1753,421 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taichung-airport-bus-302-city": {
+    "heroImage": "assets/images/blog/taichung-airport-bus-302-city-1.jpg",
+    "ko": {
+      "pageTitle": "타이중공항 302번 버스 — 승강장·시간표 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이중공항 302번 버스는 국제선 B1 1번 승강장에서 타요. 첫차·막차와 배차 간격, 과학박물관·타이중역 정류장, 이지카드 찍는 법을 정리했어요.",
+      "ogTitle": "타이중공항 302번 버스, 타이중역까지 어떻게 탈까?",
+      "eyebrow": "타이중 여행 가이드 · 교통",
+      "title": "타이중공항 302번 버스, 타이중역까지 어떻게 탈까?",
+      "dek": "국제선 B1 1번 승강장에서 타고, 탈 때와 내릴 때 모두 카드를 찍으면 돼요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이중 · 교통 가이드",
+      "intro": "<b>타이중공항 302번 버스는 국제선 B1 1번 승강장에서 타고, 과학박물관과 제2시장을 지나 타이중역 정류장까지 가요. 2026년 11월 기준 공항 출발 첫차는 06:45, 막차는 22:45이고 낮에는 대체로 15~40분마다 있습니다.</b> 이지카드로 탈 수 있지만 내릴 때도 꼭 다시 찍어야 해요.<br><br>여행자 커뮤니티에서 자주 나오는 질문을 타이중 공항과 타이중시 공식 버스 정보로 확인해 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 타이중공항 302번 버스 한눈에 보기 (2026년 11월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "내용",
+            "확인할 곳"
+          ],
+          "rows": [
+            {
+              "label": "타는 곳",
+              "values": [
+                "국제선 B1 버스 승강장 1번",
+                "공항 공식 버스 안내"
+              ]
+            },
+            {
+              "label": "운행 구간",
+              "values": [
+                "臺中國際機場 ↔ 新光里(新福路), 운행 회사 中台灣客運",
+                "타이중시 공식 버스 정보"
+              ]
+            },
+            {
+              "label": "공항 출발 시간",
+              "values": [
+                "첫차 06:45 · 막차 22:45, 하루 30~34회(날짜마다 다름)",
+                "날짜별 시간표"
+              ]
+            },
+            {
+              "label": "배차",
+              "values": [
+                "낮에는 대체로 15~40분(주말엔 50~60분 빌 때도), 20:00 이후는 45~60분",
+                "날짜별 시간표"
+              ]
+            },
+            {
+              "label": "주요 정류장",
+              "values": [
+                "秋紅谷 → 市政府 → 科博館 → 第二市場 → 臺中車站(C月台)",
+                "노선 정류장 목록"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "타이중 공항 공식 안내에 따르면 시내버스는 국제선 B1에서 타고, 302번은 333·357·555번 등과 함께 1번 승강장에 서요. 타이중시 공식 버스 정보의 정류장 목록을 보면 302번은 공항을 나와 타이완대로(臺灣大道) 버스 전용차로를 따라 秋紅谷, 新光/遠百, 市政府, 科博館(과학박물관)을 지나고, 第二市場(臺灣大道)를 거쳐 臺中車站(C月台)에 섭니다. 종점은 타이중역보다 더 동쪽인 新光里(新福路)라서, 타이중역에서 내릴 거라면 정류장 이름을 잘 보고 있어야 해요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 302번 버스 타는 곳과 시간표 확인하기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "입국장에서 B1으로 내려가기",
+              "desc": "버스 승강장은 국제선 B1에 있어요. 1번 승강장에 302번이 함께 표시되니 노선 번호를 보고 줄을 서면 됩니다."
+            },
+            {
+              "mark": "2",
+              "b": "날짜별 시간표는 공식 사이트에서",
+              "desc": "타이중시 공식 버스 정보 사이트(citybus.taichung.gov.tw)에서 날짜를 골라 시간표를 볼 수 있어요. 11월 3일(화)은 34회, 11월 7일(토)·8일(일)은 30회로 요일마다 조금씩 달랐습니다."
+            },
+            {
+              "mark": "3",
+              "b": "실시간 도착은 앱으로",
+              "desc": "같은 사이트와 타이중시 공식 앱 台中Go에서 버스가 지금 어디쯤 오는지 볼 수 있어요. 경로는 구글맵으로 보고, 도착 시간은 버스 앱으로 확인하는 방법이 편했다는 여행자 후기도 있습니다."
+            },
+            {
+              "mark": "4",
+              "b": "밤 비행기라면 막차 확인",
+              "desc": "20:00 이후에는 45~60분 간격이고 공항 출발 막차는 22:45예요. 늦게 도착하는 편이라면 도착 전에 그날 시간표를 한 번 더 보세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-airport-bus-302-city-2.jpg",
+          "caption": "타이중공항 버스 승차장 대기 공간이에요. 시내버스는 국제선 B1 승강장에서 타요(사진: Mk2010 / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 이지카드로 302번 타기, 내릴 때도 찍어요"
+        },
+        {
+          "type": "p",
+          "html": "타이중시 공식 버스 정보에 따르면 타이중 시내버스는 이지카드(悠遊卡), 아이패스(一卡通), 아이캐시(icash2.0) 같은 교통카드로 낼 수 있어요. 요금은 거리에 따라 달라지기 때문에 탈 때 한 번, 내릴 때 한 번 카드를 찍습니다. 현금보다 교통카드가 조금 싸다고 안내하지만, 정확한 금액은 공식 사이트 요금 조회에서 확인하세요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "10km 무료는 시민 전용",
+              "desc": "'10km 무료' 혜택은 타이중 시민 등 등록한 사람만 받을 수 있어요. 여행자가 쓰는 일반 이지카드는 거리만큼 요금을 냅니다."
+            },
+            {
+              "mark": "✓",
+              "b": "내릴 때 안 찍으면",
+              "desc": "다음에 카드를 찍을 때 자동으로 요금이 빠지고, 그 이용분은 기본 거리 할인을 못 받는다고 안내해요. 같은 카드로 타고 내리세요."
+            },
+            {
+              "mark": "✓",
+              "b": "잔액은 미리 채워 두기",
+              "desc": "국제선 1층 입국장 패밀리마트(06:00~20:00)가 교통카드 충전을 안내하고 있어요. 버스를 타기 전에 잔액을 확인해 두면 마음이 편합니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 302번 말고 다른 타이중공항 버스는?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "타이중역 방면 500·333번",
+              "desc": "공항 공식 안내는 타이중역과 공항을 잇는 노선으로 500번(2번 승강장)과 333번(1번 승강장)도 소개해요. 오는 버스를 먼저 타는 것도 방법입니다."
+            },
+            {
+              "mark": "✓",
+              "b": "고속철 타이중역은 156번",
+              "desc": "고속철로 바로 갈아탈 거라면 공항과 고속철 타이중역을 잇는 156번(2번 승강장)을 보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "짐이 많으면 택시도",
+              "desc": "처음 가는 길에 캐리어가 크거나 일행이 많다면 택시가 편했다는 여행자 의견도 있어요. 요금은 미리 앱이나 기사에게 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-airport-bus-302-city-1.jpg",
+          "caption": "타이중역 앞 타이완대로를 달리는 302번 버스예요. 앞 전광판에 노선 번호와 종점 新光里가 떠요(사진: 捷利 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "05 · 자주 묻는 질문"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "타이중공항 302번 버스는 어디서 타요?",
+              "desc": "국제선 B1 버스 승강장 1번에서 타요. 타이중 공항 공식 안내(2026년 11월 기준)예요."
+            },
+            {
+              "mark": "Q",
+              "b": "302번 버스로 타이중역까지 갈 수 있나요?",
+              "desc": "네. 공항에서 출발하면 第二市場을 지나 臺中車站(C月台) 정류장에 서요. 종점은 新光里라 그 전에 내리면 됩니다."
+            },
+            {
+              "mark": "Q",
+              "b": "첫차와 막차는 몇 시예요?",
+              "desc": "2026년 11월 기준 공항 출발 첫차는 06:45, 막차는 22:45예요. 날짜마다 횟수가 달라서 공식 시간표를 확인하세요."
+            },
+            {
+              "mark": "Q",
+              "b": "이지카드로 탈 수 있나요?",
+              "desc": "네. 이지카드·아이패스·아이캐시를 쓸 수 있고, 거리 요금이라 탈 때와 내릴 때 모두 찍어야 해요."
+            },
+            {
+              "mark": "Q",
+              "b": "타이중역에서 공항 갈 때는 어디서 타요?",
+              "desc": "공항 방면 302번은 臺中車站(臺灣大道) 정류장에 서요. 출발 전에 공식 앱으로 도착 시간을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "돌아가는 날 공항 동선은 <a href=\"/blog-taichung-airport-departure-tips\">타이중 공항 출국, 캐리어 무게와 편의점은 어디서 챙길까?</a>에 정리해 두었어요. 302번이 서는 과학박물관 정류장에서 걷기 좋은 길은 <a href=\"/blog-taichung-calligraphy-greenway-walk\">타이중 도심 걷기 코스</a>를 참고하세요. 타이중역에 내려 첫 끼를 고른다면 <a href=\"/region-taichung\">타이중 맛집 지도</a>와 <a href=\"/taichung-taiwanese\">타이중 대만식 맛집</a>을 먼저 보세요. 지도에 있는 <a href=\"/taichung-taiwanese-taichung-traditional-cuisine-370\">Taichung Traditional Cuisine</a>은 타이중역 근처에 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 臺中航空站(타이중 국제공항) 공식 공항버스 안내, 타이중시 공식 버스 정보 사이트(台中即時公車動態資訊)의 302번 노선·정류장·날짜별 시간표와 요금 안내, 공항 매장 안내, 타이중시 교통카드(市民限定) 안내, 타이중시 민원 플랫폼의 '자동 특허 차감' 안내, 네이버 카페 여행자 글 요약을 바탕으로 2026년 11월 3일에 정리했어요. 시간표와 정류장은 바뀔 수 있으니 출발 전 공식 사이트나 앱에서 다시 확인하세요. 사진: Mk2010(CC BY-SA 3.0), 捷利(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중 맛집도 확인해보세요",
+          "desc": "공항에서 시내로 들어가 먹을 첫 끼를 지도에서 미리 찜해 두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung&cat=taiwanese"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taichung Airport Bus 302 — Platform, Timetable & EasyCard · My Secret Taiwan Eats",
+      "metaDescription": "Taichung Airport bus 302 leaves from Platform 1 on international B1. First and last buses, gaps between buses, key city stops and how to tap your EasyCard.",
+      "ogTitle": "Taichung Airport Bus 302: Getting to Taichung Station",
+      "eyebrow": "Taichung Travel Guide · Transport",
+      "title": "Taichung Airport Bus 302: Getting to Taichung Station",
+      "dek": "Board at Platform 1 on international B1, and tap your card both when you get on and when you get off.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taichung · Transport guide",
+      "intro": "<b>Taichung Airport bus 302 leaves from Platform 1 on international B1 and runs past the science museum and the Second Market to the Taichung Station stop. As of November 2026 the first bus from the airport is at 06:45 and the last at 22:45, with buses roughly every 15–40 minutes during the day.</b> You can pay with an EasyCard, but remember to tap again when you get off.<br><br>We checked the questions travellers ask most often against the airport's and Taichung City's official bus information.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Taichung Airport Bus 302 at a Glance (as of November 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Details",
+            "Where to check"
+          ],
+          "rows": [
+            {
+              "label": "Where to board",
+              "values": [
+                "Bus Platform 1, international B1",
+                "Airport's official bus page"
+              ]
+            },
+            {
+              "label": "Route",
+              "values": [
+                "臺中國際機場 ↔ 新光里(新福路), run by 中台灣客運",
+                "Taichung City official bus info"
+              ]
+            },
+            {
+              "label": "From the airport",
+              "values": [
+                "First 06:45 · last 22:45, 30–34 runs a day (varies by date)",
+                "Daily timetable"
+              ]
+            },
+            {
+              "label": "Frequency",
+              "values": [
+                "Mostly every 15–40 min by day (some 50–60 min gaps at weekends), 45–60 min after 20:00",
+                "Daily timetable"
+              ]
+            },
+            {
+              "label": "Key stops",
+              "values": [
+                "秋紅谷 → 市政府 → 科博館 → 第二市場 → 臺中車站(C月台)",
+                "Route stop list"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "According to the airport's official page, city buses board on international B1, and route 302 shares Platform 1 with routes such as 333, 357 and 555. Taichung City's official stop list shows 302 running along the Taiwan Boulevard (臺灣大道) bus lane via 秋紅谷, 新光/遠百, 市政府 and 科博館 (National Museum of Natural Science), then 第二市場(臺灣大道) and 臺中車站(C月台). The terminus, 新光里(新福路), is further east than the station, so watch the stop names if you're getting off at Taichung Station."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Where to Board Bus 302 and How to Check Times"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Head down to B1 from arrivals",
+              "desc": "The bus platforms are on international B1. Platform 1 lists route 302, so look for the number and queue there."
+            },
+            {
+              "mark": "2",
+              "b": "Daily timetables on the official site",
+              "desc": "Taichung City's official bus site (citybus.taichung.gov.tw) shows the timetable for any date. 3 November (Tue) had 34 runs and 7–8 November (Sat–Sun) had 30, so it varies by day."
+            },
+            {
+              "mark": "3",
+              "b": "Live arrivals in the app",
+              "desc": "The same site and the city's official 台中Go app show where the bus is right now. Some travellers found it easiest to plan the route on Google Maps and check arrival times in a bus app."
+            },
+            {
+              "mark": "4",
+              "b": "Late flight? Check the last bus",
+              "desc": "After 20:00 buses run every 45–60 minutes, and the last bus from the airport is at 22:45. If you land late, check that day's timetable before you arrive."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-airport-bus-302-city-2.jpg",
+          "caption": "The bus boarding area at Taichung Airport. City buses leave from the platforms on international B1 (photo: Mk2010 / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Paying for Bus 302 with an EasyCard"
+        },
+        {
+          "type": "p",
+          "html": "Taichung City's official bus information says city buses accept transit cards such as EasyCard (悠遊卡), iPASS (一卡通) and icash2.0. Fares depend on distance, so you tap once when you board and again when you get off. Paying by card is slightly cheaper than cash, but check exact fares with the fare search on the official site."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "The 10 km free ride is for residents",
+              "desc": "The \"first 10 km free\" deal only applies to registered Taichung residents and a few other eligible groups. A regular EasyCard used by visitors pays by distance."
+            },
+            {
+              "mark": "✓",
+              "b": "Forgot to tap off?",
+              "desc": "The city says the fare is charged automatically the next time you tap, and that trip loses the base-distance discount. Use the same card to board and alight."
+            },
+            {
+              "mark": "✓",
+              "b": "Top up before you board",
+              "desc": "FamilyMart in the international 1F arrival hall (06:00–20:00) lists transit-card top-ups, so check your balance before you head to the bus."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Other Buses from Taichung Airport"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Routes 500 and 333 to Taichung Station",
+              "desc": "The airport's official page also lists route 500 (Platform 2) and route 333 (Platform 1) between the airport and Taichung Station, so you can take whichever comes first."
+            },
+            {
+              "mark": "✓",
+              "b": "Route 156 for the HSR station",
+              "desc": "If you're connecting to the high-speed rail, route 156 (Platform 2) runs between the airport and HSR Taichung Station."
+            },
+            {
+              "mark": "✓",
+              "b": "Lots of luggage? Consider a taxi",
+              "desc": "Some travellers say a taxi was easier on a first visit with big suitcases or a group. Confirm the fare in an app or with the driver."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-airport-bus-302-city-1.jpg",
+          "caption": "A route 302 bus on Taiwan Boulevard by Taichung Station. The front sign shows the route number and the terminus, 新光里 (photo: 捷利 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "05 · FAQ"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "Where do I catch bus 302 at Taichung Airport?",
+              "desc": "At Bus Platform 1 on international B1, according to the airport's official page (as of November 2026)."
+            },
+            {
+              "mark": "Q",
+              "b": "Does bus 302 go to Taichung Station?",
+              "desc": "Yes. From the airport it passes 第二市場 and stops at 臺中車站(C月台). The terminus is 新光里, so get off before then."
+            },
+            {
+              "mark": "Q",
+              "b": "What time are the first and last buses?",
+              "desc": "As of November 2026 the first bus from the airport is at 06:45 and the last at 22:45. The number of runs varies by date, so check the official timetable."
+            },
+            {
+              "mark": "Q",
+              "b": "Can I pay with an EasyCard?",
+              "desc": "Yes. EasyCard, iPASS and icash2.0 all work, and because fares are distance-based you must tap on and off."
+            },
+            {
+              "mark": "Q",
+              "b": "Where do I catch it from Taichung Station to the airport?",
+              "desc": "Airport-bound 302 buses stop at 臺中車站(臺灣大道). Check live arrival times in the official app before you go."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For the trip home, see <a href=\"/blog-taichung-airport-departure-tips\">Taichung Airport departure tips</a>. If you hop off at the science museum stop, the <a href=\"/blog-taichung-calligraphy-greenway-walk\">Taichung downtown walk</a> starts nearby. For a first meal after arriving at Taichung Station, browse the <a href=\"/region-taichung\">Taichung food map</a> and <a href=\"/taichung-taiwanese\">Taichung Taiwanese restaurants</a>; <a href=\"/taichung-taiwanese-taichung-traditional-cuisine-370\">Taichung Traditional Cuisine</a> on the map is close to the station."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 3 November 2026 from the Taichung Airport authority's official bus page, Taichung City's official bus information site (route 302 stops, daily timetables and fare notes), the airport's shop list, the city's resident transit-card page, the city's FAQ on automatic charging after a missed tap, and a summary of Naver café traveller posts. Timetables and stops can change, so check the official site or app before you travel. Photos: Mk2010 (CC BY-SA 3.0) and 捷利 (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taichung eats on the map",
+          "desc": "Save a spot for your first meal once you're into the city.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung&cat=taiwanese"
+        }
+      ]
+    }
+  },
   "taiwan-uber-sms-verification-airport-pickup": {
     "heroImage": "assets/images/blog/taiwan-uber-sms-verification-airport-pickup-1.jpg",
     "ko": {
