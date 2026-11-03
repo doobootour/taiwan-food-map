@@ -48,7 +48,7 @@ export default {
     return new HTMLRewriter()
       .on('script[src*="leaflet@1.9.4/dist/leaflet.js"]', {
         element(el) {
-          el.after('<script src="/js/attractions.js"></script><script src="/js/activities.js"></script><script src="/js/attraction-stars.js?v=1793690000"></script>', { html: true });
+          el.after('<script src="/js/attractions.js"></script><script src="/js/activities.js"></script><script src="/js/attraction-stars.js?v=1793691000"></script>', { html: true });
         },
       })
       .transform(response);

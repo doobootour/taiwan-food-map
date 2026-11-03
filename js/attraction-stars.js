@@ -6,17 +6,19 @@
 // 마우스가 있는 기기에서는 마커에 커서를 올리면 팝업이 뜨고, 팝업 안으로 옮겨도 잠시 유지된다(링크 클릭 가능).
 // 터치 기기는 기존처럼 탭으로 연다. 호버로 열린 뒤 클릭해도 닫히지 않게 한다.
 function tfmHoverPopup(marker) {
-  if (!window.matchMedia || !window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+  // 미디어쿼리 대신 실제 입력으로 판단: 터치 직후 따라오는 가짜 mouseover는 무시한다(터치 노트북 PC 대응).
+  if (!window._tfmTouchHook) { window._tfmTouchHook = 1; window._tfmLastTouch = 0; document.addEventListener("touchstart", function () { window._tfmLastTouch = Date.now(); }, { capture: true, passive: true }); }
+  var touchy = function () { return Date.now() - window._tfmLastTouch < 1000; };
   var t = null;
   var clear = function () { if (t) { clearTimeout(t); t = null; } };
   var later = function () { clear(); t = setTimeout(function () { marker.closePopup(); }, 250); };
   marker.off("click", marker._openPopup, marker);
   marker.on("click", function () { clear(); marker.openPopup(); });
-  marker.on("mouseover", function () { clear(); if (!marker.isPopupOpen()) marker.openPopup(); });
-  marker.on("mouseout", later);
+  marker.on("mouseover", function () { if (touchy()) return; clear(); if (!marker.isPopupOpen()) marker.openPopup(); });
+  marker.on("mouseout", function () { if (!touchy()) later(); });
   marker.on("popupopen", function (e) {
     var el = e.popup.getElement();
-    if (el && !el._tfmHover) { el._tfmHover = 1; el.addEventListener("mouseenter", clear); el.addEventListener("mouseleave", later); }
+    if (el && !el._tfmHover) { el._tfmHover = 1; el.addEventListener("mouseenter", clear); el.addEventListener("mouseleave", function () { if (!touchy()) later(); }); }
   });
 }
   window.tfmHoverPopup = tfmHoverPopup;
