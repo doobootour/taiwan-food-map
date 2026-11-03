@@ -38,6 +38,7 @@ const BLOG_LIST = [
     }
   },
   
+  
   {
     "slug": "taiwan-zizhucan-buffet-bento-search",
     "image": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
@@ -1891,7 +1892,35 @@ const BLOG_POSTS = {
         },
         {
           "type": "h2",
-          "text": "04 · 지우펀 옛 거리에서 들르기 좋은 맛집"
+          "text": "04 · 스펀에서 무조건 먹어야 하는 맛 3대장"
+        },
+        {
+          "type": "p",
+          "html": "스펀 옛 거리(十分街)에서 풍등을 날린 뒤 들르기 좋은, 저희가 직접 추천하는 세 곳이에요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/jiufen-street_food-1022\">스펀 리우거 닭날개볶음밥 (十分溜哥燒烤雞翅包飯)</a>",
+              "desc": "버스투어 승객 모두가 아는 맛"
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/jiufen-stinky_tofu-50\">스펀 취두부 (十分寶桂臭豆腐)</a>",
+              "desc": "대만 취두부 도전하기 딱 좋은 맛"
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/jiufen-street_food-720\">스펀 소세지 (十分黑豬肉香腸)</a>",
+              "desc": "1개만 먹으면 후회하는 맛"
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · 지우펀 옛 거리에서 들르기 좋은 맛집"
         },
         {
           "type": "p",
@@ -2022,7 +2051,35 @@ const BLOG_POSTS = {
         },
         {
           "type": "h2",
-          "text": "04 · Restaurants on Jiufen Old Street"
+          "text": "04 · Shifen's Big Three: Must-Eat Bites"
+        },
+        {
+          "type": "p",
+          "html": "Three spots on Shifen Old Street (十分街) that we personally recommend, easy to drop by after releasing a sky lantern."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/jiufen-street_food-1022\">Shifen LiouGou Chicken Wing Rice (十分溜哥燒烤雞翅包飯)</a>",
+              "desc": "The taste every bus-tour passenger knows."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/jiufen-stinky_tofu-50\">Shifen Stinky Tofu (十分寶桂臭豆腐)</a>",
+              "desc": "Just right for trying Taiwanese stinky tofu for the first time."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/jiufen-street_food-720\">Shifen Sausage (十分黑豬肉香腸)</a>",
+              "desc": "Eat just one and you'll regret it."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "05 · Restaurants on Jiufen Old Street"
         },
         {
           "type": "p",
@@ -2076,6 +2133,7 @@ const BLOG_POSTS = {
       ]
     }
   },
+  
   
   "taiwan-zizhucan-buffet-bento-search": {
     "heroImage": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
