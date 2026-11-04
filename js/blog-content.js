@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taoyuan-airport-bus-to-taichung-ticket-counter",
+    "image": "assets/images/blog/taoyuan-airport-bus-to-taichung-ticket-counter-1.jpg",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "타이중 여행 팁 · 공항 교통",
+      "title": "타오위안공항에서 타이중까지 버스, 매표소는 어디?",
+      "desc": "입국장에서 버스 승차장으로 가서 매표소에서 표를 사거나 바꾸고 타이중까지 가는 법이에요. 국광 1860과 통롄 1623 차이도 봐요.",
+      "meta": "타오위안공항 · 타이중 버스"
+    },
+    "en": {
+      "eyebrow": "Taichung Travel Tips · Airport Transport",
+      "title": "Taoyuan Airport to Taichung by Bus: Where to Buy Tickets",
+      "desc": "From arrivals to the bus area, buying or exchanging tickets, and riding to Taichung, with the difference between Kuo-Kuang 1860 and Ubus 1623.",
+      "meta": "Taoyuan Airport · Taichung bus"
+    }
+  },
+  {
     "slug": "tainan-thsr-day-trip-h31-anping",
     "image": "assets/images/blog/tainan-thsr-day-trip-h31-anping-1.jpg",
     "regions": [
@@ -1833,6 +1852,385 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taoyuan-airport-bus-to-taichung-ticket-counter": {
+    "heroImage": "assets/images/blog/taoyuan-airport-bus-to-taichung-ticket-counter-1.jpg",
+    "ko": {
+      "pageTitle": "타오위안공항에서 타이중 버스 — 1860·1623 매표소와 표 교환 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타오위안공항에서 타이중까지 국광 1860·통롄 1623 버스 타는 법이에요. 터미널별 승차장과 매표소, 요금, 표 교환 방법을 정리했어요.",
+      "ogTitle": "타오위안공항에서 타이중까지 버스, 매표소는 어디?",
+      "eyebrow": "타이중 여행 팁 · 공항 교통",
+      "title": "타오위안공항에서 타이중까지 버스, 매표소는 어디?",
+      "dek": "입국장을 나와 버스 승차장으로 가면 매표소가 있어요. 통롄 1623은 현장 구매만 되고, 국광 1860은 1터미널 매표소가 24시간 열어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타오위안공항 · 타이중 버스",
+      "intro": "<b>타오위안공항에서 타이중까지는 국광(國光) 1860번과 통롄(統聯) 1623번 버스가 바로 가요. 승차장은 1터미널 B1층, 2터미널 1층의 버스 승차장이고 표는 그 앞 매표소에서 사요. 국광 1860 성인 요금은 NT$343~390(좌석 종류별, 2026년 11월 기준)이고, 원글 기준 타이중까지 약 2시간 10분 걸려요.</b><br><br>여행자 커뮤니티에 올라온 이동 후기를 공항·버스회사 공식 안내로 확인해 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 두 노선 한눈에 보기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "국광 1860",
+            "통롄 1623"
+          ],
+          "rows": [
+            {
+              "label": "타이중 쪽 정류장",
+              "values": [
+                "朝馬, 干城站 또는 國光客運臺中車站",
+                "朝馬 경유 타이중 시내"
+              ]
+            },
+            {
+              "label": "성인 요금 (2026년 11월 기준)",
+              "values": [
+                "NT$343(4열 좌석)·NT$390(3열 좌석)",
+                "방문 전 통롄 공식 요금표 확인"
+              ]
+            },
+            {
+              "label": "표 사는 곳",
+              "values": [
+                "국광 매표소, 일부 예약 차편 있음",
+                "공항 매표소 현장 구매만"
+              ]
+            },
+            {
+              "label": "매표소 시간",
+              "values": [
+                "1터미널 24시간, 2터미널 07:30~22:20",
+                "2터미널 6번 창구 06:00~23:50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "공로국 버스 정보 사이트 요금표를 보면 1860번은 1터미널에서 타면 朝馬(臺灣大道)·干城站, 2터미널에서 타면 朝馬站(國光)·國光客運臺中車站으로 나뉘어 있어요. 내릴 곳이 정해져 있다면 표를 살 때 정류장을 한 번 더 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 입국장에서 매표소 찾기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "'Bus to City' 표지를 따라가요",
+              "desc": "원글에 따르면 입국장을 나와 버스 표지를 따라가면 매표소가 나와요."
+            },
+            {
+              "mark": "2",
+              "b": "1터미널은 B1층",
+              "desc": "공항 공식 안내 기준 1터미널 버스 승차장은 B1층이에요. 국광 매표소도 B1층에 있고 24시간 열어요."
+            },
+            {
+              "mark": "3",
+              "b": "2터미널은 1층",
+              "desc": "2터미널 버스 승차장은 1층이에요. 국광 매표소는 07:30~22:20, 통롄은 6번 창구에서 06:00~23:50에 표를 팔아요."
+            },
+            {
+              "mark": "4",
+              "b": "통롄 1623은 현장에서만",
+              "desc": "통롄 공식 안내에 따르면 입국 시간을 맞추기 어려워 타이중 방향은 편의점·인터넷 예매를 받지 않아요. 매표소 영업시간에 직접 사야 해요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-bus-to-taichung-ticket-counter-1.jpg",
+          "caption": "타이중 차오마(朝馬) 정류장 앞의 통롄(統聯) 버스예요(사진: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 온라인으로 산 표는 매표소에서 교환"
+        },
+        {
+          "type": "p",
+          "html": "원글 작성자는 여행 앱에서 미리 산 버스표를 공항 매표소에서 실물 표로 바꿔서 탔다고 해요. 미리 사 둘 생각이라면 상품 안내에 적힌 교환 장소와 노선을 먼저 확인하세요. 통롄 1623은 위처럼 공항 현장 구매만 되니, 온라인 상품이 어느 버스회사 노선인지도 같이 봐야 해요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 타고 가는 동안 알아둘 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "약 2시간 10분",
+              "desc": "원글 기준 타이중까지 약 2시간 10분 걸렸어요. 도로 상황에 따라 달라져요."
+            },
+            {
+              "mark": "✓",
+              "b": "맨 앞자리는 풍경이 좋아요",
+              "desc": "원글 작성자는 맨 앞자리에 앉아 바깥 풍경을 보며 갔다고 해요."
+            },
+            {
+              "mark": "✓",
+              "b": "큰 짐은 기준을 확인",
+              "desc": "통롄 공식 안내에 따르면 1인 짐은 약 32인치 캐리어 1개 크기까지이고, 넘으면 짐 요금이 붙을 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "통롄은 시내버스 1회 무료",
+              "desc": "통롄 안내에 따르면 당일 1623 표가 있으면 타이중(台中商旅·台中車站)에서 통롄 시내버스를 한 번 무료로 탈 수 있어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-bus-to-taichung-ticket-counter-2.jpg",
+          "caption": "타이중역 근처 국광(國光) 버스 터미널이에요(사진: SSJF01 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "p",
+          "html": "시간표는 요일마다 다른 차편이 있어요. 공로국 버스 정보 사이트에서 1860 시간표를, 통롄 공식 사이트에서 1623 시간표를 보고 비행기 도착 시간에 맞는 차편을 골라두세요."
+        },
+        {
+          "type": "h2",
+          "text": "05 · 자주 묻는 질문"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "타오위안공항에서 타이중 가는 버스는 몇 번이에요?",
+              "desc": "국광 1860번과 통롄 1623번이 공항에서 타이중까지 바로 가요."
+            },
+            {
+              "mark": "Q",
+              "b": "버스표는 어디서 사요?",
+              "desc": "1터미널은 B1층, 2터미널은 1층 버스 승차장 앞 매표소에서 사요."
+            },
+            {
+              "mark": "Q",
+              "b": "통롄 1623 표를 미리 인터넷으로 살 수 있어요?",
+              "desc": "아니요. 통롄 공식 안내 기준 타이중 방향은 공항 매표소 현장 구매만 돼요."
+            },
+            {
+              "mark": "Q",
+              "b": "요금은 얼마예요?",
+              "desc": "국광 1860 성인 요금은 좌석 종류에 따라 NT$343 또는 NT$390이에요(2026년 11월 기준). 통롄 요금은 공식 요금표에서 확인하세요."
+            },
+            {
+              "mark": "Q",
+              "b": "밤늦게 도착해도 표를 살 수 있어요?",
+              "desc": "1터미널 국광 매표소는 24시간 열어요. 2터미널 매표소는 시간이 정해져 있으니 공식 안내를 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "타이중에서 먹을 곳은 <a href=\"/region-taichung\">타이중 맛집 지도</a>에서 골라보세요. 밤늦게 도착한다면 <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">타오위안공항 새벽 도착 교통</a>, 1터미널에서 씻고 출발하려면 <a href=\"/blog-taoyuan-airport-terminal1-free-shower\">1터미널 무료 샤워실</a>, 타이중공항으로 들어온다면 <a href=\"/blog-taichung-airport-bus-302-city\">타이중공항 302번 버스</a>를 참고하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 타오위안공항 공식 사이트의 대중교통·버스 안내와 국광버스 매표소 정보, 교통부 공로국 公路客運即時動態資訊網의 1860 요금표와 시간표, 통롄버스 공식 사이트의 1623 노선·매표소 안내, 네이버 카페 여행자 글 요약을 바탕으로 2026년 11월 4일에 정리했어요. 요금과 시간표는 바뀔 수 있으니 타기 전에 공식 사이트를 다시 확인하세요. 사진: Solomon203(CC BY-SA 4.0), SSJF01(CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중 맛집도 확인해보세요",
+          "desc": "도착해서 먹을 곳을 지도에서 골라보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Taoyuan Airport to Taichung by Bus — 1860, 1623 Ticket Counters · My Secret Taiwan Eats",
+      "metaDescription": "How to take the Kuo-Kuang 1860 or Ubus 1623 bus from Taoyuan Airport to Taichung: boarding areas, ticket counters, fares and ticket exchange.",
+      "ogTitle": "Taoyuan Airport to Taichung by Bus: Where to Buy Tickets",
+      "eyebrow": "Taichung Travel Tips · Airport Transport",
+      "title": "Taoyuan Airport to Taichung by Bus: Where to Buy Tickets",
+      "dek": "Follow the bus signs from arrivals to the ticket counters. Ubus 1623 is sold only at the counter; the Kuo-Kuang counter in Terminal 1 is open 24 hours.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taoyuan Airport · Taichung bus",
+      "intro": "<b>Two buses run straight from Taoyuan Airport to Taichung: Kuo-Kuang (國光) 1860 and Ubus (統聯) 1623. They leave from the bus area on B1 of Terminal 1 and 1F of Terminal 2, where you buy tickets at the counters. The adult fare on Kuo-Kuang 1860 is NT$343–390 depending on seat type (as of November 2026), and the original post says the ride takes about 2 hours 10 minutes.</b><br><br>We checked a traveller's account against official airport and bus company information.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · The Two Routes at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Kuo-Kuang 1860",
+            "Ubus 1623"
+          ],
+          "rows": [
+            {
+              "label": "Taichung stops",
+              "values": [
+                "朝馬, 干城站 or 國光客運臺中車站",
+                "Downtown Taichung via 朝馬"
+              ]
+            },
+            {
+              "label": "Adult fare (as of Nov 2026)",
+              "values": [
+                "NT$343 (4-across) / NT$390 (3-across)",
+                "Check Ubus's official fare table"
+              ]
+            },
+            {
+              "label": "Where to buy",
+              "values": [
+                "Kuo-Kuang counter; some trips bookable",
+                "Airport counter only"
+              ]
+            },
+            {
+              "label": "Counter hours",
+              "values": [
+                "T1 24 hours, T2 07:30–22:20",
+                "T2 counter 6, 06:00–23:50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The Highway Bureau's fare table splits 1860 by terminal: from Terminal 1 to 朝馬(臺灣大道) and 干城站, and from Terminal 2 to 朝馬站(國光) and 國光客運臺中車站. If you need a particular stop, confirm it when you buy your ticket."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Finding the Ticket Counter"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Follow the 'Bus to City' signs",
+              "desc": "The original post says the bus signs from arrivals lead you to the ticket counters."
+            },
+            {
+              "mark": "2",
+              "b": "Terminal 1: B1",
+              "desc": "Per the airport's official page, the Terminal 1 bus area is on B1. The Kuo-Kuang counter there is open 24 hours."
+            },
+            {
+              "mark": "3",
+              "b": "Terminal 2: 1F",
+              "desc": "The Terminal 2 bus area is on 1F. Kuo-Kuang sells tickets 07:30–22:20, and Ubus at counter 6 from 06:00–23:50."
+            },
+            {
+              "mark": "4",
+              "b": "Ubus 1623: counter only",
+              "desc": "Ubus says that because arrival times are hard to predict, tickets towards Taichung aren't sold online or at convenience stores. Buy at the counter during opening hours."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-bus-to-taichung-ticket-counter-1.jpg",
+          "caption": "A Ubus (統聯) coach outside the Chaoma (朝馬) station in Taichung (photo: Solomon203 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Exchanging a Ticket Bought Online"
+        },
+        {
+          "type": "p",
+          "html": "The original poster bought a bus ticket in advance through a travel app and exchanged it for a paper ticket at the airport counter. If you plan to buy ahead, check the exchange point and route in the product details first. Since Ubus 1623 is sold only at the airport counter, also check which company's route an online product covers."
+        },
+        {
+          "type": "h2",
+          "text": "04 · On the Way"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "About 2 hours 10 minutes",
+              "desc": "The original post says the trip to Taichung took about 2 hours 10 minutes. Traffic can change this."
+            },
+            {
+              "mark": "✓",
+              "b": "Front seats for the view",
+              "desc": "The original poster sat at the front and enjoyed the view."
+            },
+            {
+              "mark": "✓",
+              "b": "Check luggage limits",
+              "desc": "Ubus allows about one 32-inch suitcase per person; extra luggage may be charged."
+            },
+            {
+              "mark": "✓",
+              "b": "One free city bus ride with Ubus",
+              "desc": "Ubus says a same-day 1623 ticket gets you one free Ubus city bus ride from 台中商旅 or 台中車站 in Taichung."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-bus-to-taichung-ticket-counter-2.jpg",
+          "caption": "The Kuo-Kuang (國光) bus terminal near Taichung Station (photo: SSJF01 / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "p",
+          "html": "Some trips run only on certain days. Check the 1860 timetable on the Highway Bureau's bus site and the 1623 timetable on Ubus's site, and pick a departure that fits your arrival time."
+        },
+        {
+          "type": "h2",
+          "text": "05 · FAQ"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "Q",
+              "b": "Which buses go from Taoyuan Airport to Taichung?",
+              "desc": "Kuo-Kuang 1860 and Ubus 1623 run directly from the airport to Taichung."
+            },
+            {
+              "mark": "Q",
+              "b": "Where do I buy a ticket?",
+              "desc": "At the counters by the bus area: B1 in Terminal 1, 1F in Terminal 2."
+            },
+            {
+              "mark": "Q",
+              "b": "Can I buy Ubus 1623 tickets online?",
+              "desc": "No. Ubus sells tickets towards Taichung only at the airport counters."
+            },
+            {
+              "mark": "Q",
+              "b": "How much is the fare?",
+              "desc": "Kuo-Kuang 1860 costs NT$343 or NT$390 for adults depending on seat type (as of November 2026). Check Ubus's fare table for 1623."
+            },
+            {
+              "mark": "Q",
+              "b": "Can I buy a ticket late at night?",
+              "desc": "The Kuo-Kuang counter in Terminal 1 is open 24 hours. Terminal 2 counters keep set hours, so check the official pages."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For food in Taichung, browse the <a href=\"/region-taichung\">Taichung food map</a>. Arriving late? See <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">late-night transport from Taoyuan Airport</a>. To freshen up first, read <a href=\"/blog-taoyuan-airport-terminal1-free-shower\">the free shower in Terminal 1</a>, and if you fly into Taichung instead, see <a href=\"/blog-taichung-airport-bus-302-city\">Taichung Airport bus 302</a>."
+        },
+        {
+          "type": "note",
+          "text": "Compiled on 4 November 2026 from Taoyuan Airport's official public transport and bus pages and Kuo-Kuang counter listing, the Highway Bureau's intercity bus site (fares and timetable for 1860), Ubus's official route and counter pages for 1623, and a summary of Naver café traveller posts. Fares and timetables can change, so check the official sites before you ride. Photos: Solomon203 (CC BY-SA 4.0) and SSJF01 (CC BY-SA 4.0), Wikimedia Commons."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taichung restaurants on the map",
+          "desc": "Pick somewhere to eat when you arrive.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung"
+        }
+      ]
+    }
+  },
   "tainan-thsr-day-trip-h31-anping": {
     "heroImage": "assets/images/blog/tainan-thsr-day-trip-h31-anping-1.jpg",
     "ko": {
