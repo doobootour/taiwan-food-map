@@ -1715,8 +1715,9 @@ body.tfm-admin-editing [data-i18n], body.tfm-admin-editing [data-i18n-html] {
 .taroko-promo:hover .tp-photo, .taroko-promo.open .tp-photo { display: block; }
 .taroko-promo-wrap.narrow .taroko-promo { transform: translate(30px, -50%); max-width: 120px; padding: 8px 10px; font-size: 14px; border-width: 2px; }
 .taroko-promo-wrap.narrow .taroko-promo::after { left: -20px; border-right-width: 10px; }
-.taroko-promo-wrap.narrow .tp-photo { display: none !important; }
 @media (hover: none) { .taroko-promo .tp-photo { display: none !important; } }
+/* 모바일: 말풍선 바로 위에 작은 사진 상시 노출 (탭하면 링크로 이동) */
+.taroko-promo-wrap.narrow .tp-photo { display: block !important; position: absolute; left: 0; top: auto; bottom: calc(100% + 6px); width: 120px; height: 68px; object-fit: cover; border-radius: 10px; border: 2px solid #fff; box-shadow: 0 4px 12px rgba(0,0,0,.3); }
 @media (max-width: 640px) {
   .map-fab-col { flex-direction: row; align-items: flex-end; }
 }
