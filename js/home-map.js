@@ -66,12 +66,6 @@
     const a = el && el.querySelector(".taroko-promo");
     if (a) {
       L.DomEvent.disableClickPropagation(a);
-      a.addEventListener("click", (e) => {
-        // 터치 기기: 첫 탭은 사진 미리보기, 두 번째 탭에 이동
-        if (window.matchMedia("(hover: none)").matches && !a.classList.contains("open")) {
-          e.preventDefault(); a.classList.add("open");
-        }
-      });
     }
     // 첫 로드 때 fitBounds가 일으키는 줌은 무시하고, 그 뒤 사용자의 줌에서만 숨김
     let armed = false;
