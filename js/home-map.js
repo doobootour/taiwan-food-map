@@ -32,6 +32,39 @@
     maxZoom: 19,
   }).addTo(map);
 
+  // 홈(KO) 기본 화면 전용 광고 말풍선: 화롄 동쪽 바다 → 타이루거 투어(/taroko). 줌을 바꾸면 사라짐.
+  let armTarokoPromo = () => {};
+  (function addTarokoPromo() {
+    const p = (location.pathname || "/").replace(/\/+$/, "") || "/";
+    if (!(p === "/" || p === "/index.html" || p === "/index") || embeddedRegion || embeddedCategory) return;
+    if (typeof getLang === "function" && getLang() !== "ko") return;
+    map.createPane("promoPane").style.zIndex = 590; // 마커/클러스터(600) 아래
+    const html = '<a class="taroko-promo" href="/taroko" target="_blank" rel="noopener">' +
+      '<span class="tp-text">당일치기 부모님과 다녀올만한 타이루거 협곡</span>' +
+      '<img class="tp-photo" src="assets/images/promo/taroko-sea.webp" alt="타이루거 근처 푸른 바다" loading="lazy" width="800" height="450" /></a>';
+    const isNarrow = mapEl.clientWidth < 640;
+    const promo = L.marker(isNarrow ? [26.7, 122.0] : [24.45, 122.05], {
+      pane: "promoPane", keyboard: false,
+      icon: L.divIcon({ html, className: "taroko-promo-wrap" + (isNarrow ? " narrow" : ""), iconSize: null, iconAnchor: [0, 0] }),
+    }).addTo(map);
+    const el = promo.getElement();
+    const a = el && el.querySelector(".taroko-promo");
+    if (a) {
+      L.DomEvent.disableClickPropagation(a);
+      a.addEventListener("click", (e) => {
+        // 터치 기기: 첫 탭은 사진 미리보기, 두 번째 탭에 이동
+        if (window.matchMedia("(hover: none)").matches && !a.classList.contains("open")) {
+          e.preventDefault(); a.classList.add("open");
+        }
+      });
+    }
+    // 첫 로드 때 fitBounds가 일으키는 줌은 무시하고, 그 뒤 사용자의 줌에서만 숨김
+    let armed = false;
+    armTarokoPromo = () => setTimeout(() => { armed = true; }, 1200);
+    map.on("zoomstart", function hide() { if (!armed) return; map.removeLayer(promo); map.off("zoomstart", hide); });
+    setTimeout(() => { armed = true; }, 8000); // 데이터 로드 실패 대비
+  })();
+
   function catById(id) { return CATEGORIES.find(c => c.id === id); }
 
   const NEW_SPOT_WINDOW_MS = 1000 * 60 * 60 * 72; // 최근 등록 뱃지 노출 기간(72시간)
@@ -152,9 +185,10 @@
     const loadingPill = document.getElementById("homeMapLoading");
     const { data, error } = await sb.from("eats").select("*").order("created_at", { ascending: false });
     if (loadingPill) loadingPill.style.display = "none";
-    if (error) { console.error(error); return; }
+    if (error) { console.error(error); armTarokoPromo(); return; }
     spots = data || [];
     renderMarkers();
+    armTarokoPromo();
     // region.html에서 특정 지역으로 들어온 경우엔 그 지역 줌을 유지하고,
     // category-*.html처럼 카테고리 하나로 들어온 경우엔 그 카테고리 핀들만 기준으로 범위를 맞추며,
     // 홈 화면의 전체 지도일 때만 등록된 핀 전체가 보이도록 범위를 맞춘다

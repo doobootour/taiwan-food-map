@@ -1705,3 +1705,14 @@ body.tfm-admin-editing [data-i18n], body.tfm-admin-editing [data-i18n-html] {
 @media (max-width: 620px) {
   .tfm-admin-panel { right: 10px; width: 190px; padding: 14px 12px; }
 }
+
+/* 홈 지도 타이루거 광고 말풍선 */
+.taroko-promo-wrap { background: none; border: 0; }
+.taroko-promo { position: absolute; left: 0; top: 0; transform: translate(-10%, -100%); display: block; width: max-content; max-width: 230px; padding: 12px 16px; background: #fff; color: #1f3b57; border: 3px solid #1ea7c5; border-radius: 16px; box-shadow: 0 6px 18px rgba(0,0,0,.25); font-size: 16px; font-weight: 800; line-height: 1.35; text-decoration: none; white-space: normal; cursor: pointer; }
+.taroko-promo::after { content: ""; position: absolute; left: 6px; bottom: -18px; border: 10px solid transparent; border-top: 14px solid #1ea7c5; border-right-color: #1ea7c5; transform: rotate(20deg); }
+.taroko-promo:hover { background: #effbfe; }
+.tp-photo { display: none; position: absolute; left: 0; top: calc(100% + 10px); width: 280px; height: auto; border-radius: 12px; border: 3px solid #fff; box-shadow: 0 6px 18px rgba(0,0,0,.3); }
+.taroko-promo:hover .tp-photo, .taroko-promo.open .tp-photo { display: block; }
+.taroko-promo-wrap.narrow .taroko-promo { transform: translate(-45%, 6px); max-width: 170px; padding: 9px 11px; font-size: 14px; border-width: 2px; }
+.taroko-promo-wrap.narrow .taroko-promo::after { left: 30%; bottom: -20px; border: 9px solid transparent; border-top: 12px solid #1ea7c5; transform: none; }
+.taroko-promo-wrap.narrow .tp-photo { width: 200px; left: -10px; }

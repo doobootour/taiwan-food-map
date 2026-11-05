@@ -16,6 +16,11 @@ export default {
       return Response.redirect(url.toString(), 301);
     }
 
+    // 짧은 광고 링크
+    if (url.pathname === "/taroko" || url.pathname === "/taroko/") {
+      return Response.redirect("https://smartstore.naver.com/oktaiwan88/products/7908361968", 302);
+    }
+
     // Spots whose URL changed after a category/name fix (old slug -> new slug).
     const MOVED_SPOTS = {
       "/taipei-taiwanese-buckhon-tofu-guilin-prosperity-plaza-bra-85": "/taipei-korean-85",
