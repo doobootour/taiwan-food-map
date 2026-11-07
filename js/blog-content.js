@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kenting-national-museum-marine-biology-aquarium-ticket-eats",
+    "image": "assets/images/attractions/kenting/nmmba.webp",
+    "regions": [
+      "kenting"
+    ],
+    "ko": {
+      "eyebrow": "컨딩 여행 가이드 · 볼거리·먹거리",
+      "title": "국립해양생물박물관 입장권과 근처 맛집, 관람 후 어디서 먹을까?",
+      "desc": "핑둥 국립해양생물박물관은 어떤 곳인지, 세 전시관과 꼭 볼 것, 가는 법, 관람 후 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "meta": "컨딩 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Kenting Travel Guide · Sights & Food",
+      "title": "National Museum of Marine Biology & Aquarium Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "desc": "What Pingtung's National Museum of Marine Biology & Aquarium is, its three halls and highlights, how to get there, and nearby restaurants from our map for after your visit.",
+      "meta": "Kenting · Sights & Food"
+    }
+  },
+  {
     "slug": "taoyuan-airport-bus-to-taichung-ticket-counter",
     "image": "assets/images/blog/taoyuan-airport-bus-to-taichung-ticket-counter-1.jpg",
     "regions": [
@@ -1852,6 +1871,251 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kenting-national-museum-marine-biology-aquarium-ticket-eats": {
+    "heroImage": "assets/images/attractions/kenting/nmmba.webp",
+    "ko": {
+      "pageTitle": "국립해양생물박물관 입장권·근처 맛집 — 컨딩 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "핑둥 국립해양생물박물관은 어떤 곳인지, 세 전시관과 꼭 볼 것, 가는 법, 관람 후 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "국립해양생물박물관 입장권과 근처 맛집, 관람 후 어디서 먹을까?",
+      "eyebrow": "컨딩 여행 가이드 · 볼거리·먹거리",
+      "title": "국립해양생물박물관 입장권과 근처 맛집, 관람 후 어디서 먹을까?",
+      "dek": "벨루가와 펭귄을 보러 가기 전에, 세 전시관과 가는 법, 지도에 등록된 근처 맛집을 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "컨딩 · 볼거리·먹거리",
+      "intro": "국립해양생물박물관(國立海洋生物博物館)은 핑둥(屏東) 처청향(車城鄉)에 있는 대형 수족관이에요. 컨딩 가는 길에 들르는 사람이 많아요. 交通部觀光署 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 국립해양생물박물관은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "屏東 車城鄉 後灣路 2호에 있는 대형 수족관으로, 臺灣水域館, 珊瑚王國館, 世界水域館 세 관으로 나뉘어 있어요. 미쉐린 그린 가이드에서 별 3개를 받았어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/kenting/nmmba.webp",
+          "caption": "해양생물박물관 앞 분수 광장과 고래 조각이에요(사진: Bernard Gagnon / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "흰고래(벨루가)",
+              "desc": "가장 인기 있는 동물이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "펭귄",
+              "desc": "벨루가와 함께 인기가 많아요."
+            },
+            {
+              "mark": "✓",
+              "b": "대왕고래 뼈",
+              "desc": "대왕고래 골격 전시도 볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "비 오는 날에도",
+              "desc": "실내 관람이라 비 오는 날이나 한여름 낮에 가기 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "고속철 쭤잉역에서",
+              "desc": "高鐵 左營역에서 컨딩 방면 버스를 타고 가요."
+            },
+            {
+              "mark": "2",
+              "b": "차로",
+              "desc": "렌터카나 택시로 가도 돼요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F4738-national-museum-marine-biology-aquarium-ticket-kenting%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 국립해양생물박물관 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 관람 후 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "박물관 바로 근처에는 지도에 등록된 식당이 없어요. 가장 가까운 곳이 약 6.6km, 나머지는 12~15km 떨어져 있어 차로 이동하는 편이 편해요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/kaohsiung-bakery-yu-jhen-siang-handmade-egg-rolls-806\">Yu Jhen Siang Handmade Egg Rolls</a> · 베이커리 · 남동쪽 약 6.6km",
+              "desc": "지도 메모: 오리지널 에그롤이 바삭하게 사르르 녹고 홍콩보다 낫다며 재방문 의사를 밝혔다."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/kaohsiung-seafood-1015\">亞發師海景餐廳</a> · 해산물 · 남쪽 약 12.1km",
+              "desc": "지도 메모: 컨딩 바닷가 어시장 2층의 해산물 식당으로, 큰 접시 모둠회가 NT$200으로 싸고 싱싱하며 영어 메뉴판이 있고 카드 결제도 된다."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/kaohsiung-bbq-alex-reggae-bar-708\">Alex Reggae Bar</a> · BBQ · 남동쪽 약 15.0km",
+              "desc": "지도 메모: 컨딩 맛집으로 강력 추천 숯 바비 바; 만 향이 거의 없 맛있으며 쏨땀도 맛있다는 후."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 交通部觀光署의 國立海洋生物博物館 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 운영 시간과 요금은 공식 사이트에서 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Bernard Gagnon, Wikimedia Commons, CC BY-SA 3.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 컨딩 맛집도 확인해보세요",
+          "desc": "박물관 일정 앞뒤로 들를 컨딩 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kenting"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "National Museum of Marine Biology & Aquarium Tickets & Nearby Eats — Kenting · My Secret Taiwan Eats",
+      "metaDescription": "What Pingtung's National Museum of Marine Biology & Aquarium is, its three halls and highlights, how to get there, and nearby restaurants from our map for after your visit.",
+      "ogTitle": "National Museum of Marine Biology & Aquarium Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "eyebrow": "Kenting Travel Guide · Sights & Food",
+      "title": "National Museum of Marine Biology & Aquarium Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "dek": "Before going to see the belugas and penguins, check the three halls, how to get there and nearby restaurants on our map.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kenting · Sights & Food",
+      "intro": "The National Museum of Marine Biology & Aquarium (國立海洋生物博物館) is a large aquarium in Checheng Township (車城鄉), Pingtung (屏東). Many people stop by on the way to Kenting. Based on 交通部觀光署 information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is the National Museum of Marine Biology & Aquarium?"
+        },
+        {
+          "type": "p",
+          "html": "A large aquarium at No. 2, 後灣路, 車城鄉, 屏東, divided into three halls: 臺灣水域館, 珊瑚王國館 and 世界水域館. It received three stars in the Michelin Green Guide."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/kenting/nmmba.webp",
+          "caption": "The fountain plaza and whale sculpture in front of the museum (photo: Bernard Gagnon / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What Not to Miss"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Beluga whales",
+              "desc": "The most popular animals here."
+            },
+            {
+              "mark": "✓",
+              "b": "Penguins",
+              "desc": "As popular as the belugas."
+            },
+            {
+              "mark": "✓",
+              "b": "Blue whale skeleton",
+              "desc": "You can also see a blue whale skeleton display."
+            },
+            {
+              "mark": "✓",
+              "b": "Good on rainy days",
+              "desc": "It's indoors, so it's good for rainy days or midsummer afternoons."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "From THSR Zuoying Station",
+              "desc": "Take a Kenting-bound bus from 高鐵 左營 Station."
+            },
+            {
+              "mark": "2",
+              "b": "By car",
+              "desc": "You can also go by rental car or taxi."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F4738-national-museum-marine-biology-aquarium-ticket-kenting%2F\" target=\"_blank\" rel=\"sponsored noopener\">See National Museum of Marine Biology & Aquarium tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Nearby Restaurants for After Your Visit"
+        },
+        {
+          "type": "p",
+          "html": "There are no restaurants on our map right by the museum. The closest is about 6.6 km away and the rest are 12–15 km away, so driving is easier. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/kaohsiung-bakery-yu-jhen-siang-handmade-egg-rolls-806\">Yu Jhen Siang Handmade Egg Rolls</a> · Bakery · about 6.6 km southeast",
+              "desc": "Map note: The original egg rolls are crisp and melt in your mouth, better than in Hong Kong. Would go back."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/kaohsiung-seafood-1015\">亞發師海景餐廳</a> · Seafood · about 12.1 km south",
+              "desc": "Map note: A seafood restaurant on the 2nd floor of a seaside fish market in Kenting. A large sashimi platter is a cheap and fresh NT$200; English menu available and cards accepted."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/kaohsiung-bbq-alex-reggae-bar-708\">Alex Reggae Bar</a> · BBQ · about 15.0 km southeast",
+              "desc": "Map note: Strongly recommended in Kenting for charcoal barbecue; tasty, and the som tam is good too."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on 交通部觀光署's 國立海洋生物博物館 information, as of October 2026. Check hours and prices on the official site. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Bernard Gagnon, Wikimedia Commons, CC BY-SA 3.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kenting eats on the map",
+          "desc": "Save Kenting restaurants to visit before or after the museum.",
+          "btn": "Open Map →",
+          "href": "/map?region=kenting"
+        }
+      ]
+    }
+  },
   "taoyuan-airport-bus-to-taichung-ticket-counter": {
     "heroImage": "assets/images/blog/taoyuan-airport-bus-to-taichung-ticket-counter-1.jpg",
     "ko": {
