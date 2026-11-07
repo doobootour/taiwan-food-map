@@ -3,34 +3,177 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
 const vm = require("node:vm");
+
 const root = path.resolve(__dirname, "../..");
+const {
+  googleMapsUrl,
+  googleMapsLinkLabel,
+  hasExactPlaceLink,
+  isAllowedGoogleMapsHttpsUrl,
+  isCoordinateOnlyMapsUrl,
+  coordinateFallbackUrl,
+  legacyNameSearchUrl,
+} = require("../lib/google-maps-url");
+
 const placeLink = "https://maps.app.goo.gl/jcs5zwRhVnUft7hb6";
+const coordLink = "https://www.google.com/maps/search/?api=1&query=25.0559319,121.5100371";
+const snapshot = JSON.parse(
+  fs.readFileSync(path.join(root, "scripts/data/eats-map-link-snapshot.json"), "utf8"),
+);
+
+test("shared helper preserves a collected place shortlink", () => {
+  assert.equal(
+    googleMapsUrl({ name: "삼월초육 사택커피", link: placeLink, lat: 25.22, lng: 121.63 }, { html: false }),
+    placeLink,
+  );
+  assert.equal(hasExactPlaceLink({ link: placeLink }), true);
+});
+
+test("shared helper preserves coordinate-only originals and labels them as location", () => {
+  assert.equal(isCoordinateOnlyMapsUrl(coordLink), true);
+  assert.equal(hasExactPlaceLink({ link: coordLink }), false);
+  assert.equal(googleMapsUrl({ link: coordLink, lat: 25, lng: 121 }, { html: false }), coordLink);
+  assert.equal(googleMapsLinkLabel({ link: coordLink }, "ko"), "위치 보기");
+  assert.equal(googleMapsLinkLabel({ link: placeLink }, "ko"), "구글맵에서 보기");
+});
+
+test("shared helper falls back to coordinates instead of a Korean name search", () => {
+  const spot = { name: "복기중권면선", lat: 25.04, lng: 121.5 };
+  const url = googleMapsUrl(spot, { html: false });
+  assert.equal(url, coordinateFallbackUrl(25.04, 121.5));
+  assert.doesNotMatch(url, /복기|%EB%B3%B5/);
+  assert.notEqual(url, legacyNameSearchUrl(spot));
+});
+
+test("shared helper rejects unsafe URLs", () => {
+  const spot = { name: "Cafe", lat: 25, lng: 121 };
+  const fallback = googleMapsUrl(spot, { html: false });
+  assert.equal(googleMapsUrl({ ...spot, link: "javascript:alert(1)" }, { html: false }), fallback);
+  assert.equal(googleMapsUrl({ ...spot, link: "https://maps.app.goo.gl.evil.example/a" }, { html: false }), fallback);
+  assert.equal(googleMapsUrl({ ...spot, link: "http://www.google.com/maps?q=1,2" }, { html: false }), fallback);
+  assert.equal(isAllowedGoogleMapsHttpsUrl("https://evil.example/maps"), false);
+});
+
+test("shared helper escapes saved links for HTML attributes", () => {
+  assert.equal(
+    googleMapsUrl({ link: "https://www.google.com/maps?x=1&y=2" }, { html: true }),
+    "https://www.google.com/maps?x=1&amp;y=2",
+  );
+});
+
+test("host/path whitelist accepts only canonical Google Maps HTTPS URLs", () => {
+  assert.equal(isAllowedGoogleMapsHttpsUrl("https://maps.app.goo.gl/abc"), true);
+  assert.equal(isAllowedGoogleMapsHttpsUrl("https://goo.gl/maps/abc"), true);
+  assert.equal(isAllowedGoogleMapsHttpsUrl("https://www.google.com/maps/place/Test"), true);
+  assert.equal(isAllowedGoogleMapsHttpsUrl("https://maps.google.com/maps?q=1,2"), true);
+  assert.equal(isAllowedGoogleMapsHttpsUrl("https://www.google.com/search?q=maps"), false);
+});
+
 for (const file of ["generate-spot-pages.js", "generate-region-pages.js", "generate-category-pages.js"]) {
-  const source = fs.readFileSync(path.join(root, "scripts", file), "utf8");
-  const body = source.match(/function googleMapsUrl\(spot, fallbackLabel\) \{[\s\S]*?\n\}/)[0];
-  const maps = vm.runInNewContext(`(${body})`, { URL });
-  test(`${file}: preserves a collected place link instead of a Korean search`, () => {
-    assert.equal(maps({name:"삼월초육 사택커피",link:placeLink,lat:25.221883,lng:121.6361852}), placeLink);
-  });
-  test(`${file}: rejects unsafe URLs and retains the legacy fallback`, () => {
-    const spot={name:"Cafe",lat:25,lng:121};
-    const fallback=maps(spot);
-    assert.equal(maps({...spot,link:"javascript:alert(1)"}),fallback);
-    assert.equal(maps({...spot,link:"https://maps.app.goo.gl.evil.example/a"}),fallback);
-  });
-  test(`${file}: escapes saved links in HTML attributes`, () => {
-    assert.equal(maps({link:"https://www.google.com/maps?x=1&y=2"}),"https://www.google.com/maps?x=1&amp;y=2");
+  test(`${file} requires the shared maps helper`, () => {
+    const source = fs.readFileSync(path.join(root, "scripts", file), "utf8");
+    assert.match(source, /require\("\.\/lib\/google-maps-url"\)/);
+    assert.doesNotMatch(source, /function googleMapsUrl\(/);
+    assert.doesNotMatch(source, /encodeURIComponent\(spot\.name/);
   });
 }
-test("detail generator fetches the saved link", () => {
-  const source=fs.readFileSync(path.join(root,"scripts/generate-spot-pages.js"),"utf8");
-  assert.match(source,/select=[^`]*nickname,link&order/);
+
+test("detail generator fetches link and paginates past the 1000-row cap", () => {
+  const source = fs.readFileSync(path.join(root, "scripts/generate-spot-pages.js"), "utf8");
+  assert.match(source, /nickname,link/);
+  assert.match(source, /Range: `\$\{from\}-\$\{to\}`/);
+  assert.match(source, /pageSize = 1000/);
+  assert.match(source, /select=\$\{select\}/);
 });
+
+test("snapshot covers all 1001 eats and excludes removed 816", () => {
+  assert.equal(snapshot.length, 1001);
+  assert.equal(snapshot.some((s) => Number(s.id) === 816), false);
+  const s832 = snapshot.find((s) => Number(s.id) === 832);
+  assert.equal(s832.link, placeLink);
+});
+
 test("removed venue has no detail page or sitemap entry", () => {
-  assert.equal(fs.existsSync(path.join(root,"taipei-noodle-816.html")),false);
-  assert.doesNotMatch(fs.readFileSync(path.join(root,"sitemap.xml"),"utf8"),/taipei-noodle-816/);
+  assert.equal(fs.existsSync(path.join(root, "taipei-noodle-816.html")), false);
+  assert.doesNotMatch(fs.readFileSync(path.join(root, "sitemap.xml"), "utf8"), /taipei-noodle-816/);
 });
-test("the coffee venue button points to its exact place link", () => {
-  const html=fs.readFileSync(path.join(root,"taipei-brunch-832.html"),"utf8");
+
+test("coffee venue detail button keeps its exact place link", () => {
+  const html = fs.readFileSync(path.join(root, "taipei-brunch-832.html"), "utf8");
   assert.ok(html.includes(`class="btn primary" href="${placeLink}"`));
+  assert.ok(html.includes(">구글맵에서 보기</a>"));
+});
+
+test("static HTML no longer uses Hangul name-search map buttons for eats", () => {
+  const hangulRe = /https:\/\/www\.google\.com\/maps\/search\/[^"\s]*[\uac00-\ud7a3%][^"\s]*\/@/;
+  // Percent-encoded Hangul starts with %EC / %ED etc. Detect encoded Hangul syllables in search/@ URLs.
+  const encodedHangulSearch = /https:\/\/www\.google\.com\/maps\/search\/[^"\s]*%(?:EA|EB|EC|ED)[^"\s]*\/@-?\d/;
+  const offenders = [];
+  function walk(dir) {
+    for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (ent.name === ".git" || ent.name === "node_modules" || ent.name === "scripts") continue;
+      if (ent.name.includes("attraction")) continue; // attractions are out of scope
+      const full = path.join(dir, ent.name);
+      if (ent.isDirectory()) walk(full);
+      else if (ent.name.endsWith(".html")) {
+        const html = fs.readFileSync(full, "utf8");
+        if (encodedHangulSearch.test(html)) offenders.push(ent.name);
+      }
+    }
+  }
+  walk(root);
+  assert.deepEqual(offenders, []);
+});
+
+test("Xiang Duck detail uses the original saved shortlink, not a Korean search", () => {
+  const html = fs.readFileSync(
+    path.join(root, "taipei-goose-xiang-duck-taipei-jinshan-south-branch-56.html"),
+    "utf8",
+  );
+  assert.match(html, /class="btn primary" href="https:\/\/maps\.app\.goo\.gl\/4qHVuWuh4n4bZbNG8"/);
+  assert.doesNotMatch(html, /maps\/search\/%EC%83%B9%EB%8D%95/);
+});
+
+test("coordinate-only cafe detail uses location label and coordinate URL", () => {
+  const html = fs.readFileSync(path.join(root, "taipei-cafe-47.html"), "utf8");
+  assert.match(
+    html,
+    /class="btn primary" href="https:\/\/www\.google\.com\/maps\/search\/\?api=1&amp;query=25\.0559319,121\.5100371"[^>]*>위치 보기</,
+  );
+});
+
+test("browser app.js helper matches shared fallback behavior", () => {
+  const source = fs.readFileSync(path.join(root, "js/app.js"), "utf8");
+  assert.match(source, /function googleMapsUrl\(spot, fallbackLabel\)/);
+  assert.match(source, /coordinateFallbackUrl/);
+  assert.doesNotMatch(source, /encodeURIComponent\(spot\.name \|\| fallbackLabel/);
+  const start = source.indexOf("function isAllowedGoogleMapsHttpsUrl");
+  const end = source.indexOf("async function loadRecentContributors");
+  assert.ok(start > 0 && end > start);
+  const body = source.slice(start, end);
+  const sandbox = { URL, console };
+  vm.createContext(sandbox);
+  vm.runInContext(body, sandbox);
+  const url = sandbox.googleMapsUrl({ name: "한글가게", lat: 25.1, lng: 121.5 }, "");
+  assert.equal(url, "https://www.google.com/maps/search/?api=1&amp;query=25.1,121.5");
+  assert.equal(
+    sandbox.googleMapsUrl({ link: placeLink, lat: 1, lng: 2 }, ""),
+    placeLink,
+  );
+});
+
+test("region.js and category.js defer to the shared app helper", () => {
+  for (const file of ["js/region.js", "js/category.js"]) {
+    const source = fs.readFileSync(path.join(root, file), "utf8");
+    assert.doesNotMatch(source, /function googleMapsUrl\(/);
+    assert.match(source, /googleMapsLinkLabel/);
+  }
+});
+
+test("snapshot place-candidate rows resolve to their original saved links", () => {
+  const places = snapshot.filter((s) => hasExactPlaceLink(s));
+  assert.ok(places.length >= 365);
+  for (const spot of places) {
+    assert.equal(googleMapsUrl(spot, { html: false }), spot.link.trim());
+  }
 });

@@ -73,11 +73,68 @@ function escapeHtml(s) {
   return div.innerHTML;
 }
 
-// 좌표만으로 검색하면 구글맵이 업체 정보 없이 좌표 핀만 띄우는 경우가 많아서,
-// 가게 이름 + 좌표 뷰포트(@lat,lng,zoom)로 검색해 실제 정보 페이지로 연결되게 한다
+// Prefer the original saved Google Maps place/short link. Name searches can miss the venue.
+// When no allowed saved link exists, use coordinate navigation only (not a name query).
+function isAllowedGoogleMapsHttpsUrl(link) {
+  if (typeof link !== "string") return false;
+  const trimmed = link.trim();
+  if (!trimmed) return false;
+  try {
+    const url = new URL(trimmed);
+    if (url.protocol !== "https:") return false;
+    if (url.hostname === "maps.app.goo.gl") return true;
+    if (url.hostname === "goo.gl" && url.pathname.startsWith("/maps")) return true;
+    if (["www.google.com", "google.com", "maps.google.com"].includes(url.hostname) && url.pathname.startsWith("/maps")) return true;
+    return false;
+  } catch (_) {
+    return false;
+  }
+}
+function isCoordinateOnlyMapsUrl(link) {
+  if (!isAllowedGoogleMapsHttpsUrl(link)) return false;
+  try {
+    const url = new URL(link.trim());
+    if (url.hostname === "maps.app.goo.gl" || url.hostname === "goo.gl") return false;
+    if (url.pathname.includes("/place")) return false;
+    const q = (url.searchParams.get("query") || url.searchParams.get("q") || "").trim();
+    if (/^-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?$/.test(q)) return true;
+    if (url.pathname.startsWith("/maps/search/")) {
+      const pathQuery = decodeURIComponent(url.pathname.slice("/maps/search/".length));
+      if (/^-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?$/.test(pathQuery.split("@")[0].trim())) return true;
+    }
+    return false;
+  } catch (_) {
+    return false;
+  }
+}
+function hasExactPlaceLink(spot) {
+  const link = typeof spot?.link === "string" ? spot.link.trim() : "";
+  return isAllowedGoogleMapsHttpsUrl(link) && !isCoordinateOnlyMapsUrl(link);
+}
+function coordinateFallbackUrl(lat, lng) {
+  const la = Number(lat);
+  const ln = Number(lng);
+  if (!Number.isFinite(la) || !Number.isFinite(ln)) return "";
+  return `https://www.google.com/maps/search/?api=1&query=${la},${ln}`;
+}
+function escapeMapsHref(url) {
+  return String(url)
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
 function googleMapsUrl(spot, fallbackLabel) {
-  const query = encodeURIComponent(spot.name || fallbackLabel || "");
-  return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
+  const link = typeof spot?.link === "string" ? spot.link.trim() : "";
+  let url = "";
+  if (isAllowedGoogleMapsHttpsUrl(link)) url = link;
+  else url = coordinateFallbackUrl(spot?.lat, spot?.lng);
+  return url ? escapeMapsHref(url) : "";
+}
+function googleMapsLinkLabel(spot, lang) {
+  const useEn = lang === "en" || (!lang && typeof getLang === "function" && getLang() === "en");
+  if (hasExactPlaceLink(spot)) return useEn ? "View on Google Maps" : "구글맵에서 보기";
+  return useEn ? "View location" : "위치 보기";
 }
 async function loadRecentContributors() {
   const banner = document.getElementById("recentBanner");

@@ -22,6 +22,7 @@ function loadGlobals(files) {
 
 const { REGIONS, CATEGORIES, CATEGORY_CONTENT } = loadGlobals(["js/data.js", "js/category-content.js"]);
 const { slugForSpot } = require("./lib/spot-slug");
+const { googleMapsUrl, googleMapsLinkLabel } = require("./lib/google-maps-url");
 const {
   SITE_NAME_EN,
   ensureHreflang,
@@ -68,32 +69,17 @@ function stableSpots(spots) {
   });
 }
 
-// Preserve the collected place link; Korean-name searches may not find the venue.
-function googleMapsUrl(spot, fallbackLabel) {
-  const link = typeof spot.link === "string" ? spot.link.trim() : "";
-  try {
-    const url = new URL(link);
-    if (url.protocol === "https:" && (
-      url.hostname === "maps.app.goo.gl" ||
-      (url.hostname === "goo.gl" && url.pathname.startsWith("/maps")) ||
-      (["www.google.com", "google.com", "maps.google.com"].includes(url.hostname) && url.pathname.startsWith("/maps"))
-    )) return link.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  } catch (_) { /* Missing or invalid saved link: keep the search fallback. */ }
-  const query = encodeURIComponent(spot.name || fallbackLabel || "");
-  return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
-}
 
 function spotCardsHtml(spots, category, lang = "ko") {
   const fallback = lang === "en" ? category.en : category.ko;
   const detail = lang === "en" ? "View Details →" : "상세 보기 →";
-  const google = lang === "en" ? "View on Google Maps" : "구글맵에서 보기";
   const map = lang === "en" ? "View on Map →" : "지도에서 보기 →";
   return spots.map(spot => `
             <div class="region-spot-card">
               <span class="name">${escapeHtml(spot.name || fallback)}</span>
               <span class="region-spot-links">
                 <a class="view-link" href="/${slugForSpot(spot)}">${detail}</a>
-                <a class="view-link google-link" href="${googleMapsUrl(spot, fallback)}" target="_blank" rel="noopener">${google}</a>
+                <a class="view-link google-link" href="${googleMapsUrl(spot)}" target="_blank" rel="noopener">${googleMapsLinkLabel(spot, lang)}</a>
                 <a class="view-link" href="/map?lat=${spot.lat}&lng=${spot.lng}">${map}</a>
               </span>
             </div>`).join("");

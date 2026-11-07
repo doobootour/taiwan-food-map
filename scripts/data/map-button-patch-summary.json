@@ -1,0 +1,10 @@
+{
+  "snapshotRows": 1001,
+  "placeExactCandidates": 368,
+  "coordinateFallbackCandidates": 633,
+  "note": "Static HTML already patched in this commit; re-run scripts/patch-static-map-buttons.js to reapply.",
+  "uniquePlacesWithExactSavedLink": 368,
+  "uniquePlacesCoordinateFallback": 633,
+  "removedVenue816Absent": true,
+  "coffee832Link": "https://maps.app.goo.gl/jcs5zwRhVnUft7hb6"
+}
