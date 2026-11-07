@@ -68,9 +68,17 @@ function stableSpots(spots) {
   });
 }
 
-// 좌표만으로 검색하면 구글맵이 업체 정보 없이 좌표 핀만 띄우는 경우가 많아서,
-// 가게 이름 + 좌표 뷰포트(@lat,lng,zoom)로 검색해 실제 정보 페이지로 연결되게 한다
+// Preserve the collected place link; Korean-name searches may not find the venue.
 function googleMapsUrl(spot, fallbackLabel) {
+  const link = typeof spot.link === "string" ? spot.link.trim() : "";
+  try {
+    const url = new URL(link);
+    if (url.protocol === "https:" && (
+      url.hostname === "maps.app.goo.gl" ||
+      (url.hostname === "goo.gl" && url.pathname.startsWith("/maps")) ||
+      (["www.google.com", "google.com", "maps.google.com"].includes(url.hostname) && url.pathname.startsWith("/maps"))
+    )) return link.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  } catch (_) { /* Missing or invalid saved link: keep the search fallback. */ }
   const query = encodeURIComponent(spot.name || fallbackLabel || "");
   return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
 }
