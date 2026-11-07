@@ -172,7 +172,7 @@ test("region.js and category.js defer to the shared app helper", () => {
 
 test("snapshot place-candidate rows resolve to their original saved links", () => {
   const places = snapshot.filter((s) => hasExactPlaceLink(s));
-  assert.equal(places.length, 390);
+  assert.equal(places.length, 883);
   for (const spot of places) {
     assert.equal(googleMapsUrl(spot, { html: false }), spot.link.trim());
   }
@@ -202,11 +202,11 @@ test("query_place_id search URLs count as exact place links", () => {
   assert.equal(googleMapsUrl(spot, { html: false }), spot.link);
 });
 
-test("snapshot exact/location counts are 390 / 611 after integrating 26", () => {
+test("snapshot exact/location counts are 883 / 118 after integrating 26+493", () => {
   let exact = 0;
   for (const s of snapshot) if (hasExactPlaceLink(s)) exact += 1;
-  assert.equal(exact, 390);
-  assert.equal(snapshot.length - exact, 611);
+  assert.equal(exact, 883);
+  assert.equal(snapshot.length - exact, 118);
 });
 
 test("resolved venue 47 detail uses query_place_id link, not coordinates", () => {
@@ -230,4 +230,23 @@ test("910 coordinate maps?q label is location, not exact business", () => {
   const spot = snapshot.find((s) => Number(s.id) === 910);
   assert.equal(hasExactPlaceLink(spot), false);
   assert.equal(googleMapsLinkLabel(spot, "ko"), "위치 보기");
+});
+
+test("493 verified place link sample and unresolved stay location", () => {
+  const html = fs.readFileSync(path.join(root, "hualien-cafe-20.html"), "utf8");
+  assert.match(html, /query_place_id=ChIJZTAIRZafaDQRK89GuKqiXkQ/);
+  assert.match(html, /class="btn primary" href="[^"]*query_place_id=/);
+  const unresolved = snapshot.filter((s) => !hasExactPlaceLink(s));
+  assert.equal(unresolved.length, 118);
+  for (const s of unresolved.slice(0, 5)) {
+    assert.equal(googleMapsLinkLabel(s, "ko"), "위치 보기");
+  }
+});
+
+test("shared-coordinate venues 608 and 609 keep distinct place ids", () => {
+  const a = fs.readFileSync(path.join(root, "tainan-taiwanese-movenpick-cafe-608.html"), "utf8");
+  const b = fs.readFileSync(path.join(root, "tainan-hotpot-609.html"), "utf8");
+  assert.match(a, /query_place_id=ChIJt0gcmL52bjQRMbQzbdMkpTA/);
+  assert.match(b, /query_place_id=ChIJbwFmQBF3bjQRSofY7x6F6Rk/);
+  assert.doesNotMatch(b, /query_place_id=ChIJt0gcmL52bjQRMbQzbdMkpTA/);
 });

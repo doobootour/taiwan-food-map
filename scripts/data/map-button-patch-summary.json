@@ -1,41 +1,11 @@
 {
   "snapshotRows": 1001,
-  "exactPlaceBusinessButtons": 390,
-  "locationCoordinateButtons": 611,
-  "expectedExact": 390,
-  "expectedLocation": 611,
-  "buckets": {
-    "shortlink": 311,
-    "placePath": 20,
-    "placeIdQuery": 59,
-    "cid": 0,
-    "coordStored": 511,
-    "genericName": 3,
-    "missing": 97
-  },
-  "genericNameSearchDbUnchanged": [
-    {
-      "id": 1017,
-      "name": "王子起司馬鈴薯",
-      "db_link": "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E5%AD%90%E8%B5%B7%E5%8F%B8%E9%A6%AC%E9%88%B4%E8%96%AF%20%E5%A3%AB%E6%9E%97",
-      "button": "https://www.google.com/maps/search/?api=1&query=25.0864483,121.5249692",
-      "label": "위치 보기"
-    },
-    {
-      "id": 1018,
-      "name": "恐龍喝茶 DINOSAURS DRINKING TEA",
-      "db_link": "https://www.google.com/maps/search/?api=1&query=%E6%81%90%E9%BE%8D%E5%96%9D%E8%8C%B6%20%E5%8D%81%E5%88%86",
-      "button": "https://www.google.com/maps/search/?api=1&query=25.04304,121.7770284",
-      "label": "위치 보기"
-    },
-    {
-      "id": 1019,
-      "name": "金車噶瑪蘭酒廠",
-      "db_link": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E8%BB%8A%E5%99%B6%E7%91%AA%E8%98%AD%E9%85%92%E5%BB%A0",
-      "button": "https://www.google.com/maps/search/?api=1&query=24.7139177,121.6885279",
-      "label": "위치 보기"
-    }
-  ],
-  "integrated26": 26,
-  "note": "hasExactPlaceLink requires place identity; generic name-search uses 위치 보기 coordinate fallback without DB mutation"
+  "exactPlaceBusinessButtons": 883,
+  "locationCoordinateButtons": 118,
+  "integrated493": 493,
+  "unresolved118": 118,
+  "filesChanged": 1031,
+  "hrefReps": 5967,
+  "labelFlips": 5967,
+  "note": "493 research-verified place links integrated; 118 remain location fallback; no DB writes in this PR"
 }
