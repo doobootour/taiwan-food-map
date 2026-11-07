@@ -223,3 +223,11 @@ test("null coordinates do not become Null Island when a place link exists", () =
     placeLink,
   );
 });
+
+test("910 coordinate maps?q label is location, not exact business", () => {
+  const html = fs.readFileSync(path.join(root, "hualien-japanese-910.html"), "utf8");
+  assert.match(html, /class="btn primary" href="https:\/\/www\.google\.com\/maps\?q=23\.9787142,121\.6091993"[^>]*>위치 보기</);
+  const spot = snapshot.find((s) => Number(s.id) === 910);
+  assert.equal(hasExactPlaceLink(spot), false);
+  assert.equal(googleMapsLinkLabel(spot, "ko"), "위치 보기");
+});
