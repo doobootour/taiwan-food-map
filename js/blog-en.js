@@ -27,6 +27,7 @@
     "yilan-kavalan-distillery-cafe-course",
     "tainan-sicao-green-tunnel-raft-ticket-anping-eats",
     "newtaipei-yehliu-shifen-jiufen-golden-waterfall-tour-eats",
+    "kenting-national-museum-marine-biology-aquarium-ticket-eats",
   ];
   if (typeof module === "object" && module.exports) module.exports = { EN_BLOG_SLUGS };
   root.EN_BLOG_SLUGS = EN_BLOG_SLUGS;
