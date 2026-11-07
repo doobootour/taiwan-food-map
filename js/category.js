@@ -12,12 +12,7 @@
     return div.innerHTML;
   }
 
-  // 좌표만으로 검색하면 구글맵이 업체 정보 없이 좌표 핀만 띄우는 경우가 많아서,
-  // 가게 이름 + 좌표 뷰포트(@lat,lng,zoom)로 검색해 실제 정보 페이지로 연결되게 한다
-  function googleMapsUrl(spot, fallbackLabel) {
-    const query = encodeURIComponent(spot.name || fallbackLabel || "");
-    return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
-  }
+  // googleMapsUrl / googleMapsLinkLabel: shared from js/app.js
 
   // scripts/lib/spot-slug.js와 동일한 로직 — 개별 스팟 상세 페이지(<region>-<category>-<name>-<id>.html) URL을 만든다.
   // 브라우저에서 직접 쓰기 위해 중복 구현(빌드 도구 없이 정적 HTML로 동작하는 프로젝트라 모듈 공유가 안 됨).
@@ -85,7 +80,7 @@
         <span class="name">${escapeHtml(spot.name || category[lang])}</span>
         <span class="region-spot-links">
           <a class="view-link" href="/${slugForSpot(spot)}">${t("view_detail")}</a>
-          <a class="view-link google-link" href="${googleMapsUrl(spot, category[lang])}" target="_blank" rel="noopener">${t("view_on_google_maps")}</a>
+          <a class="view-link google-link" href="${googleMapsUrl(spot, category[lang])}" target="_blank" rel="noopener">${typeof googleMapsLinkLabel === "function" ? googleMapsLinkLabel(spot, lang) : t("view_on_google_maps")}</a>
           <a class="view-link" href="/map?lat=${spot.lat}&lng=${spot.lng}">${t("view_on_map")}</a>
         </span>
       </div>

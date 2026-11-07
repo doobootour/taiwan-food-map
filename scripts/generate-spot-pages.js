@@ -11,11 +11,12 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { slugForSpot, comboSlug } = require("./lib/spot-slug");
+const { googleMapsUrl, googleMapsLinkLabel } = require("./lib/google-maps-url");
 const { isIndexableSpot } = require("./lib/indexable");
 
 const root = path.join(__dirname, "..");
 const SITE = "https://taiwanbite.com";
-const ASSET_V = "1790588220";
+const ASSET_V = "1794023100";
 const MIN_COMBO_SPOTS = 3;
 
 function loadGlobals(files) {
@@ -49,28 +50,28 @@ function escapeHtml(s) {
 }
 
 async function fetchAllSpots() {
-  const url = `${SUPABASE_URL}/rest/v1/eats?select=id,lat,lng,category,region,review,name,address,nickname,link&order=id.asc`;
-  const res = await fetch(url, {
-    headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` },
-  });
-  if (!res.ok) throw new Error(`Supabase fetch failed: ${res.status}`);
-  return res.json();
+  const pageSize = 1000;
+  const select = "id,lat,lng,category,region,review,name,address,nickname,link";
+  const all = [];
+  for (let from = 0; ; from += pageSize) {
+    const to = from + pageSize - 1;
+    const url = `${SUPABASE_URL}/rest/v1/eats?select=${select}&order=id.asc`;
+    const res = await fetch(url, {
+      headers: {
+        apikey: SUPABASE_ANON_KEY,
+        Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+        Range: `${from}-${to}`,
+        Prefer: "count=exact",
+      },
+    });
+    if (!res.ok) throw new Error(`Supabase fetch failed: ${res.status}`);
+    const chunk = await res.json();
+    all.push(...chunk);
+    if (chunk.length < pageSize) break;
+  }
+  return all;
 }
 
-// Preserve the collected place link; Korean-name searches may not find the venue.
-function googleMapsUrl(spot, fallbackLabel) {
-  const link = typeof spot.link === "string" ? spot.link.trim() : "";
-  try {
-    const url = new URL(link);
-    if (url.protocol === "https:" && (
-      url.hostname === "maps.app.goo.gl" ||
-      (url.hostname === "goo.gl" && url.pathname.startsWith("/maps")) ||
-      (["www.google.com", "google.com", "maps.google.com"].includes(url.hostname) && url.pathname.startsWith("/maps"))
-    )) return link.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  } catch (_) { /* Missing or invalid saved link: keep the search fallback. */ }
-  const query = encodeURIComponent(spot.name || fallbackLabel || "");
-  return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
-}
 
 function pageShell({ title, description, canonicalPath, ogImage, ldJson, activeNav, bodyHtml, robots }) {
   const canonicalUrl = `${SITE}${canonicalPath}`;
@@ -228,7 +229,7 @@ function siblingSpotCardHtml(spot, category) {
               <span class="name">${escapeHtml(spot.name || category.ko)}</span>
               <span class="region-spot-links">
                 <a class="view-link" href="/${slugForSpot(spot)}">상세 보기 →</a>
-                <a class="view-link google-link" href="${googleMapsUrl(spot, category.ko)}" target="_blank" rel="noopener">구글맵에서 보기</a>
+                <a class="view-link google-link" href="${googleMapsUrl(spot)}" target="_blank" rel="noopener">${googleMapsLinkLabel(spot, "ko")}</a>
               </span>
             </div>`;
 }
@@ -243,7 +244,8 @@ function buildSpotPage(spot, region, category, siblings, hasCombo) {
     ? `${reviewSnippet}`.slice(0, 90)
     : `여행자가 직접 등록한 ${region.ko}의 ${category.ko} 맛집, ${name}. 위치와 구글맵 링크를 확인해보세요.`;
   const ogImage = `${SITE}/assets/images/regions/${region.id}-og.jpg`;
-  const mapsUrl = googleMapsUrl(spot, category.ko);
+  const mapsUrl = googleMapsUrl(spot);
+  const mapsLabel = googleMapsLinkLabel(spot, "ko");
 
   const graph = [
     {
@@ -312,7 +314,7 @@ function buildSpotPage(spot, region, category, siblings, hasCombo) {
       </ul>
 
       <div class="hero-actions" style="margin:8px 0 32px;">
-        <a class="btn primary" href="${mapsUrl}" target="_blank" rel="noopener">구글맵에서 보기</a>
+        <a class="btn primary" href="${mapsUrl}" target="_blank" rel="noopener">${mapsLabel}</a>
         <a class="btn outline" href="/map?lat=${spot.lat}&lng=${spot.lng}">지도에서 보기 →</a>
       </div>
 
