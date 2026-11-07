@@ -56,8 +56,8 @@ test("shared helper rejects unsafe URLs", () => {
 
 test("shared helper escapes saved links for HTML attributes", () => {
   assert.equal(
-    googleMapsUrl({ link: "https://www.google.com/maps?x=1&y=2" }, { html: true }),
-    "https://www.google.com/maps?x=1&amp;y=2",
+    googleMapsUrl({ link: "https://www.google.com/maps/place/Test?x=1&y=2" }, { html: true }),
+    "https://www.google.com/maps/place/Test?x=1&amp;y=2",
   );
 });
 
@@ -134,11 +134,11 @@ test("Xiang Duck detail uses the original saved shortlink, not a Korean search",
   assert.doesNotMatch(html, /maps\/search\/%EC%83%B9%EB%8D%95/);
 });
 
-test("coordinate-only cafe detail uses location label and coordinate URL", () => {
-  const html = fs.readFileSync(path.join(root, "taipei-cafe-47.html"), "utf8");
+test("generic name-search detail uses location label and coordinate URL", () => {
+  const html = fs.readFileSync(path.join(root, "taipei-street_food-1017.html"), "utf8");
   assert.match(
     html,
-    /class="btn primary" href="https:\/\/www\.google\.com\/maps\/search\/\?api=1&amp;query=25\.0559319,121\.5100371"[^>]*>위치 보기</,
+    /class="btn primary" href="https:\/\/www\.google\.com\/maps\/search\/\?api=1&amp;query=25\.0864483,121\.5249692"[^>]*>위치 보기</,
   );
 });
 
@@ -172,8 +172,54 @@ test("region.js and category.js defer to the shared app helper", () => {
 
 test("snapshot place-candidate rows resolve to their original saved links", () => {
   const places = snapshot.filter((s) => hasExactPlaceLink(s));
-  assert.ok(places.length >= 365);
+  assert.equal(places.length, 390);
   for (const spot of places) {
     assert.equal(googleMapsUrl(spot, { html: false }), spot.link.trim());
   }
+});
+
+
+test("generic name-search without place identity is not exact and uses coordinates", () => {
+  const spot = {
+    id: 1017,
+    name: "王子起司馬鈴薯",
+    link: "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E5%AD%90%E8%B5%B7%E5%8F%B8%E9%A6%AC%E9%88%B4%E8%96%AF%20%E5%A3%AB%E6%9E%97",
+    lat: 25.0864483,
+    lng: 121.5249692,
+  };
+  assert.equal(hasExactPlaceLink(spot), false);
+  assert.equal(googleMapsUrl(spot, { html: false }), coordinateFallbackUrl(spot.lat, spot.lng));
+  assert.equal(googleMapsLinkLabel(spot, "ko"), "위치 보기");
+});
+
+test("query_place_id search URLs count as exact place links", () => {
+  const spot = {
+    link: "https://www.google.com/maps/search/?api=1&query=Test&query_place_id=ChIJUfD5bBSpQjQR8vMHzuT957k",
+    lat: 25,
+    lng: 121,
+  };
+  assert.equal(hasExactPlaceLink(spot), true);
+  assert.equal(googleMapsUrl(spot, { html: false }), spot.link);
+});
+
+test("snapshot exact/location counts are 390 / 611 after integrating 26", () => {
+  let exact = 0;
+  for (const s of snapshot) if (hasExactPlaceLink(s)) exact += 1;
+  assert.equal(exact, 390);
+  assert.equal(snapshot.length - exact, 611);
+});
+
+test("resolved venue 47 detail uses query_place_id link, not coordinates", () => {
+  const html = fs.readFileSync(path.join(root, "taipei-cafe-47.html"), "utf8");
+  assert.match(html, /query_place_id=ChIJUfD5bBSpQjQR8vMHzuT957k/);
+  assert.match(html, /class="btn primary" href="[^"]*query_place_id=/);
+  assert.doesNotMatch(html, /class="btn primary" href="https:\/\/www\.google\.com\/maps\/search\/\?api=1&amp;query=25\.0559319,121\.5100371"/);
+});
+
+test("null coordinates do not become Null Island when a place link exists", () => {
+  assert.equal(coordinateFallbackUrl(null, null), "");
+  assert.equal(
+    googleMapsUrl({ link: placeLink, lat: null, lng: null }, { html: false }),
+    placeLink,
+  );
 });

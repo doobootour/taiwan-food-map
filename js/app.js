@@ -73,8 +73,9 @@ function escapeHtml(s) {
   return div.innerHTML;
 }
 
-// Prefer the original saved Google Maps place/short link. Name searches can miss the venue.
-// When no allowed saved link exists, use coordinate navigation only (not a name query).
+// Prefer an original saved link that identifies a place (shortlink, /place/,
+// query_place_id, ftid, or cid). Generic name-search without place identity
+// falls back to coordinate navigation only (위치 보기) — never a name query.
 function isAllowedGoogleMapsHttpsUrl(link) {
   if (typeof link !== "string") return false;
   const trimmed = link.trim();
@@ -90,12 +91,25 @@ function isAllowedGoogleMapsHttpsUrl(link) {
     return false;
   }
 }
-function isCoordinateOnlyMapsUrl(link) {
+function hasPlaceIdentity(link) {
   if (!isAllowedGoogleMapsHttpsUrl(link)) return false;
   try {
     const url = new URL(link.trim());
-    if (url.hostname === "maps.app.goo.gl" || url.hostname === "goo.gl") return false;
-    if (url.pathname.includes("/place")) return false;
+    if (url.hostname === "maps.app.goo.gl" || url.hostname === "goo.gl") return true;
+    if (url.pathname.includes("/place")) return true;
+    if (url.searchParams.get("query_place_id")) return true;
+    if (url.searchParams.get("ftid")) return true;
+    if (url.searchParams.get("cid")) return true;
+    if (/!1s0x[0-9a-f]+:0x[0-9a-f]+/i.test(url.href)) return true;
+    return false;
+  } catch (_) {
+    return false;
+  }
+}
+function isCoordinateOnlyMapsUrl(link) {
+  if (!isAllowedGoogleMapsHttpsUrl(link) || hasPlaceIdentity(link)) return false;
+  try {
+    const url = new URL(link.trim());
     const q = (url.searchParams.get("query") || url.searchParams.get("q") || "").trim();
     if (/^-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?$/.test(q)) return true;
     if (url.pathname.startsWith("/maps/search/")) {
@@ -109,9 +123,10 @@ function isCoordinateOnlyMapsUrl(link) {
 }
 function hasExactPlaceLink(spot) {
   const link = typeof spot?.link === "string" ? spot.link.trim() : "";
-  return isAllowedGoogleMapsHttpsUrl(link) && !isCoordinateOnlyMapsUrl(link);
+  return hasPlaceIdentity(link);
 }
 function coordinateFallbackUrl(lat, lng) {
+  if (lat == null || lng == null || lat === "" || lng === "") return "";
   const la = Number(lat);
   const ln = Number(lng);
   if (!Number.isFinite(la) || !Number.isFinite(ln)) return "";
@@ -127,7 +142,8 @@ function escapeMapsHref(url) {
 function googleMapsUrl(spot, fallbackLabel) {
   const link = typeof spot?.link === "string" ? spot.link.trim() : "";
   let url = "";
-  if (isAllowedGoogleMapsHttpsUrl(link)) url = link;
+  if (hasPlaceIdentity(link)) url = link;
+  else if (isCoordinateOnlyMapsUrl(link)) url = link;
   else url = coordinateFallbackUrl(spot?.lat, spot?.lng);
   return url ? escapeMapsHref(url) : "";
 }
@@ -136,6 +152,7 @@ function googleMapsLinkLabel(spot, lang) {
   if (hasExactPlaceLink(spot)) return useEn ? "View on Google Maps" : "구글맵에서 보기";
   return useEn ? "View location" : "위치 보기";
 }
+
 async function loadRecentContributors() {
   const banner = document.getElementById("recentBanner");
   const trackEl = document.getElementById("recentBannerNames");
