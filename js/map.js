@@ -760,6 +760,13 @@ submitBtn.addEventListener("click", async () => {
   submitBtn.textContent = isEdit ? t("btn_updating") : t("btn_submitting");
 
   const nickname = nicknameInput.value.trim();
+  const submittedLink = linkInput.value.trim() || null;
+  // Never invent a name-search URL. Preserve the original pasted Maps URL.
+  // Structural exact-place gate (Chris 2026-11-08): without place identity the row
+  // is held pending (hidden) with a clear reason — not discarded, not published.
+  const publicationBlock = typeof mapsPublicationBlockReason === "function"
+    ? mapsPublicationBlockReason(submittedLink)
+    : (submittedLink ? null : "missing_link");
   const fields = {
     lat: pickedLatLng.lat,
     lng: pickedLatLng.lng,
@@ -767,8 +774,14 @@ submitBtn.addEventListener("click", async () => {
     name: nameInput.value.trim(),
     nickname: nickname || null,
     review: reviewInput.value.trim() || null,
-    link: linkInput.value.trim() || null,
+    link: submittedLink,
   };
+  if (!isEdit && publicationBlock) {
+    fields.hidden = true;
+    fields.hidden_reason = typeof pendingExactMapsHiddenReason === "function"
+      ? pendingExactMapsHiddenReason(submittedLink)
+      : ("pending_exact_maps_link:" + publicationBlock);
+  }
 
   let data, error;
   if (isEdit) {
@@ -807,13 +820,22 @@ submitBtn.addEventListener("click", async () => {
   if (isEdit) {
     const idx = spots.findIndex(s => s.id === editingSpotId);
     if (idx !== -1) spots[idx] = data;
+  } else if (data && data.hidden) {
+    // Pending rows are hidden from anon SELECT — do not add a public map pin.
+    // Submission was kept (not discarded) for later exact-link review.
   } else {
     spots.unshift(data);
   }
   renderMarkers();
   closeSheet();
-  showToast(isEdit ? t("toast_update_success") : t("toast_submit_success"));
-  map.panTo([data.lat, data.lng]);
+  if (isEdit) {
+    showToast(t("toast_update_success"));
+  } else if (publicationBlock || (data && data.hidden)) {
+    showToast(t("toast_submit_pending_exact_maps"));
+  } else {
+    showToast(t("toast_submit_success"));
+  }
+  if (data && !data.hidden) map.panTo([data.lat, data.lng]);
 });
 
 // 관리자 잠금이 해제되면(로고 3번 클릭 + 비밀번호) 이미 그려둔 핀 팝업에도

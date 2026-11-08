@@ -256,3 +256,58 @@ test("shared-coordinate venues 608 and 609 keep distinct place ids", () => {
   assert.match(b, /query_place_id=ChIJbwFmQBF3bjQRSofY7x6F6Rk/);
   assert.doesNotMatch(b, /query_place_id=ChIJt0gcmL52bjQRMbQzbdMkpTA/);
 });
+
+
+test("publication gate: exact place / shortlink / query_place_id are publishable", () => {
+  const { mapsPublicationBlockReason, canPublishWithMapsLink, pendingExactMapsHiddenReason } = require("../lib/google-maps-url");
+  assert.equal(mapsPublicationBlockReason("https://maps.app.goo.gl/jjVbZL51q6xGyrCr8"), null);
+  assert.equal(canPublishWithMapsLink("https://maps.app.goo.gl/bzbzwUK6VrXmb3Qo7"), true);
+  assert.equal(
+    mapsPublicationBlockReason(
+      "https://www.google.com/maps/search/?api=1&query=test&query_place_id=ChIJZTAIRZafaDQRK89GuKqiXkQ",
+    ),
+    null,
+  );
+  assert.equal(
+    mapsPublicationBlockReason("https://www.google.com/maps/place/Shin+Yeh/@25.066506,121.524184,17z"),
+    null,
+  );
+  assert.equal(pendingExactMapsHiddenReason(null).startsWith("pending_exact_maps_link:"), true);
+});
+
+test("publication gate: missing, coord-only, and generic name-search cannot go public", () => {
+  const { mapsPublicationBlockReason, canPublishWithMapsLink } = require("../lib/google-maps-url");
+  assert.equal(mapsPublicationBlockReason(null), "missing_link");
+  assert.equal(mapsPublicationBlockReason(""), "missing_link");
+  assert.equal(canPublishWithMapsLink(""), false);
+  assert.equal(
+    mapsPublicationBlockReason("https://www.google.com/maps/search/?api=1&query=25.0,121.5"),
+    "coordinate_only",
+  );
+  assert.equal(
+    mapsPublicationBlockReason("https://www.google.com/maps?q=24.1465,120.672"),
+    "coordinate_only",
+  );
+  assert.equal(
+    mapsPublicationBlockReason("https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%9B%94%EC%B4%88%EC%9C%A1"),
+    "generic_name_search",
+  );
+  assert.equal(
+    mapsPublicationBlockReason("https://www.google.com/maps/search/%EC%82%BC%EC%9B%94%EC%B4%88%EC%9C%A1/@25.0,121.5,17z"),
+    "generic_name_search",
+  );
+  assert.equal(mapsPublicationBlockReason("https://example.com/not-maps"), "malformed_or_disallowed_url");
+  assert.equal(mapsPublicationBlockReason("http://maps.app.goo.gl/abc"), "malformed_or_disallowed_url");
+});
+
+test("publication gate never auto-converts missing links into a Korean name-search URL", () => {
+  const { googleMapsUrl, mapsPublicationBlockReason, legacyNameSearchUrl, canPublishWithMapsLink } = require("../lib/google-maps-url");
+  const spot = { name: "삼월초육", lat: 25.0, lng: 121.5, link: null };
+  assert.equal(mapsPublicationBlockReason(spot.link), "missing_link");
+  const href = googleMapsUrl(spot, { html: false });
+  assert.equal(href, "https://www.google.com/maps/search/?api=1&query=25,121.5");
+  assert.equal(href.includes(encodeURIComponent("삼월초육")), false);
+  // legacy helper exists for old pages only — publication path must not call it
+  assert.match(legacyNameSearchUrl(spot), /maps\/search\//);
+  assert.equal(canPublishWithMapsLink(href), false);
+});
