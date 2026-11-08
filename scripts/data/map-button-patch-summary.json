@@ -1,11 +1,11 @@
 {
-  "snapshotRows": 1001,
-  "exactPlaceBusinessButtons": 883,
-  "locationCoordinateButtons": 118,
-  "integrated493": 493,
-  "unresolved118": 118,
-  "filesChanged": 1031,
-  "hrefReps": 5967,
-  "labelFlips": 5967,
-  "note": "493 research-verified place links integrated; 118 remain location fallback; no DB writes in this PR"
+  "snapshotRows": 906,
+  "public": 893,
+  "hidden": 13,
+  "exactPlace": 906,
+  "locationFallback": 0,
+  "retained23": 23,
+  "deleted95": 95,
+  "deletedFiles": 95,
+  "note": "Rebuilt snapshot from current906; removed 95 detail pages/cards/sitemap; retained 23 exact Maps URLs"
 }
