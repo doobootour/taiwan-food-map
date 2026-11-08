@@ -86,11 +86,19 @@ test("detail generator fetches link and paginates past the 1000-row cap", () => 
   assert.match(source, /select=\$\{select\}/);
 });
 
-test("snapshot covers all 1001 eats and excludes removed 816", () => {
-  assert.equal(snapshot.length, 1001);
+test("snapshot covers 906 eats and excludes removed 816 and deleted95", () => {
+  assert.equal(snapshot.length, 906);
   assert.equal(snapshot.some((s) => Number(s.id) === 816), false);
+  assert.equal(snapshot.some((s) => Number(s.id) === 340), false);
+  assert.equal(snapshot.some((s) => Number(s.id) === 496), false);
+  assert.equal(snapshot.some((s) => Number(s.id) === 575), false);
+  assert.equal(snapshot.some((s) => Number(s.id) === 591), false);
   const s832 = snapshot.find((s) => Number(s.id) === 832);
   assert.equal(s832.link, placeLink);
+  const s568 = snapshot.find((s) => Number(s.id) === 568);
+  assert.match(s568.link, /jjVbZL51q6xGyrCr8/);
+  const s45 = snapshot.find((s) => Number(s.id) === 45);
+  assert.ok(s45);
 });
 
 test("removed venue has no detail page or sitemap entry", () => {
@@ -134,12 +142,9 @@ test("Xiang Duck detail uses the original saved shortlink, not a Korean search",
   assert.doesNotMatch(html, /maps\/search\/%EC%83%B9%EB%8D%95/);
 });
 
-test("generic name-search detail uses location label and coordinate URL", () => {
-  const html = fs.readFileSync(path.join(root, "taipei-street_food-1017.html"), "utf8");
-  assert.match(
-    html,
-    /class="btn primary" href="https:\/\/www\.google\.com\/maps\/search\/\?api=1&amp;query=25\.0864483,121\.5249692"[^>]*>위치 보기</,
-  );
+test("deleted generic-name venue 1017 has no detail page", () => {
+  assert.equal(fs.existsSync(path.join(root, "taipei-street_food-1017.html")), false);
+  assert.equal(snapshot.some((s) => Number(s.id) === 1017), false);
 });
 
 test("browser app.js helper matches shared fallback behavior", () => {
@@ -172,7 +177,7 @@ test("region.js and category.js defer to the shared app helper", () => {
 
 test("snapshot place-candidate rows resolve to their original saved links", () => {
   const places = snapshot.filter((s) => hasExactPlaceLink(s));
-  assert.equal(places.length, 883);
+  assert.equal(places.length, 906);
   for (const spot of places) {
     assert.equal(googleMapsUrl(spot, { html: false }), spot.link.trim());
   }
@@ -202,11 +207,14 @@ test("query_place_id search URLs count as exact place links", () => {
   assert.equal(googleMapsUrl(spot, { html: false }), spot.link);
 });
 
-test("snapshot exact/location counts are 883 / 118 after integrating 26+493", () => {
+test("snapshot exact/location counts are 906 / 0 after retain23 delete95", () => {
   let exact = 0;
   for (const s of snapshot) if (hasExactPlaceLink(s)) exact += 1;
-  assert.equal(exact, 883);
-  assert.equal(snapshot.length - exact, 118);
+  assert.equal(snapshot.length, 906);
+  assert.equal(exact, 906);
+  assert.equal(snapshot.length - exact, 0);
+  assert.equal(snapshot.filter((s) => !s.hidden).length, 893);
+  assert.equal(snapshot.filter((s) => s.hidden).length, 13);
 });
 
 test("resolved venue 47 detail uses query_place_id link, not coordinates", () => {
@@ -224,23 +232,21 @@ test("null coordinates do not become Null Island when a place link exists", () =
   );
 });
 
-test("910 coordinate maps?q label is location, not exact business", () => {
-  const html = fs.readFileSync(path.join(root, "hualien-japanese-910.html"), "utf8");
-  assert.match(html, /class="btn primary" href="https:\/\/www\.google\.com\/maps\?q=23\.9787142,121\.6091993"[^>]*>위치 보기</);
-  const spot = snapshot.find((s) => Number(s.id) === 910);
-  assert.equal(hasExactPlaceLink(spot), false);
-  assert.equal(googleMapsLinkLabel(spot, "ko"), "위치 보기");
+test("deleted 910 has no detail page or sitemap entry", () => {
+  assert.equal(fs.existsSync(path.join(root, "hualien-japanese-910.html")), false);
+  assert.doesNotMatch(fs.readFileSync(path.join(root, "sitemap.xml"), "utf8"), /hualien-japanese-910/);
+  assert.equal(snapshot.some((s) => Number(s.id) === 910), false);
 });
 
-test("493 verified place link sample and unresolved stay location", () => {
-  const html = fs.readFileSync(path.join(root, "hualien-cafe-20.html"), "utf8");
-  assert.match(html, /query_place_id=ChIJZTAIRZafaDQRK89GuKqiXkQ/);
-  assert.match(html, /class="btn primary" href="[^"]*query_place_id=/);
-  const unresolved = snapshot.filter((s) => !hasExactPlaceLink(s));
-  assert.equal(unresolved.length, 118);
-  for (const s of unresolved.slice(0, 5)) {
-    assert.equal(googleMapsLinkLabel(s, "ko"), "위치 보기");
-  }
+test("retained Shin Yeh / 568 exact shortlinks and deleted pages absent", () => {
+  const html45 = fs.readFileSync(path.join(root, "taipei-taiwanese-shin-yeh-main-restaurant-45.html"), "utf8");
+  assert.match(html45, /maps\.app\.goo\.gl\/bzbzwUK6VrXmb3Qo7/);
+  const html568 = fs.readFileSync(path.join(root, "tainan-beef_noodle-568.html"), "utf8");
+  assert.match(html568, /maps\.app\.goo\.gl\/jjVbZL51q6xGyrCr8/);
+  assert.equal(fs.existsSync(path.join(root, "taichung-bakery-340.html")), false);
+  assert.equal(fs.existsSync(path.join(root, "tainan-bakery-warmplace-496.html")), false);
+  assert.equal(fs.existsSync(path.join(root, "tainan-bakery-575.html")), false);
+  assert.doesNotMatch(fs.readFileSync(path.join(root, "sitemap.xml"), "utf8"), /tainan-bakery-575/);
 });
 
 test("shared-coordinate venues 608 and 609 keep distinct place ids", () => {
