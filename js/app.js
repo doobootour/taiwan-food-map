@@ -125,6 +125,33 @@ function hasExactPlaceLink(spot) {
   const link = typeof spot?.link === "string" ? spot.link.trim() : "";
   return hasPlaceIdentity(link);
 }
+
+// Publication gate (structural only — not semantic business/branch proof).
+function mapsPublicationBlockReason(link) {
+  if (link == null || String(link).trim() === "") return "missing_link";
+  const trimmed = String(link).trim();
+  if (!isAllowedGoogleMapsHttpsUrl(trimmed)) return "malformed_or_disallowed_url";
+  if (hasPlaceIdentity(trimmed)) return null;
+  if (isCoordinateOnlyMapsUrl(trimmed)) return "coordinate_only";
+  // generic name-search or other non-identity maps URL
+  try {
+    const url = new URL(trimmed);
+    const q = (url.searchParams.get("query") || url.searchParams.get("q") || "").trim();
+    if (q && !/^-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?$/.test(q)) return "generic_name_search";
+    if (url.pathname.startsWith("/maps/search/")) {
+      const pathQuery = decodeURIComponent(url.pathname.slice("/maps/search/".length)).split("@")[0].trim();
+      if (pathQuery && !/^-?\d+(?:\.\d+)?\s*,\s*-?\d+(?:\.\d+)?$/.test(pathQuery)) return "generic_name_search";
+    }
+  } catch (_) {}
+  return "unsupported_maps_url";
+}
+function canPublishWithMapsLink(link) {
+  return mapsPublicationBlockReason(link) == null;
+}
+function pendingExactMapsHiddenReason(link) {
+  return "pending_exact_maps_link:" + (mapsPublicationBlockReason(link) || "unsupported_maps_url");
+}
+
 function coordinateFallbackUrl(lat, lng) {
   if (lat == null || lng == null || lat === "" || lng === "") return "";
   const la = Number(lat);

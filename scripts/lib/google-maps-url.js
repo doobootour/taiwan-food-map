@@ -138,6 +138,30 @@ function legacyNameSearchUrl(spot, fallbackLabel) {
   return `https://www.google.com/maps/search/${query}/@${spot.lat},${spot.lng},17z`;
 }
 
+
+// Publication gate (Chris 2026-11-08): structural URL identity check for PUBLIC rows.
+// This is NOT semantic business/branch verification — shortlinks and place URLs can still
+// point at the wrong venue. Automated collection must compare the actual place/branch
+// against source context before un-hiding. Code alone never proves the real business.
+function mapsPublicationBlockReason(link) {
+  if (link == null || String(link).trim() === "") return "missing_link";
+  const trimmed = String(link).trim();
+  if (!isAllowedGoogleMapsHttpsUrl(trimmed)) return "malformed_or_disallowed_url";
+  if (hasPlaceIdentity(trimmed)) return null;
+  if (isCoordinateOnlyMapsUrl(trimmed)) return "coordinate_only";
+  if (isGenericNameSearchUrl(trimmed)) return "generic_name_search";
+  return "unsupported_maps_url";
+}
+
+function canPublishWithMapsLink(link) {
+  return mapsPublicationBlockReason(link) == null;
+}
+
+function pendingExactMapsHiddenReason(link) {
+  const reason = mapsPublicationBlockReason(link) || "unsupported_maps_url";
+  return `pending_exact_maps_link:${reason}`;
+}
+
 module.exports = {
   escapeHtmlAttr,
   isAllowedGoogleMapsHttpsUrl,
@@ -149,4 +173,7 @@ module.exports = {
   googleMapsUrl,
   googleMapsLinkLabel,
   legacyNameSearchUrl,
+  mapsPublicationBlockReason,
+  canPublishWithMapsLink,
+  pendingExactMapsHiddenReason,
 };
