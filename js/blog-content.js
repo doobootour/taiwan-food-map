@@ -19,25 +19,6 @@
 
 const BLOG_LIST = [
   {
-    "slug": "kaohsiung-shoushan-zoo-ticket-nearby-eats",
-    "image": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
-    "regions": [
-      "kaohsiung"
-    ],
-    "ko": {
-      "eyebrow": "가오슝 여행 가이드 · 볼거리·먹거리",
-      "title": "서우산 동물원 입장권과 근처 맛집, 동물 보고 어디서 먹을까?",
-      "desc": "가오슝 서우산 동물원의 운영 시간과 입장료, 가는 법과 원숭이 주의, 둘러본 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
-      "meta": "가오슝 · 볼거리·먹거리"
-    },
-    "en": {
-      "eyebrow": "Kaohsiung Travel Guide · Sights & Food",
-      "title": "Shoushan Zoo Tickets and Nearby Eats: Where to Eat After Seeing the Animals",
-      "desc": "Kaohsiung Shoushan Zoo's hours and admission, how to get there, a monkey warning, and nearby restaurants from our map for after your visit.",
-      "meta": "Kaohsiung · Sights & Food"
-    }
-  },
-  {
     "slug": "kenting-national-museum-marine-biology-aquarium-ticket-eats",
     "image": "assets/images/attractions/kenting/nmmba.webp",
     "regions": [
@@ -113,10 +94,6 @@ const BLOG_LIST = [
       "meta": "New Taipei · Sights & Food"
     }
   },
-  
-  
-  
-  
   {
     "slug": "taiwan-zizhucan-buffet-bento-search",
     "image": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
@@ -676,16 +653,16 @@ const BLOG_LIST = [
       "kaohsiung"
     ],
     "ko": {
-      "eyebrow": "가오슝 여행 가이드 · 관광·아이 동반",
-      "title": "서우산 동물원 가는 법, 입장료와 아이랑 갈 때 팁은?",
-      "desc": "가오슝 서우산 동물원을 아이와 가려는 여행자를 위해 56번 버스 타는 곳, 연령별 입장료와 결제 방법, 휴원일, 원숭이 주의점과 유모차·수유실 정보를 정리했어요.",
-      "meta": "가오슝 · 관광·아이 동반"
+      "eyebrow": "가오슝 여행 가이드 · 관광·아이 동반·먹거리",
+      "title": "서우산 동물원 가는 법·입장권·아이 팁, 보고 나서 근처 맛집까지",
+      "desc": "가오슝 서우산 동물원 가는 법과 입장료(NT$40), 아이 팁, 클룩 입장권, 둘러본 뒤 들르기 좋은 근처 맛집까지 한 글에 정리했어요.",
+      "meta": "가오슝 · 관광·아이 동반·먹거리"
     },
     "en": {
-      "eyebrow": "Kaohsiung Travel Guide · Sights · With Kids",
-      "title": "Shoushan Zoo, Kaohsiung: Getting There, Tickets and Tips with Kids",
-      "desc": "Taking kids to Kaohsiung's Shoushan Zoo? Where to catch bus 56, ticket prices by age, payment, closing days, macaque rules, and strollers and nursing rooms.",
-      "meta": "Kaohsiung · Sights · With Kids"
+      "eyebrow": "Kaohsiung Travel Guide · Sights · With Kids · Food",
+      "title": "Shoushan Zoo: Getting There, Tickets, Kids Tips & Nearby Eats",
+      "desc": "How to get to Kaohsiung Shoushan Zoo, admission (NT$40), tips with kids, Klook tickets, and nearby restaurants from our map after your visit.",
+      "meta": "Kaohsiung · Sights · With Kids · Food"
     }
   },
   {
@@ -1206,1017 +1183,783 @@ const BLOG_LIST = [
     }
   },
   {
-    slug: "kaohsiung-tainan-youbike-rental-tips",
-    image: "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-1.jpg",
-    regions: ["kaohsiung", "tainan"],
-    ko: {
-      eyebrow: "가오슝·타이난 여행 가이드 · 교통",
-      title: "가오슝·타이난 유바이크, 여행자는 어떻게 빌리고 얼마 낼까?",
-      desc: "신용카드 단회 대여와 회원 가입 차이, 2.0·2.0E 요금, 환승 할인과 주행 규칙을 정리했어요.",
-      meta: "가오슝·타이난 · 교통 가이드",
+    "slug": "kaohsiung-tainan-youbike-rental-tips",
+    "image": "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-1.jpg",
+    "regions": [
+      "kaohsiung",
+      "tainan"
+    ],
+    "ko": {
+      "eyebrow": "가오슝·타이난 여행 가이드 · 교통",
+      "title": "가오슝·타이난 유바이크, 여행자는 어떻게 빌리고 얼마 낼까?",
+      "desc": "신용카드 단회 대여와 회원 가입 차이, 2.0·2.0E 요금, 환승 할인과 주행 규칙을 정리했어요.",
+      "meta": "가오슝·타이난 · 교통 가이드"
     },
-    en: {
-      eyebrow: "Kaohsiung & Tainan Travel Guide · Transport",
-      title: "YouBike in Kaohsiung and Tainan: How Visitors Rent and What It Costs",
-      desc: "Single rental by credit card vs. membership, 2.0 and 2.0E fares, transfer discounts and riding rules.",
-      meta: "Kaohsiung & Tainan · Transport Guide",
-    },
+    "en": {
+      "eyebrow": "Kaohsiung & Tainan Travel Guide · Transport",
+      "title": "YouBike in Kaohsiung and Tainan: How Visitors Rent and What It Costs",
+      "desc": "Single rental by credit card vs. membership, 2.0 and 2.0E fares, transfer discounts and riding rules.",
+      "meta": "Kaohsiung & Tainan · Transport Guide"
+    }
   },
   {
-    slug: "taiwan-food-menu-chinese-words",
-    image: "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 음식 중국어",
-      title: "대만 메뉴판 중국어, 土豆가 감자가 아니라 땅콩이라고?",
-      desc: "土豆·鳳梨·蚵仔처럼 대만 메뉴판에서 대륙식과 다르게 쓰는 음식 단어를 정리했어요.",
-      meta: "대만 · 음식 가이드",
+    "slug": "taiwan-food-menu-chinese-words",
+    "image": "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 음식 중국어",
+      "title": "대만 메뉴판 중국어, 土豆가 감자가 아니라 땅콩이라고?",
+      "desc": "土豆·鳳梨·蚵仔처럼 대만 메뉴판에서 대륙식과 다르게 쓰는 음식 단어를 정리했어요.",
+      "meta": "대만 · 음식 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Food Chinese",
-      title: "Reading a Taiwanese Menu: Why 土豆 Means Peanuts, Not Potatoes",
-      desc: "土豆, 鳳梨, 蚵仔 and other food words Taiwanese menus use differently from the mainland.",
-      meta: "Taiwan · Food Guide",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Food Chinese",
+      "title": "Reading a Taiwanese Menu: Why 土豆 Means Peanuts, Not Potatoes",
+      "desc": "土豆, 鳳梨, 蚵仔 and other food words Taiwanese menus use differently from the mainland.",
+      "meta": "Taiwan · Food Guide"
+    }
   },
   {
-    slug: "jiufen-bus-965-from-taipei",
-    image: "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg",
-    regions: ["jiufen", "taipei"],
-    ko: {
-      eyebrow: "지우펀 여행 가이드 · 교통",
-      title: "지우펀 965번 버스, 타이베이 어디서 타고 얼마나 자주 올까?",
-      desc: "타이베이 시내 타는 곳, 첫차·막차와 배차 간격, 요금, 돌아올 때 내리는 곳을 정리했어요.",
-      meta: "지우펀 · 교통 가이드",
+    "slug": "jiufen-bus-965-from-taipei",
+    "image": "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg",
+    "regions": [
+      "jiufen",
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "지우펀 여행 가이드 · 교통",
+      "title": "지우펀 965번 버스, 타이베이 어디서 타고 얼마나 자주 올까?",
+      "desc": "타이베이 시내 타는 곳, 첫차·막차와 배차 간격, 요금, 돌아올 때 내리는 곳을 정리했어요.",
+      "meta": "지우펀 · 교통 가이드"
     },
-    en: {
-      eyebrow: "Jiufen Travel Guide · Transport",
-      title: "Bus 965 to Jiufen: Where to Board in Taipei and How Often It Runs",
-      desc: "Where to board in Taipei, first and last buses, frequency, fare, and where to get off on the way back.",
-      meta: "Jiufen · Transport Guide",
-    },
+    "en": {
+      "eyebrow": "Jiufen Travel Guide · Transport",
+      "title": "Bus 965 to Jiufen: Where to Board in Taipei and How Often It Runs",
+      "desc": "Where to board in Taipei, first and last buses, frequency, fare, and where to get off on the way back.",
+      "meta": "Jiufen · Transport Guide"
+    }
   },
   {
-    slug: "taichung-scooter-rental-license-insurance",
-    image: "assets/images/blog/taichung-scooter-rental-license-insurance-1.jpg",
-    regions: ["taichung"],
-    ko: {
-      eyebrow: "타이중 여행 가이드 · 교통",
-      title: "타이중 스쿠터 렌트, 한국 면허로 탈 수 있을까?",
-      desc: "국제운전면허 A 기종, 챙겨야 할 서류, 강제보험과 추가 보험 차이를 정리했어요.",
-      meta: "타이중 · 교통 가이드",
+    "slug": "taichung-scooter-rental-license-insurance",
+    "image": "assets/images/blog/taichung-scooter-rental-license-insurance-1.jpg",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "타이중 여행 가이드 · 교통",
+      "title": "타이중 스쿠터 렌트, 한국 면허로 탈 수 있을까?",
+      "desc": "국제운전면허 A 기종, 챙겨야 할 서류, 강제보험과 추가 보험 차이를 정리했어요.",
+      "meta": "타이중 · 교통 가이드"
     },
-    en: {
-      eyebrow: "Taichung Travel Guide · Transport",
-      title: "Renting a Scooter in Taichung: Can You Ride on a Korean License?",
-      desc: "IDP category A, documents to bring, and compulsory vs optional insurance.",
-      meta: "Taichung · Transport Guide",
-    },
+    "en": {
+      "eyebrow": "Taichung Travel Guide · Transport",
+      "title": "Renting a Scooter in Taichung: Can You Ride on a Korean License?",
+      "desc": "IDP category A, documents to bring, and compulsory vs optional insurance.",
+      "meta": "Taichung · Transport Guide"
+    }
   },
   {
-    slug: "taipei-3n5d-relaxed-itinerary",
-    image: "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg",
-    regions: ["taipei", "jiufen"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 일정",
-      title: "타이베이 3박5일 일정, 널널하게 짜려면 하루에 몇 곳?",
-      desc: "하루 큰 일정 두 개 원칙으로 짠 3박5일 예시와 명소별 운영 시간·휴무를 정리했어요.",
-      meta: "타이베이 · 일정 가이드",
+    "slug": "taipei-3n5d-relaxed-itinerary",
+    "image": "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg",
+    "regions": [
+      "taipei",
+      "jiufen"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 일정",
+      "title": "타이베이 3박5일 일정, 널널하게 짜려면 하루에 몇 곳?",
+      "desc": "하루 큰 일정 두 개 원칙으로 짠 3박5일 예시와 명소별 운영 시간·휴무를 정리했어요.",
+      "meta": "타이베이 · 일정 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Itinerary",
-      title: "A Relaxed Taipei Itinerary for 3 Nights, 5 Days: How Many Stops a Day?",
-      desc: "A sample 3-night, 5-day plan with two big stops a day, plus hours and closures.",
-      meta: "Taipei · Itinerary Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Itinerary",
+      "title": "A Relaxed Taipei Itinerary for 3 Nights, 5 Days: How Many Stops a Day?",
+      "desc": "A sample 3-night, 5-day plan with two big stops a day, plus hours and closures.",
+      "meta": "Taipei · Itinerary Guide"
+    }
   },
   {
-    slug: "taipei-with-kids-activities-night-market",
-    image: "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 아이 동반",
-      title: "아이와 타이베이 여행, 체험·야시장·포장 식사 어떻게 할까?",
-      desc: "펑리수 만들기 같은 체험, 야시장 시간대, 숙소에서 먹는 포장 식사 요령을 정리했어요.",
-      meta: "타이베이 · 아이 동반 여행",
+    "slug": "taipei-with-kids-activities-night-market",
+    "image": "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 아이 동반",
+      "title": "아이와 타이베이 여행, 체험·야시장·포장 식사 어떻게 할까?",
+      "desc": "펑리수 만들기 같은 체험, 야시장 시간대, 숙소에서 먹는 포장 식사 요령을 정리했어요.",
+      "meta": "타이베이 · 아이 동반 여행"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · With Kids",
-      title: "Taipei With Kids: Activities, Night Markets, and Takeout Meals",
-      desc: "Pineapple-cake workshops, night market timing, and takeout tips for families.",
-      meta: "Taipei · Family Travel",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · With Kids",
+      "title": "Taipei With Kids: Activities, Night Markets, and Takeout Meals",
+      "desc": "Pineapple-cake workshops, night market timing, and takeout tips for families.",
+      "meta": "Taipei · Family Travel"
+    }
   },
   {
-    slug: "taipei-family-budget-cash-card",
-    image: "assets/images/blog/taipei-family-budget-cash-card-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 경비",
-      title: "타이베이 가족여행 경비, 4인 3일이면 현금·카드 어떻게 나눌까?",
-      desc: "현금이 필요한 곳, 카드가 편한 곳, 이지카드로 충분한 곳을 나눠 가족 경비 짜는 법을 정리했어요.",
-      meta: "타이베이 · 경비 가이드",
+    "slug": "taipei-family-budget-cash-card",
+    "image": "assets/images/blog/taipei-family-budget-cash-card-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 경비",
+      "title": "타이베이 가족여행 경비, 4인 3일이면 현금·카드 어떻게 나눌까?",
+      "desc": "현금이 필요한 곳, 카드가 편한 곳, 이지카드로 충분한 곳을 나눠 가족 경비 짜는 법을 정리했어요.",
+      "meta": "타이베이 · 경비 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Budget",
-      title: "Family Budget for Taipei: How Should Four People Split Cash and Cards Over Three Days?",
-      desc: "Cash, card, or EasyCard — how to split payments for a family trip to Taipei.",
-      meta: "Taipei · Budget Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Budget",
+      "title": "Family Budget for Taipei: How Should Four People Split Cash and Cards Over Three Days?",
+      "desc": "Cash, card, or EasyCard — how to split payments for a family trip to Taipei.",
+      "meta": "Taipei · Budget Guide"
+    }
   },
   {
-    slug: "taipei-fun-pass-3-day-worth-it",
-    image: "assets/images/blog/taipei-fun-pass-3-day-worth-it-1.jpg",
-    regions: ["taipei", "jiufen"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 교통 패스",
-      title: "타이베이 펀패스 3일권, 본전 뽑으려면 어떻게 써야 할까?",
-      desc: "무제한 3일권 가격과 포함 항목, 달력 날짜 계산법, 101·마오콩 교환 방법을 정리했어요.",
-      meta: "타이베이 · 교통 패스",
+    "slug": "taipei-fun-pass-3-day-worth-it",
+    "image": "assets/images/blog/taipei-fun-pass-3-day-worth-it-1.jpg",
+    "regions": [
+      "taipei",
+      "jiufen"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 교통 패스",
+      "title": "타이베이 펀패스 3일권, 본전 뽑으려면 어떻게 써야 할까?",
+      "desc": "무제한 3일권 가격과 포함 항목, 달력 날짜 계산법, 101·마오콩 교환 방법을 정리했어요.",
+      "meta": "타이베이 · 교통 패스"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Transport Passes",
-      title: "Taipei Fun Pass 3-Day: How Do You Make It Pay Off?",
-      desc: "3-day pass price, inclusions, calendar-day validity, and 101/Maokong exchanges.",
-      meta: "Taipei · Transport Passes",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Transport Passes",
+      "title": "Taipei Fun Pass 3-Day: How Do You Make It Pay Off?",
+      "desc": "3-day pass price, inclusions, calendar-day validity, and 101/Maokong exchanges.",
+      "meta": "Taipei · Transport Passes"
+    }
   },
   {
-    slug: "taipei-lunar-new-year-xinyi-department-stores",
-    image: "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 쇼핑",
-      title: "타이베이 춘절 백화점 영업, 신이 상권은 연휴에 문 열까?",
-      desc: "2026년 춘절 영업 실적을 바탕으로 2027년 연휴에 신이 상권을 다닐 때 확인할 점을 정리했어요.",
-      meta: "타이베이 · 쇼핑 가이드",
+    "slug": "taipei-lunar-new-year-xinyi-department-stores",
+    "image": "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 쇼핑",
+      "title": "타이베이 춘절 백화점 영업, 신이 상권은 연휴에 문 열까?",
+      "desc": "2026년 춘절 영업 실적을 바탕으로 2027년 연휴에 신이 상권을 다닐 때 확인할 점을 정리했어요.",
+      "meta": "타이베이 · 쇼핑 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Shopping",
-      title: "Taipei Department Stores Over Lunar New Year: Is Xinyi Open?",
-      desc: "2026 Lunar New Year hours in Xinyi, and what to check for the 2027 holiday.",
-      meta: "Taipei · Shopping Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Shopping",
+      "title": "Taipei Department Stores Over Lunar New Year: Is Xinyi Open?",
+      "desc": "2026 Lunar New Year hours in Xinyi, and what to check for the 2027 holiday.",
+      "meta": "Taipei · Shopping Guide"
+    }
   },
   {
-    slug: "taipei-101-observatory-child-ticket",
-    image: "assets/images/blog/taipei-101-observatory-child-ticket-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 명소",
-      title: "타이베이 101 전망대 아이 요금, 키가 기준일까 나이가 기준일까?",
-      desc: "외국인 아이는 키 115cm가 기준이에요. 성인·우대·무료 조건과 발권 위치를 정리했어요.",
-      meta: "타이베이 · 명소 가이드",
+    "slug": "taipei-101-observatory-child-ticket",
+    "image": "assets/images/blog/taipei-101-observatory-child-ticket-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 명소",
+      "title": "타이베이 101 전망대 아이 요금, 키가 기준일까 나이가 기준일까?",
+      "desc": "외국인 아이는 키 115cm가 기준이에요. 성인·우대·무료 조건과 발권 위치를 정리했어요.",
+      "meta": "타이베이 · 명소 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Sights",
-      title: "Taipei 101 Observatory Kids' Tickets: Is It Height or Age?",
-      desc: "For foreign kids it's the 115cm height line. Adult, concession, and free-entry rules.",
-      meta: "Taipei · Sights Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Sights",
+      "title": "Taipei 101 Observatory Kids' Tickets: Is It Height or Age?",
+      "desc": "For foreign kids it's the 115cm height line. Adult, concession, and free-entry rules.",
+      "meta": "Taipei · Sights Guide"
+    }
   },
   {
-    slug: "taiwan-sugar-apple-season",
-    image: "assets/images/blog/taiwan-sugar-apple-season-1.jpg",
-    regions: ["taitung", "taipei"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 과일",
-      title: "대만 석가 시즌, 일반석가랑 파인애플 석가 뭐가 다를까?",
-      desc: "지금이 일반석가 성수기예요. 파인애플 석가와의 제철·맛·대략 시세를 정리했어요.",
-      meta: "대만 · 과일 가이드",
+    "slug": "taiwan-sugar-apple-season",
+    "image": "assets/images/blog/taiwan-sugar-apple-season-1.jpg",
+    "regions": [
+      "taitung",
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 과일",
+      "title": "대만 석가 시즌, 일반석가랑 파인애플 석가 뭐가 다를까?",
+      "desc": "지금이 일반석가 성수기예요. 파인애플 석가와의 제철·맛·대략 시세를 정리했어요.",
+      "meta": "대만 · 과일 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Fruit",
-      title: "Taiwan Sugar Apple Season: Regular Sakya vs Pineapple Atemoya",
-      desc: "October is regular sakya season. Peak months, taste, and a rough price range versus pineapple atemoya.",
-      meta: "Taiwan · Fruit Guide",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Fruit",
+      "title": "Taiwan Sugar Apple Season: Regular Sakya vs Pineapple Atemoya",
+      "desc": "October is regular sakya season. Peak months, taste, and a rough price range versus pineapple atemoya.",
+      "meta": "Taiwan · Fruit Guide"
+    }
   },
   {
-    slug: "kaohsiung-bts-concert-hotel-transport",
-    image: "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg",
-    regions: ["kaohsiung"],
-    ko: {
-      eyebrow: "가오슝 여행 가이드 · 공연",
-      title: "가오슝 BTS 콘서트 숙소, 국가체육장 가려면 어디에 묵을까?",
-      desc: "11월 가오슝 국가체육장 공연, 숙소 위치와 MRT 이동, 실명제 예매 포인트를 정리했어요.",
-      meta: "가오슝 · 공연 여행",
+    "slug": "kaohsiung-bts-concert-hotel-transport",
+    "image": "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 공연",
+      "title": "가오슝 BTS 콘서트 숙소, 국가체육장 가려면 어디에 묵을까?",
+      "desc": "11월 가오슝 국가체육장 공연, 숙소 위치와 MRT 이동, 실명제 예매 포인트를 정리했어요.",
+      "meta": "가오슝 · 공연 여행"
     },
-    en: {
-      eyebrow: "Kaohsiung Travel Guide · Concerts",
-      title: "BTS in Kaohsiung: Where to Stay for the National Stadium Shows",
-      desc: "November shows at Kaohsiung National Stadium: where to stay, MRT tips, and real-name tickets.",
-      meta: "Kaohsiung · Concert Travel",
-    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Concerts",
+      "title": "BTS in Kaohsiung: Where to Stay for the National Stadium Shows",
+      "desc": "November shows at Kaohsiung National Stadium: where to stay, MRT tips, and real-name tickets.",
+      "meta": "Kaohsiung · Concert Travel"
+    }
   },
   {
-    slug: "taoyuan-airport-midnight-arrival-transport",
-    image: "assets/images/blog/taoyuan-airport-midnight-arrival-transport-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 공항 교통",
-      title: "타오위안공항 새벽 도착, 시내까지 뭐 타고 갈까?",
-      desc: "공항철도가 끊긴 시간, 1819 버스와 택시 중 뭘 탈지 요금·타는 곳과 함께 정리했어요.",
-      meta: "타이베이 · 공항 교통",
+    "slug": "taoyuan-airport-midnight-arrival-transport",
+    "image": "assets/images/blog/taoyuan-airport-midnight-arrival-transport-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 공항 교통",
+      "title": "타오위안공항 새벽 도착, 시내까지 뭐 타고 갈까?",
+      "desc": "공항철도가 끊긴 시간, 1819 버스와 택시 중 뭘 탈지 요금·타는 곳과 함께 정리했어요.",
+      "meta": "타이베이 · 공항 교통"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Airport Transport",
-      title: "Landing at Taoyuan After Midnight: How Do You Get Into Taipei?",
-      desc: "When the Airport MRT has stopped: bus 1819 vs taxi, with fares and boarding points.",
-      meta: "Taipei · Airport Transport",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Airport Transport",
+      "title": "Landing at Taoyuan After Midnight: How Do You Get Into Taipei?",
+      "desc": "When the Airport MRT has stopped: bus 1819 vs taxi, with fares and boarding points.",
+      "meta": "Taipei · Airport Transport"
+    }
   },
   {
-    slug: "yehliu-to-jiufen-bus-luggage-route",
-    image: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg",
-    regions: ["jiufen", "taipei"],
-    ko: {
-      eyebrow: "타이베이 근교 여행 가이드 · 교통",
-      title: "예류 지우펀 버스, 캐리어 들고 이동해도 될까?",
-      desc: "예류에서 지우펀까지 지룽 환승·루이팡 경유 두 가지 길과 캐리어 보관 요령을 정리했어요.",
-      meta: "타이베이 근교 · 교통 가이드",
+    "slug": "yehliu-to-jiufen-bus-luggage-route",
+    "image": "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg",
+    "regions": [
+      "jiufen",
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 근교 여행 가이드 · 교통",
+      "title": "예류 지우펀 버스, 캐리어 들고 이동해도 될까?",
+      "desc": "예류에서 지우펀까지 지룽 환승·루이팡 경유 두 가지 길과 캐리어 보관 요령을 정리했어요.",
+      "meta": "타이베이 근교 · 교통 가이드"
     },
-    en: {
-      eyebrow: "Taipei Day Trips · Transport",
-      title: "Yehliu to Jiufen by Bus: Can You Do It With Luggage?",
-      desc: "Two routes from Yehliu to Jiufen via Keelung or Ruifang, and where to store your luggage.",
-      meta: "Taipei Area · Transport Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Day Trips · Transport",
+      "title": "Yehliu to Jiufen by Bus: Can You Do It With Luggage?",
+      "desc": "Two routes from Yehliu to Jiufen via Keelung or Ruifang, and where to store your luggage.",
+      "meta": "Taipei Area · Transport Guide"
+    }
   },
   {
-    slug: "xiaoliuqiu-e-bike-rental-guide",
-    image: "assets/images/blog/xiaoliuqiu-e-bike-rental-guide-1.jpg",
-    regions: ["kaohsiung"],
-    ko: {
-      eyebrow: "가오슝 근교 여행 가이드 · 교통",
-      title: "소류구 전기자전거 대여, 번호판·면허 규정 괜찮을까?",
-      desc: "전기자전거와 전동 스쿠터는 규정이 달라요. 번호판·보험·면허와 벌금 기준을 정리했어요.",
-      meta: "가오슝 근교 · 교통 가이드",
+    "slug": "xiaoliuqiu-e-bike-rental-guide",
+    "image": "assets/images/blog/xiaoliuqiu-e-bike-rental-guide-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 근교 여행 가이드 · 교통",
+      "title": "소류구 전기자전거 대여, 번호판·면허 규정 괜찮을까?",
+      "desc": "전기자전거와 전동 스쿠터는 규정이 달라요. 번호판·보험·면허와 벌금 기준을 정리했어요.",
+      "meta": "가오슝 근교 · 교통 가이드"
     },
-    en: {
-      eyebrow: "Kaohsiung Day Trips · Transport",
-      title: "Renting an E-Bike on Xiaoliuqiu: Are the Plate and License Rules OK?",
-      desc: "E-bikes and e-scooters follow different rules — plates, insurance, licenses, and fines.",
-      meta: "Kaohsiung Area · Transport Guide",
-    },
+    "en": {
+      "eyebrow": "Kaohsiung Day Trips · Transport",
+      "title": "Renting an E-Bike on Xiaoliuqiu: Are the Plate and License Rules OK?",
+      "desc": "E-bikes and e-scooters follow different rules — plates, insurance, licenses, and fines.",
+      "meta": "Kaohsiung Area · Transport Guide"
+    }
   },
   {
-    slug: "taipei-easycard-balance-check-topup",
-    image: "assets/images/blog/taipei-easycard-balance-check-topup-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 교통",
-      title: "이지카드 잔액 조회, 앱으로 하려면 어떤 카드여야 할까?",
-      desc: "앱 조회가 되는 카드와 안 되는 카드, 역·편의점에서 잔액 보는 법을 정리했어요.",
-      meta: "타이베이 · 교통 가이드",
+    "slug": "taipei-easycard-balance-check-topup",
+    "image": "assets/images/blog/taipei-easycard-balance-check-topup-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 교통",
+      "title": "이지카드 잔액 조회, 앱으로 하려면 어떤 카드여야 할까?",
+      "desc": "앱 조회가 되는 카드와 안 되는 카드, 역·편의점에서 잔액 보는 법을 정리했어요.",
+      "meta": "타이베이 · 교통 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Transport",
-      title: "Checking Your EasyCard Balance: Which Cards Work With the App?",
-      desc: "Which cards the app can read, and how to check your balance at stations and stores.",
-      meta: "Taipei · Transport Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Transport",
+      "title": "Checking Your EasyCard Balance: Which Cards Work With the App?",
+      "desc": "Which cards the app can read, and how to check your balance at stations and stores.",
+      "meta": "Taipei · Transport Guide"
+    }
   },
   {
-    slug: "taiwan-first-trip-guidebooks",
-    image: "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 여행 준비",
-      title: "대만 여행 가이드북 추천, 첫 여행 전에 읽을 책 2권은?",
-      desc: "전역 가이드북 한 권, 마트 쇼핑 책 한 권 — 대만 첫 여행 전에 읽기 좋은 두 권을 정리했어요.",
-      meta: "대만 · 여행 준비",
+    "slug": "taiwan-first-trip-guidebooks",
+    "image": "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 여행 준비",
+      "title": "대만 여행 가이드북 추천, 첫 여행 전에 읽을 책 2권은?",
+      "desc": "전역 가이드북 한 권, 마트 쇼핑 책 한 권 — 대만 첫 여행 전에 읽기 좋은 두 권을 정리했어요.",
+      "meta": "대만 · 여행 준비"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Trip Prep",
-      title: "Two Books to Read Before Your First Taiwan Trip",
-      desc: "An island-wide guidebook and a supermarket shopping guide — two books for a first Taiwan trip.",
-      meta: "Taiwan · Trip Prep",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Trip Prep",
+      "title": "Two Books to Read Before Your First Taiwan Trip",
+      "desc": "An island-wide guidebook and a supermarket shopping guide — two books for a first Taiwan trip.",
+      "meta": "Taiwan · Trip Prep"
+    }
   },
   {
-    slug: "taiwan-canned-kimchi-carry-on-rules",
-    image: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 짐 싸기",
-      title: "대만 여행 김치 기내 반입, 캔 볶음김치는 어떻게 챙길까?",
-      desc: "캔 김치는 기내? 위탁? 액체류 기준과 대만 돼지고기 반입 금지까지 한 번에 정리했어요.",
-      meta: "대만 · 수하물 가이드",
+    "slug": "taiwan-canned-kimchi-carry-on-rules",
+    "image": "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 짐 싸기",
+      "title": "대만 여행 김치 기내 반입, 캔 볶음김치는 어떻게 챙길까?",
+      "desc": "캔 김치는 기내? 위탁? 액체류 기준과 대만 돼지고기 반입 금지까지 한 번에 정리했어요.",
+      "meta": "대만 · 수하물 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Packing",
-      title: "Bringing Canned Kimchi to Taiwan: Carry-on or Checked?",
-      desc: "Carry-on or checked? Kimchi liquid rules plus Taiwan's pork product ban in one place.",
-      meta: "Taiwan · Baggage Guide",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Packing",
+      "title": "Bringing Canned Kimchi to Taiwan: Carry-on or Checked?",
+      "desc": "Carry-on or checked? Kimchi liquid rules plus Taiwan's pork product ban in one place.",
+      "meta": "Taiwan · Baggage Guide"
+    }
   },
   {
-    slug: "taiwan-pineapple-cake-brand-comparison",
-    image: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg",
-    regions: ["taipei", "tainan"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 선물",
-      title: "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까?",
-      desc: "치아더·치메이·써니힐즈, 소 재료와 가격대, 사기 좋은 곳을 한 표로 비교했어요.",
-      meta: "대만 · 선물 가이드",
+    "slug": "taiwan-pineapple-cake-brand-comparison",
+    "image": "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg",
+    "regions": [
+      "taipei",
+      "tainan"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 선물",
+      "title": "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까?",
+      "desc": "치아더·치메이·써니힐즈, 소 재료와 가격대, 사기 좋은 곳을 한 표로 비교했어요.",
+      "meta": "대만 · 선물 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Gifts",
-      title: "Taiwan Pineapple Cake Brands Compared: Chia Te, Chimei, or SunnyHills?",
-      desc: "Chia Te, Chimei, and SunnyHills compared by filling, price, and where to buy.",
-      meta: "Taiwan · Gift Guide",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Gifts",
+      "title": "Taiwan Pineapple Cake Brands Compared: Chia Te, Chimei, or SunnyHills?",
+      "desc": "Chia Te, Chimei, and SunnyHills compared by filling, price, and where to buy.",
+      "meta": "Taiwan · Gift Guide"
+    }
   },
   {
-    slug: "taiwan-arrival-card-twac-guide",
-    image: "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 입국 준비",
-      title: "대만 입국신고서 TWAC, 언제 어떻게 작성하면 될까?",
-      desc: "종이 신고서는 끝, 이제는 온라인 TWAC — 작성 시기와 가족 대리 작성, 주의할 점을 2026년 기준으로 정리했어요.",
-      meta: "대만 여행 · 입국 가이드",
+    "slug": "taiwan-arrival-card-twac-guide",
+    "image": "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 입국 준비",
+      "title": "대만 입국신고서 TWAC, 언제 어떻게 작성하면 될까?",
+      "desc": "종이 신고서는 끝, 이제는 온라인 TWAC — 작성 시기와 가족 대리 작성, 주의할 점을 2026년 기준으로 정리했어요.",
+      "meta": "대만 여행 · 입국 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Entry Prep",
-      title: "Taiwan Arrival Card (TWAC): When and How Should You Fill It Out?",
-      desc: "Paper cards are gone; it's all online TWAC now — timing, family submissions, and pitfalls as of 2026.",
-      meta: "Taiwan Travel · Entry Guide",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Entry Prep",
+      "title": "Taiwan Arrival Card (TWAC): When and How Should You Fill It Out?",
+      "desc": "Paper cards are gone; it's all online TWAC now — timing, family submissions, and pitfalls as of 2026.",
+      "meta": "Taiwan Travel · Entry Guide"
+    }
   },
   {
-    slug: "taipei-taichung-kaohsiung-with-mom",
-    image: "assets/images/regions/taipei.webp",
-    regions: ["taipei", "taichung", "kaohsiung"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 도시 선택",
-      title: "타이베이·타이중·가오슝, 엄마와 가는 첫 대만 여행 어디가 편할까",
-      desc: "이동 난이도, 관광 밀도, 부모님 동선까지 — 세 도시를 비교해서 첫 대만 여행지를 골라봤습니다.",
-      meta: "대만 여행 · 도시 비교",
+    "slug": "taipei-taichung-kaohsiung-with-mom",
+    "image": "assets/images/regions/taipei.webp",
+    "regions": [
+      "taipei",
+      "taichung",
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 도시 선택",
+      "title": "타이베이·타이중·가오슝, 엄마와 가는 첫 대만 여행 어디가 편할까",
+      "desc": "이동 난이도, 관광 밀도, 부모님 동선까지 — 세 도시를 비교해서 첫 대만 여행지를 골라봤습니다.",
+      "meta": "대만 여행 · 도시 비교"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Choosing a City",
-      title: "Taipei vs. Taichung vs. Kaohsiung: Best First City for a Trip with Mom",
-      desc: "Comparing transit difficulty, sightseeing density, and how easy the walking is — to help pick a first Taiwan destination with a parent.",
-      meta: "Taiwan Travel · City Comparison",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Choosing a City",
+      "title": "Taipei vs. Taichung vs. Kaohsiung: Best First City for a Trip with Mom",
+      "desc": "Comparing transit difficulty, sightseeing density, and how easy the walking is — to help pick a first Taiwan destination with a parent.",
+      "meta": "Taiwan Travel · City Comparison"
+    }
   },
   {
-    slug: "taipei-easycard-transport-guide",
-    image: "assets/images/blog/taipei-taxi-night-market.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 교통",
-      title: "타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?",
-      desc: "이지카드, 신용카드 컨택리스 결제, 버스, 택시(우버)까지 — 첫 타이베이 여행자를 위한 교통수단 총정리.",
-      meta: "타이베이 · 교통 가이드",
+    "slug": "taipei-easycard-transport-guide",
+    "image": "assets/images/blog/taipei-taxi-night-market.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 교통",
+      "title": "타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?",
+      "desc": "이지카드, 신용카드 컨택리스 결제, 버스, 택시(우버)까지 — 첫 타이베이 여행자를 위한 교통수단 총정리.",
+      "meta": "타이베이 · 교통 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Transportation",
-      title: "Taipei First Trip, 4 Days 3 Nights: Is an EasyCard Enough?",
-      desc: "EasyCard, contactless credit cards, buses, and taxis (Uber) — a complete transportation rundown for first-time Taipei visitors.",
-      meta: "Taipei · Transportation Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Transportation",
+      "title": "Taipei First Trip, 4 Days 3 Nights: Is an EasyCard Enough?",
+      "desc": "EasyCard, contactless credit cards, buses, and taxis (Uber) — a complete transportation rundown for first-time Taipei visitors.",
+      "meta": "Taipei · Transportation Guide"
+    }
   },
   {
-    slug: "taipei-souvenir-gift-guide",
-    image: "assets/images/blog/taiwan-pineapple-tart.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 선물",
-      title: "대만 여행 선물 추천 — 뻔한 간식 말고 뭘 사올까?",
-      desc: "펑리수·누가크래커는 다들 사 오는 국룰이죠. 그래도 새로운 선물을 찾는다면, 브랜드별 비교와 가성비 팁까지 정리했어요.",
-      meta: "타이베이 · 선물 가이드",
+    "slug": "taipei-souvenir-gift-guide",
+    "image": "assets/images/blog/taiwan-pineapple-tart.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 선물",
+      "title": "대만 여행 선물 추천 — 뻔한 간식 말고 뭘 사올까?",
+      "desc": "펑리수·누가크래커는 다들 사 오는 국룰이죠. 그래도 새로운 선물을 찾는다면, 브랜드별 비교와 가성비 팁까지 정리했어요.",
+      "meta": "타이베이 · 선물 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Souvenirs",
-      title: "Taiwan Souvenir Guide: What to Bring Home Besides the Usual Snacks",
-      desc: "Pineapple cake and nougat crackers are the classic picks. Here's a brand comparison and budget tips for when you want something different.",
-      meta: "Taipei · Souvenir Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Souvenirs",
+      "title": "Taiwan Souvenir Guide: What to Bring Home Besides the Usual Snacks",
+      "desc": "Pineapple cake and nougat crackers are the classic picks. Here's a brand comparison and budget tips for when you want something different.",
+      "meta": "Taipei · Souvenir Guide"
+    }
   },
   {
-    slug: "taipei-overnight-red-eye-flight-last-day",
-    image: "assets/images/blog/taipei-chiang-kai-shek-hall-night.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 일정 팁",
-      title: "타이베이 마지막 날, 숙박 없이 새벽 비행기 타도 될까?",
-      desc: "마지막 날 밤 숙소를 잡지 않고 새벽 비행기를 타는 '무박' 일정. 실제 여행자들의 경험을 바탕으로 장단점과 시간 활용법을 정리했어요.",
-      meta: "타이베이 · 일정 가이드",
+    "slug": "taipei-overnight-red-eye-flight-last-day",
+    "image": "assets/images/blog/taipei-chiang-kai-shek-hall-night.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 일정 팁",
+      "title": "타이베이 마지막 날, 숙박 없이 새벽 비행기 타도 될까?",
+      "desc": "마지막 날 밤 숙소를 잡지 않고 새벽 비행기를 타는 '무박' 일정. 실제 여행자들의 경험을 바탕으로 장단점과 시간 활용법을 정리했어요.",
+      "meta": "타이베이 · 일정 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Itinerary Tips",
-      title: "Taipei Last Day: Can You Skip the Hotel and Catch a Red-Eye Flight?",
-      desc: "Checking out and spending the whole last day out before a 2-3am flight, no extra hotel night. Real traveler experiences on the pros, cons, and how to spend the time.",
-      meta: "Taipei · Itinerary Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Itinerary Tips",
+      "title": "Taipei Last Day: Can You Skip the Hotel and Catch a Red-Eye Flight?",
+      "desc": "Checking out and spending the whole last day out before a 2-3am flight, no extra hotel night. Real traveler experiences on the pros, cons, and how to spend the time.",
+      "meta": "Taipei · Itinerary Guide"
+    }
   },
   {
-    slug: "taipei-liquid-checked-baggage-guide",
-    image: "assets/images/blog/travel-suitcase-packing.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 쇼핑·수하물",
-      title: "대만 간식·술, 기내 반입 될까 위탁수하물로 부쳐야 할까",
-      desc: "젤리·푸딩 같은 말랑한 간식부터 고량주까지 — 액체·젤류 반입 기준과 주류 면세 한도를 한 번에 정리했어요.",
-      meta: "타이베이 · 쇼핑 가이드",
+    "slug": "taipei-liquid-checked-baggage-guide",
+    "image": "assets/images/blog/travel-suitcase-packing.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 쇼핑·수하물",
+      "title": "대만 간식·술, 기내 반입 될까 위탁수하물로 부쳐야 할까",
+      "desc": "젤리·푸딩 같은 말랑한 간식부터 고량주까지 — 액체·젤류 반입 기준과 주류 면세 한도를 한 번에 정리했어요.",
+      "meta": "타이베이 · 쇼핑 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Shopping & Baggage",
-      title: "Taiwan Snacks and Liquor: Carry-On or Checked Baggage?",
-      desc: "From jelly cups and pudding snacks to Kaoliang liquor — what counts as a liquid at security, and Korea's duty-free alcohol allowance.",
-      meta: "Taipei · Shopping Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Shopping & Baggage",
+      "title": "Taiwan Snacks and Liquor: Carry-On or Checked Baggage?",
+      "desc": "From jelly cups and pudding snacks to Kaoliang liquor — what counts as a liquid at security, and Korea's duty-free alcohol allowance.",
+      "meta": "Taipei · Shopping Guide"
+    }
   },
   {
-    slug: "taipei-xiangde-peking-duck-half-day-course",
-    image: "assets/images/blog/peking-duck-platter.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 맛집 코스",
-      title: "베이징덕 맛집 샹덕(享鴨) 먹고 어디 갈까 — 중샤오둔화 반나절 코스",
-      desc: "예약 필수인 베이징덕 맛집 샹덕에서 식사하고, 도보·MRT로 가볍게 돌아볼 수 있는 주변 반나절 코스를 짜봤어요.",
-      meta: "타이베이 · 맛집 코스",
+    "slug": "taipei-xiangde-peking-duck-half-day-course",
+    "image": "assets/images/blog/peking-duck-platter.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 맛집 코스",
+      "title": "베이징덕 맛집 샹덕(享鴨) 먹고 어디 갈까 — 중샤오둔화 반나절 코스",
+      "desc": "예약 필수인 베이징덕 맛집 샹덕에서 식사하고, 도보·MRT로 가볍게 돌아볼 수 있는 주변 반나절 코스를 짜봤어요.",
+      "meta": "타이베이 · 맛집 코스"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Food Course",
-      title: "What's Near Xiang Duck (享鴨)? A Half-Day Course Around Zhongxiao Dunhua",
-      desc: "A half-day route built around Xiang Duck, the reservation-only Peking duck specialist — shopping, a park, and a culture park all within a station or two.",
-      meta: "Taipei · Food Course",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Food Course",
+      "title": "What's Near Xiang Duck (享鴨)? A Half-Day Course Around Zhongxiao Dunhua",
+      "desc": "A half-day route built around Xiang Duck, the reservation-only Peking duck specialist — shopping, a park, and a culture park all within a station or two.",
+      "meta": "Taipei · Food Course"
+    }
   },
   {
-    slug: "jiufen-friday-vs-sunday-crowds",
-    image: "assets/images/regions/jiufen.webp",
-    regions: ["jiufen"],
-    ko: {
-      eyebrow: "지우펀 여행 가이드 · 방문 타이밍",
-      title: "지우펀, 금요일 vs 일요일 언제 덜 붐빌까",
-      desc: "초등학생 자녀와 함께라면 특히 중요한 혼잡도 문제. 요일별·시간대별 체감 혼잡도와 방문 타이밍 팁을 정리했어요.",
-      meta: "지우펀 · 방문 타이밍",
+    "slug": "jiufen-friday-vs-sunday-crowds",
+    "image": "assets/images/regions/jiufen.webp",
+    "regions": [
+      "jiufen"
+    ],
+    "ko": {
+      "eyebrow": "지우펀 여행 가이드 · 방문 타이밍",
+      "title": "지우펀, 금요일 vs 일요일 언제 덜 붐빌까",
+      "desc": "초등학생 자녀와 함께라면 특히 중요한 혼잡도 문제. 요일별·시간대별 체감 혼잡도와 방문 타이밍 팁을 정리했어요.",
+      "meta": "지우펀 · 방문 타이밍"
     },
-    en: {
-      eyebrow: "Jiufen Travel Guide · Timing Your Visit",
-      title: "Jiufen: Friday vs. Sunday, Which Day Is Less Crowded?",
-      desc: "Especially important when traveling with young kids — a breakdown of how crowded Jiufen gets by day and time, and how to time your visit.",
-      meta: "Jiufen · Timing Your Visit",
-    },
+    "en": {
+      "eyebrow": "Jiufen Travel Guide · Timing Your Visit",
+      "title": "Jiufen: Friday vs. Sunday, Which Day Is Less Crowded?",
+      "desc": "Especially important when traveling with young kids — a breakdown of how crowded Jiufen gets by day and time, and how to time your visit.",
+      "meta": "Jiufen · Timing Your Visit"
+    }
   },
   {
-    slug: "taipei-longshan-temple-night-guide",
-    image: "assets/images/blog/taiwan-temple-night-lanterns.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 야경 코스",
-      title: "용산사는 낮보다 밤? 야경 시간대와 주변 코스 짜는 법",
-      desc: "붐비는 낮 시간을 피해 야경으로 즐기는 용산사. 방문 시간대별 분위기 차이와 완화 야시장 연계 코스를 정리했어요.",
-      meta: "타이베이 · 야경 코스",
+    "slug": "taipei-longshan-temple-night-guide",
+    "image": "assets/images/blog/taiwan-temple-night-lanterns.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 야경 코스",
+      "title": "용산사는 낮보다 밤? 야경 시간대와 주변 코스 짜는 법",
+      "desc": "붐비는 낮 시간을 피해 야경으로 즐기는 용산사. 방문 시간대별 분위기 차이와 완화 야시장 연계 코스를 정리했어요.",
+      "meta": "타이베이 · 야경 코스"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Night View Course",
-      title: "Longshan Temple: Better at Night Than by Day?",
-      desc: "How the atmosphere changes after dark, and a route linking the temple with Wanhua's night markets.",
-      meta: "Taipei · Night View Course",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Night View Course",
+      "title": "Longshan Temple: Better at Night Than by Day?",
+      "desc": "How the atmosphere changes after dark, and a route linking the temple with Wanhua's night markets.",
+      "meta": "Taipei · Night View Course"
+    }
   },
   {
-    slug: "taipei-afternoon-flight-last-day-itinerary",
-    image: "assets/images/blog/airport-terminal-departure.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 일정 팁",
-      title: "타이베이 마지막 날 오후 비행기, 공항 가기 전 어디까지 다녀올까",
-      desc: "16:55 같은 오후 비행기라면 마지막 날 반나절이 통째로 남습니다. 짐 보관부터 공항 이동 시간까지 역산해서 짜는 반나절 코스.",
-      meta: "타이베이 · 일정 가이드",
+    "slug": "taipei-afternoon-flight-last-day-itinerary",
+    "image": "assets/images/blog/airport-terminal-departure.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 일정 팁",
+      "title": "타이베이 마지막 날 오후 비행기, 공항 가기 전 어디까지 다녀올까",
+      "desc": "16:55 같은 오후 비행기라면 마지막 날 반나절이 통째로 남습니다. 짐 보관부터 공항 이동 시간까지 역산해서 짜는 반나절 코스.",
+      "meta": "타이베이 · 일정 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Itinerary Tips",
-      title: "Taipei Last Day, Afternoon Flight: How Much Can You Fit In Before the Airport?",
-      desc: "With a flight around 4-5pm, your whole last morning is free. Here's how to plan it by working backward from your airport departure time.",
-      meta: "Taipei · Itinerary Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Itinerary Tips",
+      "title": "Taipei Last Day, Afternoon Flight: How Much Can You Fit In Before the Airport?",
+      "desc": "With a flight around 4-5pm, your whole last morning is free. Here's how to plan it by working backward from your airport departure time.",
+      "meta": "Taipei · Itinerary Guide"
+    }
   },
   {
-    slug: "taipei-hotel-location-ximen-main-station-zhongshan",
-    image: "assets/images/blog/taipei-street-hotel-neon.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "타이베이 여행 가이드 · 숙소 선택",
-      title: "타이베이 숙소 위치 비교 — 시먼 vs 메인역 vs 중산, 어디가 편할까",
-      desc: "쇼핑·야시장이 좋으면 시먼, 공항 이동이 우선이면 메인역, 조용한 카페 감성을 원하면 중산. 세 지역을 기준별로 비교했어요.",
-      meta: "타이베이 · 숙소 가이드",
+    "slug": "taipei-hotel-location-ximen-main-station-zhongshan",
+    "image": "assets/images/blog/taipei-street-hotel-neon.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 숙소 선택",
+      "title": "타이베이 숙소 위치 비교 — 시먼 vs 메인역 vs 중산, 어디가 편할까",
+      "desc": "쇼핑·야시장이 좋으면 시먼, 공항 이동이 우선이면 메인역, 조용한 카페 감성을 원하면 중산. 세 지역을 기준별로 비교했어요.",
+      "meta": "타이베이 · 숙소 가이드"
     },
-    en: {
-      eyebrow: "Taipei Travel Guide · Choosing a Hotel",
-      title: "Where to Stay in Taipei: Ximen vs. Main Station vs. Zhongshan",
-      desc: "Shopping and night markets, airport convenience, or a quieter cafe vibe — comparing three popular hotel areas.",
-      meta: "Taipei · Hotel Guide",
-    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Choosing a Hotel",
+      "title": "Where to Stay in Taipei: Ximen vs. Main Station vs. Zhongshan",
+      "desc": "Shopping and night markets, airport convenience, or a quieter cafe vibe — comparing three popular hotel areas.",
+      "meta": "Taipei · Hotel Guide"
+    }
   },
   {
-    slug: "kaohsiung-local-tea-shop-buying-guide",
-    image: "assets/images/blog/kaohsiung-local-tea-shop-buying-guide-1.jpg",
-    regions: ["kaohsiung"],
-    ko: {
-      eyebrow: "가오슝 여행 가이드 · 쇼핑",
-      title: "가오슝 동네 차행에서 일상용 차 사기, 관광지 가게와 뭐가 다를까?",
-      desc: "관광지 기념품 말고 동네 차행에서 매일 마실 차를 사는 법 — 종류, 단위, 고르는 요령을 정리했어요.",
-      meta: "가오슝 · 쇼핑 가이드",
+    "slug": "kaohsiung-local-tea-shop-buying-guide",
+    "image": "assets/images/blog/kaohsiung-local-tea-shop-buying-guide-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 쇼핑",
+      "title": "가오슝 동네 차행에서 일상용 차 사기, 관광지 가게와 뭐가 다를까?",
+      "desc": "관광지 기념품 말고 동네 차행에서 매일 마실 차를 사는 법 — 종류, 단위, 고르는 요령을 정리했어요.",
+      "meta": "가오슝 · 쇼핑 가이드"
     },
-    en: {
-      eyebrow: "Kaohsiung Travel Guide · Shopping",
-      title: "Buying Everyday Tea in Kaohsiung: Is a Neighborhood Tea Shop Worth It?",
-      desc: "Skip the souvenir boxes — how to buy everyday tea at a local Kaohsiung tea shop, from tea types to weight units.",
-      meta: "Kaohsiung · Shopping Guide",
-    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Shopping",
+      "title": "Buying Everyday Tea in Kaohsiung: Is a Neighborhood Tea Shop Worth It?",
+      "desc": "Skip the souvenir boxes — how to buy everyday tea at a local Kaohsiung tea shop, from tea types to weight units.",
+      "meta": "Kaohsiung · Shopping Guide"
+    }
   },
   {
-    slug: "kaohsiung-fo-guang-shan-with-parents-checklist",
-    image: "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg",
-    regions: ["kaohsiung"],
-    ko: {
-      eyebrow: "가오슝 여행 가이드 · 부모님 동반",
-      title: "불광산 부모님 동반 여행, 불타기념관 계단·이동 괜찮을까?",
-      desc: "걷기 부담이 있는 부모님과 불광산에 간다면 — 교통, 휠체어 대여, 셔틀, 휴관일을 한 번에 정리했어요.",
-      meta: "가오슝 · 부모님 동반 가이드",
+    "slug": "kaohsiung-fo-guang-shan-with-parents-checklist",
+    "image": "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 부모님 동반",
+      "title": "불광산 부모님 동반 여행, 불타기념관 계단·이동 괜찮을까?",
+      "desc": "걷기 부담이 있는 부모님과 불광산에 간다면 — 교통, 휠체어 대여, 셔틀, 휴관일을 한 번에 정리했어요.",
+      "meta": "가오슝 · 부모님 동반 가이드"
     },
-    en: {
-      eyebrow: "Kaohsiung Travel Guide · With Parents",
-      title: "Fo Guang Shan with Parents: How Hard Are the Walking and Transport?",
-      desc: "Visiting Fo Guang Shan with parents who can't walk far — transport, wheelchair loans, shuttle, and closing days in one place.",
-      meta: "Kaohsiung · Traveling with Parents",
-    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · With Parents",
+      "title": "Fo Guang Shan with Parents: How Hard Are the Walking and Transport?",
+      "desc": "Visiting Fo Guang Shan with parents who can't walk far — transport, wheelchair loans, shuttle, and closing days in one place.",
+      "meta": "Kaohsiung · Traveling with Parents"
+    }
   },
   {
-    slug: "kaohsiung-3n4d-with-mom-itinerary-check",
-    image: "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg",
-    regions: ["kaohsiung"],
-    ko: {
-      eyebrow: "가오슝 여행 가이드 · 일정 팁",
-      title: "가오슝 3박4일 부모님 일정, AI가 짠 그대로 가도 될까?",
-      desc: "AI가 짜준 가오슝 일정을 엄마와 다니기 편하게 고치는 법 — 과밀, 휴관일, 이동 거리 점검 포인트.",
-      meta: "가오슝 · 일정 가이드",
+    "slug": "kaohsiung-3n4d-with-mom-itinerary-check",
+    "image": "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 일정 팁",
+      "title": "가오슝 3박4일 부모님 일정, AI가 짠 그대로 가도 될까?",
+      "desc": "AI가 짜준 가오슝 일정을 엄마와 다니기 편하게 고치는 법 — 과밀, 휴관일, 이동 거리 점검 포인트.",
+      "meta": "가오슝 · 일정 가이드"
     },
-    en: {
-      eyebrow: "Kaohsiung Travel Guide · Itinerary Tips",
-      title: "Kaohsiung 4 Days with Mom: Can You Trust an AI-Made Itinerary?",
-      desc: "How to turn an AI-generated Kaohsiung plan into one that works with Mom — overpacking, closing days, and walking distance.",
-      meta: "Kaohsiung · Itinerary Guide",
-    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Itinerary Tips",
+      "title": "Kaohsiung 4 Days with Mom: Can You Trust an AI-Made Itinerary?",
+      "desc": "How to turn an AI-generated Kaohsiung plan into one that works with Mom — overpacking, closing days, and walking distance.",
+      "meta": "Kaohsiung · Itinerary Guide"
+    }
   },
   {
-    slug: "taiwan-private-charter-taxi-family-checklist",
-    image: "assets/images/blog/taiwan-private-charter-taxi-family-checklist-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 교통",
-      title: "대만 가족여행 프라이빗 택시, 예약 전에 뭘 확인해야 할까?",
-      desc: "가족 단위로 전세 택시를 예약할 때 — 차종, 요금에 포함되는 것, 픽업 조건, 카시트까지 체크리스트로 정리했어요.",
-      meta: "대만 여행 · 교통 가이드",
+    "slug": "taiwan-private-charter-taxi-family-checklist",
+    "image": "assets/images/blog/taiwan-private-charter-taxi-family-checklist-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 교통",
+      "title": "대만 가족여행 프라이빗 택시, 예약 전에 뭘 확인해야 할까?",
+      "desc": "가족 단위로 전세 택시를 예약할 때 — 차종, 요금에 포함되는 것, 픽업 조건, 카시트까지 체크리스트로 정리했어요.",
+      "meta": "대만 여행 · 교통 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Transportation",
-      title: "Booking a Private Taxi for a Family Trip in Taiwan: What to Check First",
-      desc: "Booking a charter taxi as a family — vehicle type, what the price includes, pickup terms, and child seats in one checklist.",
-      meta: "Taiwan Travel · Transportation Guide",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Transportation",
+      "title": "Booking a Private Taxi for a Family Trip in Taiwan: What to Check First",
+      "desc": "Booking a charter taxi as a family — vehicle type, what the price includes, pickup terms, and child seats in one checklist.",
+      "meta": "Taiwan Travel · Transportation Guide"
+    }
   },
   {
-    slug: "taiwan-hotel-aircon-seasonal-packing",
-    image: "assets/images/blog/taiwan-hotel-aircon-seasonal-packing-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 날씨·짐싸기",
-      title: "대만 여행 옷차림, 숙소 에어컨까지 생각하면 계절별로 뭘 챙길까?",
-      desc: "밖은 찜통, 실내는 냉장고 — 대만 여행 계절별 옷차림과 냉방 대비, 날씨 확인법을 정리했어요.",
-      meta: "대만 여행 · 날씨 가이드",
+    "slug": "taiwan-hotel-aircon-seasonal-packing",
+    "image": "assets/images/blog/taiwan-hotel-aircon-seasonal-packing-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 날씨·짐싸기",
+      "title": "대만 여행 옷차림, 숙소 에어컨까지 생각하면 계절별로 뭘 챙길까?",
+      "desc": "밖은 찜통, 실내는 냉장고 — 대만 여행 계절별 옷차림과 냉방 대비, 날씨 확인법을 정리했어요.",
+      "meta": "대만 여행 · 날씨 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Weather & Packing",
-      title: "Why Is the AC So Cold in Taiwan? What to Pack for Each Season",
-      desc: "Steamy outside, freezing inside — seasonal packing for Taiwan, how to handle AC, and where to check the weather.",
-      meta: "Taiwan Travel · Weather Guide",
-    },
-  },
-
-  {
-    slug: "taiwan-double-ten-national-day-2026",
-    image: "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg",
-    regions: ["taipei", "taitung"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 행사·연휴",
-      title: "2026 쌍십절 대만 여행, 연휴 기간에 가도 괜찮을까?",
-      desc: "2026 쌍십절 연휴에 대만을 간다면 — 불꽃놀이 장소, 국경 만회, 교통 통제와 숙소 팁을 정리했어요.",
-      meta: "대만 여행 · 행사 가이드",
-    },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Events & Holidays",
-      title: "Traveling in Taiwan Over Double Ten 2026: Is the Holiday a Good Time?",
-      desc: "Heading to Taiwan over Double Ten 2026 — fireworks, the gala, road closures, and booking tips in one place.",
-      meta: "Taiwan Travel · Event Guide",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Weather & Packing",
+      "title": "Why Is the AC So Cold in Taiwan? What to Pack for Each Season",
+      "desc": "Steamy outside, freezing inside — seasonal packing for Taiwan, how to handle AC, and where to check the weather.",
+      "meta": "Taiwan Travel · Weather Guide"
+    }
   },
   {
-    slug: "taipei-tainan-3n4d-itinerary-split",
-    image: "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg",
-    regions: ["taipei", "tainan"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 일정 팁",
-      title: "타이베이 타이난 3박4일, 이동 줄이려면 며칠씩 나눌까?",
-      desc: "3박4일에 타이베이와 타이난을 모두 넣고 싶다면 — 숙박 배분안 세 가지와 고속철 이동 팁을 비교했어요.",
-      meta: "타이베이·타이난 · 일정 가이드",
+    "slug": "taiwan-double-ten-national-day-2026",
+    "image": "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg",
+    "regions": [
+      "taipei",
+      "taitung"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 행사·연휴",
+      "title": "2026 쌍십절 대만 여행, 연휴 기간에 가도 괜찮을까?",
+      "desc": "2026 쌍십절 연휴에 대만을 간다면 — 불꽃놀이 장소, 국경 만회, 교통 통제와 숙소 팁을 정리했어요.",
+      "meta": "대만 여행 · 행사 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Itinerary Tips",
-      title: "Taipei + Tainan in 4 Days: How Should You Split the Nights?",
-      desc: "Want both Taipei and Tainan in 4 days? Three ways to split your nights and tips for the HSR trip.",
-      meta: "Taipei & Tainan · Itinerary Guide",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Events & Holidays",
+      "title": "Traveling in Taiwan Over Double Ten 2026: Is the Holiday a Good Time?",
+      "desc": "Heading to Taiwan over Double Ten 2026 — fireworks, the gala, road closures, and booking tips in one place.",
+      "meta": "Taiwan Travel · Event Guide"
+    }
   },
   {
-    slug: "taiwan-first-trip-region-choice",
-    image: "assets/images/blog/taiwan-first-trip-region-choice-1.jpg",
-    regions: ["taipei", "kaohsiung", "tainan", "taichung", "hualien"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 도시 선택",
-      title: "타이베이 말고 어디 갈까? 대만 여행 지역 추천, 일정별 선택표",
-      desc: "가오슝·타이난·타이중·화롄 중 어디가 맞을까 — 여행 일수와 관심사별 지역 선택표.",
-      meta: "대만 여행 · 도시 비교",
+    "slug": "taipei-tainan-3n4d-itinerary-split",
+    "image": "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg",
+    "regions": [
+      "taipei",
+      "tainan"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 일정 팁",
+      "title": "타이베이 타이난 3박4일, 이동 줄이려면 며칠씩 나눌까?",
+      "desc": "3박4일에 타이베이와 타이난을 모두 넣고 싶다면 — 숙박 배분안 세 가지와 고속철 이동 팁을 비교했어요.",
+      "meta": "타이베이·타이난 · 일정 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Choosing a City",
-      title: "Beyond Taipei: Which Taiwan Region Fits a Short Trip?",
-      desc: "Kaohsiung, Tainan, Taichung, or Hualien? A region picker by trip length and interests.",
-      meta: "Taiwan Travel · City Comparison",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Itinerary Tips",
+      "title": "Taipei + Tainan in 4 Days: How Should You Split the Nights?",
+      "desc": "Want both Taipei and Tainan in 4 days? Three ways to split your nights and tips for the HSR trip.",
+      "meta": "Taipei & Tainan · Itinerary Guide"
+    }
   },
   {
-    slug: "hualien-hotel-location-guide",
-    image: "assets/images/blog/hualien-hotel-location-guide-1.jpg",
-    regions: ["hualien"],
-    ko: {
-      eyebrow: "화롄 여행 가이드 · 숙소",
-      title: "화롄 숙소 위치, 역 앞·시내·바다 전망 중 어디가 편할까?",
-      desc: "화롄역 앞, 시내, 칠성담 바다 쪽 — 이동 수단과 일정에 맞는 화롄 숙소 위치를 비교했어요.",
-      meta: "화롄 · 숙소 가이드",
+    "slug": "taiwan-first-trip-region-choice",
+    "image": "assets/images/blog/taiwan-first-trip-region-choice-1.jpg",
+    "regions": [
+      "taipei",
+      "kaohsiung",
+      "tainan",
+      "taichung",
+      "hualien"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 도시 선택",
+      "title": "타이베이 말고 어디 갈까? 대만 여행 지역 추천, 일정별 선택표",
+      "desc": "가오슝·타이난·타이중·화롄 중 어디가 맞을까 — 여행 일수와 관심사별 지역 선택표.",
+      "meta": "대만 여행 · 도시 비교"
     },
-    en: {
-      eyebrow: "Hualien Travel Guide · Where to Stay",
-      title: "Where to Stay in Hualien: Station, Downtown, or Sea View?",
-      desc: "Near Hualien Station, downtown, or Qixingtan by the sea — matching hotel location to transport and trip style.",
-      meta: "Hualien · Accommodation Guide",
-    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Choosing a City",
+      "title": "Beyond Taipei: Which Taiwan Region Fits a Short Trip?",
+      "desc": "Kaohsiung, Tainan, Taichung, or Hualien? A region picker by trip length and interests.",
+      "meta": "Taiwan Travel · City Comparison"
+    }
   },
   {
-    slug: "taiwan-repeat-visitor-lucky-draw-2026",
-    image: "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg",
-    regions: ["taipei"],
-    ko: {
-      eyebrow: "대만 여행 가이드 · 여행 지원금",
-      title: "대만 재방문 여행 지원금 2026, 누가 어떻게 받을 수 있을까?",
-      desc: "재방문 자유여행객 추첨으로 NT$5,000, 동행 1명 NT$3,000 — 자격과 등록 시기, 수령 방법 정리.",
-      meta: "대만 여행 · 지원금 가이드",
+    "slug": "hualien-hotel-location-guide",
+    "image": "assets/images/blog/hualien-hotel-location-guide-1.jpg",
+    "regions": [
+      "hualien"
+    ],
+    "ko": {
+      "eyebrow": "화롄 여행 가이드 · 숙소",
+      "title": "화롄 숙소 위치, 역 앞·시내·바다 전망 중 어디가 편할까?",
+      "desc": "화롄역 앞, 시내, 칠성담 바다 쪽 — 이동 수단과 일정에 맞는 화롄 숙소 위치를 비교했어요.",
+      "meta": "화롄 · 숙소 가이드"
     },
-    en: {
-      eyebrow: "Taiwan Travel Guide · Travel Incentives",
-      title: "Taiwan's 2026 Repeat Visitor Lucky Draw: Who Qualifies and How?",
-      desc: "NT$5,000 for repeat visitors and NT$3,000 for one companion, by weekly draw — eligibility, registration timing, and redemption.",
-      meta: "Taiwan Travel · Incentive Guide",
-    },
+    "en": {
+      "eyebrow": "Hualien Travel Guide · Where to Stay",
+      "title": "Where to Stay in Hualien: Station, Downtown, or Sea View?",
+      "desc": "Near Hualien Station, downtown, or Qixingtan by the sea — matching hotel location to transport and trip style.",
+      "meta": "Hualien · Accommodation Guide"
+    }
   },
-
+  {
+    "slug": "taiwan-repeat-visitor-lucky-draw-2026",
+    "image": "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "대만 여행 가이드 · 여행 지원금",
+      "title": "대만 재방문 여행 지원금 2026, 누가 어떻게 받을 수 있을까?",
+      "desc": "재방문 자유여행객 추첨으로 NT$5,000, 동행 1명 NT$3,000 — 자격과 등록 시기, 수령 방법 정리.",
+      "meta": "대만 여행 · 지원금 가이드"
+    },
+    "en": {
+      "eyebrow": "Taiwan Travel Guide · Travel Incentives",
+      "title": "Taiwan's 2026 Repeat Visitor Lucky Draw: Who Qualifies and How?",
+      "desc": "NT$5,000 for repeat visitors and NT$3,000 for one companion, by weekly draw — eligibility, registration timing, and redemption.",
+      "meta": "Taiwan Travel · Incentive Guide"
+    }
+  }
 ];
 
 const BLOG_POSTS = {
-  "kaohsiung-shoushan-zoo-ticket-nearby-eats": {
-    "heroImage": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
-    "ko": {
-      "pageTitle": "서우산 동물원 입장권·근처 맛집 — 가오슝 · 나만 알고 싶은 대만 맛집",
-      "metaDescription": "가오슝 서우산 동물원의 운영 시간과 입장료, 가는 법과 원숭이 주의, 둘러본 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
-      "ogTitle": "서우산 동물원 입장권과 근처 맛집, 동물 보고 어디서 먹을까?",
-      "eyebrow": "가오슝 여행 가이드 · 볼거리·먹거리",
-      "title": "서우산 동물원 입장권과 근처 맛집, 동물 보고 어디서 먹을까?",
-      "dek": "가오슝 시내 산 위 동물원을 둘러본 다음, 지도에 등록된 근처 맛집까지 한 번에 챙겨보세요.",
-      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
-      "metaTopic": "가오슝 · 볼거리·먹거리",
-      "intro": "서우산 동물원(壽山動物園)은 가오슝 시내 서우산(壽山) 자락에 있는 시립 동물원이에요. 高雄市壽山動物園 공식 사이트를 바탕으로 2026년 10월 기준으로 정리했어요.",
-      "blocks": [
-        {
-          "type": "h2",
-          "text": "01 · 서우산 동물원은 어떤 곳일까"
-        },
-        {
-          "type": "p",
-          "html": "가오슝 시내에서 가까운 산 위 동물원이라 아이와 반나절 나들이로 가기 좋아요. 아이와 갈 때 챙길 점은 <a href=\"/blog-kaohsiung-shoushan-zoo-tickets-kids-tips\">서우산 동물원 입장권·아이 동반 팁</a> 글에 따로 정리해뒀어요."
-        },
-        {
-          "type": "figure",
-          "img": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
-          "caption": "서우산 동물원이에요(사진: Yu tptw / Wikimedia Commons, CC BY-SA 4.0, 2024년 2월 촬영)."
-        },
-        {
-          "type": "h2",
-          "text": "02 · 가기 전에 알아둘 것"
-        },
-        {
-          "type": "tipList",
-          "items": [
-            {
-              "mark": "✓",
-              "b": "원숭이 주의",
-              "desc": "서우산에는 야생 원숭이가 많아요. 음식이나 비닐봉지를 손에 들고 다니지 마세요."
-            },
-            {
-              "mark": "✓",
-              "b": "월요일 휴무",
-              "desc": "월요일은 쉬지만 공휴일이면 열어요. 음력 섣달 그믐날도 쉬어요."
-            },
-            {
-              "mark": "✓",
-              "b": "입장 마감",
-              "desc": "16:30에 입장을 마감해요."
-            }
-          ]
-        },
-        {
-          "type": "h2",
-          "text": "03 · 가는 법"
-        },
-        {
-          "type": "tipList",
-          "items": [
-            {
-              "mark": "1",
-              "b": "버스",
-              "desc": "56번 버스로 동물원 앞까지 가요."
-            }
-          ]
-        },
-        {
-          "type": "h2",
-          "text": "04 · 운영 시간과 요금 (2026년 10월 기준)"
-        },
-        {
-          "type": "compareTable",
-          "cities": [
-            "",
-            "내용"
-          ],
-          "rows": [
-            {
-              "label": "운영 시간",
-              "values": [
-                "화~일 09:00~17:00 (입장 마감 16:30)"
-              ]
-            },
-            {
-              "label": "휴무",
-              "values": [
-                "월요일(공휴일은 운영), 음력 섣달 그믐날"
-              ]
-            },
-            {
-              "label": "입장료",
-              "values": [
-                "일반 NT$40, 6~17세 NT$20, 6세 미만 무료"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F85862-kaohsiung-shoushan-zoo%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 서우산 동물원 입장권 보기 →</a>"
-        },
-        {
-          "type": "h2",
-          "text": "05 · 둘러본 뒤 들르기 좋은 근처 맛집"
-        },
-        {
-          "type": "p",
-          "html": "아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
-        },
-        {
-          "type": "tipList",
-          "items": [
-            {
-              "mark": "1",
-              "b": "<a href=\"/kaohsiung-thai-song-dang-yeshi-restaurant-808\">Song Dang Yeshi Restaurant 送噹夜市餐廳</a> · 태국 · 남쪽 약 0.9km",
-              "desc": "지도 메모: 태국 밀크티가 지금까지 먹은 것 중 최고였고, 겉바속촉 닭구이도 아이가 잘 먹었다."
-            },
-            {
-              "mark": "2",
-              "b": "<a href=\"/kaohsiung-taiwanese-743\">라오디엔 바이홍 루자오 옌청점</a> · 대만식 · 남동쪽 약 1.0km",
-              "desc": "지도 메모: 미쉐린 빕 구르망 선정점이며 현지인이 많았고, 5,000원의 행복이었다고 평가함."
-            },
-            {
-              "mark": "3",
-              "b": "<a href=\"/kaohsiung-breakfast-742\">아이지 조식</a> · 조식 · 남동쪽 약 1.1km",
-              "desc": "지도 메모: 현지인 포장이 이어졌고, 바삭한 딴삥이라 추천한다고 씀."
-            },
-            {
-              "mark": "4",
-              "b": "<a href=\"/kaohsiung-taiwanese-x-809\">柒壹喫堂x鹽海小餐館</a> · 대만식 · 남동쪽 약 1.2km",
-              "desc": "지도 메모: 직원이 메뉴를 친절히 설명해주고, 설렁탕과 똠얌 사이 느낌의 국물·옥수수·오징어 요리가 독특하고 맛있다."
-            },
-            {
-              "mark": "5",
-              "b": "<a href=\"/kaohsiung-hotpot-711\">京華餐廳</a> · 훠궈 · 남동쪽 약 1.3km",
-              "desc": "지도 메모: 현지 친구들의 강력 추천으로 갔고 음식 하나하나 다 맛있었으며 쏸차이 훠궈가 특히 유명하다고 소개."
-            },
-            {
-              "mark": "6",
-              "b": "<a href=\"/kaohsiung-shaved_ice-737\">옌청 우자 금귤 또우화</a> · 빙수 · 남동쪽 약 1.4km",
-              "desc": "지도 메모: 금귤또우화가 더운 날씨에 정말 잘 어울리는 맛이라고 평가함."
-            },
-            {
-              "mark": "7",
-              "b": "<a href=\"/kaohsiung-breakfast-745\">류제 전통 판투안·단삥 전문점</a> · 조식 · 남동쪽 약 1.4km",
-              "desc": "지도 메모: 현지인 전화·포장이 많은 조식집이며, 뤄보까오와 판투안이 맛있다고 평가함."
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
-        },
-        {
-          "type": "note",
-          "text": "이 글은 高雄市壽山動物園 공식 사이트의 운영 시간·입장료·교통 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 시간과 요금은 바뀔 수 있으니 방문 전 공식 사이트를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
-        },
-        {
-          "type": "cta",
-          "title": "지도에서 가오슝 맛집도 확인해보세요",
-          "desc": "동물원 일정 앞뒤로 들를 가오슝 맛집을 지도에서 함께 찜해두세요.",
-          "btn": "지도 열기 →",
-          "href": "/map?region=kaohsiung"
-        }
-      ]
-    },
-    "en": {
-      "pageTitle": "Shoushan Zoo Tickets & Nearby Eats — Kaohsiung · My Secret Taiwan Eats",
-      "metaDescription": "Kaohsiung Shoushan Zoo's hours and admission, how to get there, a monkey warning, and nearby restaurants from our map for after your visit.",
-      "ogTitle": "Shoushan Zoo Tickets and Nearby Eats: Where to Eat After Seeing the Animals",
-      "eyebrow": "Kaohsiung Travel Guide · Sights & Food",
-      "title": "Shoushan Zoo Tickets and Nearby Eats: Where to Eat After Seeing the Animals",
-      "dek": "Visit the hilltop zoo in central Kaohsiung, then pick a nearby restaurant from our map in one go.",
-      "metaAuthor": "My Secret Taiwan Eats Editorial",
-      "metaTopic": "Kaohsiung · Sights & Food",
-      "intro": "Shoushan Zoo (壽山動物園) is a city zoo on the slopes of Shoushan (壽山) in central Kaohsiung. Based on the official 高雄市壽山動物園 site, as of October 2026.",
-      "blocks": [
-        {
-          "type": "h2",
-          "text": "01 · What Is Shoushan Zoo?"
-        },
-        {
-          "type": "p",
-          "html": "A hilltop zoo close to central Kaohsiung, good for a half-day outing with kids. For tips on going with children, see our separate post on <a href=\"/blog-kaohsiung-shoushan-zoo-tickets-kids-tips\">Shoushan Zoo tickets and tips with kids</a>."
-        },
-        {
-          "type": "figure",
-          "img": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
-          "caption": "Shoushan Zoo (photo: Yu tptw / Wikimedia Commons, CC BY-SA 4.0, taken February 2024)."
-        },
-        {
-          "type": "h2",
-          "text": "02 · Good to Know Before You Go"
-        },
-        {
-          "type": "tipList",
-          "items": [
-            {
-              "mark": "✓",
-              "b": "Watch out for monkeys",
-              "desc": "There are many wild monkeys on Shoushan. Don't carry food or plastic bags in your hands."
-            },
-            {
-              "mark": "✓",
-              "b": "Closed Mondays",
-              "desc": "Closed on Mondays but open if it's a public holiday. Also closed on Lunar New Year's Eve."
-            },
-            {
-              "mark": "✓",
-              "b": "Last entry",
-              "desc": "Last entry is at 16:30."
-            }
-          ]
-        },
-        {
-          "type": "h2",
-          "text": "03 · Getting There"
-        },
-        {
-          "type": "tipList",
-          "items": [
-            {
-              "mark": "1",
-              "b": "Bus",
-              "desc": "Bus 56 goes to the zoo entrance."
-            }
-          ]
-        },
-        {
-          "type": "h2",
-          "text": "04 · Hours and Admission (as of October 2026)"
-        },
-        {
-          "type": "compareTable",
-          "cities": [
-            "",
-            "Details"
-          ],
-          "rows": [
-            {
-              "label": "Hours",
-              "values": [
-                "Tue–Sun 09:00–17:00 (last entry 16:30)"
-              ]
-            },
-            {
-              "label": "Closed",
-              "values": [
-                "Mondays (open on public holidays), Lunar New Year's Eve"
-              ]
-            },
-            {
-              "label": "Admission",
-              "values": [
-                "General NT$40, ages 6–17 NT$20, under 6 free"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F85862-kaohsiung-shoushan-zoo%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Shoushan Zoo tickets on Klook →</a>"
-        },
-        {
-          "type": "h2",
-          "text": "05 · Nearby Restaurants for After Your Visit"
-        },
-        {
-          "type": "p",
-          "html": "Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
-        },
-        {
-          "type": "tipList",
-          "items": [
-            {
-              "mark": "1",
-              "b": "<a href=\"/kaohsiung-thai-song-dang-yeshi-restaurant-808\">Song Dang Yeshi Restaurant 送噹夜市餐廳</a> · Thai · about 0.9 km south",
-              "desc": "Map note: The best Thai milk tea I've had so far, and our child loved the crispy-outside, juicy-inside grilled chicken."
-            },
-            {
-              "mark": "2",
-              "b": "<a href=\"/kaohsiung-taiwanese-743\">Laodian Baihong Lurou Rice, Yancheng Branch</a> · Taiwanese · about 1.0 km southeast",
-              "desc": "Map note: A Michelin Bib Gourmand pick full of locals; 'happiness for about 5,000 won'."
-            },
-            {
-              "mark": "3",
-              "b": "<a href=\"/kaohsiung-breakfast-742\">Aiji Breakfast</a> · Breakfast · about 1.1 km southeast",
-              "desc": "Map note: A steady stream of locals getting takeout; recommends the crispy danbing."
-            },
-            {
-              "mark": "4",
-              "b": "<a href=\"/kaohsiung-taiwanese-x-809\">柒壹喫堂x鹽海小餐館</a> · Taiwanese · about 1.2 km southeast",
-              "desc": "Map note: Staff kindly explained the menu. The broth, somewhere between seolleongtang and tom yum, plus the corn and squid dishes, were unique and tasty."
-            },
-            {
-              "mark": "5",
-              "b": "<a href=\"/kaohsiung-hotpot-711\">京華餐廳</a> · Hot Pot · about 1.3 km southeast",
-              "desc": "Map note: Went on local friends' strong recommendation. Every dish was tasty, and the pickled cabbage (酸菜) hot pot is said to be especially famous."
-            },
-            {
-              "mark": "6",
-              "b": "<a href=\"/kaohsiung-shaved_ice-737\">Yancheng Wu Family Kumquat Douhua</a> · Shaved Ice · about 1.4 km southeast",
-              "desc": "Map note: The kumquat douhua goes really well with hot weather."
-            },
-            {
-              "mark": "7",
-              "b": "<a href=\"/kaohsiung-breakfast-745\">Liu's Traditional Rice Ball & Danbing Shop</a> · Breakfast · about 1.4 km southeast",
-              "desc": "Map note: A breakfast spot with lots of locals calling in and taking out; the turnip cake and rice balls are tasty."
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
-        },
-        {
-          "type": "note",
-          "text": "Based on the official 高雄市壽山動物園 site's hours, admission and transport information, as of October 2026. Hours and prices can change, so check the official site before you go. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
-        },
-        {
-          "type": "cta",
-          "title": "Find Kaohsiung eats on the map",
-          "desc": "Save Kaohsiung restaurants to visit before or after the zoo.",
-          "btn": "Open Map →",
-          "href": "/map?region=kaohsiung"
-        }
-      ]
-    }
-  },
   "kenting-national-museum-marine-biology-aquarium-ticket-eats": {
     "heroImage": "assets/images/attractions/kenting/nmmba.webp",
     "ko": {
@@ -3575,10 +3318,6 @@ const BLOG_POSTS = {
       ]
     }
   },
-  
-  
-  
-  
   "taiwan-zizhucan-buffet-bento-search": {
     "heroImage": "assets/images/blog/taiwan-zizhucan-buffet-bento-search-1.jpg",
     "ko": {
@@ -14267,15 +14006,15 @@ const BLOG_POSTS = {
   "kaohsiung-shoushan-zoo-tickets-kids-tips": {
     "heroImage": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
     "ko": {
-      "pageTitle": "서우산 동물원 — 입장료·가는 법 · 나만 알고 싶은 대만 맛집",
-      "metaDescription": "가오슝 서우산 동물원은 화~일 09:00~17:00에 열고 입장료는 NT$40이에요. 56번 버스 타는 곳, 아이·어르신 요금, 원숭이 주의점까지 정리했어요.",
-      "ogTitle": "서우산 동물원 가는 법, 입장료와 아이랑 갈 때 팁은?",
-      "eyebrow": "가오슝 여행 가이드 · 관광·아이 동반",
-      "title": "서우산 동물원 가는 법, 입장료와 아이랑 갈 때 팁은?",
-      "dek": "입장료는 NT$40, 월요일은 휴원 — 그리고 먹을 건 가방 안에. 이 세 가지만 챙기면 아이와 가기 편한 동물원입니다.",
+      "pageTitle": "서우산 동물원 가는 법·입장권·아이 팁·근처 맛집 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 서우산 동물원 가는 법과 입장료(NT$40), 아이 팁, 클룩 입장권, 둘러본 뒤 들르기 좋은 근처 맛집까지 한 글에 정리했어요.",
+      "ogTitle": "서우산 동물원 가는 법·입장권·아이 팁, 보고 나서 근처 맛집까지",
+      "eyebrow": "가오슝 여행 가이드 · 관광·아이 동반·먹거리",
+      "title": "서우산 동물원 가는 법·입장권·아이 팁, 보고 나서 근처 맛집까지",
+      "dek": "입장료 NT$40·월요일 휴원·먹을 건 가방 안에. 가는 법과 아이 팁에 클룩 입장권·근처 맛집까지 한곳에서 정리했어요.",
       "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
-      "metaTopic": "가오슝 · 관광·아이 동반",
-      "intro": "\"가오슝에서 아이랑 반나절 갈 만한 곳 없을까?\" 이런 고민이라면 서우산 동물원(壽山動物園)이 후보에 자주 오릅니다. 가오슝 서우산 동물원은 구산(鼓山)구 서우산 자락에 있어 시내에서 버스로 갈 수 있고, 입장료가 부담 없는 편이에요. 서우산 동물원 공식 사이트의 관람·교통·편의시설 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "metaTopic": "가오슝 · 관광·아이 동반·먹거리",
+      "intro": "\"가오슝에서 아이랑 반나절 갈 만한 곳 없을까?\" 이런 고민이라면 서우산 동물원(壽山動物園)이 후보에 자주 오릅니다. 가오슝 서우산 동물원은 구산(鼓山)구 서우산 자락에 있어 시내에서 버스로 갈 수 있고, 입장료가 부담 없는 편이에요. 서우산 동물원 공식 사이트의 관람·교통·편의시설 안내를 바탕으로 2026년 10월 기준으로 정리했고, 둘러본 뒤 들르기 좋은 지도 속 근처 맛집도 함께 넣었어요.",
       "blocks": [
         {
           "type": "h2",
@@ -14329,6 +14068,10 @@ const BLOG_POSTS = {
         {
           "type": "p",
           "html": "예약 없이 가도 되고, 현장 매표소나 자동발매기에서 표를 살 수 있어요. 미리 사고 싶다면 공식 안내에 나온 ibon·KKday·Klook 예매도 있습니다. 결제는 이카통(一卡通)·이지카드(悠遊卡)·신용카드·LINE Pay·아이캐시(愛金卡)·현금을 받아요. 반값·무료 요금은 증빙을 확인하니 아이와 어르신 여권을 챙기고, 매표소에서 적용 여부를 물어보세요."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F85862-kaohsiung-shoushan-zoo%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 서우산 동물원 입장권 보기 →</a>"
         },
         {
           "type": "h2",
@@ -14444,28 +14187,80 @@ const BLOG_POSTS = {
           "html": "56번 버스는 경전철 원우성뎬(文武聖殿)역 근처에서도 탈 수 있으니, 경전철 표 사는 법은 <a href=\"/blog-kaohsiung-light-rail-fare-art-museum\">가오슝 경전철 타는 법</a> 글을 같이 보세요. 같은 날 경전철로 <a href=\"/kaohsiung-attraction-295\">가오슝시립미술관</a>까지 묶어도 좋고, 타이베이 일정에도 동물원이 있다면 <a href=\"/blog-taipei-zoo-shuttle-train-route\">타이베이 동물원 셔틀·입장료</a> 글이 도움이 돼요. 동물원 전후로 들를 곳은 <a href=\"/kaohsiung-attraction\">가오슝 체험·관광지</a>와 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 골라 보세요."
         },
         {
+          "type": "h2",
+          "text": "05 · 둘러본 뒤 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/kaohsiung-thai-song-dang-yeshi-restaurant-808\">Song Dang Yeshi Restaurant 送噹夜市餐廳</a> · 태국 · 남쪽 약 0.9km",
+              "desc": "지도 메모: 태국 밀크티가 지금까지 먹은 것 중 최고였고, 겉바속촉 닭구이도 아이가 잘 먹었다."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/kaohsiung-taiwanese-743\">라오디엔 바이홍 루자오 옌청점</a> · 대만식 · 남동쪽 약 1.0km",
+              "desc": "지도 메모: 미쉐린 빕 구르망 선정점이며 현지인이 많았고, 5,000원의 행복이었다고 평가함."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/kaohsiung-breakfast-742\">아이지 조식</a> · 조식 · 남동쪽 약 1.1km",
+              "desc": "지도 메모: 현지인 포장이 이어졌고, 바삭한 딴삥이라 추천한다고 씀."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/kaohsiung-taiwanese-x-809\">柒壹喫堂x鹽海小餐館</a> · 대만식 · 남동쪽 약 1.2km",
+              "desc": "지도 메모: 직원이 메뉴를 친절히 설명해주고, 설렁탕과 똠얌 사이 느낌의 국물·옥수수·오징어 요리가 독특하고 맛있다."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/kaohsiung-hotpot-711\">京華餐廳</a> · 훠궈 · 남동쪽 약 1.3km",
+              "desc": "지도 메모: 현지 친구들의 강력 추천으로 갔고 음식 하나하나 다 맛있었으며 쏸차이 훠궈가 특히 유명하다고 소개."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/kaohsiung-shaved_ice-737\">옌청 우자 금귤 또우화</a> · 빙수 · 남동쪽 약 1.4km",
+              "desc": "지도 메모: 금귤또우화가 더운 날씨에 정말 잘 어울리는 맛이라고 평가함."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/kaohsiung-breakfast-745\">류제 전통 판투안·단삥 전문점</a> · 조식 · 남동쪽 약 1.4km",
+              "desc": "지도 메모: 현지인 전화·포장이 많은 조식집이며, 뤄보까오와 판투안이 맛있다고 평가함."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
           "type": "note",
-          "text": "이 글은 서우산 동물원 공식 사이트의 관람 정보(운영 시간·입장료·예매·결제·교통·주차), 관람 수칙, 서비스·편의시설 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 운영 내용은 바뀔 수 있으니 방문 전 공식 사이트를 다시 확인하는 것을 추천해요. 사진: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
+          "text": "이 글은 서우산 동물원 공식 사이트의 관람 정보(운영 시간·입장료·예매·결제·교통·주차), 관람 수칙, 서비스·편의시설 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 운영 내용은 바뀔 수 있으니 방문 전 공식 사이트를 다시 확인하는 것을 추천해요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
         },
         {
           "type": "cta",
-          "title": "지도에서 가오슝 가볼 곳도 확인해보세요",
-          "desc": "동물원 오가는 길에 들를 곳을 미리 찜해 두면 반나절 일정을 짜기 편해요.",
+          "title": "지도에서 가오슝 가볼 곳·맛집도 확인해보세요",
+          "desc": "동물원 오가는 길에 들를 관광지와 맛집을 미리 찜해 두면 반나절 일정을 짜기 편해요.",
           "btn": "지도 열기 →",
-          "href": "/map?region=kaohsiung&cat=attraction"
+          "href": "/map?region=kaohsiung"
         }
       ]
     },
     "en": {
-      "pageTitle": "Shoushan Zoo Kaohsiung — Tickets and Getting There · My Secret Taiwan Eats",
-      "metaDescription": "Kaohsiung's Shoushan Zoo opens Tue–Sun 09:00–17:00 and costs NT$40. Where to catch bus 56, child and senior tickets, and how to keep food away from the macaques.",
-      "ogTitle": "Shoushan Zoo, Kaohsiung: Getting There, Tickets and Tips with Kids",
-      "eyebrow": "Kaohsiung Travel Guide · Sights · With Kids",
-      "title": "Shoushan Zoo, Kaohsiung: Getting There, Tickets and Tips with Kids",
-      "dek": "NT$40 to get in, closed on Mondays — and keep your snacks in your bag. Remember those three things and it's an easy zoo to do with kids.",
+      "pageTitle": "Shoushan Zoo: Getting There, Tickets, Kids Tips & Nearby Eats · My Secret Taiwan Eats",
+      "metaDescription": "How to get to Kaohsiung Shoushan Zoo, admission (NT$40), tips with kids, Klook tickets, and nearby restaurants from our map after your visit.",
+      "ogTitle": "Shoushan Zoo: Getting There, Tickets, Kids Tips & Nearby Eats",
+      "eyebrow": "Kaohsiung Travel Guide · Sights · With Kids · Food",
+      "title": "Shoushan Zoo: Getting There, Tickets, Kids Tips & Nearby Eats",
+      "dek": "Admission NT$40, closed Mondays, and keep snacks in your bag. Getting there, kids tips, Klook tickets, and nearby eats in one guide.",
       "metaAuthor": "My Secret Taiwan Eats Editorial",
-      "metaTopic": "Kaohsiung · Sights · With Kids",
-      "intro": "\"Is there somewhere in Kaohsiung we can take the kids for half a day?\" Shoushan Zoo (壽山動物園) often comes up. It sits on Shoushan hill in Gushan (鼓山) District, is reachable by city bus, and admission is cheap. This guide is based on the zoo's official visitor, transport and facilities information, as of October 2026.",
+      "metaTopic": "Kaohsiung · Sights · With Kids · Food",
+      "intro": "Looking for a half-day outing with kids in Kaohsiung? Shoushan Zoo (壽山動物園) comes up often. It sits on the slope of Shoushan in Gushan District, is reachable by bus from downtown, and tickets are inexpensive. This guide is based on the zoo's official visitor, transport and facilities pages as of October 2026, and also lists nearby restaurants from our map for after your visit.",
       "blocks": [
         {
           "type": "h2",
@@ -14519,6 +14314,10 @@ const BLOG_POSTS = {
         {
           "type": "p",
           "html": "No booking is needed: buy at the ticket booth or a ticket machine on the day. To buy ahead, the official site lists ibon, KKday and Klook. Payment by iPASS (一卡通), EasyCard (悠遊卡), credit card, LINE Pay, iCash (愛金卡) or cash. Reduced and free tickets require ID, so bring passports for kids and seniors and ask at the booth whether they apply."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F85862-kaohsiung-shoushan-zoo%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Shoushan Zoo tickets on Klook →</a>"
         },
         {
           "type": "h2",
@@ -14634,15 +14433,67 @@ const BLOG_POSTS = {
           "html": "Bus 56 also stops near Wenwu Temple (文武聖殿) light rail station, so see <a href=\"/blog-kaohsiung-light-rail-fare-art-museum\">how to ride the Kaohsiung Light Rail</a> for tickets. You can pair the zoo with the <a href=\"/kaohsiung-attraction-295\">Kaohsiung Museum of Fine Arts</a> by light rail, and if Taipei is on your trip too, read our <a href=\"/blog-taipei-zoo-shuttle-train-route\">Taipei Zoo shuttle and tickets</a> guide. For stops before or after the zoo, browse <a href=\"/kaohsiung-attraction\">Kaohsiung attractions</a> and the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>."
         },
         {
+          "type": "h2",
+          "text": "05 · Nearby restaurants after your visit"
+        },
+        {
+          "type": "p",
+          "html": "Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/kaohsiung-thai-song-dang-yeshi-restaurant-808\">Song Dang Yeshi Restaurant 送噹夜市餐廳</a> · Thai · about 0.9 km south",
+              "desc": "Map note: The best Thai milk tea I've had so far, and our child loved the crispy-outside, juicy-inside grilled chicken."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/kaohsiung-taiwanese-743\">Laodian Baihong Lurou Rice, Yancheng Branch</a> · Taiwanese · about 1.0 km southeast",
+              "desc": "Map note: A Michelin Bib Gourmand pick full of locals; 'happiness for about 5,000 won'."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/kaohsiung-breakfast-742\">Aiji Breakfast</a> · Breakfast · about 1.1 km southeast",
+              "desc": "Map note: A steady stream of locals getting takeout; recommends the crispy danbing."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/kaohsiung-taiwanese-x-809\">柒壹喫堂x鹽海小餐館</a> · Taiwanese · about 1.2 km southeast",
+              "desc": "Map note: Staff kindly explained the menu. The broth, somewhere between seolleongtang and tom yum, plus the corn and squid dishes, were unique and tasty."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/kaohsiung-hotpot-711\">京華餐廳</a> · Hot Pot · about 1.3 km southeast",
+              "desc": "Map note: Went on local friends' strong recommendation. Every dish was tasty, and the pickled cabbage (酸菜) hot pot is said to be especially famous."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/kaohsiung-shaved_ice-737\">Yancheng Wu Family Kumquat Douhua</a> · Shaved Ice · about 1.4 km southeast",
+              "desc": "Map note: The kumquat douhua goes really well with hot weather."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/kaohsiung-breakfast-745\">Liu's Traditional Rice Ball & Danbing Shop</a> · Breakfast · about 1.4 km southeast",
+              "desc": "Map note: A breakfast spot with lots of locals calling in and taking out; the turnip cake and rice balls are tasty."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
           "type": "note",
-          "text": "Based on Shoushan Zoo's official visitor information (hours, tickets, booking, payment, transport and parking), visitor rules, and services and facilities pages, as of October 2026. Details can change, so check the official site again before you go. Photo: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
+          "text": "Based on Shoushan Zoo's official visitor information (hours, tickets, booking, payment, transport and parking), visitor rules, and services and facilities pages, as of October 2026. Details can change, so check the official site again before you go. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
         },
         {
           "type": "cta",
-          "title": "Find places to visit in Kaohsiung on the map",
-          "desc": "Pin spots on the way to and from the zoo so your half-day plan is easy.",
+          "title": "Find Kaohsiung sights and eats on the map",
+          "desc": "Save places and restaurants to visit before or after the zoo.",
           "btn": "Open Map →",
-          "href": "/map?region=kaohsiung&cat=attraction"
+          "href": "/map?region=kaohsiung"
         }
       ]
     }
@@ -20991,420 +20842,420 @@ const BLOG_POSTS = {
     }
   },
   "xiaoliuqiu-turtle-snorkeling-beach-tips": {
-  "heroImage": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
-  "ko": {
-    "pageTitle": "소류구 거북이 스노클링 — 해변·팁 · 나만 알고 싶은 대만 맛집",
-    "metaDescription": "소류구 거북이 스노클링, 해변과 수칙부터 볼까요? 중아오 야간 출입 금지·看龜守則·합법 업체를 2026년 10월 기준으로 정리했어요.",
-    "ogTitle": "소류구 거북이 스노클링, 어느 해변이 나을까?",
-    "eyebrow": "가오슝 근교 여행 가이드 · 소류구·스노클링",
-    "title": "소류구 거북이 스노클링, 어느 해변이 나을까?",
-    "dek": "동강 페리와 중아오 산란기 야간 출입 금지, 대붕만 관리처 看龜守則과 합법 업체 선택까지 — 들어가기 전에 챙길 것만 골랐습니다.",
-    "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
-    "metaTopic": "가오슝 근교 · 소류구 가이드",
-    "intro": "\"소류구에서 거북이 보려면 어느 해변으로 가야 할까요?\" 소류구(小琉球)는 핑둥현 남서쪽 산호초 섬으로, 동강(東港)에서 배로 약 25~30분이면 닿아요. 해변을 고르기 전에 산란기 야간 출입 금지와 거북이 관찰 수칙부터 알아 두세요. 琉球鄉公所·대붕만 국가풍경구 관리처 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
-    "blocks": [
-      {
-        "type": "h2",
-        "text": "01 · 소류구 거북이 스노클링, 한눈에 비교하기"
-      },
-      {
-        "type": "compareTable",
-        "cities": [
-          "항목",
-          "내용",
-          "비고"
-        ],
-        "rows": [
-          {
-            "label": "위치",
-            "values": [
-              "핑둥현 남서쪽 산호초 섬",
-              "동강에서 배로 약 25~30분"
-            ]
-          },
-          {
-            "label": "배 도착지",
-            "values": [
-              "민영 東琉線 → 白沙觀光港",
-              "공영선 → 大福漁港"
-            ]
-          },
-          {
-            "label": "쭤잉 HSR",
-            "values": [
-              "台灣好行 9127D → 東琉線碼頭站",
-              "편도 NT$120(2026년 10월 확인)"
-            ]
-          },
-          {
-            "label": "중아오(中澳)",
-            "values": [
-              "白沙尾 관광부두 왼쪽·白沙國小 뒤",
-              "5/1~10/31 20:00~05:00 출입 금지"
-            ]
-          },
-          {
-            "label": "거북이 수칙",
-            "values": [
-              "만지지 않기·5m 이상·먹이 금지",
-              "야생동물보호법 처벌 가능"
-            ]
-          }
-        ]
-      },
-      {
-        "type": "p",
-        "html": "관리처는 합법 등록 업체를 고르고 看龜守則을 지키라고 안내해요. 개별 스노클링 허용 구역은 방문 전 핑둥현·대붕만 관리처 최신 공지를 확인하세요."
-      },
-      {
-        "type": "h2",
-        "text": "02 · 동강까지, 그리고 배로 소류구"
-      },
-      {
-        "type": "tipList",
-        "items": [
-          {
-            "mark": "✓",
-            "b": "쭤잉 고속철 → 9127D",
-            "desc": "高鐵左營站에서 台灣好行 9127D를 타면 東琉線碼頭站에 내려요. 단정 안내 기준 편도 NT$120입니다(2026년 10월 확인)."
-          },
-          {
-            "mark": "✓",
-            "b": "배 약 25~30분",
-            "desc": "동강 항구에서 교통선을 타면 약 25~30분이에요. 민영 東琉線은 白沙觀光港, 공영선은 大福漁港에 닿습니다."
-          },
-          {
-            "mark": "✓",
-            "b": "기차·시외버스",
-            "desc": "가오슝역·핑둥역에서 시외버스로 동강에 내린 뒤 부두까지 약 10분 걷는 동선도 공소에서 안내해요."
-          },
-          {
-            "mark": "✓",
-            "b": "배 시각은 당일 확인",
-            "desc": "선사 시각과 해상 상황은 자주 바뀌어요. 출발 전에 東琉線·공영선 공지를 다시 보세요."
-          }
-        ]
-      },
-      {
-        "type": "figure",
-        "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
-        "caption": "수면 위로 고개를 내민 녹색바다거북이에요(일반 사진, 소류구에서 찍은 사진 아님). 소류구 연안에서도 같은 종을 볼 수 있다고 관리처가 안내해요."
-      },
-      {
-        "type": "h2",
-        "text": "03 · 중아오 해변과 산란기 야간 출입 금지"
-      },
-      {
-        "type": "tipList",
-        "items": [
-          {
-            "mark": "1",
-            "b": "중아오(中澳沙灘) 위치",
-            "desc": "白沙尾 관광부두 왼쪽, 白沙國小 뒤의 넓은 백사장으로 안내돼요. 물놀이·해변 활동 장소로도 소개됩니다."
-          },
-          {
-            "mark": "2",
-            "b": "5/1~10/31 야간 출입 금지",
-            "desc": "녹색바다거북 산란 해변이라, 매년 5월 1일~10월 31일 매일 20:00~이튿날 05:00에는 보호구역 해변과 조간대 출입이 금지돼요."
-          },
-          {
-            "mark": "3",
-            "b": "야간엔 강한 빛·소음 피하기",
-            "desc": "산란기에는 밤 해변 활동을 줄이고, 불가피하면 소리를 낮추고 강한 불빛을 피하는 것이 관리처 권고예요."
-          },
-          {
-            "mark": "✓",
-            "b": "美人洞·花瓶岩",
-            "desc": "관리처 소류구 명소 목록에 있어요. 스노클링 장소는 합법 업체 코스를 기준으로 고르세요."
-          }
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "04 · 거북이 관찰 수칙과 스노클링"
-      },
-      {
-        "type": "tipList",
-        "items": [
-          {
-            "mark": "✓",
-            "b": "看龜守則 핵심",
-            "desc": "만지거나 잡거나 놀라게 하거나 쫓거나 둘러싸지 않아요. 길을 막지 않고 5m 이상 거리를 두며, 먹이를 주지 않습니다."
-          },
-          {
-            "mark": "✓",
-            "b": "합법 등록 업체",
-            "desc": "浮潛·潛水는 영업등록이 된 합법 업체를 고르라고 관리처가 권해요. 목록은 대붕만 공식 페이지에서 확인할 수 있습니다."
-          },
-          {
-            "mark": "✓",
-            "b": "구명조끼·버디",
-            "desc": "정부 잠수(浮潛 포함) 관리 지침은 CNS 규격 구명조끼와 스노클·마스크·핀, 짝(버디)을 권장해요."
-          },
-          {
-            "mark": "✓",
-            "b": "보호종·신고",
-            "desc": "바다거북은 1급 보호종이에요. 괴롭히면 1년 이하 징역 또는 NT$6만~30만 벌금이 가능하고, 위반을 보면 해순 118에 신고합니다."
-          }
-        ]
-      },
-      {
-        "type": "figure",
-        "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-2.jpg",
-        "caption": "밝은 낮의 열대 해변 풍경이에요(일반 사진, 소류구 중아오가 아님). 산란기에는 밤 해변 출입 금지를 먼저 확인하세요."
-      },
-      {
-        "type": "h2",
-        "text": "05 · 섬 안 이동과 전기자전거"
-      },
-      {
-        "type": "tipList",
-        "items": [
-          {
-            "mark": "✓",
-            "b": "台灣好行 601",
-            "desc": "관광부두 출발 순환버스로 美人洞·花瓶岩 등을 경유해요. 이지카드·iPASS·iCash를 쓸 수 있고, 1일권은 버스 안에서 판매합니다."
-          },
-          {
-            "mark": "✓",
-            "b": "전기자전거는 별도 규정",
-            "desc": "번호판·보험·면허 규정이 따로 있어요. 대여 전에 <a href=\"/blog-xiaoliuqiu-e-bike-rental-guide\">소류구 전기자전거 대여 가이드</a>를 함께 보세요."
-          },
-          {
-            "mark": "✓",
-            "b": "가오슝 환승",
-            "desc": "쭤잉·가오슝을 거쳐 오가는 날에는 <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">가오슝·타이난 유바이크</a> 글도 참고할 수 있어요."
-          }
-        ]
-      },
-      {
-        "type": "quote",
-        "text": "\"不觸碰、不捉、不驚擾、不追逐、不圍繞海龜.\" — 만지지 말고, 잡지 말고, 놀라게 하지 말고, 쫓지 말고, 둘러싸지 말라는 대붕만 관리처 看龜守則의 첫 줄이에요."
-      },
-      {
-        "type": "p",
-        "html": "소류구를 오가는 길에 가오슝에서 먹을 곳을 고른다면 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>와 <a href=\"/kaohsiung-street_food\">가오슝 노점 맛집</a>, 치진의 <a href=\"/kaohsiung-seafood-782\">치허우 해산(旗后海產)</a>을 함께 보면 동선이 단순해져요."
-      },
-      {
-        "type": "note",
-        "text": "이 글은 屏東縣琉球鄉公所 '前往小琉球' 안내, 대붕만 국가풍경구 관리처 '小琉球旅遊指引'·中澳沙灘 안내·看龜守則, 台灣好行 9127D 요금 안내, 고웅객운 601 노선 안내, 잠수(浮潛 포함) 관리 지침을 바탕으로 2026년 10월 기준으로 정리했습니다. 배 시각·요금·야간 출입 금지 구간·합법 업체 목록은 바뀔 수 있으니 출발 전에 공식 페이지를 다시 확인하는 것을 추천해요."
-      },
-      {
-        "type": "cta",
-        "title": "지도에서 가오슝 맛집도 확인해보세요",
-        "desc": "소류구 오가는 길에 들르기 좋은 가오슝 식당을 미리 찜해 두면 환승 일정이 덜 바빠져요.",
-        "btn": "지도 열기 →",
-        "href": "/map?region=kaohsiung"
-      }
-    ]
+    "heroImage": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
+    "ko": {
+      "pageTitle": "소류구 거북이 스노클링 — 해변·팁 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "소류구 거북이 스노클링, 해변과 수칙부터 볼까요? 중아오 야간 출입 금지·看龜守則·합법 업체를 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "소류구 거북이 스노클링, 어느 해변이 나을까?",
+      "eyebrow": "가오슝 근교 여행 가이드 · 소류구·스노클링",
+      "title": "소류구 거북이 스노클링, 어느 해변이 나을까?",
+      "dek": "동강 페리와 중아오 산란기 야간 출입 금지, 대붕만 관리처 看龜守則과 합법 업체 선택까지 — 들어가기 전에 챙길 것만 골랐습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 근교 · 소류구 가이드",
+      "intro": "\"소류구에서 거북이 보려면 어느 해변으로 가야 할까요?\" 소류구(小琉球)는 핑둥현 남서쪽 산호초 섬으로, 동강(東港)에서 배로 약 25~30분이면 닿아요. 해변을 고르기 전에 산란기 야간 출입 금지와 거북이 관찰 수칙부터 알아 두세요. 琉球鄉公所·대붕만 국가풍경구 관리처 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 소류구 거북이 스노클링, 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "항목",
+            "내용",
+            "비고"
+          ],
+          "rows": [
+            {
+              "label": "위치",
+              "values": [
+                "핑둥현 남서쪽 산호초 섬",
+                "동강에서 배로 약 25~30분"
+              ]
+            },
+            {
+              "label": "배 도착지",
+              "values": [
+                "민영 東琉線 → 白沙觀光港",
+                "공영선 → 大福漁港"
+              ]
+            },
+            {
+              "label": "쭤잉 HSR",
+              "values": [
+                "台灣好行 9127D → 東琉線碼頭站",
+                "편도 NT$120(2026년 10월 확인)"
+              ]
+            },
+            {
+              "label": "중아오(中澳)",
+              "values": [
+                "白沙尾 관광부두 왼쪽·白沙國小 뒤",
+                "5/1~10/31 20:00~05:00 출입 금지"
+              ]
+            },
+            {
+              "label": "거북이 수칙",
+              "values": [
+                "만지지 않기·5m 이상·먹이 금지",
+                "야생동물보호법 처벌 가능"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "관리처는 합법 등록 업체를 고르고 看龜守則을 지키라고 안내해요. 개별 스노클링 허용 구역은 방문 전 핑둥현·대붕만 관리처 최신 공지를 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 동강까지, 그리고 배로 소류구"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "쭤잉 고속철 → 9127D",
+              "desc": "高鐵左營站에서 台灣好行 9127D를 타면 東琉線碼頭站에 내려요. 단정 안내 기준 편도 NT$120입니다(2026년 10월 확인)."
+            },
+            {
+              "mark": "✓",
+              "b": "배 약 25~30분",
+              "desc": "동강 항구에서 교통선을 타면 약 25~30분이에요. 민영 東琉線은 白沙觀光港, 공영선은 大福漁港에 닿습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "기차·시외버스",
+              "desc": "가오슝역·핑둥역에서 시외버스로 동강에 내린 뒤 부두까지 약 10분 걷는 동선도 공소에서 안내해요."
+            },
+            {
+              "mark": "✓",
+              "b": "배 시각은 당일 확인",
+              "desc": "선사 시각과 해상 상황은 자주 바뀌어요. 출발 전에 東琉線·공영선 공지를 다시 보세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
+          "caption": "수면 위로 고개를 내민 녹색바다거북이에요(일반 사진, 소류구에서 찍은 사진 아님). 소류구 연안에서도 같은 종을 볼 수 있다고 관리처가 안내해요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 중아오 해변과 산란기 야간 출입 금지"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "중아오(中澳沙灘) 위치",
+              "desc": "白沙尾 관광부두 왼쪽, 白沙國小 뒤의 넓은 백사장으로 안내돼요. 물놀이·해변 활동 장소로도 소개됩니다."
+            },
+            {
+              "mark": "2",
+              "b": "5/1~10/31 야간 출입 금지",
+              "desc": "녹색바다거북 산란 해변이라, 매년 5월 1일~10월 31일 매일 20:00~이튿날 05:00에는 보호구역 해변과 조간대 출입이 금지돼요."
+            },
+            {
+              "mark": "3",
+              "b": "야간엔 강한 빛·소음 피하기",
+              "desc": "산란기에는 밤 해변 활동을 줄이고, 불가피하면 소리를 낮추고 강한 불빛을 피하는 것이 관리처 권고예요."
+            },
+            {
+              "mark": "✓",
+              "b": "美人洞·花瓶岩",
+              "desc": "관리처 소류구 명소 목록에 있어요. 스노클링 장소는 합법 업체 코스를 기준으로 고르세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 거북이 관찰 수칙과 스노클링"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "看龜守則 핵심",
+              "desc": "만지거나 잡거나 놀라게 하거나 쫓거나 둘러싸지 않아요. 길을 막지 않고 5m 이상 거리를 두며, 먹이를 주지 않습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "합법 등록 업체",
+              "desc": "浮潛·潛水는 영업등록이 된 합법 업체를 고르라고 관리처가 권해요. 목록은 대붕만 공식 페이지에서 확인할 수 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "구명조끼·버디",
+              "desc": "정부 잠수(浮潛 포함) 관리 지침은 CNS 규격 구명조끼와 스노클·마스크·핀, 짝(버디)을 권장해요."
+            },
+            {
+              "mark": "✓",
+              "b": "보호종·신고",
+              "desc": "바다거북은 1급 보호종이에요. 괴롭히면 1년 이하 징역 또는 NT$6만~30만 벌금이 가능하고, 위반을 보면 해순 118에 신고합니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-2.jpg",
+          "caption": "밝은 낮의 열대 해변 풍경이에요(일반 사진, 소류구 중아오가 아님). 산란기에는 밤 해변 출입 금지를 먼저 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "05 · 섬 안 이동과 전기자전거"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "台灣好行 601",
+              "desc": "관광부두 출발 순환버스로 美人洞·花瓶岩 등을 경유해요. 이지카드·iPASS·iCash를 쓸 수 있고, 1일권은 버스 안에서 판매합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "전기자전거는 별도 규정",
+              "desc": "번호판·보험·면허 규정이 따로 있어요. 대여 전에 <a href=\"/blog-xiaoliuqiu-e-bike-rental-guide\">소류구 전기자전거 대여 가이드</a>를 함께 보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "가오슝 환승",
+              "desc": "쭤잉·가오슝을 거쳐 오가는 날에는 <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">가오슝·타이난 유바이크</a> 글도 참고할 수 있어요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"不觸碰、不捉、不驚擾、不追逐、不圍繞海龜.\" — 만지지 말고, 잡지 말고, 놀라게 하지 말고, 쫓지 말고, 둘러싸지 말라는 대붕만 관리처 看龜守則의 첫 줄이에요."
+        },
+        {
+          "type": "p",
+          "html": "소류구를 오가는 길에 가오슝에서 먹을 곳을 고른다면 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>와 <a href=\"/kaohsiung-street_food\">가오슝 노점 맛집</a>, 치진의 <a href=\"/kaohsiung-seafood-782\">치허우 해산(旗后海產)</a>을 함께 보면 동선이 단순해져요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 屏東縣琉球鄉公所 '前往小琉球' 안내, 대붕만 국가풍경구 관리처 '小琉球旅遊指引'·中澳沙灘 안내·看龜守則, 台灣好行 9127D 요금 안내, 고웅객운 601 노선 안내, 잠수(浮潛 포함) 관리 지침을 바탕으로 2026년 10월 기준으로 정리했습니다. 배 시각·요금·야간 출입 금지 구간·합법 업체 목록은 바뀔 수 있으니 출발 전에 공식 페이지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 맛집도 확인해보세요",
+          "desc": "소류구 오가는 길에 들르기 좋은 가오슝 식당을 미리 찜해 두면 환승 일정이 덜 바빠져요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Xiaoliuqiu Turtle Snorkeling — Beach Tips · My Secret Taiwan Eats",
+      "metaDescription": "Xiaoliuqiu turtle snorkeling basics: Zhong'ao night beach ban, viewing rules, and licensed operators, as of October 2026.",
+      "ogTitle": "Xiaoliuqiu Turtle Snorkeling: Which Beach and What Rules?",
+      "eyebrow": "Kaohsiung Day Trip · Xiaoliuqiu & Snorkeling",
+      "title": "Xiaoliuqiu Turtle Snorkeling: Which Beach and What Rules?",
+      "dek": "Donggang ferries, Zhong'ao's nesting-season night beach ban, DBNSA turtle-viewing rules, and picking a licensed operator — what to check before you enter the water.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Near Kaohsiung · Xiaoliuqiu Guide",
+      "intro": "\"Which beach should I pick to see turtles on Xiaoliuqiu?\" Xiaoliuqiu (小琉球) is a coral island southwest of Pingtung; the ferry from Donggang (東港) takes about 25–30 minutes. Before picking a beach, learn the nesting-season night ban and the turtle-viewing code. This guide follows Liuchiu Township and Dapeng Bay National Scenic Area (DBNSA) pages, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Turtle Snorkeling on Xiaoliuqiu at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Detail",
+            "Note"
+          ],
+          "rows": [
+            {
+              "label": "Location",
+              "values": [
+                "Coral island SW of Pingtung",
+                "About 25–30 min by ferry from Donggang"
+              ]
+            },
+            {
+              "label": "Ferry piers",
+              "values": [
+                "Private Tungliu line → Baisha Visitor Pier",
+                "Public ferry → Dafu Fishing Harbor"
+              ]
+            },
+            {
+              "label": "Zuoying HSR",
+              "values": [
+                "Taiwan Tourist Shuttle 9127D → Tungliu Pier stop",
+                "NT$120 one-way (checked Oct 2026)"
+              ]
+            },
+            {
+              "label": "Zhong'ao Beach",
+              "values": [
+                "Left of Baisha visitor pier, behind Baisha Elementary",
+                "May 1–Oct 31, 20:00–05:00 access banned"
+              ]
+            },
+            {
+              "label": "Turtle rules",
+              "values": [
+                "No touch; stay ≥5 m; no feeding",
+                "Penalties under the Wildlife Conservation Act"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "DBNSA asks visitors to choose licensed operators and follow the turtle-viewing code. For DIY snorkel zones, check Pingtung County and DBNSA notices before you go."
+        },
+        {
+          "type": "h2",
+          "text": "02 · To Donggang, Then the Ferry"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Zuoying HSR → 9127D",
+              "desc": "From THSR Zuoying, take Taiwan Tourist Shuttle 9127D and alight at the Tungliu Pier stop. Official fare info lists NT$120 one-way (checked October 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Ferry ~25–30 minutes",
+              "desc": "Liuchiu Township says the passenger boat from Donggang takes about 25–30 minutes. Private Tungliu boats arrive at Baisha Visitor Pier; the public ferry arrives at Dafu Fishing Harbor."
+            },
+            {
+              "mark": "✓",
+              "b": "Train + highway bus",
+              "desc": "From Kaohsiung or Pingtung stations, take a highway bus to Donggang, then walk about 10 minutes to the pier."
+            },
+            {
+              "mark": "✓",
+              "b": "Recheck sailings the same day",
+              "desc": "Schedules change with weather and operations. Recheck Tungliu and public-ferry notices before you leave."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
+          "caption": "A green sea turtle at the surface (generic photo, not taken on Xiaoliuqiu). DBNSA notes the same species visits the island's waters."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Zhong'ao Beach and the Nesting-Season Night Ban"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Where Zhong'ao is",
+              "desc": "DBNSA describes Zhong'ao as the wide white beach left of Baishawei visitor pier, behind Baisha Elementary — also listed for swimming and beach activities."
+            },
+            {
+              "mark": "2",
+              "b": "Night ban May 1–Oct 31",
+              "desc": "Green turtles nest here. Each year from May 1 to October 31, from 20:00 to 05:00 the next morning, entry to the protected beach and intertidal zone is banned."
+            },
+            {
+              "mark": "3",
+              "b": "Keep nights quiet and dim",
+              "desc": "During nesting season, avoid night beach activity when possible; keep noise down and avoid strong lights."
+            },
+            {
+              "mark": "✓",
+              "b": "Beauty Cave & Vase Rock",
+              "desc": "Both appear on DBNSA's sights list. Choose your snorkeling spot by following a licensed operator's route."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Turtle Rules and Snorkeling"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Turtle-viewing code",
+              "desc": "Do not touch, catch, startle, chase, or encircle turtles. Do not block their path; stay at least 5 m away; do not feed them."
+            },
+            {
+              "mark": "✓",
+              "b": "Licensed operators only",
+              "desc": "For snorkeling and diving, DBNSA recommends operators with a valid business registration. A licensed list is on the DBNSA site."
+            },
+            {
+              "mark": "✓",
+              "b": "Life jacket and buddy",
+              "desc": "Government diving guidance (including snorkeling) recommends a CNS-compliant life jacket plus snorkel, mask, and fins, and a buddy system."
+            },
+            {
+              "mark": "✓",
+              "b": "Protected species & reporting",
+              "desc": "Sea turtles are Class I protected wildlife. Harassment can mean up to one year in prison or a fine of NT$60,000–300,000. Report violations to the Coast Guard at 118."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-2.jpg",
+          "caption": "A bright tropical beach scene (generic photo, not Zhong'ao on Xiaoliuqiu). Check the night access ban first in nesting season."
+        },
+        {
+          "type": "h2",
+          "text": "05 · Getting Around the Island"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Taiwan Tourist Shuttle 601",
+              "desc": "The loop bus starts at the visitor pier and stops near Beauty Cave and Vase Rock. EasyCard, iPASS, and iCash work; a day pass is sold on the bus."
+            },
+            {
+              "mark": "✓",
+              "b": "E-bikes have separate rules",
+              "desc": "Scooters and e-bikes have plate, insurance, and license rules. Read the <a href=\"/blog-xiaoliuqiu-e-bike-rental-guide\">Xiaoliuqiu e-bike rental guide</a> before you rent."
+            },
+            {
+              "mark": "✓",
+              "b": "A transfer in Kaohsiung",
+              "desc": "On transfer days, the <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">Kaohsiung–Tainan YouBike tips</a> post can help with short hops."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"Do not touch, catch, startle, chase, or encircle sea turtles.\" — the first line of DBNSA's turtle-viewing code."
+        },
+        {
+          "type": "p",
+          "html": "If you will eat in Kaohsiung on the way, use the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>, <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a>, and Cijin's <a href=\"/kaohsiung-seafood-782\">Chi Hou Seafood (旗后海產)</a> to keep the route simple."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on Liuchiu Township's getting-there page, DBNSA Xiaoliuqiu travel tips, Zhong'ao Beach notes, the turtle-viewing code, Taiwan Tourist Shuttle 9127D fare info, Kaohsiung Bus route 601 notes, and government diving (including snorkeling) guidance, as of October 2026. Ferry times, fares, night-ban zones, and licensed-operator lists can change — recheck official pages before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Check Kaohsiung restaurants on the map",
+          "desc": "Pinning a few Kaohsiung stops before your Xiaoliuqiu day makes the transfer schedule less rushed.",
+          "btn": "Open map →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    }
   },
-  "en": {
-    "pageTitle": "Xiaoliuqiu Turtle Snorkeling — Beach Tips · My Secret Taiwan Eats",
-    "metaDescription": "Xiaoliuqiu turtle snorkeling basics: Zhong'ao night beach ban, viewing rules, and licensed operators, as of October 2026.",
-    "ogTitle": "Xiaoliuqiu Turtle Snorkeling: Which Beach and What Rules?",
-    "eyebrow": "Kaohsiung Day Trip · Xiaoliuqiu & Snorkeling",
-    "title": "Xiaoliuqiu Turtle Snorkeling: Which Beach and What Rules?",
-    "dek": "Donggang ferries, Zhong'ao's nesting-season night beach ban, DBNSA turtle-viewing rules, and picking a licensed operator — what to check before you enter the water.",
-    "metaAuthor": "My Secret Taiwan Eats Editorial",
-    "metaTopic": "Near Kaohsiung · Xiaoliuqiu Guide",
-    "intro": "\"Which beach should I pick to see turtles on Xiaoliuqiu?\" Xiaoliuqiu (小琉球) is a coral island southwest of Pingtung; the ferry from Donggang (東港) takes about 25–30 minutes. Before picking a beach, learn the nesting-season night ban and the turtle-viewing code. This guide follows Liuchiu Township and Dapeng Bay National Scenic Area (DBNSA) pages, as of October 2026.",
-    "blocks": [
-      {
-        "type": "h2",
-        "text": "01 · Turtle Snorkeling on Xiaoliuqiu at a Glance"
-      },
-      {
-        "type": "compareTable",
-        "cities": [
-          "Item",
-          "Detail",
-          "Note"
-        ],
-        "rows": [
-          {
-            "label": "Location",
-            "values": [
-              "Coral island SW of Pingtung",
-              "About 25–30 min by ferry from Donggang"
-            ]
-          },
-          {
-            "label": "Ferry piers",
-            "values": [
-              "Private Tungliu line → Baisha Visitor Pier",
-              "Public ferry → Dafu Fishing Harbor"
-            ]
-          },
-          {
-            "label": "Zuoying HSR",
-            "values": [
-              "Taiwan Tourist Shuttle 9127D → Tungliu Pier stop",
-              "NT$120 one-way (checked Oct 2026)"
-            ]
-          },
-          {
-            "label": "Zhong'ao Beach",
-            "values": [
-              "Left of Baisha visitor pier, behind Baisha Elementary",
-              "May 1–Oct 31, 20:00–05:00 access banned"
-            ]
-          },
-          {
-            "label": "Turtle rules",
-            "values": [
-              "No touch; stay ≥5 m; no feeding",
-              "Penalties under the Wildlife Conservation Act"
-            ]
-          }
-        ]
-      },
-      {
-        "type": "p",
-        "html": "DBNSA asks visitors to choose licensed operators and follow the turtle-viewing code. For DIY snorkel zones, check Pingtung County and DBNSA notices before you go."
-      },
-      {
-        "type": "h2",
-        "text": "02 · To Donggang, Then the Ferry"
-      },
-      {
-        "type": "tipList",
-        "items": [
-          {
-            "mark": "✓",
-            "b": "Zuoying HSR → 9127D",
-            "desc": "From THSR Zuoying, take Taiwan Tourist Shuttle 9127D and alight at the Tungliu Pier stop. Official fare info lists NT$120 one-way (checked October 2026)."
-          },
-          {
-            "mark": "✓",
-            "b": "Ferry ~25–30 minutes",
-            "desc": "Liuchiu Township says the passenger boat from Donggang takes about 25–30 minutes. Private Tungliu boats arrive at Baisha Visitor Pier; the public ferry arrives at Dafu Fishing Harbor."
-          },
-          {
-            "mark": "✓",
-            "b": "Train + highway bus",
-            "desc": "From Kaohsiung or Pingtung stations, take a highway bus to Donggang, then walk about 10 minutes to the pier."
-          },
-          {
-            "mark": "✓",
-            "b": "Recheck sailings the same day",
-            "desc": "Schedules change with weather and operations. Recheck Tungliu and public-ferry notices before you leave."
-          }
-        ]
-      },
-      {
-        "type": "figure",
-        "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-1.jpg",
-        "caption": "A green sea turtle at the surface (generic photo, not taken on Xiaoliuqiu). DBNSA notes the same species visits the island's waters."
-      },
-      {
-        "type": "h2",
-        "text": "03 · Zhong'ao Beach and the Nesting-Season Night Ban"
-      },
-      {
-        "type": "tipList",
-        "items": [
-          {
-            "mark": "1",
-            "b": "Where Zhong'ao is",
-            "desc": "DBNSA describes Zhong'ao as the wide white beach left of Baishawei visitor pier, behind Baisha Elementary — also listed for swimming and beach activities."
-          },
-          {
-            "mark": "2",
-            "b": "Night ban May 1–Oct 31",
-            "desc": "Green turtles nest here. Each year from May 1 to October 31, from 20:00 to 05:00 the next morning, entry to the protected beach and intertidal zone is banned."
-          },
-          {
-            "mark": "3",
-            "b": "Keep nights quiet and dim",
-            "desc": "During nesting season, avoid night beach activity when possible; keep noise down and avoid strong lights."
-          },
-          {
-            "mark": "✓",
-            "b": "Beauty Cave & Vase Rock",
-            "desc": "Both appear on DBNSA's sights list. Choose your snorkeling spot by following a licensed operator's route."
-          }
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "04 · Turtle Rules and Snorkeling"
-      },
-      {
-        "type": "tipList",
-        "items": [
-          {
-            "mark": "✓",
-            "b": "Turtle-viewing code",
-            "desc": "Do not touch, catch, startle, chase, or encircle turtles. Do not block their path; stay at least 5 m away; do not feed them."
-          },
-          {
-            "mark": "✓",
-            "b": "Licensed operators only",
-            "desc": "For snorkeling and diving, DBNSA recommends operators with a valid business registration. A licensed list is on the DBNSA site."
-          },
-          {
-            "mark": "✓",
-            "b": "Life jacket and buddy",
-            "desc": "Government diving guidance (including snorkeling) recommends a CNS-compliant life jacket plus snorkel, mask, and fins, and a buddy system."
-          },
-          {
-            "mark": "✓",
-            "b": "Protected species & reporting",
-            "desc": "Sea turtles are Class I protected wildlife. Harassment can mean up to one year in prison or a fine of NT$60,000–300,000. Report violations to the Coast Guard at 118."
-          }
-        ]
-      },
-      {
-        "type": "figure",
-        "img": "assets/images/blog/xiaoliuqiu-turtle-snorkeling-beach-tips-2.jpg",
-        "caption": "A bright tropical beach scene (generic photo, not Zhong'ao on Xiaoliuqiu). Check the night access ban first in nesting season."
-      },
-      {
-        "type": "h2",
-        "text": "05 · Getting Around the Island"
-      },
-      {
-        "type": "tipList",
-        "items": [
-          {
-            "mark": "✓",
-            "b": "Taiwan Tourist Shuttle 601",
-            "desc": "The loop bus starts at the visitor pier and stops near Beauty Cave and Vase Rock. EasyCard, iPASS, and iCash work; a day pass is sold on the bus."
-          },
-          {
-            "mark": "✓",
-            "b": "E-bikes have separate rules",
-            "desc": "Scooters and e-bikes have plate, insurance, and license rules. Read the <a href=\"/blog-xiaoliuqiu-e-bike-rental-guide\">Xiaoliuqiu e-bike rental guide</a> before you rent."
-          },
-          {
-            "mark": "✓",
-            "b": "A transfer in Kaohsiung",
-            "desc": "On transfer days, the <a href=\"/blog-kaohsiung-tainan-youbike-rental-tips\">Kaohsiung–Tainan YouBike tips</a> post can help with short hops."
-          }
-        ]
-      },
-      {
-        "type": "quote",
-        "text": "\"Do not touch, catch, startle, chase, or encircle sea turtles.\" — the first line of DBNSA's turtle-viewing code."
-      },
-      {
-        "type": "p",
-        "html": "If you will eat in Kaohsiung on the way, use the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>, <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a>, and Cijin's <a href=\"/kaohsiung-seafood-782\">Chi Hou Seafood (旗后海產)</a> to keep the route simple."
-      },
-      {
-        "type": "note",
-        "text": "This guide is based on Liuchiu Township's getting-there page, DBNSA Xiaoliuqiu travel tips, Zhong'ao Beach notes, the turtle-viewing code, Taiwan Tourist Shuttle 9127D fare info, Kaohsiung Bus route 601 notes, and government diving (including snorkeling) guidance, as of October 2026. Ferry times, fares, night-ban zones, and licensed-operator lists can change — recheck official pages before you go."
-      },
-      {
-        "type": "cta",
-        "title": "Check Kaohsiung restaurants on the map",
-        "desc": "Pinning a few Kaohsiung stops before your Xiaoliuqiu day makes the transfer schedule less rushed.",
-        "btn": "Open map →",
-        "href": "/map?region=kaohsiung"
-      }
-    ]
-  }
-},
   "taipei-songshan-airport-egate-registration": {
     "heroImage": "assets/images/blog/taipei-songshan-airport-egate-registration-1.jpg",
     "ko": {
@@ -21781,5273 +21632,12207 @@ const BLOG_POSTS = {
     }
   },
   "taipei-national-palace-museum-tips": {
-      "heroImage": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
-      "ko": {
-        "pageTitle": "고궁박물원 입장료 — 오디오가이드·관람 팁 · 나만 알고 싶은 대만 맛집",
-        "metaDescription": "타이베이 고궁박물원 입장료는 일반 NT$350, 만 18세 미만은 무료예요. 한국어 오디오가이드 요금과 휴관일, 스린역에서 가는 법을 2026년 10월 기준으로 정리했어요.",
-        "ogTitle": "타이베이 고궁박물원 입장료, 오디오가이드까지 얼마일까?",
-        "eyebrow": "타이베이 여행 가이드 · 박물관",
-        "title": "타이베이 고궁박물원 입장료, 오디오가이드까지 얼마일까?",
-        "dek": "무료 대상과 무료 개방일, 한국어 오디오가이드 빌리는 곳, 월요일 휴관과 버스 타는 곳까지 — 가기 전에 알아 두면 덜 헤매는 것만 골랐습니다.",
-        "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
-        "metaTopic": "타이베이 · 박물관 가이드",
-        "intro": "“고궁박물원 입장료는 얼마고, 한국어 오디오가이드도 있을까요?” 타이베이 스린에 있는 국립고궁박물원은 첫 대만 여행 일정에 자주 들어가는 곳이지만, 오디오가이드 요금이나 휴관일은 예전 정보가 섞여 돌아다녀요. 고궁박물원 공식 홈페이지의 요금·개관·교통 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
-        "blocks": [
-          {
-            "type": "h2",
-            "text": "01 · 고궁박물원 입장료 한눈에 비교하기"
-          },
-          {
-            "type": "compareTable",
-            "cities": [
-              "구분",
-              "요금",
-              "대상"
-            ],
-            "rows": [
-              {
-                "label": "일반권",
-                "values": [
-                  "NT$350",
-                  "한국인 성인 여행자 대부분"
-                ]
-              },
-              {
-                "label": "우대권",
-                "values": [
-                  "NT$150",
-                  "국제학생증(ISIC) 소지자 등"
-                ]
-              },
-              {
-                "label": "무료",
-                "values": [
-                  "NT$0",
-                  "만 18세 미만(국적 무관), 장애인과 동반자 1명 등"
-                ]
-              },
-              {
-                "label": "단체권",
-                "values": [
-                  "1인 NT$320",
-                  "10인 이상, 단체 음성 안내기 1인 NT$50 별도"
-                ]
-              },
-              {
-                "label": "101 전망대 연계권",
-                "values": [
-                  "NT$820",
-                  "第一展覽館 + 타이베이 101 전망대"
-                ]
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "요금은 고궁박물원 공식 요금표 기준이에요(2026년 10월 기준). 표는 북부원구 第一展覽館(본관) 요금이고, 1월 1일·정월대보름·5월 18일·9월 27일·10월 10일은 국적과 관계없이 무료로 개방합니다."
-          },
-          {
-            "type": "h2",
-            "text": "02 · 한국어 오디오가이드, 어디서 얼마에 빌릴까"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "✓",
-                "b": "성인용 NT$200",
-                "desc": "한국어를 포함해 영어·일본어 등 여러 언어가 있고, 第一展覽館 1층 오디오가이드 카운터에서 1회 NT$200에 빌려요(2026년 10월 기준)."
-              },
-              {
-                "mark": "✓",
-                "b": "어린이용 NT$150",
-                "desc": "7~12세용 가이드는 중국어·영어 두 가지예요. 한국어판은 없으니 아이와 간다면 미리 알아 두세요."
-              },
-              {
-                "mark": "✓",
-                "b": "여권은 맡기지 않아요",
-                "desc": "빌릴 때 신분증이나 보증금 영수증을 스캔만 하고 돌려받아요. 여권을 맡겨야 한다는 예전 정보와 달라졌습니다."
-              },
-              {
-                "mark": "✓",
-                "b": "정시 해설은 수신기 NT$50",
-                "desc": "영어 정시 해설은 화~일 10:00·15:00, 중국어는 10:30·14:30에 1층 카운터 앞에서 출발해요. 온라인 신청이고 회당 20명, 해설용 수신기 대여료 NT$50이 따로 듭니다."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
-            "caption": "계단과 광장을 지나 들어가는 고궁박물원 본관 정면이에요. 홍30번 버스를 타면 계단 대신 B1 입구 앞에서 내릴 수 있어요."
-          },
-          {
-            "type": "h2",
-            "text": "03 · 고궁박물원 휴관일과 개관 시간"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "1",
-                "b": "화~일 09:00~17:00",
-                "desc": "표 판매와 교환은 16:30에 끝나요(2026년 10월 기준). 늦은 오후에 간다면 시간을 넉넉히 잡으세요."
-              },
-              {
-                "mark": "2",
-                "b": "월요일은 정기 휴관",
-                "desc": "가끔 월요일 특별 개관일이 공지되니, 월요일에 가려면 공식 사이트 공지를 먼저 확인하세요."
-              },
-              {
-                "mark": "3",
-                "b": "인기 국보는 순회 중일 수 있어요",
-                "desc": "취옥백채(翠玉白菜)와 육형석(肉形石)은 2026년에도 해외·남부원구·다른 박물관 전시를 오갔어요. 꼭 보고 싶다면 공식 홈페이지의 두 작품 '展覽動態' 공지를 출발 전에 확인하세요."
-              },
-              {
-                "mark": "✓",
-                "b": "아이와 함께라면 B1",
-                "desc": "第一展覽館 B1 어린이 학습센터(兒童學藝中心)는 무료이고 개관 시간이 본관과 같아요. 옆 정원 지선원(至善園)도 무료로 들어갈 수 있습니다."
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10136-national-palace-museum-ticket-package-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 국립고궁박물원 입장권 보기 →</a>"
-          },
-          {
-            "type": "h2",
-            "text": "04 · 스린역에서 고궁박물원 가는 법과 주차"
-          },
-          {
-            "type": "p",
-            "html": "MRT 단수이신이선 스린역(R16) 1번 출구로 나와 1~2분 걸으면 중정로(中正路) 버스 정류장이 나와요. 여기서 홍30(紅30)번을 타면 약 15분 뒤 본관 B1 입구 앞에 내려 줍니다. 815·304·300·255·소18·소19·시민소형버스1번도 고궁박물원 앞까지 가고, 이지카드로 탈 수 있어요. 원산선을 탄다면 젠난루역(BR15)에서 종20·남7번, 다즈역(BR14)에서 종13번 버스로 약 10분이에요."
-          },
-          {
-            "type": "p",
-            "html": "차로 간다면 박물관 주변 공영 주차장에 소형차 88면이 있고, 평일 1회 NT$50, 주말·공휴일 시간당 NT$40이에요(2025년 6월 공지, 2026년 10월 확인). 오토바이 주차는 무료입니다."
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taipei-national-palace-museum-tips-2.jpg",
-            "caption": "녹색 기와지붕과 흰 난간이 이어지는 고궁박물원 본관 외관이에요. 정원과 광장까지 둘러보면 반나절은 금방 지나가요."
-          },
-          {
-            "type": "quote",
-            "text": "“年齡未滿18歲者（不分國籍）” — 만 18세 미만은 국적과 관계없이 무료라는 고궁박물원 공식 요금표 문구예요."
-          },
-          {
-            "type": "p",
-            "html": "타이베이 일정에 박물관을 넣을지 고민된다면 <a href=\"/blog-taipei-fun-pass-3-day-worth-it\">타이베이 펀패스 3일권 본전 계산</a>과 <a href=\"/blog-taipei-101-observatory-child-ticket\">타이베이 101 전망대 아이 요금</a>도 함께 보세요. 박물관 정보는 <a href=\"/taipei-attraction-102\">국립고궁박물원</a> 페이지에, 다른 명소는 <a href=\"/taipei-attraction\">타이베이 체험·관광지</a>와 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에 모아 두었어요. 관람을 마치고 스린역으로 돌아왔다면 역 근처 딤섬집 <a href=\"/taipei-dimsum-bao-bao-bao-817\">Bao Bao Bao</a>도 있어요."
-          },
-          {
-            "type": "note",
-            "text": "이 글은 국립고궁박물원 공식 홈페이지의 요금(票價資訊), 오디오가이드(語音導覽, 2026년 4월 갱신), 정시 해설(個人導覽預約), 개관 시간, 대중교통, 주차(2025년 6월 갱신) 안내와 2026년 최신 소식 공지를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금과 개관일은 바뀔 수 있으니 방문 전에 공식 홈페이지 공지를 다시 확인하는 것을 추천해요."
-          },
-          {
-            "type": "cta",
-            "title": "지도에서 스린 근처 딤섬집도 확인해보세요",
-            "desc": "박물관을 나와 스린역으로 돌아가는 길에 들를 식당을 미리 찜해 두면 오후 동선이 편해져요.",
-            "btn": "지도 열기 →",
-            "href": "/map?region=taipei&cat=dimsum"
-          }
-        ]
-      },
-      "en": {
-        "pageTitle": "National Palace Museum Tickets — Audio Guide & Tips · My Secret Taiwan Eats",
-        "metaDescription": "National Palace Museum Taipei tickets (NT$350, free under 18), the NT$200 audio guide, Monday closures, and the bus from Shilin Station, as of October 2026.",
-        "ogTitle": "National Palace Museum Taipei: Tickets, Audio Guide, and How to Get There",
-        "eyebrow": "Taipei Travel Guide · Museums",
-        "title": "National Palace Museum Taipei: Tickets, Audio Guide, and How to Get There",
-        "dek": "Who gets in free, the free-admission days, where to rent an audio guide in your language, Monday closures, and which bus to take — the short list before you go.",
-        "metaAuthor": "My Secret Taiwan Eats Editorial",
-        "metaTopic": "Taipei · Museum Guide",
-        "intro": "“How much is the National Palace Museum, and is there an audio guide in my language?” The museum in Shilin is on most first-time Taipei itineraries, but older information about audio guide prices and closing days still circulates. This guide uses the museum's official pages on tickets, hours, and transport, as of October 2026.",
-        "blocks": [
-          {
-            "type": "h2",
-            "text": "01 · Ticket Prices at a Glance"
-          },
-          {
-            "type": "compareTable",
-            "cities": [
-              "Ticket",
-              "Price",
-              "Who"
-            ],
-            "rows": [
-              {
-                "label": "Regular",
-                "values": [
-                  "NT$350",
-                  "Most adult visitors"
-                ]
-              },
-              {
-                "label": "Discount",
-                "values": [
-                  "NT$150",
-                  "ISIC student card holders and others"
-                ]
-              },
-              {
-                "label": "Free",
-                "values": [
-                  "NT$0",
-                  "Under 18 (any nationality), visitors with disabilities plus one companion, and others"
-                ]
-              },
-              {
-                "label": "Group",
-                "values": [
-                  "NT$320 per person",
-                  "10+ people, plus NT$50 group audio system"
-                ]
-              },
-              {
-                "label": "Taipei 101 combo",
-                "values": [
-                  "NT$820",
-                  "Exhibition Area I + Taipei 101 Observatory"
-                ]
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "Prices are from the museum's official ticket page for Exhibition Area I of the Northern Branch (as of October 2026). Admission is free for everyone on January 1, the Lantern Festival, May 18, September 27, and October 10."
-          },
-          {
-            "type": "h2",
-            "text": "02 · Renting the Audio Guide"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "✓",
-                "b": "Adults: NT$200",
-                "desc": "Available in Korean, English, Japanese, and many other languages at the audio guide counter on 1F of Exhibition Area I, NT$200 per rental (as of October 2026)."
-              },
-              {
-                "mark": "✓",
-                "b": "Kids: NT$150",
-                "desc": "The guide for ages 7–12 comes in Mandarin and English only."
-              },
-              {
-                "mark": "✓",
-                "b": "No passport deposit",
-                "desc": "Staff scan your ID or deposit receipt and hand it back. Older advice about leaving your passport no longer applies."
-              },
-              {
-                "mark": "✓",
-                "b": "Scheduled tours: NT$50 receiver",
-                "desc": "English tours run Tuesday to Sunday at 10:00 and 15:00, Mandarin at 10:30 and 14:30, from the 1F tour counter. Sign up online; each tour takes 20 people and the receiver costs NT$50."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
-            "caption": "The front of the main building, reached by the stairs across the plaza. Bus R30 drops you at the B1 entrance instead."
-          },
-          {
-            "type": "h2",
-            "text": "03 · Opening Hours and Closing Days"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "1",
-                "b": "Tue–Sun 09:00–17:00",
-                "desc": "Ticket sales and exchanges end at 16:30 (as of October 2026)."
-              },
-              {
-                "mark": "2",
-                "b": "Closed on Mondays",
-                "desc": "The museum occasionally announces special Monday openings, so check its official notices if you plan a Monday visit."
-              },
-              {
-                "mark": "3",
-                "b": "Star pieces may be on loan",
-                "desc": "The Jadeite Cabbage and the Meat-shaped Stone traveled abroad, to the Southern Branch, and to other museums in 2026. Check the museum's exhibition update notice for both pieces before you go."
-              },
-              {
-                "mark": "✓",
-                "b": "With kids, head to B1",
-                "desc": "The Children's Gallery on B1 of Exhibition Area I is free and keeps the same hours. The Zhishan Garden next door is free too."
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10136-national-palace-museum-ticket-package-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See National Palace Museum tickets on Klook →</a>"
-          },
-          {
-            "type": "h2",
-            "text": "04 · Getting There from Shilin Station, and Parking"
-          },
-          {
-            "type": "p",
-            "html": "Take MRT Tamsui-Xinyi Line to Shilin Station (R16), leave by Exit 1, and walk 1–2 minutes to the Zhongzheng Rd. bus stop. Bus R30 reaches the B1 entrance of the main building in about 15 minutes; 815, 304, 300, 255, S18, S19, and M1 also go to the museum, and EasyCard works on all of them. From the Wenhu Line, take BR20 or BL7 from Jiannan Rd. Station (BR15) or BR13 from Dazhi Station (BR14), about 10 minutes."
-          },
-          {
-            "type": "p",
-            "html": "If you drive, the public lots near the museum have 88 car spaces: NT$50 per entry on weekdays and NT$40 per hour on weekends and holidays (June 2025 notice, checked October 2026). Scooter parking is free."
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taipei-national-palace-museum-tips-2.jpg",
-            "caption": "Green tiled roofs and white balustrades along the main building. With the garden and plaza, half a day goes quickly."
-          },
-          {
-            "type": "quote",
-            "text": "“Under 18, regardless of nationality” — the free-admission line on the museum's official ticket page."
-          },
-          {
-            "type": "p",
-            "html": "If you are still deciding whether the museum fits your days, see <a href=\"/blog-taipei-fun-pass-3-day-worth-it\">whether the Taipei Fun Pass 3-day pass pays off</a> and <a href=\"/blog-taipei-101-observatory-child-ticket\">Taipei 101 Observatory child tickets</a>. The museum has its own <a href=\"/taipei-attraction-102\">National Palace Museum</a> page, and more sights are on <a href=\"/taipei-attraction\">Taipei attractions</a> and the <a href=\"/region-taipei\">Taipei food map</a>. Back at Shilin Station, the dim sum spot <a href=\"/taipei-dimsum-bao-bao-bao-817\">Bao Bao Bao</a> is close by."
-          },
-          {
-            "type": "note",
-            "text": "This guide is based on the National Palace Museum's official pages on tickets, audio guides (updated April 2026), scheduled tours, opening hours, public transport, parking (updated June 2025), and its 2026 news notices, as of October 2026. Prices and opening days can change, so check the official notices again before your visit."
-          },
-          {
-            "type": "cta",
-            "title": "Find dim sum near Shilin on the map",
-            "desc": "Pin a place to eat on the way back to Shilin Station and your afternoon gets easier.",
-            "btn": "Open Map →",
-            "href": "/map?region=taipei&cat=dimsum"
-          }
-        ]
-      }
+    "heroImage": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
+    "ko": {
+      "pageTitle": "고궁박물원 입장료 — 오디오가이드·관람 팁 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 고궁박물원 입장료는 일반 NT$350, 만 18세 미만은 무료예요. 한국어 오디오가이드 요금과 휴관일, 스린역에서 가는 법을 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "타이베이 고궁박물원 입장료, 오디오가이드까지 얼마일까?",
+      "eyebrow": "타이베이 여행 가이드 · 박물관",
+      "title": "타이베이 고궁박물원 입장료, 오디오가이드까지 얼마일까?",
+      "dek": "무료 대상과 무료 개방일, 한국어 오디오가이드 빌리는 곳, 월요일 휴관과 버스 타는 곳까지 — 가기 전에 알아 두면 덜 헤매는 것만 골랐습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 박물관 가이드",
+      "intro": "“고궁박물원 입장료는 얼마고, 한국어 오디오가이드도 있을까요?” 타이베이 스린에 있는 국립고궁박물원은 첫 대만 여행 일정에 자주 들어가는 곳이지만, 오디오가이드 요금이나 휴관일은 예전 정보가 섞여 돌아다녀요. 고궁박물원 공식 홈페이지의 요금·개관·교통 안내를 바탕으로 2026년 10월 기준으로 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 고궁박물원 입장료 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구분",
+            "요금",
+            "대상"
+          ],
+          "rows": [
+            {
+              "label": "일반권",
+              "values": [
+                "NT$350",
+                "한국인 성인 여행자 대부분"
+              ]
+            },
+            {
+              "label": "우대권",
+              "values": [
+                "NT$150",
+                "국제학생증(ISIC) 소지자 등"
+              ]
+            },
+            {
+              "label": "무료",
+              "values": [
+                "NT$0",
+                "만 18세 미만(국적 무관), 장애인과 동반자 1명 등"
+              ]
+            },
+            {
+              "label": "단체권",
+              "values": [
+                "1인 NT$320",
+                "10인 이상, 단체 음성 안내기 1인 NT$50 별도"
+              ]
+            },
+            {
+              "label": "101 전망대 연계권",
+              "values": [
+                "NT$820",
+                "第一展覽館 + 타이베이 101 전망대"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "요금은 고궁박물원 공식 요금표 기준이에요(2026년 10월 기준). 표는 북부원구 第一展覽館(본관) 요금이고, 1월 1일·정월대보름·5월 18일·9월 27일·10월 10일은 국적과 관계없이 무료로 개방합니다."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 한국어 오디오가이드, 어디서 얼마에 빌릴까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "성인용 NT$200",
+              "desc": "한국어를 포함해 영어·일본어 등 여러 언어가 있고, 第一展覽館 1층 오디오가이드 카운터에서 1회 NT$200에 빌려요(2026년 10월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "어린이용 NT$150",
+              "desc": "7~12세용 가이드는 중국어·영어 두 가지예요. 한국어판은 없으니 아이와 간다면 미리 알아 두세요."
+            },
+            {
+              "mark": "✓",
+              "b": "여권은 맡기지 않아요",
+              "desc": "빌릴 때 신분증이나 보증금 영수증을 스캔만 하고 돌려받아요. 여권을 맡겨야 한다는 예전 정보와 달라졌습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "정시 해설은 수신기 NT$50",
+              "desc": "영어 정시 해설은 화~일 10:00·15:00, 중국어는 10:30·14:30에 1층 카운터 앞에서 출발해요. 온라인 신청이고 회당 20명, 해설용 수신기 대여료 NT$50이 따로 듭니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
+          "caption": "계단과 광장을 지나 들어가는 고궁박물원 본관 정면이에요. 홍30번 버스를 타면 계단 대신 B1 입구 앞에서 내릴 수 있어요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 고궁박물원 휴관일과 개관 시간"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "화~일 09:00~17:00",
+              "desc": "표 판매와 교환은 16:30에 끝나요(2026년 10월 기준). 늦은 오후에 간다면 시간을 넉넉히 잡으세요."
+            },
+            {
+              "mark": "2",
+              "b": "월요일은 정기 휴관",
+              "desc": "가끔 월요일 특별 개관일이 공지되니, 월요일에 가려면 공식 사이트 공지를 먼저 확인하세요."
+            },
+            {
+              "mark": "3",
+              "b": "인기 국보는 순회 중일 수 있어요",
+              "desc": "취옥백채(翠玉白菜)와 육형석(肉形石)은 2026년에도 해외·남부원구·다른 박물관 전시를 오갔어요. 꼭 보고 싶다면 공식 홈페이지의 두 작품 '展覽動態' 공지를 출발 전에 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "아이와 함께라면 B1",
+              "desc": "第一展覽館 B1 어린이 학습센터(兒童學藝中心)는 무료이고 개관 시간이 본관과 같아요. 옆 정원 지선원(至善園)도 무료로 들어갈 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10136-national-palace-museum-ticket-package-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 국립고궁박물원 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 스린역에서 고궁박물원 가는 법과 주차"
+        },
+        {
+          "type": "p",
+          "html": "MRT 단수이신이선 스린역(R16) 1번 출구로 나와 1~2분 걸으면 중정로(中正路) 버스 정류장이 나와요. 여기서 홍30(紅30)번을 타면 약 15분 뒤 본관 B1 입구 앞에 내려 줍니다. 815·304·300·255·소18·소19·시민소형버스1번도 고궁박물원 앞까지 가고, 이지카드로 탈 수 있어요. 원산선을 탄다면 젠난루역(BR15)에서 종20·남7번, 다즈역(BR14)에서 종13번 버스로 약 10분이에요."
+        },
+        {
+          "type": "p",
+          "html": "차로 간다면 박물관 주변 공영 주차장에 소형차 88면이 있고, 평일 1회 NT$50, 주말·공휴일 시간당 NT$40이에요(2025년 6월 공지, 2026년 10월 확인). 오토바이 주차는 무료입니다."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-national-palace-museum-tips-2.jpg",
+          "caption": "녹색 기와지붕과 흰 난간이 이어지는 고궁박물원 본관 외관이에요. 정원과 광장까지 둘러보면 반나절은 금방 지나가요."
+        },
+        {
+          "type": "quote",
+          "text": "“年齡未滿18歲者（不分國籍）” — 만 18세 미만은 국적과 관계없이 무료라는 고궁박물원 공식 요금표 문구예요."
+        },
+        {
+          "type": "p",
+          "html": "타이베이 일정에 박물관을 넣을지 고민된다면 <a href=\"/blog-taipei-fun-pass-3-day-worth-it\">타이베이 펀패스 3일권 본전 계산</a>과 <a href=\"/blog-taipei-101-observatory-child-ticket\">타이베이 101 전망대 아이 요금</a>도 함께 보세요. 박물관 정보는 <a href=\"/taipei-attraction-102\">국립고궁박물원</a> 페이지에, 다른 명소는 <a href=\"/taipei-attraction\">타이베이 체험·관광지</a>와 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에 모아 두었어요. 관람을 마치고 스린역으로 돌아왔다면 역 근처 딤섬집 <a href=\"/taipei-dimsum-bao-bao-bao-817\">Bao Bao Bao</a>도 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 국립고궁박물원 공식 홈페이지의 요금(票價資訊), 오디오가이드(語音導覽, 2026년 4월 갱신), 정시 해설(個人導覽預約), 개관 시간, 대중교통, 주차(2025년 6월 갱신) 안내와 2026년 최신 소식 공지를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금과 개관일은 바뀔 수 있으니 방문 전에 공식 홈페이지 공지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 스린 근처 딤섬집도 확인해보세요",
+          "desc": "박물관을 나와 스린역으로 돌아가는 길에 들를 식당을 미리 찜해 두면 오후 동선이 편해져요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=dimsum"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "National Palace Museum Tickets — Audio Guide & Tips · My Secret Taiwan Eats",
+      "metaDescription": "National Palace Museum Taipei tickets (NT$350, free under 18), the NT$200 audio guide, Monday closures, and the bus from Shilin Station, as of October 2026.",
+      "ogTitle": "National Palace Museum Taipei: Tickets, Audio Guide, and How to Get There",
+      "eyebrow": "Taipei Travel Guide · Museums",
+      "title": "National Palace Museum Taipei: Tickets, Audio Guide, and How to Get There",
+      "dek": "Who gets in free, the free-admission days, where to rent an audio guide in your language, Monday closures, and which bus to take — the short list before you go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Museum Guide",
+      "intro": "“How much is the National Palace Museum, and is there an audio guide in my language?” The museum in Shilin is on most first-time Taipei itineraries, but older information about audio guide prices and closing days still circulates. This guide uses the museum's official pages on tickets, hours, and transport, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Ticket Prices at a Glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Ticket",
+            "Price",
+            "Who"
+          ],
+          "rows": [
+            {
+              "label": "Regular",
+              "values": [
+                "NT$350",
+                "Most adult visitors"
+              ]
+            },
+            {
+              "label": "Discount",
+              "values": [
+                "NT$150",
+                "ISIC student card holders and others"
+              ]
+            },
+            {
+              "label": "Free",
+              "values": [
+                "NT$0",
+                "Under 18 (any nationality), visitors with disabilities plus one companion, and others"
+              ]
+            },
+            {
+              "label": "Group",
+              "values": [
+                "NT$320 per person",
+                "10+ people, plus NT$50 group audio system"
+              ]
+            },
+            {
+              "label": "Taipei 101 combo",
+              "values": [
+                "NT$820",
+                "Exhibition Area I + Taipei 101 Observatory"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Prices are from the museum's official ticket page for Exhibition Area I of the Northern Branch (as of October 2026). Admission is free for everyone on January 1, the Lantern Festival, May 18, September 27, and October 10."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Renting the Audio Guide"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Adults: NT$200",
+              "desc": "Available in Korean, English, Japanese, and many other languages at the audio guide counter on 1F of Exhibition Area I, NT$200 per rental (as of October 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Kids: NT$150",
+              "desc": "The guide for ages 7–12 comes in Mandarin and English only."
+            },
+            {
+              "mark": "✓",
+              "b": "No passport deposit",
+              "desc": "Staff scan your ID or deposit receipt and hand it back. Older advice about leaving your passport no longer applies."
+            },
+            {
+              "mark": "✓",
+              "b": "Scheduled tours: NT$50 receiver",
+              "desc": "English tours run Tuesday to Sunday at 10:00 and 15:00, Mandarin at 10:30 and 14:30, from the 1F tour counter. Sign up online; each tour takes 20 people and the receiver costs NT$50."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-national-palace-museum-tips-1.jpg",
+          "caption": "The front of the main building, reached by the stairs across the plaza. Bus R30 drops you at the B1 entrance instead."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Opening Hours and Closing Days"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Tue–Sun 09:00–17:00",
+              "desc": "Ticket sales and exchanges end at 16:30 (as of October 2026)."
+            },
+            {
+              "mark": "2",
+              "b": "Closed on Mondays",
+              "desc": "The museum occasionally announces special Monday openings, so check its official notices if you plan a Monday visit."
+            },
+            {
+              "mark": "3",
+              "b": "Star pieces may be on loan",
+              "desc": "The Jadeite Cabbage and the Meat-shaped Stone traveled abroad, to the Southern Branch, and to other museums in 2026. Check the museum's exhibition update notice for both pieces before you go."
+            },
+            {
+              "mark": "✓",
+              "b": "With kids, head to B1",
+              "desc": "The Children's Gallery on B1 of Exhibition Area I is free and keeps the same hours. The Zhishan Garden next door is free too."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10136-national-palace-museum-ticket-package-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See National Palace Museum tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Getting There from Shilin Station, and Parking"
+        },
+        {
+          "type": "p",
+          "html": "Take MRT Tamsui-Xinyi Line to Shilin Station (R16), leave by Exit 1, and walk 1–2 minutes to the Zhongzheng Rd. bus stop. Bus R30 reaches the B1 entrance of the main building in about 15 minutes; 815, 304, 300, 255, S18, S19, and M1 also go to the museum, and EasyCard works on all of them. From the Wenhu Line, take BR20 or BL7 from Jiannan Rd. Station (BR15) or BR13 from Dazhi Station (BR14), about 10 minutes."
+        },
+        {
+          "type": "p",
+          "html": "If you drive, the public lots near the museum have 88 car spaces: NT$50 per entry on weekdays and NT$40 per hour on weekends and holidays (June 2025 notice, checked October 2026). Scooter parking is free."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-national-palace-museum-tips-2.jpg",
+          "caption": "Green tiled roofs and white balustrades along the main building. With the garden and plaza, half a day goes quickly."
+        },
+        {
+          "type": "quote",
+          "text": "“Under 18, regardless of nationality” — the free-admission line on the museum's official ticket page."
+        },
+        {
+          "type": "p",
+          "html": "If you are still deciding whether the museum fits your days, see <a href=\"/blog-taipei-fun-pass-3-day-worth-it\">whether the Taipei Fun Pass 3-day pass pays off</a> and <a href=\"/blog-taipei-101-observatory-child-ticket\">Taipei 101 Observatory child tickets</a>. The museum has its own <a href=\"/taipei-attraction-102\">National Palace Museum</a> page, and more sights are on <a href=\"/taipei-attraction\">Taipei attractions</a> and the <a href=\"/region-taipei\">Taipei food map</a>. Back at Shilin Station, the dim sum spot <a href=\"/taipei-dimsum-bao-bao-bao-817\">Bao Bao Bao</a> is close by."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on the National Palace Museum's official pages on tickets, audio guides (updated April 2026), scheduled tours, opening hours, public transport, parking (updated June 2025), and its 2026 news notices, as of October 2026. Prices and opening days can change, so check the official notices again before your visit."
+        },
+        {
+          "type": "cta",
+          "title": "Find dim sum near Shilin on the map",
+          "desc": "Pin a place to eat on the way back to Shilin Station and your afternoon gets easier.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=dimsum"
+        }
+      ]
+    }
   },
   "jiufen-car-stay-parking-guide": {
-      "heroImage": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
-      "ko": {
-        "pageTitle": "지우펀 주차장 — 렌터카 숙박 가이드 · 나만 알고 싶은 대만 맛집",
-        "metaDescription": "지우펀 주차장은 隔頂 공영(평일 1회 NT$150·주말 시간당 NT$50)과 무료 水湳洞 주차장이 있어요. 주말 교통 통제와 숙소 진입 팁을 2026년 10월 기준으로 정리했어요.",
-        "ogTitle": "지우펀 렌터카 숙박, 차는 어디에 세우고 숙소까지 갈까?",
-        "eyebrow": "지우펀 여행 가이드 · 렌터카·주차",
-        "title": "지우펀 렌터카 숙박, 차는 어디에 세우고 숙소까지 갈까?",
-        "dek": "隔頂 공영주차장 요금부터 주말 A급 통제, 체크인 시간 잡는 법까지 — 차를 끌고 지우펀에 묵기 전에 챙길 것만 골랐습니다.",
-        "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
-        "metaTopic": "지우펀 · 렌터카 가이드",
-        "intro": "“렌터카로 지우펀에 하루 묵으려는데, 차는 어디에 세워야 할까요?” 지우펀 주차장은 자리가 적고, 주말·연휴에는 경찰 교통 통제까지 걸려서 미리 알고 가는 편이 훨씬 편해요. 신베이시 교통국 발표와 경찰 통제 안내, 대만 언론 보도를 바탕으로 주차 선택지와 숙소까지 가는 요령을 정리해봤어요.",
-        "blocks": [
-          {
-            "type": "h2",
-            "text": "01 · 지우펀 주차장 한눈에 비교하기"
-          },
-          {
-            "type": "compareTable",
-            "cities": [
-              "구분",
-              "隔頂 공영주차장",
-              "水湳洞 주차장",
-              "新九號 주차장"
-            ],
-            "rows": [
-              {
-                "label": "규모",
-                "values": [
-                  "소형차 61면",
-                  "소형차 422면·대형차 10면",
-                  "대형차 80면 중심(일부 소형차 자리)"
-                ]
-              },
-              {
-                "label": "요금",
-                "values": [
-                  "평일 1회 NT$150, 주말·공휴일 시간당 NT$50",
-                  "무료",
-                  "유료(현장 요금표 확인)"
-                ]
-              },
-              {
-                "label": "결제",
-                "values": [
-                  "이지카드·LINE Pay·Apple Pay",
-                  "—",
-                  "현장 확인"
-                ]
-              },
-              {
-                "label": "지우펀까지",
-                "values": [
-                  "지우펀 안쪽이라 바로 이동",
-                  "통제 때 셔틀버스로 갈아타기",
-                  "통제 때 셔틀버스로 갈아타기"
-                ]
-              },
-              {
-                "label": "추천 상황",
-                "values": [
-                  "평일 도착, 짐이 많을 때",
-                  "주말·연휴, 통제가 걸렸을 때",
-                  "관광버스 환승용이라 승용차는 차선책"
-                ]
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "요금과 면수는 신베이시 교통국 발표 기준이에요(2025년 4월 隔頂 주차장 재개장, 2026년 10월 확인). 隔頂 주차장은 2024년 9월부터 구청이 30분당 NT$20을 받던 자리를 새로 정비해 2025년 4월 26일 다시 문을 열었습니다. 교통국은 新九號가 관광버스 환승용이라며 승용차는 水湳洞 주차장이나 루이팡역(瑞芳火車站) 주변 공영주차장을 먼저 쓰라고 안내해요."
-          },
-          {
-            "type": "h2",
-            "text": "02 · 주말 지우펀 교통 통제, 언제 걸릴까"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "1",
-                "b": "일반 관리",
-                "desc": "관광버스·중형 버스 같은 대형차만 진입을 막고 승용차는 그대로 들어갈 수 있어요."
-              },
-              {
-                "mark": "2",
-                "b": "A급 통제",
-                "desc": "지우펀 일대 주차장이 80% 넘게 차면 시작돼요. 승용차는 新九號나 水湳洞 주차장에 세우고 셔틀버스로 갈아타야 합니다."
-              },
-              {
-                "mark": "3",
-                "b": "雙A급 통제",
-                "desc": "그래도 차가 몰리면 버스·택시 같은 대중교통과 주민 차량 등만 들어갈 수 있어요. 청명절 연휴 보도에서는 통행증 차량과 민박 투숙객 차량도 예외로 소개됐습니다."
-              },
-              {
-                "mark": "✓",
-                "b": "통제 시간",
-                "desc": "2024년 추석 연휴에는 매일 08:00~18:00에 3단계 통제를 운영했어요. 연휴마다 경찰이 따로 공지하니 출발 전에 루이팡 경찰분국 공지를 확인해 보세요."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
-            "caption": "밤이 되면 홍등이 켜지는 지우펀 골목이에요. 계단과 좁은 골목이 많아서 숙소 앞까지 차로 못 가는 곳도 있어요."
-          },
-          {
-            "type": "h2",
-            "text": "03 · 렌터카로 지우펀 숙소 찾아갈 때 확인할 것"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "✓",
-                "b": "숙소에 주차 방법부터 묻기",
-                "desc": "전용 주차 자리가 있는지, 가까운 제휴 주차장이 있는지, 주차권을 주는지 예약할 때 메시지로 확인해 두세요."
-              },
-              {
-                "mark": "✓",
-                "b": "통제 때 진입 방법 확인",
-                "desc": "雙A급 통제에는 민박 투숙객 차량이 예외로 소개되지만, 현장에서 무엇을 보여 줘야 하는지는 숙소에 미리 물어보는 게 안전해요."
-              },
-              {
-                "mark": "✓",
-                "b": "체크인 시간은 통제 밖으로",
-                "desc": "주말·연휴라면 통제가 시작되기 전 이른 오전이나 통제가 끝난 저녁에 도착하도록 일정을 짜면 덜 헤매요. 평일 도착이 가장 편합니다."
-              },
-              {
-                "mark": "✓",
-                "b": "내비 목적지는 주차장으로",
-                "desc": "숙소 주소를 그대로 찍으면 차가 못 들어가는 골목 입구로 안내될 수 있어요. 숙소가 알려 준 주차장을 목적지로 잡고 마지막은 걸어가세요."
-              },
-              {
-                "mark": "✓",
-                "b": "사설 주차장은 요금표 먼저",
-                "desc": "2024년 '1회 요금을 시간 요금으로 바꿔 받는다'는 논란 뒤 신베이시가 합동 점검을 하고 있어요. 들어가기 전 요금표를 보고 영수증을 꼭 받아 두세요."
-              }
-            ]
-          },
-          {
-            "type": "h2",
-            "text": "04 · 주말이면 차는 두고 버스로 들어가기"
-          },
-          {
-            "type": "p",
-            "html": "주말에 묵는다면 차를 水湳洞 무료 주차장이나 루이팡역 주변 공영주차장에 두고 버스로 들어가는 방법도 있어요. 신베이시 교통국은 788·965·1062번 등이 지우펀까지 가고, 루이팡역에서는 1062·788·825·827·856번을 탈 수 있다고 안내합니다. 캐리어가 크면 숙소에 픽업이나 짐 옮기기를 도와줄 수 있는지도 물어보세요."
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/jiufen-car-stay-parking-guide-2.jpg",
-            "caption": "지우펀 거리의 홍등이에요. 주말 오후에는 차보다 사람이 먼저 몰리니 차는 일찍 세워 두는 편이 마음 편해요."
-          },
-          {
-            "type": "quote",
-            "text": "“지우펀에 갈 땐 대중교통을 이용해 주세요.” — 신베이시 교통국이 지우펀 주차 안내를 낼 때마다 덧붙이는 당부예요."
-          },
-          {
-            "type": "p",
-            "html": "렌터카 대신 버스로 가고 싶다면 <a href=\"/blog-jiufen-bus-965-from-taipei\">지우펀 965번 버스 타는 법</a>을, 요일별로 얼마나 붐비는지는 <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">지우펀 금요일 vs 일요일 혼잡도</a>를 함께 보세요. 숙소에 짐을 풀고 들를 곳은 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>와 <a href=\"/jiufen-cafe\">지우펀 카페 맛집</a>에서 고를 수 있어요. 아침에는 옛거리 위쪽 골목의 <a href=\"/jiufen-cafe-twilight-cafe-843\">微光森林 Twilight Cafe</a>, 출출할 땐 <a href=\"/jiufen-taiwanese-77\">메이핑 샤오츠(美萍小吃)</a>도 있어요."
-          },
-          {
-            "type": "note",
-            "text": "이 글은 신베이시 교통국의 隔頂·水湳洞·新九號 주차장 발표(2023년 6월, 2025년 4월), 루이팡 경찰분국 교통 통제 안내를 다룬 대만 언론 보도(2024년 추석 연휴 등), 2024년 지우펀 주차 요금 점검 보도를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금과 통제 방식은 바뀔 수 있으니 출발 전에 숙소와 신베이시 교통국 공지를 다시 확인하는 것을 추천해요."
-          },
-          {
-            "type": "cta",
-            "title": "지도에서 지우펀 카페도 확인해보세요",
-            "desc": "숙소에 차를 세운 뒤 걸어갈 카페와 맛집을 미리 찜해 두면 저녁·아침 동선이 편해져요.",
-            "btn": "지도 열기 →",
-            "href": "/map?region=jiufen&cat=cafe"
-          }
-        ]
-      },
-      "en": {
-        "pageTitle": "Jiufen Parking — Rental Car Stay Guide · My Secret Taiwan Eats",
-        "metaDescription": "Jiufen parking for rental-car stays: Geding public lot rates, the free Shuinandong lot, weekend traffic control, and what to ask your guesthouse, as of October 2026.",
-        "ogTitle": "Staying in Jiufen by Rental Car: Where to Park and How to Reach Your Stay",
-        "eyebrow": "Jiufen Travel Guide · Driving & Parking",
-        "title": "Staying in Jiufen by Rental Car: Where to Park and How to Reach Your Stay",
-        "dek": "Geding lot rates, weekend A-level traffic control, and when to check in — what to sort out before you drive to an overnight stay in Jiufen.",
-        "metaAuthor": "My Secret Taiwan Eats Editorial",
-        "metaTopic": "Jiufen · Driving Guide",
-        "intro": "Driving a rental car to Jiufen for the night and wondering where to leave it? Parking in Jiufen is tight, and police traffic control kicks in on busy weekends and holidays, so it pays to plan ahead. This guide is based on New Taipei City Transportation Department announcements, police traffic-control notices, and Taiwanese press reports.",
-        "blocks": [
-          {
-            "type": "h2",
-            "text": "01 · Jiufen parking at a glance"
-          },
-          {
-            "type": "compareTable",
-            "cities": [
-              "Item",
-              "Geding public lot (隔頂)",
-              "Shuinandong lot (水湳洞)",
-              "New No. 9 lot (新九號)"
-            ],
-            "rows": [
-              {
-                "label": "Size",
-                "values": [
-                  "61 car spaces",
-                  "422 car + 10 bus spaces",
-                  "Mainly 80 bus spaces (some for cars)"
-                ]
-              },
-              {
-                "label": "Rate",
-                "values": [
-                  "Weekdays NT$150 per entry; weekends/holidays NT$50 per hour",
-                  "Free",
-                  "Paid (check the posted rates)"
-                ]
-              },
-              {
-                "label": "Payment",
-                "values": [
-                  "EasyCard, LINE Pay, Apple Pay",
-                  "—",
-                  "Check on site"
-                ]
-              },
-              {
-                "label": "To Jiufen",
-                "values": [
-                  "Already in Jiufen",
-                  "Shuttle bus during traffic control",
-                  "Shuttle bus during traffic control"
-                ]
-              },
-              {
-                "label": "Best for",
-                "values": [
-                  "Weekday arrivals, lots of luggage",
-                  "Weekends/holidays under control",
-                  "Built for tour-bus transfers; a fallback for cars"
-                ]
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "Rates and space counts come from the New Taipei City Transportation Department (Geding lot reopened April 2025; checked October 2026). The Geding site had charged NT$20 per 30 minutes under the district office from September 2024 before it was rebuilt and reopened on April 26, 2025. The department says New No. 9 mainly serves tour buses, so cars should first try Shuinandong or the public lots around Ruifang Station (瑞芳火車站)."
-          },
-          {
-            "type": "h2",
-            "text": "02 · When does weekend traffic control start?"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "1",
-                "b": "General control",
-                "desc": "Only tour buses and other large vehicles are kept out; cars can still drive in."
-              },
-              {
-                "mark": "2",
-                "b": "A-level control",
-                "desc": "Starts when Jiufen's parking is over 80% full. Cars must park at New No. 9 or Shuinandong and switch to the shuttle bus."
-              },
-              {
-                "mark": "3",
-                "b": "Double-A control",
-                "desc": "If traffic keeps building, only public transport such as buses and taxis, residents' vehicles and similar can enter. A Qingming holiday press report also listed permit holders and guesthouse guests as exceptions."
-              },
-              {
-                "mark": "✓",
-                "b": "Hours",
-                "desc": "During the 2024 Mid-Autumn holiday the three-stage control ran daily 08:00–18:00. Police announce each holiday separately, so check the Ruifang police notice before you set off."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
-            "caption": "A Jiufen lane under red lanterns at night. With so many steps and narrow alleys, some guesthouses can't be reached by car at all."
-          },
-          {
-            "type": "h2",
-            "text": "03 · What to check before driving to your Jiufen stay"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "✓",
-                "b": "Ask how parking works",
-                "desc": "When you book, message the property to ask whether it has its own spaces, a partner lot nearby, or parking vouchers."
-              },
-              {
-                "mark": "✓",
-                "b": "Ask about entry during control",
-                "desc": "Guesthouse guests are reported as an exception under double-A control, but ask your host what you need to show at the checkpoint."
-              },
-              {
-                "mark": "✓",
-                "b": "Arrive outside control hours",
-                "desc": "On weekends and holidays, aim to arrive early in the morning before control starts or in the evening after it ends. A weekday arrival is easiest."
-              },
-              {
-                "mark": "✓",
-                "b": "Navigate to the car park",
-                "desc": "Entering the guesthouse address may lead you to an alley cars can't use. Set the car park your host recommends as the destination and walk the last stretch."
-              },
-              {
-                "mark": "✓",
-                "b": "Private lots: read the rates first",
-                "desc": "After a 2024 row over lots switching from per-entry to hourly charges, the city has been running joint inspections. Check the posted rates before entering and keep your receipt."
-              }
-            ]
-          },
-          {
-            "type": "h2",
-            "text": "04 · On weekends, leave the car and take the bus"
-          },
-          {
-            "type": "p",
-            "html": "If you're staying over a weekend, you can also leave the car at the free Shuinandong lot or a public lot near Ruifang Station and ride the bus in. The Transportation Department lists routes 788, 965 and 1062 among those serving Jiufen, and from Ruifang Station you can take 1062, 788, 825, 827 or 856. If you have a big suitcase, ask your host whether they can pick you up or help with luggage."
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/jiufen-car-stay-parking-guide-2.jpg",
-            "caption": "Red lanterns on a Jiufen street. On weekend afternoons the crowds arrive before the cars do, so park early."
-          },
-          {
-            "type": "quote",
-            "text": "“Please use public transport when visiting Jiufen.” — a line the New Taipei City Transportation Department adds to almost every Jiufen parking notice."
-          },
-          {
-            "type": "p",
-            "html": "Prefer the bus? See <a href=\"/blog-jiufen-bus-965-from-taipei\">how to ride bus 965 to Jiufen</a>, and check <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">Jiufen crowds on Friday vs Sunday</a> before you pick a date. Once you have checked in, browse the <a href=\"/region-jiufen\">Jiufen food map</a> and <a href=\"/jiufen-cafe\">Jiufen cafés</a>. For breakfast there is <a href=\"/jiufen-cafe-twilight-cafe-843\">Twilight Cafe (微光森林)</a> in the lanes above the old street, and for a snack <a href=\"/jiufen-taiwanese-77\">Mei Ping Xiao Chi (美萍小吃)</a>."
-          },
-          {
-            "type": "note",
-            "text": "This guide is based on New Taipei City Transportation Department announcements on the Geding, Shuinandong and New No. 9 lots (June 2023, April 2025), Taiwanese press reports on Ruifang police traffic control (including the 2024 Mid-Autumn holiday), and a 2024 report on Jiufen parking-fee inspections, as of October 2026. Rates and control rules can change, so recheck with your host and the city's notices before you go."
-          },
-          {
-            "type": "cta",
-            "title": "Find Jiufen cafés on the map",
-            "desc": "Pin a café or restaurant within walking distance of where you park to make your evening and morning easier.",
-            "btn": "Open Map →",
-            "href": "/map?region=jiufen&cat=cafe"
-          }
-        ]
-      }
+    "heroImage": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
+    "ko": {
+      "pageTitle": "지우펀 주차장 — 렌터카 숙박 가이드 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "지우펀 주차장은 隔頂 공영(평일 1회 NT$150·주말 시간당 NT$50)과 무료 水湳洞 주차장이 있어요. 주말 교통 통제와 숙소 진입 팁을 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "지우펀 렌터카 숙박, 차는 어디에 세우고 숙소까지 갈까?",
+      "eyebrow": "지우펀 여행 가이드 · 렌터카·주차",
+      "title": "지우펀 렌터카 숙박, 차는 어디에 세우고 숙소까지 갈까?",
+      "dek": "隔頂 공영주차장 요금부터 주말 A급 통제, 체크인 시간 잡는 법까지 — 차를 끌고 지우펀에 묵기 전에 챙길 것만 골랐습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "지우펀 · 렌터카 가이드",
+      "intro": "“렌터카로 지우펀에 하루 묵으려는데, 차는 어디에 세워야 할까요?” 지우펀 주차장은 자리가 적고, 주말·연휴에는 경찰 교통 통제까지 걸려서 미리 알고 가는 편이 훨씬 편해요. 신베이시 교통국 발표와 경찰 통제 안내, 대만 언론 보도를 바탕으로 주차 선택지와 숙소까지 가는 요령을 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 지우펀 주차장 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구분",
+            "隔頂 공영주차장",
+            "水湳洞 주차장",
+            "新九號 주차장"
+          ],
+          "rows": [
+            {
+              "label": "규모",
+              "values": [
+                "소형차 61면",
+                "소형차 422면·대형차 10면",
+                "대형차 80면 중심(일부 소형차 자리)"
+              ]
+            },
+            {
+              "label": "요금",
+              "values": [
+                "평일 1회 NT$150, 주말·공휴일 시간당 NT$50",
+                "무료",
+                "유료(현장 요금표 확인)"
+              ]
+            },
+            {
+              "label": "결제",
+              "values": [
+                "이지카드·LINE Pay·Apple Pay",
+                "—",
+                "현장 확인"
+              ]
+            },
+            {
+              "label": "지우펀까지",
+              "values": [
+                "지우펀 안쪽이라 바로 이동",
+                "통제 때 셔틀버스로 갈아타기",
+                "통제 때 셔틀버스로 갈아타기"
+              ]
+            },
+            {
+              "label": "추천 상황",
+              "values": [
+                "평일 도착, 짐이 많을 때",
+                "주말·연휴, 통제가 걸렸을 때",
+                "관광버스 환승용이라 승용차는 차선책"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "요금과 면수는 신베이시 교통국 발표 기준이에요(2025년 4월 隔頂 주차장 재개장, 2026년 10월 확인). 隔頂 주차장은 2024년 9월부터 구청이 30분당 NT$20을 받던 자리를 새로 정비해 2025년 4월 26일 다시 문을 열었습니다. 교통국은 新九號가 관광버스 환승용이라며 승용차는 水湳洞 주차장이나 루이팡역(瑞芳火車站) 주변 공영주차장을 먼저 쓰라고 안내해요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 주말 지우펀 교통 통제, 언제 걸릴까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "일반 관리",
+              "desc": "관광버스·중형 버스 같은 대형차만 진입을 막고 승용차는 그대로 들어갈 수 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "A급 통제",
+              "desc": "지우펀 일대 주차장이 80% 넘게 차면 시작돼요. 승용차는 新九號나 水湳洞 주차장에 세우고 셔틀버스로 갈아타야 합니다."
+            },
+            {
+              "mark": "3",
+              "b": "雙A급 통제",
+              "desc": "그래도 차가 몰리면 버스·택시 같은 대중교통과 주민 차량 등만 들어갈 수 있어요. 청명절 연휴 보도에서는 통행증 차량과 민박 투숙객 차량도 예외로 소개됐습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "통제 시간",
+              "desc": "2024년 추석 연휴에는 매일 08:00~18:00에 3단계 통제를 운영했어요. 연휴마다 경찰이 따로 공지하니 출발 전에 루이팡 경찰분국 공지를 확인해 보세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
+          "caption": "밤이 되면 홍등이 켜지는 지우펀 골목이에요. 계단과 좁은 골목이 많아서 숙소 앞까지 차로 못 가는 곳도 있어요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 렌터카로 지우펀 숙소 찾아갈 때 확인할 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "숙소에 주차 방법부터 묻기",
+              "desc": "전용 주차 자리가 있는지, 가까운 제휴 주차장이 있는지, 주차권을 주는지 예약할 때 메시지로 확인해 두세요."
+            },
+            {
+              "mark": "✓",
+              "b": "통제 때 진입 방법 확인",
+              "desc": "雙A급 통제에는 민박 투숙객 차량이 예외로 소개되지만, 현장에서 무엇을 보여 줘야 하는지는 숙소에 미리 물어보는 게 안전해요."
+            },
+            {
+              "mark": "✓",
+              "b": "체크인 시간은 통제 밖으로",
+              "desc": "주말·연휴라면 통제가 시작되기 전 이른 오전이나 통제가 끝난 저녁에 도착하도록 일정을 짜면 덜 헤매요. 평일 도착이 가장 편합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "내비 목적지는 주차장으로",
+              "desc": "숙소 주소를 그대로 찍으면 차가 못 들어가는 골목 입구로 안내될 수 있어요. 숙소가 알려 준 주차장을 목적지로 잡고 마지막은 걸어가세요."
+            },
+            {
+              "mark": "✓",
+              "b": "사설 주차장은 요금표 먼저",
+              "desc": "2024년 '1회 요금을 시간 요금으로 바꿔 받는다'는 논란 뒤 신베이시가 합동 점검을 하고 있어요. 들어가기 전 요금표를 보고 영수증을 꼭 받아 두세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 주말이면 차는 두고 버스로 들어가기"
+        },
+        {
+          "type": "p",
+          "html": "주말에 묵는다면 차를 水湳洞 무료 주차장이나 루이팡역 주변 공영주차장에 두고 버스로 들어가는 방법도 있어요. 신베이시 교통국은 788·965·1062번 등이 지우펀까지 가고, 루이팡역에서는 1062·788·825·827·856번을 탈 수 있다고 안내합니다. 캐리어가 크면 숙소에 픽업이나 짐 옮기기를 도와줄 수 있는지도 물어보세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-car-stay-parking-guide-2.jpg",
+          "caption": "지우펀 거리의 홍등이에요. 주말 오후에는 차보다 사람이 먼저 몰리니 차는 일찍 세워 두는 편이 마음 편해요."
+        },
+        {
+          "type": "quote",
+          "text": "“지우펀에 갈 땐 대중교통을 이용해 주세요.” — 신베이시 교통국이 지우펀 주차 안내를 낼 때마다 덧붙이는 당부예요."
+        },
+        {
+          "type": "p",
+          "html": "렌터카 대신 버스로 가고 싶다면 <a href=\"/blog-jiufen-bus-965-from-taipei\">지우펀 965번 버스 타는 법</a>을, 요일별로 얼마나 붐비는지는 <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">지우펀 금요일 vs 일요일 혼잡도</a>를 함께 보세요. 숙소에 짐을 풀고 들를 곳은 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>와 <a href=\"/jiufen-cafe\">지우펀 카페 맛집</a>에서 고를 수 있어요. 아침에는 옛거리 위쪽 골목의 <a href=\"/jiufen-cafe-twilight-cafe-843\">微光森林 Twilight Cafe</a>, 출출할 땐 <a href=\"/jiufen-taiwanese-77\">메이핑 샤오츠(美萍小吃)</a>도 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 신베이시 교통국의 隔頂·水湳洞·新九號 주차장 발표(2023년 6월, 2025년 4월), 루이팡 경찰분국 교통 통제 안내를 다룬 대만 언론 보도(2024년 추석 연휴 등), 2024년 지우펀 주차 요금 점검 보도를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금과 통제 방식은 바뀔 수 있으니 출발 전에 숙소와 신베이시 교통국 공지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 지우펀 카페도 확인해보세요",
+          "desc": "숙소에 차를 세운 뒤 걸어갈 카페와 맛집을 미리 찜해 두면 저녁·아침 동선이 편해져요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=jiufen&cat=cafe"
+        }
+      ]
     },
+    "en": {
+      "pageTitle": "Jiufen Parking — Rental Car Stay Guide · My Secret Taiwan Eats",
+      "metaDescription": "Jiufen parking for rental-car stays: Geding public lot rates, the free Shuinandong lot, weekend traffic control, and what to ask your guesthouse, as of October 2026.",
+      "ogTitle": "Staying in Jiufen by Rental Car: Where to Park and How to Reach Your Stay",
+      "eyebrow": "Jiufen Travel Guide · Driving & Parking",
+      "title": "Staying in Jiufen by Rental Car: Where to Park and How to Reach Your Stay",
+      "dek": "Geding lot rates, weekend A-level traffic control, and when to check in — what to sort out before you drive to an overnight stay in Jiufen.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Jiufen · Driving Guide",
+      "intro": "Driving a rental car to Jiufen for the night and wondering where to leave it? Parking in Jiufen is tight, and police traffic control kicks in on busy weekends and holidays, so it pays to plan ahead. This guide is based on New Taipei City Transportation Department announcements, police traffic-control notices, and Taiwanese press reports.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · Jiufen parking at a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Geding public lot (隔頂)",
+            "Shuinandong lot (水湳洞)",
+            "New No. 9 lot (新九號)"
+          ],
+          "rows": [
+            {
+              "label": "Size",
+              "values": [
+                "61 car spaces",
+                "422 car + 10 bus spaces",
+                "Mainly 80 bus spaces (some for cars)"
+              ]
+            },
+            {
+              "label": "Rate",
+              "values": [
+                "Weekdays NT$150 per entry; weekends/holidays NT$50 per hour",
+                "Free",
+                "Paid (check the posted rates)"
+              ]
+            },
+            {
+              "label": "Payment",
+              "values": [
+                "EasyCard, LINE Pay, Apple Pay",
+                "—",
+                "Check on site"
+              ]
+            },
+            {
+              "label": "To Jiufen",
+              "values": [
+                "Already in Jiufen",
+                "Shuttle bus during traffic control",
+                "Shuttle bus during traffic control"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Weekday arrivals, lots of luggage",
+                "Weekends/holidays under control",
+                "Built for tour-bus transfers; a fallback for cars"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Rates and space counts come from the New Taipei City Transportation Department (Geding lot reopened April 2025; checked October 2026). The Geding site had charged NT$20 per 30 minutes under the district office from September 2024 before it was rebuilt and reopened on April 26, 2025. The department says New No. 9 mainly serves tour buses, so cars should first try Shuinandong or the public lots around Ruifang Station (瑞芳火車站)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · When does weekend traffic control start?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "General control",
+              "desc": "Only tour buses and other large vehicles are kept out; cars can still drive in."
+            },
+            {
+              "mark": "2",
+              "b": "A-level control",
+              "desc": "Starts when Jiufen's parking is over 80% full. Cars must park at New No. 9 or Shuinandong and switch to the shuttle bus."
+            },
+            {
+              "mark": "3",
+              "b": "Double-A control",
+              "desc": "If traffic keeps building, only public transport such as buses and taxis, residents' vehicles and similar can enter. A Qingming holiday press report also listed permit holders and guesthouse guests as exceptions."
+            },
+            {
+              "mark": "✓",
+              "b": "Hours",
+              "desc": "During the 2024 Mid-Autumn holiday the three-stage control ran daily 08:00–18:00. Police announce each holiday separately, so check the Ruifang police notice before you set off."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-car-stay-parking-guide-1.jpg",
+          "caption": "A Jiufen lane under red lanterns at night. With so many steps and narrow alleys, some guesthouses can't be reached by car at all."
+        },
+        {
+          "type": "h2",
+          "text": "03 · What to check before driving to your Jiufen stay"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Ask how parking works",
+              "desc": "When you book, message the property to ask whether it has its own spaces, a partner lot nearby, or parking vouchers."
+            },
+            {
+              "mark": "✓",
+              "b": "Ask about entry during control",
+              "desc": "Guesthouse guests are reported as an exception under double-A control, but ask your host what you need to show at the checkpoint."
+            },
+            {
+              "mark": "✓",
+              "b": "Arrive outside control hours",
+              "desc": "On weekends and holidays, aim to arrive early in the morning before control starts or in the evening after it ends. A weekday arrival is easiest."
+            },
+            {
+              "mark": "✓",
+              "b": "Navigate to the car park",
+              "desc": "Entering the guesthouse address may lead you to an alley cars can't use. Set the car park your host recommends as the destination and walk the last stretch."
+            },
+            {
+              "mark": "✓",
+              "b": "Private lots: read the rates first",
+              "desc": "After a 2024 row over lots switching from per-entry to hourly charges, the city has been running joint inspections. Check the posted rates before entering and keep your receipt."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · On weekends, leave the car and take the bus"
+        },
+        {
+          "type": "p",
+          "html": "If you're staying over a weekend, you can also leave the car at the free Shuinandong lot or a public lot near Ruifang Station and ride the bus in. The Transportation Department lists routes 788, 965 and 1062 among those serving Jiufen, and from Ruifang Station you can take 1062, 788, 825, 827 or 856. If you have a big suitcase, ask your host whether they can pick you up or help with luggage."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-car-stay-parking-guide-2.jpg",
+          "caption": "Red lanterns on a Jiufen street. On weekend afternoons the crowds arrive before the cars do, so park early."
+        },
+        {
+          "type": "quote",
+          "text": "“Please use public transport when visiting Jiufen.” — a line the New Taipei City Transportation Department adds to almost every Jiufen parking notice."
+        },
+        {
+          "type": "p",
+          "html": "Prefer the bus? See <a href=\"/blog-jiufen-bus-965-from-taipei\">how to ride bus 965 to Jiufen</a>, and check <a href=\"/blog-jiufen-friday-vs-sunday-crowds\">Jiufen crowds on Friday vs Sunday</a> before you pick a date. Once you have checked in, browse the <a href=\"/region-jiufen\">Jiufen food map</a> and <a href=\"/jiufen-cafe\">Jiufen cafés</a>. For breakfast there is <a href=\"/jiufen-cafe-twilight-cafe-843\">Twilight Cafe (微光森林)</a> in the lanes above the old street, and for a snack <a href=\"/jiufen-taiwanese-77\">Mei Ping Xiao Chi (美萍小吃)</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on New Taipei City Transportation Department announcements on the Geding, Shuinandong and New No. 9 lots (June 2023, April 2025), Taiwanese press reports on Ruifang police traffic control (including the 2024 Mid-Autumn holiday), and a 2024 report on Jiufen parking-fee inspections, as of October 2026. Rates and control rules can change, so recheck with your host and the city's notices before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Find Jiufen cafés on the map",
+          "desc": "Pin a café or restaurant within walking distance of where you park to make your evening and morning easier.",
+          "btn": "Open Map →",
+          "href": "/map?region=jiufen&cat=cafe"
+        }
+      ]
+    }
+  },
   "taoyuan-airport-terminal1-free-shower": {
-      "heroImage": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
-      "ko": {
-        "pageTitle": "타오위안공항 무료 샤워실 — 위치·시간 · 나만 알고 싶은 대만 맛집",
-        "metaDescription": "타오위안공항 무료 샤워실은 1터미널 4층 출국 구역에 있고 06:00~22:00, 1인 15분이에요. 입국층 샤워실과 수건 등 준비물까지 2026년 10월 기준으로 정리했어요.",
-        "ogTitle": "타오위안공항 1터미널 무료 샤워실, 수건은 챙겨야 할까?",
-        "eyebrow": "타오위안 공항 가이드 · 편의시설",
-        "title": "타오위안공항 1터미널 무료 샤워실, 수건은 챙겨야 할까?",
-        "dek": "출국 심사 뒤 4층 체험 구역부터 입국층 샤워실까지 — 찾아가는 길과 이용 시간, 챙길 것만 골라 정리했습니다.",
-        "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
-        "metaTopic": "타오위안 · 공항 가이드",
-        "intro": "“새벽 비행기 타기 전에 공항에서 씻을 수 있을까요?” 타오위안공항 무료 샤워실은 1터미널 출국 구역과 입국 구역에 모두 있어요. 공항 공식 시설 안내와 2026년 2월 공항공사 발표, 대만 언론 보도를 바탕으로 위치와 이용법, 준비물을 정리해봤어요.",
-        "blocks": [
-          {
-            "type": "h2",
-            "text": "01 · 한눈에 비교하기"
-          },
-          {
-            "type": "compareTable",
-            "cities": [
-              "구분",
-              "출국 쪽 (4층 체험 구역)",
-              "입국 쪽 (도착 구역)"
-            ],
-            "rows": [
-              {
-                "label": "위치",
-                "values": [
-                  "출국 심사 뒤 면세 구역 4층, 환야(Plaza Premium) 라운지 옆 무료 ‘공항 체험 구역(機場體驗區)’",
-                  "수하물 수취대 쪽 — 공식 안내상 2층 2곳·1층 1곳"
-                ]
-              },
-              {
-                "label": "이용 시간",
-                "values": [
-                  "샤워실 06:00~22:00, 체험 구역 좌석은 24시간 (2026년 10월 기준)",
-                  "24시간 (2026년 10월 기준)"
-                ]
-              },
-              {
-                "label": "요금·예약",
-                "values": [
-                  "무료, 예약 없이 도착 순서대로",
-                  "무료"
-                ]
-              },
-              {
-                "label": "이용 제한",
-                "values": [
-                  "1인 15분",
-                  "세관을 지나 자동문 밖으로 나가면 다시 못 들어가요"
-                ]
-              },
-              {
-                "label": "잘 맞는 상황",
-                "values": [
-                  "새벽·장거리 비행 출발 전",
-                  "장거리 비행 뒤 씻고 바로 이동할 때"
-                ]
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "공항 공식 시설 안내에는 1터미널 도착 구역 샤워실 3곳(24시간)이 나와 있고, 4층 체험 구역의 무료 샤워실은 2026년 2월 공항공사가 춘절 편의 서비스로 다시 소개했습니다. 2터미널에도 샤워실이 따로 있지만, 이 글은 1터미널 기준이에요."
-          },
-          {
-            "type": "h2",
-            "text": "02 · 출국 전 4층 무료 샤워실 찾아가는 법"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "1",
-                "b": "출국 심사부터 끝내기",
-                "desc": "4층 샤워실은 출국 심사를 마친 면세 구역 안에 있어요. 체크인만 하고는 갈 수 없으니 보안 검색과 출국 심사를 먼저 끝내세요."
-              },
-              {
-                "mark": "2",
-                "b": "환야 라운지 옆 체험 구역",
-                "desc": "4층 환야(Plaza Premium) 라운지 옆 ‘機場體驗區’ 안에 있어요. 유료 라운지가 아니라 누구나 쓰는 무료 공간이라 카드나 탑승권 등급과 상관없습니다."
-              },
-              {
-                "mark": "3",
-                "b": "06:00~22:00, 1인 15분",
-                "desc": "좌석은 24시간이지만 샤워실은 06:00~22:00에만 열려요. 예약 없이 도착 순서대로 쓰고 1인 15분이에요(2026년 10월 기준). 문 앞 이용 안내문을 먼저 읽어 보세요."
-              },
-              {
-                "mark": "4",
-                "b": "기다리는 동안 쓸 수 있는 것",
-                "desc": "체험 구역에는 긴 테이블·소파 좌석, 무료 USB 충전, 수유실이 있어요. 샤워 순서를 기다리며 휴대폰을 충전해 두기 좋습니다."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
-            "caption": "타오위안공항 활주로를 달리는 중화항공 여객기예요. 출발 전에 씻을 생각이면 탑승 시각에서 거꾸로 계산해 샤워 시간을 넉넉히 잡아 두세요."
-          },
-          {
-            "type": "h2",
-            "text": "03 · 샤워실 시설과 준비물"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "✓",
-                "b": "공식 안내 시설",
-                "desc": "남녀 샤워실이 나뉘어 있고 냉·온수 샤워가 되며, 테이블·의자·옷걸이 고리·거울이 있어요(공항 공식 안내)."
-              },
-              {
-                "mark": "✓",
-                "b": "수건은 꼭 챙기기",
-                "desc": "수건은 비치돼 있지 않아요. 작은 수건이나 잘 마르는 여행용 수건을 기내 가방에 넣어 두세요."
-              },
-              {
-                "mark": "✓",
-                "b": "세면도구는 소용량으로",
-                "desc": "샴푸·바디워시가 있었다는 보도와 없었다는 후기가 엇갈려요. 여행용 세면도구를 챙기는 편이 안전하고, 출국 심사 뒤에 쓰는 것이라 액체는 100ml 이하 용기로 준비하세요."
-              },
-              {
-                "mark": "✓",
-                "b": "드라이기",
-                "desc": "벽에 붙은 드라이기가 있다는 보도가 있어요. 머리숱이 많으면 말리는 시간까지 15분 안에 들어가도록 순서를 정해 두는 게 좋아요."
-              },
-              {
-                "mark": "✓",
-                "b": "갈아입을 옷은 가방 맨 위에",
-                "desc": "위탁 수하물은 이미 부친 뒤라, 갈아입을 옷과 속옷은 기내 가방 맨 위에 따로 넣어 두면 시간이 줄어요."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-2.jpg",
-            "caption": "수건과 비누를 올려 둔 일반 욕실 소품 사진이에요. 공항 샤워실에는 수건이 없으니 작은 수건 하나는 꼭 챙기세요."
-          },
-          {
-            "type": "h2",
-            "text": "04 · 입국 후 샤워실은 세관 전에"
-          },
-          {
-            "type": "p",
-            "html": "장거리 비행 뒤 바로 씻고 싶다면 입국 쪽 샤워실을 쓰면 돼요. 공식 안내상 1터미널 도착 구역 2층에 2곳, 1층에 1곳이 24시간 열려 있고, 수하물 수취대 근처에 있다고 보도됐습니다. 세관을 지나 자동문 밖으로 나가면 다시 들어올 수 없으니, 짐을 찾은 뒤 세관을 통과하기 전에 이용하세요."
-          },
-          {
-            "type": "quote",
-            "text": "“짐 찾고 세관 나가기 전에 씻으세요 — 자동문 밖으로 나가면 다시 못 들어옵니다.” — 입국 샤워실을 소개한 대만 언론 보도에서 빠지지 않는 당부예요."
-          },
-          {
-            "type": "p",
-            "html": "새벽에 도착해 시내로 들어갈 계획이면 <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">타오위안공항 새벽 도착 교통 가이드</a>를, 마지막 날 숙소 없이 새벽 비행기를 탄다면 <a href=\"/blog-taipei-overnight-red-eye-flight-last-day\">타이베이 마지막 날 새벽 비행기 정리</a>를 함께 보세요. 공항 가기 전 든든하게 먹을 곳은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>와 <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>, <a href=\"/taipei-breakfast-282\">딩위안 또우장(鼎元豆漿)</a>에서 고를 수 있어요."
-          },
-          {
-            "type": "note",
-            "text": "이 글은 타오위안공항 공식 시설 안내, 2026년 2월 공항공사 발표(중앙통신 보도), 대만 언론 보도를 바탕으로 2026년 10월 기준으로 정리했습니다. 운영 시간과 위치는 공사·운영 사정으로 바뀔 수 있으니 출발 전 타오위안공항 홈페이지 시설 안내와 현장 안내문을 다시 확인하는 것을 추천해요."
-          },
-          {
-            "type": "cta",
-            "title": "지도에서 공항 가기 전 맛집도 확인해보세요",
-            "desc": "출국 전에 들를 타이베이 조식·식사 맛집을 미리 찜해 두면 마지막 날 동선이 편해져요.",
-            "btn": "지도 열기 →",
-            "href": "/map?region=taipei&cat=breakfast"
-          }
-        ]
-      },
-      "en": {
-        "pageTitle": "Taoyuan Airport Free Showers — T1 Guide · My Secret Taiwan Eats",
-        "metaDescription": "Taoyuan Airport T1 has free showers airside on 4F (06:00–22:00, 15 min each) and 24-hour showers in arrivals. Locations and what to pack, as of October 2026.",
-        "ogTitle": "Taoyuan Airport T1 Free Showers: Where, When, What to Bring",
-        "eyebrow": "Taoyuan Airport Guide · Facilities",
-        "title": "Taoyuan Airport T1 Free Showers: Where, When, What to Bring",
-        "dek": "From the airside 4F experience zone to the arrivals showers — how to find them, opening hours, and what to bring.",
-        "metaAuthor": "My Secret Taiwan Eats Editorial",
-        "metaTopic": "Taoyuan · Airport Guide",
-        "intro": "Can you shower at the airport before an early flight? Taoyuan Airport Terminal 1 has free showers both airside on the departure side and in the arrivals area. This guide is based on the airport's official facility listing, a February 2026 airport company announcement, and Taiwanese press reports.",
-        "blocks": [
-          {
-            "type": "h2",
-            "text": "01 · At a glance"
-          },
-          {
-            "type": "compareTable",
-            "cities": [
-              "Item",
-              "Departures (4F experience zone)",
-              "Arrivals"
-            ],
-            "rows": [
-              {
-                "label": "Location",
-                "values": [
-                  "Airside after passport control, 4F, in the free Airport Experience Zone (機場體驗區) next to the Plaza Premium Lounge",
-                  "By the baggage claim — officially two on 2F and one on 1F"
-                ]
-              },
-              {
-                "label": "Hours",
-                "values": [
-                  "Showers 06:00–22:00; zone seating 24 hours (as of October 2026)",
-                  "24 hours (as of October 2026)"
-                ]
-              },
-              {
-                "label": "Cost / booking",
-                "values": [
-                  "Free, no booking, first come first served",
-                  "Free"
-                ]
-              },
-              {
-                "label": "Limits",
-                "values": [
-                  "15 minutes per person",
-                  "Once you pass customs and the automatic doors, you can't go back in"
-                ]
-              },
-              {
-                "label": "Best for",
-                "values": [
-                  "Before a red-eye or long-haul departure",
-                  "Freshening up right after a long flight"
-                ]
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "The airport's official facility list shows three 24-hour arrivals showers in Terminal 1, and the airport company highlighted the free 4F experience-zone showers again in February 2026. Terminal 2 has its own showers; this guide covers Terminal 1."
-          },
-          {
-            "type": "h2",
-            "text": "02 · Finding the 4F free showers before departure"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "1",
-                "b": "Clear passport control first",
-                "desc": "The 4F showers are inside the airside duty-free area. You can't reach them after check-in alone—finish security and passport control first."
-              },
-              {
-                "mark": "2",
-                "b": "Experience zone by Plaza Premium",
-                "desc": "Look for the 機場體驗區 sign next to the Plaza Premium Lounge on 4F. It is a free public space, not the paid lounge, so any passenger can use it."
-              },
-              {
-                "mark": "3",
-                "b": "06:00–22:00, 15 minutes each",
-                "desc": "Seating is open 24 hours, but the showers run 06:00–22:00 only. No booking; it's first come first served with a 15-minute limit (as of October 2026). Read the notice at the door."
-              },
-              {
-                "mark": "4",
-                "b": "While you wait",
-                "desc": "The zone has long tables and sofa seating, free USB charging, and a nursing room—handy for charging your phone while you wait your turn."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
-            "caption": "A China Airlines jet taxiing at Taoyuan Airport. If you plan to shower before flying, work backward from boarding time and leave extra margin."
-          },
-          {
-            "type": "h2",
-            "text": "03 · Facilities and what to bring"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "✓",
-                "b": "Official facilities",
-                "desc": "Separate men's and women's showers with hot and cold settings, plus a table, chair, hooks, and mirror (official airport listing)."
-              },
-              {
-                "mark": "✓",
-                "b": "Bring a towel",
-                "desc": "Towels are not provided. Pack a small or quick-dry travel towel in your carry-on."
-              },
-              {
-                "mark": "✓",
-                "b": "Travel-size toiletries",
-                "desc": "Reports differ on whether shampoo and body wash are stocked, so bring your own. Since you're airside, keep liquids in containers of 100 ml or less."
-              },
-              {
-                "mark": "✓",
-                "b": "Hair dryer",
-                "desc": "Press reports mention a wall-mounted hair dryer. If you have thick hair, plan so drying fits within your 15 minutes."
-              },
-              {
-                "mark": "✓",
-                "b": "Fresh clothes on top",
-                "desc": "Your checked bag is already gone, so keep a change of clothes at the top of your carry-on to save time."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-2.jpg",
-            "caption": "A generic bathroom still life of towels and soap. The airport showers don't supply towels, so pack a small one."
-          },
-          {
-            "type": "h2",
-            "text": "04 · Arrivals showers: use them before customs"
-          },
-          {
-            "type": "p",
-            "html": "Want to shower right after a long flight? Use the arrivals showers. Per the official listing, Terminal 1 arrivals has two on 2F and one on 1F, all open 24 hours, and press reports place them near the baggage claim. Once you pass customs and exit through the automatic doors you can't come back, so shower after collecting your bags and before customs."
-          },
-          {
-            "type": "quote",
-            "text": "“Shower before you clear customs — once you're through the automatic doors, there's no going back.” — a reminder repeated in Taiwanese press coverage of the arrivals showers."
-          },
-          {
-            "type": "p",
-            "html": "Landing late and heading into the city? See the <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">Taoyuan late-night arrival transport guide</a>. Flying out early without a last hotel night? Read <a href=\"/blog-taipei-overnight-red-eye-flight-last-day\">Taipei last day before a red-eye flight</a>. For a good meal before the airport, browse the <a href=\"/region-taipei\">Taipei food map</a>, <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, and <a href=\"/taipei-breakfast-282\">Ding Yuan Soy Milk (鼎元豆漿)</a>."
-          },
-          {
-            "type": "note",
-            "text": "This guide is based on Taoyuan Airport's official facility listing, a February 2026 airport company announcement (reported by CNA), and Taiwanese press reports, as of October 2026. Hours and locations can change with construction or operations, so recheck the airport website's facility page and on-site notices before you go."
-          },
-          {
-            "type": "cta",
-            "title": "Save pre-flight food spots on the map",
-            "desc": "Pin a Taipei breakfast or meal stop before heading to the airport to make your last day easier.",
-            "btn": "Open Map →",
-            "href": "/map?region=taipei&cat=breakfast"
-          }
-        ]
-      }
+    "heroImage": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
+    "ko": {
+      "pageTitle": "타오위안공항 무료 샤워실 — 위치·시간 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타오위안공항 무료 샤워실은 1터미널 4층 출국 구역에 있고 06:00~22:00, 1인 15분이에요. 입국층 샤워실과 수건 등 준비물까지 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "타오위안공항 1터미널 무료 샤워실, 수건은 챙겨야 할까?",
+      "eyebrow": "타오위안 공항 가이드 · 편의시설",
+      "title": "타오위안공항 1터미널 무료 샤워실, 수건은 챙겨야 할까?",
+      "dek": "출국 심사 뒤 4층 체험 구역부터 입국층 샤워실까지 — 찾아가는 길과 이용 시간, 챙길 것만 골라 정리했습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타오위안 · 공항 가이드",
+      "intro": "“새벽 비행기 타기 전에 공항에서 씻을 수 있을까요?” 타오위안공항 무료 샤워실은 1터미널 출국 구역과 입국 구역에 모두 있어요. 공항 공식 시설 안내와 2026년 2월 공항공사 발표, 대만 언론 보도를 바탕으로 위치와 이용법, 준비물을 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구분",
+            "출국 쪽 (4층 체험 구역)",
+            "입국 쪽 (도착 구역)"
+          ],
+          "rows": [
+            {
+              "label": "위치",
+              "values": [
+                "출국 심사 뒤 면세 구역 4층, 환야(Plaza Premium) 라운지 옆 무료 ‘공항 체험 구역(機場體驗區)’",
+                "수하물 수취대 쪽 — 공식 안내상 2층 2곳·1층 1곳"
+              ]
+            },
+            {
+              "label": "이용 시간",
+              "values": [
+                "샤워실 06:00~22:00, 체험 구역 좌석은 24시간 (2026년 10월 기준)",
+                "24시간 (2026년 10월 기준)"
+              ]
+            },
+            {
+              "label": "요금·예약",
+              "values": [
+                "무료, 예약 없이 도착 순서대로",
+                "무료"
+              ]
+            },
+            {
+              "label": "이용 제한",
+              "values": [
+                "1인 15분",
+                "세관을 지나 자동문 밖으로 나가면 다시 못 들어가요"
+              ]
+            },
+            {
+              "label": "잘 맞는 상황",
+              "values": [
+                "새벽·장거리 비행 출발 전",
+                "장거리 비행 뒤 씻고 바로 이동할 때"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "공항 공식 시설 안내에는 1터미널 도착 구역 샤워실 3곳(24시간)이 나와 있고, 4층 체험 구역의 무료 샤워실은 2026년 2월 공항공사가 춘절 편의 서비스로 다시 소개했습니다. 2터미널에도 샤워실이 따로 있지만, 이 글은 1터미널 기준이에요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 출국 전 4층 무료 샤워실 찾아가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "출국 심사부터 끝내기",
+              "desc": "4층 샤워실은 출국 심사를 마친 면세 구역 안에 있어요. 체크인만 하고는 갈 수 없으니 보안 검색과 출국 심사를 먼저 끝내세요."
+            },
+            {
+              "mark": "2",
+              "b": "환야 라운지 옆 체험 구역",
+              "desc": "4층 환야(Plaza Premium) 라운지 옆 ‘機場體驗區’ 안에 있어요. 유료 라운지가 아니라 누구나 쓰는 무료 공간이라 카드나 탑승권 등급과 상관없습니다."
+            },
+            {
+              "mark": "3",
+              "b": "06:00~22:00, 1인 15분",
+              "desc": "좌석은 24시간이지만 샤워실은 06:00~22:00에만 열려요. 예약 없이 도착 순서대로 쓰고 1인 15분이에요(2026년 10월 기준). 문 앞 이용 안내문을 먼저 읽어 보세요."
+            },
+            {
+              "mark": "4",
+              "b": "기다리는 동안 쓸 수 있는 것",
+              "desc": "체험 구역에는 긴 테이블·소파 좌석, 무료 USB 충전, 수유실이 있어요. 샤워 순서를 기다리며 휴대폰을 충전해 두기 좋습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
+          "caption": "타오위안공항 활주로를 달리는 중화항공 여객기예요. 출발 전에 씻을 생각이면 탑승 시각에서 거꾸로 계산해 샤워 시간을 넉넉히 잡아 두세요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 샤워실 시설과 준비물"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "공식 안내 시설",
+              "desc": "남녀 샤워실이 나뉘어 있고 냉·온수 샤워가 되며, 테이블·의자·옷걸이 고리·거울이 있어요(공항 공식 안내)."
+            },
+            {
+              "mark": "✓",
+              "b": "수건은 꼭 챙기기",
+              "desc": "수건은 비치돼 있지 않아요. 작은 수건이나 잘 마르는 여행용 수건을 기내 가방에 넣어 두세요."
+            },
+            {
+              "mark": "✓",
+              "b": "세면도구는 소용량으로",
+              "desc": "샴푸·바디워시가 있었다는 보도와 없었다는 후기가 엇갈려요. 여행용 세면도구를 챙기는 편이 안전하고, 출국 심사 뒤에 쓰는 것이라 액체는 100ml 이하 용기로 준비하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "드라이기",
+              "desc": "벽에 붙은 드라이기가 있다는 보도가 있어요. 머리숱이 많으면 말리는 시간까지 15분 안에 들어가도록 순서를 정해 두는 게 좋아요."
+            },
+            {
+              "mark": "✓",
+              "b": "갈아입을 옷은 가방 맨 위에",
+              "desc": "위탁 수하물은 이미 부친 뒤라, 갈아입을 옷과 속옷은 기내 가방 맨 위에 따로 넣어 두면 시간이 줄어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-2.jpg",
+          "caption": "수건과 비누를 올려 둔 일반 욕실 소품 사진이에요. 공항 샤워실에는 수건이 없으니 작은 수건 하나는 꼭 챙기세요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 입국 후 샤워실은 세관 전에"
+        },
+        {
+          "type": "p",
+          "html": "장거리 비행 뒤 바로 씻고 싶다면 입국 쪽 샤워실을 쓰면 돼요. 공식 안내상 1터미널 도착 구역 2층에 2곳, 1층에 1곳이 24시간 열려 있고, 수하물 수취대 근처에 있다고 보도됐습니다. 세관을 지나 자동문 밖으로 나가면 다시 들어올 수 없으니, 짐을 찾은 뒤 세관을 통과하기 전에 이용하세요."
+        },
+        {
+          "type": "quote",
+          "text": "“짐 찾고 세관 나가기 전에 씻으세요 — 자동문 밖으로 나가면 다시 못 들어옵니다.” — 입국 샤워실을 소개한 대만 언론 보도에서 빠지지 않는 당부예요."
+        },
+        {
+          "type": "p",
+          "html": "새벽에 도착해 시내로 들어갈 계획이면 <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">타오위안공항 새벽 도착 교통 가이드</a>를, 마지막 날 숙소 없이 새벽 비행기를 탄다면 <a href=\"/blog-taipei-overnight-red-eye-flight-last-day\">타이베이 마지막 날 새벽 비행기 정리</a>를 함께 보세요. 공항 가기 전 든든하게 먹을 곳은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>와 <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>, <a href=\"/taipei-breakfast-282\">딩위안 또우장(鼎元豆漿)</a>에서 고를 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 타오위안공항 공식 시설 안내, 2026년 2월 공항공사 발표(중앙통신 보도), 대만 언론 보도를 바탕으로 2026년 10월 기준으로 정리했습니다. 운영 시간과 위치는 공사·운영 사정으로 바뀔 수 있으니 출발 전 타오위안공항 홈페이지 시설 안내와 현장 안내문을 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 공항 가기 전 맛집도 확인해보세요",
+          "desc": "출국 전에 들를 타이베이 조식·식사 맛집을 미리 찜해 두면 마지막 날 동선이 편해져요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=breakfast"
+        }
+      ]
     },
+    "en": {
+      "pageTitle": "Taoyuan Airport Free Showers — T1 Guide · My Secret Taiwan Eats",
+      "metaDescription": "Taoyuan Airport T1 has free showers airside on 4F (06:00–22:00, 15 min each) and 24-hour showers in arrivals. Locations and what to pack, as of October 2026.",
+      "ogTitle": "Taoyuan Airport T1 Free Showers: Where, When, What to Bring",
+      "eyebrow": "Taoyuan Airport Guide · Facilities",
+      "title": "Taoyuan Airport T1 Free Showers: Where, When, What to Bring",
+      "dek": "From the airside 4F experience zone to the arrivals showers — how to find them, opening hours, and what to bring.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taoyuan · Airport Guide",
+      "intro": "Can you shower at the airport before an early flight? Taoyuan Airport Terminal 1 has free showers both airside on the departure side and in the arrivals area. This guide is based on the airport's official facility listing, a February 2026 airport company announcement, and Taiwanese press reports.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · At a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Departures (4F experience zone)",
+            "Arrivals"
+          ],
+          "rows": [
+            {
+              "label": "Location",
+              "values": [
+                "Airside after passport control, 4F, in the free Airport Experience Zone (機場體驗區) next to the Plaza Premium Lounge",
+                "By the baggage claim — officially two on 2F and one on 1F"
+              ]
+            },
+            {
+              "label": "Hours",
+              "values": [
+                "Showers 06:00–22:00; zone seating 24 hours (as of October 2026)",
+                "24 hours (as of October 2026)"
+              ]
+            },
+            {
+              "label": "Cost / booking",
+              "values": [
+                "Free, no booking, first come first served",
+                "Free"
+              ]
+            },
+            {
+              "label": "Limits",
+              "values": [
+                "15 minutes per person",
+                "Once you pass customs and the automatic doors, you can't go back in"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Before a red-eye or long-haul departure",
+                "Freshening up right after a long flight"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The airport's official facility list shows three 24-hour arrivals showers in Terminal 1, and the airport company highlighted the free 4F experience-zone showers again in February 2026. Terminal 2 has its own showers; this guide covers Terminal 1."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Finding the 4F free showers before departure"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Clear passport control first",
+              "desc": "The 4F showers are inside the airside duty-free area. You can't reach them after check-in alone—finish security and passport control first."
+            },
+            {
+              "mark": "2",
+              "b": "Experience zone by Plaza Premium",
+              "desc": "Look for the 機場體驗區 sign next to the Plaza Premium Lounge on 4F. It is a free public space, not the paid lounge, so any passenger can use it."
+            },
+            {
+              "mark": "3",
+              "b": "06:00–22:00, 15 minutes each",
+              "desc": "Seating is open 24 hours, but the showers run 06:00–22:00 only. No booking; it's first come first served with a 15-minute limit (as of October 2026). Read the notice at the door."
+            },
+            {
+              "mark": "4",
+              "b": "While you wait",
+              "desc": "The zone has long tables and sofa seating, free USB charging, and a nursing room—handy for charging your phone while you wait your turn."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-1.jpg",
+          "caption": "A China Airlines jet taxiing at Taoyuan Airport. If you plan to shower before flying, work backward from boarding time and leave extra margin."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Facilities and what to bring"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Official facilities",
+              "desc": "Separate men's and women's showers with hot and cold settings, plus a table, chair, hooks, and mirror (official airport listing)."
+            },
+            {
+              "mark": "✓",
+              "b": "Bring a towel",
+              "desc": "Towels are not provided. Pack a small or quick-dry travel towel in your carry-on."
+            },
+            {
+              "mark": "✓",
+              "b": "Travel-size toiletries",
+              "desc": "Reports differ on whether shampoo and body wash are stocked, so bring your own. Since you're airside, keep liquids in containers of 100 ml or less."
+            },
+            {
+              "mark": "✓",
+              "b": "Hair dryer",
+              "desc": "Press reports mention a wall-mounted hair dryer. If you have thick hair, plan so drying fits within your 15 minutes."
+            },
+            {
+              "mark": "✓",
+              "b": "Fresh clothes on top",
+              "desc": "Your checked bag is already gone, so keep a change of clothes at the top of your carry-on to save time."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-terminal1-free-shower-2.jpg",
+          "caption": "A generic bathroom still life of towels and soap. The airport showers don't supply towels, so pack a small one."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Arrivals showers: use them before customs"
+        },
+        {
+          "type": "p",
+          "html": "Want to shower right after a long flight? Use the arrivals showers. Per the official listing, Terminal 1 arrivals has two on 2F and one on 1F, all open 24 hours, and press reports place them near the baggage claim. Once you pass customs and exit through the automatic doors you can't come back, so shower after collecting your bags and before customs."
+        },
+        {
+          "type": "quote",
+          "text": "“Shower before you clear customs — once you're through the automatic doors, there's no going back.” — a reminder repeated in Taiwanese press coverage of the arrivals showers."
+        },
+        {
+          "type": "p",
+          "html": "Landing late and heading into the city? See the <a href=\"/blog-taoyuan-airport-midnight-arrival-transport\">Taoyuan late-night arrival transport guide</a>. Flying out early without a last hotel night? Read <a href=\"/blog-taipei-overnight-red-eye-flight-last-day\">Taipei last day before a red-eye flight</a>. For a good meal before the airport, browse the <a href=\"/region-taipei\">Taipei food map</a>, <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, and <a href=\"/taipei-breakfast-282\">Ding Yuan Soy Milk (鼎元豆漿)</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on Taoyuan Airport's official facility listing, a February 2026 airport company announcement (reported by CNA), and Taiwanese press reports, as of October 2026. Hours and locations can change with construction or operations, so recheck the airport website's facility page and on-site notices before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Save pre-flight food spots on the map",
+          "desc": "Pin a Taipei breakfast or meal stop before heading to the airport to make your last day easier.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=breakfast"
+        }
+      ]
+    }
+  },
   "taichung-lukang-bus-9018": {
-      "heroImage": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
-      "ko": {
-        "pageTitle": "타이중 루강 버스 9018 — 정류장·요금 · 나만 알고 싶은 대만 맛집",
-        "metaDescription": "타이중 루강 버스 9018은 중록커윈 국도버스로, 타이중역(푸싱로)에서 루강까지 일반 NT$96이에요. 정류장·카드 결제·탑승 규칙을 2026년 10월 기준으로 정리했어요.",
-        "ogTitle": "타이중 루강 버스 9018, 어디서 타고 얼마일까?",
-        "eyebrow": "타이중·창화 여행 가이드 · 교통",
-        "title": "타이중 루강 버스 9018, 어디서 타고 얼마일까?",
-        "dek": "타이중역에서 루강 옛거리까지 — 중록커윈 9018 타는 곳과 요금, 국도버스 규칙만 골라 정리했습니다.",
-        "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
-        "metaTopic": "타이중 · 교통 가이드",
-        "intro": "“타이중에서 루강은 버스로 어떻게 가죠?” 중록커윈 9018은 타이중역(푸싱로)과 루강을 국도 1호선으로 잇는 국도버스예요. 공로총국 운임과 애버스 노선 안내(2026년 10월 기준)를 바탕으로 정류장·요금·탑승 규칙만 정리해봤어요.",
-        "blocks": [
-          {
-            "type": "h2",
-            "text": "01 · 한눈에 비교하기"
-          },
-          {
-            "type": "compareTable",
-            "cities": [
-              "구분",
-              "타이중역→루강",
-              "차오마→루강"
-            ],
-            "rows": [
-              {
-                "label": "운영",
-                "values": [
-                  "중록커윈(中鹿客運) 9018",
-                  "같은 노선·일부 편은 차오마 출발"
-                ]
-              },
-              {
-                "label": "일반 요금",
-                "values": [
-                  "NT$96 (2026년 10월 기준)",
-                  "NT$70 (2026년 10월 기준)"
-                ]
-              },
-              {
-                "label": "할인 요금",
-                "values": [
-                  "NT$48 (2026년 10월 기준)",
-                  "NT$35 (2026년 10월 기준)"
-                ]
-              },
-              {
-                "label": "결제",
-                "values": [
-                  "현금·이지카드·아이패스·아이캐시",
-                  "동일"
-                ]
-              },
-              {
-                "label": "성격",
-                "values": [
-                  "국도버스(고속 진입 전 승차만)",
-                  "국도 하차 후 정류장은 하차만"
-                ]
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "공로총국(公路總局) 운임 조회와 애버스(愛巴士) 노선 안내를 기준으로 정리했습니다. 원글에 나오던 ‘약 38원’ 같은 숫자는 공식 일반·할인 요금과 맞지 않아 넣지 않았어요."
-          },
-          {
-            "type": "h2",
-            "text": "02 · 어디서 타면 될까"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "1",
-                "b": "타이중역(푸싱로) 정류장",
-                "desc": "공식 표기는 臺中車站(復興路)예요. 역 주변 푸싱로 쪽 국도버스 정류장에서 탑니다. 방문 전 구글맵이나 버스 앱에서 ‘9018’·‘臺中車站(復興路)’로 위치를 확인하세요."
-              },
-              {
-                "mark": "2",
-                "b": "시내 경유 정류장",
-                "desc": "간청(干城站)·민권계광가 입구·타이중교육대학·과학박물관(타이완대로)·MRT 시정부역·신광싼웨·차오마(타이완대로) 등을 지나 국도에 올라가요."
-              },
-              {
-                "mark": "3",
-                "b": "루강 쪽 하차",
-                "desc": "동팡초등학교·난안리·후비푸·치거우쯔·푸싱향 공소·옛 타이탕 기차역·루강진 공소·루강역 순으로 내려요. 2026년 8월 4일부터 루강 민권로 공사로 루강진 공소·옛 타이탕 정류장은 우회 운행 중일 수 있으니, 당일 공지를 확인하는 편이 좋아요."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
-            "caption": "루강 마쭈묘(鹿港天后宮) 패루와 홍등이에요. 9018을 타고 루강에 내리면 옛거리·사원 일대를 걸어서 둘러보기 좋아요."
-          },
-          {
-            "type": "h2",
-            "text": "03 · 요금·카드·국도버스 규칙"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "✓",
-                "b": "공식 운임(일반)",
-                "desc": "타이중역→루강역 NT$96, 타이중역→루강진 공소 NT$92, 차오마→루강역 NT$70이에요(2026년 10월 기준, 공로총국 운임 조회)."
-              },
-              {
-                "mark": "✓",
-                "b": "할인 운임",
-                "desc": "같은 구간 할인은 타이중역→루강역 NT$48, 차오마→루강역 NT$35 수준이에요. 적용 대상은 현장·카드사 기준을 따르세요."
-              },
-              {
-                "mark": "✓",
-                "b": "교통카드",
-                "desc": "이지카드·아이패스·아이캐시로 낼 수 있어요(애버스 안내)."
-              },
-              {
-                "mark": "✓",
-                "b": "국도버스 탑승 규칙",
-                "desc": "고속도로에 오르기 전 정류장에서는 승차만, 내려온 뒤 정류장에서는 하차만 할 수 있어요. 짧은 시내 구간만 가려면 시내버스를 타는 것이 맞습니다."
-              }
-            ]
-          },
-          {
-            "type": "h2",
-            "text": "04 · 시간표와 당일 확인"
-          },
-          {
-            "type": "p",
-            "html": "월~목·금요일·주말·공휴일 시간표가 따로 있어요. 월~목 타이중역 출발은 대략 06:00부터 22:00까지 하루 여러 편이고, 금요일 일부 편은 차오마에서 출발하기도 합니다. 배차와 우회는 바뀔 수 있으니 출발 전에 <a href=\"https://www.ibus.com.tw/intercity-bus/middle-tw/route9018/\" rel=\"nofollow\">애버스 9018 노선</a>이나 교통부 TDX 기반 버스 앱에서 당일 시각을 확인하세요."
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taichung-lukang-bus-9018-2.jpg",
-            "caption": "창화 사원 앞 축제 인파예요. 루강·창화 일대는 주말·행사일에 사람이 많아지니 넉넉히 잡는 편이 좋아요."
-          },
-          {
-            "type": "quote",
-            "text": "국도버스는 ‘타기만 / 내리기만’ 구간이 나뉘어 있어요 — 시내 한두 정류장만 가려다 잘못 타면 헷갈리기 쉽습니다."
-          },
-          {
-            "type": "p",
-            "html": "루강에서 내려 맛집을 찾거나, 타이중으로 돌아와 저녁을 이어가려면 <a href=\"/region-taichung\">타이중 맛집 지도</a>와 <a href=\"/taichung-taiwanese\">타이중 대만식 맛집</a>, <a href=\"/taichung-shaved_ice\">타이중 빙수</a>를 함께 보면 동선이 잡히기 쉬워요. 스쿠터를 빌릴지 고민 중이면 <a href=\"/blog-taichung-scooter-rental-license-insurance\">타이중 스쿠터 렌트 면허·보험 가이드</a>도 참고해 보세요."
-          },
-          {
-            "type": "note",
-            "text": "이 글은 공로총국 운임 조회·애버스 9018 노선 안내·중록커윈 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금·시간표·우회는 바뀔 수 있으니 출발 전 공식 노선·버스 앱에서 다시 확인하는 것을 추천해요."
-          },
-          {
-            "type": "cta",
-            "title": "지도에서 타이중·루강 근처 맛집 준비하세요",
-            "desc": "버스에서 내린 뒤 바로 갈 대만식·빙수·카페를 미리 찜해 두면 동선이 편해져요.",
-            "btn": "지도 열기 →",
-            "href": "/map?region=taichung&cat=taiwanese"
-          }
-        ]
-      },
-      "en": {
-        "pageTitle": "Taichung–Lukang Bus 9018 — Stops & Fares · My Secret Taiwan Eats",
-        "metaDescription": "Taichung–Lukang bus 9018 is a Chunglu freeway coach: NT$96 full fare from Taichung Station (Fuxing Rd) to Lukang. Stops, cards, and boarding rules as of October 2026.",
-        "ogTitle": "Taichung to Lukang Bus 9018: Where to Board and How Much?",
-        "eyebrow": "Taichung & Changhua Travel Guide · Transport",
-        "title": "Taichung to Lukang Bus 9018: Where to Board and How Much?",
-        "dek": "From Taichung Station to Lukang old street — where to board Chunglu 9018, what it costs, and freeway-bus rules.",
-        "metaAuthor": "My Secret Taiwan Eats Editorial",
-        "metaTopic": "Taichung · Transport Guide",
-        "intro": "Wondering how to reach Lukang from Taichung by bus? Chunglu 9018 links Taichung Station (Fuxing Rd) and Lukang on National Freeway 1. Here are stops, fares, and boarding rules from Highway Bureau and iBus data (as of October 2026).",
-        "blocks": [
-          {
-            "type": "h2",
-            "text": "01 · At a glance"
-          },
-          {
-            "type": "compareTable",
-            "cities": [
-              "Item",
-              "Taichung Station → Lukang",
-              "Chaoma → Lukang"
-            ],
-            "rows": [
-              {
-                "label": "Operator",
-                "values": [
-                  "Chunglu Bus (中鹿客運) 9018",
-                  "Same route; some Friday trips start at Chaoma"
-                ]
-              },
-              {
-                "label": "Full fare",
-                "values": [
-                  "NT$96 (as of Oct 2026)",
-                  "NT$70 (as of Oct 2026)"
-                ]
-              },
-              {
-                "label": "Discount fare",
-                "values": [
-                  "NT$48 (as of Oct 2026)",
-                  "NT$35 (as of Oct 2026)"
-                ]
-              },
-              {
-                "label": "Payment",
-                "values": [
-                  "Cash, EasyCard, iPASS, iCash",
-                  "Same"
-                ]
-              },
-              {
-                "label": "Type",
-                "values": [
-                  "Freeway coach (board-only before on-ramp)",
-                  "Alight-only after exiting the freeway"
-                ]
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "html": "Fares follow the Highway Bureau fare table and iBus route notes. A cafe tip that said “about NT$38” does not match the official full/discount fares, so it is left out."
-          },
-          {
-            "type": "h2",
-            "text": "02 · Where to board"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "1",
-                "b": "Taichung Station (Fuxing Rd)",
-                "desc": "Official stop name: 臺中車站(復興路). Board at the freeway-bus stop on Fuxing Road near the station. Check Google Maps or a bus app for “9018” before you go."
-              },
-              {
-                "mark": "2",
-                "b": "City stops before the freeway",
-                "desc": "The coach also serves Gancheng, Minquan–Jiguang, National Taichung University of Education, National Museum of Natural Science (Taiwan Blvd), City Hall MRT, Shin Kong Mitsukoshi, and Chaoma (Taiwan Blvd) before entering National Freeway 1."
-              },
-              {
-                "mark": "3",
-                "b": "Getting off in Lukang",
-                "desc": "Stops include Dongfang Elementary, Nan’an, Houbipu, Qigouzi, Fuxing Township Office, the old Taiwan Sugar station, Lukang Township Office, and Lukang Station. Since 4 Aug 2026, Minquan Rd works may divert Township Office / old Sugar stops—check the day’s notice."
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
-            "caption": "The paifang and lanterns at Lukang Mazu Temple (天后宮). After 9018, the old street and temple area are an easy walk."
-          },
-          {
-            "type": "h2",
-            "text": "03 · Fares, cards, freeway rules"
-          },
-          {
-            "type": "tipList",
-            "items": [
-              {
-                "mark": "✓",
-                "b": "Official full fares",
-                "desc": "Taichung Station → Lukang Station NT$96; → Lukang Township Office NT$92; Chaoma → Lukang Station NT$70 (Oct 2026, Highway Bureau fare query)."
-              },
-              {
-                "mark": "✓",
-                "b": "Discount fares",
-                "desc": "About NT$48 Station→Lukang and NT$35 Chaoma→Lukang. Eligibility follows the operator and card rules on the day."
-              },
-              {
-                "mark": "✓",
-                "b": "Transit cards",
-                "desc": "EasyCard, iPASS, and iCash are accepted (iBus)."
-              },
-              {
-                "mark": "✓",
-                "b": "Freeway boarding rules",
-                "desc": "Before the on-ramp you may only board; after the off-ramp you may only alight. For short city hops, take a city bus instead."
-              }
-            ]
-          },
-          {
-            "type": "h2",
-            "text": "04 · Timetable and same-day checks"
-          },
-          {
-            "type": "p",
-            "html": "Weekday, Friday, and weekend/holiday timetables differ. Mon–Thu departures from Taichung Station roughly run from about 06:00 to 22:00 with many trips; some Friday trips start at Chaoma. Schedules and detours change—confirm on the <a href=\"https://www.ibus.com.tw/intercity-bus/middle-tw/route9018/\" rel=\"nofollow\">iBus 9018 page</a> or a MOTC TDX-based bus app before you leave."
-          },
-          {
-            "type": "figure",
-            "img": "assets/images/blog/taichung-lukang-bus-9018-2.jpg",
-            "caption": "A festival crowd at a Changhua temple. Lukang and Changhua get busy on weekends and event days, so leave extra time."
-          },
-          {
-            "type": "quote",
-            "text": "Freeway coaches split “board-only” and “alight-only” segments — easy to mix up if you only need a couple of city stops."
-          },
-          {
-            "type": "p",
-            "html": "For food after you arrive, open the <a href=\"/region-taichung\">Taichung food map</a>, <a href=\"/taichung-taiwanese\">Taichung Taiwanese picks</a>, and <a href=\"/taichung-shaved_ice\">Taichung shaved ice</a>. If you are weighing a scooter instead, see the <a href=\"/blog-taichung-scooter-rental-license-insurance\">Taichung scooter license and insurance guide</a>."
-          },
-          {
-            "type": "note",
-            "text": "This guide is based on Highway Bureau fare data, the iBus 9018 route page, and Chunglu notices, as of October 2026. Recheck fares, times, and detours on official channels before you travel."
-          },
-          {
-            "type": "cta",
-            "title": "Save Taichung & Lukang food spots on the map",
-            "desc": "Pin Taiwanese, shaved-ice, and cafe stops before you get off the bus.",
-            "btn": "Open Map →",
-            "href": "/map?region=taichung&cat=taiwanese"
-          }
-        ]
-      }
+    "heroImage": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
+    "ko": {
+      "pageTitle": "타이중 루강 버스 9018 — 정류장·요금 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이중 루강 버스 9018은 중록커윈 국도버스로, 타이중역(푸싱로)에서 루강까지 일반 NT$96이에요. 정류장·카드 결제·탑승 규칙을 2026년 10월 기준으로 정리했어요.",
+      "ogTitle": "타이중 루강 버스 9018, 어디서 타고 얼마일까?",
+      "eyebrow": "타이중·창화 여행 가이드 · 교통",
+      "title": "타이중 루강 버스 9018, 어디서 타고 얼마일까?",
+      "dek": "타이중역에서 루강 옛거리까지 — 중록커윈 9018 타는 곳과 요금, 국도버스 규칙만 골라 정리했습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이중 · 교통 가이드",
+      "intro": "“타이중에서 루강은 버스로 어떻게 가죠?” 중록커윈 9018은 타이중역(푸싱로)과 루강을 국도 1호선으로 잇는 국도버스예요. 공로총국 운임과 애버스 노선 안내(2026년 10월 기준)를 바탕으로 정류장·요금·탑승 규칙만 정리해봤어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 한눈에 비교하기"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "구분",
+            "타이중역→루강",
+            "차오마→루강"
+          ],
+          "rows": [
+            {
+              "label": "운영",
+              "values": [
+                "중록커윈(中鹿客運) 9018",
+                "같은 노선·일부 편은 차오마 출발"
+              ]
+            },
+            {
+              "label": "일반 요금",
+              "values": [
+                "NT$96 (2026년 10월 기준)",
+                "NT$70 (2026년 10월 기준)"
+              ]
+            },
+            {
+              "label": "할인 요금",
+              "values": [
+                "NT$48 (2026년 10월 기준)",
+                "NT$35 (2026년 10월 기준)"
+              ]
+            },
+            {
+              "label": "결제",
+              "values": [
+                "현금·이지카드·아이패스·아이캐시",
+                "동일"
+              ]
+            },
+            {
+              "label": "성격",
+              "values": [
+                "국도버스(고속 진입 전 승차만)",
+                "국도 하차 후 정류장은 하차만"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "공로총국(公路總局) 운임 조회와 애버스(愛巴士) 노선 안내를 기준으로 정리했습니다. 원글에 나오던 ‘약 38원’ 같은 숫자는 공식 일반·할인 요금과 맞지 않아 넣지 않았어요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 어디서 타면 될까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "타이중역(푸싱로) 정류장",
+              "desc": "공식 표기는 臺中車站(復興路)예요. 역 주변 푸싱로 쪽 국도버스 정류장에서 탑니다. 방문 전 구글맵이나 버스 앱에서 ‘9018’·‘臺中車站(復興路)’로 위치를 확인하세요."
+            },
+            {
+              "mark": "2",
+              "b": "시내 경유 정류장",
+              "desc": "간청(干城站)·민권계광가 입구·타이중교육대학·과학박물관(타이완대로)·MRT 시정부역·신광싼웨·차오마(타이완대로) 등을 지나 국도에 올라가요."
+            },
+            {
+              "mark": "3",
+              "b": "루강 쪽 하차",
+              "desc": "동팡초등학교·난안리·후비푸·치거우쯔·푸싱향 공소·옛 타이탕 기차역·루강진 공소·루강역 순으로 내려요. 2026년 8월 4일부터 루강 민권로 공사로 루강진 공소·옛 타이탕 정류장은 우회 운행 중일 수 있으니, 당일 공지를 확인하는 편이 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
+          "caption": "루강 마쭈묘(鹿港天后宮) 패루와 홍등이에요. 9018을 타고 루강에 내리면 옛거리·사원 일대를 걸어서 둘러보기 좋아요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 요금·카드·국도버스 규칙"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "공식 운임(일반)",
+              "desc": "타이중역→루강역 NT$96, 타이중역→루강진 공소 NT$92, 차오마→루강역 NT$70이에요(2026년 10월 기준, 공로총국 운임 조회)."
+            },
+            {
+              "mark": "✓",
+              "b": "할인 운임",
+              "desc": "같은 구간 할인은 타이중역→루강역 NT$48, 차오마→루강역 NT$35 수준이에요. 적용 대상은 현장·카드사 기준을 따르세요."
+            },
+            {
+              "mark": "✓",
+              "b": "교통카드",
+              "desc": "이지카드·아이패스·아이캐시로 낼 수 있어요(애버스 안내)."
+            },
+            {
+              "mark": "✓",
+              "b": "국도버스 탑승 규칙",
+              "desc": "고속도로에 오르기 전 정류장에서는 승차만, 내려온 뒤 정류장에서는 하차만 할 수 있어요. 짧은 시내 구간만 가려면 시내버스를 타는 것이 맞습니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 시간표와 당일 확인"
+        },
+        {
+          "type": "p",
+          "html": "월~목·금요일·주말·공휴일 시간표가 따로 있어요. 월~목 타이중역 출발은 대략 06:00부터 22:00까지 하루 여러 편이고, 금요일 일부 편은 차오마에서 출발하기도 합니다. 배차와 우회는 바뀔 수 있으니 출발 전에 <a href=\"https://www.ibus.com.tw/intercity-bus/middle-tw/route9018/\" rel=\"nofollow\">애버스 9018 노선</a>이나 교통부 TDX 기반 버스 앱에서 당일 시각을 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-lukang-bus-9018-2.jpg",
+          "caption": "창화 사원 앞 축제 인파예요. 루강·창화 일대는 주말·행사일에 사람이 많아지니 넉넉히 잡는 편이 좋아요."
+        },
+        {
+          "type": "quote",
+          "text": "국도버스는 ‘타기만 / 내리기만’ 구간이 나뉘어 있어요 — 시내 한두 정류장만 가려다 잘못 타면 헷갈리기 쉽습니다."
+        },
+        {
+          "type": "p",
+          "html": "루강에서 내려 맛집을 찾거나, 타이중으로 돌아와 저녁을 이어가려면 <a href=\"/region-taichung\">타이중 맛집 지도</a>와 <a href=\"/taichung-taiwanese\">타이중 대만식 맛집</a>, <a href=\"/taichung-shaved_ice\">타이중 빙수</a>를 함께 보면 동선이 잡히기 쉬워요. 스쿠터를 빌릴지 고민 중이면 <a href=\"/blog-taichung-scooter-rental-license-insurance\">타이중 스쿠터 렌트 면허·보험 가이드</a>도 참고해 보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 공로총국 운임 조회·애버스 9018 노선 안내·중록커윈 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 요금·시간표·우회는 바뀔 수 있으니 출발 전 공식 노선·버스 앱에서 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중·루강 근처 맛집 준비하세요",
+          "desc": "버스에서 내린 뒤 바로 갈 대만식·빙수·카페를 미리 찜해 두면 동선이 편해져요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung&cat=taiwanese"
+        }
+      ]
     },
+    "en": {
+      "pageTitle": "Taichung–Lukang Bus 9018 — Stops & Fares · My Secret Taiwan Eats",
+      "metaDescription": "Taichung–Lukang bus 9018 is a Chunglu freeway coach: NT$96 full fare from Taichung Station (Fuxing Rd) to Lukang. Stops, cards, and boarding rules as of October 2026.",
+      "ogTitle": "Taichung to Lukang Bus 9018: Where to Board and How Much?",
+      "eyebrow": "Taichung & Changhua Travel Guide · Transport",
+      "title": "Taichung to Lukang Bus 9018: Where to Board and How Much?",
+      "dek": "From Taichung Station to Lukang old street — where to board Chunglu 9018, what it costs, and freeway-bus rules.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taichung · Transport Guide",
+      "intro": "Wondering how to reach Lukang from Taichung by bus? Chunglu 9018 links Taichung Station (Fuxing Rd) and Lukang on National Freeway 1. Here are stops, fares, and boarding rules from Highway Bureau and iBus data (as of October 2026).",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · At a glance"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Item",
+            "Taichung Station → Lukang",
+            "Chaoma → Lukang"
+          ],
+          "rows": [
+            {
+              "label": "Operator",
+              "values": [
+                "Chunglu Bus (中鹿客運) 9018",
+                "Same route; some Friday trips start at Chaoma"
+              ]
+            },
+            {
+              "label": "Full fare",
+              "values": [
+                "NT$96 (as of Oct 2026)",
+                "NT$70 (as of Oct 2026)"
+              ]
+            },
+            {
+              "label": "Discount fare",
+              "values": [
+                "NT$48 (as of Oct 2026)",
+                "NT$35 (as of Oct 2026)"
+              ]
+            },
+            {
+              "label": "Payment",
+              "values": [
+                "Cash, EasyCard, iPASS, iCash",
+                "Same"
+              ]
+            },
+            {
+              "label": "Type",
+              "values": [
+                "Freeway coach (board-only before on-ramp)",
+                "Alight-only after exiting the freeway"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Fares follow the Highway Bureau fare table and iBus route notes. A cafe tip that said “about NT$38” does not match the official full/discount fares, so it is left out."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Where to board"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Taichung Station (Fuxing Rd)",
+              "desc": "Official stop name: 臺中車站(復興路). Board at the freeway-bus stop on Fuxing Road near the station. Check Google Maps or a bus app for “9018” before you go."
+            },
+            {
+              "mark": "2",
+              "b": "City stops before the freeway",
+              "desc": "The coach also serves Gancheng, Minquan–Jiguang, National Taichung University of Education, National Museum of Natural Science (Taiwan Blvd), City Hall MRT, Shin Kong Mitsukoshi, and Chaoma (Taiwan Blvd) before entering National Freeway 1."
+            },
+            {
+              "mark": "3",
+              "b": "Getting off in Lukang",
+              "desc": "Stops include Dongfang Elementary, Nan’an, Houbipu, Qigouzi, Fuxing Township Office, the old Taiwan Sugar station, Lukang Township Office, and Lukang Station. Since 4 Aug 2026, Minquan Rd works may divert Township Office / old Sugar stops—check the day’s notice."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-lukang-bus-9018-1.jpg",
+          "caption": "The paifang and lanterns at Lukang Mazu Temple (天后宮). After 9018, the old street and temple area are an easy walk."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Fares, cards, freeway rules"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Official full fares",
+              "desc": "Taichung Station → Lukang Station NT$96; → Lukang Township Office NT$92; Chaoma → Lukang Station NT$70 (Oct 2026, Highway Bureau fare query)."
+            },
+            {
+              "mark": "✓",
+              "b": "Discount fares",
+              "desc": "About NT$48 Station→Lukang and NT$35 Chaoma→Lukang. Eligibility follows the operator and card rules on the day."
+            },
+            {
+              "mark": "✓",
+              "b": "Transit cards",
+              "desc": "EasyCard, iPASS, and iCash are accepted (iBus)."
+            },
+            {
+              "mark": "✓",
+              "b": "Freeway boarding rules",
+              "desc": "Before the on-ramp you may only board; after the off-ramp you may only alight. For short city hops, take a city bus instead."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Timetable and same-day checks"
+        },
+        {
+          "type": "p",
+          "html": "Weekday, Friday, and weekend/holiday timetables differ. Mon–Thu departures from Taichung Station roughly run from about 06:00 to 22:00 with many trips; some Friday trips start at Chaoma. Schedules and detours change—confirm on the <a href=\"https://www.ibus.com.tw/intercity-bus/middle-tw/route9018/\" rel=\"nofollow\">iBus 9018 page</a> or a MOTC TDX-based bus app before you leave."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-lukang-bus-9018-2.jpg",
+          "caption": "A festival crowd at a Changhua temple. Lukang and Changhua get busy on weekends and event days, so leave extra time."
+        },
+        {
+          "type": "quote",
+          "text": "Freeway coaches split “board-only” and “alight-only” segments — easy to mix up if you only need a couple of city stops."
+        },
+        {
+          "type": "p",
+          "html": "For food after you arrive, open the <a href=\"/region-taichung\">Taichung food map</a>, <a href=\"/taichung-taiwanese\">Taichung Taiwanese picks</a>, and <a href=\"/taichung-shaved_ice\">Taichung shaved ice</a>. If you are weighing a scooter instead, see the <a href=\"/blog-taichung-scooter-rental-license-insurance\">Taichung scooter license and insurance guide</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on Highway Bureau fare data, the iBus 9018 route page, and Chunglu notices, as of October 2026. Recheck fares, times, and detours on official channels before you travel."
+        },
+        {
+          "type": "cta",
+          "title": "Save Taichung & Lukang food spots on the map",
+          "desc": "Pin Taiwanese, shaved-ice, and cafe stops before you get off the bus.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung&cat=taiwanese"
+        }
+      ]
+    }
+  },
   "taipei-taichung-kaohsiung-with-mom": {
-    heroImage: "assets/images/regions/taipei.webp",
-    ko: {
-      pageTitle: "타이베이·타이중·가오슝 비교 — 엄마와 가는 첫 대만 여행지 고르기 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "부모님과 함께하는 첫 대만 여행, 어느 도시가 좋을까요? 이동 난이도·관광 밀도·부모님 동선 관점에서 타이베이·타이중·가오슝을 비교했습니다.",
-      ogTitle: "타이베이·타이중·가오슝, 엄마와 가는 첫 대만 여행 어디가 편할까",
-      eyebrow: "대만 여행 가이드 · 도시 선택",
-      title: "타이베이·타이중·가오슝, 엄마와 가는 첫 대만 여행 어디가 편할까",
-      dek: "이동 수단, 볼거리 밀도, 그리고 무엇보다 부모님이 걷기 편한 동선까지 — 세 도시를 나란히 비교해서 첫 대만 여행지를 골라봤습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 여행 · 도시 비교",
-      intro: "부모님을 모시고 떠나는 첫 대만 여행이라면 도시 선택부터 고민이 깊어집니다. <strong>타이베이</strong>는 두말할 것 없이 기본값이지만, 일정이 며칠 더 남는다면 <strong>타이중</strong>과 <strong>가오슝</strong> 중 어디를 더할지가 관건이에요. 이동 난이도, 관광 밀도, 그리고 무엇보다 부모님이 걷고 이동하기에 편한 동선까지 — 세 가지 기준으로 비교해봤습니다.",
-      blocks: [
-        { type: "h2", text: "01 · 세 도시, 한눈에 비교하기" },
+    "heroImage": "assets/images/regions/taipei.webp",
+    "ko": {
+      "pageTitle": "타이베이·타이중·가오슝 비교 — 엄마와 가는 첫 대만 여행지 고르기 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "부모님과 함께하는 첫 대만 여행, 어느 도시가 좋을까요? 이동 난이도·관광 밀도·부모님 동선 관점에서 타이베이·타이중·가오슝을 비교했습니다.",
+      "ogTitle": "타이베이·타이중·가오슝, 엄마와 가는 첫 대만 여행 어디가 편할까",
+      "eyebrow": "대만 여행 가이드 · 도시 선택",
+      "title": "타이베이·타이중·가오슝, 엄마와 가는 첫 대만 여행 어디가 편할까",
+      "dek": "이동 수단, 볼거리 밀도, 그리고 무엇보다 부모님이 걷기 편한 동선까지 — 세 도시를 나란히 비교해서 첫 대만 여행지를 골라봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 여행 · 도시 비교",
+      "intro": "부모님을 모시고 떠나는 첫 대만 여행이라면 도시 선택부터 고민이 깊어집니다. <strong>타이베이</strong>는 두말할 것 없이 기본값이지만, 일정이 며칠 더 남는다면 <strong>타이중</strong>과 <strong>가오슝</strong> 중 어디를 더할지가 관건이에요. 이동 난이도, 관광 밀도, 그리고 무엇보다 부모님이 걷고 이동하기에 편한 동선까지 — 세 가지 기준으로 비교해봤습니다.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["타이베이", "타이중", "가오슝"],
-          rows: [
-            { label: "이동 난이도", values: ["MRT 노선이 촘촘해서 도보 이동이 거의 없습니다", "버스 의존도가 높고 MRT가 주요 관광지를 비껴가는 구간이 많아요", "MRT와 경전철(LRT)로 주요 명소를 대부분 커버합니다"] },
-            { label: "관광 밀도", values: ["도보 반경 안에 명소가 밀집해 있습니다", "명소보다는 카페·맛집 위주로 넓게 퍼져 있어요", "바닷가·야시장 등 명소가 적당한 간격으로 분산돼 있어요"] },
-            { label: "부모님 동선", values: ["역에서 도보 5~10분 이내 명소가 많아 무난해요", "걷는 구간이 길어지기 쉬워 택시 이용을 고려해야 합니다", "역 인근으로 동선을 짜기가 비교적 쉬워요"] },
-            { label: "근교 확장성", values: ["타오위안, 이란 방면", "일월담·칭징농장·허환산으로 가는 전초기지로 좋습니다", "타이난·컨딩·소류구를 묶는 남부투어가 가능해요"] },
-          ],
+          "type": "h2",
+          "text": "01 · 세 도시, 한눈에 비교하기"
         },
-        { type: "figure", img: "assets/images/regions/taipei.webp", caption: "안개 낀 산 사이로 보이는 타이베이 시내 전경." },
-        { type: "h2", text: "02 · 타이베이 — 고민 없는 기본값" },
-        { type: "p", html: "타이베이는 대만 여행의 정답에 가깝습니다. 지하철(MRT) 노선이 시내 전역을 촘촘히 연결하고, 역에서 내려 조금만 걸으면 고궁박물원, 스린 야시장, 융캉제 같은 대표 명소에 닿아요. 부모님과 함께라면 이동 스트레스가 적다는 것만으로도 큰 장점입니다. 처음 대만을 찾는다면, 혹은 일정이 나흘 이하로 짧다면 타이베이 한 도시에만 집중하는 편이 오히려 여행을 편안하게 만들어요." },
-        { type: "h2", text: "03 · 가오슝 — 타이베이 다음으로 가장 무난한 선택" },
-        { type: "p", html: "가오슝은 한국으로 치면 부산에 가깝습니다. 서울(타이베이) 다음으로 부산(가오슝)을 찾는 것처럼, 대만 여행에서도 타이베이 다음 도시로 가장 많이 떠올리는 곳이에요. MRT와 경전철(LRT)이 주요 명소 대부분을 커버하고, 바닷가와 야시장이 가까이 있어 동선을 짜기 쉽습니다. 일정이 길다면 타이난, 컨딩, 소류구까지 묶어 남부 투어로 확장할 수 있는 거점이기도 해요." },
-        { type: "h2", text: "04 · 타이중 — 미식·도시 감성은 좋지만 동선은 고려해야" },
-        { type: "p", html: "타이중은 관광지보다는 '그냥 도시'에 가까운 매력이 있습니다. 미슐랭 맛집이 곳곳에 있고, 박물관·미술관·오페라하우스를 돌아보며 도시 감성을 느끼기 좋아요. 다만 버스는 배차나 정류장 위치가 여행자에게 낯설 수 있고, MRT는 정작 관광지를 비껴가는 구간이 많아 걷는 거리가 길어지기 쉽습니다. 대전과 자주 비교되는 이유이기도 해요 — 딱히 관광명소가 몰려 있진 않지만 맛집 투어로는 훌륭한 도시라는 점에서요. 부모님과 함께라면 택시나 차량 이동을 적극적으로 활용하는 게 좋습니다." },
-        { type: "h2", text: "05 · 엄마와 함께라면, 이렇게 골라보세요" },
         {
-          type: "tipList",
-          items: [
-            { mark: "첫", b: "첫 대만 여행 + 일정 4일 이하", desc: "타이베이 한 도시에 집중하는 게 가장 편합니다. 이동 스트레스가 없어야 부모님도 여행을 온전히 즐길 수 있어요." },
-            { mark: "남", b: "타이베이 + 도시 하나 추가, 이동 편의가 우선", desc: "가오슝을 추천합니다. MRT·LRT로 동선이 짧고, 타이난·컨딩 등 근교 일정도 짜기 쉬워요." },
-            { mark: "미", b: "미식 여행 + 며칠 여유, 도보는 어느 정도 괜찮음", desc: "타이중을 더해보세요. 미슐랭 맛집과 한적한 도시 분위기를 느낄 수 있지만, 택시 이동을 적극 활용하는 게 좋습니다." },
+          "type": "compareTable",
+          "cities": [
+            "타이베이",
+            "타이중",
+            "가오슝"
           ],
+          "rows": [
+            {
+              "label": "이동 난이도",
+              "values": [
+                "MRT 노선이 촘촘해서 도보 이동이 거의 없습니다",
+                "버스 의존도가 높고 MRT가 주요 관광지를 비껴가는 구간이 많아요",
+                "MRT와 경전철(LRT)로 주요 명소를 대부분 커버합니다"
+              ]
+            },
+            {
+              "label": "관광 밀도",
+              "values": [
+                "도보 반경 안에 명소가 밀집해 있습니다",
+                "명소보다는 카페·맛집 위주로 넓게 퍼져 있어요",
+                "바닷가·야시장 등 명소가 적당한 간격으로 분산돼 있어요"
+              ]
+            },
+            {
+              "label": "부모님 동선",
+              "values": [
+                "역에서 도보 5~10분 이내 명소가 많아 무난해요",
+                "걷는 구간이 길어지기 쉬워 택시 이용을 고려해야 합니다",
+                "역 인근으로 동선을 짜기가 비교적 쉬워요"
+              ]
+            },
+            {
+              "label": "근교 확장성",
+              "values": [
+                "타오위안, 이란 방면",
+                "일월담·칭징농장·허환산으로 가는 전초기지로 좋습니다",
+                "타이난·컨딩·소류구를 묶는 남부투어가 가능해요"
+              ]
+            }
+          ]
         },
-        { type: "quote", text: "\"타이중이 대전이라면, 가오슝은 부산.\" — 여행자들 사이에서 자주 나오는 비유입니다. 목적에 맞게 고르면 후회가 없어요." },
-        { type: "cta", title: "지도에서 도시별 맛집도 함께 준비하세요", desc: "타이베이·타이중·가오슝 맛집을 지역별로 지도에서 바로 확인해보세요.", btn: "지도 열기 →", href: "/map" },
-        { type: "note", text: "이 글은 여행자들 사이에서 공유되는 각 도시의 대중교통 여건과 여행 경험을 바탕으로 정리했습니다. 실제 대중교통 노선과 운행 정보는 방문 전 현지 교통 앱으로 다시 확인하는 것을 추천해요." },
-      ],
+        {
+          "type": "figure",
+          "img": "assets/images/regions/taipei.webp",
+          "caption": "안개 낀 산 사이로 보이는 타이베이 시내 전경."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 타이베이 — 고민 없는 기본값"
+        },
+        {
+          "type": "p",
+          "html": "타이베이는 대만 여행의 정답에 가깝습니다. 지하철(MRT) 노선이 시내 전역을 촘촘히 연결하고, 역에서 내려 조금만 걸으면 고궁박물원, 스린 야시장, 융캉제 같은 대표 명소에 닿아요. 부모님과 함께라면 이동 스트레스가 적다는 것만으로도 큰 장점입니다. 처음 대만을 찾는다면, 혹은 일정이 나흘 이하로 짧다면 타이베이 한 도시에만 집중하는 편이 오히려 여행을 편안하게 만들어요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가오슝 — 타이베이 다음으로 가장 무난한 선택"
+        },
+        {
+          "type": "p",
+          "html": "가오슝은 한국으로 치면 부산에 가깝습니다. 서울(타이베이) 다음으로 부산(가오슝)을 찾는 것처럼, 대만 여행에서도 타이베이 다음 도시로 가장 많이 떠올리는 곳이에요. MRT와 경전철(LRT)이 주요 명소 대부분을 커버하고, 바닷가와 야시장이 가까이 있어 동선을 짜기 쉽습니다. 일정이 길다면 타이난, 컨딩, 소류구까지 묶어 남부 투어로 확장할 수 있는 거점이기도 해요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 타이중 — 미식·도시 감성은 좋지만 동선은 고려해야"
+        },
+        {
+          "type": "p",
+          "html": "타이중은 관광지보다는 '그냥 도시'에 가까운 매력이 있습니다. 미슐랭 맛집이 곳곳에 있고, 박물관·미술관·오페라하우스를 돌아보며 도시 감성을 느끼기 좋아요. 다만 버스는 배차나 정류장 위치가 여행자에게 낯설 수 있고, MRT는 정작 관광지를 비껴가는 구간이 많아 걷는 거리가 길어지기 쉽습니다. 대전과 자주 비교되는 이유이기도 해요 — 딱히 관광명소가 몰려 있진 않지만 맛집 투어로는 훌륭한 도시라는 점에서요. 부모님과 함께라면 택시나 차량 이동을 적극적으로 활용하는 게 좋습니다."
+        },
+        {
+          "type": "h2",
+          "text": "05 · 엄마와 함께라면, 이렇게 골라보세요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "첫",
+              "b": "첫 대만 여행 + 일정 4일 이하",
+              "desc": "타이베이 한 도시에 집중하는 게 가장 편합니다. 이동 스트레스가 없어야 부모님도 여행을 온전히 즐길 수 있어요."
+            },
+            {
+              "mark": "남",
+              "b": "타이베이 + 도시 하나 추가, 이동 편의가 우선",
+              "desc": "가오슝을 추천합니다. MRT·LRT로 동선이 짧고, 타이난·컨딩 등 근교 일정도 짜기 쉬워요."
+            },
+            {
+              "mark": "미",
+              "b": "미식 여행 + 며칠 여유, 도보는 어느 정도 괜찮음",
+              "desc": "타이중을 더해보세요. 미슐랭 맛집과 한적한 도시 분위기를 느낄 수 있지만, 택시 이동을 적극 활용하는 게 좋습니다."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"타이중이 대전이라면, 가오슝은 부산.\" — 여행자들 사이에서 자주 나오는 비유입니다. 목적에 맞게 고르면 후회가 없어요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 도시별 맛집도 함께 준비하세요",
+          "desc": "타이베이·타이중·가오슝 맛집을 지역별로 지도에서 바로 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 여행자들 사이에서 공유되는 각 도시의 대중교통 여건과 여행 경험을 바탕으로 정리했습니다. 실제 대중교통 노선과 운행 정보는 방문 전 현지 교통 앱으로 다시 확인하는 것을 추천해요."
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taipei vs. Taichung vs. Kaohsiung — Best First City for a Trip with Mom · My Secret Taiwan Eats",
-      metaDescription: "Which city is best for a first Taiwan trip with a parent? Comparing Taipei, Taichung, and Kaohsiung by transit difficulty, sightseeing density, and how walkable each is.",
-      ogTitle: "Taipei vs. Taichung vs. Kaohsiung: Best First City for a Trip with Mom",
-      eyebrow: "Taiwan Travel Guide · Choosing a City",
-      title: "Taipei vs. Taichung vs. Kaohsiung: Best First City for a Trip with Mom",
-      dek: "Transit options, sightseeing density, and — most importantly — how easy the walking is for a parent. We compared all three cities side by side to help pick a first Taiwan destination.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan Travel · City Comparison",
-      intro: "Planning a first Taiwan trip with a parent makes choosing a city a bigger decision than usual. <strong>Taipei</strong> is the obvious default, but if you have a few extra days, the real question is whether to add <strong>Taichung</strong> or <strong>Kaohsiung</strong>. We compared all three on transit difficulty, sightseeing density, and — above all — how easy the walking routes are for a parent.",
-      blocks: [
-        { type: "h2", text: "01 · The Three Cities at a Glance" },
+    "en": {
+      "pageTitle": "Taipei vs. Taichung vs. Kaohsiung — Best First City for a Trip with Mom · My Secret Taiwan Eats",
+      "metaDescription": "Which city is best for a first Taiwan trip with a parent? Comparing Taipei, Taichung, and Kaohsiung by transit difficulty, sightseeing density, and how walkable each is.",
+      "ogTitle": "Taipei vs. Taichung vs. Kaohsiung: Best First City for a Trip with Mom",
+      "eyebrow": "Taiwan Travel Guide · Choosing a City",
+      "title": "Taipei vs. Taichung vs. Kaohsiung: Best First City for a Trip with Mom",
+      "dek": "Transit options, sightseeing density, and — most importantly — how easy the walking is for a parent. We compared all three cities side by side to help pick a first Taiwan destination.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan Travel · City Comparison",
+      "intro": "Planning a first Taiwan trip with a parent makes choosing a city a bigger decision than usual. <strong>Taipei</strong> is the obvious default, but if you have a few extra days, the real question is whether to add <strong>Taichung</strong> or <strong>Kaohsiung</strong>. We compared all three on transit difficulty, sightseeing density, and — above all — how easy the walking routes are for a parent.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Taipei", "Taichung", "Kaohsiung"],
-          rows: [
-            { label: "Transit difficulty", values: ["A dense MRT network means almost no long walks", "Relies heavily on buses; the MRT skips many tourist areas", "MRT plus a light rail (LRT) covers most major sights"] },
-            { label: "Sightseeing density", values: ["Landmarks are packed within walking distance of each other", "Spread out and centered more on cafes and restaurants than sights", "Sights like the waterfront and night markets are spaced conveniently"] },
-            { label: "Parent-friendly routes", values: ["Most sights are 5–10 min walk from a station", "Walking distances add up quickly; plan for taxis", "Relatively easy to build a route around stations"] },
-            { label: "Day-trip potential", values: ["Taoyuan, Yilan area", "A good base for Sun Moon Lake, Cingjing Farm, Hehuanshan", "Can be combined with Tainan, Kenting, Xiaoliuqiu for a southern-Taiwan tour"] },
-          ],
+          "type": "h2",
+          "text": "01 · The Three Cities at a Glance"
         },
-        { type: "figure", img: "assets/images/regions/taipei.webp", caption: "The Taipei skyline seen through a mountain haze." },
-        { type: "h2", text: "02 · Taipei — The Easy Default" },
-        { type: "p", html: "Taipei is about as close to a sure bet as Taiwan travel gets. The MRT network blankets the city, and a short walk from any station gets you to major sights like the National Palace Museum, Shilin Night Market, or Yongkang Street. Traveling with a parent, low transit stress alone is a real advantage. If it's your first time in Taiwan, or your trip is four days or shorter, focusing on Taipei alone tends to make the whole trip more relaxed." },
-        { type: "h2", text: "03 · Kaohsiung — The Easiest Second City" },
-        { type: "p", html: "Kaohsiung plays a role similar to Busan in Korea — just as Busan is usually the second city travelers pick after Seoul, Kaohsiung is often the second city travelers add after Taipei. Its MRT and light rail (LRT) cover most major sights, and the waterfront and night markets are close together, making routes easy to plan. With more time, it's also a great base for extending south to Tainan, Kenting, and Xiaoliuqiu." },
-        { type: "h2", text: "04 · Taichung — Great for Food and City Vibes, but Plan Around Transit" },
-        { type: "p", html: "Taichung feels less like a tourist destination and more like \"just a city\" — in a good way. Michelin-listed restaurants are everywhere, and it's a great place to soak up museums, galleries, and an opera house at a relaxed pace. That said, bus schedules and stops can be confusing for visitors, and the MRT skips many of the areas travelers actually want to see, so walking distances add up. It's often compared to Daejeon in Korea for the same reason — not packed with landmarks, but excellent for a food-focused trip. Traveling with a parent, lean on taxis or a car rather than walking everything." },
-        { type: "h2", text: "05 · Picking a City When You're Traveling with Mom" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "First trip to Taiwan, 4 days or fewer", desc: "Stick to Taipei alone. Keeping transit stress low is what lets a parent actually enjoy the trip." },
-            { mark: "2", b: "Taipei plus one more city, prioritizing easy transit", desc: "Add Kaohsiung. MRT and LRT keep routes short, and it's easy to extend to Tainan or Kenting." },
-            { mark: "3", b: "A food-focused trip with a few extra days, some walking is fine", desc: "Add Taichung. You'll get Michelin restaurants and a relaxed city feel — just lean on taxis to get around." },
+          "type": "compareTable",
+          "cities": [
+            "Taipei",
+            "Taichung",
+            "Kaohsiung"
           ],
+          "rows": [
+            {
+              "label": "Transit difficulty",
+              "values": [
+                "A dense MRT network means almost no long walks",
+                "Relies heavily on buses; the MRT skips many tourist areas",
+                "MRT plus a light rail (LRT) covers most major sights"
+              ]
+            },
+            {
+              "label": "Sightseeing density",
+              "values": [
+                "Landmarks are packed within walking distance of each other",
+                "Spread out and centered more on cafes and restaurants than sights",
+                "Sights like the waterfront and night markets are spaced conveniently"
+              ]
+            },
+            {
+              "label": "Parent-friendly routes",
+              "values": [
+                "Most sights are 5–10 min walk from a station",
+                "Walking distances add up quickly; plan for taxis",
+                "Relatively easy to build a route around stations"
+              ]
+            },
+            {
+              "label": "Day-trip potential",
+              "values": [
+                "Taoyuan, Yilan area",
+                "A good base for Sun Moon Lake, Cingjing Farm, Hehuanshan",
+                "Can be combined with Tainan, Kenting, Xiaoliuqiu for a southern-Taiwan tour"
+              ]
+            }
+          ]
         },
-        { type: "quote", text: "\"If Taichung is Daejeon, Kaohsiung is Busan.\" — A comparison travelers bring up often. Pick based on what you're actually there for, and you won't regret it." },
-        { type: "cta", title: "Find Restaurants in Each City on the Map", desc: "Browse restaurants in Taipei, Taichung, and Kaohsiung by region, right on the map.", btn: "Open Map →", href: "/map" },
-        { type: "note", text: "This guide was put together from transit conditions and travel experiences commonly shared among travelers. Double-check current routes and schedules in a local transit app before you go." },
-      ],
-    },
+        {
+          "type": "figure",
+          "img": "assets/images/regions/taipei.webp",
+          "caption": "The Taipei skyline seen through a mountain haze."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Taipei — The Easy Default"
+        },
+        {
+          "type": "p",
+          "html": "Taipei is about as close to a sure bet as Taiwan travel gets. The MRT network blankets the city, and a short walk from any station gets you to major sights like the National Palace Museum, Shilin Night Market, or Yongkang Street. Traveling with a parent, low transit stress alone is a real advantage. If it's your first time in Taiwan, or your trip is four days or shorter, focusing on Taipei alone tends to make the whole trip more relaxed."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Kaohsiung — The Easiest Second City"
+        },
+        {
+          "type": "p",
+          "html": "Kaohsiung plays a role similar to Busan in Korea — just as Busan is usually the second city travelers pick after Seoul, Kaohsiung is often the second city travelers add after Taipei. Its MRT and light rail (LRT) cover most major sights, and the waterfront and night markets are close together, making routes easy to plan. With more time, it's also a great base for extending south to Tainan, Kenting, and Xiaoliuqiu."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Taichung — Great for Food and City Vibes, but Plan Around Transit"
+        },
+        {
+          "type": "p",
+          "html": "Taichung feels less like a tourist destination and more like \"just a city\" — in a good way. Michelin-listed restaurants are everywhere, and it's a great place to soak up museums, galleries, and an opera house at a relaxed pace. That said, bus schedules and stops can be confusing for visitors, and the MRT skips many of the areas travelers actually want to see, so walking distances add up. It's often compared to Daejeon in Korea for the same reason — not packed with landmarks, but excellent for a food-focused trip. Traveling with a parent, lean on taxis or a car rather than walking everything."
+        },
+        {
+          "type": "h2",
+          "text": "05 · Picking a City When You're Traveling with Mom"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "First trip to Taiwan, 4 days or fewer",
+              "desc": "Stick to Taipei alone. Keeping transit stress low is what lets a parent actually enjoy the trip."
+            },
+            {
+              "mark": "2",
+              "b": "Taipei plus one more city, prioritizing easy transit",
+              "desc": "Add Kaohsiung. MRT and LRT keep routes short, and it's easy to extend to Tainan or Kenting."
+            },
+            {
+              "mark": "3",
+              "b": "A food-focused trip with a few extra days, some walking is fine",
+              "desc": "Add Taichung. You'll get Michelin restaurants and a relaxed city feel — just lean on taxis to get around."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"If Taichung is Daejeon, Kaohsiung is Busan.\" — A comparison travelers bring up often. Pick based on what you're actually there for, and you won't regret it."
+        },
+        {
+          "type": "cta",
+          "title": "Find Restaurants in Each City on the Map",
+          "desc": "Browse restaurants in Taipei, Taichung, and Kaohsiung by region, right on the map.",
+          "btn": "Open Map →",
+          "href": "/map"
+        },
+        {
+          "type": "note",
+          "text": "This guide was put together from transit conditions and travel experiences commonly shared among travelers. Double-check current routes and schedules in a local transit app before you go."
+        }
+      ]
+    }
   },
   "taipei-easycard-transport-guide": {
-    heroImage: "assets/images/blog/taipei-taxi-night-market.jpg",
-    ko: {
-      pageTitle: "타이베이 이지카드로 충분할까 — 첫 여행 3박4일 교통 가이드 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이베이 첫 여행, 이지카드만으로 충분할까요? 신용카드 컨택리스 결제, 버스, 택시(우버)는 언제 타야 하는지까지 — 실제 여행자들의 경험을 바탕으로 정리했습니다.",
-      ogTitle: "타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?",
-      eyebrow: "타이베이 여행 가이드 · 교통",
-      title: "타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?",
-      dek: "이지카드 하나로 지하철·버스·편의점까지 다 되는지, 신용카드는 어디까지 되는지, 택시는 언제 타야 하는지 — 첫 타이베이 여행자들이 가장 많이 묻는 교통 고민을 정리했습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 교통 가이드",
-      intro: "타이베이 여행을 준비하다 보면 꼭 한 번은 마주치는 질문이 있습니다. \"이지카드 하나로 충분할까? 신용카드도 되나? 택시는 언제 타야 하지?\" 대중교통이 촘촘한 타이베이는 사실 복잡하게 고민할 필요가 없는 도시예요. 실제 여행자들의 경험을 바탕으로 <strong>이지카드·신용카드·택시(우버)</strong>의 사용 범위를 한 번에 정리해봤습니다.",
-      blocks: [
-        { type: "h2", text: "01 · 이지카드 vs 신용카드, 어디까지 될까" },
+    "heroImage": "assets/images/blog/taipei-taxi-night-market.jpg",
+    "ko": {
+      "pageTitle": "타이베이 이지카드로 충분할까 — 첫 여행 3박4일 교통 가이드 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 첫 여행, 이지카드만으로 충분할까요? 신용카드 컨택리스 결제, 버스, 택시(우버)는 언제 타야 하는지까지 — 실제 여행자들의 경험을 바탕으로 정리했습니다.",
+      "ogTitle": "타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?",
+      "eyebrow": "타이베이 여행 가이드 · 교통",
+      "title": "타이베이 첫 여행 3박4일, 이지카드만으로 충분할까?",
+      "dek": "이지카드 하나로 지하철·버스·편의점까지 다 되는지, 신용카드는 어디까지 되는지, 택시는 언제 타야 하는지 — 첫 타이베이 여행자들이 가장 많이 묻는 교통 고민을 정리했습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 교통 가이드",
+      "intro": "타이베이 여행을 준비하다 보면 꼭 한 번은 마주치는 질문이 있습니다. \"이지카드 하나로 충분할까? 신용카드도 되나? 택시는 언제 타야 하지?\" 대중교통이 촘촘한 타이베이는 사실 복잡하게 고민할 필요가 없는 도시예요. 실제 여행자들의 경험을 바탕으로 <strong>이지카드·신용카드·택시(우버)</strong>의 사용 범위를 한 번에 정리해봤습니다.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["이지카드(EasyCard)", "신용카드(컨택리스)", "우버 / 택시"],
-          rows: [
-            { label: "지하철(MRT)", values: ["가능 — 공항철도 포함 전 노선", "가능 — 카드 뒷면에 컨택리스 결제 아이콘이 있어야 합니다", "필요할 때만 이용"] },
-            { label: "버스", values: ["가능", "불가 — 시내버스는 컨택리스 신용카드 미지원(2026년 10월 기준)", "필요할 때만 이용"] },
-            { label: "편의점 · 마트", values: ["가능 — 충전 잔액으로 바로 결제", "가능", "해당 없음"] },
-            { label: "충전 · 준비", values: ["공항·지하철역·편의점에서 구매 및 충전", "기존에 쓰던 카드 그대로 사용, 별도 발급 불필요", "출국 전 앱 설치 및 카드 등록"] },
-            { label: "첫 여행자 추천도", values: ["대중교통 위주라면 필수", "카드 결제를 선호한다면 보조 수단으로 좋습니다", "체력이 떨어지거나 짐이 많을 때, 혹은 편하게 이동하고 싶을 때 좋아요"] },
-          ],
+          "type": "h2",
+          "text": "01 · 이지카드 vs 신용카드, 어디까지 될까"
         },
-        { type: "figure", img: "assets/images/blog/taipei-taxi-night-market.jpg", caption: "대만 택시는 전부 노란색이라 멀리서도 눈에 잘 띄어요." },
-        { type: "h2", text: "02 · 유명 관광지는 거의 다 지하철·버스로 닿아요" },
-        { type: "p", html: "타이베이는 유명 관광지 대부분이 MRT 노선과 버스 노선으로 커버됩니다. 고궁박물원, 스린 야시장, 융캉제, 시먼딩처럼 여행자들이 많이 찾는 코스는 이지카드 한 장이면 충분히 다닐 수 있어요. 구글 지도로 경로를 검색하면 지하철·버스 환승 정보는 물론 버스 하차 알림까지 챙겨주기 때문에, 초행길이라도 크게 헤맬 일이 없습니다." },
-        { type: "h2", text: "03 · 택시(우버)는 언제 타야 할까" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "체력이 떨어졌을 때", desc: "하루 종일 걸어다닌 뒤 숙소로 돌아갈 때는, 무리해서 대중교통을 갈아타기보다 택시가 훨씬 편합니다." },
-            { mark: "2", b: "쇼핑으로 짐이 많아질 때", desc: "양손 가득 짐을 들고 환승하기보다, 숙소까지 바로 이동하는 편이 나아요." },
-            { mark: "3", b: "대중교통 환승이 애매할 때", desc: "노선이 꼬이거나 도보 이동이 길어지는 구간이라면, 택시가 시간과 체력을 아껴줍니다." },
-            { mark: "4", b: "말이 잘 안 통하거나 깔끔한 차량을 원할 때", desc: "길거리에서 택시를 잡으면 목적지를 설명하기 애매하거나 차량 상태가 제각각일 수 있어요. 우버는 앱에 주소만 입력하면 되고 요금도 미리 확인할 수 있는 데다, 차량이 깨끗하고 기사님 서비스도 좋은 경우가 많아서 오히려 우버를 더 선호하는 여행자도 꽤 있습니다." },
+          "type": "compareTable",
+          "cities": [
+            "이지카드(EasyCard)",
+            "신용카드(컨택리스)",
+            "우버 / 택시"
           ],
+          "rows": [
+            {
+              "label": "지하철(MRT)",
+              "values": [
+                "가능 — 공항철도 포함 전 노선",
+                "가능 — 카드 뒷면에 컨택리스 결제 아이콘이 있어야 합니다",
+                "필요할 때만 이용"
+              ]
+            },
+            {
+              "label": "버스",
+              "values": [
+                "가능",
+                "불가 — 시내버스는 컨택리스 신용카드 미지원(2026년 10월 기준)",
+                "필요할 때만 이용"
+              ]
+            },
+            {
+              "label": "편의점 · 마트",
+              "values": [
+                "가능 — 충전 잔액으로 바로 결제",
+                "가능",
+                "해당 없음"
+              ]
+            },
+            {
+              "label": "충전 · 준비",
+              "values": [
+                "공항·지하철역·편의점에서 구매 및 충전",
+                "기존에 쓰던 카드 그대로 사용, 별도 발급 불필요",
+                "출국 전 앱 설치 및 카드 등록"
+              ]
+            },
+            {
+              "label": "첫 여행자 추천도",
+              "values": [
+                "대중교통 위주라면 필수",
+                "카드 결제를 선호한다면 보조 수단으로 좋습니다",
+                "체력이 떨어지거나 짐이 많을 때, 혹은 편하게 이동하고 싶을 때 좋아요"
+              ]
+            }
+          ]
         },
-        { type: "h2", text: "04 · 3박4일, 실제로는 이렇게 다녀요" },
-        { type: "p", html: "실제로 다녀온 여행자들의 후기를 보면 답은 비슷합니다. 3박4일 내내 지하철과 버스만으로 다녔다는 후기가 가장 많았고, 컨택리스 신용카드 한 장으로 대만에서 6일을 지내고 온 사례도 있었어요. 이지카드는 남은 잔액을 편의점에서 알뜰하게 쓰고 귀국하는 것도 흔한 방법입니다. 우버는 다들 미리 앱을 설치해두는 편인데, 실제로 타 본 여행자들 사이에서는 깨끗한 차량과 편한 결제 덕분에 만족스러웠다는 후기도 적지 않았어요." },
-        { type: "quote", text: "\"걷는 게 괜찮으시다면 지하철로 움직이셔도 어지간하면 충분합니다.\" — 실제 타이베이를 다녀온 여행자들이 가장 많이 남긴 한마디입니다." },
-        { type: "h2", text: "05 · 첫 여행자를 위한 체크리스트" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "이지카드부터 챙기기", desc: "공항 도착 후 지하철역이나 편의점에서 바로 구매·충전할 수 있습니다. 지하철, 버스, 편의점까지 한 장으로 해결돼요." },
-            { mark: "✓", b: "구글 지도 앱 미리 준비", desc: "노선 검색은 물론 버스 하차 알림까지 챙겨주니, 초행길에 특히 유용해요." },
-            { mark: "✓", b: "우버 앱도 함께 준비하기", desc: "짐이 많거나 체력이 떨어졌을 때는 물론, 깔끔한 차량과 정찰 요금을 선호해서 길거리 택시 대신 우버를 즐겨 타는 여행자도 많아요. 미리 설치해두면 언제든 편하게 쓸 수 있습니다." },
-            { mark: "✓", b: "컨택리스 신용카드 확인", desc: "카드 뒷면에 와이파이 모양(옆으로 누운) 아이콘이 있다면 2026년 7월부터 타이베이 MRT 전 역에서 결제가 가능합니다. 시내버스는 신용카드 결제를 받지 않으니(2026년 10월 기준) 이지카드를 쓰세요." },
-          ],
+          "type": "figure",
+          "img": "assets/images/blog/taipei-taxi-night-market.jpg",
+          "caption": "대만 택시는 전부 노란색이라 멀리서도 눈에 잘 띄어요."
         },
-        { type: "cta", title: "타이베이 맛집도 지도에서 미리 찜해두세요", desc: "이지카드로 이동하면서 들르기 좋은 타이베이 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-        { type: "note", text: "이 글은 실제 타이베이를 다녀온 여행자들의 경험을 바탕으로 정리했습니다. 교통 요금과 결제 정책은 방문 전 대중교통 앱이나 공식 안내로 다시 확인하는 것을 추천해요." },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 유명 관광지는 거의 다 지하철·버스로 닿아요"
+        },
+        {
+          "type": "p",
+          "html": "타이베이는 유명 관광지 대부분이 MRT 노선과 버스 노선으로 커버됩니다. 고궁박물원, 스린 야시장, 융캉제, 시먼딩처럼 여행자들이 많이 찾는 코스는 이지카드 한 장이면 충분히 다닐 수 있어요. 구글 지도로 경로를 검색하면 지하철·버스 환승 정보는 물론 버스 하차 알림까지 챙겨주기 때문에, 초행길이라도 크게 헤맬 일이 없습니다."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 택시(우버)는 언제 타야 할까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "체력이 떨어졌을 때",
+              "desc": "하루 종일 걸어다닌 뒤 숙소로 돌아갈 때는, 무리해서 대중교통을 갈아타기보다 택시가 훨씬 편합니다."
+            },
+            {
+              "mark": "2",
+              "b": "쇼핑으로 짐이 많아질 때",
+              "desc": "양손 가득 짐을 들고 환승하기보다, 숙소까지 바로 이동하는 편이 나아요."
+            },
+            {
+              "mark": "3",
+              "b": "대중교통 환승이 애매할 때",
+              "desc": "노선이 꼬이거나 도보 이동이 길어지는 구간이라면, 택시가 시간과 체력을 아껴줍니다."
+            },
+            {
+              "mark": "4",
+              "b": "말이 잘 안 통하거나 깔끔한 차량을 원할 때",
+              "desc": "길거리에서 택시를 잡으면 목적지를 설명하기 애매하거나 차량 상태가 제각각일 수 있어요. 우버는 앱에 주소만 입력하면 되고 요금도 미리 확인할 수 있는 데다, 차량이 깨끗하고 기사님 서비스도 좋은 경우가 많아서 오히려 우버를 더 선호하는 여행자도 꽤 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 3박4일, 실제로는 이렇게 다녀요"
+        },
+        {
+          "type": "p",
+          "html": "실제로 다녀온 여행자들의 후기를 보면 답은 비슷합니다. 3박4일 내내 지하철과 버스만으로 다녔다는 후기가 가장 많았고, 컨택리스 신용카드 한 장으로 대만에서 6일을 지내고 온 사례도 있었어요. 이지카드는 남은 잔액을 편의점에서 알뜰하게 쓰고 귀국하는 것도 흔한 방법입니다. 우버는 다들 미리 앱을 설치해두는 편인데, 실제로 타 본 여행자들 사이에서는 깨끗한 차량과 편한 결제 덕분에 만족스러웠다는 후기도 적지 않았어요."
+        },
+        {
+          "type": "quote",
+          "text": "\"걷는 게 괜찮으시다면 지하철로 움직이셔도 어지간하면 충분합니다.\" — 실제 타이베이를 다녀온 여행자들이 가장 많이 남긴 한마디입니다."
+        },
+        {
+          "type": "h2",
+          "text": "05 · 첫 여행자를 위한 체크리스트"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "이지카드부터 챙기기",
+              "desc": "공항 도착 후 지하철역이나 편의점에서 바로 구매·충전할 수 있습니다. 지하철, 버스, 편의점까지 한 장으로 해결돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "구글 지도 앱 미리 준비",
+              "desc": "노선 검색은 물론 버스 하차 알림까지 챙겨주니, 초행길에 특히 유용해요."
+            },
+            {
+              "mark": "✓",
+              "b": "우버 앱도 함께 준비하기",
+              "desc": "짐이 많거나 체력이 떨어졌을 때는 물론, 깔끔한 차량과 정찰 요금을 선호해서 길거리 택시 대신 우버를 즐겨 타는 여행자도 많아요. 미리 설치해두면 언제든 편하게 쓸 수 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "컨택리스 신용카드 확인",
+              "desc": "카드 뒷면에 와이파이 모양(옆으로 누운) 아이콘이 있다면 2026년 7월부터 타이베이 MRT 전 역에서 결제가 가능합니다. 시내버스는 신용카드 결제를 받지 않으니(2026년 10월 기준) 이지카드를 쓰세요."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "타이베이 맛집도 지도에서 미리 찜해두세요",
+          "desc": "이지카드로 이동하면서 들르기 좋은 타이베이 맛집을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 실제 타이베이를 다녀온 여행자들의 경험을 바탕으로 정리했습니다. 교통 요금과 결제 정책은 방문 전 대중교통 앱이나 공식 안내로 다시 확인하는 것을 추천해요."
+        }
+      ]
     },
-    en: {
-      pageTitle: "Is an EasyCard Enough for Taipei? A First-Timer's 4-Day Transportation Guide · My Secret Taiwan Eats",
-      metaDescription: "Is an EasyCard alone enough for a first Taipei trip? When can you use a contactless credit card, and when should you actually take a taxi or Uber? Based on real traveler experiences.",
-      ogTitle: "Taipei First Trip, 4 Days 3 Nights: Is an EasyCard Enough?",
-      eyebrow: "Taipei Travel Guide · Transportation",
-      title: "Taipei First Trip, 4 Days 3 Nights: Is an EasyCard Enough?",
-      dek: "Whether one EasyCard covers the MRT, buses, and convenience stores, how far a contactless credit card gets you, and when to actually call a taxi — the transportation questions first-time Taipei travelers ask most.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Transportation Guide",
-      intro: "Planning a Taipei trip always brings up the same question: \"Is an EasyCard enough? Does my credit card work? When do I actually need a taxi?\" Taipei's transit network is dense enough that the answer is simpler than it sounds. Based on real traveler experiences, here's exactly how far an <strong>EasyCard, a contactless credit card, and Uber/taxis</strong> each get you.",
-      blocks: [
-        { type: "h2", text: "01 · EasyCard vs. Credit Card: What Each One Covers" },
+    "en": {
+      "pageTitle": "Is an EasyCard Enough for Taipei? A First-Timer's 4-Day Transportation Guide · My Secret Taiwan Eats",
+      "metaDescription": "Is an EasyCard alone enough for a first Taipei trip? When can you use a contactless credit card, and when should you actually take a taxi or Uber? Based on real traveler experiences.",
+      "ogTitle": "Taipei First Trip, 4 Days 3 Nights: Is an EasyCard Enough?",
+      "eyebrow": "Taipei Travel Guide · Transportation",
+      "title": "Taipei First Trip, 4 Days 3 Nights: Is an EasyCard Enough?",
+      "dek": "Whether one EasyCard covers the MRT, buses, and convenience stores, how far a contactless credit card gets you, and when to actually call a taxi — the transportation questions first-time Taipei travelers ask most.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Transportation Guide",
+      "intro": "Planning a Taipei trip always brings up the same question: \"Is an EasyCard enough? Does my credit card work? When do I actually need a taxi?\" Taipei's transit network is dense enough that the answer is simpler than it sounds. Based on real traveler experiences, here's exactly how far an <strong>EasyCard, a contactless credit card, and Uber/taxis</strong> each get you.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["EasyCard", "Contactless Credit Card", "Uber / Taxi"],
-          rows: [
-            { label: "MRT", values: ["Yes — every line, including the Airport MRT", "Yes — your card needs the contactless payment icon on the back", "Use only when needed"] },
-            { label: "Buses", values: ["Yes", "No — city buses don't take contactless credit cards (as of October 2026)", "Use only when needed"] },
-            { label: "Convenience stores & marts", values: ["Yes — pay straight from your card balance", "Yes", "N/A"] },
-            { label: "Getting set up", values: ["Buy and top up at the airport, MRT stations, or convenience stores", "Just use the card you already have — no extra sign-up", "Install the app and register a card before you fly"] },
-            { label: "Good for first-timers?", values: ["Essential if you're mostly using public transit", "A solid backup if you prefer paying by card", "Great when you're worn out, carrying a lot, or just want an easy ride"] },
-          ],
+          "type": "h2",
+          "text": "01 · EasyCard vs. Credit Card: What Each One Covers"
         },
-        { type: "figure", img: "assets/images/blog/taipei-taxi-night-market.jpg", caption: "Every taxi in Taiwan is yellow, so they're easy to spot from a distance." },
-        { type: "h2", text: "02 · The MRT and Buses Already Cover Almost Every Famous Spot" },
-        { type: "p", html: "Most of Taipei's well-known sights sit right on an MRT or bus line. Popular stops like the National Palace Museum, Shilin Night Market, Yongkang Street, and Ximending are all easily reachable with just an EasyCard. Google Maps handles transfers between MRT and bus routes and even tells you when to get off the bus, so it's hard to get lost even on your first day." },
-        { type: "h2", text: "03 · When Should You Actually Take a Taxi?" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "When you're worn out", desc: "After a full day of walking, heading back to your hotel is a lot easier by taxi than by forcing another transit transfer." },
-            { mark: "2", b: "When shopping has piled up your bags", desc: "Rather than transferring trains with your hands full, it's easier to go straight back to your hotel." },
-            { mark: "3", b: "When the transit connection is awkward", desc: "If a route involves a confusing transfer or a long walk, a taxi saves both time and energy." },
-            { mark: "4", b: "When you want an easier, cleaner ride", desc: "Flagging a street taxi can mean explaining your destination or getting whatever car happens to pull up. With Uber, you just enter the address, see the fare upfront, and the cars tend to be clean with friendly drivers — enough that plenty of travelers actually prefer it over hailing a regular taxi." },
+          "type": "compareTable",
+          "cities": [
+            "EasyCard",
+            "Contactless Credit Card",
+            "Uber / Taxi"
           ],
+          "rows": [
+            {
+              "label": "MRT",
+              "values": [
+                "Yes — every line, including the Airport MRT",
+                "Yes — your card needs the contactless payment icon on the back",
+                "Use only when needed"
+              ]
+            },
+            {
+              "label": "Buses",
+              "values": [
+                "Yes",
+                "No — city buses don't take contactless credit cards (as of October 2026)",
+                "Use only when needed"
+              ]
+            },
+            {
+              "label": "Convenience stores & marts",
+              "values": [
+                "Yes — pay straight from your card balance",
+                "Yes",
+                "N/A"
+              ]
+            },
+            {
+              "label": "Getting set up",
+              "values": [
+                "Buy and top up at the airport, MRT stations, or convenience stores",
+                "Just use the card you already have — no extra sign-up",
+                "Install the app and register a card before you fly"
+              ]
+            },
+            {
+              "label": "Good for first-timers?",
+              "values": [
+                "Essential if you're mostly using public transit",
+                "A solid backup if you prefer paying by card",
+                "Great when you're worn out, carrying a lot, or just want an easy ride"
+              ]
+            }
+          ]
         },
-        { type: "h2", text: "04 · What a Real 4-Day Trip Actually Looks Like" },
-        { type: "p", html: "Real traveler reviews tend to agree. Most people said they got through all four days on just the MRT and buses, and one traveler managed six days in Taiwan on a single contactless credit card. Spending down a leftover EasyCard balance at a convenience store before flying home is a common move too. Most travelers install the Uber app beforehand, and those who actually used it often mentioned how clean the cars were and how easy the payment was." },
-        { type: "quote", text: "\"If you're fine with walking, the MRT alone is enough for almost everything.\" — The single most common piece of advice from travelers who've actually been to Taipei." },
-        { type: "h2", text: "05 · A Checklist for First-Time Visitors" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Get an EasyCard first", desc: "You can buy and top one up right at the airport MRT station or a convenience store. One card covers the MRT, buses, and convenience stores." },
-            { mark: "✓", b: "Set up Google Maps beforehand", desc: "It handles route search and bus-stop alerts, which is especially useful when you don't know the city yet." },
-            { mark: "✓", b: "Set up Uber too", desc: "Beyond just tired-and-carrying-too-much situations, plenty of travelers prefer Uber's clean cars and upfront pricing over hailing a taxi off the street. Get it registered ahead of time so it's ready whenever you want it." },
-            { mark: "✓", b: "Check for contactless on your credit card", desc: "If the back of your card has the sideways Wi-Fi-shaped icon, it works at every Taipei MRT station (since July 2026). City buses don't accept credit cards (as of October 2026), so use an EasyCard there." },
-          ],
+          "type": "figure",
+          "img": "assets/images/blog/taipei-taxi-night-market.jpg",
+          "caption": "Every taxi in Taiwan is yellow, so they're easy to spot from a distance."
         },
-        { type: "cta", title: "Bookmark Taipei Restaurants on the Map Too", desc: "Find Taipei restaurants worth stopping at while you get around on your EasyCard.", btn: "Open Map →", href: "/map?region=taipei" },
-        { type: "note", text: "This guide was put together from the experiences of real Taipei travelers. Fares and payment policies can change, so double-check with a transit app or official source before you go." },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · The MRT and Buses Already Cover Almost Every Famous Spot"
+        },
+        {
+          "type": "p",
+          "html": "Most of Taipei's well-known sights sit right on an MRT or bus line. Popular stops like the National Palace Museum, Shilin Night Market, Yongkang Street, and Ximending are all easily reachable with just an EasyCard. Google Maps handles transfers between MRT and bus routes and even tells you when to get off the bus, so it's hard to get lost even on your first day."
+        },
+        {
+          "type": "h2",
+          "text": "03 · When Should You Actually Take a Taxi?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "When you're worn out",
+              "desc": "After a full day of walking, heading back to your hotel is a lot easier by taxi than by forcing another transit transfer."
+            },
+            {
+              "mark": "2",
+              "b": "When shopping has piled up your bags",
+              "desc": "Rather than transferring trains with your hands full, it's easier to go straight back to your hotel."
+            },
+            {
+              "mark": "3",
+              "b": "When the transit connection is awkward",
+              "desc": "If a route involves a confusing transfer or a long walk, a taxi saves both time and energy."
+            },
+            {
+              "mark": "4",
+              "b": "When you want an easier, cleaner ride",
+              "desc": "Flagging a street taxi can mean explaining your destination or getting whatever car happens to pull up. With Uber, you just enter the address, see the fare upfront, and the cars tend to be clean with friendly drivers — enough that plenty of travelers actually prefer it over hailing a regular taxi."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · What a Real 4-Day Trip Actually Looks Like"
+        },
+        {
+          "type": "p",
+          "html": "Real traveler reviews tend to agree. Most people said they got through all four days on just the MRT and buses, and one traveler managed six days in Taiwan on a single contactless credit card. Spending down a leftover EasyCard balance at a convenience store before flying home is a common move too. Most travelers install the Uber app beforehand, and those who actually used it often mentioned how clean the cars were and how easy the payment was."
+        },
+        {
+          "type": "quote",
+          "text": "\"If you're fine with walking, the MRT alone is enough for almost everything.\" — The single most common piece of advice from travelers who've actually been to Taipei."
+        },
+        {
+          "type": "h2",
+          "text": "05 · A Checklist for First-Time Visitors"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Get an EasyCard first",
+              "desc": "You can buy and top one up right at the airport MRT station or a convenience store. One card covers the MRT, buses, and convenience stores."
+            },
+            {
+              "mark": "✓",
+              "b": "Set up Google Maps beforehand",
+              "desc": "It handles route search and bus-stop alerts, which is especially useful when you don't know the city yet."
+            },
+            {
+              "mark": "✓",
+              "b": "Set up Uber too",
+              "desc": "Beyond just tired-and-carrying-too-much situations, plenty of travelers prefer Uber's clean cars and upfront pricing over hailing a taxi off the street. Get it registered ahead of time so it's ready whenever you want it."
+            },
+            {
+              "mark": "✓",
+              "b": "Check for contactless on your credit card",
+              "desc": "If the back of your card has the sideways Wi-Fi-shaped icon, it works at every Taipei MRT station (since July 2026). City buses don't accept credit cards (as of October 2026), so use an EasyCard there."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Bookmark Taipei Restaurants on the Map Too",
+          "desc": "Find Taipei restaurants worth stopping at while you get around on your EasyCard.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "This guide was put together from the experiences of real Taipei travelers. Fares and payment policies can change, so double-check with a transit app or official source before you go."
+        }
+      ]
+    }
   },
   "taipei-souvenir-gift-guide": {
-    heroImage: "assets/images/blog/taiwan-pineapple-tart.jpg",
-    ko: {
-      pageTitle: "대만 여행 선물 추천 — 뻔한 간식 말고 뭘 사올까? · 나만 알고 싶은 대만 맛집",
-      metaDescription: "펑리수, 누가크래커, 에그롤... 대만 선물은 늘 비슷하죠. 재방문객을 위한 추천부터 브랜드별 비교, 까르푸 가성비 팁까지 정리했습니다.",
-      ogTitle: "대만 여행 선물 추천 — 뻔한 간식 말고 뭘 사올까?",
-      eyebrow: "타이베이 여행 가이드 · 선물",
-      title: "대만 여행 선물 추천 — 뻔한 간식 말고 뭘 사올까?",
-      dek: "회사 선물부터 재방문객을 위한 신상 간식까지 — 여행자들이 실제로 사 온 대만 선물과 브랜드별 비교, 가성비 팁을 한 번에 정리했습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 선물 가이드",
-      intro: "대만 여행 선물 하면 펑리수, 누가크래커, 에그롤, 우롱차가 먼저 떠오릅니다. 다 좋은 선택이지만, 여러 번 다녀온 여행자라면 슬슬 새로운 선물이 궁금해지기 마련이에요. 실제 여행자들이 사 온 선물 후기를 바탕으로, 무난한 '국룰' 선물부터 브랜드별 비교, 예산에 맞게 고르는 팁까지 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 실패 없는 '국룰' 선물 리스트" },
+    "heroImage": "assets/images/blog/taiwan-pineapple-tart.jpg",
+    "ko": {
+      "pageTitle": "대만 여행 선물 추천 — 뻔한 간식 말고 뭘 사올까? · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "펑리수, 누가크래커, 에그롤... 대만 선물은 늘 비슷하죠. 재방문객을 위한 추천부터 브랜드별 비교, 까르푸 가성비 팁까지 정리했습니다.",
+      "ogTitle": "대만 여행 선물 추천 — 뻔한 간식 말고 뭘 사올까?",
+      "eyebrow": "타이베이 여행 가이드 · 선물",
+      "title": "대만 여행 선물 추천 — 뻔한 간식 말고 뭘 사올까?",
+      "dek": "회사 선물부터 재방문객을 위한 신상 간식까지 — 여행자들이 실제로 사 온 대만 선물과 브랜드별 비교, 가성비 팁을 한 번에 정리했습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 선물 가이드",
+      "intro": "대만 여행 선물 하면 펑리수, 누가크래커, 에그롤, 우롱차가 먼저 떠오릅니다. 다 좋은 선택이지만, 여러 번 다녀온 여행자라면 슬슬 새로운 선물이 궁금해지기 마련이에요. 실제 여행자들이 사 온 선물 후기를 바탕으로, 무난한 '국룰' 선물부터 브랜드별 비교, 예산에 맞게 고르는 팁까지 정리해봤어요.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "펑리수(鳳梨酥)", desc: "대만 선물의 대명사입니다. 브랜드마다 맛과 가격 차이가 있어서, 이름 있는 브랜드로 사면 실패할 일이 거의 없어요." },
-            { mark: "2", b: "누가크래커(牛軋餅)", desc: "회사에 가볍게 돌릴 선물로 가장 무난하다는 평이 많습니다. 다만 브랜드에 따라 맛 차이가 꽤 커요." },
-            { mark: "3", b: "에그롤(蛋捲)", desc: "바삭한 식감 덕분에 호불호가 적은 편입니다. 크림이 들어간 제품도 있어서 맛을 다양하게 골라볼 수 있어요." },
-            { mark: "4", b: "우롱차 · 대만 홍차", desc: "차를 즐기는 분에게 특히 좋습니다. 부피가 작아 캐리어에 넣기도 편해요." },
-            { mark: "5", b: "금문 고량주", desc: "간식은 아니지만 받는 사람마다 크게 반가워한다는 후기가 많습니다. 도수가 높은 편이라 술을 즐기는 분께 추천할 만해요." },
-          ],
+          "type": "h2",
+          "text": "01 · 실패 없는 '국룰' 선물 리스트"
         },
-        { type: "figure", img: "assets/images/blog/taiwan-pineapple-tart.jpg", caption: "한 입 베어 문 펑리수와 따뜻한 차 한 잔 — 대만 선물의 정석 조합." },
-        { type: "h2", text: "02 · 재방문객이라면, 이런 것도 찾아보세요" },
-        { type: "p", html: "펑리수·누가크래커는 이제 익숙하다면, 크림이 들어간 에그롤처럼 조금 다른 버전을 찾아보는 것도 방법입니다. 맛을 여러 가지로 시식해보고 고를 수 있는 매장도 있고, 포장이 깔끔해서 선물용으로도 무난하다는 후기가 많아요." },
-        { type: "h2", text: "03 · 누가크래커, 브랜드마다 이렇게 다릅니다" },
         {
-          type: "compareTable",
-          cities: ["전문 브랜드(세인트피터 등)", "까르푸 등 마트", "스위덤"],
-          rows: [
-            { label: "가격대", values: ["다소 비싼 편", "가장 저렴", "중간 — 만원 안팎"] },
-            { label: "맛 평가", values: ["꾸준히 좋은 평, 다만 가격이 계속 오르는 추세", "브랜드에 따라 편차가 커서 호불호가 갈립니다", "가격 대비 맛이 좋다는 후기가 많아요"] },
-            { label: "추천 상황", values: ["정성껏 챙기고 싶은 선물일 때", "가볍게 인사치레만 할 때", "가성비 좋은 선물을 찾을 때"] },
-          ],
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "펑리수(鳳梨酥)",
+              "desc": "대만 선물의 대명사입니다. 브랜드마다 맛과 가격 차이가 있어서, 이름 있는 브랜드로 사면 실패할 일이 거의 없어요."
+            },
+            {
+              "mark": "2",
+              "b": "누가크래커(牛軋餅)",
+              "desc": "회사에 가볍게 돌릴 선물로 가장 무난하다는 평이 많습니다. 다만 브랜드에 따라 맛 차이가 꽤 커요."
+            },
+            {
+              "mark": "3",
+              "b": "에그롤(蛋捲)",
+              "desc": "바삭한 식감 덕분에 호불호가 적은 편입니다. 크림이 들어간 제품도 있어서 맛을 다양하게 골라볼 수 있어요."
+            },
+            {
+              "mark": "4",
+              "b": "우롱차 · 대만 홍차",
+              "desc": "차를 즐기는 분에게 특히 좋습니다. 부피가 작아 캐리어에 넣기도 편해요."
+            },
+            {
+              "mark": "5",
+              "b": "금문 고량주",
+              "desc": "간식은 아니지만 받는 사람마다 크게 반가워한다는 후기가 많습니다. 도수가 높은 편이라 술을 즐기는 분께 추천할 만해요."
+            }
+          ]
         },
-        { type: "h2", text: "04 · 예산과 상황에 맞게 고르는 법" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "제대로 챙기고 싶은 선물이라면", desc: "전문 브랜드 매장에서 사는 게 안전합니다. 가격은 더 나가지만 맛과 포장 모두 검증된 편이에요." },
-            { mark: "✓", b: "가볍게 여러 개 돌릴 선물이라면", desc: "까르푸 같은 마트에서 사도 충분하다는 의견이 많습니다. 다만 마트 자체 누가크래커는 호불호가 갈린다는 후기가 있으니, 브랜드를 확인하고 고르는 게 좋아요." },
-            { mark: "✓", b: "최근 대만 물가가 많이 올랐다는 점도 참고하기", desc: "오랜만에 방문하는 여행자라면 예전 가격을 생각하고 갔다가 놀랄 수 있습니다. 예산을 조금 여유 있게 잡아두는 걸 추천해요." },
-          ],
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-pineapple-tart.jpg",
+          "caption": "한 입 베어 문 펑리수와 따뜻한 차 한 잔 — 대만 선물의 정석 조합."
         },
-        { type: "quote", text: "\"까르푸 누가는 하나 먹고 다 버렸어요, 선물로 주면 욕먹을지도... 스위덤은 가격도 착하고 맛있어요.\" — 여러 브랜드를 직접 먹어본 여행자가 남긴 비교입니다." },
-        { type: "cta", title: "지도에서 마트·간식 스팟도 확인해보세요", desc: "선물 쇼핑하기 좋은 마트와 간식 매장을 지도에서 바로 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=mart" },
-        { type: "note", text: "이 글은 여행자들이 실제로 사 온 선물 후기를 바탕으로 정리했습니다. 브랜드별 가격과 맛 평가는 개인차가 있을 수 있으니 참고용으로 봐주세요." },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 재방문객이라면, 이런 것도 찾아보세요"
+        },
+        {
+          "type": "p",
+          "html": "펑리수·누가크래커는 이제 익숙하다면, 크림이 들어간 에그롤처럼 조금 다른 버전을 찾아보는 것도 방법입니다. 맛을 여러 가지로 시식해보고 고를 수 있는 매장도 있고, 포장이 깔끔해서 선물용으로도 무난하다는 후기가 많아요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 누가크래커, 브랜드마다 이렇게 다릅니다"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "전문 브랜드(세인트피터 등)",
+            "까르푸 등 마트",
+            "스위덤"
+          ],
+          "rows": [
+            {
+              "label": "가격대",
+              "values": [
+                "다소 비싼 편",
+                "가장 저렴",
+                "중간 — 만원 안팎"
+              ]
+            },
+            {
+              "label": "맛 평가",
+              "values": [
+                "꾸준히 좋은 평, 다만 가격이 계속 오르는 추세",
+                "브랜드에 따라 편차가 커서 호불호가 갈립니다",
+                "가격 대비 맛이 좋다는 후기가 많아요"
+              ]
+            },
+            {
+              "label": "추천 상황",
+              "values": [
+                "정성껏 챙기고 싶은 선물일 때",
+                "가볍게 인사치레만 할 때",
+                "가성비 좋은 선물을 찾을 때"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 예산과 상황에 맞게 고르는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "제대로 챙기고 싶은 선물이라면",
+              "desc": "전문 브랜드 매장에서 사는 게 안전합니다. 가격은 더 나가지만 맛과 포장 모두 검증된 편이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "가볍게 여러 개 돌릴 선물이라면",
+              "desc": "까르푸 같은 마트에서 사도 충분하다는 의견이 많습니다. 다만 마트 자체 누가크래커는 호불호가 갈린다는 후기가 있으니, 브랜드를 확인하고 고르는 게 좋아요."
+            },
+            {
+              "mark": "✓",
+              "b": "최근 대만 물가가 많이 올랐다는 점도 참고하기",
+              "desc": "오랜만에 방문하는 여행자라면 예전 가격을 생각하고 갔다가 놀랄 수 있습니다. 예산을 조금 여유 있게 잡아두는 걸 추천해요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"까르푸 누가는 하나 먹고 다 버렸어요, 선물로 주면 욕먹을지도... 스위덤은 가격도 착하고 맛있어요.\" — 여러 브랜드를 직접 먹어본 여행자가 남긴 비교입니다."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 마트·간식 스팟도 확인해보세요",
+          "desc": "선물 쇼핑하기 좋은 마트와 간식 매장을 지도에서 바로 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=mart"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 여행자들이 실제로 사 온 선물 후기를 바탕으로 정리했습니다. 브랜드별 가격과 맛 평가는 개인차가 있을 수 있으니 참고용으로 봐주세요."
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwan Souvenir Guide: What to Bring Home Besides the Usual Snacks · My Secret Taiwan Eats",
-      metaDescription: "Pineapple cake, nougat crackers, egg rolls... Taiwan souvenirs can get repetitive. Here's what repeat visitors actually buy, a brand comparison, and budget tips for shopping at Carrefour.",
-      ogTitle: "Taiwan Souvenir Guide: What to Bring Home Besides the Usual Snacks",
-      eyebrow: "Taipei Travel Guide · Souvenirs",
-      title: "Taiwan Souvenir Guide: What to Bring Home Besides the Usual Snacks",
-      dek: "From office gifts to something new for repeat visitors — real traveler picks, a brand-by-brand comparison, and budget tips, all in one place.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Souvenir Guide",
-      intro: "Ask anyone what to bring back from Taiwan and you'll hear the same four things: pineapple cake, nougat crackers, egg rolls, oolong tea. They're all solid choices, but if you've been to Taiwan more than once, you're probably ready for something new. Based on real traveler reviews, here's the reliable classic list, a brand comparison, and how to choose based on your budget.",
-      blocks: [
-        { type: "h2", text: "01 · The Reliable Classics" },
+    "en": {
+      "pageTitle": "Taiwan Souvenir Guide: What to Bring Home Besides the Usual Snacks · My Secret Taiwan Eats",
+      "metaDescription": "Pineapple cake, nougat crackers, egg rolls... Taiwan souvenirs can get repetitive. Here's what repeat visitors actually buy, a brand comparison, and budget tips for shopping at Carrefour.",
+      "ogTitle": "Taiwan Souvenir Guide: What to Bring Home Besides the Usual Snacks",
+      "eyebrow": "Taipei Travel Guide · Souvenirs",
+      "title": "Taiwan Souvenir Guide: What to Bring Home Besides the Usual Snacks",
+      "dek": "From office gifts to something new for repeat visitors — real traveler picks, a brand-by-brand comparison, and budget tips, all in one place.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Souvenir Guide",
+      "intro": "Ask anyone what to bring back from Taiwan and you'll hear the same four things: pineapple cake, nougat crackers, egg rolls, oolong tea. They're all solid choices, but if you've been to Taiwan more than once, you're probably ready for something new. Based on real traveler reviews, here's the reliable classic list, a brand comparison, and how to choose based on your budget.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Pineapple Cake (鳳梨酥)", desc: "The single most iconic Taiwan souvenir. Quality varies a lot by brand, so sticking with a well-known one is nearly foolproof." },
-            { mark: "2", b: "Nougat Crackers (牛軋餅)", desc: "Often called the safest pick for handing out at the office. The taste differs quite a bit between brands, so which one you buy matters." },
-            { mark: "3", b: "Egg Rolls (蛋捲)", desc: "The crunchy texture makes these an easy crowd-pleaser. Some shops offer cream-filled versions for extra variety." },
-            { mark: "4", b: "Oolong or Taiwanese Black Tea", desc: "Great for anyone who drinks tea. Compact and easy to pack too." },
-            { mark: "5", b: "Kinmen Kaoliang Liquor", desc: "Not a snack, but travelers say it gets one of the biggest reactions of any gift. Worth it if the recipient drinks." },
-          ],
+          "type": "h2",
+          "text": "01 · The Reliable Classics"
         },
-        { type: "figure", img: "assets/images/blog/taiwan-pineapple-tart.jpg", caption: "A bitten pineapple cake and a cup of tea — Taiwan's classic pairing." },
-        { type: "h2", text: "02 · If You've Been Before, Look For This Too" },
-        { type: "p", html: "If pineapple cake and nougat crackers already feel familiar, cream-filled egg rolls are worth a try for something a little different. Some shops let you sample a range of flavors before you buy, and the packaging tends to be clean enough for gifting." },
-        { type: "h2", text: "03 · Nougat Crackers: How the Brands Actually Compare" },
         {
-          type: "compareTable",
-          cities: ["Specialty brands (e.g. St. Peter)", "Supermarkets like Carrefour", "Sweetum"],
-          rows: [
-            { label: "Price", values: ["On the pricier side", "The cheapest option", "Mid-range — roughly $7–8 USD"] },
-            { label: "Taste", values: ["Consistently good, though prices keep climbing", "Varies a lot by brand — hit or miss", "Often praised as good value for the price"] },
-            { label: "Best for", values: ["A gift you want to get right", "A quick, casual gift for several people", "Good taste without the premium price tag"] },
-          ],
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Pineapple Cake (鳳梨酥)",
+              "desc": "The single most iconic Taiwan souvenir. Quality varies a lot by brand, so sticking with a well-known one is nearly foolproof."
+            },
+            {
+              "mark": "2",
+              "b": "Nougat Crackers (牛軋餅)",
+              "desc": "Often called the safest pick for handing out at the office. The taste differs quite a bit between brands, so which one you buy matters."
+            },
+            {
+              "mark": "3",
+              "b": "Egg Rolls (蛋捲)",
+              "desc": "The crunchy texture makes these an easy crowd-pleaser. Some shops offer cream-filled versions for extra variety."
+            },
+            {
+              "mark": "4",
+              "b": "Oolong or Taiwanese Black Tea",
+              "desc": "Great for anyone who drinks tea. Compact and easy to pack too."
+            },
+            {
+              "mark": "5",
+              "b": "Kinmen Kaoliang Liquor",
+              "desc": "Not a snack, but travelers say it gets one of the biggest reactions of any gift. Worth it if the recipient drinks."
+            }
+          ]
         },
-        { type: "h2", text: "04 · Choosing by Budget and Occasion" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "For a gift you want to nail", desc: "Buy from a specialty brand store. It costs more, but both the taste and packaging are proven." },
-            { mark: "✓", b: "For handing out several casual gifts", desc: "A supermarket like Carrefour works fine for most people. Just know that the store's own-brand nougat gets mixed reviews, so it's worth checking which brand you're grabbing." },
-            { mark: "✓", b: "Keep in mind that prices in Taiwan have risen a lot", desc: "If it's been a while since your last visit, budget a bit more than you remember — prices have gone up noticeably." },
-          ],
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-pineapple-tart.jpg",
+          "caption": "A bitten pineapple cake and a cup of tea — Taiwan's classic pairing."
         },
-        { type: "quote", text: "\"I ate one piece of the Carrefour nougat and threw the rest away — giving that as a gift might get you some complaints. Sweetum was actually good, and reasonably priced too.\" — One traveler's brand-by-brand verdict after trying several." },
-        { type: "cta", title: "Find Mart and Snack Spots on the Map", desc: "Look up supermarkets and snack shops that are good for souvenir shopping, right on the map.", btn: "Open Map →", href: "/map?region=taipei&cat=mart" },
-        { type: "note", text: "This guide was put together from real travelers' souvenir shopping experiences. Brand-by-brand pricing and taste are a matter of personal preference, so take it as a starting point." },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · If You've Been Before, Look For This Too"
+        },
+        {
+          "type": "p",
+          "html": "If pineapple cake and nougat crackers already feel familiar, cream-filled egg rolls are worth a try for something a little different. Some shops let you sample a range of flavors before you buy, and the packaging tends to be clean enough for gifting."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Nougat Crackers: How the Brands Actually Compare"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Specialty brands (e.g. St. Peter)",
+            "Supermarkets like Carrefour",
+            "Sweetum"
+          ],
+          "rows": [
+            {
+              "label": "Price",
+              "values": [
+                "On the pricier side",
+                "The cheapest option",
+                "Mid-range — roughly $7–8 USD"
+              ]
+            },
+            {
+              "label": "Taste",
+              "values": [
+                "Consistently good, though prices keep climbing",
+                "Varies a lot by brand — hit or miss",
+                "Often praised as good value for the price"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "A gift you want to get right",
+                "A quick, casual gift for several people",
+                "Good taste without the premium price tag"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Choosing by Budget and Occasion"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "For a gift you want to nail",
+              "desc": "Buy from a specialty brand store. It costs more, but both the taste and packaging are proven."
+            },
+            {
+              "mark": "✓",
+              "b": "For handing out several casual gifts",
+              "desc": "A supermarket like Carrefour works fine for most people. Just know that the store's own-brand nougat gets mixed reviews, so it's worth checking which brand you're grabbing."
+            },
+            {
+              "mark": "✓",
+              "b": "Keep in mind that prices in Taiwan have risen a lot",
+              "desc": "If it's been a while since your last visit, budget a bit more than you remember — prices have gone up noticeably."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"I ate one piece of the Carrefour nougat and threw the rest away — giving that as a gift might get you some complaints. Sweetum was actually good, and reasonably priced too.\" — One traveler's brand-by-brand verdict after trying several."
+        },
+        {
+          "type": "cta",
+          "title": "Find Mart and Snack Spots on the Map",
+          "desc": "Look up supermarkets and snack shops that are good for souvenir shopping, right on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=mart"
+        },
+        {
+          "type": "note",
+          "text": "This guide was put together from real travelers' souvenir shopping experiences. Brand-by-brand pricing and taste are a matter of personal preference, so take it as a starting point."
+        }
+      ]
+    }
   },
   "taipei-overnight-red-eye-flight-last-day": {
-    heroImage: "assets/images/blog/taipei-chiang-kai-shek-hall-night.jpg",
-    ko: {
-      pageTitle: "타이베이 무박 일정 가이드 — 숙박 없이 새벽 비행기 타기 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "마지막 날 숙소를 잡지 않고 새벽 비행기를 타는 '무박' 일정, 가능할까요? 실제로 그렇게 다녀온 여행자들의 경험을 바탕으로 장단점과 시간 활용법을 정리했습니다.",
-      ogTitle: "타이베이 마지막 날, 숙박 없이 새벽 비행기 타도 될까?",
-      eyebrow: "타이베이 여행 가이드 · 일정 팁",
-      title: "타이베이 마지막 날, 숙박 없이 새벽 비행기 타도 될까?",
-      dek: "체크아웃 후 하루를 통으로 놀고 바로 공항으로 — 숙박비를 아끼는 '무박' 일정, 실제로 해본 여행자들의 경험과 시간 활용법을 정리했습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 일정 가이드",
-      intro: "타이베이 여행 마지막 날, 비행기가 새벽 2~3시라면 고민이 생깁니다. 하루 더 숙박을 잡을지, 아니면 체크아웃 후 그대로 놀다가 공항으로 직행할지. 실제로 '무박'으로 다녀온 여행자들의 경험을 바탕으로 장단점과 시간 활용법을 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 무박, 해볼 만할까?" },
-        { type: "p", html: "결론부터 말하면 '사바사'입니다. 체력이 좋다면 충분히 가능하고, 숙박비도 아낄 수 있어서 실제로 시도하는 여행자가 많아요. 반면 어린 자녀나 어르신과 함께라면, 혹은 귀국 다음 날 바로 출근해야 한다면 무리하지 않는 편이 낫다는 의견도 많습니다." },
-        { type: "h2", text: "02 · 실제로 이렇게 시간을 보내요" },
+    "heroImage": "assets/images/blog/taipei-chiang-kai-shek-hall-night.jpg",
+    "ko": {
+      "pageTitle": "타이베이 무박 일정 가이드 — 숙박 없이 새벽 비행기 타기 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "마지막 날 숙소를 잡지 않고 새벽 비행기를 타는 '무박' 일정, 가능할까요? 실제로 그렇게 다녀온 여행자들의 경험을 바탕으로 장단점과 시간 활용법을 정리했습니다.",
+      "ogTitle": "타이베이 마지막 날, 숙박 없이 새벽 비행기 타도 될까?",
+      "eyebrow": "타이베이 여행 가이드 · 일정 팁",
+      "title": "타이베이 마지막 날, 숙박 없이 새벽 비행기 타도 될까?",
+      "dek": "체크아웃 후 하루를 통으로 놀고 바로 공항으로 — 숙박비를 아끼는 '무박' 일정, 실제로 해본 여행자들의 경험과 시간 활용법을 정리했습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 일정 가이드",
+      "intro": "타이베이 여행 마지막 날, 비행기가 새벽 2~3시라면 고민이 생깁니다. 하루 더 숙박을 잡을지, 아니면 체크아웃 후 그대로 놀다가 공항으로 직행할지. 실제로 '무박'으로 다녀온 여행자들의 경험을 바탕으로 장단점과 시간 활용법을 정리해봤어요.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "체크아웃 후 짐 보관", desc: "호텔이나 근처 짐 보관 서비스에 맡기고 몸만 가볍게 움직입니다. 대부분의 숙소에서 체크아웃 이후에도 짐을 맡아줘요." },
-            { mark: "2", b: "저녁까지는 평소처럼 관광·쇼핑", desc: "레이트 체크아웃이 가능하면 오후 늦게 일정을 시작하는 것도 방법입니다. 마지막 날이라고 특별히 다를 것 없이 자유롭게 시간을 보내요." },
-            { mark: "3", b: "샤워되는 마사지숍에서 마무리", desc: "마사지를 받고 그 자리에서 씻고 나오면 한결 개운합니다. 짐 정리와 체력 회복을 동시에 해결할 수 있어요." },
-            { mark: "4", b: "공항 이동은 밤 10시~11시 전후", desc: "공항철도나 국광버스(1819)를 타고 여유 있게 이동합니다. 타이베이 메인역에서 버스를 타면 큰 정체 없이 도착해요." },
-            { mark: "5", b: "공항 도착 후 무료 샤워장·라운지 활용", desc: "타오위안 공항에는 무료 샤워 시설이 있어서, 탑승 전 한 번 더 씻고 정비할 수 있습니다. 라운지 이용이 가능하다면 그곳에서 쉬다 타는 것도 좋아요." },
-          ],
+          "type": "h2",
+          "text": "01 · 무박, 해볼 만할까?"
         },
-        { type: "figure", img: "assets/images/blog/taipei-chiang-kai-shek-hall-night.jpg", caption: "야간 조명이 켜진 중정기념당(자유광장) — 마지막 밤 산책 코스로도 좋아요." },
-        { type: "h2", text: "03 · 그래도 하루 더 자는 게 나은 경우" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "어린 자녀나 어르신과 함께라면", desc: "체력 부담이 커서, 짧게라도 호스텔 1박이나 '0.5박'으로 눈을 붙이고 가는 게 안전합니다." },
-            { mark: "✓", b: "귀국 다음 날 바로 출근·등교한다면", desc: "무박으로 다녀오면 컨디션 난이도가 꽤 높아요. 도착 후 일정이 있다면 숙박을 잡는 편이 낫습니다." },
-            { mark: "✓", b: "숙박비를 아예 포기하기 어렵다면", desc: "굳이 호텔이 아니어도 됩니다. 호스텔 1박만 추가해도 짧게 눈을 붙이고 짐도 여유 있게 정리할 수 있어요." },
-          ],
+          "type": "p",
+          "html": "결론부터 말하면 '사바사'입니다. 체력이 좋다면 충분히 가능하고, 숙박비도 아낄 수 있어서 실제로 시도하는 여행자가 많아요. 반면 어린 자녀나 어르신과 함께라면, 혹은 귀국 다음 날 바로 출근해야 한다면 무리하지 않는 편이 낫다는 의견도 많습니다."
         },
-        { type: "quote", text: "\"이왕 가신 거 후회 없이 놀아보세요. 이렇게 놀 수 있는 기회가 흔치는 않다고 생각해요.\" — 무박 일정을 응원하는 여행자들의 댓글이에요." },
-        { type: "cta", title: "지도에서 마지막 날 코스도 짜보세요", desc: "숙소·마사지숍·야시장까지, 마지막 날 동선을 지도에서 한눈에 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-        { type: "note", text: "이 글은 여행자들이 실제로 겪은 무박 일정 경험을 바탕으로 정리했습니다. 체력과 컨디션은 사람마다 다르니, 무리하지 않는 선에서 참고해 주세요." },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 실제로 이렇게 시간을 보내요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "체크아웃 후 짐 보관",
+              "desc": "호텔이나 근처 짐 보관 서비스에 맡기고 몸만 가볍게 움직입니다. 대부분의 숙소에서 체크아웃 이후에도 짐을 맡아줘요."
+            },
+            {
+              "mark": "2",
+              "b": "저녁까지는 평소처럼 관광·쇼핑",
+              "desc": "레이트 체크아웃이 가능하면 오후 늦게 일정을 시작하는 것도 방법입니다. 마지막 날이라고 특별히 다를 것 없이 자유롭게 시간을 보내요."
+            },
+            {
+              "mark": "3",
+              "b": "샤워되는 마사지숍에서 마무리",
+              "desc": "마사지를 받고 그 자리에서 씻고 나오면 한결 개운합니다. 짐 정리와 체력 회복을 동시에 해결할 수 있어요."
+            },
+            {
+              "mark": "4",
+              "b": "공항 이동은 밤 10시~11시 전후",
+              "desc": "공항철도나 국광버스(1819)를 타고 여유 있게 이동합니다. 타이베이 메인역에서 버스를 타면 큰 정체 없이 도착해요."
+            },
+            {
+              "mark": "5",
+              "b": "공항 도착 후 무료 샤워장·라운지 활용",
+              "desc": "타오위안 공항에는 무료 샤워 시설이 있어서, 탑승 전 한 번 더 씻고 정비할 수 있습니다. 라운지 이용이 가능하다면 그곳에서 쉬다 타는 것도 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-chiang-kai-shek-hall-night.jpg",
+          "caption": "야간 조명이 켜진 중정기념당(자유광장) — 마지막 밤 산책 코스로도 좋아요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 그래도 하루 더 자는 게 나은 경우"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "어린 자녀나 어르신과 함께라면",
+              "desc": "체력 부담이 커서, 짧게라도 호스텔 1박이나 '0.5박'으로 눈을 붙이고 가는 게 안전합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "귀국 다음 날 바로 출근·등교한다면",
+              "desc": "무박으로 다녀오면 컨디션 난이도가 꽤 높아요. 도착 후 일정이 있다면 숙박을 잡는 편이 낫습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "숙박비를 아예 포기하기 어렵다면",
+              "desc": "굳이 호텔이 아니어도 됩니다. 호스텔 1박만 추가해도 짧게 눈을 붙이고 짐도 여유 있게 정리할 수 있어요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"이왕 가신 거 후회 없이 놀아보세요. 이렇게 놀 수 있는 기회가 흔치는 않다고 생각해요.\" — 무박 일정을 응원하는 여행자들의 댓글이에요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 마지막 날 코스도 짜보세요",
+          "desc": "숙소·마사지숍·야시장까지, 마지막 날 동선을 지도에서 한눈에 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 여행자들이 실제로 겪은 무박 일정 경험을 바탕으로 정리했습니다. 체력과 컨디션은 사람마다 다르니, 무리하지 않는 선에서 참고해 주세요."
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taipei Red-Eye Flight Guide: Skipping the Last Hotel Night · My Secret Taiwan Eats",
-      metaDescription: "Can you skip booking a hotel on your last night and catch a 2-3am flight instead? Based on real traveler experiences, here are the pros, cons, and how to spend the time.",
-      ogTitle: "Taipei Last Day: Can You Skip the Hotel and Catch a Red-Eye Flight?",
-      eyebrow: "Taipei Travel Guide · Itinerary Tips",
-      title: "Taipei Last Day: Can You Skip the Hotel and Catch a Red-Eye Flight?",
-      dek: "Check out, spend the whole day out, and head straight to the airport — real traveler experiences on this hotel-skipping itinerary and how to make the most of the time.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Itinerary Guide",
-      intro: "If your flight out of Taipei leaves at 2 or 3am, you're faced with a choice: book one more night, or check out and just keep going until it's time for the airport. Based on real travelers who've actually done the latter, here's a rundown of the pros, cons, and how to spend the time.",
-      blocks: [
-        { type: "h2", text: "01 · Is Skipping the Hotel Actually Worth It?" },
-        { type: "p", html: "The short answer: it depends on you. If your stamina is up for it, it's a completely viable way to save on a hotel night, and plenty of travelers do it. On the other hand, if you're traveling with young kids or older family members, or you have to go straight to work the next day, most people say it's not worth pushing it." },
-        { type: "h2", text: "02 · How Travelers Actually Spend the Time" },
+    "en": {
+      "pageTitle": "Taipei Red-Eye Flight Guide: Skipping the Last Hotel Night · My Secret Taiwan Eats",
+      "metaDescription": "Can you skip booking a hotel on your last night and catch a 2-3am flight instead? Based on real traveler experiences, here are the pros, cons, and how to spend the time.",
+      "ogTitle": "Taipei Last Day: Can You Skip the Hotel and Catch a Red-Eye Flight?",
+      "eyebrow": "Taipei Travel Guide · Itinerary Tips",
+      "title": "Taipei Last Day: Can You Skip the Hotel and Catch a Red-Eye Flight?",
+      "dek": "Check out, spend the whole day out, and head straight to the airport — real traveler experiences on this hotel-skipping itinerary and how to make the most of the time.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Itinerary Guide",
+      "intro": "If your flight out of Taipei leaves at 2 or 3am, you're faced with a choice: book one more night, or check out and just keep going until it's time for the airport. Based on real travelers who've actually done the latter, here's a rundown of the pros, cons, and how to spend the time.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Check out and store your luggage", desc: "Most hotels will hold your bags after checkout, so you can move around freely without them." },
-            { mark: "2", b: "Keep sightseeing or shopping like normal", desc: "If a late checkout is available, starting the day later is another option. There's no need to treat it differently just because it's your last day." },
-            { mark: "3", b: "Finish up at a massage shop with showers", desc: "Getting a massage and showering on-site leaves you feeling refreshed. It doubles as a chance to repack and recover some energy." },
-            { mark: "4", b: "Head to the airport around 10-11pm", desc: "Take the Airport MRT or the Kuo-Kuang bus (route 1819) with plenty of time to spare. From Taipei Main Station, the bus gets you there without much traffic." },
-            { mark: "5", b: "Use the free showers or a lounge at the airport", desc: "Taoyuan Airport has free shower facilities, so you can freshen up again right before boarding. If you have lounge access, resting there before your flight helps too." },
-          ],
+          "type": "h2",
+          "text": "01 · Is Skipping the Hotel Actually Worth It?"
         },
-        { type: "figure", img: "assets/images/blog/taipei-chiang-kai-shek-hall-night.jpg", caption: "Chiang Kai-shek Memorial Hall lit up at night — a good spot for one last evening walk." },
-        { type: "h2", text: "03 · When It's Better to Book One More Night" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Traveling with young kids or older family members", desc: "The physical toll adds up fast. A short hostel stay or a half-night booking is the safer call." },
-            { mark: "✓", b: "You have to work or go to school the day you land", desc: "Skipping the hotel makes for a genuinely tough recovery. If you have plans right after landing, book a room instead." },
-            { mark: "✓", b: "You'd rather not give up sleep entirely", desc: "It doesn't have to be a hotel — even one hostel night gives you a chance to rest and repack without rushing." },
-          ],
+          "type": "p",
+          "html": "The short answer: it depends on you. If your stamina is up for it, it's a completely viable way to save on a hotel night, and plenty of travelers do it. On the other hand, if you're traveling with young kids or older family members, or you have to go straight to work the next day, most people say it's not worth pushing it."
         },
-        { type: "quote", text: "\"Since you're already there, might as well enjoy it without regrets. Chances to stay out until your flight like that don't come around often.\" — from travelers cheering on a no-hotel last day." },
-        { type: "cta", title: "Plan Your Last Day on the Map Too", desc: "Find hotels, massage shops, and night markets for your last-day route, right on the map.", btn: "Open Map →", href: "/map?region=taipei" },
-        { type: "note", text: "This guide was put together from real travelers' experiences skipping the last hotel night. Everyone's stamina is different, so use this as a reference and don't push yourself too hard." },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · How Travelers Actually Spend the Time"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Check out and store your luggage",
+              "desc": "Most hotels will hold your bags after checkout, so you can move around freely without them."
+            },
+            {
+              "mark": "2",
+              "b": "Keep sightseeing or shopping like normal",
+              "desc": "If a late checkout is available, starting the day later is another option. There's no need to treat it differently just because it's your last day."
+            },
+            {
+              "mark": "3",
+              "b": "Finish up at a massage shop with showers",
+              "desc": "Getting a massage and showering on-site leaves you feeling refreshed. It doubles as a chance to repack and recover some energy."
+            },
+            {
+              "mark": "4",
+              "b": "Head to the airport around 10-11pm",
+              "desc": "Take the Airport MRT or the Kuo-Kuang bus (route 1819) with plenty of time to spare. From Taipei Main Station, the bus gets you there without much traffic."
+            },
+            {
+              "mark": "5",
+              "b": "Use the free showers or a lounge at the airport",
+              "desc": "Taoyuan Airport has free shower facilities, so you can freshen up again right before boarding. If you have lounge access, resting there before your flight helps too."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-chiang-kai-shek-hall-night.jpg",
+          "caption": "Chiang Kai-shek Memorial Hall lit up at night — a good spot for one last evening walk."
+        },
+        {
+          "type": "h2",
+          "text": "03 · When It's Better to Book One More Night"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Traveling with young kids or older family members",
+              "desc": "The physical toll adds up fast. A short hostel stay or a half-night booking is the safer call."
+            },
+            {
+              "mark": "✓",
+              "b": "You have to work or go to school the day you land",
+              "desc": "Skipping the hotel makes for a genuinely tough recovery. If you have plans right after landing, book a room instead."
+            },
+            {
+              "mark": "✓",
+              "b": "You'd rather not give up sleep entirely",
+              "desc": "It doesn't have to be a hotel — even one hostel night gives you a chance to rest and repack without rushing."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"Since you're already there, might as well enjoy it without regrets. Chances to stay out until your flight like that don't come around often.\" — from travelers cheering on a no-hotel last day."
+        },
+        {
+          "type": "cta",
+          "title": "Plan Your Last Day on the Map Too",
+          "desc": "Find hotels, massage shops, and night markets for your last-day route, right on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "This guide was put together from real travelers' experiences skipping the last hotel night. Everyone's stamina is different, so use this as a reference and don't push yourself too hard."
+        }
+      ]
+    }
   },
   "taipei-liquid-checked-baggage-guide": {
-    heroImage: "assets/images/blog/travel-suitcase-packing.jpg",
-    ko: {
-      pageTitle: "대만 간식·술 기내 반입 규정 — 젤리·푸딩부터 고량주까지 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "대만에서 산 젤리·푸딩 간식과 술, 기내 반입이 될지 위탁수하물로 부쳐야 할지 헷갈리시나요? 액체·젤류 반입 기준, 주류 위탁 규정, 한국 입국 시 면세 한도까지 정리했습니다.",
-      ogTitle: "대만 간식·술, 기내 반입 될까 위탁수하물로 부쳐야 할까",
-      eyebrow: "타이베이 여행 가이드 · 쇼핑·수하물",
-      title: "대만 간식·술, 기내 반입 될까 위탁수하물로 부쳐야 할까",
-      dek: "닥터큐 젤리, 통일푸딩처럼 말랑한 간식도 '액체'로 분류될 수 있다는 사실, 알고 계셨나요? 술을 살 때 챙겨야 할 위탁수하물 규정과 한국 입국 면세 한도까지 한 번에 정리했습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 쇼핑 가이드",
-      intro: "대만 마트에서 젤리나 푸딩 같은 말랑한 간식을 왕창 사놓고, 공항에서야 '이거 액체류 아닌가?' 싶어진 경험 없으신가요. 여기에 술까지 산다면 위탁수하물 규정과 한국 입국 시 면세 한도까지 함께 고려해야 해요. 헷갈리기 쉬운 <strong>기내 반입 vs 위탁수하물</strong> 기준을 정리해봤습니다.",
-      blocks: [
-        { type: "h2", text: "01 · 젤리·푸딩도 '액체'로 취급됩니다" },
-        { type: "p", html: "국제선 보안검색에서는 순수한 물이나 음료뿐 아니라 젤리, 푸딩, 잼, 크림처럼 흐르거나 짜서 먹는 형태의 식품도 액체·젤류로 분류합니다. 닥터큐 젤리, 통일푸딩처럼 대만 마트에서 인기 있는 간식도 예외가 아니에요. 이런 제품을 기내 휴대용 가방에 넣으려면 용기 하나당 100ml 이하여야 하고, 여러 개를 합쳐도 1L 이하 투명 지퍼백 한 개에 다 들어가야 합니다. 용기 자체가 100ml를 넘으면 안에 든 양이 적어도 반입이 불가능해요." },
+    "heroImage": "assets/images/blog/travel-suitcase-packing.jpg",
+    "ko": {
+      "pageTitle": "대만 간식·술 기내 반입 규정 — 젤리·푸딩부터 고량주까지 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만에서 산 젤리·푸딩 간식과 술, 기내 반입이 될지 위탁수하물로 부쳐야 할지 헷갈리시나요? 액체·젤류 반입 기준, 주류 위탁 규정, 한국 입국 시 면세 한도까지 정리했습니다.",
+      "ogTitle": "대만 간식·술, 기내 반입 될까 위탁수하물로 부쳐야 할까",
+      "eyebrow": "타이베이 여행 가이드 · 쇼핑·수하물",
+      "title": "대만 간식·술, 기내 반입 될까 위탁수하물로 부쳐야 할까",
+      "dek": "닥터큐 젤리, 통일푸딩처럼 말랑한 간식도 '액체'로 분류될 수 있다는 사실, 알고 계셨나요? 술을 살 때 챙겨야 할 위탁수하물 규정과 한국 입국 면세 한도까지 한 번에 정리했습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 쇼핑 가이드",
+      "intro": "대만 마트에서 젤리나 푸딩 같은 말랑한 간식을 왕창 사놓고, 공항에서야 '이거 액체류 아닌가?' 싶어진 경험 없으신가요. 여기에 술까지 산다면 위탁수하물 규정과 한국 입국 시 면세 한도까지 함께 고려해야 해요. 헷갈리기 쉬운 <strong>기내 반입 vs 위탁수하물</strong> 기준을 정리해봤습니다.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "젤리·푸딩류", desc: "닥터큐, 통일푸딩 등은 액체·젤류로 분류됩니다. 여러 개 사셨다면 위탁수하물에 넣는 편이 안전해요." },
-            { mark: "2", b: "잼·소스·꿀류", desc: "펑리수는 고체라 문제 없지만, 잼이나 소스류 선물은 액체 기준이 적용됩니다." },
-            { mark: "3", b: "화장품 샘플·마스크팩 에센스", desc: "여행 중 산 스킨케어 제품도 100ml 기준을 적용받아요." },
-            { mark: "4", b: "위탁수하물은 이 규정에서 자유롭습니다", desc: "액체·젤류 자체는 위탁 가방에 넣으면 용량 제한 없이 부칠 수 있어요. 다만 술은 아래 규정을 따로 확인해야 합니다." },
-          ],
+          "type": "h2",
+          "text": "01 · 젤리·푸딩도 '액체'로 취급됩니다"
         },
-        { type: "h2", text: "02 · 술은 도수에 따라 위탁 가능 여부가 갈려요" },
         {
-          type: "compareTable",
-          cities: ["24도 이하", "24도 초과 ~ 70도 이하", "70도 초과"],
-          rows: [
-            { label: "위탁수하물 반입", values: ["제한 없이 가능", "1인당 5L까지 가능", "운송 자체가 금지됩니다"] },
-            { label: "해당 주류 예시", values: ["대부분의 맥주·와인·약주", "고량주, 일부 위스키·백주(53~58도 안팎)", "일부 고도수 스피릿"] },
-          ],
+          "type": "p",
+          "html": "국제선 보안검색에서는 순수한 물이나 음료뿐 아니라 젤리, 푸딩, 잼, 크림처럼 흐르거나 짜서 먹는 형태의 식품도 액체·젤류로 분류합니다. 닥터큐 젤리, 통일푸딩처럼 대만 마트에서 인기 있는 간식도 예외가 아니에요. 이런 제품을 기내 휴대용 가방에 넣으려면 용기 하나당 100ml 이하여야 하고, 여러 개를 합쳐도 1L 이하 투명 지퍼백 한 개에 다 들어가야 합니다. 용기 자체가 100ml를 넘으면 안에 든 양이 적어도 반입이 불가능해요."
         },
-        { type: "p", html: "금문 고량주처럼 인기 있는 선물용 술은 보통 53~58도라 '24도 초과 70도 이하' 구간에 들어갑니다. 1인당 5L까지 위탁 가능하니 일반적인 여행 구매량이라면 크게 걱정하지 않아도 돼요. 다만 항공사별로 세부 규정이 다를 수 있으니, 대량으로 구매했다면 출발 전 항공사 홈페이지에서 한 번 더 확인하는 걸 추천합니다." },
-        { type: "h2", text: "03 · 한국 입국할 때, 주류 면세 한도는 얼마나 될까" },
-        { type: "p", html: "2025년 3월 21일부터 한국 입국 시 주류 면세 기준이 바뀌었습니다. 예전에는 '2병까지'라는 병 수 제한이 있었지만, 지금은 병 개수와 상관없이 <strong>합계 용량 2L 이하, 총 가격 미화 400달러 이하</strong>라는 두 조건만 지키면 면세를 받을 수 있어요. 이 기준을 넘으면 초과분이 아니라 해당 주류 전체 금액에 세금이 부과될 수 있으니, 여러 병을 나눠 살 계획이라면 합계 용량과 가격을 미리 계산해두는 게 안전합니다." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "젤리·푸딩은 위탁 가방에", desc: "여러 개 구매했다면 캐리어 안에 넣어 부치는 게 가장 깔끔합니다." },
-            { mark: "✓", b: "면세점 구매 주류는 봉인 유지", desc: "출국장 면세점에서 산 술은 밀봉 봉투(탬퍼 백)와 영수증을 그대로 유지하면 기내 반입이 가능합니다. 환승편이 있다면 환승 공항 규정도 함께 확인하세요." },
-            { mark: "✓", b: "도수·용량 미리 확인", desc: "고량주 등은 병에 적힌 알코올 도수(%)를 확인해 5L 한도 안에 들어오는지 계산해두세요." },
-            { mark: "✓", b: "총액 400달러 넘으면 자진신고", desc: "한도를 넘겼다면 입국장에서 자진신고하면 세액 일부를 감면받을 수 있습니다." },
-          ],
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "젤리·푸딩류",
+              "desc": "닥터큐, 통일푸딩 등은 액체·젤류로 분류됩니다. 여러 개 사셨다면 위탁수하물에 넣는 편이 안전해요."
+            },
+            {
+              "mark": "2",
+              "b": "잼·소스·꿀류",
+              "desc": "펑리수는 고체라 문제 없지만, 잼이나 소스류 선물은 액체 기준이 적용됩니다."
+            },
+            {
+              "mark": "3",
+              "b": "화장품 샘플·마스크팩 에센스",
+              "desc": "여행 중 산 스킨케어 제품도 100ml 기준을 적용받아요."
+            },
+            {
+              "mark": "4",
+              "b": "위탁수하물은 이 규정에서 자유롭습니다",
+              "desc": "액체·젤류 자체는 위탁 가방에 넣으면 용량 제한 없이 부칠 수 있어요. 다만 술은 아래 규정을 따로 확인해야 합니다."
+            }
+          ]
         },
-        { type: "cta", title: "지도에서 마트·주류 매장도 확인해보세요", desc: "간식·술 쇼핑하기 좋은 마트와 주류 매장을 지도에서 바로 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=mart" },
-        { type: "note", text: "이 글은 2025년 3월 개정된 한국 관세청 기준과 일반적인 국제선 보안검색 규정을 바탕으로 정리했습니다. 항공사·환승 공항에 따라 세부 규정이 다를 수 있고, 관세 기준도 이후 바뀔 수 있으니 출발 전 관세청 홈페이지와 항공사 안내로 다시 확인하시길 권합니다." },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 술은 도수에 따라 위탁 가능 여부가 갈려요"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "24도 이하",
+            "24도 초과 ~ 70도 이하",
+            "70도 초과"
+          ],
+          "rows": [
+            {
+              "label": "위탁수하물 반입",
+              "values": [
+                "제한 없이 가능",
+                "1인당 5L까지 가능",
+                "운송 자체가 금지됩니다"
+              ]
+            },
+            {
+              "label": "해당 주류 예시",
+              "values": [
+                "대부분의 맥주·와인·약주",
+                "고량주, 일부 위스키·백주(53~58도 안팎)",
+                "일부 고도수 스피릿"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "금문 고량주처럼 인기 있는 선물용 술은 보통 53~58도라 '24도 초과 70도 이하' 구간에 들어갑니다. 1인당 5L까지 위탁 가능하니 일반적인 여행 구매량이라면 크게 걱정하지 않아도 돼요. 다만 항공사별로 세부 규정이 다를 수 있으니, 대량으로 구매했다면 출발 전 항공사 홈페이지에서 한 번 더 확인하는 걸 추천합니다."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 한국 입국할 때, 주류 면세 한도는 얼마나 될까"
+        },
+        {
+          "type": "p",
+          "html": "2025년 3월 21일부터 한국 입국 시 주류 면세 기준이 바뀌었습니다. 예전에는 '2병까지'라는 병 수 제한이 있었지만, 지금은 병 개수와 상관없이 <strong>합계 용량 2L 이하, 총 가격 미화 400달러 이하</strong>라는 두 조건만 지키면 면세를 받을 수 있어요. 이 기준을 넘으면 초과분이 아니라 해당 주류 전체 금액에 세금이 부과될 수 있으니, 여러 병을 나눠 살 계획이라면 합계 용량과 가격을 미리 계산해두는 게 안전합니다."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "젤리·푸딩은 위탁 가방에",
+              "desc": "여러 개 구매했다면 캐리어 안에 넣어 부치는 게 가장 깔끔합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "면세점 구매 주류는 봉인 유지",
+              "desc": "출국장 면세점에서 산 술은 밀봉 봉투(탬퍼 백)와 영수증을 그대로 유지하면 기내 반입이 가능합니다. 환승편이 있다면 환승 공항 규정도 함께 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "도수·용량 미리 확인",
+              "desc": "고량주 등은 병에 적힌 알코올 도수(%)를 확인해 5L 한도 안에 들어오는지 계산해두세요."
+            },
+            {
+              "mark": "✓",
+              "b": "총액 400달러 넘으면 자진신고",
+              "desc": "한도를 넘겼다면 입국장에서 자진신고하면 세액 일부를 감면받을 수 있습니다."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 마트·주류 매장도 확인해보세요",
+          "desc": "간식·술 쇼핑하기 좋은 마트와 주류 매장을 지도에서 바로 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=mart"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 2025년 3월 개정된 한국 관세청 기준과 일반적인 국제선 보안검색 규정을 바탕으로 정리했습니다. 항공사·환승 공항에 따라 세부 규정이 다를 수 있고, 관세 기준도 이후 바뀔 수 있으니 출발 전 관세청 홈페이지와 항공사 안내로 다시 확인하시길 권합니다."
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwan Snacks & Liquor: Carry-On or Checked Baggage? · My Secret Taiwan Eats",
-      metaDescription: "Not sure if jelly cups, pudding snacks, or liquor from Taiwan need to go in checked baggage? Here's how the liquid/gel rule applies, alcohol checked-baggage limits, and Korea's duty-free allowance.",
-      ogTitle: "Taiwan Snacks and Liquor: Carry-On or Checked Baggage?",
-      eyebrow: "Taipei Travel Guide · Shopping & Baggage",
-      title: "Taiwan Snacks and Liquor: Carry-On or Checked Baggage?",
-      dek: "Did you know jelly cups and pudding snacks can count as \"liquids\" at airport security? Here's what to know about checked-baggage alcohol limits and Korea's duty-free allowance.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Shopping Guide",
-      intro: "Ever stocked up on jelly cups or pudding snacks at a Taiwan supermarket, then wondered at the airport whether they count as liquids? Add alcohol to the mix and you're also dealing with checked-baggage rules and Korea's duty-free allowance. Here's a clear rundown of what goes in your <strong>carry-on versus checked baggage</strong>.",
-      blocks: [
-        { type: "h2", text: "01 · Yes, Jelly and Pudding Count as \"Liquids\"" },
-        { type: "p", html: "International security screening doesn't just apply to water and drinks — it covers anything that flows, spreads, or squeezes out, including jelly cups, pudding, jam, and cream. Popular Taiwan supermarket snacks like Dr. Q jelly cups or Uni-President pudding are no exception. To carry these on board, each container needs to hold 100ml or less, and all of them together need to fit in a single 1L transparent resealable bag. Even a container that's mostly empty gets rejected if the container itself is over 100ml." },
+    "en": {
+      "pageTitle": "Taiwan Snacks & Liquor: Carry-On or Checked Baggage? · My Secret Taiwan Eats",
+      "metaDescription": "Not sure if jelly cups, pudding snacks, or liquor from Taiwan need to go in checked baggage? Here's how the liquid/gel rule applies, alcohol checked-baggage limits, and Korea's duty-free allowance.",
+      "ogTitle": "Taiwan Snacks and Liquor: Carry-On or Checked Baggage?",
+      "eyebrow": "Taipei Travel Guide · Shopping & Baggage",
+      "title": "Taiwan Snacks and Liquor: Carry-On or Checked Baggage?",
+      "dek": "Did you know jelly cups and pudding snacks can count as \"liquids\" at airport security? Here's what to know about checked-baggage alcohol limits and Korea's duty-free allowance.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Shopping Guide",
+      "intro": "Ever stocked up on jelly cups or pudding snacks at a Taiwan supermarket, then wondered at the airport whether they count as liquids? Add alcohol to the mix and you're also dealing with checked-baggage rules and Korea's duty-free allowance. Here's a clear rundown of what goes in your <strong>carry-on versus checked baggage</strong>.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Jelly cups and pudding", desc: "Dr. Q jelly and Uni-President pudding count as liquids/gels. If you bought several, checked baggage is the safer bet." },
-            { mark: "2", b: "Jam, sauces, and honey", desc: "Pineapple cake is solid and fine, but jam or sauce gifts fall under the liquid rule." },
-            { mark: "3", b: "Cosmetic samples and sheet mask essence", desc: "Skincare products you pick up while traveling are also subject to the 100ml rule." },
-            { mark: "4", b: "Checked baggage isn't subject to this rule", desc: "Liquids and gels themselves have no volume limit once they're in checked baggage. Alcohol is the one exception — see below." },
-          ],
+          "type": "h2",
+          "text": "01 · Yes, Jelly and Pudding Count as \"Liquids\""
         },
-        { type: "h2", text: "02 · Alcohol Limits Depend on Proof, Not Just Volume" },
         {
-          type: "compareTable",
-          cities: ["24% ABV or less", "Over 24% up to 70% ABV", "Over 70% ABV"],
-          rows: [
-            { label: "Checked baggage", values: ["No limit", "Up to 5L per passenger", "Not allowed to fly at all"] },
-            { label: "Typical examples", values: ["Most beer, wine, and light liquors", "Kaoliang liquor, some whiskies and baijiu (roughly 53-58%)", "Some high-proof spirits"] },
-          ],
+          "type": "p",
+          "html": "International security screening doesn't just apply to water and drinks — it covers anything that flows, spreads, or squeezes out, including jelly cups, pudding, jam, and cream. Popular Taiwan supermarket snacks like Dr. Q jelly cups or Uni-President pudding are no exception. To carry these on board, each container needs to hold 100ml or less, and all of them together need to fit in a single 1L transparent resealable bag. Even a container that's mostly empty gets rejected if the container itself is over 100ml."
         },
-        { type: "p", html: "Kinmen Kaoliang, a popular gift liquor, usually runs 53-58% ABV, landing it in the \"over 24%, up to 70%\" bracket — good for up to 5L per passenger in checked baggage, more than enough for typical travel-sized purchases. Rules can vary slightly by airline, though, so if you're buying in bulk, double-check with your airline before you fly." },
-        { type: "h2", text: "03 · Korea's Duty-Free Alcohol Allowance" },
-        { type: "p", html: "Korea's duty-free alcohol rule changed on March 21, 2025. The old \"up to 2 bottles\" limit is gone — now it's just two conditions: <strong>2 liters total volume or less, and $400 total value or less</strong>, regardless of how many bottles that is. Go over either limit, and tax can apply to the full value of that alcohol, not just the excess. If you're splitting your purchase across a few bottles, add up the total volume and price beforehand to stay safe." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Pack jelly and pudding in checked baggage", desc: "If you bought more than one, putting them in your suitcase is the simplest fix." },
-            { mark: "✓", b: "Keep duty-free alcohol sealed", desc: "Liquor bought at an airside duty-free shop can go in your carry-on if it stays in its sealed tamper-evident bag with the receipt. If you're connecting through another airport, check that airport's rules too." },
-            { mark: "✓", b: "Check the ABV and volume", desc: "For Kaoliang and similar spirits, check the printed alcohol percentage and make sure your total stays within the 5L limit." },
-            { mark: "✓", b: "Declare if you're over $400", desc: "Going over the limit? Declaring it voluntarily on arrival can reduce the tax owed." },
-          ],
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Jelly cups and pudding",
+              "desc": "Dr. Q jelly and Uni-President pudding count as liquids/gels. If you bought several, checked baggage is the safer bet."
+            },
+            {
+              "mark": "2",
+              "b": "Jam, sauces, and honey",
+              "desc": "Pineapple cake is solid and fine, but jam or sauce gifts fall under the liquid rule."
+            },
+            {
+              "mark": "3",
+              "b": "Cosmetic samples and sheet mask essence",
+              "desc": "Skincare products you pick up while traveling are also subject to the 100ml rule."
+            },
+            {
+              "mark": "4",
+              "b": "Checked baggage isn't subject to this rule",
+              "desc": "Liquids and gels themselves have no volume limit once they're in checked baggage. Alcohol is the one exception — see below."
+            }
+          ]
         },
-        { type: "cta", title: "Find Marts and Liquor Shops on the Map", desc: "Look up marts and liquor shops that are good for snack and alcohol shopping, right on the map.", btn: "Open Map →", href: "/map?region=taipei&cat=mart" },
-        { type: "note", text: "This guide is based on Korea Customs Service rules effective March 2025 and general international security screening standards. Details can vary by airline and connecting airport, and customs rules may change again, so double-check with the Korea Customs Service and your airline before you fly." },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Alcohol Limits Depend on Proof, Not Just Volume"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "24% ABV or less",
+            "Over 24% up to 70% ABV",
+            "Over 70% ABV"
+          ],
+          "rows": [
+            {
+              "label": "Checked baggage",
+              "values": [
+                "No limit",
+                "Up to 5L per passenger",
+                "Not allowed to fly at all"
+              ]
+            },
+            {
+              "label": "Typical examples",
+              "values": [
+                "Most beer, wine, and light liquors",
+                "Kaoliang liquor, some whiskies and baijiu (roughly 53-58%)",
+                "Some high-proof spirits"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Kinmen Kaoliang, a popular gift liquor, usually runs 53-58% ABV, landing it in the \"over 24%, up to 70%\" bracket — good for up to 5L per passenger in checked baggage, more than enough for typical travel-sized purchases. Rules can vary slightly by airline, though, so if you're buying in bulk, double-check with your airline before you fly."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Korea's Duty-Free Alcohol Allowance"
+        },
+        {
+          "type": "p",
+          "html": "Korea's duty-free alcohol rule changed on March 21, 2025. The old \"up to 2 bottles\" limit is gone — now it's just two conditions: <strong>2 liters total volume or less, and $400 total value or less</strong>, regardless of how many bottles that is. Go over either limit, and tax can apply to the full value of that alcohol, not just the excess. If you're splitting your purchase across a few bottles, add up the total volume and price beforehand to stay safe."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Pack jelly and pudding in checked baggage",
+              "desc": "If you bought more than one, putting them in your suitcase is the simplest fix."
+            },
+            {
+              "mark": "✓",
+              "b": "Keep duty-free alcohol sealed",
+              "desc": "Liquor bought at an airside duty-free shop can go in your carry-on if it stays in its sealed tamper-evident bag with the receipt. If you're connecting through another airport, check that airport's rules too."
+            },
+            {
+              "mark": "✓",
+              "b": "Check the ABV and volume",
+              "desc": "For Kaoliang and similar spirits, check the printed alcohol percentage and make sure your total stays within the 5L limit."
+            },
+            {
+              "mark": "✓",
+              "b": "Declare if you're over $400",
+              "desc": "Going over the limit? Declaring it voluntarily on arrival can reduce the tax owed."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Find Marts and Liquor Shops on the Map",
+          "desc": "Look up marts and liquor shops that are good for snack and alcohol shopping, right on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=mart"
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on Korea Customs Service rules effective March 2025 and general international security screening standards. Details can vary by airline and connecting airport, and customs rules may change again, so double-check with the Korea Customs Service and your airline before you fly."
+        }
+      ]
+    }
   },
   "taipei-xiangde-peking-duck-half-day-course": {
-    heroImage: "assets/images/blog/peking-duck-platter.jpg",
-    ko: {
-      pageTitle: "샹덕 베이징덕 먹고 어디 갈까 — 중샤오둔화 반나절 코스 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "예약 필수인 베이징덕 맛집 샹덕(享鴨)에서 식사하고 근처를 가볍게 돌아보고 싶다면. 중샤오둔화역 주변 쇼핑가, 다안삼림공원, 쑹산문창원구까지 묶은 반나절 코스를 정리했습니다.",
-      ogTitle: "베이징덕 맛집 샹덕(享鴨) 먹고 어디 갈까 — 중샤오둔화 반나절 코스",
-      eyebrow: "타이베이 여행 가이드 · 맛집 코스",
-      title: "베이징덕 맛집 샹덕(享鴨) 먹고 어디 갈까 — 중샤오둔화 반나절 코스",
-      dek: "통짜 오리를 테이블에서 직접 썰어주는 퍼포먼스로 유명한 베이징덕 전문점 샹덕. 식사 전후로 가볍게 돌아볼 수 있는 주변 코스를 짜봤습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 맛집 코스",
-      intro: "베이징덕 맛집 샹덕(享鴨, Xiang Duck)은 예약을 잡기가 쉽지 않을 만큼 인기 있는 곳이에요. 대표 지점은 <strong>중샤오둔화역</strong> 인근, 다안구와 송산구가 맞닿는 중샤오동로 4단에 있습니다. 모처럼 예약까지 잡고 찾아가는 만큼, 식사 전후로 가볍게 돌아볼 수 있는 반나절 코스를 함께 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 샹덕(享鴨), 예약 전 체크리스트" },
+    "heroImage": "assets/images/blog/peking-duck-platter.jpg",
+    "ko": {
+      "pageTitle": "샹덕 베이징덕 먹고 어디 갈까 — 중샤오둔화 반나절 코스 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "예약 필수인 베이징덕 맛집 샹덕(享鴨)에서 식사하고 근처를 가볍게 돌아보고 싶다면. 중샤오둔화역 주변 쇼핑가, 다안삼림공원, 쑹산문창원구까지 묶은 반나절 코스를 정리했습니다.",
+      "ogTitle": "베이징덕 맛집 샹덕(享鴨) 먹고 어디 갈까 — 중샤오둔화 반나절 코스",
+      "eyebrow": "타이베이 여행 가이드 · 맛집 코스",
+      "title": "베이징덕 맛집 샹덕(享鴨) 먹고 어디 갈까 — 중샤오둔화 반나절 코스",
+      "dek": "통짜 오리를 테이블에서 직접 썰어주는 퍼포먼스로 유명한 베이징덕 전문점 샹덕. 식사 전후로 가볍게 돌아볼 수 있는 주변 코스를 짜봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 맛집 코스",
+      "intro": "베이징덕 맛집 샹덕(享鴨, Xiang Duck)은 예약을 잡기가 쉽지 않을 만큼 인기 있는 곳이에요. 대표 지점은 <strong>중샤오둔화역</strong> 인근, 다안구와 송산구가 맞닿는 중샤오동로 4단에 있습니다. 모처럼 예약까지 잡고 찾아가는 만큼, 식사 전후로 가볍게 돌아볼 수 있는 반나절 코스를 함께 정리해봤어요.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "예약은 필수입니다", desc: "테이블에서 통오리를 직접 썰어주는 퍼포먼스로 유명해 현장 대기보다는 사전 예약이 기본입니다." },
-            { mark: "2", b: "브레이크타임 확인하기", desc: "지점에 따라 오후 시간대에 브레이크타임이 있을 수 있어요. 예약할 때 영업시간을 함께 확인하는 게 안전합니다." },
-            { mark: "3", b: "오리 한 마리 기준 인원수 확인", desc: "통오리 한 마리는 보통 2~3인이 함께 먹기 좋은 양이에요. 일행 수에 맞춰 주문 구성을 미리 물어보세요." },
-          ],
+          "type": "h2",
+          "text": "01 · 샹덕(享鴨), 예약 전 체크리스트"
         },
-        { type: "h2", text: "02 · 식사 전 — 중샤오둔화 쇼핑가" },
-        { type: "p", html: "중샤오둔화역 주변은 SOGO 백화점 푸싱점을 중심으로 골목마다 편집숍과 부티크가 모여 있는 쇼핑가입니다. 예약 시간보다 일찍 도착했다면 이 일대를 걸으며 시간을 보내기 좋아요. 대형 백화점부터 작은 브랜드 매장까지 다양해서, 날씨와 상관없이 돌아보기 편한 것도 장점입니다." },
-        { type: "h2", text: "03 · 식사 후 — 산책 또는 문화공간, 취향껏" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "다안삼림공원(대안삼림공원)", desc: "도보로도 이동 가능한 거리에 있는 도심 속 공원입니다. 식사 후 소화도 시킬 겸 녹지를 걷고 싶다면 추천해요." },
-            { mark: "2", b: "쑹산문창원구", desc: "MRT로 한두 정거장 거리에 있는 옛 담배공장을 개조한 복합 문화공간입니다. 전시·소품숍을 둘러보며 여유롭게 시간을 보내기 좋아요." },
-          ],
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "예약은 필수입니다",
+              "desc": "테이블에서 통오리를 직접 썰어주는 퍼포먼스로 유명해 현장 대기보다는 사전 예약이 기본입니다."
+            },
+            {
+              "mark": "2",
+              "b": "브레이크타임 확인하기",
+              "desc": "지점에 따라 오후 시간대에 브레이크타임이 있을 수 있어요. 예약할 때 영업시간을 함께 확인하는 게 안전합니다."
+            },
+            {
+              "mark": "3",
+              "b": "오리 한 마리 기준 인원수 확인",
+              "desc": "통오리 한 마리는 보통 2~3인이 함께 먹기 좋은 양이에요. 일행 수에 맞춰 주문 구성을 미리 물어보세요."
+            }
+          ]
         },
-        { type: "h2", text: "04 · 동선 팁" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "점심 예약이 여유롭습니다", desc: "저녁 시간대는 예약이 더 몰리는 편이라, 오후 코스까지 넉넉히 잡고 싶다면 점심 예약을 노려보세요." },
-            { mark: "✓", b: "도보보다 MRT 한두 정거장", desc: "이 일대는 도보로 다니기엔 거리가 애매한 스팟도 있어요. 구글 지도로 MRT 경로를 함께 확인하며 다니는 게 편합니다." },
-          ],
+          "type": "h2",
+          "text": "02 · 식사 전 — 중샤오둔화 쇼핑가"
         },
-        { type: "cta", title: "지도에서 타이베이 맛집도 함께 찜해두세요", desc: "중샤오둔화 근처 맛집과 카페를 지도에서 바로 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-        { type: "note", text: "이 글은 베이징덕 전문점 샹덕(享鴨)의 대표 지점 위치와 주변 대중교통 정보를 바탕으로 정리했습니다. 지점별 위치·영업시간·예약 정책은 바뀔 수 있으니 방문 전 공식 채널로 다시 확인해주세요." },
-      ],
+        {
+          "type": "p",
+          "html": "중샤오둔화역 주변은 SOGO 백화점 푸싱점을 중심으로 골목마다 편집숍과 부티크가 모여 있는 쇼핑가입니다. 예약 시간보다 일찍 도착했다면 이 일대를 걸으며 시간을 보내기 좋아요. 대형 백화점부터 작은 브랜드 매장까지 다양해서, 날씨와 상관없이 돌아보기 편한 것도 장점입니다."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 식사 후 — 산책 또는 문화공간, 취향껏"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "다안삼림공원(대안삼림공원)",
+              "desc": "도보로도 이동 가능한 거리에 있는 도심 속 공원입니다. 식사 후 소화도 시킬 겸 녹지를 걷고 싶다면 추천해요."
+            },
+            {
+              "mark": "2",
+              "b": "쑹산문창원구",
+              "desc": "MRT로 한두 정거장 거리에 있는 옛 담배공장을 개조한 복합 문화공간입니다. 전시·소품숍을 둘러보며 여유롭게 시간을 보내기 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 동선 팁"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "점심 예약이 여유롭습니다",
+              "desc": "저녁 시간대는 예약이 더 몰리는 편이라, 오후 코스까지 넉넉히 잡고 싶다면 점심 예약을 노려보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "도보보다 MRT 한두 정거장",
+              "desc": "이 일대는 도보로 다니기엔 거리가 애매한 스팟도 있어요. 구글 지도로 MRT 경로를 함께 확인하며 다니는 게 편합니다."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 함께 찜해두세요",
+          "desc": "중샤오둔화 근처 맛집과 카페를 지도에서 바로 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 베이징덕 전문점 샹덕(享鴨)의 대표 지점 위치와 주변 대중교통 정보를 바탕으로 정리했습니다. 지점별 위치·영업시간·예약 정책은 바뀔 수 있으니 방문 전 공식 채널로 다시 확인해주세요."
+        }
+      ]
     },
-    en: {
-      pageTitle: "What's Near Xiang Duck? A Half-Day Course Around Zhongxiao Dunhua · My Secret Taiwan Eats",
-      metaDescription: "Planning a meal at Xiang Duck (享鴨), the reservation-only Peking duck specialist near Zhongxiao Dunhua station? Here's a half-day route through the nearby shopping street, Da'an Forest Park, and Songshan Cultural Park.",
-      ogTitle: "What's Near Xiang Duck (享鴨)? A Half-Day Course Around Zhongxiao Dunhua",
-      eyebrow: "Taipei Travel Guide · Food Course",
-      title: "What's Near Xiang Duck (享鴨)? A Half-Day Course Around Zhongxiao Dunhua",
-      dek: "Xiang Duck is known for carving a whole roast duck tableside. Here's a half-day route to fill in the time before or after your reservation.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Food Course",
-      intro: "Xiang Duck (享鴨) is popular enough that getting a reservation takes some planning. Its main branch sits near <strong>Zhongxiao Dunhua Station</strong>, right where Da'an and Songshan districts meet on Zhongxiao E. Road Section 4. Since you're already making the trip for a reservation, here's a half-day route to round out the visit.",
-      blocks: [
-        { type: "h2", text: "01 · Before You Book: A Checklist" },
+    "en": {
+      "pageTitle": "What's Near Xiang Duck? A Half-Day Course Around Zhongxiao Dunhua · My Secret Taiwan Eats",
+      "metaDescription": "Planning a meal at Xiang Duck (享鴨), the reservation-only Peking duck specialist near Zhongxiao Dunhua station? Here's a half-day route through the nearby shopping street, Da'an Forest Park, and Songshan Cultural Park.",
+      "ogTitle": "What's Near Xiang Duck (享鴨)? A Half-Day Course Around Zhongxiao Dunhua",
+      "eyebrow": "Taipei Travel Guide · Food Course",
+      "title": "What's Near Xiang Duck (享鴨)? A Half-Day Course Around Zhongxiao Dunhua",
+      "dek": "Xiang Duck is known for carving a whole roast duck tableside. Here's a half-day route to fill in the time before or after your reservation.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Food Course",
+      "intro": "Xiang Duck (享鴨) is popular enough that getting a reservation takes some planning. Its main branch sits near <strong>Zhongxiao Dunhua Station</strong>, right where Da'an and Songshan districts meet on Zhongxiao E. Road Section 4. Since you're already making the trip for a reservation, here's a half-day route to round out the visit.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Reservations are essentially required", desc: "The tableside duck-carving is the draw, and walk-ins are difficult — book ahead." },
-            { mark: "2", b: "Check for a break time", desc: "Some branches close for a break in the mid-afternoon. Confirm opening hours when you book." },
-            { mark: "3", b: "Know how many a whole duck feeds", desc: "A whole duck is usually a good fit for 2-3 people. Ask about ordering options based on your group size." },
-          ],
+          "type": "h2",
+          "text": "01 · Before You Book: A Checklist"
         },
-        { type: "h2", text: "02 · Before Your Meal: The Zhongxiao Dunhua Shopping Strip" },
-        { type: "p", html: "The area around Zhongxiao Dunhua Station is a shopping strip centered on the SOGO Fuxing branch, with boutiques and concept stores filling the side streets. If you arrive early for your reservation, this is an easy place to kill time — indoors if the weather turns, with everything from department stores to small independent shops." },
-        { type: "h2", text: "03 · After Your Meal: A Walk or a Culture Space" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Da'an Forest Park", desc: "Close enough to reach on foot — a good option if you want greenery and a walk to settle a heavy meal." },
-            { mark: "2", b: "Songshan Cultural and Creative Park", desc: "A station or two away by MRT, this converted tobacco factory now houses exhibitions and design shops — good for a slower-paced afternoon." },
-          ],
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Reservations are essentially required",
+              "desc": "The tableside duck-carving is the draw, and walk-ins are difficult — book ahead."
+            },
+            {
+              "mark": "2",
+              "b": "Check for a break time",
+              "desc": "Some branches close for a break in the mid-afternoon. Confirm opening hours when you book."
+            },
+            {
+              "mark": "3",
+              "b": "Know how many a whole duck feeds",
+              "desc": "A whole duck is usually a good fit for 2-3 people. Ask about ordering options based on your group size."
+            }
+          ]
         },
-        { type: "h2", text: "04 · Route Tips" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Lunch reservations are easier to get", desc: "Evening slots fill up faster, so if you want a relaxed afternoon route afterward, try booking lunch instead." },
-            { mark: "✓", b: "Use the MRT for a stop or two rather than walking everywhere", desc: "Some of these spots are an awkward walking distance apart. Check Google Maps for the MRT route as you go." },
-          ],
+          "type": "h2",
+          "text": "02 · Before Your Meal: The Zhongxiao Dunhua Shopping Strip"
         },
-        { type: "cta", title: "Bookmark More Taipei Restaurants on the Map", desc: "Find restaurants and cafes near Zhongxiao Dunhua, right on the map.", btn: "Open Map →", href: "/map?region=taipei" },
-        { type: "note", text: "This guide is based on the location of Xiang Duck's (享鴨) main branch and the public transit around it. Branch locations, hours, and reservation policies can change, so double-check with official channels before you go." },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "The area around Zhongxiao Dunhua Station is a shopping strip centered on the SOGO Fuxing branch, with boutiques and concept stores filling the side streets. If you arrive early for your reservation, this is an easy place to kill time — indoors if the weather turns, with everything from department stores to small independent shops."
+        },
+        {
+          "type": "h2",
+          "text": "03 · After Your Meal: A Walk or a Culture Space"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Da'an Forest Park",
+              "desc": "Close enough to reach on foot — a good option if you want greenery and a walk to settle a heavy meal."
+            },
+            {
+              "mark": "2",
+              "b": "Songshan Cultural and Creative Park",
+              "desc": "A station or two away by MRT, this converted tobacco factory now houses exhibitions and design shops — good for a slower-paced afternoon."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Route Tips"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Lunch reservations are easier to get",
+              "desc": "Evening slots fill up faster, so if you want a relaxed afternoon route afterward, try booking lunch instead."
+            },
+            {
+              "mark": "✓",
+              "b": "Use the MRT for a stop or two rather than walking everywhere",
+              "desc": "Some of these spots are an awkward walking distance apart. Check Google Maps for the MRT route as you go."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Bookmark More Taipei Restaurants on the Map",
+          "desc": "Find restaurants and cafes near Zhongxiao Dunhua, right on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on the location of Xiang Duck's (享鴨) main branch and the public transit around it. Branch locations, hours, and reservation policies can change, so double-check with official channels before you go."
+        }
+      ]
+    }
   },
   "jiufen-friday-vs-sunday-crowds": {
-    heroImage: "assets/images/regions/jiufen.webp",
-    ko: {
-      pageTitle: "지우펀 방문 타이밍 — 금요일 vs 일요일 혼잡도 비교 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "지우펀은 요일마다 혼잡도가 확 다릅니다. 금요일·토요일·일요일, 그리고 낮과 노을 시간대별 체감 혼잡도를 비교하고 덜 붐비게 다니는 방법을 정리했습니다.",
-      ogTitle: "지우펀, 금요일 vs 일요일 언제 덜 붐빌까",
-      eyebrow: "지우펀 여행 가이드 · 방문 타이밍",
-      title: "지우펀, 금요일 vs 일요일 언제 덜 붐빌까",
-      dek: "좁은 계단 골목이 명물인 만큼, 방문 요일과 시간대에 따라 체감 혼잡도 차이가 큰 곳이 지우펀입니다. 어린 자녀와 함께라면 더욱 신경 쓰이는 혼잡도 문제를 정리해봤어요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "지우펀 · 방문 타이밍",
-      intro: "지우펀은 좁은 계단 골목이 매력이자 단점인 곳이에요. 사람이 몰리는 시간대에 가면 사진 한 장 찍기도, 계단을 오르내리기도 쉽지 않죠. 특히 초등학생 자녀와 함께라면 혼잡도가 곧 체력 소모로 이어지니 더 신경 쓰이는 부분입니다. 요일과 시간대에 따라 체감 혼잡도가 얼마나 다른지 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 결론부터 — 일요일이 확실히 더 붐빕니다" },
-        { type: "p", html: "일요일은 주말의 마지막 날이라 대만 현지인들의 당일치기 나들이와 단체 투어버스가 한꺼번에 몰리는 날이에요. 반면 금요일은 평일에 가까워 상대적으로 한산한 편이지만, 저녁 시간대로 갈수록 주말 인파가 조금씩 섞이기 시작합니다." },
+    "heroImage": "assets/images/regions/jiufen.webp",
+    "ko": {
+      "pageTitle": "지우펀 방문 타이밍 — 금요일 vs 일요일 혼잡도 비교 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "지우펀은 요일마다 혼잡도가 확 다릅니다. 금요일·토요일·일요일, 그리고 낮과 노을 시간대별 체감 혼잡도를 비교하고 덜 붐비게 다니는 방법을 정리했습니다.",
+      "ogTitle": "지우펀, 금요일 vs 일요일 언제 덜 붐빌까",
+      "eyebrow": "지우펀 여행 가이드 · 방문 타이밍",
+      "title": "지우펀, 금요일 vs 일요일 언제 덜 붐빌까",
+      "dek": "좁은 계단 골목이 명물인 만큼, 방문 요일과 시간대에 따라 체감 혼잡도 차이가 큰 곳이 지우펀입니다. 어린 자녀와 함께라면 더욱 신경 쓰이는 혼잡도 문제를 정리해봤어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "지우펀 · 방문 타이밍",
+      "intro": "지우펀은 좁은 계단 골목이 매력이자 단점인 곳이에요. 사람이 몰리는 시간대에 가면 사진 한 장 찍기도, 계단을 오르내리기도 쉽지 않죠. 특히 초등학생 자녀와 함께라면 혼잡도가 곧 체력 소모로 이어지니 더 신경 쓰이는 부분입니다. 요일과 시간대에 따라 체감 혼잡도가 얼마나 다른지 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["금요일", "토요일", "일요일"],
-          rows: [
-            { label: "낮 시간대 (오전~오후 4시)", values: ["평일에 가까워 비교적 한산합니다", "주말 인파가 본격적으로 몰립니다", "당일치기 인파가 가장 집중되는 시간대예요"] },
-            { label: "노을·야경 시간대 (오후 5시 이후)", values: ["주말 초입이라 서서히 붐비기 시작해요", "야경 명소라 특히 혼잡합니다", "일몰 전후로 가장 붐빕니다"] },
-            { label: "단체 투어버스", values: ["비교적 적은 편", "많은 편", "가장 많은 편"] },
-          ],
+          "type": "h2",
+          "text": "01 · 결론부터 — 일요일이 확실히 더 붐빕니다"
         },
-        { type: "h2", text: "02 · 그래도 덜 붐비게 다니는 법" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "이른 아침에 움직이기", desc: "어느 요일이든 상점이 문을 열기 전인 오전 9~10시 이전에는 골목이 훨씬 한산합니다." },
-            { mark: "2", b: "금요일 낮~이른 저녁을 노리기", desc: "요일 중에서는 금요일 낮 시간대가 가장 여유 있는 편이에요. 저녁까지 이어지는 일정이라면 초저녁까지만 머무는 것도 방법입니다." },
-            { mark: "3", b: "계단 골목은 흐름을 거스르지 않기", desc: "혼잡한 시간대에 인파를 거슬러 이동하면 체력 소모가 커집니다. 흐름을 따라 한 방향으로 움직이는 게 수월해요." },
-          ],
+          "type": "p",
+          "html": "일요일은 주말의 마지막 날이라 대만 현지인들의 당일치기 나들이와 단체 투어버스가 한꺼번에 몰리는 날이에요. 반면 금요일은 평일에 가까워 상대적으로 한산한 편이지만, 저녁 시간대로 갈수록 주말 인파가 조금씩 섞이기 시작합니다."
         },
-        { type: "h2", text: "03 · 어린 자녀와 함께라면" },
-        { type: "p", html: "계단이 많고 폭이 좁은 골목 구조상, 혼잡한 시간대에는 아이와 함께 이동하기가 특히 힘들어집니다. 늦은 오후~노을 시간대는 사람이 가장 몰리는 때이니, 가능하면 오전이나 이른 오후에 방문을 마치는 일정을 짜는 걸 추천해요. 일정상 요일을 고를 수 있다면 일요일보다는 금요일이 체력적으로 한결 수월합니다." },
-        { type: "cta", title: "지우펀 맛집도 지도에서 함께 확인해보세요", desc: "지우펀 노포와 카페를 지도에서 바로 찾아보세요.", btn: "지도 열기 →", href: "/map?region=jiufen" },
-        { type: "note", text: "이 글은 여행자들 사이에서 공유되는 요일별·시간대별 체감 혼잡도를 바탕으로 정리했습니다. 실제 혼잡도는 날씨, 공휴일 여부, 현지 행사 일정에 따라 달라질 수 있어요." },
-      ],
+        {
+          "type": "compareTable",
+          "cities": [
+            "금요일",
+            "토요일",
+            "일요일"
+          ],
+          "rows": [
+            {
+              "label": "낮 시간대 (오전~오후 4시)",
+              "values": [
+                "평일에 가까워 비교적 한산합니다",
+                "주말 인파가 본격적으로 몰립니다",
+                "당일치기 인파가 가장 집중되는 시간대예요"
+              ]
+            },
+            {
+              "label": "노을·야경 시간대 (오후 5시 이후)",
+              "values": [
+                "주말 초입이라 서서히 붐비기 시작해요",
+                "야경 명소라 특히 혼잡합니다",
+                "일몰 전후로 가장 붐빕니다"
+              ]
+            },
+            {
+              "label": "단체 투어버스",
+              "values": [
+                "비교적 적은 편",
+                "많은 편",
+                "가장 많은 편"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · 그래도 덜 붐비게 다니는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "이른 아침에 움직이기",
+              "desc": "어느 요일이든 상점이 문을 열기 전인 오전 9~10시 이전에는 골목이 훨씬 한산합니다."
+            },
+            {
+              "mark": "2",
+              "b": "금요일 낮~이른 저녁을 노리기",
+              "desc": "요일 중에서는 금요일 낮 시간대가 가장 여유 있는 편이에요. 저녁까지 이어지는 일정이라면 초저녁까지만 머무는 것도 방법입니다."
+            },
+            {
+              "mark": "3",
+              "b": "계단 골목은 흐름을 거스르지 않기",
+              "desc": "혼잡한 시간대에 인파를 거슬러 이동하면 체력 소모가 커집니다. 흐름을 따라 한 방향으로 움직이는 게 수월해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 어린 자녀와 함께라면"
+        },
+        {
+          "type": "p",
+          "html": "계단이 많고 폭이 좁은 골목 구조상, 혼잡한 시간대에는 아이와 함께 이동하기가 특히 힘들어집니다. 늦은 오후~노을 시간대는 사람이 가장 몰리는 때이니, 가능하면 오전이나 이른 오후에 방문을 마치는 일정을 짜는 걸 추천해요. 일정상 요일을 고를 수 있다면 일요일보다는 금요일이 체력적으로 한결 수월합니다."
+        },
+        {
+          "type": "cta",
+          "title": "지우펀 맛집도 지도에서 함께 확인해보세요",
+          "desc": "지우펀 노포와 카페를 지도에서 바로 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=jiufen"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 여행자들 사이에서 공유되는 요일별·시간대별 체감 혼잡도를 바탕으로 정리했습니다. 실제 혼잡도는 날씨, 공휴일 여부, 현지 행사 일정에 따라 달라질 수 있어요."
+        }
+      ]
     },
-    en: {
-      pageTitle: "Jiufen Timing Guide — Friday vs. Sunday Crowds · My Secret Taiwan Eats",
-      metaDescription: "Jiufen's crowd levels swing a lot by day of the week. Here's how Friday, Saturday, and Sunday compare by time of day, and how to visit with fewer crowds.",
-      ogTitle: "Jiufen: Friday vs. Sunday, Which Day Is Less Crowded?",
-      eyebrow: "Jiufen Travel Guide · Timing Your Visit",
-      title: "Jiufen: Friday vs. Sunday, Which Day Is Less Crowded?",
-      dek: "Jiufen's narrow stepped alleys are its charm and its biggest challenge — crowd levels swing hard by day and time. Here's what to know, especially if you're traveling with young kids.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Jiufen · Timing Your Visit",
-      intro: "Jiufen's narrow stepped alleys are both its charm and its biggest drawback — during peak hours, it's hard to even get a photo, let alone move through the steps comfortably. With young kids in tow, crowding turns straight into exhaustion. Here's how crowd levels actually differ by day and time of day.",
-      blocks: [
-        { type: "h2", text: "01 · Short Answer: Sunday Is Noticeably Worse" },
-        { type: "p", html: "Sunday is the last day of the weekend, which means local day-trippers and tour buses all converge at once. Friday, being closer to a weekday, tends to be quieter — though crowds start building as the evening approaches and the weekend begins." },
+    "en": {
+      "pageTitle": "Jiufen Timing Guide — Friday vs. Sunday Crowds · My Secret Taiwan Eats",
+      "metaDescription": "Jiufen's crowd levels swing a lot by day of the week. Here's how Friday, Saturday, and Sunday compare by time of day, and how to visit with fewer crowds.",
+      "ogTitle": "Jiufen: Friday vs. Sunday, Which Day Is Less Crowded?",
+      "eyebrow": "Jiufen Travel Guide · Timing Your Visit",
+      "title": "Jiufen: Friday vs. Sunday, Which Day Is Less Crowded?",
+      "dek": "Jiufen's narrow stepped alleys are its charm and its biggest challenge — crowd levels swing hard by day and time. Here's what to know, especially if you're traveling with young kids.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Jiufen · Timing Your Visit",
+      "intro": "Jiufen's narrow stepped alleys are both its charm and its biggest drawback — during peak hours, it's hard to even get a photo, let alone move through the steps comfortably. With young kids in tow, crowding turns straight into exhaustion. Here's how crowd levels actually differ by day and time of day.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Friday", "Saturday", "Sunday"],
-          rows: [
-            { label: "Daytime (morning to 4pm)", values: ["Relatively quiet, closer to a weekday", "Weekend crowds in full swing", "The most crowded window of the week"] },
-            { label: "Sunset / evening (after 5pm)", values: ["Starts filling up as the weekend begins", "Especially crowded — a well-known night view spot", "Peaks around sunset"] },
-            { label: "Tour buses", values: ["Relatively few", "Many", "The most of the week"] },
-          ],
+          "type": "h2",
+          "text": "01 · Short Answer: Sunday Is Noticeably Worse"
         },
-        { type: "h2", text: "02 · How to Avoid the Worst of It" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Go early in the morning", desc: "No matter the day, the alleys are far quieter before shops open around 9-10am." },
-            { mark: "2", b: "Aim for Friday daytime to early evening", desc: "Of the three, Friday daytime is the calmest. If your day runs into the evening, try to wrap up before it gets too late." },
-            { mark: "3", b: "Move with the flow of foot traffic", desc: "Walking against the crowd on the stepped alleys burns a lot of energy during busy hours. Moving in one direction with everyone else is much easier." },
-          ],
+          "type": "p",
+          "html": "Sunday is the last day of the weekend, which means local day-trippers and tour buses all converge at once. Friday, being closer to a weekday, tends to be quieter — though crowds start building as the evening approaches and the weekend begins."
         },
-        { type: "h2", text: "03 · Traveling with Young Kids" },
-        { type: "p", html: "The narrow, stepped layout makes moving through crowds with kids especially tiring. Late afternoon into sunset is the peak window, so plan to wrap up your visit by early afternoon if you can. If you have any flexibility on which day to go, Friday is noticeably easier on everyone's legs than Sunday." },
-        { type: "cta", title: "Find Jiufen Restaurants on the Map Too", desc: "Look up Jiufen's old shops and teahouses, right on the map.", btn: "Open Map →", href: "/map?region=jiufen" },
-        { type: "note", text: "This guide is based on crowd patterns commonly shared among travelers by day and time. Actual crowd levels can vary with weather, holidays, and local events." },
-      ],
-    },
+        {
+          "type": "compareTable",
+          "cities": [
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "rows": [
+            {
+              "label": "Daytime (morning to 4pm)",
+              "values": [
+                "Relatively quiet, closer to a weekday",
+                "Weekend crowds in full swing",
+                "The most crowded window of the week"
+              ]
+            },
+            {
+              "label": "Sunset / evening (after 5pm)",
+              "values": [
+                "Starts filling up as the weekend begins",
+                "Especially crowded — a well-known night view spot",
+                "Peaks around sunset"
+              ]
+            },
+            {
+              "label": "Tour buses",
+              "values": [
+                "Relatively few",
+                "Many",
+                "The most of the week"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · How to Avoid the Worst of It"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Go early in the morning",
+              "desc": "No matter the day, the alleys are far quieter before shops open around 9-10am."
+            },
+            {
+              "mark": "2",
+              "b": "Aim for Friday daytime to early evening",
+              "desc": "Of the three, Friday daytime is the calmest. If your day runs into the evening, try to wrap up before it gets too late."
+            },
+            {
+              "mark": "3",
+              "b": "Move with the flow of foot traffic",
+              "desc": "Walking against the crowd on the stepped alleys burns a lot of energy during busy hours. Moving in one direction with everyone else is much easier."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Traveling with Young Kids"
+        },
+        {
+          "type": "p",
+          "html": "The narrow, stepped layout makes moving through crowds with kids especially tiring. Late afternoon into sunset is the peak window, so plan to wrap up your visit by early afternoon if you can. If you have any flexibility on which day to go, Friday is noticeably easier on everyone's legs than Sunday."
+        },
+        {
+          "type": "cta",
+          "title": "Find Jiufen Restaurants on the Map Too",
+          "desc": "Look up Jiufen's old shops and teahouses, right on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=jiufen"
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on crowd patterns commonly shared among travelers by day and time. Actual crowd levels can vary with weather, holidays, and local events."
+        }
+      ]
+    }
   },
   "taipei-longshan-temple-night-guide": {
-    heroImage: "assets/images/blog/taiwan-temple-night-lanterns.jpg",
-    ko: {
-      pageTitle: "용산사 야경 가이드 — 방문 시간대와 완화 야시장 코스 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "용산사는 낮보다 저녁 조명이 켜진 뒤 분위기가 완전히 달라집니다. 야경으로 즐기기 좋은 시간대와 화시제·광저우제 야시장, 보피랴오 역사거리까지 묶은 반나절 코스를 정리했습니다.",
-      ogTitle: "용산사는 낮보다 밤? 야경 시간대와 주변 코스 짜는 법",
-      eyebrow: "타이베이 여행 가이드 · 야경 코스",
-      title: "용산사는 낮보다 밤? 야경 시간대와 주변 코스 짜는 법",
-      dek: "낮에는 단체 관광객과 참배객으로 붐비는 용산사도, 저녁 조명이 켜지면 완전히 다른 얼굴을 보여줍니다. 야경 방문 타이밍과 완화 지역 야시장을 묶은 코스를 짜봤어요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 야경 코스",
-      intro: "용산사는 타이베이에서 손꼽히는 사원이지만, 낮 시간대에는 단체 관광버스와 참배객이 겹쳐 여유롭게 둘러보기가 쉽지 않아요. 반면 해가 진 뒤 조명이 켜지면 붉은 등불과 정교한 지붕 조각이 은은하게 드러나면서 분위기가 확 달라집니다. 야경으로 즐기기 좋은 시간대와, 바로 옆 완화 지역 야시장까지 묶은 반나절 코스를 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 밤에 가면 뭐가 다를까" },
-        { type: "p", html: "용산사는 오전 6시부터 오후 10시까지 연중무휴로 운영되고 입장료는 무료입니다. 낮 시간대는 참배객과 단체 관광객이 겹쳐 가장 붐비는 편이고, 해가 완전히 진 뒤에는 관광객 밀도가 낮 시간보다 상대적으로 줄어드는 편이에요. 조명이 켜진 처마와 조각 장식을 가까이서 찬찬히 볼 수 있다는 것도 야간 방문의 장점입니다." },
+    "heroImage": "assets/images/blog/taiwan-temple-night-lanterns.jpg",
+    "ko": {
+      "pageTitle": "용산사 야경 가이드 — 방문 시간대와 완화 야시장 코스 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "용산사는 낮보다 저녁 조명이 켜진 뒤 분위기가 완전히 달라집니다. 야경으로 즐기기 좋은 시간대와 화시제·광저우제 야시장, 보피랴오 역사거리까지 묶은 반나절 코스를 정리했습니다.",
+      "ogTitle": "용산사는 낮보다 밤? 야경 시간대와 주변 코스 짜는 법",
+      "eyebrow": "타이베이 여행 가이드 · 야경 코스",
+      "title": "용산사는 낮보다 밤? 야경 시간대와 주변 코스 짜는 법",
+      "dek": "낮에는 단체 관광객과 참배객으로 붐비는 용산사도, 저녁 조명이 켜지면 완전히 다른 얼굴을 보여줍니다. 야경 방문 타이밍과 완화 지역 야시장을 묶은 코스를 짜봤어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 야경 코스",
+      "intro": "용산사는 타이베이에서 손꼽히는 사원이지만, 낮 시간대에는 단체 관광버스와 참배객이 겹쳐 여유롭게 둘러보기가 쉽지 않아요. 반면 해가 진 뒤 조명이 켜지면 붉은 등불과 정교한 지붕 조각이 은은하게 드러나면서 분위기가 확 달라집니다. 야경으로 즐기기 좋은 시간대와, 바로 옆 완화 지역 야시장까지 묶은 반나절 코스를 정리해봤어요.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "해 진 직후가 가장 좋은 타이밍", desc: "하늘이 완전히 어두워지기 전, 노을과 사원 조명이 함께 보이는 시간대가 사진 찍기도 가장 좋습니다." },
-            { mark: "2", b: "참배 문화 존중하기", desc: "향을 피우고 기도하는 참배객이 많은 곳이니, 사진을 찍을 때는 방해가 되지 않도록 조용히 움직이는 게 좋습니다." },
-            { mark: "3", b: "운영시간은 방문 전 재확인", desc: "행사나 사정에 따라 운영시간이 달라질 수 있으니, 방문 당일 공식 채널로 한 번 더 확인하는 걸 추천해요." },
-          ],
+          "type": "h2",
+          "text": "01 · 밤에 가면 뭐가 다를까"
         },
-        { type: "h2", text: "02 · 완화 지역과 묶어서 반나절 야시장 코스" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "화시제 관광 야시장", desc: "용산사에서 도보 몇 분 거리로, 다양한 먹거리 노점이 모여 있는 관광형 야시장입니다." },
-            { mark: "2", b: "광저우제 야시장", desc: "화시제와 이어지는 구간으로, 현지인들도 즐겨 찾는 먹거리 골목이에요." },
-            { mark: "3", b: "칭차오샹(청초항)", desc: "약초 상점이 모여 있는 짧은 골목입니다. 독특한 약초 향이 인상적인 완화 지역의 숨은 스팟이에요." },
-            { mark: "4", b: "보피랴오 역사거리", desc: "옛 거리 풍경을 그대로 살려둔 구역으로, 야간 조명이 켜지면 산책하기 좋은 분위기가 됩니다." },
-          ],
+          "type": "p",
+          "html": "용산사는 오전 6시부터 오후 10시까지 연중무휴로 운영되고 입장료는 무료입니다. 낮 시간대는 참배객과 단체 관광객이 겹쳐 가장 붐비는 편이고, 해가 완전히 진 뒤에는 관광객 밀도가 낮 시간보다 상대적으로 줄어드는 편이에요. 조명이 켜진 처마와 조각 장식을 가까이서 찬찬히 볼 수 있다는 것도 야간 방문의 장점입니다."
         },
-        { type: "h2", text: "03 · 동선 팁" },
-        { type: "p", html: "용산사는 MRT 용산사역(블루라인) 출구 바로 앞이라 접근성이 좋습니다. 화시제·광저우제 야시장, 보피랴오 역사거리 모두 도보 5~10분 거리에 모여 있어서, 저녁 식사와 야경 산책을 한 번에 해결하기 좋은 동선이에요." },
-        { type: "cta", title: "완화 지역 맛집도 지도에서 확인해보세요", desc: "용산사 주변 노포와 야시장 먹거리를 지도에서 바로 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-        { type: "note", text: "이 글은 일반적으로 알려진 용산사 운영시간과 완화 지역 야시장 정보를 바탕으로 정리했습니다. 운영시간과 행사 일정은 바뀔 수 있으니 방문 전 공식 정보로 다시 확인해주세요." },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "해 진 직후가 가장 좋은 타이밍",
+              "desc": "하늘이 완전히 어두워지기 전, 노을과 사원 조명이 함께 보이는 시간대가 사진 찍기도 가장 좋습니다."
+            },
+            {
+              "mark": "2",
+              "b": "참배 문화 존중하기",
+              "desc": "향을 피우고 기도하는 참배객이 많은 곳이니, 사진을 찍을 때는 방해가 되지 않도록 조용히 움직이는 게 좋습니다."
+            },
+            {
+              "mark": "3",
+              "b": "운영시간은 방문 전 재확인",
+              "desc": "행사나 사정에 따라 운영시간이 달라질 수 있으니, 방문 당일 공식 채널로 한 번 더 확인하는 걸 추천해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · 완화 지역과 묶어서 반나절 야시장 코스"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "화시제 관광 야시장",
+              "desc": "용산사에서 도보 몇 분 거리로, 다양한 먹거리 노점이 모여 있는 관광형 야시장입니다."
+            },
+            {
+              "mark": "2",
+              "b": "광저우제 야시장",
+              "desc": "화시제와 이어지는 구간으로, 현지인들도 즐겨 찾는 먹거리 골목이에요."
+            },
+            {
+              "mark": "3",
+              "b": "칭차오샹(청초항)",
+              "desc": "약초 상점이 모여 있는 짧은 골목입니다. 독특한 약초 향이 인상적인 완화 지역의 숨은 스팟이에요."
+            },
+            {
+              "mark": "4",
+              "b": "보피랴오 역사거리",
+              "desc": "옛 거리 풍경을 그대로 살려둔 구역으로, 야간 조명이 켜지면 산책하기 좋은 분위기가 됩니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 동선 팁"
+        },
+        {
+          "type": "p",
+          "html": "용산사는 MRT 용산사역(블루라인) 출구 바로 앞이라 접근성이 좋습니다. 화시제·광저우제 야시장, 보피랴오 역사거리 모두 도보 5~10분 거리에 모여 있어서, 저녁 식사와 야경 산책을 한 번에 해결하기 좋은 동선이에요."
+        },
+        {
+          "type": "cta",
+          "title": "완화 지역 맛집도 지도에서 확인해보세요",
+          "desc": "용산사 주변 노포와 야시장 먹거리를 지도에서 바로 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 일반적으로 알려진 용산사 운영시간과 완화 지역 야시장 정보를 바탕으로 정리했습니다. 운영시간과 행사 일정은 바뀔 수 있으니 방문 전 공식 정보로 다시 확인해주세요."
+        }
+      ]
     },
-    en: {
-      pageTitle: "Longshan Temple Night Guide — Timing and a Wanhua Night Market Route · My Secret Taiwan Eats",
-      metaDescription: "Longshan Temple looks completely different once the evening lights come on. Here's the best time to visit for the night view, plus a route linking Huaxi Street, Guangzhou Street night markets, and Bopiliao Historic Block.",
-      ogTitle: "Longshan Temple: Better at Night Than by Day?",
-      eyebrow: "Taipei Travel Guide · Night View Course",
-      title: "Longshan Temple: Better at Night Than by Day?",
-      dek: "Longshan Temple gets crowded with tour groups and worshippers by day, but once the evening lights come on, it shows a completely different side. Here's the best timing, plus a route through Wanhua's night markets.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Night View Course",
-      intro: "Longshan Temple is one of Taipei's most-visited temples, but daytime brings a crowd of both tour groups and worshippers, making it hard to take your time. After dark, though, the lit-up red lanterns and intricate roof carvings give the place a completely different mood. Here's when to visit for the night view, plus a half-day route through the neighboring Wanhua night markets.",
-      blocks: [
-        { type: "h2", text: "01 · What Changes After Dark" },
-        { type: "p", html: "Longshan Temple is open daily from 6am to 10pm, with free admission. Daytime tends to be the most crowded, with worshippers and tour groups overlapping, while crowd density generally drops once it's fully dark. Getting a closer, quieter look at the lit-up eaves and carvings is one of the real advantages of visiting at night." },
+    "en": {
+      "pageTitle": "Longshan Temple Night Guide — Timing and a Wanhua Night Market Route · My Secret Taiwan Eats",
+      "metaDescription": "Longshan Temple looks completely different once the evening lights come on. Here's the best time to visit for the night view, plus a route linking Huaxi Street, Guangzhou Street night markets, and Bopiliao Historic Block.",
+      "ogTitle": "Longshan Temple: Better at Night Than by Day?",
+      "eyebrow": "Taipei Travel Guide · Night View Course",
+      "title": "Longshan Temple: Better at Night Than by Day?",
+      "dek": "Longshan Temple gets crowded with tour groups and worshippers by day, but once the evening lights come on, it shows a completely different side. Here's the best timing, plus a route through Wanhua's night markets.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Night View Course",
+      "intro": "Longshan Temple is one of Taipei's most-visited temples, but daytime brings a crowd of both tour groups and worshippers, making it hard to take your time. After dark, though, the lit-up red lanterns and intricate roof carvings give the place a completely different mood. Here's when to visit for the night view, plus a half-day route through the neighboring Wanhua night markets.",
+      "blocks": [
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Right after sunset is the sweet spot", desc: "Before the sky goes fully dark, the mix of dusk light and temple lighting also makes for the best photos." },
-            { mark: "2", b: "Be respectful of worshippers", desc: "This is an active place of worship with incense and prayer. Move quietly and avoid getting in the way when taking photos." },
-            { mark: "3", b: "Double-check the hours", desc: "Hours can shift around events, so it's worth confirming through official channels on the day you visit." },
-          ],
+          "type": "h2",
+          "text": "01 · What Changes After Dark"
         },
-        { type: "h2", text: "02 · A Half-Day Route Through Wanhua's Night Markets" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Huaxi Street Tourist Night Market", desc: "A few minutes' walk from the temple, this is a tourist-oriented night market with a wide range of food stalls." },
-            { mark: "2", b: "Guangzhou Street Night Market", desc: "Connected to Huaxi Street, this stretch is a food-stall alley that locals frequent too." },
-            { mark: "3", b: "Herb Lane (Qingcao Alley)", desc: "A short alley lined with traditional herb shops — a distinctive, lesser-known corner of Wanhua with a strong herbal scent." },
-            { mark: "4", b: "Bopiliao Historic Block", desc: "A preserved old street that turns into a pleasant place for an evening stroll once the lights come on." },
-          ],
+          "type": "p",
+          "html": "Longshan Temple is open daily from 6am to 10pm, with free admission. Daytime tends to be the most crowded, with worshippers and tour groups overlapping, while crowd density generally drops once it's fully dark. Getting a closer, quieter look at the lit-up eaves and carvings is one of the real advantages of visiting at night."
         },
-        { type: "h2", text: "03 · Route Tips" },
-        { type: "p", html: "Longshan Temple sits right outside the Longshan Temple MRT station exit (Blue Line), so it's easy to reach. Huaxi Street, Guangzhou Street, and Bopiliao Historic Block are all within a 5-10 minute walk, making it easy to combine dinner and an evening walk in one trip." },
-        { type: "cta", title: "Find Wanhua Restaurants on the Map Too", desc: "Look up old shops and night market food near Longshan Temple, right on the map.", btn: "Open Map →", href: "/map?region=taipei" },
-        { type: "note", text: "This guide is based on commonly known operating hours for Longshan Temple and general information about Wanhua's night markets. Hours and event schedules can change, so double-check with official sources before you go." },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Right after sunset is the sweet spot",
+              "desc": "Before the sky goes fully dark, the mix of dusk light and temple lighting also makes for the best photos."
+            },
+            {
+              "mark": "2",
+              "b": "Be respectful of worshippers",
+              "desc": "This is an active place of worship with incense and prayer. Move quietly and avoid getting in the way when taking photos."
+            },
+            {
+              "mark": "3",
+              "b": "Double-check the hours",
+              "desc": "Hours can shift around events, so it's worth confirming through official channels on the day you visit."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "02 · A Half-Day Route Through Wanhua's Night Markets"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Huaxi Street Tourist Night Market",
+              "desc": "A few minutes' walk from the temple, this is a tourist-oriented night market with a wide range of food stalls."
+            },
+            {
+              "mark": "2",
+              "b": "Guangzhou Street Night Market",
+              "desc": "Connected to Huaxi Street, this stretch is a food-stall alley that locals frequent too."
+            },
+            {
+              "mark": "3",
+              "b": "Herb Lane (Qingcao Alley)",
+              "desc": "A short alley lined with traditional herb shops — a distinctive, lesser-known corner of Wanhua with a strong herbal scent."
+            },
+            {
+              "mark": "4",
+              "b": "Bopiliao Historic Block",
+              "desc": "A preserved old street that turns into a pleasant place for an evening stroll once the lights come on."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Route Tips"
+        },
+        {
+          "type": "p",
+          "html": "Longshan Temple sits right outside the Longshan Temple MRT station exit (Blue Line), so it's easy to reach. Huaxi Street, Guangzhou Street, and Bopiliao Historic Block are all within a 5-10 minute walk, making it easy to combine dinner and an evening walk in one trip."
+        },
+        {
+          "type": "cta",
+          "title": "Find Wanhua Restaurants on the Map Too",
+          "desc": "Look up old shops and night market food near Longshan Temple, right on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on commonly known operating hours for Longshan Temple and general information about Wanhua's night markets. Hours and event schedules can change, so double-check with official sources before you go."
+        }
+      ]
+    }
   },
   "taipei-afternoon-flight-last-day-itinerary": {
-    heroImage: "assets/images/blog/airport-terminal-departure.jpg",
-    ko: {
-      pageTitle: "타이베이 마지막 날 오후 비행기 일정 짜기 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "16:55 같은 오후 비행기라면 마지막 날 오전~이른 오후가 통째로 남습니다. 공항철도·국광버스 소요 시간을 역산해서 짐 보관부터 반나절 코스까지 짜는 법을 정리했습니다.",
-      ogTitle: "타이베이 마지막 날 오후 비행기, 공항 가기 전 어디까지 다녀올까",
-      eyebrow: "타이베이 여행 가이드 · 일정 팁",
-      title: "타이베이 마지막 날 오후 비행기, 공항 가기 전 어디까지 다녀올까",
-      dek: "새벽 비행기라면 밤새 놀면 되지만, 16:55처럼 오후 비행기라면 이야기가 다릅니다. 체크아웃 후 남는 반나절을 공항 이동 시간에 맞춰 역산해서 짜봤어요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 일정 가이드",
-      intro: "타이베이 여행 마지막 날, 비행기가 16:55처럼 오후 시간대라면 오전부터 이른 오후까지 반나절이 고스란히 남습니다. 문제는 이 시간을 얼마나 알차게 쓰면서도 공항에 늦지 않게 도착하느냐예요. 공항 이동 수단별 소요 시간을 역산해서, 마지막 반나절을 짜는 방법을 정리해봤습니다.",
-      blocks: [
-        { type: "h2", text: "01 · 역산부터 — 공항엔 언제 도착해야 할까" },
-        { type: "p", html: "국제선은 보통 출발 2~3시간 전 공항 도착을 권장합니다. 타이베이역에서 타오위안 공항까지는 공항철도 직달(익스프레스)이 약 35~40분, 전 역에 정차하는 일반 열차는 약 50분 내외 걸려요. 16:55 비행기라면 직달 기준으로 늦어도 <strong>14:00~14:30경</strong>에는 공항으로 출발하는 일정을 잡는 게 안전합니다. 여유 있게 다니고 싶다면 13:30 출발을 목표로 잡아보세요." },
+    "heroImage": "assets/images/blog/airport-terminal-departure.jpg",
+    "ko": {
+      "pageTitle": "타이베이 마지막 날 오후 비행기 일정 짜기 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "16:55 같은 오후 비행기라면 마지막 날 오전~이른 오후가 통째로 남습니다. 공항철도·국광버스 소요 시간을 역산해서 짐 보관부터 반나절 코스까지 짜는 법을 정리했습니다.",
+      "ogTitle": "타이베이 마지막 날 오후 비행기, 공항 가기 전 어디까지 다녀올까",
+      "eyebrow": "타이베이 여행 가이드 · 일정 팁",
+      "title": "타이베이 마지막 날 오후 비행기, 공항 가기 전 어디까지 다녀올까",
+      "dek": "새벽 비행기라면 밤새 놀면 되지만, 16:55처럼 오후 비행기라면 이야기가 다릅니다. 체크아웃 후 남는 반나절을 공항 이동 시간에 맞춰 역산해서 짜봤어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 일정 가이드",
+      "intro": "타이베이 여행 마지막 날, 비행기가 16:55처럼 오후 시간대라면 오전부터 이른 오후까지 반나절이 고스란히 남습니다. 문제는 이 시간을 얼마나 알차게 쓰면서도 공항에 늦지 않게 도착하느냐예요. 공항 이동 수단별 소요 시간을 역산해서, 마지막 반나절을 짜는 방법을 정리해봤습니다.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["공항철도 직달", "공항철도 일반", "국광버스(1819)"],
-          rows: [
-            { label: "소요 시간", values: ["약 35~40분", "약 50분 내외", "정체 없으면 비슷, 변동 있음"] },
-            { label: "탑승 위치", values: ["타이베이역에서만 탑승 가능", "시내 여러 역에서 탑승 가능", "타이베이역·시먼 등 여러 정류장"] },
-            { label: "장점", values: ["가장 빠르고 예측하기 쉬움", "숙소 위치에 따라 접근성 좋음", "짐이 많을 때 좌석에서 편하게 이동"] },
-          ],
+          "type": "h2",
+          "text": "01 · 역산부터 — 공항엔 언제 도착해야 할까"
         },
-        { type: "h2", text: "02 · 체크아웃 후, 짐 보관하고 반나절 코스" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "체크아웃 후 짐 보관", desc: "대부분의 숙소가 체크아웃 이후에도 당일 짐 보관 서비스를 제공합니다. 몸만 가볍게 움직이세요." },
-            { mark: "2", b: "오전~이른 오후는 도보 위주 코스로", desc: "중정기념당, 융캉제처럼 한 지역에 명소가 모여 있는 곳 위주로 동선을 짜면 이동 시간을 아낄 수 있어요." },
-            { mark: "3", b: "점심은 이동 동선 안에서 여유 있게", desc: "너무 먼 곳까지 가기보다, 공항으로 이동하기 전 동선 안에서 식사를 해결하는 게 시간 관리에 유리합니다." },
-            { mark: "4", b: "짐 찾으러 복귀는 출발 시간 1시간 전까지", desc: "숙소에서 짐을 찾고 정리하는 시간까지 감안해서 여유 있게 복귀하세요." },
-          ],
+          "type": "p",
+          "html": "국제선은 보통 출발 2~3시간 전 공항 도착을 권장합니다. 타이베이역에서 타오위안 공항까지는 공항철도 직달(익스프레스)이 약 35~40분, 전 역에 정차하는 일반 열차는 약 50분 내외 걸려요. 16:55 비행기라면 직달 기준으로 늦어도 <strong>14:00~14:30경</strong>에는 공항으로 출발하는 일정을 잡는 게 안전합니다. 여유 있게 다니고 싶다면 13:30 출발을 목표로 잡아보세요."
         },
-        { type: "h2", text: "03 · 이런 경우엔 더 여유 있게 잡으세요" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "캐리어가 많거나 짐이 무겁다면", desc: "이동과 환승에 시간이 더 걸리니, 역산한 시간보다 30분 정도 여유를 더 두는 게 안전합니다." },
-            { mark: "✓", b: "퇴근 시간대와 겹친다면", desc: "평일 늦은 오후는 시내 교통이 혼잡해질 수 있어요. 국광버스나 택시보다는 배차가 일정한 공항철도가 예측하기 쉽습니다." },
-            { mark: "✓", b: "직달 대신 일반 열차를 탄다면", desc: "정차역이 많아 15분가량 더 걸릴 수 있으니 출발 시간을 그만큼 앞당기세요." },
+          "type": "compareTable",
+          "cities": [
+            "공항철도 직달",
+            "공항철도 일반",
+            "국광버스(1819)"
           ],
+          "rows": [
+            {
+              "label": "소요 시간",
+              "values": [
+                "약 35~40분",
+                "약 50분 내외",
+                "정체 없으면 비슷, 변동 있음"
+              ]
+            },
+            {
+              "label": "탑승 위치",
+              "values": [
+                "타이베이역에서만 탑승 가능",
+                "시내 여러 역에서 탑승 가능",
+                "타이베이역·시먼 등 여러 정류장"
+              ]
+            },
+            {
+              "label": "장점",
+              "values": [
+                "가장 빠르고 예측하기 쉬움",
+                "숙소 위치에 따라 접근성 좋음",
+                "짐이 많을 때 좌석에서 편하게 이동"
+              ]
+            }
+          ]
         },
-        { type: "cta", title: "마지막 날 동선도 지도에서 짜보세요", desc: "숙소부터 공항 이동 경로까지, 마지막 날 코스를 지도에서 한눈에 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-        { type: "note", text: "이 글은 공항철도·국광버스의 일반적인 소요 시간을 기준으로 정리한 참고 자료입니다. 실제 배차 간격과 소요 시간은 시간대와 도로 상황에 따라 달라질 수 있으니, 출발 전 실시간 정보로 다시 확인해주세요." },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 체크아웃 후, 짐 보관하고 반나절 코스"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "체크아웃 후 짐 보관",
+              "desc": "대부분의 숙소가 체크아웃 이후에도 당일 짐 보관 서비스를 제공합니다. 몸만 가볍게 움직이세요."
+            },
+            {
+              "mark": "2",
+              "b": "오전~이른 오후는 도보 위주 코스로",
+              "desc": "중정기념당, 융캉제처럼 한 지역에 명소가 모여 있는 곳 위주로 동선을 짜면 이동 시간을 아낄 수 있어요."
+            },
+            {
+              "mark": "3",
+              "b": "점심은 이동 동선 안에서 여유 있게",
+              "desc": "너무 먼 곳까지 가기보다, 공항으로 이동하기 전 동선 안에서 식사를 해결하는 게 시간 관리에 유리합니다."
+            },
+            {
+              "mark": "4",
+              "b": "짐 찾으러 복귀는 출발 시간 1시간 전까지",
+              "desc": "숙소에서 짐을 찾고 정리하는 시간까지 감안해서 여유 있게 복귀하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 이런 경우엔 더 여유 있게 잡으세요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "캐리어가 많거나 짐이 무겁다면",
+              "desc": "이동과 환승에 시간이 더 걸리니, 역산한 시간보다 30분 정도 여유를 더 두는 게 안전합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "퇴근 시간대와 겹친다면",
+              "desc": "평일 늦은 오후는 시내 교통이 혼잡해질 수 있어요. 국광버스나 택시보다는 배차가 일정한 공항철도가 예측하기 쉽습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "직달 대신 일반 열차를 탄다면",
+              "desc": "정차역이 많아 15분가량 더 걸릴 수 있으니 출발 시간을 그만큼 앞당기세요."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "마지막 날 동선도 지도에서 짜보세요",
+          "desc": "숙소부터 공항 이동 경로까지, 마지막 날 코스를 지도에서 한눈에 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 공항철도·국광버스의 일반적인 소요 시간을 기준으로 정리한 참고 자료입니다. 실제 배차 간격과 소요 시간은 시간대와 도로 상황에 따라 달라질 수 있으니, 출발 전 실시간 정보로 다시 확인해주세요."
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taipei Last-Day Afternoon Flight Itinerary Guide · My Secret Taiwan Eats",
-      metaDescription: "With a flight around 4:55pm, your last morning and early afternoon in Taipei are free. Here's how to work backward from Airport MRT and bus travel times to plan luggage storage and a half-day route.",
-      ogTitle: "Taipei Last Day, Afternoon Flight: How Much Can You Fit In Before the Airport?",
-      eyebrow: "Taipei Travel Guide · Itinerary Tips",
-      title: "Taipei Last Day, Afternoon Flight: How Much Can You Fit In Before the Airport?",
-      dek: "A red-eye flight means you can stay out all night, but an afternoon flight like 4:55pm is a different puzzle. Here's how to plan the last half-day by working backward from your airport travel time.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Itinerary Guide",
-      intro: "If your last day in Taipei ends with an afternoon flight around 4:55pm, your morning and early afternoon are still wide open. The real question is how to make the most of that time without cutting it close at the airport. Here's how to plan your last half-day by working backward from how long it actually takes to get to Taoyuan.",
-      blocks: [
-        { type: "h2", text: "01 · Start From the End: When Should You Arrive at the Airport?" },
-        { type: "p", html: "International flights generally call for arriving 2-3 hours before departure. From Taipei Main Station, the Airport MRT Express takes about 35-40 minutes to Taoyuan Airport, while the all-stop line takes closer to 50 minutes. For a 4:55pm flight, aim to leave for the airport by <strong>around 2:00-2:30pm</strong> at the latest if you're taking the Express. For more breathing room, target a 1:30pm departure instead." },
+    "en": {
+      "pageTitle": "Taipei Last-Day Afternoon Flight Itinerary Guide · My Secret Taiwan Eats",
+      "metaDescription": "With a flight around 4:55pm, your last morning and early afternoon in Taipei are free. Here's how to work backward from Airport MRT and bus travel times to plan luggage storage and a half-day route.",
+      "ogTitle": "Taipei Last Day, Afternoon Flight: How Much Can You Fit In Before the Airport?",
+      "eyebrow": "Taipei Travel Guide · Itinerary Tips",
+      "title": "Taipei Last Day, Afternoon Flight: How Much Can You Fit In Before the Airport?",
+      "dek": "A red-eye flight means you can stay out all night, but an afternoon flight like 4:55pm is a different puzzle. Here's how to plan the last half-day by working backward from your airport travel time.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Itinerary Guide",
+      "intro": "If your last day in Taipei ends with an afternoon flight around 4:55pm, your morning and early afternoon are still wide open. The real question is how to make the most of that time without cutting it close at the airport. Here's how to plan your last half-day by working backward from how long it actually takes to get to Taoyuan.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Airport MRT Express", "Airport MRT (all-stop)", "Kuo-Kuang Bus (1819)"],
-          rows: [
-            { label: "Travel time", values: ["About 35-40 minutes", "About 50 minutes", "Similar without traffic, but variable"] },
-            { label: "Where to board", values: ["Taipei Main Station only", "Several stations around the city", "Taipei Main Station, Ximen, and other stops"] },
-            { label: "Upside", values: ["Fastest and most predictable", "Convenient depending on your hotel", "Comfortable seating if you're carrying a lot"] },
-          ],
+          "type": "h2",
+          "text": "01 · Start From the End: When Should You Arrive at the Airport?"
         },
-        { type: "h2", text: "02 · Check Out, Store Your Bags, Then Fill the Half-Day" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Store your luggage after checkout", desc: "Most hotels offer same-day luggage storage after checkout, so you can move around without dragging your bags." },
-            { mark: "2", b: "Keep the morning walkable", desc: "Areas with sights clustered together, like Chiang Kai-shek Memorial Hall or Yongkang Street, save you travel time." },
-            { mark: "3", b: "Have lunch somewhere along your route", desc: "Rather than detouring somewhere far, eating along the path back toward the airport keeps your timing manageable." },
-            { mark: "4", b: "Get back for your bags an hour before you need to leave", desc: "Build in time to collect and repack your luggage before heading out." },
-          ],
+          "type": "p",
+          "html": "International flights generally call for arriving 2-3 hours before departure. From Taipei Main Station, the Airport MRT Express takes about 35-40 minutes to Taoyuan Airport, while the all-stop line takes closer to 50 minutes. For a 4:55pm flight, aim to leave for the airport by <strong>around 2:00-2:30pm</strong> at the latest if you're taking the Express. For more breathing room, target a 1:30pm departure instead."
         },
-        { type: "h2", text: "03 · When to Pad the Schedule Even More" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "If you're carrying a lot of luggage", desc: "Extra bags slow down transfers, so add about 30 minutes of buffer to your calculated departure time." },
-            { mark: "✓", b: "If it overlaps with rush hour", desc: "Late weekday afternoons can mean heavy city traffic. The Airport MRT is more predictable than a bus or taxi when this is a factor." },
-            { mark: "✓", b: "If you're taking the all-stop train instead of the Express", desc: "The extra stops add roughly 15 minutes, so move your departure time up accordingly." },
+          "type": "compareTable",
+          "cities": [
+            "Airport MRT Express",
+            "Airport MRT (all-stop)",
+            "Kuo-Kuang Bus (1819)"
           ],
+          "rows": [
+            {
+              "label": "Travel time",
+              "values": [
+                "About 35-40 minutes",
+                "About 50 minutes",
+                "Similar without traffic, but variable"
+              ]
+            },
+            {
+              "label": "Where to board",
+              "values": [
+                "Taipei Main Station only",
+                "Several stations around the city",
+                "Taipei Main Station, Ximen, and other stops"
+              ]
+            },
+            {
+              "label": "Upside",
+              "values": [
+                "Fastest and most predictable",
+                "Convenient depending on your hotel",
+                "Comfortable seating if you're carrying a lot"
+              ]
+            }
+          ]
         },
-        { type: "cta", title: "Plan Your Last Day's Route on the Map", desc: "Map out your hotel, last stops, and the way to the airport all in one place.", btn: "Open Map →", href: "/map?region=taipei" },
-        { type: "note", text: "This guide is based on general travel times for the Airport MRT and Kuo-Kuang bus. Actual schedules and travel times vary by time of day and traffic conditions, so double-check real-time info before you head out." },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Check Out, Store Your Bags, Then Fill the Half-Day"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Store your luggage after checkout",
+              "desc": "Most hotels offer same-day luggage storage after checkout, so you can move around without dragging your bags."
+            },
+            {
+              "mark": "2",
+              "b": "Keep the morning walkable",
+              "desc": "Areas with sights clustered together, like Chiang Kai-shek Memorial Hall or Yongkang Street, save you travel time."
+            },
+            {
+              "mark": "3",
+              "b": "Have lunch somewhere along your route",
+              "desc": "Rather than detouring somewhere far, eating along the path back toward the airport keeps your timing manageable."
+            },
+            {
+              "mark": "4",
+              "b": "Get back for your bags an hour before you need to leave",
+              "desc": "Build in time to collect and repack your luggage before heading out."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · When to Pad the Schedule Even More"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "If you're carrying a lot of luggage",
+              "desc": "Extra bags slow down transfers, so add about 30 minutes of buffer to your calculated departure time."
+            },
+            {
+              "mark": "✓",
+              "b": "If it overlaps with rush hour",
+              "desc": "Late weekday afternoons can mean heavy city traffic. The Airport MRT is more predictable than a bus or taxi when this is a factor."
+            },
+            {
+              "mark": "✓",
+              "b": "If you're taking the all-stop train instead of the Express",
+              "desc": "The extra stops add roughly 15 minutes, so move your departure time up accordingly."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Plan Your Last Day's Route on the Map",
+          "desc": "Map out your hotel, last stops, and the way to the airport all in one place.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on general travel times for the Airport MRT and Kuo-Kuang bus. Actual schedules and travel times vary by time of day and traffic conditions, so double-check real-time info before you head out."
+        }
+      ]
+    }
   },
   "taipei-hotel-location-ximen-main-station-zhongshan": {
-    heroImage: "assets/images/blog/taipei-street-hotel-neon.jpg",
-    ko: {
-      pageTitle: "타이베이 숙소 위치 비교 — 시먼·메인역·중산 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이베이 숙소, 시먼·타이베이 메인역·중산 중 어디가 편할까요? 공항 접근성, 분위기, 먹거리, 추천 여행 스타일까지 세 지역을 기준별로 비교했습니다.",
-      ogTitle: "타이베이 숙소 위치 비교 — 시먼 vs 메인역 vs 중산, 어디가 편할까",
-      eyebrow: "타이베이 여행 가이드 · 숙소 선택",
-      title: "타이베이 숙소 위치 비교 — 시먼 vs 메인역 vs 중산, 어디가 편할까",
-      dek: "쇼핑·야시장이 좋으면 시먼, 공항 이동이 우선이면 메인역, 조용한 카페 감성을 원하면 중산. 세 지역을 공항 접근성·분위기·먹거리 기준으로 비교했어요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 숙소 가이드",
-      intro: "타이베이 숙소를 고를 때 가장 많이 비교되는 세 지역이 시먼, 타이베이 메인역, 중산이에요. 세 곳 모두 MRT로 시내 어디든 이동하기 좋다는 공통점이 있지만, 분위기와 편의성에서는 꽤 차이가 납니다. 여행 스타일에 맞는 지역을 고를 수 있도록 기준별로 비교해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 세 지역, 한눈에 비교하기" },
+    "heroImage": "assets/images/blog/taipei-street-hotel-neon.jpg",
+    "ko": {
+      "pageTitle": "타이베이 숙소 위치 비교 — 시먼·메인역·중산 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 숙소, 시먼·타이베이 메인역·중산 중 어디가 편할까요? 공항 접근성, 분위기, 먹거리, 추천 여행 스타일까지 세 지역을 기준별로 비교했습니다.",
+      "ogTitle": "타이베이 숙소 위치 비교 — 시먼 vs 메인역 vs 중산, 어디가 편할까",
+      "eyebrow": "타이베이 여행 가이드 · 숙소 선택",
+      "title": "타이베이 숙소 위치 비교 — 시먼 vs 메인역 vs 중산, 어디가 편할까",
+      "dek": "쇼핑·야시장이 좋으면 시먼, 공항 이동이 우선이면 메인역, 조용한 카페 감성을 원하면 중산. 세 지역을 공항 접근성·분위기·먹거리 기준으로 비교했어요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 숙소 가이드",
+      "intro": "타이베이 숙소를 고를 때 가장 많이 비교되는 세 지역이 시먼, 타이베이 메인역, 중산이에요. 세 곳 모두 MRT로 시내 어디든 이동하기 좋다는 공통점이 있지만, 분위기와 편의성에서는 꽤 차이가 납니다. 여행 스타일에 맞는 지역을 고를 수 있도록 기준별로 비교해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["시먼", "타이베이 메인역", "중산"],
-          rows: [
-            { label: "공항 접근성", values: ["메인역까지 이동 후 공항철도로 환승해야 합니다", "공항철도(직달 포함) 승차역이라 가장 편리해요", "레드라인으로 메인역까지 한두 정거장, 환승 후 이동"] },
-            { label: "동네 분위기", values: ["쇼핑·나이트라이프 중심으로 활기차고 다소 소란스러워요", "교통 허브라 비즈니스 느낌이 강합니다", "카페와 부티크가 모인 골목으로 차분한 편이에요"] },
-            { label: "먹거리", values: ["길거리 음식과 야시장이 밀집해 있습니다", "백화점 식당가·지하상가 위주예요", "카페와 로컬 맛집이 골목 곳곳에 있어요"] },
-            { label: "숙소 가격대", values: ["중저가 숙소 선택지가 다양합니다", "선택지가 가장 많고 가격대도 폭넓어요", "중가 부티크 호텔이 많은 편이에요"] },
-          ],
+          "type": "h2",
+          "text": "01 · 세 지역, 한눈에 비교하기"
         },
-        { type: "h2", text: "02 · 시먼 — 쇼핑·야시장 위주라면" },
-        { type: "p", html: "시먼은 쇼핑과 나이트라이프의 중심지예요. 젊은 층이 많이 찾는 만큼 활기차고, 걸어서 닿는 거리에 길거리 음식과 상점이 밀집해 있어 저녁 시간을 보내기 좋습니다. 다만 공항철도가 직접 지나가지 않아, 공항으로 이동할 때는 타이베이 메인역까지 한 번 이동해야 해요. 용산사가 있는 완화 지역과도 가까운 편입니다." },
-        { type: "h2", text: "03 · 타이베이 메인역 — 공항·근교 이동이 우선이라면" },
-        { type: "p", html: "타이베이 메인역 주변은 공항철도(직달 포함), 지하철 레드·블루라인, 기차(TRA), 고속철(HSR)이 모두 모이는 교통 허브예요. 캐리어를 끌고 공항이나 타이중·가오슝 같은 근교 도시로 이동할 일이 많다면 가장 편리한 선택입니다. 다만 동네 자체는 비즈니스 지구에 가까워서, 시먼이나 중산만큼 산책하며 분위기를 즐기기는 어려운 편이에요." },
-        { type: "h2", text: "04 · 중산 — 조용하고 감성적인 숙소를 원한다면" },
-        { type: "p", html: "중산은 카페와 부티크 매장이 골목마다 자리한, 비교적 차분한 동네예요. 쌍청제 야시장처럼 현지 분위기가 남아있는 스팟도 가깝습니다. 공항철도역은 없지만 레드라인으로 타이베이 메인역까지 한두 정거장이라, 환승만 한 번 거치면 공항 이동도 크게 불편하지 않아요." },
-        { type: "h2", text: "05 · 여행 스타일별 추천" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "쇼핑과 야시장 위주로 다닐 계획이라면", desc: "시먼을 추천합니다. 저녁 시간을 숙소 근처에서 알차게 보낼 수 있어요." },
-            { mark: "2", b: "캐리어가 많거나 근교 도시로 이동할 일이 많다면", desc: "타이베이 메인역이 가장 편리합니다. 환승 없이 바로 공항철도·기차를 탈 수 있어요." },
-            { mark: "3", b: "조용한 카페 감성과 여유로운 산책을 원한다면", desc: "중산을 골라보세요. 관광지 느낌보다는 '사는 것처럼' 머물기 좋은 동네예요." },
+          "type": "compareTable",
+          "cities": [
+            "시먼",
+            "타이베이 메인역",
+            "중산"
           ],
+          "rows": [
+            {
+              "label": "공항 접근성",
+              "values": [
+                "메인역까지 이동 후 공항철도로 환승해야 합니다",
+                "공항철도(직달 포함) 승차역이라 가장 편리해요",
+                "레드라인으로 메인역까지 한두 정거장, 환승 후 이동"
+              ]
+            },
+            {
+              "label": "동네 분위기",
+              "values": [
+                "쇼핑·나이트라이프 중심으로 활기차고 다소 소란스러워요",
+                "교통 허브라 비즈니스 느낌이 강합니다",
+                "카페와 부티크가 모인 골목으로 차분한 편이에요"
+              ]
+            },
+            {
+              "label": "먹거리",
+              "values": [
+                "길거리 음식과 야시장이 밀집해 있습니다",
+                "백화점 식당가·지하상가 위주예요",
+                "카페와 로컬 맛집이 골목 곳곳에 있어요"
+              ]
+            },
+            {
+              "label": "숙소 가격대",
+              "values": [
+                "중저가 숙소 선택지가 다양합니다",
+                "선택지가 가장 많고 가격대도 폭넓어요",
+                "중가 부티크 호텔이 많은 편이에요"
+              ]
+            }
+          ]
         },
-        { type: "cta", title: "지역별 맛집도 지도에서 미리 확인해보세요", desc: "시먼·중산·타이베이역 근처 맛집을 지도에서 바로 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-        { type: "note", text: "이 글은 세 지역의 대중교통 접근성과 일반적으로 알려진 동네 분위기를 바탕으로 정리했습니다. 실제 체감은 숙소 위치와 여행 스타일에 따라 다를 수 있어요." },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 시먼 — 쇼핑·야시장 위주라면"
+        },
+        {
+          "type": "p",
+          "html": "시먼은 쇼핑과 나이트라이프의 중심지예요. 젊은 층이 많이 찾는 만큼 활기차고, 걸어서 닿는 거리에 길거리 음식과 상점이 밀집해 있어 저녁 시간을 보내기 좋습니다. 다만 공항철도가 직접 지나가지 않아, 공항으로 이동할 때는 타이베이 메인역까지 한 번 이동해야 해요. 용산사가 있는 완화 지역과도 가까운 편입니다."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 타이베이 메인역 — 공항·근교 이동이 우선이라면"
+        },
+        {
+          "type": "p",
+          "html": "타이베이 메인역 주변은 공항철도(직달 포함), 지하철 레드·블루라인, 기차(TRA), 고속철(HSR)이 모두 모이는 교통 허브예요. 캐리어를 끌고 공항이나 타이중·가오슝 같은 근교 도시로 이동할 일이 많다면 가장 편리한 선택입니다. 다만 동네 자체는 비즈니스 지구에 가까워서, 시먼이나 중산만큼 산책하며 분위기를 즐기기는 어려운 편이에요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 중산 — 조용하고 감성적인 숙소를 원한다면"
+        },
+        {
+          "type": "p",
+          "html": "중산은 카페와 부티크 매장이 골목마다 자리한, 비교적 차분한 동네예요. 쌍청제 야시장처럼 현지 분위기가 남아있는 스팟도 가깝습니다. 공항철도역은 없지만 레드라인으로 타이베이 메인역까지 한두 정거장이라, 환승만 한 번 거치면 공항 이동도 크게 불편하지 않아요."
+        },
+        {
+          "type": "h2",
+          "text": "05 · 여행 스타일별 추천"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "쇼핑과 야시장 위주로 다닐 계획이라면",
+              "desc": "시먼을 추천합니다. 저녁 시간을 숙소 근처에서 알차게 보낼 수 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "캐리어가 많거나 근교 도시로 이동할 일이 많다면",
+              "desc": "타이베이 메인역이 가장 편리합니다. 환승 없이 바로 공항철도·기차를 탈 수 있어요."
+            },
+            {
+              "mark": "3",
+              "b": "조용한 카페 감성과 여유로운 산책을 원한다면",
+              "desc": "중산을 골라보세요. 관광지 느낌보다는 '사는 것처럼' 머물기 좋은 동네예요."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "지역별 맛집도 지도에서 미리 확인해보세요",
+          "desc": "시먼·중산·타이베이역 근처 맛집을 지도에서 바로 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "이 글은 세 지역의 대중교통 접근성과 일반적으로 알려진 동네 분위기를 바탕으로 정리했습니다. 실제 체감은 숙소 위치와 여행 스타일에 따라 다를 수 있어요."
+        }
+      ]
     },
-    en: {
-      pageTitle: "Where to Stay in Taipei — Ximen, Main Station, and Zhongshan Compared · My Secret Taiwan Eats",
-      metaDescription: "Choosing a Taipei hotel area? Comparing Ximen, Taipei Main Station, and Zhongshan by airport access, neighborhood vibe, food options, and who each area suits best.",
-      ogTitle: "Where to Stay in Taipei: Ximen vs. Main Station vs. Zhongshan",
-      eyebrow: "Taipei Travel Guide · Choosing a Hotel",
-      title: "Where to Stay in Taipei: Ximen vs. Main Station vs. Zhongshan",
-      dek: "Shopping and night markets point to Ximen, airport convenience points to Main Station, and a quieter cafe vibe points to Zhongshan. Here's how the three compare on access, atmosphere, and food.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Hotel Guide",
-      intro: "Ximen, Taipei Main Station, and Zhongshan are the three areas travelers compare most when picking a Taipei hotel. All three put you within easy MRT reach of the rest of the city, but they differ quite a bit in atmosphere and convenience. Here's a breakdown to help match the area to your travel style.",
-      blocks: [
-        { type: "h2", text: "01 · The Three Areas at a Glance" },
+    "en": {
+      "pageTitle": "Where to Stay in Taipei — Ximen, Main Station, and Zhongshan Compared · My Secret Taiwan Eats",
+      "metaDescription": "Choosing a Taipei hotel area? Comparing Ximen, Taipei Main Station, and Zhongshan by airport access, neighborhood vibe, food options, and who each area suits best.",
+      "ogTitle": "Where to Stay in Taipei: Ximen vs. Main Station vs. Zhongshan",
+      "eyebrow": "Taipei Travel Guide · Choosing a Hotel",
+      "title": "Where to Stay in Taipei: Ximen vs. Main Station vs. Zhongshan",
+      "dek": "Shopping and night markets point to Ximen, airport convenience points to Main Station, and a quieter cafe vibe points to Zhongshan. Here's how the three compare on access, atmosphere, and food.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Hotel Guide",
+      "intro": "Ximen, Taipei Main Station, and Zhongshan are the three areas travelers compare most when picking a Taipei hotel. All three put you within easy MRT reach of the rest of the city, but they differ quite a bit in atmosphere and convenience. Here's a breakdown to help match the area to your travel style.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Ximen", "Taipei Main Station", "Zhongshan"],
-          rows: [
-            { label: "Airport access", values: ["Requires a transfer at Main Station to reach the Airport MRT", "The most convenient — Airport MRT (including Express) departs right here", "One or two stops to Main Station on the Red Line, then a transfer"] },
-            { label: "Neighborhood feel", values: ["Lively and a bit loud, centered on shopping and nightlife", "Feels business-oriented, being a transit hub", "Calmer, with cafes and boutiques filling the side streets"] },
-            { label: "Food", values: ["Dense with street food stalls and night markets", "Mostly department store food courts and underground malls", "Cafes and local restaurants tucked into the alleys"] },
-            { label: "Hotel price range", values: ["Plenty of budget to mid-range options", "The widest range of options and prices", "Mostly mid-range boutique hotels"] },
-          ],
+          "type": "h2",
+          "text": "01 · The Three Areas at a Glance"
         },
-        { type: "h2", text: "02 · Ximen — For a Shopping and Night-Market Trip" },
-        { type: "p", html: "Ximen is Taipei's shopping and nightlife center. It draws a young crowd and stays lively, with street food and shops packed within walking distance — great for filling your evenings without going far. The Airport MRT doesn't run through here directly, though, so getting to the airport means a stop at Taipei Main Station first. It's also close to the Wanhua area and Longshan Temple." },
-        { type: "h2", text: "03 · Taipei Main Station — For Airport and Day-Trip Convenience" },
-        { type: "p", html: "Around Taipei Main Station, the Airport MRT (including the Express), the Red and Blue MRT lines, regular rail (TRA), and the High Speed Rail all converge. If you'll be dragging luggage to the airport or day-tripping to cities like Taichung or Kaohsiung, this is the most convenient base. The neighborhood itself leans business-district, though, so it doesn't offer quite the same strolling atmosphere as Ximen or Zhongshan." },
-        { type: "h2", text: "04 · Zhongshan — For a Quieter, More Personal Stay" },
-        { type: "p", html: "Zhongshan is a comparatively calm neighborhood, with cafes and boutiques tucked into its side streets. Spots with a more local feel, like Shuangcheng Street Night Market, are nearby too. There's no Airport MRT station here, but it's just one or two stops to Taipei Main Station on the Red Line, so getting to the airport only takes one transfer." },
-        { type: "h2", text: "05 · Which One Fits Your Trip" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Planning to shop and hit night markets", desc: "Go with Ximen — you can fill your evenings well without straying far from your hotel." },
-            { mark: "2", b: "Carrying a lot of luggage or day-tripping often", desc: "Taipei Main Station is the most convenient, with direct access to the Airport MRT and trains, no transfer needed." },
-            { mark: "3", b: "Want a quiet cafe vibe and easy walks", desc: "Pick Zhongshan — it feels less like a tourist zone and more like actually living there for a few days." },
+          "type": "compareTable",
+          "cities": [
+            "Ximen",
+            "Taipei Main Station",
+            "Zhongshan"
           ],
+          "rows": [
+            {
+              "label": "Airport access",
+              "values": [
+                "Requires a transfer at Main Station to reach the Airport MRT",
+                "The most convenient — Airport MRT (including Express) departs right here",
+                "One or two stops to Main Station on the Red Line, then a transfer"
+              ]
+            },
+            {
+              "label": "Neighborhood feel",
+              "values": [
+                "Lively and a bit loud, centered on shopping and nightlife",
+                "Feels business-oriented, being a transit hub",
+                "Calmer, with cafes and boutiques filling the side streets"
+              ]
+            },
+            {
+              "label": "Food",
+              "values": [
+                "Dense with street food stalls and night markets",
+                "Mostly department store food courts and underground malls",
+                "Cafes and local restaurants tucked into the alleys"
+              ]
+            },
+            {
+              "label": "Hotel price range",
+              "values": [
+                "Plenty of budget to mid-range options",
+                "The widest range of options and prices",
+                "Mostly mid-range boutique hotels"
+              ]
+            }
+          ]
         },
-        { type: "cta", title: "Browse Restaurants Near Each Area on the Map", desc: "Find restaurants near Ximen, Zhongshan, and Taipei Main Station, right on the map.", btn: "Open Map →", href: "/map?region=taipei" },
-        { type: "note", text: "This guide is based on public transit access and commonly known neighborhood character for each area. Actual experience can vary depending on your specific hotel and travel style." },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Ximen — For a Shopping and Night-Market Trip"
+        },
+        {
+          "type": "p",
+          "html": "Ximen is Taipei's shopping and nightlife center. It draws a young crowd and stays lively, with street food and shops packed within walking distance — great for filling your evenings without going far. The Airport MRT doesn't run through here directly, though, so getting to the airport means a stop at Taipei Main Station first. It's also close to the Wanhua area and Longshan Temple."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Taipei Main Station — For Airport and Day-Trip Convenience"
+        },
+        {
+          "type": "p",
+          "html": "Around Taipei Main Station, the Airport MRT (including the Express), the Red and Blue MRT lines, regular rail (TRA), and the High Speed Rail all converge. If you'll be dragging luggage to the airport or day-tripping to cities like Taichung or Kaohsiung, this is the most convenient base. The neighborhood itself leans business-district, though, so it doesn't offer quite the same strolling atmosphere as Ximen or Zhongshan."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Zhongshan — For a Quieter, More Personal Stay"
+        },
+        {
+          "type": "p",
+          "html": "Zhongshan is a comparatively calm neighborhood, with cafes and boutiques tucked into its side streets. Spots with a more local feel, like Shuangcheng Street Night Market, are nearby too. There's no Airport MRT station here, but it's just one or two stops to Taipei Main Station on the Red Line, so getting to the airport only takes one transfer."
+        },
+        {
+          "type": "h2",
+          "text": "05 · Which One Fits Your Trip"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Planning to shop and hit night markets",
+              "desc": "Go with Ximen — you can fill your evenings well without straying far from your hotel."
+            },
+            {
+              "mark": "2",
+              "b": "Carrying a lot of luggage or day-tripping often",
+              "desc": "Taipei Main Station is the most convenient, with direct access to the Airport MRT and trains, no transfer needed."
+            },
+            {
+              "mark": "3",
+              "b": "Want a quiet cafe vibe and easy walks",
+              "desc": "Pick Zhongshan — it feels less like a tourist zone and more like actually living there for a few days."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Browse Restaurants Near Each Area on the Map",
+          "desc": "Find restaurants near Ximen, Zhongshan, and Taipei Main Station, right on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on public transit access and commonly known neighborhood character for each area. Actual experience can vary depending on your specific hotel and travel style."
+        }
+      ]
+    }
   },
   "kaohsiung-local-tea-shop-buying-guide": {
-    heroImage: "assets/images/blog/kaohsiung-local-tea-shop-buying-guide-1.jpg",
-    ko: {
-      pageTitle: "가오슝 동네 차행 차 사는 법 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "가오슝 동네 차행에서 매일 마실 차를 사고 싶다면요? 마트·체인점과의 차이, 근·량 단위 읽는 법, 시음 요령까지 정리했어요.",
-      ogTitle: "가오슝 동네 차행에서 일상용 차 사기, 관광지 가게와 뭐가 다를까?",
-      eyebrow: "가오슝 여행 가이드 · 쇼핑",
-      title: "가오슝 동네 차행에서 일상용 차 사기, 관광지 가게와 뭐가 다를까?",
-      dek: "예쁜 선물 상자 대신 매일 우려 마실 차를 사고 싶은 여행자를 위해 — 구매처별 차이와 가게에서 헷갈리는 단위 읽는 법을 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "가오슝 · 쇼핑 가이드",
-      intro: "\"관광지 기념품점 차는 비싸 보이는데, 현지 사람들은 어디서 살까?\" 가오슝 동네 차행(茶行)은 시장 골목이나 주택가에 아직 꽤 남아 있어요. 실제 여행자들의 경험을 바탕으로 구매처 고르는 법과 가게에서 당황하지 않는 요령을 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 구매처 한눈에 비교하기" },
+    "heroImage": "assets/images/blog/kaohsiung-local-tea-shop-buying-guide-1.jpg",
+    "ko": {
+      "pageTitle": "가오슝 동네 차행 차 사는 법 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 동네 차행에서 매일 마실 차를 사고 싶다면요? 마트·체인점과의 차이, 근·량 단위 읽는 법, 시음 요령까지 정리했어요.",
+      "ogTitle": "가오슝 동네 차행에서 일상용 차 사기, 관광지 가게와 뭐가 다를까?",
+      "eyebrow": "가오슝 여행 가이드 · 쇼핑",
+      "title": "가오슝 동네 차행에서 일상용 차 사기, 관광지 가게와 뭐가 다를까?",
+      "dek": "예쁜 선물 상자 대신 매일 우려 마실 차를 사고 싶은 여행자를 위해 — 구매처별 차이와 가게에서 헷갈리는 단위 읽는 법을 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 쇼핑 가이드",
+      "intro": "\"관광지 기념품점 차는 비싸 보이는데, 현지 사람들은 어디서 살까?\" 가오슝 동네 차행(茶行)은 시장 골목이나 주택가에 아직 꽤 남아 있어요. 실제 여행자들의 경험을 바탕으로 구매처 고르는 법과 가게에서 당황하지 않는 요령을 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["동네 차행(茶行)", "마트·하이퍼마켓", "체인 차 전문점"],
-          rows: [
-            { label: "가격대", values: ["무게 단위로 달아 팔아 일상용이 저렴한 편", "포장 제품 위주, 가장 부담 없음", "중간~높음, 포장이 깔끔"] },
-            { label: "시음", values: ["대부분 권하면 맛보기 가능", "불가", "매장에 따라 가능"] },
-            { label: "포장", values: ["비닐·진공 포장 요청 가능", "완제품 포장", "선물 상자 선택지 많음"] },
-            { label: "추천 상황", values: ["집에서 매일 마실 차", "가볍게 여러 봉지 살 때", "선물과 일상용을 같이 살 때"] },
-          ],
+          "type": "h2",
+          "text": "01 · 구매처 한눈에 비교하기"
         },
-        { type: "h2", text: "02 · 가게에서 헷갈리는 단위와 이름" },
-        { type: "p", html: "대만 차행의 가격표는 보통 '근(斤)'이나 '량(兩)' 단위로 붙어 있습니다. 1근은 600g, 1량은 37.5g이라 가격이 생각보다 커 보여도 양 기준으로 다시 계산해보는 게 좋아요. 반 근이나 몇 량 단위로 나눠 달라고 해도 대부분 받아줍니다." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "사계춘(四季春)", desc: "향이 가볍고 가격이 무난해 일상용으로 많이 찾는 우롱 계열입니다." },
-            { mark: "✓", b: "진쉬안(金萱)", desc: "부드러운 밀크향으로 알려져 있어 차를 처음 사는 사람도 부담이 적어요." },
-            { mark: "✓", b: "고산 우롱(高山烏龍)", desc: "산지와 고도에 따라 값 차이가 큽니다. 같은 이름이라도 가격대를 꼭 비교하세요." },
-            { mark: "✓", b: "홍차·동방미인", desc: "우유나 얼음 없이 마셔도 향이 좋아 여름용으로 고르는 여행자가 많습니다." },
+          "type": "compareTable",
+          "cities": [
+            "동네 차행(茶行)",
+            "마트·하이퍼마켓",
+            "체인 차 전문점"
           ],
+          "rows": [
+            {
+              "label": "가격대",
+              "values": [
+                "무게 단위로 달아 팔아 일상용이 저렴한 편",
+                "포장 제품 위주, 가장 부담 없음",
+                "중간~높음, 포장이 깔끔"
+              ]
+            },
+            {
+              "label": "시음",
+              "values": [
+                "대부분 권하면 맛보기 가능",
+                "불가",
+                "매장에 따라 가능"
+              ]
+            },
+            {
+              "label": "포장",
+              "values": [
+                "비닐·진공 포장 요청 가능",
+                "완제품 포장",
+                "선물 상자 선택지 많음"
+              ]
+            },
+            {
+              "label": "추천 상황",
+              "values": [
+                "집에서 매일 마실 차",
+                "가볍게 여러 봉지 살 때",
+                "선물과 일상용을 같이 살 때"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-local-tea-shop-buying-guide-1.jpg", caption: "흰 다완에 담긴 말린 우롱 찻잎이에요. 잎이 둥글게 말린 모양이 대만 우롱의 특징이에요." },
-        { type: "h2", text: "03 · 가오슝 동네 차행에서 고르는 요령" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "마시는 방식부터 말하기", desc: "\"매일 냉침으로 마실 것\"처럼 용도를 말하면 가격대에 맞는 차를 골라주는 경우가 많아요." },
-            { mark: "2", b: "두세 가지만 비교 시음", desc: "너무 많이 맛보면 오히려 헷갈립니다. 가격대가 다른 두세 종류만 비교하는 게 효율적이에요." },
-            { mark: "3", b: "진공 포장 요청", desc: "캐리어에서 향이 섞이지 않도록 소량씩 나눠 진공 포장해 달라고 하면 보관도 편합니다." },
-            { mark: "4", b: "현금 준비", desc: "오래된 차행은 카드가 안 되는 곳도 있어서 현금을 조금 챙기는 게 안전해요." },
-          ],
+          "type": "h2",
+          "text": "02 · 가게에서 헷갈리는 단위와 이름"
         },
-        { type: "h2", text: "04 · 이런 점은 미리 알아두세요" },
-        { type: "p", html: "차 가격은 산지·수확 시기·등급에 따라 해마다 달라서, 이 글에서는 구체적인 가격을 적지 않았습니다. 관광지 가게와 동네 차행의 가격 차이가 크다는 후기가 많지만 품질 차이도 있으니, 같은 이름의 차라도 무게당 가격을 기준으로 비교해보는 걸 추천해요." },
-        { type: "quote", text: "\"선물용은 포장 보고 사고, 내가 마실 건 맛보고 사라.\" — 대만 차를 여러 번 사 본 여행자들이 자주 하는 조언을 요약했습니다." },
-        { type: "p", html: "차를 산 뒤 한잔 쉬어 가고 싶다면 <a href=\"/kaohsiung-cafe\">가오슝 카페 맛집</a> 모음을 참고하세요. 홍차 밀크티로 알려진 <a href=\"/kaohsiung-cafe-775\">라오지앙 홍차 뉴나이</a> 같은 차 음료 가게도 있고, 주변 동선은 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 한 번에 볼 수 있어요." },
-        { type: "note", text: "이 글은 대만 차를 구매해 본 여행자들의 경험과 일반적인 차 유통 정보를 바탕으로 정리했습니다(2026년 9월 기준). 가게별 가격·영업시간·결제 수단은 방문 전 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 가오슝 기념품 가게도 확인해보세요", desc: "차행과 함께 들르기 좋은 가오슝 기념품·간식 가게를 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=kaohsiung&cat=gift_shop" },
-      ],
+        {
+          "type": "p",
+          "html": "대만 차행의 가격표는 보통 '근(斤)'이나 '량(兩)' 단위로 붙어 있습니다. 1근은 600g, 1량은 37.5g이라 가격이 생각보다 커 보여도 양 기준으로 다시 계산해보는 게 좋아요. 반 근이나 몇 량 단위로 나눠 달라고 해도 대부분 받아줍니다."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "사계춘(四季春)",
+              "desc": "향이 가볍고 가격이 무난해 일상용으로 많이 찾는 우롱 계열입니다."
+            },
+            {
+              "mark": "✓",
+              "b": "진쉬안(金萱)",
+              "desc": "부드러운 밀크향으로 알려져 있어 차를 처음 사는 사람도 부담이 적어요."
+            },
+            {
+              "mark": "✓",
+              "b": "고산 우롱(高山烏龍)",
+              "desc": "산지와 고도에 따라 값 차이가 큽니다. 같은 이름이라도 가격대를 꼭 비교하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "홍차·동방미인",
+              "desc": "우유나 얼음 없이 마셔도 향이 좋아 여름용으로 고르는 여행자가 많습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-local-tea-shop-buying-guide-1.jpg",
+          "caption": "흰 다완에 담긴 말린 우롱 찻잎이에요. 잎이 둥글게 말린 모양이 대만 우롱의 특징이에요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가오슝 동네 차행에서 고르는 요령"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "마시는 방식부터 말하기",
+              "desc": "\"매일 냉침으로 마실 것\"처럼 용도를 말하면 가격대에 맞는 차를 골라주는 경우가 많아요."
+            },
+            {
+              "mark": "2",
+              "b": "두세 가지만 비교 시음",
+              "desc": "너무 많이 맛보면 오히려 헷갈립니다. 가격대가 다른 두세 종류만 비교하는 게 효율적이에요."
+            },
+            {
+              "mark": "3",
+              "b": "진공 포장 요청",
+              "desc": "캐리어에서 향이 섞이지 않도록 소량씩 나눠 진공 포장해 달라고 하면 보관도 편합니다."
+            },
+            {
+              "mark": "4",
+              "b": "현금 준비",
+              "desc": "오래된 차행은 카드가 안 되는 곳도 있어서 현금을 조금 챙기는 게 안전해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 이런 점은 미리 알아두세요"
+        },
+        {
+          "type": "p",
+          "html": "차 가격은 산지·수확 시기·등급에 따라 해마다 달라서, 이 글에서는 구체적인 가격을 적지 않았습니다. 관광지 가게와 동네 차행의 가격 차이가 크다는 후기가 많지만 품질 차이도 있으니, 같은 이름의 차라도 무게당 가격을 기준으로 비교해보는 걸 추천해요."
+        },
+        {
+          "type": "quote",
+          "text": "\"선물용은 포장 보고 사고, 내가 마실 건 맛보고 사라.\" — 대만 차를 여러 번 사 본 여행자들이 자주 하는 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "차를 산 뒤 한잔 쉬어 가고 싶다면 <a href=\"/kaohsiung-cafe\">가오슝 카페 맛집</a> 모음을 참고하세요. 홍차 밀크티로 알려진 <a href=\"/kaohsiung-cafe-775\">라오지앙 홍차 뉴나이</a> 같은 차 음료 가게도 있고, 주변 동선은 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 한 번에 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 차를 구매해 본 여행자들의 경험과 일반적인 차 유통 정보를 바탕으로 정리했습니다(2026년 9월 기준). 가게별 가격·영업시간·결제 수단은 방문 전 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 기념품 가게도 확인해보세요",
+          "desc": "차행과 함께 들르기 좋은 가오슝 기념품·간식 가게를 지도에서 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung&cat=gift_shop"
+        }
+      ]
     },
-    en: {
-      pageTitle: "How to Buy Tea at a Kaohsiung Tea Shop — Types, Units, and Tips · My Secret Taiwan Eats",
-      metaDescription: "Want tea for daily drinking rather than a gift box? Here's how neighborhood tea shops, supermarkets, and chain stores compare in Kaohsiung, plus tea types, weight units, and tasting tips.",
-      ogTitle: "Buying Everyday Tea in Kaohsiung: Is a Neighborhood Tea Shop Worth It?",
-      eyebrow: "Kaohsiung Travel Guide · Shopping",
-      title: "Buying Everyday Tea in Kaohsiung: Is a Neighborhood Tea Shop Worth It?",
-      dek: "For travelers who want tea to brew every day instead of a pretty gift box — where to buy and how to read the units that confuse most first-timers.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Kaohsiung · Shopping Guide",
-      intro: "\"Tea at tourist souvenir shops looks pricey, so where do locals buy theirs?\" In a spread-out city like Kaohsiung, old-school tea shops (茶行) still line market alleys and residential streets. Based on real traveler experiences, here's how to pick where to buy and how to handle the shop visit with confidence.",
-      blocks: [
-        { type: "h2", text: "01 · Where to Buy at a Glance" },
+    "en": {
+      "pageTitle": "How to Buy Tea at a Kaohsiung Tea Shop — Types, Units, and Tips · My Secret Taiwan Eats",
+      "metaDescription": "Want tea for daily drinking rather than a gift box? Here's how neighborhood tea shops, supermarkets, and chain stores compare in Kaohsiung, plus tea types, weight units, and tasting tips.",
+      "ogTitle": "Buying Everyday Tea in Kaohsiung: Is a Neighborhood Tea Shop Worth It?",
+      "eyebrow": "Kaohsiung Travel Guide · Shopping",
+      "title": "Buying Everyday Tea in Kaohsiung: Is a Neighborhood Tea Shop Worth It?",
+      "dek": "For travelers who want tea to brew every day instead of a pretty gift box — where to buy and how to read the units that confuse most first-timers.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Shopping Guide",
+      "intro": "\"Tea at tourist souvenir shops looks pricey, so where do locals buy theirs?\" In a spread-out city like Kaohsiung, old-school tea shops (茶行) still line market alleys and residential streets. Based on real traveler experiences, here's how to pick where to buy and how to handle the shop visit with confidence.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Neighborhood tea shop", "Supermarket", "Chain tea store"],
-          rows: [
-            { label: "Price", values: ["Sold by weight — usually cheapest for daily tea", "Packaged products, easy on the wallet", "Mid to high, neat packaging"] },
-            { label: "Tasting", values: ["Usually offered if you ask", "No", "Depends on the store"] },
-            { label: "Packaging", values: ["Bag or vacuum-seal on request", "Ready-packed", "Lots of gift box options"] },
-            { label: "Best for", values: ["Tea you'll drink every day", "Grabbing several packs casually", "Buying gifts and daily tea together"] },
-          ],
+          "type": "h2",
+          "text": "01 · Where to Buy at a Glance"
         },
-        { type: "h2", text: "02 · Units and Names That Confuse People" },
-        { type: "p", html: "Price tags at Taiwanese tea shops are usually per jin (斤) or liang (兩). One jin is 600g and one liang is 37.5g, so a price that looks high may be reasonable once you recalculate by weight. Most shops are happy to sell half a jin or a few liang." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Four Seasons Spring (四季春)", desc: "A light, affordable oolong that many people buy for everyday drinking." },
-            { mark: "✓", b: "Jin Xuan (金萱)", desc: "Known for its soft, milky aroma — an easy first pick." },
-            { mark: "✓", b: "High-mountain oolong (高山烏龍)", desc: "Prices swing widely by origin and altitude, so always compare price ranges for the same name." },
-            { mark: "✓", b: "Black tea and Oriental Beauty", desc: "Aromatic even without milk or ice, which is why many travelers pick them for summer." },
+          "type": "compareTable",
+          "cities": [
+            "Neighborhood tea shop",
+            "Supermarket",
+            "Chain tea store"
           ],
+          "rows": [
+            {
+              "label": "Price",
+              "values": [
+                "Sold by weight — usually cheapest for daily tea",
+                "Packaged products, easy on the wallet",
+                "Mid to high, neat packaging"
+              ]
+            },
+            {
+              "label": "Tasting",
+              "values": [
+                "Usually offered if you ask",
+                "No",
+                "Depends on the store"
+              ]
+            },
+            {
+              "label": "Packaging",
+              "values": [
+                "Bag or vacuum-seal on request",
+                "Ready-packed",
+                "Lots of gift box options"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Tea you'll drink every day",
+                "Grabbing several packs casually",
+                "Buying gifts and daily tea together"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-local-tea-shop-buying-guide-1.jpg", caption: "Dried oolong leaves in a white tea bowl — the tightly rolled shape is typical of Taiwanese oolong." },
-        { type: "h2", text: "03 · How to Choose at a Local Shop" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Say how you'll drink it", desc: "Telling the staff something like \"cold-brewed every day\" often gets you a tea that fits your budget." },
-            { mark: "2", b: "Compare just two or three", desc: "Tasting too many gets confusing. Two or three teas at different price points is enough." },
-            { mark: "3", b: "Ask for vacuum sealing", desc: "Splitting tea into small vacuum packs keeps aromas from mixing in your suitcase." },
-            { mark: "4", b: "Bring some cash", desc: "Older tea shops may not take cards." },
-          ],
+          "type": "h2",
+          "text": "02 · Units and Names That Confuse People"
         },
-        { type: "h2", text: "04 · Good to Know" },
-        { type: "p", html: "Tea prices change every year with origin, harvest, and grade, so specific prices are left out here. Travelers often report big price gaps between tourist shops and neighborhood shops, but quality differs too — compare by price per weight even for teas with the same name." },
-        { type: "quote", text: "\"Buy gifts by the packaging, buy your own tea by the taste.\" — a summary of advice often shared by travelers who've bought Taiwanese tea many times." },
-        { type: "p", html: "After buying tea, take a break with the <a href=\"/kaohsiung-cafe\">Kaohsiung cafe picks</a>. Places like <a href=\"/kaohsiung-cafe-775\">Lao Jiang Hong Cha Niu Nai</a> are known for black-tea milk tea, and you can see the area on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>." },
-        { type: "note", text: "This guide is based on travelers' tea-buying experiences and general tea retail information (as of September 2026). Check each shop's prices, hours, and payment options before you go." },
-        { type: "cta", title: "Find Kaohsiung Souvenir Shops on the Map", desc: "Look up souvenir and snack shops worth visiting alongside a tea shop in Kaohsiung.", btn: "Open Map →", href: "/map?region=kaohsiung&cat=gift_shop" },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "Price tags at Taiwanese tea shops are usually per jin (斤) or liang (兩). One jin is 600g and one liang is 37.5g, so a price that looks high may be reasonable once you recalculate by weight. Most shops are happy to sell half a jin or a few liang."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Four Seasons Spring (四季春)",
+              "desc": "A light, affordable oolong that many people buy for everyday drinking."
+            },
+            {
+              "mark": "✓",
+              "b": "Jin Xuan (金萱)",
+              "desc": "Known for its soft, milky aroma — an easy first pick."
+            },
+            {
+              "mark": "✓",
+              "b": "High-mountain oolong (高山烏龍)",
+              "desc": "Prices swing widely by origin and altitude, so always compare price ranges for the same name."
+            },
+            {
+              "mark": "✓",
+              "b": "Black tea and Oriental Beauty",
+              "desc": "Aromatic even without milk or ice, which is why many travelers pick them for summer."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-local-tea-shop-buying-guide-1.jpg",
+          "caption": "Dried oolong leaves in a white tea bowl — the tightly rolled shape is typical of Taiwanese oolong."
+        },
+        {
+          "type": "h2",
+          "text": "03 · How to Choose at a Local Shop"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Say how you'll drink it",
+              "desc": "Telling the staff something like \"cold-brewed every day\" often gets you a tea that fits your budget."
+            },
+            {
+              "mark": "2",
+              "b": "Compare just two or three",
+              "desc": "Tasting too many gets confusing. Two or three teas at different price points is enough."
+            },
+            {
+              "mark": "3",
+              "b": "Ask for vacuum sealing",
+              "desc": "Splitting tea into small vacuum packs keeps aromas from mixing in your suitcase."
+            },
+            {
+              "mark": "4",
+              "b": "Bring some cash",
+              "desc": "Older tea shops may not take cards."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Good to Know"
+        },
+        {
+          "type": "p",
+          "html": "Tea prices change every year with origin, harvest, and grade, so specific prices are left out here. Travelers often report big price gaps between tourist shops and neighborhood shops, but quality differs too — compare by price per weight even for teas with the same name."
+        },
+        {
+          "type": "quote",
+          "text": "\"Buy gifts by the packaging, buy your own tea by the taste.\" — a summary of advice often shared by travelers who've bought Taiwanese tea many times."
+        },
+        {
+          "type": "p",
+          "html": "After buying tea, take a break with the <a href=\"/kaohsiung-cafe\">Kaohsiung cafe picks</a>. Places like <a href=\"/kaohsiung-cafe-775\">Lao Jiang Hong Cha Niu Nai</a> are known for black-tea milk tea, and you can see the area on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on travelers' tea-buying experiences and general tea retail information (as of September 2026). Check each shop's prices, hours, and payment options before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung Souvenir Shops on the Map",
+          "desc": "Look up souvenir and snack shops worth visiting alongside a tea shop in Kaohsiung.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung&cat=gift_shop"
+        }
+      ]
+    }
   },
-
   "kaohsiung-fo-guang-shan-with-parents-checklist": {
-    heroImage: "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg",
-    ko: {
-      pageTitle: "불광산 부모님 동반 — 교통·휠체어·셔틀 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "불광산 부모님 동반 여행, 괜찮을까요? 가오슝에서 가는 방법, 휠체어 대여, 사찰–기념관 셔틀, 휴관일을 공식 안내로 정리했어요.",
-      ogTitle: "불광산 부모님 동반 여행, 불타기념관 계단·이동 괜찮을까?",
-      eyebrow: "가오슝 여행 가이드 · 부모님 동반",
-      title: "불광산 부모님 동반 여행, 불타기념관 계단·이동 괜찮을까?",
-      dek: "넓은 부지 때문에 걱정되는 도보 거리, 돌아올 때의 교통편, 화요일 휴관처럼 놓치기 쉬운 부분까지 — 출발 전에 확인할 것만 추렸습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "가오슝 · 부모님 동반 가이드",
-      intro: "\"불광산은 넓다던데, 무릎이 안 좋은 엄마와 가도 될까?\" 불광산 부모님 동반 여행은 가오슝 근교 다수(大樹)구 여행 중 질문이 유난히 많은 주제예요. 불타기념관 공식 안내와 실제 여행자들의 경험을 바탕으로 이동과 체력 안배 포인트를 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 가는 방법 한눈에 비교하기" },
+    "heroImage": "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg",
+    "ko": {
+      "pageTitle": "불광산 부모님 동반 — 교통·휠체어·셔틀 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "불광산 부모님 동반 여행, 괜찮을까요? 가오슝에서 가는 방법, 휠체어 대여, 사찰–기념관 셔틀, 휴관일을 공식 안내로 정리했어요.",
+      "ogTitle": "불광산 부모님 동반 여행, 불타기념관 계단·이동 괜찮을까?",
+      "eyebrow": "가오슝 여행 가이드 · 부모님 동반",
+      "title": "불광산 부모님 동반 여행, 불타기념관 계단·이동 괜찮을까?",
+      "dek": "넓은 부지 때문에 걱정되는 도보 거리, 돌아올 때의 교통편, 화요일 휴관처럼 놓치기 쉬운 부분까지 — 출발 전에 확인할 것만 추렸습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 부모님 동반 가이드",
+      "intro": "\"불광산은 넓다던데, 무릎이 안 좋은 엄마와 가도 될까?\" 불광산 부모님 동반 여행은 가오슝 근교 다수(大樹)구 여행 중 질문이 유난히 많은 주제예요. 불타기념관 공식 안내와 실제 여행자들의 경험을 바탕으로 이동과 체력 안배 포인트를 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["고속철 쭤잉역 + 하버드쾌선", "가오슝역 + 8009·8010 버스", "택시·우버"],
-          rows: [
-            { label: "소요", values: ["고속도로 경유 약 30분(공식 안내)", "일반 도로 경유, 더 오래 걸림", "교통 상황에 따라 다름"] },
-            { label: "장점", values: ["부지 입구까지 한 번에", "시내 숙소에서 접근 쉬움", "문 앞 하차, 짐·체력 부담 적음"] },
-            { label: "주의", values: ["배차 간격을 미리 확인", "환승·대기 시간 고려", "귀가 편 호출이 늦을 수 있어 미리 계획"] },
-            { label: "추천 상황", values: ["고속철로 이동하는 날", "대중교통 위주 일정", "걷기 힘든 부모님 동반"] },
-          ],
+          "type": "h2",
+          "text": "01 · 가는 방법 한눈에 비교하기"
         },
-        { type: "h2", text: "02 · 불광산 부모님 동반, 걷는 거리 줄이는 법" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "휠체어·유모차 무료 대여", desc: "불타기념관은 리징다팅(禮敬大廳)과 본관 안내데스크에서 휠체어와 유모차를 빌려줍니다." },
-            { mark: "✓", b: "무장애 설계와 지붕 있는 회랑", desc: "공식 안내에 따르면 관 전체가 무장애 공간이고 비·햇볕을 피할 수 있는 회랑과 쉼터가 곳곳에 있어요." },
-            { mark: "✓", b: "사찰–기념관 셔틀 이용", desc: "불광산사 부얼먼(不二門)과 기념관 사이에 매일 09:00~17:00 셔틀이 다닙니다. 평일 1시간, 주말·연휴 30분 간격이에요(2026년 9월 기준)." },
-            { mark: "✓", b: "구역 줄이기", desc: "두 곳을 다 걸어서 보기보다 기념관 중심으로 보고 사찰은 셔틀로 핵심만 보는 코스가 무리가 적습니다." },
+          "type": "compareTable",
+          "cities": [
+            "고속철 쭤잉역 + 하버드쾌선",
+            "가오슝역 + 8009·8010 버스",
+            "택시·우버"
           ],
+          "rows": [
+            {
+              "label": "소요",
+              "values": [
+                "고속도로 경유 약 30분(공식 안내)",
+                "일반 도로 경유, 더 오래 걸림",
+                "교통 상황에 따라 다름"
+              ]
+            },
+            {
+              "label": "장점",
+              "values": [
+                "부지 입구까지 한 번에",
+                "시내 숙소에서 접근 쉬움",
+                "문 앞 하차, 짐·체력 부담 적음"
+              ]
+            },
+            {
+              "label": "주의",
+              "values": [
+                "배차 간격을 미리 확인",
+                "환승·대기 시간 고려",
+                "귀가 편 호출이 늦을 수 있어 미리 계획"
+              ]
+            },
+            {
+              "label": "추천 상황",
+              "values": [
+                "고속철로 이동하는 날",
+                "대중교통 위주 일정",
+                "걷기 힘든 부모님 동반"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg", caption: "불광산 불타기념관의 탑과 대불로 이어지는 넓은 길이에요. 햇볕이 강한 날엔 회랑 쪽으로 걷는 게 편해요." },
-        { type: "h2", text: "03 · 출발 전에 꼭 확인할 것" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "화요일 휴관", desc: "기념관은 매주 화요일 휴관이에요. 월·수~금 09:00~18:00, 주말은 리징다팅이 19:00까지 엽니다(2026년 9월 기준)." },
-            { mark: "2", b: "복장 규정", desc: "슬리퍼나 노출이 심한 옷차림은 입관이 제한될 수 있어요. 부모님 신발은 편한 운동화가 좋습니다." },
-            { mark: "3", b: "식사 계획", desc: "관 안의 식당과 카페는 채식 위주입니다. 육류는 반입도 안 되니 참고하세요." },
-            { mark: "4", b: "돌아오는 교통", desc: "택시로 갔다면 귀가 편을 미리 정해두세요. 버스 시간표는 가오슝 버스 앱으로 확인하는 게 정확합니다." },
-          ],
+          "type": "h2",
+          "text": "02 · 불광산 부모님 동반, 걷는 거리 줄이는 법"
         },
-        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F79807-kaohsiung-city-day-tour-experience%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 가오슝 일일 투어 (불광산·연지담·보얼) 보기 →</a>" },
-        { type: "h2", text: "04 · 부모님 체력별 추천 동선" },
-        { type: "p", html: "걷기에 자신이 있다면 기념관 정문에서 대불 쪽으로 천천히 걸으며 중간중간 회랑에서 쉬어가면 됩니다. 무릎이 불편하다면 입구에서 휠체어를 빌리고 본관 실내 전시 위주로 보는 편이 좋아요. 여름 한낮은 그늘 없는 광장이 뜨거우니 오전이나 늦은 오후를 추천합니다." },
-        { type: "quote", text: "\"넓긴 한데 쉴 곳이 많아서 생각보다 괜찮았다는 말이 많아요.\" — 부모님과 다녀온 여행자들의 후기를 요약했습니다." },
-        { type: "p", html: "시내로 돌아와 부모님과 편하게 한 끼 하려면 <a href=\"/kaohsiung-taiwanese\">가오슝 대만식 맛집</a> 페이지를 보세요. 루러우판 한 그릇으로 가볍게 먹기 좋은 <a href=\"/kaohsiung-taiwanese-661\">전금육조반(前金肉燥飯)</a>도 있어요. 다른 명소는 <a href=\"/kaohsiung-attraction\">가오슝 가볼 만한 곳</a>, 전체 동선은 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 확인할 수 있어요." },
-        { type: "note", text: "이 글은 불타기념관 공식 참관·공공서비스 안내(2026년 9월 기준)와 여행자들의 경험을 바탕으로 정리했습니다. 운영시간·셔틀·버스 시간은 바뀔 수 있으니 방문 전 공식 공지를 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 가오슝 명소도 확인해보세요", desc: "불광산 전후로 들르기 좋은 가오슝 명소와 맛집을 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=kaohsiung&cat=attraction" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "휠체어·유모차 무료 대여",
+              "desc": "불타기념관은 리징다팅(禮敬大廳)과 본관 안내데스크에서 휠체어와 유모차를 빌려줍니다."
+            },
+            {
+              "mark": "✓",
+              "b": "무장애 설계와 지붕 있는 회랑",
+              "desc": "공식 안내에 따르면 관 전체가 무장애 공간이고 비·햇볕을 피할 수 있는 회랑과 쉼터가 곳곳에 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "사찰–기념관 셔틀 이용",
+              "desc": "불광산사 부얼먼(不二門)과 기념관 사이에 매일 09:00~17:00 셔틀이 다닙니다. 평일 1시간, 주말·연휴 30분 간격이에요(2026년 9월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "구역 줄이기",
+              "desc": "두 곳을 다 걸어서 보기보다 기념관 중심으로 보고 사찰은 셔틀로 핵심만 보는 코스가 무리가 적습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg",
+          "caption": "불광산 불타기념관의 탑과 대불로 이어지는 넓은 길이에요. 햇볕이 강한 날엔 회랑 쪽으로 걷는 게 편해요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 출발 전에 꼭 확인할 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "화요일 휴관",
+              "desc": "기념관은 매주 화요일 휴관이에요. 월·수~금 09:00~18:00, 주말은 리징다팅이 19:00까지 엽니다(2026년 9월 기준)."
+            },
+            {
+              "mark": "2",
+              "b": "복장 규정",
+              "desc": "슬리퍼나 노출이 심한 옷차림은 입관이 제한될 수 있어요. 부모님 신발은 편한 운동화가 좋습니다."
+            },
+            {
+              "mark": "3",
+              "b": "식사 계획",
+              "desc": "관 안의 식당과 카페는 채식 위주입니다. 육류는 반입도 안 되니 참고하세요."
+            },
+            {
+              "mark": "4",
+              "b": "돌아오는 교통",
+              "desc": "택시로 갔다면 귀가 편을 미리 정해두세요. 버스 시간표는 가오슝 버스 앱으로 확인하는 게 정확합니다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F79807-kaohsiung-city-day-tour-experience%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 가오슝 일일 투어 (불광산·연지담·보얼) 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 부모님 체력별 추천 동선"
+        },
+        {
+          "type": "p",
+          "html": "걷기에 자신이 있다면 기념관 정문에서 대불 쪽으로 천천히 걸으며 중간중간 회랑에서 쉬어가면 됩니다. 무릎이 불편하다면 입구에서 휠체어를 빌리고 본관 실내 전시 위주로 보는 편이 좋아요. 여름 한낮은 그늘 없는 광장이 뜨거우니 오전이나 늦은 오후를 추천합니다."
+        },
+        {
+          "type": "quote",
+          "text": "\"넓긴 한데 쉴 곳이 많아서 생각보다 괜찮았다는 말이 많아요.\" — 부모님과 다녀온 여행자들의 후기를 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "시내로 돌아와 부모님과 편하게 한 끼 하려면 <a href=\"/kaohsiung-taiwanese\">가오슝 대만식 맛집</a> 페이지를 보세요. 루러우판 한 그릇으로 가볍게 먹기 좋은 <a href=\"/kaohsiung-taiwanese-661\">전금육조반(前金肉燥飯)</a>도 있어요. 다른 명소는 <a href=\"/kaohsiung-attraction\">가오슝 가볼 만한 곳</a>, 전체 동선은 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 확인할 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 불타기념관 공식 참관·공공서비스 안내(2026년 9월 기준)와 여행자들의 경험을 바탕으로 정리했습니다. 운영시간·셔틀·버스 시간은 바뀔 수 있으니 방문 전 공식 공지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 명소도 확인해보세요",
+          "desc": "불광산 전후로 들르기 좋은 가오슝 명소와 맛집을 지도에서 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung&cat=attraction"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Fo Guang Shan Buddha Museum with Parents — Transport, Wheelchairs, Shuttle · My Secret Taiwan Eats",
-      metaDescription: "Is Fo Guang Shan and the Buddha Museum doable with older parents? Getting there, free wheelchair loans, the temple–museum shuttle, and closing days, based on official information.",
-      ogTitle: "Fo Guang Shan with Parents: How Hard Are the Walking and Transport?",
-      eyebrow: "Kaohsiung Travel Guide · With Parents",
-      title: "Fo Guang Shan with Parents: How Hard Are the Walking and Transport?",
-      dek: "From the long distances on site to the ride back and the Tuesday closure — only what's worth checking before you go.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Kaohsiung · Traveling with Parents",
-      intro: "\"Fo Guang Shan is huge — is it OK with a mom who has bad knees?\" Fo Guang Shan and its Buddha Museum in Kaohsiung's Dashu District get this question a lot. Based on the museum's official visitor information and real traveler experiences, here's how to handle getting around and pacing the day.",
-      blocks: [
-        { type: "h2", text: "01 · Getting There at a Glance" },
+    "en": {
+      "pageTitle": "Fo Guang Shan Buddha Museum with Parents — Transport, Wheelchairs, Shuttle · My Secret Taiwan Eats",
+      "metaDescription": "Is Fo Guang Shan and the Buddha Museum doable with older parents? Getting there, free wheelchair loans, the temple–museum shuttle, and closing days, based on official information.",
+      "ogTitle": "Fo Guang Shan with Parents: How Hard Are the Walking and Transport?",
+      "eyebrow": "Kaohsiung Travel Guide · With Parents",
+      "title": "Fo Guang Shan with Parents: How Hard Are the Walking and Transport?",
+      "dek": "From the long distances on site to the ride back and the Tuesday closure — only what's worth checking before you go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Traveling with Parents",
+      "intro": "\"Fo Guang Shan is huge — is it OK with a mom who has bad knees?\" Fo Guang Shan and its Buddha Museum in Kaohsiung's Dashu District get this question a lot. Based on the museum's official visitor information and real traveler experiences, here's how to handle getting around and pacing the day.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["HSR Zuoying + Harvard Express", "Kaohsiung Station + Bus 8009/8010", "Taxi / Uber"],
-          rows: [
-            { label: "Time", values: ["About 30 min via expressway (official)", "Local roads, takes longer", "Depends on traffic"] },
-            { label: "Pros", values: ["Straight to the site", "Easy from city hotels", "Door-to-door, least strain"] },
-            { label: "Watch out", values: ["Check the timetable", "Allow for waits and transfers", "Plan your ride back in advance"] },
-            { label: "Best for", values: ["HSR travel days", "Transit-based trips", "Parents who can't walk far"] },
-          ],
+          "type": "h2",
+          "text": "01 · Getting There at a Glance"
         },
-        { type: "h2", text: "02 · Cutting Down the Walking" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Free wheelchairs and strollers", desc: "The museum lends them at the Front Hall (禮敬大廳) and the Main Hall service desk." },
-            { mark: "✓", b: "Barrier-free with covered walkways", desc: "According to the museum, the whole site is barrier-free, with sheltered corridors and rest spots throughout." },
-            { mark: "✓", b: "Temple–museum shuttle", desc: "A shuttle runs daily 09:00–17:00 between the temple's Bu'er Gate (不二門) and the museum — hourly on weekdays, every 30 minutes on weekends and holidays." },
-            { mark: "✓", b: "See less, rest more", desc: "Focusing on the museum and taking the shuttle for the temple's highlights is easier than walking both." },
+          "type": "compareTable",
+          "cities": [
+            "HSR Zuoying + Harvard Express",
+            "Kaohsiung Station + Bus 8009/8010",
+            "Taxi / Uber"
           ],
+          "rows": [
+            {
+              "label": "Time",
+              "values": [
+                "About 30 min via expressway (official)",
+                "Local roads, takes longer",
+                "Depends on traffic"
+              ]
+            },
+            {
+              "label": "Pros",
+              "values": [
+                "Straight to the site",
+                "Easy from city hotels",
+                "Door-to-door, least strain"
+              ]
+            },
+            {
+              "label": "Watch out",
+              "values": [
+                "Check the timetable",
+                "Allow for waits and transfers",
+                "Plan your ride back in advance"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "HSR travel days",
+                "Transit-based trips",
+                "Parents who can't walk far"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg", caption: "The wide avenue leading to the pagodas and the big Buddha at Fo Guang Shan's Buddha Museum — on sunny days, the covered walkways are easier." },
-        { type: "h2", text: "03 · Check Before You Go" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Closed Tuesdays", desc: "The museum is closed every Tuesday. Mon and Wed–Fri 09:00–18:00; on weekends the Front Hall stays open until 19:00." },
-            { mark: "2", b: "Dress code", desc: "Slippers and revealing clothes may be refused. Comfortable sneakers are best for parents." },
-            { mark: "3", b: "Meals", desc: "On-site restaurants and cafés are vegetarian, and meat can't be brought in." },
-            { mark: "4", b: "The ride back", desc: "If you arrive by taxi, plan the return trip. Check bus times in a Kaohsiung bus app." },
-          ],
+          "type": "h2",
+          "text": "02 · Cutting Down the Walking"
         },
-        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F79807-kaohsiung-city-day-tour-experience%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Kaohsiung day tour (Fo Guang Shan, Lotus Pond, Pier-2) on Klook →</a>" },
-        { type: "h2", text: "04 · Routes by Stamina" },
-        { type: "p", html: "If walking is fine, stroll from the main gate toward the big Buddha and take breaks in the covered corridors. For sore knees, borrow a wheelchair at the entrance and focus on the indoor exhibits in the Main Hall. Midday in summer gets hot on the open plaza, so mornings or late afternoons work better." },
-        { type: "quote", text: "\"It's big, but there are so many places to rest that it was easier than expected.\" — a summary of what travelers who went with their parents often say." },
-        { type: "p", html: "Back in the city, for an easy meal with parents see the <a href=\"/kaohsiung-taiwanese\">Kaohsiung Taiwanese restaurants</a> page. <a href=\"/kaohsiung-taiwanese-661\">Qianjin Rou Zao Fan (前金肉燥飯)</a> is a light bowl of lu rou fan. Other sights are on <a href=\"/kaohsiung-attraction\">Kaohsiung attractions</a>, and the full area is on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>." },
-        { type: "note", text: "This guide is based on the Buddha Museum's official visitor and public service information (as of September 2026) and traveler experiences. Hours, shuttles, and bus times can change, so check official notices before you go." },
-        { type: "cta", title: "Find Kaohsiung Sights on the Map", desc: "Look up Kaohsiung sights and restaurants to pair with Fo Guang Shan.", btn: "Open Map →", href: "/map?region=kaohsiung&cat=attraction" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Free wheelchairs and strollers",
+              "desc": "The museum lends them at the Front Hall (禮敬大廳) and the Main Hall service desk."
+            },
+            {
+              "mark": "✓",
+              "b": "Barrier-free with covered walkways",
+              "desc": "According to the museum, the whole site is barrier-free, with sheltered corridors and rest spots throughout."
+            },
+            {
+              "mark": "✓",
+              "b": "Temple–museum shuttle",
+              "desc": "A shuttle runs daily 09:00–17:00 between the temple's Bu'er Gate (不二門) and the museum — hourly on weekdays, every 30 minutes on weekends and holidays."
+            },
+            {
+              "mark": "✓",
+              "b": "See less, rest more",
+              "desc": "Focusing on the museum and taking the shuttle for the temple's highlights is easier than walking both."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-fo-guang-shan-with-parents-checklist-1.jpg",
+          "caption": "The wide avenue leading to the pagodas and the big Buddha at Fo Guang Shan's Buddha Museum — on sunny days, the covered walkways are easier."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Check Before You Go"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Closed Tuesdays",
+              "desc": "The museum is closed every Tuesday. Mon and Wed–Fri 09:00–18:00; on weekends the Front Hall stays open until 19:00."
+            },
+            {
+              "mark": "2",
+              "b": "Dress code",
+              "desc": "Slippers and revealing clothes may be refused. Comfortable sneakers are best for parents."
+            },
+            {
+              "mark": "3",
+              "b": "Meals",
+              "desc": "On-site restaurants and cafés are vegetarian, and meat can't be brought in."
+            },
+            {
+              "mark": "4",
+              "b": "The ride back",
+              "desc": "If you arrive by taxi, plan the return trip. Check bus times in a Kaohsiung bus app."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F79807-kaohsiung-city-day-tour-experience%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Kaohsiung day tour (Fo Guang Shan, Lotus Pond, Pier-2) on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Routes by Stamina"
+        },
+        {
+          "type": "p",
+          "html": "If walking is fine, stroll from the main gate toward the big Buddha and take breaks in the covered corridors. For sore knees, borrow a wheelchair at the entrance and focus on the indoor exhibits in the Main Hall. Midday in summer gets hot on the open plaza, so mornings or late afternoons work better."
+        },
+        {
+          "type": "quote",
+          "text": "\"It's big, but there are so many places to rest that it was easier than expected.\" — a summary of what travelers who went with their parents often say."
+        },
+        {
+          "type": "p",
+          "html": "Back in the city, for an easy meal with parents see the <a href=\"/kaohsiung-taiwanese\">Kaohsiung Taiwanese restaurants</a> page. <a href=\"/kaohsiung-taiwanese-661\">Qianjin Rou Zao Fan (前金肉燥飯)</a> is a light bowl of lu rou fan. Other sights are on <a href=\"/kaohsiung-attraction\">Kaohsiung attractions</a>, and the full area is on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on the Buddha Museum's official visitor and public service information (as of September 2026) and traveler experiences. Hours, shuttles, and bus times can change, so check official notices before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung Sights on the Map",
+          "desc": "Look up Kaohsiung sights and restaurants to pair with Fo Guang Shan.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung&cat=attraction"
+        }
+      ]
+    }
   },
-
   "kaohsiung-3n4d-with-mom-itinerary-check": {
-    heroImage: "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg",
-    ko: {
-      pageTitle: "가오슝 3박4일 부모님 — AI 일정 점검 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "가오슝 3박4일 부모님 일정을 AI로 짰다면 그대로 가도 될까요? AI 일정에서 자주 생기는 과밀·동선 문제와 점검 순서를 정리했어요.",
-      ogTitle: "가오슝 3박4일 부모님 일정, AI가 짠 그대로 가도 될까?",
-      eyebrow: "가오슝 여행 가이드 · 일정 팁",
-      title: "가오슝 3박4일 부모님 일정, AI가 짠 그대로 가도 될까?",
-      dek: "하루 다섯 곳씩 채워 넣는 과밀 일정, 휴관일 무시, 지도상으로만 가까운 동선처럼 AI 일정에서 반복되는 실수를 점검 순서대로 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "가오슝 · 일정 가이드",
-      intro: "\"AI가 짜준 가오슝 3박4일 부모님 일정, 엄마랑 다니기엔 너무 빡빡하지 않을까?\" 요즘은 챗GPT·제미나이로 초안을 만들고 커뮤니티에 검수를 받는 여행자가 많아요. 실제 여행자들의 경험을 바탕으로 AI 일정을 부모님 동반용으로 고치는 방법을 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · AI 여행 일정 vs 가오슝 3박4일 부모님 일정 비교" },
+    "heroImage": "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg",
+    "ko": {
+      "pageTitle": "가오슝 3박4일 부모님 — AI 일정 점검 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 3박4일 부모님 일정을 AI로 짰다면 그대로 가도 될까요? AI 일정에서 자주 생기는 과밀·동선 문제와 점검 순서를 정리했어요.",
+      "ogTitle": "가오슝 3박4일 부모님 일정, AI가 짠 그대로 가도 될까?",
+      "eyebrow": "가오슝 여행 가이드 · 일정 팁",
+      "title": "가오슝 3박4일 부모님 일정, AI가 짠 그대로 가도 될까?",
+      "dek": "하루 다섯 곳씩 채워 넣는 과밀 일정, 휴관일 무시, 지도상으로만 가까운 동선처럼 AI 일정에서 반복되는 실수를 점검 순서대로 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 일정 가이드",
+      "intro": "\"AI가 짜준 가오슝 3박4일 부모님 일정, 엄마랑 다니기엔 너무 빡빡하지 않을까?\" 요즘은 챗GPT·제미나이로 초안을 만들고 커뮤니티에 검수를 받는 여행자가 많아요. 실제 여행자들의 경험을 바탕으로 AI 일정을 부모님 동반용으로 고치는 방법을 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["AI 초안에서 흔한 모습", "부모님 동반용 수정안"],
-          rows: [
-            { label: "하루 방문지", values: ["4~6곳을 촘촘히 배치", "핵심 2~3곳 + 휴식 시간"] },
-            { label: "동선", values: ["지도상 가까운 곳끼리 묶음", "MRT·경전철역 기준, 도보 10분 이내로 묶기"] },
-            { label: "운영시간", values: ["휴관일·운행 시간 미반영", "요일별 휴관(예: 불타기념관 화요일) 확인"] },
-            { label: "식사", values: ["유명 맛집 위주", "앉아서 쉬기 편한 곳, 대기 짧은 곳"] },
-          ],
+          "type": "h2",
+          "text": "01 · AI 여행 일정 vs 가오슝 3박4일 부모님 일정 비교"
         },
-        { type: "h2", text: "02 · 점검은 이 순서로 하세요" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "휴관일부터 지우기", desc: "AI는 요일별 휴관을 자주 놓칩니다. 박물관·사찰·곤돌라 같은 곳은 공식 사이트에서 휴관일을 확인하세요." },
-            { mark: "2", b: "이동 시간 실제로 계산", desc: "구글 지도로 구간별 대중교통 시간을 찍어보면 '가까워 보이던' 곳이 30분 넘게 걸리는 경우가 흔해요." },
-            { mark: "3", b: "하루 한 번은 숙소 복귀", desc: "오후에 숙소에서 한두 시간 쉬는 시간을 넣으면 저녁 야시장까지 무리 없이 소화할 수 있습니다." },
-            { mark: "4", b: "근교는 하루에 하나만", desc: "불광산·치진·다수 같은 근교는 반나절 이상 걸리니 같은 날 두 곳을 넣지 않는 게 좋아요." },
+          "type": "compareTable",
+          "cities": [
+            "AI 초안에서 흔한 모습",
+            "부모님 동반용 수정안"
           ],
+          "rows": [
+            {
+              "label": "하루 방문지",
+              "values": [
+                "4~6곳을 촘촘히 배치",
+                "핵심 2~3곳 + 휴식 시간"
+              ]
+            },
+            {
+              "label": "동선",
+              "values": [
+                "지도상 가까운 곳끼리 묶음",
+                "MRT·경전철역 기준, 도보 10분 이내로 묶기"
+              ]
+            },
+            {
+              "label": "운영시간",
+              "values": [
+                "휴관일·운행 시간 미반영",
+                "요일별 휴관(예: 불타기념관 화요일) 확인"
+              ]
+            },
+            {
+              "label": "식사",
+              "values": [
+                "유명 맛집 위주",
+                "앉아서 쉬기 편한 곳, 대기 짧은 곳"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg", caption: "가오슝 롄츠탄(연지담) 호수 위의 누각과 탑이에요. 호숫가 산책로가 평탄해 부모님과 걷기 좋은 코스예요." },
-        { type: "h2", text: "03 · 가오슝이라 쉬운 점, 어려운 점" },
-        { type: "p", html: "가오슝은 MRT 레드·오렌지 라인과 도심을 도는 순환 경전철이 있어 시내 이동이 단순한 편입니다. 반면 명소 사이 간격이 넓고 햇볕이 강해서, 표에서 본 거리보다 체감 피로가 큽니다. 걷는 구간이 길 때는 택시나 우버를 섞는 게 부모님 동반 여행의 핵심이에요." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "숙소는 역 가까이", desc: "MRT 역 도보권 숙소를 잡으면 매일 오가는 부담이 확 줄어듭니다." },
-            { mark: "✓", b: "치진은 오전에", desc: "섬 해변 쪽은 오후 햇볕이 강해 오전 방문이 편하다는 의견이 많아요." },
-            { mark: "✓", b: "야시장은 짧게", desc: "서서 먹는 곳이 많아 부모님과는 한두 가지만 사서 숙소에서 먹는 것도 방법입니다." },
-          ],
+          "type": "h2",
+          "text": "02 · 점검은 이 순서로 하세요"
         },
-        { type: "h2", text: "04 · AI에게 다시 물어볼 때 쓰는 문장" },
-        { type: "p", html: "초안을 고칠 때는 조건을 구체적으로 주면 결과가 확 좋아집니다. 예를 들어 \"60대 어머니, 하루 도보 1만 보 이하, 오후 휴식 필수, MRT역 기준 동선, 요일별 휴관 반영\"처럼 적고 다시 요청해보세요. 그래도 최종 확인은 공식 사이트로 하는 게 안전합니다." },
-        { type: "quote", text: "\"AI 일정은 뼈대로만 쓰고, 하루에 한 곳씩 빼면 딱 맞는다.\" — 커뮤니티 검수를 받아본 여행자들이 자주 하는 말을 요약했습니다." },
-        { type: "p", html: "일정을 고친 뒤 빈칸은 식사로 채우면 됩니다. 아침은 <a href=\"/kaohsiung-breakfast\">가오슝 조식 맛집</a> 중 숙소 가까운 곳을 고르고, 전통 판투안을 파는 <a href=\"/kaohsiung-breakfast-745\">류제 전통 판투안·단삥 전문점</a> 같은 곳은 부모님도 부담이 적어요. 저녁 산책 삼아 <a href=\"/kaohsiung-attraction-neiwei-night-market-294\">네이웨이 야시장</a>을 넣어도 좋고, 전체 위치는 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 비교해보세요." },
-        { type: "note", text: "이 글은 가오슝을 부모님과 다녀온 여행자들의 경험과 가오슝시 관광·교통 공식 안내를 바탕으로 정리했습니다(2026년 9월 기준). 명소별 운영시간은 방문 전 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 가오슝 맛집도 찜해두세요", desc: "수정한 동선 근처의 가오슝 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=kaohsiung" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "휴관일부터 지우기",
+              "desc": "AI는 요일별 휴관을 자주 놓칩니다. 박물관·사찰·곤돌라 같은 곳은 공식 사이트에서 휴관일을 확인하세요."
+            },
+            {
+              "mark": "2",
+              "b": "이동 시간 실제로 계산",
+              "desc": "구글 지도로 구간별 대중교통 시간을 찍어보면 '가까워 보이던' 곳이 30분 넘게 걸리는 경우가 흔해요."
+            },
+            {
+              "mark": "3",
+              "b": "하루 한 번은 숙소 복귀",
+              "desc": "오후에 숙소에서 한두 시간 쉬는 시간을 넣으면 저녁 야시장까지 무리 없이 소화할 수 있습니다."
+            },
+            {
+              "mark": "4",
+              "b": "근교는 하루에 하나만",
+              "desc": "불광산·치진·다수 같은 근교는 반나절 이상 걸리니 같은 날 두 곳을 넣지 않는 게 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg",
+          "caption": "가오슝 롄츠탄(연지담) 호수 위의 누각과 탑이에요. 호숫가 산책로가 평탄해 부모님과 걷기 좋은 코스예요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가오슝이라 쉬운 점, 어려운 점"
+        },
+        {
+          "type": "p",
+          "html": "가오슝은 MRT 레드·오렌지 라인과 도심을 도는 순환 경전철이 있어 시내 이동이 단순한 편입니다. 반면 명소 사이 간격이 넓고 햇볕이 강해서, 표에서 본 거리보다 체감 피로가 큽니다. 걷는 구간이 길 때는 택시나 우버를 섞는 게 부모님 동반 여행의 핵심이에요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "숙소는 역 가까이",
+              "desc": "MRT 역 도보권 숙소를 잡으면 매일 오가는 부담이 확 줄어듭니다."
+            },
+            {
+              "mark": "✓",
+              "b": "치진은 오전에",
+              "desc": "섬 해변 쪽은 오후 햇볕이 강해 오전 방문이 편하다는 의견이 많아요."
+            },
+            {
+              "mark": "✓",
+              "b": "야시장은 짧게",
+              "desc": "서서 먹는 곳이 많아 부모님과는 한두 가지만 사서 숙소에서 먹는 것도 방법입니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · AI에게 다시 물어볼 때 쓰는 문장"
+        },
+        {
+          "type": "p",
+          "html": "초안을 고칠 때는 조건을 구체적으로 주면 결과가 확 좋아집니다. 예를 들어 \"60대 어머니, 하루 도보 1만 보 이하, 오후 휴식 필수, MRT역 기준 동선, 요일별 휴관 반영\"처럼 적고 다시 요청해보세요. 그래도 최종 확인은 공식 사이트로 하는 게 안전합니다."
+        },
+        {
+          "type": "quote",
+          "text": "\"AI 일정은 뼈대로만 쓰고, 하루에 한 곳씩 빼면 딱 맞는다.\" — 커뮤니티 검수를 받아본 여행자들이 자주 하는 말을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "일정을 고친 뒤 빈칸은 식사로 채우면 됩니다. 아침은 <a href=\"/kaohsiung-breakfast\">가오슝 조식 맛집</a> 중 숙소 가까운 곳을 고르고, 전통 판투안을 파는 <a href=\"/kaohsiung-breakfast-745\">류제 전통 판투안·단삥 전문점</a> 같은 곳은 부모님도 부담이 적어요. 저녁 산책 삼아 <a href=\"/kaohsiung-attraction-neiwei-night-market-294\">네이웨이 야시장</a>을 넣어도 좋고, 전체 위치는 <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 비교해보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 가오슝을 부모님과 다녀온 여행자들의 경험과 가오슝시 관광·교통 공식 안내를 바탕으로 정리했습니다(2026년 9월 기준). 명소별 운영시간은 방문 전 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 맛집도 찜해두세요",
+          "desc": "수정한 동선 근처의 가오슝 맛집을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
     },
-    en: {
-      pageTitle: "How to Check an AI-Made Kaohsiung Itinerary — 4 Days with Parents · My Secret Taiwan Eats",
-      metaDescription: "Built a 4-day Kaohsiung itinerary with ChatGPT or Gemini? Here are the overpacking and routing problems AI plans often have, and how to fix them for a trip with parents.",
-      ogTitle: "Kaohsiung 4 Days with Mom: Can You Trust an AI-Made Itinerary?",
-      eyebrow: "Kaohsiung Travel Guide · Itinerary Tips",
-      title: "Kaohsiung 4 Days with Mom: Can You Trust an AI-Made Itinerary?",
-      dek: "Five stops a day, ignored closing days, routes that only look close on a map — the recurring AI itinerary mistakes, in the order you should check them.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Kaohsiung · Itinerary Guide",
-      intro: "\"The AI plan looks great, but is it too packed for my mom?\" More travelers now draft trips with ChatGPT or Gemini and ask online communities to review them. Based on real traveler experiences, here's how to adapt an AI-made 4-day Kaohsiung itinerary for a trip with parents.",
-      blocks: [
-        { type: "h2", text: "01 · AI Draft vs. Parent-Friendly Plan" },
+    "en": {
+      "pageTitle": "How to Check an AI-Made Kaohsiung Itinerary — 4 Days with Parents · My Secret Taiwan Eats",
+      "metaDescription": "Built a 4-day Kaohsiung itinerary with ChatGPT or Gemini? Here are the overpacking and routing problems AI plans often have, and how to fix them for a trip with parents.",
+      "ogTitle": "Kaohsiung 4 Days with Mom: Can You Trust an AI-Made Itinerary?",
+      "eyebrow": "Kaohsiung Travel Guide · Itinerary Tips",
+      "title": "Kaohsiung 4 Days with Mom: Can You Trust an AI-Made Itinerary?",
+      "dek": "Five stops a day, ignored closing days, routes that only look close on a map — the recurring AI itinerary mistakes, in the order you should check them.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Itinerary Guide",
+      "intro": "\"The AI plan looks great, but is it too packed for my mom?\" More travelers now draft trips with ChatGPT or Gemini and ask online communities to review them. Based on real traveler experiences, here's how to adapt an AI-made 4-day Kaohsiung itinerary for a trip with parents.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Typical AI draft", "Parent-friendly fix"],
-          rows: [
-            { label: "Stops per day", values: ["4–6 packed in", "2–3 highlights plus rest"] },
-            { label: "Routing", values: ["Grouped by map distance", "Grouped around MRT/LRT stations, under 10 min walk"] },
-            { label: "Opening hours", values: ["Closing days ignored", "Check weekly closures (e.g., Buddha Museum on Tuesdays)"] },
-            { label: "Meals", values: ["Famous spots only", "Places with seating and short waits"] },
-          ],
+          "type": "h2",
+          "text": "01 · AI Draft vs. Parent-Friendly Plan"
         },
-        { type: "h2", text: "02 · Check in This Order" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Remove closing days first", desc: "AI often misses weekly closures. Check museums, temples, and cable cars on their official sites." },
-            { mark: "2", b: "Calculate real travel times", desc: "Plot each leg in Google Maps — places that look close often take 30+ minutes." },
-            { mark: "3", b: "Go back to the hotel once a day", desc: "An hour or two of afternoon rest makes an evening night market much easier." },
-            { mark: "4", b: "One day trip per day", desc: "Fo Guang Shan, Cijin, and Dashu each take half a day or more, so don't stack two in one day." },
+          "type": "compareTable",
+          "cities": [
+            "Typical AI draft",
+            "Parent-friendly fix"
           ],
+          "rows": [
+            {
+              "label": "Stops per day",
+              "values": [
+                "4–6 packed in",
+                "2–3 highlights plus rest"
+              ]
+            },
+            {
+              "label": "Routing",
+              "values": [
+                "Grouped by map distance",
+                "Grouped around MRT/LRT stations, under 10 min walk"
+              ]
+            },
+            {
+              "label": "Opening hours",
+              "values": [
+                "Closing days ignored",
+                "Check weekly closures (e.g., Buddha Museum on Tuesdays)"
+              ]
+            },
+            {
+              "label": "Meals",
+              "values": [
+                "Famous spots only",
+                "Places with seating and short waits"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg", caption: "Pavilions and pagodas on Kaohsiung's Lotus Pond — the flat lakeside path is an easy walk with parents." },
-        { type: "h2", text: "03 · What's Easy and Hard About Kaohsiung" },
-        { type: "p", html: "Kaohsiung's Red and Orange MRT lines plus the circular light rail keep city travel simple. But sights are spread out and the sun is strong, so it feels more tiring than the map suggests. Mixing in taxis or Uber for long walks is the key to a trip with parents." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Stay near a station", desc: "A hotel within walking distance of an MRT station cuts daily effort a lot." },
-            { mark: "✓", b: "Cijin in the morning", desc: "Many say the island's beach side is easier before the afternoon sun." },
-            { mark: "✓", b: "Keep night markets short", desc: "Many stalls are standing-only, so buying a couple of dishes to eat at the hotel works well with parents." },
-          ],
+          "type": "h2",
+          "text": "02 · Check in This Order"
         },
-        { type: "h2", text: "04 · What to Tell the AI Next Time" },
-        { type: "p", html: "Specific constraints make a big difference. Try something like: \"Mother in her 60s, under 10,000 steps a day, afternoon rest required, routes based on MRT stations, weekly closures included.\" Still, confirm final details on official sites." },
-        { type: "quote", text: "\"Use the AI plan as a skeleton and drop one stop per day — then it fits perfectly.\" — a summary of what travelers who had their plans reviewed often say." },
-        { type: "p", html: "After you trim the plan, fill the gaps with meals. For breakfast, pick somewhere near your hotel from the <a href=\"/kaohsiung-breakfast\">Kaohsiung breakfast spots</a> page — places like <a href=\"/kaohsiung-breakfast-745\">Liujie Traditional Fantuan & Danbing</a> that serve classic fantuan are easier on parents. For an evening stroll, try <a href=\"/kaohsiung-attraction-neiwei-night-market-294\">Neiwei Night Market</a>, and compare locations on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>." },
-        { type: "note", text: "This guide is based on travelers who visited Kaohsiung with their parents and official Kaohsiung tourism and transit information (as of September 2026). Check each sight's hours before you go." },
-        { type: "cta", title: "Bookmark Kaohsiung Restaurants on the Map", desc: "Find Kaohsiung restaurants near your revised route on the map.", btn: "Open Map →", href: "/map?region=kaohsiung" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Remove closing days first",
+              "desc": "AI often misses weekly closures. Check museums, temples, and cable cars on their official sites."
+            },
+            {
+              "mark": "2",
+              "b": "Calculate real travel times",
+              "desc": "Plot each leg in Google Maps — places that look close often take 30+ minutes."
+            },
+            {
+              "mark": "3",
+              "b": "Go back to the hotel once a day",
+              "desc": "An hour or two of afternoon rest makes an evening night market much easier."
+            },
+            {
+              "mark": "4",
+              "b": "One day trip per day",
+              "desc": "Fo Guang Shan, Cijin, and Dashu each take half a day or more, so don't stack two in one day."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-3n4d-with-mom-itinerary-check-1.jpg",
+          "caption": "Pavilions and pagodas on Kaohsiung's Lotus Pond — the flat lakeside path is an easy walk with parents."
+        },
+        {
+          "type": "h2",
+          "text": "03 · What's Easy and Hard About Kaohsiung"
+        },
+        {
+          "type": "p",
+          "html": "Kaohsiung's Red and Orange MRT lines plus the circular light rail keep city travel simple. But sights are spread out and the sun is strong, so it feels more tiring than the map suggests. Mixing in taxis or Uber for long walks is the key to a trip with parents."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Stay near a station",
+              "desc": "A hotel within walking distance of an MRT station cuts daily effort a lot."
+            },
+            {
+              "mark": "✓",
+              "b": "Cijin in the morning",
+              "desc": "Many say the island's beach side is easier before the afternoon sun."
+            },
+            {
+              "mark": "✓",
+              "b": "Keep night markets short",
+              "desc": "Many stalls are standing-only, so buying a couple of dishes to eat at the hotel works well with parents."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · What to Tell the AI Next Time"
+        },
+        {
+          "type": "p",
+          "html": "Specific constraints make a big difference. Try something like: \"Mother in her 60s, under 10,000 steps a day, afternoon rest required, routes based on MRT stations, weekly closures included.\" Still, confirm final details on official sites."
+        },
+        {
+          "type": "quote",
+          "text": "\"Use the AI plan as a skeleton and drop one stop per day — then it fits perfectly.\" — a summary of what travelers who had their plans reviewed often say."
+        },
+        {
+          "type": "p",
+          "html": "After you trim the plan, fill the gaps with meals. For breakfast, pick somewhere near your hotel from the <a href=\"/kaohsiung-breakfast\">Kaohsiung breakfast spots</a> page — places like <a href=\"/kaohsiung-breakfast-745\">Liujie Traditional Fantuan & Danbing</a> that serve classic fantuan are easier on parents. For an evening stroll, try <a href=\"/kaohsiung-attraction-neiwei-night-market-294\">Neiwei Night Market</a>, and compare locations on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on travelers who visited Kaohsiung with their parents and official Kaohsiung tourism and transit information (as of September 2026). Check each sight's hours before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Bookmark Kaohsiung Restaurants on the Map",
+          "desc": "Find Kaohsiung restaurants near your revised route on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    }
   },
-
   "taiwan-private-charter-taxi-family-checklist": {
-    heroImage: "assets/images/blog/taiwan-private-charter-taxi-family-checklist-1.jpg",
-    ko: {
-      pageTitle: "대만 가족여행 프라이빗 택시 — 예약 체크 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "대만 가족여행 프라이빗 택시, 예약 전에 뭘 물어봐야 할까요? 차종, 요금 포함 항목, 픽업 조건, 카시트 규정까지 정리했어요.",
-      ogTitle: "대만 가족여행 프라이빗 택시, 예약 전에 뭘 확인해야 할까?",
-      eyebrow: "대만 여행 가이드 · 교통",
-      title: "대만 가족여행 프라이빗 택시, 예약 전에 뭘 확인해야 할까?",
-      dek: "짐 개수에 맞는 차종, 요금에 빠지기 쉬운 통행료·주차비, 아이 카시트 규정처럼 예약 메시지에 꼭 넣어야 할 항목을 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 여행 · 교통 가이드",
-      intro: "\"어른 넷에 아이 둘, 캐리어 다섯 개인데 7인승이면 될까?\" 대만 가족여행 프라이빗 택시, 즉 전세 택시(包車)는 편하지만 예약 조건을 대충 정하면 현장에서 추가 요금이나 좌석 문제가 생기기 쉬워요. 실제 여행자들의 경험과 대만 교통 법규를 바탕으로 예약 전 체크리스트를 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 차종 한눈에 비교하기" },
+    "heroImage": "assets/images/blog/taiwan-private-charter-taxi-family-checklist-1.jpg",
+    "ko": {
+      "pageTitle": "대만 가족여행 프라이빗 택시 — 예약 체크 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 가족여행 프라이빗 택시, 예약 전에 뭘 물어봐야 할까요? 차종, 요금 포함 항목, 픽업 조건, 카시트 규정까지 정리했어요.",
+      "ogTitle": "대만 가족여행 프라이빗 택시, 예약 전에 뭘 확인해야 할까?",
+      "eyebrow": "대만 여행 가이드 · 교통",
+      "title": "대만 가족여행 프라이빗 택시, 예약 전에 뭘 확인해야 할까?",
+      "dek": "짐 개수에 맞는 차종, 요금에 빠지기 쉬운 통행료·주차비, 아이 카시트 규정처럼 예약 메시지에 꼭 넣어야 할 항목을 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 여행 · 교통 가이드",
+      "intro": "\"어른 넷에 아이 둘, 캐리어 다섯 개인데 7인승이면 될까?\" 대만 가족여행 프라이빗 택시, 즉 전세 택시(包車)는 편하지만 예약 조건을 대충 정하면 현장에서 추가 요금이나 좌석 문제가 생기기 쉬워요. 실제 여행자들의 경험과 대만 교통 법규를 바탕으로 예약 전 체크리스트를 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["일반 세단(4인승)", "7인승 MPV", "9인승 밴"],
-          rows: [
-            { label: "적정 인원", values: ["성인 3~4명", "성인 4~6명", "성인 6~8명"] },
-            { label: "캐리어", values: ["대형 2개 안팎", "대형 3~4개(좌석 배치에 따라)", "대형 5개 이상 가능"] },
-            { label: "요금 수준", values: ["가장 저렴", "중간", "가장 높음"] },
-            { label: "추천 상황", values: ["부부·소가족 공항 이동", "아이 동반 가족, 근교 투어", "대가족·짐 많은 일정"] },
-          ],
+          "type": "h2",
+          "text": "01 · 차종 한눈에 비교하기"
         },
-        { type: "h2", text: "02 · 예약 메시지에 꼭 넣을 항목" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "인원과 짐을 숫자로", desc: "어른·아이 수와 캐리어 크기·개수를 적어야 차종을 정확히 배정받을 수 있어요." },
-            { mark: "2", b: "요금 포함 항목", desc: "기사 식비, 고속도로 통행료, 주차비, 연장 요금이 포함인지 따로인지 확인하세요." },
-            { mark: "3", b: "시간 기준", desc: "'8시간'이 픽업 시각부터인지, 초과 시 시간당 얼마인지 미리 합의하는 게 좋아요." },
-            { mark: "4", b: "공항 픽업 조건", desc: "항공편 번호를 알려주고, 지연 시 대기 가능 시간과 만나는 장소를 정해두세요." },
-            { mark: "5", b: "결제 방식", desc: "현금·카드·선결제 여부와 취소 규정을 문자로 남겨두면 분쟁이 줄어듭니다." },
+          "type": "compareTable",
+          "cities": [
+            "일반 세단(4인승)",
+            "7인승 MPV",
+            "9인승 밴"
           ],
+          "rows": [
+            {
+              "label": "적정 인원",
+              "values": [
+                "성인 3~4명",
+                "성인 4~6명",
+                "성인 6~8명"
+              ]
+            },
+            {
+              "label": "캐리어",
+              "values": [
+                "대형 2개 안팎",
+                "대형 3~4개(좌석 배치에 따라)",
+                "대형 5개 이상 가능"
+              ]
+            },
+            {
+              "label": "요금 수준",
+              "values": [
+                "가장 저렴",
+                "중간",
+                "가장 높음"
+              ]
+            },
+            {
+              "label": "추천 상황",
+              "values": [
+                "부부·소가족 공항 이동",
+                "아이 동반 가족, 근교 투어",
+                "대가족·짐 많은 일정"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-private-charter-taxi-family-checklist-1.jpg", caption: "넓은 가죽 시트가 있는 차량 실내예요. 인원과 짐에 맞는 차종을 먼저 정해두면 좌석 걱정이 줄어요." },
-        { type: "h2", text: "03 · 대만 가족여행 프라이빗 택시와 카시트 규정" },
-        { type: "p", html: "대만 법규상 자가용·렌터카 같은 소형 승용차에 4세 이하이면서 18kg 이하인 아이를 태울 때는 카시트를 써야 하고, 위반하면 운전자에게 NT$1,500~3,000 과태료가 부과됩니다. 반면 영업용 택시는 이 의무 대상이 아닙니다(2026년 9월 기준). 다만 렌터카에 기사를 붙이는 방식의 전세 차량은 렌터카로 분류될 수 있어 카시트 규정이 적용될 수 있으니, 예약할 때 차량 종류와 카시트 제공 여부를 꼭 물어보세요. 법적 의무와 별개로 안전을 생각한다면 카시트 제공 여부를 예약할 때 꼭 물어보세요." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "카시트·부스터 요청", desc: "업체마다 제공 여부와 추가 요금이 달라요. 아이 나이와 몸무게를 함께 알려주세요." },
-            { mark: "✓", b: "기사 언어", desc: "한국어·영어 가능 기사를 원하면 요금이 달라질 수 있습니다." },
-            { mark: "✓", b: "경유지 미리 공유", desc: "동선이 정해지면 미리 보내야 소요 시간 견적이 정확해져요." },
-          ],
+          "type": "h2",
+          "text": "02 · 예약 메시지에 꼭 넣을 항목"
         },
-        { type: "h2", text: "04 · 이럴 땐 일반 택시·우버가 나아요" },
-        { type: "p", html: "시내 안에서 짧게 움직이거나 일정이 자주 바뀐다면 전세 택시보다 우버나 일반 택시가 경제적입니다. 반대로 근교 여러 곳을 하루에 묶거나 짐이 많은 공항 이동이라면 전세 차량이 체력과 시간을 아껴준다는 후기가 많아요." },
-        { type: "quote", text: "\"예약할 때 '포함'이라는 말만 믿지 말고 항목을 하나하나 적어 달라고 하세요.\" — 전세 택시를 이용해 본 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "전세차로 하루를 돌 계획이라면 <a href=\"/taipei-attraction\">타이베이 가볼 만한 곳</a>에서 동선을 먼저 묶어보세요. 아이와 함께라면 실내 관람이 가능한 <a href=\"/taipei-attraction-102\">국립고궁박물원</a>을 비 오는 날 대안으로 넣기 좋아요. 식당 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 확인할 수 있어요." },
-        { type: "note", text: "이 글은 대만 전세 택시를 이용해 본 여행자들의 경험과 대만 '소형차 유아 안전승차 규정'을 바탕으로 정리했습니다(2026년 9월 기준). 요금과 제공 서비스는 업체마다 다르니 예약 전 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 들를 맛집도 미리 찍어두세요", desc: "전세 차량 동선에 넣을 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "인원과 짐을 숫자로",
+              "desc": "어른·아이 수와 캐리어 크기·개수를 적어야 차종을 정확히 배정받을 수 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "요금 포함 항목",
+              "desc": "기사 식비, 고속도로 통행료, 주차비, 연장 요금이 포함인지 따로인지 확인하세요."
+            },
+            {
+              "mark": "3",
+              "b": "시간 기준",
+              "desc": "'8시간'이 픽업 시각부터인지, 초과 시 시간당 얼마인지 미리 합의하는 게 좋아요."
+            },
+            {
+              "mark": "4",
+              "b": "공항 픽업 조건",
+              "desc": "항공편 번호를 알려주고, 지연 시 대기 가능 시간과 만나는 장소를 정해두세요."
+            },
+            {
+              "mark": "5",
+              "b": "결제 방식",
+              "desc": "현금·카드·선결제 여부와 취소 규정을 문자로 남겨두면 분쟁이 줄어듭니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-private-charter-taxi-family-checklist-1.jpg",
+          "caption": "넓은 가죽 시트가 있는 차량 실내예요. 인원과 짐에 맞는 차종을 먼저 정해두면 좌석 걱정이 줄어요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 대만 가족여행 프라이빗 택시와 카시트 규정"
+        },
+        {
+          "type": "p",
+          "html": "대만 법규상 자가용·렌터카 같은 소형 승용차에 4세 이하이면서 18kg 이하인 아이를 태울 때는 카시트를 써야 하고, 위반하면 운전자에게 NT$1,500~3,000 과태료가 부과됩니다. 반면 영업용 택시는 이 의무 대상이 아닙니다(2026년 9월 기준). 다만 렌터카에 기사를 붙이는 방식의 전세 차량은 렌터카로 분류될 수 있어 카시트 규정이 적용될 수 있으니, 예약할 때 차량 종류와 카시트 제공 여부를 꼭 물어보세요. 법적 의무와 별개로 안전을 생각한다면 카시트 제공 여부를 예약할 때 꼭 물어보세요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "카시트·부스터 요청",
+              "desc": "업체마다 제공 여부와 추가 요금이 달라요. 아이 나이와 몸무게를 함께 알려주세요."
+            },
+            {
+              "mark": "✓",
+              "b": "기사 언어",
+              "desc": "한국어·영어 가능 기사를 원하면 요금이 달라질 수 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "경유지 미리 공유",
+              "desc": "동선이 정해지면 미리 보내야 소요 시간 견적이 정확해져요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 이럴 땐 일반 택시·우버가 나아요"
+        },
+        {
+          "type": "p",
+          "html": "시내 안에서 짧게 움직이거나 일정이 자주 바뀐다면 전세 택시보다 우버나 일반 택시가 경제적입니다. 반대로 근교 여러 곳을 하루에 묶거나 짐이 많은 공항 이동이라면 전세 차량이 체력과 시간을 아껴준다는 후기가 많아요."
+        },
+        {
+          "type": "quote",
+          "text": "\"예약할 때 '포함'이라는 말만 믿지 말고 항목을 하나하나 적어 달라고 하세요.\" — 전세 택시를 이용해 본 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "전세차로 하루를 돌 계획이라면 <a href=\"/taipei-attraction\">타이베이 가볼 만한 곳</a>에서 동선을 먼저 묶어보세요. 아이와 함께라면 실내 관람이 가능한 <a href=\"/taipei-attraction-102\">국립고궁박물원</a>을 비 오는 날 대안으로 넣기 좋아요. 식당 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 확인할 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 전세 택시를 이용해 본 여행자들의 경험과 대만 '소형차 유아 안전승차 규정'을 바탕으로 정리했습니다(2026년 9월 기준). 요금과 제공 서비스는 업체마다 다르니 예약 전 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 들를 맛집도 미리 찍어두세요",
+          "desc": "전세 차량 동선에 넣을 맛집을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwan Private Taxi & Charter Car Checklist — Vehicle, Fares, Child Seats · My Secret Taiwan Eats",
-      metaDescription: "Before booking a private taxi or charter car for a family trip in Taiwan, check the vehicle type, what the fare covers, pickup terms, and child seat rules.",
-      ogTitle: "Booking a Private Taxi for a Family Trip in Taiwan: What to Check First",
-      eyebrow: "Taiwan Travel Guide · Transportation",
-      title: "Booking a Private Taxi for a Family Trip in Taiwan: What to Check First",
-      dek: "The vehicle that fits your luggage, tolls and parking that are easy to overlook, and child seat rules — everything your booking message should include.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan Travel · Transportation Guide",
-      intro: "\"Four adults, two kids, five suitcases — is a 7-seater enough?\" Charter taxis (包車) make family trips easier, but vague booking terms often lead to surprise fees or seating problems. Based on real traveler experiences and Taiwan's traffic rules, here's a checklist to go through before you book.",
-      blocks: [
-        { type: "h2", text: "01 · Vehicle Types at a Glance" },
+    "en": {
+      "pageTitle": "Taiwan Private Taxi & Charter Car Checklist — Vehicle, Fares, Child Seats · My Secret Taiwan Eats",
+      "metaDescription": "Before booking a private taxi or charter car for a family trip in Taiwan, check the vehicle type, what the fare covers, pickup terms, and child seat rules.",
+      "ogTitle": "Booking a Private Taxi for a Family Trip in Taiwan: What to Check First",
+      "eyebrow": "Taiwan Travel Guide · Transportation",
+      "title": "Booking a Private Taxi for a Family Trip in Taiwan: What to Check First",
+      "dek": "The vehicle that fits your luggage, tolls and parking that are easy to overlook, and child seat rules — everything your booking message should include.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan Travel · Transportation Guide",
+      "intro": "\"Four adults, two kids, five suitcases — is a 7-seater enough?\" Charter taxis (包車) make family trips easier, but vague booking terms often lead to surprise fees or seating problems. Based on real traveler experiences and Taiwan's traffic rules, here's a checklist to go through before you book.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Sedan (4 seats)", "7-seat MPV", "9-seat van"],
-          rows: [
-            { label: "Passengers", values: ["3–4 adults", "4–6 adults", "6–8 adults"] },
-            { label: "Suitcases", values: ["About 2 large", "3–4 large (depends on seating)", "5+ large"] },
-            { label: "Price", values: ["Lowest", "Mid", "Highest"] },
-            { label: "Best for", values: ["Couples or small families to the airport", "Families with kids, day trips", "Big families, lots of luggage"] },
-          ],
+          "type": "h2",
+          "text": "01 · Vehicle Types at a Glance"
         },
-        { type: "h2", text: "02 · What to Put in Your Booking Message" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Numbers for people and bags", desc: "List adults, kids, and suitcase sizes and counts so you get the right vehicle." },
-            { mark: "2", b: "What the fare includes", desc: "Ask whether driver meals, highway tolls, parking, and overtime are included." },
-            { mark: "3", b: "How time is counted", desc: "Agree whether \"8 hours\" starts at pickup and what each extra hour costs." },
-            { mark: "4", b: "Airport pickup terms", desc: "Share your flight number and agree on waiting time for delays and a meeting point." },
-            { mark: "5", b: "Payment", desc: "Confirm cash, card, or prepayment and the cancellation policy in writing." },
+          "type": "compareTable",
+          "cities": [
+            "Sedan (4 seats)",
+            "7-seat MPV",
+            "9-seat van"
           ],
+          "rows": [
+            {
+              "label": "Passengers",
+              "values": [
+                "3–4 adults",
+                "4–6 adults",
+                "6–8 adults"
+              ]
+            },
+            {
+              "label": "Suitcases",
+              "values": [
+                "About 2 large",
+                "3–4 large (depends on seating)",
+                "5+ large"
+              ]
+            },
+            {
+              "label": "Price",
+              "values": [
+                "Lowest",
+                "Mid",
+                "Highest"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Couples or small families to the airport",
+                "Families with kids, day trips",
+                "Big families, lots of luggage"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-private-charter-taxi-family-checklist-1.jpg", caption: "A car interior with roomy leather seats — settle the vehicle type for your group and luggage first." },
-        { type: "h2", text: "03 · With Kids, Start with Child Seat Rules" },
-        { type: "p", html: "Under Taiwanese rules, children aged 4 or under and weighing 18kg or less must ride in a child seat in private cars and rental cars, with fines of NT$1,500–3,000 for the driver. Licensed taxis are exempt from this requirement (as of September 2026). Note that some charter services use a rental car with a hired driver, which may count as a rental car where the car-seat rule applies, so ask about the vehicle type and car-seat availability when you book. Legal or not, ask whether a child seat is available when you book." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Request a car seat or booster", desc: "Availability and extra fees vary, so share your child's age and weight." },
-            { mark: "✓", b: "Driver's language", desc: "Korean- or English-speaking drivers may cost more." },
-            { mark: "✓", b: "Share stops in advance", desc: "A set route gets you a more accurate time estimate." },
-          ],
+          "type": "h2",
+          "text": "02 · What to Put in Your Booking Message"
         },
-        { type: "h2", text: "04 · When a Regular Taxi or Uber Is Better" },
-        { type: "p", html: "For short hops within the city or a plan that changes often, Uber or regular taxis are cheaper. For multiple day-trip stops or airport runs with lots of luggage, travelers often say a charter car saves time and energy." },
-        { type: "quote", text: "\"Don't just trust the word 'included' — ask them to list every item.\" — a summary of advice from travelers who've booked charter taxis." },
-        { type: "p", html: "If you're spending a day with a charter car, group your stops first using the <a href=\"/taipei-attraction\">Taipei attractions</a> page. With kids, the indoor <a href=\"/taipei-attraction-102\">National Palace Museum</a> makes a good rainy-day option. Check restaurant locations on the <a href=\"/region-taipei\">Taipei food map</a>." },
-        { type: "note", text: "This guide is based on travelers' charter taxi experiences and Taiwan's child passenger safety regulations for small vehicles (as of September 2026). Prices and services vary by company, so double-check before booking." },
-        { type: "cta", title: "Pin Restaurants for Your Route on the Map", desc: "Find restaurants to add to your charter car route on the map.", btn: "Open Map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Numbers for people and bags",
+              "desc": "List adults, kids, and suitcase sizes and counts so you get the right vehicle."
+            },
+            {
+              "mark": "2",
+              "b": "What the fare includes",
+              "desc": "Ask whether driver meals, highway tolls, parking, and overtime are included."
+            },
+            {
+              "mark": "3",
+              "b": "How time is counted",
+              "desc": "Agree whether \"8 hours\" starts at pickup and what each extra hour costs."
+            },
+            {
+              "mark": "4",
+              "b": "Airport pickup terms",
+              "desc": "Share your flight number and agree on waiting time for delays and a meeting point."
+            },
+            {
+              "mark": "5",
+              "b": "Payment",
+              "desc": "Confirm cash, card, or prepayment and the cancellation policy in writing."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-private-charter-taxi-family-checklist-1.jpg",
+          "caption": "A car interior with roomy leather seats — settle the vehicle type for your group and luggage first."
+        },
+        {
+          "type": "h2",
+          "text": "03 · With Kids, Start with Child Seat Rules"
+        },
+        {
+          "type": "p",
+          "html": "Under Taiwanese rules, children aged 4 or under and weighing 18kg or less must ride in a child seat in private cars and rental cars, with fines of NT$1,500–3,000 for the driver. Licensed taxis are exempt from this requirement (as of September 2026). Note that some charter services use a rental car with a hired driver, which may count as a rental car where the car-seat rule applies, so ask about the vehicle type and car-seat availability when you book. Legal or not, ask whether a child seat is available when you book."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Request a car seat or booster",
+              "desc": "Availability and extra fees vary, so share your child's age and weight."
+            },
+            {
+              "mark": "✓",
+              "b": "Driver's language",
+              "desc": "Korean- or English-speaking drivers may cost more."
+            },
+            {
+              "mark": "✓",
+              "b": "Share stops in advance",
+              "desc": "A set route gets you a more accurate time estimate."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · When a Regular Taxi or Uber Is Better"
+        },
+        {
+          "type": "p",
+          "html": "For short hops within the city or a plan that changes often, Uber or regular taxis are cheaper. For multiple day-trip stops or airport runs with lots of luggage, travelers often say a charter car saves time and energy."
+        },
+        {
+          "type": "quote",
+          "text": "\"Don't just trust the word 'included' — ask them to list every item.\" — a summary of advice from travelers who've booked charter taxis."
+        },
+        {
+          "type": "p",
+          "html": "If you're spending a day with a charter car, group your stops first using the <a href=\"/taipei-attraction\">Taipei attractions</a> page. With kids, the indoor <a href=\"/taipei-attraction-102\">National Palace Museum</a> makes a good rainy-day option. Check restaurant locations on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on travelers' charter taxi experiences and Taiwan's child passenger safety regulations for small vehicles (as of September 2026). Prices and services vary by company, so double-check before booking."
+        },
+        {
+          "type": "cta",
+          "title": "Pin Restaurants for Your Route on the Map",
+          "desc": "Find restaurants to add to your charter car route on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "taiwan-hotel-aircon-seasonal-packing": {
-    heroImage: "assets/images/blog/taiwan-hotel-aircon-seasonal-packing-1.jpg",
-    ko: {
-      pageTitle: "대만 여행 옷차림 — 계절별·에어컨 대비 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "대만 여행 옷차림, 밖은 덥고 실내는 추운데 뭘 챙길까요? 계절별 옷과 숙소·MRT 냉방 대비, 공식 날씨 확인 방법을 정리했어요.",
-      ogTitle: "대만 여행 옷차림, 숙소 에어컨까지 생각하면 계절별로 뭘 챙길까?",
-      eyebrow: "대만 여행 가이드 · 날씨·짐싸기",
-      title: "대만 여행 옷차림, 숙소 에어컨까지 생각하면 계절별로 뭘 챙길까?",
-      dek: "한여름에도 가디건이 필요한 이유부터 겨울 숙소의 난방 사정, 출발 전 날씨를 확인할 공식 채널까지 한 번에 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 여행 · 날씨 가이드",
-      intro: "\"8월에 갔는데 MRT랑 숙소가 너무 추워서 감기 걸렸어요.\" 대만 여행 옷차림 후기에서 의외로 자주 보이는 말이에요. 바깥은 덥고 습한데 실내 냉방은 강한 편이라, 계절만 보고 짐을 싸면 곤란해지기 쉽습니다. 실제 여행자들의 경험을 바탕으로 계절별 옷차림과 실내 대비 요령을 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 계절별 옷차림 한눈에 비교하기" },
+    "heroImage": "assets/images/blog/taiwan-hotel-aircon-seasonal-packing-1.jpg",
+    "ko": {
+      "pageTitle": "대만 여행 옷차림 — 계절별·에어컨 대비 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 여행 옷차림, 밖은 덥고 실내는 추운데 뭘 챙길까요? 계절별 옷과 숙소·MRT 냉방 대비, 공식 날씨 확인 방법을 정리했어요.",
+      "ogTitle": "대만 여행 옷차림, 숙소 에어컨까지 생각하면 계절별로 뭘 챙길까?",
+      "eyebrow": "대만 여행 가이드 · 날씨·짐싸기",
+      "title": "대만 여행 옷차림, 숙소 에어컨까지 생각하면 계절별로 뭘 챙길까?",
+      "dek": "한여름에도 가디건이 필요한 이유부터 겨울 숙소의 난방 사정, 출발 전 날씨를 확인할 공식 채널까지 한 번에 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 여행 · 날씨 가이드",
+      "intro": "\"8월에 갔는데 MRT랑 숙소가 너무 추워서 감기 걸렸어요.\" 대만 여행 옷차림 후기에서 의외로 자주 보이는 말이에요. 바깥은 덥고 습한데 실내 냉방은 강한 편이라, 계절만 보고 짐을 싸면 곤란해지기 쉽습니다. 실제 여행자들의 경험을 바탕으로 계절별 옷차림과 실내 대비 요령을 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["봄(3~5월)", "여름(6~9월)", "가을(10~11월)", "겨울(12~2월)"],
-          rows: [
-            { label: "바깥 체감", values: ["따뜻하지만 비 잦음", "덥고 습함, 소나기", "선선하고 쾌적한 편", "쌀쌀하고 습한 추위"] },
-            { label: "기본 옷", values: ["반팔 + 얇은 겉옷", "반팔·반바지", "긴팔 + 얇은 겉옷", "니트 + 경량 패딩"] },
-            { label: "실내 대비", values: ["가디건", "가디건·긴바지 한 벌 필수", "가디건", "숙소용 따뜻한 잠옷"] },
-            { label: "챙길 것", values: ["우산", "우산·양산, 땀 흡수 옷", "얇은 바람막이", "양말·수면 양말"] },
-          ],
+          "type": "h2",
+          "text": "01 · 계절별 옷차림 한눈에 비교하기"
         },
-        { type: "h2", text: "02 · 대만 여행 옷차림, 에어컨 때문에 달라져요" },
-        { type: "p", html: "대만은 여름이 길고 습도가 높아서 쇼핑몰·MRT·식당 냉방을 강하게 트는 곳이 많아요. 땀이 난 상태로 실내에 들어가면 체감 온도 차이가 더 커집니다. 숙소 에어컨은 리모컨으로 온도를 조절할 수 있지만, 오래된 건물은 중앙 냉방이라 세밀하게 안 되는 경우도 있다는 후기가 있어요." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "얇은 긴팔 한 벌은 항상 가방에", desc: "MRT·버스·영화관처럼 오래 머무는 실내에서 특히 유용해요." },
-            { mark: "✓", b: "잠옷은 긴팔로", desc: "밤새 에어컨을 켜두면 새벽에 추워지기 쉽습니다. 제습 모드를 쓰는 여행자도 많아요." },
-            { mark: "✓", b: "겨울엔 난방 여부 확인", desc: "대만 숙소는 난방이 없는 곳도 있어서 겨울에는 예약 전 히터 유무를 확인하는 게 좋아요." },
+          "type": "compareTable",
+          "cities": [
+            "봄(3~5월)",
+            "여름(6~9월)",
+            "가을(10~11월)",
+            "겨울(12~2월)"
           ],
+          "rows": [
+            {
+              "label": "바깥 체감",
+              "values": [
+                "따뜻하지만 비 잦음",
+                "덥고 습함, 소나기",
+                "선선하고 쾌적한 편",
+                "쌀쌀하고 습한 추위"
+              ]
+            },
+            {
+              "label": "기본 옷",
+              "values": [
+                "반팔 + 얇은 겉옷",
+                "반팔·반바지",
+                "긴팔 + 얇은 겉옷",
+                "니트 + 경량 패딩"
+              ]
+            },
+            {
+              "label": "실내 대비",
+              "values": [
+                "가디건",
+                "가디건·긴바지 한 벌 필수",
+                "가디건",
+                "숙소용 따뜻한 잠옷"
+              ]
+            },
+            {
+              "label": "챙길 것",
+              "values": [
+                "우산",
+                "우산·양산, 땀 흡수 옷",
+                "얇은 바람막이",
+                "양말·수면 양말"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-hotel-aircon-seasonal-packing-1.jpg", caption: "벽에 설치된 에어컨이 있는 방이에요. 대만 여름에는 실내외 온도 차가 커서 얇은 겉옷이 꼭 필요해요." },
-        { type: "h2", text: "03 · 출발 전 날씨는 어디서 볼까" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "중앙기상서(CWA) 공식 사이트", desc: "교통부 중앙기상서 홈페이지에서 도시별 1주 예보와 태풍 정보를 볼 수 있어요. 영어 페이지도 있습니다." },
-            { mark: "2", b: "태풍 시즌은 경보부터", desc: "여름~가을에는 태풍 경보가 나오면 항공·페리·관광지 운영이 바뀔 수 있어 출발 3~4일 전부터 확인하는 게 좋아요." },
-            { mark: "3", b: "도시별로 따로 보기", desc: "타이베이와 가오슝은 같은 날에도 날씨가 꽤 다릅니다. 이동 일정에 맞춰 도시별로 확인하세요." },
-          ],
+          "type": "h2",
+          "text": "02 · 대만 여행 옷차림, 에어컨 때문에 달라져요"
         },
-        { type: "h2", text: "04 · 짐 쌀 때 기억할 한 가지" },
-        { type: "p", html: "두꺼운 옷 한 벌보다 얇은 옷을 겹쳐 입는 구성이 대만에선 훨씬 편합니다. 비가 잦은 봄·여름에는 빨리 마르는 소재가 좋고, 겨울 타이베이는 기온보다 습한 추위가 더 크게 느껴진다는 의견이 많아요." },
-        { type: "quote", text: "\"대만 여행 짐의 국룰은 반팔 여러 장과 가디건 하나.\" — 여러 계절에 다녀온 여행자들이 자주 하는 말을 요약했습니다." },
-        { type: "p", html: "냉방에 몸이 식은 아침에는 따뜻한 또우장 한 그릇이 제일이에요. <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>에서 숙소 근처 가게를 찾고, 대표적인 곳으로 <a href=\"/taipei-breakfast-704\">용허또우장다왕</a>을 참고하세요. 한여름 오후라면 <a href=\"/taipei-shaved_ice\">타이베이 빙수 맛집</a>도 있어요. 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요." },
-        { type: "note", text: "이 글은 대만 여행자들의 경험과 교통부 중앙기상서(CWA) 공개 정보를 바탕으로 정리했습니다(2026년 9월 기준). 실제 날씨는 해마다 다르니 출발 직전 공식 예보를 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 쉬어갈 카페도 찾아보세요", desc: "더위나 비를 피해 쉬어가기 좋은 카페를 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=cafe" },
-      ],
+        {
+          "type": "p",
+          "html": "대만은 여름이 길고 습도가 높아서 쇼핑몰·MRT·식당 냉방을 강하게 트는 곳이 많아요. 땀이 난 상태로 실내에 들어가면 체감 온도 차이가 더 커집니다. 숙소 에어컨은 리모컨으로 온도를 조절할 수 있지만, 오래된 건물은 중앙 냉방이라 세밀하게 안 되는 경우도 있다는 후기가 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "얇은 긴팔 한 벌은 항상 가방에",
+              "desc": "MRT·버스·영화관처럼 오래 머무는 실내에서 특히 유용해요."
+            },
+            {
+              "mark": "✓",
+              "b": "잠옷은 긴팔로",
+              "desc": "밤새 에어컨을 켜두면 새벽에 추워지기 쉽습니다. 제습 모드를 쓰는 여행자도 많아요."
+            },
+            {
+              "mark": "✓",
+              "b": "겨울엔 난방 여부 확인",
+              "desc": "대만 숙소는 난방이 없는 곳도 있어서 겨울에는 예약 전 히터 유무를 확인하는 게 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-hotel-aircon-seasonal-packing-1.jpg",
+          "caption": "벽에 설치된 에어컨이 있는 방이에요. 대만 여름에는 실내외 온도 차가 커서 얇은 겉옷이 꼭 필요해요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 출발 전 날씨는 어디서 볼까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "중앙기상서(CWA) 공식 사이트",
+              "desc": "교통부 중앙기상서 홈페이지에서 도시별 1주 예보와 태풍 정보를 볼 수 있어요. 영어 페이지도 있습니다."
+            },
+            {
+              "mark": "2",
+              "b": "태풍 시즌은 경보부터",
+              "desc": "여름~가을에는 태풍 경보가 나오면 항공·페리·관광지 운영이 바뀔 수 있어 출발 3~4일 전부터 확인하는 게 좋아요."
+            },
+            {
+              "mark": "3",
+              "b": "도시별로 따로 보기",
+              "desc": "타이베이와 가오슝은 같은 날에도 날씨가 꽤 다릅니다. 이동 일정에 맞춰 도시별로 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 짐 쌀 때 기억할 한 가지"
+        },
+        {
+          "type": "p",
+          "html": "두꺼운 옷 한 벌보다 얇은 옷을 겹쳐 입는 구성이 대만에선 훨씬 편합니다. 비가 잦은 봄·여름에는 빨리 마르는 소재가 좋고, 겨울 타이베이는 기온보다 습한 추위가 더 크게 느껴진다는 의견이 많아요."
+        },
+        {
+          "type": "quote",
+          "text": "\"대만 여행 짐의 국룰은 반팔 여러 장과 가디건 하나.\" — 여러 계절에 다녀온 여행자들이 자주 하는 말을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "냉방에 몸이 식은 아침에는 따뜻한 또우장 한 그릇이 제일이에요. <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>에서 숙소 근처 가게를 찾고, 대표적인 곳으로 <a href=\"/taipei-breakfast-704\">용허또우장다왕</a>을 참고하세요. 한여름 오후라면 <a href=\"/taipei-shaved_ice\">타이베이 빙수 맛집</a>도 있어요. 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 여행자들의 경험과 교통부 중앙기상서(CWA) 공개 정보를 바탕으로 정리했습니다(2026년 9월 기준). 실제 날씨는 해마다 다르니 출발 직전 공식 예보를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 쉬어갈 카페도 찾아보세요",
+          "desc": "더위나 비를 피해 쉬어가기 좋은 카페를 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=cafe"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwan Weather and AC-Proof Packing — Seasonal Outfits and Forecast Sources · My Secret Taiwan Eats",
-      metaDescription: "Hot outside, cold inside — how should you pack for Taiwan? Seasonal outfits, how to handle strong air conditioning in hotels and the MRT, and where to check official forecasts.",
-      ogTitle: "Why Is the AC So Cold in Taiwan? What to Pack for Each Season",
-      eyebrow: "Taiwan Travel Guide · Weather & Packing",
-      title: "Why Is the AC So Cold in Taiwan? What to Pack for Each Season",
-      dek: "Why you need a cardigan even in midsummer, how hotel heating works in winter, and the official channel to check the forecast before you fly.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan Travel · Weather Guide",
-      intro: "\"I went in August and caught a cold because the MRT and my hotel were freezing.\" It's a surprisingly common line in Taiwan trip reviews. Outside is hot and humid, but indoor AC runs strong, so packing by season alone can backfire. Based on real traveler experiences, here's what to wear each season and how to handle the indoor chill.",
-      blocks: [
-        { type: "h2", text: "01 · Seasonal Outfits at a Glance" },
+    "en": {
+      "pageTitle": "Taiwan Weather and AC-Proof Packing — Seasonal Outfits and Forecast Sources · My Secret Taiwan Eats",
+      "metaDescription": "Hot outside, cold inside — how should you pack for Taiwan? Seasonal outfits, how to handle strong air conditioning in hotels and the MRT, and where to check official forecasts.",
+      "ogTitle": "Why Is the AC So Cold in Taiwan? What to Pack for Each Season",
+      "eyebrow": "Taiwan Travel Guide · Weather & Packing",
+      "title": "Why Is the AC So Cold in Taiwan? What to Pack for Each Season",
+      "dek": "Why you need a cardigan even in midsummer, how hotel heating works in winter, and the official channel to check the forecast before you fly.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan Travel · Weather Guide",
+      "intro": "\"I went in August and caught a cold because the MRT and my hotel were freezing.\" It's a surprisingly common line in Taiwan trip reviews. Outside is hot and humid, but indoor AC runs strong, so packing by season alone can backfire. Based on real traveler experiences, here's what to wear each season and how to handle the indoor chill.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Spring (Mar–May)", "Summer (Jun–Sep)", "Autumn (Oct–Nov)", "Winter (Dec–Feb)"],
-          rows: [
-            { label: "Feels like", values: ["Warm, frequent rain", "Hot, humid, showers", "Cool and pleasant", "Chilly, damp cold"] },
-            { label: "Basics", values: ["T-shirt + light layer", "T-shirts and shorts", "Long sleeves + light layer", "Knit + light down jacket"] },
-            { label: "Indoors", values: ["Cardigan", "A cardigan and long pants are a must", "Cardigan", "Warm pajamas"] },
-            { label: "Bring", values: ["Umbrella", "Umbrella, sun protection, quick-dry clothes", "Light windbreaker", "Warm socks"] },
-          ],
+          "type": "h2",
+          "text": "01 · Seasonal Outfits at a Glance"
         },
-        { type: "h2", text: "02 · Why the AC Feels So Cold" },
-        { type: "p", html: "Taiwan's summers are long and humid, so malls, the MRT, and restaurants tend to crank the AC. Walking in while sweaty makes the temperature gap feel even bigger. Hotel AC usually has a remote, but travelers note that older buildings with central cooling can be hard to fine-tune." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Always carry a thin long-sleeve layer", desc: "Especially useful on the MRT, buses, and in cinemas." },
-            { mark: "✓", b: "Pack long-sleeve pajamas", desc: "Leaving AC on all night gets cold by dawn — many travelers use dehumidify mode instead." },
-            { mark: "✓", b: "Check for heating in winter", desc: "Some Taiwanese hotels have no heating, so ask about heaters before booking in winter." },
+          "type": "compareTable",
+          "cities": [
+            "Spring (Mar–May)",
+            "Summer (Jun–Sep)",
+            "Autumn (Oct–Nov)",
+            "Winter (Dec–Feb)"
           ],
+          "rows": [
+            {
+              "label": "Feels like",
+              "values": [
+                "Warm, frequent rain",
+                "Hot, humid, showers",
+                "Cool and pleasant",
+                "Chilly, damp cold"
+              ]
+            },
+            {
+              "label": "Basics",
+              "values": [
+                "T-shirt + light layer",
+                "T-shirts and shorts",
+                "Long sleeves + light layer",
+                "Knit + light down jacket"
+              ]
+            },
+            {
+              "label": "Indoors",
+              "values": [
+                "Cardigan",
+                "A cardigan and long pants are a must",
+                "Cardigan",
+                "Warm pajamas"
+              ]
+            },
+            {
+              "label": "Bring",
+              "values": [
+                "Umbrella",
+                "Umbrella, sun protection, quick-dry clothes",
+                "Light windbreaker",
+                "Warm socks"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-hotel-aircon-seasonal-packing-1.jpg", caption: "A room with a wall-mounted air conditioner — in Taiwan's summer, the indoor-outdoor gap makes a light layer essential." },
-        { type: "h2", text: "03 · Where to Check the Weather" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Central Weather Administration (CWA)", desc: "The CWA website has one-week city forecasts and typhoon information, with an English version." },
-            { mark: "2", b: "Watch typhoon warnings", desc: "From summer to autumn, typhoon warnings can change flights, ferries, and attraction hours — start checking 3–4 days out." },
-            { mark: "3", b: "Check each city separately", desc: "Taipei and Kaohsiung can have very different weather on the same day." },
-          ],
+          "type": "h2",
+          "text": "02 · Why the AC Feels So Cold"
         },
-        { type: "h2", text: "04 · One Packing Rule to Remember" },
-        { type: "p", html: "Thin layers work far better in Taiwan than one heavy piece. Quick-dry fabrics help in rainy spring and summer, and many say Taipei's winter feels colder than the numbers because of the damp." },
-        { type: "quote", text: "\"The golden rule for Taiwan: several T-shirts and one cardigan.\" — a summary of what travelers who've visited in different seasons often say." },
-        { type: "p", html: "After a chilly, air-conditioned night, a warm bowl of soy milk is the best breakfast. Find a spot near your hotel on the <a href=\"/taipei-breakfast\">Taipei breakfast spots</a> page — <a href=\"/taipei-breakfast-704\">Yonghe Doujiang Dawang</a> is a classic example. On a hot summer afternoon, try the <a href=\"/taipei-shaved_ice\">Taipei shaved ice picks</a>, and see locations on the <a href=\"/region-taipei\">Taipei food map</a>." },
-        { type: "note", text: "This guide is based on traveler experiences and public information from Taiwan's Central Weather Administration (as of September 2026). Weather varies year to year, so check the official forecast right before you leave." },
-        { type: "cta", title: "Find a Café to Cool Off on the Map", desc: "Look up cafés for escaping the heat or rain on the map.", btn: "Open Map →", href: "/map?region=taipei&cat=cafe" },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "Taiwan's summers are long and humid, so malls, the MRT, and restaurants tend to crank the AC. Walking in while sweaty makes the temperature gap feel even bigger. Hotel AC usually has a remote, but travelers note that older buildings with central cooling can be hard to fine-tune."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Always carry a thin long-sleeve layer",
+              "desc": "Especially useful on the MRT, buses, and in cinemas."
+            },
+            {
+              "mark": "✓",
+              "b": "Pack long-sleeve pajamas",
+              "desc": "Leaving AC on all night gets cold by dawn — many travelers use dehumidify mode instead."
+            },
+            {
+              "mark": "✓",
+              "b": "Check for heating in winter",
+              "desc": "Some Taiwanese hotels have no heating, so ask about heaters before booking in winter."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-hotel-aircon-seasonal-packing-1.jpg",
+          "caption": "A room with a wall-mounted air conditioner — in Taiwan's summer, the indoor-outdoor gap makes a light layer essential."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Where to Check the Weather"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Central Weather Administration (CWA)",
+              "desc": "The CWA website has one-week city forecasts and typhoon information, with an English version."
+            },
+            {
+              "mark": "2",
+              "b": "Watch typhoon warnings",
+              "desc": "From summer to autumn, typhoon warnings can change flights, ferries, and attraction hours — start checking 3–4 days out."
+            },
+            {
+              "mark": "3",
+              "b": "Check each city separately",
+              "desc": "Taipei and Kaohsiung can have very different weather on the same day."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · One Packing Rule to Remember"
+        },
+        {
+          "type": "p",
+          "html": "Thin layers work far better in Taiwan than one heavy piece. Quick-dry fabrics help in rainy spring and summer, and many say Taipei's winter feels colder than the numbers because of the damp."
+        },
+        {
+          "type": "quote",
+          "text": "\"The golden rule for Taiwan: several T-shirts and one cardigan.\" — a summary of what travelers who've visited in different seasons often say."
+        },
+        {
+          "type": "p",
+          "html": "After a chilly, air-conditioned night, a warm bowl of soy milk is the best breakfast. Find a spot near your hotel on the <a href=\"/taipei-breakfast\">Taipei breakfast spots</a> page — <a href=\"/taipei-breakfast-704\">Yonghe Doujiang Dawang</a> is a classic example. On a hot summer afternoon, try the <a href=\"/taipei-shaved_ice\">Taipei shaved ice picks</a>, and see locations on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on traveler experiences and public information from Taiwan's Central Weather Administration (as of September 2026). Weather varies year to year, so check the official forecast right before you leave."
+        },
+        {
+          "type": "cta",
+          "title": "Find a Café to Cool Off on the Map",
+          "desc": "Look up cafés for escaping the heat or rain on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=cafe"
+        }
+      ]
+    }
   },
-
   "taiwan-double-ten-national-day-2026": {
-    heroImage: "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg",
-    ko: {
-      pageTitle: "2026 쌍십절 대만 여행 — 행사·교통 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "2026 쌍십절 대만 여행, 연휴(10/9~10/11)에 가도 괜찮을까요? 타이둥 불꽃놀이, 국경 만회, 총통부 주변 교통 통제를 정리했어요.",
-      ogTitle: "2026 쌍십절 대만 여행, 연휴 기간에 가도 괜찮을까?",
-      eyebrow: "대만 여행 가이드 · 행사·연휴",
-      title: "2026 쌍십절 대만 여행, 연휴 기간에 가도 괜찮을까?",
-      dek: "불꽃놀이는 타이베이가 아니라 타이둥, 국경 만회는 신베이 반차오 — 올해 행사 장소와 여행자가 겪는 교통·혼잡 변수를 날짜별로 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 여행 · 행사 가이드",
-      intro: "\"10월 초에 대만 가는데 쌍십절이랑 겹쳐요.\" 2026 쌍십절 대만 여행은 행사 장소와 연휴 여부에 따라 체감이 크게 달라져요. 쌍십절(10월 10일)은 대만의 국경일이라 볼거리도 많지만 사람도 몰립니다. 공식 발표와 실제 여행자들의 경험을 바탕으로 확인할 것을 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 2026 쌍십절 대만 여행 행사 한눈에 보기" },
+    "heroImage": "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg",
+    "ko": {
+      "pageTitle": "2026 쌍십절 대만 여행 — 행사·교통 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "2026 쌍십절 대만 여행, 연휴(10/9~10/11)에 가도 괜찮을까요? 타이둥 불꽃놀이, 국경 만회, 총통부 주변 교통 통제를 정리했어요.",
+      "ogTitle": "2026 쌍십절 대만 여행, 연휴 기간에 가도 괜찮을까?",
+      "eyebrow": "대만 여행 가이드 · 행사·연휴",
+      "title": "2026 쌍십절 대만 여행, 연휴 기간에 가도 괜찮을까?",
+      "dek": "불꽃놀이는 타이베이가 아니라 타이둥, 국경 만회는 신베이 반차오 — 올해 행사 장소와 여행자가 겪는 교통·혼잡 변수를 날짜별로 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 여행 · 행사 가이드",
+      "intro": "\"10월 초에 대만 가는데 쌍십절이랑 겹쳐요.\" 2026 쌍십절 대만 여행은 행사 장소와 연휴 여부에 따라 체감이 크게 달라져요. 쌍십절(10월 10일)은 대만의 국경일이라 볼거리도 많지만 사람도 몰립니다. 공식 발표와 실제 여행자들의 경험을 바탕으로 확인할 것을 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["국경 만회(國慶晚會)", "국경 대회(기념식)", "국경 불꽃놀이(國慶焰火)"],
-          rows: [
-            { label: "날짜", values: ["10월 9일(금) 저녁", "10월 10일(토) 오전", "10월 10일(토) 20:00, 약 30분(2026년 9월 기준 발표)"] },
-            { label: "장소", values: ["신베이 반차오 제1운동장", "타이베이 총통부 앞 광장", "타이둥시 베이난강 하구"] },
-            { label: "여행자 영향", values: ["반차오역 주변 혼잡", "총통부 주변 도로 통제", "타이둥행 교통·숙소 조기 매진"] },
-            { label: "참고", values: ["입장 방식은 주최 측 공지 확인", "TV·온라인 중계", "9/29 20:00 3분 시험 발사"] },
-          ],
+          "type": "h2",
+          "text": "01 · 2026 쌍십절 대만 여행 행사 한눈에 보기"
         },
-        { type: "h2", text: "02 · 연휴라서 달라지는 것" },
-        { type: "p", html: "2026년 10월 10일이 토요일이라 전날인 9일(금)이 보충 휴일로 지정돼 10월 9일부터 11일까지 3일 연휴입니다. 관공서와 은행은 쉬지만 대부분의 식당·쇼핑몰·관광지는 문을 열어요. 다만 국내 여행 수요가 몰려 기차표와 근교 숙소가 빨리 찬다는 점은 꼭 기억하세요." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "타이베이 총통부 주변 우회", desc: "총통부 일대는 9월 25일부터 10월 12일까지 단계별 교통 통제가 있어요. 시먼·중정기념당 쪽 버스 노선이 바뀔 수 있습니다." },
-            { mark: "✓", b: "타이둥 불꽃놀이는 교통부터", desc: "행사 당일 중화대교는 18:30~21:00 통제되고(2026년 9월 기준 발표), 끝난 뒤 타이둥발 타이베이행 임시열차(5267편, 21:56)가 추가됩니다." },
-            { mark: "✓", b: "연휴 전날 이동은 서두르기", desc: "9일(금) 오전과 11일(일) 오후 고속철·기차는 붐비기 쉬워 미리 예매하는 게 좋아요." },
+          "type": "compareTable",
+          "cities": [
+            "국경 만회(國慶晚會)",
+            "국경 대회(기념식)",
+            "국경 불꽃놀이(國慶焰火)"
           ],
+          "rows": [
+            {
+              "label": "날짜",
+              "values": [
+                "10월 9일(금) 저녁",
+                "10월 10일(토) 오전",
+                "10월 10일(토) 20:00, 약 30분(2026년 9월 기준 발표)"
+              ]
+            },
+            {
+              "label": "장소",
+              "values": [
+                "신베이 반차오 제1운동장",
+                "타이베이 총통부 앞 광장",
+                "타이둥시 베이난강 하구"
+              ]
+            },
+            {
+              "label": "여행자 영향",
+              "values": [
+                "반차오역 주변 혼잡",
+                "총통부 주변 도로 통제",
+                "타이둥행 교통·숙소 조기 매진"
+              ]
+            },
+            {
+              "label": "참고",
+              "values": [
+                "입장 방식은 주최 측 공지 확인",
+                "TV·온라인 중계",
+                "9/29 20:00 3분 시험 발사"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg", caption: "대만(중화민국) 국기예요. 쌍십절 전후에는 거리와 건물 곳곳에 이 국기가 걸려요." },
-        { type: "h2", text: "03 · 행사를 볼까, 피할까" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "행사를 보고 싶다면", desc: "불꽃놀이는 타이둥까지 가야 해서 1박 이상 일정이 필요합니다. 타이베이에서는 타이베이101 연계 연출과 중계로 분위기를 느끼는 정도예요." },
-            { mark: "2", b: "조용히 여행하고 싶다면", desc: "행사 장소를 피해 타이베이 시내 위주로 다니면 평소 주말과 크게 다르지 않다는 후기가 많습니다." },
-            { mark: "3", b: "총통부 근처 숙소라면", desc: "기념식 당일 오전에는 도보 이동이 제한될 수 있으니 동선을 미리 확인하세요." },
-          ],
+          "type": "h2",
+          "text": "02 · 연휴라서 달라지는 것"
         },
-        { type: "h2", text: "04 · 출발 직전에 다시 볼 것" },
-        { type: "p", html: "불꽃놀이는 날씨에 따라 일정이 바뀔 수 있고, 관람 구역과 셔틀도 주최 측 공지로 매년 달라집니다. 출발 2~3일 전 타이둥현 관광 사이트와 교통 통제 공지를 한 번 더 확인하는 걸 추천해요." },
-        { type: "quote", text: "\"쌍십절엔 행사장만 피하면 시내는 오히려 한산한 느낌.\" — 연휴에 타이베이를 다녀온 여행자들의 후기를 요약했습니다." },
-        { type: "p", html: "불꽃놀이를 보러 타이둥에 간다면 식당부터 정해두는 게 좋아요. <a href=\"/region-taitung\">타이둥 맛집 지도</a>와 <a href=\"/taitung-taiwanese\">타이둥 대만식 맛집</a> 모음을 참고하고, 가볍게 먹을 곳으로는 <a href=\"/taitung-street_food-goodfrying-379\">하오젠자(好煎炸)</a> 같은 노점도 있어요. 타이베이에 머문다면 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 통제 구역을 피한 동선을 짜보세요." },
-        { type: "note", text: "이 글은 중앙통신사(CNA)·타이둥현 정부 발표와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 28일 기준). 행사 시간과 통제 구간은 바뀔 수 있으니 방문 전 공식 공지를 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 연휴에 갈 맛집도 찾아보세요", desc: "쌍십절 연휴에 들르기 좋은 타이베이 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "p",
+          "html": "2026년 10월 10일이 토요일이라 전날인 9일(금)이 보충 휴일로 지정돼 10월 9일부터 11일까지 3일 연휴입니다. 관공서와 은행은 쉬지만 대부분의 식당·쇼핑몰·관광지는 문을 열어요. 다만 국내 여행 수요가 몰려 기차표와 근교 숙소가 빨리 찬다는 점은 꼭 기억하세요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "타이베이 총통부 주변 우회",
+              "desc": "총통부 일대는 9월 25일부터 10월 12일까지 단계별 교통 통제가 있어요. 시먼·중정기념당 쪽 버스 노선이 바뀔 수 있습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "타이둥 불꽃놀이는 교통부터",
+              "desc": "행사 당일 중화대교는 18:30~21:00 통제되고(2026년 9월 기준 발표), 끝난 뒤 타이둥발 타이베이행 임시열차(5267편, 21:56)가 추가됩니다."
+            },
+            {
+              "mark": "✓",
+              "b": "연휴 전날 이동은 서두르기",
+              "desc": "9일(금) 오전과 11일(일) 오후 고속철·기차는 붐비기 쉬워 미리 예매하는 게 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg",
+          "caption": "대만(중화민국) 국기예요. 쌍십절 전후에는 거리와 건물 곳곳에 이 국기가 걸려요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 행사를 볼까, 피할까"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "행사를 보고 싶다면",
+              "desc": "불꽃놀이는 타이둥까지 가야 해서 1박 이상 일정이 필요합니다. 타이베이에서는 타이베이101 연계 연출과 중계로 분위기를 느끼는 정도예요."
+            },
+            {
+              "mark": "2",
+              "b": "조용히 여행하고 싶다면",
+              "desc": "행사 장소를 피해 타이베이 시내 위주로 다니면 평소 주말과 크게 다르지 않다는 후기가 많습니다."
+            },
+            {
+              "mark": "3",
+              "b": "총통부 근처 숙소라면",
+              "desc": "기념식 당일 오전에는 도보 이동이 제한될 수 있으니 동선을 미리 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 출발 직전에 다시 볼 것"
+        },
+        {
+          "type": "p",
+          "html": "불꽃놀이는 날씨에 따라 일정이 바뀔 수 있고, 관람 구역과 셔틀도 주최 측 공지로 매년 달라집니다. 출발 2~3일 전 타이둥현 관광 사이트와 교통 통제 공지를 한 번 더 확인하는 걸 추천해요."
+        },
+        {
+          "type": "quote",
+          "text": "\"쌍십절엔 행사장만 피하면 시내는 오히려 한산한 느낌.\" — 연휴에 타이베이를 다녀온 여행자들의 후기를 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "불꽃놀이를 보러 타이둥에 간다면 식당부터 정해두는 게 좋아요. <a href=\"/region-taitung\">타이둥 맛집 지도</a>와 <a href=\"/taitung-taiwanese\">타이둥 대만식 맛집</a> 모음을 참고하고, 가볍게 먹을 곳으로는 <a href=\"/taitung-street_food-goodfrying-379\">하오젠자(好煎炸)</a> 같은 노점도 있어요. 타이베이에 머문다면 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 통제 구역을 피한 동선을 짜보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 중앙통신사(CNA)·타이둥현 정부 발표와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 28일 기준). 행사 시간과 통제 구간은 바뀔 수 있으니 방문 전 공식 공지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 연휴에 갈 맛집도 찾아보세요",
+          "desc": "쌍십절 연휴에 들르기 좋은 타이베이 맛집을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Double Ten 2026 Taiwan Travel Guide — Fireworks, Gala, Road Closures · My Secret Taiwan Eats",
-      metaDescription: "Visiting Taiwan over the 2026 Double Ten holiday (Oct 9–11)? Fireworks in Taitung, the National Day Gala in New Taipei, and road closures around Taipei's Presidential Office.",
-      ogTitle: "Traveling in Taiwan Over Double Ten 2026: Is the Holiday a Good Time?",
-      eyebrow: "Taiwan Travel Guide · Events & Holidays",
-      title: "Traveling in Taiwan Over Double Ten 2026: Is the Holiday a Good Time?",
-      dek: "The fireworks are in Taitung, not Taipei, and the gala is in Banqiao — this year's venues plus the transport and crowd issues travelers run into, day by day.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan Travel · Event Guide",
-      intro: "\"My early October trip overlaps with Double Ten. More to see, or just more people?\" Double Ten (October 10) is Taiwan's National Day, and how it feels depends a lot on where events are held and whether there's a long weekend. Based on official announcements and real traveler experiences, here's what to check for 2026.",
-      blocks: [
-        { type: "h2", text: "01 · Double Ten 2026 Events at a Glance" },
+    "en": {
+      "pageTitle": "Double Ten 2026 Taiwan Travel Guide — Fireworks, Gala, Road Closures · My Secret Taiwan Eats",
+      "metaDescription": "Visiting Taiwan over the 2026 Double Ten holiday (Oct 9–11)? Fireworks in Taitung, the National Day Gala in New Taipei, and road closures around Taipei's Presidential Office.",
+      "ogTitle": "Traveling in Taiwan Over Double Ten 2026: Is the Holiday a Good Time?",
+      "eyebrow": "Taiwan Travel Guide · Events & Holidays",
+      "title": "Traveling in Taiwan Over Double Ten 2026: Is the Holiday a Good Time?",
+      "dek": "The fireworks are in Taitung, not Taipei, and the gala is in Banqiao — this year's venues plus the transport and crowd issues travelers run into, day by day.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan Travel · Event Guide",
+      "intro": "\"My early October trip overlaps with Double Ten. More to see, or just more people?\" Double Ten (October 10) is Taiwan's National Day, and how it feels depends a lot on where events are held and whether there's a long weekend. Based on official announcements and real traveler experiences, here's what to check for 2026.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["National Day Gala", "National Day Ceremony", "National Day Fireworks"],
-          rows: [
-            { label: "Date", values: ["Fri, Oct 9, evening", "Sat, Oct 10, morning", "Sat, Oct 10, 20:00, about 30 min (as of Sep 2026)"] },
-            { label: "Venue", values: ["Banqiao First Stadium, New Taipei", "Plaza in front of the Presidential Office, Taipei", "Beinan River mouth, Taitung City"] },
-            { label: "Impact", values: ["Crowds around Banqiao Station", "Road closures near the Presidential Office", "Transport and hotels to Taitung sell out early"] },
-            { label: "Note", values: ["Check organizer notices for entry", "Broadcast on TV and online", "3-min test launch Sep 29 at 20:00"] },
-          ],
+          "type": "h2",
+          "text": "01 · Double Ten 2026 Events at a Glance"
         },
-        { type: "h2", text: "02 · What Changes Over the Holiday" },
-        { type: "p", html: "Since October 10, 2026 falls on a Saturday, Friday the 9th is a make-up holiday, giving a three-day weekend from October 9 to 11. Government offices and banks close, but most restaurants, malls, and attractions stay open. Domestic travel spikes, though, so trains and hotels outside Taipei fill up fast." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Detour around the Presidential Office", desc: "Phased road closures run around the Presidential Office from September 25 to October 12, and bus routes near Ximen and CKS Memorial Hall may change." },
-            { mark: "✓", b: "For the Taitung fireworks, sort transport first", desc: "Zhonghua Bridge closes 18:30–21:00 on the day (as of Sep 2026), and an extra Taitung–Taipei train (No. 5267, 21:56) runs after the show." },
-            { mark: "✓", b: "Travel early before the holiday", desc: "HSR and trains get crowded Friday morning (9th) and Sunday afternoon (11th) — book ahead." },
+          "type": "compareTable",
+          "cities": [
+            "National Day Gala",
+            "National Day Ceremony",
+            "National Day Fireworks"
           ],
+          "rows": [
+            {
+              "label": "Date",
+              "values": [
+                "Fri, Oct 9, evening",
+                "Sat, Oct 10, morning",
+                "Sat, Oct 10, 20:00, about 30 min (as of Sep 2026)"
+              ]
+            },
+            {
+              "label": "Venue",
+              "values": [
+                "Banqiao First Stadium, New Taipei",
+                "Plaza in front of the Presidential Office, Taipei",
+                "Beinan River mouth, Taitung City"
+              ]
+            },
+            {
+              "label": "Impact",
+              "values": [
+                "Crowds around Banqiao Station",
+                "Road closures near the Presidential Office",
+                "Transport and hotels to Taitung sell out early"
+              ]
+            },
+            {
+              "label": "Note",
+              "values": [
+                "Check organizer notices for entry",
+                "Broadcast on TV and online",
+                "3-min test launch Sep 29 at 20:00"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg", caption: "The flag of Taiwan (Republic of China) — around Double Ten, it hangs on streets and buildings everywhere." },
-        { type: "h2", text: "03 · Join the Events or Avoid Them?" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "If you want to see them", desc: "The fireworks require going to Taitung, so plan at least one night there. In Taipei, you'll mostly catch the atmosphere through Taipei 101's linked display and broadcasts." },
-            { mark: "2", b: "If you want a quiet trip", desc: "Travelers often say central Taipei feels like a normal weekend if you avoid the event venues." },
-            { mark: "3", b: "If your hotel is near the Presidential Office", desc: "Walking routes may be restricted on the morning of the ceremony, so check ahead." },
-          ],
+          "type": "h2",
+          "text": "02 · What Changes Over the Holiday"
         },
-        { type: "h2", text: "04 · What to Recheck Right Before You Go" },
-        { type: "p", html: "The fireworks can shift with the weather, and viewing zones and shuttles change every year. Check the Taitung County tourism site and traffic control notices again two or three days before departure." },
-        { type: "quote", text: "\"Avoid the event venues and the city actually feels quieter on Double Ten.\" — a summary of reviews from travelers who spent the holiday in Taipei." },
-        { type: "p", html: "If you're heading to Taitung for the fireworks, pick restaurants ahead of time. Check the <a href=\"/region-taitung\">Taitung food map</a> and <a href=\"/taitung-taiwanese\">Taitung Taiwanese restaurants</a>, and for a light bite try a street stall like <a href=\"/taitung-street_food-goodfrying-379\">Hao Jian Zha (好煎炸)</a>. Staying in Taipei? Plan around the closures with the <a href=\"/region-taipei\">Taipei food map</a>." },
-        { type: "note", text: "This guide is based on announcements from CNA and the Taitung County Government, plus traveler experiences (as of September 28, 2026). Event times and closures can change, so check official notices before you go." },
-        { type: "cta", title: "Find Restaurants for the Long Weekend on the Map", desc: "Look up Taipei restaurants to visit over the Double Ten holiday.", btn: "Open Map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "Since October 10, 2026 falls on a Saturday, Friday the 9th is a make-up holiday, giving a three-day weekend from October 9 to 11. Government offices and banks close, but most restaurants, malls, and attractions stay open. Domestic travel spikes, though, so trains and hotels outside Taipei fill up fast."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Detour around the Presidential Office",
+              "desc": "Phased road closures run around the Presidential Office from September 25 to October 12, and bus routes near Ximen and CKS Memorial Hall may change."
+            },
+            {
+              "mark": "✓",
+              "b": "For the Taitung fireworks, sort transport first",
+              "desc": "Zhonghua Bridge closes 18:30–21:00 on the day (as of Sep 2026), and an extra Taitung–Taipei train (No. 5267, 21:56) runs after the show."
+            },
+            {
+              "mark": "✓",
+              "b": "Travel early before the holiday",
+              "desc": "HSR and trains get crowded Friday morning (9th) and Sunday afternoon (11th) — book ahead."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-double-ten-national-day-2026-1.jpg",
+          "caption": "The flag of Taiwan (Republic of China) — around Double Ten, it hangs on streets and buildings everywhere."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Join the Events or Avoid Them?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "If you want to see them",
+              "desc": "The fireworks require going to Taitung, so plan at least one night there. In Taipei, you'll mostly catch the atmosphere through Taipei 101's linked display and broadcasts."
+            },
+            {
+              "mark": "2",
+              "b": "If you want a quiet trip",
+              "desc": "Travelers often say central Taipei feels like a normal weekend if you avoid the event venues."
+            },
+            {
+              "mark": "3",
+              "b": "If your hotel is near the Presidential Office",
+              "desc": "Walking routes may be restricted on the morning of the ceremony, so check ahead."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · What to Recheck Right Before You Go"
+        },
+        {
+          "type": "p",
+          "html": "The fireworks can shift with the weather, and viewing zones and shuttles change every year. Check the Taitung County tourism site and traffic control notices again two or three days before departure."
+        },
+        {
+          "type": "quote",
+          "text": "\"Avoid the event venues and the city actually feels quieter on Double Ten.\" — a summary of reviews from travelers who spent the holiday in Taipei."
+        },
+        {
+          "type": "p",
+          "html": "If you're heading to Taitung for the fireworks, pick restaurants ahead of time. Check the <a href=\"/region-taitung\">Taitung food map</a> and <a href=\"/taitung-taiwanese\">Taitung Taiwanese restaurants</a>, and for a light bite try a street stall like <a href=\"/taitung-street_food-goodfrying-379\">Hao Jian Zha (好煎炸)</a>. Staying in Taipei? Plan around the closures with the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on announcements from CNA and the Taitung County Government, plus traveler experiences (as of September 28, 2026). Event times and closures can change, so check official notices before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Find Restaurants for the Long Weekend on the Map",
+          "desc": "Look up Taipei restaurants to visit over the Double Ten holiday.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "taipei-tainan-3n4d-itinerary-split": {
-    heroImage: "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg",
-    ko: {
-      pageTitle: "타이베이 타이난 3박4일 — 숙박 나누기 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이베이 타이난 3박4일, 숙박을 어떻게 나눌까요? 고속철 이동 시간과 요금, 도시별 숙박 배분안 세 가지를 비교해서 정리했어요.",
-      ogTitle: "타이베이 타이난 3박4일, 이동 줄이려면 며칠씩 나눌까?",
-      eyebrow: "대만 여행 가이드 · 일정 팁",
-      title: "타이베이 타이난 3박4일, 이동 줄이려면 며칠씩 나눌까?",
-      dek: "당일치기로 다녀올지, 하룻밤 묵을지, 아예 가오슝 공항으로 나갈지 — 이동 시간을 줄이는 배분안을 표로 비교했습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이·타이난 · 일정 가이드",
-      intro: "\"타이베이 타이난 3박4일인데 숙소를 옮기는 게 나을까요?\" 두 도시를 한 번에 묶으려는 여행자에게 가장 큰 변수는 이동 시간이에요. 고속철 공식 운임과 실제 여행자들의 경험을 바탕으로 이동을 줄이는 일정 배분안을 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 일정 배분안 한눈에 비교하기" },
+    "heroImage": "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이 타이난 3박4일 — 숙박 나누기 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 타이난 3박4일, 숙박을 어떻게 나눌까요? 고속철 이동 시간과 요금, 도시별 숙박 배분안 세 가지를 비교해서 정리했어요.",
+      "ogTitle": "타이베이 타이난 3박4일, 이동 줄이려면 며칠씩 나눌까?",
+      "eyebrow": "대만 여행 가이드 · 일정 팁",
+      "title": "타이베이 타이난 3박4일, 이동 줄이려면 며칠씩 나눌까?",
+      "dek": "당일치기로 다녀올지, 하룻밤 묵을지, 아예 가오슝 공항으로 나갈지 — 이동 시간을 줄이는 배분안을 표로 비교했습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이·타이난 · 일정 가이드",
+      "intro": "\"타이베이 타이난 3박4일인데 숙소를 옮기는 게 나을까요?\" 두 도시를 한 번에 묶으려는 여행자에게 가장 큰 변수는 이동 시간이에요. 고속철 공식 운임과 실제 여행자들의 경험을 바탕으로 이동을 줄이는 일정 배분안을 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["A. 타이베이 3박 + 타이난 당일", "B. 타이베이 2박 + 타이난 1박", "C. 타이베이 in · 가오슝 out"],
-          rows: [
-            { label: "숙소 이동", values: ["없음", "1회", "1회"] },
-            { label: "타이난 체류", values: ["약 6~8시간", "저녁·아침까지 여유", "1박 + 마지막 날 오전"] },
-            { label: "장점", values: ["짐 이동 없음", "야경·아침 식사까지 경험", "되돌아오는 이동이 없음"] },
-            { label: "단점", values: ["왕복 이동으로 피로", "체크인·아웃 시간 소요", "항공권 선택지가 좁을 수 있음"] },
-            { label: "추천 상황", values: ["타이난은 맛보기만", "타이난 비중이 큰 여행", "가오슝 출국편이 맞을 때"] },
-          ],
+          "type": "h2",
+          "text": "01 · 일정 배분안 한눈에 비교하기"
         },
-        { type: "h2", text: "02 · 타이베이 타이난 3박4일, 고속철 이동 시간" },
-        { type: "p", html: "고속철 타이베이역에서 타이난역까지 표준석 지정석 성인 편도가 NT$1,350, 자유석이 NT$1,305입니다(2026년 9월 기준). 정차역 수에 따라 약 1시간 20분에서 2시간 정도 걸려요. 다만 고속철 타이난역은 시내와 떨어져 있어, 사룬선 기차나 버스·택시로 20~30분을 더 잡아야 합니다." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "조기 예매 할인 확인", desc: "고속철 공식 앱에서 조기 예매 할인이 열리는 경우가 있어요. 일정이 정해지면 바로 확인하세요." },
-            { mark: "✓", b: "짐은 보관하고 가볍게", desc: "당일치기라면 타이베이 숙소에 짐을 두고, 1박이라면 작은 가방만 들고 가는 여행자가 많아요." },
-            { mark: "✓", b: "타이난역 기준으로 움직이기", desc: "시내 명소는 타이난역·중시구 일대에 몰려 있어 이곳을 기점으로 동선을 짜면 편합니다." },
+          "type": "compareTable",
+          "cities": [
+            "A. 타이베이 3박 + 타이난 당일",
+            "B. 타이베이 2박 + 타이난 1박",
+            "C. 타이베이 in · 가오슝 out"
           ],
+          "rows": [
+            {
+              "label": "숙소 이동",
+              "values": [
+                "없음",
+                "1회",
+                "1회"
+              ]
+            },
+            {
+              "label": "타이난 체류",
+              "values": [
+                "약 6~8시간",
+                "저녁·아침까지 여유",
+                "1박 + 마지막 날 오전"
+              ]
+            },
+            {
+              "label": "장점",
+              "values": [
+                "짐 이동 없음",
+                "야경·아침 식사까지 경험",
+                "되돌아오는 이동이 없음"
+              ]
+            },
+            {
+              "label": "단점",
+              "values": [
+                "왕복 이동으로 피로",
+                "체크인·아웃 시간 소요",
+                "항공권 선택지가 좁을 수 있음"
+              ]
+            },
+            {
+              "label": "추천 상황",
+              "values": [
+                "타이난은 맛보기만",
+                "타이난 비중이 큰 여행",
+                "가오슝 출국편이 맞을 때"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg", caption: "붉은 지붕의 타이난 츠칸러우(적감루)예요. 타이난 구시가 명소는 이 일대에 모여 있어요." },
-        { type: "h2", text: "03 · 배분안별 추천 흐름" },
         {
-          type: "tipList",
-          items: [
-            { mark: "A", b: "당일치기", desc: "오전 고속철로 이동 → 츠칸러우·공자묘 일대 → 선눙제 산책 → 저녁 고속철로 복귀. 식사는 두 끼만 타이난에서 해결하는 흐름이에요." },
-            { mark: "B", b: "1박", desc: "둘째 날 오후 이동 → 안핑 노을 → 다음 날 아침 식사 후 구시가 → 오후 타이베이 복귀. 타이난 아침 메뉴를 경험하려는 여행자에게 인기예요." },
-            { mark: "C", b: "가오슝 출국", desc: "마지막 날 타이난에서 가오슝 공항까지 이동 시간을 넉넉히 잡으면 됩니다. 항공편 시간부터 확인하세요." },
-          ],
+          "type": "h2",
+          "text": "02 · 타이베이 타이난 3박4일, 고속철 이동 시간"
         },
-        { type: "h2", text: "04 · 이럴 땐 타이난을 다음으로 미루세요" },
-        { type: "p", html: "첫 대만 여행이고 타이베이 근교(지우펀·예류)까지 보고 싶다면 3박4일에 두 도시는 빠듯합니다. 이동만 왕복 5시간 안팎을 쓰게 되니, 타이난은 다음 여행에서 2박 이상으로 잡는 편이 만족도가 높다는 의견도 많아요." },
-        { type: "quote", text: "\"타이난은 먹으러 가는 도시라 최소 두 끼 이상은 거기서 먹어야 아깝지 않다.\" — 타이난을 다녀온 여행자들이 자주 하는 말을 요약했습니다." },
-        { type: "p", html: "타이난에서 보내는 하루는 먹는 일정이 절반이에요. <a href=\"/region-tainan\">타이난 맛집 지도</a>로 숙소 주변부터 보고, <a href=\"/tainan-taiwanese\">타이난 대만식 맛집</a> 중 단짜이몐으로 알려진 <a href=\"/tainan-taiwanese-598\">두샤오웨 단짜이몐 타이난 본점</a>을 동선에 넣어보세요. 타이베이 쪽은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>를 참고하면 돼요." },
-        { type: "note", text: "이 글은 대만 고속철 공식 운임·시간표(2026년 9월 기준)와 여행자들의 경험을 바탕으로 정리했습니다. 운임과 할인은 바뀔 수 있으니 예매 전 고속철 공식 사이트에서 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 타이난 맛집을 미리 찜해두세요", desc: "짧은 타이난 일정에 꼭 넣을 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=tainan" },
-      ],
+        {
+          "type": "p",
+          "html": "고속철 타이베이역에서 타이난역까지 표준석 지정석 성인 편도가 NT$1,350, 자유석이 NT$1,305입니다(2026년 9월 기준). 정차역 수에 따라 약 1시간 20분에서 2시간 정도 걸려요. 다만 고속철 타이난역은 시내와 떨어져 있어, 사룬선 기차나 버스·택시로 20~30분을 더 잡아야 합니다."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "조기 예매 할인 확인",
+              "desc": "고속철 공식 앱에서 조기 예매 할인이 열리는 경우가 있어요. 일정이 정해지면 바로 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "짐은 보관하고 가볍게",
+              "desc": "당일치기라면 타이베이 숙소에 짐을 두고, 1박이라면 작은 가방만 들고 가는 여행자가 많아요."
+            },
+            {
+              "mark": "✓",
+              "b": "타이난역 기준으로 움직이기",
+              "desc": "시내 명소는 타이난역·중시구 일대에 몰려 있어 이곳을 기점으로 동선을 짜면 편합니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg",
+          "caption": "붉은 지붕의 타이난 츠칸러우(적감루)예요. 타이난 구시가 명소는 이 일대에 모여 있어요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 배분안별 추천 흐름"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "A",
+              "b": "당일치기",
+              "desc": "오전 고속철로 이동 → 츠칸러우·공자묘 일대 → 선눙제 산책 → 저녁 고속철로 복귀. 식사는 두 끼만 타이난에서 해결하는 흐름이에요."
+            },
+            {
+              "mark": "B",
+              "b": "1박",
+              "desc": "둘째 날 오후 이동 → 안핑 노을 → 다음 날 아침 식사 후 구시가 → 오후 타이베이 복귀. 타이난 아침 메뉴를 경험하려는 여행자에게 인기예요."
+            },
+            {
+              "mark": "C",
+              "b": "가오슝 출국",
+              "desc": "마지막 날 타이난에서 가오슝 공항까지 이동 시간을 넉넉히 잡으면 됩니다. 항공편 시간부터 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 이럴 땐 타이난을 다음으로 미루세요"
+        },
+        {
+          "type": "p",
+          "html": "첫 대만 여행이고 타이베이 근교(지우펀·예류)까지 보고 싶다면 3박4일에 두 도시는 빠듯합니다. 이동만 왕복 5시간 안팎을 쓰게 되니, 타이난은 다음 여행에서 2박 이상으로 잡는 편이 만족도가 높다는 의견도 많아요."
+        },
+        {
+          "type": "quote",
+          "text": "\"타이난은 먹으러 가는 도시라 최소 두 끼 이상은 거기서 먹어야 아깝지 않다.\" — 타이난을 다녀온 여행자들이 자주 하는 말을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "타이난에서 보내는 하루는 먹는 일정이 절반이에요. <a href=\"/region-tainan\">타이난 맛집 지도</a>로 숙소 주변부터 보고, <a href=\"/tainan-taiwanese\">타이난 대만식 맛집</a> 중 단짜이몐으로 알려진 <a href=\"/tainan-taiwanese-598\">두샤오웨 단짜이몐 타이난 본점</a>을 동선에 넣어보세요. 타이베이 쪽은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>를 참고하면 돼요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 고속철 공식 운임·시간표(2026년 9월 기준)와 여행자들의 경험을 바탕으로 정리했습니다. 운임과 할인은 바뀔 수 있으니 예매 전 고속철 공식 사이트에서 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이난 맛집을 미리 찜해두세요",
+          "desc": "짧은 타이난 일정에 꼭 넣을 맛집을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=tainan"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Splitting a 4-Day Taipei–Tainan Trip — HSR Travel and Where to Stay · My Secret Taiwan Eats",
-      metaDescription: "Combining Taipei and Tainan in 4 days and 3 nights? Here are HSR travel times and fares, plus three ways to split your nights to cut down on transit.",
-      ogTitle: "Taipei + Tainan in 4 Days: How Should You Split the Nights?",
-      eyebrow: "Taiwan Travel Guide · Itinerary Tips",
-      title: "Taipei + Tainan in 4 Days: How Should You Split the Nights?",
-      dek: "Day trip, one night, or fly out of Kaohsiung — a side-by-side look at the splits that save the most travel time.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei & Tainan · Itinerary Guide",
-      intro: "\"I only have 4 days, but I really want to see Tainan. Should I switch hotels?\" For travelers pairing two cities, travel time is the biggest variable. Based on official HSR fares and real traveler experiences, here's how to split your days to minimize transit.",
-      blocks: [
-        { type: "h2", text: "01 · Three Splits at a Glance" },
+    "en": {
+      "pageTitle": "Splitting a 4-Day Taipei–Tainan Trip — HSR Travel and Where to Stay · My Secret Taiwan Eats",
+      "metaDescription": "Combining Taipei and Tainan in 4 days and 3 nights? Here are HSR travel times and fares, plus three ways to split your nights to cut down on transit.",
+      "ogTitle": "Taipei + Tainan in 4 Days: How Should You Split the Nights?",
+      "eyebrow": "Taiwan Travel Guide · Itinerary Tips",
+      "title": "Taipei + Tainan in 4 Days: How Should You Split the Nights?",
+      "dek": "Day trip, one night, or fly out of Kaohsiung — a side-by-side look at the splits that save the most travel time.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei & Tainan · Itinerary Guide",
+      "intro": "\"I only have 4 days, but I really want to see Tainan. Should I switch hotels?\" For travelers pairing two cities, travel time is the biggest variable. Based on official HSR fares and real traveler experiences, here's how to split your days to minimize transit.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["A. 3 nights Taipei + Tainan day trip", "B. 2 nights Taipei + 1 night Tainan", "C. Fly into Taipei, out of Kaohsiung"],
-          rows: [
-            { label: "Hotel changes", values: ["None", "One", "One"] },
-            { label: "Time in Tainan", values: ["About 6–8 hours", "Evening and next morning", "One night + last morning"] },
-            { label: "Pros", values: ["No moving luggage", "Night views and breakfast included", "No backtracking"] },
-            { label: "Cons", values: ["Tiring round trip", "Check-in/out time", "Fewer flight options"] },
-            { label: "Best for", values: ["A taste of Tainan", "Tainan-focused trips", "When a Kaohsiung departure fits"] },
-          ],
+          "type": "h2",
+          "text": "01 · Three Splits at a Glance"
         },
-        { type: "h2", text: "02 · How Long the HSR Takes" },
-        { type: "p", html: "A standard reserved adult HSR ticket from Taipei to Tainan costs NT$1,350 one way, or NT$1,305 for non-reserved (as of September 2026). The ride takes about 1 hour 20 minutes to 2 hours depending on stops. The HSR Tainan station is outside the city center, so add 20–30 minutes by the Shalun rail line, bus, or taxi." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Look for early-bird fares", desc: "Early-bird discounts sometimes open on the official HSR app — check as soon as your dates are set." },
-            { mark: "✓", b: "Travel light", desc: "For a day trip, leave bags at your Taipei hotel; for one night, many travelers bring just a small bag." },
-            { mark: "✓", b: "Base yourself near Tainan Station", desc: "Most old-town sights cluster around Tainan Station and West Central District." },
+          "type": "compareTable",
+          "cities": [
+            "A. 3 nights Taipei + Tainan day trip",
+            "B. 2 nights Taipei + 1 night Tainan",
+            "C. Fly into Taipei, out of Kaohsiung"
           ],
+          "rows": [
+            {
+              "label": "Hotel changes",
+              "values": [
+                "None",
+                "One",
+                "One"
+              ]
+            },
+            {
+              "label": "Time in Tainan",
+              "values": [
+                "About 6–8 hours",
+                "Evening and next morning",
+                "One night + last morning"
+              ]
+            },
+            {
+              "label": "Pros",
+              "values": [
+                "No moving luggage",
+                "Night views and breakfast included",
+                "No backtracking"
+              ]
+            },
+            {
+              "label": "Cons",
+              "values": [
+                "Tiring round trip",
+                "Check-in/out time",
+                "Fewer flight options"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "A taste of Tainan",
+                "Tainan-focused trips",
+                "When a Kaohsiung departure fits"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg", caption: "Tainan's red-roofed Chihkan Tower — the old-town sights are clustered around here." },
-        { type: "h2", text: "03 · Suggested Flow for Each Split" },
         {
-          type: "tipList",
-          items: [
-            { mark: "A", b: "Day trip", desc: "Morning HSR → Chihkan Tower and Confucius Temple area → stroll Shennong Street → evening HSR back. Plan on two meals in Tainan." },
-            { mark: "B", b: "One night", desc: "Travel on the afternoon of day 2 → Anping sunset → breakfast and old town the next morning → back to Taipei in the afternoon. Popular with travelers who want Tainan's breakfast scene." },
-            { mark: "C", b: "Fly out of Kaohsiung", desc: "Just leave plenty of time from Tainan to Kaohsiung airport on the last day. Start by checking flight times." },
-          ],
+          "type": "h2",
+          "text": "02 · How Long the HSR Takes"
         },
-        { type: "h2", text: "04 · When to Save Tainan for Next Time" },
-        { type: "p", html: "If it's your first Taiwan trip and you also want Jiufen and Yehliu near Taipei, two cities in 4 days is tight. The round trip alone eats around five hours, and many say Tainan is more rewarding as a separate trip of two nights or more." },
-        { type: "quote", text: "\"Tainan is a food city — eat at least two meals there or it feels like a waste.\" — a summary of what travelers who've been to Tainan often say." },
-        { type: "p", html: "A day in Tainan is half about eating. Look around your hotel on the <a href=\"/region-tainan\">Tainan restaurant map</a>, then add <a href=\"/tainan-taiwanese-598\">Duxiaoyue danzai noodles Tainan flagship</a> from <a href=\"/tainan-taiwanese\">Tainan Taiwanese food</a> to the route. For Taipei, use the <a href=\"/region-taipei\">Taipei restaurant map</a>." },
-        { type: "note", text: "This guide is based on official Taiwan High Speed Rail fares and timetables (as of September 2026) and traveler experiences. Fares and discounts can change, so check the official HSR website before booking." },
-        { type: "cta", title: "Bookmark Tainan Restaurants on the Map", desc: "Find must-try Tainan restaurants for a short visit on the map.", btn: "Open Map →", href: "/map?region=tainan" },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "A standard reserved adult HSR ticket from Taipei to Tainan costs NT$1,350 one way, or NT$1,305 for non-reserved (as of September 2026). The ride takes about 1 hour 20 minutes to 2 hours depending on stops. The HSR Tainan station is outside the city center, so add 20–30 minutes by the Shalun rail line, bus, or taxi."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Look for early-bird fares",
+              "desc": "Early-bird discounts sometimes open on the official HSR app — check as soon as your dates are set."
+            },
+            {
+              "mark": "✓",
+              "b": "Travel light",
+              "desc": "For a day trip, leave bags at your Taipei hotel; for one night, many travelers bring just a small bag."
+            },
+            {
+              "mark": "✓",
+              "b": "Base yourself near Tainan Station",
+              "desc": "Most old-town sights cluster around Tainan Station and West Central District."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-tainan-3n4d-itinerary-split-1.jpg",
+          "caption": "Tainan's red-roofed Chihkan Tower — the old-town sights are clustered around here."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Suggested Flow for Each Split"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "A",
+              "b": "Day trip",
+              "desc": "Morning HSR → Chihkan Tower and Confucius Temple area → stroll Shennong Street → evening HSR back. Plan on two meals in Tainan."
+            },
+            {
+              "mark": "B",
+              "b": "One night",
+              "desc": "Travel on the afternoon of day 2 → Anping sunset → breakfast and old town the next morning → back to Taipei in the afternoon. Popular with travelers who want Tainan's breakfast scene."
+            },
+            {
+              "mark": "C",
+              "b": "Fly out of Kaohsiung",
+              "desc": "Just leave plenty of time from Tainan to Kaohsiung airport on the last day. Start by checking flight times."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · When to Save Tainan for Next Time"
+        },
+        {
+          "type": "p",
+          "html": "If it's your first Taiwan trip and you also want Jiufen and Yehliu near Taipei, two cities in 4 days is tight. The round trip alone eats around five hours, and many say Tainan is more rewarding as a separate trip of two nights or more."
+        },
+        {
+          "type": "quote",
+          "text": "\"Tainan is a food city — eat at least two meals there or it feels like a waste.\" — a summary of what travelers who've been to Tainan often say."
+        },
+        {
+          "type": "p",
+          "html": "A day in Tainan is half about eating. Look around your hotel on the <a href=\"/region-tainan\">Tainan restaurant map</a>, then add <a href=\"/tainan-taiwanese-598\">Duxiaoyue danzai noodles Tainan flagship</a> from <a href=\"/tainan-taiwanese\">Tainan Taiwanese food</a> to the route. For Taipei, use the <a href=\"/region-taipei\">Taipei restaurant map</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on official Taiwan High Speed Rail fares and timetables (as of September 2026) and traveler experiences. Fares and discounts can change, so check the official HSR website before booking."
+        },
+        {
+          "type": "cta",
+          "title": "Bookmark Tainan Restaurants on the Map",
+          "desc": "Find must-try Tainan restaurants for a short visit on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    }
   },
-
   "taiwan-first-trip-region-choice": {
-    heroImage: "assets/images/blog/taiwan-first-trip-region-choice-1.jpg",
-    ko: {
-      pageTitle: "대만 여행 지역 추천 — 타이베이 말고 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이베이 말고 어디 갈까요? 대만 여행 지역 추천을 가오슝·타이난·타이중·화롄 일정·관심사별로 비교하고 첫 여행 고민도 정리했어요.",
-      ogTitle: "타이베이 말고 어디 갈까? 대만 여행 지역 추천, 일정별 선택표",
-      eyebrow: "대만 여행 가이드 · 도시 선택",
-      title: "타이베이 말고 어디 갈까? 대만 여행 지역 추천, 일정별 선택표",
-      dek: "3박 이하의 짧은 일정에서 도시 하나를 고른다면 무엇을 기준으로 삼아야 할지 — 여행 일수, 관심사, 동행 조건별로 표 하나에 담았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 여행 · 도시 비교",
-      intro: "\"타이베이는 한 번 가봤는데, 이번엔 어디가 좋을까?\" 대만 여행 지역 추천을 묻는 질문이 꾸준히 올라와요. \"첫 대만인데 꼭 타이베이여야 하나?\"라는 고민도 많고요. 실제 여행자들의 경험을 바탕으로 대만 주요 지역을 일정과 취향별로 골라봤습니다.",
-      blocks: [
-        { type: "h2", text: "01 · 대만 여행 지역 추천 선택표 한눈에 보기" },
+    "heroImage": "assets/images/blog/taiwan-first-trip-region-choice-1.jpg",
+    "ko": {
+      "pageTitle": "대만 여행 지역 추천 — 타이베이 말고 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 말고 어디 갈까요? 대만 여행 지역 추천을 가오슝·타이난·타이중·화롄 일정·관심사별로 비교하고 첫 여행 고민도 정리했어요.",
+      "ogTitle": "타이베이 말고 어디 갈까? 대만 여행 지역 추천, 일정별 선택표",
+      "eyebrow": "대만 여행 가이드 · 도시 선택",
+      "title": "타이베이 말고 어디 갈까? 대만 여행 지역 추천, 일정별 선택표",
+      "dek": "3박 이하의 짧은 일정에서 도시 하나를 고른다면 무엇을 기준으로 삼아야 할지 — 여행 일수, 관심사, 동행 조건별로 표 하나에 담았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 여행 · 도시 비교",
+      "intro": "\"타이베이는 한 번 가봤는데, 이번엔 어디가 좋을까?\" 대만 여행 지역 추천을 묻는 질문이 꾸준히 올라와요. \"첫 대만인데 꼭 타이베이여야 하나?\"라는 고민도 많고요. 실제 여행자들의 경험을 바탕으로 대만 주요 지역을 일정과 취향별로 골라봤습니다.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["가오슝", "타이난", "타이중", "화롄"],
-          rows: [
-            { label: "추천 일수", values: ["2~3박", "2박 이상", "2박", "2박 이상"] },
-            { label: "잘 맞는 관심사", values: ["바다·항구 도시, 여유로운 시내", "옛 거리·사원, 먹거리", "카페·시장·근교 자연", "산과 바다, 자연 풍경"] },
-            { label: "이동 난이도", values: ["MRT·경전철로 쉬움", "시내는 도보·택시", "버스·택시 위주", "차량 이동이 필요한 구간 많음"] },
-            { label: "주의할 점", values: ["명소 간 거리가 넓음", "한낮 더위가 강함", "MRT 노선이 적음", "타이루거 일부 구간 통제(2026년 10월 기준)"] },
-          ],
+          "type": "h2",
+          "text": "01 · 대만 여행 지역 추천 선택표 한눈에 보기"
         },
-        { type: "h2", text: "02 · 첫 여행이라면: 타이베이 vs 가오슝" },
-        { type: "p", html: "첫 대만 여행에서 가장 많이 비교하는 두 도시입니다. 타이베이는 볼거리 밀도와 근교(지우펀·예류) 선택지가 압도적이고, 가오슝은 도시가 여유롭고 바다 풍경이 가까운 대신 명소 사이 이동 거리가 긴 편이에요. 한국에서 두 도시 모두 직항이 있어 항공 스케줄과 가격으로 정하는 여행자도 많습니다." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "3박 이하, 처음이라면 타이베이", desc: "교통이 가장 촘촘해 동선 실패가 적고 근교 투어도 쉽게 붙일 수 있어요." },
-            { mark: "✓", b: "북적임이 싫다면 가오슝", desc: "시내가 덜 붐비고 항구·강변 산책 코스가 많아 느긋한 일정에 잘 맞습니다." },
-            { mark: "✓", b: "두 번째라면 타이난·타이중", desc: "먹거리 도시 타이난, 카페와 시장의 타이중은 재방문객 만족도가 높다는 후기가 많아요." },
+          "type": "compareTable",
+          "cities": [
+            "가오슝",
+            "타이난",
+            "타이중",
+            "화롄"
           ],
+          "rows": [
+            {
+              "label": "추천 일수",
+              "values": [
+                "2~3박",
+                "2박 이상",
+                "2박",
+                "2박 이상"
+              ]
+            },
+            {
+              "label": "잘 맞는 관심사",
+              "values": [
+                "바다·항구 도시, 여유로운 시내",
+                "옛 거리·사원, 먹거리",
+                "카페·시장·근교 자연",
+                "산과 바다, 자연 풍경"
+              ]
+            },
+            {
+              "label": "이동 난이도",
+              "values": [
+                "MRT·경전철로 쉬움",
+                "시내는 도보·택시",
+                "버스·택시 위주",
+                "차량 이동이 필요한 구간 많음"
+              ]
+            },
+            {
+              "label": "주의할 점",
+              "values": [
+                "명소 간 거리가 넓음",
+                "한낮 더위가 강함",
+                "MRT 노선이 적음",
+                "타이루거 일부 구간 통제(2026년 10월 기준)"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-first-trip-region-choice-1.jpg", caption: "대만 철도 역에 들어온 전동 열차예요. 도시 간 이동은 고속철과 일반 열차를 조합하면 편해요." },
-        { type: "h2", text: "03 · 동행 조건별로 보면" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "아이와 함께", desc: "이동이 짧은 도시가 유리합니다. 시내 교통이 편한 타이베이·가오슝이 무난해요." },
-            { mark: "2", b: "부모님과 함께", desc: "걷는 거리와 계단을 줄여야 한다면 택시 이용이 쉬운 도시 중심 일정이 좋아요." },
-            { mark: "3", b: "친구·커플", desc: "취향이 뚜렷하다면 타이난(먹거리)이나 화롄(자연)처럼 테마가 분명한 곳이 만족도가 높습니다." },
-          ],
+          "type": "h2",
+          "text": "02 · 첫 여행이라면: 타이베이 vs 가오슝"
         },
-        { type: "h2", text: "04 · 화롄을 고를 때 꼭 확인할 것" },
-        { type: "p", html: "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이지만, 타이루거 국가공원은 일부 탐방로만 열려 있고 주요 구간은 복구 공사로 통제 중입니다(2026년 10월 기준). 방문 전 국가공원 공지에서 개방 구간을 꼭 확인하세요." },
-        { type: "quote", text: "\"도시를 하나만 고른다면 '며칠 있느냐'보다 '무엇을 하고 싶으냐'가 먼저.\" — 여러 지역을 다녀온 여행자들이 자주 하는 조언을 요약했습니다." },
-        { type: "p", html: "지역을 정했다면 도시별 지도로 먹을 곳을 먼저 보세요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>, <a href=\"/region-tainan\">타이난 맛집 지도</a>, <a href=\"/region-taichung\">타이중 맛집 지도</a>, <a href=\"/region-hualien\">화롄 맛집 지도</a>가 있어요. 먹거리 여행이 목적이면 <a href=\"/tainan-street_food\">타이난 노점 맛집</a>과 아침 우육탕으로 알려진 <a href=\"/tainan-taiwanese-a-cai-beef-soup-735\">아차이 우육탕</a>부터 보는 것도 방법이에요." },
-        { type: "note", text: "이 글은 대만 여러 지역을 다녀온 여행자들의 경험과 관광서·국가공원 공지를 바탕으로 정리했습니다(2026년 9월 기준). 교통과 개방 상황은 바뀔 수 있으니 방문 전 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 지역별 맛집을 비교해보세요", desc: "고민 중인 도시의 맛집을 지도에서 한눈에 확인해보세요.", btn: "지도 열기 →", href: "/map" },
-      ],
+        {
+          "type": "p",
+          "html": "첫 대만 여행에서 가장 많이 비교하는 두 도시입니다. 타이베이는 볼거리 밀도와 근교(지우펀·예류) 선택지가 압도적이고, 가오슝은 도시가 여유롭고 바다 풍경이 가까운 대신 명소 사이 이동 거리가 긴 편이에요. 한국에서 두 도시 모두 직항이 있어 항공 스케줄과 가격으로 정하는 여행자도 많습니다."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "3박 이하, 처음이라면 타이베이",
+              "desc": "교통이 가장 촘촘해 동선 실패가 적고 근교 투어도 쉽게 붙일 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "북적임이 싫다면 가오슝",
+              "desc": "시내가 덜 붐비고 항구·강변 산책 코스가 많아 느긋한 일정에 잘 맞습니다."
+            },
+            {
+              "mark": "✓",
+              "b": "두 번째라면 타이난·타이중",
+              "desc": "먹거리 도시 타이난, 카페와 시장의 타이중은 재방문객 만족도가 높다는 후기가 많아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-first-trip-region-choice-1.jpg",
+          "caption": "대만 철도 역에 들어온 전동 열차예요. 도시 간 이동은 고속철과 일반 열차를 조합하면 편해요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 동행 조건별로 보면"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "아이와 함께",
+              "desc": "이동이 짧은 도시가 유리합니다. 시내 교통이 편한 타이베이·가오슝이 무난해요."
+            },
+            {
+              "mark": "2",
+              "b": "부모님과 함께",
+              "desc": "걷는 거리와 계단을 줄여야 한다면 택시 이용이 쉬운 도시 중심 일정이 좋아요."
+            },
+            {
+              "mark": "3",
+              "b": "친구·커플",
+              "desc": "취향이 뚜렷하다면 타이난(먹거리)이나 화롄(자연)처럼 테마가 분명한 곳이 만족도가 높습니다."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 화롄을 고를 때 꼭 확인할 것"
+        },
+        {
+          "type": "p",
+          "html": "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이지만, 타이루거 국가공원은 일부 탐방로만 열려 있고 주요 구간은 복구 공사로 통제 중입니다(2026년 10월 기준). 방문 전 국가공원 공지에서 개방 구간을 꼭 확인하세요."
+        },
+        {
+          "type": "quote",
+          "text": "\"도시를 하나만 고른다면 '며칠 있느냐'보다 '무엇을 하고 싶으냐'가 먼저.\" — 여러 지역을 다녀온 여행자들이 자주 하는 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "지역을 정했다면 도시별 지도로 먹을 곳을 먼저 보세요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>, <a href=\"/region-tainan\">타이난 맛집 지도</a>, <a href=\"/region-taichung\">타이중 맛집 지도</a>, <a href=\"/region-hualien\">화롄 맛집 지도</a>가 있어요. 먹거리 여행이 목적이면 <a href=\"/tainan-street_food\">타이난 노점 맛집</a>과 아침 우육탕으로 알려진 <a href=\"/tainan-taiwanese-a-cai-beef-soup-735\">아차이 우육탕</a>부터 보는 것도 방법이에요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 여러 지역을 다녀온 여행자들의 경험과 관광서·국가공원 공지를 바탕으로 정리했습니다(2026년 9월 기준). 교통과 개방 상황은 바뀔 수 있으니 방문 전 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 지역별 맛집을 비교해보세요",
+          "desc": "고민 중인 도시의 맛집을 지도에서 한눈에 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Where to Go in Taiwan Besides Taipei — A Region Picker by Days and Interests · My Secret Taiwan Eats",
-      metaDescription: "Curious about Taiwan beyond Taipei? Kaohsiung, Tainan, Taichung, and Hualien compared by trip length and interests, plus the Taipei vs. Kaohsiung first-trip question.",
-      ogTitle: "Beyond Taipei: Which Taiwan Region Fits a Short Trip?",
-      eyebrow: "Taiwan Travel Guide · Choosing a City",
-      title: "Beyond Taipei: Which Taiwan Region Fits a Short Trip?",
-      dek: "If you're picking just one city for a trip of three nights or fewer, here's what to base it on — trip length, interests, and who you're traveling with, in one table.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan Travel · City Comparison",
-      intro: "\"I've done Taipei — where next?\" or \"It's my first time in Taiwan; does it have to be Taipei?\" These questions come up constantly. Based on real traveler experiences, here's how Taiwan's main regions match different schedules and tastes.",
-      blocks: [
-        { type: "h2", text: "01 · Region Picker at a Glance" },
+    "en": {
+      "pageTitle": "Where to Go in Taiwan Besides Taipei — A Region Picker by Days and Interests · My Secret Taiwan Eats",
+      "metaDescription": "Curious about Taiwan beyond Taipei? Kaohsiung, Tainan, Taichung, and Hualien compared by trip length and interests, plus the Taipei vs. Kaohsiung first-trip question.",
+      "ogTitle": "Beyond Taipei: Which Taiwan Region Fits a Short Trip?",
+      "eyebrow": "Taiwan Travel Guide · Choosing a City",
+      "title": "Beyond Taipei: Which Taiwan Region Fits a Short Trip?",
+      "dek": "If you're picking just one city for a trip of three nights or fewer, here's what to base it on — trip length, interests, and who you're traveling with, in one table.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan Travel · City Comparison",
+      "intro": "\"I've done Taipei — where next?\" or \"It's my first time in Taiwan; does it have to be Taipei?\" These questions come up constantly. Based on real traveler experiences, here's how Taiwan's main regions match different schedules and tastes.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Kaohsiung", "Tainan", "Taichung", "Hualien"],
-          rows: [
-            { label: "Suggested stay", values: ["2–3 nights", "2+ nights", "2 nights", "2+ nights"] },
-            { label: "Good for", values: ["Harbor city, relaxed downtown", "Old streets, temples, food", "Cafés, markets, nearby nature", "Mountains, sea, scenery"] },
-            { label: "Getting around", values: ["Easy by MRT and light rail", "Walk or taxi in town", "Mostly bus and taxi", "Many spots need a car"] },
-            { label: "Watch out", values: ["Sights are spread out", "Strong midday heat", "Few MRT lines", "Parts of Taroko closed (as of Sep 2026)"] },
-          ],
+          "type": "h2",
+          "text": "01 · Region Picker at a Glance"
         },
-        { type: "h2", text: "02 · First Trip: Taipei vs. Kaohsiung" },
-        { type: "p", html: "These are the two cities first-timers compare most. Taipei wins on density of sights and day-trip options like Jiufen and Yehliu; Kaohsiung feels more relaxed with the sea close by, but sights are farther apart. Both cities have international airports, so many travelers decide by flight schedules and prices." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "3 nights or fewer, first time: Taipei", desc: "The densest transit network means fewer routing mistakes and easy day trips." },
-            { mark: "✓", b: "Hate crowds: Kaohsiung", desc: "Less crowded, with plenty of harbor and riverside walks for a slower pace." },
-            { mark: "✓", b: "Second trip: Tainan or Taichung", desc: "Food-focused Tainan and café-and-market Taichung get great reviews from repeat visitors." },
+          "type": "compareTable",
+          "cities": [
+            "Kaohsiung",
+            "Tainan",
+            "Taichung",
+            "Hualien"
           ],
+          "rows": [
+            {
+              "label": "Suggested stay",
+              "values": [
+                "2–3 nights",
+                "2+ nights",
+                "2 nights",
+                "2+ nights"
+              ]
+            },
+            {
+              "label": "Good for",
+              "values": [
+                "Harbor city, relaxed downtown",
+                "Old streets, temples, food",
+                "Cafés, markets, nearby nature",
+                "Mountains, sea, scenery"
+              ]
+            },
+            {
+              "label": "Getting around",
+              "values": [
+                "Easy by MRT and light rail",
+                "Walk or taxi in town",
+                "Mostly bus and taxi",
+                "Many spots need a car"
+              ]
+            },
+            {
+              "label": "Watch out",
+              "values": [
+                "Sights are spread out",
+                "Strong midday heat",
+                "Few MRT lines",
+                "Parts of Taroko closed (as of Sep 2026)"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-first-trip-region-choice-1.jpg", caption: "An electric train pulling into a Taiwan Railway station — combining HSR and regular trains makes intercity travel easy." },
-        { type: "h2", text: "03 · By Travel Companion" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "With kids", desc: "Shorter transfers help. Taipei and Kaohsiung, with easy city transit, are safe picks." },
-            { mark: "2", b: "With parents", desc: "If you need less walking and fewer stairs, build the trip around a city where taxis are easy." },
-            { mark: "3", b: "Friends or couples", desc: "With clear tastes, a themed destination like Tainan (food) or Hualien (nature) tends to satisfy most." },
-          ],
+          "type": "h2",
+          "text": "02 · First Trip: Taipei vs. Kaohsiung"
         },
-        { type: "h2", text: "04 · If You're Choosing Hualien" },
-        { type: "p", html: "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, but Taroko National Park has only some trails open, with major sections closed for reconstruction (as of October 2026). Check the park's notices for open sections before you go." },
-        { type: "quote", text: "\"When picking one city, ask what you want to do before asking how many days you have.\" — a summary of advice from travelers who've explored several regions." },
-        { type: "p", html: "Once you've picked a region, start with that city's food map. See the <a href=\"/region-kaohsiung\">Kaohsiung restaurant map</a>, <a href=\"/region-tainan\">Tainan restaurant map</a>, <a href=\"/region-taichung\">Taichung restaurant map</a>, and <a href=\"/region-hualien\">Hualien restaurant map</a>. If eating is the point of the trip, start with <a href=\"/tainan-street_food\">Tainan street food</a> and <a href=\"/tainan-taiwanese-a-cai-beef-soup-735\">A-Cai Beef Soup</a>, known for its morning beef soup." },
-        { type: "note", text: "This guide is based on travelers' experiences across Taiwan and notices from the Tourism Administration and national park (as of September 2026). Transport and access can change, so double-check before you go." },
-        { type: "cta", title: "Compare Restaurants by Region on the Map", desc: "See restaurants in the cities you're considering, all on one map.", btn: "Open Map →", href: "/map" },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "These are the two cities first-timers compare most. Taipei wins on density of sights and day-trip options like Jiufen and Yehliu; Kaohsiung feels more relaxed with the sea close by, but sights are farther apart. Both cities have international airports, so many travelers decide by flight schedules and prices."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "3 nights or fewer, first time: Taipei",
+              "desc": "The densest transit network means fewer routing mistakes and easy day trips."
+            },
+            {
+              "mark": "✓",
+              "b": "Hate crowds: Kaohsiung",
+              "desc": "Less crowded, with plenty of harbor and riverside walks for a slower pace."
+            },
+            {
+              "mark": "✓",
+              "b": "Second trip: Tainan or Taichung",
+              "desc": "Food-focused Tainan and café-and-market Taichung get great reviews from repeat visitors."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-first-trip-region-choice-1.jpg",
+          "caption": "An electric train pulling into a Taiwan Railway station — combining HSR and regular trains makes intercity travel easy."
+        },
+        {
+          "type": "h2",
+          "text": "03 · By Travel Companion"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "With kids",
+              "desc": "Shorter transfers help. Taipei and Kaohsiung, with easy city transit, are safe picks."
+            },
+            {
+              "mark": "2",
+              "b": "With parents",
+              "desc": "If you need less walking and fewer stairs, build the trip around a city where taxis are easy."
+            },
+            {
+              "mark": "3",
+              "b": "Friends or couples",
+              "desc": "With clear tastes, a themed destination like Tainan (food) or Hualien (nature) tends to satisfy most."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · If You're Choosing Hualien"
+        },
+        {
+          "type": "p",
+          "html": "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, but Taroko National Park has only some trails open, with major sections closed for reconstruction (as of October 2026). Check the park's notices for open sections before you go."
+        },
+        {
+          "type": "quote",
+          "text": "\"When picking one city, ask what you want to do before asking how many days you have.\" — a summary of advice from travelers who've explored several regions."
+        },
+        {
+          "type": "p",
+          "html": "Once you've picked a region, start with that city's food map. See the <a href=\"/region-kaohsiung\">Kaohsiung restaurant map</a>, <a href=\"/region-tainan\">Tainan restaurant map</a>, <a href=\"/region-taichung\">Taichung restaurant map</a>, and <a href=\"/region-hualien\">Hualien restaurant map</a>. If eating is the point of the trip, start with <a href=\"/tainan-street_food\">Tainan street food</a> and <a href=\"/tainan-taiwanese-a-cai-beef-soup-735\">A-Cai Beef Soup</a>, known for its morning beef soup."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on travelers' experiences across Taiwan and notices from the Tourism Administration and national park (as of September 2026). Transport and access can change, so double-check before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Compare Restaurants by Region on the Map",
+          "desc": "See restaurants in the cities you're considering, all on one map.",
+          "btn": "Open Map →",
+          "href": "/map"
+        }
+      ]
+    }
   },
-
   "hualien-hotel-location-guide": {
-    heroImage: "assets/images/blog/hualien-hotel-location-guide-1.jpg",
-    ko: {
-      pageTitle: "화롄 숙소 위치 — 역 앞·시내·칠성담 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "화롄 숙소 위치, 역 앞과 시내, 바다 전망 중 어디가 편할까요? 이동 수단·일정 유형별로 비교하고 2026년 타이루거 상황도 정리했어요.",
-      ogTitle: "화롄 숙소 위치, 역 앞·시내·바다 전망 중 어디가 편할까?",
-      eyebrow: "화롄 여행 가이드 · 숙소",
-      title: "화롄 숙소 위치, 역 앞·시내·바다 전망 중 어디가 편할까?",
-      dek: "기차로 오가는지, 차를 빌리는지, 저녁에 무엇을 하고 싶은지에 따라 답이 달라지는 화롄 숙소 위치를 기준별로 나눴습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "화롄 · 숙소 가이드",
-      intro: "\"화롄은 처음인데 역 앞이 편할까, 바다가 보이는 곳이 나을까?\" 화롄 숙소 위치는 명소가 넓게 흩어진 탓에 일정 전체의 피로도를 좌우해요. 화련이라고도 부르는 이 도시를 처음 가는 분을 위해, 실제 여행자들의 경험을 바탕으로 위치별 장단점을 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 화롄 숙소 위치별 한눈에 비교하기" },
+    "heroImage": "assets/images/blog/hualien-hotel-location-guide-1.jpg",
+    "ko": {
+      "pageTitle": "화롄 숙소 위치 — 역 앞·시내·칠성담 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "화롄 숙소 위치, 역 앞과 시내, 바다 전망 중 어디가 편할까요? 이동 수단·일정 유형별로 비교하고 2026년 타이루거 상황도 정리했어요.",
+      "ogTitle": "화롄 숙소 위치, 역 앞·시내·바다 전망 중 어디가 편할까?",
+      "eyebrow": "화롄 여행 가이드 · 숙소",
+      "title": "화롄 숙소 위치, 역 앞·시내·바다 전망 중 어디가 편할까?",
+      "dek": "기차로 오가는지, 차를 빌리는지, 저녁에 무엇을 하고 싶은지에 따라 답이 달라지는 화롄 숙소 위치를 기준별로 나눴습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "화롄 · 숙소 가이드",
+      "intro": "\"화롄은 처음인데 역 앞이 편할까, 바다가 보이는 곳이 나을까?\" 화롄 숙소 위치는 명소가 넓게 흩어진 탓에 일정 전체의 피로도를 좌우해요. 화련이라고도 부르는 이 도시를 처음 가는 분을 위해, 실제 여행자들의 경험을 바탕으로 위치별 장단점을 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["화롄역 주변", "시내(동대문 야시장 일대)", "칠성담 해변 쪽"],
-          rows: [
-            { label: "교통", values: ["기차·렌터카·투어 픽업이 가장 편함", "택시로 역·명소 이동", "차량 필수, 공항과 가까움"] },
-            { label: "저녁 시간", values: ["식당은 있지만 한산한 편", "야시장·식당이 많아 가장 활발", "조용하고 바다 산책 위주"] },
-            { label: "풍경", values: ["도시 풍경", "도시 풍경", "태평양 전망"] },
-            { label: "추천 상황", values: ["1~2박, 기차 여행자", "먹거리·밤 산책을 즐기는 여행", "렌터카 여행, 휴양 위주"] },
-          ],
+          "type": "h2",
+          "text": "01 · 화롄 숙소 위치별 한눈에 비교하기"
         },
-        { type: "h2", text: "02 · 이동 수단으로 먼저 고르세요" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "기차로 오간다면 역 주변", desc: "타이베이에서 기차로 오가는 일정이라면 짐을 들고 이동할 일이 적은 역 주변이 가장 무난합니다." },
-            { mark: "2", b: "투어를 이용한다면 픽업 위치 확인", desc: "일일 투어는 역이나 시내 호텔 픽업이 많아요. 숙소가 픽업 범위 안인지 먼저 확인하세요." },
-            { mark: "3", b: "렌터카라면 선택지가 넓어요", desc: "주차가 편한 숙소라면 칠성담이나 외곽 민박도 부담이 적습니다." },
+          "type": "compareTable",
+          "cities": [
+            "화롄역 주변",
+            "시내(동대문 야시장 일대)",
+            "칠성담 해변 쪽"
           ],
+          "rows": [
+            {
+              "label": "교통",
+              "values": [
+                "기차·렌터카·투어 픽업이 가장 편함",
+                "택시로 역·명소 이동",
+                "차량 필수, 공항과 가까움"
+              ]
+            },
+            {
+              "label": "저녁 시간",
+              "values": [
+                "식당은 있지만 한산한 편",
+                "야시장·식당이 많아 가장 활발",
+                "조용하고 바다 산책 위주"
+              ]
+            },
+            {
+              "label": "풍경",
+              "values": [
+                "도시 풍경",
+                "도시 풍경",
+                "태평양 전망"
+              ]
+            },
+            {
+              "label": "추천 상황",
+              "values": [
+                "1~2박, 기차 여행자",
+                "먹거리·밤 산책을 즐기는 여행",
+                "렌터카 여행, 휴양 위주"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/hualien-hotel-location-guide-1.jpg", caption: "화롄 해안의 절벽과 자갈 해변이에요. 바다 쪽 숙소를 고르면 이런 태평양 풍경을 가까이서 볼 수 있어요." },
-        { type: "h2", text: "03 · 2026년 화롄, 이 점은 알고 가세요" },
-        { type: "p", html: "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이고, 2026년 연휴에는 숙박 예약률이 크게 올랐다는 보도도 있었습니다. 다만 타이루거 국가공원은 일부 탐방로만 열려 있고 사카당·옌쯔커우·주취동 같은 주요 구간은 복구 공사로 통제 중이며, 台8선도 시간대별 통제가 있습니다(2026년 10월 기준)." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "타이루거 개방 구간 확인", desc: "숙소를 협곡 가까이 잡기 전에 국가공원 공지로 가려는 탐방로가 열려 있는지 확인하세요." },
-            { mark: "✓", b: "연휴엔 일찍 예약", desc: "국내 여행객이 몰리는 연휴에는 역 주변 숙소부터 빠르게 찹니다." },
-            { mark: "✓", b: "환불 규정 확인", desc: "태풍 시즌에는 교통이 끊길 수 있어 무료 취소 가능한 요금이 안전해요." },
-          ],
+          "type": "h2",
+          "text": "02 · 이동 수단으로 먼저 고르세요"
         },
-        { type: "h2", text: "04 · 일정 유형별 추천 조합" },
-        { type: "p", html: "1박이라면 역 주변 하나로 충분하고, 2박이라면 첫날은 시내에서 야시장을 즐기고 둘째 날은 바다 쪽에서 쉬는 조합도 인기가 많아요. 남쪽 종곡(花東縱谷)까지 둘러볼 계획이라면 렌터카와 외곽 숙소를 함께 고려해보세요." },
-        { type: "quote", text: "\"화롄은 숙소보다 이동 수단을 먼저 정하면 답이 나온다.\" — 화롄을 다녀온 여행자들이 자주 하는 말을 요약했습니다." },
-        { type: "p", html: "시내에 묵는다면 걸어서 갈 수 있는 식당이 많아요. <a href=\"/region-hualien\">화롄 맛집 지도</a>에서 숙소 주변을 보고, <a href=\"/hualien-taiwanese\">화롄 대만식 맛집</a>도 함께 확인해보세요. 간식으로는 후추빵 노점 <a href=\"/hualien-street_food-bawang-pepper-cake-24\">바왕 후추빵(Bawang Pepper Cake)</a>, 이른 아침이나 늦은 밤에는 또우장 가게 <a href=\"/hualien-breakfast-41\">가이스 또우장(蓋世豆漿宵夜)</a>이 있어요." },
-        { type: "note", text: "이 글은 화롄을 다녀온 여행자들의 경험과 국가공원·지역 언론 보도를 바탕으로 정리했습니다(2026년 9월 기준). 개방 구간과 교통 통제는 수시로 바뀌니 방문 전 공식 공지를 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 화롄 맛집도 확인해보세요", desc: "숙소 근처에서 들를 화롄 맛집을 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=hualien" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "기차로 오간다면 역 주변",
+              "desc": "타이베이에서 기차로 오가는 일정이라면 짐을 들고 이동할 일이 적은 역 주변이 가장 무난합니다."
+            },
+            {
+              "mark": "2",
+              "b": "투어를 이용한다면 픽업 위치 확인",
+              "desc": "일일 투어는 역이나 시내 호텔 픽업이 많아요. 숙소가 픽업 범위 안인지 먼저 확인하세요."
+            },
+            {
+              "mark": "3",
+              "b": "렌터카라면 선택지가 넓어요",
+              "desc": "주차가 편한 숙소라면 칠성담이나 외곽 민박도 부담이 적습니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/hualien-hotel-location-guide-1.jpg",
+          "caption": "화롄 해안의 절벽과 자갈 해변이에요. 바다 쪽 숙소를 고르면 이런 태평양 풍경을 가까이서 볼 수 있어요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 2026년 화롄, 이 점은 알고 가세요"
+        },
+        {
+          "type": "p",
+          "html": "화롄은 2024년 지진과 2025년 수해 이후 관광이 회복 중이고, 2026년 연휴에는 숙박 예약률이 크게 올랐다는 보도도 있었습니다. 다만 타이루거 국가공원은 일부 탐방로만 열려 있고 사카당·옌쯔커우·주취동 같은 주요 구간은 복구 공사로 통제 중이며, 台8선도 시간대별 통제가 있습니다(2026년 10월 기준)."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "타이루거 개방 구간 확인",
+              "desc": "숙소를 협곡 가까이 잡기 전에 국가공원 공지로 가려는 탐방로가 열려 있는지 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "연휴엔 일찍 예약",
+              "desc": "국내 여행객이 몰리는 연휴에는 역 주변 숙소부터 빠르게 찹니다."
+            },
+            {
+              "mark": "✓",
+              "b": "환불 규정 확인",
+              "desc": "태풍 시즌에는 교통이 끊길 수 있어 무료 취소 가능한 요금이 안전해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 일정 유형별 추천 조합"
+        },
+        {
+          "type": "p",
+          "html": "1박이라면 역 주변 하나로 충분하고, 2박이라면 첫날은 시내에서 야시장을 즐기고 둘째 날은 바다 쪽에서 쉬는 조합도 인기가 많아요. 남쪽 종곡(花東縱谷)까지 둘러볼 계획이라면 렌터카와 외곽 숙소를 함께 고려해보세요."
+        },
+        {
+          "type": "quote",
+          "text": "\"화롄은 숙소보다 이동 수단을 먼저 정하면 답이 나온다.\" — 화롄을 다녀온 여행자들이 자주 하는 말을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "시내에 묵는다면 걸어서 갈 수 있는 식당이 많아요. <a href=\"/region-hualien\">화롄 맛집 지도</a>에서 숙소 주변을 보고, <a href=\"/hualien-taiwanese\">화롄 대만식 맛집</a>도 함께 확인해보세요. 간식으로는 후추빵 노점 <a href=\"/hualien-street_food-bawang-pepper-cake-24\">바왕 후추빵(Bawang Pepper Cake)</a>, 이른 아침이나 늦은 밤에는 또우장 가게 <a href=\"/hualien-breakfast-41\">가이스 또우장(蓋世豆漿宵夜)</a>이 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 화롄을 다녀온 여행자들의 경험과 국가공원·지역 언론 보도를 바탕으로 정리했습니다(2026년 9월 기준). 개방 구간과 교통 통제는 수시로 바뀌니 방문 전 공식 공지를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 화롄 맛집도 확인해보세요",
+          "desc": "숙소 근처에서 들를 화롄 맛집을 지도에서 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=hualien"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Hualien Hotel Locations Compared — Station, Downtown, or Qixingtan · My Secret Taiwan Eats",
-      metaDescription: "Should you stay near Hualien Station, downtown, or by the sea? Locations compared by how you get around and your trip style, plus the 2026 Taroko situation.",
-      ogTitle: "Where to Stay in Hualien: Station, Downtown, or Sea View?",
-      eyebrow: "Hualien Travel Guide · Where to Stay",
-      title: "Where to Stay in Hualien: Station, Downtown, or Sea View?",
-      dek: "The right answer depends on whether you arrive by train, rent a car, and what you want to do in the evening — broken down by each factor.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Hualien · Accommodation Guide",
-      intro: "\"First time in Hualien — is near the station easier, or somewhere with a sea view?\" Hualien's sights are spread out, so hotel location shapes how tiring the whole trip feels. Based on real traveler experiences, here are the pros and cons of each area.",
-      blocks: [
-        { type: "h2", text: "01 · Locations at a Glance" },
+    "en": {
+      "pageTitle": "Hualien Hotel Locations Compared — Station, Downtown, or Qixingtan · My Secret Taiwan Eats",
+      "metaDescription": "Should you stay near Hualien Station, downtown, or by the sea? Locations compared by how you get around and your trip style, plus the 2026 Taroko situation.",
+      "ogTitle": "Where to Stay in Hualien: Station, Downtown, or Sea View?",
+      "eyebrow": "Hualien Travel Guide · Where to Stay",
+      "title": "Where to Stay in Hualien: Station, Downtown, or Sea View?",
+      "dek": "The right answer depends on whether you arrive by train, rent a car, and what you want to do in the evening — broken down by each factor.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Hualien · Accommodation Guide",
+      "intro": "\"First time in Hualien — is near the station easier, or somewhere with a sea view?\" Hualien's sights are spread out, so hotel location shapes how tiring the whole trip feels. Based on real traveler experiences, here are the pros and cons of each area.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Around Hualien Station", "Downtown (Dongdamen Night Market area)", "Qixingtan Beach"],
-          rows: [
-            { label: "Transport", values: ["Easiest for trains, rentals, and tour pickups", "Taxi to the station and sights", "Car needed; close to the airport"] },
-            { label: "Evenings", values: ["Some restaurants, fairly quiet", "Most night market and dining options", "Quiet, seaside walks"] },
-            { label: "Views", values: ["City", "City", "Pacific Ocean"] },
-            { label: "Best for", values: ["1–2 nights, train travelers", "Food and night walks", "Road trips, relaxing stays"] },
-          ],
+          "type": "h2",
+          "text": "01 · Locations at a Glance"
         },
-        { type: "h2", text: "02 · Choose by How You'll Get Around" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "By train: near the station", desc: "If you're traveling to and from Taipei by train, staying near the station means less hauling luggage." },
-            { mark: "2", b: "On tours: check the pickup zone", desc: "Day tours usually pick up at the station or downtown hotels. Make sure your hotel is covered." },
-            { mark: "3", b: "By rental car: more options", desc: "With easy parking, Qixingtan or guesthouses outside town work well." },
+          "type": "compareTable",
+          "cities": [
+            "Around Hualien Station",
+            "Downtown (Dongdamen Night Market area)",
+            "Qixingtan Beach"
           ],
+          "rows": [
+            {
+              "label": "Transport",
+              "values": [
+                "Easiest for trains, rentals, and tour pickups",
+                "Taxi to the station and sights",
+                "Car needed; close to the airport"
+              ]
+            },
+            {
+              "label": "Evenings",
+              "values": [
+                "Some restaurants, fairly quiet",
+                "Most night market and dining options",
+                "Quiet, seaside walks"
+              ]
+            },
+            {
+              "label": "Views",
+              "values": [
+                "City",
+                "City",
+                "Pacific Ocean"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "1–2 nights, train travelers",
+                "Food and night walks",
+                "Road trips, relaxing stays"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/hualien-hotel-location-guide-1.jpg", caption: "Cliffs and a pebble beach on the Hualien coast — stay by the sea and views like this are right outside." },
-        { type: "h2", text: "03 · Hualien in 2026: What to Know" },
-        { type: "p", html: "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, and local media reported strong hotel bookings over 2026 holidays. Taroko National Park, however, has only some trails open, with major sections such as Shakadang, Swallow Grotto, and the Tunnel of Nine Turns closed for reconstruction, and Provincial Highway 8 under timed traffic control (as of October 2026)." },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Check which Taroko sections are open", desc: "Before booking near the gorge, confirm on the park's notices that the trails you want are open." },
-            { mark: "✓", b: "Book early for holidays", desc: "Hotels near the station fill first when domestic travelers pour in." },
-            { mark: "✓", b: "Check refund rules", desc: "Typhoons can cut off transport, so free-cancellation rates are safer." },
-          ],
+          "type": "h2",
+          "text": "02 · Choose by How You'll Get Around"
         },
-        { type: "h2", text: "04 · Combos by Trip Type" },
-        { type: "p", html: "For one night, the station area is enough. For two, a popular combo is downtown for the night market on night one and the seaside for night two. If you're heading down the East Rift Valley, consider a rental car and a hotel outside town." },
-        { type: "quote", text: "\"In Hualien, decide how you'll get around first — the hotel choice follows.\" — a summary of what travelers who've been to Hualien often say." },
-        { type: "p", html: "If you stay downtown, plenty of restaurants are within walking distance. Look around your hotel on the <a href=\"/region-hualien\">Hualien restaurant map</a>, and check <a href=\"/hualien-taiwanese\">Hualien Taiwanese restaurants</a> too. For a snack, there's the pepper-cake stall <a href=\"/hualien-street_food-bawang-pepper-cake-24\">Bawang Pepper Cake</a>, and for early morning or late night, the soy-milk shop <a href=\"/hualien-breakfast-41\">Gai Shi Doujiang (蓋世豆漿宵夜)</a>." },
-        { type: "note", text: "This guide is based on travelers' Hualien experiences, national park information, and local news reports (as of September 2026). Open sections and road controls change often, so check official notices before you go." },
-        { type: "cta", title: "Find Hualien Restaurants on the Map", desc: "Look up Hualien restaurants near your hotel on the map.", btn: "Open Map →", href: "/map?region=hualien" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "By train: near the station",
+              "desc": "If you're traveling to and from Taipei by train, staying near the station means less hauling luggage."
+            },
+            {
+              "mark": "2",
+              "b": "On tours: check the pickup zone",
+              "desc": "Day tours usually pick up at the station or downtown hotels. Make sure your hotel is covered."
+            },
+            {
+              "mark": "3",
+              "b": "By rental car: more options",
+              "desc": "With easy parking, Qixingtan or guesthouses outside town work well."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/hualien-hotel-location-guide-1.jpg",
+          "caption": "Cliffs and a pebble beach on the Hualien coast — stay by the sea and views like this are right outside."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Hualien in 2026: What to Know"
+        },
+        {
+          "type": "p",
+          "html": "Hualien tourism is recovering after the 2024 earthquake and 2025 floods, and local media reported strong hotel bookings over 2026 holidays. Taroko National Park, however, has only some trails open, with major sections such as Shakadang, Swallow Grotto, and the Tunnel of Nine Turns closed for reconstruction, and Provincial Highway 8 under timed traffic control (as of October 2026)."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Check which Taroko sections are open",
+              "desc": "Before booking near the gorge, confirm on the park's notices that the trails you want are open."
+            },
+            {
+              "mark": "✓",
+              "b": "Book early for holidays",
+              "desc": "Hotels near the station fill first when domestic travelers pour in."
+            },
+            {
+              "mark": "✓",
+              "b": "Check refund rules",
+              "desc": "Typhoons can cut off transport, so free-cancellation rates are safer."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Combos by Trip Type"
+        },
+        {
+          "type": "p",
+          "html": "For one night, the station area is enough. For two, a popular combo is downtown for the night market on night one and the seaside for night two. If you're heading down the East Rift Valley, consider a rental car and a hotel outside town."
+        },
+        {
+          "type": "quote",
+          "text": "\"In Hualien, decide how you'll get around first — the hotel choice follows.\" — a summary of what travelers who've been to Hualien often say."
+        },
+        {
+          "type": "p",
+          "html": "If you stay downtown, plenty of restaurants are within walking distance. Look around your hotel on the <a href=\"/region-hualien\">Hualien restaurant map</a>, and check <a href=\"/hualien-taiwanese\">Hualien Taiwanese restaurants</a> too. For a snack, there's the pepper-cake stall <a href=\"/hualien-street_food-bawang-pepper-cake-24\">Bawang Pepper Cake</a>, and for early morning or late night, the soy-milk shop <a href=\"/hualien-breakfast-41\">Gai Shi Doujiang (蓋世豆漿宵夜)</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on travelers' Hualien experiences, national park information, and local news reports (as of September 2026). Open sections and road controls change often, so check official notices before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Find Hualien Restaurants on the Map",
+          "desc": "Look up Hualien restaurants near your hotel on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=hualien"
+        }
+      ]
+    }
   },
-
   "taiwan-repeat-visitor-lucky-draw-2026": {
-    heroImage: "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg",
-    ko: {
-      pageTitle: "대만 재방문 여행 지원금 — 자격·수령 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "대만 재방문 여행 지원금은 추첨으로 NT$5,000을 주는 제도예요. 2026년 10월 10일 시작, 자격·등록 시기·동행인 혜택을 정리했어요.",
-      ogTitle: "대만 재방문 여행 지원금 2026, 누가 어떻게 받을 수 있을까?",
-      eyebrow: "대만 여행 가이드 · 여행 지원금",
-      title: "대만 재방문 여행 지원금 2026, 누가 어떻게 받을 수 있을까?",
-      dek: "'대만 가면 5천 원 준다'는 말의 실제 조건 — 전원 지급이 아니라 매주 추첨이고, 등록 시기와 입국 기록이 핵심입니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 여행 · 지원금 가이드",
-      intro: "\"대만 재방문 여행 지원금을 준다던데, 저도 받을 수 있나요?\" 대만 교통부 관광서가 2026년 10월부터 재방문 여행객을 위한 추첨 이벤트 '重遊臺灣·福氣加倍(Return to Taiwan, Double Your Luck)'를 엽니다. 공식 사이트 공지와 발표 내용을 바탕으로 자격과 절차를 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 대만 재방문 여행 지원금 핵심 조건" },
+    "heroImage": "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg",
+    "ko": {
+      "pageTitle": "대만 재방문 여행 지원금 — 자격·수령 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 재방문 여행 지원금은 추첨으로 NT$5,000을 주는 제도예요. 2026년 10월 10일 시작, 자격·등록 시기·동행인 혜택을 정리했어요.",
+      "ogTitle": "대만 재방문 여행 지원금 2026, 누가 어떻게 받을 수 있을까?",
+      "eyebrow": "대만 여행 가이드 · 여행 지원금",
+      "title": "대만 재방문 여행 지원금 2026, 누가 어떻게 받을 수 있을까?",
+      "dek": "'대만 가면 5천 원 준다'는 말의 실제 조건 — 전원 지급이 아니라 매주 추첨이고, 등록 시기와 입국 기록이 핵심입니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 여행 · 지원금 가이드",
+      "intro": "\"대만 재방문 여행 지원금을 준다던데, 저도 받을 수 있나요?\" 대만 교통부 관광서가 2026년 10월부터 재방문 여행객을 위한 추첨 이벤트 '重遊臺灣·福氣加倍(Return to Taiwan, Double Your Luck)'를 엽니다. 공식 사이트 공지와 발표 내용을 바탕으로 자격과 절차를 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["재방문객(본인)", "동행 친구·가족(1명)"],
-          rows: [
-            { label: "혜택", values: ["NT$5,000 여행 소비 크레딧(추첨, 2026년 9월 기준 발표)", "NT$3,000(추첨, 재방문객과 함께 등록)"] },
-            { label: "자격", values: ["2023년 1월 1일 이후 대만 입국 기록이 있는 외국 여권 소지자", "2023년 1월 1일 이후 입국 기록이 없는 사람"] },
-            { label: "체류 조건", values: ["3~90일 체류 자유여행(단체관광 제외)", "재방문객과 체류 기간이 겹쳐야 함"] },
-            { label: "대상 입국 기간", values: ["2026년 10월 10일~2027년 3월 31일(예산 소진 시 조기 종료)", "동일"] },
-          ],
+          "type": "h2",
+          "text": "01 · 대만 재방문 여행 지원금 핵심 조건"
         },
-        { type: "h2", text: "02 · 등록부터 수령까지 순서" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "공식 사이트 등록", desc: "5000.taiwan.net.tw에서 2026년 10월 1일 오전 10시(대만 시간)부터 등록할 수 있어요. 입국 7~90일 전에만 등록 가능해서 공항에서 바로 신청하는 건 안 됩니다." },
-            { mark: "2", b: "매주 추첨", desc: "매주 수요일 정오에 시스템 추첨이 진행되고, 결과는 이메일로 안내됩니다." },
-            { mark: "3", b: "입국 후 인증", desc: "당첨됐다면 입국 후 사이트에서 도착 인증과 항공편 정보를 입력해야 해요. 기한 안에 인증하지 않으면 당첨이 취소됩니다." },
-            { mark: "4", b: "7-Eleven에서 수령", desc: "발급된 QR코드와 여권을 가지고 지정 매장에 가면 icash 2.0·아이패스·이지카드 중 하나에 크레딧을 충전해줍니다." },
+          "type": "compareTable",
+          "cities": [
+            "재방문객(본인)",
+            "동행 친구·가족(1명)"
           ],
+          "rows": [
+            {
+              "label": "혜택",
+              "values": [
+                "NT$5,000 여행 소비 크레딧(추첨, 2026년 9월 기준 발표)",
+                "NT$3,000(추첨, 재방문객과 함께 등록)"
+              ]
+            },
+            {
+              "label": "자격",
+              "values": [
+                "2023년 1월 1일 이후 대만 입국 기록이 있는 외국 여권 소지자",
+                "2023년 1월 1일 이후 입국 기록이 없는 사람"
+              ]
+            },
+            {
+              "label": "체류 조건",
+              "values": [
+                "3~90일 체류 자유여행(단체관광 제외)",
+                "재방문객과 체류 기간이 겹쳐야 함"
+              ]
+            },
+            {
+              "label": "대상 입국 기간",
+              "values": [
+                "2026년 10월 10일~2027년 3월 31일(예산 소진 시 조기 종료)",
+                "동일"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg", caption: "신타이완달러 1,000원 지폐와 동전이에요. 지원금은 현금이 아니라 교통카드형 크레딧으로 충전돼요." },
-        { type: "h2", text: "03 · 헷갈리기 쉬운 부분" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "전원 지급이 아니라 추첨", desc: "등록한다고 모두 받는 게 아니에요. 주별 당첨 인원은 공지로 확인해야 합니다." },
-            { mark: "✓", b: "'첫 방문'은 본인 자격이 아님", desc: "2023년 이후 대만에 온 적이 없다면 재방문객이 아니라 동행인으로만 참여할 수 있어요." },
-            { mark: "✓", b: "거주증 소지자 제외", desc: "대만 거주증이 있는 외국인은 대상이 아닙니다." },
-            { mark: "✓", b: "사용처는 지정 가맹점", desc: "충전된 크레딧은 참여 가맹점에서만 쓸 수 있으니 수령할 때 안내를 꼭 확인하세요." },
-          ],
+          "type": "h2",
+          "text": "02 · 등록부터 수령까지 순서"
         },
-        { type: "h2", text: "04 · 여행 일정에 맞춰 준비할 것" },
-        { type: "p", html: "출발일이 정해지면 입국 90일 전부터 7일 전 사이에 등록하는 게 핵심입니다. 이전 입국 기록은 여권 기준으로 확인되니 같은 여권으로 입국했는지도 살펴보세요. 여권을 새로 발급받았다면 공식 FAQ에서 처리 방법을 확인하는 게 안전해요." },
-        { type: "quote", text: "\"등록 날짜만 놓치지 않으면 손해 볼 것 없는 이벤트.\" — 이전 대만 럭키드로우에 참여해 본 여행자들의 반응을 요약했습니다." },
-        { type: "p", html: "당첨되면 여행 중 먹거리에 쓰는 사람이 많을 거예요. 선물용 간식은 <a href=\"/taipei-bakery\">타이베이 베이커리 맛집</a>에 모아 두었고, 펑리수로 알려진 <a href=\"/taipei-bakery-sunny-hills-101-795\">써니힐즈(타이베이 101 인근)</a>도 있어요. 전체 가게 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요." },
-        { type: "note", text: "이 글은 대만 교통부 관광서 공식 등록 사이트와 중앙통신사 보도를 바탕으로 정리했습니다(2026년 10월 2일 기준, 공식 등록 사이트·보도 재확인). 당첨 인원·수령 방법 등 세부 규정은 바뀔 수 있으니 등록 전 공식 사이트를 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지원금으로 갈 맛집을 지도에서 골라보세요", desc: "대만 여행에서 들를 맛집을 지도에서 미리 찜해두세요.", btn: "지도 열기 →", href: "/map" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "공식 사이트 등록",
+              "desc": "5000.taiwan.net.tw에서 2026년 10월 1일 오전 10시(대만 시간)부터 등록할 수 있어요. 입국 7~90일 전에만 등록 가능해서 공항에서 바로 신청하는 건 안 됩니다."
+            },
+            {
+              "mark": "2",
+              "b": "매주 추첨",
+              "desc": "매주 수요일 정오에 시스템 추첨이 진행되고, 결과는 이메일로 안내됩니다."
+            },
+            {
+              "mark": "3",
+              "b": "입국 후 인증",
+              "desc": "당첨됐다면 입국 후 사이트에서 도착 인증과 항공편 정보를 입력해야 해요. 기한 안에 인증하지 않으면 당첨이 취소됩니다."
+            },
+            {
+              "mark": "4",
+              "b": "7-Eleven에서 수령",
+              "desc": "발급된 QR코드와 여권을 가지고 지정 매장에 가면 icash 2.0·아이패스·이지카드 중 하나에 크레딧을 충전해줍니다."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg",
+          "caption": "신타이완달러 1,000원 지폐와 동전이에요. 지원금은 현금이 아니라 교통카드형 크레딧으로 충전돼요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 헷갈리기 쉬운 부분"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "전원 지급이 아니라 추첨",
+              "desc": "등록한다고 모두 받는 게 아니에요. 주별 당첨 인원은 공지로 확인해야 합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "'첫 방문'은 본인 자격이 아님",
+              "desc": "2023년 이후 대만에 온 적이 없다면 재방문객이 아니라 동행인으로만 참여할 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "거주증 소지자 제외",
+              "desc": "대만 거주증이 있는 외국인은 대상이 아닙니다."
+            },
+            {
+              "mark": "✓",
+              "b": "사용처는 지정 가맹점",
+              "desc": "충전된 크레딧은 참여 가맹점에서만 쓸 수 있으니 수령할 때 안내를 꼭 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 여행 일정에 맞춰 준비할 것"
+        },
+        {
+          "type": "p",
+          "html": "출발일이 정해지면 입국 90일 전부터 7일 전 사이에 등록하는 게 핵심입니다. 이전 입국 기록은 여권 기준으로 확인되니 같은 여권으로 입국했는지도 살펴보세요. 여권을 새로 발급받았다면 공식 FAQ에서 처리 방법을 확인하는 게 안전해요."
+        },
+        {
+          "type": "quote",
+          "text": "\"등록 날짜만 놓치지 않으면 손해 볼 것 없는 이벤트.\" — 이전 대만 럭키드로우에 참여해 본 여행자들의 반응을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "당첨되면 여행 중 먹거리에 쓰는 사람이 많을 거예요. 선물용 간식은 <a href=\"/taipei-bakery\">타이베이 베이커리 맛집</a>에 모아 두었고, 펑리수로 알려진 <a href=\"/taipei-bakery-sunny-hills-101-795\">써니힐즈(타이베이 101 인근)</a>도 있어요. 전체 가게 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 교통부 관광서 공식 등록 사이트와 중앙통신사 보도를 바탕으로 정리했습니다(2026년 10월 2일 기준, 공식 등록 사이트·보도 재확인). 당첨 인원·수령 방법 등 세부 규정은 바뀔 수 있으니 등록 전 공식 사이트를 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지원금으로 갈 맛집을 지도에서 골라보세요",
+          "desc": "대만 여행에서 들를 맛집을 지도에서 미리 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwan Repeat Visitor Lucky Draw 2026 (Return to Taiwan, Double Your Luck) — Eligibility, Registration, Redemption · My Secret Taiwan Eats",
-      metaDescription: "From October 10, 2026, repeat independent travelers to Taiwan can win NT$5,000 in a weekly draw. Eligibility, registration timing, the companion bonus, and how to redeem, based on official information.",
-      ogTitle: "Taiwan's 2026 Repeat Visitor Lucky Draw: Who Qualifies and How?",
-      eyebrow: "Taiwan Travel Guide · Travel Incentives",
-      title: "Taiwan's 2026 Repeat Visitor Lucky Draw: Who Qualifies and How?",
-      dek: "What \"Taiwan gives you NT$5,000\" really means — it's a weekly draw, not a handout, and registration timing and your entry record are what matter.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan Travel · Incentive Guide",
-      intro: "\"I heard Taiwan gives travelers money — can I get it?\" Starting October 2026, Taiwan's Tourism Administration is running a lucky draw for repeat visitors called \"Return to Taiwan, Double Your Luck\" (重遊臺灣·福氣加倍). Based on the official site and announcements, here's who qualifies and how it works.",
-      blocks: [
-        { type: "h2", text: "01 · Key Conditions at a Glance" },
+    "en": {
+      "pageTitle": "Taiwan Repeat Visitor Lucky Draw 2026 (Return to Taiwan, Double Your Luck) — Eligibility, Registration, Redemption · My Secret Taiwan Eats",
+      "metaDescription": "From October 10, 2026, repeat independent travelers to Taiwan can win NT$5,000 in a weekly draw. Eligibility, registration timing, the companion bonus, and how to redeem, based on official information.",
+      "ogTitle": "Taiwan's 2026 Repeat Visitor Lucky Draw: Who Qualifies and How?",
+      "eyebrow": "Taiwan Travel Guide · Travel Incentives",
+      "title": "Taiwan's 2026 Repeat Visitor Lucky Draw: Who Qualifies and How?",
+      "dek": "What \"Taiwan gives you NT$5,000\" really means — it's a weekly draw, not a handout, and registration timing and your entry record are what matter.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan Travel · Incentive Guide",
+      "intro": "\"I heard Taiwan gives travelers money — can I get it?\" Starting October 2026, Taiwan's Tourism Administration is running a lucky draw for repeat visitors called \"Return to Taiwan, Double Your Luck\" (重遊臺灣·福氣加倍). Based on the official site and announcements, here's who qualifies and how it works.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Repeat visitor (you)", "Companion (1 person)"],
-          rows: [
-            { label: "Prize", values: ["NT$5,000 travel spending credit (draw)", "NT$3,000 (draw, registered with the repeat visitor)"] },
-            { label: "Eligibility", values: ["Foreign passport holder who entered Taiwan on or after Jan 1, 2023", "Someone with no Taiwan entry since Jan 1, 2023"] },
-            { label: "Stay", values: ["Independent trip of 3–90 days (no tour groups)", "Stay must overlap with the repeat visitor's"] },
-            { label: "Entry period", values: ["Oct 10, 2026 – Mar 31, 2027 (or until the budget runs out)", "Same"] },
-          ],
+          "type": "h2",
+          "text": "01 · Key Conditions at a Glance"
         },
-        { type: "h2", text: "02 · From Registration to Redemption" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Register on the official site", desc: "Registration opens at 5000.taiwan.net.tw at 10:00 (Taiwan time) on October 1, 2026. You can only register 7–90 days before arrival, so signing up at the airport won't work." },
-            { mark: "2", b: "Weekly draw", desc: "The system draws winners every Wednesday at noon and emails the results." },
-            { mark: "3", b: "Verify after arrival", desc: "Winners must confirm arrival and enter flight details on the site after landing. Miss the deadline and the prize is forfeited." },
-            { mark: "4", b: "Collect at 7-Eleven", desc: "Bring the QR code and your passport to a designated store to load the credit onto an icash 2.0, iPASS, or EasyCard." },
+          "type": "compareTable",
+          "cities": [
+            "Repeat visitor (you)",
+            "Companion (1 person)"
           ],
+          "rows": [
+            {
+              "label": "Prize",
+              "values": [
+                "NT$5,000 travel spending credit (draw)",
+                "NT$3,000 (draw, registered with the repeat visitor)"
+              ]
+            },
+            {
+              "label": "Eligibility",
+              "values": [
+                "Foreign passport holder who entered Taiwan on or after Jan 1, 2023",
+                "Someone with no Taiwan entry since Jan 1, 2023"
+              ]
+            },
+            {
+              "label": "Stay",
+              "values": [
+                "Independent trip of 3–90 days (no tour groups)",
+                "Stay must overlap with the repeat visitor's"
+              ]
+            },
+            {
+              "label": "Entry period",
+              "values": [
+                "Oct 10, 2026 – Mar 31, 2027 (or until the budget runs out)",
+                "Same"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg", caption: "NT$1,000 notes and coins — the prize isn't cash, though; it's loaded onto a transit-style stored-value card." },
-        { type: "h2", text: "03 · Easy-to-Miss Details" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "It's a draw, not a handout", desc: "Registering doesn't guarantee a prize. Check notices for the number of weekly winners." },
-            { mark: "✓", b: "First-timers can't be the main entrant", desc: "If you haven't visited since 2023, you can only join as a companion." },
-            { mark: "✓", b: "Residence permit holders excluded", desc: "Foreigners with a Taiwan residence permit aren't eligible." },
-            { mark: "✓", b: "Only at participating merchants", desc: "The credit works only at participating stores, so read the instructions when you collect it." },
-          ],
+          "type": "h2",
+          "text": "02 · From Registration to Redemption"
         },
-        { type: "h2", text: "04 · What to Prepare for Your Trip" },
-        { type: "p", html: "Once your dates are set, the key is registering between 90 and 7 days before arrival. Previous entries are checked by passport, so note whether you entered on the same one. If you've renewed your passport, check the official FAQ." },
-        { type: "quote", text: "\"As long as you don't miss the registration window, there's nothing to lose.\" — a summary of reactions from travelers who joined Taiwan's earlier lucky draws." },
-        { type: "p", html: "If you win, many travelers put the credit toward food. Gift snacks are collected on the <a href=\"/taipei-bakery\">Taipei bakery picks</a> page, including <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills near Taipei 101</a>. See all locations on the <a href=\"/region-taipei\">Taipei food map</a>." },
-        { type: "note", text: "This guide is based on Taiwan's Tourism Administration registration site and CNA reports (as of October 2, 2026, after rechecking the official registration site and news reports). Details such as winner numbers and redemption may change, so check the official site before registering." },
-        { type: "cta", title: "Pick Restaurants to Spend It On", desc: "Bookmark restaurants for your Taiwan trip on the map.", btn: "Open Map →", href: "/map" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Register on the official site",
+              "desc": "Registration opens at 5000.taiwan.net.tw at 10:00 (Taiwan time) on October 1, 2026. You can only register 7–90 days before arrival, so signing up at the airport won't work."
+            },
+            {
+              "mark": "2",
+              "b": "Weekly draw",
+              "desc": "The system draws winners every Wednesday at noon and emails the results."
+            },
+            {
+              "mark": "3",
+              "b": "Verify after arrival",
+              "desc": "Winners must confirm arrival and enter flight details on the site after landing. Miss the deadline and the prize is forfeited."
+            },
+            {
+              "mark": "4",
+              "b": "Collect at 7-Eleven",
+              "desc": "Bring the QR code and your passport to a designated store to load the credit onto an icash 2.0, iPASS, or EasyCard."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-repeat-visitor-lucky-draw-2026-1.jpg",
+          "caption": "NT$1,000 notes and coins — the prize isn't cash, though; it's loaded onto a transit-style stored-value card."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Easy-to-Miss Details"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "It's a draw, not a handout",
+              "desc": "Registering doesn't guarantee a prize. Check notices for the number of weekly winners."
+            },
+            {
+              "mark": "✓",
+              "b": "First-timers can't be the main entrant",
+              "desc": "If you haven't visited since 2023, you can only join as a companion."
+            },
+            {
+              "mark": "✓",
+              "b": "Residence permit holders excluded",
+              "desc": "Foreigners with a Taiwan residence permit aren't eligible."
+            },
+            {
+              "mark": "✓",
+              "b": "Only at participating merchants",
+              "desc": "The credit works only at participating stores, so read the instructions when you collect it."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · What to Prepare for Your Trip"
+        },
+        {
+          "type": "p",
+          "html": "Once your dates are set, the key is registering between 90 and 7 days before arrival. Previous entries are checked by passport, so note whether you entered on the same one. If you've renewed your passport, check the official FAQ."
+        },
+        {
+          "type": "quote",
+          "text": "\"As long as you don't miss the registration window, there's nothing to lose.\" — a summary of reactions from travelers who joined Taiwan's earlier lucky draws."
+        },
+        {
+          "type": "p",
+          "html": "If you win, many travelers put the credit toward food. Gift snacks are collected on the <a href=\"/taipei-bakery\">Taipei bakery picks</a> page, including <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills near Taipei 101</a>. See all locations on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on Taiwan's Tourism Administration registration site and CNA reports (as of October 2, 2026, after rechecking the official registration site and news reports). Details such as winner numbers and redemption may change, so check the official site before registering."
+        },
+        {
+          "type": "cta",
+          "title": "Pick Restaurants to Spend It On",
+          "desc": "Bookmark restaurants for your Taiwan trip on the map.",
+          "btn": "Open Map →",
+          "href": "/map"
+        }
+      ]
+    }
   },
-
   "taiwan-arrival-card-twac-guide": {
-    heroImage: "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg",
-    ko: {
-      pageTitle: "대만 입국신고서 TWAC — 작성 시기 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "대만 입국신고서 TWAC는 도착 전 7일 이내 온라인으로만 작성해요. 작성 순서, 가족 대리 작성, 유료 대행 사이트 주의점을 정리했어요.",
-      ogTitle: "대만 입국신고서 TWAC, 언제 어떻게 작성하면 될까?",
-      eyebrow: "대만 여행 가이드 · 입국 준비",
-      title: "대만 입국신고서 TWAC, 언제 어떻게 작성하면 될까?",
-      dek: "작성 가능 기간이 '도착 전 3일'에서 '7일'로 늘어난 최신 기준과, 가족 여행자가 한 번에 등록하는 방법까지 담았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 여행 · 입국 가이드",
-      intro: "\"기내에서 입국신고서 나눠주나요?\" 대만 입국신고서 TWAC(Taiwan Arrival Card)는 2025년 10월 1일부터 종이 대신 온라인으로만 받아요. 대만 이민서 공식 공지와 실제 여행자들의 경험을 바탕으로 작성 시기와 요령을 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 예전과 지금 한눈에 비교하기" },
+    "heroImage": "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg",
+    "ko": {
+      "pageTitle": "대만 입국신고서 TWAC — 작성 시기 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 입국신고서 TWAC는 도착 전 7일 이내 온라인으로만 작성해요. 작성 순서, 가족 대리 작성, 유료 대행 사이트 주의점을 정리했어요.",
+      "ogTitle": "대만 입국신고서 TWAC, 언제 어떻게 작성하면 될까?",
+      "eyebrow": "대만 여행 가이드 · 입국 준비",
+      "title": "대만 입국신고서 TWAC, 언제 어떻게 작성하면 될까?",
+      "dek": "작성 가능 기간이 '도착 전 3일'에서 '7일'로 늘어난 최신 기준과, 가족 여행자가 한 번에 등록하는 방법까지 담았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 여행 · 입국 가이드",
+      "intro": "\"기내에서 입국신고서 나눠주나요?\" 대만 입국신고서 TWAC(Taiwan Arrival Card)는 2025년 10월 1일부터 종이 대신 온라인으로만 받아요. 대만 이민서 공식 공지와 실제 여행자들의 경험을 바탕으로 작성 시기와 요령을 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["예전(종이 신고서)", "현재(TWAC, 2026년 9월 기준)"],
-          rows: [
-            { label: "작성 방식", values: ["기내·공항에서 종이에 작성", "공식 사이트에서 온라인 작성"] },
-            { label: "작성 시기", values: ["입국 심사 직전", "도착 전 7일 이내(2026년 7월 15일부터, 이전엔 3일)"] },
-            { label: "가족·일행", values: ["1인 1장", "대표 1명이 최대 16명까지 대신 작성"] },
-            { label: "심사 때 제출", values: ["종이 제출", "제출 불필요 — 여권을 스캔하면 자동 조회"] },
-            { label: "비용", values: ["무료", "무료"] },
-          ],
+          "type": "h2",
+          "text": "01 · 예전과 지금 한눈에 비교하기"
         },
-        { type: "h2", text: "02 · 대만 입국신고서 TWAC 작성 순서" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "공식 사이트 접속", desc: "twac.immigration.gov.tw에 들어가 중국어나 영어로 작성합니다. 항목 설명은 한국어를 포함한 7개 언어로 볼 수 있어요." },
-            { mark: "2", b: "여권 사진 업로드", desc: "여권 정보면을 촬영해 올리면 이름·여권번호가 자동으로 입력돼 시간이 줄어요." },
-            { mark: "3", b: "항공편·숙소 입력", desc: "도착 항공편 번호와 대만 숙소 주소를 미리 준비해두면 막힘없이 끝납니다." },
-            { mark: "4", b: "확인 메일 보관", desc: "제출하면 이메일로 완료 안내가 옵니다. 심사 때 보여줄 필요는 없지만 캡처해두면 마음이 편해요." },
+          "type": "compareTable",
+          "cities": [
+            "예전(종이 신고서)",
+            "현재(TWAC, 2026년 9월 기준)"
           ],
+          "rows": [
+            {
+              "label": "작성 방식",
+              "values": [
+                "기내·공항에서 종이에 작성",
+                "공식 사이트에서 온라인 작성"
+              ]
+            },
+            {
+              "label": "작성 시기",
+              "values": [
+                "입국 심사 직전",
+                "도착 전 7일 이내(2026년 7월 15일부터, 이전엔 3일)"
+              ]
+            },
+            {
+              "label": "가족·일행",
+              "values": [
+                "1인 1장",
+                "대표 1명이 최대 16명까지 대신 작성"
+              ]
+            },
+            {
+              "label": "심사 때 제출",
+              "values": [
+                "종이 제출",
+                "제출 불필요 — 여권을 스캔하면 자동 조회"
+              ]
+            },
+            {
+              "label": "비용",
+              "values": [
+                "무료",
+                "무료"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg", caption: "초록색 한국 여권과 탑승권이 꽂힌 여권 케이스예요. TWAC에는 여권 정보와 항공편 번호가 필요해요." },
-        { type: "h2", text: "03 · 자주 하는 실수" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "너무 일찍 작성하기", desc: "도착 7일 전보다 앞서서는 제출이 안 됩니다. 출발 주간에 작성하세요." },
-            { mark: "✓", b: "유료 대행 사이트", desc: "검색하면 수수료를 받는 대행 사이트가 나오는데, 공식 TWAC는 무료입니다. 주소가 immigration.gov.tw인지 꼭 확인하세요." },
-            { mark: "✓", b: "일행 누락", desc: "대리 작성 후 일행 전원이 목록에 들어갔는지 확인하세요. 수정은 제출 후에도 온라인으로 가능합니다." },
-            { mark: "✓", b: "공항에서 못 했다면", desc: "도착 공항에도 TWAC QR코드가 있어 현장에서 작성할 수 있지만, 줄이 길 때는 시간이 걸려요." },
-          ],
+          "type": "h2",
+          "text": "02 · 대만 입국신고서 TWAC 작성 순서"
         },
-        { type: "h2", text: "04 · 대상이 아닌 사람도 있어요" },
-        { type: "p", html: "TWAC는 무비자·방문 비자로 입국하는 외국인이 대상입니다. 대만 거주증이 있는 사람은 작성하지 않아도 돼요. 한국 여권으로 관광 입국한다면 대부분 작성 대상이라고 보면 됩니다." },
-        { type: "quote", text: "\"비행기 타기 전날 밤에 5분이면 끝난다.\" — TWAC를 미리 작성해 본 여행자들의 후기를 요약했습니다." },
-        { type: "p", html: "입국 준비를 마쳤다면 도착 다음 날 아침 메뉴를 정해볼 차례예요. <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>에서 숙소 가까운 곳을 고르고, 또우장 가게 <a href=\"/taipei-breakfast-sihai-soy-milk-794\">쓰하이 또우장(Sihai Soy Milk)</a>도 참고해보세요. 전체 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에 있어요." },
-        { type: "note", text: "이 글은 대만 내정부 이민서 공식 공지(2026년 7월 기준 개정 포함)를 바탕으로 정리했습니다(2026년 9월 기준). 입국 제도는 바뀔 수 있으니 출발 전 공식 TWAC 사이트에서 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "도착 첫날 갈 맛집도 지도에서 찾아보세요", desc: "입국 후 바로 들르기 좋은 타이베이 맛집을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "공식 사이트 접속",
+              "desc": "twac.immigration.gov.tw에 들어가 중국어나 영어로 작성합니다. 항목 설명은 한국어를 포함한 7개 언어로 볼 수 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "여권 사진 업로드",
+              "desc": "여권 정보면을 촬영해 올리면 이름·여권번호가 자동으로 입력돼 시간이 줄어요."
+            },
+            {
+              "mark": "3",
+              "b": "항공편·숙소 입력",
+              "desc": "도착 항공편 번호와 대만 숙소 주소를 미리 준비해두면 막힘없이 끝납니다."
+            },
+            {
+              "mark": "4",
+              "b": "확인 메일 보관",
+              "desc": "제출하면 이메일로 완료 안내가 옵니다. 심사 때 보여줄 필요는 없지만 캡처해두면 마음이 편해요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg",
+          "caption": "초록색 한국 여권과 탑승권이 꽂힌 여권 케이스예요. TWAC에는 여권 정보와 항공편 번호가 필요해요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 자주 하는 실수"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "너무 일찍 작성하기",
+              "desc": "도착 7일 전보다 앞서서는 제출이 안 됩니다. 출발 주간에 작성하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "유료 대행 사이트",
+              "desc": "검색하면 수수료를 받는 대행 사이트가 나오는데, 공식 TWAC는 무료입니다. 주소가 immigration.gov.tw인지 꼭 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "일행 누락",
+              "desc": "대리 작성 후 일행 전원이 목록에 들어갔는지 확인하세요. 수정은 제출 후에도 온라인으로 가능합니다."
+            },
+            {
+              "mark": "✓",
+              "b": "공항에서 못 했다면",
+              "desc": "도착 공항에도 TWAC QR코드가 있어 현장에서 작성할 수 있지만, 줄이 길 때는 시간이 걸려요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 대상이 아닌 사람도 있어요"
+        },
+        {
+          "type": "p",
+          "html": "TWAC는 무비자·방문 비자로 입국하는 외국인이 대상입니다. 대만 거주증이 있는 사람은 작성하지 않아도 돼요. 한국 여권으로 관광 입국한다면 대부분 작성 대상이라고 보면 됩니다."
+        },
+        {
+          "type": "quote",
+          "text": "\"비행기 타기 전날 밤에 5분이면 끝난다.\" — TWAC를 미리 작성해 본 여행자들의 후기를 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "입국 준비를 마쳤다면 도착 다음 날 아침 메뉴를 정해볼 차례예요. <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>에서 숙소 가까운 곳을 고르고, 또우장 가게 <a href=\"/taipei-breakfast-sihai-soy-milk-794\">쓰하이 또우장(Sihai Soy Milk)</a>도 참고해보세요. 전체 위치는 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 내정부 이민서 공식 공지(2026년 7월 기준 개정 포함)를 바탕으로 정리했습니다(2026년 9월 기준). 입국 제도는 바뀔 수 있으니 출발 전 공식 TWAC 사이트에서 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "도착 첫날 갈 맛집도 지도에서 찾아보세요",
+          "desc": "입국 후 바로 들르기 좋은 타이베이 맛집을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwan Online Arrival Card (TWAC) Guide — Timing and Family Submissions · My Secret Taiwan Eats",
-      metaDescription: "Taiwan no longer accepts paper arrival cards — only the online TWAC. Submitting within 7 days of arrival, filling it out for family, and avoiding paid third-party sites, as of 2026.",
-      ogTitle: "Taiwan Arrival Card (TWAC): When and How Should You Fill It Out?",
-      eyebrow: "Taiwan Travel Guide · Entry Prep",
-      title: "Taiwan Arrival Card (TWAC): When and How Should You Fill It Out?",
-      dek: "The latest rule — the window grew from 3 days to 7 days before arrival — plus how families can register everyone at once.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan Travel · Entry Guide",
-      intro: "\"Will they hand out arrival cards on the plane?\" Since October 1, 2025, Taiwan no longer accepts paper arrival cards; you declare online through the Taiwan Arrival Card (TWAC). Based on official National Immigration Agency notices and real traveler experiences, here's when and how to fill it out.",
-      blocks: [
-        { type: "h2", text: "01 · Then vs. Now" },
+    "en": {
+      "pageTitle": "Taiwan Online Arrival Card (TWAC) Guide — Timing and Family Submissions · My Secret Taiwan Eats",
+      "metaDescription": "Taiwan no longer accepts paper arrival cards — only the online TWAC. Submitting within 7 days of arrival, filling it out for family, and avoiding paid third-party sites, as of 2026.",
+      "ogTitle": "Taiwan Arrival Card (TWAC): When and How Should You Fill It Out?",
+      "eyebrow": "Taiwan Travel Guide · Entry Prep",
+      "title": "Taiwan Arrival Card (TWAC): When and How Should You Fill It Out?",
+      "dek": "The latest rule — the window grew from 3 days to 7 days before arrival — plus how families can register everyone at once.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan Travel · Entry Guide",
+      "intro": "\"Will they hand out arrival cards on the plane?\" Since October 1, 2025, Taiwan no longer accepts paper arrival cards; you declare online through the Taiwan Arrival Card (TWAC). Based on official National Immigration Agency notices and real traveler experiences, here's when and how to fill it out.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Before (paper card)", "Now (TWAC, as of Sep 2026)"],
-          rows: [
-            { label: "How", values: ["On paper, on the plane or at the airport", "Online on the official site"] },
-            { label: "When", values: ["Right before immigration", "Within 7 days before arrival (since July 15, 2026; previously 3 days)"] },
-            { label: "Family/groups", values: ["One card each", "One person can submit for up to 16 people"] },
-            { label: "At immigration", values: ["Hand in the card", "Nothing to show — scanning your passport pulls up the data"] },
-            { label: "Cost", values: ["Free", "Free"] },
-          ],
+          "type": "h2",
+          "text": "01 · Then vs. Now"
         },
-        { type: "h2", text: "02 · How to Fill It Out" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Go to the official site", desc: "Fill it out at twac.immigration.gov.tw in Chinese or English; field guidance is available in seven languages including Korean." },
-            { mark: "2", b: "Upload a passport photo", desc: "A photo of your passport data page auto-fills your name and passport number." },
-            { mark: "3", b: "Enter flight and hotel", desc: "Have your arrival flight number and Taiwan hotel address ready." },
-            { mark: "4", b: "Keep the confirmation email", desc: "You don't need to show it at immigration, but a screenshot is reassuring." },
+          "type": "compareTable",
+          "cities": [
+            "Before (paper card)",
+            "Now (TWAC, as of Sep 2026)"
           ],
+          "rows": [
+            {
+              "label": "How",
+              "values": [
+                "On paper, on the plane or at the airport",
+                "Online on the official site"
+              ]
+            },
+            {
+              "label": "When",
+              "values": [
+                "Right before immigration",
+                "Within 7 days before arrival (since July 15, 2026; previously 3 days)"
+              ]
+            },
+            {
+              "label": "Family/groups",
+              "values": [
+                "One card each",
+                "One person can submit for up to 16 people"
+              ]
+            },
+            {
+              "label": "At immigration",
+              "values": [
+                "Hand in the card",
+                "Nothing to show — scanning your passport pulls up the data"
+              ]
+            },
+            {
+              "label": "Cost",
+              "values": [
+                "Free",
+                "Free"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg", caption: "A green Korean passport and boarding passes in a passport wallet — TWAC asks for your passport details and flight number." },
-        { type: "h2", text: "03 · Common Mistakes" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Submitting too early", desc: "You can't submit more than 7 days before arrival. Do it the week you fly." },
-            { mark: "✓", b: "Paid third-party sites", desc: "Search results include sites that charge fees, but the official TWAC is free. Make sure the address is immigration.gov.tw." },
-            { mark: "✓", b: "Missing a companion", desc: "After submitting for your group, confirm everyone is on the list. You can still edit online afterward." },
-            { mark: "✓", b: "If you didn't do it beforehand", desc: "Arrival airports post TWAC QR codes so you can fill it out on the spot, but it takes time when lines are long." },
-          ],
+          "type": "h2",
+          "text": "02 · How to Fill It Out"
         },
-        { type: "h2", text: "04 · Who Doesn't Need It" },
-        { type: "p", html: "TWAC is for foreigners entering visa-free or on a visitor visa. Holders of a Taiwan residence permit don't need to file it. If you're visiting as a tourist on a foreign passport, assume you need it." },
-        { type: "quote", text: "\"Took five minutes the night before my flight.\" — a summary of reviews from travelers who filled out TWAC in advance." },
-        { type: "p", html: "Once entry prep is done, plan tomorrow morning's breakfast. Pick a spot near your hotel from <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, and check <a href=\"/taipei-breakfast-sihai-soy-milk-794\">Sihai Soy Milk</a>. See everything on the <a href=\"/region-taipei\">Taipei food map</a>." },
-        { type: "note", text: "This guide is based on official notices from Taiwan's National Immigration Agency, including the July 2026 update (as of September 2026). Entry rules can change, so check the official TWAC site before you fly." },
-        { type: "cta", title: "Find a First-Day Restaurant on the Map", desc: "Look up Taipei restaurants to hit right after you land.", btn: "Open Map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Go to the official site",
+              "desc": "Fill it out at twac.immigration.gov.tw in Chinese or English; field guidance is available in seven languages including Korean."
+            },
+            {
+              "mark": "2",
+              "b": "Upload a passport photo",
+              "desc": "A photo of your passport data page auto-fills your name and passport number."
+            },
+            {
+              "mark": "3",
+              "b": "Enter flight and hotel",
+              "desc": "Have your arrival flight number and Taiwan hotel address ready."
+            },
+            {
+              "mark": "4",
+              "b": "Keep the confirmation email",
+              "desc": "You don't need to show it at immigration, but a screenshot is reassuring."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-arrival-card-twac-guide-1.jpg",
+          "caption": "A green Korean passport and boarding passes in a passport wallet — TWAC asks for your passport details and flight number."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Common Mistakes"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Submitting too early",
+              "desc": "You can't submit more than 7 days before arrival. Do it the week you fly."
+            },
+            {
+              "mark": "✓",
+              "b": "Paid third-party sites",
+              "desc": "Search results include sites that charge fees, but the official TWAC is free. Make sure the address is immigration.gov.tw."
+            },
+            {
+              "mark": "✓",
+              "b": "Missing a companion",
+              "desc": "After submitting for your group, confirm everyone is on the list. You can still edit online afterward."
+            },
+            {
+              "mark": "✓",
+              "b": "If you didn't do it beforehand",
+              "desc": "Arrival airports post TWAC QR codes so you can fill it out on the spot, but it takes time when lines are long."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Who Doesn't Need It"
+        },
+        {
+          "type": "p",
+          "html": "TWAC is for foreigners entering visa-free or on a visitor visa. Holders of a Taiwan residence permit don't need to file it. If you're visiting as a tourist on a foreign passport, assume you need it."
+        },
+        {
+          "type": "quote",
+          "text": "\"Took five minutes the night before my flight.\" — a summary of reviews from travelers who filled out TWAC in advance."
+        },
+        {
+          "type": "p",
+          "html": "Once entry prep is done, plan tomorrow morning's breakfast. Pick a spot near your hotel from <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, and check <a href=\"/taipei-breakfast-sihai-soy-milk-794\">Sihai Soy Milk</a>. See everything on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "This guide is based on official notices from Taiwan's National Immigration Agency, including the July 2026 update (as of September 2026). Entry rules can change, so check the official TWAC site before you fly."
+        },
+        {
+          "type": "cta",
+          "title": "Find a First-Day Restaurant on the Map",
+          "desc": "Look up Taipei restaurants to hit right after you land.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "taiwan-pineapple-cake-brand-comparison": {
-    heroImage: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg",
-    ko: {
-      pageTitle: "대만 펑리수 브랜드 비교 — 3곳 정리 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까요? 소 재료와 2026년 가격, 구매처까지 한 표로 정리했어요.",
-      ogTitle: "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까?",
-      eyebrow: "대만 여행 가이드 · 선물",
-      title: "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까?",
-      dek: "이름은 다 들어봤는데 차이는 잘 모르겠다면 — 소 재료, 가격대, 구매처를 기준으로 세 브랜드를 나란히 놓아봤습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 · 선물 가이드",
-      intro: "\"펑리수는 다 비슷하지 않아요?\" 대만 펑리수 브랜드 비교를 해보면 소 재료부터 달라요. 파인애플만 쓰는 곳, 동과(冬瓜)를 섞는 곳, 사과 소를 따로 내는 곳까지 있어서 받는 사람 취향에 따라 고르는 게 좋아요. 각 브랜드 공식몰 정보와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 대만 펑리수 브랜드 비교 한눈에 보기" },
+    "heroImage": "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg",
+    "ko": {
+      "pageTitle": "대만 펑리수 브랜드 비교 — 3곳 정리 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까요? 소 재료와 2026년 가격, 구매처까지 한 표로 정리했어요.",
+      "ogTitle": "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까?",
+      "eyebrow": "대만 여행 가이드 · 선물",
+      "title": "대만 펑리수 브랜드 비교, 치아더·치메이·써니힐즈 중 뭘 살까?",
+      "dek": "이름은 다 들어봤는데 차이는 잘 모르겠다면 — 소 재료, 가격대, 구매처를 기준으로 세 브랜드를 나란히 놓아봤습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 · 선물 가이드",
+      "intro": "\"펑리수는 다 비슷하지 않아요?\" 대만 펑리수 브랜드 비교를 해보면 소 재료부터 달라요. 파인애플만 쓰는 곳, 동과(冬瓜)를 섞는 곳, 사과 소를 따로 내는 곳까지 있어서 받는 사람 취향에 따라 고르는 게 좋아요. 각 브랜드 공식몰 정보와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["치메이(奇美食品)", "써니힐즈(微熱山丘)", "치아더(佳德糕餅)"],
-          rows: [
-            { label: "소 재료", values: ["황금 펑리수는 파인애플+동과, 투펑리수는 파인애플만", "파인애플 소 펑리수, 사과 소 핑궈수", "맛 종류가 여러 가지"] },
-            { label: "가격(2026년 9월 기준)", values: ["황금 펑리수 12개입 NT$588(공식몰)", "펑리수 6·10·15개입 NT$345·550·825", "매장 가격 확인 필요"] },
-            { label: "구매처", values: ["공식몰, 타오위안공항 면세점 등", "공식몰, 타이베이 민성 본점 등", "타이베이 난징둥루 본점"] },
-            { label: "후기 경향", values: ["부드럽고 달콤하다는 평", "새콤한 과육감이 있다는 평", "맛을 섞어 고르기 좋다는 평"] },
-          ],
+          "type": "h2",
+          "text": "01 · 대만 펑리수 브랜드 비교 한눈에 보기"
         },
-        { type: "h2", text: "02 · 브랜드별로 알아둘 점" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "치메이", desc: "황금 펑리수는 피와 소 비율이 2:3이라 소가 넉넉한 편이에요. 파인애플만 쓴 제품을 원하면 투펑리수(土鳳梨酥)를 고르세요." },
-            { mark: "✓", b: "써니힐즈", desc: "펑리수와 사과 소 핑궈수(6개입 NT$405·10개입 NT$650), 두 가지를 섞은 선물 상자(NT$630)가 있어요(2026년 9월 기준). 본점은 민성둥루 5단 36항 4롱 1호예요." },
-            { mark: "✓", b: "치아더", desc: "본점은 난징둥루 5단 88호, MRT 난징싼민역 2번 출구 근처예요. 영업시간은 방문 전 구글맵에 등록된 정보를 확인하세요." },
+          "type": "compareTable",
+          "cities": [
+            "치메이(奇美食品)",
+            "써니힐즈(微熱山丘)",
+            "치아더(佳德糕餅)"
           ],
+          "rows": [
+            {
+              "label": "소 재료",
+              "values": [
+                "황금 펑리수는 파인애플+동과, 투펑리수는 파인애플만",
+                "파인애플 소 펑리수, 사과 소 핑궈수",
+                "맛 종류가 여러 가지"
+              ]
+            },
+            {
+              "label": "가격(2026년 9월 기준)",
+              "values": [
+                "황금 펑리수 12개입 NT$588(공식몰)",
+                "펑리수 6·10·15개입 NT$345·550·825",
+                "매장 가격 확인 필요"
+              ]
+            },
+            {
+              "label": "구매처",
+              "values": [
+                "공식몰, 타오위안공항 면세점 등",
+                "공식몰, 타이베이 민성 본점 등",
+                "타이베이 난징둥루 본점"
+              ]
+            },
+            {
+              "label": "후기 경향",
+              "values": [
+                "부드럽고 달콤하다는 평",
+                "새콤한 과육감이 있다는 평",
+                "맛을 섞어 고르기 좋다는 평"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg", caption: "시장 진열대에 쌓인 생 파인애플이에요. 펑리수 실물이 아니라 소 재료를 보여주는 참고 사진이에요." },
-        { type: "h2", text: "03 · 받는 사람별로 고르기" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "달콤한 맛을 좋아하는 부모님", desc: "동과를 섞은 소가 부드러워 무난하다는 후기가 많아요." },
-            { mark: "2", b: "새콤한 과일 맛을 좋아하는 사람", desc: "파인애플만 쓴 소를 고르세요. 브랜드마다 '土鳳梨' 표기가 있는지 보면 돼요." },
-            { mark: "3", b: "회사 동료 여러 명", desc: "개별 포장에 개수가 많은 상자가 나눠 주기 편해요." },
-            { mark: "4", b: "여러 맛을 보고 싶을 때", desc: "맛 종류가 많은 매장에서 섞어 담는 방법도 있어요." },
-          ],
+          "type": "h2",
+          "text": "02 · 브랜드별로 알아둘 점"
         },
-        { type: "h2", text: "04 · 사기 전에 확인할 것" },
-        { type: "p", html: "가격과 구성은 시즌과 채널에 따라 바뀌어요. 공항 면세점과 시내 매장의 가격이나 포장이 다를 수 있으니, 선물 개수를 정한 뒤 개당 가격으로 비교해보세요. 유통기한도 제품마다 달라서 귀국 후 바로 나눠 줄 계획이 아니면 날짜를 먼저 확인하는 게 좋아요." },
-        { type: "quote", text: "\"받는 사람 입맛부터 생각하고 브랜드를 고르면 실패가 적다.\" — 대만 펑리수를 여러 번 사 본 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "브랜드 매장 외에도 선택지는 많아요. <a href=\"/taipei-bakery\">타이베이 베이커리 맛집</a> 모음에서 과자점을 더 볼 수 있고, 101 근처라면 <a href=\"/taipei-bakery-sunny-hills-101-795\">써니힐즈(타이베이 101 인근)</a> 매장도 있어요. 타이난에 간다면 <a href=\"/tainan-taiwanese-640\">치메이식품 행복공장(奇美食品幸福工廠)</a>도 지도에 있고, 주변 가게는 <a href=\"/region-tainan\">타이난 맛집 지도</a>에서 볼 수 있어요." },
-        { type: "note", text: "이 글은 각 브랜드 공식몰·공식 사이트 정보와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 맛 평가는 후기 경향이며, 가격·영업시간은 방문 전 다시 확인하는 것을 추천해요." },
-        { type: "cta", title: "지도에서 타이베이 베이커리도 확인해보세요", desc: "펑리수와 함께 사기 좋은 타이베이 빵집·과자점을 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=bakery" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "치메이",
+              "desc": "황금 펑리수는 피와 소 비율이 2:3이라 소가 넉넉한 편이에요. 파인애플만 쓴 제품을 원하면 투펑리수(土鳳梨酥)를 고르세요."
+            },
+            {
+              "mark": "✓",
+              "b": "써니힐즈",
+              "desc": "펑리수와 사과 소 핑궈수(6개입 NT$405·10개입 NT$650), 두 가지를 섞은 선물 상자(NT$630)가 있어요(2026년 9월 기준). 본점은 민성둥루 5단 36항 4롱 1호예요."
+            },
+            {
+              "mark": "✓",
+              "b": "치아더",
+              "desc": "본점은 난징둥루 5단 88호, MRT 난징싼민역 2번 출구 근처예요. 영업시간은 방문 전 구글맵에 등록된 정보를 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg",
+          "caption": "시장 진열대에 쌓인 생 파인애플이에요. 펑리수 실물이 아니라 소 재료를 보여주는 참고 사진이에요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 받는 사람별로 고르기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "달콤한 맛을 좋아하는 부모님",
+              "desc": "동과를 섞은 소가 부드러워 무난하다는 후기가 많아요."
+            },
+            {
+              "mark": "2",
+              "b": "새콤한 과일 맛을 좋아하는 사람",
+              "desc": "파인애플만 쓴 소를 고르세요. 브랜드마다 '土鳳梨' 표기가 있는지 보면 돼요."
+            },
+            {
+              "mark": "3",
+              "b": "회사 동료 여러 명",
+              "desc": "개별 포장에 개수가 많은 상자가 나눠 주기 편해요."
+            },
+            {
+              "mark": "4",
+              "b": "여러 맛을 보고 싶을 때",
+              "desc": "맛 종류가 많은 매장에서 섞어 담는 방법도 있어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 사기 전에 확인할 것"
+        },
+        {
+          "type": "p",
+          "html": "가격과 구성은 시즌과 채널에 따라 바뀌어요. 공항 면세점과 시내 매장의 가격이나 포장이 다를 수 있으니, 선물 개수를 정한 뒤 개당 가격으로 비교해보세요. 유통기한도 제품마다 달라서 귀국 후 바로 나눠 줄 계획이 아니면 날짜를 먼저 확인하는 게 좋아요."
+        },
+        {
+          "type": "quote",
+          "text": "\"받는 사람 입맛부터 생각하고 브랜드를 고르면 실패가 적다.\" — 대만 펑리수를 여러 번 사 본 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "브랜드 매장 외에도 선택지는 많아요. <a href=\"/taipei-bakery\">타이베이 베이커리 맛집</a> 모음에서 과자점을 더 볼 수 있고, 101 근처라면 <a href=\"/taipei-bakery-sunny-hills-101-795\">써니힐즈(타이베이 101 인근)</a> 매장도 있어요. 타이난에 간다면 <a href=\"/tainan-taiwanese-640\">치메이식품 행복공장(奇美食品幸福工廠)</a>도 지도에 있고, 주변 가게는 <a href=\"/region-tainan\">타이난 맛집 지도</a>에서 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 각 브랜드 공식몰·공식 사이트 정보와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 맛 평가는 후기 경향이며, 가격·영업시간은 방문 전 다시 확인하는 것을 추천해요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 베이커리도 확인해보세요",
+          "desc": "펑리수와 함께 사기 좋은 타이베이 빵집·과자점을 지도에서 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=bakery"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwan Pineapple Cake Brands Compared — Chia Te, Chimei, SunnyHills · My Secret Taiwan Eats",
-      metaDescription: "Chia Te, Chimei, and SunnyHills side by side: fillings, 2026 prices, and where to buy each Taiwanese pineapple cake.",
-      ogTitle: "Taiwan Pineapple Cake Brands Compared: Chia Te, Chimei, or SunnyHills?",
-      eyebrow: "Taiwan Travel Guide · Gifts",
-      title: "Taiwan Pineapple Cake Brands Compared: Chia Te, Chimei, or SunnyHills?",
-      dek: "You've heard all three names but aren't sure how they differ — here they are side by side by filling, price range, and where to buy.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan · Gift Guide",
-      intro: "\"Aren't all pineapple cakes the same?\" Not quite. Some brands use only pineapple, some blend in winter melon (冬瓜), and some also sell an apple-filled version, so it pays to pick by the recipient's taste. Based on each brand's official store information and real traveler experiences, here's a comparison.",
-      blocks: [
-        { type: "h2", text: "01 · The Three Brands at a Glance" },
+    "en": {
+      "pageTitle": "Taiwan Pineapple Cake Brands Compared — Chia Te, Chimei, SunnyHills · My Secret Taiwan Eats",
+      "metaDescription": "Chia Te, Chimei, and SunnyHills side by side: fillings, 2026 prices, and where to buy each Taiwanese pineapple cake.",
+      "ogTitle": "Taiwan Pineapple Cake Brands Compared: Chia Te, Chimei, or SunnyHills?",
+      "eyebrow": "Taiwan Travel Guide · Gifts",
+      "title": "Taiwan Pineapple Cake Brands Compared: Chia Te, Chimei, or SunnyHills?",
+      "dek": "You've heard all three names but aren't sure how they differ — here they are side by side by filling, price range, and where to buy.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan · Gift Guide",
+      "intro": "\"Aren't all pineapple cakes the same?\" Not quite. Some brands use only pineapple, some blend in winter melon (冬瓜), and some also sell an apple-filled version, so it pays to pick by the recipient's taste. Based on each brand's official store information and real traveler experiences, here's a comparison.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Chimei (奇美食品)", "SunnyHills (微熱山丘)", "Chia Te (佳德糕餅)"],
-          rows: [
-            { label: "Filling", values: ["Golden: pineapple + winter melon; 土鳳梨酥: pineapple only", "Pineapple cake, plus an apple cake", "Several flavors"] },
-            { label: "Price (Sept 2026)", values: ["Golden 12-pack NT$588 (official store)", "6/10/15-pack NT$345/550/825", "Check in store"] },
-            { label: "Where to buy", values: ["Official store, Taoyuan Airport duty-free, etc.", "Official store, Minsheng flagship in Taipei, etc.", "Flagship on Nanjing E. Rd, Taipei"] },
-            { label: "Reviews tend to say", values: ["Soft and sweet", "Tangy, with fruit texture", "Good for mixing flavors"] },
-          ],
+          "type": "h2",
+          "text": "01 · The Three Brands at a Glance"
         },
-        { type: "h2", text: "02 · What to Know About Each Brand" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Chimei", desc: "The Golden cake has a 2:3 crust-to-filling ratio, so it's generous with filling. For pineapple-only, choose the 土鳳梨酥." },
-            { mark: "✓", b: "SunnyHills", desc: "Besides pineapple cakes there's an apple cake (6-pack NT$405, 10-pack NT$650) and a mixed box (NT$630), as of Sept 2026. The flagship is at Lane 36, Alley 4, No. 1, Minsheng E. Rd Sec. 5." },
-            { mark: "✓", b: "Chia Te", desc: "The flagship is at No. 88, Nanjing E. Rd Sec. 5, near Exit 2 of Nanjing Sanmin MRT. Check the current opening hours on Google Maps before you go." },
+          "type": "compareTable",
+          "cities": [
+            "Chimei (奇美食品)",
+            "SunnyHills (微熱山丘)",
+            "Chia Te (佳德糕餅)"
           ],
+          "rows": [
+            {
+              "label": "Filling",
+              "values": [
+                "Golden: pineapple + winter melon; 土鳳梨酥: pineapple only",
+                "Pineapple cake, plus an apple cake",
+                "Several flavors"
+              ]
+            },
+            {
+              "label": "Price (Sept 2026)",
+              "values": [
+                "Golden 12-pack NT$588 (official store)",
+                "6/10/15-pack NT$345/550/825",
+                "Check in store"
+              ]
+            },
+            {
+              "label": "Where to buy",
+              "values": [
+                "Official store, Taoyuan Airport duty-free, etc.",
+                "Official store, Minsheng flagship in Taipei, etc.",
+                "Flagship on Nanjing E. Rd, Taipei"
+              ]
+            },
+            {
+              "label": "Reviews tend to say",
+              "values": [
+                "Soft and sweet",
+                "Tangy, with fruit texture",
+                "Good for mixing flavors"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg", caption: "Fresh pineapples stacked at a market stall — a reference photo of the filling fruit, not the pineapple cakes themselves." },
-        { type: "h2", text: "03 · Choosing by Recipient" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Parents who like sweet", desc: "Winter-melon blends are soft and a safe pick, reviews say." },
-            { mark: "2", b: "Fans of tangy fruit", desc: "Choose pineapple-only fillings — look for '土鳳梨' on the box." },
-            { mark: "3", b: "A whole office", desc: "Large boxes of individually wrapped cakes are easiest to hand out." },
-            { mark: "4", b: "Want to try several", desc: "Some shops let you mix flavors in one box." },
-          ],
+          "type": "h2",
+          "text": "02 · What to Know About Each Brand"
         },
-        { type: "h2", text: "04 · Before You Buy" },
-        { type: "p", html: "Prices and box sizes change by season and sales channel. Airport duty-free and city stores may differ in price or packaging, so decide how many you need and compare the per-piece price. Shelf life varies too, so check the date if you won't hand them out right away." },
-        { type: "quote", text: "\"Think about the recipient's taste first, then pick the brand.\" — a summary of advice from travelers who've bought plenty of pineapple cakes." },
-        { type: "p", html: "There are plenty of options beyond the brand shops. You can see more pastry shops in the <a href=\"/taipei-bakery\">Taipei bakery picks</a>, and near Taipei 101 there's the <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills (near Taipei 101)</a> shop. If you're heading to Tainan, <a href=\"/tainan-taiwanese-640\">Chimei Food Happiness Factory (奇美食品幸福工廠)</a> is on the map, and nearby shops are on the <a href=\"/region-tainan\">Tainan food map</a>." },
-        { type: "note", text: "Based on each brand's official store/site and traveler experiences (as of September 2026). Taste notes reflect review trends; check prices and hours before visiting." },
-        { type: "cta", title: "Find Taipei bakeries on the map", desc: "Look for Taipei bakeries and snack shops to visit along with your pineapple cake run.", btn: "Open Map →", href: "/map?region=taipei&cat=bakery" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Chimei",
+              "desc": "The Golden cake has a 2:3 crust-to-filling ratio, so it's generous with filling. For pineapple-only, choose the 土鳳梨酥."
+            },
+            {
+              "mark": "✓",
+              "b": "SunnyHills",
+              "desc": "Besides pineapple cakes there's an apple cake (6-pack NT$405, 10-pack NT$650) and a mixed box (NT$630), as of Sept 2026. The flagship is at Lane 36, Alley 4, No. 1, Minsheng E. Rd Sec. 5."
+            },
+            {
+              "mark": "✓",
+              "b": "Chia Te",
+              "desc": "The flagship is at No. 88, Nanjing E. Rd Sec. 5, near Exit 2 of Nanjing Sanmin MRT. Check the current opening hours on Google Maps before you go."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-pineapple-cake-brand-comparison-1.jpg",
+          "caption": "Fresh pineapples stacked at a market stall — a reference photo of the filling fruit, not the pineapple cakes themselves."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Choosing by Recipient"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Parents who like sweet",
+              "desc": "Winter-melon blends are soft and a safe pick, reviews say."
+            },
+            {
+              "mark": "2",
+              "b": "Fans of tangy fruit",
+              "desc": "Choose pineapple-only fillings — look for '土鳳梨' on the box."
+            },
+            {
+              "mark": "3",
+              "b": "A whole office",
+              "desc": "Large boxes of individually wrapped cakes are easiest to hand out."
+            },
+            {
+              "mark": "4",
+              "b": "Want to try several",
+              "desc": "Some shops let you mix flavors in one box."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Before You Buy"
+        },
+        {
+          "type": "p",
+          "html": "Prices and box sizes change by season and sales channel. Airport duty-free and city stores may differ in price or packaging, so decide how many you need and compare the per-piece price. Shelf life varies too, so check the date if you won't hand them out right away."
+        },
+        {
+          "type": "quote",
+          "text": "\"Think about the recipient's taste first, then pick the brand.\" — a summary of advice from travelers who've bought plenty of pineapple cakes."
+        },
+        {
+          "type": "p",
+          "html": "There are plenty of options beyond the brand shops. You can see more pastry shops in the <a href=\"/taipei-bakery\">Taipei bakery picks</a>, and near Taipei 101 there's the <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills (near Taipei 101)</a> shop. If you're heading to Tainan, <a href=\"/tainan-taiwanese-640\">Chimei Food Happiness Factory (奇美食品幸福工廠)</a> is on the map, and nearby shops are on the <a href=\"/region-tainan\">Tainan food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on each brand's official store/site and traveler experiences (as of September 2026). Taste notes reflect review trends; check prices and hours before visiting."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei bakeries on the map",
+          "desc": "Look for Taipei bakeries and snack shops to visit along with your pineapple cake run.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei&cat=bakery"
+        }
+      ]
+    }
   },
-
   "taiwan-canned-kimchi-carry-on-rules": {
-    heroImage: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg",
-    ko: {
-      pageTitle: "대만 여행 김치 기내 반입 — 액체 규정 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "대만 여행 김치 기내 반입, 캔은 어떻게 할까요? 용기당 100ml 기준과 위탁 수하물, 대만 돼지고기 반입 금지까지 정리했어요.",
-      ogTitle: "대만 여행 김치 기내 반입, 캔 볶음김치는 어떻게 챙길까?",
-      eyebrow: "대만 여행 가이드 · 짐 싸기",
-      title: "대만 여행 김치 기내 반입, 캔 볶음김치는 어떻게 챙길까?",
-      dek: "작은 캔 하나 때문에 보안검색에서 버리는 일이 없도록 — 용기 기준과 대만 입국 때 더 조심할 점을 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 · 수하물 가이드",
-      intro: "\"볶음김치 캔 하나 정도는 가방에 넣어도 되겠죠?\" 대만 여행 김치 기내 반입은 생각보다 까다로워요. 국물이나 양념이 있는 김치·고추장은 액체류로 보기 때문이에요. 인천공항과 대만 항공경찰국 안내, 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 기내 vs 위탁 한눈에 비교하기" },
+    "heroImage": "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg",
+    "ko": {
+      "pageTitle": "대만 여행 김치 기내 반입 — 액체 규정 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 여행 김치 기내 반입, 캔은 어떻게 할까요? 용기당 100ml 기준과 위탁 수하물, 대만 돼지고기 반입 금지까지 정리했어요.",
+      "ogTitle": "대만 여행 김치 기내 반입, 캔 볶음김치는 어떻게 챙길까?",
+      "eyebrow": "대만 여행 가이드 · 짐 싸기",
+      "title": "대만 여행 김치 기내 반입, 캔 볶음김치는 어떻게 챙길까?",
+      "dek": "작은 캔 하나 때문에 보안검색에서 버리는 일이 없도록 — 용기 기준과 대만 입국 때 더 조심할 점을 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 · 수하물 가이드",
+      "intro": "\"볶음김치 캔 하나 정도는 가방에 넣어도 되겠죠?\" 대만 여행 김치 기내 반입은 생각보다 까다로워요. 국물이나 양념이 있는 김치·고추장은 액체류로 보기 때문이에요. 인천공항과 대만 항공경찰국 안내, 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["기내 수하물", "위탁 수하물"],
-          rows: [
-            { label: "김치·고추장 분류", values: ["액체류(국물·젤 형태)", "제한 없이 부칠 수 있음(인천공항 안내)"] },
-            { label: "용량 기준", values: ["용기당 100ml 이하, 1인 1L 투명 지퍼백 1개", "항공사 무게 한도 안에서"] },
-            { label: "캔 제품", values: ["100ml 넘는 캔은 내용물이 적어도 불가", "밀봉·완충 포장 권장"] },
-            { label: "대만 출국 때", values: ["같은 기준(용기당 100mL, 1L 지퍼백 1개)", "같음"] },
-          ],
+          "type": "h2",
+          "text": "01 · 기내 vs 위탁 한눈에 비교하기"
         },
-        { type: "h2", text: "02 · 대만 여행 김치 기내 반입, 캔은 용기 크기로 판단" },
-        { type: "p", html: "100ml 기준은 남은 양이 아니라 용기에 적힌 용량이에요. 그래서 반쯤 먹은 큰 캔도 기내에는 못 들고 갑니다. 여행용 소포장 김치라도 용량 표시가 100ml를 넘으면 위탁 수하물로 보내는 게 안전해요." },
-        { type: "figure", img: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg", caption: "젓가락 옆 유리병에 담긴 김치예요. 국물과 양념이 있어 기내에서는 액체류로 분류돼요." },
-        { type: "h2", text: "03 · 대만 입국 때 더 조심할 것: 돼지고기" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "성분표부터 확인", desc: "볶음김치나 김치찌개 캔에 돼지고기가 들어 있으면 대만 반입 금지 품목이에요. 가열·통조림 제품도 마찬가지예요." },
-            { mark: "✓", b: "벌금이 매우 커요", desc: "돼지고기 제품을 신고 없이 들여오면 첫 위반에도 NT$200,000 벌금이 부과되고(2026년 9월 기준), 외국인이 바로 내지 못하면 입국이 거부될 수 있어요." },
-            { mark: "✓", b: "자진 신고함 이용", desc: "도착 후 짐에 해당 제품이 있다는 걸 알았다면 입국 심사 전에 있는 자진 신고함(폐기함)에 버리세요." },
+          "type": "compareTable",
+          "cities": [
+            "기내 수하물",
+            "위탁 수하물"
           ],
+          "rows": [
+            {
+              "label": "김치·고추장 분류",
+              "values": [
+                "액체류(국물·젤 형태)",
+                "제한 없이 부칠 수 있음(인천공항 안내)"
+              ]
+            },
+            {
+              "label": "용량 기준",
+              "values": [
+                "용기당 100ml 이하, 1인 1L 투명 지퍼백 1개",
+                "항공사 무게 한도 안에서"
+              ]
+            },
+            {
+              "label": "캔 제품",
+              "values": [
+                "100ml 넘는 캔은 내용물이 적어도 불가",
+                "밀봉·완충 포장 권장"
+              ]
+            },
+            {
+              "label": "대만 출국 때",
+              "values": [
+                "같은 기준(용기당 100mL, 1L 지퍼백 1개)",
+                "같음"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-2.jpg", caption: "나무 바닥에 놓인 회색 기내용 백팩 두 개예요. 기내 가방에는 100ml 넘는 김치 용기를 넣지 않아요." },
-        { type: "h2", text: "04 · 짐 싸기 요령" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "위탁 가방에 넣기", desc: "캔·병은 지퍼백으로 한 번 싸고 옷 사이에 넣으면 새는 걸 막을 수 있어요." },
-            { mark: "2", b: "소포장은 지퍼백에", desc: "100ml 이하 소포장만 기내용 1L 지퍼백에 넣으세요." },
-            { mark: "3", b: "성분표 사진 찍기", desc: "돼지고기 여부를 빠르게 확인할 수 있게 미리 찍어두면 편해요." },
-          ],
+          "type": "h2",
+          "text": "02 · 대만 여행 김치 기내 반입, 캔은 용기 크기로 판단"
         },
-        { type: "quote", text: "\"김치는 위탁, 고기 들어간 캔은 아예 빼기.\" — 대만에 반찬을 챙겨 간 여행자들이 자주 하는 말을 요약했습니다." },
-        { type: "p", html: "현지 음식이 입에 맞을지 걱정이라면 <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a>에서 익숙한 맛의 메뉴부터 골라보세요. 한식이 그리울 때를 위해 <a href=\"/hualien-korean-33\">화롄 한식당 韓食倉庫</a>처럼 지도에 등록된 한식당도 있어요. 도시별 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요." },
-        { type: "note", text: "이 글은 인천공항·대만 항공경찰국·대만 이민서·동식물방역검역서 안내와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 규정은 바뀔 수 있으니 출발 전 항공사와 공항 안내를 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 타이베이 맛집을 먼저 찾아보세요", desc: "현지 음식이 걱정된다면 입맛에 맞을 만한 타이베이 식당을 지도에서 미리 골라보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "p",
+          "html": "100ml 기준은 남은 양이 아니라 용기에 적힌 용량이에요. 그래서 반쯤 먹은 큰 캔도 기내에는 못 들고 갑니다. 여행용 소포장 김치라도 용량 표시가 100ml를 넘으면 위탁 수하물로 보내는 게 안전해요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg",
+          "caption": "젓가락 옆 유리병에 담긴 김치예요. 국물과 양념이 있어 기내에서는 액체류로 분류돼요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 대만 입국 때 더 조심할 것: 돼지고기"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "성분표부터 확인",
+              "desc": "볶음김치나 김치찌개 캔에 돼지고기가 들어 있으면 대만 반입 금지 품목이에요. 가열·통조림 제품도 마찬가지예요."
+            },
+            {
+              "mark": "✓",
+              "b": "벌금이 매우 커요",
+              "desc": "돼지고기 제품을 신고 없이 들여오면 첫 위반에도 NT$200,000 벌금이 부과되고(2026년 9월 기준), 외국인이 바로 내지 못하면 입국이 거부될 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "자진 신고함 이용",
+              "desc": "도착 후 짐에 해당 제품이 있다는 걸 알았다면 입국 심사 전에 있는 자진 신고함(폐기함)에 버리세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-2.jpg",
+          "caption": "나무 바닥에 놓인 회색 기내용 백팩 두 개예요. 기내 가방에는 100ml 넘는 김치 용기를 넣지 않아요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 짐 싸기 요령"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "위탁 가방에 넣기",
+              "desc": "캔·병은 지퍼백으로 한 번 싸고 옷 사이에 넣으면 새는 걸 막을 수 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "소포장은 지퍼백에",
+              "desc": "100ml 이하 소포장만 기내용 1L 지퍼백에 넣으세요."
+            },
+            {
+              "mark": "3",
+              "b": "성분표 사진 찍기",
+              "desc": "돼지고기 여부를 빠르게 확인할 수 있게 미리 찍어두면 편해요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"김치는 위탁, 고기 들어간 캔은 아예 빼기.\" — 대만에 반찬을 챙겨 간 여행자들이 자주 하는 말을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "현지 음식이 입에 맞을지 걱정이라면 <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a>에서 익숙한 맛의 메뉴부터 골라보세요. 한식이 그리울 때를 위해 <a href=\"/hualien-korean-33\">화롄 한식당 韓食倉庫</a>처럼 지도에 등록된 한식당도 있어요. 도시별 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 인천공항·대만 항공경찰국·대만 이민서·동식물방역검역서 안내와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 규정은 바뀔 수 있으니 출발 전 항공사와 공항 안내를 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집을 먼저 찾아보세요",
+          "desc": "현지 음식이 걱정된다면 입맛에 맞을 만한 타이베이 식당을 지도에서 미리 골라보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Kimchi on Flights to Taiwan — Liquid Rules and Pork Ban · My Secret Taiwan Eats",
-      metaDescription: "Kimchi counts as a liquid in carry-on bags. Here's the 100ml container rule, checked-bag options, and Taiwan's strict ban on pork products.",
-      ogTitle: "Bringing Canned Kimchi to Taiwan: Carry-on or Checked?",
-      eyebrow: "Taiwan Travel Guide · Packing",
-      title: "Bringing Canned Kimchi to Taiwan: Carry-on or Checked?",
-      dek: "So one small can doesn't end up in the security bin — container rules and what to watch for when entering Taiwan.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan · Baggage Guide",
-      intro: "\"Surely one can of stir-fried kimchi is fine in my bag?\" Kimchi and gochujang with sauce or brine count as liquids, so it's trickier than it looks. Based on Incheon Airport and Taiwan Aviation Police guidance plus real traveler experiences, here's how to pack it.",
-      blocks: [
-        { type: "h2", text: "01 · Carry-on vs Checked at a Glance" },
+    "en": {
+      "pageTitle": "Kimchi on Flights to Taiwan — Liquid Rules and Pork Ban · My Secret Taiwan Eats",
+      "metaDescription": "Kimchi counts as a liquid in carry-on bags. Here's the 100ml container rule, checked-bag options, and Taiwan's strict ban on pork products.",
+      "ogTitle": "Bringing Canned Kimchi to Taiwan: Carry-on or Checked?",
+      "eyebrow": "Taiwan Travel Guide · Packing",
+      "title": "Bringing Canned Kimchi to Taiwan: Carry-on or Checked?",
+      "dek": "So one small can doesn't end up in the security bin — container rules and what to watch for when entering Taiwan.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan · Baggage Guide",
+      "intro": "\"Surely one can of stir-fried kimchi is fine in my bag?\" Kimchi and gochujang with sauce or brine count as liquids, so it's trickier than it looks. Based on Incheon Airport and Taiwan Aviation Police guidance plus real traveler experiences, here's how to pack it.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Carry-on", "Checked"],
-          rows: [
-            { label: "Kimchi/gochujang", values: ["Liquid (brine or gel)", "No quantity limit (Incheon Airport)"] },
-            { label: "Limit", values: ["100ml per container, one 1L clear bag per person", "Within airline weight limits"] },
-            { label: "Cans", values: ["Cans over 100ml not allowed, even if partly empty", "Seal and cushion well"] },
-            { label: "Leaving Taiwan", values: ["Same rule (100mL per container, one 1L bag)", "Same"] },
-          ],
+          "type": "h2",
+          "text": "01 · Carry-on vs Checked at a Glance"
         },
-        { type: "h2", text: "02 · Cans Are Judged by Container Size" },
-        { type: "p", html: "The 100ml rule applies to the size printed on the container, not what's left inside. A half-eaten large can still can't go in your carry-on. Even travel-size packs should go in checked luggage if they're labeled over 100ml." },
-        { type: "figure", img: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg", caption: "Kimchi in a glass jar next to chopsticks — with brine and seasoning, it counts as a liquid on board." },
-        { type: "h2", text: "03 · Extra Caution Entering Taiwan: Pork" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Check the ingredients", desc: "Stir-fried kimchi or kimchi-stew cans containing pork are banned in Taiwan — cooked and canned products included." },
-            { mark: "✓", b: "The fine is huge", desc: "Undeclared pork products bring a NT$200,000 fine even for a first offense (as of Sept 2026), and foreigners who can't pay on the spot may be refused entry." },
-            { mark: "✓", b: "Use the amnesty bins", desc: "If you realize you have such a product after landing, drop it in the amnesty bin before immigration." },
+          "type": "compareTable",
+          "cities": [
+            "Carry-on",
+            "Checked"
           ],
+          "rows": [
+            {
+              "label": "Kimchi/gochujang",
+              "values": [
+                "Liquid (brine or gel)",
+                "No quantity limit (Incheon Airport)"
+              ]
+            },
+            {
+              "label": "Limit",
+              "values": [
+                "100ml per container, one 1L clear bag per person",
+                "Within airline weight limits"
+              ]
+            },
+            {
+              "label": "Cans",
+              "values": [
+                "Cans over 100ml not allowed, even if partly empty",
+                "Seal and cushion well"
+              ]
+            },
+            {
+              "label": "Leaving Taiwan",
+              "values": [
+                "Same rule (100mL per container, one 1L bag)",
+                "Same"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-2.jpg", caption: "Two gray carry-on backpacks on a wooden floor — keep kimchi containers over 100ml out of them." },
-        { type: "h2", text: "04 · Packing Tips" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Put it in checked luggage", desc: "Wrap cans and jars in a zip bag and tuck them between clothes to prevent leaks." },
-            { mark: "2", b: "Small packs in the liquids bag", desc: "Only packs of 100ml or less go in your 1L carry-on bag." },
-            { mark: "3", b: "Photograph the label", desc: "A quick photo makes it easy to confirm there's no pork." },
-          ],
+          "type": "h2",
+          "text": "02 · Cans Are Judged by Container Size"
         },
-        { type: "quote", text: "\"Kimchi goes in checked bags, and cans with meat stay home.\" — a summary of what travelers who've brought side dishes to Taiwan often say." },
-        { type: "p", html: "If local food feels unfamiliar, start with <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a> for approachable menus. When you want Korean food, places like <a href=\"/hualien-korean-33\">韓食倉庫 in Hualien</a> are on the map too. Browse city spots on the <a href=\"/region-taipei\">Taipei restaurant map</a>." },
-        { type: "note", text: "Based on guidance from Incheon Airport, Taiwan's Aviation Police Bureau, National Immigration Agency, and Animal and Plant Health Inspection Agency, plus traveler experiences (as of September 2026). Rules can change, so recheck with your airline and airport before departure." },
-        { type: "cta", title: "Find Taipei restaurants on the map first", desc: "Worried about local food? Pick Taipei restaurants that suit your taste on the map ahead of time.", btn: "Open Map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "The 100ml rule applies to the size printed on the container, not what's left inside. A half-eaten large can still can't go in your carry-on. Even travel-size packs should go in checked luggage if they're labeled over 100ml."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-1.jpg",
+          "caption": "Kimchi in a glass jar next to chopsticks — with brine and seasoning, it counts as a liquid on board."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Extra Caution Entering Taiwan: Pork"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Check the ingredients",
+              "desc": "Stir-fried kimchi or kimchi-stew cans containing pork are banned in Taiwan — cooked and canned products included."
+            },
+            {
+              "mark": "✓",
+              "b": "The fine is huge",
+              "desc": "Undeclared pork products bring a NT$200,000 fine even for a first offense (as of Sept 2026), and foreigners who can't pay on the spot may be refused entry."
+            },
+            {
+              "mark": "✓",
+              "b": "Use the amnesty bins",
+              "desc": "If you realize you have such a product after landing, drop it in the amnesty bin before immigration."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-canned-kimchi-carry-on-rules-2.jpg",
+          "caption": "Two gray carry-on backpacks on a wooden floor — keep kimchi containers over 100ml out of them."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Packing Tips"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Put it in checked luggage",
+              "desc": "Wrap cans and jars in a zip bag and tuck them between clothes to prevent leaks."
+            },
+            {
+              "mark": "2",
+              "b": "Small packs in the liquids bag",
+              "desc": "Only packs of 100ml or less go in your 1L carry-on bag."
+            },
+            {
+              "mark": "3",
+              "b": "Photograph the label",
+              "desc": "A quick photo makes it easy to confirm there's no pork."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"Kimchi goes in checked bags, and cans with meat stay home.\" — a summary of what travelers who've brought side dishes to Taiwan often say."
+        },
+        {
+          "type": "p",
+          "html": "If local food feels unfamiliar, start with <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a> for approachable menus. When you want Korean food, places like <a href=\"/hualien-korean-33\">韓食倉庫 in Hualien</a> are on the map too. Browse city spots on the <a href=\"/region-taipei\">Taipei restaurant map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on guidance from Incheon Airport, Taiwan's Aviation Police Bureau, National Immigration Agency, and Animal and Plant Health Inspection Agency, plus traveler experiences (as of September 2026). Rules can change, so recheck with your airline and airport before departure."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei restaurants on the map first",
+          "desc": "Worried about local food? Pick Taipei restaurants that suit your taste on the map ahead of time.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "taiwan-first-trip-guidebooks": {
-    heroImage: "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg",
-    ko: {
-      pageTitle: "대만 여행 가이드북 추천 — 첫 여행 2권 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "대만 여행 가이드북 추천이 필요하다면? 전역을 다룬 『디스 이즈 타이완』과 마트 쇼핑 책 한 권, 두 권을 나눠 읽는 방법을 정리했어요.",
-      ogTitle: "대만 여행 가이드북 추천, 첫 여행 전에 읽을 책 2권은?",
-      eyebrow: "대만 여행 가이드 · 여행 준비",
-      title: "대만 여행 가이드북 추천, 첫 여행 전에 읽을 책 2권은?",
-      dek: "블로그 검색만으로는 전체 그림이 안 잡힐 때 — 성격이 다른 두 권을 어떻게 나눠 읽으면 좋은지 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 · 여행 준비",
-      intro: "\"블로그를 아무리 봐도 대만 전체 그림이 안 그려져요.\" 대만 여행 가이드북 추천을 찾는 첫 여행자가 자주 하는 말이에요. 한 권은 지역 전체를, 한 권은 현지 마트 쇼핑을 다루는 책으로 나눠 보면 준비가 훨씬 수월해져요. 출판 정보와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 대만 여행 가이드북 추천 2권 한눈에 비교" },
+    "heroImage": "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg",
+    "ko": {
+      "pageTitle": "대만 여행 가이드북 추천 — 첫 여행 2권 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 여행 가이드북 추천이 필요하다면? 전역을 다룬 『디스 이즈 타이완』과 마트 쇼핑 책 한 권, 두 권을 나눠 읽는 방법을 정리했어요.",
+      "ogTitle": "대만 여행 가이드북 추천, 첫 여행 전에 읽을 책 2권은?",
+      "eyebrow": "대만 여행 가이드 · 여행 준비",
+      "title": "대만 여행 가이드북 추천, 첫 여행 전에 읽을 책 2권은?",
+      "dek": "블로그 검색만으로는 전체 그림이 안 잡힐 때 — 성격이 다른 두 권을 어떻게 나눠 읽으면 좋은지 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 · 여행 준비",
+      "intro": "\"블로그를 아무리 봐도 대만 전체 그림이 안 그려져요.\" 대만 여행 가이드북 추천을 찾는 첫 여행자가 자주 하는 말이에요. 한 권은 지역 전체를, 한 권은 현지 마트 쇼핑을 다루는 책으로 나눠 보면 준비가 훨씬 수월해져요. 출판 정보와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["『디스 이즈 타이완』", "『대만 현지 쇼핑 대백과』"],
-          rows: [
-            { label: "저자", values: ["신서희(테라출판사)", "오가와 지에코 지음, 김정원 옮김(클)"] },
-            { label: "최신판 출간", values: ["2026~2027 개정판, 2025년 12월 15일", "2025년 3월 26일"] },
-            { label: "분량", values: ["656쪽", "188쪽"] },
-            { label: "다루는 범위", values: ["타이베이·타이중·가오슝·타이난·컨딩·타이둥 등 대만 전역", "마트 식재료·양념·간식 고르는 법"] },
-            { label: "추천 상황", values: ["지역을 정하고 동선을 짤 때", "선물·간식 쇼핑 목록을 만들 때"] },
-          ],
+          "type": "h2",
+          "text": "01 · 대만 여행 가이드북 추천 2권 한눈에 비교"
         },
-        { type: "h2", text: "02 · 두 권을 나눠 읽는 방법" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "출발 한 달 전", desc: "전역 가이드북으로 어느 도시에 며칠 머물지 먼저 정하세요. 지역별 특징을 비교하기 좋아요." },
-            { mark: "2", b: "출발 2주 전", desc: "쇼핑 책에서 사고 싶은 간식·양념을 골라 사진과 이름을 메모해두면 마트에서 헤매지 않아요." },
-            { mark: "3", b: "여행 중", desc: "두꺼운 책은 필요한 쪽만 사진으로 찍어 가면 짐이 가벼워져요." },
+          "type": "compareTable",
+          "cities": [
+            "『디스 이즈 타이완』",
+            "『대만 현지 쇼핑 대백과』"
           ],
+          "rows": [
+            {
+              "label": "저자",
+              "values": [
+                "신서희(테라출판사)",
+                "오가와 지에코 지음, 김정원 옮김(클)"
+              ]
+            },
+            {
+              "label": "최신판 출간",
+              "values": [
+                "2026~2027 개정판, 2025년 12월 15일",
+                "2025년 3월 26일"
+              ]
+            },
+            {
+              "label": "분량",
+              "values": [
+                "656쪽",
+                "188쪽"
+              ]
+            },
+            {
+              "label": "다루는 범위",
+              "values": [
+                "타이베이·타이중·가오슝·타이난·컨딩·타이둥 등 대만 전역",
+                "마트 식재료·양념·간식 고르는 법"
+              ]
+            },
+            {
+              "label": "추천 상황",
+              "values": [
+                "지역을 정하고 동선을 짤 때",
+                "선물·간식 쇼핑 목록을 만들 때"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg", caption: "어두운 바닥 위에 가죽 배낭과 책, 노트, 여행 소품을 펼쳐 놓은 모습이에요." },
-        { type: "h2", text: "03 · 책으로 준비할 때 알아둘 점" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "개정 시점 확인", desc: "영업시간·요금은 책이 나온 뒤에도 바뀌어요. 책은 큰 틀을 잡는 데 쓰고, 세부 정보는 공식 사이트에서 다시 보세요." },
-            { mark: "✓", b: "도서관 희망도서 신청", desc: "도서관에 비치 희망 신청을 할 수 있는지는 도서관마다 달라요. 이용하는 도서관 안내를 확인하세요." },
-            { mark: "✓", b: "가격·재고", desc: "책 가격과 재고는 서점마다 달라 이 글에는 적지 않았어요." },
-          ],
+          "type": "h2",
+          "text": "02 · 두 권을 나눠 읽는 방법"
         },
-        { type: "h2", text: "04 · 이런 사람에게 잘 맞아요" },
-        { type: "p", html: "타이베이 외 지역도 고민 중인 첫 여행자라면 전역 가이드북이, 이미 한 번 다녀와 마트 쇼핑을 제대로 하고 싶은 재방문자라면 쇼핑 책이 더 쓸모 있어요. 가족 여행이라면 두 권을 나눠 읽고 역할을 나누는 방법도 있어요." },
-        { type: "quote", text: "\"큰 그림은 책으로, 최신 정보는 공식 사이트로.\" — 책으로 여행을 준비해 본 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "책으로 동선을 정했다면 먹을 곳은 지도로 채워보세요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 지역별 식당을 보고, 여행 첫날 간단히 먹기 좋은 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>도 모아 두었어요. 후추빵으로 알려진 <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">푸저우 스쭈 후추빵</a>처럼 책에 자주 나오는 간식 가게도 지도에 있어요." },
-        { type: "note", text: "이 글은 알라딘 도서 정보와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 책 내용 평가는 출판 정보와 후기 경향을 참고했어요." },
-        { type: "cta", title: "지도에서 타이베이 맛집도 확인해보세요", desc: "책으로 정한 동선에 맞춰 타이베이 식당을 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "출발 한 달 전",
+              "desc": "전역 가이드북으로 어느 도시에 며칠 머물지 먼저 정하세요. 지역별 특징을 비교하기 좋아요."
+            },
+            {
+              "mark": "2",
+              "b": "출발 2주 전",
+              "desc": "쇼핑 책에서 사고 싶은 간식·양념을 골라 사진과 이름을 메모해두면 마트에서 헤매지 않아요."
+            },
+            {
+              "mark": "3",
+              "b": "여행 중",
+              "desc": "두꺼운 책은 필요한 쪽만 사진으로 찍어 가면 짐이 가벼워져요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg",
+          "caption": "어두운 바닥 위에 가죽 배낭과 책, 노트, 여행 소품을 펼쳐 놓은 모습이에요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 책으로 준비할 때 알아둘 점"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "개정 시점 확인",
+              "desc": "영업시간·요금은 책이 나온 뒤에도 바뀌어요. 책은 큰 틀을 잡는 데 쓰고, 세부 정보는 공식 사이트에서 다시 보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "도서관 희망도서 신청",
+              "desc": "도서관에 비치 희망 신청을 할 수 있는지는 도서관마다 달라요. 이용하는 도서관 안내를 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "가격·재고",
+              "desc": "책 가격과 재고는 서점마다 달라 이 글에는 적지 않았어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 이런 사람에게 잘 맞아요"
+        },
+        {
+          "type": "p",
+          "html": "타이베이 외 지역도 고민 중인 첫 여행자라면 전역 가이드북이, 이미 한 번 다녀와 마트 쇼핑을 제대로 하고 싶은 재방문자라면 쇼핑 책이 더 쓸모 있어요. 가족 여행이라면 두 권을 나눠 읽고 역할을 나누는 방법도 있어요."
+        },
+        {
+          "type": "quote",
+          "text": "\"큰 그림은 책으로, 최신 정보는 공식 사이트로.\" — 책으로 여행을 준비해 본 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "책으로 동선을 정했다면 먹을 곳은 지도로 채워보세요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 지역별 식당을 보고, 여행 첫날 간단히 먹기 좋은 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>도 모아 두었어요. 후추빵으로 알려진 <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">푸저우 스쭈 후추빵</a>처럼 책에 자주 나오는 간식 가게도 지도에 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 알라딘 도서 정보와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 책 내용 평가는 출판 정보와 후기 경향을 참고했어요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 확인해보세요",
+          "desc": "책으로 정한 동선에 맞춰 타이베이 식당을 지도에서 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwan Guidebooks for First-Timers — Two Picks · My Secret Taiwan Eats",
-      metaDescription: "One island-wide guidebook and one local shopping guide — how two Korean-language books on Taiwan can split your trip prep.",
-      ogTitle: "Two Books to Read Before Your First Taiwan Trip",
-      eyebrow: "Taiwan Travel Guide · Trip Prep",
-      title: "Two Books to Read Before Your First Taiwan Trip",
-      dek: "When blog posts alone don't give you the big picture — how to use two very different books together.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan · Trip Prep",
-      intro: "\"No matter how many blogs I read, I can't picture Taiwan as a whole.\" First-timers say this a lot. Splitting prep between one book on the whole island and one on local supermarket shopping makes things much easier. Based on publication details and real traveler experiences, here's how.",
-      blocks: [
-        { type: "h2", text: "01 · The Two Books at a Glance" },
+    "en": {
+      "pageTitle": "Taiwan Guidebooks for First-Timers — Two Picks · My Secret Taiwan Eats",
+      "metaDescription": "One island-wide guidebook and one local shopping guide — how two Korean-language books on Taiwan can split your trip prep.",
+      "ogTitle": "Two Books to Read Before Your First Taiwan Trip",
+      "eyebrow": "Taiwan Travel Guide · Trip Prep",
+      "title": "Two Books to Read Before Your First Taiwan Trip",
+      "dek": "When blog posts alone don't give you the big picture — how to use two very different books together.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan · Trip Prep",
+      "intro": "\"No matter how many blogs I read, I can't picture Taiwan as a whole.\" First-timers say this a lot. Splitting prep between one book on the whole island and one on local supermarket shopping makes things much easier. Based on publication details and real traveler experiences, here's how.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["This Is Taiwan (디스 이즈 타이완)", "Taiwan Local Shopping Encyclopedia (대만 현지 쇼핑 대백과)"],
-          rows: [
-            { label: "Author", values: ["Shin Seo-hee (Terra)", "Chieko Ogawa, trans. Kim Jeong-won (Keul)"] },
-            { label: "Latest edition", values: ["2026–2027 edition, Dec 15, 2025", "Mar 26, 2025"] },
-            { label: "Length", values: ["656 pages", "188 pages"] },
-            { label: "Coverage", values: ["All of Taiwan: Taipei, Taichung, Kaohsiung, Tainan, Kenting, Taitung, etc.", "Picking groceries, sauces, and snacks at supermarkets"] },
-            { label: "Best for", values: ["Choosing regions and routes", "Building a gift and snack list"] },
-          ],
+          "type": "h2",
+          "text": "01 · The Two Books at a Glance"
         },
-        { type: "h2", text: "02 · How to Split the Reading" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "A month out", desc: "Use the island-wide guide to decide which cities and how many nights. It's great for comparing regions." },
-            { mark: "2", b: "Two weeks out", desc: "Pick snacks and sauces from the shopping book and note names and photos so you don't wander the aisles." },
-            { mark: "3", b: "During the trip", desc: "Photograph only the pages you need instead of carrying a thick book." },
+          "type": "compareTable",
+          "cities": [
+            "This Is Taiwan (디스 이즈 타이완)",
+            "Taiwan Local Shopping Encyclopedia (대만 현지 쇼핑 대백과)"
           ],
+          "rows": [
+            {
+              "label": "Author",
+              "values": [
+                "Shin Seo-hee (Terra)",
+                "Chieko Ogawa, trans. Kim Jeong-won (Keul)"
+              ]
+            },
+            {
+              "label": "Latest edition",
+              "values": [
+                "2026–2027 edition, Dec 15, 2025",
+                "Mar 26, 2025"
+              ]
+            },
+            {
+              "label": "Length",
+              "values": [
+                "656 pages",
+                "188 pages"
+              ]
+            },
+            {
+              "label": "Coverage",
+              "values": [
+                "All of Taiwan: Taipei, Taichung, Kaohsiung, Tainan, Kenting, Taitung, etc.",
+                "Picking groceries, sauces, and snacks at supermarkets"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Choosing regions and routes",
+                "Building a gift and snack list"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg", caption: "A leather backpack laid out with a book, notebook, and travel items on a dark surface." },
-        { type: "h2", text: "03 · Things to Keep in Mind" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Check the edition", desc: "Hours and fees change after publication. Use books for the big picture and official sites for details." },
-            { mark: "✓", b: "Library requests", desc: "Whether you can request a library purchase depends on the library. Check your library's guidance." },
-            { mark: "✓", b: "Price and stock", desc: "Prices and stock vary by bookstore, so they're not listed here." },
-          ],
+          "type": "h2",
+          "text": "02 · How to Split the Reading"
         },
-        { type: "h2", text: "04 · Who Each Book Suits" },
-        { type: "p", html: "First-timers considering places beyond Taipei will get more from the island-wide guide, while repeat visitors who want to shop supermarkets properly will prefer the shopping book. Families can split the two books and divide roles." },
-        { type: "quote", text: "\"Books for the big picture, official sites for the latest details.\" — a summary of advice from travelers who've prepped with books." },
-        { type: "p", html: "Once your route is set from the books, fill in where to eat on the map. Browse restaurants on the <a href=\"/region-taipei\">Taipei food map</a>, skim easy first-day bites under <a href=\"/taipei-street_food\">Taipei street food</a>, and find the often-mentioned <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">Fuzhou Shizu pepper pork bun</a> on the map too." },
-        { type: "note", text: "Based on Aladin book listings and traveler experiences (as of September 2026)." },
-        { type: "cta", title: "Find Taipei restaurants on the map", desc: "Match Taipei restaurants to the route you planned with your book.", btn: "Open Map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "A month out",
+              "desc": "Use the island-wide guide to decide which cities and how many nights. It's great for comparing regions."
+            },
+            {
+              "mark": "2",
+              "b": "Two weeks out",
+              "desc": "Pick snacks and sauces from the shopping book and note names and photos so you don't wander the aisles."
+            },
+            {
+              "mark": "3",
+              "b": "During the trip",
+              "desc": "Photograph only the pages you need instead of carrying a thick book."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-first-trip-guidebooks-1.jpg",
+          "caption": "A leather backpack laid out with a book, notebook, and travel items on a dark surface."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Things to Keep in Mind"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Check the edition",
+              "desc": "Hours and fees change after publication. Use books for the big picture and official sites for details."
+            },
+            {
+              "mark": "✓",
+              "b": "Library requests",
+              "desc": "Whether you can request a library purchase depends on the library. Check your library's guidance."
+            },
+            {
+              "mark": "✓",
+              "b": "Price and stock",
+              "desc": "Prices and stock vary by bookstore, so they're not listed here."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Who Each Book Suits"
+        },
+        {
+          "type": "p",
+          "html": "First-timers considering places beyond Taipei will get more from the island-wide guide, while repeat visitors who want to shop supermarkets properly will prefer the shopping book. Families can split the two books and divide roles."
+        },
+        {
+          "type": "quote",
+          "text": "\"Books for the big picture, official sites for the latest details.\" — a summary of advice from travelers who've prepped with books."
+        },
+        {
+          "type": "p",
+          "html": "Once your route is set from the books, fill in where to eat on the map. Browse restaurants on the <a href=\"/region-taipei\">Taipei food map</a>, skim easy first-day bites under <a href=\"/taipei-street_food\">Taipei street food</a>, and find the often-mentioned <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">Fuzhou Shizu pepper pork bun</a> on the map too."
+        },
+        {
+          "type": "note",
+          "text": "Based on Aladin book listings and traveler experiences (as of September 2026)."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei restaurants on the map",
+          "desc": "Match Taipei restaurants to the route you planned with your book.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "taipei-easycard-balance-check-topup": {
-    heroImage: "assets/images/blog/taipei-easycard-balance-check-topup-1.jpg",
-    ko: {
-      pageTitle: "이지카드 잔액 조회 — 앱·역·편의점 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "이지카드 잔액 조회, 앱으로 안 되는 카드도 있어요. 이지월렛 지원 카드 조건과 MRT 충전기·편의점에서 보는 법을 정리했어요.",
-      ogTitle: "이지카드 잔액 조회, 앱으로 하려면 어떤 카드여야 할까?",
-      eyebrow: "타이베이 여행 가이드 · 교통",
-      title: "이지카드 잔액 조회, 앱으로 하려면 어떤 카드여야 할까?",
-      dek: "휴대폰에 대기만 하면 된다는 말만 믿었다가 당황하지 않도록 — 지원 카드 조건과 다른 조회 방법을 함께 담았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 교통 가이드",
-      intro: "\"휴대폰에 카드를 대면 잔액이 나온다던데 제 카드는 안 돼요.\" 이지카드 잔액 조회를 앱으로 하려면 카드 종류부터 확인해야 해요. 이지월렛(悠遊付) 앱의 조회 기능은 모든 카드를 지원하지 않거든요. 이지카드 공식 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 이지카드 잔액 조회 방법 한눈에 비교" },
+    "heroImage": "assets/images/blog/taipei-easycard-balance-check-topup-1.jpg",
+    "ko": {
+      "pageTitle": "이지카드 잔액 조회 — 앱·역·편의점 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "이지카드 잔액 조회, 앱으로 안 되는 카드도 있어요. 이지월렛 지원 카드 조건과 MRT 충전기·편의점에서 보는 법을 정리했어요.",
+      "ogTitle": "이지카드 잔액 조회, 앱으로 하려면 어떤 카드여야 할까?",
+      "eyebrow": "타이베이 여행 가이드 · 교통",
+      "title": "이지카드 잔액 조회, 앱으로 하려면 어떤 카드여야 할까?",
+      "dek": "휴대폰에 대기만 하면 된다는 말만 믿었다가 당황하지 않도록 — 지원 카드 조건과 다른 조회 방법을 함께 담았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 교통 가이드",
+      "intro": "\"휴대폰에 카드를 대면 잔액이 나온다던데 제 카드는 안 돼요.\" 이지카드 잔액 조회를 앱으로 하려면 카드 종류부터 확인해야 해요. 이지월렛(悠遊付) 앱의 조회 기능은 모든 카드를 지원하지 않거든요. 이지카드 공식 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["이지월렛 앱(NFC)", "MRT 충전기", "편의점·개찰구"],
-          rows: [
-            { label: "대상 카드", values: ["슈퍼카드 로고 카드와 일부 지정 카드만", "모든 이지카드", "모든 이지카드"] },
-            { label: "볼 수 있는 것", values: ["잔액, 최근 거래(슈퍼카드 12건, 기타 6건)", "잔액, 충전", "잔액(계산대·개찰구 화면)"] },
-            { label: "준비물", values: ["NFC 되는 휴대폰, 앱 설치·등록", "없음", "없음"] },
-            { label: "기준", values: ["2026년 10월 기준 공식 안내", "역마다 설치", "결제·통과할 때 표시"] },
-          ],
+          "type": "h2",
+          "text": "01 · 이지카드 잔액 조회 방법 한눈에 비교"
         },
-        { type: "h2", text: "02 · 앱 조회는 이렇게 해요" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "카드 확인", desc: "카드에 슈퍼카드(SuperCard) 로고가 있는지 보세요. 일반 이지카드는 앱 조회 대상이 아니에요." },
-            { mark: "2", b: "앱 설치·등록", desc: "공식 안내는 이지월렛(Easy Wallet) 앱을 내려받아 등록한 뒤 쓰라고 안내해요." },
-            { mark: "3", b: "'悠遊卡加值機' 메뉴", desc: "앱에서 이 메뉴를 열고 카드를 휴대폰에 대면 잔액과 최근 내역이 나와요." },
-            { mark: "4", b: "NFC 위치", desc: "아이폰은 기기 윗부분, 카메라 근처에 카드를 대야 잘 읽혀요." },
+          "type": "compareTable",
+          "cities": [
+            "이지월렛 앱(NFC)",
+            "MRT 충전기",
+            "편의점·개찰구"
           ],
+          "rows": [
+            {
+              "label": "대상 카드",
+              "values": [
+                "슈퍼카드 로고 카드와 일부 지정 카드만",
+                "모든 이지카드",
+                "모든 이지카드"
+              ]
+            },
+            {
+              "label": "볼 수 있는 것",
+              "values": [
+                "잔액, 최근 거래(슈퍼카드 12건, 기타 6건)",
+                "잔액, 충전",
+                "잔액(계산대·개찰구 화면)"
+              ]
+            },
+            {
+              "label": "준비물",
+              "values": [
+                "NFC 되는 휴대폰, 앱 설치·등록",
+                "없음",
+                "없음"
+              ]
+            },
+            {
+              "label": "기준",
+              "values": [
+                "2026년 10월 기준 공식 안내",
+                "역마다 설치",
+                "결제·통과할 때 표시"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-easycard-balance-check-topup-2.jpg", caption: "카드를 휴대폰 뒷면에 대는 모습이에요(일반 이미지, 이지카드 아님)." },
-        { type: "h2", text: "03 · 앱이 안 될 때 다른 조회 방법" },
-        { type: "p", html: "MRT 역 충전기에 카드를 올리면 잔액이 바로 보이고, 그 자리에서 충전할 수 있어요. 편의점에서 결제하거나 충전하면 계산대 화면에 잔액이 뜨고, 개찰구를 지날 때도 남은 금액이 표시돼요. 이지카드 공식 안내는 iOS 13.0·아이폰 7 이상, 안드로이드 6.0 이상(NFC)을 기준으로 안내해요(2026년 10월 확인). 기종·OS는 바뀔 수 있으니 앱 설치 전에 스토어·앱 안내를 다시 보세요. 지원이 애매하면 역 충전기를 쓰는 편이 확실해요." },
-        { type: "figure", img: "assets/images/blog/taipei-easycard-balance-check-topup-1.jpg", caption: "타이베이 MRT 승강장에 들어온 열차예요. 역마다 충전기가 있어 잔액을 바로 볼 수 있어요." },
-        { type: "h2", text: "04 · 결제에 쓸 때 알아둘 한도" },
-        { type: "p", html: "이지카드로 편의점 등 가맹점에서 결제할 때는 1회 NT$1,500, 하루 NT$3,000까지 쓸 수 있어요(2026년 10월 기준). 교통비와 간식비를 한 카드로 쓰다 보면 잔액이 빨리 줄어드니, 숙소로 돌아가기 전에 한 번씩 확인해두면 좋아요." },
-        { type: "quote", text: "\"앱은 카드가 맞을 때만, 역 충전기는 언제나.\" — 타이베이에서 이지카드를 써 본 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "잔액을 확인했다면 MRT로 먹으러 가볼 차례예요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 역 가까운 식당을 찾고, 가볍게 한 끼 하기 좋은 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>도 참고해보세요. 고기죽으로 알려진 <a href=\"/taipei-street_food-yejia-meat-porridge-215\">예자 고기죽(Yejia Meat Porridge)</a>도 지도에 있어요. 이지카드 결제 가능 여부는 가게마다 달라요." },
-        { type: "note", text: "이 글은 이지카드·이지월렛 공식 안내와 여행자들의 경험을 바탕으로 정리했습니다(2026년 10월 기준). 지원 카드와 기종은 바뀔 수 있으니 앱 안내를 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 타이베이 맛집을 찾아보세요", desc: "MRT로 이동하며 들르기 좋은 타이베이 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 앱 조회는 이렇게 해요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "카드 확인",
+              "desc": "카드에 슈퍼카드(SuperCard) 로고가 있는지 보세요. 일반 이지카드는 앱 조회 대상이 아니에요."
+            },
+            {
+              "mark": "2",
+              "b": "앱 설치·등록",
+              "desc": "공식 안내는 이지월렛(Easy Wallet) 앱을 내려받아 등록한 뒤 쓰라고 안내해요."
+            },
+            {
+              "mark": "3",
+              "b": "'悠遊卡加值機' 메뉴",
+              "desc": "앱에서 이 메뉴를 열고 카드를 휴대폰에 대면 잔액과 최근 내역이 나와요."
+            },
+            {
+              "mark": "4",
+              "b": "NFC 위치",
+              "desc": "아이폰은 기기 윗부분, 카메라 근처에 카드를 대야 잘 읽혀요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-easycard-balance-check-topup-2.jpg",
+          "caption": "카드를 휴대폰 뒷면에 대는 모습이에요(일반 이미지, 이지카드 아님)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 앱이 안 될 때 다른 조회 방법"
+        },
+        {
+          "type": "p",
+          "html": "MRT 역 충전기에 카드를 올리면 잔액이 바로 보이고, 그 자리에서 충전할 수 있어요. 편의점에서 결제하거나 충전하면 계산대 화면에 잔액이 뜨고, 개찰구를 지날 때도 남은 금액이 표시돼요. 이지카드 공식 안내는 iOS 13.0·아이폰 7 이상, 안드로이드 6.0 이상(NFC)을 기준으로 안내해요(2026년 10월 확인). 기종·OS는 바뀔 수 있으니 앱 설치 전에 스토어·앱 안내를 다시 보세요. 지원이 애매하면 역 충전기를 쓰는 편이 확실해요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-easycard-balance-check-topup-1.jpg",
+          "caption": "타이베이 MRT 승강장에 들어온 열차예요. 역마다 충전기가 있어 잔액을 바로 볼 수 있어요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 결제에 쓸 때 알아둘 한도"
+        },
+        {
+          "type": "p",
+          "html": "이지카드로 편의점 등 가맹점에서 결제할 때는 1회 NT$1,500, 하루 NT$3,000까지 쓸 수 있어요(2026년 10월 기준). 교통비와 간식비를 한 카드로 쓰다 보면 잔액이 빨리 줄어드니, 숙소로 돌아가기 전에 한 번씩 확인해두면 좋아요."
+        },
+        {
+          "type": "quote",
+          "text": "\"앱은 카드가 맞을 때만, 역 충전기는 언제나.\" — 타이베이에서 이지카드를 써 본 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "잔액을 확인했다면 MRT로 먹으러 가볼 차례예요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 역 가까운 식당을 찾고, 가볍게 한 끼 하기 좋은 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>도 참고해보세요. 고기죽으로 알려진 <a href=\"/taipei-street_food-yejia-meat-porridge-215\">예자 고기죽(Yejia Meat Porridge)</a>도 지도에 있어요. 이지카드 결제 가능 여부는 가게마다 달라요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 이지카드·이지월렛 공식 안내와 여행자들의 경험을 바탕으로 정리했습니다(2026년 10월 기준). 지원 카드와 기종은 바뀔 수 있으니 앱 안내를 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집을 찾아보세요",
+          "desc": "MRT로 이동하며 들르기 좋은 타이베이 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "EasyCard Balance Check — App, Stations, Convenience Stores · My Secret Taiwan Eats",
-      metaDescription: "The Easy Wallet app only reads SuperCard and certain designated cards. Here's how to check any EasyCard balance at stations and stores too.",
-      ogTitle: "Checking Your EasyCard Balance: Which Cards Work With the App?",
-      eyebrow: "Taipei Travel Guide · Transport",
-      title: "Checking Your EasyCard Balance: Which Cards Work With the App?",
-      dek: "Don't be caught off guard by \"just tap it on your phone\" — supported-card conditions and other ways to check.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Transport Guide",
-      intro: "\"They said you just tap the card on your phone, but mine doesn't work.\" The balance check in the Easy Wallet (悠遊付) app doesn't support every card. Based on official EasyCard guidance and real traveler experiences, here's what works.",
-      blocks: [
-        { type: "h2", text: "01 · Ways to Check at a Glance" },
+    "en": {
+      "pageTitle": "EasyCard Balance Check — App, Stations, Convenience Stores · My Secret Taiwan Eats",
+      "metaDescription": "The Easy Wallet app only reads SuperCard and certain designated cards. Here's how to check any EasyCard balance at stations and stores too.",
+      "ogTitle": "Checking Your EasyCard Balance: Which Cards Work With the App?",
+      "eyebrow": "Taipei Travel Guide · Transport",
+      "title": "Checking Your EasyCard Balance: Which Cards Work With the App?",
+      "dek": "Don't be caught off guard by \"just tap it on your phone\" — supported-card conditions and other ways to check.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Transport Guide",
+      "intro": "\"They said you just tap the card on your phone, but mine doesn't work.\" The balance check in the Easy Wallet (悠遊付) app doesn't support every card. Based on official EasyCard guidance and real traveler experiences, here's what works.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Easy Wallet app (NFC)", "MRT add-value machine", "Convenience store / gate"],
-          rows: [
-            { label: "Cards", values: ["SuperCard-logo cards and some designated cards only", "Any EasyCard", "Any EasyCard"] },
-            { label: "Shows", values: ["Balance, recent transactions (12 for SuperCard, 6 for others)", "Balance, top-up", "Balance on the register or gate display"] },
-            { label: "Needs", values: ["NFC phone, app installed and registered", "Nothing", "Nothing"] },
-            { label: "Basis", values: ["Official guidance as of Oct 2026", "In every station", "Shown when paying or passing"] },
-          ],
+          "type": "h2",
+          "text": "01 · Ways to Check at a Glance"
         },
-        { type: "h2", text: "02 · Using the App" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Check your card", desc: "Look for the SuperCard logo. Regular EasyCards aren't supported by the app check." },
-            { mark: "2", b: "Install and register", desc: "Official guidance says to download and register the Easy Wallet app before using the balance check." },
-            { mark: "3", b: "Open '悠遊卡加值機'", desc: "Open this menu and hold the card to your phone to see the balance and recent history." },
-            { mark: "4", b: "NFC spot", desc: "On iPhone, hold the card near the top, by the camera." },
+          "type": "compareTable",
+          "cities": [
+            "Easy Wallet app (NFC)",
+            "MRT add-value machine",
+            "Convenience store / gate"
           ],
+          "rows": [
+            {
+              "label": "Cards",
+              "values": [
+                "SuperCard-logo cards and some designated cards only",
+                "Any EasyCard",
+                "Any EasyCard"
+              ]
+            },
+            {
+              "label": "Shows",
+              "values": [
+                "Balance, recent transactions (12 for SuperCard, 6 for others)",
+                "Balance, top-up",
+                "Balance on the register or gate display"
+              ]
+            },
+            {
+              "label": "Needs",
+              "values": [
+                "NFC phone, app installed and registered",
+                "Nothing",
+                "Nothing"
+              ]
+            },
+            {
+              "label": "Basis",
+              "values": [
+                "Official guidance as of Oct 2026",
+                "In every station",
+                "Shown when paying or passing"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-easycard-balance-check-topup-2.jpg", caption: "Someone holding a card against the back of a phone (generic image, not an EasyCard)." },
-        { type: "h2", text: "03 · If the App Doesn't Work" },
-        { type: "p", html: "Place the card on an MRT add-value machine to see the balance and top up on the spot. Paying or topping up at a convenience store shows the balance on the register screen, and gates display it as you pass. EasyCard's official guidance lists iOS 13.0 / iPhone 7 or later and Android 6.0 or later with NFC (checked October 2026). Requirements can change — check the app store notes before you rely on the phone. If support looks unclear, use a station machine." },
-        { type: "figure", img: "assets/images/blog/taipei-easycard-balance-check-topup-1.jpg", caption: "A train at a Taipei MRT platform — every station has machines where you can check your balance." },
-        { type: "h2", text: "04 · Payment Limits to Know" },
-        { type: "p", html: "At convenience stores and other merchants, EasyCard payments are capped at NT$1,500 per transaction and NT$3,000 per day (as of Oct 2026). Using one card for transport and snacks drains it fast, so check before heading back to your hotel." },
-        { type: "quote", text: "\"The app only if your card fits, the station machine always.\" — a summary of advice from travelers who've used EasyCard in Taipei." },
-        { type: "p", html: "Once you've checked the balance, take the MRT somewhere to eat. Find restaurants near stations on the <a href=\"/region-taipei\">Taipei restaurant map</a>, and browse easy meals under <a href=\"/taipei-street_food\">Taipei street food</a>. <a href=\"/taipei-street_food-yejia-meat-porridge-215\">Yejia Meat Porridge</a> is on the map too. Whether a shop takes EasyCard varies by place." },
-        { type: "note", text: "Based on official EasyCard and Easy Wallet guidance and traveler experiences (as of October 2026). Supported cards and devices may change." },
-        { type: "cta", title: "Find Taipei restaurants on the map", desc: "Check Taipei restaurants that are easy to reach by MRT.", btn: "Open the map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Using the App"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Check your card",
+              "desc": "Look for the SuperCard logo. Regular EasyCards aren't supported by the app check."
+            },
+            {
+              "mark": "2",
+              "b": "Install and register",
+              "desc": "Official guidance says to download and register the Easy Wallet app before using the balance check."
+            },
+            {
+              "mark": "3",
+              "b": "Open '悠遊卡加值機'",
+              "desc": "Open this menu and hold the card to your phone to see the balance and recent history."
+            },
+            {
+              "mark": "4",
+              "b": "NFC spot",
+              "desc": "On iPhone, hold the card near the top, by the camera."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-easycard-balance-check-topup-2.jpg",
+          "caption": "Someone holding a card against the back of a phone (generic image, not an EasyCard)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · If the App Doesn't Work"
+        },
+        {
+          "type": "p",
+          "html": "Place the card on an MRT add-value machine to see the balance and top up on the spot. Paying or topping up at a convenience store shows the balance on the register screen, and gates display it as you pass. EasyCard's official guidance lists iOS 13.0 / iPhone 7 or later and Android 6.0 or later with NFC (checked October 2026). Requirements can change — check the app store notes before you rely on the phone. If support looks unclear, use a station machine."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-easycard-balance-check-topup-1.jpg",
+          "caption": "A train at a Taipei MRT platform — every station has machines where you can check your balance."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Payment Limits to Know"
+        },
+        {
+          "type": "p",
+          "html": "At convenience stores and other merchants, EasyCard payments are capped at NT$1,500 per transaction and NT$3,000 per day (as of Oct 2026). Using one card for transport and snacks drains it fast, so check before heading back to your hotel."
+        },
+        {
+          "type": "quote",
+          "text": "\"The app only if your card fits, the station machine always.\" — a summary of advice from travelers who've used EasyCard in Taipei."
+        },
+        {
+          "type": "p",
+          "html": "Once you've checked the balance, take the MRT somewhere to eat. Find restaurants near stations on the <a href=\"/region-taipei\">Taipei restaurant map</a>, and browse easy meals under <a href=\"/taipei-street_food\">Taipei street food</a>. <a href=\"/taipei-street_food-yejia-meat-porridge-215\">Yejia Meat Porridge</a> is on the map too. Whether a shop takes EasyCard varies by place."
+        },
+        {
+          "type": "note",
+          "text": "Based on official EasyCard and Easy Wallet guidance and traveler experiences (as of October 2026). Supported cards and devices may change."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei restaurants on the map",
+          "desc": "Check Taipei restaurants that are easy to reach by MRT.",
+          "btn": "Open the map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "xiaoliuqiu-e-bike-rental-guide": {
-    heroImage: "assets/images/blog/xiaoliuqiu-e-bike-rental-guide-1.jpg",
-    ko: {
-      pageTitle: "소류구 전기자전거 대여 — 규정 정리 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "소류구 전기자전거 대여, 번호판 없어도 될까요? 번호판·보험·나이 기준과 벌금, 스쿠터 면허 조건을 2026년 기준으로 정리했어요.",
-      ogTitle: "소류구 전기자전거 대여, 번호판·면허 규정 괜찮을까?",
-      eyebrow: "가오슝 근교 여행 가이드 · 교통",
-      title: "소류구 전기자전거 대여, 번호판·면허 규정 괜찮을까?",
-      dek: "섬 한 바퀴를 돌기 전에 — 전기자전거와 전동 스쿠터의 차이, 빌릴 때 꼭 확인할 규정을 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "가오슝 근교 · 교통 가이드",
-      intro: "\"면허 없어도 전기자전거는 빌릴 수 있다던데 괜찮을까?\" 소류구 전기자전거 대여는 섬을 도는 가장 흔한 방법이지만, 대만은 2024년 11월 30일부터 전기자전거 번호판 단속을 시작했어요. 소류구(小琉球)라고도 부르는 이 섬에 가기 전, 대만 교통 법규와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 전기자전거 vs 전동 스쿠터 한눈에 비교" },
+    "heroImage": "assets/images/blog/xiaoliuqiu-e-bike-rental-guide-1.jpg",
+    "ko": {
+      "pageTitle": "소류구 전기자전거 대여 — 규정 정리 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "소류구 전기자전거 대여, 번호판 없어도 될까요? 번호판·보험·나이 기준과 벌금, 스쿠터 면허 조건을 2026년 기준으로 정리했어요.",
+      "ogTitle": "소류구 전기자전거 대여, 번호판·면허 규정 괜찮을까?",
+      "eyebrow": "가오슝 근교 여행 가이드 · 교통",
+      "title": "소류구 전기자전거 대여, 번호판·면허 규정 괜찮을까?",
+      "dek": "섬 한 바퀴를 돌기 전에 — 전기자전거와 전동 스쿠터의 차이, 빌릴 때 꼭 확인할 규정을 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 근교 · 교통 가이드",
+      "intro": "\"면허 없어도 전기자전거는 빌릴 수 있다던데 괜찮을까?\" 소류구 전기자전거 대여는 섬을 도는 가장 흔한 방법이지만, 대만은 2024년 11월 30일부터 전기자전거 번호판 단속을 시작했어요. 소류구(小琉球)라고도 부르는 이 섬에 가기 전, 대만 교통 법규와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["전기자전거(微型電動二輪車)", "전동 스쿠터(電動機車)"],
-          rows: [
-            { label: "번호판·보험", values: ["번호판과 강제보험 필수", "번호판·보험 필수"] },
-            { label: "면허", values: ["면허 불필요, 만 14세 이상", "오토바이 면허 필요"] },
-            { label: "한국인 여행자", values: ["대여 차량의 번호판·보험 확인", "국제운전면허 A 기종 필요(한국 2종 소형 면허 기준)"] },
-            { label: "동승", values: ["누구도 태울 수 없음(아이 포함)", "차종 규정에 따름"] },
-          ],
+          "type": "h2",
+          "text": "01 · 전기자전거 vs 전동 스쿠터 한눈에 비교"
         },
-        { type: "h2", text: "02 · 소류구 전기자전거 대여 전 확인할 것" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "번호판이 달려 있는지", desc: "번호판 없는 전기자전거를 타면 NT$1,200~3,600 벌금이 부과돼요(2026년 9월 기준). 빌릴 때 번호판과 보험 가입 여부를 보세요." },
-            { mark: "✓", b: "만 14세 이상만", desc: "만 14세 미만이 타면 NT$600~1,200 벌금 대상이에요." },
-            { mark: "✓", b: "아이를 태우지 않기", desc: "전기자전거는 뒷자리에 아이를 태우는 것도 안 되고, 위반하면 NT$300~600 벌금이에요." },
-            { mark: "✓", b: "헬멧 착용", desc: "대여점에서 헬멧을 받아 꼭 쓰세요." },
+          "type": "compareTable",
+          "cities": [
+            "전기자전거(微型電動二輪車)",
+            "전동 스쿠터(電動機車)"
           ],
+          "rows": [
+            {
+              "label": "번호판·보험",
+              "values": [
+                "번호판과 강제보험 필수",
+                "번호판·보험 필수"
+              ]
+            },
+            {
+              "label": "면허",
+              "values": [
+                "면허 불필요, 만 14세 이상",
+                "오토바이 면허 필요"
+              ]
+            },
+            {
+              "label": "한국인 여행자",
+              "values": [
+                "대여 차량의 번호판·보험 확인",
+                "국제운전면허 A 기종 필요(한국 2종 소형 면허 기준)"
+              ]
+            },
+            {
+              "label": "동승",
+              "values": [
+                "누구도 태울 수 없음(아이 포함)",
+                "차종 규정에 따름"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/xiaoliuqiu-e-bike-rental-guide-1.jpg", caption: "산호초 위를 헤엄치는 푸른바다거북이에요(일반 사진, 소류구에서 찍은 사진 아님). 소류구는 바다거북을 볼 수 있는 섬으로 알려져 있어요." },
-        { type: "h2", text: "03 · 스쿠터를 타려면 면허부터" },
-        { type: "p", html: "전동 스쿠터나 일반 스쿠터는 오토바이로 분류돼 면허가 있어야 해요. 한국인은 국제운전면허증에 A 기종(이륜차) 표시가 있어야 하고, 이는 한국 2종 소형 면허를 기준으로 발급돼요. 자동차 면허만 있다면 스쿠터 대신 전기자전거나 섬 투어 차량을 고르는 게 안전해요." },
-        { type: "h2", text: "04 · 가족 여행이라면" },
-        { type: "p", html: "전기자전거는 한 사람이 한 대씩 타야 해서 어린아이와 함께라면 이동이 어려워요. 아이가 만 14세 미만이면 직접 운전도 안 되니, 가족 여행자는 섬 일주 투어 차량이나 택시를 알아보는 경우가 많아요. 섬 도로는 오르막과 좁은 길이 있어 해 지기 전에 숙소로 돌아오는 일정을 추천해요." },
-        { type: "quote", text: "\"번호판 확인, 혼자 타기, 헬멧 쓰기.\" — 소류구를 다녀온 여행자들이 가장 많이 강조하는 세 가지를 요약했습니다." },
-        { type: "p", html: "소류구를 오가는 날에는 가오슝에서 한 끼를 해결하는 여행자가 많아요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 동선을 보고, 섬 여행 기분을 이어가려면 <a href=\"/kaohsiung-street_food\">가오슝 노점 맛집</a>이나 치진의 해산물집 <a href=\"/kaohsiung-seafood-782\">치허우 해산(旗后海產)</a>을 참고해보세요." },
-        { type: "note", text: "이 글은 대만 교통부 공로국 안내와 한국 국제운전면허 기준, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 대여점마다 차종과 조건이 다르니 빌리기 전에 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 가오슝 맛집도 확인해보세요", desc: "소류구 오가는 길에 들르기 좋은 가오슝 식당을 지도에서 찾아보세요.", btn: "지도 열기 →", href: "/map?region=kaohsiung" },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 소류구 전기자전거 대여 전 확인할 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "번호판이 달려 있는지",
+              "desc": "번호판 없는 전기자전거를 타면 NT$1,200~3,600 벌금이 부과돼요(2026년 9월 기준). 빌릴 때 번호판과 보험 가입 여부를 보세요."
+            },
+            {
+              "mark": "✓",
+              "b": "만 14세 이상만",
+              "desc": "만 14세 미만이 타면 NT$600~1,200 벌금 대상이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "아이를 태우지 않기",
+              "desc": "전기자전거는 뒷자리에 아이를 태우는 것도 안 되고, 위반하면 NT$300~600 벌금이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "헬멧 착용",
+              "desc": "대여점에서 헬멧을 받아 꼭 쓰세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/xiaoliuqiu-e-bike-rental-guide-1.jpg",
+          "caption": "산호초 위를 헤엄치는 푸른바다거북이에요(일반 사진, 소류구에서 찍은 사진 아님). 소류구는 바다거북을 볼 수 있는 섬으로 알려져 있어요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 스쿠터를 타려면 면허부터"
+        },
+        {
+          "type": "p",
+          "html": "전동 스쿠터나 일반 스쿠터는 오토바이로 분류돼 면허가 있어야 해요. 한국인은 국제운전면허증에 A 기종(이륜차) 표시가 있어야 하고, 이는 한국 2종 소형 면허를 기준으로 발급돼요. 자동차 면허만 있다면 스쿠터 대신 전기자전거나 섬 투어 차량을 고르는 게 안전해요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 가족 여행이라면"
+        },
+        {
+          "type": "p",
+          "html": "전기자전거는 한 사람이 한 대씩 타야 해서 어린아이와 함께라면 이동이 어려워요. 아이가 만 14세 미만이면 직접 운전도 안 되니, 가족 여행자는 섬 일주 투어 차량이나 택시를 알아보는 경우가 많아요. 섬 도로는 오르막과 좁은 길이 있어 해 지기 전에 숙소로 돌아오는 일정을 추천해요."
+        },
+        {
+          "type": "quote",
+          "text": "\"번호판 확인, 혼자 타기, 헬멧 쓰기.\" — 소류구를 다녀온 여행자들이 가장 많이 강조하는 세 가지를 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "소류구를 오가는 날에는 가오슝에서 한 끼를 해결하는 여행자가 많아요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 동선을 보고, 섬 여행 기분을 이어가려면 <a href=\"/kaohsiung-street_food\">가오슝 노점 맛집</a>이나 치진의 해산물집 <a href=\"/kaohsiung-seafood-782\">치허우 해산(旗后海產)</a>을 참고해보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 교통부 공로국 안내와 한국 국제운전면허 기준, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 대여점마다 차종과 조건이 다르니 빌리기 전에 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 맛집도 확인해보세요",
+          "desc": "소류구 오가는 길에 들르기 좋은 가오슝 식당을 지도에서 찾아보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Xiaoliuqiu E-Bike Rental — Plates, Licenses, Fines · My Secret Taiwan Eats",
-      metaDescription: "E-bikes and electric scooters follow different rules in Taiwan. Plates, insurance, licenses, and fines to check before renting on Xiaoliuqiu.",
-      ogTitle: "Renting an E-Bike on Xiaoliuqiu: Are the Plate and License Rules OK?",
-      eyebrow: "Kaohsiung Day Trips · Transport",
-      title: "Renting an E-Bike on Xiaoliuqiu: Are the Plate and License Rules OK?",
-      dek: "Before you circle the island — how e-bikes differ from electric scooters and which rules to check when renting.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Kaohsiung Area · Transport Guide",
-      intro: "\"I heard you can rent an e-bike without a license — is that OK?\" E-bikes are the most common way around Xiaoliuqiu (小琉球), but Taiwan began enforcing e-bike plate rules on November 30, 2024. Based on Taiwan's traffic regulations and real traveler experiences, here's what to know.",
-      blocks: [
-        { type: "h2", text: "01 · E-Bike vs Electric Scooter" },
+    "en": {
+      "pageTitle": "Xiaoliuqiu E-Bike Rental — Plates, Licenses, Fines · My Secret Taiwan Eats",
+      "metaDescription": "E-bikes and electric scooters follow different rules in Taiwan. Plates, insurance, licenses, and fines to check before renting on Xiaoliuqiu.",
+      "ogTitle": "Renting an E-Bike on Xiaoliuqiu: Are the Plate and License Rules OK?",
+      "eyebrow": "Kaohsiung Day Trips · Transport",
+      "title": "Renting an E-Bike on Xiaoliuqiu: Are the Plate and License Rules OK?",
+      "dek": "Before you circle the island — how e-bikes differ from electric scooters and which rules to check when renting.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung Area · Transport Guide",
+      "intro": "\"I heard you can rent an e-bike without a license — is that OK?\" E-bikes are the most common way around Xiaoliuqiu (小琉球), but Taiwan began enforcing e-bike plate rules on November 30, 2024. Based on Taiwan's traffic regulations and real traveler experiences, here's what to know.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["E-bike (微型電動二輪車)", "Electric scooter (電動機車)"],
-          rows: [
-            { label: "Plate & insurance", values: ["Plate and compulsory insurance required", "Plate and insurance required"] },
-            { label: "License", values: ["No license; rider 14+", "Motorcycle license required"] },
-            { label: "Korean travelers", values: ["Check the rental's plate and insurance", "IDP with category A (based on a Korean class 2 small license)"] },
-            { label: "Passengers", values: ["None at all, including kids", "Per vehicle rules"] },
-          ],
+          "type": "h2",
+          "text": "01 · E-Bike vs Electric Scooter"
         },
-        { type: "h2", text: "02 · Check Before Renting an E-Bike" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Is there a plate?", desc: "Riding an unplated e-bike brings a NT$1,200–3,600 fine (as of Sept 2026). Check the plate and insurance when renting." },
-            { mark: "✓", b: "Riders 14+ only", desc: "Under-14 riders face a NT$600–1,200 fine." },
-            { mark: "✓", b: "No kids on the back", desc: "E-bikes can't carry passengers, children included — NT$300–600 fine." },
-            { mark: "✓", b: "Wear a helmet", desc: "Get one from the rental shop and wear it." },
+          "type": "compareTable",
+          "cities": [
+            "E-bike (微型電動二輪車)",
+            "Electric scooter (電動機車)"
           ],
+          "rows": [
+            {
+              "label": "Plate & insurance",
+              "values": [
+                "Plate and compulsory insurance required",
+                "Plate and insurance required"
+              ]
+            },
+            {
+              "label": "License",
+              "values": [
+                "No license; rider 14+",
+                "Motorcycle license required"
+              ]
+            },
+            {
+              "label": "Korean travelers",
+              "values": [
+                "Check the rental's plate and insurance",
+                "IDP with category A (based on a Korean class 2 small license)"
+              ]
+            },
+            {
+              "label": "Passengers",
+              "values": [
+                "None at all, including kids",
+                "Per vehicle rules"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/xiaoliuqiu-e-bike-rental-guide-1.jpg", caption: "A green sea turtle swimming over a reef (generic photo, not taken on Xiaoliuqiu). The island is known for turtle sightings." },
-        { type: "h2", text: "03 · Scooters Need a License" },
-        { type: "p", html: "Electric and gas scooters count as motorcycles, so you need a license. Korean travelers need category A (two-wheelers) on their international driving permit, which is issued based on a Korean class 2 small license. With only a car license, choose an e-bike or an island tour vehicle instead." },
-        { type: "h2", text: "04 · Traveling With Family" },
-        { type: "p", html: "E-bikes are one rider each, so getting around with small children is hard. Under-14s can't ride themselves either, so families often look into island tour vans or taxis. Roads have hills and narrow stretches, so plan to be back before dark." },
-        { type: "quote", text: "\"Check the plate, ride solo, wear a helmet.\" — the three things Xiaoliuqiu visitors stress most." },
-        { type: "p", html: "On the day you travel to or from Xiaoliuqiu, many travelers eat a meal in Kaohsiung. See the route on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>, and to carry the island-trip mood, check <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a> or the Cijin seafood restaurant <a href=\"/kaohsiung-seafood-782\">Chi Hou Seafood (旗后海產)</a>." },
-        { type: "note", text: "Based on Taiwan Highway Bureau guidance, Korean IDP rules, and traveler experiences (as of September 2026). Vehicles and terms vary by rental shop." },
-        { type: "cta", title: "Find Kaohsiung restaurants on the map", desc: "Look for Kaohsiung restaurants to stop at on your way to or from Xiaoliuqiu.", btn: "Open the map →", href: "/map?region=kaohsiung" },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Check Before Renting an E-Bike"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Is there a plate?",
+              "desc": "Riding an unplated e-bike brings a NT$1,200–3,600 fine (as of Sept 2026). Check the plate and insurance when renting."
+            },
+            {
+              "mark": "✓",
+              "b": "Riders 14+ only",
+              "desc": "Under-14 riders face a NT$600–1,200 fine."
+            },
+            {
+              "mark": "✓",
+              "b": "No kids on the back",
+              "desc": "E-bikes can't carry passengers, children included — NT$300–600 fine."
+            },
+            {
+              "mark": "✓",
+              "b": "Wear a helmet",
+              "desc": "Get one from the rental shop and wear it."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/xiaoliuqiu-e-bike-rental-guide-1.jpg",
+          "caption": "A green sea turtle swimming over a reef (generic photo, not taken on Xiaoliuqiu). The island is known for turtle sightings."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Scooters Need a License"
+        },
+        {
+          "type": "p",
+          "html": "Electric and gas scooters count as motorcycles, so you need a license. Korean travelers need category A (two-wheelers) on their international driving permit, which is issued based on a Korean class 2 small license. With only a car license, choose an e-bike or an island tour vehicle instead."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Traveling With Family"
+        },
+        {
+          "type": "p",
+          "html": "E-bikes are one rider each, so getting around with small children is hard. Under-14s can't ride themselves either, so families often look into island tour vans or taxis. Roads have hills and narrow stretches, so plan to be back before dark."
+        },
+        {
+          "type": "quote",
+          "text": "\"Check the plate, ride solo, wear a helmet.\" — the three things Xiaoliuqiu visitors stress most."
+        },
+        {
+          "type": "p",
+          "html": "On the day you travel to or from Xiaoliuqiu, many travelers eat a meal in Kaohsiung. See the route on the <a href=\"/region-kaohsiung\">Kaohsiung food map</a>, and to carry the island-trip mood, check <a href=\"/kaohsiung-street_food\">Kaohsiung street food</a> or the Cijin seafood restaurant <a href=\"/kaohsiung-seafood-782\">Chi Hou Seafood (旗后海產)</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taiwan Highway Bureau guidance, Korean IDP rules, and traveler experiences (as of September 2026). Vehicles and terms vary by rental shop."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung restaurants on the map",
+          "desc": "Look for Kaohsiung restaurants to stop at on your way to or from Xiaoliuqiu.",
+          "btn": "Open the map →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    }
   },
-
   "yehliu-to-jiufen-bus-luggage-route": {
-    heroImage: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg",
-    ko: {
-      pageTitle: "예류 지우펀 버스 — 환승·짐 보관 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "예류 지우펀 버스는 한 번에 가지 않아요. 지룽 환승과 루이팡 경유 두 가지 경로, 캐리어 보관 요령까지 2026년 기준으로 정리했어요.",
-      ogTitle: "예류 지우펀 버스, 캐리어 들고 이동해도 될까?",
-      eyebrow: "타이베이 근교 여행 가이드 · 교통",
-      title: "예류 지우펀 버스, 캐리어 들고 이동해도 될까?",
-      dek: "한 번에 가는 버스가 있다는 말과 다르게 — 실제 환승 경로와 짐을 줄이는 방법을 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 근교 · 교통 가이드",
-      intro: "\"예류에서 1815번 타면 지우펀까지 바로 간다던데요?\" 예류 지우펀 버스는 한 번에 가는 노선이 아니라 환승이 필요해요. 1815번은 타이베이와 지우펀·진과스를 잇는 노선이라 예류를 지나지 않거든요. 버스 노선 정보와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 예류 지우펀 버스 경로 한눈에 비교" },
+    "heroImage": "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg",
+    "ko": {
+      "pageTitle": "예류 지우펀 버스 — 환승·짐 보관 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "예류 지우펀 버스는 한 번에 가지 않아요. 지룽 환승과 루이팡 경유 두 가지 경로, 캐리어 보관 요령까지 2026년 기준으로 정리했어요.",
+      "ogTitle": "예류 지우펀 버스, 캐리어 들고 이동해도 될까?",
+      "eyebrow": "타이베이 근교 여행 가이드 · 교통",
+      "title": "예류 지우펀 버스, 캐리어 들고 이동해도 될까?",
+      "dek": "한 번에 가는 버스가 있다는 말과 다르게 — 실제 환승 경로와 짐을 줄이는 방법을 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 근교 · 교통 가이드",
+      "intro": "\"예류에서 1815번 타면 지우펀까지 바로 간다던데요?\" 예류 지우펀 버스는 한 번에 가는 노선이 아니라 환승이 필요해요. 1815번은 타이베이와 지우펀·진과스를 잇는 노선이라 예류를 지나지 않거든요. 버스 노선 정보와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["지룽 환승", "루이팡 경유"],
-          rows: [
-            { label: "경로", values: ["예류 → 790·862번 → 지룽 → 788번 → 지우펀", "예류 → 지룽 → 기차로 루이팡 → 788·827·825번 → 지우펀"] },
-            { label: "환승", values: ["버스 1회", "버스·기차·버스"] },
-            { label: "장점", values: ["버스만으로 이동", "기차 구간이 있어 시간 예측이 쉬운 편"] },
-            { label: "캐리어", values: ["좌석 사이에 두기 어려움", "계단·환승이 많아 더 불편"] },
-          ],
+          "type": "h2",
+          "text": "01 · 예류 지우펀 버스 경로 한눈에 비교"
         },
-        { type: "h2", text: "02 · 배차와 타는 곳은 앱으로" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Taiwan Bus 앱 설치", desc: "노선 번호를 검색하면 실시간 도착 정보를 볼 수 있어요. 배차는 시간대마다 달라 이 글에는 적지 않았어요." },
-            { mark: "2", b: "방향 확인", desc: "같은 번호라도 방향에 따라 정류장이 달라요. 정류장 표지판의 종점 이름을 보세요." },
-            { mark: "3", b: "이지카드 준비", desc: "대부분 이지카드로 탈 수 있어 잔돈 걱정이 줄어요." },
+          "type": "compareTable",
+          "cities": [
+            "지룽 환승",
+            "루이팡 경유"
           ],
+          "rows": [
+            {
+              "label": "경로",
+              "values": [
+                "예류 → 790·862번 → 지룽 → 788번 → 지우펀",
+                "예류 → 지룽 → 기차로 루이팡 → 788·827·825번 → 지우펀"
+              ]
+            },
+            {
+              "label": "환승",
+              "values": [
+                "버스 1회",
+                "버스·기차·버스"
+              ]
+            },
+            {
+              "label": "장점",
+              "values": [
+                "버스만으로 이동",
+                "기차 구간이 있어 시간 예측이 쉬운 편"
+              ]
+            },
+            {
+              "label": "캐리어",
+              "values": [
+                "좌석 사이에 두기 어려움",
+                "계단·환승이 많아 더 불편"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg", caption: "홍등이 걸린 지우펀 골목의 찻집 건물이에요. 골목이 좁고 계단이 많아 캐리어를 끌기 어려워요." },
-        { type: "h2", text: "03 · 캐리어는 맡기고 가세요" },
-        { type: "p", html: "지우펀 옛거리는 좁은 골목과 계단이 이어져 캐리어를 끌고 다니기 힘들어요. 버스도 붐비는 시간에는 짐 둘 곳이 마땅치 않아요. 타이베이 메인역 코인로커나 숙소에 짐을 맡기고 가벼운 가방만 들고 출발하는 여행자가 많아요. 메인역 로커는 크기별로 요금이 다르고 주말에는 자리가 빨리 차는 편이라, 체크아웃한 숙소에 짐 보관을 부탁하는 방법이 가장 무난하다는 후기가 많아요." },
-        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27672-bus-day-tour-taipei-korean-guide%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 예스폭진지 일일 버스투어 (한국인 가이드) 보기 →</a>" },
-        { type: "h2", text: "04 · 이런 날은 투어가 편해요" },
-        { type: "p", html: "부모님이나 아이와 함께이거나 비가 오는 날에는 환승이 부담스러울 수 있어요. 예류·스펀·지우펀을 묶은 투어나 택시 투어를 이용하면 짐 걱정 없이 이동할 수 있어요. 직접 간다면 해 지기 전에 지우펀에 도착해 돌아오는 버스 줄을 미리 확인해두세요." },
-        { type: "quote", text: "\"예류에서 지우펀은 두 번 타는 길, 짐은 타이베이에 두고.\" — 두 곳을 이어 다녀온 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "지우펀에 도착하면 먹을 곳부터 정해두세요. <a href=\"/region-jiufen\">지우펀 맛집 지도</a>에서 근교 식당을 볼 수 있고, 옛거리 쪽 대만식 식당 <a href=\"/jiufen-taiwanese-77\">메이핑 샤오츠(美萍小吃)</a>도 등록돼 있어요. 타이베이로 돌아와 늦은 저녁을 먹는다면 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>을 참고하세요." },
-        { type: "note", text: "이 글은 대만 버스 노선 정보와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 노선·정류장은 바뀔 수 있으니 출발 전 Taiwan Bus 앱으로 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 지우펀 맛집을 찾아보세요", desc: "지우펀과 근교에서 들르기 좋은 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=jiufen" },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 배차와 타는 곳은 앱으로"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Taiwan Bus 앱 설치",
+              "desc": "노선 번호를 검색하면 실시간 도착 정보를 볼 수 있어요. 배차는 시간대마다 달라 이 글에는 적지 않았어요."
+            },
+            {
+              "mark": "2",
+              "b": "방향 확인",
+              "desc": "같은 번호라도 방향에 따라 정류장이 달라요. 정류장 표지판의 종점 이름을 보세요."
+            },
+            {
+              "mark": "3",
+              "b": "이지카드 준비",
+              "desc": "대부분 이지카드로 탈 수 있어 잔돈 걱정이 줄어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg",
+          "caption": "홍등이 걸린 지우펀 골목의 찻집 건물이에요. 골목이 좁고 계단이 많아 캐리어를 끌기 어려워요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 캐리어는 맡기고 가세요"
+        },
+        {
+          "type": "p",
+          "html": "지우펀 옛거리는 좁은 골목과 계단이 이어져 캐리어를 끌고 다니기 힘들어요. 버스도 붐비는 시간에는 짐 둘 곳이 마땅치 않아요. 타이베이 메인역 코인로커나 숙소에 짐을 맡기고 가벼운 가방만 들고 출발하는 여행자가 많아요. 메인역 로커는 크기별로 요금이 다르고 주말에는 자리가 빨리 차는 편이라, 체크아웃한 숙소에 짐 보관을 부탁하는 방법이 가장 무난하다는 후기가 많아요."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27672-bus-day-tour-taipei-korean-guide%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 예스폭진지 일일 버스투어 (한국인 가이드) 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 이런 날은 투어가 편해요"
+        },
+        {
+          "type": "p",
+          "html": "부모님이나 아이와 함께이거나 비가 오는 날에는 환승이 부담스러울 수 있어요. 예류·스펀·지우펀을 묶은 투어나 택시 투어를 이용하면 짐 걱정 없이 이동할 수 있어요. 직접 간다면 해 지기 전에 지우펀에 도착해 돌아오는 버스 줄을 미리 확인해두세요."
+        },
+        {
+          "type": "quote",
+          "text": "\"예류에서 지우펀은 두 번 타는 길, 짐은 타이베이에 두고.\" — 두 곳을 이어 다녀온 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "지우펀에 도착하면 먹을 곳부터 정해두세요. <a href=\"/region-jiufen\">지우펀 맛집 지도</a>에서 근교 식당을 볼 수 있고, 옛거리 쪽 대만식 식당 <a href=\"/jiufen-taiwanese-77\">메이핑 샤오츠(美萍小吃)</a>도 등록돼 있어요. 타이베이로 돌아와 늦은 저녁을 먹는다면 <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>을 참고하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 버스 노선 정보와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 노선·정류장은 바뀔 수 있으니 출발 전 Taiwan Bus 앱으로 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 지우펀 맛집을 찾아보세요",
+          "desc": "지우펀과 근교에서 들르기 좋은 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=jiufen"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Yehliu to Jiufen by Bus — Transfers and Luggage · My Secret Taiwan Eats",
-      metaDescription: "There's no direct bus from Yehliu to Jiufen. Two transfer routes via Keelung or Ruifang, plus where to leave your suitcase.",
-      ogTitle: "Yehliu to Jiufen by Bus: Can You Do It With Luggage?",
-      eyebrow: "Taipei Day Trips · Transport",
-      title: "Yehliu to Jiufen by Bus: Can You Do It With Luggage?",
-      dek: "Despite what you may have heard about a direct bus — the actual transfer routes and how to travel light.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei Area · Transport Guide",
-      intro: "\"I heard bus 1815 goes straight from Yehliu to Jiufen?\" It doesn't — 1815 runs between Taipei and Jiufen/Jinguashi and doesn't stop at Yehliu, so you'll need to transfer. Based on bus route information and real traveler experiences, here's how.",
-      blocks: [
-        { type: "h2", text: "01 · Routes at a Glance" },
+    "en": {
+      "pageTitle": "Yehliu to Jiufen by Bus — Transfers and Luggage · My Secret Taiwan Eats",
+      "metaDescription": "There's no direct bus from Yehliu to Jiufen. Two transfer routes via Keelung or Ruifang, plus where to leave your suitcase.",
+      "ogTitle": "Yehliu to Jiufen by Bus: Can You Do It With Luggage?",
+      "eyebrow": "Taipei Day Trips · Transport",
+      "title": "Yehliu to Jiufen by Bus: Can You Do It With Luggage?",
+      "dek": "Despite what you may have heard about a direct bus — the actual transfer routes and how to travel light.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei Area · Transport Guide",
+      "intro": "\"I heard bus 1815 goes straight from Yehliu to Jiufen?\" It doesn't — 1815 runs between Taipei and Jiufen/Jinguashi and doesn't stop at Yehliu, so you'll need to transfer. Based on bus route information and real traveler experiences, here's how.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Via Keelung", "Via Ruifang"],
-          rows: [
-            { label: "Route", values: ["Yehliu → bus 790/862 → Keelung → bus 788 → Jiufen", "Yehliu → Keelung → train to Ruifang → bus 788/827/825 → Jiufen"] },
-            { label: "Transfers", values: ["One bus change", "Bus, train, bus"] },
-            { label: "Pros", values: ["Buses only", "The train leg makes timing easier to predict"] },
-            { label: "Luggage", values: ["Hard to fit between seats", "More stairs and transfers"] },
-          ],
+          "type": "h2",
+          "text": "01 · Routes at a Glance"
         },
-        { type: "h2", text: "02 · Check Times and Stops in the App" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Install Taiwan Bus", desc: "Search the route number for real-time arrivals. Frequencies vary by time of day, so they're not listed here." },
-            { mark: "2", b: "Check the direction", desc: "The same number stops at different places by direction. Look for the terminus name on the sign." },
-            { mark: "3", b: "Have an EasyCard", desc: "Most buses accept EasyCard, so you won't need change." },
+          "type": "compareTable",
+          "cities": [
+            "Via Keelung",
+            "Via Ruifang"
           ],
+          "rows": [
+            {
+              "label": "Route",
+              "values": [
+                "Yehliu → bus 790/862 → Keelung → bus 788 → Jiufen",
+                "Yehliu → Keelung → train to Ruifang → bus 788/827/825 → Jiufen"
+              ]
+            },
+            {
+              "label": "Transfers",
+              "values": [
+                "One bus change",
+                "Bus, train, bus"
+              ]
+            },
+            {
+              "label": "Pros",
+              "values": [
+                "Buses only",
+                "The train leg makes timing easier to predict"
+              ]
+            },
+            {
+              "label": "Luggage",
+              "values": [
+                "Hard to fit between seats",
+                "More stairs and transfers"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg", caption: "A Jiufen teahouse hung with red lanterns — the narrow, stepped alleys make rolling a suitcase hard." },
-        { type: "h2", text: "03 · Leave the Suitcase Behind" },
-        { type: "p", html: "Jiufen Old Street is narrow alleys and steps, and buses have little room for bags at busy times. Many travelers leave luggage in lockers at Taipei Main Station or at their hotel and set off with a light bag. Station lockers are priced by size and fill up fast on weekends, so many reviews say asking your hotel to hold bags after checkout is the easiest option." },
-        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27672-bus-day-tour-taipei-korean-guide%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Yehliu–Shifen–Jiufen bus day tour on Klook →</a>" },
-        { type: "h2", text: "04 · When a Tour Is Easier" },
-        { type: "p", html: "With parents, kids, or rain, transfers can be a hassle. Tours or taxi tours covering Yehliu, Shifen, and Jiufen let you move without worrying about bags. If you go on your own, arrive in Jiufen before dark and check the return bus queue early." },
-        { type: "quote", text: "\"Yehliu to Jiufen takes two rides — leave your bags in Taipei.\" — a summary of advice from travelers who've linked the two." },
-        { type: "p", html: "Once you arrive in Jiufen, decide where to eat first. You can see nearby restaurants on the <a href=\"/region-jiufen\">Jiufen food map</a>, and the Old Street Taiwanese restaurant <a href=\"/jiufen-taiwanese-77\">Meiping Xiaochi (美萍小吃)</a> is listed too. If you come back to Taipei for a late dinner, check <a href=\"/taipei-street_food\">Taipei street food</a>." },
-        { type: "note", text: "Based on Taiwan bus route information and traveler experiences (as of September 2026). Routes and stops can change; recheck in the Taiwan Bus app before you go." },
-        { type: "cta", title: "Find Jiufen restaurants on the map", desc: "Check places to eat in Jiufen and nearby on the map.", btn: "Open the map →", href: "/map?region=jiufen" },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Check Times and Stops in the App"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Install Taiwan Bus",
+              "desc": "Search the route number for real-time arrivals. Frequencies vary by time of day, so they're not listed here."
+            },
+            {
+              "mark": "2",
+              "b": "Check the direction",
+              "desc": "The same number stops at different places by direction. Look for the terminus name on the sign."
+            },
+            {
+              "mark": "3",
+              "b": "Have an EasyCard",
+              "desc": "Most buses accept EasyCard, so you won't need change."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/yehliu-to-jiufen-bus-luggage-route-1.jpg",
+          "caption": "A Jiufen teahouse hung with red lanterns — the narrow, stepped alleys make rolling a suitcase hard."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Leave the Suitcase Behind"
+        },
+        {
+          "type": "p",
+          "html": "Jiufen Old Street is narrow alleys and steps, and buses have little room for bags at busy times. Many travelers leave luggage in lockers at Taipei Main Station or at their hotel and set off with a light bag. Station lockers are priced by size and fill up fast on weekends, so many reviews say asking your hotel to hold bags after checkout is the easiest option."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27672-bus-day-tour-taipei-korean-guide%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Yehliu–Shifen–Jiufen bus day tour on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · When a Tour Is Easier"
+        },
+        {
+          "type": "p",
+          "html": "With parents, kids, or rain, transfers can be a hassle. Tours or taxi tours covering Yehliu, Shifen, and Jiufen let you move without worrying about bags. If you go on your own, arrive in Jiufen before dark and check the return bus queue early."
+        },
+        {
+          "type": "quote",
+          "text": "\"Yehliu to Jiufen takes two rides — leave your bags in Taipei.\" — a summary of advice from travelers who've linked the two."
+        },
+        {
+          "type": "p",
+          "html": "Once you arrive in Jiufen, decide where to eat first. You can see nearby restaurants on the <a href=\"/region-jiufen\">Jiufen food map</a>, and the Old Street Taiwanese restaurant <a href=\"/jiufen-taiwanese-77\">Meiping Xiaochi (美萍小吃)</a> is listed too. If you come back to Taipei for a late dinner, check <a href=\"/taipei-street_food\">Taipei street food</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taiwan bus route information and traveler experiences (as of September 2026). Routes and stops can change; recheck in the Taiwan Bus app before you go."
+        },
+        {
+          "type": "cta",
+          "title": "Find Jiufen restaurants on the map",
+          "desc": "Check places to eat in Jiufen and nearby on the map.",
+          "btn": "Open the map →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    }
   },
-
   "taoyuan-airport-midnight-arrival-transport": {
-    heroImage: "assets/images/blog/taoyuan-airport-midnight-arrival-transport-1.jpg",
-    ko: {
-      pageTitle: "타오위안공항 새벽 도착 — 1819·택시 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타오위안공항 새벽 도착이라면 공항철도는 끊겨요. 24시간 1819 버스 요금·타는 곳과 택시 요금, 부모님 동반 팁을 정리했어요.",
-      ogTitle: "타오위안공항 새벽 도착, 시내까지 뭐 타고 갈까?",
-      eyebrow: "타이베이 여행 가이드 · 공항 교통",
-      title: "타오위안공항 새벽 도착, 시내까지 뭐 타고 갈까?",
-      dek: "자정 넘어 도착하는 저가항공 여행자를 위해 — 24시간 버스, 택시, 마중 중 상황별로 고르는 법을 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 공항 교통",
-      intro: "\"새벽 1시에 도착하는데 공항철도가 끊겼대요.\" 타오위안공항 새벽 도착 여행자가 가장 먼저 부딪히는 문제예요. 공항철도는 자정 이후 운행하지 않아 24시간 버스나 택시를 골라야 해요. 궈광커윈·공항 공식 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 타오위안공항 새벽 도착 교통 한눈에 비교" },
+    "heroImage": "assets/images/blog/taoyuan-airport-midnight-arrival-transport-1.jpg",
+    "ko": {
+      "pageTitle": "타오위안공항 새벽 도착 — 1819·택시 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타오위안공항 새벽 도착이라면 공항철도는 끊겨요. 24시간 1819 버스 요금·타는 곳과 택시 요금, 부모님 동반 팁을 정리했어요.",
+      "ogTitle": "타오위안공항 새벽 도착, 시내까지 뭐 타고 갈까?",
+      "eyebrow": "타이베이 여행 가이드 · 공항 교통",
+      "title": "타오위안공항 새벽 도착, 시내까지 뭐 타고 갈까?",
+      "dek": "자정 넘어 도착하는 저가항공 여행자를 위해 — 24시간 버스, 택시, 마중 중 상황별로 고르는 법을 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 공항 교통",
+      "intro": "\"새벽 1시에 도착하는데 공항철도가 끊겼대요.\" 타오위안공항 새벽 도착 여행자가 가장 먼저 부딪히는 문제예요. 공항철도는 자정 이후 운행하지 않아 24시간 버스나 택시를 골라야 해요. 궈광커윈·공항 공식 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["궈광 1819 버스", "공항 택시", "공항철도"],
-          rows: [
-            { label: "운행", values: ["밤새 운행(심야 포함 24시간), 공항 2터미널 출발 00:20부터 23:50까지, 심야엔 약 10~40분 간격", "24시간", "대략 05:30~23:00, 자정 이후 없음"] },
-            { label: "요금(2026년 9월 기준)", values: ["3열 좌석 NT$164, 4열 좌석 NT$133", "미터 요금+15%, 통행료 별도", "타이베이역까지 NT$160"] },
-            { label: "내리는 곳", values: ["타이베이 버스터미널(台北轉運站)", "숙소 앞", "타이베이역"] },
-            { label: "추천 상황", values: ["혼자·둘, 짐이 적을 때", "가족·짐 많을 때, 숙소가 역에서 멀 때", "아침 도착"] },
-          ],
+          "type": "h2",
+          "text": "01 · 타오위안공항 새벽 도착 교통 한눈에 비교"
         },
-        { type: "h2", text: "02 · 1819 버스 탈 때 알아둘 것" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "타이베이 쪽 정류장 변경", desc: "2025년 1월 1일부터 타이베이 쪽 승하차는 타이베이 버스터미널 4층 409번 승강장이에요." },
-            { mark: "✓", b: "매표 카운터 시간", desc: "제1터미널은 24시간, 제2터미널은 07:30~22:00 운영이에요(2026년 9월 기준). 심야에 제2터미널로 도착하면 표 사는 방법을 미리 확인하세요." },
-            { mark: "✓", b: "이지카드 탑승", desc: "궈광커윈 안내에 따르면 이지카드 같은 교통카드로 탈 수 있어요. 심야에는 제2터미널 매표 카운터가 닫혀 있으니 카드 잔액을 미리 넉넉히 충전해두세요." },
+          "type": "compareTable",
+          "cities": [
+            "궈광 1819 버스",
+            "공항 택시",
+            "공항철도"
           ],
+          "rows": [
+            {
+              "label": "운행",
+              "values": [
+                "밤새 운행(심야 포함 24시간), 공항 2터미널 출발 00:20부터 23:50까지, 심야엔 약 10~40분 간격",
+                "24시간",
+                "대략 05:30~23:00, 자정 이후 없음"
+              ]
+            },
+            {
+              "label": "요금(2026년 9월 기준)",
+              "values": [
+                "3열 좌석 NT$164, 4열 좌석 NT$133",
+                "미터 요금+15%, 통행료 별도",
+                "타이베이역까지 NT$160"
+              ]
+            },
+            {
+              "label": "내리는 곳",
+              "values": [
+                "타이베이 버스터미널(台北轉運站)",
+                "숙소 앞",
+                "타이베이역"
+              ]
+            },
+            {
+              "label": "추천 상황",
+              "values": [
+                "혼자·둘, 짐이 적을 때",
+                "가족·짐 많을 때, 숙소가 역에서 멀 때",
+                "아침 도착"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taoyuan-airport-midnight-arrival-transport-1.jpg", caption: "타오위안국제공항 계류장에 서 있는 여객기예요." },
-        { type: "h2", text: "03 · 부모님과 함께라면 택시나 마중" },
-        { type: "p", html: "밤늦게 버스에서 내려 터미널에서 다시 택시를 잡는 건 부모님에게 부담이 될 수 있어요. 공항 택시는 미터 요금에 15%가 더해지고 통행료가 따로 붙지만, 숙소 앞까지 한 번에 갈 수 있어요. 타오위안 택시 기본요금은 첫 1.25km NT$95예요(2026년 9월 기준). 인원이 많다면 미리 예약한 공항 픽업이 더 편할 수 있어요." },
-        { type: "figure", img: "assets/images/blog/taoyuan-airport-midnight-arrival-transport-2.jpg", caption: "타이베이 버스터미널과 기차역 방향을 알려주는 거리 표지판이에요." },
-        { type: "h2", text: "04 · 새벽 입국 심사 팁" },
-        { type: "p", html: "심야에도 입국 심사는 운영해요. 입국신고서(TWAC)를 미리 작성해두면 심사 시간이 줄고, 도착 직후 숙소에 늦은 체크인 연락을 해두면 마음이 편해요." },
-        { type: "quote", text: "\"새벽엔 1819, 짐 많고 부모님이면 택시.\" — 늦은 밤 타오위안에 도착해 본 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "늦게 도착한 다음 날 아침은 숙소 근처에서 가볍게 시작해보세요. <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>에서 또우장 가게를 찾을 수 있고, 대표적인 곳으로 <a href=\"/taipei-breakfast-282\">딩위안 또우장(鼎元豆漿)</a>이 있어요. 숙소 주변 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 한 번에 볼 수 있어요." },
-        { type: "note", text: "이 글은 궈광커윈·대만 공로객운·공항철도·타오위안공항 안내와 팀 수집 정보, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 배차와 요금은 바뀔 수 있으니 출발 전 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 타이베이 맛집을 찾아보세요", desc: "도착 다음 날 아침 먹을 곳을 숙소 근처에서 미리 골라보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 1819 버스 탈 때 알아둘 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "타이베이 쪽 정류장 변경",
+              "desc": "2025년 1월 1일부터 타이베이 쪽 승하차는 타이베이 버스터미널 4층 409번 승강장이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "매표 카운터 시간",
+              "desc": "제1터미널은 24시간, 제2터미널은 07:30~22:00 운영이에요(2026년 9월 기준). 심야에 제2터미널로 도착하면 표 사는 방법을 미리 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "이지카드 탑승",
+              "desc": "궈광커윈 안내에 따르면 이지카드 같은 교통카드로 탈 수 있어요. 심야에는 제2터미널 매표 카운터가 닫혀 있으니 카드 잔액을 미리 넉넉히 충전해두세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-midnight-arrival-transport-1.jpg",
+          "caption": "타오위안국제공항 계류장에 서 있는 여객기예요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 부모님과 함께라면 택시나 마중"
+        },
+        {
+          "type": "p",
+          "html": "밤늦게 버스에서 내려 터미널에서 다시 택시를 잡는 건 부모님에게 부담이 될 수 있어요. 공항 택시는 미터 요금에 15%가 더해지고 통행료가 따로 붙지만, 숙소 앞까지 한 번에 갈 수 있어요. 타오위안 택시 기본요금은 첫 1.25km NT$95예요(2026년 9월 기준). 인원이 많다면 미리 예약한 공항 픽업이 더 편할 수 있어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-midnight-arrival-transport-2.jpg",
+          "caption": "타이베이 버스터미널과 기차역 방향을 알려주는 거리 표지판이에요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 새벽 입국 심사 팁"
+        },
+        {
+          "type": "p",
+          "html": "심야에도 입국 심사는 운영해요. 입국신고서(TWAC)를 미리 작성해두면 심사 시간이 줄고, 도착 직후 숙소에 늦은 체크인 연락을 해두면 마음이 편해요."
+        },
+        {
+          "type": "quote",
+          "text": "\"새벽엔 1819, 짐 많고 부모님이면 택시.\" — 늦은 밤 타오위안에 도착해 본 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "늦게 도착한 다음 날 아침은 숙소 근처에서 가볍게 시작해보세요. <a href=\"/taipei-breakfast\">타이베이 조식 맛집</a>에서 또우장 가게를 찾을 수 있고, 대표적인 곳으로 <a href=\"/taipei-breakfast-282\">딩위안 또우장(鼎元豆漿)</a>이 있어요. 숙소 주변 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 한 번에 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 궈광커윈·대만 공로객운·공항철도·타오위안공항 안내와 팀 수집 정보, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 배차와 요금은 바뀔 수 있으니 출발 전 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집을 찾아보세요",
+          "desc": "도착 다음 날 아침 먹을 곳을 숙소 근처에서 미리 골라보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taoyuan Airport After Midnight — Bus 1819 vs Taxi · My Secret Taiwan Eats",
-      metaDescription: "The Airport MRT stops before midnight. Bus 1819 times and fares, taxi costs, and when to book a pickup for a late Taoyuan arrival.",
-      ogTitle: "Landing at Taoyuan After Midnight: How Do You Get Into Taipei?",
-      eyebrow: "Taipei Travel Guide · Airport Transport",
-      title: "Landing at Taoyuan After Midnight: How Do You Get Into Taipei?",
-      dek: "For budget-airline travelers landing after midnight — how to choose between the 24-hour bus, a taxi, or a pickup.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Airport Transport",
-      intro: "\"We land at 1 a.m. and the Airport MRT has stopped.\" The Airport MRT doesn't run after midnight, so it's the 24-hour bus or a taxi. Based on Kuo-Kuang Motor Transport and airport guidance plus real traveler experiences, here's how to decide.",
-      blocks: [
-        { type: "h2", text: "01 · Options at a Glance" },
+    "en": {
+      "pageTitle": "Taoyuan Airport After Midnight — Bus 1819 vs Taxi · My Secret Taiwan Eats",
+      "metaDescription": "The Airport MRT stops before midnight. Bus 1819 times and fares, taxi costs, and when to book a pickup for a late Taoyuan arrival.",
+      "ogTitle": "Landing at Taoyuan After Midnight: How Do You Get Into Taipei?",
+      "eyebrow": "Taipei Travel Guide · Airport Transport",
+      "title": "Landing at Taoyuan After Midnight: How Do You Get Into Taipei?",
+      "dek": "For budget-airline travelers landing after midnight — how to choose between the 24-hour bus, a taxi, or a pickup.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Airport Transport",
+      "intro": "\"We land at 1 a.m. and the Airport MRT has stopped.\" The Airport MRT doesn't run after midnight, so it's the 24-hour bus or a taxi. Based on Kuo-Kuang Motor Transport and airport guidance plus real traveler experiences, here's how to decide.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Kuo-Kuang bus 1819", "Airport taxi", "Airport MRT"],
-          rows: [
-            { label: "Service", values: ["Runs through the night (24 hours); from Terminal 2 the day's departures run 00:20 to 23:50, roughly every 10–40 min overnight", "24 hours", "Roughly 05:30–23:00, none after midnight"] },
-            { label: "Fare (Sept 2026)", values: ["3-row seat NT$164, 4-row seat NT$133", "Meter +15%, tolls extra", "NT$160 to Taipei Main"] },
-            { label: "Drop-off", values: ["Taipei Bus Station (台北轉運站)", "Your hotel", "Taipei Main Station"] },
-            { label: "Best for", values: ["Solo or pairs with light luggage", "Families, lots of bags, hotels far from stations", "Morning arrivals"] },
-          ],
+          "type": "h2",
+          "text": "01 · Options at a Glance"
         },
-        { type: "h2", text: "02 · Riding Bus 1819" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Taipei terminal", desc: "Since January 1, 2025, the Taipei end is Taipei Bus Station 4F, platform 409." },
-            { mark: "✓", b: "Ticket counter hours", desc: "Terminal 1 is 24 hours; Terminal 2 runs 07:30–22:00 (as of Sept 2026). Arriving at T2 late at night, check how to buy a ticket." },
-            { mark: "✓", b: "EasyCard", desc: "Kuo-Kuang says EasyCard and other transit cards are accepted. The T2 ticket counter is closed late at night, so top up your card before you fly." },
+          "type": "compareTable",
+          "cities": [
+            "Kuo-Kuang bus 1819",
+            "Airport taxi",
+            "Airport MRT"
           ],
+          "rows": [
+            {
+              "label": "Service",
+              "values": [
+                "Runs through the night (24 hours); from Terminal 2 the day's departures run 00:20 to 23:50, roughly every 10–40 min overnight",
+                "24 hours",
+                "Roughly 05:30–23:00, none after midnight"
+              ]
+            },
+            {
+              "label": "Fare (Sept 2026)",
+              "values": [
+                "3-row seat NT$164, 4-row seat NT$133",
+                "Meter +15%, tolls extra",
+                "NT$160 to Taipei Main"
+              ]
+            },
+            {
+              "label": "Drop-off",
+              "values": [
+                "Taipei Bus Station (台北轉運站)",
+                "Your hotel",
+                "Taipei Main Station"
+              ]
+            },
+            {
+              "label": "Best for",
+              "values": [
+                "Solo or pairs with light luggage",
+                "Families, lots of bags, hotels far from stations",
+                "Morning arrivals"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taoyuan-airport-midnight-arrival-transport-1.jpg", caption: "A passenger jet on the apron at Taoyuan International Airport." },
-        { type: "h2", text: "03 · With Parents, Take a Taxi or Pickup" },
-        { type: "p", html: "Getting off a bus late at night and hailing another taxi can be tiring for older parents. Airport taxis add 15% to the meter plus tolls, but take you straight to the door. Taoyuan's flag fall is NT$95 for the first 1.25km (as of Sept 2026). For larger groups, a pre-booked pickup may be easier." },
-        { type: "figure", img: "assets/images/blog/taoyuan-airport-midnight-arrival-transport-2.jpg", caption: "Street signs pointing to Taipei Bus Station and the railway station." },
-        { type: "h2", text: "04 · Late-Night Immigration Tips" },
-        { type: "p", html: "Immigration runs through the night. Filling in the TWAC arrival card ahead of time speeds things up, and messaging your hotel about a late check-in helps." },
-        { type: "quote", text: "\"After midnight take the 1819; with lots of bags or parents, take a taxi.\" — a summary of advice from travelers who've landed late at Taoyuan." },
-        { type: "p", html: "The morning after a late arrival, start light near your hotel. You can find doujiang shops in <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, including <a href=\"/taipei-breakfast-282\">Dingyuan Doujiang (鼎元豆漿)</a>. Restaurants near your hotel are on the <a href=\"/region-taipei\">Taipei food map</a>." },
-        { type: "note", text: "Based on Kuo-Kuang, Taiwan highway bus, Airport MRT, and Taoyuan Airport guidance, team-collected info, and traveler experiences (as of September 2026)." },
-        { type: "cta", title: "Find Taipei restaurants on the map", desc: "Pick a breakfast spot near your hotel for the morning after you land.", btn: "Open the map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Riding Bus 1819"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Taipei terminal",
+              "desc": "Since January 1, 2025, the Taipei end is Taipei Bus Station 4F, platform 409."
+            },
+            {
+              "mark": "✓",
+              "b": "Ticket counter hours",
+              "desc": "Terminal 1 is 24 hours; Terminal 2 runs 07:30–22:00 (as of Sept 2026). Arriving at T2 late at night, check how to buy a ticket."
+            },
+            {
+              "mark": "✓",
+              "b": "EasyCard",
+              "desc": "Kuo-Kuang says EasyCard and other transit cards are accepted. The T2 ticket counter is closed late at night, so top up your card before you fly."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-midnight-arrival-transport-1.jpg",
+          "caption": "A passenger jet on the apron at Taoyuan International Airport."
+        },
+        {
+          "type": "h2",
+          "text": "03 · With Parents, Take a Taxi or Pickup"
+        },
+        {
+          "type": "p",
+          "html": "Getting off a bus late at night and hailing another taxi can be tiring for older parents. Airport taxis add 15% to the meter plus tolls, but take you straight to the door. Taoyuan's flag fall is NT$95 for the first 1.25km (as of Sept 2026). For larger groups, a pre-booked pickup may be easier."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taoyuan-airport-midnight-arrival-transport-2.jpg",
+          "caption": "Street signs pointing to Taipei Bus Station and the railway station."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Late-Night Immigration Tips"
+        },
+        {
+          "type": "p",
+          "html": "Immigration runs through the night. Filling in the TWAC arrival card ahead of time speeds things up, and messaging your hotel about a late check-in helps."
+        },
+        {
+          "type": "quote",
+          "text": "\"After midnight take the 1819; with lots of bags or parents, take a taxi.\" — a summary of advice from travelers who've landed late at Taoyuan."
+        },
+        {
+          "type": "p",
+          "html": "The morning after a late arrival, start light near your hotel. You can find doujiang shops in <a href=\"/taipei-breakfast\">Taipei breakfast spots</a>, including <a href=\"/taipei-breakfast-282\">Dingyuan Doujiang (鼎元豆漿)</a>. Restaurants near your hotel are on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Kuo-Kuang, Taiwan highway bus, Airport MRT, and Taoyuan Airport guidance, team-collected info, and traveler experiences (as of September 2026)."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei restaurants on the map",
+          "desc": "Pick a breakfast spot near your hotel for the morning after you land.",
+          "btn": "Open the map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "kaohsiung-bts-concert-hotel-transport": {
-    heroImage: "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg",
-    ko: {
-      pageTitle: "가오슝 BTS 콘서트 숙소 — 교통 정리 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "가오슝 BTS 콘서트 숙소는 어디가 편할까요? 11월 국가체육장 공연 날짜·좌석 가격, 레드라인 숙소 위치와 이동 요령을 정리했어요.",
-      ogTitle: "가오슝 BTS 콘서트 숙소, 국가체육장 가려면 어디에 묵을까?",
-      eyebrow: "가오슝 여행 가이드 · 공연",
-      title: "가오슝 BTS 콘서트 숙소, 국가체육장 가려면 어디에 묵을까?",
-      dek: "타이베이 공연으로 잘못 알고 숙소를 잡지 않도록 — 공연 장소와 날짜, 이동 동선을 먼저 확인하세요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "가오슝 · 공연 여행",
-      intro: "\"BTS 대만 공연이 타이베이라던데 숙소를 어디로 잡죠?\" 가오슝 BTS 콘서트 숙소부터 다시 봐야 해요. BTS WORLD TOUR 'ARIRANG' 대만 공연은 2026년 11월 19일·21일·22일 가오슝 국가체육장에서 열려요. 주최사 Live Nation Taiwan 공지와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 공연 정보 한눈에 보기" },
+    "heroImage": "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg",
+    "ko": {
+      "pageTitle": "가오슝 BTS 콘서트 숙소 — 교통 정리 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 BTS 콘서트 숙소는 어디가 편할까요? 11월 국가체육장 공연 날짜·좌석 가격, 레드라인 숙소 위치와 이동 요령을 정리했어요.",
+      "ogTitle": "가오슝 BTS 콘서트 숙소, 국가체육장 가려면 어디에 묵을까?",
+      "eyebrow": "가오슝 여행 가이드 · 공연",
+      "title": "가오슝 BTS 콘서트 숙소, 국가체육장 가려면 어디에 묵을까?",
+      "dek": "타이베이 공연으로 잘못 알고 숙소를 잡지 않도록 — 공연 장소와 날짜, 이동 동선을 먼저 확인하세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 공연 여행",
+      "intro": "\"BTS 대만 공연이 타이베이라던데 숙소를 어디로 잡죠?\" 가오슝 BTS 콘서트 숙소부터 다시 봐야 해요. BTS WORLD TOUR 'ARIRANG' 대만 공연은 2026년 11월 19일·21일·22일 가오슝 국가체육장에서 열려요. 주최사 Live Nation Taiwan 공지와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["내용"],
-          rows: [
-            { label: "공연", values: ["BTS WORLD TOUR 'ARIRANG' in KAOHSIUNG"] },
-            { label: "날짜", values: ["2026년 11월 19일(목), 21일(토), 22일(일), 오후 7시"] },
-            { label: "장소", values: ["가오슝 국가체육장(國家體育場), MRT 세운역(R17) 근처"] },
-            { label: "좌석 가격(2026년 9월 기준)", values: ["VIP NT$9,380, 일반석 NT$7,980~2,980(시스템 수수료 NT$200 별도)"] },
-            { label: "예매", values: ["tixcraft 실명제"] },
-          ],
+          "type": "h2",
+          "text": "01 · 공연 정보 한눈에 보기"
         },
-        { type: "h2", text: "02 · 가오슝 BTS 콘서트 숙소 위치 고르기" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "레드라인 역 근처", desc: "세운역은 MRT 레드라인이라 같은 노선 역 근처 숙소면 환승 없이 오갈 수 있어요." },
-            { mark: "✓", b: "쭤잉(左營) 쪽", desc: "고속철 쭤잉역과 가까워 타이베이에서 오가는 여행자에게 편해요. 세운역 바로 옆 역이에요." },
-            { mark: "✓", b: "시내 중심가", desc: "식당과 야시장이 많은 대신 공연 후 귀가 인파에 오래 기다릴 수 있어요." },
-            { mark: "✓", b: "예약은 서둘러", desc: "공연 날짜가 확정되면 경기장 주변 숙소가 먼저 차는 편이에요. 무료 취소 조건을 확인하세요." },
+          "type": "compareTable",
+          "cities": [
+            "내용"
           ],
+          "rows": [
+            {
+              "label": "공연",
+              "values": [
+                "BTS WORLD TOUR 'ARIRANG' in KAOHSIUNG"
+              ]
+            },
+            {
+              "label": "날짜",
+              "values": [
+                "2026년 11월 19일(목), 21일(토), 22일(일), 오후 7시"
+              ]
+            },
+            {
+              "label": "장소",
+              "values": [
+                "가오슝 국가체육장(國家體育場), MRT 세운역(R17) 근처"
+              ]
+            },
+            {
+              "label": "좌석 가격(2026년 9월 기준)",
+              "values": [
+                "VIP NT$9,380, 일반석 NT$7,980~2,980(시스템 수수료 NT$200 별도)"
+              ]
+            },
+            {
+              "label": "예매",
+              "values": [
+                "tixcraft 실명제"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg", caption: "무대 조명 앞에서 손을 든 관객들의 실루엣이에요(일반 공연 사진, BTS 공연 아님)." },
-        { type: "h2", text: "03 · 공연 날 이동 요령" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "이지카드 미리 충전", desc: "공연 후 역 발매기에 줄이 길어질 수 있어요. 왕복 요금을 미리 충전해두세요." },
-            { mark: "2", b: "일찍 도착", desc: "입장 확인에 시간이 걸리는 실명제 공연이라 여유 있게 가는 게 좋아요." },
-            { mark: "3", b: "귀가 시간 분산", desc: "공연이 끝나자마자 역으로 가기보다 조금 기다렸다 이동하는 여행자도 많아요." },
-          ],
+          "type": "h2",
+          "text": "02 · 가오슝 BTS 콘서트 숙소 위치 고르기"
         },
-        { type: "h2", text: "04 · 실명제 예매 체크" },
-        { type: "p", html: "tixcraft 실명제 공연은 예매자 정보와 신분증을 대조할 수 있어요. 여권 영문 이름과 예매 정보가 같은지 확인하고, 양도·재판매 규정은 공식 공지를 따르세요. 좌석 가격과 입장 방식은 주최 측 공지가 기준이에요." },
-        { type: "quote", text: "\"가오슝 공연은 레드라인 따라 숙소를.\" — 가오슝 국가체육장 공연을 다녀온 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "공연 전후 식사는 레드라인 역 주변에서 해결하면 편해요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 숙소 근처 식당을 보고, 가볍게 먹기 좋은 <a href=\"/kaohsiung-dimsum\">가오슝 딤섬 맛집</a>도 참고해보세요. 군만두로 알려진 <a href=\"/kaohsiung-dimsum-old-chuan-s-pot-sticker-steamed-dumpling-712\">라오촨 군만두·찐만두집(Old Chuan's)</a>도 지도에 있어요." },
-        { type: "note", text: "이 글은 주최사 Live Nation Taiwan 공지와 tixcraft·가오슝 MRT 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 공연 정보는 주최 측 발표를 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 가오슝 맛집을 찾아보세요", desc: "공연 전후로 들르기 좋은 가오슝 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=kaohsiung" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "레드라인 역 근처",
+              "desc": "세운역은 MRT 레드라인이라 같은 노선 역 근처 숙소면 환승 없이 오갈 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "쭤잉(左營) 쪽",
+              "desc": "고속철 쭤잉역과 가까워 타이베이에서 오가는 여행자에게 편해요. 세운역 바로 옆 역이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "시내 중심가",
+              "desc": "식당과 야시장이 많은 대신 공연 후 귀가 인파에 오래 기다릴 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "예약은 서둘러",
+              "desc": "공연 날짜가 확정되면 경기장 주변 숙소가 먼저 차는 편이에요. 무료 취소 조건을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg",
+          "caption": "무대 조명 앞에서 손을 든 관객들의 실루엣이에요(일반 공연 사진, BTS 공연 아님)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 공연 날 이동 요령"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "이지카드 미리 충전",
+              "desc": "공연 후 역 발매기에 줄이 길어질 수 있어요. 왕복 요금을 미리 충전해두세요."
+            },
+            {
+              "mark": "2",
+              "b": "일찍 도착",
+              "desc": "입장 확인에 시간이 걸리는 실명제 공연이라 여유 있게 가는 게 좋아요."
+            },
+            {
+              "mark": "3",
+              "b": "귀가 시간 분산",
+              "desc": "공연이 끝나자마자 역으로 가기보다 조금 기다렸다 이동하는 여행자도 많아요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 실명제 예매 체크"
+        },
+        {
+          "type": "p",
+          "html": "tixcraft 실명제 공연은 예매자 정보와 신분증을 대조할 수 있어요. 여권 영문 이름과 예매 정보가 같은지 확인하고, 양도·재판매 규정은 공식 공지를 따르세요. 좌석 가격과 입장 방식은 주최 측 공지가 기준이에요."
+        },
+        {
+          "type": "quote",
+          "text": "\"가오슝 공연은 레드라인 따라 숙소를.\" — 가오슝 국가체육장 공연을 다녀온 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "공연 전후 식사는 레드라인 역 주변에서 해결하면 편해요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 숙소 근처 식당을 보고, 가볍게 먹기 좋은 <a href=\"/kaohsiung-dimsum\">가오슝 딤섬 맛집</a>도 참고해보세요. 군만두로 알려진 <a href=\"/kaohsiung-dimsum-old-chuan-s-pot-sticker-steamed-dumpling-712\">라오촨 군만두·찐만두집(Old Chuan's)</a>도 지도에 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 주최사 Live Nation Taiwan 공지와 tixcraft·가오슝 MRT 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 공연 정보는 주최 측 발표를 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 맛집을 찾아보세요",
+          "desc": "공연 전후로 들르기 좋은 가오슝 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
     },
-    en: {
-      pageTitle: "BTS Kaohsiung Concert — Where to Stay and Getting There · My Secret Taiwan Eats",
-      metaDescription: "BTS plays Kaohsiung National Stadium on Nov 19, 21, and 22, 2026. Hotel areas, MRT tips, and real-name ticket checks.",
-      ogTitle: "BTS in Kaohsiung: Where to Stay for the National Stadium Shows",
-      eyebrow: "Kaohsiung Travel Guide · Concerts",
-      title: "BTS in Kaohsiung: Where to Stay for the National Stadium Shows",
-      dek: "Don't book a Taipei hotel by mistake — confirm the venue, dates, and route first.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Kaohsiung · Concert Travel",
-      intro: "\"I heard BTS is playing Taipei — where should I stay?\" BTS WORLD TOUR 'ARIRANG' in Taiwan is at Kaohsiung National Stadium on November 19, 21, and 22, 2026. Based on organizer Live Nation Taiwan's announcement and real traveler experiences, here's what to plan.",
-      blocks: [
-        { type: "h2", text: "01 · Show Details" },
+    "en": {
+      "pageTitle": "BTS Kaohsiung Concert — Where to Stay and Getting There · My Secret Taiwan Eats",
+      "metaDescription": "BTS plays Kaohsiung National Stadium on Nov 19, 21, and 22, 2026. Hotel areas, MRT tips, and real-name ticket checks.",
+      "ogTitle": "BTS in Kaohsiung: Where to Stay for the National Stadium Shows",
+      "eyebrow": "Kaohsiung Travel Guide · Concerts",
+      "title": "BTS in Kaohsiung: Where to Stay for the National Stadium Shows",
+      "dek": "Don't book a Taipei hotel by mistake — confirm the venue, dates, and route first.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Concert Travel",
+      "intro": "\"I heard BTS is playing Taipei — where should I stay?\" BTS WORLD TOUR 'ARIRANG' in Taiwan is at Kaohsiung National Stadium on November 19, 21, and 22, 2026. Based on organizer Live Nation Taiwan's announcement and real traveler experiences, here's what to plan.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Details"],
-          rows: [
-            { label: "Show", values: ["BTS WORLD TOUR 'ARIRANG' in KAOHSIUNG"] },
-            { label: "Dates", values: ["Nov 19 (Thu), 21 (Sat), 22 (Sun), 2026, 7 p.m."] },
-            { label: "Venue", values: ["Kaohsiung National Stadium (國家體育場), near MRT World Games station (R17)"] },
-            { label: "Prices (Sept 2026)", values: ["VIP NT$9,380; others NT$7,980–2,980 (plus NT$200 system fee)"] },
-            { label: "Tickets", values: ["tixcraft, real-name"] },
-          ],
+          "type": "h2",
+          "text": "01 · Show Details"
         },
-        { type: "h2", text: "02 · Choosing a Hotel Area" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Near a Red Line station", desc: "World Games is on the MRT Red Line, so a hotel on the same line means no transfers." },
-            { mark: "✓", b: "Zuoying (左營)", desc: "Close to Zuoying HSR station — handy if you're coming from Taipei. It's the station next to World Games." },
-            { mark: "✓", b: "City center", desc: "More restaurants and night markets, but longer waits in post-show crowds." },
-            { mark: "✓", b: "Book early", desc: "Hotels near the stadium fill first. Check free-cancellation terms." },
+          "type": "compareTable",
+          "cities": [
+            "Details"
           ],
+          "rows": [
+            {
+              "label": "Show",
+              "values": [
+                "BTS WORLD TOUR 'ARIRANG' in KAOHSIUNG"
+              ]
+            },
+            {
+              "label": "Dates",
+              "values": [
+                "Nov 19 (Thu), 21 (Sat), 22 (Sun), 2026, 7 p.m."
+              ]
+            },
+            {
+              "label": "Venue",
+              "values": [
+                "Kaohsiung National Stadium (國家體育場), near MRT World Games station (R17)"
+              ]
+            },
+            {
+              "label": "Prices (Sept 2026)",
+              "values": [
+                "VIP NT$9,380; others NT$7,980–2,980 (plus NT$200 system fee)"
+              ]
+            },
+            {
+              "label": "Tickets",
+              "values": [
+                "tixcraft, real-name"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg", caption: "Silhouettes of an audience raising hands in front of stage lights (generic concert photo, not BTS)." },
-        { type: "h2", text: "03 · Getting There on Show Day" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Top up your EasyCard", desc: "Ticket machine lines can get long after the show. Load the round trip in advance." },
-            { mark: "2", b: "Arrive early", desc: "Real-name entry checks take time." },
-            { mark: "3", b: "Stagger your exit", desc: "Many fans wait a bit rather than heading straight to the station." },
-          ],
+          "type": "h2",
+          "text": "02 · Choosing a Hotel Area"
         },
-        { type: "h2", text: "04 · Real-Name Ticket Checks" },
-        { type: "p", html: "tixcraft real-name shows may match ticket details against ID. Make sure your passport's English name matches your booking, and follow official rules on transfers and resale. Prices and entry procedures follow the organizer's announcements." },
-        { type: "quote", text: "\"For Kaohsiung shows, stay along the Red Line.\" — a summary of advice from fans who've attended stadium shows in Kaohsiung." },
-        { type: "p", html: "For meals before or after the show, stick to restaurants near Red Line stations. Browse the <a href=\"/region-kaohsiung\">Kaohsiung food map</a> for spots near your hotel, check <a href=\"/kaohsiung-dimsum\">Kaohsiung dim sum picks</a> for a quick bite, and look up <a href=\"/kaohsiung-dimsum-old-chuan-s-pot-sticker-steamed-dumpling-712\">Old Chuan's Pot Sticker & Steamed Dumpling</a>, known for its potstickers." },
-        { type: "note", text: "Based on organizer Live Nation Taiwan, tixcraft and Kaohsiung MRT guidance, and traveler experiences (as of September 2026). Recheck the organizer's announcements." },
-        { type: "cta", title: "Find Kaohsiung restaurants on the map", desc: "Check Kaohsiung restaurants to visit before or after the show.", btn: "Open the map →", href: "/map?region=kaohsiung" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Near a Red Line station",
+              "desc": "World Games is on the MRT Red Line, so a hotel on the same line means no transfers."
+            },
+            {
+              "mark": "✓",
+              "b": "Zuoying (左營)",
+              "desc": "Close to Zuoying HSR station — handy if you're coming from Taipei. It's the station next to World Games."
+            },
+            {
+              "mark": "✓",
+              "b": "City center",
+              "desc": "More restaurants and night markets, but longer waits in post-show crowds."
+            },
+            {
+              "mark": "✓",
+              "b": "Book early",
+              "desc": "Hotels near the stadium fill first. Check free-cancellation terms."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-bts-concert-hotel-transport-1.jpg",
+          "caption": "Silhouettes of an audience raising hands in front of stage lights (generic concert photo, not BTS)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There on Show Day"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Top up your EasyCard",
+              "desc": "Ticket machine lines can get long after the show. Load the round trip in advance."
+            },
+            {
+              "mark": "2",
+              "b": "Arrive early",
+              "desc": "Real-name entry checks take time."
+            },
+            {
+              "mark": "3",
+              "b": "Stagger your exit",
+              "desc": "Many fans wait a bit rather than heading straight to the station."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Real-Name Ticket Checks"
+        },
+        {
+          "type": "p",
+          "html": "tixcraft real-name shows may match ticket details against ID. Make sure your passport's English name matches your booking, and follow official rules on transfers and resale. Prices and entry procedures follow the organizer's announcements."
+        },
+        {
+          "type": "quote",
+          "text": "\"For Kaohsiung shows, stay along the Red Line.\" — a summary of advice from fans who've attended stadium shows in Kaohsiung."
+        },
+        {
+          "type": "p",
+          "html": "For meals before or after the show, stick to restaurants near Red Line stations. Browse the <a href=\"/region-kaohsiung\">Kaohsiung food map</a> for spots near your hotel, check <a href=\"/kaohsiung-dimsum\">Kaohsiung dim sum picks</a> for a quick bite, and look up <a href=\"/kaohsiung-dimsum-old-chuan-s-pot-sticker-steamed-dumpling-712\">Old Chuan's Pot Sticker & Steamed Dumpling</a>, known for its potstickers."
+        },
+        {
+          "type": "note",
+          "text": "Based on organizer Live Nation Taiwan, tixcraft and Kaohsiung MRT guidance, and traveler experiences (as of September 2026). Recheck the organizer's announcements."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung restaurants on the map",
+          "desc": "Check Kaohsiung restaurants to visit before or after the show.",
+          "btn": "Open the map →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    }
   },
-
   "taiwan-sugar-apple-season": {
-    heroImage: "assets/images/blog/taiwan-sugar-apple-season-1.jpg",
-    ko: {
-      pageTitle: "대만 석가 시즌 — 일반석가·파인애플 석가 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "지금이 대만 석가 시즌이에요. 일반석가(대목석가)와 파인애플 석가(봉리석가) 제철·맛·대략 시세를 2026년 기준으로 정리했어요.",
-      ogTitle: "대만 석가 시즌, 일반석가랑 파인애플 석가 뭐가 다를까?",
-      eyebrow: "대만 여행 가이드 · 과일",
-      title: "대만 석가 시즌, 일반석가랑 파인애플 석가 뭐가 다를까?",
-      dek: "10월 타이둥 과일 가게에 석가가 쌓여 있다면 — 지금 먹을 품종과 겨울에 나올 품종이 달라요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 · 과일 가이드",
-      intro: "\"지금 대만에 가면 석가 먹을 수 있어요?\" 10월은 일반석가(大目釋迦, 대목석가) 성수기예요. 파인애플 석가(鳳梨釋迦, 봉리석가)는 대략 12월부터 이듬해 4월에 나옵니다. 농업부 식농교육 자료와 산지 보도를 기준으로 제철, 맛, 대략 시세를 정리했어요.",
-      blocks: [
-        { type: "h2", text: "01 · 일반석가랑 파인애플 석가, 뭐가 다를까?" },
+    "heroImage": "assets/images/blog/taiwan-sugar-apple-season-1.jpg",
+    "ko": {
+      "pageTitle": "대만 석가 시즌 — 일반석가·파인애플 석가 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "지금이 대만 석가 시즌이에요. 일반석가(대목석가)와 파인애플 석가(봉리석가) 제철·맛·대략 시세를 2026년 기준으로 정리했어요.",
+      "ogTitle": "대만 석가 시즌, 일반석가랑 파인애플 석가 뭐가 다를까?",
+      "eyebrow": "대만 여행 가이드 · 과일",
+      "title": "대만 석가 시즌, 일반석가랑 파인애플 석가 뭐가 다를까?",
+      "dek": "10월 타이둥 과일 가게에 석가가 쌓여 있다면 — 지금 먹을 품종과 겨울에 나올 품종이 달라요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 · 과일 가이드",
+      "intro": "\"지금 대만에 가면 석가 먹을 수 있어요?\" 10월은 일반석가(大目釋迦, 대목석가) 성수기예요. 파인애플 석가(鳳梨釋迦, 봉리석가)는 대략 12월부터 이듬해 4월에 나옵니다. 농업부 식농교육 자료와 산지 보도를 기준으로 제철, 맛, 대략 시세를 정리했어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["일반석가(대목석가)", "파인애플 석가(봉리석가)"],
-          rows: [
-            { label: "제철", values: ["대략 8~10월, 중추절 전후 피크", "대략 12월~이듬해 4월"] },
-            { label: "맛·식감", values: ["달고 부드러운 크림 느낌, 씨가 많아요", "새콤달콤하고 Q한 식감, 씨가 적어요"] },
-            { label: "주산지", values: ["타이둥(台東) 중심", "거의 전부 타이둥(약 99%)"] },
-          ],
+          "type": "h2",
+          "text": "01 · 일반석가랑 파인애플 석가, 뭐가 다를까?"
         },
-        { type: "h2", text: "02 · 10월에 가면 일반석가를 고르세요" },
-        { type: "p", html: "지금(10월) 과일 가게와 노점에 나온 석가는 대체로 일반석가예요. 껍질이 울퉁불퉁하고, 손가락으로 눌러 살짝 들어가는 게 먹기 좋은 상태입니다. 단단하면 아직 덜 익은 거예요. 파인애플 석가는 이 시기의 주력이 아니고, 본격 시즌은 12월부터예요." },
-        { type: "p", html: "농업부 식농교육 플랫폼은 봉리석가 제철을 12월부터 이듬해 4월로 안내하고, 주산지를 타이둥으로 적고 있어요. 2026년 1월 중시(中時) 보도도 봉리석가 생산의 약 99%가 타이둥이라고 전합니다." },
-        { type: "figure", img: "assets/images/blog/taiwan-sugar-apple-season-1.jpg", caption: "석가(釋迦) 참고 사진이에요. 특정 과수원에서 찍은 사진이 아니라, 열매 모양을 보여 주는 사진이에요." },
-        { type: "h2", text: "03 · 대략 시세, 그날 좌판에서 다시 확인하세요" },
-        { type: "p", html: "석가 가격은 등급·매장마다 달라요. 아래는 공개된 도매 보도와 온라인 예시이고, 대략적인 폭으로만 보세요. 사러 가는 날 좌판 가격을 확인하는 게 맞습니다." },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "도매 보도", desc: "2025년 11월 공시(PTS) 보도는 석가 도매가가 kg당 대략 NT$80 전후이고, 전년 같은 시기보다 약 NT$20 높다고 전했어요." },
-            { mark: "2", b: "농회 온라인 예시", desc: "타이둥현 농회 온라인몰에는 인증 대목석가 5근 박스(약 5~6개)가 특가 대략 NT$550에 올라온 예가 있어요." },
-            { mark: "3", b: "과일 가게 소매", desc: "도매보다 높게 잡히는 편이에요. 1근(약 600g)당 대략 수십 NT$에서 백여 NT$ 사이로 보면 됩니다. 등급에 따라 폭이 커요." },
-            { mark: "4", b: "그날 확인", desc: "시세는 하루에도 바뀔 수 있어요. 상자 무게와 개수를 보고, 개당이 아니라 근당으로 비교해 보세요." },
+          "type": "compareTable",
+          "cities": [
+            "일반석가(대목석가)",
+            "파인애플 석가(봉리석가)"
           ],
+          "rows": [
+            {
+              "label": "제철",
+              "values": [
+                "대략 8~10월, 중추절 전후 피크",
+                "대략 12월~이듬해 4월"
+              ]
+            },
+            {
+              "label": "맛·식감",
+              "values": [
+                "달고 부드러운 크림 느낌, 씨가 많아요",
+                "새콤달콤하고 Q한 식감, 씨가 적어요"
+              ]
+            },
+            {
+              "label": "주산지",
+              "values": [
+                "타이둥(台東) 중심",
+                "거의 전부 타이둥(약 99%)"
+              ]
+            }
+          ]
         },
-        { type: "h2", text: "04 · 먹는 법" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "물러야 먹어요", desc: "딱딱한 석가는 그대로 먹지 마세요. 손가락이 살짝 들어갈 만큼 말랑할 때 먹는 과일이에요." },
-            { mark: "2", b: "덜 익으면 옆에 두기", desc: "단단하면 바나나나 사과 옆에 두고 후숙하세요. 농업부 식농 안내도 이렇게 익히라고 합니다." },
-            { mark: "3", b: "냉장 타이밍", desc: "물러진 뒤에만 냉장하세요. 아직 단단할 때 냉장고에 넣지 않는 게 좋아요." },
-            { mark: "4", b: "껍질은 안 먹어요", desc: "손으로 벌어 하얀 과육만 먹습니다. 씨는 많고, 파인애플 석가는 씨가 더 적어요." },
-          ],
+          "type": "h2",
+          "text": "02 · 10월에 가면 일반석가를 고르세요"
         },
-        { type: "quote", text: "\"딱딱하면 두고, 손가락이 들어갈 만큼 물렀을 때 먹는다.\" — 농업부 식농 안내와 산지에서 석가를 사 먹는 요령을 요약했습니다." },
-        { type: "p", html: "석가 주산지인 타이둥의 식당은 <a href=\"/region-taitung\">타이둥 맛집 지도</a>에서 볼 수 있어요. 타이베이에서 과일을 사려면 <a href=\"/taipei-fruit\">타이베이 과일 가게</a> 모음을 참고하고, 다른 제철 과일은 <a href=\"/category-fruit\">과일 맛집</a>에서도 이어서 볼 수 있습니다." },
-        { type: "note", text: "이 글은 농업부 식농교육 플랫폼(봉리석가 제철·주산지), 2025년 11월 14일 공시(PTS) 보도(도매 시세), 2026년 1월 중시(中時) 보도(봉리석가 산지 비중), 타이둥현 농회 온라인몰 상품 예시를 바탕으로 정리했습니다(2026년 10월 기준). 가격은 대략이며 등급·매장마다 달라요. 산지 날씨에 따라 수확 시기가 조금 달라질 수 있어요." },
-        { type: "cta", title: "지도에서 타이둥 맛집을 찾아보세요", desc: "석가 주산지 타이둥의 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taitung" },
-      ],
+        {
+          "type": "p",
+          "html": "지금(10월) 과일 가게와 노점에 나온 석가는 대체로 일반석가예요. 껍질이 울퉁불퉁하고, 손가락으로 눌러 살짝 들어가는 게 먹기 좋은 상태입니다. 단단하면 아직 덜 익은 거예요. 파인애플 석가는 이 시기의 주력이 아니고, 본격 시즌은 12월부터예요."
+        },
+        {
+          "type": "p",
+          "html": "농업부 식농교육 플랫폼은 봉리석가 제철을 12월부터 이듬해 4월로 안내하고, 주산지를 타이둥으로 적고 있어요. 2026년 1월 중시(中時) 보도도 봉리석가 생산의 약 99%가 타이둥이라고 전합니다."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-sugar-apple-season-1.jpg",
+          "caption": "석가(釋迦) 참고 사진이에요. 특정 과수원에서 찍은 사진이 아니라, 열매 모양을 보여 주는 사진이에요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 대략 시세, 그날 좌판에서 다시 확인하세요"
+        },
+        {
+          "type": "p",
+          "html": "석가 가격은 등급·매장마다 달라요. 아래는 공개된 도매 보도와 온라인 예시이고, 대략적인 폭으로만 보세요. 사러 가는 날 좌판 가격을 확인하는 게 맞습니다."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "도매 보도",
+              "desc": "2025년 11월 공시(PTS) 보도는 석가 도매가가 kg당 대략 NT$80 전후이고, 전년 같은 시기보다 약 NT$20 높다고 전했어요."
+            },
+            {
+              "mark": "2",
+              "b": "농회 온라인 예시",
+              "desc": "타이둥현 농회 온라인몰에는 인증 대목석가 5근 박스(약 5~6개)가 특가 대략 NT$550에 올라온 예가 있어요."
+            },
+            {
+              "mark": "3",
+              "b": "과일 가게 소매",
+              "desc": "도매보다 높게 잡히는 편이에요. 1근(약 600g)당 대략 수십 NT$에서 백여 NT$ 사이로 보면 됩니다. 등급에 따라 폭이 커요."
+            },
+            {
+              "mark": "4",
+              "b": "그날 확인",
+              "desc": "시세는 하루에도 바뀔 수 있어요. 상자 무게와 개수를 보고, 개당이 아니라 근당으로 비교해 보세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 먹는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "물러야 먹어요",
+              "desc": "딱딱한 석가는 그대로 먹지 마세요. 손가락이 살짝 들어갈 만큼 말랑할 때 먹는 과일이에요."
+            },
+            {
+              "mark": "2",
+              "b": "덜 익으면 옆에 두기",
+              "desc": "단단하면 바나나나 사과 옆에 두고 후숙하세요. 농업부 식농 안내도 이렇게 익히라고 합니다."
+            },
+            {
+              "mark": "3",
+              "b": "냉장 타이밍",
+              "desc": "물러진 뒤에만 냉장하세요. 아직 단단할 때 냉장고에 넣지 않는 게 좋아요."
+            },
+            {
+              "mark": "4",
+              "b": "껍질은 안 먹어요",
+              "desc": "손으로 벌어 하얀 과육만 먹습니다. 씨는 많고, 파인애플 석가는 씨가 더 적어요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"딱딱하면 두고, 손가락이 들어갈 만큼 물렀을 때 먹는다.\" — 농업부 식농 안내와 산지에서 석가를 사 먹는 요령을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "석가 주산지인 타이둥의 식당은 <a href=\"/region-taitung\">타이둥 맛집 지도</a>에서 볼 수 있어요. 타이베이에서 과일을 사려면 <a href=\"/taipei-fruit\">타이베이 과일 가게</a> 모음을 참고하고, 다른 제철 과일은 <a href=\"/category-fruit\">과일 맛집</a>에서도 이어서 볼 수 있습니다."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 농업부 식농교육 플랫폼(봉리석가 제철·주산지), 2025년 11월 14일 공시(PTS) 보도(도매 시세), 2026년 1월 중시(中時) 보도(봉리석가 산지 비중), 타이둥현 농회 온라인몰 상품 예시를 바탕으로 정리했습니다(2026년 10월 기준). 가격은 대략이며 등급·매장마다 달라요. 산지 날씨에 따라 수확 시기가 조금 달라질 수 있어요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이둥 맛집을 찾아보세요",
+          "desc": "석가 주산지 타이둥의 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taitung"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwan Sugar Apple Season — Regular Sakya vs Pineapple Atemoya · My Secret Taiwan Eats",
-      metaDescription: "Taiwan sugar apple season guide — regular sakya vs pineapple atemoya, peak months, how to eat, and rough 2026 prices.",
-      ogTitle: "Taiwan Sugar Apple Season: Regular Sakya vs Pineapple Atemoya",
-      eyebrow: "Taiwan Travel Guide · Fruit",
-      title: "Taiwan Sugar Apple Season: Regular Sakya vs Pineapple Atemoya",
-      dek: "If Taitung fruit stalls are piled with sugar apples in October, the variety you eat now is not the one that peaks in winter.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan · Fruit Guide",
-      intro: "\"Can I eat sugar apple in Taiwan right now?\" October is peak season for regular sakya (大目釋迦). Pineapple atemoya (鳳梨釋迦) mainly runs from about December through the following April. Here are the season, the taste, and a rough price range, based on Ministry of Agriculture food-and-agriculture education materials and growing-region reports.",
-      blocks: [
-        { type: "h2", text: "01 · Regular Sakya vs Pineapple Atemoya" },
+    "en": {
+      "pageTitle": "Taiwan Sugar Apple Season — Regular Sakya vs Pineapple Atemoya · My Secret Taiwan Eats",
+      "metaDescription": "Taiwan sugar apple season guide — regular sakya vs pineapple atemoya, peak months, how to eat, and rough 2026 prices.",
+      "ogTitle": "Taiwan Sugar Apple Season: Regular Sakya vs Pineapple Atemoya",
+      "eyebrow": "Taiwan Travel Guide · Fruit",
+      "title": "Taiwan Sugar Apple Season: Regular Sakya vs Pineapple Atemoya",
+      "dek": "If Taitung fruit stalls are piled with sugar apples in October, the variety you eat now is not the one that peaks in winter.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan · Fruit Guide",
+      "intro": "\"Can I eat sugar apple in Taiwan right now?\" October is peak season for regular sakya (大目釋迦). Pineapple atemoya (鳳梨釋迦) mainly runs from about December through the following April. Here are the season, the taste, and a rough price range, based on Ministry of Agriculture food-and-agriculture education materials and growing-region reports.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Regular sakya (大目釋迦)", "Pineapple atemoya (鳳梨釋迦)"],
-          rows: [
-            { label: "Season", values: ["Roughly Aug–Oct, peaking around Mid-Autumn", "Roughly Dec–the following April"] },
-            { label: "Taste", values: ["Sweet and creamy, with many seeds", "Sweet-tart, Q texture, fewer seeds"] },
-            { label: "Growing area", values: ["Centered on Taitung (台東)", "Almost all of it Taitung (about 99%)"] },
-          ],
+          "type": "h2",
+          "text": "01 · Regular Sakya vs Pineapple Atemoya"
         },
-        { type: "h2", text: "02 · In October, Buy Regular Sakya" },
-        { type: "p", html: "Fruit shops and stalls in October are mostly selling regular sakya. The skin is knobbly, and a fruit that gives slightly under a finger is ready to eat. A hard one is not ripe yet. Pineapple atemoya is not the main fruit this month; its season starts around December." },
-        { type: "p", html: "The Ministry of Agriculture food-ag education platform lists pineapple sugar apple from December through the following April, with Taitung as the main growing area. A January 2026 China Times (中時) report also puts about 99% of pineapple sugar apple production in Taitung." },
-        { type: "figure", img: "assets/images/blog/taiwan-sugar-apple-season-1.jpg", caption: "A reference photo of a sugar apple (custard apple). It shows the fruit, not a specific orchard." },
-        { type: "h2", text: "03 · Rough Prices — Check the Stall That Day" },
-        { type: "p", html: "Prices vary by grade and shop. The figures below are a published wholesale report and an online example. Treat them as a rough range, and check the stall the day you go." },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Wholesale report", desc: "A November 2025 PTS report put wholesale sugar apple around NT$80/kg, about NT$20 higher than the same time the year before." },
-            { mark: "2", b: "Farmers' association example", desc: "The Taitung County Farmers' Association online shop has listed a certified 大目釋迦 box of about 5 jin (5–6 fruits) on sale around NT$550." },
-            { mark: "3", b: "Fruit-shop retail", desc: "Retail runs higher than wholesale. Think roughly tens of NT$ to a hundred-plus per jin (about 600g), depending on grade." },
-            { mark: "4", b: "Check that day", desc: "The market moves. Compare by jin, not by a single fruit, and look at the box weight and count." },
+          "type": "compareTable",
+          "cities": [
+            "Regular sakya (大目釋迦)",
+            "Pineapple atemoya (鳳梨釋迦)"
           ],
+          "rows": [
+            {
+              "label": "Season",
+              "values": [
+                "Roughly Aug–Oct, peaking around Mid-Autumn",
+                "Roughly Dec–the following April"
+              ]
+            },
+            {
+              "label": "Taste",
+              "values": [
+                "Sweet and creamy, with many seeds",
+                "Sweet-tart, Q texture, fewer seeds"
+              ]
+            },
+            {
+              "label": "Growing area",
+              "values": [
+                "Centered on Taitung (台東)",
+                "Almost all of it Taitung (about 99%)"
+              ]
+            }
+          ]
         },
-        { type: "h2", text: "04 · How to Eat It" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Eat it soft", desc: "Don't eat a hard sugar apple. It's ready when a finger sinks in slightly." },
-            { mark: "2", b: "Ripen it next to other fruit", desc: "If it's still firm, leave it beside a banana or an apple. That's the Ministry of Agriculture ripening tip." },
-            { mark: "3", b: "When to refrigerate", desc: "Chill it only after it softens. Don't put a hard fruit in the fridge." },
-            { mark: "4", b: "Don't eat the peel", desc: "Split it open and eat the white flesh. Regular sakya has many seeds; pineapple atemoya has fewer." },
-          ],
+          "type": "h2",
+          "text": "02 · In October, Buy Regular Sakya"
         },
-        { type: "quote", text: "\"If it's hard, wait. Eat it when a finger sinks in.\" — a summary of the Ministry of Agriculture ripening tip and how people buy sugar apples in the growing region." },
-        { type: "p", html: "Restaurants in Taitung, the main growing area, are on the <a href=\"/region-taitung\">Taitung food map</a>. To buy fruit in Taipei, see <a href=\"/taipei-fruit\">Taipei fruit shops</a>, and more seasonal fruit on the <a href=\"/category-fruit\">fruit guide</a>." },
-        { type: "note", text: "Based on the Ministry of Agriculture food-ag education platform (pineapple sugar apple season and growing area), a 14 November 2025 PTS report (wholesale price), a January 2026 China Times report (share of production), and a Taitung County Farmers' Association online listing (as of October 2026). Prices are approximate and vary by grade and shop. Harvest timing can shift a little with the weather." },
-        { type: "cta", title: "Find Taitung restaurants on the map", desc: "Check restaurants in Taitung, where sugar apples are grown.", btn: "Open Map →", href: "/map?region=taitung" },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "Fruit shops and stalls in October are mostly selling regular sakya. The skin is knobbly, and a fruit that gives slightly under a finger is ready to eat. A hard one is not ripe yet. Pineapple atemoya is not the main fruit this month; its season starts around December."
+        },
+        {
+          "type": "p",
+          "html": "The Ministry of Agriculture food-ag education platform lists pineapple sugar apple from December through the following April, with Taitung as the main growing area. A January 2026 China Times (中時) report also puts about 99% of pineapple sugar apple production in Taitung."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-sugar-apple-season-1.jpg",
+          "caption": "A reference photo of a sugar apple (custard apple). It shows the fruit, not a specific orchard."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Rough Prices — Check the Stall That Day"
+        },
+        {
+          "type": "p",
+          "html": "Prices vary by grade and shop. The figures below are a published wholesale report and an online example. Treat them as a rough range, and check the stall the day you go."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Wholesale report",
+              "desc": "A November 2025 PTS report put wholesale sugar apple around NT$80/kg, about NT$20 higher than the same time the year before."
+            },
+            {
+              "mark": "2",
+              "b": "Farmers' association example",
+              "desc": "The Taitung County Farmers' Association online shop has listed a certified 大目釋迦 box of about 5 jin (5–6 fruits) on sale around NT$550."
+            },
+            {
+              "mark": "3",
+              "b": "Fruit-shop retail",
+              "desc": "Retail runs higher than wholesale. Think roughly tens of NT$ to a hundred-plus per jin (about 600g), depending on grade."
+            },
+            {
+              "mark": "4",
+              "b": "Check that day",
+              "desc": "The market moves. Compare by jin, not by a single fruit, and look at the box weight and count."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · How to Eat It"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Eat it soft",
+              "desc": "Don't eat a hard sugar apple. It's ready when a finger sinks in slightly."
+            },
+            {
+              "mark": "2",
+              "b": "Ripen it next to other fruit",
+              "desc": "If it's still firm, leave it beside a banana or an apple. That's the Ministry of Agriculture ripening tip."
+            },
+            {
+              "mark": "3",
+              "b": "When to refrigerate",
+              "desc": "Chill it only after it softens. Don't put a hard fruit in the fridge."
+            },
+            {
+              "mark": "4",
+              "b": "Don't eat the peel",
+              "desc": "Split it open and eat the white flesh. Regular sakya has many seeds; pineapple atemoya has fewer."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"If it's hard, wait. Eat it when a finger sinks in.\" — a summary of the Ministry of Agriculture ripening tip and how people buy sugar apples in the growing region."
+        },
+        {
+          "type": "p",
+          "html": "Restaurants in Taitung, the main growing area, are on the <a href=\"/region-taitung\">Taitung food map</a>. To buy fruit in Taipei, see <a href=\"/taipei-fruit\">Taipei fruit shops</a>, and more seasonal fruit on the <a href=\"/category-fruit\">fruit guide</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on the Ministry of Agriculture food-ag education platform (pineapple sugar apple season and growing area), a 14 November 2025 PTS report (wholesale price), a January 2026 China Times report (share of production), and a Taitung County Farmers' Association online listing (as of October 2026). Prices are approximate and vary by grade and shop. Harvest timing can shift a little with the weather."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taitung restaurants on the map",
+          "desc": "Check restaurants in Taitung, where sugar apples are grown.",
+          "btn": "Open Map →",
+          "href": "/map?region=taitung"
+        }
+      ]
+    }
   },
-
   "taipei-101-observatory-child-ticket": {
-    heroImage: "assets/images/blog/taipei-101-observatory-child-ticket-1.jpg",
-    ko: {
-      pageTitle: "101 전망대 아이 요금 — 키 115cm · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이베이 101 전망대 아이 요금은 외국인이면 키 115cm가 기준이에요. 성인·우대·무료 조건과 발권 위치, 운영 시간을 정리했어요.",
-      ogTitle: "타이베이 101 전망대 아이 요금, 키가 기준일까 나이가 기준일까?",
-      eyebrow: "타이베이 여행 가이드 · 명소",
-      title: "타이베이 101 전망대 아이 요금, 키가 기준일까 나이가 기준일까?",
-      dek: "\"6살이면 무료\"라는 말만 믿고 갔다가 당황하지 않도록 — 외국인 기준으로 다시 정리했습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 명소 가이드",
-      intro: "\"아이가 6살인데 무료 아닌가요?\" 타이베이 101 전망대 아이 요금은 외국인이라면 나이보다 키가 기준이에요. 나이 기준 무료나 반값 우대권은 중화민국 신분증이 있어야 하거든요. 타이베이 101 전망대 공식 요금표와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 타이베이 101 전망대 아이 요금 한눈에 보기" },
+    "heroImage": "assets/images/blog/taipei-101-observatory-child-ticket-1.jpg",
+    "ko": {
+      "pageTitle": "101 전망대 아이 요금 — 키 115cm · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 101 전망대 아이 요금은 외국인이면 키 115cm가 기준이에요. 성인·우대·무료 조건과 발권 위치, 운영 시간을 정리했어요.",
+      "ogTitle": "타이베이 101 전망대 아이 요금, 키가 기준일까 나이가 기준일까?",
+      "eyebrow": "타이베이 여행 가이드 · 명소",
+      "title": "타이베이 101 전망대 아이 요금, 키가 기준일까 나이가 기준일까?",
+      "dek": "\"6살이면 무료\"라는 말만 믿고 갔다가 당황하지 않도록 — 외국인 기준으로 다시 정리했습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 명소 가이드",
+      "intro": "\"아이가 6살인데 무료 아닌가요?\" 타이베이 101 전망대 아이 요금은 외국인이라면 나이보다 키가 기준이에요. 나이 기준 무료나 반값 우대권은 중화민국 신분증이 있어야 하거든요. 타이베이 101 전망대 공식 요금표와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["요금(2026년 9월 기준)", "외국인 적용"],
-          rows: [
-            { label: "성인", values: ["NT$600", "키 115cm를 넘으면 아이도 성인 요금"] },
-            { label: "우대권(학생 등)", values: ["NT$300", "중화민국 신분증 소지자만"] },
-            { label: "키 115cm 이하", values: ["무료", "국적 상관없이 무료"] },
-            { label: "만 6세 미만", values: ["무료", "중화민국 신분증 소지자만"] },
-            { label: "패스트패스", values: ["NT$1,200", "대기 줄 단축"] },
-            { label: "101층 스카이라인 460", values: ["NT$3,000", "키 145cm 이상만"] },
-          ],
+          "type": "h2",
+          "text": "01 · 타이베이 101 전망대 아이 요금 한눈에 보기"
         },
-        { type: "h2", text: "02 · 한국인 가족이라면 이렇게 계산해요" },
-        { type: "p", html: "키 115cm 이하 아이는 나이와 상관없이 무료예요. 반대로 만 6세라도 키가 115cm를 넘으면 한국 여권으로는 성인 요금 NT$600을 내야 해요(2026년 9월 기준). 무료나 우대 입장은 101 오피스타워 1층 매표소에서만 발권하니, 아이 키가 애매하다면 현장 매표소로 가세요." },
-        { type: "figure", img: "assets/images/blog/taipei-101-observatory-child-ticket-1.jpg", caption: "샹산 쪽에서 내려다본 타이베이 101과 시내 풍경이에요." },
-        { type: "h2", text: "03 · 시간 계획" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "운영 시간", desc: "10:00~21:00이고, 펀패스 안내 기준 마지막 입장은 20:15예요(2026년 9월 기준)." },
-            { mark: "✓", b: "해 질 무렵", desc: "노을과 야경을 한 번에 보려는 사람이 몰려 대기가 길어지는 편이에요." },
-            { mark: "✓", b: "아이와 함께라면", desc: "오전 일찍 가면 줄이 짧아 아이가 덜 지루해해요." },
-            { mark: "✓", b: "날씨 확인", desc: "구름이 낮게 깔린 날에는 전망이 거의 안 보일 수 있어요. 당일 하늘을 보고 시간대를 정하는 여행자가 많아요." },
-            { mark: "✓", b: "유모차", desc: "유모차를 가져간다면 엘리베이터 이용과 보관 방법을 현장 안내에서 확인하세요." },
+          "type": "compareTable",
+          "cities": [
+            "요금(2026년 9월 기준)",
+            "외국인 적용"
           ],
+          "rows": [
+            {
+              "label": "성인",
+              "values": [
+                "NT$600",
+                "키 115cm를 넘으면 아이도 성인 요금"
+              ]
+            },
+            {
+              "label": "우대권(학생 등)",
+              "values": [
+                "NT$300",
+                "중화민국 신분증 소지자만"
+              ]
+            },
+            {
+              "label": "키 115cm 이하",
+              "values": [
+                "무료",
+                "국적 상관없이 무료"
+              ]
+            },
+            {
+              "label": "만 6세 미만",
+              "values": [
+                "무료",
+                "중화민국 신분증 소지자만"
+              ]
+            },
+            {
+              "label": "패스트패스",
+              "values": [
+                "NT$1,200",
+                "대기 줄 단축"
+              ]
+            },
+            {
+              "label": "101층 스카이라인 460",
+              "values": [
+                "NT$3,000",
+                "키 145cm 이상만"
+              ]
+            }
+          ]
         },
-        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 타이베이 101 전망대 입장권 보기 →</a>" },
-        { type: "h2", text: "04 · 알아두면 좋은 점" },
-        { type: "p", html: "스카이라인 460은 키 145cm 이상만 참여할 수 있어 어린아이와 함께라면 일반 전망대만 보는 게 현실적이에요. 펀패스가 있다면 1층 펀패스 발권기에서 입장 시간을 예약해 표로 바꿔야 해요. 요금 정책은 바뀔 수 있으니 방문 직전에 공식 요금표를 다시 확인해보세요." },
-        { type: "quote", text: "\"외국인 아이는 나이 말고 키, 115cm가 기준.\" — 아이와 101 전망대를 다녀온 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "전망대 전후로 101 근처에서 쉬어 가기 좋아요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 신이 일대 식당을 볼 수 있고, 간식은 <a href=\"/taipei-bakery\">타이베이 베이커리 맛집</a>이나 101 인근 <a href=\"/taipei-bakery-sunny-hills-101-795\">써니힐즈 매장</a>을 참고하세요." },
-        { type: "note", text: "이 글은 타이베이 101 전망대 공식 요금표와 펀패스 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준)." },
-        { type: "cta", title: "지도에서 타이베이 맛집을 찾아보세요", desc: "101 주변에서 아이와 들르기 좋은 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 한국인 가족이라면 이렇게 계산해요"
+        },
+        {
+          "type": "p",
+          "html": "키 115cm 이하 아이는 나이와 상관없이 무료예요. 반대로 만 6세라도 키가 115cm를 넘으면 한국 여권으로는 성인 요금 NT$600을 내야 해요(2026년 9월 기준). 무료나 우대 입장은 101 오피스타워 1층 매표소에서만 발권하니, 아이 키가 애매하다면 현장 매표소로 가세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-101-observatory-child-ticket-1.jpg",
+          "caption": "샹산 쪽에서 내려다본 타이베이 101과 시내 풍경이에요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 시간 계획"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "운영 시간",
+              "desc": "10:00~21:00이고, 펀패스 안내 기준 마지막 입장은 20:15예요(2026년 9월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "해 질 무렵",
+              "desc": "노을과 야경을 한 번에 보려는 사람이 몰려 대기가 길어지는 편이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "아이와 함께라면",
+              "desc": "오전 일찍 가면 줄이 짧아 아이가 덜 지루해해요."
+            },
+            {
+              "mark": "✓",
+              "b": "날씨 확인",
+              "desc": "구름이 낮게 깔린 날에는 전망이 거의 안 보일 수 있어요. 당일 하늘을 보고 시간대를 정하는 여행자가 많아요."
+            },
+            {
+              "mark": "✓",
+              "b": "유모차",
+              "desc": "유모차를 가져간다면 엘리베이터 이용과 보관 방법을 현장 안내에서 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 타이베이 101 전망대 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 알아두면 좋은 점"
+        },
+        {
+          "type": "p",
+          "html": "스카이라인 460은 키 145cm 이상만 참여할 수 있어 어린아이와 함께라면 일반 전망대만 보는 게 현실적이에요. 펀패스가 있다면 1층 펀패스 발권기에서 입장 시간을 예약해 표로 바꿔야 해요. 요금 정책은 바뀔 수 있으니 방문 직전에 공식 요금표를 다시 확인해보세요."
+        },
+        {
+          "type": "quote",
+          "text": "\"외국인 아이는 나이 말고 키, 115cm가 기준.\" — 아이와 101 전망대를 다녀온 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "전망대 전후로 101 근처에서 쉬어 가기 좋아요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 신이 일대 식당을 볼 수 있고, 간식은 <a href=\"/taipei-bakery\">타이베이 베이커리 맛집</a>이나 101 인근 <a href=\"/taipei-bakery-sunny-hills-101-795\">써니힐즈 매장</a>을 참고하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 타이베이 101 전망대 공식 요금표와 펀패스 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준)."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집을 찾아보세요",
+          "desc": "101 주변에서 아이와 들르기 좋은 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taipei 101 Observatory Kids' Tickets — The 115cm Rule · My Secret Taiwan Eats",
-      metaDescription: "For foreign kids at Taipei 101, height matters, not age: 115cm or shorter is free. Adult, concession, and free-entry rules explained.",
-      ogTitle: "Taipei 101 Observatory Kids' Tickets: Is It Height or Age?",
-      eyebrow: "Taipei Travel Guide · Sights",
-      title: "Taipei 101 Observatory Kids' Tickets: Is It Height or Age?",
-      dek: "So \"free under six\" doesn't catch you off guard — the rules, re-explained for foreign visitors.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Sights Guide",
-      intro: "\"My child is six — isn't that free?\" For foreign visitors, Taipei 101 Observatory uses height, not age. Age-based free entry and half-price concessions require a Republic of China ID. Based on the official price list and real traveler experiences, here's how it works.",
-      blocks: [
-        { type: "h2", text: "01 · Prices at a Glance" },
+    "en": {
+      "pageTitle": "Taipei 101 Observatory Kids' Tickets — The 115cm Rule · My Secret Taiwan Eats",
+      "metaDescription": "For foreign kids at Taipei 101, height matters, not age: 115cm or shorter is free. Adult, concession, and free-entry rules explained.",
+      "ogTitle": "Taipei 101 Observatory Kids' Tickets: Is It Height or Age?",
+      "eyebrow": "Taipei Travel Guide · Sights",
+      "title": "Taipei 101 Observatory Kids' Tickets: Is It Height or Age?",
+      "dek": "So \"free under six\" doesn't catch you off guard — the rules, re-explained for foreign visitors.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Sights Guide",
+      "intro": "\"My child is six — isn't that free?\" For foreign visitors, Taipei 101 Observatory uses height, not age. Age-based free entry and half-price concessions require a Republic of China ID. Based on the official price list and real traveler experiences, here's how it works.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Price (Sept 2026)", "For foreign visitors"],
-          rows: [
-            { label: "Adult", values: ["NT$600", "Kids taller than 115cm pay adult price"] },
-            { label: "Concession (students etc.)", values: ["NT$300", "ROC ID holders only"] },
-            { label: "115cm or shorter", values: ["Free", "Free regardless of nationality"] },
-            { label: "Under 6", values: ["Free", "ROC ID holders only"] },
-            { label: "Fast pass", values: ["NT$1,200", "Skip the queue"] },
-            { label: "101F Skyline 460", values: ["NT$3,000", "Height 145cm+ only"] },
-          ],
+          "type": "h2",
+          "text": "01 · Prices at a Glance"
         },
-        { type: "h2", text: "02 · Doing the Math for a Korean Family" },
-        { type: "p", html: "Kids 115cm or shorter are free at any age. But a six-year-old over 115cm pays the adult NT$600 on a Korean passport (as of Sept 2026). Free and concession tickets are only issued at the 1F office-tower counter, so go there if your child's height is borderline." },
-        { type: "figure", img: "assets/images/blog/taipei-101-observatory-child-ticket-1.jpg", caption: "Taipei 101 and the city skyline seen from the Elephant Mountain side." },
-        { type: "h2", text: "03 · Timing" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Hours", desc: "10:00–21:00; last entry 20:15 per FunPass info (as of Sept 2026)." },
-            { mark: "✓", b: "Around sunset", desc: "Crowds come for sunset and night views, so waits get long." },
-            { mark: "✓", b: "With kids", desc: "Go early in the morning for shorter lines." },
-            { mark: "✓", b: "Check the weather", desc: "Low clouds can hide the view almost entirely. Many travelers pick the time slot after checking the sky that day." },
-            { mark: "✓", b: "Strollers", desc: "If you bring a stroller, check elevator use and storage with on-site staff." },
+          "type": "compareTable",
+          "cities": [
+            "Price (Sept 2026)",
+            "For foreign visitors"
           ],
+          "rows": [
+            {
+              "label": "Adult",
+              "values": [
+                "NT$600",
+                "Kids taller than 115cm pay adult price"
+              ]
+            },
+            {
+              "label": "Concession (students etc.)",
+              "values": [
+                "NT$300",
+                "ROC ID holders only"
+              ]
+            },
+            {
+              "label": "115cm or shorter",
+              "values": [
+                "Free",
+                "Free regardless of nationality"
+              ]
+            },
+            {
+              "label": "Under 6",
+              "values": [
+                "Free",
+                "ROC ID holders only"
+              ]
+            },
+            {
+              "label": "Fast pass",
+              "values": [
+                "NT$1,200",
+                "Skip the queue"
+              ]
+            },
+            {
+              "label": "101F Skyline 460",
+              "values": [
+                "NT$3,000",
+                "Height 145cm+ only"
+              ]
+            }
+          ]
         },
-        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Taipei 101 Observatory tickets on Klook →</a>" },
-        { type: "h2", text: "04 · Good to Know" },
-        { type: "p", html: "Skyline 460 requires a height of 145cm+, so with young kids the regular observatory is the realistic choice. With a FunPass, reserve a time slot at the 1F FunPass kiosk to get your ticket. Policies can change, so recheck the official price list before you go." },
-        { type: "quote", text: "\"For foreign kids it's height, not age — 115cm is the line.\" — a summary of advice from families who've visited Taipei 101." },
-        { type: "p", html: "Need a break before or after the observatory? Browse Xinyi-area restaurants on the <a href=\"/region-taipei\">Taipei food map</a>, or grab a snack from <a href=\"/taipei-bakery\">Taipei bakeries</a> such as the <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills store</a> near Taipei 101." },
-        { type: "note", text: "Based on the official Taipei 101 Observatory price list, FunPass guidance, and traveler experiences (as of September 2026)." },
-        { type: "cta", title: "Find Taipei restaurants on the map", desc: "Check kid-friendly places to eat near Taipei 101.", btn: "Open the map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Doing the Math for a Korean Family"
+        },
+        {
+          "type": "p",
+          "html": "Kids 115cm or shorter are free at any age. But a six-year-old over 115cm pays the adult NT$600 on a Korean passport (as of Sept 2026). Free and concession tickets are only issued at the 1F office-tower counter, so go there if your child's height is borderline."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-101-observatory-child-ticket-1.jpg",
+          "caption": "Taipei 101 and the city skyline seen from the Elephant Mountain side."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Timing"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Hours",
+              "desc": "10:00–21:00; last entry 20:15 per FunPass info (as of Sept 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Around sunset",
+              "desc": "Crowds come for sunset and night views, so waits get long."
+            },
+            {
+              "mark": "✓",
+              "b": "With kids",
+              "desc": "Go early in the morning for shorter lines."
+            },
+            {
+              "mark": "✓",
+              "b": "Check the weather",
+              "desc": "Low clouds can hide the view almost entirely. Many travelers pick the time slot after checking the sky that day."
+            },
+            {
+              "mark": "✓",
+              "b": "Strollers",
+              "desc": "If you bring a stroller, check elevator use and storage with on-site staff."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F1659-taipei-101-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Taipei 101 Observatory tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Good to Know"
+        },
+        {
+          "type": "p",
+          "html": "Skyline 460 requires a height of 145cm+, so with young kids the regular observatory is the realistic choice. With a FunPass, reserve a time slot at the 1F FunPass kiosk to get your ticket. Policies can change, so recheck the official price list before you go."
+        },
+        {
+          "type": "quote",
+          "text": "\"For foreign kids it's height, not age — 115cm is the line.\" — a summary of advice from families who've visited Taipei 101."
+        },
+        {
+          "type": "p",
+          "html": "Need a break before or after the observatory? Browse Xinyi-area restaurants on the <a href=\"/region-taipei\">Taipei food map</a>, or grab a snack from <a href=\"/taipei-bakery\">Taipei bakeries</a> such as the <a href=\"/taipei-bakery-sunny-hills-101-795\">SunnyHills store</a> near Taipei 101."
+        },
+        {
+          "type": "note",
+          "text": "Based on the official Taipei 101 Observatory price list, FunPass guidance, and traveler experiences (as of September 2026)."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei restaurants on the map",
+          "desc": "Check kid-friendly places to eat near Taipei 101.",
+          "btn": "Open the map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "taipei-lunar-new-year-xinyi-department-stores": {
-    heroImage: "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-1.jpg",
-    ko: {
-      pageTitle: "타이베이 춘절 백화점 영업 — 신이 상권 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이베이 춘절 백화점 영업, 연휴에도 문 열까요? 2026년 신이 상권 실적과 2027년 연휴 날짜, 방문 전 확인할 점을 정리했어요.",
-      ogTitle: "타이베이 춘절 백화점 영업, 신이 상권은 연휴에 문 열까?",
-      eyebrow: "타이베이 여행 가이드 · 쇼핑",
-      title: "타이베이 춘절 백화점 영업, 신이 상권은 연휴에 문 열까?",
-      dek: "춘절에 대만 가면 다 문 닫는다는 말, 신이 백화점 구간은 조금 달라요 — 작년 실적과 올해 확인법을 모았습니다.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 쇼핑 가이드",
-      intro: "\"춘절에 가면 식당이고 가게고 다 닫는다던데요?\" 타이베이 춘절 백화점 영업은 동네 가게와 사정이 달라요. 시청역에서 샹산역 사이 신이 상권 백화점들은 2026년 춘절에도 제야에만 단축 영업하고 이후엔 오히려 늦게까지 열었어요. 언론 정리와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 2026년 타이베이 춘절 백화점 영업 실적" },
+    "heroImage": "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이 춘절 백화점 영업 — 신이 상권 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 춘절 백화점 영업, 연휴에도 문 열까요? 2026년 신이 상권 실적과 2027년 연휴 날짜, 방문 전 확인할 점을 정리했어요.",
+      "ogTitle": "타이베이 춘절 백화점 영업, 신이 상권은 연휴에 문 열까?",
+      "eyebrow": "타이베이 여행 가이드 · 쇼핑",
+      "title": "타이베이 춘절 백화점 영업, 신이 상권은 연휴에 문 열까?",
+      "dek": "춘절에 대만 가면 다 문 닫는다는 말, 신이 백화점 구간은 조금 달라요 — 작년 실적과 올해 확인법을 모았습니다.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 쇼핑 가이드",
+      "intro": "\"춘절에 가면 식당이고 가게고 다 닫는다던데요?\" 타이베이 춘절 백화점 영업은 동네 가게와 사정이 달라요. 시청역에서 샹산역 사이 신이 상권 백화점들은 2026년 춘절에도 제야에만 단축 영업하고 이후엔 오히려 늦게까지 열었어요. 언론 정리와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["제야(除夕), 2026년 춘절 기준", "초1 이후, 2026년 춘절 기준"],
-          rows: [
-            { label: "신광미쓰코시 신이", values: ["11:00~18:00 단축", "초1~초4 22:00까지"] },
-            { label: "브리즈(微風) 신이", values: ["11:00~18:00 단축", "초1~초5 22:00까지"] },
-            { label: "타이베이 101 쇼핑몰", values: ["11:00~18:00 단축", "초1~초5 22:00까지"] },
-            { label: "원동백화점 신이 A13", values: ["매장 공지 확인", "초1~초5 22:00까지"] },
-          ],
+          "type": "h2",
+          "text": "01 · 2026년 타이베이 춘절 백화점 영업 실적"
         },
-        { type: "p", html: "위 시간은 2026년 춘절(제야 2월 16일) 기준 언론 정리예요. 2027년 영업시간은 아직 발표되지 않았으니(2026년 9월 기준) 출발 전 각 백화점 공지를 꼭 확인하세요." },
-        { type: "h2", text: "02 · 2027년 춘절 연휴 날짜" },
-        { type: "p", html: "2027년 춘절 연휴는 2월 4일부터 10일까지이고, 제야는 2월 5일이에요. 제야 당일에는 가족 식사 때문에 일찍 닫는 곳이 많고, 초1부터는 나들이 인파로 백화점과 식당가가 붐비는 편이에요." },
-        { type: "figure", img: "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-2.jpg", caption: "타이베이 MRT 샹산역 승강장에 열차가 서 있는 모습이에요." },
-        { type: "h2", text: "03 · 신이 상권 다니는 요령" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "시청역–샹산역 구간", desc: "시청역(BL18)과 샹산역(R02) 사이에 백화점이 모여 있어 걸어서 옮겨 다니기 좋아요." },
-            { mark: "✓", b: "식당가는 따로 확인", desc: "백화점 안 식당은 매장마다 영업시간이 다르고 예약이 필요한 곳도 있어요." },
-            { mark: "✓", b: "제야 저녁 식사", desc: "제야 저녁은 문 연 식당이 적으니 미리 예약하거나 숙소 근처 편의점을 대안으로 두세요." },
+          "type": "compareTable",
+          "cities": [
+            "제야(除夕), 2026년 춘절 기준",
+            "초1 이후, 2026년 춘절 기준"
           ],
+          "rows": [
+            {
+              "label": "신광미쓰코시 신이",
+              "values": [
+                "11:00~18:00 단축",
+                "초1~초4 22:00까지"
+              ]
+            },
+            {
+              "label": "브리즈(微風) 신이",
+              "values": [
+                "11:00~18:00 단축",
+                "초1~초5 22:00까지"
+              ]
+            },
+            {
+              "label": "타이베이 101 쇼핑몰",
+              "values": [
+                "11:00~18:00 단축",
+                "초1~초5 22:00까지"
+              ]
+            },
+            {
+              "label": "원동백화점 신이 A13",
+              "values": [
+                "매장 공지 확인",
+                "초1~초5 22:00까지"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-1.jpg", caption: "멀리 타이베이 101이 보이는 시내 거리예요." },
-        { type: "h2", text: "04 · 춘절 여행, 이렇게 준비하세요" },
-        { type: "p", html: "동네 식당과 시장은 초1~초3 전후로 쉬는 곳이 많아, 춘절에는 백화점·쇼핑몰 식당가를 기본 식사 장소로 두는 여행자가 많아요. 교통편과 숙소도 일찍 차니 연휴 앞뒤 이동은 미리 예약해두세요." },
-        { type: "quote", text: "\"춘절 타이베이는 백화점 식당가가 든든한 보험.\" — 연휴에 타이베이를 다녀온 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "연휴에 동네 식당이 쉬어도 백화점 주변에는 선택지가 있어요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 신이 일대를 보고, 딤섬을 원하면 <a href=\"/taipei-dimsum\">타이베이 딤섬 맛집</a>과 신이 매장인 <a href=\"/taipei-dimsum-kaochi-xinyi-46\">가오지 신이점(KaoChi Xinyi)</a>을 참고하세요. 연휴 영업 여부는 가게마다 달라요." },
-        { type: "note", text: "이 글은 2026년 춘절 언론 정리와 타이베이 MRT·행정원 공지, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 2027년 영업시간은 각 백화점 공식 공지로 확인해주세요." },
-        { type: "cta", title: "지도에서 신이 주변 맛집을 찾아보세요", desc: "연휴에도 들르기 좋은 타이베이 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "p",
+          "html": "위 시간은 2026년 춘절(제야 2월 16일) 기준 언론 정리예요. 2027년 영업시간은 아직 발표되지 않았으니(2026년 9월 기준) 출발 전 각 백화점 공지를 꼭 확인하세요."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 2027년 춘절 연휴 날짜"
+        },
+        {
+          "type": "p",
+          "html": "2027년 춘절 연휴는 2월 4일부터 10일까지이고, 제야는 2월 5일이에요. 제야 당일에는 가족 식사 때문에 일찍 닫는 곳이 많고, 초1부터는 나들이 인파로 백화점과 식당가가 붐비는 편이에요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-2.jpg",
+          "caption": "타이베이 MRT 샹산역 승강장에 열차가 서 있는 모습이에요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 신이 상권 다니는 요령"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "시청역–샹산역 구간",
+              "desc": "시청역(BL18)과 샹산역(R02) 사이에 백화점이 모여 있어 걸어서 옮겨 다니기 좋아요."
+            },
+            {
+              "mark": "✓",
+              "b": "식당가는 따로 확인",
+              "desc": "백화점 안 식당은 매장마다 영업시간이 다르고 예약이 필요한 곳도 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "제야 저녁 식사",
+              "desc": "제야 저녁은 문 연 식당이 적으니 미리 예약하거나 숙소 근처 편의점을 대안으로 두세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-1.jpg",
+          "caption": "멀리 타이베이 101이 보이는 시내 거리예요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 춘절 여행, 이렇게 준비하세요"
+        },
+        {
+          "type": "p",
+          "html": "동네 식당과 시장은 초1~초3 전후로 쉬는 곳이 많아, 춘절에는 백화점·쇼핑몰 식당가를 기본 식사 장소로 두는 여행자가 많아요. 교통편과 숙소도 일찍 차니 연휴 앞뒤 이동은 미리 예약해두세요."
+        },
+        {
+          "type": "quote",
+          "text": "\"춘절 타이베이는 백화점 식당가가 든든한 보험.\" — 연휴에 타이베이를 다녀온 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "연휴에 동네 식당이 쉬어도 백화점 주변에는 선택지가 있어요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 신이 일대를 보고, 딤섬을 원하면 <a href=\"/taipei-dimsum\">타이베이 딤섬 맛집</a>과 신이 매장인 <a href=\"/taipei-dimsum-kaochi-xinyi-46\">가오지 신이점(KaoChi Xinyi)</a>을 참고하세요. 연휴 영업 여부는 가게마다 달라요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 2026년 춘절 언론 정리와 타이베이 MRT·행정원 공지, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 2027년 영업시간은 각 백화점 공식 공지로 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 신이 주변 맛집을 찾아보세요",
+          "desc": "연휴에도 들르기 좋은 타이베이 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taipei Lunar New Year Department Store Hours — Xinyi · My Secret Taiwan Eats",
-      metaDescription: "Xinyi's department stores ran short hours on New Year's Eve 2026 and late hours after. What that means for Lunar New Year 2027.",
-      ogTitle: "Taipei Department Stores Over Lunar New Year: Is Xinyi Open?",
-      eyebrow: "Taipei Travel Guide · Shopping",
-      title: "Taipei Department Stores Over Lunar New Year: Is Xinyi Open?",
-      dek: "\"Everything closes over Lunar New Year\" isn't quite true in Xinyi — last year's hours and how to check this year's.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Shopping Guide",
-      intro: "\"I heard everything shuts over Lunar New Year?\" Xinyi's department stores between City Hall and Xiangshan stations ran short hours only on New Year's Eve in 2026 and stayed open late afterward. Based on media round-ups and real traveler experiences, here's the picture.",
-      blocks: [
-        { type: "h2", text: "01 · 2026 Lunar New Year Hours" },
+    "en": {
+      "pageTitle": "Taipei Lunar New Year Department Store Hours — Xinyi · My Secret Taiwan Eats",
+      "metaDescription": "Xinyi's department stores ran short hours on New Year's Eve 2026 and late hours after. What that means for Lunar New Year 2027.",
+      "ogTitle": "Taipei Department Stores Over Lunar New Year: Is Xinyi Open?",
+      "eyebrow": "Taipei Travel Guide · Shopping",
+      "title": "Taipei Department Stores Over Lunar New Year: Is Xinyi Open?",
+      "dek": "\"Everything closes over Lunar New Year\" isn't quite true in Xinyi — last year's hours and how to check this year's.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Shopping Guide",
+      "intro": "\"I heard everything shuts over Lunar New Year?\" Xinyi's department stores between City Hall and Xiangshan stations ran short hours only on New Year's Eve in 2026 and stayed open late afterward. Based on media round-ups and real traveler experiences, here's the picture.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["New Year's Eve (除夕)", "From Day 1"],
-          rows: [
-            { label: "Shin Kong Mitsukoshi Xinyi", values: ["Short hours 11:00–18:00", "Until 22:00, Days 1–4"] },
-            { label: "Breeze (微風) Xinyi", values: ["Short hours 11:00–18:00", "Until 22:00, Days 1–5"] },
-            { label: "Taipei 101 Mall", values: ["Short hours 11:00–18:00", "Until 22:00, Days 1–5"] },
-            { label: "Far Eastern A13", values: ["Check store notice", "Until 22:00, Days 1–5"] },
-          ],
+          "type": "h2",
+          "text": "01 · 2026 Lunar New Year Hours"
         },
-        { type: "p", html: "These are media-reported hours for 2026 (New Year's Eve Feb 16). 2027 hours haven't been announced (as of Sept 2026), so check each store's notice before you go." },
-        { type: "h2", text: "02 · 2027 Holiday Dates" },
-        { type: "p", html: "The 2027 Lunar New Year holiday runs February 4–10, with New Year's Eve on February 5. Many places close early on the Eve for family dinners, and from Day 1 malls and food courts get busy with outings." },
-        { type: "figure", img: "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-2.jpg", caption: "A train at the platform of Taipei MRT Xiangshan station." },
-        { type: "h2", text: "03 · Getting Around Xinyi" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "City Hall to Xiangshan", desc: "Department stores cluster between City Hall (BL18) and Xiangshan (R02), so it's easy to walk between them." },
-            { mark: "✓", b: "Check restaurants separately", desc: "Restaurants inside stores keep their own hours, and some need reservations." },
-            { mark: "✓", b: "New Year's Eve dinner", desc: "Few restaurants open that evening — book ahead or keep a convenience store as backup." },
+          "type": "compareTable",
+          "cities": [
+            "New Year's Eve (除夕)",
+            "From Day 1"
           ],
+          "rows": [
+            {
+              "label": "Shin Kong Mitsukoshi Xinyi",
+              "values": [
+                "Short hours 11:00–18:00",
+                "Until 22:00, Days 1–4"
+              ]
+            },
+            {
+              "label": "Breeze (微風) Xinyi",
+              "values": [
+                "Short hours 11:00–18:00",
+                "Until 22:00, Days 1–5"
+              ]
+            },
+            {
+              "label": "Taipei 101 Mall",
+              "values": [
+                "Short hours 11:00–18:00",
+                "Until 22:00, Days 1–5"
+              ]
+            },
+            {
+              "label": "Far Eastern A13",
+              "values": [
+                "Check store notice",
+                "Until 22:00, Days 1–5"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-1.jpg", caption: "A city street with Taipei 101 in the distance." },
-        { type: "h2", text: "04 · Preparing for a Lunar New Year Trip" },
-        { type: "p", html: "Neighborhood restaurants and markets often close around Days 1–3, so many travelers make mall food courts their default. Transport and hotels fill early, so book travel around the holiday in advance." },
-        { type: "quote", text: "\"Over Lunar New Year, department store food courts are your safety net.\" — a summary of advice from travelers who've visited Taipei during the holiday." },
-        { type: "p", html: "Even when neighborhood spots close for the holiday, there are options around the department stores. Browse Xinyi on the <a href=\"/region-taipei\">Taipei food map</a>, and for dim sum see <a href=\"/taipei-dimsum\">Taipei dim sum spots</a> and the Xinyi branch <a href=\"/taipei-dimsum-kaochi-xinyi-46\">KaoChi Xinyi</a>. Holiday hours vary by restaurant." },
-        { type: "note", text: "Based on 2026 media round-ups, Taipei Metro and Executive Yuan notices, and traveler experiences (as of September 2026). Confirm 2027 hours on each store's official notice." },
-        { type: "cta", title: "Find restaurants around Xinyi on the map", desc: "Check Taipei restaurants worth visiting during the holiday.", btn: "Open the map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "These are media-reported hours for 2026 (New Year's Eve Feb 16). 2027 hours haven't been announced (as of Sept 2026), so check each store's notice before you go."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 2027 Holiday Dates"
+        },
+        {
+          "type": "p",
+          "html": "The 2027 Lunar New Year holiday runs February 4–10, with New Year's Eve on February 5. Many places close early on the Eve for family dinners, and from Day 1 malls and food courts get busy with outings."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-2.jpg",
+          "caption": "A train at the platform of Taipei MRT Xiangshan station."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting Around Xinyi"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "City Hall to Xiangshan",
+              "desc": "Department stores cluster between City Hall (BL18) and Xiangshan (R02), so it's easy to walk between them."
+            },
+            {
+              "mark": "✓",
+              "b": "Check restaurants separately",
+              "desc": "Restaurants inside stores keep their own hours, and some need reservations."
+            },
+            {
+              "mark": "✓",
+              "b": "New Year's Eve dinner",
+              "desc": "Few restaurants open that evening — book ahead or keep a convenience store as backup."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-lunar-new-year-xinyi-department-stores-1.jpg",
+          "caption": "A city street with Taipei 101 in the distance."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Preparing for a Lunar New Year Trip"
+        },
+        {
+          "type": "p",
+          "html": "Neighborhood restaurants and markets often close around Days 1–3, so many travelers make mall food courts their default. Transport and hotels fill early, so book travel around the holiday in advance."
+        },
+        {
+          "type": "quote",
+          "text": "\"Over Lunar New Year, department store food courts are your safety net.\" — a summary of advice from travelers who've visited Taipei during the holiday."
+        },
+        {
+          "type": "p",
+          "html": "Even when neighborhood spots close for the holiday, there are options around the department stores. Browse Xinyi on the <a href=\"/region-taipei\">Taipei food map</a>, and for dim sum see <a href=\"/taipei-dimsum\">Taipei dim sum spots</a> and the Xinyi branch <a href=\"/taipei-dimsum-kaochi-xinyi-46\">KaoChi Xinyi</a>. Holiday hours vary by restaurant."
+        },
+        {
+          "type": "note",
+          "text": "Based on 2026 media round-ups, Taipei Metro and Executive Yuan notices, and traveler experiences (as of September 2026). Confirm 2027 hours on each store's official notice."
+        },
+        {
+          "type": "cta",
+          "title": "Find restaurants around Xinyi on the map",
+          "desc": "Check Taipei restaurants worth visiting during the holiday.",
+          "btn": "Open the map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "taipei-fun-pass-3-day-worth-it": {
-    heroImage: "assets/images/blog/taipei-fun-pass-3-day-worth-it-1.jpg",
-    ko: {
-      pageTitle: "타이베이 펀패스 3일권 — 본전 계산법 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이베이 펀패스 3일권, 사면 이득일까요? 가격과 포함 항목, 달력 날짜로 세는 유효기간, 101·마오콩 교환 방법까지 정리했어요.",
-      ogTitle: "타이베이 펀패스 3일권, 본전 뽑으려면 어떻게 써야 할까?",
-      eyebrow: "타이베이 여행 가이드 · 교통 패스",
-      title: "타이베이 펀패스 3일권, 본전 뽑으려면 어떻게 써야 할까?",
-      dek: "샀는데 반도 못 쓰고 끝나지 않도록 — 유효기간 계산법과 교환이 필요한 명소부터 확인하세요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 교통 패스",
-      intro: "\"펀패스 3일권, 사면 이득일까요?\" 타이베이 펀패스 3일권은 명소를 하루 두세 곳씩 도는 일정이어야 본전이 나와요. MRT·시내버스 무제한에 30곳 넘는 명소 입장이 묶여 있지만 쓰는 방법이 조금 까다롭거든요. 공식 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 타이베이 펀패스 3일권 한눈에 보기" },
+    "heroImage": "assets/images/blog/taipei-fun-pass-3-day-worth-it-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이 펀패스 3일권 — 본전 계산법 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 펀패스 3일권, 사면 이득일까요? 가격과 포함 항목, 달력 날짜로 세는 유효기간, 101·마오콩 교환 방법까지 정리했어요.",
+      "ogTitle": "타이베이 펀패스 3일권, 본전 뽑으려면 어떻게 써야 할까?",
+      "eyebrow": "타이베이 여행 가이드 · 교통 패스",
+      "title": "타이베이 펀패스 3일권, 본전 뽑으려면 어떻게 써야 할까?",
+      "dek": "샀는데 반도 못 쓰고 끝나지 않도록 — 유효기간 계산법과 교환이 필요한 명소부터 확인하세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 교통 패스",
+      "intro": "\"펀패스 3일권, 사면 이득일까요?\" 타이베이 펀패스 3일권은 명소를 하루 두세 곳씩 도는 일정이어야 본전이 나와요. MRT·시내버스 무제한에 30곳 넘는 명소 입장이 묶여 있지만 쓰는 방법이 조금 까다롭거든요. 공식 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["내용(2026년 9월 기준)"],
-          rows: [
-            { label: "가격", values: ["성인(12세 이상) NT$2,000(공식 펀패스 판매 페이지), 6~11세는 어린이권 별도"] },
-            { label: "교통", values: ["MRT·시내버스·타이완 하오싱 관광버스 무제한, 핑시선 왕복 1회"] },
-            { label: "명소", values: ["타이베이 101 전망대, 고궁박물원, 시립동물원, 예류지질공원 등 30곳 이상"] },
-            { label: "제외", values: ["공항철도"] },
-            { label: "유효기간", values: ["첫 사용일부터 연속된 달력 날짜 기준(72시간 아님)"] },
-          ],
+          "type": "h2",
+          "text": "01 · 타이베이 펀패스 3일권 한눈에 보기"
         },
-        { type: "h2", text: "02 · 달력 날짜로 계산해요" },
-        { type: "p", html: "유효기간은 첫 사용 시각부터 72시간이 아니라 달력 날짜 기준이에요. 첫날 저녁에 개시하면 하루를 거의 날리는 셈이라, 아침 일찍 첫 명소나 MRT부터 시작하는 게 좋아요. 교통·입장·기념품 교환 중 무엇이든 처음 쓰는 순간부터 계산돼요." },
-        { type: "figure", img: "assets/images/blog/taipei-fun-pass-3-day-worth-it-1.jpg", caption: "예류지질공원 해안의 침식된 바위들이에요. 펀패스로 입장할 수 있는 근교 명소예요." },
-        { type: "h2", text: "03 · 교환이 필요한 명소" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "타이베이 101 전망대", desc: "1층 펀패스 전용 발권기에서 입장 시간을 예약해 표로 바꿔야 해요. 마지막 입장은 20:15예요(2026년 9월 기준)." },
-            { mark: "✓", b: "마오콩 곤돌라", desc: "역 발권기에서 종이표로 바꾸면 당일 무제한이에요. 운영 시간은 평일 9:00~21:00, 주말·공휴일 9:00~22:00이고, 일부 월요일은 정기 점검으로 쉬어요(10월 12일, 11월 9·23·30일, 12월 14·28일, 2026년 9월 기준). 날씨에 따라 멈추기도 하니 당일 운행 공지를 확인하세요." },
-            { mark: "✓", b: "핑시선", desc: "루이팡역 발권기에서 종이표로 교환해요." },
+          "type": "compareTable",
+          "cities": [
+            "내용(2026년 9월 기준)"
           ],
+          "rows": [
+            {
+              "label": "가격",
+              "values": [
+                "성인(12세 이상) NT$2,000(공식 펀패스 판매 페이지), 6~11세는 어린이권 별도"
+              ]
+            },
+            {
+              "label": "교통",
+              "values": [
+                "MRT·시내버스·타이완 하오싱 관광버스 무제한, 핑시선 왕복 1회"
+              ]
+            },
+            {
+              "label": "명소",
+              "values": [
+                "타이베이 101 전망대, 고궁박물원, 시립동물원, 예류지질공원 등 30곳 이상"
+              ]
+            },
+            {
+              "label": "제외",
+              "values": [
+                "공항철도"
+              ]
+            },
+            {
+              "label": "유효기간",
+              "values": [
+                "첫 사용일부터 연속된 달력 날짜 기준(72시간 아님)"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-fun-pass-3-day-worth-it-2.jpg", caption: "마오콩 쪽 언덕에서 내려다본 타이베이 야경이에요. 멀리 101 불빛이 보여요." },
-        { type: "h2", text: "04 · 본전 계산은 이렇게" },
-        { type: "p", html: "101 전망대 성인 요금만 NT$600이라(2026년 9월 기준) 101 하나로 패스 가격의 3분의 1 가까이 채워요. 여기에 고궁박물원, 예류, 마오콩을 하루씩 나눠 넣고 MRT를 자주 탄다면 이득이 되는 편이에요. 반대로 쇼핑과 카페 위주 일정이라면 이지카드만으로 충분할 수 있어요." },
-        { type: "quote", text: "\"펀패스는 아침 개시, 하루 두세 곳.\" — 3일권을 써 본 여행자들이 공통으로 하는 조언을 요약했습니다." },
-        { type: "p", html: "펀패스로 갈 곳을 정할 땐 <a href=\"/taipei-attraction\">타이베이 가볼 만한 곳</a> 모음을 함께 보세요. 비 오는 날 넣기 좋은 <a href=\"/taipei-attraction-102\">국립고궁박물원</a>도 등록돼 있고, 명소 근처 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요. 예류·지우펀 쪽으로 간다면 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>도 참고하세요." },
-        { type: "note", text: "이 글은 타이베이 펀패스 공식 사이트·입장 안내와 마오콩 곤돌라 운영 공지, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 가격과 포함 항목은 수시로 바뀌니 구매 전 공식 페이지를 확인해주세요." },
-        { type: "cta", title: "지도에서 타이베이 명소를 찾아보세요", desc: "펀패스로 들를 명소와 근처 식당을 지도에서 함께 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=attraction" },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 달력 날짜로 계산해요"
+        },
+        {
+          "type": "p",
+          "html": "유효기간은 첫 사용 시각부터 72시간이 아니라 달력 날짜 기준이에요. 첫날 저녁에 개시하면 하루를 거의 날리는 셈이라, 아침 일찍 첫 명소나 MRT부터 시작하는 게 좋아요. 교통·입장·기념품 교환 중 무엇이든 처음 쓰는 순간부터 계산돼요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-fun-pass-3-day-worth-it-1.jpg",
+          "caption": "예류지질공원 해안의 침식된 바위들이에요. 펀패스로 입장할 수 있는 근교 명소예요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 교환이 필요한 명소"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "타이베이 101 전망대",
+              "desc": "1층 펀패스 전용 발권기에서 입장 시간을 예약해 표로 바꿔야 해요. 마지막 입장은 20:15예요(2026년 9월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "마오콩 곤돌라",
+              "desc": "역 발권기에서 종이표로 바꾸면 당일 무제한이에요. 운영 시간은 평일 9:00~21:00, 주말·공휴일 9:00~22:00이고, 일부 월요일은 정기 점검으로 쉬어요(10월 12일, 11월 9·23·30일, 12월 14·28일, 2026년 9월 기준). 날씨에 따라 멈추기도 하니 당일 운행 공지를 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "핑시선",
+              "desc": "루이팡역 발권기에서 종이표로 교환해요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-fun-pass-3-day-worth-it-2.jpg",
+          "caption": "마오콩 쪽 언덕에서 내려다본 타이베이 야경이에요. 멀리 101 불빛이 보여요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 본전 계산은 이렇게"
+        },
+        {
+          "type": "p",
+          "html": "101 전망대 성인 요금만 NT$600이라(2026년 9월 기준) 101 하나로 패스 가격의 3분의 1 가까이 채워요. 여기에 고궁박물원, 예류, 마오콩을 하루씩 나눠 넣고 MRT를 자주 탄다면 이득이 되는 편이에요. 반대로 쇼핑과 카페 위주 일정이라면 이지카드만으로 충분할 수 있어요."
+        },
+        {
+          "type": "quote",
+          "text": "\"펀패스는 아침 개시, 하루 두세 곳.\" — 3일권을 써 본 여행자들이 공통으로 하는 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "펀패스로 갈 곳을 정할 땐 <a href=\"/taipei-attraction\">타이베이 가볼 만한 곳</a> 모음을 함께 보세요. 비 오는 날 넣기 좋은 <a href=\"/taipei-attraction-102\">국립고궁박물원</a>도 등록돼 있고, 명소 근처 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요. 예류·지우펀 쪽으로 간다면 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>도 참고하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 타이베이 펀패스 공식 사이트·입장 안내와 마오콩 곤돌라 운영 공지, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 가격과 포함 항목은 수시로 바뀌니 구매 전 공식 페이지를 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 명소를 찾아보세요",
+          "desc": "펀패스로 들를 명소와 근처 식당을 지도에서 함께 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=attraction"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taipei Fun Pass 3-Day — Is It Worth It? · My Secret Taiwan Eats",
-      metaDescription: "Taipei Fun Pass Unlimited 3-day: price, what's included, how validity days are counted, and exchanging for Taipei 101 and Maokong.",
-      ogTitle: "Taipei Fun Pass 3-Day: How Do You Make It Pay Off?",
-      eyebrow: "Taipei Travel Guide · Transport Passes",
-      title: "Taipei Fun Pass 3-Day: How Do You Make It Pay Off?",
-      dek: "So you don't use only half of it — check the validity rules and which sights need an exchange first.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Transport Passes",
-      intro: "\"Is the 3-day Fun Pass worth buying?\" It pays off if you visit two or three sights a day. It bundles unlimited MRT and city buses with 30+ attractions, but using it takes some know-how. Based on official guidance and real traveler experiences, here's how.",
-      blocks: [
-        { type: "h2", text: "01 · The 3-Day Pass at a Glance" },
+    "en": {
+      "pageTitle": "Taipei Fun Pass 3-Day — Is It Worth It? · My Secret Taiwan Eats",
+      "metaDescription": "Taipei Fun Pass Unlimited 3-day: price, what's included, how validity days are counted, and exchanging for Taipei 101 and Maokong.",
+      "ogTitle": "Taipei Fun Pass 3-Day: How Do You Make It Pay Off?",
+      "eyebrow": "Taipei Travel Guide · Transport Passes",
+      "title": "Taipei Fun Pass 3-Day: How Do You Make It Pay Off?",
+      "dek": "So you don't use only half of it — check the validity rules and which sights need an exchange first.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Transport Passes",
+      "intro": "\"Is the 3-day Fun Pass worth buying?\" It pays off if you visit two or three sights a day. It bundles unlimited MRT and city buses with 30+ attractions, but using it takes some know-how. Based on official guidance and real traveler experiences, here's how.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Details (Sept 2026)"],
-          rows: [
-            { label: "Price", values: ["Adult (12+) NT$2,000 (official Fun Pass sales page); separate Child pass for ages 6–11"] },
-            { label: "Transport", values: ["Unlimited MRT, city buses, Taiwan Tourist Shuttle; one Pingxi Line round trip"] },
-            { label: "Sights", values: ["Taipei 101 Observatory, National Palace Museum, Taipei Zoo, Yehliu Geopark, and 30+ more"] },
-            { label: "Excluded", values: ["Airport MRT"] },
-            { label: "Validity", values: ["Consecutive calendar days from first use (not 72 hours)"] },
-          ],
+          "type": "h2",
+          "text": "01 · The 3-Day Pass at a Glance"
         },
-        { type: "h2", text: "02 · Validity Counts Calendar Days" },
-        { type: "p", html: "Validity runs by calendar day, not 72 hours from activation. Starting on the first evening wastes most of a day, so begin with an MRT ride or sight early in the morning. The clock starts at first use — transport, entry, or souvenir exchange." },
-        { type: "figure", img: "assets/images/blog/taipei-fun-pass-3-day-worth-it-1.jpg", caption: "Eroded rocks along the Yehliu Geopark shore — a day-trip sight included in the Fun Pass." },
-        { type: "h2", text: "03 · Sights That Need an Exchange" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Taipei 101 Observatory", desc: "Reserve a time slot at the 1F Fun Pass kiosk to get a ticket. Last entry 20:15 (as of Sept 2026)." },
-            { mark: "✓", b: "Maokong Gondola", desc: "Exchange for a paper ticket at a station machine for same-day unlimited rides. Runs 9:00–21:00 on weekdays and 9:00–22:00 on weekends and holidays, and closes on some Mondays for maintenance (Oct 12, Nov 9/23/30, Dec 14/28; as of Sept 2026). Weather can also stop it, so check the day's notice." },
-            { mark: "✓", b: "Pingxi Line", desc: "Exchange for a paper ticket at a Ruifang station machine." },
+          "type": "compareTable",
+          "cities": [
+            "Details (Sept 2026)"
           ],
+          "rows": [
+            {
+              "label": "Price",
+              "values": [
+                "Adult (12+) NT$2,000 (official Fun Pass sales page); separate Child pass for ages 6–11"
+              ]
+            },
+            {
+              "label": "Transport",
+              "values": [
+                "Unlimited MRT, city buses, Taiwan Tourist Shuttle; one Pingxi Line round trip"
+              ]
+            },
+            {
+              "label": "Sights",
+              "values": [
+                "Taipei 101 Observatory, National Palace Museum, Taipei Zoo, Yehliu Geopark, and 30+ more"
+              ]
+            },
+            {
+              "label": "Excluded",
+              "values": [
+                "Airport MRT"
+              ]
+            },
+            {
+              "label": "Validity",
+              "values": [
+                "Consecutive calendar days from first use (not 72 hours)"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-fun-pass-3-day-worth-it-2.jpg", caption: "Taipei's night lights seen from the Maokong hills, with Taipei 101 glowing in the distance." },
-        { type: "h2", text: "04 · Doing the Math" },
-        { type: "p", html: "The 101 Observatory alone is NT$600 for adults (as of Sept 2026), covering nearly a third of the pass. Add the Palace Museum, Yehliu, and Maokong across the days plus frequent MRT rides and it usually pays off. For a shopping-and-cafés trip, an EasyCard may be enough." },
-        { type: "quote", text: "\"Activate in the morning, two or three sights a day.\" — the advice 3-day pass users give most often." },
-        { type: "p", html: "To plan your Fun Pass stops, browse <a href=\"/taipei-attraction\">things to do in Taipei</a>, including the rainy-day pick <a href=\"/taipei-attraction-102\">National Palace Museum</a>. For food near the sights, see the <a href=\"/region-taipei\">Taipei food map</a>, and if you're heading to Yehliu or Jiufen, the <a href=\"/region-jiufen\">Jiufen food map</a>." },
-        { type: "note", text: "Based on the official Taipei Fun Pass site and admission guide, Maokong Gondola operating notices, and traveler experiences (as of September 2026). Prices and inclusions change; check the official page before buying." },
-        { type: "cta", title: "Find Taipei sights on the map", desc: "See Fun Pass sights and nearby restaurants together on the map.", btn: "Open the map →", href: "/map?region=taipei&cat=attraction" },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Validity Counts Calendar Days"
+        },
+        {
+          "type": "p",
+          "html": "Validity runs by calendar day, not 72 hours from activation. Starting on the first evening wastes most of a day, so begin with an MRT ride or sight early in the morning. The clock starts at first use — transport, entry, or souvenir exchange."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-fun-pass-3-day-worth-it-1.jpg",
+          "caption": "Eroded rocks along the Yehliu Geopark shore — a day-trip sight included in the Fun Pass."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Sights That Need an Exchange"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Taipei 101 Observatory",
+              "desc": "Reserve a time slot at the 1F Fun Pass kiosk to get a ticket. Last entry 20:15 (as of Sept 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Maokong Gondola",
+              "desc": "Exchange for a paper ticket at a station machine for same-day unlimited rides. Runs 9:00–21:00 on weekdays and 9:00–22:00 on weekends and holidays, and closes on some Mondays for maintenance (Oct 12, Nov 9/23/30, Dec 14/28; as of Sept 2026). Weather can also stop it, so check the day's notice."
+            },
+            {
+              "mark": "✓",
+              "b": "Pingxi Line",
+              "desc": "Exchange for a paper ticket at a Ruifang station machine."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-fun-pass-3-day-worth-it-2.jpg",
+          "caption": "Taipei's night lights seen from the Maokong hills, with Taipei 101 glowing in the distance."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Doing the Math"
+        },
+        {
+          "type": "p",
+          "html": "The 101 Observatory alone is NT$600 for adults (as of Sept 2026), covering nearly a third of the pass. Add the Palace Museum, Yehliu, and Maokong across the days plus frequent MRT rides and it usually pays off. For a shopping-and-cafés trip, an EasyCard may be enough."
+        },
+        {
+          "type": "quote",
+          "text": "\"Activate in the morning, two or three sights a day.\" — the advice 3-day pass users give most often."
+        },
+        {
+          "type": "p",
+          "html": "To plan your Fun Pass stops, browse <a href=\"/taipei-attraction\">things to do in Taipei</a>, including the rainy-day pick <a href=\"/taipei-attraction-102\">National Palace Museum</a>. For food near the sights, see the <a href=\"/region-taipei\">Taipei food map</a>, and if you're heading to Yehliu or Jiufen, the <a href=\"/region-jiufen\">Jiufen food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on the official Taipei Fun Pass site and admission guide, Maokong Gondola operating notices, and traveler experiences (as of September 2026). Prices and inclusions change; check the official page before buying."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei sights on the map",
+          "desc": "See Fun Pass sights and nearby restaurants together on the map.",
+          "btn": "Open the map →",
+          "href": "/map?region=taipei&cat=attraction"
+        }
+      ]
+    }
   },
-
   "taipei-family-budget-cash-card": {
-    heroImage: "assets/images/blog/taipei-family-budget-cash-card-1.jpg",
-    ko: {
-      pageTitle: "타이베이 가족여행 경비 — 현금·카드 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이베이 가족여행 경비, 현금과 카드를 어떻게 나눌까요? 결제 수단별 쓰임새와 환전 요령, 봉사료, 이지카드 한도를 정리했어요.",
-      ogTitle: "타이베이 가족여행 경비, 4인 3일이면 현금·카드 어떻게 나눌까?",
-      eyebrow: "타이베이 여행 가이드 · 경비",
-      title: "타이베이 가족여행 경비, 4인 3일이면 현금·카드 어떻게 나눌까?",
-      dek: "얼마를 환전할지보다 어디에 무엇으로 낼지를 먼저 정하면 — 가족 경비가 훨씬 단순해져요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 경비 가이드",
-      intro: "\"네 식구 3일인데 현금을 얼마나 바꿔 가야 할까요?\" 타이베이 가족여행 경비는 총액보다 결제 수단을 나누는 게 먼저예요. 야시장·노점은 현금, 호텔·백화점은 카드, 교통은 이지카드처럼 나누면 환전 금액이 자연스럽게 정해지거든요. 대만 관광서 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 타이베이 가족여행 경비, 결제 수단별로 나누기" },
+    "heroImage": "assets/images/blog/taipei-family-budget-cash-card-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이 가족여행 경비 — 현금·카드 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 가족여행 경비, 현금과 카드를 어떻게 나눌까요? 결제 수단별 쓰임새와 환전 요령, 봉사료, 이지카드 한도를 정리했어요.",
+      "ogTitle": "타이베이 가족여행 경비, 4인 3일이면 현금·카드 어떻게 나눌까?",
+      "eyebrow": "타이베이 여행 가이드 · 경비",
+      "title": "타이베이 가족여행 경비, 4인 3일이면 현금·카드 어떻게 나눌까?",
+      "dek": "얼마를 환전할지보다 어디에 무엇으로 낼지를 먼저 정하면 — 가족 경비가 훨씬 단순해져요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 경비 가이드",
+      "intro": "\"네 식구 3일인데 현금을 얼마나 바꿔 가야 할까요?\" 타이베이 가족여행 경비는 총액보다 결제 수단을 나누는 게 먼저예요. 야시장·노점은 현금, 호텔·백화점은 카드, 교통은 이지카드처럼 나누면 환전 금액이 자연스럽게 정해지거든요. 대만 관광서 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["현금(NT$)", "신용카드", "이지카드"],
-          rows: [
-            { label: "주로 쓰는 곳", values: ["야시장, 노점, 작은 식당", "호텔, 백화점, 체인 식당", "MRT·버스, 편의점"] },
-            { label: "장점", values: ["어디서나 통함", "큰 금액을 편하게 결제", "가족 인원만큼 만들면 이동이 빠름"] },
-            { label: "주의", values: ["재환전하려면 환전 영수증 필요", "가게마다 사용 가능 여부 다름", "가맹점 결제 1회 NT$1,500·1일 NT$3,000(2026년 9월 기준)"] },
-          ],
+          "type": "h2",
+          "text": "01 · 타이베이 가족여행 경비, 결제 수단별로 나누기"
         },
-        { type: "h2", text: "02 · 대만 돈, 이것만 알면 돼요" },
-        { type: "p", html: "대만 화폐는 신타이완달러(New Taiwan Dollar)예요. 지폐는 2000·1000·500·200·100, 동전은 50·20·10·5·1 단위가 있어요. 노점과 작은 가게에서는 큰 지폐보다 100·500 지폐와 동전을 넉넉히 가지고 다니면 계산이 편해요." },
-        { type: "figure", img: "assets/images/blog/taipei-family-budget-cash-card-1.jpg", caption: "간판과 노점이 늘어선 타이베이의 시장 거리예요. 이런 곳은 현금 결제가 많아요." },
-        { type: "h2", text: "03 · 환전과 카드, 이렇게 준비해요" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "환전은 지정 은행·호텔에서", desc: "외화 환전은 정부 지정 은행과 호텔에서 할 수 있어요. 받은 영수증은 남은 돈을 재환전할 때 필요하니 버리지 마세요." },
-            { mark: "2", b: "카드는 두 장 이상", desc: "주요 신용카드를 쓸 수 있지만 가게마다 달라요. 한 장이 안 될 때를 대비해 브랜드가 다른 카드를 챙기세요." },
-            { mark: "3", b: "봉사료 확인", desc: "호텔과 식당에는 관례적으로 10% 봉사료가 붙어요. 계산서에 이미 포함됐는지 보세요." },
-            { mark: "4", b: "아이 이지카드", desc: "가족 수만큼 이지카드를 만들면 개찰구에서 기다리지 않아요." },
+          "type": "compareTable",
+          "cities": [
+            "현금(NT$)",
+            "신용카드",
+            "이지카드"
           ],
+          "rows": [
+            {
+              "label": "주로 쓰는 곳",
+              "values": [
+                "야시장, 노점, 작은 식당",
+                "호텔, 백화점, 체인 식당",
+                "MRT·버스, 편의점"
+              ]
+            },
+            {
+              "label": "장점",
+              "values": [
+                "어디서나 통함",
+                "큰 금액을 편하게 결제",
+                "가족 인원만큼 만들면 이동이 빠름"
+              ]
+            },
+            {
+              "label": "주의",
+              "values": [
+                "재환전하려면 환전 영수증 필요",
+                "가게마다 사용 가능 여부 다름",
+                "가맹점 결제 1회 NT$1,500·1일 NT$3,000(2026년 9월 기준)"
+              ]
+            }
+          ]
         },
-        { type: "h2", text: "04 · 가족 경비 짜는 순서" },
-        { type: "p", html: "먼저 일정표에 야시장·노점 식사 횟수를 적고 그 부분만 현금으로 계산하세요. 나머지 식사와 쇼핑은 카드, 교통은 이지카드 충전액으로 잡으면 환전 금액이 필요 이상 커지지 않아요. 수수료가 없는 ATM이나 카드별 혜택 같은 정보는 은행·카드사 공지로 따로 확인하는 게 안전해요." },
-        { type: "quote", text: "\"현금은 야시장 몫만, 나머지는 카드와 이지카드로.\" — 가족과 타이베이를 다녀온 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "현금이 필요한 곳을 미리 알면 환전 금액을 잡기 쉬워요. <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>에서 야시장·노점 가게를 보고, 줄 서서 사 먹는 간식으로 알려진 <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">푸저우 스쭈 후추빵</a>처럼 작은 가게는 현금을 준비하는 편이 안전해요. 동선은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 한 번에 볼 수 있어요." },
-        { type: "note", text: "이 글은 대만 교통부 관광서와 이지카드 공식 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 은행·카드사 수수료와 혜택은 출발 전 각 회사 공지를 확인해주세요." },
-        { type: "cta", title: "지도에서 타이베이 노점 맛집을 찾아보세요", desc: "현금이 필요한 노점과 야시장 가게를 지도에서 미리 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=street_food" },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 대만 돈, 이것만 알면 돼요"
+        },
+        {
+          "type": "p",
+          "html": "대만 화폐는 신타이완달러(New Taiwan Dollar)예요. 지폐는 2000·1000·500·200·100, 동전은 50·20·10·5·1 단위가 있어요. 노점과 작은 가게에서는 큰 지폐보다 100·500 지폐와 동전을 넉넉히 가지고 다니면 계산이 편해요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-family-budget-cash-card-1.jpg",
+          "caption": "간판과 노점이 늘어선 타이베이의 시장 거리예요. 이런 곳은 현금 결제가 많아요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 환전과 카드, 이렇게 준비해요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "환전은 지정 은행·호텔에서",
+              "desc": "외화 환전은 정부 지정 은행과 호텔에서 할 수 있어요. 받은 영수증은 남은 돈을 재환전할 때 필요하니 버리지 마세요."
+            },
+            {
+              "mark": "2",
+              "b": "카드는 두 장 이상",
+              "desc": "주요 신용카드를 쓸 수 있지만 가게마다 달라요. 한 장이 안 될 때를 대비해 브랜드가 다른 카드를 챙기세요."
+            },
+            {
+              "mark": "3",
+              "b": "봉사료 확인",
+              "desc": "호텔과 식당에는 관례적으로 10% 봉사료가 붙어요. 계산서에 이미 포함됐는지 보세요."
+            },
+            {
+              "mark": "4",
+              "b": "아이 이지카드",
+              "desc": "가족 수만큼 이지카드를 만들면 개찰구에서 기다리지 않아요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 가족 경비 짜는 순서"
+        },
+        {
+          "type": "p",
+          "html": "먼저 일정표에 야시장·노점 식사 횟수를 적고 그 부분만 현금으로 계산하세요. 나머지 식사와 쇼핑은 카드, 교통은 이지카드 충전액으로 잡으면 환전 금액이 필요 이상 커지지 않아요. 수수료가 없는 ATM이나 카드별 혜택 같은 정보는 은행·카드사 공지로 따로 확인하는 게 안전해요."
+        },
+        {
+          "type": "quote",
+          "text": "\"현금은 야시장 몫만, 나머지는 카드와 이지카드로.\" — 가족과 타이베이를 다녀온 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "현금이 필요한 곳을 미리 알면 환전 금액을 잡기 쉬워요. <a href=\"/taipei-street_food\">타이베이 노점 맛집</a>에서 야시장·노점 가게를 보고, 줄 서서 사 먹는 간식으로 알려진 <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">푸저우 스쭈 후추빵</a>처럼 작은 가게는 현금을 준비하는 편이 안전해요. 동선은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 한 번에 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 교통부 관광서와 이지카드 공식 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 은행·카드사 수수료와 혜택은 출발 전 각 회사 공지를 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 노점 맛집을 찾아보세요",
+          "desc": "현금이 필요한 노점과 야시장 가게를 지도에서 미리 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=street_food"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taipei Family Trip Budget — Cash vs Card · My Secret Taiwan Eats",
-      metaDescription: "Where you need cash, where cards work, and where an EasyCard is enough — a simple way to plan a family budget for Taipei.",
-      ogTitle: "Family Budget for Taipei: How Should Four People Split Cash and Cards Over Three Days?",
-      eyebrow: "Taipei Travel Guide · Budget",
-      title: "Family Budget for Taipei: How Should Four People Split Cash and Cards Over Three Days?",
-      dek: "Decide what you'll pay with, and where, before deciding how much to exchange — it makes a family budget much simpler.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Budget Guide",
-      intro: "\"How much cash should a family of four exchange for three days?\" Start by splitting payment methods rather than guessing a total: cash for night markets and stalls, cards for hotels and malls, EasyCard for transport. The exchange amount then falls into place. Based on Taiwan Tourism Administration guidance and real traveler experiences, here's how.",
-      blocks: [
-        { type: "h2", text: "01 · Split by Payment Method" },
+    "en": {
+      "pageTitle": "Taipei Family Trip Budget — Cash vs Card · My Secret Taiwan Eats",
+      "metaDescription": "Where you need cash, where cards work, and where an EasyCard is enough — a simple way to plan a family budget for Taipei.",
+      "ogTitle": "Family Budget for Taipei: How Should Four People Split Cash and Cards Over Three Days?",
+      "eyebrow": "Taipei Travel Guide · Budget",
+      "title": "Family Budget for Taipei: How Should Four People Split Cash and Cards Over Three Days?",
+      "dek": "Decide what you'll pay with, and where, before deciding how much to exchange — it makes a family budget much simpler.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Budget Guide",
+      "intro": "\"How much cash should a family of four exchange for three days?\" Start by splitting payment methods rather than guessing a total: cash for night markets and stalls, cards for hotels and malls, EasyCard for transport. The exchange amount then falls into place. Based on Taiwan Tourism Administration guidance and real traveler experiences, here's how.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Cash (NT$)", "Credit card", "EasyCard"],
-          rows: [
-            { label: "Mainly for", values: ["Night markets, stalls, small eateries", "Hotels, department stores, chains", "MRT, buses, convenience stores"] },
-            { label: "Pros", values: ["Works everywhere", "Easy for large amounts", "One per person speeds up gates"] },
-            { label: "Watch out", values: ["Keep exchange receipts to change money back", "Acceptance varies by shop", "Merchant limit NT$1,500 per payment, NT$3,000 per day (Sept 2026)"] },
-          ],
+          "type": "h2",
+          "text": "01 · Split by Payment Method"
         },
-        { type: "h2", text: "02 · Taiwanese Money Basics" },
-        { type: "p", html: "Taiwan uses the New Taiwan Dollar (NT$). Notes come in 2000, 1000, 500, 200, and 100; coins in 50, 20, 10, 5, and 1. At stalls and small shops, paying is easier with plenty of 100 and 500 notes and coins rather than large bills." },
-        { type: "figure", img: "assets/images/blog/taipei-family-budget-cash-card-1.jpg", caption: "A Taipei market street lined with signs and stalls — places like this often take cash." },
-        { type: "h2", text: "03 · Exchange and Cards" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Exchange at designated banks and hotels", desc: "Foreign currency can be exchanged at government-designated banks and hotels. Keep the receipt — you need it to change leftovers back." },
-            { mark: "2", b: "Bring two or more cards", desc: "Major cards are widely accepted but not everywhere. Pack cards from different networks." },
-            { mark: "3", b: "Check service charges", desc: "Hotels and restaurants customarily add 10%. Check whether it's already on the bill." },
-            { mark: "4", b: "EasyCards for kids", desc: "One card per family member means no waiting at the gates." },
+          "type": "compareTable",
+          "cities": [
+            "Cash (NT$)",
+            "Credit card",
+            "EasyCard"
           ],
+          "rows": [
+            {
+              "label": "Mainly for",
+              "values": [
+                "Night markets, stalls, small eateries",
+                "Hotels, department stores, chains",
+                "MRT, buses, convenience stores"
+              ]
+            },
+            {
+              "label": "Pros",
+              "values": [
+                "Works everywhere",
+                "Easy for large amounts",
+                "One per person speeds up gates"
+              ]
+            },
+            {
+              "label": "Watch out",
+              "values": [
+                "Keep exchange receipts to change money back",
+                "Acceptance varies by shop",
+                "Merchant limit NT$1,500 per payment, NT$3,000 per day (Sept 2026)"
+              ]
+            }
+          ]
         },
-        { type: "h2", text: "04 · Planning Order" },
-        { type: "p", html: "List how many night-market or stall meals are on your itinerary and budget only those in cash. Put other meals and shopping on cards and transport on EasyCard top-ups, and you won't over-exchange. Check fee-free ATMs or card perks directly with banks and card issuers." },
-        { type: "quote", text: "\"Cash for the night markets only; cards and EasyCard for the rest.\" — a summary of advice from families who've visited Taipei." },
-        { type: "p", html: "Knowing where you need cash makes the exchange amount easier to plan. Browse night-market and stall shops in <a href=\"/taipei-street_food\">Taipei street food</a>, bring cash for small spots like <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">Fuzhou Shizu Pepper Pork Bun</a>, a snack people line up for, and see everything on the <a href=\"/region-taipei\">Taipei food map</a>." },
-        { type: "note", text: "Based on Taiwan Tourism Administration and EasyCard guidance and traveler experiences (as of September 2026). Check bank and card fees before departure." },
-        { type: "cta", title: "Find Taipei street food on the map", desc: "Check cash-friendly stalls and night market shops on the map ahead of time.", btn: "Open the map →", href: "/map?region=taipei&cat=street_food" },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Taiwanese Money Basics"
+        },
+        {
+          "type": "p",
+          "html": "Taiwan uses the New Taiwan Dollar (NT$). Notes come in 2000, 1000, 500, 200, and 100; coins in 50, 20, 10, 5, and 1. At stalls and small shops, paying is easier with plenty of 100 and 500 notes and coins rather than large bills."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-family-budget-cash-card-1.jpg",
+          "caption": "A Taipei market street lined with signs and stalls — places like this often take cash."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Exchange and Cards"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Exchange at designated banks and hotels",
+              "desc": "Foreign currency can be exchanged at government-designated banks and hotels. Keep the receipt — you need it to change leftovers back."
+            },
+            {
+              "mark": "2",
+              "b": "Bring two or more cards",
+              "desc": "Major cards are widely accepted but not everywhere. Pack cards from different networks."
+            },
+            {
+              "mark": "3",
+              "b": "Check service charges",
+              "desc": "Hotels and restaurants customarily add 10%. Check whether it's already on the bill."
+            },
+            {
+              "mark": "4",
+              "b": "EasyCards for kids",
+              "desc": "One card per family member means no waiting at the gates."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Planning Order"
+        },
+        {
+          "type": "p",
+          "html": "List how many night-market or stall meals are on your itinerary and budget only those in cash. Put other meals and shopping on cards and transport on EasyCard top-ups, and you won't over-exchange. Check fee-free ATMs or card perks directly with banks and card issuers."
+        },
+        {
+          "type": "quote",
+          "text": "\"Cash for the night markets only; cards and EasyCard for the rest.\" — a summary of advice from families who've visited Taipei."
+        },
+        {
+          "type": "p",
+          "html": "Knowing where you need cash makes the exchange amount easier to plan. Browse night-market and stall shops in <a href=\"/taipei-street_food\">Taipei street food</a>, bring cash for small spots like <a href=\"/taipei-street_food-fuzhou-shizu-pepper-pork-bun-680\">Fuzhou Shizu Pepper Pork Bun</a>, a snack people line up for, and see everything on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taiwan Tourism Administration and EasyCard guidance and traveler experiences (as of September 2026). Check bank and card fees before departure."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei street food on the map",
+          "desc": "Check cash-friendly stalls and night market shops on the map ahead of time.",
+          "btn": "Open the map →",
+          "href": "/map?region=taipei&cat=street_food"
+        }
+      ]
+    }
   },
-
   "taipei-with-kids-activities-night-market": {
-    heroImage: "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg",
-    ko: {
-      pageTitle: "아이와 타이베이 여행 — 체험·야시장 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "아이와 타이베이 여행, 어떻게 짜면 편할까요? 예약제 펑리수 만들기 체험, 야시장 가기 좋은 시간, 포장 식사 요령을 정리했어요.",
-      ogTitle: "아이와 타이베이 여행, 체험·야시장·포장 식사 어떻게 할까?",
-      eyebrow: "타이베이 여행 가이드 · 아이 동반",
-      title: "아이와 타이베이 여행, 체험·야시장·포장 식사 어떻게 할까?",
-      dek: "아이 컨디션에 맞춰 움직이려면 — 예약이 필요한 체험과 붐비기 전 야시장 시간을 먼저 챙기세요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 아이 동반 여행",
-      intro: "\"아이가 야시장 인파를 힘들어할까 봐 걱정이에요.\" 아이와 타이베이 여행을 준비하는 부모들이 자주 하는 말이에요. 낮에는 예약제 체험으로 한두 시간을 채우고, 저녁 야시장은 일찍 들러 포장해 오는 식으로 짜면 훨씬 수월해요. 타이베이시 관광 사이트와 업체 안내, 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 아이와 타이베이 여행, 하루 흐름 예시" },
+    "heroImage": "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg",
+    "ko": {
+      "pageTitle": "아이와 타이베이 여행 — 체험·야시장 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "아이와 타이베이 여행, 어떻게 짜면 편할까요? 예약제 펑리수 만들기 체험, 야시장 가기 좋은 시간, 포장 식사 요령을 정리했어요.",
+      "ogTitle": "아이와 타이베이 여행, 체험·야시장·포장 식사 어떻게 할까?",
+      "eyebrow": "타이베이 여행 가이드 · 아이 동반",
+      "title": "아이와 타이베이 여행, 체험·야시장·포장 식사 어떻게 할까?",
+      "dek": "아이 컨디션에 맞춰 움직이려면 — 예약이 필요한 체험과 붐비기 전 야시장 시간을 먼저 챙기세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 아이 동반 여행",
+      "intro": "\"아이가 야시장 인파를 힘들어할까 봐 걱정이에요.\" 아이와 타이베이 여행을 준비하는 부모들이 자주 하는 말이에요. 낮에는 예약제 체험으로 한두 시간을 채우고, 저녁 야시장은 일찍 들러 포장해 오는 식으로 짜면 훨씬 수월해요. 타이베이시 관광 사이트와 업체 안내, 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["추천 활동", "포인트"],
-          rows: [
-            { label: "오전", values: ["예약제 체험(펑리수 만들기 등)", "아이 집중력이 좋은 시간"] },
-            { label: "오후", values: ["숙소 휴식", "낮잠·더위 피하기"] },
-            { label: "이른 저녁", values: ["야시장 들러 포장", "붐비기 전에 둘러보기"] },
-            { label: "저녁", values: ["숙소에서 식사", "아이 컨디션 따라 일찍 마무리"] },
-          ],
+          "type": "h2",
+          "text": "01 · 아이와 타이베이 여행, 하루 흐름 예시"
         },
-        { type: "h2", text: "02 · 예약이 필요한 체험" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "펑리수 만들기", desc: "궈위안이(郭元益) 스린 관광공장은 원린루 546호 4층, MRT 스린역 1번 출구 근처예요. 예약제이고 12세 미만 아이는 성인 1명과 아이 1명이 한 조인 부모·아이 코스로 신청해요. 동행인은 1명까지 더할 수 있고 현장에서 NT$180(동행·입장료, 만들기 체험 없음)을 내요. 수업은 정시에 시작해 20분 전까지 4층 매표소에서 체크인해야 하고, 늦으면 예약이 자동 취소돼요(2026년 9월 기준)." },
-            { mark: "✓", b: "오르골 공방", desc: "오르골 만들기 체험은 업체마다 운영 방식이 달라요. 연령 제한과 소요 시간, 예약 여부를 미리 확인하세요." },
-            { mark: "✓", b: "체험은 하루 하나", desc: "이동과 대기를 생각하면 하루에 체험 한 가지가 적당해요." },
+          "type": "compareTable",
+          "cities": [
+            "추천 활동",
+            "포인트"
           ],
+          "rows": [
+            {
+              "label": "오전",
+              "values": [
+                "예약제 체험(펑리수 만들기 등)",
+                "아이 집중력이 좋은 시간"
+              ]
+            },
+            {
+              "label": "오후",
+              "values": [
+                "숙소 휴식",
+                "낮잠·더위 피하기"
+              ]
+            },
+            {
+              "label": "이른 저녁",
+              "values": [
+                "야시장 들러 포장",
+                "붐비기 전에 둘러보기"
+              ]
+            },
+            {
+              "label": "저녁",
+              "values": [
+                "숙소에서 식사",
+                "아이 컨디션 따라 일찍 마무리"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-with-kids-activities-night-market-2.jpg", caption: "진열장에 놓인 발레리나 오르골들이에요(일반 이미지)." },
-        { type: "h2", text: "03 · 야시장은 일찍, 포장해서" },
-        { type: "p", html: "닝샤 야시장은 매일 17:00~23:30 열리고(2026년 9월 기준) 먹거리 노점 위주라 짧게 둘러보기 좋아요. 문을 연 직후인 5~6시쯤 가면 덜 붐벼 유모차나 어린아이와 다니기 수월해요. 아이가 지치기 전에 몇 가지를 포장해 숙소에서 먹는 가족도 많아요." },
-        { type: "figure", img: "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg", caption: "위에서 내려다본 라오허제 야시장 입구와 인파예요(닝샤 야시장 아님)." },
-        { type: "h2", text: "04 · 포장 식사 요령" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "국물은 뚜껑 있는 용기", desc: "국물 요리는 새지 않게 포장해 달라고 하세요." },
-            { mark: "2", b: "물티슈·비닐봉지", desc: "숙소에서 먹을 때 정리가 편해요." },
-            { mark: "3", b: "맵지 않은 메뉴", desc: "처음 먹는 음식은 아이 입맛에 맞는지 조금만 사서 맛보세요." },
-          ],
+          "type": "h2",
+          "text": "02 · 예약이 필요한 체험"
         },
-        { type: "quote", text: "\"체험은 오전, 야시장은 문 열 때, 저녁은 숙소에서.\" — 아이와 타이베이를 다녀온 부모들의 조언을 요약했습니다." },
-        { type: "p", html: "아이와 갈 곳은 <a href=\"/taipei-attraction\">타이베이 가볼 만한 곳</a>에 모아 두었어요. 사진 속 <a href=\"/taipei-attraction-93\">라오허제 야시장</a>도 등록돼 있고, 낮에 뛰어놀 곳으로는 <a href=\"/taipei-attraction-104\">타이페이 어린이공원</a>이 있어요. 숙소 주변 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요." },
-        { type: "note", text: "이 글은 타이베이시 관광 사이트와 궈위안이 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 체험 가격·회차는 예약 페이지에서 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 타이베이 체험·명소를 찾아보세요", desc: "아이와 들르기 좋은 타이베이 명소와 야시장을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=attraction" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "펑리수 만들기",
+              "desc": "궈위안이(郭元益) 스린 관광공장은 원린루 546호 4층, MRT 스린역 1번 출구 근처예요. 예약제이고 12세 미만 아이는 성인 1명과 아이 1명이 한 조인 부모·아이 코스로 신청해요. 동행인은 1명까지 더할 수 있고 현장에서 NT$180(동행·입장료, 만들기 체험 없음)을 내요. 수업은 정시에 시작해 20분 전까지 4층 매표소에서 체크인해야 하고, 늦으면 예약이 자동 취소돼요(2026년 9월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "오르골 공방",
+              "desc": "오르골 만들기 체험은 업체마다 운영 방식이 달라요. 연령 제한과 소요 시간, 예약 여부를 미리 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "체험은 하루 하나",
+              "desc": "이동과 대기를 생각하면 하루에 체험 한 가지가 적당해요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-with-kids-activities-night-market-2.jpg",
+          "caption": "진열장에 놓인 발레리나 오르골들이에요(일반 이미지)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 야시장은 일찍, 포장해서"
+        },
+        {
+          "type": "p",
+          "html": "닝샤 야시장은 매일 17:00~23:30 열리고(2026년 9월 기준) 먹거리 노점 위주라 짧게 둘러보기 좋아요. 문을 연 직후인 5~6시쯤 가면 덜 붐벼 유모차나 어린아이와 다니기 수월해요. 아이가 지치기 전에 몇 가지를 포장해 숙소에서 먹는 가족도 많아요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg",
+          "caption": "위에서 내려다본 라오허제 야시장 입구와 인파예요(닝샤 야시장 아님)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 포장 식사 요령"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "국물은 뚜껑 있는 용기",
+              "desc": "국물 요리는 새지 않게 포장해 달라고 하세요."
+            },
+            {
+              "mark": "2",
+              "b": "물티슈·비닐봉지",
+              "desc": "숙소에서 먹을 때 정리가 편해요."
+            },
+            {
+              "mark": "3",
+              "b": "맵지 않은 메뉴",
+              "desc": "처음 먹는 음식은 아이 입맛에 맞는지 조금만 사서 맛보세요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"체험은 오전, 야시장은 문 열 때, 저녁은 숙소에서.\" — 아이와 타이베이를 다녀온 부모들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "아이와 갈 곳은 <a href=\"/taipei-attraction\">타이베이 가볼 만한 곳</a>에 모아 두었어요. 사진 속 <a href=\"/taipei-attraction-93\">라오허제 야시장</a>도 등록돼 있고, 낮에 뛰어놀 곳으로는 <a href=\"/taipei-attraction-104\">타이페이 어린이공원</a>이 있어요. 숙소 주변 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 타이베이시 관광 사이트와 궈위안이 안내, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 체험 가격·회차는 예약 페이지에서 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 체험·명소를 찾아보세요",
+          "desc": "아이와 들르기 좋은 타이베이 명소와 야시장을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=attraction"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taipei With Kids — Activities and Night Markets · My Secret Taiwan Eats",
-      metaDescription: "Bookable activities like pineapple-cake making, the best time for night markets, and takeout tips for a Taipei trip with kids.",
-      ogTitle: "Taipei With Kids: Activities, Night Markets, and Takeout Meals",
-      eyebrow: "Taipei Travel Guide · With Kids",
-      title: "Taipei With Kids: Activities, Night Markets, and Takeout Meals",
-      dek: "To move at your child's pace — secure bookable activities first and hit the night market before the crowds.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Family Travel",
-      intro: "\"I'm worried the night market crowds will be too much for my kid.\" Fill an hour or two in the daytime with a bookable activity, then visit the night market early and take food back to the hotel. Based on the Taipei tourism site, operator info, and real traveler experiences, here's how.",
-      blocks: [
-        { type: "h2", text: "01 · A Sample Day" },
+    "en": {
+      "pageTitle": "Taipei With Kids — Activities and Night Markets · My Secret Taiwan Eats",
+      "metaDescription": "Bookable activities like pineapple-cake making, the best time for night markets, and takeout tips for a Taipei trip with kids.",
+      "ogTitle": "Taipei With Kids: Activities, Night Markets, and Takeout Meals",
+      "eyebrow": "Taipei Travel Guide · With Kids",
+      "title": "Taipei With Kids: Activities, Night Markets, and Takeout Meals",
+      "dek": "To move at your child's pace — secure bookable activities first and hit the night market before the crowds.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Family Travel",
+      "intro": "\"I'm worried the night market crowds will be too much for my kid.\" Fill an hour or two in the daytime with a bookable activity, then visit the night market early and take food back to the hotel. Based on the Taipei tourism site, operator info, and real traveler experiences, here's how.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Activity", "Why"],
-          rows: [
-            { label: "Morning", values: ["Bookable activity (pineapple-cake making, etc.)", "Kids focus best"] },
-            { label: "Afternoon", values: ["Rest at the hotel", "Naps and beating the heat"] },
-            { label: "Early evening", values: ["Night market, get takeout", "Browse before the crowds"] },
-            { label: "Evening", values: ["Eat at the hotel", "Wrap up early as needed"] },
-          ],
+          "type": "h2",
+          "text": "01 · A Sample Day"
         },
-        { type: "h2", text: "02 · Activities That Need Booking" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Pineapple-cake making", desc: "Kuo Yuan Ye (郭元益) Shilin factory is at 4F, No. 546 Wenlin Rd, near Shilin MRT Exit 1. Reservations required; kids under 12 join the parent-child set of one adult plus one child. You can add one companion for NT$180 paid on site (entry only, no baking). Classes start on the hour, and you must check in at the 4F ticket counter 20 minutes early or the booking is cancelled (as of Sept 2026)." },
-            { mark: "✓", b: "Music-box workshops", desc: "Each operator runs things differently. Check age limits, duration, and booking." },
-            { mark: "✓", b: "One activity a day", desc: "With travel and waiting, one a day is plenty." },
+          "type": "compareTable",
+          "cities": [
+            "Activity",
+            "Why"
           ],
+          "rows": [
+            {
+              "label": "Morning",
+              "values": [
+                "Bookable activity (pineapple-cake making, etc.)",
+                "Kids focus best"
+              ]
+            },
+            {
+              "label": "Afternoon",
+              "values": [
+                "Rest at the hotel",
+                "Naps and beating the heat"
+              ]
+            },
+            {
+              "label": "Early evening",
+              "values": [
+                "Night market, get takeout",
+                "Browse before the crowds"
+              ]
+            },
+            {
+              "label": "Evening",
+              "values": [
+                "Eat at the hotel",
+                "Wrap up early as needed"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-with-kids-activities-night-market-2.jpg", caption: "Ballerina music boxes on display (generic image)." },
-        { type: "h2", text: "03 · Go Early, Take It Away" },
-        { type: "p", html: "Ningxia Night Market runs 17:00–23:30 daily (as of Sept 2026) and is mostly food stalls, good for a short visit. Around 5–6 p.m., right after opening, it's less crowded and easier with strollers. Many families buy a few things and eat at the hotel before the kids get tired." },
-        { type: "figure", img: "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg", caption: "Raohe Street Night Market's entrance and crowds seen from above (not Ningxia)." },
-        { type: "h2", text: "04 · Takeout Tips" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Lidded containers for soup", desc: "Ask for leak-proof packing." },
-            { mark: "2", b: "Wet wipes and bags", desc: "Cleanup at the hotel is easier." },
-            { mark: "3", b: "Mild dishes", desc: "Buy small portions of new foods to test your child's taste." },
-          ],
+          "type": "h2",
+          "text": "02 · Activities That Need Booking"
         },
-        { type: "quote", text: "\"Activities in the morning, night market at opening, dinner at the hotel.\" — a summary of advice from parents who've visited Taipei with kids." },
-        { type: "p", html: "More places to take kids are on <a href=\"/taipei-attraction\">Taipei attractions</a>. <a href=\"/taipei-attraction-93\">Raohe Street Night Market</a>, the one in the photo, is listed too, and for daytime running around there's <a href=\"/taipei-attraction-104\">Taipei Children's Amusement Park</a>. Restaurants near your hotel are on the <a href=\"/region-taipei\">Taipei food map</a>." },
-        { type: "note", text: "Based on the Taipei tourism site, Kuo Yuan Ye information, and traveler experiences (as of September 2026). Check activity prices and sessions on the booking page." },
-        { type: "cta", title: "Find Taipei activities on the map", desc: "Check kid-friendly sights and night markets in Taipei on the map.", btn: "Open the map →", href: "/map?region=taipei&cat=attraction" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Pineapple-cake making",
+              "desc": "Kuo Yuan Ye (郭元益) Shilin factory is at 4F, No. 546 Wenlin Rd, near Shilin MRT Exit 1. Reservations required; kids under 12 join the parent-child set of one adult plus one child. You can add one companion for NT$180 paid on site (entry only, no baking). Classes start on the hour, and you must check in at the 4F ticket counter 20 minutes early or the booking is cancelled (as of Sept 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Music-box workshops",
+              "desc": "Each operator runs things differently. Check age limits, duration, and booking."
+            },
+            {
+              "mark": "✓",
+              "b": "One activity a day",
+              "desc": "With travel and waiting, one a day is plenty."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-with-kids-activities-night-market-2.jpg",
+          "caption": "Ballerina music boxes on display (generic image)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Go Early, Take It Away"
+        },
+        {
+          "type": "p",
+          "html": "Ningxia Night Market runs 17:00–23:30 daily (as of Sept 2026) and is mostly food stalls, good for a short visit. Around 5–6 p.m., right after opening, it's less crowded and easier with strollers. Many families buy a few things and eat at the hotel before the kids get tired."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-with-kids-activities-night-market-1.jpg",
+          "caption": "Raohe Street Night Market's entrance and crowds seen from above (not Ningxia)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Takeout Tips"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Lidded containers for soup",
+              "desc": "Ask for leak-proof packing."
+            },
+            {
+              "mark": "2",
+              "b": "Wet wipes and bags",
+              "desc": "Cleanup at the hotel is easier."
+            },
+            {
+              "mark": "3",
+              "b": "Mild dishes",
+              "desc": "Buy small portions of new foods to test your child's taste."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"Activities in the morning, night market at opening, dinner at the hotel.\" — a summary of advice from parents who've visited Taipei with kids."
+        },
+        {
+          "type": "p",
+          "html": "More places to take kids are on <a href=\"/taipei-attraction\">Taipei attractions</a>. <a href=\"/taipei-attraction-93\">Raohe Street Night Market</a>, the one in the photo, is listed too, and for daytime running around there's <a href=\"/taipei-attraction-104\">Taipei Children's Amusement Park</a>. Restaurants near your hotel are on the <a href=\"/region-taipei\">Taipei food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on the Taipei tourism site, Kuo Yuan Ye information, and traveler experiences (as of September 2026). Check activity prices and sessions on the booking page."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei activities on the map",
+          "desc": "Check kid-friendly sights and night markets in Taipei on the map.",
+          "btn": "Open the map →",
+          "href": "/map?region=taipei&cat=attraction"
+        }
+      ]
+    }
   },
-
   "taipei-3n5d-relaxed-itinerary": {
-    heroImage: "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg",
-    ko: {
-      pageTitle: "타이베이 3박5일 일정 — 널널한 코스 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이베이 3박5일 일정, 하루에 몇 곳이 적당할까요? 하루 큰 일정 두 개로 짠 코스 예시와 명소별 운영 시간·휴무를 정리했어요.",
-      ogTitle: "타이베이 3박5일 일정, 널널하게 짜려면 하루에 몇 곳?",
-      eyebrow: "타이베이 여행 가이드 · 일정",
-      title: "타이베이 3박5일 일정, 널널하게 짜려면 하루에 몇 곳?",
-      dek: "밤 비행기로 출발해 새벽에 돌아오는 3박5일 — 첫날과 마지막 날을 비워 두면 여행이 훨씬 여유로워져요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이베이 · 일정 가이드",
-      intro: "\"욕심내서 넣다 보니 하루에 다섯 곳이 됐어요.\" 타이베이 3박5일 일정은 실제로 쓸 수 있는 날이 3일 남짓이라, 하루 큰 일정 두 개 정도가 적당해요. 명소별 공식 운영 시간과 실제 여행자들의 경험을 바탕으로 널널한 코스를 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 타이베이 3박5일 일정 예시" },
+    "heroImage": "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg",
+    "ko": {
+      "pageTitle": "타이베이 3박5일 일정 — 널널한 코스 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이베이 3박5일 일정, 하루에 몇 곳이 적당할까요? 하루 큰 일정 두 개로 짠 코스 예시와 명소별 운영 시간·휴무를 정리했어요.",
+      "ogTitle": "타이베이 3박5일 일정, 널널하게 짜려면 하루에 몇 곳?",
+      "eyebrow": "타이베이 여행 가이드 · 일정",
+      "title": "타이베이 3박5일 일정, 널널하게 짜려면 하루에 몇 곳?",
+      "dek": "밤 비행기로 출발해 새벽에 돌아오는 3박5일 — 첫날과 마지막 날을 비워 두면 여행이 훨씬 여유로워져요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 일정 가이드",
+      "intro": "\"욕심내서 넣다 보니 하루에 다섯 곳이 됐어요.\" 타이베이 3박5일 일정은 실제로 쓸 수 있는 날이 3일 남짓이라, 하루 큰 일정 두 개 정도가 적당해요. 명소별 공식 운영 시간과 실제 여행자들의 경험을 바탕으로 널널한 코스를 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["오전", "오후·저녁"],
-          rows: [
-            { label: "1일차(밤 도착)", values: ["—", "숙소 체크인, 휴식"] },
-            { label: "2일차", values: ["중정기념당 교대식", "딤섬 점심, 시내 산책"] },
-            { label: "3일차", values: ["예류·스펀·지우펀 근교 투어", "투어 복귀 후 휴식"] },
-            { label: "4일차", values: ["시립동물원", "마오콩 곤돌라, 야경"] },
-            { label: "5일차(새벽 출발)", values: ["—", "공항 이동"] },
-          ],
+          "type": "h2",
+          "text": "01 · 타이베이 3박5일 일정 예시"
         },
-        { type: "h2", text: "02 · 명소별 운영 시간 확인" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "중정기념당", desc: "09:00~18:00 개방, 제야·춘절 초1·228기념일 휴관이에요. 의장대 교대식은 09:00~17:00 매시 정각에 열리고 비가 오면 취소돼요(2026년 9월 기준)." },
-            { mark: "✓", b: "마오콩 곤돌라", desc: "평일 09:00~21:00, 휴일 09:00~22:00 운행해요. 일부 월요일은 정기 점검으로 쉬어요(10월 12일, 11월 9·23·30일, 12월 14·28일, 2026년 9월 기준). 날씨에 따라 멈추기도 하니 당일 운행 공지를 확인하세요." },
-            { mark: "✓", b: "시립동물원", desc: "09:00~17:00 운영, 입장은 16:00까지예요(2026년 9월 기준). 판다관 같은 실내관은 월요일에 관별로 돌아가며 쉬어요." },
+          "type": "compareTable",
+          "cities": [
+            "오전",
+            "오후·저녁"
           ],
+          "rows": [
+            {
+              "label": "1일차(밤 도착)",
+              "values": [
+                "—",
+                "숙소 체크인, 휴식"
+              ]
+            },
+            {
+              "label": "2일차",
+              "values": [
+                "중정기념당 교대식",
+                "딤섬 점심, 시내 산책"
+              ]
+            },
+            {
+              "label": "3일차",
+              "values": [
+                "예류·스펀·지우펀 근교 투어",
+                "투어 복귀 후 휴식"
+              ]
+            },
+            {
+              "label": "4일차",
+              "values": [
+                "시립동물원",
+                "마오콩 곤돌라, 야경"
+              ]
+            },
+            {
+              "label": "5일차(새벽 출발)",
+              "values": [
+                "—",
+                "공항 이동"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg", caption: "흰 벽과 푸른 지붕의 중정기념당 본관과 계단 앞 광장이에요." },
-        { type: "h2", text: "03 · 널널하게 만드는 요령" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "동물원과 마오콩은 같은 날", desc: "동물원역과 곤돌라 역이 가까워 한 날에 묶기 좋아요. 월요일이라면 곤돌라 점검일인지 먼저 확인하세요." },
-            { mark: "2", b: "근교 투어는 하루 통째로", desc: "예류·스펀·지우펀은 이동이 길어 다른 일정을 넣지 않는 게 좋아요." },
-            { mark: "3", b: "비 오는 날 대안", desc: "교대식이 취소될 수 있으니 실내 명소를 하나 준비해두세요." },
-          ],
+          "type": "h2",
+          "text": "02 · 명소별 운영 시간 확인"
         },
-        { type: "figure", img: "assets/images/blog/taipei-3n5d-relaxed-itinerary-2.jpg", caption: "타이베이 시립동물원 풀밭을 걷는 자이언트판다예요." },
-        { type: "h2", text: "04 · 첫날과 마지막 날은 비워 두세요" },
-        { type: "p", html: "밤에 도착하는 첫날과 새벽에 떠나는 마지막 날은 일정을 넣지 않는 게 좋아요. 딤섬집이나 야시장처럼 줄이 긴 곳은 예약이 되는지 미리 확인하고, 근교 투어는 좌석과 코스를 업체 안내로 다시 확인하세요." },
-        { type: "quote", text: "\"하루 큰 일정 두 개, 첫날과 마지막 날은 비우기.\" — 타이베이를 여유롭게 다녀온 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "2일차 딤섬 점심은 <a href=\"/taipei-dimsum\">타이베이 딤섬 맛집</a>에서 고르고, 동선이 맞는다면 <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">바팡윈지 중샤오둔화점</a>처럼 간단한 만두집도 좋아요. 숙소 주변 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>, 근교 투어 날 먹을 곳은 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>에서 볼 수 있어요." },
-        { type: "note", text: "이 글은 중정기념당·마오콩 곤돌라·타이베이 시립동물원 공식 안내와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 운영 시간은 바뀔 수 있으니 방문 전 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 타이베이 맛집을 찾아보세요", desc: "일정 사이에 들르기 좋은 타이베이 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "중정기념당",
+              "desc": "09:00~18:00 개방, 제야·춘절 초1·228기념일 휴관이에요. 의장대 교대식은 09:00~17:00 매시 정각에 열리고 비가 오면 취소돼요(2026년 9월 기준)."
+            },
+            {
+              "mark": "✓",
+              "b": "마오콩 곤돌라",
+              "desc": "평일 09:00~21:00, 휴일 09:00~22:00 운행해요. 일부 월요일은 정기 점검으로 쉬어요(10월 12일, 11월 9·23·30일, 12월 14·28일, 2026년 9월 기준). 날씨에 따라 멈추기도 하니 당일 운행 공지를 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "시립동물원",
+              "desc": "09:00~17:00 운영, 입장은 16:00까지예요(2026년 9월 기준). 판다관 같은 실내관은 월요일에 관별로 돌아가며 쉬어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg",
+          "caption": "흰 벽과 푸른 지붕의 중정기념당 본관과 계단 앞 광장이에요."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 널널하게 만드는 요령"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "동물원과 마오콩은 같은 날",
+              "desc": "동물원역과 곤돌라 역이 가까워 한 날에 묶기 좋아요. 월요일이라면 곤돌라 점검일인지 먼저 확인하세요."
+            },
+            {
+              "mark": "2",
+              "b": "근교 투어는 하루 통째로",
+              "desc": "예류·스펀·지우펀은 이동이 길어 다른 일정을 넣지 않는 게 좋아요."
+            },
+            {
+              "mark": "3",
+              "b": "비 오는 날 대안",
+              "desc": "교대식이 취소될 수 있으니 실내 명소를 하나 준비해두세요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-3n5d-relaxed-itinerary-2.jpg",
+          "caption": "타이베이 시립동물원 풀밭을 걷는 자이언트판다예요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 첫날과 마지막 날은 비워 두세요"
+        },
+        {
+          "type": "p",
+          "html": "밤에 도착하는 첫날과 새벽에 떠나는 마지막 날은 일정을 넣지 않는 게 좋아요. 딤섬집이나 야시장처럼 줄이 긴 곳은 예약이 되는지 미리 확인하고, 근교 투어는 좌석과 코스를 업체 안내로 다시 확인하세요."
+        },
+        {
+          "type": "quote",
+          "text": "\"하루 큰 일정 두 개, 첫날과 마지막 날은 비우기.\" — 타이베이를 여유롭게 다녀온 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "2일차 딤섬 점심은 <a href=\"/taipei-dimsum\">타이베이 딤섬 맛집</a>에서 고르고, 동선이 맞는다면 <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">바팡윈지 중샤오둔화점</a>처럼 간단한 만두집도 좋아요. 숙소 주변 식당은 <a href=\"/region-taipei\">타이베이 맛집 지도</a>, 근교 투어 날 먹을 곳은 <a href=\"/region-jiufen\">지우펀 맛집 지도</a>에서 볼 수 있어요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 중정기념당·마오콩 곤돌라·타이베이 시립동물원 공식 안내와 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 운영 시간은 바뀔 수 있으니 방문 전 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집을 찾아보세요",
+          "desc": "일정 사이에 들르기 좋은 타이베이 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Relaxed Taipei 3-Night, 5-Day Itinerary · My Secret Taiwan Eats",
-      metaDescription: "A 3-night, 5-day Taipei plan built on two big stops a day, with official hours and closures for CKS Hall, Maokong, and the zoo.",
-      ogTitle: "A Relaxed Taipei Itinerary for 3 Nights, 5 Days: How Many Stops a Day?",
-      eyebrow: "Taipei Travel Guide · Itinerary",
-      title: "A Relaxed Taipei Itinerary for 3 Nights, 5 Days: How Many Stops a Day?",
-      dek: "For a late-night arrival and a pre-dawn departure — leave the first and last days free and the whole trip relaxes.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taipei · Itinerary Guide",
-      intro: "\"I got greedy and ended up with five stops a day.\" A 3-night, 5-day Taipei trip really gives you about three usable days, so two big stops a day is about right. Based on official hours and real traveler experiences, here's a relaxed plan.",
-      blocks: [
-        { type: "h2", text: "01 · Sample Itinerary" },
+    "en": {
+      "pageTitle": "Relaxed Taipei 3-Night, 5-Day Itinerary · My Secret Taiwan Eats",
+      "metaDescription": "A 3-night, 5-day Taipei plan built on two big stops a day, with official hours and closures for CKS Hall, Maokong, and the zoo.",
+      "ogTitle": "A Relaxed Taipei Itinerary for 3 Nights, 5 Days: How Many Stops a Day?",
+      "eyebrow": "Taipei Travel Guide · Itinerary",
+      "title": "A Relaxed Taipei Itinerary for 3 Nights, 5 Days: How Many Stops a Day?",
+      "dek": "For a late-night arrival and a pre-dawn departure — leave the first and last days free and the whole trip relaxes.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Itinerary Guide",
+      "intro": "\"I got greedy and ended up with five stops a day.\" A 3-night, 5-day Taipei trip really gives you about three usable days, so two big stops a day is about right. Based on official hours and real traveler experiences, here's a relaxed plan.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Morning", "Afternoon/Evening"],
-          rows: [
-            { label: "Day 1 (night arrival)", values: ["—", "Check in, rest"] },
-            { label: "Day 2", values: ["CKS Memorial Hall guard change", "Dim sum lunch, city walk"] },
-            { label: "Day 3", values: ["Yehliu–Shifen–Jiufen day tour", "Rest after the tour"] },
-            { label: "Day 4", values: ["Taipei Zoo", "Maokong Gondola, night views"] },
-            { label: "Day 5 (early departure)", values: ["—", "To the airport"] },
-          ],
+          "type": "h2",
+          "text": "01 · Sample Itinerary"
         },
-        { type: "h2", text: "02 · Check Opening Hours" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "CKS Memorial Hall", desc: "Open 09:00–18:00; closed New Year's Eve, Lunar New Year's Day, and 228 Memorial Day. Guard changes run hourly 09:00–17:00 and are cancelled in rain (as of Sept 2026)." },
-            { mark: "✓", b: "Maokong Gondola", desc: "Weekdays 09:00–21:00, holidays 09:00–22:00. It closes on some Mondays for maintenance (Oct 12, Nov 9/23/30, Dec 14/28; as of Sept 2026), and weather can also stop it, so check the day's notice." },
-            { mark: "✓", b: "Taipei Zoo", desc: "09:00–17:00, last entry 16:00 (as of Sept 2026). Indoor houses like the panda house take turns closing on Mondays." },
+          "type": "compareTable",
+          "cities": [
+            "Morning",
+            "Afternoon/Evening"
           ],
+          "rows": [
+            {
+              "label": "Day 1 (night arrival)",
+              "values": [
+                "—",
+                "Check in, rest"
+              ]
+            },
+            {
+              "label": "Day 2",
+              "values": [
+                "CKS Memorial Hall guard change",
+                "Dim sum lunch, city walk"
+              ]
+            },
+            {
+              "label": "Day 3",
+              "values": [
+                "Yehliu–Shifen–Jiufen day tour",
+                "Rest after the tour"
+              ]
+            },
+            {
+              "label": "Day 4",
+              "values": [
+                "Taipei Zoo",
+                "Maokong Gondola, night views"
+              ]
+            },
+            {
+              "label": "Day 5 (early departure)",
+              "values": [
+                "—",
+                "To the airport"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg", caption: "The white main hall of Chiang Kai-shek Memorial Hall with its blue roof and plaza." },
-        { type: "h2", text: "03 · Keeping It Relaxed" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Zoo and Maokong together", desc: "The zoo and gondola stations are close, so pair them. On a Monday, check first whether it's a gondola maintenance day." },
-            { mark: "2", b: "Give the day tour a full day", desc: "Yehliu, Shifen, and Jiufen involve long drives, so add nothing else." },
-            { mark: "3", b: "Rainy-day backup", desc: "Guard changes can be cancelled, so keep an indoor sight in reserve." },
-          ],
+          "type": "h2",
+          "text": "02 · Check Opening Hours"
         },
-        { type: "figure", img: "assets/images/blog/taipei-3n5d-relaxed-itinerary-2.jpg", caption: "A giant panda walking on the grass at Taipei Zoo." },
-        { type: "h2", text: "04 · Keep the First and Last Days Free" },
-        { type: "p", html: "Don't schedule anything on the night-arrival day or the pre-dawn departure day. For popular dim sum spots or night markets, check whether reservations are possible, and confirm day-tour seats and routes with the operator." },
-        { type: "quote", text: "\"Two big stops a day, and keep the first and last days empty.\" — a summary of advice from travelers who've done Taipei at an easy pace." },
-        { type: "p", html: "For the Day 2 dim sum lunch, pick from <a href=\"/taipei-dimsum\">Taipei dim sum spots</a>, or try a simple dumpling shop like <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">Ba Fang Dumpling Zhongxiao Dunhua</a> if it fits your route. Find places near your hotel on the <a href=\"/region-taipei\">Taipei food map</a>, and places to eat on the day-tour day on the <a href=\"/region-jiufen\">Jiufen food map</a>." },
-        { type: "note", text: "Based on official CKS Memorial Hall, Maokong Gondola, and Taipei Zoo guidance and traveler experiences (as of September 2026). Hours may change." },
-        { type: "cta", title: "Find Taipei restaurants on the map", desc: "Check Taipei restaurants to fit between sights.", btn: "Open the map →", href: "/map?region=taipei" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "CKS Memorial Hall",
+              "desc": "Open 09:00–18:00; closed New Year's Eve, Lunar New Year's Day, and 228 Memorial Day. Guard changes run hourly 09:00–17:00 and are cancelled in rain (as of Sept 2026)."
+            },
+            {
+              "mark": "✓",
+              "b": "Maokong Gondola",
+              "desc": "Weekdays 09:00–21:00, holidays 09:00–22:00. It closes on some Mondays for maintenance (Oct 12, Nov 9/23/30, Dec 14/28; as of Sept 2026), and weather can also stop it, so check the day's notice."
+            },
+            {
+              "mark": "✓",
+              "b": "Taipei Zoo",
+              "desc": "09:00–17:00, last entry 16:00 (as of Sept 2026). Indoor houses like the panda house take turns closing on Mondays."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-3n5d-relaxed-itinerary-1.jpg",
+          "caption": "The white main hall of Chiang Kai-shek Memorial Hall with its blue roof and plaza."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Keeping It Relaxed"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Zoo and Maokong together",
+              "desc": "The zoo and gondola stations are close, so pair them. On a Monday, check first whether it's a gondola maintenance day."
+            },
+            {
+              "mark": "2",
+              "b": "Give the day tour a full day",
+              "desc": "Yehliu, Shifen, and Jiufen involve long drives, so add nothing else."
+            },
+            {
+              "mark": "3",
+              "b": "Rainy-day backup",
+              "desc": "Guard changes can be cancelled, so keep an indoor sight in reserve."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-3n5d-relaxed-itinerary-2.jpg",
+          "caption": "A giant panda walking on the grass at Taipei Zoo."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Keep the First and Last Days Free"
+        },
+        {
+          "type": "p",
+          "html": "Don't schedule anything on the night-arrival day or the pre-dawn departure day. For popular dim sum spots or night markets, check whether reservations are possible, and confirm day-tour seats and routes with the operator."
+        },
+        {
+          "type": "quote",
+          "text": "\"Two big stops a day, and keep the first and last days empty.\" — a summary of advice from travelers who've done Taipei at an easy pace."
+        },
+        {
+          "type": "p",
+          "html": "For the Day 2 dim sum lunch, pick from <a href=\"/taipei-dimsum\">Taipei dim sum spots</a>, or try a simple dumpling shop like <a href=\"/taipei-dimsum-ba-fang-dumpling-zhongxiao-dunhua-670\">Ba Fang Dumpling Zhongxiao Dunhua</a> if it fits your route. Find places near your hotel on the <a href=\"/region-taipei\">Taipei food map</a>, and places to eat on the day-tour day on the <a href=\"/region-jiufen\">Jiufen food map</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on official CKS Memorial Hall, Maokong Gondola, and Taipei Zoo guidance and traveler experiences (as of September 2026). Hours may change."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei restaurants on the map",
+          "desc": "Check Taipei restaurants to fit between sights.",
+          "btn": "Open the map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
   },
-
   "taichung-scooter-rental-license-insurance": {
-    heroImage: "assets/images/blog/taichung-scooter-rental-license-insurance-1.jpg",
-    ko: {
-      pageTitle: "타이중 스쿠터 렌트 — 면허·보험 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "타이중 스쿠터 렌트, 한국 면허로 될까요? 국제운전면허 A 기종 조건과 챙겨야 할 서류, 강제보험과 추가 보험 차이를 정리했어요.",
-      ogTitle: "타이중 스쿠터 렌트, 한국 면허로 탈 수 있을까?",
-      eyebrow: "타이중 여행 가이드 · 교통",
-      title: "타이중 스쿠터 렌트, 한국 면허로 탈 수 있을까?",
-      dek: "자동차 국제면허만 들고 갔다가 빌리지 못하는 일이 없도록 — 면허 기종부터 확인하세요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "타이중 · 교통 가이드",
-      intro: "\"국제운전면허증 있으면 스쿠터도 되는 거 아닌가요?\" 타이중 스쿠터 렌트는 국제운전면허의 기종 표시부터 봐야 해요. 스쿠터는 이륜차라 A 기종이 찍혀 있어야 하고, 자동차 기종(B)만으로는 탈 수 없어요. 대만 감리 기관·도로교통공단 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 타이중 스쿠터 렌트 준비물 한눈에 보기" },
+    "heroImage": "assets/images/blog/taichung-scooter-rental-license-insurance-1.jpg",
+    "ko": {
+      "pageTitle": "타이중 스쿠터 렌트 — 면허·보험 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이중 스쿠터 렌트, 한국 면허로 될까요? 국제운전면허 A 기종 조건과 챙겨야 할 서류, 강제보험과 추가 보험 차이를 정리했어요.",
+      "ogTitle": "타이중 스쿠터 렌트, 한국 면허로 탈 수 있을까?",
+      "eyebrow": "타이중 여행 가이드 · 교통",
+      "title": "타이중 스쿠터 렌트, 한국 면허로 탈 수 있을까?",
+      "dek": "자동차 국제면허만 들고 갔다가 빌리지 못하는 일이 없도록 — 면허 기종부터 확인하세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이중 · 교통 가이드",
+      "intro": "\"국제운전면허증 있으면 스쿠터도 되는 거 아닌가요?\" 타이중 스쿠터 렌트는 국제운전면허의 기종 표시부터 봐야 해요. 스쿠터는 이륜차라 A 기종이 찍혀 있어야 하고, 자동차 기종(B)만으로는 탈 수 없어요. 대만 감리 기관·도로교통공단 안내와 실제 여행자들의 경험을 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["필요 여부", "설명"],
-          rows: [
-            { label: "국제운전면허증(A 기종)", values: ["필수", "한국 2종 소형 면허가 있어야 A 기종이 표시돼요"] },
-            { label: "한국 운전면허증 원본", values: ["필수", "국제면허와 함께 확인하는 경우가 많아요"] },
-            { label: "여권", values: ["필수", "대여 계약 때 신분 확인"] },
-            { label: "헬멧", values: ["필수 착용", "대여점에서 받을 수 있는지 확인"] },
-          ],
+          "type": "h2",
+          "text": "01 · 타이중 스쿠터 렌트 준비물 한눈에 보기"
         },
-        { type: "h2", text: "02 · 한국 면허와 국제운전면허 A 기종" },
-        { type: "p", html: "2022년 2월 17일 한국·대만 국제운전면허 상호 인정 양해각서가 발효돼, 한국에서 발급한 국제운전면허증으로 대만에서 운전할 수 있어요. 다만 스쿠터는 국제면허에 A 기종(이륜차)이 표시돼 있어야 해요. 원동기장치자전거 면허나 자동차 면허(1종 보통·2종 보통 등)만 있으면 A 기종이 나오지 않으니 발급 전에 도로교통공단 안내를 확인하세요." },
-        { type: "figure", img: "assets/images/blog/taichung-scooter-rental-license-insurance-1.jpg", caption: "비 오는 거리에 세워진 전동 스쿠터들이에요(일반 이미지, 타이중에서 찍은 사진 아님)." },
-        { type: "h2", text: "03 · 보험은 이렇게 구분해요" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "강제책임보험", desc: "대만의 모든 오토바이는 강제책임보험에 가입돼 있어야 해요. 대여 차량에 가입돼 있는지 확인하세요." },
-            { mark: "✓", b: "추가 보험", desc: "강제보험은 상대방 인명 피해 위주라, 차량 파손이나 본인 부상은 대여점의 추가 보험이나 여행자보험으로 대비해요." },
-            { mark: "✓", b: "계약서 확인", desc: "사고 때 자기부담금과 연락처를 계약서에서 확인해두세요." },
+          "type": "compareTable",
+          "cities": [
+            "필요 여부",
+            "설명"
           ],
+          "rows": [
+            {
+              "label": "국제운전면허증(A 기종)",
+              "values": [
+                "필수",
+                "한국 2종 소형 면허가 있어야 A 기종이 표시돼요"
+              ]
+            },
+            {
+              "label": "한국 운전면허증 원본",
+              "values": [
+                "필수",
+                "국제면허와 함께 확인하는 경우가 많아요"
+              ]
+            },
+            {
+              "label": "여권",
+              "values": [
+                "필수",
+                "대여 계약 때 신분 확인"
+              ]
+            },
+            {
+              "label": "헬멧",
+              "values": [
+                "필수 착용",
+                "대여점에서 받을 수 있는지 확인"
+              ]
+            }
+          ]
         },
-        { type: "h2", text: "04 · 타이중에서 탈 때 조심할 점" },
-        { type: "p", html: "타이중 시내는 차량과 오토바이가 많아요. 표지가 있는 교차로에서는 스쿠터가 바로 좌회전하지 못하고 두 번에 나눠 건너는 '2단계 좌회전(兩段式左轉)'을 해야 하니, 도로 바닥의 대기 칸을 눈여겨보세요. 처음이라면 출퇴근 시간을 피하고, 비 오는 날에는 대중교통이나 택시를 이용하는 게 안전해요. 스쿠터가 부담스럽다면 버스와 공유 자전거로 다니는 여행자도 많아요." },
-        { type: "quote", text: "\"국제면허에 A가 있는지, 헬멧과 보험은 확인했는지.\" — 대만에서 스쿠터를 빌려 본 여행자들의 조언을 요약했습니다." },
-        { type: "p", html: "스쿠터로 다닐 곳을 정했다면 먹을 곳도 함께 보세요. <a href=\"/region-taichung\">타이중 맛집 지도</a>에서 동선을 짜고, 더운 날엔 <a href=\"/taichung-shaved_ice\">타이중 빙수 맛집</a> 중 옛 안과 건물을 쓴 <a href=\"/taichung-shaved_ice-333\">궁원안과 미야하라 아이스크림</a>도 들러볼 만해요." },
-        { type: "note", text: "이 글은 대만 감리 기관·공로국 안내와 한국 도로교통공단 기준, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 대여 조건은 가게마다 다르니 예약 전 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 타이중 맛집을 찾아보세요", desc: "스쿠터나 대중교통으로 들르기 좋은 타이중 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taichung" },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 한국 면허와 국제운전면허 A 기종"
+        },
+        {
+          "type": "p",
+          "html": "2022년 2월 17일 한국·대만 국제운전면허 상호 인정 양해각서가 발효돼, 한국에서 발급한 국제운전면허증으로 대만에서 운전할 수 있어요. 다만 스쿠터는 국제면허에 A 기종(이륜차)이 표시돼 있어야 해요. 원동기장치자전거 면허나 자동차 면허(1종 보통·2종 보통 등)만 있으면 A 기종이 나오지 않으니 발급 전에 도로교통공단 안내를 확인하세요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-scooter-rental-license-insurance-1.jpg",
+          "caption": "비 오는 거리에 세워진 전동 스쿠터들이에요(일반 이미지, 타이중에서 찍은 사진 아님)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 보험은 이렇게 구분해요"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "강제책임보험",
+              "desc": "대만의 모든 오토바이는 강제책임보험에 가입돼 있어야 해요. 대여 차량에 가입돼 있는지 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "추가 보험",
+              "desc": "강제보험은 상대방 인명 피해 위주라, 차량 파손이나 본인 부상은 대여점의 추가 보험이나 여행자보험으로 대비해요."
+            },
+            {
+              "mark": "✓",
+              "b": "계약서 확인",
+              "desc": "사고 때 자기부담금과 연락처를 계약서에서 확인해두세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 타이중에서 탈 때 조심할 점"
+        },
+        {
+          "type": "p",
+          "html": "타이중 시내는 차량과 오토바이가 많아요. 표지가 있는 교차로에서는 스쿠터가 바로 좌회전하지 못하고 두 번에 나눠 건너는 '2단계 좌회전(兩段式左轉)'을 해야 하니, 도로 바닥의 대기 칸을 눈여겨보세요. 처음이라면 출퇴근 시간을 피하고, 비 오는 날에는 대중교통이나 택시를 이용하는 게 안전해요. 스쿠터가 부담스럽다면 버스와 공유 자전거로 다니는 여행자도 많아요."
+        },
+        {
+          "type": "quote",
+          "text": "\"국제면허에 A가 있는지, 헬멧과 보험은 확인했는지.\" — 대만에서 스쿠터를 빌려 본 여행자들의 조언을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "스쿠터로 다닐 곳을 정했다면 먹을 곳도 함께 보세요. <a href=\"/region-taichung\">타이중 맛집 지도</a>에서 동선을 짜고, 더운 날엔 <a href=\"/taichung-shaved_ice\">타이중 빙수 맛집</a> 중 옛 안과 건물을 쓴 <a href=\"/taichung-shaved_ice-333\">궁원안과 미야하라 아이스크림</a>도 들러볼 만해요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 감리 기관·공로국 안내와 한국 도로교통공단 기준, 여행자들의 경험을 바탕으로 정리했습니다(2026년 9월 기준). 대여 조건은 가게마다 다르니 예약 전 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중 맛집을 찾아보세요",
+          "desc": "스쿠터나 대중교통으로 들르기 좋은 타이중 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taichung Scooter Rental — License and Insurance · My Secret Taiwan Eats",
-      metaDescription: "To rent a scooter in Taiwan you need category A on your IDP. Documents to bring and how compulsory and optional insurance differ.",
-      ogTitle: "Renting a Scooter in Taichung: Can You Ride on a Korean License?",
-      eyebrow: "Taichung Travel Guide · Transport",
-      title: "Renting a Scooter in Taichung: Can You Ride on a Korean License?",
-      dek: "Don't get turned away with a car-only IDP — check your license category first.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taichung · Transport Guide",
-      intro: "\"If I have an international driving permit, I can ride a scooter, right?\" Scooters are two-wheelers, so your IDP needs category A — category B (cars) alone won't do. Based on Taiwan's motor vehicle authorities, Korea's Road Traffic Authority, and real traveler experiences, here's what to check.",
-      blocks: [
-        { type: "h2", text: "01 · What to Bring" },
+    "en": {
+      "pageTitle": "Taichung Scooter Rental — License and Insurance · My Secret Taiwan Eats",
+      "metaDescription": "To rent a scooter in Taiwan you need category A on your IDP. Documents to bring and how compulsory and optional insurance differ.",
+      "ogTitle": "Renting a Scooter in Taichung: Can You Ride on a Korean License?",
+      "eyebrow": "Taichung Travel Guide · Transport",
+      "title": "Renting a Scooter in Taichung: Can You Ride on a Korean License?",
+      "dek": "Don't get turned away with a car-only IDP — check your license category first.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taichung · Transport Guide",
+      "intro": "\"If I have an international driving permit, I can ride a scooter, right?\" Scooters are two-wheelers, so your IDP needs category A — category B (cars) alone won't do. Based on Taiwan's motor vehicle authorities, Korea's Road Traffic Authority, and real traveler experiences, here's what to check.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Required?", "Notes"],
-          rows: [
-            { label: "IDP (category A)", values: ["Required", "Category A appears only with a Korean class 2 small license"] },
-            { label: "Original Korean license", values: ["Required", "Often checked together with the IDP"] },
-            { label: "Passport", values: ["Required", "ID check for the rental contract"] },
-            { label: "Helmet", values: ["Must wear", "Check whether the shop provides one"] },
-          ],
+          "type": "h2",
+          "text": "01 · What to Bring"
         },
-        { type: "h2", text: "02 · Korean Licenses and IDP Category A" },
-        { type: "p", html: "Korea and Taiwan's mutual recognition of international driving permits took effect on February 17, 2022, so a Korean-issued IDP lets you drive in Taiwan. For scooters, though, the IDP must show category A (two-wheelers). With only a moped or car license (class 1 or 2 ordinary, etc.), you won't get category A, so check the Road Traffic Authority's guidance before applying." },
-        { type: "figure", img: "assets/images/blog/taichung-scooter-rental-license-insurance-1.jpg", caption: "Electric scooters parked on a rainy street (generic image, not taken in Taichung)." },
-        { type: "h2", text: "03 · Insurance Types" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Compulsory liability insurance", desc: "Every motorcycle in Taiwan must carry it. Check the rental has it." },
-            { mark: "✓", b: "Optional coverage", desc: "Compulsory insurance mainly covers injury to others, so use the shop's extra coverage or travel insurance for vehicle damage and your own injuries." },
-            { mark: "✓", b: "Read the contract", desc: "Note the deductible and emergency contact." },
+          "type": "compareTable",
+          "cities": [
+            "Required?",
+            "Notes"
           ],
+          "rows": [
+            {
+              "label": "IDP (category A)",
+              "values": [
+                "Required",
+                "Category A appears only with a Korean class 2 small license"
+              ]
+            },
+            {
+              "label": "Original Korean license",
+              "values": [
+                "Required",
+                "Often checked together with the IDP"
+              ]
+            },
+            {
+              "label": "Passport",
+              "values": [
+                "Required",
+                "ID check for the rental contract"
+              ]
+            },
+            {
+              "label": "Helmet",
+              "values": [
+                "Must wear",
+                "Check whether the shop provides one"
+              ]
+            }
+          ]
         },
-        { type: "h2", text: "04 · Riding in Taichung" },
-        { type: "p", html: "Taichung's streets are busy with cars and scooters, and at signed intersections scooters must make a two-stage left turn (兩段式左轉), waiting in the marked box on the road. If you're new, avoid rush hour and take transit or a taxi in the rain. Many travelers skip the scooter and use buses and bike share." },
-        { type: "quote", text: "\"Is there an A on your IDP, and did you check the helmet and insurance?\" — a summary of advice from travelers who've rented scooters in Taiwan." },
-        { type: "p", html: "Once you know where you'll ride, plan where to eat too. Use the <a href=\"/region-taichung\">Taichung restaurant map</a> to plan your route, and on hot days try <a href=\"/taichung-shaved_ice\">Taichung shaved ice spots</a>, including <a href=\"/taichung-shaved_ice-333\">Miyahara</a> in a former eye clinic building." },
-        { type: "note", text: "Based on Taiwan motor vehicle and highway authority guidance, Korea Road Traffic Authority rules, and traveler experiences (as of September 2026). Rental terms vary by shop." },
-        { type: "cta", title: "Find Taichung restaurants on the map", desc: "Check Taichung restaurants that are easy to reach by scooter or transit.", btn: "Open Map →", href: "/map?region=taichung" },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Korean Licenses and IDP Category A"
+        },
+        {
+          "type": "p",
+          "html": "Korea and Taiwan's mutual recognition of international driving permits took effect on February 17, 2022, so a Korean-issued IDP lets you drive in Taiwan. For scooters, though, the IDP must show category A (two-wheelers). With only a moped or car license (class 1 or 2 ordinary, etc.), you won't get category A, so check the Road Traffic Authority's guidance before applying."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taichung-scooter-rental-license-insurance-1.jpg",
+          "caption": "Electric scooters parked on a rainy street (generic image, not taken in Taichung)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Insurance Types"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Compulsory liability insurance",
+              "desc": "Every motorcycle in Taiwan must carry it. Check the rental has it."
+            },
+            {
+              "mark": "✓",
+              "b": "Optional coverage",
+              "desc": "Compulsory insurance mainly covers injury to others, so use the shop's extra coverage or travel insurance for vehicle damage and your own injuries."
+            },
+            {
+              "mark": "✓",
+              "b": "Read the contract",
+              "desc": "Note the deductible and emergency contact."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Riding in Taichung"
+        },
+        {
+          "type": "p",
+          "html": "Taichung's streets are busy with cars and scooters, and at signed intersections scooters must make a two-stage left turn (兩段式左轉), waiting in the marked box on the road. If you're new, avoid rush hour and take transit or a taxi in the rain. Many travelers skip the scooter and use buses and bike share."
+        },
+        {
+          "type": "quote",
+          "text": "\"Is there an A on your IDP, and did you check the helmet and insurance?\" — a summary of advice from travelers who've rented scooters in Taiwan."
+        },
+        {
+          "type": "p",
+          "html": "Once you know where you'll ride, plan where to eat too. Use the <a href=\"/region-taichung\">Taichung restaurant map</a> to plan your route, and on hot days try <a href=\"/taichung-shaved_ice\">Taichung shaved ice spots</a>, including <a href=\"/taichung-shaved_ice-333\">Miyahara</a> in a former eye clinic building."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taiwan motor vehicle and highway authority guidance, Korea Road Traffic Authority rules, and traveler experiences (as of September 2026). Rental terms vary by shop."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taichung restaurants on the map",
+          "desc": "Check Taichung restaurants that are easy to reach by scooter or transit.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung"
+        }
+      ]
+    }
   },
-
   "jiufen-bus-965-from-taipei": {
-    heroImage: "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg",
-    ko: {
-      pageTitle: "지우펀 965번 버스 — 타는 곳·배차 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "지우펀 965번 버스는 타이베이 어디서 탈까요? 시먼·베이먼 타는 곳과 첫차·막차, 배차 간격, 요금, 돌아올 때 내리는 곳까지 정리했어요.",
-      ogTitle: "지우펀 965번 버스, 타이베이 어디서 타고 얼마나 자주 올까?",
-      eyebrow: "지우펀 여행 가이드 · 교통",
-      title: "지우펀 965번 버스, 타이베이 어디서 타고 얼마나 자주 올까?",
-      dek: "투어 없이도 버스 한 번이면 지우펀 옛거리 앞까지 가요 — 타는 곳과 출구만 알면 돼요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "지우펀 · 교통 가이드",
-      intro: "\"투어 말고 대중교통으로 지우펀 갈 수 있을까요?\" 지우펀 965번 버스는 타이베이 시내에서 지우펀·진과스까지 갈아타지 않고 가는 台灣好行(타이완 하오싱) 九份金瓜石線이에요. 반차오에서 출발해 완화·시먼·베이먼을 거쳐 지우펀 옛거리 앞에 서요. 대만 버스 공식 노선 정보와 台灣好行 시간표를 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 지우펀 965번 버스 한눈에 보기" },
+    "heroImage": "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg",
+    "ko": {
+      "pageTitle": "지우펀 965번 버스 — 타는 곳·배차 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "지우펀 965번 버스는 타이베이 어디서 탈까요? 시먼·베이먼 타는 곳과 첫차·막차, 배차 간격, 요금, 돌아올 때 내리는 곳까지 정리했어요.",
+      "ogTitle": "지우펀 965번 버스, 타이베이 어디서 타고 얼마나 자주 올까?",
+      "eyebrow": "지우펀 여행 가이드 · 교통",
+      "title": "지우펀 965번 버스, 타이베이 어디서 타고 얼마나 자주 올까?",
+      "dek": "투어 없이도 버스 한 번이면 지우펀 옛거리 앞까지 가요 — 타는 곳과 출구만 알면 돼요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "지우펀 · 교통 가이드",
+      "intro": "\"투어 말고 대중교통으로 지우펀 갈 수 있을까요?\" 지우펀 965번 버스는 타이베이 시내에서 지우펀·진과스까지 갈아타지 않고 가는 台灣好行(타이완 하오싱) 九份金瓜石線이에요. 반차오에서 출발해 완화·시먼·베이먼을 거쳐 지우펀 옛거리 앞에 서요. 대만 버스 공식 노선 정보와 台灣好行 시간표를 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["내용"],
-          rows: [
-            { label: "노선", values: ["반차오(捷運府中站) ↔ 진과스(金瓜石·黃金博物館), 지우펀 경유"] },
-            { label: "첫차·막차", values: ["평일 06:00, 주말·공휴일 07:00 첫차 / 막차 21:00 출발"] },
-            { label: "배차 간격", values: ["평일 붐비는 시간 15분·그 외 30분, 주말·공휴일 붐비는 시간 10분·그 외 30분"] },
-            { label: "요금", values: ["타이베이 시내 ↔ 지우펀 NT$90(할인 대상 NT$48), 현금·교통카드 같은 요금"] },
-          ],
+          "type": "h2",
+          "text": "01 · 지우펀 965번 버스 한눈에 보기"
         },
-        { type: "p", html: "시간표에는 정시 출발만 나와 있고, 그 사이 버스는 상황에 따라 탄력적으로 배차해요(2026년 10월 기준)." },
-        { type: "h2", text: "02 · 타이베이에서 965번 버스 타는 곳" },
-        { type: "p", html: "지우펀 방향은 捷運府中站 → 新北板橋公車站 → 萬華車站 → 捷運西門站 → 中華路北站 → 捷運北門站 순서로 서요. 捷運北門站(베이먼역)에서 탈 때는 2번 출구 쪽에서 기다리면 돼요. 베이먼 다음부터는 고가도로와 고속도로를 타고 루이팡 쪽까지 서지 않고 달려요. 지우펀에서는 九份派出所, 代天府 다음 九份老街 정류장에서 내리면 옛거리 입구예요." },
-        { type: "figure", img: "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg", caption: "산비탈을 따라 집들이 들어선 지우펀 마을의 낮 풍경이에요(965번 버스 사진 아님)." },
-        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F3521-jiufen-full-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 지우펀·스펀·예류 일일 투어 (한국어 가이드) 보기 →</a>" },
-        { type: "h2", text: "03 · 돌아올 때 내리는 곳과 알아둘 점" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "타이베이로 돌아올 때", desc: "九份老街에서 타면 루이팡 기차역(瑞芳火車站)을 거쳐 捷運北門站 → 中華路北站 → 捷運西門站 → 小南門 → 萬華車站 순으로 서요. 루이팡역은 타이베이 방향에만 서고, 베이먼역에서는 1번 출구 쪽이에요." },
-            { mark: "✓", b: "예약 좌석 편", desc: "매일 09:00(진과스 방향, 府中·西門·北門에서 탑승)과 16:00(반차오 방향, 진과스·루이팡역에서 탑승)은 台灣好行 예약 편으로 운행해요." },
-            { mark: "✓", b: "우회 공지 확인", desc: "국경일 행사 같은 큰 행사가 있으면 시내 구간을 우회하기도 해요. 출발 전 대臺北公車(5284) 노선 공지를 확인하세요." },
-            { mark: "✓", b: "교통카드 준비", desc: "현금과 교통카드 요금이 같으니 이지카드를 챙기면 잔돈 걱정이 없어요." },
+          "type": "compareTable",
+          "cities": [
+            "내용"
           ],
+          "rows": [
+            {
+              "label": "노선",
+              "values": [
+                "반차오(捷運府中站) ↔ 진과스(金瓜石·黃金博物館), 지우펀 경유"
+              ]
+            },
+            {
+              "label": "첫차·막차",
+              "values": [
+                "평일 06:00, 주말·공휴일 07:00 첫차 / 막차 21:00 출발"
+              ]
+            },
+            {
+              "label": "배차 간격",
+              "values": [
+                "평일 붐비는 시간 15분·그 외 30분, 주말·공휴일 붐비는 시간 10분·그 외 30분"
+              ]
+            },
+            {
+              "label": "요금",
+              "values": [
+                "타이베이 시내 ↔ 지우펀 NT$90(할인 대상 NT$48), 현금·교통카드 같은 요금"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/jiufen-bus-965-from-taipei-2.jpg", caption: "홍등이 켜진 저녁 지우펀 옛거리와 오가는 사람들이에요." },
-        { type: "quote", text: "\"갈 때는 베이먼역 2번 출구, 올 때는 1번 출구.\" — 台灣好行 공식 시간표의 탑승 안내를 요약했습니다." },
-        { type: "p", html: "지우펀에 내리면 먹을 곳부터 정해두세요. <a href=\"/region-jiufen\">지우펀 맛집 지도</a>에서 근교 식당을 볼 수 있고, 옛거리 쪽 대만식 식당 <a href=\"/jiufen-taiwanese-77\">메이핑 샤오츠(美萍小吃)</a>도 등록돼 있어요. 시먼역에서 탄다면 출발 전에 <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a> 중 시먼딩의 <a href=\"/taipei-taiwanese-675\">진천미별관</a>에서 든든하게 먹고 가도 좋아요." },
-        { type: "note", text: "이 글은 대臺北公車 노선 정보와 交通部觀光署 台灣好行 시간표·요금표를 바탕으로 정리했습니다(2026년 10월 기준). 노선·정류장·배차는 바뀔 수 있으니 출발 전 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 지우펀 맛집을 찾아보세요", desc: "965번 버스로 들르기 좋은 지우펀 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=jiufen" },
-      ],
+        {
+          "type": "p",
+          "html": "시간표에는 정시 출발만 나와 있고, 그 사이 버스는 상황에 따라 탄력적으로 배차해요(2026년 10월 기준)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 타이베이에서 965번 버스 타는 곳"
+        },
+        {
+          "type": "p",
+          "html": "지우펀 방향은 捷運府中站 → 新北板橋公車站 → 萬華車站 → 捷運西門站 → 中華路北站 → 捷運北門站 순서로 서요. 捷運北門站(베이먼역)에서 탈 때는 2번 출구 쪽에서 기다리면 돼요. 베이먼 다음부터는 고가도로와 고속도로를 타고 루이팡 쪽까지 서지 않고 달려요. 지우펀에서는 九份派出所, 代天府 다음 九份老街 정류장에서 내리면 옛거리 입구예요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg",
+          "caption": "산비탈을 따라 집들이 들어선 지우펀 마을의 낮 풍경이에요(965번 버스 사진 아님)."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F3521-jiufen-full-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 지우펀·스펀·예류 일일 투어 (한국어 가이드) 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "03 · 돌아올 때 내리는 곳과 알아둘 점"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "타이베이로 돌아올 때",
+              "desc": "九份老街에서 타면 루이팡 기차역(瑞芳火車站)을 거쳐 捷運北門站 → 中華路北站 → 捷運西門站 → 小南門 → 萬華車站 순으로 서요. 루이팡역은 타이베이 방향에만 서고, 베이먼역에서는 1번 출구 쪽이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "예약 좌석 편",
+              "desc": "매일 09:00(진과스 방향, 府中·西門·北門에서 탑승)과 16:00(반차오 방향, 진과스·루이팡역에서 탑승)은 台灣好行 예약 편으로 운행해요."
+            },
+            {
+              "mark": "✓",
+              "b": "우회 공지 확인",
+              "desc": "국경일 행사 같은 큰 행사가 있으면 시내 구간을 우회하기도 해요. 출발 전 대臺北公車(5284) 노선 공지를 확인하세요."
+            },
+            {
+              "mark": "✓",
+              "b": "교통카드 준비",
+              "desc": "현금과 교통카드 요금이 같으니 이지카드를 챙기면 잔돈 걱정이 없어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-bus-965-from-taipei-2.jpg",
+          "caption": "홍등이 켜진 저녁 지우펀 옛거리와 오가는 사람들이에요."
+        },
+        {
+          "type": "quote",
+          "text": "\"갈 때는 베이먼역 2번 출구, 올 때는 1번 출구.\" — 台灣好行 공식 시간표의 탑승 안내를 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "지우펀에 내리면 먹을 곳부터 정해두세요. <a href=\"/region-jiufen\">지우펀 맛집 지도</a>에서 근교 식당을 볼 수 있고, 옛거리 쪽 대만식 식당 <a href=\"/jiufen-taiwanese-77\">메이핑 샤오츠(美萍小吃)</a>도 등록돼 있어요. 시먼역에서 탄다면 출발 전에 <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a> 중 시먼딩의 <a href=\"/taipei-taiwanese-675\">진천미별관</a>에서 든든하게 먹고 가도 좋아요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대臺北公車 노선 정보와 交通部觀光署 台灣好行 시간표·요금표를 바탕으로 정리했습니다(2026년 10월 기준). 노선·정류장·배차는 바뀔 수 있으니 출발 전 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 지우펀 맛집을 찾아보세요",
+          "desc": "965번 버스로 들르기 좋은 지우펀 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=jiufen"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Bus 965 to Jiufen — Stops and Frequency · My Secret Taiwan Eats",
-      metaDescription: "Where to catch bus 965 to Jiufen in Taipei, first and last buses, how often it runs, the fare, and where to get off on the way back.",
-      ogTitle: "Bus 965 to Jiufen: Where to Board in Taipei and How Often It Runs",
-      eyebrow: "Jiufen Travel Guide · Transport",
-      title: "Bus 965 to Jiufen: Where to Board in Taipei and How Often It Runs",
-      dek: "No tour needed — one bus takes you to Jiufen Old Street. Just know the stop and the exit.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Jiufen · Transport Guide",
-      intro: "\"Can I get to Jiufen on public transport instead of a tour?\" Bus 965 is the Taiwan Tourist Shuttle Jiufen–Jinguashi line, running from Banqiao through Wanhua, Ximen and Beimen in Taipei to Jiufen Old Street and Jinguashi with no transfers. Here's what to know, based on official Taipei bus route data and the Taiwan Tourist Shuttle timetable.",
-      blocks: [
-        { type: "h2", text: "01 · Bus 965 at a Glance" },
+    "en": {
+      "pageTitle": "Bus 965 to Jiufen — Stops and Frequency · My Secret Taiwan Eats",
+      "metaDescription": "Where to catch bus 965 to Jiufen in Taipei, first and last buses, how often it runs, the fare, and where to get off on the way back.",
+      "ogTitle": "Bus 965 to Jiufen: Where to Board in Taipei and How Often It Runs",
+      "eyebrow": "Jiufen Travel Guide · Transport",
+      "title": "Bus 965 to Jiufen: Where to Board in Taipei and How Often It Runs",
+      "dek": "No tour needed — one bus takes you to Jiufen Old Street. Just know the stop and the exit.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Jiufen · Transport Guide",
+      "intro": "\"Can I get to Jiufen on public transport instead of a tour?\" Bus 965 is the Taiwan Tourist Shuttle Jiufen–Jinguashi line, running from Banqiao through Wanhua, Ximen and Beimen in Taipei to Jiufen Old Street and Jinguashi with no transfers. Here's what to know, based on official Taipei bus route data and the Taiwan Tourist Shuttle timetable.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Details"],
-          rows: [
-            { label: "Route", values: ["Banqiao (MRT Fuzhong) ↔ Jinguashi (Gold Museum), via Jiufen"] },
-            { label: "First / last bus", values: ["First bus 06:00 weekdays, 07:00 weekends and holidays / last departure 21:00"] },
-            { label: "Frequency", values: ["Weekdays 15 min at peak, 30 min otherwise; weekends and holidays 10 min at peak, 30 min otherwise"] },
-            { label: "Fare", values: ["Taipei city ↔ Jiufen NT$90 (concession NT$48), same for cash and transit cards"] },
-          ],
+          "type": "h2",
+          "text": "01 · Bus 965 at a Glance"
         },
-        { type: "p", html: "The timetable lists only on-the-hour departures; buses in between run flexibly depending on demand (as of October 2026)." },
-        { type: "h2", text: "02 · Where to Board in Taipei" },
-        { type: "p", html: "Toward Jiufen, the bus stops at MRT Fuzhong → New Taipei Banqiao Bus Station → Wanhua Station → MRT Ximen → Zhonghua Rd. North → MRT Beimen. At MRT Beimen, wait near Exit 2. After Beimen it runs on the elevated road and freeway without stopping until the Ruifang area. In Jiufen, get off at Jiufen Old Street (九份老街), after Jiufen Police Station and Daitian Temple." },
-        { type: "figure", img: "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg", caption: "Jiufen village on the hillside in daytime (not a photo of bus 965)." },
-        { type: "p", html: "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F3521-jiufen-full-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Jiufen, Shifen & Yehliu day tour on Klook →</a>" },
-        { type: "h2", text: "03 · Getting Back and Good to Know" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Returning to Taipei", desc: "From Jiufen Old Street the bus stops at Ruifang Station, then MRT Beimen → Zhonghua Rd. North → MRT Ximen → Xiaonanmen → Wanhua Station. Ruifang Station is served only in the Taipei direction, and at Beimen you use the Exit 1 side." },
-            { mark: "✓", b: "Reserved-seat runs", desc: "The 09:00 bus toward Jinguashi (boarding at Fuzhong, Ximen, Beimen) and the 16:00 bus toward Banqiao (boarding at Jinguashi and Ruifang Station) run as Taiwan Tourist Shuttle reserved services." },
-            { mark: "✓", b: "Check for detours", desc: "Large events such as National Day celebrations can reroute the city section. Check route notices on the Taipei e-bus (5284) site before you go." },
-            { mark: "✓", b: "Bring a transit card", desc: "Cash and card fares are the same, so an EasyCard saves fumbling for change." },
+          "type": "compareTable",
+          "cities": [
+            "Details"
           ],
+          "rows": [
+            {
+              "label": "Route",
+              "values": [
+                "Banqiao (MRT Fuzhong) ↔ Jinguashi (Gold Museum), via Jiufen"
+              ]
+            },
+            {
+              "label": "First / last bus",
+              "values": [
+                "First bus 06:00 weekdays, 07:00 weekends and holidays / last departure 21:00"
+              ]
+            },
+            {
+              "label": "Frequency",
+              "values": [
+                "Weekdays 15 min at peak, 30 min otherwise; weekends and holidays 10 min at peak, 30 min otherwise"
+              ]
+            },
+            {
+              "label": "Fare",
+              "values": [
+                "Taipei city ↔ Jiufen NT$90 (concession NT$48), same for cash and transit cards"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/jiufen-bus-965-from-taipei-2.jpg", caption: "Jiufen Old Street in the evening with red lanterns and crowds." },
-        { type: "quote", text: "\"Exit 2 at Beimen going out, Exit 1 coming back.\" — a summary of the boarding note on the official Taiwan Tourist Shuttle timetable." },
-        { type: "p", html: "Plan where to eat once you arrive. The <a href=\"/region-jiufen\">Jiufen restaurant map</a> covers spots nearby, including <a href=\"/jiufen-taiwanese-77\">Meiping Xiaochi (美萍小吃)</a> by the Old Street. Boarding at Ximen? Fill up first at <a href=\"/taipei-taiwanese-675\">a popular Ximending restaurant</a> from our <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a>." },
-        { type: "note", text: "Based on Taipei e-bus route data and the Tourism Administration's Taiwan Tourist Shuttle timetable and fare table (as of October 2026). Routes, stops and frequency can change." },
-        { type: "cta", title: "Find Jiufen restaurants on the map", desc: "Check Jiufen restaurants that are easy to reach on bus 965.", btn: "Open the map →", href: "/map?region=jiufen" },
-      ],
-    },
+        {
+          "type": "p",
+          "html": "The timetable lists only on-the-hour departures; buses in between run flexibly depending on demand (as of October 2026)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Where to Board in Taipei"
+        },
+        {
+          "type": "p",
+          "html": "Toward Jiufen, the bus stops at MRT Fuzhong → New Taipei Banqiao Bus Station → Wanhua Station → MRT Ximen → Zhonghua Rd. North → MRT Beimen. At MRT Beimen, wait near Exit 2. After Beimen it runs on the elevated road and freeway without stopping until the Ruifang area. In Jiufen, get off at Jiufen Old Street (九份老街), after Jiufen Police Station and Daitian Temple."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-bus-965-from-taipei-1.jpg",
+          "caption": "Jiufen village on the hillside in daytime (not a photo of bus 965)."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F3521-jiufen-full-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Jiufen, Shifen & Yehliu day tour on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting Back and Good to Know"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Returning to Taipei",
+              "desc": "From Jiufen Old Street the bus stops at Ruifang Station, then MRT Beimen → Zhonghua Rd. North → MRT Ximen → Xiaonanmen → Wanhua Station. Ruifang Station is served only in the Taipei direction, and at Beimen you use the Exit 1 side."
+            },
+            {
+              "mark": "✓",
+              "b": "Reserved-seat runs",
+              "desc": "The 09:00 bus toward Jinguashi (boarding at Fuzhong, Ximen, Beimen) and the 16:00 bus toward Banqiao (boarding at Jinguashi and Ruifang Station) run as Taiwan Tourist Shuttle reserved services."
+            },
+            {
+              "mark": "✓",
+              "b": "Check for detours",
+              "desc": "Large events such as National Day celebrations can reroute the city section. Check route notices on the Taipei e-bus (5284) site before you go."
+            },
+            {
+              "mark": "✓",
+              "b": "Bring a transit card",
+              "desc": "Cash and card fares are the same, so an EasyCard saves fumbling for change."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/jiufen-bus-965-from-taipei-2.jpg",
+          "caption": "Jiufen Old Street in the evening with red lanterns and crowds."
+        },
+        {
+          "type": "quote",
+          "text": "\"Exit 2 at Beimen going out, Exit 1 coming back.\" — a summary of the boarding note on the official Taiwan Tourist Shuttle timetable."
+        },
+        {
+          "type": "p",
+          "html": "Plan where to eat once you arrive. The <a href=\"/region-jiufen\">Jiufen restaurant map</a> covers spots nearby, including <a href=\"/jiufen-taiwanese-77\">Meiping Xiaochi (美萍小吃)</a> by the Old Street. Boarding at Ximen? Fill up first at <a href=\"/taipei-taiwanese-675\">a popular Ximending restaurant</a> from our <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on Taipei e-bus route data and the Tourism Administration's Taiwan Tourist Shuttle timetable and fare table (as of October 2026). Routes, stops and frequency can change."
+        },
+        {
+          "type": "cta",
+          "title": "Find Jiufen restaurants on the map",
+          "desc": "Check Jiufen restaurants that are easy to reach on bus 965.",
+          "btn": "Open the map →",
+          "href": "/map?region=jiufen"
+        }
+      ]
+    }
   },
-
   "taiwan-food-menu-chinese-words": {
-    heroImage: "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg",
-    ko: {
-      pageTitle: "대만 메뉴판 중국어 — 대륙식과 다른 말 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "대만 메뉴판 중국어, 대륙식과 뭐가 다를까요? 土豆·鳳梨·蚵仔처럼 대만에서 다르게 쓰는 음식 단어를 교육부 사전 기준으로 정리했어요.",
-      ogTitle: "대만 메뉴판 중국어, 土豆가 감자가 아니라 땅콩이라고?",
-      eyebrow: "대만 여행 가이드 · 음식 중국어",
-      title: "대만 메뉴판 중국어, 土豆가 감자가 아니라 땅콩이라고?",
-      dek: "중국어를 조금 배웠어도 대만 메뉴판에서 헷갈리는 단어가 있어요 — 같은 한자, 다른 뜻부터 알아두세요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "대만 · 음식 가이드",
-      intro: "\"土豆면 감자 아닌가요?\" 대만 메뉴판 중국어는 중국 대륙에서 쓰는 말과 다른 단어가 꽤 있어요. 대만에서 土豆는 땅콩이고, 감자는 馬鈴薯라고 써요. 대만 교육부 『國語辭典簡編本』의 '양안 상용 어휘 대조표'와 『臺灣台語常用詞辭典』을 바탕으로 식당에서 자주 보는 단어를 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 대만 메뉴판 중국어, 헷갈리는 단어 한눈에 보기" },
+    "heroImage": "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg",
+    "ko": {
+      "pageTitle": "대만 메뉴판 중국어 — 대륙식과 다른 말 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "대만 메뉴판 중국어, 대륙식과 뭐가 다를까요? 土豆·鳳梨·蚵仔처럼 대만에서 다르게 쓰는 음식 단어를 교육부 사전 기준으로 정리했어요.",
+      "ogTitle": "대만 메뉴판 중국어, 土豆가 감자가 아니라 땅콩이라고?",
+      "eyebrow": "대만 여행 가이드 · 음식 중국어",
+      "title": "대만 메뉴판 중국어, 土豆가 감자가 아니라 땅콩이라고?",
+      "dek": "중국어를 조금 배웠어도 대만 메뉴판에서 헷갈리는 단어가 있어요 — 같은 한자, 다른 뜻부터 알아두세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "대만 · 음식 가이드",
+      "intro": "\"土豆면 감자 아닌가요?\" 대만 메뉴판 중국어는 중국 대륙에서 쓰는 말과 다른 단어가 꽤 있어요. 대만에서 土豆는 땅콩이고, 감자는 馬鈴薯라고 써요. 대만 교육부 『國語辭典簡編本』의 '양안 상용 어휘 대조표'와 『臺灣台語常用詞辭典』을 바탕으로 식당에서 자주 보는 단어를 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["뜻", "대만 메뉴", "대륙에서 흔한 말"],
-          rows: [
-            { label: "땅콩", values: ["土豆·花生", "花生·落花生"] },
-            { label: "감자", values: ["馬鈴薯", "洋芋·土豆"] },
-            { label: "감자칩", values: ["洋芋片", "薯片·土豆片"] },
-            { label: "파인애플", values: ["鳳梨", "菠蘿"] },
-            { label: "키위", values: ["奇異果", "獼猴桃"] },
-            { label: "아보카도", values: ["酪梨", "鱷梨"] },
-            { label: "양배추", values: ["高麗菜", "包心菜·圓白菜 등"] },
-            { label: "무", values: ["菜頭", "蘿蔔"] },
-            { label: "브로콜리", values: ["綠色花椰菜", "西蘭花"] },
-          ],
+          "type": "h2",
+          "text": "01 · 대만 메뉴판 중국어, 헷갈리는 단어 한눈에 보기"
         },
-        { type: "h2", text: "02 · 고기·생선·유제품 단어" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "생선", desc: "참치는 鮪魚(대륙 金槍魚·吞拿魚), 연어는 鮭魚(대륙 三文魚), 틸라피아는 吳郭魚(대륙 羅非魚)예요." },
-            { mark: "✓", b: "유제품", desc: "마시는 요구르트는 優酪乳(대륙 酸奶), 떠먹는 요구르트는 優格, 치즈는 起司(대륙 乳酪·芝士)라고 써요." },
-            { mark: "✓", b: "그 밖에", desc: "베이컨은 培根(대륙 煙肉), 도시락은 便當(대륙 盒飯), 일본식 계란찜은 茶碗蒸(대륙 蛋羹)이에요." },
+          "type": "compareTable",
+          "cities": [
+            "뜻",
+            "대만 메뉴",
+            "대륙에서 흔한 말"
           ],
+          "rows": [
+            {
+              "label": "땅콩",
+              "values": [
+                "土豆·花生",
+                "花生·落花生"
+              ]
+            },
+            {
+              "label": "감자",
+              "values": [
+                "馬鈴薯",
+                "洋芋·土豆"
+              ]
+            },
+            {
+              "label": "감자칩",
+              "values": [
+                "洋芋片",
+                "薯片·土豆片"
+              ]
+            },
+            {
+              "label": "파인애플",
+              "values": [
+                "鳳梨",
+                "菠蘿"
+              ]
+            },
+            {
+              "label": "키위",
+              "values": [
+                "奇異果",
+                "獼猴桃"
+              ]
+            },
+            {
+              "label": "아보카도",
+              "values": [
+                "酪梨",
+                "鱷梨"
+              ]
+            },
+            {
+              "label": "양배추",
+              "values": [
+                "高麗菜",
+                "包心菜·圓白菜 등"
+              ]
+            },
+            {
+              "label": "무",
+              "values": [
+                "菜頭",
+                "蘿蔔"
+              ]
+            },
+            {
+              "label": "브로콜리",
+              "values": [
+                "綠色花椰菜",
+                "西蘭花"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg", caption: "반숙 달걀을 올린 대만식 루러우판이에요(난터우 푸리에서 찍은 사진)." },
-        { type: "h2", text: "03 · 굴은 蚵仔, 무는 菜頭" },
-        { type: "p", html: "대만 메뉴에서 자주 보이는 蚵仔는 굴이에요. 대만어로 '오아(ô-á)'라고 읽고, 교육부 대만어 사전도 牡蠣(굴)로 풀이해요. 야시장 대표 메뉴 蚵仔煎이 바로 굴전이에요. 菜頭는 무를 가리켜서 菜頭粿는 무떡이에요. 豆花는 대만에서 그대로 豆花, 대륙에서는 豆腐腦·豆腐花라고도 불러요." },
-        { type: "figure", img: "assets/images/blog/taiwan-food-menu-chinese-words-2.jpg", caption: "그릇에 담긴 볶은 땅콩이에요. 대만에서는 土豆라고도 불러요(일반 이미지)." },
-        { type: "h2", text: "04 · 메뉴판 볼 때 기억할 점" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "대조표는 대표적인 쓰임이에요", desc: "대만에서도 番茄·蕃茄를 함께 쓰는 것처럼, 가게와 세대에 따라 표현이 섞여 있어요." },
-            { mark: "2", b: "土豆가 보이면 한 번 더 확인", desc: "감자를 기대했다면 메뉴 사진을 보거나 직원에게 가리켜 물어보세요." },
-            { mark: "3", b: "번체로 찾기", desc: "대만 메뉴판은 번체자로 적혀 있으니 번역 앱도 번체 중국어로 맞춰두면 편해요." },
-          ],
+          "type": "h2",
+          "text": "02 · 고기·생선·유제품 단어"
         },
-        { type: "quote", text: "\"같은 한자라도 대만에서는 뜻이 다를 수 있어요.\" — 대만과 대륙의 음식 단어 차이를 정리한 여행자 글을 요약했습니다." },
-        { type: "p", html: "단어를 익혔다면 직접 주문해볼 차례예요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 동선을 짜고, <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a> 중 여행자들이 루러우판과 무떡, 굴전을 맛있게 먹었다고 남긴 <a href=\"/taipei-taiwanese-684\">天天利美食坊</a>에서 메뉴판을 펼쳐보세요." },
-        { type: "note", text: "이 글은 대만 교육부 『國語辭典簡編本』 양안 상용 어휘 대조표와 『臺灣台語常用詞辭典』을 바탕으로 정리했습니다(2026년 10월 기준). 실제 메뉴 표기는 가게마다 다를 수 있어요." },
-        { type: "cta", title: "지도에서 타이베이 대만식 맛집을 찾아보세요", desc: "루러우판·굴전 같은 대만 음식을 먹기 좋은 타이베이 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=taipei&cat=taiwanese" },
-      ],
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "생선",
+              "desc": "참치는 鮪魚(대륙 金槍魚·吞拿魚), 연어는 鮭魚(대륙 三文魚), 틸라피아는 吳郭魚(대륙 羅非魚)예요."
+            },
+            {
+              "mark": "✓",
+              "b": "유제품",
+              "desc": "마시는 요구르트는 優酪乳(대륙 酸奶), 떠먹는 요구르트는 優格, 치즈는 起司(대륙 乳酪·芝士)라고 써요."
+            },
+            {
+              "mark": "✓",
+              "b": "그 밖에",
+              "desc": "베이컨은 培根(대륙 煙肉), 도시락은 便當(대륙 盒飯), 일본식 계란찜은 茶碗蒸(대륙 蛋羹)이에요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg",
+          "caption": "반숙 달걀을 올린 대만식 루러우판이에요(난터우 푸리에서 찍은 사진)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 굴은 蚵仔, 무는 菜頭"
+        },
+        {
+          "type": "p",
+          "html": "대만 메뉴에서 자주 보이는 蚵仔는 굴이에요. 대만어로 '오아(ô-á)'라고 읽고, 교육부 대만어 사전도 牡蠣(굴)로 풀이해요. 야시장 대표 메뉴 蚵仔煎이 바로 굴전이에요. 菜頭는 무를 가리켜서 菜頭粿는 무떡이에요. 豆花는 대만에서 그대로 豆花, 대륙에서는 豆腐腦·豆腐花라고도 불러요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-food-menu-chinese-words-2.jpg",
+          "caption": "그릇에 담긴 볶은 땅콩이에요. 대만에서는 土豆라고도 불러요(일반 이미지)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 메뉴판 볼 때 기억할 점"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "대조표는 대표적인 쓰임이에요",
+              "desc": "대만에서도 番茄·蕃茄를 함께 쓰는 것처럼, 가게와 세대에 따라 표현이 섞여 있어요."
+            },
+            {
+              "mark": "2",
+              "b": "土豆가 보이면 한 번 더 확인",
+              "desc": "감자를 기대했다면 메뉴 사진을 보거나 직원에게 가리켜 물어보세요."
+            },
+            {
+              "mark": "3",
+              "b": "번체로 찾기",
+              "desc": "대만 메뉴판은 번체자로 적혀 있으니 번역 앱도 번체 중국어로 맞춰두면 편해요."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"같은 한자라도 대만에서는 뜻이 다를 수 있어요.\" — 대만과 대륙의 음식 단어 차이를 정리한 여행자 글을 요약했습니다."
+        },
+        {
+          "type": "p",
+          "html": "단어를 익혔다면 직접 주문해볼 차례예요. <a href=\"/region-taipei\">타이베이 맛집 지도</a>에서 동선을 짜고, <a href=\"/taipei-taiwanese\">타이베이 대만식 맛집</a> 중 여행자들이 루러우판과 무떡, 굴전을 맛있게 먹었다고 남긴 <a href=\"/taipei-taiwanese-684\">天天利美食坊</a>에서 메뉴판을 펼쳐보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 대만 교육부 『國語辭典簡編本』 양안 상용 어휘 대조표와 『臺灣台語常用詞辭典』을 바탕으로 정리했습니다(2026년 10월 기준). 실제 메뉴 표기는 가게마다 다를 수 있어요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 대만식 맛집을 찾아보세요",
+          "desc": "루러우판·굴전 같은 대만 음식을 먹기 좋은 타이베이 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei&cat=taiwanese"
+        }
+      ]
     },
-    en: {
-      pageTitle: "Taiwanese Menu Chinese — Words That Differ · My Secret Taiwan Eats",
-      metaDescription: "Taiwanese menus use different food words from mainland Chinese. 土豆, 鳳梨, 蚵仔 and more, checked against Taiwan's Ministry of Education dictionary.",
-      ogTitle: "Reading a Taiwanese Menu: Why 土豆 Means Peanuts, Not Potatoes",
-      eyebrow: "Taiwan Travel Guide · Food Chinese",
-      title: "Reading a Taiwanese Menu: Why 土豆 Means Peanuts, Not Potatoes",
-      dek: "Even if you've studied some Chinese, a few menu words in Taiwan can trip you up — start with the ones that look the same but mean something else.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Taiwan · Food Guide",
-      intro: "\"Isn't 土豆 potato?\" Many food words on Taiwanese menus differ from mainland usage. In Taiwan, 土豆 means peanuts, and potato is 馬鈴薯. Here are the words you'll see most in restaurants, based on the cross-strait word table in Taiwan's Ministry of Education Concise Mandarin Dictionary and its Taiwanese Hokkien dictionary.",
-      blocks: [
-        { type: "h2", text: "01 · Menu Words at a Glance" },
+    "en": {
+      "pageTitle": "Taiwanese Menu Chinese — Words That Differ · My Secret Taiwan Eats",
+      "metaDescription": "Taiwanese menus use different food words from mainland Chinese. 土豆, 鳳梨, 蚵仔 and more, checked against Taiwan's Ministry of Education dictionary.",
+      "ogTitle": "Reading a Taiwanese Menu: Why 土豆 Means Peanuts, Not Potatoes",
+      "eyebrow": "Taiwan Travel Guide · Food Chinese",
+      "title": "Reading a Taiwanese Menu: Why 土豆 Means Peanuts, Not Potatoes",
+      "dek": "Even if you've studied some Chinese, a few menu words in Taiwan can trip you up — start with the ones that look the same but mean something else.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taiwan · Food Guide",
+      "intro": "\"Isn't 土豆 potato?\" Many food words on Taiwanese menus differ from mainland usage. In Taiwan, 土豆 means peanuts, and potato is 馬鈴薯. Here are the words you'll see most in restaurants, based on the cross-strait word table in Taiwan's Ministry of Education Concise Mandarin Dictionary and its Taiwanese Hokkien dictionary.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["Meaning", "On a Taiwanese menu", "Common on the mainland"],
-          rows: [
-            { label: "Peanuts", values: ["土豆·花生", "花生·落花生"] },
-            { label: "Potato", values: ["馬鈴薯", "洋芋·土豆"] },
-            { label: "Potato chips", values: ["洋芋片", "薯片·土豆片"] },
-            { label: "Pineapple", values: ["鳳梨", "菠蘿"] },
-            { label: "Kiwi", values: ["奇異果", "獼猴桃"] },
-            { label: "Avocado", values: ["酪梨", "鱷梨"] },
-            { label: "Cabbage", values: ["高麗菜", "包心菜·圓白菜, etc."] },
-            { label: "Radish", values: ["菜頭", "蘿蔔"] },
-            { label: "Broccoli", values: ["綠色花椰菜", "西蘭花"] },
-          ],
+          "type": "h2",
+          "text": "01 · Menu Words at a Glance"
         },
-        { type: "h2", text: "02 · Meat, Fish, and Dairy" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Fish", desc: "Tuna is 鮪魚 (mainland 金槍魚·吞拿魚), salmon is 鮭魚 (三文魚), and tilapia is 吳郭魚 (羅非魚)." },
-            { mark: "✓", b: "Dairy", desc: "Drinking yogurt is 優酪乳 (mainland 酸奶), spoonable yogurt is 優格, and cheese is 起司 (乳酪·芝士)." },
-            { mark: "✓", b: "Others", desc: "Bacon is 培根 (mainland 煙肉), a lunch box is 便當 (盒飯), and Japanese-style steamed egg is 茶碗蒸 (蛋羹)." },
+          "type": "compareTable",
+          "cities": [
+            "Meaning",
+            "On a Taiwanese menu",
+            "Common on the mainland"
           ],
+          "rows": [
+            {
+              "label": "Peanuts",
+              "values": [
+                "土豆·花生",
+                "花生·落花生"
+              ]
+            },
+            {
+              "label": "Potato",
+              "values": [
+                "馬鈴薯",
+                "洋芋·土豆"
+              ]
+            },
+            {
+              "label": "Potato chips",
+              "values": [
+                "洋芋片",
+                "薯片·土豆片"
+              ]
+            },
+            {
+              "label": "Pineapple",
+              "values": [
+                "鳳梨",
+                "菠蘿"
+              ]
+            },
+            {
+              "label": "Kiwi",
+              "values": [
+                "奇異果",
+                "獼猴桃"
+              ]
+            },
+            {
+              "label": "Avocado",
+              "values": [
+                "酪梨",
+                "鱷梨"
+              ]
+            },
+            {
+              "label": "Cabbage",
+              "values": [
+                "高麗菜",
+                "包心菜·圓白菜, etc."
+              ]
+            },
+            {
+              "label": "Radish",
+              "values": [
+                "菜頭",
+                "蘿蔔"
+              ]
+            },
+            {
+              "label": "Broccoli",
+              "values": [
+                "綠色花椰菜",
+                "西蘭花"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg", caption: "Taiwanese braised pork rice topped with a soft-boiled egg (photographed in Puli, Nantou)." },
-        { type: "h2", text: "03 · Oysters Are 蚵仔, Radish Is 菜頭" },
-        { type: "p", html: "蚵仔, common on Taiwanese menus, means oysters. It's read ô-á in Taiwanese, and the Ministry of Education's Taiwanese dictionary glosses it as 牡蠣 (oyster). The night-market classic 蚵仔煎 is an oyster omelette. 菜頭 means radish, so 菜頭粿 is radish cake. 豆花 stays 豆花 in Taiwan, while on the mainland it's also called 豆腐腦 or 豆腐花." },
-        { type: "figure", img: "assets/images/blog/taiwan-food-menu-chinese-words-2.jpg", caption: "A bowl of roasted peanuts, also called 土豆 in Taiwan (generic image)." },
-        { type: "h2", text: "04 · Tips for Reading the Menu" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "The table shows typical usage", desc: "Taiwan uses both 番茄 and 蕃茄 for tomato, and wording mixes by shop and generation." },
-            { mark: "2", b: "Double-check 土豆", desc: "If you were expecting potatoes, look at the menu photo or point and ask." },
-            { mark: "3", b: "Search in Traditional Chinese", desc: "Taiwanese menus use traditional characters, so set your translation app to Traditional Chinese." },
-          ],
+          "type": "h2",
+          "text": "02 · Meat, Fish, and Dairy"
         },
-        { type: "quote", text: "\"The same characters can mean something different in Taiwan.\" — a summary of a traveler's post on food words across the strait." },
-        { type: "p", html: "Once you know the words, try ordering. Plan your route with the <a href=\"/region-taipei\">Taipei restaurant map</a>, then open the menu at <a href=\"/taipei-taiwanese-684\">天天利美食坊</a>, one of our <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a>, where travelers enjoyed the braised pork rice, radish cake and oyster omelette." },
-        { type: "note", text: "Based on the cross-strait word table in Taiwan's Ministry of Education Concise Mandarin Dictionary and its Dictionary of Frequently-Used Taiwan Taigi (as of October 2026). Actual menu wording varies by shop." },
-        { type: "cta", title: "Find Taipei Taiwanese restaurants on the map", desc: "Check Taipei restaurants for braised pork rice, oyster omelette and other Taiwanese dishes.", btn: "Open the map →", href: "/map?region=taipei&cat=taiwanese" },
-      ],
-    },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Fish",
+              "desc": "Tuna is 鮪魚 (mainland 金槍魚·吞拿魚), salmon is 鮭魚 (三文魚), and tilapia is 吳郭魚 (羅非魚)."
+            },
+            {
+              "mark": "✓",
+              "b": "Dairy",
+              "desc": "Drinking yogurt is 優酪乳 (mainland 酸奶), spoonable yogurt is 優格, and cheese is 起司 (乳酪·芝士)."
+            },
+            {
+              "mark": "✓",
+              "b": "Others",
+              "desc": "Bacon is 培根 (mainland 煙肉), a lunch box is 便當 (盒飯), and Japanese-style steamed egg is 茶碗蒸 (蛋羹)."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-food-menu-chinese-words-1.jpg",
+          "caption": "Taiwanese braised pork rice topped with a soft-boiled egg (photographed in Puli, Nantou)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Oysters Are 蚵仔, Radish Is 菜頭"
+        },
+        {
+          "type": "p",
+          "html": "蚵仔, common on Taiwanese menus, means oysters. It's read ô-á in Taiwanese, and the Ministry of Education's Taiwanese dictionary glosses it as 牡蠣 (oyster). The night-market classic 蚵仔煎 is an oyster omelette. 菜頭 means radish, so 菜頭粿 is radish cake. 豆花 stays 豆花 in Taiwan, while on the mainland it's also called 豆腐腦 or 豆腐花."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taiwan-food-menu-chinese-words-2.jpg",
+          "caption": "A bowl of roasted peanuts, also called 土豆 in Taiwan (generic image)."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Tips for Reading the Menu"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "The table shows typical usage",
+              "desc": "Taiwan uses both 番茄 and 蕃茄 for tomato, and wording mixes by shop and generation."
+            },
+            {
+              "mark": "2",
+              "b": "Double-check 土豆",
+              "desc": "If you were expecting potatoes, look at the menu photo or point and ask."
+            },
+            {
+              "mark": "3",
+              "b": "Search in Traditional Chinese",
+              "desc": "Taiwanese menus use traditional characters, so set your translation app to Traditional Chinese."
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"The same characters can mean something different in Taiwan.\" — a summary of a traveler's post on food words across the strait."
+        },
+        {
+          "type": "p",
+          "html": "Once you know the words, try ordering. Plan your route with the <a href=\"/region-taipei\">Taipei restaurant map</a>, then open the menu at <a href=\"/taipei-taiwanese-684\">天天利美食坊</a>, one of our <a href=\"/taipei-taiwanese\">Taipei Taiwanese restaurants</a>, where travelers enjoyed the braised pork rice, radish cake and oyster omelette."
+        },
+        {
+          "type": "note",
+          "text": "Based on the cross-strait word table in Taiwan's Ministry of Education Concise Mandarin Dictionary and its Dictionary of Frequently-Used Taiwan Taigi (as of October 2026). Actual menu wording varies by shop."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei Taiwanese restaurants on the map",
+          "desc": "Check Taipei restaurants for braised pork rice, oyster omelette and other Taiwanese dishes.",
+          "btn": "Open the map →",
+          "href": "/map?region=taipei&cat=taiwanese"
+        }
+      ]
+    }
   },
-
   "kaohsiung-tainan-youbike-rental-tips": {
-    heroImage: "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-1.jpg",
-    ko: {
-      pageTitle: "가오슝 유바이크 — 타이난까지 요금·대여법 · 나만 알고 싶은 대만 맛집",
-      metaDescription: "가오슝·타이난 유바이크, 여행자도 빌릴 수 있을까요? 신용카드 단회 대여와 회원 가입 차이, 2.0·2.0E 요금, 가오슝 환승 할인, 주행 규칙을 정리했어요.",
-      ogTitle: "가오슝·타이난 유바이크, 여행자는 어떻게 빌리고 얼마 낼까?",
-      eyebrow: "가오슝·타이난 여행 가이드 · 교통",
-      title: "가오슝·타이난 유바이크, 여행자는 어떻게 빌리고 얼마 낼까?",
-      dek: "대만 번호가 없어도 탈 수는 있어요 — 다만 결제 방식에 따라 할인과 카드 한도가 달라져요.",
-      metaAuthor: "나만 알고 싶은 대만 맛집 편집팀",
-      metaTopic: "가오슝·타이난 · 교통 가이드",
-      intro: "\"가오슝 유바이크, 관광객도 그냥 빌릴 수 있나요?\" 가오슝 유바이크와 타이난 유바이크는 일반 자전거 YouBike 2.0과 전기보조자전거 YouBike 2.0E를 함께 운영해요. 여행자는 신용카드로 한 번씩 빌리는 '단회 대여'와 회원 가입 중에서 고르게 됩니다. YouBike 공식 요금표와 대만 교통 법규를 바탕으로 정리해봤어요.",
-      blocks: [
-        { type: "h2", text: "01 · 가오슝 유바이크 요금 한눈에 보기" },
+    "heroImage": "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-1.jpg",
+    "ko": {
+      "pageTitle": "가오슝 유바이크 — 타이난까지 요금·대여법 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝·타이난 유바이크, 여행자도 빌릴 수 있을까요? 신용카드 단회 대여와 회원 가입 차이, 2.0·2.0E 요금, 가오슝 환승 할인, 주행 규칙을 정리했어요.",
+      "ogTitle": "가오슝·타이난 유바이크, 여행자는 어떻게 빌리고 얼마 낼까?",
+      "eyebrow": "가오슝·타이난 여행 가이드 · 교통",
+      "title": "가오슝·타이난 유바이크, 여행자는 어떻게 빌리고 얼마 낼까?",
+      "dek": "대만 번호가 없어도 탈 수는 있어요 — 다만 결제 방식에 따라 할인과 카드 한도가 달라져요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝·타이난 · 교통 가이드",
+      "intro": "\"가오슝 유바이크, 관광객도 그냥 빌릴 수 있나요?\" 가오슝 유바이크와 타이난 유바이크는 일반 자전거 YouBike 2.0과 전기보조자전거 YouBike 2.0E를 함께 운영해요. 여행자는 신용카드로 한 번씩 빌리는 '단회 대여'와 회원 가입 중에서 고르게 됩니다. YouBike 공식 요금표와 대만 교통 법규를 바탕으로 정리해봤어요.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["YouBike 2.0", "YouBike 2.0E(전기보조)"],
-          rows: [
-            { label: "기본 요금", values: ["4시간 이내 30분당 NT$10", "첫 2시간 30분당 NT$20"] },
-            { label: "그 이후", values: ["4~8시간 30분당 NT$20, 8시간 초과 NT$40", "2시간 초과 30분당 NT$40"] },
-            { label: "가오슝 회원 보조", values: ["첫 30분 NT$5", "첫 30분 NT$10"] },
-            { label: "단회 대여", values: ["기본 요금, 보조 없음", "기본 요금, 보조 없음"] },
-          ],
+          "type": "h2",
+          "text": "01 · 가오슝 유바이크 요금 한눈에 보기"
         },
-        { type: "p", html: "30분이 안 돼도 30분으로 계산하고, 타이난도 기본 요금은 같아요(2026년 10월 기준). 보조금은 시 정부 공고에 따라 끝날 수 있어요." },
-        { type: "h2", text: "02 · 단회 대여와 회원 가입, 뭐가 다를까?" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "단회 대여(單次租車)", desc: "YouBike 앱에서 이메일 인증 후 신용카드(VISA·Master·JCB)를 등록하고 자전거의 QR코드를 스캔해 빌려요. NT$3,000이 사전 승인되고, 정상 반납하면 120시간 승인 기간이 끝난 뒤 자동 취소돼요. 한도가 돌아오는 시점은 카드사 영업일에 따라 달라요." },
-            { mark: "✓", b: "회원 가입", desc: "문자 인증용 대만 휴대폰 번호와 여권 번호가 필요하고, 이지카드(悠遊卡)나 이카통(一卡通)을 등록해 태그로 빌려요. 실명 정보를 넣으면 첫 번째 카드는 공공자전거 상해보험에 자동 가입돼요." },
-            { mark: "✓", b: "보험 먼저", desc: "단회 대여 안내에도 타기 전에 공공자전거 상해보험을 등록하라고 적혀 있어요." },
+          "type": "compareTable",
+          "cities": [
+            "YouBike 2.0",
+            "YouBike 2.0E(전기보조)"
           ],
+          "rows": [
+            {
+              "label": "기본 요금",
+              "values": [
+                "4시간 이내 30분당 NT$10",
+                "첫 2시간 30분당 NT$20"
+              ]
+            },
+            {
+              "label": "그 이후",
+              "values": [
+                "4~8시간 30분당 NT$20, 8시간 초과 NT$40",
+                "2시간 초과 30분당 NT$40"
+              ]
+            },
+            {
+              "label": "가오슝 회원 보조",
+              "values": [
+                "첫 30분 NT$5",
+                "첫 30분 NT$10"
+              ]
+            },
+            {
+              "label": "단회 대여",
+              "values": [
+                "기본 요금, 보조 없음",
+                "기본 요금, 보조 없음"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-1.jpg", caption: "거치대에 늘어선 노란색 유바이크예요(타이베이에서 찍은 사진)." },
-        { type: "h2", text: "03 · 가오슝은 이카통 환승 할인이 쏠쏠해요" },
-        { type: "p", html: "회원이 이카통으로 가오슝 MRT·경전철·버스·페리·대만철도를 탄 뒤 1시간 안에 카드를 태그해 빌리면, 2.0은 첫 30분이 무료이고 2.0E는 NT$5가 더 보조돼요. 이 할인은 카드 태그 대여에만 적용되고 이지카드는 해당되지 않아요. 타이난은 TPASS 정기권 소지자에게 첫 30분 무료 혜택이 있어요." },
-        { type: "h2", text: "04 · 타기 전에 알아둘 주행 규칙" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "차도 오른쪽으로", desc: "대만 법규상 자전거는 서행 차로(慢車道)에서 오른쪽으로 달리고, 서행 차로가 없으면 도로 오른쪽 가장자리로 다녀야 해요." },
-            { mark: "2", b: "인도는 표지가 있을 때만", desc: "자전거 표지·표선이 있는 인도만 달릴 수 있고, 아케이드(騎樓)는 안 돼요. 위반하면 NT$300~1,200 벌금이에요." },
-            { mark: "3", b: "헬멧은 직접", desc: "유바이크는 헬멧을 빌려주지 않아요." },
-          ],
+          "type": "p",
+          "html": "30분이 안 돼도 30분으로 계산하고, 타이난도 기본 요금은 같아요(2026년 10월 기준). 보조금은 시 정부 공고에 따라 끝날 수 있어요."
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-2.jpg", caption: "차와 스쿠터가 오가는 타이난 시내 도로예요(타이난에서 찍은 사진)." },
-        { type: "quote", text: "\"유바이크는 30분 단위로 계산하니, 짧게 끊어 타고 거치대에 반납하는 습관이 요금을 아껴줘요.\" — 공식 요금표를 바탕으로 정리한 한 줄 요약입니다." },
-        { type: "p", html: "자전거로 돌 동선을 정했다면 먹을 곳도 함께 보세요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 <a href=\"/kaohsiung-cafe\">가오슝 카페 맛집</a> 중 <a href=\"/kaohsiung-cafe-741\">신촨 원앙 밀크티</a>를 쉬어 가는 곳으로 넣고, 타이난에서는 <a href=\"/region-tainan\">타이난 맛집 지도</a>와 <a href=\"/tainan-noodle\">타이난 국수 맛집</a>의 <a href=\"/tainan-noodle-757\">샤오공위엔 담자면</a>도 확인해보세요. 일정 전체가 고민이라면 <a href=\"/blog-kaohsiung-3n4d-with-mom-itinerary-check\">가오슝 3박4일 부모님 일정</a> 글도 참고해보세요." },
-        { type: "note", text: "이 글은 YouBike 가오슝·타이난 공식 요금·회원·보험 안내와 대만 도로교통안전규칙, 내정부 경정서 안내를 바탕으로 정리했습니다(2026년 10월 기준). 요금과 보조금은 바뀔 수 있으니 타기 전 YouBike 앱에서 다시 확인해주세요." },
-        { type: "cta", title: "지도에서 타이난 맛집을 찾아보세요", desc: "유바이크로 들르기 좋은 타이난 식당을 지도에서 확인해보세요.", btn: "지도 열기 →", href: "/map?region=tainan" },
-      ],
+        {
+          "type": "h2",
+          "text": "02 · 단회 대여와 회원 가입, 뭐가 다를까?"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "단회 대여(單次租車)",
+              "desc": "YouBike 앱에서 이메일 인증 후 신용카드(VISA·Master·JCB)를 등록하고 자전거의 QR코드를 스캔해 빌려요. NT$3,000이 사전 승인되고, 정상 반납하면 120시간 승인 기간이 끝난 뒤 자동 취소돼요. 한도가 돌아오는 시점은 카드사 영업일에 따라 달라요."
+            },
+            {
+              "mark": "✓",
+              "b": "회원 가입",
+              "desc": "문자 인증용 대만 휴대폰 번호와 여권 번호가 필요하고, 이지카드(悠遊卡)나 이카통(一卡通)을 등록해 태그로 빌려요. 실명 정보를 넣으면 첫 번째 카드는 공공자전거 상해보험에 자동 가입돼요."
+            },
+            {
+              "mark": "✓",
+              "b": "보험 먼저",
+              "desc": "단회 대여 안내에도 타기 전에 공공자전거 상해보험을 등록하라고 적혀 있어요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-1.jpg",
+          "caption": "거치대에 늘어선 노란색 유바이크예요(타이베이에서 찍은 사진)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가오슝은 이카통 환승 할인이 쏠쏠해요"
+        },
+        {
+          "type": "p",
+          "html": "회원이 이카통으로 가오슝 MRT·경전철·버스·페리·대만철도를 탄 뒤 1시간 안에 카드를 태그해 빌리면, 2.0은 첫 30분이 무료이고 2.0E는 NT$5가 더 보조돼요. 이 할인은 카드 태그 대여에만 적용되고 이지카드는 해당되지 않아요. 타이난은 TPASS 정기권 소지자에게 첫 30분 무료 혜택이 있어요."
+        },
+        {
+          "type": "h2",
+          "text": "04 · 타기 전에 알아둘 주행 규칙"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "차도 오른쪽으로",
+              "desc": "대만 법규상 자전거는 서행 차로(慢車道)에서 오른쪽으로 달리고, 서행 차로가 없으면 도로 오른쪽 가장자리로 다녀야 해요."
+            },
+            {
+              "mark": "2",
+              "b": "인도는 표지가 있을 때만",
+              "desc": "자전거 표지·표선이 있는 인도만 달릴 수 있고, 아케이드(騎樓)는 안 돼요. 위반하면 NT$300~1,200 벌금이에요."
+            },
+            {
+              "mark": "3",
+              "b": "헬멧은 직접",
+              "desc": "유바이크는 헬멧을 빌려주지 않아요."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-2.jpg",
+          "caption": "차와 스쿠터가 오가는 타이난 시내 도로예요(타이난에서 찍은 사진)."
+        },
+        {
+          "type": "quote",
+          "text": "\"유바이크는 30분 단위로 계산하니, 짧게 끊어 타고 거치대에 반납하는 습관이 요금을 아껴줘요.\" — 공식 요금표를 바탕으로 정리한 한 줄 요약입니다."
+        },
+        {
+          "type": "p",
+          "html": "자전거로 돌 동선을 정했다면 먹을 곳도 함께 보세요. <a href=\"/region-kaohsiung\">가오슝 맛집 지도</a>에서 <a href=\"/kaohsiung-cafe\">가오슝 카페 맛집</a> 중 <a href=\"/kaohsiung-cafe-741\">신촨 원앙 밀크티</a>를 쉬어 가는 곳으로 넣고, 타이난에서는 <a href=\"/region-tainan\">타이난 맛집 지도</a>와 <a href=\"/tainan-noodle\">타이난 국수 맛집</a>의 <a href=\"/tainan-noodle-757\">샤오공위엔 담자면</a>도 확인해보세요. 일정 전체가 고민이라면 <a href=\"/blog-kaohsiung-3n4d-with-mom-itinerary-check\">가오슝 3박4일 부모님 일정</a> 글도 참고해보세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 YouBike 가오슝·타이난 공식 요금·회원·보험 안내와 대만 도로교통안전규칙, 내정부 경정서 안내를 바탕으로 정리했습니다(2026년 10월 기준). 요금과 보조금은 바뀔 수 있으니 타기 전 YouBike 앱에서 다시 확인해주세요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이난 맛집을 찾아보세요",
+          "desc": "유바이크로 들르기 좋은 타이난 식당을 지도에서 확인해보세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=tainan"
+        }
+      ]
     },
-    en: {
-      pageTitle: "YouBike in Kaohsiung & Tainan — Fares and Rental · My Secret Taiwan Eats",
-      metaDescription: "How visitors rent YouBike in Kaohsiung and Tainan — single rental by credit card vs. membership, 2.0 and 2.0E fares, Kaohsiung transfer discounts, and riding rules.",
-      ogTitle: "YouBike in Kaohsiung and Tainan: How Visitors Rent and What It Costs",
-      eyebrow: "Kaohsiung & Tainan Travel Guide · Transport",
-      title: "YouBike in Kaohsiung and Tainan: How Visitors Rent and What It Costs",
-      dek: "You can ride without a Taiwanese number — but how you pay changes the discounts and the hold on your card.",
-      metaAuthor: "My Secret Taiwan Eats Editorial",
-      metaTopic: "Kaohsiung & Tainan · Transport Guide",
-      intro: "\"Can tourists just rent a YouBike in Kaohsiung?\" Kaohsiung and Tainan run both regular YouBike 2.0 bikes and YouBike 2.0E e-assist bikes. Visitors choose between a credit-card \"single rental\" and full membership. Here's how it works, based on YouBike's official fare pages and Taiwan's traffic rules.",
-      blocks: [
-        { type: "h2", text: "01 · Kaohsiung YouBike Fares at a Glance" },
+    "en": {
+      "pageTitle": "YouBike in Kaohsiung & Tainan — Fares and Rental · My Secret Taiwan Eats",
+      "metaDescription": "How visitors rent YouBike in Kaohsiung and Tainan — single rental by credit card vs. membership, 2.0 and 2.0E fares, Kaohsiung transfer discounts, and riding rules.",
+      "ogTitle": "YouBike in Kaohsiung and Tainan: How Visitors Rent and What It Costs",
+      "eyebrow": "Kaohsiung & Tainan Travel Guide · Transport",
+      "title": "YouBike in Kaohsiung and Tainan: How Visitors Rent and What It Costs",
+      "dek": "You can ride without a Taiwanese number — but how you pay changes the discounts and the hold on your card.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung & Tainan · Transport Guide",
+      "intro": "\"Can tourists just rent a YouBike in Kaohsiung?\" Kaohsiung and Tainan run both regular YouBike 2.0 bikes and YouBike 2.0E e-assist bikes. Visitors choose between a credit-card \"single rental\" and full membership. Here's how it works, based on YouBike's official fare pages and Taiwan's traffic rules.",
+      "blocks": [
         {
-          type: "compareTable",
-          cities: ["YouBike 2.0", "YouBike 2.0E (e-assist)"],
-          rows: [
-            { label: "Base fare", values: ["NT$10 per 30 min within 4 hours", "NT$20 per 30 min for the first 2 hours"] },
-            { label: "After that", values: ["NT$20 per 30 min for 4–8 hours, NT$40 after 8 hours", "NT$40 per 30 min after 2 hours"] },
-            { label: "Kaohsiung member subsidy", values: ["NT$5 off the first 30 min", "NT$10 off the first 30 min"] },
-            { label: "Single rental", values: ["Base fare, no subsidy", "Base fare, no subsidy"] },
-          ],
+          "type": "h2",
+          "text": "01 · Kaohsiung YouBike Fares at a Glance"
         },
-        { type: "p", html: "Anything under 30 minutes counts as 30 minutes, and Tainan's base fares are the same (as of October 2026). Subsidies can end according to city government notices." },
-        { type: "h2", text: "02 · Single Rental vs. Membership" },
         {
-          type: "tipList",
-          items: [
-            { mark: "✓", b: "Single rental (單次租車)", desc: "In the YouBike app, verify your email, add a credit card (VISA, Master or JCB) and scan the bike's QR code. NT$3,000 is pre-authorized; after a normal return, the hold is released automatically when the 120-hour authorization ends. When the limit comes back depends on your card issuer's business days." },
-            { mark: "✓", b: "Membership", desc: "You need a Taiwanese mobile number for SMS verification and your passport number, then register an EasyCard (悠遊卡) or iPASS (一卡通) and tap to rent. Enter your real-name details and the first card is automatically covered by public bike accident insurance." },
-            { mark: "✓", b: "Insurance first", desc: "The single-rental guide also tells riders to register for public bike accident insurance before riding." },
+          "type": "compareTable",
+          "cities": [
+            "YouBike 2.0",
+            "YouBike 2.0E (e-assist)"
           ],
+          "rows": [
+            {
+              "label": "Base fare",
+              "values": [
+                "NT$10 per 30 min within 4 hours",
+                "NT$20 per 30 min for the first 2 hours"
+              ]
+            },
+            {
+              "label": "After that",
+              "values": [
+                "NT$20 per 30 min for 4–8 hours, NT$40 after 8 hours",
+                "NT$40 per 30 min after 2 hours"
+              ]
+            },
+            {
+              "label": "Kaohsiung member subsidy",
+              "values": [
+                "NT$5 off the first 30 min",
+                "NT$10 off the first 30 min"
+              ]
+            },
+            {
+              "label": "Single rental",
+              "values": [
+                "Base fare, no subsidy",
+                "Base fare, no subsidy"
+              ]
+            }
+          ]
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-1.jpg", caption: "Yellow YouBikes lined up at a rack (photographed in Taipei)." },
-        { type: "h2", text: "03 · Kaohsiung's iPASS Transfer Discount" },
-        { type: "p", html: "If a member rides Kaohsiung's MRT, light rail, buses, ferries or Taiwan Railway with iPASS and then taps the same card to rent within an hour, the first 30 minutes on a 2.0 are free and a 2.0E gets an extra NT$5 off. It only applies to card-tap rentals, and EasyCard isn't eligible. In Tainan, TPASS pass holders get the first 30 minutes free." },
-        { type: "h2", text: "04 · Riding Rules to Know" },
         {
-          type: "tipList",
-          items: [
-            { mark: "1", b: "Keep right on the road", desc: "Under Taiwan's rules, bicycles ride on the right in the slow-vehicle lane (慢車道), or along the right edge of the road where there isn't one." },
-            { mark: "2", b: "Sidewalks only where marked", desc: "You may ride only on sidewalks with bicycle signs or markings, never in arcades (騎樓). Fines run NT$300–1,200." },
-            { mark: "3", b: "Bring your own helmet", desc: "YouBike doesn't lend helmets." },
-          ],
+          "type": "p",
+          "html": "Anything under 30 minutes counts as 30 minutes, and Tainan's base fares are the same (as of October 2026). Subsidies can end according to city government notices."
         },
-        { type: "figure", img: "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-2.jpg", caption: "A busy street in central Tainan with cars and scooters (photographed in Tainan)." },
-        { type: "quote", text: "\"YouBike charges by the half hour, so short rides and prompt returns keep the cost down.\" — a one-line takeaway from the official fare table." },
-        { type: "p", html: "Once your route is set, plan where to eat. On the <a href=\"/region-kaohsiung\">Kaohsiung restaurant map</a>, add <a href=\"/kaohsiung-cafe-741\">a yuanyang milk tea shop</a> from our <a href=\"/kaohsiung-cafe\">Kaohsiung cafes</a> as a rest stop, and in Tainan check the <a href=\"/region-tainan\">Tainan restaurant map</a> and <a href=\"/tainan-noodle-757\">a danzai noodle shop</a> among our <a href=\"/tainan-noodle\">Tainan noodle spots</a>. Still planning the whole trip? See our <a href=\"/blog-kaohsiung-3n4d-with-mom-itinerary-check\">Kaohsiung 3-night itinerary with parents</a>." },
-        { type: "note", text: "Based on YouBike's official Kaohsiung and Tainan fare, membership and insurance pages, Taiwan's Road Traffic Safety Rules and National Police Agency guidance (as of October 2026). Fares and subsidies can change, so check the YouBike app before you ride." },
-        { type: "cta", title: "Find Tainan restaurants on the map", desc: "Check Tainan restaurants that are easy to reach by YouBike.", btn: "Open the map →", href: "/map?region=tainan" },
-      ],
-    },
+        {
+          "type": "h2",
+          "text": "02 · Single Rental vs. Membership"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Single rental (單次租車)",
+              "desc": "In the YouBike app, verify your email, add a credit card (VISA, Master or JCB) and scan the bike's QR code. NT$3,000 is pre-authorized; after a normal return, the hold is released automatically when the 120-hour authorization ends. When the limit comes back depends on your card issuer's business days."
+            },
+            {
+              "mark": "✓",
+              "b": "Membership",
+              "desc": "You need a Taiwanese mobile number for SMS verification and your passport number, then register an EasyCard (悠遊卡) or iPASS (一卡通) and tap to rent. Enter your real-name details and the first card is automatically covered by public bike accident insurance."
+            },
+            {
+              "mark": "✓",
+              "b": "Insurance first",
+              "desc": "The single-rental guide also tells riders to register for public bike accident insurance before riding."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-1.jpg",
+          "caption": "Yellow YouBikes lined up at a rack (photographed in Taipei)."
+        },
+        {
+          "type": "h2",
+          "text": "03 · Kaohsiung's iPASS Transfer Discount"
+        },
+        {
+          "type": "p",
+          "html": "If a member rides Kaohsiung's MRT, light rail, buses, ferries or Taiwan Railway with iPASS and then taps the same card to rent within an hour, the first 30 minutes on a 2.0 are free and a 2.0E gets an extra NT$5 off. It only applies to card-tap rentals, and EasyCard isn't eligible. In Tainan, TPASS pass holders get the first 30 minutes free."
+        },
+        {
+          "type": "h2",
+          "text": "04 · Riding Rules to Know"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Keep right on the road",
+              "desc": "Under Taiwan's rules, bicycles ride on the right in the slow-vehicle lane (慢車道), or along the right edge of the road where there isn't one."
+            },
+            {
+              "mark": "2",
+              "b": "Sidewalks only where marked",
+              "desc": "You may ride only on sidewalks with bicycle signs or markings, never in arcades (騎樓). Fines run NT$300–1,200."
+            },
+            {
+              "mark": "3",
+              "b": "Bring your own helmet",
+              "desc": "YouBike doesn't lend helmets."
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-tainan-youbike-rental-tips-2.jpg",
+          "caption": "A busy street in central Tainan with cars and scooters (photographed in Tainan)."
+        },
+        {
+          "type": "quote",
+          "text": "\"YouBike charges by the half hour, so short rides and prompt returns keep the cost down.\" — a one-line takeaway from the official fare table."
+        },
+        {
+          "type": "p",
+          "html": "Once your route is set, plan where to eat. On the <a href=\"/region-kaohsiung\">Kaohsiung restaurant map</a>, add <a href=\"/kaohsiung-cafe-741\">a yuanyang milk tea shop</a> from our <a href=\"/kaohsiung-cafe\">Kaohsiung cafes</a> as a rest stop, and in Tainan check the <a href=\"/region-tainan\">Tainan restaurant map</a> and <a href=\"/tainan-noodle-757\">a danzai noodle shop</a> among our <a href=\"/tainan-noodle\">Tainan noodle spots</a>. Still planning the whole trip? See our <a href=\"/blog-kaohsiung-3n4d-with-mom-itinerary-check\">Kaohsiung 3-night itinerary with parents</a>."
+        },
+        {
+          "type": "note",
+          "text": "Based on YouBike's official Kaohsiung and Tainan fare, membership and insurance pages, Taiwan's Road Traffic Safety Rules and National Police Agency guidance (as of October 2026). Fares and subsidies can change, so check the YouBike app before you ride."
+        },
+        {
+          "type": "cta",
+          "title": "Find Tainan restaurants on the map",
+          "desc": "Check Tainan restaurants that are easy to reach by YouBike.",
+          "btn": "Open the map →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    }
   },
-
   "yilan-kavalan-distillery-cafe-course": {
     "heroImage": "assets/images/blog/yilan-kavalan-distillery-cafe-course-1.jpg",
     "ko": {
@@ -27399,7 +34184,6 @@ const BLOG_POSTS = {
       ]
     }
   },
-
   "taiwan-7-eleven-self-microwave-qr": {
     "heroImage": "assets/images/blog/taiwan-7-eleven-self-microwave-qr-1.jpg",
     "ko": {
@@ -27703,7 +34487,6 @@ const BLOG_POSTS = {
       ]
     }
   },
-
   "taiwan-google-translate-camera-menu": {
     "heroImage": "assets/images/blog/taiwan-google-translate-camera-menu-1.jpg",
     "ko": {
@@ -28001,7 +34784,6 @@ const BLOG_POSTS = {
       ]
     }
   },
-
   "taipei-station-luggage-storage": {
     "heroImage": "assets/images/blog/taipei-station-luggage-storage-1.jpg",
     "ko": {
@@ -28332,5 +35114,5 @@ const BLOG_POSTS = {
         }
       ]
     }
-  },
+  }
 };

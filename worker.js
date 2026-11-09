@@ -23,6 +23,8 @@ export default {
 
     // Spots whose URL changed after a category/name fix (old slug -> new slug).
     const MOVED_SPOTS = {
+      "/blog-kaohsiung-shoushan-zoo-ticket-nearby-eats": "/blog-kaohsiung-shoushan-zoo-tickets-kids-tips",
+      "/en/blog-kaohsiung-shoushan-zoo-ticket-nearby-eats": "/en/blog-kaohsiung-shoushan-zoo-tickets-kids-tips",
       "/taipei-taiwanese-buckhon-tofu-guilin-prosperity-plaza-bra-85": "/taipei-korean-85",
     };
     const movedKey = url.pathname.replace(/\.html$/, "");
