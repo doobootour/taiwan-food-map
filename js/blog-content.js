@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kaohsiung-shoushan-zoo-ticket-nearby-eats",
+    "image": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
+    "regions": [
+      "kaohsiung"
+    ],
+    "ko": {
+      "eyebrow": "가오슝 여행 가이드 · 볼거리·먹거리",
+      "title": "서우산 동물원 입장권과 근처 맛집, 동물 보고 어디서 먹을까?",
+      "desc": "가오슝 서우산 동물원의 운영 시간과 입장료, 가는 법과 원숭이 주의, 둘러본 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "meta": "가오슝 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Kaohsiung Travel Guide · Sights & Food",
+      "title": "Shoushan Zoo Tickets and Nearby Eats: Where to Eat After Seeing the Animals",
+      "desc": "Kaohsiung Shoushan Zoo's hours and admission, how to get there, a monkey warning, and nearby restaurants from our map for after your visit.",
+      "meta": "Kaohsiung · Sights & Food"
+    }
+  },
+  {
     "slug": "kenting-national-museum-marine-biology-aquarium-ticket-eats",
     "image": "assets/images/attractions/kenting/nmmba.webp",
     "regions": [
@@ -1871,6 +1890,333 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kaohsiung-shoushan-zoo-ticket-nearby-eats": {
+    "heroImage": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
+    "ko": {
+      "pageTitle": "서우산 동물원 입장권·근처 맛집 — 가오슝 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 서우산 동물원의 운영 시간과 입장료, 가는 법과 원숭이 주의, 둘러본 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "서우산 동물원 입장권과 근처 맛집, 동물 보고 어디서 먹을까?",
+      "eyebrow": "가오슝 여행 가이드 · 볼거리·먹거리",
+      "title": "서우산 동물원 입장권과 근처 맛집, 동물 보고 어디서 먹을까?",
+      "dek": "가오슝 시내 산 위 동물원을 둘러본 다음, 지도에 등록된 근처 맛집까지 한 번에 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "가오슝 · 볼거리·먹거리",
+      "intro": "서우산 동물원(壽山動物園)은 가오슝 시내 서우산(壽山) 자락에 있는 시립 동물원이에요. 高雄市壽山動物園 공식 사이트를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 서우산 동물원은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "가오슝 시내에서 가까운 산 위 동물원이라 아이와 반나절 나들이로 가기 좋아요. 아이와 갈 때 챙길 점은 <a href=\"/blog-kaohsiung-shoushan-zoo-tickets-kids-tips\">서우산 동물원 입장권·아이 동반 팁</a> 글에 따로 정리해뒀어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
+          "caption": "서우산 동물원이에요(사진: Yu tptw / Wikimedia Commons, CC BY-SA 4.0, 2024년 2월 촬영)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 가기 전에 알아둘 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "원숭이 주의",
+              "desc": "서우산에는 야생 원숭이가 많아요. 음식이나 비닐봉지를 손에 들고 다니지 마세요."
+            },
+            {
+              "mark": "✓",
+              "b": "월요일 휴무",
+              "desc": "월요일은 쉬지만 공휴일이면 열어요. 음력 섣달 그믐날도 쉬어요."
+            },
+            {
+              "mark": "✓",
+              "b": "입장 마감",
+              "desc": "16:30에 입장을 마감해요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "버스",
+              "desc": "56번 버스로 동물원 앞까지 가요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 운영 시간과 요금 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "내용"
+          ],
+          "rows": [
+            {
+              "label": "운영 시간",
+              "values": [
+                "화~일 09:00~17:00 (입장 마감 16:30)"
+              ]
+            },
+            {
+              "label": "휴무",
+              "values": [
+                "월요일(공휴일은 운영), 음력 섣달 그믐날"
+              ]
+            },
+            {
+              "label": "입장료",
+              "values": [
+                "일반 NT$40, 6~17세 NT$20, 6세 미만 무료"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F85862-kaohsiung-shoushan-zoo%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 서우산 동물원 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · 둘러본 뒤 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/kaohsiung-thai-song-dang-yeshi-restaurant-808\">Song Dang Yeshi Restaurant 送噹夜市餐廳</a> · 태국 · 남쪽 약 0.9km",
+              "desc": "지도 메모: 태국 밀크티가 지금까지 먹은 것 중 최고였고, 겉바속촉 닭구이도 아이가 잘 먹었다."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/kaohsiung-taiwanese-743\">라오디엔 바이홍 루자오 옌청점</a> · 대만식 · 남동쪽 약 1.0km",
+              "desc": "지도 메모: 미쉐린 빕 구르망 선정점이며 현지인이 많았고, 5,000원의 행복이었다고 평가함."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/kaohsiung-breakfast-742\">아이지 조식</a> · 조식 · 남동쪽 약 1.1km",
+              "desc": "지도 메모: 현지인 포장이 이어졌고, 바삭한 딴삥이라 추천한다고 씀."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/kaohsiung-taiwanese-x-809\">柒壹喫堂x鹽海小餐館</a> · 대만식 · 남동쪽 약 1.2km",
+              "desc": "지도 메모: 직원이 메뉴를 친절히 설명해주고, 설렁탕과 똠얌 사이 느낌의 국물·옥수수·오징어 요리가 독특하고 맛있다."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/kaohsiung-hotpot-711\">京華餐廳</a> · 훠궈 · 남동쪽 약 1.3km",
+              "desc": "지도 메모: 현지 친구들의 강력 추천으로 갔고 음식 하나하나 다 맛있었으며 쏸차이 훠궈가 특히 유명하다고 소개."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/kaohsiung-shaved_ice-737\">옌청 우자 금귤 또우화</a> · 빙수 · 남동쪽 약 1.4km",
+              "desc": "지도 메모: 금귤또우화가 더운 날씨에 정말 잘 어울리는 맛이라고 평가함."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/kaohsiung-breakfast-745\">류제 전통 판투안·단삥 전문점</a> · 조식 · 남동쪽 약 1.4km",
+              "desc": "지도 메모: 현지인 전화·포장이 많은 조식집이며, 뤄보까오와 판투안이 맛있다고 평가함."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 高雄市壽山動物園 공식 사이트의 운영 시간·입장료·교통 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 시간과 요금은 바뀔 수 있으니 방문 전 공식 사이트를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 가오슝 맛집도 확인해보세요",
+          "desc": "동물원 일정 앞뒤로 들를 가오슝 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Shoushan Zoo Tickets & Nearby Eats — Kaohsiung · My Secret Taiwan Eats",
+      "metaDescription": "Kaohsiung Shoushan Zoo's hours and admission, how to get there, a monkey warning, and nearby restaurants from our map for after your visit.",
+      "ogTitle": "Shoushan Zoo Tickets and Nearby Eats: Where to Eat After Seeing the Animals",
+      "eyebrow": "Kaohsiung Travel Guide · Sights & Food",
+      "title": "Shoushan Zoo Tickets and Nearby Eats: Where to Eat After Seeing the Animals",
+      "dek": "Visit the hilltop zoo in central Kaohsiung, then pick a nearby restaurant from our map in one go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kaohsiung · Sights & Food",
+      "intro": "Shoushan Zoo (壽山動物園) is a city zoo on the slopes of Shoushan (壽山) in central Kaohsiung. Based on the official 高雄市壽山動物園 site, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is Shoushan Zoo?"
+        },
+        {
+          "type": "p",
+          "html": "A hilltop zoo close to central Kaohsiung, good for a half-day outing with kids. For tips on going with children, see our separate post on <a href=\"/blog-kaohsiung-shoushan-zoo-tickets-kids-tips\">Shoushan Zoo tickets and tips with kids</a>."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/kaohsiung-shoushan-zoo-tickets-kids-tips-1.jpg",
+          "caption": "Shoushan Zoo (photo: Yu tptw / Wikimedia Commons, CC BY-SA 4.0, taken February 2024)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Good to Know Before You Go"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Watch out for monkeys",
+              "desc": "There are many wild monkeys on Shoushan. Don't carry food or plastic bags in your hands."
+            },
+            {
+              "mark": "✓",
+              "b": "Closed Mondays",
+              "desc": "Closed on Mondays but open if it's a public holiday. Also closed on Lunar New Year's Eve."
+            },
+            {
+              "mark": "✓",
+              "b": "Last entry",
+              "desc": "Last entry is at 16:30."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Bus",
+              "desc": "Bus 56 goes to the zoo entrance."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Hours and Admission (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Details"
+          ],
+          "rows": [
+            {
+              "label": "Hours",
+              "values": [
+                "Tue–Sun 09:00–17:00 (last entry 16:30)"
+              ]
+            },
+            {
+              "label": "Closed",
+              "values": [
+                "Mondays (open on public holidays), Lunar New Year's Eve"
+              ]
+            },
+            {
+              "label": "Admission",
+              "values": [
+                "General NT$40, ages 6–17 NT$20, under 6 free"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F85862-kaohsiung-shoushan-zoo%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Shoushan Zoo tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · Nearby Restaurants for After Your Visit"
+        },
+        {
+          "type": "p",
+          "html": "Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/kaohsiung-thai-song-dang-yeshi-restaurant-808\">Song Dang Yeshi Restaurant 送噹夜市餐廳</a> · Thai · about 0.9 km south",
+              "desc": "Map note: The best Thai milk tea I've had so far, and our child loved the crispy-outside, juicy-inside grilled chicken."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/kaohsiung-taiwanese-743\">Laodian Baihong Lurou Rice, Yancheng Branch</a> · Taiwanese · about 1.0 km southeast",
+              "desc": "Map note: A Michelin Bib Gourmand pick full of locals; 'happiness for about 5,000 won'."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/kaohsiung-breakfast-742\">Aiji Breakfast</a> · Breakfast · about 1.1 km southeast",
+              "desc": "Map note: A steady stream of locals getting takeout; recommends the crispy danbing."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/kaohsiung-taiwanese-x-809\">柒壹喫堂x鹽海小餐館</a> · Taiwanese · about 1.2 km southeast",
+              "desc": "Map note: Staff kindly explained the menu. The broth, somewhere between seolleongtang and tom yum, plus the corn and squid dishes, were unique and tasty."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/kaohsiung-hotpot-711\">京華餐廳</a> · Hot Pot · about 1.3 km southeast",
+              "desc": "Map note: Went on local friends' strong recommendation. Every dish was tasty, and the pickled cabbage (酸菜) hot pot is said to be especially famous."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/kaohsiung-shaved_ice-737\">Yancheng Wu Family Kumquat Douhua</a> · Shaved Ice · about 1.4 km southeast",
+              "desc": "Map note: The kumquat douhua goes really well with hot weather."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/kaohsiung-breakfast-745\">Liu's Traditional Rice Ball & Danbing Shop</a> · Breakfast · about 1.4 km southeast",
+              "desc": "Map note: A breakfast spot with lots of locals calling in and taking out; the turnip cake and rice balls are tasty."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on the official 高雄市壽山動物園 site's hours, admission and transport information, as of October 2026. Hours and prices can change, so check the official site before you go. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Yu tptw, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kaohsiung eats on the map",
+          "desc": "Save Kaohsiung restaurants to visit before or after the zoo.",
+          "btn": "Open Map →",
+          "href": "/map?region=kaohsiung"
+        }
+      ]
+    }
+  },
   "kenting-national-museum-marine-biology-aquarium-ticket-eats": {
     "heroImage": "assets/images/attractions/kenting/nmmba.webp",
     "ko": {
