@@ -134,6 +134,7 @@ async function main() {
     }),
     ...indexableSpots.map(s => ({ loc: `https://taiwanbite.com/${slugForSpot(s)}`, changefreq: "monthly", priority: "0.5" })),
     { loc: "https://taiwanbite.com/board", changefreq: "daily", priority: "0.6" },
+    { loc: "https://taiwanbite.com/reservation", changefreq: "monthly", priority: "0.6" },
     { loc: "https://taiwanbite.com/about", changefreq: "monthly", priority: "0.4" },
     { loc: "https://taiwanbite.com/privacy", changefreq: "yearly", priority: "0.3" },
   ];

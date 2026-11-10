@@ -1721,3 +1721,18 @@ body.tfm-admin-editing [data-i18n], body.tfm-admin-editing [data-i18n-html] {
 @media (max-width: 640px) {
   .map-fab-col { flex-direction: row; align-items: flex-end; }
 }
+
+/* ===================== Restaurant reservation service banner ===================== */
+.rsv-home { padding-top: 8px; }
+.rsv-banner { display: flex; align-items: center; gap: 22px; padding: 26px 30px; border-radius: var(--radius-lg); background: radial-gradient(120% 160% at 0% 0%, var(--gold-tint), transparent 60%), linear-gradient(120deg, #fff6ec, var(--terracotta-tint)); border: 1px solid var(--border); box-shadow: var(--shadow-sm); transition: box-shadow .25s ease, transform .25s ease; }
+.rsv-banner:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.rsv-banner-ico { flex: 0 0 60px; height: 60px; border-radius: 50%; background: var(--surface); display: grid; place-items: center; font-size: 28px; box-shadow: var(--shadow-sm); }
+.rsv-banner-text { flex: 1; min-width: 0; }
+.rsv-banner-text h2 { font-size: clamp(19px, 2.2vw, 24px); font-weight: 600; margin: 6px 0 4px; }
+.rsv-banner-text p { margin: 0; font-size: 14px; }
+.rsv-banner-btn { flex: 0 0 auto; }
+@media (max-width: 720px) {
+  .rsv-banner { flex-direction: column; align-items: flex-start; gap: 12px; padding: 22px 20px; margin: 0 -6px; }
+  .rsv-banner-ico { flex-basis: 48px; width: 48px; height: 48px; font-size: 22px; }
+  .rsv-banner-btn { width: 100%; justify-content: center; }
+}
