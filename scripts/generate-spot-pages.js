@@ -234,6 +234,18 @@ function siblingSpotCardHtml(spot, category) {
             </div>`;
 }
 
+/* 식당 예약대행(/reservation) 신청 링크 — 예약이 의미 있는 음식점 카테고리에만 붙인다.
+   식당 이름과 (정확한 업체) 구글맵 링크를 신청 양식에 미리 채워 넘긴다. */
+const NO_RESERVATION_CATEGORIES = new Set(["mart", "fruit", "gift_shop", "attraction", "shopping", "liquor_shop", "street_food", "bakery"]);
+function reservationLinkHtml(spot, category, name, mapsHref) {
+  if (NO_RESERVATION_CATEGORIES.has(category.id)) return "";
+  const rawMaps = String(mapsHref || "").replace(/&amp;/g, "&");
+  const params = new URLSearchParams({ name });
+  if (/^https:\/\//.test(rawMaps)) params.set("map", rawMaps);
+  const href = `/reservation?${params.toString()}`.replace(/&/g, "&amp;");
+  return `<p style="margin:-14px 0 32px;"><a class="link-all" href="${href}">📞 이 식당 예약대행 신청 →</a></p>`;
+}
+
 /* ===================== 개별 스팟 페이지 ===================== */
 function buildSpotPage(spot, region, category, siblings, hasCombo) {
   const slug = slugForSpot(spot);
@@ -318,6 +330,7 @@ function buildSpotPage(spot, region, category, siblings, hasCombo) {
         <a class="btn outline" href="/map?lat=${spot.lat}&lng=${spot.lng}">지도에서 보기 →</a>
       </div>
 
+      ${reservationLinkHtml(spot, category, name, mapsUrl)}
       ${comboLinkHtml}
       ${region.id === "hualien" ? `<p class="region-intro" style="margin:0 0 32px;">화롄 여행이라면 현지 여행사 두부투어의 화롄 맛집 지도와 타이루거 투어도 함께 참고해 보세요. <a class="link-all" href="https://doobootour.com/" target="_blank" rel="noopener">두부투어 화롄 맛집 지도 보기 →</a></p>` : ""}
       ${siblingsHtml}
