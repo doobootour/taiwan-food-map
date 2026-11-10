@@ -6,7 +6,7 @@
     ["fName", "식당 이름"], ["fBranch", "지점 또는 구글맵 링크"], ["fDate", "희망 날짜"],
     ["fTime1", "희망 시간(1순위)"], ["fAdults", "성인 인원"], ["fBooker", "예약자 이름(영문)"], ["fContact", "연락처"],
   ];
-  const NOTES = ["※ 예약대행료 5,000원", "※ 예약 완료 후 환불 불가", "※ 날짜 또는 시간 변경 1회 가능"];
+  const NOTES = ["※ 예약대행료 5,000원", "※ 예약 완료 후 환불 불가", "※ 날짜 또는 시간 변경 1회 가능", "※ 신청 후 24시간 이내에 카톡으로 안내드려요"];
   const v = (id) => ($(id) ? $(id).value.trim() : "");
   const fallbackValue = () => { const c = document.querySelector('input[name="fFallback"]:checked'); return c ? c.value : ""; };
 
