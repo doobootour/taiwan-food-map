@@ -1,5 +1,9 @@
-/* 식당 예약대행 신청 — 두부소프트 주문 페이지와 같은 방식: 서버 저장 없이
-   양식 내용을 복사해서 카카오톡 상담창에 붙여넣어 보낸다. */
+/* 식당 예약대행 신청 — 두부골프 예약 의뢰와 같은 방식: 신청하기 → Supabase Edge Function
+   (taiwanbite-reservation, doobootour 공용 프로젝트) → Resend 이메일로 관리자에게 전달.
+   여기 있는 키는 공개용 anon 키뿐이고, 메일 API 키·받는 주소는 함수 시크릿에만 있다.
+   카톡 복사/보내기는 보조 수단으로 남겨 둔다. */
+const RSV_FN_URL = "https://arjwkdbwzcxbffahopvs.supabase.co/functions/v1/taiwanbite-reservation";
+const RSV_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFyandrZGJ3emN4YmZmYWhvcHZzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI4OTM3MDcsImV4cCI6MjA5ODQ2OTcwN30.SiZlnjW5H3ATduqAUcnxeJXRN9VPLKBdR9oO9Z9udHI";
 (function () {
   const $ = (id) => document.getElementById(id);
   const FIELDS = [
@@ -91,15 +95,49 @@
     if (typeof gtag === "function") gtag("event", "reservation_copy");
   }
 
+
+  const openedAt = Date.now();
+  const msg = (cls, text) => { const m = $("submitMsg"); m.className = "rsv-msg " + cls; m.textContent = text; };
+  $("rsvForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const err = validate(); if (err) { msg("err", err); return; }
+    const btn = $("submitBtn");
+    btn.disabled = true; btn.textContent = "접수 중...";
+    const payload = {
+      restaurant_name: v("fName"), branch_or_map: v("fBranch"), preferred_date: v("fDate"),
+      time_first: v("fTime1"), time_second: v("fTime2"),
+      adults: parseInt(v("fAdults"), 10), children: parseInt(v("fKids"), 10) || 0,
+      booker_name_en: v("fBooker").toUpperCase(), contact: v("fContact"),
+      if_unavailable: fallbackValue(), requests: v("fReq"),
+      source_page: location.pathname + location.search,
+      website: v("fWebsite"), elapsed_ms: Date.now() - openedAt,
+    };
+    try {
+      const res = await fetch(RSV_FN_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${RSV_ANON_KEY}`, apikey: RSV_ANON_KEY },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.ok) throw new Error(data.error || "접수 중 오류가 발생했어요.");
+      msg("ok", "✓ 예약대행 신청이 접수됐어요! 신청 후 24시간 이내에 카톡으로 안내드려요. (예약대행료 5,000원 · 예약 완료 후 환불 불가 · 날짜 또는 시간 변경 1회 가능)");
+      btn.textContent = "접수 완료 ✓";
+      if (typeof gtag === "function") gtag("event", "reservation_submit");
+    } catch (ex) {
+      msg("err", (ex && ex.message ? ex.message : "접수 중 오류가 발생했어요.") + " 잠시 후 다시 시도하거나 아래 '카톡으로 보내기'를 이용해 주세요.");
+      btn.disabled = false; btn.textContent = "신청하기";
+    }
+  });
+
   $("copyBtn").addEventListener("click", () => {
-    const err = validate(); if (err) { alert(err); return; }
-    if (copyText(buildText())) done($("copyBtn"), "복사하기");
+    const err = validate(); if (err) { msg("err", err); return; }
+    if (copyText(buildText())) done($("copyBtn"), "양식 복사하기");
     else alert("복사에 실패했어요. 아래 빈 양식을 직접 복사해 주세요.");
   });
 
   // 링크 기본 동작(카카오톡 상담창 열기)은 그대로 두고, 열기 직전에 복사만 한다.
   $("kakaoBtn").addEventListener("click", (e) => {
-    const err = validate(); if (err) { e.preventDefault(); alert(err); return; }
+    const err = validate(); if (err) { e.preventDefault(); msg("err", err); return; }
     copyText(buildText());
     done(null);
     if (typeof gtag === "function") gtag("event", "reservation_kakao_open");
