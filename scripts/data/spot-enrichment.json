@@ -6061,6 +6061,2296 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "299": {
+   "name_zh": "18度C巧克力生吐司",
+   "address_zh": "435臺中市梧棲區大庄里文華街291號",
+   "address_en": "435, Taichung City, Wuqi District, Dazhuang Village, Wenhua St, 291號18度C巧克力生吐司",
+   "hours_summary": [
+    "매일 오전 8:00~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "커피(咖啡)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$400 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-400",
+   "intro": "타이중 梧棲區에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 커피(咖啡) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJe3YdYQAVaTQRUIz7ny9-5b4",
+    "rating": 4.3,
+    "reviews": 83
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "300": {
+   "name_zh": "台中藏阿胖烘焙麵包坊（羅芙）不要匯款勿信詐騙「只有現場購買」",
+   "address_zh": "408臺中市南屯區惠中里大英西二街71號",
+   "address_en": "408, Taichung City, Nantun District, Huizhong Village, Daying West 2nd St, 71號台中藏阿胖烘焙麵包坊（羅芙）不要匯款勿信詐騙「只有現場購買」",
+   "hours_summary": [
+    "화~토 오후 3:30~4:30"
+   ],
+   "closed_days": "월요일, 일요일",
+   "mrt": {
+    "label": "文心森林公園站",
+    "zh": "文心森林公園站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "蔥花麵包"
+    },
+    {
+     "name": "단황수(蛋黃酥)"
+    },
+    {
+     "name": "菠蘿麵包"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800-1000",
+   "intro": "타이중 南屯區에 있는 제과점이에요. 文心森林公園站에서 직선 약 300m 거리예요. 구글 지도 기준 월요일, 일요일은 쉬어요. 구글 리뷰에서는 蔥花麵包, 단황수(蛋黃酥), 菠蘿麵包 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJXfB8cL49aTQR_qssfDCDm70",
+    "rating": 4.4,
+    "reviews": 1027
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "301": {
+   "name_zh": "干城鹽水雞",
+   "address_zh": "408201臺中市南屯區黎明里干城街302號",
+   "address_en": "408201, Taichung City, Nantun District, Liming Village, Gancheng St, 302號干城鹽水雞",
+   "hours_summary": [
+    "월~화 오후 4:30~9:30",
+    "금~일 오후 4:30~9:30"
+   ],
+   "closed_days": "수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "雞腿肉"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 南屯區에 있는 호커 가판대예요. 구글 지도 기준 수요일, 목요일은 쉬어요. 구글 리뷰에서는 雞腿肉 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJAaVVNLs9aTQRya1XMTxs5Ac",
+    "rating": 4.1,
+    "reviews": 146
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "302": {
+   "name_zh": "今水",
+   "address_zh": "403臺中市西區雙龍里模範街3巷22號1樓",
+   "address_en": "403, Taichung City, West District, Shuanglong Village, Lane 3, Mofan St, 22號今水1樓",
+   "hours_summary": [
+    "수~일 오전 11:40~오후 2:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "刀削麵"
+    },
+    {
+     "name": "紅燒牛肉"
+    },
+    {
+     "name": "頰肉"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 西區에 있는 중국 국수류 전문점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 刀削麵, 紅燒牛肉, 頰肉 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJQ-2cHVc9aTQRFmmTIsIkgXw",
+    "rating": 4.8,
+    "reviews": 585
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "303": {
+   "name_zh": "Giocoso Café&Pasta(平日17:20假日19:20停餐/賣完會提前打烊/僅收現金）",
+   "address_zh": "403臺中市西區忠誠里精誠八街21號",
+   "address_en": "403, Taichung City, West District, Zhongcheng Village, Jingcheng 8th St, 21號Giocoso Café&Pasta(平日17:20假日19:20停餐/賣完會提前打烊/僅收現金）",
+   "hours_summary": [
+    "화~금 오전 11:00~오후 6:30",
+    "토~일 오전 11:00~오후 8:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "水安宮站",
+    "zh": "水安宮站",
+    "distance": "1050m",
+    "meters": 1050
+   },
+   "menu": [
+    {
+     "name": "리소토(燉飯)"
+    },
+    {
+     "name": "墨魚"
+    },
+    {
+     "name": "冰沙"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이중 西區에 있는 파스타 가게예요. 水安宮站에서 직선 약 1050m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 리소토(燉飯), 墨魚, 冰沙 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJg1fNSZY9aTQRtI4pf1rECos",
+    "rating": 4.7,
+    "reviews": 814
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "304": {
+   "name_zh": "暮藏和牛鍋物",
+   "address_zh": "403臺中市西區忠明里華美街390號",
+   "address_en": "403, Taichung City, West District, Zhongming Village, Huamei St, 390號暮藏和牛鍋物",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "帝王蟹"
+    },
+    {
+     "name": "茶碗蒸"
+    },
+    {
+     "name": "鮭魚親子丼"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "타이중 西區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 帝王蟹, 茶碗蒸, 鮭魚親子丼 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ5aM665s9aTQRPaSWbokV_bg",
+    "rating": 4.9,
+    "reviews": 9827
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "305": {
+   "name_zh": "巧克力澐莊-台中五權店",
+   "address_zh": "408臺中市南屯區永定里五權西路二段801號",
+   "address_en": "Schokolake, No. 801號, Section 2, Wuquan W Rd, Yongding Village, Nantun District, Taichung City, 408",
+   "hours_summary": [
+    "매일 오전 11:30~오후 8:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "文心森林公園站",
+    "zh": "文心森林公園站",
+    "distance": "1100m",
+    "meters": 1100
+   },
+   "menu": [
+    {
+     "name": "乳酪蛋糕"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 南屯區에 있는 초콜릿 전문점이에요. 文心森林公園站에서 직선 약 1100m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 乳酪蛋糕 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJb2CAt8U9aTQRqF8sBLg20Ic",
+    "rating": 4.4,
+    "reviews": 227
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "307": {
+   "name_zh": "Mao King 貓王經典 Restaurant北屯景賢店",
+   "address_zh": "406臺中市北屯區廍子里景賢路108號",
+   "address_en": "406, Taichung City, Beitun District, Buzi Village, Jingxian Rd, 108號Mao King 貓王經典 Restaurant北屯景賢店",
+   "hours_summary": [
+    "월~수 오전 11:30~오후 9:30",
+    "금~일 오전 11:30~오후 9:30"
+   ],
+   "closed_days": "목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "리소토(燉飯)"
+    },
+    {
+     "name": "스테이크(牛排)"
+    },
+    {
+     "name": "伊比利豬"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이중 北屯區에 있는 아메리칸 레스토랑이에요. 구글 지도 기준 목요일은 쉬어요. 구글 리뷰에서는 리소토(燉飯), 스테이크(牛排), 伊比利豬 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJcWLR66gZaTQRo66QnFIet-c",
+    "rating": 4.8,
+    "reviews": 2501
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "308": {
+   "name_zh": "樹太老日本定食-台中文心店",
+   "address_zh": "40654臺中市北屯區平田里文心路四段813號",
+   "address_en": "40654, Taichung City, Beitun District, Pingtian Village, Section 4, Wenxin Rd, 813號樹太老日本定食-台中文心店",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 9:00",
+    "토~일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "四維國小站",
+    "zh": "四維國小站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "돈가스(豬排)"
+    },
+    {
+     "name": "白肉"
+    },
+    {
+     "name": "蓋飯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 北屯區에 있는 일본 음식점이에요. 四維國小站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 돈가스(豬排), 白肉, 蓋飯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ3YAl1ucXaTQRvM0blunqEic",
+    "rating": 4.4,
+    "reviews": 2142
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "309": {
+   "name_zh": "一宮壽喜燒專門店-總站店",
+   "address_zh": "406臺中市北屯區舊社里敦富路155號",
+   "address_en": "406, Taichung City, Beitun District, Jiushe Village, 敦富路155號一宮壽喜燒專門店-總站店",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 3:00, 오후 5:30~10:00",
+    "토~일 오전 11:30~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "舊社站",
+    "zh": "舊社站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "바지락(蛤蜊)"
+    },
+    {
+     "name": "干貝"
+    },
+    {
+     "name": "牛奶鍋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 北屯區에 있는 스키야끼/샤브샤브 전문식당이에요. 舊社站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 바지락(蛤蜊), 干貝, 牛奶鍋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJpQOzZvwXaTQRj-fvgoQZppE",
+    "rating": 4.6,
+    "reviews": 3517
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "310": {
+   "name_zh": "菇神-新社店",
+   "address_zh": "426臺中市新社區協成里協中街287號",
+   "address_en": "Master Of Mushroom Restaurant, No. 287號, Xiezhong St, Xiecheng Village, Xinshe District, Taichung City, 426",
+   "hours_summary": [
+    "월~금 오전 10:00~오후 7:00",
+    "토~일 오전 10:00~오후 7:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "一口香腸"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이중 新社區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 一口香腸 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJd3RguzUZaTQRtgmNdlkniuE",
+    "rating": 4.3,
+    "reviews": 3838
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "311": {
+   "name_zh": "wpapa teppanyaki brunch鐵板料理早午餐",
+   "address_zh": "412臺中市大里區金城里塗城路923巷16號1樓",
+   "address_en": "1樓 WPAPA Teppanyaki Brunch, No. 16號, Lane 923, Tucheng Rd, Jincheng Village, Dali District, Taichung City, 412",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "香蕉油炸餅"
+    },
+    {
+     "name": "綠咖哩"
+    },
+    {
+     "name": "紅酒燉牛肉"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 大里區에 있는 브런치 식당이에요. 구글 리뷰에서는 香蕉油炸餅, 綠咖哩, 紅酒燉牛肉 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJybcaWLk8aTQRT4TMHOL074M",
+    "rating": 4.8,
+    "reviews": 5811
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "312": {
+   "name_zh": "溫叨古早味料理餐廳",
+   "address_zh": "40653臺中市北屯區北屯里太原路三段191號",
+   "address_en": "Wen Tao, No. 191號, Section 3, Taiyuan Rd, Beitun Village, Beitun District, Taichung City, 40653",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:00, 오후 5:00~9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "四維國小站",
+    "zh": "四維國小站",
+    "distance": "650m",
+    "meters": 650
+   },
+   "menu": [
+    {
+     "name": "통닭구이(桶仔雞)"
+    },
+    {
+     "name": "小嘯鴨"
+    },
+    {
+     "name": "豬油拌飯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이중 北屯區에 있는 북경 요리 전문 식당이에요. 四維國小站에서 직선 약 650m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 통닭구이(桶仔雞), 小嘯鴨, 豬油拌飯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJDeBxG6QXaTQRZwtN1DqaVhs",
+    "rating": 4.7,
+    "reviews": 4447
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "313": {
+   "name_zh": "大和三月｜風呂敷禮盒 手工餅乾 金箔蛋黃酥 客製喜餅 彌月禮盒",
+   "address_zh": "403臺中市西區後龍里大和路17-1號",
+   "address_en": "403, Taichung City, West District, Houlong Village, Dahe Rd, 17-1號大和三月｜風呂敷禮盒 手工餅乾 金箔蛋黃酥 客製喜餅 彌月禮盒",
+   "hours_summary": [
+    "월 오후 12:00~7:00",
+    "수~토 오후 12:00~7:00"
+   ],
+   "closed_days": "화요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "下午茶"
+    },
+    {
+     "name": "蝴蝶酥"
+    },
+    {
+     "name": "包裝"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 쿠키 가게예요. 구글 지도 기준 화요일, 일요일은 쉬어요. 구글 리뷰에서는 下午茶, 蝴蝶酥, 包裝 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJr8lygPc9aTQRsjb_yyU09IQ",
+    "rating": 4.8,
+    "reviews": 355
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "314": {
+   "name_zh": "台灣陳沙茶火鍋",
+   "address_zh": "400臺中市中區綠川里台灣大道一段81巷23號",
+   "address_en": "Taiwan Chen Hot Pot, No. 23號, Lane 81, Section 1, Taiwan Blvd, Lüchuan Village, Central District, Taichung City, 400",
+   "hours_summary": [
+    "화~목 오후 4:30~10:00",
+    "금~일 오후 4:30~10:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "牛肉丸"
+    },
+    {
+     "name": "凍豆腐"
+    },
+    {
+     "name": "燕餃"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 中區에 있는 핫팟 레스토랑이에요. 臺鐵臺中車站에서 직선 약 250m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 牛肉丸, 凍豆腐, 燕餃 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJaX5AgBM9aTQRkogIgkNrlWE",
+    "rating": 4.4,
+    "reviews": 2924
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "316": {
+   "name_zh": "安德魯印度料理餐廳 Andrew’s Indian Restaurant Since 2005",
+   "address_zh": "403臺中市西區忠明里健行路1017號",
+   "address_en": "安德魯印度料理餐廳 Andrew’s Indian Restaurant Since 2005, No. 1017, Jianxing Rd, Zhongming Village, West District, Taichung City, 403",
+   "hours_summary": [
+    "화~목 오전 11:30~오후 2:00, 오후 5:00~9:00",
+    "금 오전 11:15~오후 2:00, 오후 5:00~9:00",
+    "토 오전 11:15~오후 3:00, 오후 5:00~9:00",
+    "일 오전 11:30~오후 3:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "烤餅"
+    },
+    {
+     "name": "米布丁"
+    },
+    {
+     "name": "肉桂"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-800",
+   "intro": "타이중 西區에 있는 인도 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 烤餅, 米布丁, 肉桂 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJMy863Zk9aTQRGhMJO6o9_WA",
+    "rating": 4.8,
+    "reviews": 1600
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "317": {
+   "name_zh": "IKEA瑞典餐廳 台中店",
+   "address_zh": "408臺中市南屯區惠中里向上路二段168號4 樓",
+   "address_en": "4 樓 IKEA Swedish Restaurant in Taichung, No. 168號, Section 2, Xiangshang Rd, Huizhong Village, Nantun District, Taichung City, 408",
+   "hours_summary": [
+    "매일 오전 9:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "文心森林公園站",
+    "zh": "文心森林公園站",
+    "distance": "450m",
+    "meters": 450
+   },
+   "menu": [
+    {
+     "name": "스테이크(牛排)"
+    },
+    {
+     "name": "牛肉丸"
+    },
+    {
+     "name": "小龍蝦"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 南屯區에 있는 콘티넨털 레스토랑이에요. 文心森林公園站에서 직선 약 450m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 스테이크(牛排), 牛肉丸, 小龍蝦 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJq8RGa6Y9aTQR-6_FZ6ngKIA",
+    "rating": 4.4,
+    "reviews": 6240
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "318": {
+   "name_zh": "淇里思印度餐廳 朝富店",
+   "address_zh": "40757臺中市西屯區潮洋里朝富路28號",
+   "address_en": "Chilliesine Indian Restaurant Chaofu 淇里思印度餐廳 朝富店, No. 28號, Chaofu Rd, Chaoyang Village, Xitun District, Taichung City, 40757",
+   "hours_summary": [
+    "월~목 오전 11:00~오후 2:30, 오후 5:00~9:00",
+    "금 오전 11:00~오후 2:30, 오후 5:00~9:30",
+    "토 오전 11:00~오후 3:00, 오후 5:00~9:30",
+    "일 오전 11:00~오후 3:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "拉茶"
+    },
+    {
+     "name": "烤餅"
+    },
+    {
+     "name": "양갈비(羊排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西屯區에 있는 인도 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 拉茶, 烤餅, 양갈비(羊排) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJzV5RmfE9aTQR9lqs3kDhYbs",
+    "rating": 4.8,
+    "reviews": 6172
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "319": {
+   "name_zh": "夜葉食堂大智店（不接受當日訂位）",
+   "address_zh": "401臺中市東區東興里大智路414號",
+   "address_en": "401, Taichung City, East District, Dongxing Village, Dazhi Rd, 414號夜葉食堂大智店（不接受當日訂位）",
+   "hours_summary": [
+    "매일 오후 5:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "1150m",
+    "meters": 1150
+   },
+   "menu": [
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "烤串"
+    },
+    {
+     "name": "燒烤"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 東區에 있는 일본 음식점이에요. 臺鐵臺中車站에서 직선 약 1150m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 볶음밥(炒飯), 烤串, 燒烤 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJdZcfTVo9aTQRnnY6GAt0gTo",
+    "rating": 4.9,
+    "reviews": 2164
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "320": {
+   "name_zh": "浪浪別哭(可攜帶狗狗)",
+   "address_zh": "408臺中市南屯區黎明里干城街214巷1號",
+   "address_en": "408, Taichung City, Nantun District, Liming Village, Lane 214, Gancheng St, 1號浪浪別哭(可攜帶狗狗)",
+   "hours_summary": [
+    "월~화 오전 11:00~오후 6:00",
+    "목~금 오전 11:00~오후 6:00",
+    "토~일 오전 11:00~오후 8:30"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "리소토(燉飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 南屯區에 있는 커피숍/커피 전문점이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 리소토(燉飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJZ4Oga909aTQR8BQwob10qcM",
+    "rating": 4.5,
+    "reviews": 2977
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "321": {
+   "name_zh": "法森餐廳",
+   "address_zh": "403臺中市西區土庫里存中街22-1號",
+   "address_en": "L'Affection 法森小館, No. 22-1號, Cunzhong St, Tuku Village, West District, Taichung City, 403",
+   "hours_summary": [
+    "월 오전 11:30~오후 3:00, 오후 6:00~10:00",
+    "수~일 오전 11:30~오후 3:00, 오후 6:00~10:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "랍스터(龍蝦)"
+    },
+    {
+     "name": "酥皮"
+    },
+    {
+     "name": "족발(豬腳)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "타이중 西區에 있는 프랑스 음식점이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 랍스터(龍蝦), 酥皮, 족발(豬腳) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ45TwvaQ9aTQRSoc3ce4VgCM",
+    "rating": 4.5,
+    "reviews": 2958
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "322": {
+   "name_zh": "旅禾烘焙 LaLaport台中店",
+   "address_zh": "401臺中市東區泉源里進德路700號南館1樓",
+   "address_en": "南館1樓 Luho Puff LaLaport Taichung Store, No. 700號, Jinde Rd, Quanyuan Village, East District, Taichung City, 401",
+   "hours_summary": [
+    "월~금 오전 11:00~오후 10:00",
+    "토~일 오전 10:30~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "800m",
+    "meters": 800
+   },
+   "menu": [
+    {
+     "name": "內餡"
+    },
+    {
+     "name": "戚風蛋糕"
+    },
+    {
+     "name": "生乳"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이중 東區에 있는 제과점이에요. 臺鐵臺中車站에서 직선 약 800m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 內餡, 戚風蛋糕, 生乳 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ4yPJ-iA9aTQRuLEBZ8nsruQ",
+    "rating": 4.8,
+    "reviews": 3927
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "324": {
+   "name_zh": "蒔初甜點五權店 Originl'a Tart & Dessert （內用/預約取貨至18:00）",
+   "address_zh": "403臺中市西區土庫里五權西六街69號",
+   "address_en": "403, Taichung City, West District, Tuku Village, Wuquan West 6th St, 69號蒔初甜點五權店 Originl'a Tart & Dessert （內用/預約取貨至18:00）",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "塔皮"
+    },
+    {
+     "name": "下午茶"
+    },
+    {
+     "name": "타로 페이스트(芋泥)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 디저트 전문점이에요. 구글 리뷰에서는 塔皮, 下午茶, 타로 페이스트(芋泥) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJs2rcstA9aTQRalGotkstDw4",
+    "rating": 4.3,
+    "reviews": 1281
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "325": {
+   "name_zh": "Spirited Bakery",
+   "address_zh": "403臺中市西區五權西四街11號",
+   "address_en": "Spirited Bakery, No. 11, Wuquan West 4th St, West District, Taichung City, 403",
+   "hours_summary": [
+    "월 오후 12:00~8:00",
+    "목~일 오후 12:00~8:00"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "紅蘿蔔蛋糕"
+    },
+    {
+     "name": "杯子蛋糕"
+    },
+    {
+     "name": "시나몬롤(肉桂捲)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 디저트 전문점이에요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 紅蘿蔔蛋糕, 杯子蛋糕, 시나몬롤(肉桂捲) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJbX9556Y9aTQR_dXgC7mtqFY",
+    "rating": 4.6,
+    "reviews": 1492
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "326": {
+   "name_zh": "若草甜點店",
+   "address_zh": "403臺中市西區昇平里昇平街78號",
+   "address_en": "403, Taichung City, West District, Shengping Village, Shengping St, 78號 若草甜點店",
+   "hours_summary": [
+    "월 오후 1:00~6:30",
+    "목~일 오후 12:30~6:30"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "草莓蛋糕"
+    },
+    {
+     "name": "焙茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 패스트리 판매점이에요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 푸딩(布丁), 草莓蛋糕, 焙茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJY-xD1J89aTQRNwlB8QYHs6Q",
+    "rating": 4.2,
+    "reviews": 666
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "327": {
+   "name_zh": "犁茶品記 LaLaport台中旗艦店",
+   "address_zh": "401臺中市東區泉源里進德路600號LaLaport北館1樓",
+   "address_en": "1樓 Li Cha Pin Ji LaLaport Taichung Store, LaLaport北館No. 600號, Jinde Rd, Quanyuan Village, East District, Taichung City, 401",
+   "hours_summary": [
+    "월~금 오전 11:00~오후 10:00",
+    "토~일 오전 10:30~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "800m",
+    "meters": 800
+   },
+   "menu": [
+    {
+     "name": "月餅"
+    },
+    {
+     "name": "綠豆椪"
+    },
+    {
+     "name": "綠豆沙"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 東區에 있는 패스트리 판매점이에요. 臺鐵臺中車站에서 직선 약 800m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 月餅, 綠豆椪, 綠豆沙 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJgwFFdAo9aTQRGzLEW8kZuj4",
+    "rating": 4.7,
+    "reviews": 805
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "328": {
+   "name_zh": "肉蛋中西式早餐店 創始店",
+   "address_zh": "404臺中市北區健行里健行路748號",
+   "address_en": "Pork & Egg Toast, No. 748號, Jianxing Rd, Jianxing Village, North District, Taichung City, 404",
+   "hours_summary": [
+    "화~금 오전 4:30~오후 12:00",
+    "토~일 오전 4:30~오후 12:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "밀크티(奶茶)"
+    },
+    {
+     "name": "里肌肉"
+    },
+    {
+     "name": "두유(豆漿)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 北區에 있는 아침식사 전문 식당이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 밀크티(奶茶), 里肌肉, 두유(豆漿) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJXVj92oI9aTQRNf0P3KCS9rI",
+    "rating": 4.4,
+    "reviews": 8876
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "329": {
+   "name_zh": "迴香印度餐廳 Savory Curry｜台中印度料理",
+   "address_zh": "403臺中市西區忠明里明義街47號sogo左後方",
+   "address_en": "403, Taichung City, West District, Zhongming Village, Mingyi Street, 47號sogo左後方迴香印度餐廳 Savory Curry｜台中印度料理",
+   "hours_summary": [
+    "월 오전 11:30~오후 2:30, 오후 5:00~9:00",
+    "수~금 오전 11:30~오후 2:30, 오후 5:00~9:00",
+    "토~일 오전 11:00~오후 2:30, 오후 5:00~9:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "烤餅"
+    },
+    {
+     "name": "통닭구이(烤雞)"
+    },
+    {
+     "name": "밀크티(奶茶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이중 西區에 있는 인도 레스토랑이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 烤餅, 통닭구이(烤雞), 밀크티(奶茶) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJSXoY5tY9aTQRCqa1wKmo158",
+    "rating": 4.9,
+    "reviews": 1782
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "330": {
+   "name_zh": "高沐手作料理餐廳",
+   "address_zh": "404臺中市北區新興里太平路19巷3弄15號",
+   "address_en": "404, Taichung City, North District, Xinxing Village, Alley 3, Lane 19, Taiping Rd, 15號高沐手作料理餐廳",
+   "hours_summary": [
+    "매일 오후 12:00~4:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "1150m",
+    "meters": 1150
+   },
+   "menu": [
+    {
+     "name": "干貝"
+    },
+    {
+     "name": "鹹蛋"
+    },
+    {
+     "name": "烤魷魚"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이중 北區에 있는 이탈리아 음식점이에요. 臺鐵臺中車站에서 직선 약 1150m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 干貝, 鹹蛋, 烤魷魚 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ5RZGYJ09aTQRYpHWSIFp4TY",
+    "rating": 4.3,
+    "reviews": 2205
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "331": {
+   "name_zh": "青蛙墨西哥餐廳The Frog Mexican Restaurant",
+   "address_zh": "404臺中市北區育德里育德路30號",
+   "address_en": "404, Taichung City, North District, Yude Village, Yude Rd, 30號青蛙墨西哥餐廳The Frog Mexican Restaurant",
+   "hours_summary": [
+    "월~목 오전 11:00~오전 12:00",
+    "금~토 오전 11:00~오전 1:00",
+    "일 오전 11:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "스테이크(牛排)"
+    },
+    {
+     "name": "파스타(義大利麵)"
+    },
+    {
+     "name": "볶음밥(炒飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 北區에 있는 멕시코 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 스테이크(牛排), 파스타(義大利麵), 볶음밥(炒飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJH_dmvWQ9aTQRCalgrRafaSM",
+    "rating": 4.2,
+    "reviews": 1036
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "332": {
+   "name_zh": "小次男咖哩所-成功店",
+   "address_zh": "400臺中市中區公園里成功路156號",
+   "address_en": "Jinan Curry, No. 156號, Chenggong Rd, Gongyuan Village, Central District, Taichung City, 400",
+   "hours_summary": [
+    "매일 오전 11:30~오후 3:30, 오후 5:00~8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "피단(皮蛋)"
+    },
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "밀크티(奶茶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 中區에 있는 일본식 카레 전문식당이에요. 臺鐵臺中車站에서 직선 약 500m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 피단(皮蛋), 푸딩(布丁), 밀크티(奶茶) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ2-LcUxM9aTQRGuGPXMbQSwE",
+    "rating": 4.4,
+    "reviews": 3581
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "333": {
+   "name_zh": "宮原眼科",
+   "address_zh": "400臺中市中區綠川里中山路20號",
+   "address_en": "궁원안과 미야하라아이스크림 No. 20號, Zhongshan Rd, Lüchuan Village, Central District, Taichung City, 400",
+   "hours_summary": [
+    "매일 오전 10:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "펑리수(鳳梨酥)"
+    },
+    {
+     "name": "태양병(太陽餅)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 中區에 있는 과자예요. 臺鐵臺中車站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 펑리수(鳳梨酥), 태양병(太陽餅) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ-bIJXaeQbjQRBlsPVLME9EY",
+    "rating": 4.3,
+    "reviews": 32996
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "334": {
+   "name_zh": "斯玬尼咖啡",
+   "address_zh": "401臺中市東區新庄里復興路四段283號",
+   "address_en": "Stanley Coffee, No. 283號, Section 4, Fuxing Rd, Xinzhuang Village, East District, Taichung City, 401",
+   "hours_summary": [
+    "월~토 오전 10:00~오후 5:30",
+    "일 오전 10:00~오후 5:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "450m",
+    "meters": 450
+   },
+   "menu": [
+    {
+     "name": "雪酪"
+    },
+    {
+     "name": "花茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 東區에 있는 커피숍/커피 전문점이에요. 臺鐵臺中車站에서 직선 약 450m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 雪酪, 花茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ3c_w0z89aTQRiM5yRZy888Y",
+    "rating": 5,
+    "reviews": 1351
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "335": {
+   "name_zh": "熬匠 — 咖哩專門｜大勇店",
+   "address_zh": "401臺中市東區新庄里大勇街27號",
+   "address_en": "401, Taichung City, East District, Xinzhuang Village, Dayong St, 27號熬匠 — 咖哩專門｜大勇店",
+   "hours_summary": [
+    "매일 오전 11:30~오후 3:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "酥皮"
+    },
+    {
+     "name": "燉雞"
+    },
+    {
+     "name": "烤餅"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 東區에 있는 일본식 카레 전문식당이에요. 臺鐵臺中車站에서 직선 약 300m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 酥皮, 燉雞, 烤餅 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJK3t96VQ9aTQRpVAbxiFUExY",
+    "rating": 4.4,
+    "reviews": 1271
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "336": {
+   "name_zh": "山姆安娜SamAna",
+   "address_zh": "403臺中市西區吉龍里美村路一段575號",
+   "address_en": "403, Taichung City, West District, Jilong Village, Section 1, Meicun Rd, 575號山姆安娜SamAna",
+   "hours_summary": [
+    "월~금 오후 12:00~8:30",
+    "토~일 오전 11:00~오후 8:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "內餡"
+    },
+    {
+     "name": "토스트(吐司)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이중 西區에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 푸딩(布丁), 內餡, 토스트(吐司) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJOWXck6Y9aTQRJUqREsFnNbY",
+    "rating": 4.3,
+    "reviews": 505
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "337": {
+   "name_zh": "時光",
+   "address_zh": "400臺中市中區公園里台灣大道一段199巷1號",
+   "address_en": "400, Taichung City, Central District, Gongyuan Village, Lane 199, Section 1, Taiwan Blvd, 1號時光",
+   "hours_summary": [
+    "월~화 오전 10:00~오후 6:00",
+    "목~일 오전 10:00~오후 6:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "檸檬咖啡"
+    },
+    {
+     "name": "磅蛋糕"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이중 中區에 있는 카페예요. 臺鐵臺中車站에서 직선 약 500m 거리예요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 푸딩(布丁), 檸檬咖啡, 磅蛋糕 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJVcnPLg09aTQRC35BwVYvEXc",
+    "rating": 4.7,
+    "reviews": 867
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "338": {
+   "name_zh": "巴倫司康 Baron Scones 臺中店",
+   "address_zh": "403臺中市西區後龍里民權路217巷10號",
+   "address_en": "403, Taichung City, West District, Houlong Village, Lane 217, Minquan Rd, 10號巴倫司康 Baron Scones 臺中店",
+   "hours_summary": [
+    "매일 오전 11:00~오후 7:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "타로 페이스트(芋泥)"
+    },
+    {
+     "name": "焙茶"
+    },
+    {
+     "name": "夏威夷豆"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 西區에 있는 커피용품 판매점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 타로 페이스트(芋泥), 焙茶, 夏威夷豆 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJrwayuP89aTQRJlFOxtBUSL0",
+    "rating": 4.8,
+    "reviews": 269
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "339": {
+   "name_zh": "creammm.t美村店",
+   "address_zh": "403臺中市西區中興里美村路一段189號",
+   "address_en": "403, Taichung City, West District, Zhongxing Village, Section 1, Meicun Rd, 189號creammm.t美村店",
+   "hours_summary": [
+    "매일 오전 10:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "레몬 타르트(檸檬塔)"
+    },
+    {
+     "name": "塔皮"
+    },
+    {
+     "name": "內餡"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 디저트 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 레몬 타르트(檸檬塔), 塔皮, 內餡 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJG0x7MY09aTQRvzzFYmiNl5o",
+    "rating": 4.4,
+    "reviews": 1309
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "341": {
+   "name_zh": "阿布司康專賣店",
+   "address_zh": "400臺中市中區中山路68號",
+   "address_en": "Abu's Scone Store, No. 68號, Zhongshan Rd, 中區 Central District, Taichung City, 400",
+   "hours_summary": [
+    "월~목 오전 11:00~오후 8:00",
+    "금~토 오전 11:00~오후 9:00",
+    "일 오전 11:00~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "蘋果派"
+    },
+    {
+     "name": "酸梅湯"
+    },
+    {
+     "name": "팥(紅豆)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 中區에 있는 디저트 전문점이에요. 臺鐵臺中車站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 蘋果派, 酸梅湯, 팥(紅豆) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJX5A5dH49aTQRaClk6QdgYwU",
+    "rating": 4.8,
+    "reviews": 481
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "342": {
+   "name_zh": "福屋拉麵",
+   "address_zh": "401臺中市東區振興里振興路2-5號",
+   "address_en": "Fukuya Ramen, No. 2-5號, Zhenxing Rd, Zhenxing Village, East District, Taichung City, 401",
+   "hours_summary": [
+    "화~일 오후 4:00~9:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "叉燒飯"
+    },
+    {
+     "name": "赤福麻糬"
+    },
+    {
+     "name": "豆皮"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 東區에 있는 일본라면 전문식당이에요. 臺鐵臺中車站에서 직선 약 500m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 叉燒飯, 赤福麻糬, 豆皮 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJL99lTaA9aTQRNpRknK60Igk",
+    "rating": 4.5,
+    "reviews": 1241
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "343": {
+   "name_zh": "沙卡燒酒雞餐館",
+   "address_zh": "428臺中市大雅區橫山里中山路大同巷9弄7號",
+   "address_en": "Saka, No. 7號中山路大同巷9弄 Hengshan Village, Daya District, Taichung City, 428",
+   "hours_summary": [
+    "수~일 오후 4:30~10:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "닭탕(雞湯)"
+    },
+    {
+     "name": "鳳梨"
+    },
+    {
+     "name": "면선(麵線)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이중 大雅區에 있는 대만 레스토랑이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 닭탕(雞湯), 鳳梨, 면선(麵線) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ68YVnl0WaTQR1Q1MGWg69t4",
+    "rating": 4.2,
+    "reviews": 826
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "344": {
+   "name_zh": "麵武嵐",
+   "address_zh": "407臺中市西屯區西屯路三段84-2號",
+   "address_en": "407, Taichung City, Xitun District, Section 3, Xitun Rd, 84-2號麵武嵐",
+   "hours_summary": [
+    "매일 오후 7:00~오전 1:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "叉燒飯"
+    },
+    {
+     "name": "溏心蛋"
+    },
+    {
+     "name": "魚蛋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이중 西屯區에 있는 일본라면 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 叉燒飯, 溏心蛋, 魚蛋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ_____y4WaTQRjT3f9a43hiA",
+    "rating": 4.6,
+    "reviews": 3505
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "345": {
+   "name_zh": "如邑堂太陽餅",
+   "address_zh": "407臺中市西屯區西安里漢翔路235號",
+   "address_en": "如邑堂太陽餅, No. 235號, Hanxiang Rd, Xi'an Village, Xitun District, Taichung City, 407",
+   "hours_summary": [
+    "매일 오전 8:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "말차(抹茶)"
+    },
+    {
+     "name": "펑리수(鳳梨酥)"
+    },
+    {
+     "name": "단황수(蛋黃酥)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西屯區에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 말차(抹茶), 펑리수(鳳梨酥), 단황수(蛋黃酥) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJZWqOBxcWaTQR6zVf5yyqRGI",
+    "rating": 4.4,
+    "reviews": 3313
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "346": {
+   "name_zh": "PINOCOCO 皮諾可可",
+   "address_zh": "408臺中市南屯區新生里益豐路四段689號",
+   "address_en": "PINOCOCO, No. 689號, Yifeng Rd. Sec.4, Xinsheng Village, Nantun District, Taichung City, 408",
+   "hours_summary": [
+    "매일 오전 11:30~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "墨魚"
+    },
+    {
+     "name": "鹹豬肉"
+    },
+    {
+     "name": "干貝"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 南屯區에 있는 이탈리아 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 墨魚, 鹹豬肉, 干貝 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ_____-o9aTQRMD9JcAFGC4Q",
+    "rating": 4.2,
+    "reviews": 4736
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "347": {
+   "name_zh": "岩漿漢方麻辣火鍋-台中公益店",
+   "address_zh": "408臺中市南屯區新生里公益路二段889號",
+   "address_en": "408, Taichung City, Nantun District, Xinsheng Village, Section 2, Gongyi Rd, 889號岩漿漢方麻辣火鍋-台中公益店",
+   "hours_summary": [
+    "매일 오전 11:00~오전 3:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "燒豬"
+    },
+    {
+     "name": "레이차(擂茶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800-1000",
+   "intro": "타이중 南屯區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 燒豬, 레이차(擂茶) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJm12z4CU9aTQR6wLXxYxFAx8",
+    "rating": 4.8,
+    "reviews": 5469
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "348": {
+   "name_zh": "魚麗共同廚房∣ Shoal Cuisine",
+   "address_zh": "404020臺中市北區賴村里德化街417號",
+   "address_en": "404020, Taichung City, North District, Laicun Village, Dehua St, 417號魚麗共同廚房∣ Shoal Cuisine",
+   "hours_summary": [
+    "수~일 오후 12:00~2:30, 오후 5:30~8:30"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "지러우판(雞肉飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 北區에 있는 대만식 가게예요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 지러우판(雞肉飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJDUAMzww9aTQRSyeTw_Ikw8U",
+    "rating": 4.3,
+    "reviews": 476
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "349": {
+   "name_zh": "享鴨台中公益店",
+   "address_zh": "408臺中市南屯區溝墘里公益路二段252號",
+   "address_en": "Xiang Duck Taichung Gongyi Branch, No. 252號, Section 2, Gongyi Rd, Gouqian Village, Nantun District, Taichung City, 408",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 2:30, 오후 5:30~10:00",
+    "토~일 오전 11:00~오후 2:30, 오후 5:00~10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "水安宮站",
+    "zh": "水安宮站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "무떡(蘿蔔糕)"
+    },
+    {
+     "name": "탕위안(湯圓)"
+    },
+    {
+     "name": "燉奶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 南屯區에 있는 중국 음식점이에요. 水安宮站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 무떡(蘿蔔糕), 탕위안(湯圓), 燉奶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJxypaa-I9aTQRXpXwdg2xoPA",
+    "rating": 4.8,
+    "reviews": 18801
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "350": {
+   "name_zh": "頂園燒鵝担仔廚房 - 太原店",
+   "address_zh": "406臺中市北屯區水景里太原路三段639號",
+   "address_en": "406, Taichung City, Beitun District, Shuijing Village, Section 3, Taiyuan Rd, 639號頂園燒鵝担仔廚房 - 太原店",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 2:00, 오후 5:00~9:30",
+    "토~일 오전 11:00~오후 2:00, 오후 5:00~9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "거위고기(鵝肉)"
+    },
+    {
+     "name": "통닭구이(烤雞)"
+    },
+    {
+     "name": "오리구이(烤鴨)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 北屯區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 거위고기(鵝肉), 통닭구이(烤雞), 오리구이(烤鴨) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJtew5cfkXaTQR3axUP3ST8q8",
+    "rating": 4.3,
+    "reviews": 3387
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "351": {
+   "name_zh": "又見一炊煙",
+   "address_zh": "426臺中市新社區中興嶺街一段107號",
+   "address_en": "426, Taichung City, Xinshe District, 中興嶺街一段107號又見一炊煙",
+   "hours_summary": [
+    "월~목 오전 11:00~오후 9:00",
+    "금 오전 9:00~오후 9:00",
+    "토~일 오전 11:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "下午茶"
+    },
+    {
+     "name": "면선(麵線)"
+    },
+    {
+     "name": "釜飯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 新社區에 있는 아시아 퓨전요리 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 下午茶, 면선(麵線), 釜飯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ7956UUEZaTQRB6Xb4DT7zH0",
+    "rating": 4.2,
+    "reviews": 6130
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "352": {
+   "name_zh": "飛花落院 Inflorescence",
+   "address_zh": "426臺中市新社區中興嶺街一段111號",
+   "address_en": "Inflorescence, No. 111號中興嶺街一段 Xinshe District, Taichung City, 426",
+   "hours_summary": [
+    "수~일 오전 11:30~오후 2:30, 오후 5:30~9:30"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "釜飯"
+    },
+    {
+     "name": "茶道"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "타이중 新社區에 있는 일본 음식점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 釜飯, 茶道 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ0ws8s0YZaTQRXzX0sVSKO9Y",
+    "rating": 4.3,
+    "reviews": 1581
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "353": {
+   "name_zh": "柳川屋麵包店",
+   "address_zh": "403臺中市西區後龍里民權路213巷11號",
+   "address_en": "403, Taichung City, West District, Houlong Village, Lane 213, Minquan Rd, 11號柳川屋麵包店",
+   "hours_summary": [
+    "수~일 오후 1:00~6:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "菠蘿麵包"
+    },
+    {
+     "name": "肉鬆"
+    },
+    {
+     "name": "生乳"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이중 西區에 있는 제과점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 菠蘿麵包, 肉鬆, 生乳 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJcapE8As9aTQRS5lrplluPNY",
+    "rating": 4,
+    "reviews": 1226
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "354": {
+   "name_zh": "豐原廟東夜市",
+   "address_zh": "420臺中市豐原區中正路167巷",
+   "address_en": "Fengyuan Miaodong Night Market, Lane 167, Zhongzheng Rd, Fengyuan District, Taichung City, 420",
+   "hours_summary": [
+    "매일 오전 10:00~오후 11:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "바완(肉圓)"
+    },
+    {
+     "name": "쭝쯔(肉粽)"
+    },
+    {
+     "name": "四神湯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 豐原區에 있는 야시장이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 바완(肉圓), 쭝쯔(肉粽), 四神湯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ0VgPXQ8aaTQR9DNAPyFURZg",
+    "rating": 4.2,
+    "reviews": 35797
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "355": {
+   "name_zh": "咕咕義小餐館Good Good Eat Restaurant l 台中西區餐廳 l 台式風味定食 & 義大利麵",
+   "address_zh": "403臺中市西區東興路三段13號",
+   "address_en": "403, Taichung City, West District, Section 3, Dongxing Rd, 13號咕咕義小餐館Good Good Eat Restaurant l 台中西區餐廳 l 台式風味定食 & 義大利麵",
+   "hours_summary": [
+    "월 오후 12:00~3:00, 오후 4:30~8:00",
+    "목~일 오후 12:00~3:00, 오후 4:30~8:00"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": {
+    "label": "文心森林公園站",
+    "zh": "文心森林公園站",
+    "distance": "650m",
+    "meters": 650
+   },
+   "menu": [
+    {
+     "name": "無錫炸排骨"
+    },
+    {
+     "name": "닭탕(雞湯)"
+    },
+    {
+     "name": "牛筋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 西區에 있는 일식당 및 일정식집이에요. 文心森林公園站에서 직선 약 650m 거리예요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 無錫炸排骨, 닭탕(雞湯), 牛筋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ7yP_Cus9aTQRKX3a9LMX69M",
+    "rating": 4.6,
+    "reviews": 373
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "356": {
+   "name_zh": "無為草堂",
+   "address_zh": "408臺中市南屯區溝墘里公益路二段106號",
+   "address_en": "무위초당 No. 106號, Section 2, Gongyi Rd, Gouqian Village, Nantun District, Taichung City, 408",
+   "hours_summary": [
+    "매일 오전 10:30~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "水安宮站",
+    "zh": "水安宮站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "泡茶"
+    },
+    {
+     "name": "다과(茶點)"
+    },
+    {
+     "name": "장어덮밥(鰻魚飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 南屯區에 있는 대만 레스토랑이에요. 水安宮站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 泡茶, 다과(茶點), 장어덮밥(鰻魚飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ8ROWZJY9aTQRmeL20o6VGMw",
+    "rating": 4.1,
+    "reviews": 3279
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "357": {
+   "name_zh": "火板大叔韓國烤肉 五常店",
+   "address_zh": "40446臺中市北區五常里五常街54號",
+   "address_en": "40446, Taichung City, North District, Wuchang Village, Wuchang St, 54號火板大叔韓國烤肉 五常店",
+   "hours_summary": [
+    "화~일 오후 5:00~10:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "떡(年糕)"
+    },
+    {
+     "name": "전(煎餅)"
+    },
+    {
+     "name": "紫米飯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 北區에 있는 한식 고기구이 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 떡(年糕), 전(煎餅), 紫米飯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ6QpOomU9aTQRrtZqFtouDag",
+    "rating": 4.4,
+    "reviews": 1399
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "358": {
+   "name_zh": "元 YUAN 元餐廳",
+   "address_zh": "403臺中市西區公正里大墩十二街35號",
+   "address_en": "403, Taichung City, West District, Gongzheng Village, Dadun 12th St, 35號元 YUAN 元餐廳",
+   "hours_summary": [
+    "화~금 오후 6:30~10:00",
+    "토 오후 12:00~2:30, 오후 6:30~10:00"
+   ],
+   "closed_days": "월요일, 일요일",
+   "mrt": {
+    "label": "水安宮站",
+    "zh": "水安宮站",
+    "distance": "800m",
+    "meters": 800
+   },
+   "menu": [
+    {
+     "name": "랍스터(龍蝦)"
+    },
+    {
+     "name": "和牛"
+    },
+    {
+     "name": "이몐(意麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "타이중 西區에 있는 대만식 가게예요. 水安宮站에서 직선 약 800m 거리예요. 구글 지도 기준 월요일, 일요일은 쉬어요. 구글 리뷰에서는 랍스터(龍蝦), 和牛, 이몐(意麵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ2cXnmEQ9aTQRMPmfBR9gw4o",
+    "rating": 4.4,
+    "reviews": 343
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "359": {
+   "name_zh": "滿堂 Le plein",
+   "address_zh": "40347臺中市西區土庫里存中街39巷3號",
+   "address_en": "40347, Taichung City, West District, Tuku Village, Lane 39, Cunzhong St, 3號滿堂 Le plein",
+   "hours_summary": [
+    "수 오후 6:00~9:45",
+    "목~토 오후 12:00~2:30, 오후 6:00~9:45",
+    "일 오후 12:00~2:30"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "닭탕(雞湯)"
+    },
+    {
+     "name": "루러우판(滷肉飯)"
+    },
+    {
+     "name": "오골계(烏骨雞)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "타이중 西區에 있는 고급 음식점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 닭탕(雞湯), 루러우판(滷肉飯), 오골계(烏骨雞) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJX-eo5X49aTQR8Yl4ntpOWrE",
+    "rating": 4.5,
+    "reviews": 344
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "360": {
+   "name_zh": "JL STUDIO 現代新加坡料理",
+   "address_zh": "408臺中市南屯區益豐路四段689 號2樓",
+   "address_en": "2樓 JL STUDIO, No. 689 號, Yifeng Rd. Sec.4, Nantun District, Taichung City, 408",
+   "hours_summary": [
+    "수~금 오후 6:00~10:00",
+    "토~일 오후 12:00~2:30, 오후 6:00~10:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "海南雞飯"
+    },
+    {
+     "name": "肉骨茶"
+    },
+    {
+     "name": "鴨肝"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "타이중 南屯區에 있는 싱가포르 레스토랑이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 海南雞飯, 肉骨茶, 鴨肝 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJpzHEAN09aTQRdBlo7PKl7A0",
+    "rating": 4.4,
+    "reviews": 902
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "361": {
+   "name_zh": "Enrich restaurant & café",
+   "address_zh": "407臺中市西屯區何南里大墩二十街111號",
+   "address_en": "407, Taichung City, Xitun District, Henan Village, Dadun 20th St, 111號Enrich restaurant & café",
+   "hours_summary": [
+    "매일 오전 11:00~오후 3:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "스정푸역 市政府站",
+    "zh": "市政府站",
+    "distance": "450m",
+    "meters": 450
+   },
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "鹹蛋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이중 西屯區에 있는 채식 전문식당이에요. 스정푸역 市政府站에서 직선 약 450m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 푸딩(布丁), 鹹蛋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJk76i3I89aTQRVHoew46e2c0",
+    "rating": 4.6,
+    "reviews": 1639
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "362": {
+   "name_zh": "小夏天",
+   "address_zh": "400臺中市中區公園里自由路二段28-2號",
+   "address_en": "小夏天 petit ete, No. 28-2號, Section 2, Ziyou Rd, Gongyuan Village, Central District, Taichung City, 400",
+   "hours_summary": [
+    "월 오전 11:30~오후 6:00",
+    "금~일 오전 11:30~오후 6:00"
+   ],
+   "closed_days": "화요일, 수요일, 목요일",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "450m",
+    "meters": 450
+   },
+   "menu": [
+    {
+     "name": "煉乳"
+    },
+    {
+     "name": "蝦餅"
+    },
+    {
+     "name": "冰滴咖啡"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 中區에 있는 베트남 음식점이에요. 臺鐵臺中車站에서 직선 약 450m 거리예요. 구글 지도 기준 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 煉乳, 蝦餅, 冰滴咖啡 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJY8a16KY9aTQRy83XTQMjsZ0",
+    "rating": 4.2,
+    "reviews": 517
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "363": {
+   "name_zh": "禾豐田食 ｜家庭料理定食｜有機友善食材使用｜最後點餐為19:00",
+   "address_zh": "403臺中市西區和龍里博館二街224號",
+   "address_en": "403, Taichung City, West District, Helong Village, Boguan 2nd St, 224號禾豐田食 ｜家庭料理定食｜有機友善食材使用｜最後點餐為19:00",
+   "hours_summary": [
+    "월 오전 11:30~오후 3:00, 오후 5:00~8:00",
+    "금~일 오전 11:30~오후 3:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "화요일, 수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "味增湯"
+    },
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "蒸蛋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 西區에 있는 대만식 가게예요. 구글 지도 기준 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 味增湯, 푸딩(布丁), 蒸蛋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJUbdoeag9aTQR1e-IU8JuZQU",
+    "rating": 4.4,
+    "reviews": 302
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "364": {
+   "name_zh": "濃鄉臭豆腐",
+   "address_zh": "401臺中市東區振興里大智路89-1號",
+   "address_en": "401, Taichung City, East District, Zhenxing Village, Dazhi Rd, 89-1號濃鄉臭豆腐",
+   "hours_summary": [
+    "월~화 오후 3:30~10:00",
+    "목~일 오후 3:30~10:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "550m",
+    "meters": 550
+   },
+   "menu": [
+    {
+     "name": "酥脆"
+    },
+    {
+     "name": "동과차(冬瓜茶)"
+    },
+    {
+     "name": "味噌湯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이중 東區에 있는 대만 레스토랑이에요. 臺鐵臺中車站에서 직선 약 550m 거리예요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 酥脆, 동과차(冬瓜茶), 味噌湯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJF0MA8T09aTQRBfRhO7HqGYE",
+    "rating": 4.5,
+    "reviews": 2747
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "365": {
+   "name_zh": "銀座杏子日式豬排-台中秀泰店",
+   "address_zh": "401臺中市東區干城里南京路76號",
+   "address_en": "401, Taichung City, East District, Gancheng Village, Nanjing Rd, 76號銀座杏子日式豬排-台中秀泰店",
+   "hours_summary": [
+    "월~금 오전 11:00~오후 10:00",
+    "토~일 오전 10:30~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "650m",
+    "meters": 650
+   },
+   "menu": [
+    {
+     "name": "里肌肉"
+    },
+    {
+     "name": "湯、飯"
+    },
+    {
+     "name": "雞塊"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이중 東區에 있는 돈까스 전문식당이에요. 臺鐵臺中車站에서 직선 약 650m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 里肌肉, 湯、飯, 雞塊 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJzc3Zk0A9aTQRWXdt3G8dd7s",
+    "rating": 4.2,
+    "reviews": 1394
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "366": {
+   "name_zh": "MOLINO 台中草悟廣場店",
+   "address_zh": "403臺中市西區雙龍里英才路534號534號B1樓, 櫃號B102",
+   "address_en": "403, Taichung City, West District, Shuanglong Village, Yingcai Rd, 534號534號B1樓, 櫃號B102MOLINO 台中草悟廣場店",
+   "hours_summary": [
+    "매일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "水煮蛋"
+    },
+    {
+     "name": "干貝"
+    },
+    {
+     "name": "貝殼麵"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 파스타 가게예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 水煮蛋, 干貝, 貝殼麵 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJYb_mUFg9aTQR6tqFw261EBQ",
+    "rating": 4.6,
+    "reviews": 1740
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "367": {
+   "name_zh": "橘祥合院",
+   "address_zh": "421臺中市后里區仁里里圳寮路35號",
+   "address_en": "421, Taichung City, Houli District, Renli Village, Zhenliao Rd, 35號橘祥合院",
+   "hours_summary": [
+    "수~일 오전 9:30~오후 6:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "통닭구이(烤雞)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 后里區에 있는 북경 요리 전문 식당이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 통닭구이(烤雞) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ5wrqLggaaTQRacF7b1to9zc",
+    "rating": 4.4,
+    "reviews": 379
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "368": {
+   "name_zh": "恩典景觀咖啡廳",
+   "address_zh": "421臺中市后里區永豐里月眉北路486號",
+   "address_en": "Grace holiday, No. 486號, Yuemei N Rd, Yongfeng Village, Houli District, Taichung City, 421",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "고기구이(烤肉)"
+    },
+    {
+     "name": "德國豬腳"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이중 后里區에 있는 바베큐장이에요. 구글 리뷰에서는 고기구이(烤肉), 德國豬腳 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJsSkFRQMQaTQRMwghUbFAMq8",
+    "rating": 4.1,
+    "reviews": 8691
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "369": {
+   "name_zh": "MIMIAN瞇瞇眼_豐原店 (全生乳波士頓派專門店、台中鮮奶油生日蛋糕)自取請先來電",
+   "address_zh": "420臺中市豐原區翁子里圓環北路二段399號",
+   "address_en": "420, Taichung City, Fengyuan District, Wengzi Village, Section 2, Yuanhuan N Rd, 399號MIMIAN瞇瞇眼_豐原店 (全生乳波士頓派專門店、台中鮮奶油生日蛋糕)自取請先來電",
+   "hours_summary": [
+    "월~토 오전 9:00~오후 8:00",
+    "일 오전 9:00~오후 5:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "餅乾"
+    },
+    {
+     "name": "內餡"
+    },
+    {
+     "name": "包裝"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 豐原區에 있는 케이크 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 餅乾, 內餡, 包裝 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJpXsW66_iw6sRbtpuqL3NIfk",
+    "rating": 5,
+    "reviews": 2560
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "370": {
+   "name_zh": "「傳」台中正老牌香菇肉羹 綠川店",
+   "address_zh": "400臺中市中區綠川里綠川西街167號",
+   "address_en": "Taichung Traditional Cuisine, No. 167號, Luchuan W St, Lüchuan Village, Central District, Taichung City, 400",
+   "hours_summary": [
+    "월 오전 8:00~오후 6:00",
+    "수~일 오전 8:00~오후 6:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "고기 갱(肉羹)"
+    }
+   ],
+   "menu_source": "name",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 中區에 있는 델리예요. 臺鐵臺中車站에서 직선 약 300m 거리예요. 구글 지도 기준 화요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJE92t6hQ9aTQRvcsTmrDHG3I",
+    "rating": 4.1,
+    "reviews": 3087
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "657": {
    "name_zh": "左香串燒",
    "address_zh": "100005臺北市中正區光復里中華路一段47號1樓",
@@ -6897,6 +9187,76 @@
    "checked_at": "2026-11-11",
    "method": "manual"
   },
+  "730": {
+   "name_zh": "筆堆咖啡",
+   "address_zh": "403臺中市西區中興里中興街122巷16號",
+   "address_en": "403, Taichung City, West District, Zhongxing Village, Lane 122, Zhongxing St, 16號筆堆咖啡",
+   "hours_summary": [
+    "매일 오후 3:00~11:55"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "라테(拿鐵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 카페예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 라테(拿鐵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJETEvTZ49aTQRYrx6tlxXOpA",
+    "rating": 4.2,
+    "reviews": 242
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "731": {
+   "name_zh": "星泰洋酒",
+   "address_zh": "403臺中市西區雙龍里向上路一段58號",
+   "address_en": "403, Taichung City, West District, Shuanglong Village, Section 1, Xiangshang Rd, 58號 성태양주",
+   "hours_summary": [
+    "월~토 오전 11:00~오후 10:30"
+   ],
+   "closed_days": "일요일",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 와인 전문점이에요. 구글 지도 기준 일요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJA-ieeWw9aTQRuEwvfmTvYSc",
+    "rating": 4.7,
+    "reviews": 23
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "732": {
+   "name_zh": "辛巴音樂餐廳",
+   "address_zh": "403臺中市西區雙龍里向上路一段22號",
+   "address_en": "Simba Music Restaurant, No. 22號, Section 1, Xiangshang Rd, Shuanglong Village, West District, Taichung City, 403",
+   "hours_summary": [
+    "수~일 오후 9:00~오전 4:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 라이브 음악 바예요. 구글 지도 기준 월요일, 화요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요.",
+   "google": {
+    "place_id": "ChIJaRYrc3U9aTQR_jKCSC2kUZ8",
+    "rating": 4.3,
+    "reviews": 986
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "733": {
    "name_zh": "三希堂人文空間",
    "address_zh": "111臺北市士林區臨溪里至善路二段221號4樓",
@@ -7035,6 +9395,35 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "752": {
+   "name_zh": "一鷺串燒居酒屋 台中中興店（寵物友善)",
+   "address_zh": "403臺中市西區中興里中興街120號",
+   "address_en": "403, Taichung City, West District, Zhongxing Village, Zhongxing St, 120號一鷺串燒居酒屋 台中中興店（寵物友善)",
+   "hours_summary": [
+    "매일 오후 6:00~오전 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "燒烤"
+    },
+    {
+     "name": "銅鑼燒"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 꼬치구이 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 燒烤, 銅鑼燒 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJw_wAi0s9aTQRkAcZuDiLzDE",
+    "rating": 4.9,
+    "reviews": 7275
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "754": {
    "name_zh": "西門 梁山泊小籠湯包",
    "address_zh": "108臺北市萬華區萬壽里漢口街二段54-4號",
@@ -7143,6 +9532,37 @@
     "place_id": "ChIJJZ1M89GrQjQR3e8BQB9PdsE",
     "rating": 4.4,
     "reviews": 1354
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "768": {
+   "name_zh": "輕井澤 公益店",
+   "address_zh": "403臺中市西區公平里公益路276號",
+   "address_en": "칭징저훠궈 No. 276號, Gongyi Rd, Gongping Village, West District, Taichung City, 403",
+   "hours_summary": [
+    "매일 오전 11:00~오전 2:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "水安宮站",
+    "zh": "水安宮站",
+    "distance": "800m",
+    "meters": 800
+   },
+   "menu": [
+    {
+     "name": "滷豆腐"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이중 西區에 있는 핫팟 레스토랑이에요. 水安宮站에서 직선 약 800m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 滷豆腐 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJTeBTY5c9aTQRBxv5dLXr4kE",
+    "rating": 4.3,
+    "reviews": 12529
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -7468,6 +9888,38 @@
     "place_id": "ChIJtWtNUqulQjQRk5bAuHV49QA",
     "rating": 4.8,
     "reviews": 1360
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "785": {
+   "name_zh": "王罔麵線糊",
+   "address_zh": "505彰化縣鹿港鎮大有里民族路268號",
+   "address_en": "505 대만 Changhua County, Lukang Township, Dayou Village, Minzu Rd, 268號王罔麵線糊",
+   "hours_summary": [
+    "매일 오전 6:00~오후 6:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "蝦米"
+    },
+    {
+     "name": "赤肉"
+    },
+    {
+     "name": "彰化老阿昌肉圈"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "장화 鹿港鎮에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 蝦米, 赤肉, 彰化老阿昌肉圈 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJa1rZTvxFaTQRMqXvvyHLMVY",
+    "rating": 4.2,
+    "reviews": 7811
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -7940,6 +10392,77 @@
     "place_id": "ChIJZcenbACpQjQR8f5G9_F6iFA",
     "rating": 3.6,
     "reviews": 141
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "804": {
+   "name_zh": "蔡阿姨創意湯包",
+   "address_zh": "400臺中市中區公園里成功路129號",
+   "address_en": "400, Taichung City, Central District, Gongyuan Village, Chenggong Rd, 129號蔡阿姨創意湯包",
+   "hours_summary": [
+    "매일 오전 10:00~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "550m",
+    "meters": 550
+   },
+   "menu": [
+    {
+     "name": "샤오롱바오(小籠包)"
+    },
+    {
+     "name": "두유(豆漿)"
+    },
+    {
+     "name": "카레(咖哩)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 中區에 있는 북경 요리 전문 식당이에요. 臺鐵臺中車站에서 직선 약 550m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 샤오롱바오(小籠包), 두유(豆漿), 카레(咖哩) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJu7tNdAA9aTQR6Cv2Ep2zM2s",
+    "rating": 4.8,
+    "reviews": 305
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "805": {
+   "name_zh": "台中市第四信用合作社",
+   "address_zh": "400臺中市中區繼光里中山路72號",
+   "address_en": "제4신용합작소 No. 72號, Zhongshan Rd, Jiguang Village, Central District, Taichung City, 400",
+   "hours_summary": [
+    "매일 오전 10:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "펑리수(鳳梨酥)"
+    },
+    {
+     "name": "愛文芒果"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 中區에 있는 디저트 전문 레스토랑이에요. 臺鐵臺中車站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 펑리수(鳳梨酥), 愛文芒果 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJaenMdRM9aTQRGt9LwGCrXk0",
+    "rating": 4.4,
+    "reviews": 11183
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -8632,6 +11155,62 @@
     "place_id": "ChIJrbu4VtqrQjQRpBHcFdvYCnc",
     "rating": 4.5,
     "reviews": 977
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "838": {
+   "name_zh": "南瓜屋魔女露露的廚房",
+   "address_zh": "403臺中市西區忠明里中興街225號",
+   "address_en": "Lulu's kitchen witch pumpkin house, No. 225號, Zhongxing St, Zhongming Village, West District, Taichung City, 403",
+   "hours_summary": [
+    "매일 오전 11:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "南瓜派"
+    },
+    {
+     "name": "酥皮"
+    },
+    {
+     "name": "양갈비(羊排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이중 西區에 있는 이탈리아 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 南瓜派, 酥皮, 양갈비(羊排) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJdVxZfp49aTQR_C70hy7ojEA",
+    "rating": 4.5,
+    "reviews": 6132
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "839": {
+   "name_zh": "MINIMAL",
+   "address_zh": "403臺中市西區忠明里美村路一段133巷16號",
+   "address_en": "MINIMAL, No. 16號, Lane 133, Section 1, Meicun Rd, Zhongming Village, West District, Taichung City, 403",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "白茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 아이스크림 가게예요. 구글 리뷰에서는 白茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJwf0giWM9aTQRyfEVFDVAbho",
+    "rating": 4.4,
+    "reviews": 1111
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -9333,6 +11912,75 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "971": {
+   "name_zh": "茶六燒肉堂 公益店",
+   "address_zh": "403臺中市西區公平里公益路268號",
+   "address_en": "403, Taichung City, West District, Gongping Village, Gongyi Rd, 268號茶六燒肉堂 公益店",
+   "hours_summary": [
+    "매일 오전 11:00~오전 2:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "水安宮站",
+    "zh": "水安宮站",
+    "distance": "800m",
+    "meters": 800
+   },
+   "menu": [
+    {
+     "name": "연어(鮭魚)"
+    },
+    {
+     "name": "고등어(鯖魚)"
+    },
+    {
+     "name": "주먹밥(飯糰)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "타이중 西區에 있는 야키니쿠 전문식당이에요. 水安宮站에서 직선 약 800m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 연어(鮭魚), 고등어(鯖魚), 주먹밥(飯糰) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJJ6o8Qtg9aTQRdPMUo5sVQYY",
+    "rating": 4.7,
+    "reviews": 21905
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "972": {
+   "name_zh": "吳留手串燒居酒屋 勤美店",
+   "address_zh": "40358臺中市西區中興里中興街111號",
+   "address_en": "40358, Taichung City, West District, Zhongxing Village, Zhongxing St, 111號吳留手串燒居酒屋 勤美店",
+   "hours_summary": [
+    "매일 오후 6:00~오전 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "牛小排"
+    },
+    {
+     "name": "炒烏龍"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이중 西區에 있는 이자카야예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 볶음밥(炒飯), 牛小排, 炒烏龍 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJIfQz_p49aTQRw8gxRVt6O3w",
+    "rating": 4.9,
+    "reviews": 19802
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "976": {
    "name_zh": "紅磡 港式飲茶（中華店）",
    "address_zh": "108臺北市萬華區西門里中華路一段144號2樓",
@@ -9665,6 +12313,146 @@
     "place_id": "ChIJefIOeACpQjQRMKqHkCzAv_I",
     "rating": 4.6,
     "reviews": 111
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "986": {
+   "name_zh": "邑鐵板燒",
+   "address_zh": "401臺中市東區新庄里大智路63號",
+   "address_en": "401, Taichung City, East District, Xinzhuang Village, Dazhi Rd, 63號邑鐵板燒",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 2:30, 오후 5:00~9:00",
+    "토~일 오전 11:30~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "臺鐵臺中車站",
+    "zh": "臺鐵臺中車站",
+    "distance": "450m",
+    "meters": 450
+   },
+   "menu": [
+    {
+     "name": "타로(芋頭)"
+    },
+    {
+     "name": "닭다리(雞腿)"
+    },
+    {
+     "name": "黑毛和牛"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$1,000~1,200 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1000-1200",
+   "intro": "타이중 東區에 있는 철판구이 전문식당이에요. 臺鐵臺中車站에서 직선 약 450m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 타로(芋頭), 닭다리(雞腿), 黑毛和牛 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJC051BBY9aTQRKqJS7Z5B4eM",
+    "rating": 4.4,
+    "reviews": 1323
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "987": {
+   "name_zh": "木木木木木呷冰",
+   "address_zh": "403臺中市西區三民里林森路71號",
+   "address_en": "403, Taichung City, West District, Sanmin Village, Linsen Rd, 71號木木木木木呷冰",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 7:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "빙수(剉冰)"
+    },
+    {
+     "name": "탕위안(湯圓)"
+    },
+    {
+     "name": "麵茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$400 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-400",
+   "intro": "타이중 西區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 빙수(剉冰), 탕위안(湯圓), 麵茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJh_ID6oI9aTQRreBqfP9JztY",
+    "rating": 4.8,
+    "reviews": 279
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "988": {
+   "name_zh": "炭火俱樂部 沙鹿店 Charcoal BBQ Club",
+   "address_zh": "433臺中市沙鹿區鹿寮里中山路450號",
+   "address_en": "433, Taichung City, Shalu District, Luliao Village, Zhongshan Rd, 450號炭火俱樂部 沙鹿店 Charcoal BBQ Club",
+   "hours_summary": [
+    "화~금 오후 5:00~11:00",
+    "토~일 오후 12:00~2:00, 오후 5:00~11:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "壽司卷"
+    },
+    {
+     "name": "肋排"
+    },
+    {
+     "name": "새우튀김(炸蝦)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이중 沙鹿區에 있는 스테이크 가게예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 壽司卷, 肋排, 새우튀김(炸蝦) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ4Wgh16IVaTQRKr3wdG_i2mI",
+    "rating": 4.9,
+    "reviews": 2344
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "989": {
+   "name_zh": "饕之鄉李姐的店",
+   "address_zh": "403臺中市西區公德里向上路一段353號",
+   "address_en": "403, Taichung City, West District, Gongde Village, Section 1, Xiangshang Rd, 353號饕之鄉李姐的店",
+   "hours_summary": [
+    "매일 오전 11:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "文心森林公園站",
+    "zh": "文心森林公園站",
+    "distance": "1000m",
+    "meters": 1000
+   },
+   "menu": [
+    {
+     "name": "탕바오(湯包)"
+    },
+    {
+     "name": "총유빙(蔥油餅)"
+    },
+    {
+     "name": "연어(鮭魚)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이중 西區에 있는 중국 음식점이에요. 文心森林公園站에서 직선 약 1000m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 탕바오(湯包), 총유빙(蔥油餅), 연어(鮭魚) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJoYQ2mqI9aTQREdSkjl2fyus",
+    "rating": 4,
+    "reviews": 6359
    },
    "method": "auto",
    "checked_at": "2026-11-11"
