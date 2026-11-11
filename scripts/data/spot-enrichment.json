@@ -652,7 +652,7 @@
   "42": {
    "name_zh": "阿裕牛肉涮涮鍋(崑崙店)",
    "address_zh": "717臺南市仁德區上崙里崑崙路733-1號",
-   "address_en": "717 대만 Tainan City, Rende District, Shanglun Village, Kunlun Rd, 733-1號阿裕牛肉涮涮鍋(崑崙店)",
+   "address_en": "717, Tainan City, Rende District, Shanglun Village, Kunlun Rd, 733-1號阿裕牛肉涮涮鍋(崑崙店)",
    "hours_summary": [
     "수~일 오전 10:00~오후 2:00, 오후 5:00~9:00"
    ],
@@ -684,7 +684,7 @@
   "43": {
    "name_zh": "歐絢ocean餐酒館｜小琉球餐酒館｜最美夕陽餐廳",
    "address_zh": "929屏東縣琉球鄉天福村信義路49-55號",
-   "address_en": "49-55號 OCEAN歐絢, Xinyi Rd, Tianfu Village, Liuqiu Township, Pingtung County, 대만 929",
+   "address_en": "49-55號 OCEAN歐絢, Xinyi Rd, Tianfu Village, Liuqiu Township, Pingtung County, 929",
    "hours_summary": [
     "매일 오후 3:00~10:50"
    ],
@@ -1588,7 +1588,7 @@
   "70": {
    "name_zh": "鳳姐鴨肉飯",
    "address_zh": "700臺南市中西區兌悅里民族路三段190號",
-   "address_en": "700 대만 Tainan City, West Central District, Duiyue Village, Section 3, Minzu Rd, 190號鳳姐鴨肉飯",
+   "address_en": "700, Tainan City, West Central District, Duiyue Village, Section 3, Minzu Rd, 190號鳳姐鴨肉飯",
    "hours_summary": [
     "월~화 오전 10:00~오후 2:30",
     "금~일 오전 10:00~오후 2:30"
@@ -6674,7 +6674,7 @@
   "292": {
    "name_zh": "阿貴私塾",
    "address_zh": "803高雄市鹽埕區河濱里莒光街85號",
-   "address_en": "803 대만 Kaohsiung City, Yancheng District, Hebin Village, Juguang St, 85號阿貴私塾",
+   "address_en": "803, Kaohsiung City, Yancheng District, Hebin Village, Juguang St, 85號阿貴私塾",
    "hours_summary": [
     "매일 오전 8:00~오후 5:00"
    ],
@@ -6711,7 +6711,7 @@
   "293": {
    "name_zh": "猜心泡芙 泰順店",
    "address_zh": "802高雄市苓雅區安祥里泰順街60號1樓",
-   "address_en": "802 대만 Kaohsiung City, Lingya District, Anxiang Village, Taishun St, 60號猜心泡芙 泰順店1樓",
+   "address_en": "802, Kaohsiung City, Lingya District, Anxiang Village, Taishun St, 60號猜心泡芙 泰順店1樓",
    "hours_summary": [
     "매일 오후 3:00~6:00"
    ],
@@ -6748,7 +6748,7 @@
   "294": {
    "name_zh": "內惟夜市",
    "address_zh": "80451高雄市鼓山區光榮里九如四路1488號",
-   "address_en": "Neiwei Night Market, No. 1488, Jiuru 4th Rd, Guangrong Village, Gushan District, Kaohsiung City, 대만 80451",
+   "address_en": "Neiwei Night Market, No. 1488, Jiuru 4th Rd, Guangrong Village, Gushan District, Kaohsiung City, 80451",
    "hours_summary": [
     "수 오후 6:00~11:30",
     "일 오후 6:00~11:30"
@@ -6778,7 +6778,7 @@
   "295": {
    "name_zh": "高雄市立美術館",
    "address_zh": "80460高雄市鼓山區龍水里美術館路80號",
-   "address_en": "가오슝시립미술관 No. 80號, Meishuguan Rd, Longshui Village, Gushan District, Kaohsiung City, 대만 80460",
+   "address_en": "가오슝시립미술관 No. 80號, Meishuguan Rd, Longshui Village, Gushan District, Kaohsiung City, 80460",
    "hours_summary": [
     "화~일 오전 9:30~오후 5:30"
    ],
@@ -6800,7 +6800,7 @@
   "296": {
    "name_zh": "內惟藝術中心",
    "address_zh": "804高雄市鼓山區龍水里馬卡道路329號",
-   "address_en": "Neiwei Arts Center, No. 329號, Makadao Rd, Longshui Village, Gushan District, Kaohsiung City, 대만 804",
+   "address_en": "Neiwei Arts Center, No. 329號, Makadao Rd, Longshui Village, Gushan District, Kaohsiung City, 804",
    "hours_summary": [
     "화~일 오전 11:00~오후 9:00"
    ],
@@ -6822,7 +6822,7 @@
   "298": {
    "name_zh": "Linny's Mini Garden玻璃植栽",
    "address_zh": "804高雄市鼓山區光榮里九如四路1488號",
-   "address_en": "804 대만 Kaohsiung City, Gushan District, Guangrong Village, Jiuru 4th Rd, 1488號Linny's Mini Garden玻璃植栽",
+   "address_en": "804, Kaohsiung City, Gushan District, Guangrong Village, Jiuru 4th Rd, 1488號Linny's Mini Garden玻璃植栽",
    "hours_summary": [
     "화~수 오후 12:00~5:00",
     "목 오전 12:00~오후 5:00",
@@ -9285,6 +9285,4579 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "491": {
+   "name_zh": "阿星鹹粥",
+   "address_zh": "700臺南市中西區藥王里民族路三段289號",
+   "address_en": "A Hsing Congee, No. 289號, Section 3, Minzu Rd, Yaowang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "화~일 오전 6:00~오후 12:50"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "굴(蚵仔)"
+    },
+    {
+     "name": "러우짜오(肉燥)"
+    },
+    {
+     "name": "虱目魚肚粥"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 죽 전문점이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 굴(蚵仔), 러우짜오(肉燥), 虱目魚肚粥 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJd2V9k2h2bjQR2QrUIg9vI0M",
+    "rating": 4.4,
+    "reviews": 2900
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "493": {
+   "name_zh": "裕成水果行",
+   "address_zh": "700臺南市中西區南美里民生路一段122號",
+   "address_en": "Yu Cheng Fruit Store, No. 122號, Section 1, Minsheng Rd, Nanmei Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "화~일 오후 12:00~오전 12:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "망고빙수(芒果冰)"
+    },
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "煉乳"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 쥬스 전문점이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 망고빙수(芒果冰), 푸딩(布丁), 煉乳 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ949JK2J2bjQRrk9IB5gwAG8",
+    "rating": 4.2,
+    "reviews": 4005
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "494": {
+   "name_zh": "小杜意麵",
+   "address_zh": "700臺南市中西區南美里友愛街143號",
+   "address_en": "700, Tainan City, West Central District, Nanmei Village, You'ai St, 143號小杜意麵",
+   "hours_summary": [
+    "매일 오후 4:30~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "루웨이(滷味)"
+    },
+    {
+     "name": "餛飩湯"
+    },
+    {
+     "name": "비빔면(乾麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 루웨이(滷味), 餛飩湯, 비빔면(乾麵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJZ-HSqmR2bjQRY6TCJqjDbaY",
+    "rating": 3.9,
+    "reviews": 4065
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "495": {
+   "name_zh": "邱家豆花(沒有外送",
+   "address_zh": "700臺南市中西區赤嵌里民族路二段138號",
+   "address_en": "Sweet Tofu, No. 138號, Section 2, Minzu Rd, Chihkan Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월~화 오후 12:00~9:00",
+    "목~일 오후 12:00~9:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "豆漿豆花"
+    },
+    {
+     "name": "팥(紅豆)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 디저트 전문점이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 豆漿豆花, 팥(紅豆) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJzypd-mF2bjQRlz8gCp0Fq0Y",
+    "rating": 4.6,
+    "reviews": 353
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "497": {
+   "name_zh": "飛蘭可可[台灣黑巧克力/蘭花巧克力]",
+   "address_zh": "700024臺南市中西區永華里開山路66號",
+   "address_en": "700024, Tainan City, West Central District, Yonghua Village, Kaishan Rd, 66號飛蘭可可[台灣黑巧克力/蘭花巧克力]",
+   "hours_summary": [
+    "월~화 오전 11:00~오후 6:00",
+    "수 오전 9:00~오후 5:00",
+    "금~일 오전 11:00~오후 6:00"
+   ],
+   "closed_days": "목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "可可豆"
+    },
+    {
+     "name": "抹茶冰淇淋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 초콜릿 전문점이에요. 구글 지도 기준 목요일은 쉬어요. 구글 리뷰에서는 可可豆, 抹茶冰淇淋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJo-JWVTV3bjQRiQ6HCKpU7eg",
+    "rating": 4.9,
+    "reviews": 83
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "498": {
+   "name_zh": "田媽媽 長盈海味屋-米其林必比登推介、十大神農獎）",
+   "address_zh": "727臺南市北門區慈安里484號",
+   "address_en": "727, Tainan City, Beimen District, Ci'an Village, 484號 Tian mother EPI seafood house",
+   "hours_summary": [
+    "토~일 오전 11:00~오후 5:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일, 금요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "밀크피시(虱目魚)"
+    },
+    {
+     "name": "흑당(黑糖)"
+    },
+    {
+     "name": "소시지(香腸)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-600",
+   "intro": "타이난 北門區에 있는 생선 레스토랑이에요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일, 금요일은 쉬어요. 구글 리뷰에서는 밀크피시(虱目魚), 흑당(黑糖), 소시지(香腸) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJdReTBd_UbTQRXzbKcMeVt6s",
+    "rating": 4.3,
+    "reviews": 562
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "499": {
+   "name_zh": "德鱔堂 鱔魚意麵",
+   "address_zh": "722臺南市佳里區六安里光復路322號",
+   "address_en": "722, Tainan City, Jiali District, Liu'an Village, Guangfu Rd, 322號德鱔堂 鱔魚意麵",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 2:00, 오후 4:30~10:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "魚骨"
+    },
+    {
+     "name": "炒鱔魚意麵"
+    },
+    {
+     "name": "花枝"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 佳里區에 있는 대만 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 魚骨, 炒鱔魚意麵, 花枝 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJSQ2FwE5_bjQRtcrA7N1Fk2c",
+    "rating": 4.1,
+    "reviews": 759
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "500": {
+   "name_zh": "ㄌㄜˋ腳王",
+   "address_zh": "724臺南市七股區176縣道",
+   "address_en": "724, Tainan City, Qigu District, 176縣道ㄌㄜˋ腳王",
+   "hours_summary": [
+    "월 오전 10:00~오후 7:00",
+    "목~일 오전 10:00~오후 7:00"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "굴 면선(蚵仔麵線)"
+    },
+    {
+     "name": "蚵嗲"
+    },
+    {
+     "name": "吳郭魚"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 七股區에 있는 해산물 요리 전문식당이에요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 굴 면선(蚵仔麵線), 蚵嗲, 吳郭魚 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ6xIujFfWbTQRnfEVfnfmzFc",
+    "rating": 4.1,
+    "reviews": 767
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "501": {
+   "name_zh": "龍山楊記廟口蚵嗲",
+   "address_zh": "724臺南市七股區龍山里211號",
+   "address_en": "724, Tainan City, Qigu District, Longshan Village, 211號龍山楊記廟口蚵嗲",
+   "hours_summary": [
+    "토~일 오전 10:00~오후 4:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일, 금요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "吳郭魚"
+    },
+    {
+     "name": "굴 면선(蚵仔麵線)"
+    },
+    {
+     "name": "酥脆"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 七股區에 있는 간이음식점이에요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일, 금요일은 쉬어요. 구글 리뷰에서는 吳郭魚, 굴 면선(蚵仔麵線), 酥脆 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJpUSi-lfWbTQRavK8b0z6dJM",
+    "rating": 4.7,
+    "reviews": 999
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "502": {
+   "name_zh": "阿宗蚵爹",
+   "address_zh": "724臺南市七股區龍山里11-25號",
+   "address_en": "724, Tainan City, Qigu District, Longshan Village, 11-25號阿宗蚵爹",
+   "hours_summary": [
+    "화~일 오전 10:00~오후 6:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "굴 면선(蚵仔麵線)"
+    },
+    {
+     "name": "吳郭魚"
+    },
+    {
+     "name": "고구마(地瓜)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 七股區에 있는 델리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 굴 면선(蚵仔麵線), 吳郭魚, 고구마(地瓜) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJafMgx8bQbTQRpdf7VkQvL7E",
+    "rating": 4.2,
+    "reviews": 1647
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "503": {
+   "name_zh": "叟卡宋 SOKA SONG",
+   "address_zh": "700臺南市中西區南美里中正路108巷1號1樓",
+   "address_en": "700, Tainan City, West Central District, Nanmei Village, Lane 108, Zhongzheng Rd, 1號叟卡宋 SOKA SONG1樓",
+   "hours_summary": [
+    "목~일 오후 1:00~6:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "甜點"
+    },
+    {
+     "name": "五味子茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 中西區에 있는 카페예요. 구글 지도 기준 월요일, 화요일, 수요일은 쉬어요. 구글 리뷰에서는 甜點, 五味子茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJMb-jKa13bjQRRSCvgAsFJno",
+    "rating": 5,
+    "reviews": 82
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "505": {
+   "name_zh": "度小月擔仔麵 中正旗艦店",
+   "address_zh": "700臺南市中西區南美里中正路101號",
+   "address_en": "도소월(두샤오웨) 중정점 No. 101號, Jhongjheng Rd, Nanmei Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:20, 오후 5:00~8:40"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "단짜이면(擔仔麵)"
+    },
+    {
+     "name": "더우화(豆花)"
+    },
+    {
+     "name": "밀크피시(虱目魚)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 中西區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 단짜이면(擔仔麵), 더우화(豆花), 밀크피시(虱目魚) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJwe_HQGN2bjQRl_7n1xm3UVc",
+    "rating": 4,
+    "reviews": 3505
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "506": {
+   "name_zh": "haritts 台南",
+   "address_zh": "700臺南市中西區南美里民生路一段157巷6號",
+   "address_en": "haritts, No. 6號, Lane 157, Section 1, Minsheng Rd, Nanmei Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "매일 오후 12:00~6:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "內餡"
+    },
+    {
+     "name": "鹹蛋黃"
+    },
+    {
+     "name": "말차(抹茶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 內餡, 鹹蛋黃, 말차(抹茶) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJUxihK3l3bjQRWnQVN-_kD3c",
+    "rating": 4.6,
+    "reviews": 197
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "507": {
+   "name_zh": "福樂屋 麻糬老店",
+   "address_zh": "700臺南市中西區南美里忠義路二段113號",
+   "address_en": "복락옥 No. 113, Section 2, Zhongyi Rd, Nanmei Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "매일 오전 10:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "딸기(草莓)"
+    },
+    {
+     "name": "말차(抹茶)"
+    },
+    {
+     "name": "타로(芋頭)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 패스트리 판매점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 딸기(草莓), 말차(抹茶), 타로(芋頭) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJz13cRGJ2bjQRVoL9IU_Ov88",
+    "rating": 4.1,
+    "reviews": 374
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "508": {
+   "name_zh": "吃貨製造所 Roar Factory",
+   "address_zh": "700臺南市中西區大新街57號",
+   "address_en": "700, Tainan City, West Central District, 中西區 Daxin St, 57號吃貨製造所 Roar Factory",
+   "hours_summary": [
+    "목~일 오전 10:00~오후 6:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "餐包"
+    },
+    {
+     "name": "燕麥奶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 커피용품 판매점이에요. 구글 지도 기준 월요일, 화요일, 수요일은 쉬어요. 구글 리뷰에서는 푸딩(布丁), 餐包, 燕麥奶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJKfQ9aGp3bjQREHt1-HhN7S0",
+    "rating": 4.7,
+    "reviews": 141
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "509": {
+   "name_zh": "性格",
+   "address_zh": "704臺南市北區北華里成功路68巷4-5號",
+   "address_en": "character, No. 4-5, Lane 68, Chenggong Rd, Beihua Village, North District, Tainan City, 704",
+   "hours_summary": [
+    "월~화 오전 9:00~오후 4:00",
+    "목~일 오전 9:00~오후 4:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "라멘(拉麵)"
+    },
+    {
+     "name": "주먹밥(飯糰)"
+    },
+    {
+     "name": "량몐(涼麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 北區에 있는 브런치 식당이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 라멘(拉麵), 주먹밥(飯糰), 량몐(涼麵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJzT9C8op2bjQRQE5LahQxNP8",
+    "rating": 4.7,
+    "reviews": 1902
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "510": {
+   "name_zh": "畢氏酒精 Pista Alcohol",
+   "address_zh": "700臺南市中西區赤嵌里忠義路二段138號",
+   "address_en": "Pista Alcohol, No. 138號, Section 2, Zhongyi Rd, Chihkan Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월 오전 11:00~오후 6:30",
+    "목~일 오전 11:00~오후 6:30"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "맥주(啤酒)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 아이스크림 가게예요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 맥주(啤酒) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJGao-GWJ2bjQRvmWpRWxTztA",
+    "rating": 4.3,
+    "reviews": 1024
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "511": {
+   "name_zh": "杉上鍋燒（無訂位服務）",
+   "address_zh": "700臺南市中西區赤嵌里西門路二段412-1號",
+   "address_en": "700, Tainan City, West Central District, Chihkan Village, Section 2, Ximen Rd, 412-1號杉上鍋燒（無訂位服務）",
+   "hours_summary": [
+    "월~화 오전 11:00~오후 1:30, 오후 5:00~8:30",
+    "수 오전 12:00~오후 1:30, 오후 5:00~8:30",
+    "목~일 오전 11:00~오후 1:30, 오후 5:00~8:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "두유(豆漿)"
+    },
+    {
+     "name": "바지락(蛤蜊)"
+    },
+    {
+     "name": "이몐(意麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 델리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 두유(豆漿), 바지락(蛤蜊), 이몐(意麵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJmVmby5N3bjQRCt-z4IIeTCk",
+    "rating": 4.7,
+    "reviews": 816
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "512": {
+   "name_zh": "福來小棧沙茶爐－特色火鍋",
+   "address_zh": "700臺南市中西區藥王里民族路三段147號",
+   "address_en": "700, Tainan City, West Central District, Yaowang Village, Section 3, Minzu Rd, 147號福來小棧沙茶爐－特色火鍋",
+   "hours_summary": [
+    "금 오후 5:00~11:00",
+    "토~일 오전 11:00~오후 2:00, 오후 5:00~11:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "오리구이(烤鴨)"
+    },
+    {
+     "name": "麻油雞"
+    },
+    {
+     "name": "볶음밥(炒飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-800",
+   "intro": "타이난 中西區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 오리구이(烤鴨), 麻油雞, 볶음밥(炒飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJTelFuVV3bjQRB4H1vHuH45A",
+    "rating": 4.7,
+    "reviews": 676
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "513": {
+   "name_zh": "鹽鄉民宿餐廳 Salt Country House",
+   "address_zh": "727臺南市北門區北門里井子脚57號",
+   "address_en": "727, Tainan City, Beimen District, Beimen Village, 井子脚57號鹽鄉民宿餐廳 Salt Country House",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "밀크피시(虱目魚)"
+    },
+    {
+     "name": "굴 면선(蚵仔麵線)"
+    },
+    {
+     "name": "생선탕(魚湯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 北門區에 있는 홈스테이예요. 구글 리뷰에서는 밀크피시(虱目魚), 굴 면선(蚵仔麵線), 생선탕(魚湯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJg5CiniwrbDQRu2STxF0nbm8",
+    "rating": 4.3,
+    "reviews": 1272
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "514": {
+   "name_zh": "咖裏",
+   "address_zh": "701011臺南市東區富裕里裕豐街78號",
+   "address_en": "Ca riz, No. 78號, Yufeng St, Fuyu Village, East District, Tainan City, 701011",
+   "hours_summary": [
+    "월~화 오전 11:30~오후 8:30",
+    "목 오전 11:30~오후 8:00",
+    "금~일 오전 11:30~오후 8:30"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "카레(咖哩)"
+    },
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "돈가스(豬排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 東區에 있는 커피숍/커피 전문점이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 카레(咖哩), 푸딩(布丁), 돈가스(豬排) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJPQyaPxR3bjQRHOtBpgf-ckg",
+    "rating": 4.9,
+    "reviews": 274
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "515": {
+   "name_zh": "茶屋介",
+   "address_zh": "700臺南市中西區水仙里國華街三段123-125號, YongLe Market, 2樓",
+   "address_en": "700, Tainan City, West Central District, 水仙里 Section 3, Guohua St, 123-125號, YongLe Market, 茶屋介2樓",
+   "hours_summary": [
+    "화~수 오전 9:00~오후 12:00"
+   ],
+   "closed_days": "월요일, 목요일, 금요일, 토요일, 일요일",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 中西區에 있는 커피용품 판매점이에요. 구글 지도 기준 월요일, 목요일, 금요일, 토요일, 일요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJm6wUGzF5bjQRUvIbShcfjdI",
+    "rating": 4.9,
+    "reviews": 74
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "516": {
+   "name_zh": "lumi lumi 拾光室",
+   "address_zh": "700臺南市中西區西湖里民權路四段112巷6號",
+   "address_en": "700, Tainan City, West Central District, Xihu Village, Lane 112, Section 4, Minquan Rd, 6號lumi lumi 拾光室",
+   "hours_summary": [
+    "수 오전 12:30~오후 6:00",
+    "목 오후 1:00~6:00",
+    "금 오전 11:00~오후 6:00",
+    "토 오전 10:00~오후 6:00"
+   ],
+   "closed_days": "월요일, 화요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "鮮奶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 커피숍/커피 전문점이에요. 구글 지도 기준 월요일, 화요일, 일요일은 쉬어요. 구글 리뷰에서는 푸딩(布丁), 鮮奶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJSZOuWAB3bjQRtANyzxYmEi4",
+    "rating": 5,
+    "reviews": 123
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "517": {
+   "name_zh": "和が家日式家庭料理",
+   "address_zh": "700臺南市中西區赤嵌里民權路二段50號",
+   "address_en": "700, Tainan City, West Central District, Chihkan Village, Section 2, Minquan Rd, 50號和が家日式家庭料理",
+   "hours_summary": [
+    "월~토 오후 6:00~오전 12:00"
+   ],
+   "closed_days": "일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "사시미(生魚片)"
+    },
+    {
+     "name": "炒烏龍"
+    },
+    {
+     "name": "仙貝"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$800 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800+",
+   "intro": "타이난 中西區에 있는 이자카야예요. 구글 지도 기준 일요일은 쉬어요. 구글 리뷰에서는 사시미(生魚片), 炒烏龍, 仙貝 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJD0RpCmJ2bjQRg3UQog-VvvY",
+    "rating": 4.2,
+    "reviews": 890
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "518": {
+   "name_zh": "竹記冬菜鴨",
+   "address_zh": "700臺南市中西區赤嵌里中山路47號",
+   "address_en": "700, Tainan City, West Central District, Chihkan Village, Zhongshan Rd, 47號竹記冬菜鴨",
+   "hours_summary": [
+    "화~금 오후 12:00~2:30, 오후 4:30~7:30"
+   ],
+   "closed_days": "월요일, 토요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "오리고기 덮밥(鴨肉飯)"
+    },
+    {
+     "name": "鴨肝"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$400 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-400",
+   "intro": "타이난 中西區에 있는 대만식 가게예요. 구글 지도 기준 월요일, 토요일, 일요일은 쉬어요. 구글 리뷰에서는 오리고기 덮밥(鴨肉飯), 鴨肝 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJBxyzx4l2bjQRWkYl5OdTg40",
+    "rating": 4.5,
+    "reviews": 400
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "519": {
+   "name_zh": "洛屋 - 牛骨拉麵、鴨清湯拉麵（無訂位、14:30/20:30最後點餐）",
+   "address_zh": "70043臺南市中西區城隍里中山路32號",
+   "address_en": "70043, Tainan City, West Central District, Chenghuang Village, Zhongshan Rd, 32號洛屋 - 牛骨拉麵、鴨清湯拉麵（無訂位、14:30/20:30最後點餐）",
+   "hours_summary": [
+    "매일 오전 11:30~오후 2:30, 오후 5:00~8:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "오리고기(鴨肉)"
+    },
+    {
+     "name": "蘋果汁"
+    },
+    {
+     "name": "和牛"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 中西區에 있는 일본라면 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 오리고기(鴨肉), 蘋果汁, 和牛 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJed02-5p3bjQRT4tUD3Ucitk",
+    "rating": 4.8,
+    "reviews": 2022
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "521": {
+   "name_zh": "福泰飯桌 第三代",
+   "address_zh": "700臺南市中西區赤嵌里民族路二段219號",
+   "address_en": "Fu Tai Table (3rd Gen), No. 219號, Section 2, Minzu Rd, Chihkan Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "화~금 오전 10:00~오후 1:30, 오후 4:30~6:30",
+    "토 오전 10:00~오후 1:30"
+   ],
+   "closed_days": "월요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "魚丸"
+    },
+    {
+     "name": "생선 껍질(魚皮)"
+    },
+    {
+     "name": "炒蛋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 대만 레스토랑이에요. 구글 지도 기준 월요일, 일요일은 쉬어요. 구글 리뷰에서는 魚丸, 생선 껍질(魚皮), 炒蛋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ54Pf_2F2bjQRAMH-nhBgbAQ",
+    "rating": 4.3,
+    "reviews": 1329
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "523": {
+   "name_zh": "c.t.dessert－台南甜點專賣",
+   "address_zh": "70141臺南市東區龍山里府連路425號",
+   "address_en": "70141, Tainan City, East District, Longshan Village, Fulian Rd, 425號c.t.dessert－台南甜點專賣",
+   "hours_summary": [
+    "토~일 오후 12:00~6:30"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일, 금요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "말차(抹茶)"
+    },
+    {
+     "name": "라테(拿鐵)"
+    },
+    {
+     "name": "個性化蛋糕"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 디저트 전문점이에요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일, 금요일은 쉬어요. 구글 리뷰에서는 말차(抹茶), 라테(拿鐵), 個性化蛋糕 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJKcLKcJ13bjQRBtCii4b2rlg",
+    "rating": 4.9,
+    "reviews": 201
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "524": {
+   "name_zh": "日安良食 臺南府城鳳凰卷（赤崁店）",
+   "address_zh": "700015臺南市中西區南美里永福路二段218號",
+   "address_en": "Good Day, Good Food - Tainan Phoenix Egg Rolls (Chikan Tower), No. 218號, Section 2, Yongfu Rd, Nanmei Village, West Central District, Tainan City, 700015",
+   "hours_summary": [
+    "월~토 오전 11:00~오후 6:00",
+    "일 오전 10:30~오후 6:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "肉鬆"
+    },
+    {
+     "name": "蛋捲"
+    },
+    {
+     "name": "酥脆"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 中西區에 있는 중국 디저트예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 肉鬆, 蛋捲, 酥脆 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJufYyOGx3bjQR6PphfkrIBAU",
+    "rating": 4.9,
+    "reviews": 529
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "525": {
+   "name_zh": "不弍見 食事処",
+   "address_zh": "741臺南市善化區溪美里145-1號",
+   "address_en": "741, Tainan City, Shanhua District, Ximei Village, 145-1號不弍見 食事処",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "차슈(叉燒)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 善化區에 있는 가이세키 레스토랑이에요. 구글 리뷰에서는 차슈(叉燒) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJk6OcsN59bjQRtx7TP9pu5rU",
+    "rating": 4.8,
+    "reviews": 206
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "526": {
+   "name_zh": "單車-ing",
+   "address_zh": "700臺南市中西區藥王里臨安路一段126號",
+   "address_en": "單車-ing, No. 126號, Section 1, Lin'an Rd, Yaowang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "화~금 오후 1:00~9:00",
+    "토 오후 1:00~8:00"
+   ],
+   "closed_days": "월요일, 일요일",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 자전거 판매점이에요. 구글 지도 기준 월요일, 일요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJLwjbTPV2bjQRUC-1pe-Xdbw",
+    "rating": 4.8,
+    "reviews": 140
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "528": {
+   "name_zh": "邱家小卷米粉",
+   "address_zh": "700臺南市中西區五條港里國華街三段251號",
+   "address_en": "700, Tainan City, West Central District, Wutiaogang Village, Section 3, Guohua St, 251號邱家小卷米粉",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 5:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "생선 껍질(魚皮)"
+    },
+    {
+     "name": "魚漿"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 간이음식점이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 생선 껍질(魚皮), 魚漿 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJZ1Zt6WR2bjQRNzPYYyIaN5Q",
+    "rating": 4,
+    "reviews": 8942
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "529": {
+   "name_zh": "六千泓佐土產牛肉",
+   "address_zh": "700臺南市中西區南廠里海安路一段63號",
+   "address_en": "Six Thousand Beef Soup, No. 63號, Section 1, Hai'an Rd, Nanchang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "목~일 오전 5:00~11:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "소고기탕(牛肉湯)"
+    },
+    {
+     "name": "소 양지(牛腩)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 간이음식점이에요. 구글 지도 기준 월요일, 화요일, 수요일은 쉬어요. 구글 리뷰에서는 소고기탕(牛肉湯), 소 양지(牛腩) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJuSIMDFR2bjQRO5xlAsCglKA",
+    "rating": 4.3,
+    "reviews": 4803
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "530": {
+   "name_zh": "拾參馬卡龍 正興店",
+   "address_zh": "700005臺南市中西區淺草里正興街63號",
+   "address_en": "700005, Tainan City, West Central District, Qiancao Village, Zhengxing St, 63號拾參馬卡龍 正興店",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 8:00",
+    "토~일 오전 11:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "牛軋糖"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 디저트 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 牛軋糖 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJCRa05GR2bjQRdUR29eV6y0A",
+    "rating": 4.3,
+    "reviews": 862
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "531": {
+   "name_zh": "日成咖啡早午餐",
+   "address_zh": "702臺南市南區國民路157號",
+   "address_en": "Richeng Cafe, No. 157號, Guomin Rd, South District, Tainan City, 702",
+   "hours_summary": [
+    "월~화 오전 8:00~오후 3:00",
+    "금~일 오전 8:00~오후 3:00"
+   ],
+   "closed_days": "수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "닭다리(雞腿)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 南區에 있는 브런치 식당이에요. 구글 지도 기준 수요일, 목요일은 쉬어요. 구글 리뷰에서는 닭다리(雞腿) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJox2TCxF1bjQRR38lBb-O_ZE",
+    "rating": 4.8,
+    "reviews": 498
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "532": {
+   "name_zh": "阿林鵝肉",
+   "address_zh": "701臺南市東區崇學里榮譽街290巷58號",
+   "address_en": "701, Tainan City, East District, Chongxue Village, Lane 290, Rongyu St, 58號阿林鵝肉",
+   "hours_summary": [
+    "화~일 오전 8:30~오후 2:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "미펀(米粉)"
+    },
+    {
+     "name": "러우짜오(肉燥)"
+    },
+    {
+     "name": "豆芽菜"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 東區에 있는 거위 가게예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 미펀(米粉), 러우짜오(肉燥), 豆芽菜 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJnVwkCZ52bjQRROE2aZK-Pro",
+    "rating": 4.3,
+    "reviews": 158
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "533": {
+   "name_zh": "夫水二木。咖啡館 Double Woods Café & Cinnamon rolls",
+   "address_zh": "700臺南市中西區西湖里民權路四段136號1樓",
+   "address_en": "700, Tainan City, West Central District, Xihu Village, Section 4, Minquan Rd, 136號夫水二木。咖啡館 Double Woods Café & Cinnamon rolls1樓",
+   "hours_summary": [
+    "매일 오전 9:00~오후 4:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "可可豆糖"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 커피용품 판매점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 可可豆糖 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJcyvhYox3bjQRjciyFBMjpIE",
+    "rating": 4.8,
+    "reviews": 584
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "534": {
+   "name_zh": "煉‧瓦 日本料理｜鐵板燒餐廳",
+   "address_zh": "708臺南市安平區金城里州平路289號",
+   "address_en": "Ren‧Kawara, No. 289號, Jhouping Rd, Jincheng Village, Anping District, Tainan City, 708",
+   "hours_summary": [
+    "월~화 오전 11:30~오후 2:30, 오후 5:30~9:30",
+    "목~일 오전 11:30~오후 2:30, 오후 5:30~9:30"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "사시미(生魚片)"
+    },
+    {
+     "name": "생굴(生蠔)"
+    },
+    {
+     "name": "燒烤"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "타이난 安平區에 있는 일본 음식점이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 사시미(生魚片), 생굴(生蠔), 燒烤 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ7VIAsq_YbTQRNHkev76AeqE",
+    "rating": 4.1,
+    "reviews": 418
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "535": {
+   "name_zh": "福昇小食鱔魚意麵",
+   "address_zh": "700臺南市中西區五條港里國華街三段161號",
+   "address_en": "700, Tainan City, West Central District, Wutiaogang Village, Section 3, Guohua St, 161號福昇小食鱔魚意麵",
+   "hours_summary": [
+    "매일 오전 11:30~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "炒鱔魚意麵"
+    },
+    {
+     "name": "蛋包飯"
+    },
+    {
+     "name": "豬肝湯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$400 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-400",
+   "intro": "타이난 中西區에 있는 델리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 炒鱔魚意麵, 蛋包飯, 豬肝湯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJu66VqGZ2bjQRzPLXKCvTz0Y",
+    "rating": 4.3,
+    "reviews": 2754
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "537": {
+   "name_zh": "醇涎坊古早味鍋燒意麵",
+   "address_zh": "700臺南市中西區南廠里保安路53號",
+   "address_en": "700, Tainan City, West Central District, Nanchang Village, 保安路53號醇涎坊古早味鍋燒意麵",
+   "hours_summary": [
+    "월 오전 4:30~오후 8:00",
+    "수 오전 4:30~오후 8:00",
+    "토~일 오전 4:30~오후 8:00"
+   ],
+   "closed_days": "화요일, 목요일, 금요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "炸魚"
+    },
+    {
+     "name": "魚片"
+    },
+    {
+     "name": "魚板"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 국수 전문점이에요. 구글 지도 기준 화요일, 목요일, 금요일은 쉬어요. 구글 리뷰에서는 炸魚, 魚片, 魚板 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJw91l4np2bjQRry5JiZhNLYk",
+    "rating": 4.2,
+    "reviews": 6923
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "538": {
+   "name_zh": "梅鑫海產店",
+   "address_zh": "700臺南市中西區五條港里海安路二段330巷1號",
+   "address_en": "700, Tainan City, West Central District, Wutiaogang Village, Lane 330, Section 2, Hai'an Rd, 1號梅鑫海產店",
+   "hours_summary": [
+    "월 오후 5:30~11:30",
+    "수~일 오후 5:30~11:30"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "사시미(生魚片)"
+    },
+    {
+     "name": "장어(鱔魚)"
+    },
+    {
+     "name": "蝦飯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 해산물 요리 전문식당이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 사시미(生魚片), 장어(鱔魚), 蝦飯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJL0WfJ2R2bjQRGjtnZhXWxuM",
+    "rating": 4.3,
+    "reviews": 4048
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "539": {
+   "name_zh": "旭山窯柴燒麵包 (週末預約制)",
+   "address_zh": "736臺南市柳營區旭山里旭山里山子腳48-26號",
+   "address_en": "736, Tainan City, Liuying District, Xushan Village, 旭山里山子腳48-26號旭山窯柴燒麵包 (週末預約制)",
+   "hours_summary": [
+    "토 오전 9:00~오후 6:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일, 금요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "피자(披薩)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 柳營區에 있는 제과점이에요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일, 금요일, 일요일은 쉬어요. 구글 리뷰에서는 피자(披薩) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJX_76EN-IbjQRdCbsEWNbFkA",
+    "rating": 4.2,
+    "reviews": 109
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "540": {
+   "name_zh": "小腳腿羊肉店 海安店",
+   "address_zh": "700臺南市中西區南廠里海安路一段68號",
+   "address_en": "700, Tainan City, West Central District, Nanchang Village, Section 1, Hai'an Rd, 68號小腳腿羊肉店 海安店",
+   "hours_summary": [
+    "매일 오전 10:00~오후 2:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "清湯"
+    },
+    {
+     "name": "면선(麵線)"
+    },
+    {
+     "name": "油麵"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-600",
+   "intro": "타이난 中西區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 清湯, 면선(麵線), 油麵 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ93u7Qnp2bjQRiPRTwA34po0",
+    "rating": 4.4,
+    "reviews": 609
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "541": {
+   "name_zh": "老邱羊肉爐",
+   "address_zh": "701臺南市東區成大里前鋒路138號",
+   "address_en": "701, Tainan City, East District, Chengda Village, Qianfeng Rd, 138號老邱羊肉爐",
+   "hours_summary": [
+    "매일 오후 4:00~11:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "면선(麵線)"
+    },
+    {
+     "name": "훠궈(火鍋)"
+    },
+    {
+     "name": "沙茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 면선(麵線), 훠궈(火鍋), 沙茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ3dABNIx2bjQRfDyeiRfKlb0",
+    "rating": 4.3,
+    "reviews": 354
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "542": {
+   "name_zh": "十月甜Oct.Sweet波士頓派 台南赤崁門市",
+   "address_zh": "700臺南市中西區赤嵌里民族路二段228號",
+   "address_en": "Oct. Sweet (Tainan Chikan Tower), No. 228號, Section 2, Minzu Rd, Chihkan Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "매일 오전 10:00~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "波士頓派"
+    },
+    {
+     "name": "內餡"
+    },
+    {
+     "name": "타로(芋頭)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 케이크 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 波士頓派, 內餡, 타로(芋頭) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJbdBcqk53bjQRha9wX34tfZY",
+    "rating": 4.7,
+    "reviews": 1212
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "543": {
+   "name_zh": "清吉水果",
+   "address_zh": "700臺南市中西區南美里府前路一段294號",
+   "address_en": "700, Tainan City, West Central District, Nanmei Village, Section 1, Fuqian Rd, 294號清吉水果",
+   "hours_summary": [
+    "월~토 오전 10:00~오후 11:30"
+   ],
+   "closed_days": "일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "酪梨"
+    },
+    {
+     "name": "蜜餞"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 과일 및 야채 가게예요. 구글 지도 기준 일요일은 쉬어요. 구글 리뷰에서는 푸딩(布丁), 酪梨, 蜜餞 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJvXWkX3t2bjQRxXHCrkJvyh4",
+    "rating": 4.1,
+    "reviews": 1106
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "544": {
+   "name_zh": "咖啡茶朵",
+   "address_zh": "701臺南市東區成大里勝利路115-1號",
+   "address_en": "701, Tainan City, East District, Chengda Village, Shengli Rd, 115-1號咖啡茶朵",
+   "hours_summary": [
+    "매일 오전 9:00~오후 7:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "파스타(義大利麵)"
+    },
+    {
+     "name": "下午茶"
+    },
+    {
+     "name": "바지락(蛤蜊)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 커피숍/커피 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 파스타(義大利麵), 下午茶, 바지락(蛤蜊) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJE1XuapJ2bjQRRHCH0BxFnXg",
+    "rating": 4.3,
+    "reviews": 1012
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "545": {
+   "name_zh": "圍讀珈琲",
+   "address_zh": "701臺南市東區育樂街201-3號",
+   "address_en": "701, Tainan City, East District, 東區 Yule St, 201-3號圍讀珈琲",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "베이글(貝果)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 東區에 있는 카페예요. 구글 리뷰에서는 베이글(貝果) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ_1XDkEB3bjQR49sYvSOqma0",
+    "rating": 4.5,
+    "reviews": 145
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "546": {
+   "name_zh": "漫草玖零",
+   "address_zh": "704臺南市北區北華里自強街50號",
+   "address_en": "704, Tainan City, North District, Beihua Village, Ziqiang St, 50號漫草玖零",
+   "hours_summary": [
+    "월 오후 6:00~오전 12:00",
+    "수~일 오후 6:00~오전 12:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "干貝"
+    },
+    {
+     "name": "소혀(牛舌)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$1,000~1,200 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1000-1200",
+   "intro": "타이난 北區에 있는 비스트로예요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 干貝, 소혀(牛舌) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJg4HOpTB3bjQRQ4NK0dgTJOk",
+    "rating": 4.5,
+    "reviews": 605
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "547": {
+   "name_zh": "禾事草烘焙",
+   "address_zh": "700臺南市中西區藥王里民權路三段322號",
+   "address_en": "Heshicao Bakery, No. 322號, Section 3, Minquan Rd, Yaowang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월~금 오후 4:30~8:00",
+    "일 오후 4:30~8:00"
+   ],
+   "closed_days": "토요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "토스트(吐司)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 제과점이에요. 구글 지도 기준 토요일은 쉬어요. 구글 리뷰에서는 토스트(吐司) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ71qaSnt2bjQRxs_msQapSAg",
+    "rating": 4.2,
+    "reviews": 179
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "548": {
+   "name_zh": "福吉雅手工焦糖布丁Fujiya Pudding",
+   "address_zh": "700臺南市中西區郡王里建業街22-2號台南女中大門口",
+   "address_en": "Fujiya Pudding, 台南女中大門口No. 22-2號, Jianye St, Junwang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "수~금 오후 1:00~6:00",
+    "토~일 오후 1:00~5:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "밀크티(奶茶)"
+    },
+    {
+     "name": "말차(抹茶)"
+    },
+    {
+     "name": "羊奶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 디저트 전문점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 밀크티(奶茶), 말차(抹茶), 羊奶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ4XG3rYB2bjQR__U42qLQPHs",
+    "rating": 4.6,
+    "reviews": 697
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "549": {
+   "name_zh": "貝咕嚕｜現烤日式手工貝果專賣店｜台南總店",
+   "address_zh": "70059臺南市中西區西門路二段273號",
+   "address_en": "70059, Tainan City, West Central District, Section 2, Ximen Rd, 273號貝咕嚕｜現烤日式手工貝果專賣店｜台南總店",
+   "hours_summary": [
+    "화 오전 9:00~오후 7:00",
+    "수~일 오전 9:00~오후 7:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "內餡"
+    },
+    {
+     "name": "타로(芋頭)"
+    },
+    {
+     "name": "모찌(麻糬)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 베이글 전문점이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 內餡, 타로(芋頭), 모찌(麻糬) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJx-KAhbR3bjQR8srehiNWXo8",
+    "rating": 4.9,
+    "reviews": 323
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "550": {
+   "name_zh": "好+在 台南東區貝果愛好者之家",
+   "address_zh": "701臺南市東區德光里崇善路26號",
+   "address_en": "701, Tainan City, East District, Deguang Village, Chongshan Rd, 26號好+在 台南東區貝果愛好者之家",
+   "hours_summary": [
+    "월~수 오전 11:00~오후 7:00",
+    "목 오후 2:00~7:00",
+    "금~토 오전 11:00~오후 7:00"
+   ],
+   "closed_days": "일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "시나몬롤(肉桂捲)"
+    },
+    {
+     "name": "말차(抹茶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 東區에 있는 제과점이에요. 구글 지도 기준 일요일은 쉬어요. 구글 리뷰에서는 시나몬롤(肉桂捲), 말차(抹茶) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJx3_EVBF3bjQRp1dIZi99OB8",
+    "rating": 4.9,
+    "reviews": 229
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "551": {
+   "name_zh": "IAM澳洲小時光",
+   "address_zh": "70050臺南市中西區赤嵌里忠義路二段169號",
+   "address_en": "IAM (In Australia Moment), No. 169號, Section 2, Zhongyi Rd, Chihkan Village, West Central District, Tainan City, 70050",
+   "hours_summary": [
+    "월~화 오전 7:00~오후 3:00",
+    "금~일 오전 7:00~오후 3:00"
+   ],
+   "closed_days": "수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "酸麵包"
+    },
+    {
+     "name": "牛肉漢堡"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 中西區에 있는 브런치 식당이에요. 구글 지도 기준 수요일, 목요일은 쉬어요. 구글 리뷰에서는 酸麵包, 牛肉漢堡 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJA8OYn-d3bjQRO4rQcKiEV2I",
+    "rating": 4.5,
+    "reviews": 1214
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "552": {
+   "name_zh": "皋月當代日式料理",
+   "address_zh": "700臺南市中西區永華里開山路52巷3號",
+   "address_en": "Satsuki Contemporary Japanese Cuisine, No. 3號, Lane 52, Kaishan Rd, Yonghua Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "화 오후 5:30~9:00",
+    "수~일 오전 11:30~오후 2:00, 오후 5:30~9:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "蘆筍"
+    },
+    {
+     "name": "手卷"
+    },
+    {
+     "name": "사시미(生魚片)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 일본 음식점이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 蘆筍, 手卷, 사시미(生魚片) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJB12rGNZ3bjQR-pH54hkDfXc",
+    "rating": 4.5,
+    "reviews": 849
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "553": {
+   "name_zh": "烏司答土耳其居家香料料理餐廳",
+   "address_zh": "700臺南市中西區開山里開山路129號",
+   "address_en": "烏司答土耳其居家香料料理餐廳No. 129號, Kaishan Rd, Kaishan Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월~수 오전 11:00~오후 2:30, 오후 5:00~9:00",
+    "금 오전 11:00~오후 2:30, 오후 5:00~9:00",
+    "토~일 오전 11:00~오후 3:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "濃湯"
+    },
+    {
+     "name": "米布丁"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 中西區에 있는 터키 음식점이에요. 구글 지도 기준 목요일은 쉬어요. 구글 리뷰에서는 濃湯, 米布丁 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJPSUwuep3bjQRAkVeeCp3stY",
+    "rating": 4.5,
+    "reviews": 1095
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "554": {
+   "name_zh": "䖙Thenn Leh",
+   "address_zh": "700臺南市中西區府前路一段122巷125號1樓",
+   "address_en": "1樓 THENN LEH, No. 125號, Lane 122, Section 1, Fuqian Rd, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "매일 오후 3:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "레몬 타르트(檸檬塔)"
+    },
+    {
+     "name": "豆乾"
+    },
+    {
+     "name": "麥茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 커피숍/커피 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 레몬 타르트(檸檬塔), 豆乾, 麥茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJgSTuMUJ3bjQRtsVvom8hVTI",
+    "rating": 4.6,
+    "reviews": 473
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "555": {
+   "name_zh": "阿櫃-日式手作銅鑼燒",
+   "address_zh": "700臺南市中西區開山路109巷9號1樓之1",
+   "address_en": "700, Tainan City, West Central District, 中西區 Lane 109, Kaishan Rd, 9號阿櫃-日式手作銅鑼燒1樓之1",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "말차(抹茶)"
+    },
+    {
+     "name": "紅豆餡"
+    },
+    {
+     "name": "蜂蜜"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 디저트 전문점이에요. 구글 리뷰에서는 말차(抹茶), 紅豆餡, 蜂蜜 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJI9F8tFF1bjQRFxNnlXEr-8Q",
+    "rating": 4.7,
+    "reviews": 265
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "556": {
+   "name_zh": "KOEMON",
+   "address_zh": "704臺南市北區公園里北門路二段15巷17號",
+   "address_en": "704, Tainan City, North District, Gongyuan Village, Lane 15, Section 2, Beimen Rd, 17號KOEMON",
+   "hours_summary": [
+    "월~수 오전 11:30~오후 6:00",
+    "금~일 오전 11:30~오후 6:00"
+   ],
+   "closed_days": "목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "레몬 타르트(檸檬塔)"
+    },
+    {
+     "name": "焙茶"
+    },
+    {
+     "name": "푸딩(布丁)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 北區에 있는 카페예요. 구글 지도 기준 목요일은 쉬어요. 구글 리뷰에서는 레몬 타르트(檸檬塔), 焙茶, 푸딩(布丁) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJc3zryv93bjQRTGp3BRZDW-M",
+    "rating": 4.6,
+    "reviews": 573
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "557": {
+   "name_zh": "磨磨茶飲店 momocha簡餐、甜點、茶",
+   "address_zh": "2號, No. 2北門路一段161巷城隍里中西區臺南市700",
+   "address_en": "2號, momocha beverage, No. 2, Lane 161, Section 1, Beimen Rd, Chenghuang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "금~일 오전 11:00~오후 6:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "꽈바오(刈包)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난에 있는 차 전문점이에요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 꽈바오(刈包) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJBxZBbYx2bjQR1pzhBQx5cXs",
+    "rating": 4.7,
+    "reviews": 399
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "558": {
+   "name_zh": "小豪洲沙茶爐中山店",
+   "address_zh": "700臺南市中西區赤嵌里中山路111號",
+   "address_en": "700, Tainan City, West Central District, Chihkan Village, Zhongshan Rd, 111號小豪洲沙茶爐中山店",
+   "hours_summary": [
+    "매일 오전 10:30~오후 11:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "魚丸"
+    },
+    {
+     "name": "魚冊"
+    },
+    {
+     "name": "蝦米"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 中西區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 魚丸, 魚冊, 蝦米 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJc49Fgol2bjQRREOdDX5OQe4",
+    "rating": 4.1,
+    "reviews": 3504
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "559": {
+   "name_zh": "毛房蔥柚鍋．冷藏肉專門｜台南日式火鍋",
+   "address_zh": "701臺南市東區泉南里府東街148號",
+   "address_en": "MaoFun, No. 148號, Fudong St, Quannan Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "매일 오전 11:30~오후 2:00, 오후 5:30~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "훠궈(火鍋)"
+    }
+   ],
+   "menu_source": "name",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이난 東區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요.",
+   "google": {
+    "place_id": "ChIJGS5VR4V2bjQRnxJMii6qiNA",
+    "rating": 4.5,
+    "reviews": 5806
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "560": {
+   "name_zh": "法國舊舊 french uncle",
+   "address_zh": "701臺南市東區裕聖里裕孝三街138號",
+   "address_en": "701, Tainan City, East District, Yusheng Village, Yuxiao 3rd St, 138號法國舊舊 french uncle",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 고가구점이에요.",
+   "google": {
+    "place_id": "ChIJq_ZfkTp3bjQRPSe7Kv9n7vg",
+    "rating": 5,
+    "reviews": 7
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "561": {
+   "name_zh": "益銘號 台南店",
+   "address_zh": "708臺南市安平區育平里育平四街41號",
+   "address_en": "708, Tainan City, Anping District, Yuping Village, Yuping 4th St, 41號益銘號 台南店",
+   "hours_summary": [
+    "월 오전 11:00~오후 8:00",
+    "수~일 오전 11:00~오후 8:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "蕎麥麵"
+    },
+    {
+     "name": "루웨이(滷味)"
+    },
+    {
+     "name": "피단(皮蛋)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 安平區에 있는 국수 전문점이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 蕎麥麵, 루웨이(滷味), 피단(皮蛋) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJseSz4lh3bjQR5nY3mNNefu8",
+    "rating": 4,
+    "reviews": 254
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "562": {
+   "name_zh": "阿財牛肉湯",
+   "address_zh": "708臺南市安平區天妃里古堡街5號",
+   "address_en": "A-Cai Beef Soup, No. 5號, Gubao St, Tianfei Village, Anping District, Tainan City, 708",
+   "hours_summary": [
+    "월~화 오후 12:00~9:00",
+    "목~일 오후 12:00~9:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "소고기탕(牛肉湯)"
+    },
+    {
+     "name": "소 내장(牛雜)"
+    },
+    {
+     "name": "소 양지(牛腩)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 安平區에 있는 대만 레스토랑이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 소고기탕(牛肉湯), 소 내장(牛雜), 소 양지(牛腩) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJv9hbKx12bjQRJmLpqLWzqsk",
+    "rating": 4.4,
+    "reviews": 9337
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "563": {
+   "name_zh": "府城食府正宗台南料理-安平總店",
+   "address_zh": "708臺南市安平區國平里華平路152號",
+   "address_en": "Traditional Tainan Feast (Anping), No. 152號, Huaping Rd, Guoping Village, Anping District, Tainan City, 708",
+   "hours_summary": [
+    "매일 오전 11:30~오후 2:00, 오후 5:30~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "더우화(豆花)"
+    },
+    {
+     "name": "단짜이면(擔仔麵)"
+    },
+    {
+     "name": "굴전(蚵仔煎)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 安平區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 더우화(豆花), 단짜이면(擔仔麵), 굴전(蚵仔煎) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJmb0YwQl2bjQRb2GZlk_K3Dw",
+    "rating": 4.8,
+    "reviews": 9244
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "564": {
+   "name_zh": "法國鬍子",
+   "address_zh": "70842臺南市安平區王城里中興街6巷1號",
+   "address_en": "La Belle Maison Cafe 法國鬍子, No. 1號, Lane 6, Zhongxing St, Wangcheng Village, Anping District, Tainan City, 70842",
+   "hours_summary": [
+    "수~토 오전 10:00~오후 3:30"
+   ],
+   "closed_days": "월요일, 화요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "레몬 타르트(檸檬塔)"
+    },
+    {
+     "name": "크렘브륄레(烤布蕾)"
+    },
+    {
+     "name": "香草冰淇淋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 安平區에 있는 카페예요. 구글 지도 기준 월요일, 화요일, 일요일은 쉬어요. 구글 리뷰에서는 레몬 타르트(檸檬塔), 크렘브륄레(烤布蕾), 香草冰淇淋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ0xwGVRx2bjQRtTjPvfDLx_0",
+    "rating": 4.8,
+    "reviews": 1400
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "565": {
+   "name_zh": "文章牛肉湯 安平總店",
+   "address_zh": "708臺南市安平區平安里安平路592號",
+   "address_en": "708, Tainan City, Anping District, Ping'an Village, Anping Rd, 592號文章牛肉湯 安平總店",
+   "hours_summary": [
+    "월~수 오전 11:00~오전 1:30",
+    "금 오전 11:00~오전 1:30",
+    "토~일 오전 10:30~오전 1:30"
+   ],
+   "closed_days": "목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "소혀(牛舌)"
+    },
+    {
+     "name": "捲餅"
+    },
+    {
+     "name": "소 내장(牛雜)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 安平區에 있는 대만 레스토랑이에요. 구글 지도 기준 목요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 소혀(牛舌), 捲餅, 소 내장(牛雜) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJDXFiuxp2bjQRSldJ3YTNG8M",
+    "rating": 4.3,
+    "reviews": 23358
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "566": {
+   "name_zh": "再發號百年肉粽",
+   "address_zh": "700臺南市中西區赤嵌里民權路二段71號",
+   "address_en": "700, Tainan City, West Central District, Chihkan Village, Section 2, Minquan Rd, 71號 짜이파하오 로우쫑 식당",
+   "hours_summary": [
+    "월~화 오전 10:00~오후 8:00",
+    "목~일 오전 10:00~오후 8:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "쭝쯔(肉粽)"
+    },
+    {
+     "name": "干貝"
+    },
+    {
+     "name": "꼴뚜기(小卷)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 아시아 레스토랑이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 쭝쯔(肉粽), 干貝, 꼴뚜기(小卷) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJVfASdWJ2bjQRvBZf3GL0HOE",
+    "rating": 4.1,
+    "reviews": 2692
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "567": {
+   "name_zh": "樑記正老店牛肉湯",
+   "address_zh": "70095臺南市中西區南廠里郡西路10號",
+   "address_en": "70095, Tainan City, West Central District, Nanchang Village, Junxi Rd, 10號樑記正老店牛肉湯",
+   "hours_summary": [
+    "화~수 오전 11:30~오후 8:00",
+    "금~일 오전 11:30~오후 8:00"
+   ],
+   "closed_days": "월요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "러우짜오판(肉燥飯)"
+    },
+    {
+     "name": "소 내장(牛雜)"
+    },
+    {
+     "name": "蔥爆牛肉"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 델리예요. 구글 지도 기준 월요일, 목요일은 쉬어요. 구글 리뷰에서는 러우짜오판(肉燥飯), 소 내장(牛雜), 蔥爆牛肉 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJi1ERKy13bjQRIMfb2Va9jDE",
+    "rating": 4.5,
+    "reviews": 1946
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "568": {
+   "name_zh": "廟口清燉牛肉麵（第二代）",
+   "address_zh": "700臺南市中西區南美里永福路二段178號",
+   "address_en": "700, Tainan City, West Central District, Nanmei Village, Section 2, Yongfu Rd, 178號廟口清燉牛肉麵（第二代）",
+   "hours_summary": [
+    "월 오전 8:00~오후 2:00",
+    "수~일 오전 8:00~오후 2:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "소고기탕(牛肉湯)"
+    },
+    {
+     "name": "루웨이(滷味)"
+    },
+    {
+     "name": "더우간(豆干)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 중국 국수류 전문점이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 소고기탕(牛肉湯), 루웨이(滷味), 더우간(豆干) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJtWjrwFR3bjQRE4-DEhTLUc0",
+    "rating": 4.6,
+    "reviews": 614
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "569": {
+   "name_zh": "榕樹下璞味綿綿冰－河樂店",
+   "address_zh": "700臺南市中西區淺草里河中街20號",
+   "address_en": "700, Tainan City, West Central District, Qiancao Village, Hezhong St, 20號榕樹下璞味綿綿冰－河樂店",
+   "hours_summary": [
+    "매일 오후 12:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "더우화(豆花)"
+    },
+    {
+     "name": "파파야 우유(木瓜牛奶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 더우화(豆花), 파파야 우유(木瓜牛奶) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJbyDe0VZ3bjQRGWeb7fap4IU",
+    "rating": 4.8,
+    "reviews": 984
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "571": {
+   "name_zh": "友愛牛肉湯",
+   "address_zh": "700臺南市中西區南美里友愛街109號",
+   "address_en": "700, Tainan City, West Central District, Nanmei Village, You'ai St, 109號 요아이우육탕",
+   "hours_summary": [
+    "수~금 오전 6:00~오후 2:00",
+    "토~일 오전 6:00~오후 3:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "荷包蛋"
+    },
+    {
+     "name": "半熟蛋"
+    },
+    {
+     "name": "비빔밥(拌飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 수프 전문 식당이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 荷包蛋, 半熟蛋, 비빔밥(拌飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJLyEZU2N2bjQRgUop0bSO3Zc",
+    "rating": 4.6,
+    "reviews": 1883
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "572": {
+   "name_zh": "富香沙茶爐",
+   "address_zh": "700臺南市中西區府前里西門路二段11號",
+   "address_en": "700, Tainan City, West Central District, Fuqian Village, Section 2, Ximen Rd, 11號富香沙茶爐",
+   "hours_summary": [
+    "화~일 오후 5:00~11:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "바지락(蛤蜊)"
+    },
+    {
+     "name": "熱肉"
+    },
+    {
+     "name": "돼지 간(豬肝)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 中西區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 바지락(蛤蜊), 熱肉, 돼지 간(豬肝) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJAQZKPHt2bjQRMhSQF3cJ-9Y",
+    "rating": 4.2,
+    "reviews": 749
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "573": {
+   "name_zh": "裏葉",
+   "address_zh": "704臺南市北區立人里西門路三段45巷42弄10號",
+   "address_en": "704, Tainan City, North District, Liren Village, 西門路三段45巷42弄10號裏葉",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "章魚燒"
+    },
+    {
+     "name": "玉子燒"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 北區에 있는 대만식 가게예요. 구글 리뷰에서는 푸딩(布丁), 章魚燒, 玉子燒 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ4fvOv192bjQRN4vX5R-O130",
+    "rating": 4.4,
+    "reviews": 554
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "574": {
+   "name_zh": "Mi Cazuela 移動的鍋子",
+   "address_zh": "700臺南市中西區永華里開山路122巷62-1號",
+   "address_en": "700, Tainan City, West Central District, Yonghua Village, Lane 122, Kaishan Rd, 62-1號Mi Cazuela 移動的鍋子",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "塔皮"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 프랑스 제과점이에요. 구글 리뷰에서는 塔皮 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJpyo--od2bjQRPBmRb-pPIWs",
+    "rating": 4.7,
+    "reviews": 854
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "576": {
+   "name_zh": "愛豆屋洋菓子工坊 (伴手禮、夏威夷豆塔、低溫烘焙堅果、牛軋糖餅、蛋黃酥、芋香流心酥、南棗核桃糕、高纖燕麥堅果脆餅、牛軋糖、堅果塔、彌月)",
+   "address_zh": "701臺南市東區德光里崇德二街99號",
+   "address_en": "701, Tainan City, East District, Deguang Village, Chongde 2nd St, 99號愛豆屋洋菓子工坊 (伴手禮、夏威夷豆塔、低溫烘焙堅果、牛軋糖餅、蛋黃酥、芋香流心酥、南棗核桃糕、高纖燕麥堅果脆餅、牛軋糖、堅果塔、彌月)",
+   "hours_summary": [
+    "매일 오전 9:30~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "夏威夷豆"
+    },
+    {
+     "name": "塔皮"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 디저트 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 夏威夷豆, 塔皮 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ2-CHCZx2bjQRYPUOMcWLIqo",
+    "rating": 4.9,
+    "reviews": 1450
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "577": {
+   "name_zh": "a Room房間咖啡",
+   "address_zh": "701臺南市東區龍山里長榮路一段234巷17號",
+   "address_en": "a Room房間咖啡, No. 17號, Lane 234, Section 1, Changrong Rd, Longshan Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "월 오전 10:00~오후 5:30",
+    "금~일 오전 10:00~오후 5:30"
+   ],
+   "closed_days": "화요일, 수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "커피(咖啡)"
+    }
+   ],
+   "menu_source": "name",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 카페예요. 구글 지도 기준 화요일, 수요일, 목요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJ350__Jp2bjQRrJMD1dW_rfU",
+    "rating": 4.6,
+    "reviews": 1606
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "578": {
+   "name_zh": "Second Floor 貳樓台南店",
+   "address_zh": "700臺南市中西區西湖里中華西路二段579號",
+   "address_en": "Second Floor Cafe (Tainan), No. 579號, Section 2, Zhonghua W Rd, Xihu Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월~금 오전 10:00~오후 9:30",
+    "토~일 오전 8:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "細扁麵"
+    },
+    {
+     "name": "스테이크(牛排)"
+    },
+    {
+     "name": "족발(豬腳)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 中西區에 있는 아메리칸 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 細扁麵, 스테이크(牛排), 족발(豬腳) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJOSsq-Ml3bjQREvcauKmccGM",
+    "rating": 4.5,
+    "reviews": 2597
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "579": {
+   "name_zh": "老宅·南",
+   "address_zh": "700臺南市中西區郡王里南門路209巷8號",
+   "address_en": "Old House Tainan, No. 8號, Lane 209, Nanmen Rd, Junwang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "매일 오전 11:30~오후 3:00, 오후 5:30~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "南瓜濃湯"
+    },
+    {
+     "name": "밀크피시(虱目魚)"
+    },
+    {
+     "name": "시나몬롤(肉桂捲)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이난 中西區에 있는 이탈리아 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 南瓜濃湯, 밀크피시(虱目魚), 시나몬롤(肉桂捲) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJh5OvR7t3bjQRhbbC7N0ZqvU",
+    "rating": 4.5,
+    "reviews": 1256
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "580": {
+   "name_zh": "スシロー壽司郎 台南安平店",
+   "address_zh": "708臺南市安平區中華西路二段317號1樓",
+   "address_en": "1樓 Sushiro Tainan Anping, No. 317號, Section 2, Zhonghua W Rd, Anping District, Tainan City, 708",
+   "hours_summary": [
+    "매일 오전 11:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "쉐화빙(雪花冰)"
+    },
+    {
+     "name": "고등어(鯖魚)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 安平區에 있는 회전초밥집이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 쉐화빙(雪花冰), 고등어(鯖魚) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJw1z6nNt3bjQRpSAbIy-YXC8",
+    "rating": 4.2,
+    "reviews": 3575
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "581": {
+   "name_zh": "唇義義大利餐酒館",
+   "address_zh": "700臺南市中西區大涼里中華西路二段28巷60號",
+   "address_en": "唇義義大利餐酒館（暫停營業）, No. 60, Lane 28, Section 2, Zhonghua W Rd, Daliang Village, West Central District, Tainan City, 700",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "돈가스(豬排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 이탈리아 음식점이에요. 구글 리뷰에서는 돈가스(豬排) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ07JEWXF2bjQRssvoYt5faGE",
+    "rating": 4.4,
+    "reviews": 216
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "582": {
+   "name_zh": "茉里more",
+   "address_zh": "701臺南市東區後甲里建東街41號",
+   "address_en": "More, No. 41號, Jiandong St, Houjia Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "월 오전 11:30~오후 7:30",
+    "목~금 오전 11:30~오후 7:30",
+    "토~일 오전 11:30~오후 8:30"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "墨魚"
+    },
+    {
+     "name": "시나몬롤(肉桂捲)"
+    },
+    {
+     "name": "三杯雞"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 東區에 있는 이탈리아 음식점이에요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 墨魚, 시나몬롤(肉桂捲), 三杯雞 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJsXwpzfQhbjQRshbWBpYeSLc",
+    "rating": 4.8,
+    "reviews": 1139
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "583": {
+   "name_zh": "艷食堂",
+   "address_zh": "700臺南市中西區永華里民生路一段41號",
+   "address_en": "700, Tainan City, West Central District, Yonghua Village, Section 1, Minsheng Rd, 41號艷食堂",
+   "hours_summary": [
+    "월 오전 10:00~오후 2:00, 오후 6:00~10:00",
+    "화 오전 10:00~오후 2:00",
+    "금~토 오전 10:00~오후 3:00, 오후 6:00~11:00",
+    "일 오전 10:00~오후 3:00, 오후 6:00~10:00"
+   ],
+   "closed_days": "수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "소혀(牛舌)"
+    },
+    {
+     "name": "燉牛肉"
+    },
+    {
+     "name": "牛肋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 中西區에 있는 브런치 식당이에요. 구글 지도 기준 수요일, 목요일은 쉬어요. 구글 리뷰에서는 소혀(牛舌), 燉牛肉, 牛肋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJa9gWzPV3bjQRBICvW49gYus",
+    "rating": 4.8,
+    "reviews": 544
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "584": {
+   "name_zh": "8818 比薩屋",
+   "address_zh": "700臺南市中西區南門里南門路60號",
+   "address_en": "8818 Pizza Restaurant, No. 60號, Nanmen Rd, Nanmen Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월~목 오전 11:00~오후 9:00",
+    "금~일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "프라이드치킨(炸雞)"
+    },
+    {
+     "name": "닭다리(雞腿)"
+    },
+    {
+     "name": "리소토(燉飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 中西區에 있는 피자 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 프라이드치킨(炸雞), 닭다리(雞腿), 리소토(燉飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJyw6AZ4B2bjQRrqv0P1HGoVg",
+    "rating": 4.3,
+    "reviews": 3562
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "585": {
+   "name_zh": "秘密Double.Mi",
+   "address_zh": "701臺南市東區文聖里裕學路25號",
+   "address_en": "701, Tainan City, East District, Wensheng Village, Yuxue Rd, 25號秘密Double.Mi",
+   "hours_summary": [
+    "월~수 오후 6:00~10:00",
+    "금~일 오후 6:00~10:00"
+   ],
+   "closed_days": "목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "濃湯"
+    },
+    {
+     "name": "墨魚"
+    },
+    {
+     "name": "酥皮"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 東區에 있는 이탈리아 음식점이에요. 구글 지도 기준 목요일은 쉬어요. 구글 리뷰에서는 濃湯, 墨魚, 酥皮 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ5eqWlLp2bjQR89vf58MGlsI",
+    "rating": 4.2,
+    "reviews": 1274
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "586": {
+   "name_zh": "永林綜合料理 Yonlin Restaurant",
+   "address_zh": "704臺南市北區東豐路411號",
+   "address_en": "Yonlin Restaurant, No. 411號, Dongfeng Rd, 北區 North District, Tainan City, 704",
+   "hours_summary": [
+    "월~화 오전 11:00~오후 9:00",
+    "수~금 오전 11:00~오후 10:00",
+    "토~일 오전 11:30~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "훠궈(火鍋)"
+    },
+    {
+     "name": "소고기탕(牛肉湯)"
+    },
+    {
+     "name": "牛肉丸"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이난 北區에 있는 그릴이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 훠궈(火鍋), 소고기탕(牛肉湯), 牛肉丸 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJadLi8ul2bjQR3-NioCtRSBk",
+    "rating": 4.4,
+    "reviews": 3376
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "587": {
+   "name_zh": "石二鍋 台南中華東店",
+   "address_zh": "701臺南市東區崇明里中華東路三段341號",
+   "address_en": "12 Hotpot, No. 341號, Section 3, Zhonghua E Rd, Chongming Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "월~목 오전 11:30~오후 9:30",
+    "금 오전 11:30~오전 12:00",
+    "토 오전 11:00~오전 12:00",
+    "일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "冰沙"
+    },
+    {
+     "name": "黑豆"
+    },
+    {
+     "name": "大鍋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 冰沙, 黑豆, 大鍋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJS2ZdziB0bjQR78IIgHnpcPU",
+    "rating": 4.5,
+    "reviews": 2713
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "588": {
+   "name_zh": "菜良拉麺（二郎インスパイア）粗麵體",
+   "address_zh": "701臺南市東區忠孝里崇明路42號",
+   "address_en": "701, Tainan City, East District, Zhongxiao Village, Chongming Rd, 42號菜良拉麺（二郎インスパイア）粗麵體",
+   "hours_summary": [
+    "월~토 오전 11:30~오후 2:00, 오후 5:30~9:00",
+    "일 오전 11:30~오후 2:00, 오후 5:30~8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "叉燒飯"
+    },
+    {
+     "name": "비빔면(拌麵)"
+    },
+    {
+     "name": "豆芽菜"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 일본라면 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 叉燒飯, 비빔면(拌麵), 豆芽菜 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJJ3M2NIN2bjQRsbvcCoWbCsw",
+    "rating": 4.2,
+    "reviews": 1835
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "589": {
+   "name_zh": "皮耶諾 異國料理廚房（府連店）",
+   "address_zh": "701臺南市東區龍山里府連路431號",
+   "address_en": "Pi Yenuo exotic cuisine kitchen, No. 431號, Fulian Rd, Longshan Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "수 오전 11:00~오후 2:30, 오후 5:10~9:30",
+    "목~일 오전 11:10~오후 2:30, 오후 5:10~9:30"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "濃湯"
+    },
+    {
+     "name": "홍차(紅茶)"
+    },
+    {
+     "name": "스테이크(牛排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 東區에 있는 이탈리아 음식점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 濃湯, 홍차(紅茶), 스테이크(牛排) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJZZVeyZp2bjQRrI4MwoZAAvw",
+    "rating": 4.4,
+    "reviews": 1093
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "590": {
+   "name_zh": "一緒二廚房 IsShoNi Kitchen",
+   "address_zh": "701臺南市東區裕農里東寧路472巷9號",
+   "address_en": "IsShoNi Kitchen, No. 9號, Lane 472, Dongning Rd, Yunong Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "토~일 오전 9:00~오후 5:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일, 금요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "油封鴨腿"
+    },
+    {
+     "name": "鹹派"
+    },
+    {
+     "name": "라테(拿鐵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 東區에 있는 브런치 식당이에요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일, 금요일은 쉬어요. 구글 리뷰에서는 油封鴨腿, 鹹派, 라테(拿鐵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJR--Hv712bjQROV3GjJzTuS4",
+    "rating": 4.4,
+    "reviews": 183
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "592": {
+   "name_zh": "牛丁次郎坊x台南崇德支店",
+   "address_zh": "70161臺南市東區崇德里崇德路409號",
+   "address_en": "70161, Tainan City, East District, Chongde Village, Chongde Rd, 409號牛丁次郎坊x台南崇德支店",
+   "hours_summary": [
+    "매일 오전 11:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "닭탕(雞湯)"
+    },
+    {
+     "name": "牛丼"
+    },
+    {
+     "name": "스테이크(牛排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 東區에 있는 야키니쿠 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 닭탕(雞湯), 牛丼, 스테이크(牛排) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJjzJCIf93bjQR1r0iabUNfXs",
+    "rating": 4.8,
+    "reviews": 3365
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "593": {
+   "name_zh": "庫克漢堡（一人作業餐點要等、兒童未讀小學不開放入內）",
+   "address_zh": "701臺南市東區忠孝里中華東路三段336巷43弄20號",
+   "address_en": "Kook Burger, No. 20號, Alley 43, Lane 336, Section 3, Zhonghua E Rd, Zhongxiao Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "월~화 오전 10:50~오후 3:30",
+    "목 오전 10:50~오후 3:30",
+    "토~일 오전 10:50~오후 4:30"
+   ],
+   "closed_days": "수요일, 금요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "漢堡排"
+    },
+    {
+     "name": "藍紋乳酪"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 東區에 있는 브런치 식당이에요. 구글 지도 기준 수요일, 금요일은 쉬어요. 구글 리뷰에서는 漢堡排, 藍紋乳酪 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ3bmeD6J2bjQRAKZWojg6fsg",
+    "rating": 4.6,
+    "reviews": 563
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "594": {
+   "name_zh": "麵屋青鳥",
+   "address_zh": "701033臺南市東區崇文里崇德路671號",
+   "address_en": "701033, Tainan City, East District, Chongwen Village, Chongde Rd, 671號麵屋青鳥",
+   "hours_summary": [
+    "월~수 오전 11:30~오후 2:00, 오후 5:00~8:00",
+    "금~일 오전 11:30~오후 2:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "麥茶"
+    },
+    {
+     "name": "麻油雞"
+    },
+    {
+     "name": "茶杯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 일본라면 전문식당이에요. 구글 지도 기준 목요일은 쉬어요. 구글 리뷰에서는 麥茶, 麻油雞, 茶杯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ5Xm9p2B1bjQREKXMRa_YzPI",
+    "rating": 4.5,
+    "reviews": 726
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "595": {
+   "name_zh": "小來刈包專賣",
+   "address_zh": "700臺南市中西區赤嵌里公園路121號",
+   "address_en": "700, Tainan City, West Central District, Chihkan Village, Gongyuan Rd, 121號小來刈包專賣",
+   "hours_summary": [
+    "월~화 오전 10:00~오후 6:00",
+    "금~일 오전 10:00~오후 6:00"
+   ],
+   "closed_days": "수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "햄버거(漢堡)"
+    },
+    {
+     "name": "玉米濃湯"
+    },
+    {
+     "name": "素肉"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 델리예요. 구글 지도 기준 수요일, 목요일은 쉬어요. 구글 리뷰에서는 햄버거(漢堡), 玉米濃湯, 素肉 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJFWCnalp3bjQRCvqaMoLRpgk",
+    "rating": 4.8,
+    "reviews": 576
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "596": {
+   "name_zh": "馨味胡椒白菜雞",
+   "address_zh": "704臺南市北區正覺里北安路一段66號",
+   "address_en": "704, Tainan City, North District, Zhengjue Village, Section 1, Beian Rd, 66號馨味胡椒白菜雞",
+   "hours_summary": [
+    "매일 오후 4:00~9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "三杯雞"
+    },
+    {
+     "name": "닭탕(雞湯)"
+    },
+    {
+     "name": "면선(麵線)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 北區에 있는 대만식 가게예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 三杯雞, 닭탕(雞湯), 면선(麵線) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJI0BQBvx2bjQRxL-DfreRfTs",
+    "rating": 4.5,
+    "reviews": 1931
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "597": {
+   "name_zh": "双生綠豆沙牛奶",
+   "address_zh": "700臺南市中西區南美里民族路二段281號",
+   "address_en": "700, Tainan City, West Central District, Nanmei Village, Section 2, Minzu Rd, 281號双生綠豆沙牛奶",
+   "hours_summary": [
+    "수~일 오전 11:00~오후 6:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "녹두탕(綠豆湯)"
+    },
+    {
+     "name": "四季豆"
+    },
+    {
+     "name": "快排"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 녹두탕(綠豆湯), 四季豆, 快排 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJP0eOi2F2bjQRpFKjnUKvoyA",
+    "rating": 4.5,
+    "reviews": 6892
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "598": {
+   "name_zh": "度小月擔仔麵 台南老店",
+   "address_zh": "700臺南市中西區永華里中正路16號",
+   "address_en": "도소월(본점) No. 16號, Jhongjheng Rd, Yonghua Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "매일 오전 11:00~오후 7:50"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "단짜이면(擔仔麵)"
+    },
+    {
+     "name": "鴨蛋"
+    },
+    {
+     "name": "飯碗"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 中西區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 단짜이면(擔仔麵), 鴨蛋, 飯碗 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJwe_HQGN2bjQRq4DHLs6aj48",
+    "rating": 4,
+    "reviews": 4019
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "599": {
+   "name_zh": "朱熹漢堡",
+   "address_zh": "700臺南市中西區南美里民生路一段159號",
+   "address_en": "700, Tainan City, West Central District, Nanmei Village, Section 1, Minsheng Rd, 159號朱熹漢堡",
+   "hours_summary": [
+    "금 오전 11:00~오후 3:00, 오후 5:00~9:30",
+    "토 오전 11:00~오전 12:30",
+    "일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "雞柳條"
+    },
+    {
+     "name": "파스타(義大利麵)"
+    },
+    {
+     "name": "지파이(雞排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 햄버거 전문점이에요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 雞柳條, 파스타(義大利麵), 지파이(雞排) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJNw6JI4h2bjQRKhroqNTX_bM",
+    "rating": 4.5,
+    "reviews": 731
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "600": {
+   "name_zh": "Serendipity 不經意的美好",
+   "address_zh": "700臺南市中西區南美里民生路一段159號",
+   "address_en": "700, Tainan City, West Central District, Nanmei Village, Section 1, Minsheng Rd, 159號Serendipity 不經意的美好",
+   "hours_summary": [
+    "금 오전 11:00~오후 3:00, 오후 5:00~9:30",
+    "토 오전 11:00~오전 12:30",
+    "일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "파스타(義大利麵)"
+    },
+    {
+     "name": "乳酪蛋糕"
+    },
+    {
+     "name": "푸딩(布丁)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 中西區에 있는 비스트로예요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 파스타(義大利麵), 乳酪蛋糕, 푸딩(布丁) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJcxQ06tB3bjQR-eZ0pUmt1fQ",
+    "rating": 4.6,
+    "reviews": 1025
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "602": {
+   "name_zh": "(台糖長榮酒店)長園中餐廳",
+   "address_zh": "701臺南市東區忠孝里中華東路三段336巷1號2樓",
+   "address_en": "2樓 Zhang Yuan Chinese Restaurant, No. 1號, Lane 336, Section 3, Zhonghua E Rd, Zhongxiao Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "매일 오전 11:30~오후 2:00, 오후 5:30~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "오리구이(烤鴨)"
+    },
+    {
+     "name": "얌차(飲茶)"
+    },
+    {
+     "name": "무떡(蘿蔔糕)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이난 東區에 있는 중국 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 오리구이(烤鴨), 얌차(飲茶), 무떡(蘿蔔糕) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJOXy1Fyd0bjQRKMAcn-XCQw8",
+    "rating": 4.2,
+    "reviews": 815
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "603": {
+   "name_zh": "春囍打邊爐 台南店",
+   "address_zh": "701臺南市東區崇善里中華東路三段89號",
+   "address_en": "Chun Xi Tainan Branch, No. 89號, Section 3, Zhonghua E Rd, Chongshan Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 10:30",
+    "토~일 오전 11:00~오후 10:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "酸菜魚"
+    },
+    {
+     "name": "乳豬"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-1000",
+   "intro": "타이난 東區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 酸菜魚, 乳豬 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJWaCPWGl3bjQRc3rV11871_c",
+    "rating": 4.9,
+    "reviews": 8992
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "604": {
+   "name_zh": "薄多義 Bite2Eat 台南崇學店",
+   "address_zh": "701臺南市東區德光里崇學路171號",
+   "address_en": "Bite 2 Eat, No. 171號, Chongxue Rd, Deguang Village, East District, Tainan City, 701",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "닭날개(雞翅)"
+    },
+    {
+     "name": "墨魚"
+    },
+    {
+     "name": "프라이드치킨(炸雞)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 이탈리아 음식점이에요. 구글 리뷰에서는 닭날개(雞翅), 墨魚, 프라이드치킨(炸雞) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJE4qFuZ52bjQR_JyrAKxuLzg",
+    "rating": 4.1,
+    "reviews": 3287
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "605": {
+   "name_zh": "廚房有雞中華總店",
+   "address_zh": "701臺南市東區崇學里中華東路三段300號",
+   "address_en": "701, Tainan City, East District, Chongxue Village, Section 3, Zhonghua E Rd, 300號廚房有雞中華總店",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:30, 오후 5:00~10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "豬骨"
+    },
+    {
+     "name": "松鼠魚"
+    },
+    {
+     "name": "軟殼蟹"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이난 東區에 있는 광동 요리 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 豬骨, 松鼠魚, 軟殼蟹 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJn1rXy592bjQR_z93i0Le-0c",
+    "rating": 4.7,
+    "reviews": 4925
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "606": {
+   "name_zh": "MATA Tofu Pudding 山海豆花 台南林百貨店",
+   "address_zh": "700臺南市中西區南美里忠義路二段63號5樓",
+   "address_en": "5樓 Mata Tofu Pudding (Tainan Hayashi), No. 63號, Section 2, Zhongyi Rd, Nanmei Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월~금 오전 11:00~오후 6:00",
+    "토~일 오전 11:00~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "粉圓"
+    },
+    {
+     "name": "흑당(黑糖)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 디저트 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 粉圓, 흑당(黑糖) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJFxoA58d3bjQRx01dcN_UMGs",
+    "rating": 4.1,
+    "reviews": 234
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "607": {
+   "name_zh": "Total Happiness (Crepe Rolls & Ice Cream)",
+   "address_zh": "700015臺南市中西區南美里忠義路二段49號1樓",
+   "address_en": "1樓 Total Happiness (Crepe Rolls & Ice Cream), No. 49號, Section 2, Zhongyi Rd, Nanmei Village, West Central District, Tainan City, 700015",
+   "hours_summary": [
+    "월~금 오전 10:00~오후 8:00",
+    "토~일 오전 10:00~오후 8:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "蛋捲"
+    },
+    {
+     "name": "말차(抹茶)"
+    },
+    {
+     "name": "義式冰淇淋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 쿠키 가게예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 蛋捲, 말차(抹茶), 義式冰淇淋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJYwvunrR3bjQR2H6rCyX0M7k",
+    "rating": 4.7,
+    "reviews": 616
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "608": {
+   "name_zh": "Mövenpick Café-莫凡彼台南南紡店",
+   "address_zh": "2f, No. 366號中華東路一段東光里東區臺南市701",
+   "address_en": "701, Tainan City, East District, Dongguang Village, Section 1, Zhonghua E Rd, 366號 Mövenpick Café-莫凡彼台南南紡店 2f",
+   "hours_summary": [
+    "매일 오전 11:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "파스타(義大利麵)"
+    },
+    {
+     "name": "리소토(燉飯)"
+    },
+    {
+     "name": "크렘브륄레(烤布蕾)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난에 있는 대만식 가게예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 파스타(義大利麵), 리소토(燉飯), 크렘브륄레(烤布蕾) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJt0gcmL52bjQRMbQzbdMkpTA",
+    "rating": 4.6,
+    "reviews": 3098
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "609": {
+   "name_zh": "新馬辣經典麻辣鍋-台南南紡店",
+   "address_zh": "701臺南市東區東光里中華東路一段366號3樓",
+   "address_en": "701, Tainan City, East District, Dongguang Village, Section 1, Zhonghua E Rd, 366號新馬辣經典麻辣鍋-台南南紡店3樓",
+   "hours_summary": [
+    "매일 오전 11:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "干貝"
+    },
+    {
+     "name": "帆立貝"
+    },
+    {
+     "name": "소혀(牛舌)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 干貝, 帆立貝, 소혀(牛舌) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJbwFmQBF3bjQRSofY7x6F6Rk",
+    "rating": 4.5,
+    "reviews": 5303
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "610": {
+   "name_zh": "漢來海港 台南南紡店",
+   "address_zh": "701臺南市東區東光里中華東路一段366號4樓",
+   "address_en": "701, Tainan City, East District, Dongguang Village, Section 1, Zhonghua E Rd, 366號漢來海港 台南南紡店4樓",
+   "hours_summary": [
+    "매일 오전 11:30~오후 2:00, 오후 2:30~4:30, 오후 5:30~9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "소고기탕(牛肉湯)"
+    },
+    {
+     "name": "사시미(生魚片)"
+    },
+    {
+     "name": "香魚"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$800~1,200 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800-1200",
+   "intro": "타이난 東區에 있는 뷔페 식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 소고기탕(牛肉湯), 사시미(生魚片), 香魚 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJhdRIur52bjQR0To1AZ1r7Ss",
+    "rating": 4.2,
+    "reviews": 7725
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "611": {
+   "name_zh": "阿添海產",
+   "address_zh": "700臺南市中西區藥王里金華路四段78之1號",
+   "address_en": "700, Tainan City, West Central District, Yaowang Village, Section 4, Jinhua Rd, 78之1號阿添海產",
+   "hours_summary": [
+    "월 오후 5:30~10:00",
+    "금~일 오후 5:30~10:00"
+   ],
+   "closed_days": "화요일, 수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "돼지 간(豬肝)"
+    },
+    {
+     "name": "장어 이몐(鱔魚意麵)"
+    },
+    {
+     "name": "魚腸"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-600",
+   "intro": "타이난 中西區에 있는 해산물 요리 전문식당이에요. 구글 지도 기준 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 돼지 간(豬肝), 장어 이몐(鱔魚意麵), 魚腸 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJp7vKdGZ2bjQRYK3XPFvWiUU",
+    "rating": 4.3,
+    "reviews": 379
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "612": {
+   "name_zh": "峯，懷舊滷味",
+   "address_zh": "700臺南市中西區五條港里民族路三段27號",
+   "address_en": "700, Tainan City, West Central District, Wutiaogang Village, Section 3, Minzu Rd, 27號峯，懷舊滷味",
+   "hours_summary": [
+    "월~금 오후 4:30~11:00",
+    "토 오후 4:30~11:30"
+   ],
+   "closed_days": "일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "더우간(豆干)"
+    },
+    {
+     "name": "豆皮"
+    },
+    {
+     "name": "豬油拌飯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 찹바예요. 구글 지도 기준 일요일은 쉬어요. 구글 리뷰에서는 더우간(豆干), 豆皮, 豬油拌飯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ9QLrumZ2bjQR6tov90_NvbI",
+    "rating": 4.5,
+    "reviews": 592
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "613": {
+   "name_zh": "客美多咖啡 Komeda‘s Coffee - 台南民生店",
+   "address_zh": "700臺南市中西區南美里民生路一段76號",
+   "address_en": "Komeda‘s Coffee (Tainan Minsheng), No. 76號, Section 1, Minsheng Rd, Nanmei Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "매일 오전 7:30~오후 6:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "토스트(吐司)"
+    },
+    {
+     "name": "紅豆泥"
+    },
+    {
+     "name": "蛋沙拉"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 커피용품 판매점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 토스트(吐司), 紅豆泥, 蛋沙拉 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJZxHvhch3bjQRJ7GufFHme9s",
+    "rating": 4.3,
+    "reviews": 878
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "614": {
+   "name_zh": "尋早早餐 裕豐店",
+   "address_zh": "701臺南市東區富裕里裕豐街63號",
+   "address_en": "701, Tainan City, East District, Fuyu Village, Yufeng St, 63號尋早早餐 裕豐店",
+   "hours_summary": [
+    "월~화 오전 8:00~오후 2:00",
+    "금~일 오전 8:00~오후 2:00"
+   ],
+   "closed_days": "수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "타로 페이스트(芋泥)"
+    },
+    {
+     "name": "볶음면(炒麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 東區에 있는 아침식사 전문 식당이에요. 구글 지도 기준 수요일, 목요일은 쉬어요. 구글 리뷰에서는 푸딩(布丁), 타로 페이스트(芋泥), 볶음면(炒麵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJPxF70aF3bjQROALTlFKfnr8",
+    "rating": 4.1,
+    "reviews": 511
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "615": {
+   "name_zh": "T&F 手作吐司 府連東路店",
+   "address_zh": "701臺南市東區泉南里府連東路22巷1號",
+   "address_en": "701, Tainan City, East District, Quannan Village, Lane 22, Fulian E Rd, 1號T&F 手作吐司 府連東路店",
+   "hours_summary": [
+    "매일 오후 4:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "타로 페이스트(芋泥)"
+    },
+    {
+     "name": "蛋黃"
+    },
+    {
+     "name": "焗烤"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 샌드위치 가게예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 타로 페이스트(芋泥), 蛋黃, 焗烤 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJxWVl6IN2bjQRwTd_igTr6eY",
+    "rating": 4.3,
+    "reviews": 833
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "616": {
+   "name_zh": "吳留手串燒居酒屋-台南店",
+   "address_zh": "700臺南市中西區藥王里神農街49號",
+   "address_en": "700, Tainan City, West Central District, Yaowang Village, 神農街49號吳留手串燒居酒屋-台南店",
+   "hours_summary": [
+    "매일 오후 6:00~오전 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "牛小排"
+    },
+    {
+     "name": "연어(鮭魚)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 이자카야예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 볶음밥(炒飯), 牛小排, 연어(鮭魚) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ16zUL-x3bjQRt1qecGlttyM",
+    "rating": 4.9,
+    "reviews": 4539
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "617": {
+   "name_zh": "漢來蔬食 台南南紡店",
+   "address_zh": "701臺南市東區東光里中華東路一段366號3樓",
+   "address_en": "3樓 Hi-Lai Vegetarian Restaurant Tainan Branch, No. 366號, Section 1, Zhonghua E Rd, Dongguang Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 2:30, 오후 5:00~9:00",
+    "토~일 오전 11:00~오후 3:30, 오후 5:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "더우화(豆花)"
+    },
+    {
+     "name": "무떡(蘿蔔糕)"
+    },
+    {
+     "name": "창펀(腸粉)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 채식 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 더우화(豆花), 무떡(蘿蔔糕), 창펀(腸粉) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJo18ku752bjQR1FbchVbqFxY",
+    "rating": 4.5,
+    "reviews": 1952
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "618": {
+   "name_zh": "英倫 港式 餐廳",
+   "address_zh": "702臺南市南區健康路一段375號",
+   "address_en": "England Eastern & Western Hong Kong-style Restaurant, No. 375號, Sec. 1, Jiankang Rd, South District, Tainan City, 702",
+   "hours_summary": [
+    "월~화 오후 12:00~3:00, 오후 5:30~10:00",
+    "목~금 오후 12:00~3:00, 오후 5:30~10:00",
+    "토~일 오후 12:00~3:30, 오후 5:00~10:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "黯然銷魂飯"
+    },
+    {
+     "name": "무떡(蘿蔔糕)"
+    },
+    {
+     "name": "샤오마이(燒賣)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 南區에 있는 차찬탱이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 黯然銷魂飯, 무떡(蘿蔔糕), 샤오마이(燒賣) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJIUyI41p3bjQRvZwty98sAZE",
+    "rating": 4.6,
+    "reviews": 3418
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "619": {
+   "name_zh": "老拓音樂餐廳",
+   "address_zh": "702臺南市南區金華里健康路二段351號",
+   "address_en": "Pioneer Restaurant, No. 351號, Section 2, Jiankang Rd, Jinhua Village, South District, Tainan City, 702",
+   "hours_summary": [
+    "월~목 오후 6:00~오전 1:00",
+    "금~토 오후 6:00~오전 2:00",
+    "일 오후 6:00~오전 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "훠궈(火鍋)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "타이난 南區에 있는 술집이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 훠궈(火鍋) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJv-JTNd91bjQRPEQiZQFFvYs",
+    "rating": 4.5,
+    "reviews": 2016
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "620": {
+   "name_zh": "台南轉角餐廳Corner Steak House",
+   "address_zh": "701臺南市東區大學里大學路22巷12號",
+   "address_en": "Corner Steak House, No. 12號, Lane 22, Daxue Rd, Daxue Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "매일 오전 11:30~오후 3:00, 오후 5:30~10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "타이난 東區에 있는 스테이크 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요.",
+   "google": {
+    "place_id": "ChIJv6xjdJN2bjQRUfUU9J5G5uc",
+    "rating": 4.3,
+    "reviews": 2346
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "622": {
+   "name_zh": "Umm Umm Veganbakery(12:00營業，店休日請參考粉專)",
+   "address_zh": "700臺南市中西區南廠里大勇街4-1號",
+   "address_en": "Umm Umm Vegan Bakery, No. 4-1號, Dayong St, Nanchang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월 오후 12:01~6:00",
+    "수 오후 12:01~6:00",
+    "토~일 오후 12:01~6:00"
+   ],
+   "closed_days": "화요일, 목요일, 금요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "베이글(貝果)"
+    },
+    {
+     "name": "시나몬롤(肉桂捲)"
+    },
+    {
+     "name": "말차(抹茶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 제과점이에요. 구글 지도 기준 화요일, 목요일, 금요일은 쉬어요. 구글 리뷰에서는 베이글(貝果), 시나몬롤(肉桂捲), 말차(抹茶) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJywPgG2l3bjQR4dgnEo8jkLU",
+    "rating": 4.6,
+    "reviews": 239
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "623": {
+   "name_zh": "台南葡吉麵包店",
+   "address_zh": "704臺南市北區赤嵌里成功路200號",
+   "address_en": "Pu-Jei, No. 200號, Chenggong Rd, Chihkan Village, North District, Tainan City, 704",
+   "hours_summary": [
+    "매일 오전 8:00~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "夏威夷豆"
+    },
+    {
+     "name": "菠蘿麵包"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 北區에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 夏威夷豆, 菠蘿麵包 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJdVFPSmB2bjQRn2aXiBaj_gM",
+    "rating": 4.2,
+    "reviews": 6515
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "624": {
+   "name_zh": "松大沙茶爐",
+   "address_zh": "700臺南市中西區兌悅里成功路439號",
+   "address_en": "700, Tainan City, West Central District, Duiyue Village, Chenggong Rd, 439號松大沙茶爐",
+   "hours_summary": [
+    "월 오후 5:00~오전 1:00",
+    "목~일 오후 5:00~오전 1:00"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "冰箱"
+    },
+    {
+     "name": "蝦米"
+    },
+    {
+     "name": "魚冊"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 中西區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 화요일, 수요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 冰箱, 蝦米, 魚冊 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJgQtDD2d2bjQRyOs_JCWvsy0",
+    "rating": 4.3,
+    "reviews": 1477
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "625": {
+   "name_zh": "鹿耳晚晚早餐｜鹿耳夜間部",
+   "address_zh": "701臺南市東區泉南里林森路一段153巷19號",
+   "address_en": "LURE Late Late Breakfast, No. 19號, Lane 153, Section 1, Linsen Rd, Quannan Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "월~수 오전 8:30~오후 3:00",
+    "목~일 오전 8:30~오후 3:00, 오후 7:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "戚風蛋糕"
+    },
+    {
+     "name": "밀크피시(虱目魚)"
+    },
+    {
+     "name": "綠咖哩"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 東區에 있는 브런치 식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 戚風蛋糕, 밀크피시(虱目魚), 綠咖哩 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ-2iLmoR2bjQREdeivWRjL9E",
+    "rating": 4.5,
+    "reviews": 3359
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "626": {
+   "name_zh": "包成羊肉",
+   "address_zh": "700臺南市中西區府前里西門路二段7號",
+   "address_en": "700, Tainan City, West Central District, Fuqian Village, Section 2, Ximen Rd, 7號包成羊肉",
+   "hours_summary": [
+    "화~일 오전 5:00~11:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "羊肉湯"
+    },
+    {
+     "name": "羊雜"
+    },
+    {
+     "name": "소고기탕(牛肉湯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 대만 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 羊肉湯, 羊雜, 소고기탕(牛肉湯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJnQmLa3t2bjQRStx2EesHbOw",
+    "rating": 4.2,
+    "reviews": 1580
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "627": {
+   "name_zh": "阿杰手工蛋餅店",
+   "address_zh": "702臺南市南區新興里國華街一段26號",
+   "address_en": "Jay’s Handmade Omelette Pancakes, No. 26號, Section 1, Guohua St, Xinxing Village, South District, Tainan City, 702",
+   "hours_summary": [
+    "수~금 오전 6:30~오후 12:30",
+    "토~일 오전 7:00~오후 12:30"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "焦糖牛奶"
+    },
+    {
+     "name": "총좌빙(蔥抓餅)"
+    },
+    {
+     "name": "雞蛋煎餅"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 南區에 있는 아침식사 전문 식당이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 焦糖牛奶, 총좌빙(蔥抓餅), 雞蛋煎餅 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJSYXZxnh2bjQRf7bfwCSKQh4",
+    "rating": 4.2,
+    "reviews": 2331
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "628": {
+   "name_zh": "黃家鱔魚意麵",
+   "address_zh": "700臺南市中西區五條港里民權路三段46號",
+   "address_en": "700, Tainan City, West Central District, Wutiaogang Village, Section 3, Minquan Rd, 46號黃家鱔魚意麵",
+   "hours_summary": [
+    "매일 오후 4:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "炒鱔魚意麵"
+    },
+    {
+     "name": "미가오(米糕)"
+    },
+    {
+     "name": "四神湯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 국수 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 炒鱔魚意麵, 미가오(米糕), 四神湯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ61CtG2R2bjQRGvNz1OIQVfk",
+    "rating": 4,
+    "reviews": 3330
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "629": {
+   "name_zh": "同記安平豆花 (安平總店)",
+   "address_zh": "708臺南市安平區王城里安北路433號",
+   "address_en": "통지 안핑 도우화 식당 No. 433號, Anbei Rd, Wangcheng Village, Anping District, Tainan City, 708",
+   "hours_summary": [
+    "매일 오전 9:00~오후 11:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "더우화(豆花)"
+    },
+    {
+     "name": "粉圓"
+    },
+    {
+     "name": "팥(紅豆)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 安平區에 있는 디저트 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 더우화(豆花), 粉圓, 팥(紅豆) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJC_GkyqjYbTQR8AlhjOqU_0w",
+    "rating": 4.2,
+    "reviews": 11049
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "630": {
+   "name_zh": "Meller 墨樂咖啡",
+   "address_zh": "708臺南市安平區天妃里安北路53號",
+   "address_en": "Meller coffee, No. 53號, Anbei Rd, Tianfei Village, Anping District, Tainan City, 708",
+   "hours_summary": [
+    "월 오전 10:00~오후 6:00",
+    "수~일 오전 10:00~오후 6:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "戚風蛋糕"
+    },
+    {
+     "name": "焙茶"
+    },
+    {
+     "name": "焦糖布丁"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 安平區에 있는 커피숍/커피 전문점이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 戚風蛋糕, 焙茶, 焦糖布丁 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJkaF4DBt2bjQRG_fUZd1WsEM",
+    "rating": 4.7,
+    "reviews": 1220
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "631": {
+   "name_zh": "大丸家",
+   "address_zh": "700臺南市中西區南門里永福路一段72號",
+   "address_en": "700, Tainan City, West Central District, Nanmen Village, Section 1, Yongfu Rd, 72號大丸家",
+   "hours_summary": [
+    "월~화 오전 11:00~오후 3:00, 오후 5:00~8:00",
+    "목~일 오전 11:00~오후 3:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "카레(咖哩)"
+    },
+    {
+     "name": "蛋包飯"
+    },
+    {
+     "name": "歐姆蛋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 일본 음식점이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 카레(咖哩), 蛋包飯, 歐姆蛋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJjWvLE3x2bjQR7mSKRGYcMiQ",
+    "rating": 4.8,
+    "reviews": 5756
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "632": {
+   "name_zh": "O.原點巧克",
+   "address_zh": "700臺南市中西區郡王里慶中街61號",
+   "address_en": "700, Tainan City, West Central District, Junwang Village, Qingzhong St, 61號O.原點巧克",
+   "hours_summary": [
+    "월 오후 12:00~6:00",
+    "목~일 오후 12:00~6:00"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "팬케이크(鬆餅)"
+    },
+    {
+     "name": "伯爵茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 팬케이크(鬆餅), 伯爵茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJfyeKkgR3bjQRXYYlU3YfM_I",
+    "rating": 4.9,
+    "reviews": 439
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "633": {
+   "name_zh": "春牛豆漿大王",
+   "address_zh": "704臺南市北區北華里成功路176號",
+   "address_en": "704, Tainan City, North District, Beihua Village, Chenggong Rd, 176號春牛豆漿大王",
+   "hours_summary": [
+    "화 오전 5:00~11:00, 오후 8:00~오전 12:00",
+    "수~토 오전 12:00~11:00, 오후 8:00~오전 12:00",
+    "일 오전 12:00~11:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "사오빙(燒餅)"
+    },
+    {
+     "name": "궈톄(鍋貼)"
+    },
+    {
+     "name": "야키니쿠(燒肉)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 北區에 있는 아침식사 전문 식당이에요. 구글 지도 기준 월요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 사오빙(燒餅), 궈톄(鍋貼), 야키니쿠(燒肉) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJobjyM2B2bjQRSpuzw82ORV8",
+    "rating": 4.2,
+    "reviews": 1593
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "634": {
+   "name_zh": "三大牛肉火鍋（創始店）",
+   "address_zh": "710臺南市永康區崑山里國光三街3號",
+   "address_en": "710, Tainan City, Yongkang District, Kunshan Village, Guoguang 3rd St, 3號三大牛肉火鍋（創始店）",
+   "hours_summary": [
+    "화~금 오전 11:00~오후 2:30, 오후 5:00~9:00",
+    "토~일 오전 11:00~오후 3:30, 오후 4:30~9:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "牛肉丸"
+    },
+    {
+     "name": "소 양지(牛腩)"
+    },
+    {
+     "name": "소고기탕(牛肉湯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 永康區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 牛肉丸, 소 양지(牛腩), 소고기탕(牛肉湯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJiXB-etBwbjQRHGRAV1XfbC4",
+    "rating": 4.4,
+    "reviews": 4038
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "635": {
+   "name_zh": "太陽牌冰品",
+   "address_zh": "700臺南市中西區開山里民權路一段41號",
+   "address_en": "Sun Ice, No. 41號, Section 1, Minquan Rd, Kaishan Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "매일 오전 10:00~오후 8:45"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "팥(紅豆)"
+    },
+    {
+     "name": "冰磚"
+    },
+    {
+     "name": "芋頭冰"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 팥(紅豆), 冰磚, 芋頭冰 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJUfQlqYh2bjQRNDYIUrzQ-EU",
+    "rating": 4.5,
+    "reviews": 5933
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "636": {
+   "name_zh": "醉月樓",
+   "address_zh": "701臺南市東區成大里大學路西段89號38樓",
+   "address_en": "38樓 SHANGHAI PAVILION, No. 89號大學路西段 Chengda Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "월~목 오전 11:30~오후 2:00, 오후 6:00~9:00",
+    "금~일 오전 11:30~오후 2:00, 오후 5:30~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "오리구이(烤鴨)"
+    },
+    {
+     "name": "더우화(豆花)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$1,800~2,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1800-2000",
+   "intro": "타이난 東區에 있는 상해 요리 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 오리구이(烤鴨), 더우화(豆花) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJvbZj_ox2bjQRca2ZcyZF78g",
+    "rating": 4.4,
+    "reviews": 2830
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "637": {
+   "name_zh": "錦霞樓｜尋真台南菜旗艦店",
+   "address_zh": "701臺南市東區東光里中華東路一段366號2 樓",
+   "address_en": "701, Tainan City, East District, Dongguang Village, Section 1, Zhonghua E Rd, 366號錦霞樓｜尋真台南菜旗艦店2 樓",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:30, 오후 5:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "미가오(米糕)"
+    },
+    {
+     "name": "甜湯"
+    },
+    {
+     "name": "어란(烏魚子)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 미가오(米糕), 甜湯, 어란(烏魚子) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJxaZrz752bjQRfgEitJCwQvk",
+    "rating": 3.9,
+    "reviews": 1870
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "638": {
+   "name_zh": "玉井有間冰舖芒果冰",
+   "address_zh": "714臺南市玉井區玉田里中正路154號",
+   "address_en": "714, Tainan City, Yujing District, Yutian Village, Zhongzheng Rd, 154號玉井有間冰舖芒果冰",
+   "hours_summary": [
+    "매일 오전 10:00~오후 7:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "煉乳"
+    },
+    {
+     "name": "冰磚"
+    },
+    {
+     "name": "愛文芒果"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 玉井區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 煉乳, 冰磚, 愛文芒果 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJt84PnhNhbjQR1ZQDuUzi7dk",
+    "rating": 4.4,
+    "reviews": 7730
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "639": {
+   "name_zh": "青鯤鯓吳阿嬤蝦乾",
+   "address_zh": "725臺南市將軍區鯤鯓里4-3號",
+   "address_en": "725, Tainan City, Jiangjun District, Kunshen Village, 4-3號青鯤鯓吳阿嬤蝦乾",
+   "hours_summary": [
+    "매일 오전 8:00~오후 6:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 將軍區에 있는 대만식 가게예요. 구글 지도 기준 휴무일 없이 매일 열어요.",
+   "google": {
+    "place_id": "ChIJiZ90Iz_UbTQRKaZctzlpK68",
+    "rating": 4.2,
+    "reviews": 39
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "640": {
+   "name_zh": "奇美食品幸福工廠",
+   "address_zh": "717臺南市仁德區仁愛里機場路1008號",
+   "address_en": "717, Tainan City, Rende District, Ren'ai Village, Jichang Rd, 1008號奇美食品幸福工廠",
+   "hours_summary": [
+    "화~일 오전 9:00~오후 5:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "펑리수(鳳梨酥)"
+    },
+    {
+     "name": "궈톄(鍋貼)"
+    },
+    {
+     "name": "奶黃包"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 仁德區에 있는 대만식 가게예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 펑리수(鳳梨酥), 궈톄(鍋貼), 奶黃包 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJd7DhOAB1bjQRVlhKT3PA-HE",
+    "rating": 4.1,
+    "reviews": 9743
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "641": {
+   "name_zh": "植男臥室雞蛋燒沒有內用了",
+   "address_zh": "717臺南市仁德區仁德里中正路二段831號",
+   "address_en": "717, Tainan City, Rende District, Rende Village, Section 2, Zhongzheng Rd, 831號植男臥室雞蛋燒沒有內用了",
+   "hours_summary": [
+    "화~일 오후 1:00~7:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "모찌(麻糬)"
+    },
+    {
+     "name": "餡料"
+    },
+    {
+     "name": "흑당(黑糖)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 仁德區에 있는 디저트 전문점이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 모찌(麻糬), 餡料, 흑당(黑糖) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJMbYH06tzbjQR2BxAQEakIS4",
+    "rating": 4.7,
+    "reviews": 172
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "642": {
+   "name_zh": "輝哥本土牛肉爐",
+   "address_zh": "717臺南市仁德區中山路60號",
+   "address_en": "717, Tainan City, Rende District, Zhongshan Rd, 60號輝哥本土牛肉爐",
+   "hours_summary": [
+    "화~일 오전 11:30~오후 2:30, 오후 4:40~9:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "소고기탕(牛肉湯)"
+    },
+    {
+     "name": "소 양지(牛腩)"
+    },
+    {
+     "name": "동파육(東坡肉)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 仁德區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 소고기탕(牛肉湯), 소 양지(牛腩), 동파육(東坡肉) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJQ0wEGFlxbjQRMrqj5xNjLYA",
+    "rating": 4.4,
+    "reviews": 2796
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "643": {
+   "name_zh": "派星堂PALAXY台南旗艦店",
+   "address_zh": "701臺南市東區南聖里裕農路1016號",
+   "address_en": "PALAXY, No. 1016號, Yunong Rd, Nansheng Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "매일 오전 11:00~오후 7:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "內餡"
+    },
+    {
+     "name": "말차(抹茶)"
+    },
+    {
+     "name": "蘋果派"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 디저트 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 內餡, 말차(抹茶), 蘋果派 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ05f0sth3bjQRblIM1YhmoyA",
+    "rating": 4.9,
+    "reviews": 1909
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "644": {
+   "name_zh": "山大廚房",
+   "address_zh": "701臺南市東區東聖里富農街二段43巷6號",
+   "address_en": "Santa Kitchen, No. 6號, Lane 43, Section 2, Funong St, Dongsheng Village, East District, Tainan City, 701",
+   "hours_summary": [
+    "수~일 오전 11:30~오후 2:00, 오후 6:00~8:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "리소토(燉飯)"
+    },
+    {
+     "name": "스테이크(牛排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-800",
+   "intro": "타이난 東區에 있는 다양한 메뉴를 선보이는 레스토랑이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 푸딩(布丁), 리소토(燉飯), 스테이크(牛排) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJIS02t492bjQRelQYmbWDugE",
+    "rating": 4.8,
+    "reviews": 747
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "645": {
+   "name_zh": "CREMA CAFE",
+   "address_zh": "701臺南市東區德高里德信街37號",
+   "address_en": "701, Tainan City, East District, Degao Village, Dexin St, 37號CREMA CAFE",
+   "hours_summary": [
+    "매일 오전 9:30~오후 6:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "파스타(義大利麵)"
+    },
+    {
+     "name": "冰磚"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이난 東區에 있는 카페예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 푸딩(布丁), 파스타(義大利麵), 冰磚 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJYwGWiet1bjQRVUZ6JEDUZFY",
+    "rating": 4.5,
+    "reviews": 513
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "647": {
+   "name_zh": "銀座杏子日式豬排-台南西門店",
+   "address_zh": "700臺南市中西區小西門里西門路一段658號B2A區",
+   "address_en": "700, Tainan City, West Central District, Xiaoximen Village, Section 1, Ximen Rd, 658號B2A區銀座杏子日式豬排-台南西門店",
+   "hours_summary": [
+    "매일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "里肌肉"
+    },
+    {
+     "name": "茶碗蒸"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 中西區에 있는 돈까스 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 里肌肉, 茶碗蒸 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ-6a9-nt2bjQR0-996qngWIs",
+    "rating": 4.2,
+    "reviews": 1032
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "648": {
+   "name_zh": "冰ㄉ• かき氷 二號",
+   "address_zh": "700臺南市中西區城隍里萬昌街39號",
+   "address_en": "700, Tainan City, West Central District, Chenghuang Village, Wanchang St, 39號冰ㄉ• かき氷 二號",
+   "hours_summary": [
+    "매일 오전 11:00~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "탕위안(湯圓)"
+    },
+    {
+     "name": "麵茶"
+    },
+    {
+     "name": "水果冰"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 탕위안(湯圓), 麵茶, 水果冰 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ_VsguWF2bjQRh91JZfqLHt4",
+    "rating": 4.4,
+    "reviews": 1550
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "649": {
+   "name_zh": "莉莉水果店",
+   "address_zh": "700臺南市中西區府前路一段199號",
+   "address_en": "Lily Fruit, No. 199號, Section 1, Fuqian Rd, 中西區 West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월~화 오전 11:00~오후 10:00",
+    "목~일 오전 11:00~오후 10:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "水果冰"
+    },
+    {
+     "name": "蜜豆"
+    },
+    {
+     "name": "芒果布丁"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 水果冰, 蜜豆, 芒果布丁 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJXytwGH12bjQRA9lZo8M4uJs",
+    "rating": 4.3,
+    "reviews": 6823
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "650": {
+   "name_zh": "良人煮鍋｜手作鍋物｜安平區美食",
+   "address_zh": "708013臺南市安平區國平里國平北路127號",
+   "address_en": "708013, Tainan City, Anping District, Guoping Village, Guoping N Rd, 127號良人煮鍋｜手作鍋物｜安平區美食",
+   "hours_summary": [
+    "매일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "南瓜濃湯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 安平區에 있는 샤브샤브 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 南瓜濃湯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ9yNzPXB1bjQRY1OvSlEqLuU",
+    "rating": 4.8,
+    "reviews": 1880
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "657": {
    "name_zh": "左香串燒",
    "address_zh": "100005臺北市中正區光復里中華路一段47號1樓",
@@ -9391,6 +13964,192 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "661": {
+   "name_zh": "前金肉燥飯",
+   "address_zh": "801高雄市前金區民生里大同二路26號",
+   "address_en": "801, Kaohsiung City, Qianjin District, Minsheng Village, 大同二路26號前金肉燥飯",
+   "hours_summary": [
+    "월~금 오전 7:30~오후 5:30",
+    "토 오전 7:30~오후 2:00"
+   ],
+   "closed_days": "일요일",
+   "mrt": {
+    "label": "前金站",
+    "zh": "前金站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "鴨蛋"
+    },
+    {
+     "name": "魚鬆"
+    },
+    {
+     "name": "생선 껍질(魚皮)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 前金區에 있는 대만 레스토랑이에요. 前金站에서 직선 약 200m 거리예요. 구글 지도 기준 일요일은 쉬어요. 구글 리뷰에서는 鴨蛋, 魚鬆, 생선 껍질(魚皮) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJKa-6MH0EbjQRKmXGv94Dn9k",
+    "rating": 4.4,
+    "reviews": 2967
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "662": {
+   "name_zh": "古猗園灌湯包",
+   "address_zh": "802高雄市苓雅區廣澤里興中一路385號",
+   "address_en": "802, Kaohsiung City, Lingya District, Guangze Village, Xingzhong 1st Rd, 385號古猗園灌湯包",
+   "hours_summary": [
+    "화~일 오전 11:00~오전 1:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "싼둬상취안역 三多商圈站",
+    "zh": "三多商圈站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "샤오롱바오(小籠包)"
+    },
+    {
+     "name": "피단(皮蛋)"
+    },
+    {
+     "name": "짜장면(炸醬麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 苓雅區에 있는 만두 전문점이에요. 싼둬상취안역 三多商圈站에서 직선 약 300m 거리예요. 구글 지도 기준 월요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 샤오롱바오(小籠包), 피단(皮蛋), 짜장면(炸醬麵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJtx9hpSAFbjQRroTDyEazkPs",
+    "rating": 4.3,
+    "reviews": 932
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "663": {
+   "name_zh": "老媽冰店",
+   "address_zh": "801高雄市前金區東金里文武一街62號",
+   "address_en": "801, Kaohsiung City, Qianjin District, Dongjin Village, Wenwu 1st St, 62號 라오마빙수",
+   "hours_summary": [
+    "매일 오전 11:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "前金站",
+    "zh": "前金站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "망고빙수(芒果冰)"
+    },
+    {
+     "name": "牛奶"
+    },
+    {
+     "name": "煉乳"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 前金區에 있는 아이스크림 가게예요. 前金站에서 직선 약 300m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 망고빙수(芒果冰), 牛奶, 煉乳 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ0dvf-XQFbjQRLpbw5Ab_obc",
+    "rating": 4.8,
+    "reviews": 487
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "664": {
+   "name_zh": "來呷飯川食堂 中正店",
+   "address_zh": "800高雄市新興區大明里中正四路43號",
+   "address_en": "800, Kaohsiung City, Sinsing District, Daming Village, Zhongzheng 4th Rd, 43號來呷飯川食堂 中正店",
+   "hours_summary": [
+    "매일 오전 11:30~오후 2:30, 오후 5:30~9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "메이리다오역 美麗島站",
+    "zh": "美麗島站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "고구마(地瓜)"
+    },
+    {
+     "name": "紅燒肉"
+    },
+    {
+     "name": "干鍋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-800",
+   "intro": "가오슝 新興區에 있는 사천 요리 전문식당이에요. 메이리다오역 美麗島站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 고구마(地瓜), 紅燒肉, 干鍋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJeffSAgEFbjQRgba2JfgkmDM",
+    "rating": 4,
+    "reviews": 732
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "665": {
+   "name_zh": "興隆居",
+   "address_zh": "801高雄市前金區東金里六合二路186號",
+   "address_en": "흥륭거 No. 186號, Liuhe 2nd Rd, Dongjin Village, Qianjin District, Kaohsiung City, 801",
+   "hours_summary": [
+    "수~일 오전 4:30~11:30"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": {
+    "label": "前金站",
+    "zh": "前金站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "탕바오(湯包)"
+    },
+    {
+     "name": "사오빙(燒餅)"
+    },
+    {
+     "name": "만두(餃子)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 前金區에 있는 아침식사 전문 식당이에요. 前金站에서 직선 약 200m 거리예요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 탕바오(湯包), 사오빙(燒餅), 만두(餃子) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJIZouDmMEbjQRvQvjSAJJgDo",
+    "rating": 4.2,
+    "reviews": 9179
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "666": {
    "name_zh": "三兄妹雪花冰 (西門町總店)",
    "address_zh": "108臺北市萬華區萬壽里漢中街23號",
@@ -9418,6 +14177,43 @@
     "place_id": "ChIJx9CYrQ6pQjQRiKoyGdBKv0k",
     "rating": 3.7,
     "reviews": 4569
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "687": {
+   "name_zh": "蜀府掌櫃 川菜",
+   "address_zh": "42號, No. 42號中山一路東坡里新興區高雄市800",
+   "address_en": "800, Kaohsiung City, Sinsing District, Dongpo Village, Zhongshan 1st Rd, 42號 쇼부장궤 42號",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 2:00, 오후 5:00~9:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "메이리다오역 美麗島站",
+    "zh": "美麗島站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "銀絲卷"
+    },
+    {
+     "name": "白肉"
+    },
+    {
+     "name": "동파육(東坡肉)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝에 있는 사천 요리 전문식당이에요. 메이리다오역 美麗島站에서 직선 약 250m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 銀絲卷, 白肉, 동파육(東坡肉) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJS2tJvwsFbjQRpVkiuGDHQ0A",
+    "rating": 4.7,
+    "reviews": 1491
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -9945,6 +14741,220 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "707": {
+   "name_zh": "新馬辣經典麻辣鍋-高雄富國店",
+   "address_zh": "813高雄市左營區新上里富國路71號2樓",
+   "address_en": "813, Kaohsiung City, Zuoying District, Xinshang Village, Fuguo Rd, 71號新馬辣經典麻辣鍋-高雄富國店2樓",
+   "hours_summary": [
+    "매일 오전 11:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "凹子底站",
+    "zh": "凹子底站",
+    "distance": "350m",
+    "meters": 350
+   },
+   "menu": [
+    {
+     "name": "干貝"
+    },
+    {
+     "name": "칵테일(調酒)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$1,000~1,200 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1000-1200",
+   "intro": "가오슝 左營區에 있는 핫팟 레스토랑이에요. 凹子底站에서 직선 약 350m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 干貝, 칵테일(調酒) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJjTKSFgAFbjQRpZkNfbNwYBw",
+    "rating": 3.9,
+    "reviews": 332
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "708": {
+   "name_zh": "Alex Reggae Bar 雷鬼燒烤(暫未固定公休·可先來電查詢;營業時間依現場為主）",
+   "address_zh": "946屏東縣恆春鎮墾丁里大灣路176號",
+   "address_en": "Alex Reggae Bar 雷鬼燒烤(暫未固定公休·可先來電查詢;營業時間依現場為主）, No. 176號, Dawan Rd, Kending Village, Hengchun Township, Pingtung County, 946",
+   "hours_summary": [
+    "매일 오후 6:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "칵테일(調酒)"
+    },
+    {
+     "name": "고기구이(烤肉)"
+    },
+    {
+     "name": "닭다리(雞腿)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "핑둥 恆春鎮에 있는 호프/생맥주집이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 칵테일(調酒), 고기구이(烤肉), 닭다리(雞腿) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJOZ_iJIixcTQReK9c0KWz5zk",
+    "rating": 4.7,
+    "reviews": 297
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "710": {
+   "name_zh": "厚得福湯包麵食專賣店",
+   "address_zh": "802高雄市苓雅區成功一路214號",
+   "address_en": "후덕복 No. 214號, Chenggong 1st Rd, Lingya District, Kaohsiung City, 802",
+   "hours_summary": [
+    "매일 오전 11:00~오후 8:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "싼둬상취안역 三多商圈站",
+    "zh": "三多商圈站",
+    "distance": "900m",
+    "meters": 900
+   },
+   "menu": [
+    {
+     "name": "烙餅"
+    },
+    {
+     "name": "탕바오(湯包)"
+    },
+    {
+     "name": "捲餅"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "가오슝 苓雅區에 있는 중국 국수류 전문점이에요. 싼둬상취안역 三多商圈站에서 직선 약 900m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 烙餅, 탕바오(湯包), 捲餅 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJJ5mkE4AEbjQRBY9lDmr3TLo",
+    "rating": 4.2,
+    "reviews": 8897
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "711": {
+   "name_zh": "京華餐廳",
+   "address_zh": "803高雄市鹽埕區光明里大勇路76巷8號",
+   "address_en": "Jinghua Restaurant, No. 8, Lane 76, Dayong Rd, Guangming Village, Yancheng District, Kaohsiung City, 803",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "50m",
+    "meters": 50
+   },
+   "menu": [
+    {
+     "name": "白肉"
+    },
+    {
+     "name": "拔絲地瓜"
+    },
+    {
+     "name": "총유빙(蔥油餅)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 鹽埕區에 있는 핫팟 레스토랑이에요. 옌청푸역 鹽埕埔站에서 직선 약 50m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 白肉, 拔絲地瓜, 총유빙(蔥油餅) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJxYobP3cEbjQREN1Yjw6L5U4",
+    "rating": 4.2,
+    "reviews": 1056
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "712": {
+   "name_zh": "川老頭鍋貼與蒸餃",
+   "address_zh": "800高雄市新興區愛平里六合一路161號",
+   "address_en": "Old Chuan's Pot Sticker & Steamed Dumpling House, No. 161號, Liuhe 1st Rd, Aiping Village, Sinsing District, Kaohsiung City, 800",
+   "hours_summary": [
+    "매일 오전 10:30~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "메이리다오역 美麗島站",
+    "zh": "美麗島站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "비빔면(拌麵)"
+    },
+    {
+     "name": "홍유차오서우(紅油抄手)"
+    },
+    {
+     "name": "루웨이(滷味)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 新興區에 있는 만두 전문점이에요. 메이리다오역 美麗島站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 비빔면(拌麵), 홍유차오서우(紅油抄手), 루웨이(滷味) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJN7tgYfsFbjQRttOStmZlqrY",
+    "rating": 4.2,
+    "reviews": 1060
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "713": {
+   "name_zh": "山田烤吐司",
+   "address_zh": "807高雄市三民區港東里林森一路289號",
+   "address_en": "807, Kaohsiung City, Sanmin District, Gangdong Village, Linsen 1st Rd, 289號山田烤吐司",
+   "hours_summary": [
+    "매일 오전 5:30~오후 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "메이리다오역 美麗島站",
+    "zh": "美麗島站",
+    "distance": "700m",
+    "meters": 700
+   },
+   "menu": [
+    {
+     "name": "무떡(蘿蔔糕)"
+    },
+    {
+     "name": "야키니쿠(燒肉)"
+    },
+    {
+     "name": "冷泡茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 三民區에 있는 아침식사 전문 식당이에요. 메이리다오역 美麗島站에서 직선 약 700m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 무떡(蘿蔔糕), 야키니쿠(燒肉), 冷泡茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ6xRCz7YFbjQRg8P5wW-yGc0",
+    "rating": 4.9,
+    "reviews": 3180
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "716": {
    "name_zh": "根萊鐵板燒",
    "address_zh": "108臺北市萬華區萬壽里昆明街92號之1號B1",
@@ -10121,6 +15131,129 @@
    "checked_at": "2026-11-11",
    "method": "manual"
   },
+  "725": {
+   "name_zh": "石精臼 香菇飯湯",
+   "address_zh": "700臺南市中西區國華街三段",
+   "address_en": "700, Tainan City, West Central District, Section 3, Guohua St, 石精臼 香菇飯湯",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "굴전(蚵仔煎)"
+    },
+    {
+     "name": "蝦子"
+    },
+    {
+     "name": "湯飯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 푸드 코트예요. 구글 리뷰에서는 굴전(蚵仔煎), 蝦子, 湯飯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJa8HfGmR2bjQRxWpKYIFENpc",
+    "rating": 4.3,
+    "reviews": 128
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "726": {
+   "name_zh": "阿江鱔魚意麵",
+   "address_zh": "700臺南市中西區藥王里民族路三段89號",
+   "address_en": "A-Jiang Eel Noodles, No. 89號, Section 3, Minzu Rd, Yaowang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "화~일 오후 5:00~오전 12:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "소고기탕(牛肉湯)"
+    },
+    {
+     "name": "上海好味湯包"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 대만 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 소고기탕(牛肉湯), 上海好味湯包 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJFcYijGZ2bjQR2ZBm1s7KeBY",
+    "rating": 3.9,
+    "reviews": 5279
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "728": {
+   "name_zh": "無名米糕",
+   "address_zh": "700臺南市中西區城隍里中山路8巷5號",
+   "address_en": "700, Tainan City, West Central District, Chenghuang Village, Lane 8, Zhongshan Rd, 5號無名米糕",
+   "hours_summary": [
+    "수~토 오전 9:30~오후 3:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "월요일, 화요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "魚鬆"
+    },
+    {
+     "name": "생선 껍질(魚皮)"
+    },
+    {
+     "name": "魚肚"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 대만 레스토랑이에요. 구글 지도 기준 월요일, 화요일, 일요일은 쉬어요. 구글 리뷰에서는 魚鬆, 생선 껍질(魚皮), 魚肚 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ9UWjMoh2bjQR9YQPwztJVDA",
+    "rating": 4.2,
+    "reviews": 4560
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "729": {
+   "name_zh": "阿美現烤古早味蛋糕",
+   "address_zh": "700臺南市中西區五條港里民權路三段50號",
+   "address_en": "700, Tainan City, West Central District, Wutiaogang Village, Section 3, Minquan Rd, 50號阿美現烤古早味蛋糕",
+   "hours_summary": [
+    "매일 오전 7:30~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "모찌(麻糬)"
+    },
+    {
+     "name": "팥(紅豆)"
+    },
+    {
+     "name": "크레이프 케이크(千層蛋糕)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 모찌(麻糬), 팥(紅豆), 크레이프 케이크(千層蛋糕) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ9VzRONJyBxQRNGttebZ50bI",
+    "rating": 4.4,
+    "reviews": 774
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "730": {
    "name_zh": "筆堆咖啡",
    "address_zh": "403臺中市西區中興里中興街122巷16號",
@@ -10257,6 +15390,358 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "736": {
+   "name_zh": "周氏蝦捲 老店",
+   "address_zh": "708臺南市安平區天妃里安平路125號",
+   "address_en": "Chou’s Shrimp Rolls, No. 125號, Anping Rd, Tianfei Village, Anping District, Tainan City, 708",
+   "hours_summary": [
+    "월 오전 9:30~오후 6:30",
+    "수~금 오전 9:30~오후 6:30",
+    "토~일 오전 9:30~오후 7:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "단짜이면(擔仔麵)"
+    },
+    {
+     "name": "새우튀김(炸蝦)"
+    },
+    {
+     "name": "밀크피시(虱目魚)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 安平區에 있는 대만 레스토랑이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 단짜이면(擔仔麵), 새우튀김(炸蝦), 밀크피시(虱目魚) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJa7BtvxF2bjQRKJUqp717_h4",
+    "rating": 4.1,
+    "reviews": 4462
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "737": {
+   "name_zh": "鹽埕吳家金桔豆花",
+   "address_zh": "803高雄市鹽埕區府北里富野路70號",
+   "address_en": "803, Kaohsiung City, Yancheng District, Fubei Village, Fuye Rd, 70號鹽埕吳家金桔豆花",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 6:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "450m",
+    "meters": 450
+   },
+   "menu": [
+    {
+     "name": "팥(紅豆)"
+    },
+    {
+     "name": "燒味"
+    },
+    {
+     "name": "두유(豆漿)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 鹽埕區에 있는 디저트 전문 레스토랑이에요. 옌청푸역 鹽埕埔站에서 직선 약 450m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 팥(紅豆), 燒味, 두유(豆漿) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJIayt3nAEbjQRzlUOk8xZQnA",
+    "rating": 4.4,
+    "reviews": 1931
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "738": {
+   "name_zh": "水果奶奶",
+   "address_zh": "803高雄市鹽埕區南端里大義街60號",
+   "address_en": "803, Kaohsiung City, Yancheng District, Nanduan Village, Dayi St, 60號水果奶奶",
+   "hours_summary": [
+    "매일 오후 12:00~8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "鳳梨"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 鹽埕區에 있는 과일 도매업체예요. 옌청푸역 鹽埕埔站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 鳳梨 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ4UW6KHgEbjQRbIQm6TTkoZU",
+    "rating": 4.9,
+    "reviews": 92
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "739": {
+   "name_zh": "無名蔥油餅與韭菜盒",
+   "address_zh": "803高雄市鹽埕區南端里必忠街98號",
+   "address_en": "803, Kaohsiung City, Yancheng District, Nanduan Village, Bizhong St, 98號無名蔥油餅與韭菜盒",
+   "hours_summary": [
+    "매일 오후 3:00~7:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "돼지고기(豬肉)"
+    },
+    {
+     "name": "셴빙(餡餅)"
+    },
+    {
+     "name": "총좌빙(蔥抓餅)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 鹽埕區에 있는 델리예요. 옌청푸역 鹽埕埔站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 돼지고기(豬肉), 셴빙(餡餅), 총좌빙(蔥抓餅) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ1e1RL3gEbjQRNSb_DS3pGAw",
+    "rating": 4.3,
+    "reviews": 295
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "740": {
+   "name_zh": "天使雞排-瑞豐店",
+   "address_zh": "804高雄市鼓山區裕誠路",
+   "address_en": "천사지파이 Yucheng Rd, Gushan District, Kaohsiung City, 804",
+   "hours_summary": [
+    "매일 오후 3:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "쥐단역 巨蛋站",
+    "zh": "巨蛋站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "雞胸肉"
+    },
+    {
+     "name": "량몐(涼麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 鼓山區에 있는 포장 전문 프라이드 치킨집이에요. 쥐단역 巨蛋站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 雞胸肉, 량몐(涼麵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJWTpGHwcFbjQRo0UUaxCy-kM",
+    "rating": 4.7,
+    "reviews": 7015
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "741": {
+   "name_zh": "鑫川鴛鴦奶茶",
+   "address_zh": "804高雄市鼓山區華豐里裕誠路1128號",
+   "address_en": "804, Kaohsiung City, Gushan District, Huafeng Village, Yucheng Rd, 1128號鑫川鴛鴦奶茶",
+   "hours_summary": [
+    "화 오후 6:00~오전 12:00",
+    "목~일 오후 6:00~오전 12:00"
+   ],
+   "closed_days": "월요일, 수요일",
+   "mrt": {
+    "label": "쥐단역 巨蛋站",
+    "zh": "巨蛋站",
+    "distance": "350m",
+    "meters": 350
+   },
+   "menu": [
+    {
+     "name": "홍차(紅茶)"
+    },
+    {
+     "name": "咖啡牛奶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 鼓山區에 있는 청량음료 판매점이에요. 쥐단역 巨蛋站에서 직선 약 350m 거리예요. 구글 지도 기준 월요일, 수요일은 쉬어요. 구글 리뷰에서는 홍차(紅茶), 咖啡牛奶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJh4b9IQcFbjQRPtUBEdYWFNw",
+    "rating": 3.6,
+    "reviews": 106
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "742": {
+   "name_zh": "阿姨早餐",
+   "address_zh": "80342高雄市鹽埕區中原里大公路69號",
+   "address_en": "80342, Kaohsiung City, Yancheng District, Zhongyuan Village, Dagong Rd, 69號阿姨早餐",
+   "hours_summary": [
+    "매일 오전 5:30~11:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "350m",
+    "meters": 350
+   },
+   "menu": [
+    {
+     "name": "단빙(蛋餅)"
+    },
+    {
+     "name": "햄버거(漢堡)"
+    },
+    {
+     "name": "酥脆"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 鹽埕區에 있는 아침식사 전문 식당이에요. 옌청푸역 鹽埕埔站에서 직선 약 350m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 단빙(蛋餅), 햄버거(漢堡), 酥脆 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJm4Aa-3AEbjQRCe4DWZax8Ck",
+    "rating": 4.3,
+    "reviews": 214
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "743": {
+   "name_zh": "老店柏弘肉燥【鹽埕店】",
+   "address_zh": "803高雄市鹽埕區瀨南里大勇路125號",
+   "address_en": "Bo Home Yancheng, No. 125號, Dayong Rd, Lainan Village, Yancheng District, Kaohsiung City, 803",
+   "hours_summary": [
+    "월 오전 11:00~오후 3:00, 오후 5:00~9:00",
+    "수~일 오전 11:00~오후 3:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "루러우판(滷肉飯)"
+    },
+    {
+     "name": "味噌湯"
+    },
+    {
+     "name": "생선 껍질(魚皮)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 鹽埕區에 있는 대만 레스토랑이에요. 옌청푸역 鹽埕埔站에서 직선 약 200m 거리예요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 루러우판(滷肉飯), 味噌湯, 생선 껍질(魚皮) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJXfXwsQ0FbjQRY9CddmPwBSc",
+    "rating": 4,
+    "reviews": 165
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "744": {
+   "name_zh": "季酥酥鹹酥雞",
+   "address_zh": "803高雄市鹽埕區光明里新樂街149號",
+   "address_en": "803, Kaohsiung City, Yancheng District, Guangming Village, Sinle St, 149號季酥酥鹹酥雞",
+   "hours_summary": [
+    "월~목 오후 4:00~오전 12:00",
+    "금~토 오후 4:00~오전 1:00"
+   ],
+   "closed_days": "일요일",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "50m",
+    "meters": 50
+   },
+   "menu": [
+    {
+     "name": "酥脆"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 鹽埕區에 있는 포장 전문 프라이드 치킨집이에요. 옌청푸역 鹽埕埔站에서 직선 약 50m 거리예요. 구글 지도 기준 일요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 酥脆 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJd0dy-IUFbjQRc9iT4UbvqKM",
+    "rating": 4.3,
+    "reviews": 142
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "745": {
+   "name_zh": "六姐傳統飯糰特製蛋餅專賣店（搬家囉）",
+   "address_zh": "803高雄市鹽埕區光明里新樂街151號",
+   "address_en": "803, Kaohsiung City, Yancheng District, Guangming Village, Sinle St, 151號六姐傳統飯糰特製蛋餅專賣店（搬家囉）",
+   "hours_summary": [
+    "월~금 오전 6:00~11:00, 오후 3:00~7:00"
+   ],
+   "closed_days": "토요일, 일요일",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "50m",
+    "meters": 50
+   },
+   "menu": [
+    {
+     "name": "무떡(蘿蔔糕)"
+    },
+    {
+     "name": "鹹蛋"
+    },
+    {
+     "name": "豆芽"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 鹽埕區에 있는 아침식사 전문 식당이에요. 옌청푸역 鹽埕埔站에서 직선 약 50m 거리예요. 구글 지도 기준 토요일, 일요일은 쉬어요. 구글 리뷰에서는 무떡(蘿蔔糕), 鹹蛋, 豆芽 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJb6zD53kEbjQR9C4Cn-YU7ss",
+    "rating": 4.5,
+    "reviews": 1250
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "746": {
    "name_zh": "高雄一品鮮蝦扁食",
    "address_zh": "106臺北市大安區仁愛里敦化南路一段236巷23號",
@@ -10325,6 +15810,103 @@
     "place_id": "ChIJ0_5QHACpQjQRzNNsDEJBtLo",
     "rating": 3.9,
     "reviews": 1277
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "749": {
+   "name_zh": "大富小吃",
+   "address_zh": "929屏東縣琉球鄉本福村民生路1-1號號 號",
+   "address_en": "929, Pingtung County, Liuqiu Township, Benfu Village, Minsheng Rd, 1-1號大富小吃號 號",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "볶음면(炒麵)"
+    },
+    {
+     "name": "굴(蚵仔)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "핑둥 琉球鄉에 있는 중국 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 볶음밥(炒飯), 볶음면(炒麵), 굴(蚵仔) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJSYqmsrvlcTQR-SvehWCoGmU",
+    "rating": 4.8,
+    "reviews": 334
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "750": {
+   "name_zh": "傑尼龜早午餐",
+   "address_zh": "929屏東縣琉球鄉本福村本漁路130-1號",
+   "address_en": "929, Pingtung County, Liuqiu Township, Benfu Village, Benyu Rd, 130-1號傑尼龜早午餐",
+   "hours_summary": [
+    "월~금 오전 6:00~11:00",
+    "토~일 오전 6:00~오후 2:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "사오빙(燒餅)"
+    },
+    {
+     "name": "토스트(吐司)"
+    },
+    {
+     "name": "닭다리(雞腿)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "핑둥 琉球鄉에 있는 아침식사 전문 식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 사오빙(燒餅), 토스트(吐司), 닭다리(雞腿) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ1aPFEqDlcTQRxC6bdpmnpVY",
+    "rating": 4.8,
+    "reviews": 84
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "751": {
+   "name_zh": "梨小籠（不接受訂位/內用時間以當天狀況為主）",
+   "address_zh": "929屏東縣琉球鄉本福村中山路5之20號",
+   "address_en": "929, Pingtung County, Liuqiu Township, Benfu Village, Zhongshan Rd, 5之20號梨小籠（不接受訂位/內用時間以當天狀況為主）",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:30, 오후 5:00~7:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "탕바오(湯包)"
+    },
+    {
+     "name": "샤오롱바오(小籠包)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "핑둥 琉球鄉에 있는 중국 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 볶음밥(炒飯), 탕바오(湯包), 샤오롱바오(小籠包) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJQdejx-PvcTQRNFVMmI4W66c",
+    "rating": 4.5,
+    "reviews": 1419
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -10435,6 +16017,177 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "756": {
+   "name_zh": "來一碗牛肉麵",
+   "address_zh": "704臺南市北區三德里忠義路三段34號",
+   "address_en": "Lai Yi Wan Beef Noodle Restaurant, No. 34號, Section 3, Zhongyi Rd, 三德里 North District, Tainan City, 704",
+   "hours_summary": [
+    "월~화 오전 11:30~오후 7:30"
+   ],
+   "closed_days": "수요일, 목요일, 금요일, 토요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "우육면(牛肉麵)"
+    },
+    {
+     "name": "清燉"
+    },
+    {
+     "name": "비빔면(拌麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 北區에 있는 중국 국수류 전문점이에요. 구글 지도 기준 수요일, 목요일, 금요일, 토요일, 일요일은 쉬어요. 구글 리뷰에서는 우육면(牛肉麵), 清燉, 비빔면(拌麵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJx5Q3BBV3bjQR1jAGCZoGqeE",
+    "rating": 4.8,
+    "reviews": 475
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "757": {
+   "name_zh": "小公園擔仔麵",
+   "address_zh": "700臺南市中西區五條港里西門路二段321號",
+   "address_en": "소공원 담자면 No. 321號, Section 2, Ximen Rd, Wutiaogang Village, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "월 오후 4:20~10:00",
+    "목~일 오후 4:20~10:00"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "단짜이면(擔仔麵)"
+    },
+    {
+     "name": "러우짜오(肉燥)"
+    },
+    {
+     "name": "루웨이(滷味)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 탄탄면 전문점이에요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 단짜이면(擔仔麵), 러우짜오(肉燥), 루웨이(滷味) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJOQURVGF2bjQRDx8EQOisObM",
+    "rating": 4.3,
+    "reviews": 1371
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "758": {
+   "name_zh": "小赤佬干鍋 忠義店",
+   "address_zh": "700臺南市中西區南美里忠義路二段139號",
+   "address_en": "700, Tainan City, West Central District, Nanmei Village, Section 2, Zhongyi Rd, 139號小赤佬干鍋 忠義店",
+   "hours_summary": [
+    "매일 오후 5:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "豆皮"
+    },
+    {
+     "name": "루웨이(滷味)"
+    },
+    {
+     "name": "大腸"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 간이음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 豆皮, 루웨이(滷味), 大腸 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ4zvXGGJ2bjQRTKO2lp6uKfw",
+    "rating": 4.2,
+    "reviews": 1869
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "759": {
+   "name_zh": "同心早點",
+   "address_zh": "700臺南市中西區民權路三段54號",
+   "address_en": "同心早點, No. 54號, Section 3, Minquan Rd, West Central District, Tainan City, 700",
+   "hours_summary": [
+    "화~일 오전 6:30~오후 12:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 아침식사 전문 식당이에요. 구글 지도 기준 월요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJmdufBAB3bjQRzEw-NmV5mAk",
+    "rating": 4.6,
+    "reviews": 14
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "760": {
+   "name_zh": "J 阿姨刈包",
+   "address_zh": "704臺南市北區北華里成功路220巷63號",
+   "address_en": "704, Tainan City, North District, Beihua Village, 成功路220巷63號J 阿姨刈包",
+   "hours_summary": [
+    "월 오전 7:00~오후 12:30",
+    "수~일 오전 7:00~오후 12:30"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "五花肉"
+    },
+    {
+     "name": "控肉"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 北區에 있는 찹바예요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 五花肉, 控肉 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ9_FeSxB3bjQRRQIRgNCGXBc",
+    "rating": 4.9,
+    "reviews": 228
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "762": {
+   "name_zh": "八曜和茶 台南北區成功門市",
+   "address_zh": "704臺南市北區北華里成功路276之2號",
+   "address_en": "704, Tainan City, North District, Beihua Village, Chenggong Rd, 276之2號八曜和茶 台南北區成功門市",
+   "hours_summary": [
+    "매일 오전 9:30~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 北區에 있는 청량음료 판매점이에요. 구글 지도 기준 휴무일 없이 매일 열어요.",
+   "google": {
+    "place_id": "ChIJGcPNsvh3bjQRDmjH9nHvzkg",
+    "rating": 3.8,
+    "reviews": 1072
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "763": {
    "name_zh": "KIKI 餐廳(台北東豐店)",
    "address_zh": "106臺北市大安區德安里東豐街51號",
@@ -10466,6 +16219,39 @@
     "place_id": "ChIJJZ1M89GrQjQR3e8BQB9PdsE",
     "rating": 4.4,
     "reviews": 1354
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "765": {
+   "name_zh": "115港式燒臘",
+   "address_zh": "813高雄市左營區果惠里果峰街25號",
+   "address_en": "813, Kaohsiung City, Zuoying District, Guohui Village, Guofeng St, 25號115港式燒臘",
+   "hours_summary": [
+    "월~금 오전 10:00~오후 7:20",
+    "토~일 오전 10:00~오후 1:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "차슈(叉燒)"
+    },
+    {
+     "name": "油雞"
+    },
+    {
+     "name": "蒸蛋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 左營區에 있는 중국 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 차슈(叉燒), 油雞, 蒸蛋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJFxU6s68FbjQRGxjW1S3ciAQ",
+    "rating": 4.4,
+    "reviews": 411
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -10609,6 +16395,76 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "774": {
+   "name_zh": "閒情茗品屋",
+   "address_zh": "702臺南市南區金華里金華路二段57巷97號",
+   "address_en": "702, Tainan City, South District, Jinhua Village, Lane 57, Section 2, Jinhua Rd, 97號閒情茗品屋",
+   "hours_summary": [
+    "월~토 오전 6:30~오후 6:00",
+    "일 오전 6:30~오후 2:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "이몐(意麵)"
+    },
+    {
+     "name": "우동(烏龍麵)"
+    },
+    {
+     "name": "炸魚塊"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 南區에 있는 브런치 식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 이몐(意麵), 우동(烏龍麵), 炸魚塊 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJE1obrd51bjQRPpJoXlo2RCI",
+    "rating": 4.2,
+    "reviews": 1482
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "775": {
+   "name_zh": "老江紅茶牛奶-南台總店",
+   "address_zh": "800高雄市新興區明莊里南台路51號",
+   "address_en": "라오지앙 홍차 뉴나이 No. 51號, Nantai Rd, Mingzhuang Village, Sinsing District, Kaohsiung City, 800",
+   "hours_summary": [
+    "매일 24시간 영업"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "메이리다오역 美麗島站",
+    "zh": "美麗島站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "토스트(吐司)"
+    },
+    {
+     "name": "火腿蛋"
+    },
+    {
+     "name": "脆餅"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 新興區에 있는 대만 레스토랑이에요. 메이리다오역 美麗島站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 토스트(吐司), 火腿蛋, 脆餅 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJgzsxnokEbjQRU8fI1kvZ83s",
+    "rating": 4,
+    "reviews": 7238
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "776": {
    "name_zh": "阿娥牛肉麵",
    "address_zh": "108臺北市萬華區福音里康定路133號",
@@ -10677,6 +16533,33 @@
     "place_id": "ChIJketD8G-pQjQRh82GTqDsneo",
     "rating": 4.7,
     "reviews": 439
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "778": {
+   "name_zh": "MINI.D COFFEE 裕誠館",
+   "address_zh": "813高雄市左營區新上里裕誠路428號",
+   "address_en": "813, Kaohsiung City, Zuoying District, Xinshang Village, Yucheng Rd, 428號MINI.D COFFEE 裕誠館",
+   "hours_summary": [
+    "매일 오전 7:30~오후 11:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "쥐단역 巨蛋站",
+    "zh": "巨蛋站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [],
+   "menu_source": "",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 左營區에 있는 카페예요. 쥐단역 巨蛋站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요.",
+   "google": {
+    "place_id": "ChIJcyWw9G4FbjQR7wXtORJ4CoY",
+    "rating": 4.4,
+    "reviews": 1069
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -10753,6 +16636,38 @@
     "place_id": "ChIJM2BnaQCpQjQRdqiDfKPMLVM",
     "rating": 4.5,
     "reviews": 364
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "782": {
+   "name_zh": "旗后海產",
+   "address_zh": "805高雄市旗津區永安里廟前路31號",
+   "address_en": "805, Kaohsiung City, Qijin District, Yong'an Village, Miaoqian Rd, 31號旗后海產",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 8:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "볶음면(炒麵)"
+    },
+    {
+     "name": "미펀(米粉)"
+    },
+    {
+     "name": "사시미(生魚片)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 旗津區에 있는 해산물 요리 전문식당이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 볶음면(炒麵), 미펀(米粉), 사시미(生魚片) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJpco6He4DbjQRPv8Awc0_ZWw",
+    "rating": 4.3,
+    "reviews": 2277
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -10854,6 +16769,38 @@
     "place_id": "ChIJa1rZTvxFaTQRMqXvvyHLMVY",
     "rating": 4.2,
     "reviews": 7811
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "788": {
+   "name_zh": "玉梅芒果冰",
+   "address_zh": "714臺南市玉井區玉井里中正路134號",
+   "address_en": "714, Tainan City, Yujing District, Yujing Village, Zhongzheng Rd, 134號玉梅芒果冰",
+   "hours_summary": [
+    "매일 오전 9:00~오후 6:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "煉乳"
+    },
+    {
+     "name": "愛文芒果"
+    },
+    {
+     "name": "蜜餞"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 玉井區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 煉乳, 愛文芒果, 蜜餞 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJLQcYeBNhbjQRkK6whNufjZc",
+    "rating": 4.9,
+    "reviews": 3948
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -11397,6 +17344,265 @@
     "place_id": "ChIJaenMdRM9aTQRGt9LwGCrXk0",
     "rating": 4.4,
     "reviews": 11183
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "806": {
+   "name_zh": "玉珍香",
+   "address_zh": "946屏東縣恆春鎮城北里中山路80號",
+   "address_en": "Yu Jhen Siang Handmade Egg Rolls, No. 80號, Zhongshan Rd, Chengbei Village, Hengchun Township, Pingtung County, 946",
+   "hours_summary": [
+    "매일 오전 9:00~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "蛋捲"
+    },
+    {
+     "name": "말차(抹茶)"
+    },
+    {
+     "name": "우롱차(烏龍茶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "핑둥 恆春鎮에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 蛋捲, 말차(抹茶), 우롱차(烏龍茶) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJPYQTXM6wcTQR4LhnNrkeNyE",
+    "rating": 4.2,
+    "reviews": 311
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "807": {
+   "name_zh": "老鄉牛肉麵",
+   "address_zh": "801高雄市前金區東金里六合二路187-1號",
+   "address_en": "Laoxiang Beef Noodle Restaurant, No. 187-1號, Liuhe 2nd Rd, Dongjin Village, Qianjin District, Kaohsiung City, 801",
+   "hours_summary": [
+    "월~토 오전 10:00~오후 8:00"
+   ],
+   "closed_days": "일요일",
+   "mrt": {
+    "label": "前金站",
+    "zh": "前金站",
+    "distance": "150m",
+    "meters": 150
+   },
+   "menu": [
+    {
+     "name": "우육면(牛肉麵)"
+    },
+    {
+     "name": "물만두(水餃)"
+    },
+    {
+     "name": "麻醬麵"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 前金區에 있는 중국 국수류 전문점이에요. 前金站에서 직선 약 150m 거리예요. 구글 지도 기준 일요일은 쉬어요. 구글 리뷰에서는 우육면(牛肉麵), 물만두(水餃), 麻醬麵 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJLRtvEGMEbjQRd9Xkl95Zg44",
+    "rating": 4,
+    "reviews": 263
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "808": {
+   "name_zh": "送噹夜市餐廳",
+   "address_zh": "803高雄市鹽埕區教仁里五福四路318號",
+   "address_en": "Song Dang Yeshi Restaurant, No. 318號, Wufu 4th Rd, Jiaoren Village, Yancheng District, Kaohsiung City, 803",
+   "hours_summary": [
+    "월~금 오후 5:00~10:00",
+    "토~일 오후 12:00~10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "糯米飯"
+    },
+    {
+     "name": "豬皮"
+    },
+    {
+     "name": "冰棒"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "가오슝 鹽埕區에 있는 태국 음식점이에요. 옌청푸역 鹽埕埔站에서 직선 약 500m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 糯米飯, 豬皮, 冰棒 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJjzGGIQAFbjQR2UgNYoXzoAk",
+    "rating": 4.8,
+    "reviews": 883
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "809": {
+   "name_zh": "柒壹喫堂x鹽海小餐館",
+   "address_zh": "803高雄市鹽埕區河濱里五福四路147號",
+   "address_en": "803, Kaohsiung City, Yancheng District, Hebin Village, Wufu 4th Rd, 147號柒壹喫堂x鹽海小餐館",
+   "hours_summary": [
+    "월 오전 10:00~오후 3:30",
+    "화~수 오전 10:00~오후 3:30, 오후 6:00~11:30",
+    "목 오후 6:00~11:30",
+    "금~일 오전 10:00~오후 3:30, 오후 5:30~11:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "옌청푸역 鹽埕埔站",
+    "zh": "鹽埕埔站",
+    "distance": "100m",
+    "meters": 100
+   },
+   "menu": [
+    {
+     "name": "주먹밥(飯糰)"
+    },
+    {
+     "name": "貓飯"
+    },
+    {
+     "name": "茶漬飯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "가오슝 鹽埕區에 있는 비스트로예요. 옌청푸역 鹽埕埔站에서 직선 약 100m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 주먹밥(飯糰), 貓飯, 茶漬飯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJGdyz5HAEbjQRSH4JKz7oI-o",
+    "rating": 4.2,
+    "reviews": 1401
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "810": {
+   "name_zh": "丹丹漢堡 七賢店",
+   "address_zh": "801高雄市前金區北金里七賢二路224號",
+   "address_en": "단단버거 치엔진점 No. 224號, Cisian 2nd Rd, Beijin Village, Qianjin District, Kaohsiung City, 801",
+   "hours_summary": [
+    "월 오전 7:00~오후 8:00",
+    "수~일 오전 7:00~오후 8:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": {
+    "label": "前金站",
+    "zh": "前金站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "면선(麵線)"
+    },
+    {
+     "name": "닭다리(雞腿)"
+    },
+    {
+     "name": "미가오(米糕)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "가오슝 前金區에 있는 패스트푸드점이에요. 前金站에서 직선 약 400m 거리예요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 면선(麵線), 닭다리(雞腿), 미가오(米糕) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJEdcowWMEbjQRfB8Wn5Ttmq8",
+    "rating": 4.2,
+    "reviews": 9310
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "811": {
+   "name_zh": "老江紅茶牛奶-南台總店",
+   "address_zh": "800高雄市新興區明莊里南台路51號",
+   "address_en": "라오지앙 홍차 뉴나이 No. 51號, Nantai Rd, Mingzhuang Village, Sinsing District, Kaohsiung City, 800",
+   "hours_summary": [
+    "매일 24시간 영업"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "메이리다오역 美麗島站",
+    "zh": "美麗島站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "토스트(吐司)"
+    },
+    {
+     "name": "火腿蛋"
+    },
+    {
+     "name": "脆餅"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 新興區에 있는 대만 레스토랑이에요. 메이리다오역 美麗島站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 토스트(吐司), 火腿蛋, 脆餅 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJgzsxnokEbjQRU8fI1kvZ83s",
+    "rating": 4,
+    "reviews": 7238
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "812": {
+   "name_zh": "呷百二自然．洋菓子自由總店",
+   "address_zh": "813高雄市左營區新上里自由二路342-1號",
+   "address_en": "813, Kaohsiung City, Zuoying District, Xinshang Village, Ziyou 2nd Rd, 342-1號呷百二自然．洋菓子自由總店",
+   "hours_summary": [
+    "매일 오전 10:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "쥐단역 巨蛋站",
+    "zh": "巨蛋站",
+    "distance": "600m",
+    "meters": 600
+   },
+   "menu": [
+    {
+     "name": "桂圓"
+    },
+    {
+     "name": "전(煎餅)"
+    },
+    {
+     "name": "펑리수(鳳梨酥)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "가오슝 左營區에 있는 중국 디저트예요. 쥐단역 巨蛋站에서 직선 약 600m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 桂圓, 전(煎餅), 펑리수(鳳梨酥) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJa2ynLgUFbjQRJB4wNc6YFvw",
+    "rating": 4.4,
+    "reviews": 644
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -12149,6 +18355,43 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "841": {
+   "name_zh": "阿智喝茶.酸梅湯創始老店",
+   "address_zh": "807高雄市三民區鳳南里三民街179號",
+   "address_en": "807, Kaohsiung City, Sanmin District, Fengnan Village, Sanmin St, 179號阿智喝茶.酸梅湯創始老店",
+   "hours_summary": [
+    "화~일 오전 8:30~오후 9:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "前金站",
+    "zh": "前金站",
+    "distance": "800m",
+    "meters": 800
+   },
+   "menu": [
+    {
+     "name": "타로(芋頭)"
+    },
+    {
+     "name": "起司茶"
+    },
+    {
+     "name": "菊花茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 三民區에 있는 카페 가게예요. 前金站에서 직선 약 800m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 타로(芋頭), 起司茶, 菊花茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJVVVVVWAEbjQRom0IXH_Vo5A",
+    "rating": 4.4,
+    "reviews": 251
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "842": {
    "name_zh": "LA VILLA DANSHUI",
    "address_zh": "251新北市淡水區文化里中正路261號",
@@ -12606,6 +18849,108 @@
    "checked_at": "2026-11-11",
    "method": "manual"
   },
+  "957": {
+   "name_zh": "忘言咖啡",
+   "address_zh": "813高雄市左營區高鐵路168號",
+   "address_en": "813, Kaohsiung City, Zuoying District, 左營區 Gaotie Rd, 168號忘言咖啡",
+   "hours_summary": [
+    "화~일 오전 10:00~오후 6:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "쭤잉역 左營站",
+    "zh": "左營站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "甜點"
+    },
+    {
+     "name": "시나몬롤(肉桂捲)"
+    },
+    {
+     "name": "말차(抹茶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 左營區에 있는 커피용품 판매점이에요. 쭤잉역 左營站에서 직선 약 500m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 甜點, 시나몬롤(肉桂捲), 말차(抹茶) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJkxf3Pf4FbjQRgedvAqlwSDQ",
+    "rating": 4.7,
+    "reviews": 236
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "960": {
+   "name_zh": "同記安平豆花（安平2店）",
+   "address_zh": "708臺南市安平區王城里安北路141-6號",
+   "address_en": "Anping Bean Jelly, No. 141-6號, Anbei Rd, Wangcheng Village, Anping District, Tainan City, 708",
+   "hours_summary": [
+    "월~금 오전 10:00~오후 10:00",
+    "토~일 오전 9:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "粉圓"
+    },
+    {
+     "name": "팥(紅豆)"
+    },
+    {
+     "name": "綠豆"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 安平區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 粉圓, 팥(紅豆), 綠豆 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJYyQ9TRx2bjQRkRAQqhCqZuY",
+    "rating": 4.3,
+    "reviews": 4573
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "961": {
+   "name_zh": "福相麻辣香鍋公園店",
+   "address_zh": "704臺南市北區北華里公園南路281號",
+   "address_en": "704, Tainan City, North District, Beihua Village, Gongyuan S Rd, 281號福相麻辣香鍋公園店",
+   "hours_summary": [
+    "매일 오후 4:30~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "科學麵"
+    },
+    {
+     "name": "乾鍋"
+    },
+    {
+     "name": "豆皮"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이난 北區에 있는 중국 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 科學麵, 乾鍋, 豆皮 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJj_2Vy192bjQR4Ny09A69OVU",
+    "rating": 4.8,
+    "reviews": 9384
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "962": {
    "name_zh": "御真牛牛肉麵 Taiwanese Beef Noodle Soup 대만 우육면",
    "address_zh": "108臺北市萬華區西門里成都路27巷3號",
@@ -12641,6 +18986,32 @@
     "place_id": "ChIJEaMTjPSpQjQRg74JDKlRIAs",
     "rating": 4.7,
     "reviews": 1089
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "963": {
+   "name_zh": "悟空冰舖-現榨水果冰沙、雪花冰專賣店",
+   "address_zh": "946屏東縣恆春鎮鵝鑾里燈塔路267號",
+   "address_en": "946, Pingtung County, Hengchun Township, Eluan Village, Dengta Rd, 267號悟空冰舖-現榨水果冰沙、雪花冰專賣店",
+   "hours_summary": [
+    "매일 오전 10:30~오후 5:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "쉐화빙(雪花冰)"
+    }
+   ],
+   "menu_source": "name",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "핑둥 恆春鎮에 있는 빙수 가게예요. 구글 지도 기준 휴무일 없이 매일 열어요.",
+   "google": {
+    "place_id": "ChIJKS6OQSuzcTQRJhU-Hjs2-M0",
+    "rating": 4.8,
+    "reviews": 87
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -13066,6 +19437,36 @@
    "checked_at": "2026-11-11",
    "method": "manual"
   },
+  "980": {
+   "name_zh": "開飯川食堂 台南成功店",
+   "address_zh": "701005臺南市東區成大里前鋒路210號6樓",
+   "address_en": "701005, Tainan City, East District, Chengda Village, Qianfeng Rd, 210號開飯川食堂 台南成功店6樓",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 3:00, 오후 5:30~9:30",
+    "토~일 오전 11:00~오후 4:00, 오후 5:00~9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "口水雞"
+    },
+    {
+     "name": "선초(仙草)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 東區에 있는 사천 요리 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 口水雞, 선초(仙草) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJl85eMtt3bjQRX0LMYh4o7fo",
+    "rating": 5,
+    "reviews": 800
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "981": {
    "name_zh": "一流二事 素椒麵 1624 Noodle Bar",
    "address_zh": "10491臺北市中山區民安里民生西路66巷17號",
@@ -13466,6 +19867,112 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "1007": {
+   "name_zh": "沐川咖哩",
+   "address_zh": "800高雄市新興區黎明里南華路123號",
+   "address_en": "800, Kaohsiung City, Sinsing District, Liming Village, 南華路123號沐川咖哩",
+   "hours_summary": [
+    "월~토 오전 11:00~오후 2:30, 오후 5:00~8:30"
+   ],
+   "closed_days": "일요일",
+   "mrt": {
+    "label": "메이리다오역 美麗島站",
+    "zh": "美麗島站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "味噌湯"
+    },
+    {
+     "name": "돈가스(豬排)"
+    },
+    {
+     "name": "蓋飯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 新興區에 있는 일본식 카레 전문식당이에요. 메이리다오역 美麗島站에서 직선 약 250m 거리예요. 구글 지도 기준 일요일은 쉬어요. 구글 리뷰에서는 味噌湯, 돈가스(豬排), 蓋飯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJSZp3dYwEbjQRSO36ig8XGdk",
+    "rating": 4.3,
+    "reviews": 759
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "1008": {
+   "name_zh": "福記炒飯",
+   "address_zh": "800高雄市新興區黎明里南華路162-1號",
+   "address_en": "800, Kaohsiung City, Sinsing District, Liming Village, 南華路162-1號福記炒飯",
+   "hours_summary": [
+    "월~토 오전 11:30~오후 2:30, 오후 4:45~7:30"
+   ],
+   "closed_days": "일요일",
+   "mrt": {
+    "label": "메이리다오역 美麗島站",
+    "zh": "美麗島站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "肉絲"
+    },
+    {
+     "name": "소시지(香腸)"
+    },
+    {
+     "name": "물만두(水餃)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "가오슝 新興區에 있는 중국 음식점이에요. 메이리다오역 美麗島站에서 직선 약 300m 거리예요. 구글 지도 기준 일요일은 쉬어요. 구글 리뷰에서는 肉絲, 소시지(香腸), 물만두(水餃) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJC6UqgYsEbjQRnbci92NBWCI",
+    "rating": 4.7,
+    "reviews": 251
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "1011": {
+   "name_zh": "早安魚仔湯",
+   "address_zh": "700臺南市中西區城隍里青年路204號",
+   "address_en": "700, Tainan City, West Central District, Chenghuang Village, Qingnian Rd, 204號早安魚仔湯",
+   "hours_summary": [
+    "수~일 오전 7:00~오후 3:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "생선탕(魚湯)"
+    },
+    {
+     "name": "러우짜오판(肉燥飯)"
+    },
+    {
+     "name": "다금바리(石斑魚)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 中西區에 있는 브런치 식당이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 생선탕(魚湯), 러우짜오판(肉燥飯), 다금바리(石斑魚) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJQZkewRx3bjQR2YKu4egI-Pg",
+    "rating": 4.6,
+    "reviews": 191
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "1012": {
    "name_zh": "漢口小籠包",
    "address_zh": "108臺北市萬華區萬壽里漢口街二段48號",
@@ -13579,6 +20086,36 @@
    },
    "checked_at": "2026-11-11",
    "method": "manual"
+  },
+  "1015": {
+   "name_zh": "亞發師海景餐廳-後壁湖美食 後壁湖海鮮餐廳 恆春美食 恆春海鮮餐廳 墾丁美食 後壁湖生魚片",
+   "address_zh": "946屏東縣恆春鎮後壁湖路96巷8號",
+   "address_en": "946, Pingtung County, Hengchun Township, 後壁湖路96巷8號亞發師海景餐廳-後壁湖美食 後壁湖海鮮餐廳 恆春美食 恆春海鮮餐廳 墾丁美食 後壁湖生魚片",
+   "hours_summary": [
+    "월~금 오전 11:00~오후 7:00",
+    "토~일 오전 10:30~오후 7:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "랍스터(龍蝦)"
+    },
+    {
+     "name": "蝦鬆"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "핑둥 恆春鎮에 있는 해산물 요리 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 랍스터(龍蝦), 蝦鬆 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJKx6Ov86wcTQRvTNpE_ZLg6o",
+    "rating": 4.8,
+    "reviews": 4611
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
   },
   "1016": {
    "name_zh": "隱家居酒屋",
