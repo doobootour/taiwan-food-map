@@ -45,6 +45,12 @@ jobs:
         with:
           node-version: 20
 
+      - name: Enrich newly registered spots (Google Maps business info)
+        # 새로 등록된 맛집에 주소·영업시간·휴무일·MRT·리뷰 언급 메뉴·가격대·정보형 소개를 채운다(docs/spot-enrichment.md).
+        # 구글 응답을 못 읽어도 페이지 재생성은 계속한다.
+        continue-on-error: true
+        run: node scripts/enrich-spots.js --limit 30 --delay-ms 1500 --report /tmp/enrich-report.json
+
       - name: Regenerate static pages from Supabase + content data
         run: |
           node scripts/generate-region-pages.js
@@ -83,6 +89,9 @@ jobs:
 
           stage() {
             git add -A -- '*.html' sitemap.xml en
+            if [ -f scripts/data/spot-enrichment.json ]; then
+              git add -- scripts/data/spot-enrichment.json
+            fi
             if [ -f rss.xml ]; then
               git add -- rss.xml
             fi

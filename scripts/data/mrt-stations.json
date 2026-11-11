@@ -1,0 +1,1450 @@
+{
+"source": "Wikidata metro stations (Q928830) in Taiwan bbox, fetched 2026-11-11",
+"stations": [
+{
+"zh": "小港站",
+"en": "Siaogang Station",
+"lat": 22.564722,
+"lng": 120.353889
+},
+{
+"zh": "高雄國際機場站",
+"en": "Kaohsiung International Airport MRT station",
+"lat": 22.570833,
+"lng": 120.341667
+},
+{
+"zh": "草衙站",
+"en": "Caoya Station",
+"lat": 22.580278,
+"lng": 120.328889
+},
+{
+"zh": "前鎮高中站",
+"en": "Cianjhen Senior High School Station",
+"lat": 22.588611,
+"lng": 120.320833
+},
+{
+"zh": "凱旋站",
+"en": "Kaisyuan Station",
+"lat": 22.596944,
+"lng": 120.315278
+},
+{
+"zh": "獅甲站",
+"en": "Shihjia Station",
+"lat": 22.606111,
+"lng": 120.308056
+},
+{
+"zh": "三多商圈站",
+"en": "Sanduo Shopping District Station",
+"lat": 22.613889,
+"lng": 120.304556,
+"ko": "싼둬상취안"
+},
+{
+"zh": "哈瑪星站",
+"en": "Hamasen Station",
+"lat": 22.621565,
+"lng": 120.274516
+},
+{
+"zh": "大寮站",
+"en": "Daliao Station",
+"lat": 22.62213,
+"lng": 120.3906
+},
+{
+"zh": "鹽埕埔站",
+"en": "Yanchengpu Station",
+"lat": 22.624,
+"lng": 120.284,
+"ko": "옌청푸"
+},
+{
+"zh": "中央公園站",
+"en": "Central Park Station",
+"lat": 22.624722,
+"lng": 120.301306,
+"ko": "중양공원"
+},
+{
+"zh": "衛武營站",
+"en": "Weiwuying Station",
+"lat": 22.625,
+"lng": 120.341
+},
+{
+"zh": "鳳山國中站",
+"en": "Fongshan Junior High School Station",
+"lat": 22.625,
+"lng": 120.3725
+},
+{
+"zh": "鳳山西站",
+"en": "Fongshan West Station",
+"lat": 22.625278,
+"lng": 120.348056
+},
+{
+"zh": "大東站",
+"en": "Dadong Station",
+"lat": 22.625278,
+"lng": 120.363056
+},
+{
+"zh": "鳳山站",
+"en": "Fongshan Station",
+"lat": 22.626111,
+"lng": 120.355833
+},
+{
+"zh": "苓雅運動園區站",
+"en": "Lingya Sports Park Station",
+"lat": 22.627222,
+"lng": 120.334722
+},
+{
+"zh": "前金站",
+"en": "Cianjin Station",
+"lat": 22.628889,
+"lng": 120.294444
+},
+{
+"zh": "五塊厝站",
+"en": "Wukuaicuo Station",
+"lat": 22.6295,
+"lng": 120.328
+},
+{
+"zh": "文化中心站",
+"en": "Cultural Center MRT station",
+"lat": 22.630278,
+"lng": 120.3175
+},
+{
+"zh": "信義國小站",
+"en": "Sinyi Elementary School Station",
+"lat": 22.630833,
+"lng": 120.311111
+},
+{
+"zh": "美麗島站",
+"en": "Formosa Boulevard Station",
+"lat": 22.631444,
+"lng": 120.301972,
+"ko": "메이리다오"
+},
+{
+"zh": "後驛站",
+"en": "Houyi Station",
+"lat": 22.648333,
+"lng": 120.303333
+},
+{
+"zh": "凹子底站",
+"en": "Aozihdi Station",
+"lat": 22.6575,
+"lng": 120.303056
+},
+{
+"zh": "巨蛋站",
+"en": "Kaohsiung Arena Station",
+"lat": 22.666111,
+"lng": 120.303333,
+"ko": "쥐단"
+},
+{
+"zh": "生態園區站",
+"en": "Ecological District Station",
+"lat": 22.676667,
+"lng": 120.306667
+},
+{
+"zh": "左營站",
+"en": "Zuoying Station",
+"lat": 22.68817,
+"lng": 120.309,
+"ko": "쭤잉"
+},
+{
+"zh": "世運站",
+"en": "World Games Station",
+"lat": 22.7015,
+"lng": 120.303
+},
+{
+"zh": "油廠國小站",
+"en": "Oil Refinery Elementary School Station",
+"lat": 22.708611,
+"lng": 120.301944
+},
+{
+"zh": "楠梓科技園區站",
+"en": "Nanzih Technology Industrial Park Station",
+"lat": 22.718889,
+"lng": 120.307222
+},
+{
+"zh": "後勁站",
+"en": "Houjing Station",
+"lat": 22.722222,
+"lng": 120.316944
+},
+{
+"zh": "都會公園站",
+"en": "Metropolitan Park Station",
+"lat": 22.729444,
+"lng": 120.320833
+},
+{
+"zh": "青埔站",
+"en": "Cingpu Station",
+"lat": 22.745,
+"lng": 120.3175
+},
+{
+"zh": "橋頭糖廠站",
+"en": "Ciaotou Sugar Refinery Station",
+"lat": 22.753056,
+"lng": 120.314722
+},
+{
+"zh": "岡山高醫站",
+"en": "Kaohsiung Medical University Gangshan Hospital Station",
+"lat": 22.780556,
+"lng": 120.301667
+},
+{
+"zh": "岡山車站",
+"en": "Gangshan Station",
+"lat": 22.79282,
+"lng": 120.29901
+},
+{
+"zh": "烏日站",
+"en": "Wuri station",
+"lat": 24.108828,
+"lng": 120.625032
+},
+{
+"zh": "高鐵台中站",
+"en": "HSR Taichung Station",
+"lat": 24.110103,
+"lng": 120.614252
+},
+{
+"zh": "九德站",
+"en": "Jioude Station",
+"lat": 24.111111,
+"lng": 120.634444
+},
+{
+"zh": "九張犁站",
+"en": "Jiuzhangli Station",
+"lat": 24.114444,
+"lng": 120.641389
+},
+{
+"zh": "大慶站",
+"en": "Daqing Station",
+"lat": 24.118947,
+"lng": 120.647317
+},
+{
+"zh": "豐樂公園站",
+"en": "Feng-le Park Station",
+"lat": 24.1325,
+"lng": 120.646389
+},
+{
+"zh": "臺鐵臺中車站",
+"en": null,
+"lat": 24.1369,
+"lng": 120.685
+},
+{
+"zh": "南屯站",
+"en": "Nantun Station",
+"lat": 24.140278,
+"lng": 120.646667
+},
+{
+"zh": "文心森林公園站",
+"en": "Wenxin Forest Park station",
+"lat": 24.145,
+"lng": 120.646667
+},
+{
+"zh": "水安宮站",
+"en": "Shui-an Temple Station",
+"lat": 24.153056,
+"lng": 120.646667
+},
+{
+"zh": "市政府站",
+"en": "Taichung City Hall station",
+"lat": 24.162222,
+"lng": 120.649444,
+"ko": "스정푸"
+},
+{
+"zh": "文心櫻花站",
+"en": "Wenxin Yinghua Station",
+"lat": 24.1675,
+"lng": 120.653889
+},
+{
+"zh": "四維國小站",
+"en": "Siwei Elementary School Station",
+"lat": 24.171111,
+"lng": 120.693333
+},
+{
+"zh": "文華高中站",
+"en": "Wenhua Senior High School Station",
+"lat": 24.171389,
+"lng": 120.660556
+},
+{
+"zh": "文心崇德站",
+"en": "Wenxin Chongde Station",
+"lat": 24.172222,
+"lng": 120.685
+},
+{
+"zh": "文心中清站",
+"en": "Wenxin Zhongqing station",
+"lat": 24.173333,
+"lng": 120.670556
+},
+{
+"zh": "松竹站",
+"en": "Songzhu Station",
+"lat": 24.180722,
+"lng": 120.701444
+},
+{
+"zh": "舊社站",
+"en": "Jiushe Station",
+"lat": 24.182222,
+"lng": 120.706389
+},
+{
+"zh": "北屯總站",
+"en": "Beitun Main Station",
+"lat": 24.189139,
+"lng": 120.708639
+},
+{
+"zh": "建德興豐站",
+"en": "Jiande Xingfeng Station",
+"lat": 24.929557,
+"lng": 121.281121
+},
+{
+"zh": "橫溪站",
+"en": "Hengxi Station",
+"lat": 24.937182,
+"lng": 121.390407
+},
+{
+"zh": "仁德公園站",
+"en": "Rende Park Station",
+"lat": 24.937375,
+"lng": 121.28917
+},
+{
+"zh": "三峽站",
+"en": "Sanxia Station",
+"lat": 24.939323,
+"lng": 121.376066
+},
+{
+"zh": "臺北大學站",
+"en": "National Taipei University Station",
+"lat": 24.939711,
+"lng": 121.366889
+},
+{
+"zh": "龍埔站",
+"en": "Longpu Station",
+"lat": 24.939868,
+"lng": 121.384674
+},
+{
+"zh": "平鎮車站",
+"en": "Pingzhen Station",
+"lat": 24.942778,
+"lng": 121.214722
+},
+{
+"zh": "巧克力站",
+"en": "Chocolate station",
+"lat": 24.943226,
+"lng": 121.297462
+},
+{
+"zh": "長壽山站",
+"en": "Changshoushan Station",
+"lat": 24.944376,
+"lng": 121.402946
+},
+{
+"zh": "陶瓷老街站",
+"en": "Ceramics Old Street Station",
+"lat": 24.952578,
+"lng": 121.349486
+},
+{
+"zh": "鶯歌車站",
+"en": "Yingge Station",
+"lat": 24.953222,
+"lng": 121.356472
+},
+{
+"zh": "媽祖田站",
+"en": "Mazutian Station",
+"lat": 24.953736,
+"lng": 121.412352
+},
+{
+"zh": "國華站",
+"en": "Guohua Station",
+"lat": 24.955341,
+"lng": 121.342194
+},
+{
+"zh": "大湳站",
+"en": "Danan Station",
+"lat": 24.955935,
+"lng": 121.298949
+},
+{
+"zh": "新店站",
+"en": "Xindian Station",
+"lat": 24.95797,
+"lng": 121.537711
+},
+{
+"zh": "老街溪站",
+"en": "Laojie River Station",
+"lat": 24.9585,
+"lng": 121.219
+},
+{
+"zh": "頂埔站",
+"en": "Dingpu Station",
+"lat": 24.9597,
+"lng": 121.42
+},
+{
+"zh": "永吉公園站",
+"en": "Yongji Park Station",
+"lat": 24.960838,
+"lng": 121.334431
+},
+{
+"zh": "環北站",
+"en": "Huanbei Station",
+"lat": 24.9666,
+"lng": 121.221
+},
+{
+"zh": "永寧站",
+"en": "Yongning Station",
+"lat": 24.966667,
+"lng": 121.435556
+},
+{
+"zh": "鶯桃福德站",
+"en": "Yingtao Fude station",
+"lat": 24.966833,
+"lng": 121.329972
+},
+{
+"zh": "新店區公所站",
+"en": "Xindian District Office Station",
+"lat": 24.967842,
+"lng": 121.541429
+},
+{
+"zh": "埤塘站",
+"en": "Pitang Station",
+"lat": 24.968333,
+"lng": 121.437778
+},
+{
+"zh": "小大湳站",
+"en": "Xiaodanan Station",
+"lat": 24.96884,
+"lng": 121.30135
+},
+{
+"zh": "土城站",
+"en": "Tucheng Station",
+"lat": 24.972222,
+"lng": 121.443889
+},
+{
+"zh": "小碧潭站",
+"en": "Xiaobitan Station",
+"lat": 24.973065,
+"lng": 121.529987
+},
+{
+"zh": "七張站",
+"en": "Qizhang Station",
+"lat": 24.975072,
+"lng": 121.543297,
+"ko": "치장"
+},
+{
+"zh": "興南站",
+"en": "Xingnan Station",
+"lat": 24.9802,
+"lng": 121.216
+},
+{
+"zh": "陽明運動公園站",
+"en": "Yangming Sports Park Station",
+"lat": 24.980891,
+"lng": 121.306294
+},
+{
+"zh": "大坪林站",
+"en": "Dapinglin Station",
+"lat": 24.982939,
+"lng": 121.541362
+},
+{
+"zh": "十四張站",
+"en": "Shisizhang Station",
+"lat": 24.984528,
+"lng": 121.527503
+},
+{
+"zh": "海山站",
+"en": "Haishan Station",
+"lat": 24.985228,
+"lng": 121.448603
+},
+{
+"zh": "政大站",
+"en": "National Chengchi University Station",
+"lat": 24.9885,
+"lng": 121.577056
+},
+{
+"zh": "桃園車站",
+"en": "Taoyuan Main Station",
+"lat": 24.989493,
+"lng": 121.313382
+},
+{
+"zh": "南勢角站",
+"en": "Nanshijiao Station",
+"lat": 24.989722,
+"lng": 121.509167
+},
+{
+"zh": "秀朗橋站",
+"en": "Xiulang Bridge Station",
+"lat": 24.99033,
+"lng": 121.524986
+},
+{
+"zh": "景平站",
+"en": "Jingping Station",
+"lat": 24.992136,
+"lng": 121.51609
+},
+{
+"zh": "景美站",
+"en": "Jingmei Station",
+"lat": 24.992661,
+"lng": 121.540622
+},
+{
+"zh": "景安站",
+"en": "Jingan Station",
+"lat": 24.993889,
+"lng": 121.504722
+},
+{
+"zh": "中和高中站",
+"en": "Zhonghe Senior High School metro station",
+"lat": 24.994944,
+"lng": 121.480306
+},
+{
+"zh": "員山子站",
+"en": "Juguang metro station",
+"lat": 24.995222,
+"lng": 121.470306
+},
+{
+"zh": "連城錦和站",
+"en": "Liancheng Jinhe metro station",
+"lat": 24.996303,
+"lng": 121.489924
+},
+{
+"zh": "景福宮站",
+"en": "Jingfu Temple Station",
+"lat": 24.996784,
+"lng": 121.3098
+},
+{
+"zh": "木柵站",
+"en": "Muzha Station",
+"lat": 24.998231,
+"lng": 121.573125
+},
+{
+"zh": "亞東醫院站",
+"en": "Far Eastern Hospital Station",
+"lat": 24.998301,
+"lng": 121.452478
+},
+{
+"zh": "動物園站",
+"en": "Taipei Zoo Station",
+"lat": 24.99834,
+"lng": 121.579468,
+"ko": "동물원"
+},
+{
+"zh": "萬芳社區站",
+"en": "Wanfang Community Station",
+"lat": 24.998639,
+"lng": 121.568011
+},
+{
+"zh": "萬芳醫院站",
+"en": "Wanfang Hospital Station",
+"lat": 24.999381,
+"lng": 121.558111
+},
+{
+"zh": "桃園體育園區站",
+"en": "Taoyuan Sports Park Station",
+"lat": 25.0015,
+"lng": 121.203
+},
+{
+"zh": "萬隆站",
+"en": "Wanlong Station",
+"lat": 25.001884,
+"lng": 121.539001
+},
+{
+"zh": "永安市場站",
+"en": "Yongan Market Station",
+"lat": 25.002222,
+"lng": 121.510556,
+"ko": "융안시장"
+},
+{
+"zh": "中和站",
+"en": "Zhonghe Station",
+"lat": 25.002386,
+"lng": 121.49621
+},
+{
+"zh": "中正力行站",
+"en": "Zhongzheng Lixing Station",
+"lat": 25.003476,
+"lng": 121.305528
+},
+{
+"zh": "橋和站",
+"en": "Qiaohe Station",
+"lat": 25.00461,
+"lng": 121.49024
+},
+{
+"zh": "辛亥站",
+"en": "Xinhai Station",
+"lat": 25.005456,
+"lng": 121.557069
+},
+{
+"zh": "中原站",
+"en": "Zhongyuan Station",
+"lat": 25.008202,
+"lng": 121.484316
+},
+{
+"zh": "永和永平國小站",
+"en": "Yonghe Yongping Elementary School Station",
+"lat": 25.00874,
+"lng": 121.50526
+},
+{
+"zh": "府中站",
+"en": "Fuzhong Station",
+"lat": 25.008903,
+"lng": 121.459233,
+"ko": "푸중"
+},
+{
+"zh": "中正大興站",
+"en": "Zhongzheng Daxing Station",
+"lat": 25.012314,
+"lng": 121.300321
+},
+{
+"zh": "頂溪站",
+"en": "Dingxi Station",
+"lat": 25.013518,
+"lng": 121.515424,
+"ko": "딩시"
+},
+{
+"zh": "高鐵桃園站",
+"en": "Taoyuan HSR Station",
+"lat": 25.013806,
+"lng": 121.214167
+},
+{
+"zh": "板新站",
+"en": "Banxin Station",
+"lat": 25.01452,
+"lng": 121.472405
+},
+{
+"zh": "公館站",
+"en": "Gongguan Station",
+"lat": 25.014772,
+"lng": 121.534254,
+"ko": "궁관"
+},
+{
+"zh": "大稻埕站",
+"en": "Dadaocheng",
+"lat": 25.016146,
+"lng": 121.194345
+},
+{
+"zh": "藝文特區站",
+"en": "Taoyuan Arts and Cultural Business District Station",
+"lat": 25.017392,
+"lng": 121.297949
+},
+{
+"zh": "麟光站",
+"en": "Linguang Station",
+"lat": 25.018328,
+"lng": 121.558781
+},
+{
+"zh": "台電大樓站",
+"en": "Taipower Building Station",
+"lat": 25.020522,
+"lng": 121.528325
+},
+{
+"zh": "加蚋站",
+"en": "Kalah Station",
+"lat": 25.02146,
+"lng": 121.498653
+},
+{
+"zh": "迴龍站",
+"en": "Huilong Station",
+"lat": 25.0221,
+"lng": 121.412
+},
+{
+"zh": "新埔站",
+"en": "Xinpu Station",
+"lat": 25.023056,
+"lng": 121.468056,
+"ko": "신푸"
+},
+{
+"zh": "六張犁站",
+"en": "Liuzhangli Station",
+"lat": 25.023997,
+"lng": 121.552961,
+"ko": "류장리"
+},
+{
+"zh": "領航站",
+"en": "Linghang Station",
+"lat": 25.0242,
+"lng": 121.2211
+},
+{
+"zh": "新埔民生站",
+"en": "Xinpu Minsheng Station",
+"lat": 25.02598,
+"lng": 121.466734
+},
+{
+"zh": "科技大樓站",
+"en": "Technology Building Station",
+"lat": 25.0261,
+"lng": 121.54346,
+"ko": "커지다러우"
+},
+{
+"zh": "古亭站",
+"en": "Guting Station",
+"lat": 25.027108,
+"lng": 121.522217,
+"ko": "구팅"
+},
+{
+"zh": "蘆興埤站",
+"en": "Luxingpi Station",
+"lat": 25.028339,
+"lng": 121.292827
+},
+{
+"zh": "丹鳳站",
+"en": "Danfeng Station",
+"lat": 25.0289,
+"lng": 121.423
+},
+{
+"zh": "江子翠站",
+"en": "Jiangzicui Station",
+"lat": 25.030056,
+"lng": 121.472417
+},
+{
+"zh": "廈安站",
+"en": "Xiaan Station",
+"lat": 25.030143,
+"lng": 121.504565
+},
+{
+"zh": "植物園站",
+"en": "Taipei Botanical Garden Station",
+"lat": 25.030731,
+"lng": 121.50944,
+"ko": "즈우위안"
+},
+{
+"zh": "象山站",
+"en": "Xiangshan Station",
+"lat": 25.032747,
+"lng": 121.568929,
+"ko": "샹산"
+},
+{
+"zh": "輔大站",
+"en": "Fu Jen University Station",
+"lat": 25.0328,
+"lng": 121.436
+},
+{
+"zh": "大安站",
+"en": "Daan Station",
+"lat": 25.032969,
+"lng": 121.543614,
+"ko": "다안"
+},
+{
+"zh": "台北101/世貿站",
+"en": "Taipei 101/World Trade Center Station",
+"lat": 25.033,
+"lng": 121.563,
+"ko": "타이베이101/스마오"
+},
+{
+"zh": "泰山貴和站",
+"en": "Taishan Guihe Station",
+"lat": 25.033056,
+"lng": 121.4225
+},
+{
+"zh": "大安森林公園站",
+"en": "Daan Park Station",
+"lat": 25.033056,
+"lng": 121.535278
+},
+{
+"zh": "信義安和站",
+"en": "Xinyi Anhe Station",
+"lat": 25.03316,
+"lng": 121.551649,
+"ko": "신이안허"
+},
+{
+"zh": "東門站",
+"en": "Dongmen Station",
+"lat": 25.03389,
+"lng": 121.528851,
+"ko": "둥먼"
+},
+{
+"zh": "中正紀念堂站",
+"en": "Chiang Kai-shek Memorial Hall Station",
+"lat": 25.034303,
+"lng": 121.516997,
+"ko": "중정기념당"
+},
+{
+"zh": "龍山寺站",
+"en": "Longshan Temple Station",
+"lat": 25.03525,
+"lng": 121.500417,
+"ko": "룽산쓰"
+},
+{
+"zh": "小南門站",
+"en": "Xiaonanmen Station",
+"lat": 25.035637,
+"lng": 121.510787
+},
+{
+"zh": "新莊站",
+"en": "Xinzhuang Station",
+"lat": 25.0364,
+"lng": 121.453
+},
+{
+"zh": "橫山站",
+"en": "Hengshan Station",
+"lat": 25.0367,
+"lng": 121.2157
+},
+{
+"zh": "廣慈/奉天宮站",
+"en": "Guangci/Fengtian Temple Station",
+"lat": 25.03747,
+"lng": 121.58188
+},
+{
+"zh": "南竹中正北站",
+"en": "Nanzhu Zhongzheng North  Station",
+"lat": 25.038667,
+"lng": 121.282757
+},
+{
+"zh": "頭前庄站",
+"en": "Touqianzhuang Station",
+"lat": 25.039167,
+"lng": 121.460556
+},
+{
+"zh": "永春站",
+"en": "Yongchun Station",
+"lat": 25.040869,
+"lng": 121.575606
+},
+{
+"zh": "體育大學站",
+"en": "National Taiwan Sport University Station",
+"lat": 25.041111,
+"lng": 121.385278
+},
+{
+"zh": "市政府站",
+"en": "Taipei City Hall Station",
+"lat": 25.041164,
+"lng": 121.565978,
+"ko": "스정푸"
+},
+{
+"zh": "國父紀念館站",
+"en": "Sun Yat-Sen Memorial Hall Station",
+"lat": 25.0413,
+"lng": 121.558,
+"ko": "국부기념관"
+},
+{
+"zh": "忠孝敦化站",
+"en": "Zhongxiao Dunhua Station",
+"lat": 25.041553,
+"lng": 121.550594,
+"ko": "중샤오둔화"
+},
+{
+"zh": "忠孝復興站",
+"en": "Zhongxiao Fuxing Station",
+"lat": 25.041617,
+"lng": 121.543778,
+"ko": "중샤오푸싱"
+},
+{
+"zh": "台大醫院站",
+"en": "National Taiwan University Hospital Station",
+"lat": 25.042142,
+"lng": 121.516367
+},
+{
+"zh": "忠孝新生站",
+"en": "Zhongxiao Xinsheng Station",
+"lat": 25.042342,
+"lng": 121.532906,
+"ko": "중샤오신성"
+},
+{
+"zh": "西門站",
+"en": "Ximen Station",
+"lat": 25.042722,
+"lng": 121.508578,
+"ko": "시먼"
+},
+{
+"zh": "善導寺站",
+"en": "Shandao Temple Station",
+"lat": 25.044717,
+"lng": 121.523653,
+"ko": "산다오쓰"
+},
+{
+"zh": "後山埤站",
+"en": "Houshanpi Station",
+"lat": 25.044864,
+"lng": 121.582342
+},
+{
+"zh": "台北車站",
+"en": "Taipei Main Station",
+"lat": 25.046333,
+"lng": 121.517556,
+"ko": "타이베이"
+},
+{
+"zh": "先嗇宮站",
+"en": "Xianse Temple Station",
+"lat": 25.046389,
+"lng": 121.471667
+},
+{
+"zh": "台北車站",
+"en": "Taipei main station (Taoyuan Metro)",
+"lat": 25.048611,
+"lng": 121.514167,
+"ko": "타이베이"
+},
+{
+"zh": "北門站",
+"en": "Beimen Station",
+"lat": 25.049444,
+"lng": 121.510361,
+"ko": "베이먼"
+},
+{
+"zh": "幸福站",
+"en": "Xingfu Station",
+"lat": 25.049858,
+"lng": 121.460046
+},
+{
+"zh": "蘆竹中正北站",
+"en": "Luzhu Zhongzheng North Station",
+"lat": 25.049867,
+"lng": 121.275804
+},
+{
+"zh": "松山車站",
+"en": "Songshan Station",
+"lat": 25.05006,
+"lng": 121.57684
+},
+{
+"zh": "昆陽站",
+"en": "Kunyang Station",
+"lat": 25.050492,
+"lng": 121.593278
+},
+{
+"zh": "南京三民站",
+"en": "Nanjing Sanmin Station",
+"lat": 25.05142,
+"lng": 121.5643,
+"ko": "난징싼민"
+},
+{
+"zh": "台北小巨蛋站",
+"en": "Taipei Arena Station",
+"lat": 25.051686,
+"lng": 121.551499,
+"ko": "타이베이 아레나"
+},
+{
+"zh": "南京復興站",
+"en": "Nanjing Fuxing Station",
+"lat": 25.051936,
+"lng": 121.544044,
+"ko": "난징푸싱"
+},
+{
+"zh": "松江南京站",
+"en": "Songjiang Nanjing Station",
+"lat": 25.052003,
+"lng": 121.533042,
+"ko": "쑹장난징"
+},
+{
+"zh": "南港車站",
+"en": "Nangang Station",
+"lat": 25.052222,
+"lng": 121.606389
+},
+{
+"zh": "中山站",
+"en": "Zhongshan Station",
+"lat": 25.052697,
+"lng": 121.520397,
+"ko": "중산"
+},
+{
+"zh": "泰山站",
+"en": "Taishan Station (Taoyuan Metro)",
+"lat": 25.053056,
+"lng": 121.439167
+},
+{
+"zh": "南港展覽館站",
+"en": "Taipei Nangang Exhibition Center Station",
+"lat": 25.055247,
+"lng": 121.617547
+},
+{
+"zh": "三重站",
+"en": "Sanchong Station",
+"lat": 25.055833,
+"lng": 121.484722
+},
+{
+"zh": "大園站",
+"en": "Dayuan Station",
+"lat": 25.056028,
+"lng": 121.2105
+},
+{
+"zh": "雙連站",
+"en": "Shuanglian Station",
+"lat": 25.057572,
+"lng": 121.520728,
+"ko": "솽롄"
+},
+{
+"zh": "新莊副都心站",
+"en": "Xinzhuang Fuduxin Station",
+"lat": 25.058889,
+"lng": 121.445556
+},
+{
+"zh": "行天宮站",
+"en": "Xingtian Temple Station",
+"lat": 25.059192,
+"lng": 121.533169,
+"ko": "싱톈궁"
+},
+{
+"zh": "南港軟體園區站",
+"en": "Nangang Software Park Station",
+"lat": 25.059933,
+"lng": 121.615872
+},
+{
+"zh": "菜寮站",
+"en": "Cailiao Station",
+"lat": 25.06,
+"lng": 121.491667
+},
+{
+"zh": "長庚醫院站",
+"en": "Chang Gung Memorial Hospital Station",
+"lat": 25.060278,
+"lng": 121.370833
+},
+{
+"zh": "中山國中站",
+"en": "Zhongshan Junior High School Station",
+"lat": 25.060783,
+"lng": 121.544189,
+"ko": "중산궈중"
+},
+{
+"zh": "新北產業園區站",
+"en": "New Taipei Industrial Park Station",
+"lat": 25.061667,
+"lng": 121.458611
+},
+{
+"zh": "民權西路站",
+"en": "Minquan West Road Station",
+"lat": 25.062178,
+"lng": 121.519686,
+"ko": "민취안시루"
+},
+{
+"zh": "中山國小站",
+"en": "Zhongshan Elementary School Station",
+"lat": 25.062689,
+"lng": 121.526572,
+"ko": "중산궈샤오"
+},
+{
+"zh": "台北橋站",
+"en": "Taipei Bridge Station",
+"lat": 25.0628,
+"lng": 121.4996
+},
+{
+"zh": "松山機場站",
+"en": "Songshan Airport Station",
+"lat": 25.063071,
+"lng": 121.551599
+},
+{
+"zh": "大橋頭站",
+"en": "Daqiaotou Station",
+"lat": 25.063083,
+"lng": 121.513583,
+"ko": "다차오터우"
+},
+{
+"zh": "水尾站",
+"en": "Shuiwei Station",
+"lat": 25.063188,
+"lng": 121.265438
+},
+{
+"zh": "林口站",
+"en": "Linkou Station",
+"lat": 25.065556,
+"lng": 121.361111
+},
+{
+"zh": "東湖站",
+"en": "Donghu Station",
+"lat": 25.067261,
+"lng": 121.611489,
+"ko": "둥후"
+},
+{
+"zh": "機場旅館站",
+"en": "Airport Hotel MRT station",
+"lat": 25.069278,
+"lng": 121.220944
+},
+{
+"zh": "三重國小站",
+"en": "Sanchong Elementary School Station",
+"lat": 25.070278,
+"lng": 121.496944
+},
+{
+"zh": "圓山站",
+"en": "Yuanshan Station",
+"lat": 25.07146,
+"lng": 121.520172,
+"ko": "위안산"
+},
+{
+"zh": "葫洲站",
+"en": "Huzhou Station",
+"lat": 25.072817,
+"lng": 121.607372
+},
+{
+"zh": "三和國中站",
+"en": "Sanhe Junior High School Station",
+"lat": 25.076557,
+"lng": 121.486827
+},
+{
+"zh": "機場第二航廈站",
+"en": "Airport Terminal 2 Station",
+"lat": 25.076667,
+"lng": 121.231389
+},
+{
+"zh": "菓林站",
+"en": "Guolin Station",
+"lat": 25.078009,
+"lng": 121.259572
+},
+{
+"zh": "文德站",
+"en": "Wende Station",
+"lat": 25.0787,
+"lng": 121.585
+},
+{
+"zh": "大直站",
+"en": "Dazhi Station",
+"lat": 25.079502,
+"lng": 121.546914
+},
+{
+"zh": "港墘站",
+"en": "Gangqian Station",
+"lat": 25.080089,
+"lng": 121.575122
+},
+{
+"zh": "機場第一航廈站",
+"en": "Airport Terminal 1 Station",
+"lat": 25.080278,
+"lng": 121.238056
+},
+{
+"zh": "徐匯中學站",
+"en": "St. Ignatius High School Station",
+"lat": 25.0805,
+"lng": 121.48
+},
+{
+"zh": "山鼻站",
+"en": "Shanbi Station",
+"lat": 25.080556,
+"lng": 121.285
+},
+{
+"zh": "西湖站",
+"en": "Xihu MRT station",
+"lat": 25.082072,
+"lng": 121.566964
+},
+{
+"zh": "大湖公園站",
+"en": "Dahu Park Station",
+"lat": 25.083528,
+"lng": 121.602419
+},
+{
+"zh": "內湖站",
+"en": "Neihu Station",
+"lat": 25.083772,
+"lng": 121.594644
+},
+{
+"zh": "劍潭站",
+"en": "Jiantan Station",
+"lat": 25.0844,
+"lng": 121.525,
+"ko": "젠탄"
+},
+{
+"zh": "劍南路站",
+"en": "Jiannan Road Station",
+"lat": 25.084861,
+"lng": 121.555567
+},
+{
+"zh": "三民高中站",
+"en": "Sanmin Senior High School Station",
+"lat": 25.085556,
+"lng": 121.472778
+},
+{
+"zh": "坑口站",
+"en": "Kengkou Station",
+"lat": 25.086389,
+"lng": 121.266389
+},
+{
+"zh": "銘傳站",
+"en": "Ming Chuan Station",
+"lat": 25.0872,
+"lng": 121.5264
+},
+{
+"zh": "蘆洲站",
+"en": "Luzhou Station",
+"lat": 25.091472,
+"lng": 121.465028
+},
+{
+"zh": "士林站",
+"en": "Shilin Station",
+"lat": 25.093453,
+"lng": 121.526211,
+"ko": "스린"
+},
+{
+"zh": "芝山站",
+"en": "Zhishan Station",
+"lat": 25.102845,
+"lng": 121.522533
+},
+{
+"zh": "明德站",
+"en": "Mingde Station",
+"lat": 25.109825,
+"lng": 121.518724
+},
+{
+"zh": "石牌站",
+"en": "Shipai Station",
+"lat": 25.114519,
+"lng": 121.515644
+},
+{
+"zh": "唭哩岸站",
+"en": "Qilian Station",
+"lat": 25.120931,
+"lng": 121.506256
+},
+{
+"zh": "奇岩站",
+"en": "Qiyan Station",
+"lat": 25.125758,
+"lng": 121.501156
+},
+{
+"zh": "關渡站",
+"en": "Guandu Station",
+"lat": 25.125806,
+"lng": 121.467339
+},
+{
+"zh": "忠義站",
+"en": "Zhongyi Station",
+"lat": 25.131222,
+"lng": 121.473422
+},
+{
+"zh": "北投站",
+"en": "Beitou Station",
+"lat": 25.131903,
+"lng": 121.498597,
+"ko": "베이터우"
+},
+{
+"zh": "新北投站",
+"en": "Xinbeitou MRT station",
+"lat": 25.136956,
+"lng": 121.502368,
+"ko": "신베이터우"
+},
+{
+"zh": "竹圍站",
+"en": "Zhuwei Station",
+"lat": 25.137,
+"lng": 121.459503
+},
+{
+"zh": "復興崗站",
+"en": "Fuxinggang Station",
+"lat": 25.137514,
+"lng": 121.485447
+},
+{
+"zh": "紅樹林站",
+"en": "Hongshulin Station",
+"lat": 25.154103,
+"lng": 121.459003
+},
+{
+"zh": "淡水站",
+"en": "Tamsui Station",
+"lat": 25.168053,
+"lng": 121.445194,
+"ko": "단수이"
+}
+]
+}
