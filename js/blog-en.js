@@ -28,6 +28,7 @@
     "tainan-sicao-green-tunnel-raft-ticket-anping-eats",
     "newtaipei-yehliu-shifen-jiufen-golden-waterfall-tour-eats",
     "kenting-national-museum-marine-biology-aquarium-ticket-eats",
+    "taipei-national-palace-museum-ticket-nearby-eats",
     "kaohsiung-shoushan-zoo-tickets-kids-tips",
   ];
   if (typeof module === "object" && module.exports) module.exports = { EN_BLOG_SLUGS };

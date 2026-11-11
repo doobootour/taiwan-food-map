@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-national-palace-museum-ticket-nearby-eats",
+    "image": "assets/images/attractions/taipei/palace-museum.webp",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 볼거리·먹거리",
+      "title": "국립고궁박물원 입장권과 근처 맛집, 관람 뒤엔 어디서 먹을까?",
+      "desc": "국립고궁박물원 인기 소장품과 MRT 스린역에서 가는 법, 2026년 관람 시간과 입장료, 관람 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "meta": "타이베이 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Sights & Food",
+      "title": "National Palace Museum Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "desc": "Popular pieces at the National Palace Museum, how to get there from MRT Shilin Station, 2026 hours and admission, and nearby restaurants from our map for after your visit.",
+      "meta": "Taipei · Sights & Food"
+    }
+  },
+  {
     "slug": "kenting-national-museum-marine-biology-aquarium-ticket-eats",
     "image": "assets/images/attractions/kenting/nmmba.webp",
     "regions": [
@@ -1960,6 +1979,353 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-national-palace-museum-ticket-nearby-eats": {
+    "heroImage": "assets/images/attractions/taipei/palace-museum.webp",
+    "ko": {
+      "pageTitle": "국립고궁박물원 입장권·근처 맛집 — 타이베이 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "국립고궁박물원 인기 소장품과 MRT 스린역에서 가는 법, 2026년 관람 시간과 입장료, 관람 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "국립고궁박물원 입장권과 근처 맛집, 관람 뒤엔 어디서 먹을까?",
+      "eyebrow": "타이베이 여행 가이드 · 볼거리·먹거리",
+      "title": "국립고궁박물원 입장권과 근처 맛집, 관람 뒤엔 어디서 먹을까?",
+      "dek": "황실 유물을 둘러본 다음, 박물관 안 식당이나 스린 쪽 맛집까지 한 번에 정해보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 볼거리·먹거리",
+      "intro": "비 오는 날 타이베이에서 반나절을 보내기 좋은 곳을 꼽으면 국립고궁박물원(國立故宮博物院)이 먼저 나와요. 다만 시내 중심에서 떨어진 外雙溪에 있어서, 박물관 안에서 먹을지 스린 쪽으로 나와서 먹을지 미리 정해두면 편해요. 故宮 공식 사이트와 交通部觀光署 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 국립고궁박물원은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "옛 황궁(故宮)에 전해지던 황실 소장품을 모은 박물관이에요. 1965년 外雙溪에 중국 궁전 양식으로 지어졌고, 송·원·명·청 네 왕조의 소장품을 이어받아 약 70만 점의 유물을 갖고 있어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/taipei/palace-museum.webp",
+          "caption": "정문 쪽에서 본 고궁박물원 본관이에요(사진: Gary Lee Todd, Ph.D. / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 꼭 볼 소장품"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "翠玉白菜",
+              "desc": "배추 모양 옥 조각으로 가장 인기 있는 소장품이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "肉形石",
+              "desc": "돼지고기 조각처럼 보이는 돌이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "毛公鼎",
+              "desc": "긴 명문이 새겨진 청동기예요."
+            },
+            {
+              "mark": "✓",
+              "b": "至善園·至德園",
+              "desc": "박물관 옆 송나라풍 정원과 연못 정원도 함께 둘러보기 좋아요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "MRT 士林역에서 버스",
+              "desc": "MRT 士林역에서 버스를 타고 故宮博物院 정류장에서 내려요."
+            },
+            {
+              "mark": "2",
+              "b": "관람 팁",
+              "desc": "전시가 방대해서 반나절은 잡는 게 좋아요. 더 자세한 동선은 <a href=\"/blog-taipei-national-palace-museum-tips\">고궁박물원 관람 팁</a> 글에 정리해뒀어요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 운영 시간과 요금 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "내용"
+          ],
+          "rows": [
+            {
+              "label": "관람 시간",
+              "values": [
+                "화~일 09:00~17:00(제1전시관), 월요일 휴관"
+              ]
+            },
+            {
+              "label": "일반 입장권",
+              "values": [
+                "NT$350"
+              ]
+            },
+            {
+              "label": "무료",
+              "values": [
+                "18세 미만 등(공식 사이트의 무료 대상 확인)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10136-national-palace-museum-ticket-package-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 국립고궁박물원 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · 관람 뒤 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "박물관 4층 식당 삼희당이 지도에 등록돼 있어 관람 중간에 쉬어 가기 좋아요. 나머지는 2.4~2.8km 떨어진 스린·다즈 쪽이라 버스나 택시로 이동하는 편이 편해요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taipei-cafe-4-733\">삼희당 (고궁박물원 4층 식당)</a> · 카페 · 북쪽 약 0.1km",
+              "desc": "지도 메모: 고궁박물원 4층 식당에서 ‘분위기를 타는 사람이라 여기 꽤 좋았어요’라고 평가했다."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taipei-dimsum-chiou-hwa-232\">Chiou Hwa</a> · 딤섬 · 남동쪽 약 2.4km",
+              "desc": "지도에 딤섬(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taipei-bakery-261\">三明堂</a> · 베이커리 · 북서쪽 약 2.5km",
+              "desc": "지도에 베이커리(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taipei-dimsum-bao-bao-bao-817\">Bao Bao Bao</a> · 딤섬 · 서쪽 약 2.5km",
+              "desc": "지도 메모: 스린역 근처. 양이 푸짐하고 새우볶음밥·크림새우가 특히 좋아 재방문하고 싶다."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/taipei-cafe-butler-coffee-house-818\">Butler Coffee House</a> · 카페 · 남쪽 약 2.6km",
+              "desc": "지도 메모: 시장 구석이지만 브라질 블렌딩 아이스아메리카노가 크리미해서 극찬할 만하다."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/taipei-cafe-d23-coffee-dazhi-251\">D23 Coffee Dazhi</a> · 카페 · 남쪽 약 2.6km",
+              "desc": "지도에 카페(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/taipei-steak-niu-mowang-steak-house-847\">Niu Mowang Steak House 牛魔王牛排館</a> · 스테이크 · 남서쪽 약 2.8km",
+              "desc": "지도 메모: 스린 야시장의 스테이크집으로, 추천 메뉴인 안심 스테이크가 맛있다."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 國立故宮博物院 공식 사이트의 개관 시간·입장료 안내와 交通部觀光署의 國立故宮博物院 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 시간과 요금은 바뀔 수 있으니 방문 전 공식 사이트를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Gary Lee Todd, Ph.D., Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 확인해보세요",
+          "desc": "박물관 일정 앞뒤로 들를 타이베이 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "National Palace Museum Tickets & Nearby Eats — Taipei · My Secret Taiwan Eats",
+      "metaDescription": "Popular pieces at the National Palace Museum, how to get there from MRT Shilin Station, 2026 hours and admission, and nearby restaurants from our map for after your visit.",
+      "ogTitle": "National Palace Museum Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "eyebrow": "Taipei Travel Guide · Sights & Food",
+      "title": "National Palace Museum Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "dek": "Tour the imperial treasures, then pick the museum's own restaurant or a spot in Shilin in one go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Sights & Food",
+      "intro": "Ask for a good place to spend half a rainy day in Taipei and the National Palace Museum (國立故宮博物院) comes up first. It's in 外雙溪, away from the city centre, so it helps to decide in advance whether to eat inside the museum or head out to Shilin. Based on the official 故宮 site and 交通部觀光署 information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is the National Palace Museum?"
+        },
+        {
+          "type": "p",
+          "html": "A museum of imperial collections handed down from the former imperial palace (故宮). It was built in 1965 in 外雙溪 in Chinese palace style, and holds about 700,000 objects inherited from the collections of four dynasties: Song, Yuan, Ming and Qing."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/taipei/palace-museum.webp",
+          "caption": "The National Palace Museum's main building seen from the main gate (photo: Gary Lee Todd, Ph.D. / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · Pieces Not to Miss"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "翠玉白菜",
+              "desc": "A jade carving shaped like a cabbage, the most popular piece in the collection."
+            },
+            {
+              "mark": "✓",
+              "b": "肉形石",
+              "desc": "A stone that looks like a piece of pork."
+            },
+            {
+              "mark": "✓",
+              "b": "毛公鼎",
+              "desc": "A bronze vessel inscribed with a long inscription."
+            },
+            {
+              "mark": "✓",
+              "b": "至善園·至德園",
+              "desc": "The Song-style garden and pond garden next to the museum are also nice to walk around."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Bus from MRT 士林 Station",
+              "desc": "Take a bus from MRT 士林 Station and get off at the 故宮博物院 stop."
+            },
+            {
+              "mark": "2",
+              "b": "Visiting tips",
+              "desc": "The collection is huge, so allow half a day. For a more detailed route, see our <a href=\"/blog-taipei-national-palace-museum-tips\">National Palace Museum visiting tips</a>."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Hours and Admission (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Details"
+          ],
+          "rows": [
+            {
+              "label": "Opening hours",
+              "values": [
+                "Tue–Sun 09:00–17:00 (Exhibition Area I), closed Mondays"
+              ]
+            },
+            {
+              "label": "Regular ticket",
+              "values": [
+                "NT$350"
+              ]
+            },
+            {
+              "label": "Free",
+              "values": [
+                "Under 18s and others (check the official site for who qualifies)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F10136-national-palace-museum-ticket-package-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See National Palace Museum tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · Nearby Restaurants for After Your Visit"
+        },
+        {
+          "type": "p",
+          "html": "Sanxitang, the museum's 4th-floor restaurant, is on our map, so it's a good place for a break mid-visit. The rest are 2.4–2.8 km away in Shilin and Dazhi, so a bus or taxi is easier. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taipei-cafe-4-733\">三希堂 Sanxitang (National Palace Museum 4F restaurant)</a> · Café · about 0.1 km north",
+              "desc": "Map note: Of the museum's 4th-floor restaurant: 'I'm someone who cares about atmosphere, so I liked it here quite a lot.'"
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taipei-dimsum-chiou-hwa-232\">Chiou Hwa</a> · Dim Sum · about 2.4 km southeast",
+              "desc": "Listed as dim sum on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taipei-bakery-261\">三明堂</a> · Bakery · about 2.5 km northwest",
+              "desc": "Listed as bakery on the map."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taipei-dimsum-bao-bao-bao-817\">Bao Bao Bao</a> · Dim Sum · about 2.5 km west",
+              "desc": "Map note: Near Shilin Station. Generous portions; the shrimp fried rice and creamy shrimp were especially good. Would go back."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/taipei-cafe-butler-coffee-house-818\">Butler Coffee House</a> · Café · about 2.6 km south",
+              "desc": "Map note: Tucked in a corner of the market, but the Brazil-blend iced Americano is so creamy it deserves high praise."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/taipei-cafe-d23-coffee-dazhi-251\">D23 Coffee Dazhi</a> · Café · about 2.6 km south",
+              "desc": "Listed as café on the map."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/taipei-steak-niu-mowang-steak-house-847\">Niu Mowang Steak House 牛魔王牛排館</a> · Steak · about 2.8 km southwest",
+              "desc": "Map note: A steak place at Shilin Night Market. The recommended tenderloin steak is tasty."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on the official 國立故宮博物院 site's hours and admission information and 交通部觀光署's 國立故宮博物院 page, as of October 2026. Hours and prices can change, so check the official site before you go. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Gary Lee Todd, Ph.D., Wikimedia Commons, CC0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei eats on the map",
+          "desc": "Save Taipei restaurants to visit before or after the museum.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
+  },
   "kenting-national-museum-marine-biology-aquarium-ticket-eats": {
     "heroImage": "assets/images/attractions/kenting/nmmba.webp",
     "ko": {
