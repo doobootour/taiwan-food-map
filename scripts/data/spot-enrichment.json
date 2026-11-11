@@ -61,6 +61,652 @@
   }
  ],
  "spots": {
+  "20": {
+   "name_zh": "利普咖啡商行",
+   "address_zh": "973花蓮縣吉安鄉仁里村中山路一段90號",
+   "address_en": "973 대만 Hualien County, Ji’an Township, Renli Village, Section 1, Zhongshan Rd, 90號利普咖啡商行",
+   "hours_summary": [
+    "월~금 오전 9:00~오후 10:00"
+   ],
+   "closed_days": "토요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "커피(咖啡)"
+    }
+   ],
+   "menu_source": "name",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "화롄 吉安鄉에 있는 도매업체예요. 구글 지도 기준 토요일, 일요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJZTAIRZafaDQRK89GuKqiXkQ",
+    "rating": 4.8,
+    "reviews": 24
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "21": {
+   "name_zh": "鼎味馨鍋物",
+   "address_zh": "970花蓮縣花蓮市主睦里和平路307號",
+   "address_en": "970 대만 Hualien County, Hualien City, Zhumu Village, Heping Rd, 307號鼎味馨鍋物",
+   "hours_summary": [
+    "매일 오전 11:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "루러우판(滷肉飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "화롄 花蓮市에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 루러우판(滷肉飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJKw0Q_x2faDQRjLNBhBkNYAg",
+    "rating": 4.9,
+    "reviews": 2297
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "22": {
+   "name_zh": "Gaston + Gaby 法式烘焙坊",
+   "address_zh": "970花蓮縣花蓮市民德一街203號",
+   "address_en": "Gaston & Gaby 家家法式烘培坊, No. 203號, Minde 1st St, Hualien City, Hualien County, 대만 970",
+   "hours_summary": [
+    "월~금 오전 11:00~오후 7:00"
+   ],
+   "closed_days": "토요일, 일요일",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "화롄 花蓮市에 있는 제과점이에요. 구글 지도 기준 토요일, 일요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJm8k2PjCfaDQRSaInUCf0rNg",
+    "rating": 4.9,
+    "reviews": 97
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "23": {
+   "name_zh": "和平虱目魚專賣店",
+   "address_zh": "970花蓮縣花蓮市主學里上海街132號",
+   "address_en": "970 대만 Hualien County, Hualien City, Zhuxue Village, Shanghai St, 132號和平虱目魚專賣店",
+   "hours_summary": [
+    "월 오전 11:30~오후 9:30",
+    "수~일 오전 11:30~오후 9:30"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "루러우판(滷肉飯)"
+    },
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "생선 껍질(魚皮)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "화롄 花蓮市에 있는 델리예요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 루러우판(滷肉飯), 볶음밥(炒飯), 생선 껍질(魚皮) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJg7o35JSfaDQR305BcJnCyK8",
+    "rating": 4.3,
+    "reviews": 456
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "24": {
+   "name_zh": "霸王胡椒餅",
+   "address_zh": "971花蓮縣新城鄉順安村119之5號",
+   "address_en": "Bawang Pepper Cake, No. 119之5號, Shun'an Village, Xincheng Township, Hualien County, 대만 971",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "內餡"
+    },
+    {
+     "name": "肉餡"
+    },
+    {
+     "name": "肉塊"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "화롄 新城鄉에 있는 델리예요. 구글 리뷰에서는 內餡, 肉餡, 肉塊 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJtZkfTfknZjQR3F3l8585T0c",
+    "rating": 4.8,
+    "reviews": 334
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "26": {
+   "name_zh": "職饗雞湯小卷米粉",
+   "address_zh": "970花蓮縣花蓮市國聯里國聯五路121號",
+   "address_en": "970 대만 Hualien County, Hualien City, Guolian Village, Guolian 5th Rd, 121號職饗雞湯小卷米粉",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 2:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "魚丸"
+    },
+    {
+     "name": "溏心蛋"
+    },
+    {
+     "name": "토종닭(土雞)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "화롄 花蓮市에 있는 대만 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 魚丸, 溏心蛋, 토종닭(土雞) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJpXU7FRSfaDQRoUJ4H99By8E",
+    "rating": 4.6,
+    "reviews": 902
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "27": {
+   "name_zh": "瀧寅酔居 日式居酒屋｜LW",
+   "address_zh": "970花蓮縣花蓮市主力里中華路289號",
+   "address_en": "970 대만 Hualien County, Hualien City, Zhuli Village, Zhonghua Rd, 289號瀧寅酔居 日式居酒屋｜LW",
+   "hours_summary": [
+    "매일 오후 5:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "꼬치구이(串燒)"
+    },
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "연어(鮭魚)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "화롄 花蓮市에 있는 이자카야예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 꼬치구이(串燒), 볶음밥(炒飯), 연어(鮭魚) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJnRDtZQCfaDQRVI7D3gndKHg",
+    "rating": 4.9,
+    "reviews": 469
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "28": {
+   "name_zh": "炭火燒肉工房",
+   "address_zh": "970花蓮縣花蓮市主商里博愛街136號",
+   "address_en": "970 대만 Hualien County, Hualien City, Zhushang Village, Bo'ai St, 136號炭火燒肉工房",
+   "hours_summary": [
+    "매일 오후 5:00~11:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "和牛"
+    },
+    {
+     "name": "닭탕(雞湯)"
+    },
+    {
+     "name": "소혀(牛舌)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800-1000",
+   "intro": "화롄 花蓮市에 있는 숯불구이/바베큐전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 和牛, 닭탕(雞湯), 소혀(牛舌) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJKVLYEsCfaDQRtEbVrFQz3m0",
+    "rating": 4.1,
+    "reviews": 750
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "29": {
+   "name_zh": "CHILL桑 串燒居酒屋",
+   "address_zh": "970花蓮縣花蓮市國盛里國聯五路2-7號",
+   "address_en": "970 대만 Hualien County, Hualien City, Guocheng Village, Guolian 5th Rd, 2-7號CHILL桑 串燒居酒屋",
+   "hours_summary": [
+    "매일 오후 6:00~11:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "우동(烏龍麵)"
+    },
+    {
+     "name": "피단(皮蛋)"
+    },
+    {
+     "name": "볶음밥(炒飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "화롄 花蓮市에 있는 이자카야예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 우동(烏龍麵), 피단(皮蛋), 볶음밥(炒飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJpZT3llyfaDQRNcU9NH7vmvg",
+    "rating": 4.9,
+    "reviews": 519
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "30": {
+   "name_zh": "木子食堂",
+   "address_zh": "970花蓮縣花蓮市國華里博愛街238號",
+   "address_en": "970 대만 Hualien County, Hualien City, Guohua Village, Bo'ai St, 238號木子食堂",
+   "hours_summary": [
+    "월~화 오후 6:00~11:00",
+    "목~일 오후 6:00~11:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "燒烤"
+    },
+    {
+     "name": "馬鈴薯燉肉"
+    },
+    {
+     "name": "炒烏龍麵"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800-1000",
+   "intro": "화롄 花蓮市에 있는 이자카야예요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 燒烤, 馬鈴薯燉肉, 炒烏龍麵 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJn6O3Jr-faDQRVLpsZvUAnUE",
+    "rating": 4.5,
+    "reviews": 630
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "31": {
+   "name_zh": "和嶼酒吧 Bar Peace Isle",
+   "address_zh": "970花蓮縣花蓮市國治里光復街80號1樓",
+   "address_en": "970 대만 Hualien County, Hualien City, Guozhi Village, Guangfu St, 80號和嶼酒吧 Bar Peace Isle1樓",
+   "hours_summary": [
+    "월~화 오후 7:00~오전 1:00",
+    "목~일 오후 7:00~오전 1:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800-1000",
+   "intro": "화롄 花蓮市에 있는 술집이에요. 구글 지도 기준 수요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요.",
+   "google": {
+    "place_id": "ChIJiU9pdN-faDQR3DgYvB85FnM",
+    "rating": 4.8,
+    "reviews": 368
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "32": {
+   "name_zh": "福坊炭烤酌酒/花蓮美食/花蓮餐廳/花蓮餐酒館/花蓮晚餐/花蓮調酒/附近美食",
+   "address_zh": "970花蓮縣花蓮市主權里中原路618號左",
+   "address_en": "970 대만 Hualien County, Hualien City, Zhuquan Village, Zhongyuan Rd, 618號福坊炭烤酌酒/花蓮美食/花蓮餐廳/花蓮餐酒館/花蓮晚餐/花蓮調酒/附近美食左",
+   "hours_summary": [
+    "화~일 오후 6:00~오전 1:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "새우(蝦仁)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "화롄 花蓮市에 있는 비스트로예요. 구글 지도 기준 월요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 볶음밥(炒飯), 새우(蝦仁) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJMSG24T2faDQR61p8nzSKWCg",
+    "rating": 4.9,
+    "reviews": 234
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "33": {
+   "name_zh": "韓食倉庫한식창고",
+   "address_zh": "970花蓮縣花蓮市國治里光復街74號",
+   "address_en": "970 대만 Hualien County, Hualien City, Guozhi Village, Guangfu St, 74號韓食倉庫한식창고",
+   "hours_summary": [
+    "수~일 오전 11:30~오후 2:30, 오후 5:30~9:30"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "전(煎餅)"
+    },
+    {
+     "name": "두부(豆腐)"
+    },
+    {
+     "name": "프라이드치킨(炸雞)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "화롄 花蓮市에 있는 한식당이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 전(煎餅), 두부(豆腐), 프라이드치킨(炸雞) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJkVkJVwCfaDQRunFvhGEdcEQ",
+    "rating": 4.7,
+    "reviews": 233
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "34": {
+   "name_zh": "維多利亞同志酒吧/花蓮店",
+   "address_zh": "970花蓮縣花蓮市國聯里國聯二路21號",
+   "address_en": "970 대만 Hualien County, Hualien City, Guolian Village, Guolian 2nd Rd, 21號維多利亞同志酒吧/花蓮店",
+   "hours_summary": [
+    "매일 오전 12:00~7:00, 오후 11:30~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "화롄 花蓮市에 있는 술집이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요.",
+   "google": {
+    "place_id": "ChIJeX0IZ-afaDQRM9U9n8FsXHs",
+    "rating": 4.7,
+    "reviews": 54
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "36": {
+   "name_zh": "五米停留 five meters under",
+   "address_zh": "970花蓮縣花蓮市主勤里節約街6號",
+   "address_en": "970 대만 Hualien County, Hualien City, Zhuqin Village, Jieyue St, 6號五米停留 five meters under",
+   "hours_summary": [
+    "월~화 오후 6:00~오전 1:00",
+    "금~일 오후 6:00~오전 1:00"
+   ],
+   "closed_days": "수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "칵테일(調酒)"
+    },
+    {
+     "name": "午餐肉"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800-1000",
+   "intro": "화롄 花蓮市에 있는 호프/생맥주집이에요. 구글 지도 기준 수요일, 목요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 칵테일(調酒), 午餐肉 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ_yex-_-faDQR-k-Mj-SyC4g",
+    "rating": 4.7,
+    "reviews": 220
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "37": {
+   "name_zh": "富心漢 FuXinMan",
+   "address_zh": "970花蓮縣花蓮市民族里復興街20號",
+   "address_en": "970 대만 Hualien County, Hualien City, Minzu Village, Fuxing St, 20號富心漢 FuXinMan",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": null,
+   "menu": [
+    {
+     "name": "홍유차오서우(紅油抄手)"
+    },
+    {
+     "name": "물만두(水餃)"
+    },
+    {
+     "name": "루웨이(滷味)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "화롄 花蓮市에 있는 비스트로예요. 구글 리뷰에서는 홍유차오서우(紅油抄手), 물만두(水餃), 루웨이(滷味) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJhQ48A-SfaDQRV9TXaCwiN7c",
+    "rating": 4.9,
+    "reviews": 304
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "38": {
+   "name_zh": "夜底拾花 Flavor of the Night",
+   "address_zh": "970花蓮縣花蓮市主計里福建街370號",
+   "address_en": "970 대만 Hualien County, Hualien City, Zhuji Village, Fujian St, 370號夜底拾花 Flavor of the Night",
+   "hours_summary": [
+    "화~토 오후 6:00~오전 12:00"
+   ],
+   "closed_days": "월요일, 일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "칵테일(調酒)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "화롄 花蓮市에 있는 호프/생맥주집이에요. 구글 지도 기준 월요일, 일요일은 쉬어요. 구글 리뷰에서는 칵테일(調酒) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJR_gugDafaDQREw-RgYvqgQk",
+    "rating": 4.9,
+    "reviews": 67
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "39": {
+   "name_zh": "米噹泰式燒烤",
+   "address_zh": "970花蓮縣花蓮市主和里重慶路221-2號",
+   "address_en": "Mi Dang Thai Barbeque, No. 221-2號, Chongqing Rd, Zhuhe Village, Hualien City, Hualien County, 대만 970",
+   "hours_summary": [
+    "월 오후 5:30~오전 12:30",
+    "수~일 오후 5:30~오전 12:30"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "고기구이(烤肉)"
+    },
+    {
+     "name": "烤魷魚"
+    },
+    {
+     "name": "볶음밥(炒飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "화롄 花蓮市에 있는 태국 음식점이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 고기구이(烤肉), 烤魷魚, 볶음밥(炒飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJA5OcO5OfaDQR5OxVsLyCtxE",
+    "rating": 4.2,
+    "reviews": 4431
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "40": {
+   "name_zh": "武家乾麵",
+   "address_zh": "971花蓮縣新城鄉新秀村光復路499-29號",
+   "address_en": "971 대만 Hualien County, Xincheng Township, Xinxiu Village, Guangfu Rd, 499-29號武家乾麵",
+   "hours_summary": [
+    "월~화 오전 11:00~오후 2:00, 오후 5:00~7:30",
+    "금~일 오전 11:00~오후 2:00, 오후 5:00~7:30"
+   ],
+   "closed_days": "수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "魚丸"
+    },
+    {
+     "name": "훈툰(餛飩)"
+    },
+    {
+     "name": "肉湯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "화롄 新城鄉에 있는 국수 가게예요. 구글 지도 기준 수요일, 목요일은 쉬어요. 구글 리뷰에서는 魚丸, 훈툰(餛飩), 肉湯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJfa2MUYafaDQRh8pOF7s3n7s",
+    "rating": 4.7,
+    "reviews": 226
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "41": {
+   "name_zh": "蓋世豆漿宵夜",
+   "address_zh": "970花蓮縣花蓮市國華里建國路67號",
+   "address_en": "970 대만 Hualien County, Hualien City, Guohua Village, Jianguo Rd, 67號蓋世豆漿宵夜",
+   "hours_summary": [
+    "매일 오후 7:00~오전 5:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "단빙(蛋餅)"
+    },
+    {
+     "name": "사오빙(燒餅)"
+    },
+    {
+     "name": "주먹밥(飯糰)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "화롄 花蓮市에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 단빙(蛋餅), 사오빙(燒餅), 주먹밥(飯糰) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJzwxnwbifaDQRsxiVeScx_jE",
+    "rating": 4.3,
+    "reviews": 706
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "42": {
+   "name_zh": "阿裕牛肉涮涮鍋(崑崙店)",
+   "address_zh": "717臺南市仁德區上崙里崑崙路733-1號",
+   "address_en": "717 대만 Tainan City, Rende District, Shanglun Village, Kunlun Rd, 733-1號阿裕牛肉涮涮鍋(崑崙店)",
+   "hours_summary": [
+    "수~일 오전 10:00~오후 2:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "러우짜오판(肉燥飯)"
+    },
+    {
+     "name": "소고기탕(牛肉湯)"
+    },
+    {
+     "name": "牛肉丸"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 仁德區에 있는 샤브샤브 전문점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 러우짜오판(肉燥飯), 소고기탕(牛肉湯), 牛肉丸 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJz6N8OQlzbjQRwwtEcVi8ZTo",
+    "rating": 4.2,
+    "reviews": 11158
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "43": {
+   "name_zh": "歐絢ocean餐酒館｜小琉球餐酒館｜最美夕陽餐廳",
+   "address_zh": "929屏東縣琉球鄉天福村信義路49-55號",
+   "address_en": "49-55號 OCEAN歐絢, Xinyi Rd, Tianfu Village, Liuqiu Township, Pingtung County, 대만 929",
+   "hours_summary": [
+    "매일 오후 3:00~10:50"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "리소토(燉飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "핑둥 琉球鄉에 있는 아메리칸 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 리소토(燉飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJeb9JPwDvcTQR3wMOYmUvEu8",
+    "rating": 4.7,
+    "reviews": 842
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "44": {
    "name_zh": "橘色涮涮屋一館",
    "address_zh": "106臺北市大安區仁愛里大安路一段135號B1",
@@ -276,6 +922,32 @@
    },
    "checked_at": "2026-11-11",
    "method": "manual"
+  },
+  "50": {
+   "name_zh": "十分寶桂臭豆腐Shifen stinky tofu",
+   "address_zh": "226新北市平溪區十分老街上",
+   "address_en": "226 대만 New Taipei City, Pingxi District, 十分老街上十分寶桂臭豆腐Shifen stinky tofu",
+   "hours_summary": [
+    "매일 오전 11:00~오후 6:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "酥脆"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "신베이 平溪區에 있는 델리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 酥脆 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJW7KZbjVRXTQR8UhMsrWV8U8",
+    "rating": 4.9,
+    "reviews": 856
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
   },
   "51": {
    "name_zh": "周照子台灣鐵板清粥小菜 - 西門店",
@@ -913,6 +1585,39 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "70": {
+   "name_zh": "鳳姐鴨肉飯",
+   "address_zh": "700臺南市中西區兌悅里民族路三段190號",
+   "address_en": "700 대만 Tainan City, West Central District, Duiyue Village, Section 3, Minzu Rd, 190號鳳姐鴨肉飯",
+   "hours_summary": [
+    "월~화 오전 10:00~오후 2:30",
+    "금~일 오전 10:00~오후 2:30"
+   ],
+   "closed_days": "수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "筍乾"
+    },
+    {
+     "name": "조림 달걀(滷蛋)"
+    },
+    {
+     "name": "油封鴨腿"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 냉육 슬라이스 전문점이에요. 구글 지도 기준 수요일, 목요일은 쉬어요. 구글 리뷰에서는 筍乾, 조림 달걀(滷蛋), 油封鴨腿 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ5_p1U2F2bjQRwdWm07PRMM0",
+    "rating": 4.2,
+    "reviews": 3010
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "71": {
    "name_zh": "餃落 Dumpling Corner（湯包蒸餃、拌麵、雞湯）",
    "address_zh": "108臺北市萬華區仁德里廣州街79號",
@@ -1113,6 +1818,128 @@
     "place_id": "ChIJe5V5dnypQjQR0CAmylk_Y0E",
     "rating": 4.1,
     "reviews": 813
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "77": {
+   "name_zh": "美萍小吃",
+   "address_zh": "224新北市瑞芳區龍安里明燈路三段116號",
+   "address_en": "224 대만 New Taipei City, Ruifang District, Long'an Village, Section 3, Mingdeng Rd, 116號美萍小吃",
+   "hours_summary": [
+    "매일 오전 10:00~오후 7:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "볶음면(炒麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "신베이 瑞芳區에 있는 중국 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 볶음밥(炒飯), 볶음면(炒麵) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJd-noKBRPXTQRAVCY3xhqQws",
+    "rating": 4.5,
+    "reviews": 76
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "78": {
+   "name_zh": "正隆羊肉湯",
+   "address_zh": "260宜蘭縣宜蘭市復興里健康路二段18號",
+   "address_en": "260 대만 Yilan County, Yilan City, Fuxing Village, Section 2, Jiankang Rd, 18號正隆羊肉湯",
+   "hours_summary": [
+    "화~일 오전 11:30~오후 2:00, 오후 5:00~8:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "양갈비(羊排)"
+    },
+    {
+     "name": "루러우판(滷肉飯)"
+    },
+    {
+     "name": "阿寇波當歸羊肉湯"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "이란 宜蘭市에 있는 대만 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 양갈비(羊排), 루러우판(滷肉飯), 阿寇波當歸羊肉湯 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJcSR6X-jkZzQRY562cBosuEI",
+    "rating": 4.3,
+    "reviews": 992
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "79": {
+   "name_zh": "番割田甕缸雞",
+   "address_zh": "270宜蘭縣蘇澳鎮里海山西路309號",
+   "address_en": "270 대만 Yilan County, Su'ao Township, 里海山西路309號番割田甕缸雞",
+   "hours_summary": [
+    "월~금 오전 11:00~오후 3:30, 오후 4:30~8:00",
+    "토~일 오전 11:00~오후 3:00, 오후 4:00~8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "죽순(竹筍)"
+    },
+    {
+     "name": "두부튀김(炸豆腐)"
+    },
+    {
+     "name": "취두부(臭豆腐)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "이란 蘇澳鎮에 있는 닭요리전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 죽순(竹筍), 두부튀김(炸豆腐), 취두부(臭豆腐) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJdVsfQuflZzQRlWfDZPApBDw",
+    "rating": 4.3,
+    "reviews": 10487
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "80": {
+   "name_zh": "吉姆老爹啤酒工場 Jim & Dad's Brewing Company",
+   "address_zh": "264宜蘭縣員山鄉蓁巷村員山路二段411號",
+   "address_en": "吉姆老爹啤酒工場 Jim & Dad's Brewing Company, No. 411號, Section 2, Yuanshan Rd, Zhenxiang Village, Yuanshan Township, Yilan County, 대만 264",
+   "hours_summary": [
+    "월 오전 11:00~오후 6:00",
+    "수~금 오전 11:00~오후 6:00",
+    "토~일 오전 10:00~오후 6:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "蘆筍"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "이란 員山鄉에 있는 양조장이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 蘆筍 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJjQXt69DjZzQRihKmNwzqs_0",
+    "rating": 4.3,
+    "reviews": 1713
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -1596,6 +2423,28 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "95": {
+   "name_zh": "上揚菸酒專賣店",
+   "address_zh": "970花蓮縣花蓮市國富里富祥街99號",
+   "address_en": "970 대만 Hualien County, Hualien City, Guofu Village, Fuxiang St, 99號上揚菸酒專賣店",
+   "hours_summary": [
+    "월~토 오전 10:00~오후 10:00"
+   ],
+   "closed_days": "일요일",
+   "mrt": null,
+   "menu": [],
+   "menu_source": "",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "화롄 花蓮市에 있는 주류 전매예요. 구글 지도 기준 일요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJiarxLq6faDQRgHw5pyVurrc",
+    "rating": 4.5,
+    "reviews": 96
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "96": {
    "name_zh": "佳德鳳梨酥",
    "address_zh": "105臺北市松山區吉祥里南京東路五段88號",
@@ -1684,6 +2533,32 @@
     "place_id": "ChIJvewcuAypQjQReltJxsaWCH8",
     "rating": 4.4,
     "reviews": 216
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "99": {
+   "name_zh": "礁溪四季溫泉(無預約服務)",
+   "address_zh": "262宜蘭縣礁溪鄉忠孝路1巷",
+   "address_en": "Jiaoxi Four Seasons Hot Spring, Lane 1, Zhongxiao Rd, Jiaoxi Township, Yilan County, 대만 262",
+   "hours_summary": [
+    "매일 오전 7:00~오전 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "沐浴乳"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "이란 礁溪鄉에 있는 당일치기 온천이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 沐浴乳 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJBzZkmKj7ZzQRQY6rdOdEk-k",
+    "rating": 4.6,
+    "reviews": 2616
    },
    "method": "auto",
    "checked_at": "2026-11-11"
