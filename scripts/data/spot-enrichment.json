@@ -6853,19 +6853,19 @@
    "mrt": null,
    "menu": [
     {
-     "name": "커피(咖啡)"
+     "name": "초콜릿 생식빵(巧克力生吐司)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$400 이하 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$1-400",
-   "intro": "타이중 梧棲區에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 커피(咖啡) 등이 자주 언급돼요.",
+   "intro": "타이중 우치구의 초콜릿 생식빵 가게로, 매일 오전 8시부터 밤 8시까지 열어요. 구글 리뷰 주제 정보는 적은 편이에요.",
    "google": {
     "place_id": "ChIJe3YdYQAVaTQRUIz7ny9-5b4",
     "rating": 4.3,
     "reviews": 83
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "300": {
@@ -6884,25 +6884,25 @@
    },
    "menu": [
     {
-     "name": "蔥花麵包"
+     "name": "파빵(蔥花麵包)"
     },
     {
      "name": "단황수(蛋黃酥)"
     },
     {
-     "name": "菠蘿麵包"
+     "name": "소보로빵(菠蘿麵包)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$800-1000",
-   "intro": "타이중 南屯區에 있는 제과점이에요. 文心森林公園站에서 직선 약 300m 거리예요. 구글 지도 기준 월요일, 일요일은 쉬어요. 구글 리뷰에서는 蔥花麵包, 단황수(蛋黃酥), 菠蘿麵包 등이 자주 언급돼요.",
+   "intro": "타이중 난툰구 원신삼림공원역 근처의 빵집으로, 화~토요일 오후 3시 30분부터 4시 30분까지 한 시간만 열어요. 가게 이름에 적힌 대로 현장 구매만 받고 송금 요청은 사기예요. 리뷰에서는 파빵과 긴 줄이 자주 언급돼요.",
    "google": {
     "place_id": "ChIJXfB8cL49aTQR_qssfDCDm70",
     "rating": 4.4,
     "reviews": 1027
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "301": {
@@ -6917,19 +6917,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "雞腿肉"
+     "name": "옌수이지(鹽水雞)"
+    },
+    {
+     "name": "닭다리살(雞腿肉)"
+    },
+    {
+     "name": "양배추(高麗菜)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 南屯區에 있는 호커 가판대예요. 구글 지도 기준 수요일, 목요일은 쉬어요. 구글 리뷰에서는 雞腿肉 등이 자주 언급돼요.",
+   "intro": "타이중 난툰구의 옌수이지(소금물 닭) 노점으로, 수·목요일은 쉬고 오후 4시 30분부터 열어요. 가게 소개대로 직접 삶은 반찬과 닭고기를 내고, 리뷰에서는 레몬 양념과 LINE 주문이 언급돼요.",
    "google": {
     "place_id": "ChIJAaVVNLs9aTQRya1XMTxs5Ac",
     "rating": 4.1,
     "reviews": 146
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "302": {
@@ -6943,25 +6949,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "刀削麵"
+     "name": "도삭면(刀削麵)"
     },
     {
-     "name": "紅燒牛肉"
+     "name": "훙사오 우육면(紅燒牛肉)"
     },
     {
-     "name": "頰肉"
+     "name": "단단면(擔擔麵)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 西區에 있는 중국 국수류 전문점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 刀削麵, 紅燒牛肉, 頰肉 등이 자주 언급돼요.",
+   "intro": "타이중 시구 친메이 근처의 면 가게로, 월·화요일은 쉬어요. 리뷰에서는 도삭면과 훙사오 소고기, 소 볼살, 반숙 달걀이 자주 나와요.",
    "google": {
     "place_id": "ChIJQ-2cHVc9aTQRFmmTIsIkgXw",
     "rating": 4.8,
     "reviews": 585
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "303": {
@@ -6984,22 +6990,22 @@
      "name": "리소토(燉飯)"
     },
     {
-     "name": "墨魚"
+     "name": "오징어먹물 파스타(墨魚)"
     },
     {
-     "name": "冰沙"
+     "name": "티라미수(提拉米蘇)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$400-600",
-   "intro": "타이중 西區에 있는 파스타 가게예요. 水安宮站에서 직선 약 1050m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 리소토(燉飯), 墨魚, 冰沙 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 파스타 카페로, 월요일은 쉬어요. 가게 이름에 적힌 대로 평일 17:20, 주말 19:20에 주문을 마감하고 현금만 받아요. 리뷰에서는 리소토가 가장 많이 언급돼요.",
    "google": {
     "place_id": "ChIJg1fNSZY9aTQRtI4pf1rECos",
     "rating": 4.7,
     "reviews": 814
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "304": {
@@ -7013,25 +7019,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "帝王蟹"
+     "name": "죽(粥)"
     },
     {
-     "name": "茶碗蒸"
+     "name": "킹크랩(帝王蟹)"
     },
     {
-     "name": "鮭魚親子丼"
+     "name": "전채(前菜)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$2000+",
-   "intro": "타이중 西區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 帝王蟹, 茶碗蒸, 鮭魚親子丼 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 와규 전골 가게로, 매일 점심·저녁에 열어요. 리뷰에서는 마무리 죽과 킹크랩, 전채, 차완무시가 자주 나와요.",
    "google": {
     "place_id": "ChIJ5aM665s9aTQRPaSWbokV_bg",
     "rating": 4.9,
     "reviews": 9827
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "305": {
@@ -7050,19 +7056,22 @@
    },
    "menu": [
     {
-     "name": "乳酪蛋糕"
+     "name": "치즈케이크(乳酪蛋糕)"
+    },
+    {
+     "name": "말차 디저트(抹茶)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 南屯區에 있는 초콜릿 전문점이에요. 文心森林公園站에서 직선 약 1100m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 乳酪蛋糕 등이 자주 언급돼요.",
+   "intro": "타이중 난툰구의 초콜릿 가게로, 매일 오전 11시 30분부터 밤 8시 30분까지 열어요. 리뷰에서는 편한 공간과 치즈케이크가 언급돼요.",
    "google": {
     "place_id": "ChIJb2CAt8U9aTQRqF8sBLg20Ic",
     "rating": 4.4,
     "reviews": 227
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "307": {
@@ -7083,19 +7092,19 @@
      "name": "스테이크(牛排)"
     },
     {
-     "name": "伊比利豬"
+     "name": "필레 스테이크(菲力)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$400-600",
-   "intro": "타이중 北屯區에 있는 아메리칸 레스토랑이에요. 구글 지도 기준 목요일은 쉬어요. 구글 리뷰에서는 리소토(燉飯), 스테이크(牛排), 伊比利豬 등이 자주 언급돼요.",
+   "intro": "타이중 베이툰구의 아메리칸 레스토랑 겸 맥주집으로, 목요일은 쉬어요. 가게 소개에 따르면 음식·술·편한 분위기를 내세우고, 리뷰에서는 리소토와 스테이크, 모임이 자주 언급돼요.",
    "google": {
     "place_id": "ChIJcWLR66gZaTQRo66QnFIet-c",
     "rating": 4.8,
     "reviews": 2501
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "308": {
@@ -7115,25 +7124,25 @@
    },
    "menu": [
     {
-     "name": "돈가스(豬排)"
+     "name": "돈가스 정식(豬排)"
     },
     {
-     "name": "白肉"
+     "name": "안심 돈가스(腰)"
     },
     {
-     "name": "蓋飯"
+     "name": "양배추(高麗菜)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 北屯區에 있는 일본 음식점이에요. 四維國小站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 돈가스(豬排), 白肉, 蓋飯 등이 자주 언급돼요.",
+   "intro": "타이중 베이툰구 쓰웨이궈샤오역 근처의 일본 정식 가게예요. 가게 소개에 따르면 고시히카리 쌀과 대만산 양배추를 쓰고, 리뷰에서는 리필 반찬과 돈가스, 구즈키리가 자주 나와요.",
    "google": {
     "place_id": "ChIJ3YAl1ucXaTQRvM0blunqEic",
     "rating": 4.4,
     "reviews": 2142
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "309": {
@@ -7153,25 +7162,25 @@
    },
    "menu": [
     {
+     "name": "스키야키(壽喜燒)"
+    },
+    {
      "name": "바지락(蛤蜊)"
     },
     {
-     "name": "干貝"
-    },
-    {
-     "name": "牛奶鍋"
+     "name": "관자(干貝)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 北屯區에 있는 스키야끼/샤브샤브 전문식당이에요. 舊社站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 바지락(蛤蜊), 干貝, 牛奶鍋 등이 자주 언급돼요.",
+   "intro": "타이중 베이툰구 주서역 근처의 간토식 스키야키 가게로, 매일 열어요. 리뷰에서는 바지락과 셀프바, 관자, 마블링 소고기가 언급돼요.",
    "google": {
     "place_id": "ChIJpQOzZvwXaTQRj-fvgoQZppE",
     "rating": 4.6,
     "reviews": 3517
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "310": {
@@ -7186,19 +7195,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "一口香腸"
+     "name": "버섯 훠궈(火鍋)"
+    },
+    {
+     "name": "피망절임 닭탕(剝皮辣椒)"
+    },
+    {
+     "name": "흰목이(白木耳)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$400-600",
-   "intro": "타이중 新社區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 一口香腸 등이 자주 언급돼요.",
+   "intro": "타이중 신서구의 버섯 테마 훠궈 레스토랑이에요. 가게 소개에 따르면 2006년 신서에서 시작했고, 리뷰에서는 피망절임 닭탕과 미쉐린 빕구르망, 노루궁뎅이버섯이 자주 나와요.",
    "google": {
     "place_id": "ChIJd3RguzUZaTQRtgmNdlkniuE",
     "rating": 4.3,
     "reviews": 3838
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "311": {
@@ -7210,25 +7225,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "香蕉油炸餅"
+     "name": "과일 샐러드(水果沙拉)"
     },
     {
-     "name": "綠咖哩"
+     "name": "필레 스테이크(菲力)"
     },
     {
-     "name": "紅酒燉牛肉"
+     "name": "크루아상(可頌)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 大里區에 있는 브런치 식당이에요. 구글 리뷰에서는 香蕉油炸餅, 綠咖哩, 紅酒燉牛肉 등이 자주 언급돼요.",
+   "intro": "타이중 다리구의 철판요리 브런치 가게예요. 리뷰에서는 과일 샐러드와 필레 스테이크, 바나나 튀김빵, 크루아상이 자주 나와요. 영업시간은 구글에서 확인이 필요해요.",
    "google": {
     "place_id": "ChIJybcaWLk8aTQRT4TMHOL074M",
     "rating": 4.8,
     "reviews": 5811
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "312": {
@@ -7250,22 +7265,22 @@
      "name": "통닭구이(桶仔雞)"
     },
     {
-     "name": "豬油拌飯"
+     "name": "오리 요리(小嘯鴨)"
     },
     {
-     "name": "薑絲大腸"
+     "name": "라드 비빔밥(豬油拌飯)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$600-800",
-   "intro": "타이중 北屯區에 있는 북경 요리 전문 식당이에요. 四維國小站에서 직선 약 650m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 통닭구이(桶仔雞), 豬油拌飯, 薑絲大腸 등이 자주 언급돼요.",
+   "intro": "타이중 베이툰구의 옛날식 대만 요리 식당으로, 가게 소개에 따르면 전통 삼합원 건물이에요. 리뷰에서는 통닭구이와 잔칫상 요리, 미쉐린 빕구르망 이야기가 자주 나와요.",
    "google": {
     "place_id": "ChIJDeBxG6QXaTQRZwtN1DqaVhs",
     "rating": 4.7,
     "reviews": 4447
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "313": {
@@ -7280,25 +7295,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "下午茶"
+     "name": "팔미에(蝴蝶酥)"
     },
     {
-     "name": "蝴蝶酥"
+     "name": "수제 쿠키(手工餅乾)"
     },
     {
-     "name": "面子"
+     "name": "금박 단황수(金箔蛋黃酥)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 쿠키 가게예요. 구글 지도 기준 화요일, 일요일은 쉬어요. 구글 리뷰에서는 下午茶, 蝴蝶酥, 面子 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 일본풍 과자점으로, 화·일요일은 쉬어요. 가게 소개에 따르면 2022년에 시작했고 보자기 포장 선물 상자가 특징이에요.",
    "google": {
     "place_id": "ChIJr8lygPc9aTQRsjb_yyU09IQ",
     "rating": 4.8,
     "reviews": 355
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "314": {
@@ -7318,25 +7333,25 @@
    },
    "menu": [
     {
-     "name": "牛肉丸"
+     "name": "사차 훠궈(沙茶火鍋)"
     },
     {
-     "name": "凍豆腐"
+     "name": "소고기 완자(牛肉丸)"
     },
     {
-     "name": "燕餃"
+     "name": "언두부(凍豆腐)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 中區에 있는 핫팟 레스토랑이에요. 臺鐵臺中車站에서 직선 약 250m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 牛肉丸, 凍豆腐, 燕餃 등이 자주 언급돼요.",
+   "intro": "타이중역 근처의 사차 훠궈 가게로, 월요일은 쉬고 오후 4시 30분에 열어요. 리뷰에서는 소고기 완자와 마블링 소고기, 언두부, 제비 만두가 언급돼요.",
    "google": {
     "place_id": "ChIJaX5AgBM9aTQRkogIgkNrlWE",
     "rating": 4.4,
     "reviews": 2924
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "316": {
@@ -7353,25 +7368,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "烤餅"
+     "name": "인도 세트(套餐)"
     },
     {
-     "name": "米布丁"
+     "name": "난(烤餅)"
     },
     {
-     "name": "肉桂"
+     "name": "라이스 푸딩(米布丁)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$400~800 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$400-800",
-   "intro": "타이중 西區에 있는 인도 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 烤餅, 米布丁, 肉桂 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 인도 레스토랑으로, 월요일은 쉬어요. 가게 이름처럼 2005년부터 영업했고, 리뷰에서는 세트 메뉴와 난, 라이스 푸딩, 달 커리가 자주 나와요.",
    "google": {
     "place_id": "ChIJMy863Zk9aTQRGhMJO6o9_WA",
     "rating": 4.8,
     "reviews": 1600
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "317": {
@@ -7393,22 +7408,22 @@
      "name": "스테이크(牛排)"
     },
     {
-     "name": "牛肉丸"
+     "name": "미트볼(肉丸子)"
     },
     {
-     "name": "小龍蝦"
+     "name": "가재 요리(小龍蝦)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 南屯區에 있는 콘티넨털 레스토랑이에요. 文心森林公園站에서 직선 약 450m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 스테이크(牛排), 牛肉丸, 小龍蝦 등이 자주 언급돼요.",
+   "intro": "타이중 이케아 안의 스웨덴 레스토랑으로, 매일 오전 9시부터 밤 9시 30분까지 열어요. 리뷰에서는 스테이크와 미트볼, 가재, 해시브라운이 언급돼요.",
    "google": {
     "place_id": "ChIJq8RGa6Y9aTQR-6_FZ6ngKIA",
     "rating": 4.4,
     "reviews": 6240
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "318": {
@@ -7425,25 +7440,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "拉茶"
+     "name": "짜이(拉茶)"
     },
     {
-     "name": "烤餅"
+     "name": "난(烤餅)"
     },
     {
      "name": "양갈비(羊排)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西屯區에 있는 인도 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 拉茶, 烤餅, 양갈비(羊排) 등이 자주 언급돼요.",
+   "intro": "타이중 시툰구의 인도 레스토랑으로, 매일 점심·저녁에 열어요. 리뷰에서는 밀크티 짜이와 난, 양갈비가 자주 나오고 미쉐린 빕구르망 이야기도 있어요.",
    "google": {
     "place_id": "ChIJzV5RmfE9aTQR9lqs3kDhYbs",
     "rating": 4.8,
     "reviews": 6172
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "319": {
@@ -7465,22 +7480,22 @@
      "name": "볶음밥(炒飯)"
     },
     {
-     "name": "烤串"
+     "name": "명란구이(明太子)"
     },
     {
-     "name": "燒烤"
+     "name": "꼬치구이(烤串)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 東區에 있는 일본 음식점이에요. 臺鐵臺中車站에서 직선 약 1150m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 볶음밥(炒飯), 烤串, 燒烤 등이 자주 언급돼요.",
+   "intro": "타이중 둥구의 야식 이자카야로, 매일 오후 5시부터 자정까지 열어요. 가게 이름에 적힌 대로 당일 예약은 받지 않고, 리뷰에서는 볶음밥과 명란, 꼬치구이가 자주 나와요.",
    "google": {
     "place_id": "ChIJdZcfTVo9aTQRnnY6GAt0gTo",
     "rating": 4.9,
     "reviews": 2164
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "320": {
@@ -7499,16 +7514,16 @@
      "name": "리소토(燉飯)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 南屯區에 있는 커피숍/커피 전문점이에요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 리소토(燉飯) 등이 자주 언급돼요.",
+   "intro": "타이중 난툰구의 유기견 입양 카페로, 수요일은 쉬고 반려견 동반이 돼요. 가게 안내에 따르면 고양이 동반은 안 되고 90분 제한, 1인 1주문이에요. 리뷰에서는 입양과 동물 이야기가 가장 많아요.",
    "google": {
     "place_id": "ChIJZ4Oga909aTQR8BQwob10qcM",
     "rating": 4.5,
     "reviews": 2977
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "321": {
@@ -7526,22 +7541,22 @@
      "name": "랍스터(龍蝦)"
     },
     {
-     "name": "酥皮"
+     "name": "파이 수프(酥皮)"
     },
     {
-     "name": "족발(豬腳)"
+     "name": "족발 요리(豬腳)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$2000+",
-   "intro": "타이중 西區에 있는 프랑스 음식점이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 랍스터(龍蝦), 酥皮, 족발(豬腳) 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 프랑스 레스토랑으로, 화요일은 쉬어요. 가게 소개에 따르면 캐비아, 트러플, 이베리코 햄, 와규, 보스턴 랍스터 같은 재료를 쓰고, 리뷰에서는 랍스터와 파이 수프가 언급돼요.",
    "google": {
     "place_id": "ChIJ45TwvaQ9aTQRSoc3ce4VgCM",
     "rating": 4.5,
     "reviews": 2958
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "322": {
@@ -7561,22 +7576,25 @@
    },
    "menu": [
     {
-     "name": "戚風蛋糕"
+     "name": "크루아상(可頌)"
     },
     {
-     "name": "生乳"
+     "name": "슈크림(泡芙)"
+    },
+    {
+     "name": "밀크레프(千層)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$1-200",
-   "intro": "타이중 東區에 있는 제과점이에요. 臺鐵臺中車站에서 직선 약 800m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 戚風蛋糕, 生乳 등이 자주 언급돼요.",
+   "intro": "타이중 라라포트 안의 빵집으로, 가게 소개대로 속을 채운 슈크림과 빵, 케이크를 팔아요. 리뷰에서는 크루아상과 슈크림, 긴 줄이 자주 언급돼요.",
    "google": {
     "place_id": "ChIJ4yPJ-iA9aTQRuLEBZ8nsruQ",
     "rating": 4.8,
     "reviews": 3927
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "324": {
@@ -7588,25 +7606,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "塔皮"
+     "name": "밀크레프(千層)"
     },
     {
-     "name": "下午茶"
+     "name": "무스 케이크(慕斯)"
     },
     {
-     "name": "타로 페이스트(芋泥)"
+     "name": "시폰 케이크(戚風)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 디저트 전문점이에요. 구글 리뷰에서는 塔皮, 下午茶, 타로 페이스트(芋泥) 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 타르트·디저트 가게예요. 가게 이름에 적힌 대로 매장 식사와 예약 수령은 오후 6시까지이고, 리뷰에서는 밀크레프가 가장 많이 언급돼요.",
    "google": {
     "place_id": "ChIJs2rcstA9aTQRalGotkstDw4",
     "rating": 4.3,
     "reviews": 1281
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "325": {
@@ -7621,25 +7639,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "紅蘿蔔蛋糕"
+     "name": "당근 케이크(紅蘿蔔蛋糕)"
     },
     {
-     "name": "杯子蛋糕"
+     "name": "컵케이크(杯子蛋糕)"
     },
     {
      "name": "시나몬롤(肉桂捲)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 디저트 전문점이에요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 紅蘿蔔蛋糕, 杯子蛋糕, 시나몬롤(肉桂捲) 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 미국식 베이커리로, 화·수요일은 쉬어요. 리뷰에서는 당근 케이크와 컵케이크, 시나몬롤, 레드벨벳, 애플파이가 자주 나와요.",
    "google": {
     "place_id": "ChIJbX9556Y9aTQR_dXgC7mtqFY",
     "rating": 4.6,
     "reviews": 1492
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "326": {
@@ -7657,22 +7675,22 @@
      "name": "푸딩(布丁)"
     },
     {
-     "name": "草莓蛋糕"
+     "name": "과일 케이크(水果)"
     },
     {
-     "name": "焙茶"
+     "name": "딸기 케이크(草莓蛋糕)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 패스트리 판매점이에요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 푸딩(布丁), 草莓蛋糕, 焙茶 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 작은 디저트 가게로, 화·수요일은 쉬어요. 가게 소개에 따르면 날마다 나오는 케이크가 다르고 계절 케이크도 있어요. 리뷰에서는 푸딩이 가장 많이 언급돼요.",
    "google": {
     "place_id": "ChIJY-xD1J89aTQRNwlB8QYHs6Q",
     "rating": 4.2,
     "reviews": 666
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "327": {
@@ -7692,25 +7710,25 @@
    },
    "menu": [
     {
-     "name": "月餅"
+     "name": "월병(月餅)"
     },
     {
-     "name": "綠豆椪"
+     "name": "경단(糰子)"
     },
     {
-     "name": "綠豆沙"
+     "name": "녹두빙(綠豆椪)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 東區에 있는 패스트리 판매점이에요. 臺鐵臺中車站에서 직선 약 800m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 月餅, 綠豆椪, 綠豆沙 등이 자주 언급돼요.",
+   "intro": "타이중 라라포트 안의 과자점 플래그십 매장이에요. 가게 소개에 따르면 백 년 제과 배경을 바탕으로 녹두빙 같은 중국식 과자를 새롭게 만들어요.",
    "google": {
     "place_id": "ChIJgwFFdAo9aTQRGzLEW8kZuj4",
     "rating": 4.7,
     "reviews": 805
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "328": {
@@ -7728,22 +7746,22 @@
      "name": "밀크티(奶茶)"
     },
     {
-     "name": "里肌肉"
+     "name": "마요네즈 토스트(美乃滋)"
     },
     {
-     "name": "두유(豆漿)"
+     "name": "등심 버거(里肌肉)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 北區에 있는 아침식사 전문 식당이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 밀크티(奶茶), 里肌肉, 두유(豆漿) 등이 자주 언급돼요.",
+   "intro": "타이중 베이구의 아침 가게 창업 매장으로, 월요일은 쉬고 새벽 4시 30분에 열어요. 가게 안내에 따르면 바쁠 때는 전화를 받지 못하고, 리뷰에서는 밀크티와 마요네즈 메뉴가 자주 나와요.",
    "google": {
     "place_id": "ChIJXVj92oI9aTQRNf0P3KCS9rI",
     "rating": 4.4,
     "reviews": 8876
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "329": {
@@ -7759,25 +7777,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "烤餅"
+     "name": "난(烤餅)"
     },
     {
-     "name": "통닭구이(烤雞)"
+     "name": "탄두리 치킨(烤雞)"
     },
     {
-     "name": "밀크티(奶茶)"
+     "name": "짜이(奶茶)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$400-600",
-   "intro": "타이중 西區에 있는 인도 레스토랑이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 烤餅, 통닭구이(烤雞), 밀크티(奶茶) 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 인도 레스토랑으로, 화요일은 쉬어요. 가게 소개에 따르면 인도인 셰프가 요리하고, 리뷰에서는 난과 탄두리 치킨, 밀크티가 자주 나와요.",
    "google": {
     "place_id": "ChIJSXoY5tY9aTQRCqa1wKmo158",
     "rating": 4.9,
     "reviews": 1782
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "330": {
@@ -7796,25 +7814,25 @@
    },
    "menu": [
     {
-     "name": "干貝"
+     "name": "관자(干貝)"
     },
     {
-     "name": "鹹蛋"
+     "name": "세트 메뉴(套餐)"
     },
     {
-     "name": "烤魷魚"
+     "name": "소금 노른자 파스타(鹹蛋)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$600-800",
-   "intro": "타이중 北區에 있는 이탈리아 음식점이에요. 臺鐵臺中車站에서 직선 약 1150m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 干貝, 鹹蛋, 烤魷魚 등이 자주 언급돼요.",
+   "intro": "타이중 베이구의 이탈리안 식당으로, 매일 점심·저녁에 열어요. 리뷰에서는 관자 요리와 세트, 소금 노른자, 수비드 요리가 언급돼요.",
    "google": {
     "place_id": "ChIJ5RZGYJ09aTQRYpHWSIFp4TY",
     "rating": 4.3,
     "reviews": 2205
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "331": {
@@ -7830,25 +7848,25 @@
    "mrt": null,
    "menu": [
     {
+     "name": "나초(多力多滋)"
+    },
+    {
      "name": "스테이크(牛排)"
     },
     {
      "name": "파스타(義大利麵)"
-    },
-    {
-     "name": "볶음밥(炒飯)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 北區에 있는 멕시코 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 스테이크(牛排), 파스타(義大利麵), 볶음밥(炒飯) 등이 자주 언급돼요.",
+   "intro": "타이중 베이구의 멕시칸 레스토랑 겸 펍으로, 자정 넘어서까지 열어요. 가게 소개에 따르면 1985년부터 이어 온 브랜드이고, 리뷰에서는 다트와 테이블 축구, 공연이 언급돼요.",
    "google": {
     "place_id": "ChIJH_dmvWQ9aTQRCalgrRafaSM",
     "rating": 4.2,
     "reviews": 1036
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "332": {
@@ -7867,25 +7885,25 @@
    },
    "menu": [
     {
-     "name": "피단(皮蛋)"
+     "name": "카레(咖哩)"
     },
     {
-     "name": "푸딩(布丁)"
+     "name": "크렘브륄레(布蕾)"
     },
     {
-     "name": "밀크티(奶茶)"
+     "name": "피단 두부(皮蛋)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 中區에 있는 일본식 카레 전문식당이에요. 臺鐵臺中車站에서 직선 약 500m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 피단(皮蛋), 푸딩(布丁), 밀크티(奶茶) 등이 자주 언급돼요.",
+   "intro": "타이중역 근처 청궁루의 카레 가게로, 가게 안내에 따르면 밥은 무한 제공이고 예약은 받지 않으며 수량이 다 팔리면 끝나요. 2017년에 시작했고, 리뷰에서는 크렘브륄레와 피단 두부가 자주 언급돼요.",
    "google": {
     "place_id": "ChIJ2-LcUxM9aTQRGuGPXMbQSwE",
     "rating": 4.4,
     "reviews": 3581
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "333": {
@@ -7908,18 +7926,21 @@
     },
     {
      "name": "태양병(太陽餅)"
+    },
+    {
+     "name": "아이스크림(冰淇淋)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 中區에 있는 과자예요. 臺鐵臺中車站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 펑리수(鳳梨酥), 태양병(太陽餅) 등이 자주 언급돼요.",
+   "intro": "타이중역 옆, 일제강점기 궁하라 안과 건물을 고친 과자·아이스크림 가게예요. 매일 오전 10시부터 밤 9시까지 열고, 리뷰에서는 펑리수와 해리포터 같은 서가 인테리어가 자주 언급돼요.",
    "google": {
     "place_id": "ChIJ-bIJXaeQbjQRBlsPVLME9EY",
     "rating": 4.3,
     "reviews": 32996
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "334": {
@@ -7939,22 +7960,22 @@
    },
    "menu": [
     {
-     "name": "雪酪"
+     "name": "사이펀 커피(真空咖啡機)"
     },
     {
-     "name": "花茶"
+     "name": "셔벗(雪酪)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 東區에 있는 커피숍/커피 전문점이에요. 臺鐵臺中車站에서 직선 약 450m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 雪酪, 花茶 등이 자주 언급돼요.",
+   "intro": "타이중 둥구의 카페로, 매일 오전 10시에 열어요. 가게 소개에 따르면 여러 나라 스페셜티 원두를 직접 볶고 주차장이 있으며, 리뷰에서는 부엉이 장식과 사이펀 커피가 언급돼요.",
    "google": {
     "place_id": "ChIJ3c_w0z89aTQRiM5yRZy888Y",
     "rating": 5,
     "reviews": 1351
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "335": {
@@ -7973,25 +7994,25 @@
    },
    "menu": [
     {
-     "name": "酥皮"
+     "name": "카레(咖哩)"
     },
     {
-     "name": "燉雞"
+     "name": "파이 카레(酥皮)"
     },
     {
-     "name": "烤餅"
+     "name": "닭고기 카레(燉雞)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 東區에 있는 일본식 카레 전문식당이에요. 臺鐵臺中車站에서 직선 약 300m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 酥皮, 燉雞, 烤餅 등이 자주 언급돼요.",
+   "intro": "타이중역 근처 다융제의 카레 전문점으로, 매일 점심·저녁에 열어요. 리뷰에서는 파이 반죽을 덮은 카레와 닭 조림 카레, 화이트와인 카레, 두부튀김이 자주 나와요.",
    "google": {
     "place_id": "ChIJK3t96VQ9aTQRpVAbxiFUExY",
     "rating": 4.4,
     "reviews": 1271
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "336": {
@@ -8006,25 +8027,22 @@
    "mrt": null,
    "menu": [
     {
+     "name": "슈크림(泡芙)"
+    },
+    {
      "name": "푸딩(布丁)"
-    },
-    {
-     "name": "토스트(吐司)"
-    },
-    {
-     "name": "蛋撻"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$1-200",
-   "intro": "타이중 西區에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 푸딩(布丁), 토스트(吐司), 蛋撻 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 빵집으로, 평일은 정오, 주말은 오전 11시에 열어요. 리뷰에서는 슈크림과 푸딩, 두바이 초콜릿 메뉴가 언급돼요.",
    "google": {
     "place_id": "ChIJOWXck6Y9aTQRJUqREsFnNbY",
     "rating": 4.3,
     "reviews": 505
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "337": {
@@ -8047,22 +8065,22 @@
      "name": "푸딩(布丁)"
     },
     {
-     "name": "檸檬咖啡"
+     "name": "레몬 커피(檸檬咖啡)"
     },
     {
-     "name": "磅蛋糕"
+     "name": "스콘(司康)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$1-200",
-   "intro": "타이중 中區에 있는 카페예요. 臺鐵臺中車站에서 직선 약 500m 거리예요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 푸딩(布丁), 檸檬咖啡, 磅蛋糕 등이 자주 언급돼요.",
+   "intro": "타이중 중구 조용한 골목의 카페로, 수요일은 쉬어요. 가게 소개에 따르면 예전에 필름 현상소였던 사진 공간이고, 1인 1음료와 2시간 이용 규칙이 있어요.",
    "google": {
     "place_id": "ChIJVcnPLg09aTQRC35BwVYvEXc",
     "rating": 4.7,
     "reviews": 867
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "338": {
@@ -8076,25 +8094,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "타로 페이스트(芋泥)"
+     "name": "스콘(司康)"
     },
     {
-     "name": "焙茶"
+     "name": "클로티드 크림(鮮奶油)"
     },
     {
-     "name": "夏威夷豆"
+     "name": "잼(果醬)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 西區에 있는 커피용품 판매점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 타로 페이스트(芋泥), 焙茶, 夏威夷豆 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 스콘 전문점으로, 매일 오전 11시부터 저녁 7시까지 열어요. 리뷰에서는 크림과 잼, 타로·호지차 맛 스콘이 언급돼요.",
    "google": {
     "place_id": "ChIJrwayuP89aTQRJlFOxtBUSL0",
     "rating": 4.8,
     "reviews": 269
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "339": {
@@ -8111,22 +8129,22 @@
      "name": "레몬 타르트(檸檬塔)"
     },
     {
-     "name": "塔皮"
+     "name": "스콘(司康)"
     },
     {
-     "name": "蝴蝶酥"
+     "name": "팔미에(蝴蝶酥)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 디저트 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 레몬 타르트(檸檬塔), 塔皮, 蝴蝶酥 등이 자주 언급돼요.",
+   "intro": "타이중 시구 메이춘루의 레몬 타르트 가게예요. 가게 소개에 따르면 장미 모양 레몬 타르트가 대표이고 2025년 타이중 10대 선물 1위를 받았어요. 매장 식사 마지막 주문은 18:00이에요.",
    "google": {
     "place_id": "ChIJG0x7MY09aTQRvzzFYmiNl5o",
     "rating": 4.4,
     "reviews": 1309
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "341": {
@@ -8147,25 +8165,25 @@
    },
    "menu": [
     {
-     "name": "蘋果派"
+     "name": "스콘(司康)"
     },
     {
-     "name": "酸梅湯"
+     "name": "수플레 팬케이크(舒芙蕾)"
     },
     {
-     "name": "팥(紅豆)"
+     "name": "애플파이(蘋果派)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 中區에 있는 디저트 전문점이에요. 臺鐵臺中車站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 蘋果派, 酸梅湯, 팥(紅豆) 등이 자주 언급돼요.",
+   "intro": "타이중역 근처 지광 상권 골목의 스콘 가게로, 가게 소개에 따르면 2022년 1월에 열었어요. 수제 스콘, 수플레, 식초 음료, 스리랑카 홍차, 매실탕을 내요.",
    "google": {
     "place_id": "ChIJX5A5dH49aTQRaClk6QdgYwU",
     "rating": 4.8,
     "reviews": 481
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "342": {
@@ -8184,25 +8202,25 @@
    },
    "menu": [
     {
-     "name": "叉燒飯"
+     "name": "채식 라멘(蔬食拉麵)"
     },
     {
-     "name": "赤福麻糬"
+     "name": "차슈 덮밥(叉燒飯)"
     },
     {
-     "name": "豆皮"
+     "name": "유자 라멘(柚子)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 東區에 있는 일본라면 전문식당이에요. 臺鐵臺中車站에서 직선 약 500m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 叉燒飯, 赤福麻糬, 豆皮 등이 자주 언급돼요.",
+   "intro": "타이중 둥구의 채식 라멘 가게로, 월요일은 쉬고 저녁에만 열어요. 가게 소개에 따르면 비건·락토오보·오신채 제외 메뉴가 있고 예약 없이 현장 대기만 받아요.",
    "google": {
     "place_id": "ChIJL99lTaA9aTQRNpRknK60Igk",
     "rating": 4.5,
     "reviews": 1241
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "343": {
@@ -8216,25 +8234,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "닭탕(雞湯)"
+     "name": "사오주지(燒酒雞)"
     },
     {
-     "name": "鳳梨"
+     "name": "마유지(麻油雞)"
     },
     {
-     "name": "면선(麵線)"
+     "name": "파인애플 여주 닭탕(鳳梨)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$600-800",
-   "intro": "타이중 大雅區에 있는 대만 레스토랑이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 닭탕(雞湯), 鳳梨, 면선(麵線) 등이 자주 언급돼요.",
+   "intro": "타이중 다야구의 술 닭탕 가게로, 월·화요일은 쉬어요. 가게 소개에 따르면 미쉐린 가이드에 4년 연속 올랐고 빕구르망을 2년 연속 받았으며, 매일 새벽 장을 봐서 만들어요.",
    "google": {
     "place_id": "ChIJ68YVnl0WaTQR1Q1MGWg69t4",
     "rating": 4.2,
     "reviews": 826
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "344": {
@@ -8248,25 +8266,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "叉燒飯"
+     "name": "라멘(拉麵)"
     },
     {
-     "name": "溏心蛋"
+     "name": "차슈 덮밥(叉燒飯)"
     },
     {
-     "name": "魚蛋"
+     "name": "반숙 달걀(溏心蛋)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$1-200",
-   "intro": "타이중 西屯區에 있는 일본라면 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 叉燒飯, 溏心蛋, 魚蛋 등이 자주 언급돼요.",
+   "intro": "타이중 시툰구의 심야 라멘 가게로, 매일 저녁 7시부터 새벽 1시 30분까지 열어요. 리뷰에서는 야식과 차슈 덮밥, 반숙 달걀, 긴 줄이 자주 언급돼요.",
    "google": {
     "place_id": "ChIJ_____y4WaTQRjT3f9a43hiA",
     "rating": 4.6,
     "reviews": 3505
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "345": {
@@ -8280,25 +8298,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "말차(抹茶)"
+     "name": "태양병(太陽餅)"
     },
     {
-     "name": "펑리수(鳳梨酥)"
+     "name": "철관음 태양병(鐵觀音)"
     },
     {
-     "name": "단황수(蛋黃酥)"
+     "name": "말차 태양병(抹茶)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西屯區에 있는 제과점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 말차(抹茶), 펑리수(鳳梨酥), 단황수(蛋黃酥) 등이 자주 언급돼요.",
+   "intro": "타이중 시툰구의 태양병 가게로, 매일 오전 8시부터 밤 10시까지 열어요. 가게 소개에 따르면 전국 태양병 대회 5회 연속 우승자 아둥 셰프가 만들어요.",
    "google": {
     "place_id": "ChIJZWqOBxcWaTQR6zVf5yyqRGI",
     "rating": 4.4,
     "reviews": 3313
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "346": {
@@ -8312,25 +8330,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "墨魚"
+     "name": "오징어먹물 파스타(墨魚)"
     },
     {
-     "name": "鹹豬肉"
+     "name": "화덕 피자(窯)"
     },
     {
-     "name": "干貝"
+     "name": "반반 피자(雙拼)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 南屯區에 있는 이탈리아 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 墨魚, 鹹豬肉, 干貝 등이 자주 언급돼요.",
+   "intro": "타이중 난툰구의 이탈리안 비스트로로, 매일 오전 11시 30분부터 밤 9시 30분까지 열어요. 가게 안내에 따르면 마지막 주문은 20:40이고, 리뷰에서는 먹물 파스타와 화덕 피자가 자주 나와요.",
    "google": {
     "place_id": "ChIJ_____-o9aTQRMD9JcAFGC4Q",
     "rating": 4.2,
     "reviews": 4736
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "347": {
@@ -8344,22 +8362,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "燒豬"
+     "name": "한방 마라 훠궈(漢方麻辣火鍋)"
+    },
+    {
+     "name": "새끼 돼지구이(燒豬)"
     },
     {
      "name": "레이차(擂茶)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$800-1000",
-   "intro": "타이중 南屯區에 있는 핫팟 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 燒豬, 레이차(擂茶) 등이 자주 언급돼요.",
+   "intro": "타이중 난툰구 궁이루의 마라 훠궈 가게로, 새벽 3시까지 열어요. 가게 소개에 따르면 한약재로 끓인 마라 육수가 대표이고, 리뷰에서는 불 쇼와 레이차 디저트가 언급돼요.",
    "google": {
     "place_id": "ChIJm12z4CU9aTQR6wLXxYxFAx8",
     "rating": 4.8,
     "reviews": 5469
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "348": {
@@ -8374,18 +8395,24 @@
    "menu": [
     {
      "name": "지러우판(雞肉飯)"
+    },
+    {
+     "name": "오이 요리(黃瓜)"
+    },
+    {
+     "name": "죽순 요리(筍)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 北區에 있는 대만식 가게예요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 지러우판(雞肉飯) 등이 자주 언급돼요.",
+   "intro": "타이중 베이구의 가정식 대만 요리 식당으로, 월·화요일은 쉬어요. 가게 소개에 따르면 2025·2026 미쉐린 가이드에 올랐고 2021년 아시아 50 베스트 레스토랑 'Essence of Asia'로 선정됐어요.",
    "google": {
     "place_id": "ChIJDUAMzww9aTQRSyeTw_Ikw8U",
     "rating": 4.3,
     "reviews": 476
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "349": {
@@ -8405,25 +8432,25 @@
    },
    "menu": [
     {
+     "name": "오리구이(片皮鴨)"
+    },
+    {
      "name": "무떡(蘿蔔糕)"
     },
     {
      "name": "탕위안(湯圓)"
-    },
-    {
-     "name": "燉奶"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 南屯區에 있는 중국 음식점이에요. 水安宮站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 무떡(蘿蔔糕), 탕위안(湯圓), 燉奶 등이 자주 언급돼요.",
+   "intro": "타이중 난툰구 궁이루의 오리구이 중식당 '샹야' 지점이에요. 가게 소개대로 오리구이와 오리 뼈 요리가 주력이고, 리뷰에서는 무떡과 탕위안, 물연꽃 줄기 볶음이 자주 나와요.",
    "google": {
     "place_id": "ChIJxypaa-I9aTQRXpXwdg2xoPA",
     "rating": 4.8,
     "reviews": 18801
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "350": {
@@ -8438,25 +8465,25 @@
    "mrt": null,
    "menu": [
     {
+     "name": "불꽃 거위구이(火焰燒鵝)"
+    },
+    {
      "name": "거위고기(鵝肉)"
     },
     {
-     "name": "통닭구이(烤雞)"
-    },
-    {
-     "name": "오리구이(烤鴨)"
+     "name": "게알 두부(蟹黃豆腐)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 北屯區에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 거위고기(鵝肉), 통닭구이(烤雞), 오리구이(烤鴨) 등이 자주 언급돼요.",
+   "intro": "타이중 베이툰구의 거위구이·대만 요리 식당이에요. 가게 소개에 따르면 불꽃 거위구이가 대표이고 원탁 요리와 개별실, 넓은 무료 주차장이 있어요. 리뷰에서는 단체 모임 이야기가 많아요.",
    "google": {
     "place_id": "ChIJtew5cfkXaTQR3axUP3ST8q8",
     "rating": 4.3,
     "reviews": 3387
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "351": {
@@ -8472,25 +8499,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "下午茶"
+     "name": "애프터눈 티(下午茶)"
+    },
+    {
+     "name": "뽕나무 열매 디저트(桑椹)"
     },
     {
      "name": "면선(麵線)"
-    },
-    {
-     "name": "釜飯"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 新社區에 있는 아시아 퓨전요리 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 下午茶, 면선(麵線), 釜飯 등이 자주 언급돼요.",
+   "intro": "타이중 신서구의 산속 일본식 레스토랑이에요. 가게 안내에 따르면 계절 무메뉴 코스를 내고 애프터눈 티는 평일 15~17시이며, 12세 이하 어린이와 반려동물은 받지 않아요.",
    "google": {
     "place_id": "ChIJ7956UUEZaTQRB6Xb4DT7zH0",
     "rating": 4.2,
     "reviews": 6130
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "352": {
@@ -8504,19 +8531,19 @@
    "mrt": null,
    "menu": [
     {
-     "name": "釜飯"
+     "name": "솥밥(釜飯)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$2000+",
-   "intro": "타이중 新社區에 있는 일본 음식점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 釜飯 등이 자주 언급돼요.",
+   "intro": "타이중 신서구 해발 465m의 일본식 정원 레스토랑으로, 월·화요일은 쉬어요. 가게 소개에 따르면 타이중 최고의 노을 풍경을 내세우고, 리뷰에서는 솥밥과 다도, 야경이 언급돼요.",
    "google": {
     "place_id": "ChIJ0ws8s0YZaTQRXzX0sVSKO9Y",
     "rating": 4.3,
     "reviews": 1581
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "353": {
@@ -8530,25 +8557,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "菠蘿麵包"
+     "name": "소보로빵(菠蘿麵包)"
     },
     {
-     "name": "肉鬆"
+     "name": "러우쑹빵(肉鬆)"
     },
     {
-     "name": "生乳"
+     "name": "생크림빵(生乳)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$1-200",
-   "intro": "타이중 西區에 있는 제과점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 菠蘿麵包, 肉鬆, 生乳 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 빵집으로, 월·화요일은 쉬고 오후 1시부터 6시까지 열어요. 리뷰에서는 소보로빵이 가장 많이 언급되고 러우쑹빵과 연유빵이 뒤를 이어요.",
    "google": {
     "place_id": "ChIJcapE8As9aTQRS5lrplluPNY",
     "rating": 4,
     "reviews": 1226
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "354": {
@@ -8565,22 +8592,22 @@
      "name": "바완(肉圓)"
     },
     {
-     "name": "쭝쯔(肉粽)"
+     "name": "마름 열매(菱角)"
     },
     {
-     "name": "四神湯"
+     "name": "쭝쯔(肉粽)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 豐原區에 있는 야시장이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 바완(肉圓), 쭝쯔(肉粽), 四神湯 등이 자주 언급돼요.",
+   "intro": "타이중 펑위안구 츠지궁 앞의 사원 야시장으로, 매일 오전 10시부터 밤 11시까지 열어요. 리뷰에서는 바완과 삶은 마름 열매, 쭝쯔, 쓰선탕이 자주 나와요.",
    "google": {
     "place_id": "ChIJ0VgPXQ8aaTQR9DNAPyFURZg",
     "rating": 4.2,
     "reviews": 35797
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "355": {
@@ -8600,25 +8627,25 @@
    },
    "menu": [
     {
-     "name": "無錫炸排骨"
+     "name": "우시 갈비 튀김 정식(無錫炸排骨)"
+    },
+    {
+     "name": "명란 파스타(明太子)"
     },
     {
      "name": "닭탕(雞湯)"
-    },
-    {
-     "name": "牛筋"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 西區에 있는 일식당 및 일정식집이에요. 文心森林公園站에서 직선 약 650m 거리예요. 구글 지도 기준 화요일, 수요일은 쉬어요. 구글 리뷰에서는 無錫炸排骨, 닭탕(雞湯), 牛筋 등이 자주 언급돼요.",
+   "intro": "타이중 시구 둥싱루의 20석 작은 식당으로, 화·수요일은 쉬어요. 가게 소개에 따르면 2012년 이탈리안으로 시작해 대만 옛날 가정식 정식을 더해 왔어요.",
    "google": {
     "place_id": "ChIJ7yP_Cus9aTQRKX3a9LMX69M",
     "rating": 4.6,
     "reviews": 373
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "356": {
@@ -8637,7 +8664,7 @@
    },
    "menu": [
     {
-     "name": "泡茶"
+     "name": "대만차(泡茶)"
     },
     {
      "name": "다과(茶點)"
@@ -8646,16 +8673,16 @@
      "name": "장어덮밥(鰻魚飯)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 南屯區에 있는 대만 레스토랑이에요. 水安宮站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 泡茶, 다과(茶點), 장어덮밥(鰻魚飯) 등이 자주 언급돼요.",
+   "intro": "타이중 난툰구의 정원 찻집으로, 매일 오전 10시 30분부터 밤 9시 30분까지 열어요. 가게 소개에 따르면 연못과 잉어 정원이 있는 전통 찻집이고, 대만차와 간단한 식사를 내요.",
    "google": {
     "place_id": "ChIJ8ROWZJY9aTQRmeL20o6VGMw",
     "rating": 4.1,
     "reviews": 3279
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "357": {
@@ -8669,25 +8696,25 @@
    "mrt": null,
    "menu": [
     {
+     "name": "한국식 고기구이 세트(套餐)"
+    },
+    {
      "name": "떡(年糕)"
     },
     {
-     "name": "전(煎餅)"
-    },
-    {
-     "name": "紫米飯"
+     "name": "목살(梅花)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 北區에 있는 한식 고기구이 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 떡(年糕), 전(煎餅), 紫米飯 등이 자주 언급돼요.",
+   "intro": "타이중 베이구의 한국식 고기구이 가게로, 월요일은 쉬고 오후 5시부터 밤 10시까지 열어요. 리뷰에서는 세트 메뉴와 떡, 목살, 전, 깻잎이 언급돼요.",
    "google": {
     "place_id": "ChIJ6QpOomU9aTQRrtZqFtouDag",
     "rating": 4.4,
     "reviews": 1399
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "358": {
@@ -8710,22 +8737,22 @@
      "name": "랍스터(龍蝦)"
     },
     {
-     "name": "和牛"
+     "name": "와규(和牛)"
     },
     {
      "name": "이몐(意麵)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$2000+",
-   "intro": "타이중 西區에 있는 대만식 가게예요. 水安宮站에서 직선 약 800m 거리예요. 구글 지도 기준 월요일, 일요일은 쉬어요. 구글 리뷰에서는 랍스터(龍蝦), 和牛, 이몐(意麵) 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 현대 대만 요리 레스토랑으로, 화~토요일 저녁과 토요일 점심에 열어요. 가게 소개에 따르면 2020~2025년 미쉐린 가이드에 올랐어요.",
    "google": {
     "place_id": "ChIJ2cXnmEQ9aTQRMPmfBR9gw4o",
     "rating": 4.4,
     "reviews": 343
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "359": {
@@ -8741,25 +8768,25 @@
    "mrt": null,
    "menu": [
     {
+     "name": "코스 요리(套餐)"
+    },
+    {
      "name": "닭탕(雞湯)"
     },
     {
      "name": "루러우판(滷肉飯)"
-    },
-    {
-     "name": "오골계(烏骨雞)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$2000+",
-   "intro": "타이중 西區에 있는 고급 음식점이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 닭탕(雞湯), 루러우판(滷肉飯), 오골계(烏骨雞) 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 파인다이닝 레스토랑으로, 월·화요일은 쉬어요. 가게 소개에 따르면 저녁 8코스 3,280대만달러(+10%), 평일 점심 6코스가 있고 와인 페어링과 채식 코스는 미리 요청해야 해요.",
    "google": {
     "place_id": "ChIJX-eo5X49aTQR8Yl4ntpOWrE",
     "rating": 4.5,
     "reviews": 344
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "360": {
@@ -8774,25 +8801,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "海南雞飯"
+     "name": "하이난 치킨라이스(海南雞飯)"
     },
     {
-     "name": "肉骨茶"
+     "name": "바쿠테(肉骨茶)"
     },
     {
-     "name": "鴨肝"
+     "name": "오리 간(鴨肝)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$2000+",
-   "intro": "타이중 南屯區에 있는 싱가포르 레스토랑이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 海南雞飯, 肉骨茶, 鴨肝 등이 자주 언급돼요.",
+   "intro": "타이중 난툰구의 현대 싱가포르 요리 레스토랑으로, 월·화요일은 쉬어요. 리뷰에서는 미쉐린 3스타와 창작 코스, 와인 페어링이 자주 언급돼요.",
    "google": {
     "place_id": "ChIJpzHEAN09aTQRdBlo7PKl7A0",
     "rating": 4.4,
     "reviews": 902
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "361": {
@@ -8811,22 +8838,25 @@
    },
    "menu": [
     {
-     "name": "푸딩(布丁)"
+     "name": "트러플 요리(松露)"
     },
     {
-     "name": "鹹蛋"
+     "name": "무화과 디저트(無花果)"
+    },
+    {
+     "name": "푸딩(布丁)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$600-800",
-   "intro": "타이중 西屯區에 있는 채식 전문식당이에요. 스정푸역 市政府站에서 직선 약 450m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 푸딩(布丁), 鹹蛋 등이 자주 언급돼요.",
+   "intro": "타이중 시툰구 스정푸역 근처의 채식 레스토랑으로, 매일 점심·저녁에 열어요. 가게 안내에 따르면 마지막 주문은 14:00·20:00이고, 리뷰에서는 트러플과 무화과, 푸딩이 자주 나와요.",
    "google": {
     "place_id": "ChIJk76i3I89aTQRVHoew46e2c0",
     "rating": 4.6,
     "reviews": 1639
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "362": {
@@ -8846,25 +8876,25 @@
    },
    "menu": [
     {
-     "name": "煉乳"
+     "name": "베트남 세트(套餐)"
     },
     {
-     "name": "蝦餅"
+     "name": "쌀국수(河粉)"
     },
     {
-     "name": "冰滴咖啡"
+     "name": "연유 커피(煉乳)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 中區에 있는 베트남 음식점이에요. 臺鐵臺中車站에서 직선 약 450m 거리예요. 구글 지도 기준 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 煉乳, 蝦餅, 冰滴咖啡 등이 자주 언급돼요.",
+   "intro": "타이중역 근처의 베트남 음식점으로, 화~목요일은 쉬어요. 가게 소개에 따르면 2011년부터 프랑스 식민지 풍의 베트남 요리를 대만 입맛에 맞춰 내요.",
    "google": {
     "place_id": "ChIJY8a16KY9aTQRy83XTQMjsZ0",
     "rating": 4.2,
     "reviews": 517
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "363": {
@@ -8879,25 +8909,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "味增湯"
+     "name": "가정식 정식(套餐)"
     },
     {
-     "name": "푸딩(布丁)"
+     "name": "미소된장국(味增湯)"
     },
     {
-     "name": "蒸蛋"
+     "name": "달걀찜(蒸蛋)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 西區에 있는 대만식 가게예요. 구글 지도 기준 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 味增湯, 푸딩(布丁), 蒸蛋 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 가정식 정식 가게로, 화~목요일은 쉬어요. 가게 이름처럼 유기농·친환경 식재료를 쓰고 저녁 마지막 주문은 19:00이에요. 리뷰에서는 건강한 채소 반찬이 자주 언급돼요.",
    "google": {
     "place_id": "ChIJUbdoeag9aTQR1e-IU8JuZQU",
     "rating": 4.4,
     "reviews": 302
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "364": {
@@ -8917,25 +8947,25 @@
    },
    "menu": [
     {
+     "name": "취두부(臭豆腐)"
+    },
+    {
      "name": "동과차(冬瓜茶)"
     },
     {
-     "name": "味噌湯"
-    },
-    {
-     "name": "湯和"
+     "name": "미소된장국(味噌湯)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$1-200",
-   "intro": "타이중 東區에 있는 대만 레스토랑이에요. 臺鐵臺中車站에서 직선 약 550m 거리예요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 동과차(冬瓜茶), 味噌湯, 湯和 등이 자주 언급돼요.",
+   "intro": "타이중 둥구의 취두부 가게로, 수요일은 쉬고 오후 3시 30분부터 밤 10시까지 열어요. 리뷰에서는 바삭한 취두부와 동과차, 미소된장국, 김치가 자주 나와요.",
    "google": {
     "place_id": "ChIJF0MA8T09aTQRBfRhO7HqGYE",
     "rating": 4.5,
     "reviews": 2747
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "365": {
@@ -8955,22 +8985,25 @@
    },
    "menu": [
     {
-     "name": "里肌肉"
+     "name": "돈가스(豬排)"
     },
     {
-     "name": "雞塊"
+     "name": "안심 돈가스(腰)"
+    },
+    {
+     "name": "등심 돈가스(里肌肉)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$400-600",
-   "intro": "타이중 東區에 있는 돈까스 전문식당이에요. 臺鐵臺中車站에서 직선 약 650m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 里肌肉, 雞塊 등이 자주 언급돼요.",
+   "intro": "타이중 둥구 쇼타임 쇼핑몰의 돈가스 체인 긴자 안즈 지점으로, 매일 밤 10시까지 열어요. 리뷰에서는 리필 반찬과 안심, 등심, 고시히카리 쌀이 언급돼요.",
    "google": {
     "place_id": "ChIJzc3Zk0A9aTQRWXdt3G8dd7s",
     "rating": 4.2,
     "reviews": 1394
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "366": {
@@ -8984,25 +9017,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "水煮蛋"
+     "name": "수제 파스타(手工義大利麵)"
     },
     {
-     "name": "干貝"
+     "name": "관자 파스타(干貝)"
     },
     {
-     "name": "貝殼麵"
+     "name": "티라미수(提拉米蘇)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 파스타 가게예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 水煮蛋, 干貝, 貝殼麵 등이 자주 언급돼요.",
+   "intro": "타이중 차오우 광장의 이탈리안 레스토랑이에요. 가게 소개에 따르면 오픈 키친에서 수제 파스타를 만들고, 리뷰에서는 관자와 티라미수, 반려동물 동반이 언급돼요.",
    "google": {
     "place_id": "ChIJYb_mUFg9aTQR6tqFw261EBQ",
     "rating": 4.6,
     "reviews": 1740
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "367": {
@@ -9017,18 +9050,21 @@
    "menu": [
     {
      "name": "통닭구이(烤雞)"
+    },
+    {
+     "name": "거위구이(烤鵝)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 后里區에 있는 북경 요리 전문 식당이에요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 통닭구이(烤雞) 등이 자주 언급돼요.",
+   "intro": "타이중 허우리구의 정원 레스토랑으로, 월·화요일은 쉬어요. 가게 안내에 따르면 예약제 단체 원탁 요리만 내고, 10인 무메뉴 원탁이 통닭구이 포함 5,500대만달러, 거위구이 포함 6,500대만달러예요.",
    "google": {
     "place_id": "ChIJ5wrqLggaaTQRacF7b1to9zc",
     "rating": 4.4,
     "reviews": 379
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "368": {
@@ -9040,22 +9076,22 @@
    "mrt": null,
    "menu": [
     {
-     "name": "고기구이(烤肉)"
+     "name": "바비큐(烤肉)"
     },
     {
-     "name": "德國豬腳"
+     "name": "독일식 족발(德國豬腳)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$400-600",
-   "intro": "타이중 后里區에 있는 바베큐장이에요. 구글 리뷰에서는 고기구이(烤肉), 德國豬腳 등이 자주 언급돼요.",
+   "intro": "타이중 허우리구의 전망 카페 겸 리조트예요. 리뷰에서는 산 풍경과 야경, 바비큐, 입장료, 리바오 랜드와 가까운 위치가 자주 언급돼요. 영업시간은 구글에서 확인이 필요해요.",
    "google": {
     "place_id": "ChIJsSkFRQMQaTQRMwghUbFAMq8",
     "rating": 4.1,
     "reviews": 8691
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "369": {
@@ -9070,19 +9106,22 @@
    "mrt": null,
    "menu": [
     {
-     "name": "餅乾"
+     "name": "보스턴 파이(波士頓派)"
+    },
+    {
+     "name": "레몬 보스턴 파이(檸檬)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 豐原區에 있는 케이크 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 餅乾 등이 자주 언급돼요.",
+   "intro": "타이중 펑위안구의 생크림 보스턴 파이 가게예요. 가게 소개에 따르면 유럽 단일 목장 생우유 크림을 쓰고, 가게 이름에 적힌 대로 직접 수령은 미리 전화해야 해요.",
    "google": {
     "place_id": "ChIJpXsW66_iw6sRbtpuqL3NIfk",
     "rating": 5,
     "reviews": 2560
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "370": {
@@ -9102,19 +9141,19 @@
    },
    "menu": [
     {
-     "name": "고기 갱(肉羹)"
+     "name": "표고 러우겅(香菇肉羹)"
     }
    ],
-   "menu_source": "name",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 中區에 있는 델리예요. 臺鐵臺中車站에서 직선 약 300m 거리예요. 구글 지도 기준 화요일은 쉬어요.",
+   "intro": "타이중역 근처 뤼촨의 표고 고기 갱 가게로, 화요일은 쉬고 오전 8시부터 오후 6시까지 열어요. 구글 리뷰 주제 정보는 적은 편이에요.",
    "google": {
     "place_id": "ChIJE92t6hQ9aTQRvcsTmrDHG3I",
     "rating": 4.1,
     "reviews": 3087
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "371": {
@@ -18923,18 +18962,21 @@
    "menu": [
     {
      "name": "라테(拿鐵)"
+    },
+    {
+     "name": "맥주(啤酒)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 카페예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 라테(拿鐵) 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 카페로, 매일 오후 3시부터 밤 11시 55분까지 열어요. 리뷰에서는 정원과 흡연 구역, 라테가 언급돼요.",
    "google": {
     "place_id": "ChIJETEvTZ49aTQRYrx6tlxXOpA",
     "rating": 4.2,
     "reviews": 242
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "731": {
@@ -18947,16 +18989,16 @@
    "closed_days": "일요일",
    "mrt": null,
    "menu": [],
-   "menu_source": "",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 와인 전문점이에요. 구글 지도 기준 일요일은 쉬어요.",
+   "intro": "타이중 시구의 주류 판매점으로, 일요일은 쉬어요. 가게 소개대로 위스키, 와인, 샴페인, 사케, 맥주, 담배, 시가를 팔아요. 식당이 아니라 메뉴 정보는 없어요.",
    "google": {
     "place_id": "ChIJA-ieeWw9aTQRuEwvfmTvYSc",
     "rating": 4.7,
     "reviews": 23
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "732": {
@@ -18968,17 +19010,21 @@
    ],
    "closed_days": "월요일, 화요일",
    "mrt": null,
-   "menu": [],
-   "menu_source": "",
+   "menu": [
+    {
+     "name": "볶음 안주(炒)"
+    }
+   ],
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 라이브 음악 바예요. 구글 지도 기준 월요일, 화요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요.",
+   "intro": "타이중 시구의 라이브 음악 바로, 수~일요일 밤 9시부터 새벽 4시까지 열어요. 가게 안내에 따르면 최소 주문 금액이 평일 400, 주말 600대만달러이고, 리뷰에서는 가수 공연과 밴드가 자주 언급돼요.",
    "google": {
     "place_id": "ChIJaRYrc3U9aTQR_jKCSC2kUZ8",
     "rating": 4.3,
     "reviews": 986
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "733": {
@@ -19594,22 +19640,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "燒烤"
+     "name": "꼬치구이(燒烤)"
     },
     {
-     "name": "銅鑼燒"
+     "name": "필레 꼬치(菲力)"
+    },
+    {
+     "name": "닭고기 요리(雞肉料理)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 꼬치구이 전문식당이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 燒烤, 銅鑼燒 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 숯불 꼬치 이자카야로, 매일 저녁 6시부터 새벽 1시까지 열고 반려동물 동반이 돼요. 가게 소개에 따르면 비장탄으로 굽고, 리뷰에서는 게임 이벤트와 모임이 자주 언급돼요.",
    "google": {
     "place_id": "ChIJw_wAi0s9aTQRkAcZuDiLzDE",
     "rating": 4.9,
     "reviews": 7275
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "754": {
@@ -19961,19 +20010,25 @@
    },
    "menu": [
     {
-     "name": "滷豆腐"
+     "name": "훠궈(火鍋)"
+    },
+    {
+     "name": "쯔란 육수(孜然)"
+    },
+    {
+     "name": "사과 식초 음료(蘋果醋)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$200-400",
-   "intro": "타이중 西區에 있는 핫팟 레스토랑이에요. 水安宮站에서 직선 약 800m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 滷豆腐 등이 자주 언급돼요.",
+   "intro": "타이중 시구 궁이루의 훠궈 체인 지점으로, 새벽 2시까지 열어요. 리뷰에서는 서빙 로봇과 인테리어, 쯔란 육수, 사과 식초 음료가 자주 나와요.",
    "google": {
     "place_id": "ChIJTeBTY5c9aTQRBxv5dLXr4kE",
     "rating": 4.3,
     "reviews": 12529
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "770": {
@@ -20451,22 +20506,22 @@
    "mrt": null,
    "menu": [
     {
-     "name": "蝦米"
+     "name": "면선 갱(麵線糊)"
     },
     {
-     "name": "赤肉"
+     "name": "고기 갱(羹)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "장화 鹿港鎮에 있는 대만 레스토랑이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 蝦米, 赤肉 등이 자주 언급돼요.",
+   "intro": "장화 루강 옛 거리 근처의 면선 갱 가게로, 매일 새벽 6시부터 오후 6시까지 열어요. 리뷰에서는 고수와 고기 갱, 말린 새우, 흑식초가 자주 언급돼요.",
    "google": {
     "place_id": "ChIJa1rZTvxFaTQRMqXvvyHLMVY",
     "rating": 4.2,
     "reviews": 7811
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "786": {
@@ -21044,25 +21099,25 @@
    },
    "menu": [
     {
-     "name": "샤오롱바오(小籠包)"
+     "name": "탕바오(湯包)"
+    },
+    {
+     "name": "트러플 탕바오(松露)"
     },
     {
      "name": "두유(豆漿)"
-    },
-    {
-     "name": "카레(咖哩)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 中區에 있는 북경 요리 전문 식당이에요. 臺鐵臺中車站에서 직선 약 550m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 샤오롱바오(小籠包), 두유(豆漿), 카레(咖哩) 등이 자주 언급돼요.",
+   "intro": "타이중역 근처의 창작 탕바오 가게로, 매일 오전 10시부터 밤 8시까지 열어요. 가게 소개에 따르면 여러 맛의 탕바오와 찐만두, 유판, 훈툰탕, 두유를 내고 비정기 휴무가 있어요.",
    "google": {
     "place_id": "ChIJu7tNdAA9aTQR6Cv2Ep2zM2s",
     "rating": 4.8,
     "reviews": 305
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "805": {
@@ -21084,19 +21139,22 @@
      "name": "펑리수(鳳梨酥)"
     },
     {
-     "name": "愛文芒果"
+     "name": "아이스크림(冰淇淋)"
+    },
+    {
+     "name": "애플망고 아이스크림(愛文芒果)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 中區에 있는 디저트 전문 레스토랑이에요. 臺鐵臺中車站에서 직선 약 400m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 펑리수(鳳梨酥), 愛文芒果 등이 자주 언급돼요.",
+   "intro": "타이중역 근처의 옛 은행 건물을 고친 디저트 가게로, 매일 오전 10시부터 밤 9시까지 열어요. 리뷰에서는 복고풍 인테리어와 금고, 펑리수가 자주 언급돼요.",
    "google": {
     "place_id": "ChIJaenMdRM9aTQRGt9LwGCrXk0",
     "rating": 4.4,
     "reviews": 11183
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "806": {
@@ -22062,25 +22120,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "南瓜派"
+     "name": "호박 파이(南瓜派)"
     },
     {
-     "name": "酥皮"
+     "name": "파이 수프(酥皮)"
     },
     {
      "name": "양갈비(羊排)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$600-800",
-   "intro": "타이중 西區에 있는 이탈리아 음식점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 南瓜派, 酥皮, 양갈비(羊排) 등이 자주 언급돼요.",
+   "intro": "타이중 시구 친메이 근처의 동화풍 이탈리안 식당으로, 매일 오전 11시부터 밤 9시까지 열어요. 리뷰에서는 핼러윈 장식과 호박 파이, 파이 수프가 자주 언급돼요.",
    "google": {
     "place_id": "ChIJdVxZfp49aTQR_C70hy7ojEA",
     "rating": 4.5,
     "reviews": 6132
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "839": {
@@ -22092,19 +22150,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "白茶"
+     "name": "젤라토(冰淇淋)"
+    },
+    {
+     "name": "위스키 젤라토(威士忌)"
+    },
+    {
+     "name": "올리브 젤라토(橄欖)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 아이스크림 가게예요. 구글 리뷰에서는 白茶 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 젤라토 가게로, 가게 소개에 따르면 재료 맛만 남긴 미니멀한 아이스크림을 컵·박스·선물 상자로 팔아요. 리뷰에서는 미쉐린 이야기와 위스키·올리브·사케·비뤄춘 맛이 언급돼요.",
    "google": {
     "place_id": "ChIJwf0giWM9aTQRyfEVFDVAbho",
     "rating": 4.4,
     "reviews": 1111
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "841": {
@@ -26144,25 +26208,25 @@
    },
    "menu": [
     {
+     "name": "야키니쿠(燒肉)"
+    },
+    {
      "name": "연어(鮭魚)"
     },
     {
-     "name": "고등어(鯖魚)"
-    },
-    {
-     "name": "주먹밥(飯糰)"
+     "name": "고등어구이(鯖魚)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$2000+",
-   "intro": "타이중 西區에 있는 야키니쿠 전문식당이에요. 水安宮站에서 직선 약 800m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 연어(鮭魚), 고등어(鯖魚), 주먹밥(飯糰) 등이 자주 언급돼요.",
+   "intro": "타이중 시구 궁이루의 야키니쿠 가게로, 매일 오전 11시부터 새벽 2시까지 열어요. 리뷰에서는 연어와 고등어, 주먹밥, 흑미밥, 빙수가 자주 나와요.",
    "google": {
     "place_id": "ChIJJ6o8Qtg9aTQRdPMUo5sVQYY",
     "rating": 4.7,
     "reviews": 21905
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "972": {
@@ -26176,25 +26240,25 @@
    "mrt": null,
    "menu": [
     {
+     "name": "명란 요리(明太子)"
+    },
+    {
      "name": "볶음밥(炒飯)"
     },
     {
-     "name": "牛小排"
-    },
-    {
-     "name": "炒烏龍"
+     "name": "소갈비구이(牛小排)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$600-800",
-   "intro": "타이중 西區에 있는 이자카야예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 볶음밥(炒飯), 牛小排, 炒烏龍 등이 자주 언급돼요.",
+   "intro": "타이중 시구 친메이 쪽의 꼬치구이 이자카야로, 매일 저녁 6시부터 새벽 1시까지 열어요. 리뷰에서는 명란 요리가 압도적으로 많이 언급되고 볶음밥과 화이트 소스 요리가 뒤를 이어요.",
    "google": {
     "place_id": "ChIJIfQz_p49aTQRw8gxRVt6O3w",
     "rating": 4.9,
     "reviews": 19802
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "973": {
@@ -26670,25 +26734,25 @@
    },
    "menu": [
     {
-     "name": "타로(芋頭)"
+     "name": "타로 철판구이(芋頭)"
     },
     {
-     "name": "닭다리(雞腿)"
+     "name": "바나나 디저트(香蕉)"
     },
     {
-     "name": "黑毛和牛"
+     "name": "필레 스테이크(菲力)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$1,000~1,200 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$1000-1200",
-   "intro": "타이중 東區에 있는 철판구이 전문식당이에요. 臺鐵臺中車站에서 직선 약 450m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 타로(芋頭), 닭다리(雞腿), 黑毛和牛 등이 자주 언급돼요.",
+   "intro": "타이중 둥구의 오래된 철판구이 가게로, 매일 점심·저녁에 열어요. 리뷰에서는 타로와 바나나 철판 요리, 필레, 닭다리가 자주 나와요.",
    "google": {
     "place_id": "ChIJC051BBY9aTQRKqJS7Z5B4eM",
     "rating": 4.4,
     "reviews": 1323
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "987": {
@@ -26702,25 +26766,25 @@
    "mrt": null,
    "menu": [
     {
+     "name": "쉐화빙(雪花)"
+    },
+    {
      "name": "빙수(剉冰)"
     },
     {
-     "name": "탕위안(湯圓)"
-    },
-    {
-     "name": "麵茶"
+     "name": "용과 빙수(火龍果)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 NT$400 이하 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$1-400",
-   "intro": "타이중 西區에 있는 디저트 전문 레스토랑이에요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 빙수(剉冰), 탕위안(湯圓), 麵茶 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 빙수 가게로, 월요일은 쉬어요. 가게 소개대로 눈꽃 빙수와 음료를 팔고, 리뷰에서는 용과·땅콩 토핑과 탕위안이 언급돼요.",
    "google": {
     "place_id": "ChIJh_ID6oI9aTQRreBqfP9JztY",
     "rating": 4.8,
     "reviews": 279
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "988": {
@@ -26735,25 +26799,25 @@
    "mrt": null,
    "menu": [
     {
-     "name": "壽司卷"
+     "name": "폭립(肋排)"
     },
     {
-     "name": "肋排"
+     "name": "스시롤(壽司卷)"
     },
     {
-     "name": "새우튀김(炸蝦)"
+     "name": "캐러멜 디저트(焦糖)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
    "price_range_schema": "NT$400-600",
-   "intro": "타이중 沙鹿區에 있는 스테이크 가게예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 壽司卷, 肋排, 새우튀김(炸蝦) 등이 자주 언급돼요.",
+   "intro": "타이중 사루구의 미국식 숯불구이 레스토랑으로, 월요일은 쉬어요. 가게 안내에 따르면 마지막 입장은 21:30, 마지막 주문은 21:40이고, 리뷰에서는 모임과 폭립, 스시롤이 자주 나와요.",
    "google": {
     "place_id": "ChIJ4Wgh16IVaTQRKr3wdG_i2mI",
     "rating": 4.9,
     "reviews": 2344
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "989": {
@@ -26778,19 +26842,19 @@
      "name": "총유빙(蔥油餅)"
     },
     {
-     "name": "연어(鮭魚)"
+     "name": "훙유차오서우(紅油抄手)"
     }
    ],
-   "menu_source": "topics",
+   "menu_source": "polished",
    "price_range": null,
    "price_range_schema": null,
-   "intro": "타이중 西區에 있는 중국 음식점이에요. 文心森林公園站에서 직선 약 1000m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 탕바오(湯包), 총유빙(蔥油餅), 연어(鮭魚) 등이 자주 언급돼요.",
+   "intro": "타이중 시구의 중식당으로, 매일 오전 11시부터 밤 9시까지 열어요. 리뷰에서는 탕바오와 총유빙, 매운 기름 완탕이 자주 나오고 미쉐린 빕구르망 이야기도 있어요.",
    "google": {
     "place_id": "ChIJoYQ2mqI9aTQREdSkjl2fyus",
     "rating": 4,
     "reviews": 6359
    },
-   "method": "auto",
+   "method": "polished",
    "checked_at": "2026-11-11"
   },
   "990": {
