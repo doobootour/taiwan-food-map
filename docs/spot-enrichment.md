@@ -1,0 +1,31 @@
+# 맛집 상세 페이지 보강 (scripts/enrich-spots.js)
+
+맛집 상세 페이지(`<region>-<category>-...-<id>.html`)에 아래 칸을 채우는 데이터는 `scripts/data/spot-enrichment.json`에 있고,
+`scripts/generate-spot-pages.js`가 이 파일을 읽어 정적 페이지에 굽는다.
+
+| 칸 | 출처 |
+|---|---|
+| 주소(중문·영문), 영업시간, 휴무일 | 저장된 정확한 구글맵 업체 링크(place id)의 구글 지도 업체 정보 |
+| 가까운 MRT역 | `scripts/data/mrt-stations.json`(Wikidata 대만 지하철역 좌표)과의 직선거리, 1.2km 이내만 |
+| 대표 메뉴 | 구글 리뷰에서 많이 언급된 메뉴(zh-TW, 언급 5회 이상, 최대 3개). 없으면 가게 이름 속 메뉴, 그것도 없으면 비움. 메뉴별 가격은 넣지 않음 |
+| 1인 가격대 | 구글 리뷰 작성자의 1인 가격 보고가 2건 이상 같은 구간일 때만 |
+| 정보형 소개 | 위 사실로만 만든 문장(위치·역·휴무·리뷰 언급 메뉴). 후기·평가 표현 없음 |
+
+보강하지 않고 건너뛰는 경우: 정확한 업체 링크가 없음, 업체 정보를 못 읽음, 구글 좌표가 등록 좌표와 1.5km 넘게 다름, 폐업·휴업 표시.
+`method: "manual"` 항목(타이베이 인기 50곳, 손으로 다듬음)은 `--force` 없이는 바뀌지 않는다.
+
+## 자동 실행
+`.github/workflows/regenerate-seo-pages.yml`이 매일 03:00(대만) 페이지 재생성 전에
+`node scripts/enrich-spots.js --limit 30`을 돌려 아직 보강 안 된 새 맛집을 최대 30곳 채우고, 바뀐 JSON을 페이지와 함께 커밋한다.
+구글 응답을 못 읽으면 그 맛집은 건너뛰고 다음 날 다시 시도한다(재생성은 계속 진행).
+
+## 수동 실행
+```bash
+node scripts/enrich-spots.js                         # 보강 안 된 맛집 전부
+node scripts/enrich-spots.js --regions taipei,yilan  # 지역만
+node scripts/enrich-spots.js --ids 1031,1032         # 특정 ID만
+node scripts/enrich-spots.js --ids 1031 --force      # 다시 조회해서 덮어쓰기(manual 제외)
+node scripts/enrich-spots.js --dry-run --report /tmp/r.json   # 파일은 안 바꾸고 결과만 보기
+# 기타: --limit N, --delay-ms 1500, --cache-dir /tmp/gcache(구글 응답 캐시), --data <다른 json 경로>
+node scripts/generate-spot-pages.js && node scripts/generate-sitemap.js   # 페이지에 반영
+```
