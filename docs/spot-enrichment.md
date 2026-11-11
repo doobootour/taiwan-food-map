@@ -17,7 +17,9 @@
 ## 자동 실행
 `.github/workflows/regenerate-seo-pages.yml`이 매일 03:00(대만) 페이지 재생성 전에
 `node scripts/enrich-spots.js --limit 30`을 돌려 아직 보강 안 된 새 맛집을 최대 30곳 채우고, 바뀐 JSON을 페이지와 함께 커밋한다.
-구글 응답을 못 읽으면 그 맛집은 건너뛰고 다음 날 다시 시도한다(재생성은 계속 진행).
+새로 등록된 맛집(ID 큰 순)부터 처리한다. 건너뛴 맛집은 JSON의 `skipped`에 사유·날짜를 남기고 7일 동안 다시 시도하지 않는다(`--retry-skipped` 또는 `--ids`로 강제 시도). 구글 응답을 못 읽어도 페이지 재생성은 계속 진행된다.
+
+건너뛴 맛집을 고치려면: 업체 정보 못 읽음 → DB `link`를 place id가 있는 정확한 업체 링크(maps.app.goo.gl 공유 링크 등)로 교체, 좌표 차이 → DB `lat/lng`를 실제 업체 위치로 수정. 그다음 `node scripts/enrich-spots.js --ids <id>`.
 
 ## 수동 실행
 ```bash
