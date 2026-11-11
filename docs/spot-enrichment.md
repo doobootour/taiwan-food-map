@@ -12,7 +12,8 @@
 | 정보형 소개 | 위 사실로만 만든 문장(위치·역·휴무·리뷰 언급 메뉴). 후기·평가 표현 없음 |
 
 보강하지 않고 건너뛰는 경우: 정확한 업체 링크가 없음, 업체 정보를 못 읽음, 구글 좌표가 등록 좌표와 1.5km 넘게 다름, 폐업·휴업 표시.
-`method: "manual"` 항목(타이베이 인기 50곳, 손으로 다듬음)은 `--force` 없이는 바뀌지 않는다.
+`method: "manual"`(타이베이 인기 50곳)과 `method: "polished"`(지역별로 소개·메뉴를 손으로 다듬은 항목) 항목은 `--force`로도, 매일 자동 실행으로도 바뀌지 않는다.
+다듬은 메뉴의 한국어 이름은 `KO_DISH` 사전에 추가해 이후 자동 보강에도 쓰인다(확실하지 않은 메뉴는 한자만 둔다).
 
 ## 자동 실행
 `.github/workflows/regenerate-seo-pages.yml`이 매일 03:00(대만) 페이지 재생성 전에
@@ -26,7 +27,7 @@
 node scripts/enrich-spots.js                         # 보강 안 된 맛집 전부
 node scripts/enrich-spots.js --regions taipei,yilan  # 지역만
 node scripts/enrich-spots.js --ids 1031,1032         # 특정 ID만
-node scripts/enrich-spots.js --ids 1031 --force      # 다시 조회해서 덮어쓰기(manual 제외)
+node scripts/enrich-spots.js --ids 1031 --force      # 다시 조회해서 덮어쓰기(manual·polished 제외)
 node scripts/enrich-spots.js --dry-run --report /tmp/r.json   # 파일은 안 바꾸고 결과만 보기
 # 기타: --limit N, --delay-ms 1500, --cache-dir /tmp/gcache(구글 응답 캐시), --data <다른 json 경로>
 node scripts/generate-spot-pages.js && node scripts/generate-sitemap.js   # 페이지에 반영
