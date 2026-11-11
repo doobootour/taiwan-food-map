@@ -1,0 +1,1780 @@
+{
+ "meta": {
+  "description": "taiwanbite 타이베이 인기 맛집 50곳 상세 페이지 보강 1차 (2026-11-11). 라이브 미반영 프리뷰용.",
+  "selection": {
+   "pool": "region=taipei, hidden 아님, 저장된 정확한 구글맵 업체 링크로 구글 업체 정보를 읽을 수 있는 곳(286곳 중)",
+   "excluded": "관광지·쇼핑·과일가게 카테고리, 구글 업종이 음식점이 아닌 곳, 폐업/휴업 표시, 같은 브랜드의 다른 지점(점수 높은 1곳만)",
+   "score": "인기·평점 점수 = 보정평점 × log10(구글 리뷰 수). 보정평점 = (리뷰수×평점 + 1000×4.2)/(리뷰수+1000) — 리뷰가 적은 곳의 높은 평점이 과대평가되지 않게 함",
+   "note": "taiwanbite 자체 추천수(recommend_count)는 전부 0이라 반영 불가. GA4/서치콘솔 페이지별 방문 데이터는 이 작업 환경에서 접근할 수 없어, 구글 리뷰 수(방문·검색 인기 대리지표)와 평점을 썼음.",
+   "checked_at": "2026-11-11"
+  },
+  "sources": {
+   "address/hours/closed": "저장된 정확한 구글맵 업체 링크(place_id)의 구글 지도 업체 정보, 2026-11-11 조회",
+   "mrt": "Wikidata 타이베이·신베이 MRT역 좌표와 구글 업체 좌표의 직선거리. 1.2km 넘으면 비움",
+   "menu": "구글 지도 업체 정보의 리뷰 언급 메뉴(zh-TW, 언급 수 상위) 또는 업체 소유자 소개문. 메뉴별 가격은 확인 가능한 출처가 없어 비움",
+   "price_range": "구글 리뷰 작성자가 남긴 1인당 가격 보고 중 최다 구간(2건 이상 일치할 때만)",
+   "intro": "위 출처의 사실만으로 쓴 정보형 소개. 후기·평가 표현 없음"
+  }
+ },
+ "category_mismatch": [
+  {
+   "id": 206,
+   "name": "TGI FRIDAYS 裕隆城",
+   "db_category": "bbq",
+   "google_types": "아메리칸 레스토랑",
+   "note": "미국식 체인, BBQ 아님"
+  },
+  {
+   "id": 211,
+   "name": "番紅花城土耳其餐廳",
+   "db_category": "bbq",
+   "google_types": "터키 음식점·할랄",
+   "note": "터키 음식점"
+  },
+  {
+   "id": 255,
+   "name": "燃燒漢堡 BURN BURGER",
+   "db_category": "bbq",
+   "google_types": "아메리칸 레스토랑",
+   "note": "버거집"
+  },
+  {
+   "id": 238,
+   "name": "雞家莊本店",
+   "db_category": "bbq",
+   "google_types": "닭요리전문점·대만 레스토랑",
+   "note": "대만식 닭 요리점"
+  },
+  {
+   "id": 267,
+   "name": "潼 鐵板料理至善店",
+   "db_category": "bbq",
+   "google_types": "철판구이 전문식당",
+   "note": "철판구이(steak 카테고리 쪽)"
+  },
+  {
+   "id": 716,
+   "name": "根萊鐵板燒",
+   "db_category": "bbq",
+   "google_types": "철판구이 전문식당",
+   "note": "철판구이(steak 카테고리 쪽)"
+  }
+ ],
+ "spots": {
+  "228": {
+   "name_zh": "雙月食品社 森林公園店",
+   "address_zh": "106臺北市大安區龍門里和平東路二段52號",
+   "address_en": "Moon Moon Food Da’an Park Shop, No. 52號, Section 2, Heping E Rd, Longmen Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "커지다러우역 科技大樓站",
+    "zh": "科技大樓站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "닭탕(雞湯)"
+    },
+    {
+     "name": "비빔면(乾麵)"
+    },
+    {
+     "name": "루웨이(滷味)"
+    }
+   ],
+   "menu_source": "owner",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "다안구 커지다러우역 근처에 있는 중식·대만식 식당으로, 2층 규모의 내부 좌석이 있어요. 가게 소개에서 닭탕과 비빔면, 루웨이를 대표 메뉴로 꼽고, 점심과 저녁 사이(14:00~17:00)에는 포장·배달과 1층 좌석만 운영한다고 안내해요.",
+   "google": {
+    "place_id": "ChIJFap94WarQjQR8xORzmAVd88",
+    "rating": 4.9,
+    "reviews": 24936
+   },
+   "checked_at": "2026-11-11"
+  },
+  "208": {
+   "name_zh": "青花驕麻辣鍋 台北光復南店",
+   "address_zh": "106臺北市大安區華聲里光復南路100號",
+   "address_en": "Chin Hua Jiao Taipei Guangfu South Branch, No. 100, Guangfu S Rd, Huasheng Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "월~금 오전 11:30~오전 1:00",
+    "토~일 오전 11:00~오전 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "국부기념관역 國父紀念館站",
+    "zh": "國父紀念館站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "선지두부(血豆腐)"
+    },
+    {
+     "name": "커우수이지(口水雞)"
+    },
+    {
+     "name": "산메이탕(酸梅汁)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "국부기념관역 가까이 광푸난루에 있는 마라 훠궈 전문점이에요. 새벽 1시까지 영업해 늦은 저녁 식사로 찾기 좋고, 구글 리뷰에서는 선지두부와 커우수이지, 새콤한 산메이탕 음료가 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJG5Z7DLKrQjQRV6xtWQx_TYk",
+    "rating": 4.9,
+    "reviews": 18346
+   },
+   "checked_at": "2026-11-11"
+  },
+  "222": {
+   "name_zh": "享鴨 烤鴨與中華料理 台北忠孝東店",
+   "address_zh": "106臺北市大安區仁愛里忠孝東路四段128號2樓",
+   "address_en": "2樓 Xiang Duck Taipei Zhongxiao E. Branch, No. 128號, Section 4, Zhongxiao E Rd, Ren'ai Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 2:30, 오후 5:30~10:00",
+    "토~일 오전 11:00~오후 2:30, 오후 5:00~10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "중샤오둔화역 忠孝敦化站",
+    "zh": "忠孝敦化站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "베이징덕(烤鴨)"
+    },
+    {
+     "name": "무떡(蘿蔔糕)"
+    },
+    {
+     "name": "탕위안(湯圓)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$1,000~1,200 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1000-1200",
+   "intro": "중샤오둔화역 근처 중샤오둥루 4단 건물 2층에 있는 오리구이 중심의 현대식 중화요리점이에요. 가게 소개에 따르면 2·4·6인용 세트가 있어 여럿이 나눠 먹기 좋고, 리뷰에서는 베이징덕 다음으로 무떡과 탕위안이 많이 언급돼요.",
+   "google": {
+    "place_id": "ChIJUUqIvQ-rQjQR-hO8Cs3J2Mw",
+    "rating": 4.8,
+    "reviews": 21851
+   },
+   "checked_at": "2026-11-11"
+  },
+  "689": {
+   "name_zh": "海底撈火鍋 信義微風南山店",
+   "address_zh": "110臺北市信義區西村里松智路17號B2 (地下二樓",
+   "address_en": "B2 (地下二樓 HaiDiLao Taipei Breeze NanShan Branch, No. 17號, Songzhi Rd, Xicun Village, Xinyi District, Taipei City, 110",
+   "hours_summary": [
+    "매일 오전 11:00~오전 4:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "샹산역 象山站",
+    "zh": "象山站",
+    "distance": "350m",
+    "meters": 350
+   },
+   "menu": [
+    {
+     "name": "인쓰쥐안(銀絲卷)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "샹산역 근처 브리즈 난산 지하 2층에 있는 하이디라오 훠궈 지점으로, 오전 11시부터 새벽 4시까지 열어요. 리뷰에는 변검 공연과 대기 중 서비스 이야기가 많고, 사이드 메뉴로는 튀긴 꽃빵 인쓰쥐안이 자주 나와요.",
+   "google": {
+    "place_id": "ChIJQ3XJ-sWrQjQRQmpEkoaT3FI",
+    "rating": 4.8,
+    "reviews": 17039
+   },
+   "checked_at": "2026-11-11"
+  },
+  "63": {
+   "name_zh": "尬鍋 台式潮鍋 台北西門店",
+   "address_zh": "108臺北市萬華區福星里中華路一段78號1樓",
+   "address_en": "1樓 God Guo Hot Pot Taipei Ximen Branch, No. 78號, Section 1, Zhonghua Rd, Fuxing Village, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "월~목 오전 11:00~오전 12:00",
+    "금~토 오전 11:00~오전 2:00",
+    "일 오전 11:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "피망절임 닭탕 육수(剝皮辣椒雞湯)"
+    },
+    {
+     "name": "라쯔지(辣子雞)"
+    },
+    {
+     "name": "두유(豆奶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-800",
+   "intro": "시먼역에서 가까운 중화루 1단에 있는 대만식 훠궈집이에요. 가게 소개에 따르면 대만 요리 맛을 국물로 바꾼 메뉴가 특징이고, 금·토요일은 새벽 2시까지 영업해요.",
+   "google": {
+    "place_id": "ChIJF45D7h-pQjQRo5SS_f8tmfo",
+    "rating": 4.7,
+    "reviews": 17040
+   },
+   "checked_at": "2026-11-11"
+  },
+  "49": {
+   "name_zh": "大村武串燒居酒屋-西門店（本店）",
+   "address_zh": "108臺北市萬華區福星里漢口街二段83巷2號",
+   "address_en": "108, Taipei City, Wanhua District, Fuxing Village, Lane 83, Section 2, Hankou St, 2號大村武串燒居酒屋-西門店（本店）",
+   "hours_summary": [
+    "매일 오후 6:00~오전 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "550m",
+    "meters": 550
+   },
+   "menu": [
+    {
+     "name": "명란 요리(明太子)"
+    },
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "볶음우동(炒烏龍)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "시먼딩 한커우제 골목에 있는 꼬치구이 이자카야 본점으로, 저녁 6시부터 새벽 1시까지 열어요. 리뷰에서는 매실주와 명란 요리, 볶음밥·볶음우동이 자주 언급되고, 단체 모임 장소로도 많이 이야기돼요.",
+   "google": {
+    "place_id": "ChIJz9QgJQ-pQjQRx_0J7dezfmY",
+    "rating": 4.8,
+    "reviews": 9174
+   },
+   "checked_at": "2026-11-11"
+  },
+  "212": {
+   "name_zh": "solo pasta",
+   "address_zh": "106臺北市大安區建倫里安和路一段29-1號",
+   "address_en": "Solo Pasta, No. 29-1號, Section 1, Anhe Rd, Jianlun Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 3:00, 오후 5:30~10:00",
+    "토~일 오전 11:30~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "중샤오둔화역 忠孝敦化站",
+    "zh": "忠孝敦化站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "오레키에테 파스타(貓耳朵)"
+    },
+    {
+     "name": "밤 몽블랑(蒙布朗)"
+    },
+    {
+     "name": "티라미수(提拉米蘇)"
+    }
+   ],
+   "menu_source": "topics+owner",
+   "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800-1000",
+   "intro": "중샤오둔화역 근처 안허루에 있는 이탈리안 레스토랑으로, 평일은 점심과 저녁 사이에 쉬는 시간이 있어요. 가게 안내에 따르면 식사 시간은 2시간이고 외부 음식·음료 반입은 안 되며, 디저트로 티라미수와 밤 몽블랑을 팔아요.",
+   "google": {
+    "place_id": "ChIJwQPcmc-rQjQRtXDQA__PPwg",
+    "rating": 4.5,
+    "reviews": 13156
+   },
+   "checked_at": "2026-11-11"
+  },
+  "89": {
+   "name_zh": "富宏牛肉麵",
+   "address_zh": "108臺北市萬華區福星里洛陽街67號",
+   "address_en": "푸홍 우육면 No. 67號, Luoyang St, Fuxing Village, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "매일 24시간 영업"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "베이먼역 北門站",
+    "zh": "北門站",
+    "distance": "350m",
+    "meters": 350
+   },
+   "menu": [
+    {
+     "name": "우육면(牛肉麵)"
+    }
+   ],
+   "menu_source": "name",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "베이먼역 근처 뤄양제에 있는 우육면집으로, 구글 지도 기준 24시간 영업해요. 구글 소개처럼 테이블에서 양념을 더해 먹는 실용적인 가게라, 시먼딩 일정 중 늦은 시간에도 들르기 쉬워요.",
+   "google": {
+    "place_id": "ChIJC9bmhw6pQjQRMzLaT4VIVCo",
+    "rating": 4.2,
+    "reviews": 22274
+   },
+   "checked_at": "2026-11-11"
+  },
+  "288": {
+   "name_zh": "鼎泰豐 信義店",
+   "address_zh": "106臺北市大安區福住里信義路二段194號",
+   "address_en": "딘타이펑 신의점 No. 194號, Section 2, Xinyi Rd, Fuzhu Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "월~금 오전 11:00~오후 8:30",
+    "토~일 오전 10:30~오후 8:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "둥먼역 東門站",
+    "zh": "東門站",
+    "distance": "150m",
+    "meters": 150
+   },
+   "menu": [
+    {
+     "name": "샤오롱바오(小籠包)"
+    },
+    {
+     "name": "볶음밥(炒飯)"
+    },
+    {
+     "name": "홍유차오서우(紅油抄手)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "둥먼역 바로 앞 신이루 2단에 있는 딘타이펑 지점이에요. 리뷰에서 가장 많이 언급되는 메뉴는 샤오롱바오이고, 볶음밥과 매운 기름 완탕 홍유차오서우가 뒤를 이어요. 주말은 오전 10시 30분에 문을 열어요.",
+   "google": {
+    "place_id": "ChIJbTKSE4KpQjQRXDZZI57v-pM",
+    "rating": 4.4,
+    "reviews": 13219
+   },
+   "checked_at": "2026-11-11"
+  },
+  "281": {
+   "name_zh": "阜杭豆漿",
+   "address_zh": "100臺北市中正區幸福里忠孝東路一段108號2樓",
+   "address_en": "2樓 푸항또우장 No. 108, Section 1, Zhongxiao E Rd, Xingfu Village, Zhongzheng District, Taipei City, 100",
+   "hours_summary": [
+    "화~일 오전 5:30~오후 12:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "산다오쓰역 善導寺站",
+    "zh": "善導寺站",
+    "distance": "150m",
+    "meters": 150
+   },
+   "menu": [
+    {
+     "name": "사오빙(燒餅)"
+    },
+    {
+     "name": "요우탸오(油條)"
+    },
+    {
+     "name": "셴또우장(鹹豆漿)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "산다오쓰역 바로 앞 중샤오둥루 1단 건물 2층에 있는 아침 전문 두유집이에요. 오전 5시 30분부터 낮 12시 30분까지만 열고 월요일은 쉬어요. 리뷰에서는 사오빙과 요우탸오, 짭짤한 두유 셴또우장이 가장 많이 언급돼요.",
+   "google": {
+    "place_id": "ChIJff6pZXCpQjQRHi3vcbjQip8",
+    "rating": 4.1,
+    "reviews": 24585
+   },
+   "checked_at": "2026-11-11"
+  },
+  "723": {
+   "name_zh": "丰禾 台味風格料理 台北南京東店",
+   "address_zh": "104臺北市中山區朱園里南京東路二段146號2F",
+   "address_en": "2F Feng Delicious Taipei Nanjing E. Branch, No. 146號, Section 2, Nanjing E Rd, Zhuyuan Village, Zhongshan District, Taipei City, 104",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 2:30, 오후 5:30~10:00",
+    "토~일 오전 11:00~오후 2:30, 오후 5:00~10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "쑹장난징역 松江南京站",
+    "zh": "松江南京站",
+    "distance": "100m",
+    "meters": 100
+   },
+   "menu": [
+    {
+     "name": "게알 두부(蟹黃豆腐)"
+    },
+    {
+     "name": "농어 요리(鱸魚)"
+    },
+    {
+     "name": "흑임자 죽(芝麻糊)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$2,000 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$2000+",
+   "intro": "쑹장난징역에서 100m 남짓 떨어진 난징둥루 2단 건물 2층의 대만 요리 레스토랑이에요. 가게 소개에 따르면 대만 현지 식재료로 전통 요리를 새롭게 해석하는 곳이고, 리뷰에는 게알 두부와 농어 요리가 자주 나와요.",
+   "google": {
+    "place_id": "ChIJ63TtzA2pQjQRYLTOoGVHw3g",
+    "rating": 4.6,
+    "reviews": 8854
+   },
+   "checked_at": "2026-11-11"
+  },
+  "783": {
+   "name_zh": "朝日夫婦",
+   "address_zh": "251新北市淡水區新生里中正路233-3號",
+   "address_en": "Asahi Huuhu, No. 233-3號, Zhongzheng Rd, Xinsheng Village, Tamsui District, New Taipei City, 251",
+   "hours_summary": [
+    "매일 오후 12:00~8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "단수이역 淡水站",
+    "zh": "淡水站",
+    "distance": "1200m",
+    "meters": 1200
+   },
+   "menu": [
+    {
+     "name": "우지킨토키 빙수(宇治金時)"
+    },
+    {
+     "name": "티라미수 빙수(提拉米蘇)"
+    },
+    {
+     "name": "크레페(可麗餅)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "신베이 단수이 중정루에 있는 일본식 빙수 가게로, 단수이역에서 1km 남짓 떨어져 있어요. 가게 안내에 따르면 휴무일은 정해지지 않고 SNS로 공지하며, 일찍 다 팔리면 일찍 닫아요.",
+   "google": {
+    "place_id": "ChIJh0s1mVqlQjQRUrppA9KE5Lg",
+    "rating": 4.6,
+    "reviews": 8657
+   },
+   "checked_at": "2026-11-11"
+  },
+  "86": {
+   "name_zh": "阿宗麵線",
+   "address_zh": "108臺北市萬華區西門里峨眉街8-1號",
+   "address_en": "아종면선 No. 8-1號, Emei St, Ximen Village, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "월~목 오전 7:30~오후 10:30",
+    "금~토 오전 7:30~오후 11:00",
+    "일 오전 7:30~오후 10:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "100m",
+    "meters": 100
+   },
+   "menu": [
+    {
+     "name": "곱창 면선(大腸麵線)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "시먼역 근처 어메이제에 있는 곱창 면선 가게예요. 가다랑어포 국물에 곱창을 넣은 면선 한 가지가 중심이고, 리뷰에는 서서 먹었다는 이야기가 자주 나와요.",
+   "google": {
+    "place_id": "ChIJQXy1aAmpQjQR7UZhdHZCnLE",
+    "rating": 4.1,
+    "reviews": 18656
+   },
+   "checked_at": "2026-11-11"
+  },
+  "68": {
+   "name_zh": "正宗阿桑大腸麵線",
+   "address_zh": "100臺北市中正區永功里泉州街32-2號",
+   "address_en": "100, Taipei City, Zhongzheng District, Yonggong Village, Quanzhou St, 32-2號正宗阿桑大腸麵線",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 7:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "즈우위안역 植物園站",
+    "zh": "植物園站",
+    "distance": "650m",
+    "meters": 650
+   },
+   "menu": [
+    {
+     "name": "곱창 면선(大腸麵線)"
+    },
+    {
+     "name": "금귤 레몬주스(金橘檸檬汁)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "중정구 취안저우제에 있는 곱창 면선집으로, 바로 옆 황지아 소시지와 함께 찾는 사람이 많아요. 월요일은 쉬고 오전 11시부터 저녁 7시까지 열어요.",
+   "google": {
+    "place_id": "ChIJE2WIb72pQjQRgs4EQXKNoj4",
+    "rating": 4.8,
+    "reviews": 4809
+   },
+   "checked_at": "2026-11-11"
+  },
+  "211": {
+   "name_zh": "番紅花城土耳其餐廳",
+   "address_zh": "104臺北市中山區南京東路二段60號",
+   "address_en": "Safranbolu Turkish Restaurant, No. 60號, Section 2, Nanjing E Rd, 中山區 Zhongshan District, Taipei City, 104",
+   "hours_summary": [
+    "매일 오전 11:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "쑹장난징역 松江南京站",
+    "zh": "松江南京站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "케밥(烤肉)"
+    },
+    {
+     "name": "쌀푸딩(米布丁)"
+    },
+    {
+     "name": "양갈비(羊排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "쑹장난징역 근처 난징둥루 2단에 있는 터키 음식점으로, 할랄 식당으로도 등록돼 있어요. 가게 소개에서는 타이베이 첫 터키 음식점이라고 안내하고, 리뷰에서는 케밥과 쌀푸딩, 양갈비가 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJJ3Gy3GapQjQRSOjEyP0DdPQ",
+    "rating": 4.4,
+    "reviews": 7872
+   },
+   "checked_at": "2026-11-11"
+  },
+  "58": {
+   "name_zh": "吐司利亞三號-敦南店",
+   "address_zh": "106臺北市大安區建安里敦化南路一段169巷3號",
+   "address_en": "TOASTERiA CAFE 吐司利亞 - 敦南店｜地中海廚房｜約會聚餐首選｜客製化包場外燴｜異國料理｜寵物友善｜家庭聚會｜親子友善餐廳, No. 3號, Lane 169, Section 1, Dunhua S Rd, Jian'an Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "월~목 오전 11:30~오후 10:30",
+    "금 오전 11:30~오전 12:00",
+    "토~일 오전 9:00~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "중샤오둔화역 忠孝敦化站",
+    "zh": "忠孝敦化站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "파니니(帕尼尼)"
+    },
+    {
+     "name": "샥슈카(沙克舒卡)"
+    },
+    {
+     "name": "쿠바 샌드위치(古巴三明治)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "중샤오둔화역 근처 둔화난루 골목에 있는 지중해식 카페 겸 바예요. 주말은 오전 9시에 열어 브런치로 찾기 좋고, 리뷰에서는 파니니와 샥슈카가 가장 많이 언급돼요.",
+   "google": {
+    "place_id": "ChIJKzfU3sSrQjQRCzAF0PADjQE",
+    "rating": 4.6,
+    "reviews": 5695
+   },
+   "checked_at": "2026-11-11"
+  },
+  "67": {
+   "name_zh": "黃家香腸",
+   "address_zh": "100臺北市中正區永功里泉州街32之3號",
+   "address_en": "100, Taipei City, Zhongzheng District, Yonggong Village, Quanzhou St, 32之3號 황지아상창소세지",
+   "hours_summary": [
+    "화~일 오후 1:00~7:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "즈우위안역 植物園站",
+    "zh": "植物園站",
+    "distance": "700m",
+    "meters": 700
+   },
+   "menu": [
+    {
+     "name": "숯불 소시지(烤香腸)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "중정구 취안저우제 골목에 있는 숯불 소시지 가게로, 오후 1시부터 7시까지만 열고 월요일은 쉬어요. 바로 옆 곱창 면선집과 함께 들르는 경우가 많고, 리뷰에 줄 서는 이야기가 자주 나와요.",
+   "google": {
+    "place_id": "ChIJdYGKb72pQjQRyzvLDZhuy-s",
+    "rating": 4.6,
+    "reviews": 5664
+   },
+   "checked_at": "2026-11-11"
+  },
+  "88": {
+   "name_zh": "一甲子餐飲",
+   "address_zh": "108臺北市萬華區新起里康定路79號",
+   "address_en": "Sixty Years of Dining, No. 79號, Kangding Rd, Xinqi Village, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "월~금 오전 9:00~오후 7:00",
+    "토 오전 9:00~오후 2:00"
+   ],
+   "closed_days": "일요일",
+   "mrt": {
+    "label": "룽산쓰역 龍山寺站",
+    "zh": "龍山寺站",
+    "distance": "600m",
+    "meters": 600
+   },
+   "menu": [
+    {
+     "name": "동파육(東坡肉)"
+    },
+    {
+     "name": "완궈(碗粿)"
+    },
+    {
+     "name": "어묵탕(魚丸湯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "룽산쓰역에서 도보권인 캉딩루의 대만 소박한 밥집이에요. 오전 9시에 열고 토요일은 오후 2시까지, 일요일은 쉬어요. 리뷰에서는 동파육 덮밥과 완궈가 대표 메뉴로 가장 많이 언급돼요.",
+   "google": {
+    "place_id": "ChIJT81rBaipQjQR6Jc9USFITI8",
+    "rating": 4.4,
+    "reviews": 7044
+   },
+   "checked_at": "2026-11-11"
+  },
+  "247": {
+   "name_zh": "銘記越南文化美食 Ming Jih - Vietnamese Culture Restaurant",
+   "address_zh": "221新北市汐止區湖光里康寧街536-1號",
+   "address_en": "Ming Jih, No. 536-1號, Kangning St, Huguang Village, Xizhi District, New Taipei City, 221",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 9:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "공심채 볶음(空心菜)"
+    },
+    {
+     "name": "파인애플 볶음밥(鳳梨炒飯)"
+    },
+    {
+     "name": "커리빵(咖哩麵包)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "신베이 시즈 캉닝제에 있는 베트남 음식점으로, 가게 소개에서는 베트남풍 정원 레스토랑이라고 안내해요. 대중교통보다는 차로 가기 좋은 위치이고, 리뷰에 주차장 이야기가 자주 나와요. 월요일은 쉬어요.",
+   "google": {
+    "place_id": "ChIJCcJ-WUlTXTQRXCH_rCIVYlc",
+    "rating": 4.4,
+    "reviews": 6678
+   },
+   "checked_at": "2026-11-11"
+  },
+  "74": {
+   "name_zh": "小王煮瓜",
+   "address_zh": "108臺北市萬華區華西街17之4號攤位153號",
+   "address_en": "108, Taipei City, Wanhua District, Huaxi St, 17之4號攤位153號 Wang’s Broth Taipei",
+   "hours_summary": [
+    "월 오전 9:30~오후 8:00",
+    "수~일 오전 9:30~오후 8:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": {
+    "label": "룽산쓰역 龍山寺站",
+    "zh": "龍山寺站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "표고 루러우판(香菇滷肉飯)"
+    },
+    {
+     "name": "오리알 조림(鴨蛋)"
+    }
+   ],
+   "menu_source": "owner+topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "룽산쓰역 근처 화시제 야시장 안 노점 153번 자리에 있는 밥집이에요. 가게 소개에 따르면 40년 넘게 표고 루러우판을 팔아 온 곳으로, 화요일은 쉬고 오전 9시 30분부터 저녁 8시까지 열어요.",
+   "google": {
+    "place_id": "ChIJGaiHCqmpQjQReQD8Dmqjdvk",
+    "rating": 4,
+    "reviews": 14672
+   },
+   "checked_at": "2026-11-11"
+  },
+  "979": {
+   "name_zh": "금하동(金河洞-韓式烤肉專門店)",
+   "address_zh": "108臺北市萬華區菜園里成都路100之1號 1 樓",
+   "address_en": "108, Taipei City, Wanhua District, Caiyuan Village, Chengdu Rd, 100之1號 금하동(金河洞-韓式烤肉專門店) 1 樓",
+   "hours_summary": [
+    "월~금 오후 4:00~오전 2:00",
+    "토~일 오후 1:00~오전 2:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "600m",
+    "meters": 600
+   },
+   "menu": [
+    {
+     "name": "삼겹살 구이"
+    },
+    {
+     "name": "계란찜(蒸蛋)"
+    },
+    {
+     "name": "볶음밥(炒飯)"
+    }
+   ],
+   "menu_source": "owner+topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "시먼역 근처 청두루에 있는 한국식 고깃집으로, 직원이 테이블 옆에서 고기를 구워 주는 방식이에요. 가게 소개에 따르면 냉동이 아닌 냉장육을 쓰고, 평일은 오후 4시, 주말은 오후 1시에 열어 새벽 2시까지 영업해요.",
+   "google": {
+    "place_id": "ChIJ7RR0LACpQjQRnCzQMYb_R20",
+    "rating": 4.8,
+    "reviews": 3595
+   },
+   "checked_at": "2026-11-11"
+  },
+  "772": {
+   "name_zh": "油庫口蚵仔麵線",
+   "address_zh": "220新北市板橋區新民里文化路一段188巷44號",
+   "address_en": "220, New Taipei City, Banqiao District, Xinmin Village, Lane 188, Section 1, Wenhua Rd, 44號油庫口蚵仔麵線",
+   "hours_summary": [
+    "매일 오전 9:30~오후 7:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "신푸역 新埔站",
+    "zh": "新埔站",
+    "distance": "450m",
+    "meters": 450
+   },
+   "menu": [
+    {
+     "name": "굴 면선(蚵仔麵線)"
+    },
+    {
+     "name": "숯불 고량주 소시지(炭烤高梁酒香腸)"
+    }
+   ],
+   "menu_source": "owner",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "신베이 반차오 원화루 1단 골목에 있는 굴 면선 가게로, 가게 소개에 따르면 40년째 영업 중이에요. 굴 면선과 숯불에 구운 고량주 소시지를 함께 파는 것이 특징이고, 매일 오전 9시 30분부터 저녁 7시까지 열어요.",
+   "google": {
+    "place_id": "ChIJTx1TvheoQjQRqAqXqmNy55o",
+    "rating": 4.1,
+    "reviews": 10669
+   },
+   "checked_at": "2026-11-11"
+  },
+  "234": {
+   "name_zh": "荷李活茶街 HOLLYWOOD STREET (SOGO忠孝店) ｜港式飲茶 手工點心 台北美食 大安區美食 東區必吃",
+   "address_zh": "106臺北市大安區光武里忠孝東路四段45號2 樓",
+   "address_en": "2 樓 HOLLYWOOD STREET, No. 45號, Section 4, Zhongxiao E Rd, Guangwu Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "월~목 오전 11:00~오후 9:30",
+    "금~토 오전 11:00~오후 10:00",
+    "일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "중샤오푸싱역 忠孝復興站",
+    "zh": "忠孝復興站",
+    "distance": "100m",
+    "meters": 100
+   },
+   "menu": [
+    {
+     "name": "차슈수(叉燒酥)"
+    },
+    {
+     "name": "양즈간루(楊枝甘露)"
+    },
+    {
+     "name": "짜량(炸兩)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$400 이상 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400+",
+   "intro": "중샤오푸싱역 바로 앞 SOGO 중샤오점 2층에 있는 홍콩식 딤섬·차찬텡 레스토랑이에요. 가게 소개에 따르면 딤섬을 직접 손으로 빚고, 리뷰에서는 차슈수와 양즈간루가 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJR_bdUyirQjQR7R3aP8zoHyo",
+    "rating": 4.6,
+    "reviews": 4479
+   },
+   "checked_at": "2026-11-11"
+  },
+  "199": {
+   "name_zh": "松竹園",
+   "address_zh": "11192臺北市士林區菁山里永公路546號",
+   "address_en": "Sung Chu Yuan, No. 546號, Yonggong Rd, Jingshan Village, Shilin District, Taipei City, 11192",
+   "hours_summary": [
+    "월~금 오전 11:30~오후 4:00, 오후 5:00~8:00",
+    "토~일 오전 11:00~오후 4:00, 오후 5:00~9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "만터우(饅頭)"
+    },
+    {
+     "name": "취두부(臭豆腐)"
+    },
+    {
+     "name": "바이잔지(白斬雞)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "양밍산 쪽 융궁루에 있는 시골풍 중식당으로, MRT역에서 멀어 차나 버스로 가야 해요. 평일은 점심과 저녁 사이에 1시간 쉬고, 리뷰에서는 만터우와 취두부, 토종닭 바이잔지가 많이 언급돼요.",
+   "google": {
+    "place_id": "ChIJx9woppGtQjQRicnTas_LX-w",
+    "rating": 4.3,
+    "reviews": 6565
+   },
+   "checked_at": "2026-11-11"
+  },
+  "87": {
+   "name_zh": "金園排骨萬年店",
+   "address_zh": "108臺北市萬華區西門里西寧南路70號B1",
+   "address_en": "B1 King Pork Wan Nian Store, No. 70號, Xining Rd, Ximen Village, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "매일 오전 11:30~오후 8:50"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "파이구판(排骨飯)"
+    },
+    {
+     "name": "유부 조림(油豆腐)"
+    },
+    {
+     "name": "차이판(菜飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "시먼역 근처 완녠상업빌딩 지하 1층에 있는 돼지갈비 덮밥집이에요. 매일 오전 11시 30분부터 저녁 8시 50분까지 열고, 리뷰에서는 튀긴 돼지갈비 덮밥과 유부 조림이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJl9MJJgmpQjQRSw3-qphv2qg",
+    "rating": 4.3,
+    "reviews": 6497
+   },
+   "checked_at": "2026-11-11"
+  },
+  "857": {
+   "name_zh": "雅香石頭火鍋(西門總店)",
+   "address_zh": "10844臺北市萬華區西門里成都路159號",
+   "address_en": "10844, Taipei City, Wanhua District, Ximen Village, Chengdu Rd, 159號雅香石頭火鍋(西門總店)",
+   "hours_summary": [
+    "매일 오전 11:30~오전 4:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "600m",
+    "meters": 600
+   },
+   "menu": [
+    {
+     "name": "돌판 볶음 훠궈(石頭火鍋)"
+    }
+   ],
+   "menu_source": "owner",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "시먼딩 청두루에 있는 돌판 훠궈집으로, 가게 소개에 따르면 1976년에 문을 열었어요. 양파와 고기를 먼저 볶은 뒤 육수를 붓는 방식이고, 직접 만든 사차장을 함께 내요. 오전 11시 30분부터 새벽 4시까지 영업해요.",
+   "google": {
+    "place_id": "ChIJ97CWKgapQjQReeG-20Sl9KY",
+    "rating": 4.2,
+    "reviews": 7292
+   },
+   "checked_at": "2026-11-11"
+  },
+  "286": {
+   "name_zh": "深夜裡的法國手工甜點",
+   "address_zh": "106臺北市大安區誠安里復興南路一段146號",
+   "address_en": "106, Taipei City, Da’an District, Cheng'an Village, Section 1, Fuxing S Rd, 146號深夜裡的法國手工甜點",
+   "hours_summary": [
+    "월~화 오전 11:00~오전 12:00",
+    "목~일 오전 11:00~오전 12:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": {
+    "label": "중샤오푸싱역 忠孝復興站",
+    "zh": "忠孝復興站",
+    "distance": "100m",
+    "meters": 100
+   },
+   "menu": [
+    {
+     "name": "생초콜릿 타르트(生巧克力塔)"
+    },
+    {
+     "name": "커스터드 딸기 타르트(卡士達草莓塔, 겨울)"
+    }
+   ],
+   "menu_source": "owner",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "중샤오푸싱역 바로 옆 푸싱난루 1단에 있는 프랑스식 디저트 가게로, 자정까지 열고 수요일은 쉬어요. 가게 소개에 따르면 생초콜릿 타르트가 간판 메뉴이고, 계절 과일에 따라 타르트 종류가 바뀌어요.",
+   "google": {
+    "place_id": "ChIJW4sWepCpQjQRxbg-jFyB0jM",
+    "rating": 4.5,
+    "reviews": 4329
+   },
+   "checked_at": "2026-11-11"
+  },
+  "84": {
+   "name_zh": "MAJI MAJI集食行樂",
+   "address_zh": "10491臺北市中山區圓山里玉門街1號",
+   "address_en": "마지스퀘어 No. 1號, Yumen St, Yuanshan Village, Zhongshan District, Taipei City, 10491",
+   "hours_summary": [
+    "매일 오전 11:00~오후 9:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "위안산역 圓山站",
+    "zh": "圓山站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [],
+   "menu_source": "",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "위안산역 근처 위먼제에 있는 푸드코트 겸 장터로, 여러 가게가 모여 있어 메뉴를 하나로 꼽기 어려워요. 리뷰에는 주말 장터와 공연, 바 이야기가 많고, 매일 오전 11시부터 저녁 9시까지 열어요.",
+   "google": {
+    "place_id": "ChIJqY40N0-pQjQRQbo-POoknG4",
+    "rating": 4.2,
+    "reviews": 6683
+   },
+   "checked_at": "2026-11-11"
+  },
+  "216": {
+   "name_zh": "花嘴廚房",
+   "address_zh": "108臺北市萬華區昆明街214-1號",
+   "address_en": "What Day Kitchen, No. 214-1號, Kunming St, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "매일 오전 8:00~오후 8:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "탕종 프렌치토스트(湯種法式吐司)"
+    },
+    {
+     "name": "파르팔레 파스타(蝴蝶面)"
+    }
+   ],
+   "menu_source": "owner+topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "시먼딩 쿤밍제에 있는 브런치 식당으로, 매일 오전 8시부터 저녁 8시까지 열어요. 가게 안내에 따르면 예약은 받지 않고 현장 대기 등록만 가능하며, 수제 빵과 탕종 프렌치토스트가 특징이에요.",
+   "google": {
+    "place_id": "ChIJX--8IQipQjQRs2uPQ15m7PI",
+    "rating": 4.3,
+    "reviews": 5533
+   },
+   "checked_at": "2026-11-11"
+  },
+  "45": {
+   "name_zh": "欣葉台菜 創始店",
+   "address_zh": "10491臺北市中山區晴光里雙城街34之1號",
+   "address_en": "Shin Yeh Main Restaurant, No. 34之1號, Shuangcheng St, Qingguang Village, Zhongshan District, Taipei City, 10491",
+   "hours_summary": [
+    "매일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "중산궈샤오역 中山國小站",
+    "zh": "中山國小站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "차이푸단(菜脯蛋)"
+    },
+    {
+     "name": "꽃게 요리(紅蟳)"
+    },
+    {
+     "name": "룬빙(潤餅)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "중산구 솽청제에 있는 대만 요리 레스토랑 신예의 창업점이에요. 가게 안내에 따르면 예약은 TableCheck·inline·EZTABLE 공식 플랫폼으로만 받고, 리뷰에서는 무말랭이 계란부침 차이푸단이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJbamMQUWpQjQRiFWnBTPPj_Y",
+    "rating": 4.2,
+    "reviews": 6545
+   },
+   "checked_at": "2026-11-11"
+  },
+  "976": {
+   "name_zh": "紅磡 港式飲茶（中華店）",
+   "address_zh": "108臺北市萬華區西門里中華路一段144號2樓",
+   "address_en": "2樓 Hung Kan, No. 144號, Section 1, Zhonghua Rd, Ximen Village, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "매일 오전 11:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "50m",
+    "meters": 50
+   },
+   "menu": [
+    {
+     "name": "차슈수(叉燒酥)"
+    },
+    {
+     "name": "광저우 볶음밥(廣州炒飯)"
+    },
+    {
+     "name": "시미루(西米露)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "시먼역 바로 앞 중화루 1단 건물 2층에 있는 홍콩식 딤섬집이에요. 가게 안내에 따르면 연중무휴로 오전 11시부터 밤 10시까지 쉬는 시간 없이 열고, 마지막 주문은 밤 9시예요.",
+   "google": {
+    "place_id": "ChIJ5-PXYwmpQjQRgP00DljFP6A",
+    "rating": 4.2,
+    "reviews": 6544
+   },
+   "checked_at": "2026-11-11"
+  },
+  "91": {
+   "name_zh": "龍都冰菓專業家",
+   "address_zh": "108臺北市萬華區糖廍里和平西路三段192號",
+   "address_en": "Lung Tu Shaved Ice Specialist, No. 192號和平西路三段 Tangbu Village, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "월 오전 11:30~오후 10:00",
+    "목~일 오전 11:30~오후 10:00"
+   ],
+   "closed_days": "화요일, 수요일",
+   "mrt": {
+    "label": "룽산쓰역 龍山寺站",
+    "zh": "龍山寺站",
+    "distance": "300m",
+    "meters": 300
+   },
+   "menu": [
+    {
+     "name": "파파야 우유(木瓜牛奶)"
+    },
+    {
+     "name": "팔보빙(八寶)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "룽산쓰역 근처 허핑시루 3단에 있는 전통 빙수집이에요. 화·수요일은 쉬고, 리뷰에서는 파파야 우유와 일본식 빙수, 팔보 토핑 빙수가 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJyYKfM6mpQjQRkrvtdxhd-NQ",
+    "rating": 4.3,
+    "reviews": 5212
+   },
+   "checked_at": "2026-11-11"
+  },
+  "206": {
+   "name_zh": "TGI FRIDAYS 星期五美式餐廳 裕隆城餐廳",
+   "address_zh": "23144新北市新店區寶福里中興路三段70號4樓",
+   "address_en": "23144, New Taipei City, Xindian District, Baofu Village, Section 3, Zhongxing Rd, 70號TGI FRIDAYS 星期五美式餐廳 裕隆城餐廳4樓",
+   "hours_summary": [
+    "월~목 오전 11:00~오후 9:30",
+    "금~토 오전 11:00~오후 10:00",
+    "일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "치장역 七張站",
+    "zh": "七張站",
+    "distance": "450m",
+    "meters": 450
+   },
+   "menu": [
+    {
+     "name": "폭립(肋排)"
+    },
+    {
+     "name": "스테이크(牛排)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$600~800 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$600-800",
+   "intro": "신베이 신뎬 위룽청 쇼핑몰 4층에 있는 미국식 캐주얼 체인 레스토랑이에요. 가게 소개에 따르면 맥주·칵테일과 미국식 요리를 내고, 리뷰에서는 폭립과 스테이크가 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJQypzveUBaDQRR9Tkk_lM70k",
+    "rating": 4.8,
+    "reviews": 2530
+   },
+   "checked_at": "2026-11-11"
+  },
+  "834": {
+   "name_zh": "御品元冰火湯圓",
+   "address_zh": "106臺北市大安區通化里通化街39巷50弄31號",
+   "address_en": "Yu Pin Yuan Iced and Hot Tangyuan, No. 31號, Alley 50, Lane 39, Tonghua St, Tonghua Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "월~목 오후 6:00~11:30",
+    "금 오후 6:00~오전 12:00",
+    "토 오후 5:30~오전 12:00",
+    "일 오후 5:30~11:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "신이안허역 信義安和站",
+    "zh": "信義安和站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "빙훠탕위안(冰火湯圓)"
+    },
+    {
+     "name": "주냥(酒釀)"
+    }
+   ],
+   "menu_source": "name+topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "신이안허역 근처 퉁화제 골목에 있는 디저트 가게로, 저녁 5시 30분~6시에 열어 자정 무렵까지 영업해요. 따뜻한 깨 탕위안을 빙수와 함께 내는 빙훠탕위안이 대표이고, 리뷰에서는 계화 시럽이 가장 많이 언급돼요.",
+   "google": {
+    "place_id": "ChIJjWjxbMurQjQRKPVrEtnfdZs",
+    "rating": 4.4,
+    "reviews": 3957
+   },
+   "checked_at": "2026-11-11"
+  },
+  "44": {
+   "name_zh": "橘色涮涮屋一館",
+   "address_zh": "106臺北市大安區仁愛里大安路一段135號B1",
+   "address_en": "B1 Orange Shabu 1, No. 135, Section 1, Da'an Rd, Ren'ai Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "매일 오전 11:30~오후 11:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "중샤오푸싱역 忠孝復興站",
+    "zh": "忠孝復興站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "샤브샤브 마무리 죽(粥)"
+    },
+    {
+     "name": "행인두부(杏仁豆腐)"
+    }
+   ],
+   "menu_source": "owner+topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "중샤오푸싱역 근처 다안루 1단 지하 1층에 있는 고급 샤브샤브 전문점이에요. 가게 소개에 따르면 일본식 구리 냄비를 쓰고 직원이 자리에서 조리를 도와주며, 마지막 죽과 수제 행인두부가 대표 메뉴예요.",
+   "google": {
+    "place_id": "ChIJRZwXrdGrQjQRpyyG5z9_9yo",
+    "rating": 4.3,
+    "reviews": 4430
+   },
+   "checked_at": "2026-11-11"
+  },
+  "855": {
+   "name_zh": "陳記腸蚵專業麵線",
+   "address_zh": "108臺北市萬華區糖廍里和平西路三段166號",
+   "address_en": "108, Taipei City, Wanhua District, Tangbu Village, 和平西路三段166號陳記腸蚵專業麵線",
+   "hours_summary": [
+    "매일 오전 6:30~오후 7:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "룽산쓰역 龍山寺站",
+    "zh": "龍山寺站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "곱창 굴 면선(腸蚵麵線)"
+    }
+   ],
+   "menu_source": "name",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "룽산쓰역 근처 허핑시루 3단에 있는 면선집으로, 매일 오전 6시 30분부터 저녁 7시까지 열어요. 구글 소개처럼 굴과 곱창을 넣은 걸쭉한 면선이 주력 메뉴예요.",
+   "google": {
+    "place_id": "ChIJX_m2la6pQjQRK64yjoqyitA",
+    "rating": 4.2,
+    "reviews": 4940
+   },
+   "checked_at": "2026-11-11"
+  },
+  "271": {
+   "name_zh": "藍家割包/四神湯",
+   "address_zh": "100臺北市中正區文盛里羅斯福路三段316巷8弄3號",
+   "address_en": "100, Taipei City, Zhongzheng District, Wencheng Village, Alley 8, Ln. 316, Section 3, Roosevelt Rd, 3號 란지아 꽈빠오",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 10:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "궁관역 公館站",
+    "zh": "公館站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "꽈바오(刈包)"
+    },
+    {
+     "name": "쓰선탕(四神湯)"
+    }
+   ],
+   "menu_source": "topics+name",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "궁관역 근처 뤄쓰푸루 3단 골목에 있는 꽈바오 가게로, 국립대만대학교와 가까워요. 월요일은 쉬고 오전 11시부터 밤 10시까지 열어요. 리뷰에서는 고기를 땅콩가루와 함께 넣은 꽈바오가 가장 많이 언급돼요.",
+   "google": {
+    "place_id": "ChIJzVr3l4upQjQRHTNqYkEgR40",
+    "rating": 4,
+    "reviews": 7155
+   },
+   "checked_at": "2026-11-11"
+  },
+  "717": {
+   "name_zh": "如邑堂 台北開封店",
+   "address_zh": "108臺北市萬華區福星里開封街二段22號",
+   "address_en": "루이탕 제과점 No. 22號, Section 2, Kaifeng St, Fuxing Village, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "매일 오전 8:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "태양병(太陽餅)"
+    },
+    {
+     "name": "펑리수(鳳梨酥)"
+    },
+    {
+     "name": "단황수(蛋黃酥)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "시먼역 근처 카이펑제 2단에 있는 대만 전통 과자점으로, 매일 오전 8시부터 밤 10시까지 열어요. 리뷰에서는 태양병과 펑리수가 가장 많이 언급되고, 기념품을 사러 들르는 곳으로 자주 이야기돼요.",
+   "google": {
+    "place_id": "ChIJP-LkHwypQjQRVSxVzxp0EIU",
+    "rating": 4.6,
+    "reviews": 2800
+   },
+   "checked_at": "2026-11-11"
+  },
+  "842": {
+   "name_zh": "LA VILLA DANSHUI",
+   "address_zh": "251新北市淡水區文化里中正路261號",
+   "address_en": "251, New Taipei City, Tamsui District, Wenhua Village, Zhongzheng Rd, 261號LA VILLA DANSHUI",
+   "hours_summary": [
+    "매일 오전 11:30~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "소프트셸크랩(軟殼蟹)"
+    },
+    {
+     "name": "독일식 족발(德國豬腳)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "신베이 단수이 중정루에 있는 이탈리안·유럽식 레스토랑으로, 단수이 강변 쪽에 있어요. 리뷰에서는 노을 풍경과 세트 메뉴, 라이브 연주 이야기가 많고, 매일 오전 11시 30분부터 밤 10시까지 열어요.",
+   "google": {
+    "place_id": "ChIJc1TGgU-lQjQRhrZn4huypp0",
+    "rating": 4.3,
+    "reviews": 4159
+   },
+   "checked_at": "2026-11-11"
+  },
+  "238": {
+   "name_zh": "雞家莊本店",
+   "address_zh": "10491臺北市中山區中山里長春路55號",
+   "address_en": "Chi Chia Chuang (Changchun Road), No. 55號, Changchun Rd, Zhongshan Village, Zhongshan District, Taipei City, 10491",
+   "hours_summary": [
+    "매일 오전 11:30~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "솽롄역 雙連站",
+    "zh": "雙連站",
+    "distance": "600m",
+    "meters": 600
+   },
+   "menu": [
+    {
+     "name": "푸딩(布丁)"
+    },
+    {
+     "name": "지쥐안(雞捲)"
+    },
+    {
+     "name": "오골계 요리(烏骨雞)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "중산구 창춘루에 있는 닭 요리 중심의 대만 음식점 본점이에요. 구글 소개처럼 전통 닭 요리가 주력이고, 리뷰에서는 푸딩과 지쥐안, 오골계 요리가 자주 언급돼요. 가게 측은 유료 제3자 예약 플랫폼과 제휴하지 않는다고 안내해요.",
+   "google": {
+    "place_id": "ChIJ0aRZ3GepQjQRc_WIUd_mZiY",
+    "rating": 4.2,
+    "reviews": 4822
+   },
+   "checked_at": "2026-11-11"
+  },
+  "236": {
+   "name_zh": "黃金麵線",
+   "address_zh": "105臺北市松山區民有里民權東路三段160巷15號",
+   "address_en": "Golden Taiwanese Vermicelli, No. 15號, Lane 160, Section 3, Minquan E Rd, Minyou Village, Songshan District, Taipei City, 105",
+   "hours_summary": [
+    "월~금 오전 10:00~오후 7:00",
+    "토 오전 10:00~오후 6:30"
+   ],
+   "closed_days": "일요일",
+   "mrt": {
+    "label": "중산궈중역 中山國中站",
+    "zh": "中山國中站",
+    "distance": "350m",
+    "meters": 350
+   },
+   "menu": [
+    {
+     "name": "곱창 면선(大腸麵線)"
+    },
+    {
+     "name": "샤오롱바오(小籠包)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "중산궈중역 근처 민취안둥루 3단 골목에 있는 면선집이에요. 일요일은 쉬고 토요일은 오후 6시 30분에 닫아요. 리뷰에서는 곱창 면선과 함께 샤오롱바오·탕바오가 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ62CYaOWrQjQRgDwg4C5xxyA",
+    "rating": 4.5,
+    "reviews": 3059
+   },
+   "checked_at": "2026-11-11"
+  },
+  "1014": {
+   "name_zh": "添好運台北站前店",
+   "address_zh": "100臺北市中正區黎明里忠孝西路一段36號",
+   "address_en": "팀호완 중샤오서점 No. 36忠孝西路一段 Liming Village, Zhongzheng District, Taipei City, 100",
+   "hours_summary": [
+    "월~금 오전 10:00~오후 9:30",
+    "토~일 오전 10:00~오후 10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "타이베이역 台北車站",
+    "zh": "台北車站",
+    "distance": "50m",
+    "meters": 50
+   },
+   "menu": [
+    {
+     "name": "소보로 차슈바오(酥皮叉燒包)"
+    },
+    {
+     "name": "류사바오(流沙包)"
+    },
+    {
+     "name": "푸피쥐안(腐皮捲)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$800~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$800-1000",
+   "intro": "타이베이역 바로 앞 중샤오시루 1단에 있는 홍콩 딤섬 체인 팀호완 지점이에요. 가게 소개에 따르면 주문을 받은 뒤 바로 찌는 방식이고, 리뷰에서는 소보로 차슈바오와 류사바오가 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ3afPV3KpQjQRPhsvizjglvI",
+    "rating": 3.9,
+    "reviews": 8367
+   },
+   "checked_at": "2026-11-11"
+  },
+  "1020": {
+   "name_zh": "故宮晶華",
+   "address_zh": "111臺北市士林區臨溪里至善路二段221號",
+   "address_en": "Silks Palace, No. 221號, Sec 2, Zhi Shan Rd, Linxi Village, Shilin District, Taipei City, 111",
+   "hours_summary": [
+    "화~금 오전 11:30~오후 2:30, 오후 5:00~8:30",
+    "토~일 오전 11:00~오후 3:00, 오후 5:00~8:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "우육면(牛肉麵)"
+    },
+    {
+     "name": "동파육(東坡肉)"
+    },
+    {
+     "name": "뤼다군(驢打滾)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "국립고궁박물원 옆에 있는 광둥 요리 레스토랑으로, 박물관 관람과 묶어 가기 좋아요. 월요일은 쉬고 점심과 저녁 사이에 쉬는 시간이 있어요. 리뷰에서는 우육면과 동파육이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJoTVYRDusQjQRL1K7oCgJ7Sk",
+    "rating": 4.1,
+    "reviews": 5574
+   },
+   "checked_at": "2026-11-11"
+  },
+  "284": {
+   "name_zh": "鹿兒島燒肉專賣店 板橋文化店",
+   "address_zh": "220新北市板橋區漢生里文化路一段205號",
+   "address_en": "220, New Taipei City, Banqiao District, Hansheng Village, Section 1, Wenhua Rd, 205號鹿兒島燒肉專賣店 板橋文化店",
+   "hours_summary": [
+    "월 오후 5:00~11:30",
+    "화~일 오후 12:00~4:00, 오후 5:00~11:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "신푸역 新埔站",
+    "zh": "新埔站",
+    "distance": "850m",
+    "meters": 850
+   },
+   "menu": [
+    {
+     "name": "야키니쿠(烤肉)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$1,400~2,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1400-2000",
+   "intro": "신베이 반차오 원화루 1단에 있는 야키니쿠 전문점이에요. 가게 안내에 따르면 세트·단품·오마카세 방식을 고를 수 있고, 세트에는 10% 서비스 요금이 붙어요. 월요일은 저녁에만 열어요.",
+   "google": {
+    "place_id": "ChIJGy2hNB-oQjQRL_vlhCw7QE0",
+    "rating": 4.5,
+    "reviews": 3016
+   },
+   "checked_at": "2026-11-11"
+  },
+  "241": {
+   "name_zh": "香港鑫華茶餐廳",
+   "address_zh": "106臺北市大安區永康里愛國東路101號1樓",
+   "address_en": "1樓 Hong Kong Xin Hua Restaurant, No. 101號, Aiguo E Rd, Yongkang Village, Da’an District, Taipei City, 106",
+   "hours_summary": [
+    "매일 오전 11:00~오후 2:30, 오후 5:00~8:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "둥먼역 東門站",
+    "zh": "東門站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "무떡(蘿蔔糕)"
+    },
+    {
+     "name": "솔트피시 닭고기 볶음밥(鹹魚雞粒炒飯)"
+    },
+    {
+     "name": "라오훠탕(老火湯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "둥먼역 근처 아이궈둥루 101호 1층의 홍콩식 차찬텡이에요. 가게 공지에 따르면 6월 16일부터 이 주소로 옮겼고, 딤섬집이 아닌 차찬텡이라고 안내해요. 점심과 저녁 사이에 쉬는 시간이 있어요.",
+   "google": {
+    "place_id": "ChIJI-fDY4OpQjQRCTU_iaWpbeA",
+    "rating": 4.2,
+    "reviews": 4376
+   },
+   "checked_at": "2026-11-11"
+  },
+  "794": {
+   "name_zh": "四海豆漿大王",
+   "address_zh": "103臺北市大同區建泰里長安西路29號",
+   "address_en": "사해두장대왕 No. 29, Chang'an W Rd, Jiantai Village, Datong District, Taipei City, 103",
+   "hours_summary": [
+    "월~토 오전 6:00~오후 8:30",
+    "일 오전 6:00~오후 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "중산역 中山站",
+    "zh": "中山站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "샤오롱바오(小籠包)"
+    },
+    {
+     "name": "사오빙(燒餅)"
+    },
+    {
+     "name": "셴또우장(鹹豆漿)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "중산역 근처 창안시루에 있는 아침 전문점으로, 오전 6시에 열고 일요일은 오후 1시에 닫아요. 리뷰에서는 샤오롱바오와 사오빙, 짭짤한 두유 셴또우장이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ04wMKmypQjQRk8QeLevjJO8",
+    "rating": 4.2,
+    "reviews": 4213
+   },
+   "checked_at": "2026-11-11"
+  },
+  "75": {
+   "name_zh": "老山東牛肉麵",
+   "address_zh": "108臺北市萬華區西門里西寧南路70號B1之15室",
+   "address_en": "B1之15室 Lao Shan Dong Homemade Noodles, No. 70號, Xining Rd, Ximen Village, Wanhua District, Taipei City, 108",
+   "hours_summary": [
+    "매일 오전 10:30~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "250m",
+    "meters": 250
+   },
+   "menu": [
+    {
+     "name": "우육면(牛肉麵)"
+    },
+    {
+     "name": "만두(餃子)"
+    },
+    {
+     "name": "칼국수면(刀切麵)"
+    }
+   ],
+   "menu_source": "name+topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "시먼역 근처 완녠상업빌딩 지하 1층에 있는 산둥식 우육면집이에요. 매일 오전 10시 30분부터 밤 9시 30분까지 열고, 리뷰에서는 우육면과 함께 만두, 칼로 썬 면이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJsSC8HAmpQjQR7uCNzzunDRw",
+    "rating": 4,
+    "reviews": 5890
+   },
+   "checked_at": "2026-11-11"
+  },
+  "701": {
+   "name_zh": "犂園湯包館",
+   "address_zh": "10550臺北市松山區中正里南京東路三段256巷24號",
+   "address_en": "Li Yuan, No. 24號, Lane 256, Section 3, Nanjing E Rd, Zhongzheng Village, Songshan District, Taipei City, 10550",
+   "hours_summary": [],
+   "closed_days": null,
+   "mrt": {
+    "label": "난징푸싱역 南京復興站",
+    "zh": "南京復興站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "수세미 탕바오(絲瓜湯包)"
+    },
+    {
+     "name": "궈톄(鍋貼)"
+    },
+    {
+     "name": "소고기 셴빙(牛肉餡餅)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "난징푸싱역 근처 난징둥루 3단 골목에 있는 만두·탕바오 가게예요. 가게 안내에 따르면 현금만 받고, 마지막 주문은 점심 14:00, 저녁 20:45예요. 리뷰에서는 궈톄와 수세미 탕바오가 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ1dfMut2rQjQRdHCTynTAah8",
+    "rating": 4.2,
+    "reviews": 4069
+   },
+   "checked_at": "2026-11-11"
+  },
+  "214": {
+   "name_zh": "岩漿漢方麻辣火鍋-台北微風信義店",
+   "address_zh": "110臺北市信義區興雅里忠孝東路五段68號4樓",
+   "address_en": "4樓 Magma Hotpot Breeze Xinyi Branch, No. 68號, Section 5 of Zhongxiao East RoadSection 5 of Zhongxiao E Rd, Xingya Village, Xinyi District, Taipei City, 110",
+   "hours_summary": [
+    "월~수 오전 11:00~오후 9:30",
+    "목~토 오전 11:00~오후 10:00",
+    "일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "스정푸역 市政府站",
+    "zh": "市政府站",
+    "distance": "100m",
+    "meters": 100
+   },
+   "menu": [
+    {
+     "name": "한방 마라 훠궈(漢方麻辣鍋)"
+    }
+   ],
+   "menu_source": "owner",
+   "price_range": "1인 약 NT$400~1,000 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-1000",
+   "intro": "스정푸역 바로 옆 브리즈 신이 4층에 있는 마라 훠궈집이에요. 가게 소개에 따르면 한방 약재로 끓인 마라 육수가 특징이에요. 목~토요일은 밤 10시까지 열어요.",
+   "google": {
+    "place_id": "ChIJd3O0-WmrQjQRHVLpMmy77_k",
+    "rating": 4.9,
+    "reviews": 1791
+   },
+   "checked_at": "2026-11-11"
+  },
+  "82": {
+   "name_zh": "正豪季水餃（忠孝西路店）",
+   "address_zh": "100臺北市中正區黎明里忠孝西路一段29巷1號",
+   "address_en": "100, Taipei City, Zhongzheng District, Liming Village, Lane 29, Section 1, Zhongxiao W Rd, 1號正豪季水餃（忠孝西路店）",
+   "hours_summary": [
+    "월~토 오전 10:30~오후 8:00"
+   ],
+   "closed_days": "일요일",
+   "mrt": {
+    "label": "타이베이역 台北車站",
+    "zh": "台北車站",
+    "distance": "150m",
+    "meters": 150
+   },
+   "menu": [
+    {
+     "name": "새우 물만두(蝦仁水餃)"
+    },
+    {
+     "name": "죽순 물만두(竹筍)"
+    },
+    {
+     "name": "짜장면(炸醬麵)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이베이역 근처 중샤오시루 1단 골목에 있는 물만두 가게로, 일요일은 쉬어요. 가게 안내에 따르면 먼저 계산하는 방식이고, 리뷰에서는 새우 만두와 죽순 만두, 짜장면이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJq6qqqj-pQjQRIW77IoVJx3g",
+    "rating": 4.3,
+    "reviews": 3380
+   },
+   "checked_at": "2026-11-11"
+  }
+ }
+}

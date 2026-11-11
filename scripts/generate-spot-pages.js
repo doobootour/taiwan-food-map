@@ -34,6 +34,48 @@ function loadGlobals(files) {
 const { REGIONS, CATEGORIES, REGION_CONTENT } = loadGlobals(["js/data.js", "js/region-content.js"]);
 const { CATEGORY_CONTENT } = loadGlobals(["js/data.js", "js/category-content.js"]);
 
+/* 타이베이 인기 맛집 보강 데이터(주소·영업시간·휴무일·MRT·대표메뉴·가격대·정보형 소개).
+   출처: 이미 확인된 정확한 구글맵 업체 정보 + 출처가 확인된 항목만. 없는 칸은 비워 둔다.
+   선정 기준·출처는 scripts/data/spot-enrichment.json 의 meta 참고. */
+const ENRICHMENT_PATH = path.join(__dirname, "data/spot-enrichment.json");
+const ENRICHMENT = fs.existsSync(ENRICHMENT_PATH) ? JSON.parse(fs.readFileSync(ENRICHMENT_PATH, "utf8")) : { meta: {}, spots: {} };
+const ENRICH_BY_ID = ENRICHMENT.spots || {};
+/* 카테고리와 실제 업종이 다른 것으로 확인된 스팟(예: BBQ로 등록된 미국식 체인) — '근처 다른 ○○ 맛집'에서 뺀다. */
+const CATEGORY_MISMATCH = new Set((ENRICHMENT.category_mismatch || []).map(x => Number(x.id)));
+
+const NEAR_RADIUS_KM = 2;
+const WIDE_RADIUS_KM = 5;
+const MAX_SIBLINGS = 6;
+
+function distanceKm(a, b) {
+  const toRad = d => (d * Math.PI) / 180;
+  const dLat = toRad(b.lat - a.lat);
+  const dLng = toRad(b.lng - a.lng);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.sin(dLng / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
+}
+
+/* '근처 다른 ○○ 맛집' 후보: 같은 지역 + 같은 카테고리 + 업종 불일치 제외 + 좌표 거리순.
+   2km 안에 있으면 '근처', 없으면 5km 안을 '같은 지역'으로, 그것도 없으면 상자를 숨긴다. */
+function pickSiblings(spot, sameRegionCategory) {
+  if (CATEGORY_MISMATCH.has(Number(spot.id))) return { mode: "none", list: [] };
+  const valid = n => typeof n === "number" && Number.isFinite(n);
+  if (!valid(spot.lat) || !valid(spot.lng)) return { mode: "none", list: [] };
+  const ranked = sameRegionCategory
+    .filter(s => s.id !== spot.id && !CATEGORY_MISMATCH.has(Number(s.id)) && valid(s.lat) && valid(s.lng))
+    .map(s => ({ ...s, _km: distanceKm(spot, s) }))
+    .sort((a, b) => a._km - b._km);
+  const near = ranked.filter(s => s._km <= NEAR_RADIUS_KM).slice(0, MAX_SIBLINGS);
+  if (near.length) return { mode: "near", list: near };
+  const wide = ranked.filter(s => s._km <= WIDE_RADIUS_KM).slice(0, MAX_SIBLINGS);
+  if (wide.length) return { mode: "wide", list: wide };
+  return { mode: "none", list: [] };
+}
+
+function formatKm(km) {
+  return km < 1 ? `${Math.max(100, Math.round((km * 1000) / 100) * 100)}m` : `${km.toFixed(1)}km`;
+}
+
 const REGION_BY_ID = Object.fromEntries(REGIONS.map(r => [r.id, r]));
 const CATEGORY_BY_ID = Object.fromEntries(CATEGORIES.map(c => [c.id, c]));
 
@@ -226,7 +268,7 @@ function ctaBandHtml() {
 function siblingSpotCardHtml(spot, category) {
   return `
             <div class="region-spot-card">
-              <span class="name">${escapeHtml(spot.name || category.ko)}</span>
+              <span class="name">${escapeHtml(spot.name || category.ko)}${typeof spot._km === "number" ? ` <small style="color:var(--ink-soft,#7a6a5d);font-weight:500;">· 약 ${formatKm(spot._km)}</small>` : ""}</span>
               <span class="region-spot-links">
                 <a class="view-link" href="/${slugForSpot(spot)}">상세 보기 →</a>
                 <a class="view-link google-link" href="${googleMapsUrl(spot)}" target="_blank" rel="noopener">${googleMapsLinkLabel(spot, "ko")}</a>
@@ -247,12 +289,28 @@ function reservationLinkHtml(spot, category, name, mapsHref) {
 }
 
 /* ===================== 개별 스팟 페이지 ===================== */
-function buildSpotPage(spot, region, category, siblings, hasCombo) {
+function enrichmentInfoLines(e) {
+  const lines = [];
+  const li = (label, html) => `<li><span class="check">✓</span><span>${label} — ${html}</span></li>`;
+  if (e.address_zh) lines.push(li("주소", `${escapeHtml(e.address_zh)}${e.address_en ? `<br><small style="color:var(--ink-soft,#7a6a5d);">${escapeHtml(e.address_en)}</small>` : ""}`));
+  if (e.hours_summary && e.hours_summary.length) lines.push(li("영업시간", e.hours_summary.map(h => escapeHtml(h)).join("<br>")));
+  if (e.closed_days) lines.push(li("휴무일", escapeHtml(e.closed_days)));
+  if (e.mrt) lines.push(li("가까운 MRT역", `${escapeHtml(e.mrt.label)} · 직선 약 ${escapeHtml(e.mrt.distance)}`));
+  if (e.menu && e.menu.length) lines.push(li("대표 메뉴", e.menu.map(m => escapeHtml(m.price ? `${m.name} ${m.price}` : m.name)).join(" · ")));
+  if (e.price_range) lines.push(li("가격대", escapeHtml(e.price_range)));
+  return lines;
+}
+
+function buildSpotPage(spot, region, category, siblingPick, hasCombo) {
+  const siblings = siblingPick.list;
+  const enrich = ENRICH_BY_ID[String(spot.id)] || null;
   const slug = slugForSpot(spot);
   const name = spot.name || `${region.ko} ${category.ko} 맛집`;
   const title = `${name} · ${region.ko} ${category.ko} 맛집 · 나만 알고 싶은 대만 맛집`;
   const reviewSnippet = spot.review && spot.review.trim() ? spot.review.trim() : "";
-  const description = reviewSnippet
+  const description = enrich && enrich.intro
+    ? `${enrich.intro}`.slice(0, 110)
+    : reviewSnippet
     ? `${reviewSnippet}`.slice(0, 90)
     : `여행자가 직접 등록한 ${region.ko}의 ${category.ko} 맛집, ${name}. 위치와 구글맵 링크를 확인해보세요.`;
   const ogImage = `${SITE}/assets/images/regions/${region.id}-og.jpg`;
@@ -272,7 +330,8 @@ function buildSpotPage(spot, region, category, siblings, hasCombo) {
     {
       "@type": "LocalBusiness",
       name,
-      ...(spot.address ? { address: spot.address } : {}),
+      ...(enrich && enrich.address_zh ? { address: enrich.address_zh } : spot.address ? { address: spot.address } : {}),
+      ...(enrich && enrich.price_range_schema ? { priceRange: enrich.price_range_schema } : {}),
       geo: { "@type": "GeoCoordinates", latitude: spot.lat, longitude: spot.lng },
       url: `${SITE}/${slug}`,
     },
@@ -280,22 +339,34 @@ function buildSpotPage(spot, region, category, siblings, hasCombo) {
 
   const introHtml = reviewSnippet
     ? `<blockquote class="blog-quote">"${escapeHtml(reviewSnippet)}"</blockquote>`
+    : enrich && enrich.intro
+    ? ""
     : `<p class="region-intro">여행자들이 직접 찾아가 등록한 ${escapeHtml(region.ko)}의 ${escapeHtml(category.ko)} 맛집이에요. 구글맵 링크와 좌표로 위치를 확인하고, 실제 지도에서 주변 맛집도 함께 둘러보세요.</p>`;
 
   const infoLines = [
     `<li><span class="check">✓</span>지역 — <a href="/region-${region.id}">${escapeHtml(region.ko)}</a></li>`,
     `<li><span class="check">✓</span>카테고리 — <a href="/category-${category.id}">${escapeHtml(category.ko)}</a></li>`,
   ];
-  if (spot.address) infoLines.push(`<li><span class="check">✓</span>주소 — ${escapeHtml(spot.address)}</li>`);
+  if (enrich) infoLines.push(...enrichmentInfoLines(enrich));
+  else if (spot.address) infoLines.push(`<li><span class="check">✓</span>주소 — ${escapeHtml(spot.address)}</li>`);
   if (spot.nickname) infoLines.push(`<li><span class="check">✓</span>등록 — ${escapeHtml(spot.nickname)}님</li>`);
 
   const comboLinkHtml = hasCombo
     ? `<p style="margin:0 0 32px;"><a class="link-all" href="/${comboSlug(region.id, category.id)}">${escapeHtml(region.ko)} ${escapeHtml(category.ko)} 맛집 더보기 →</a></p>`
     : "";
 
+  const enrichIntroHtml = enrich && enrich.intro
+    ? `<p class="region-intro">${escapeHtml(enrich.intro)}</p>`
+    : "";
+  const enrichNoteHtml = enrich
+    ? `<p class="region-intro" style="font-size:13px;margin:-4px 0 24px;">주소·영업시간·휴무일은 구글 지도 업체 정보 기준(${escapeHtml(enrich.checked_at || "")} 확인)이에요. 명절·임시 휴무로 바뀔 수 있으니 출발 전 구글맵에서 한 번 더 확인해 주세요.</p>`
+    : "";
+  const siblingHeading = siblingPick.mode === "near"
+    ? `근처 다른 ${escapeHtml(category.ko)} 맛집 <small style="font-size:14px;font-weight:500;">(${NEAR_RADIUS_KM}km 이내)</small>`
+    : `같은 지역 다른 ${escapeHtml(category.ko)} 맛집 <small style="font-size:14px;font-weight:500;">(${WIDE_RADIUS_KM}km 이내)</small>`;
   const siblingsHtml = siblings.length
     ? `
-      <h2 class="region-h2">근처 다른 ${escapeHtml(category.ko)} 맛집</h2>
+      <h2 class="region-h2">${siblingHeading}</h2>
       <div class="region-spots-group">${siblings.map(s => siblingSpotCardHtml(s, category)).join("")}</div>`
     : "";
 
@@ -319,11 +390,13 @@ function buildSpotPage(spot, region, category, siblings, hasCombo) {
       </p>
 
       ${introHtml}
+      ${enrichIntroHtml}
 
       <h2 class="region-h2">맛집 정보</h2>
       <ul class="region-activity-list">
         ${infoLines.join("\n        ")}
       </ul>
+      ${enrichNoteHtml}
 
       <div class="hero-actions" style="margin:8px 0 32px;">
         <a class="btn primary" href="${mapsUrl}" target="_blank" rel="noopener">${mapsLabel}</a>
@@ -451,8 +524,8 @@ async function main() {
     const region = REGION_BY_ID[spot.region];
     const category = CATEGORY_BY_ID[spot.category];
     const key = `${spot.region}|${spot.category}`;
-    const siblings = byRegionCategory[key].filter(s => s.id !== spot.id).slice(0, 6);
-    const html = buildSpotPage(spot, region, category, siblings, comboKeys.has(key));
+    const siblingPick = pickSiblings(spot, byRegionCategory[key]);
+    const html = buildSpotPage(spot, region, category, siblingPick, comboKeys.has(key));
     fs.writeFileSync(path.join(root, `${slugForSpot(spot)}.html`), html);
     spotCount++;
     if (isIndexableSpot(spot)) indexableCount++;
