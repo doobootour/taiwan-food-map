@@ -14,14 +14,14 @@
 <meta name="theme-color" content="#c2703f" />
 <link rel="icon" type="image/png" href="assets/favicon.png" />
 <title>대만 식당 예약대행 · 나만 알고 싶은 대만 맛집</title>
-<meta name="description" content="전화·중국어 예약이 어려운 대만 식당 예약을 대신 해 드려요. 예약대행료 5,000원, 신청 양식 복사 후 카카오톡으로 보내면 끝." />
+<meta name="description" content="전화·중국어 예약이 어려운 대만 식당 예약을 대신 해 드려요. 예약대행료 5,000원, 양식을 채워 신청하면 24시간 이내에 카톡으로 안내드려요." />
 <link rel="canonical" href="https://taiwanbite.com/reservation" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://taiwanbite.com/reservation" />
 <meta property="og:site_name" content="나만 알고 싶은 대만 맛집" />
 <meta property="og:locale" content="ko_KR" />
 <meta property="og:title" content="대만 식당 예약대행 · 나만 알고 싶은 대만 맛집" />
-<meta property="og:description" content="전화·중국어 예약이 어려운 대만 식당 예약을 대신 해 드려요. 예약대행료 5,000원, 신청 양식 복사 후 카카오톡으로 보내면 끝." />
+<meta property="og:description" content="전화·중국어 예약이 어려운 대만 식당 예약을 대신 해 드려요. 예약대행료 5,000원, 양식을 채워 신청하면 24시간 이내에 카톡으로 안내드려요." />
 <meta property="og:image" content="https://taiwanbite.com/assets/images/hero/flatlay_2-og.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 
@@ -96,6 +96,16 @@
   .rsv-copy:hover { background: #000; }
   .rsv-kakao { background: #FEE500; color: #3C1E1E; border: none; }
   .rsv-kakao:hover { box-shadow: 0 10px 26px rgba(254,229,0,.35); }
+  .rsv-submit { width: 100%; justify-content: center; padding: 18px 12px; font-size: 16.5px; font-weight: 700; border-radius: var(--radius-full); background: var(--terracotta); color: #fff; border: none; box-shadow: var(--shadow-md); }
+  .rsv-submit:hover { background: var(--terracotta-dark); }
+  .rsv-submit:disabled { opacity: .65; cursor: wait; }
+  .rsv-msg { display: none; border-radius: var(--radius-sm); padding: 14px 16px; font-size: 14.5px; line-height: 1.7; }
+  .rsv-msg.ok { display: block; background: var(--sage-tint); color: var(--ink); }
+  .rsv-msg.err { display: block; background: #fbe4e1; color: #8a2a1d; }
+  .rsv-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  .rsv-alt { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; font-size: 13px; color: var(--ink-faint); }
+  .rsv-alt-btn { font: inherit; font-size: 13px; font-weight: 600; padding: 7px 12px; border-radius: var(--radius-full); border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft); cursor: pointer; }
+  .rsv-alt-btn.kakao { background: #FEE500; border-color: #FEE500; color: #3C1E1E; }
   .rsv-status { display: none; background: var(--sage-tint); color: var(--ink); border-radius: var(--radius-sm); padding: 12px 14px; font-size: 14px; }
   .rsv-status.show { display: block; }
   .rsv-template { margin-top: 18px; background: var(--surface); border: 1px dashed var(--border); border-radius: var(--radius-md); padding: 14px 18px; }
@@ -175,7 +185,7 @@
 
       <h2 class="rsv-h2">진행 순서</h2>
       <ol class="rsv-steps">
-        <li><span class="n">1</span><div><b>신청</b><p>아래 양식을 채우고 <b>카톡으로 보내기</b>를 눌러 주세요.</p></div></li>
+        <li><span class="n">1</span><div><b>신청</b><p>아래 양식을 채우고 <b>신청하기</b>를 눌러 주세요.</p></div></li>
         <li><span class="n">2</span><div><b>예약 시도</b><p>식당에 예약을 넣어 보고, 자리가 없으면 고르신 방법대로 진행해요.</p></div></li>
         <li><span class="n">3</span><div><b>완료 안내</b><p>예약이 확정되면 카카오톡으로 예약 내용을 알려 드려요.</p></div></li>
       </ol>
@@ -198,9 +208,9 @@
     <div class="rsv-wrap">
       <span class="eyebrow">Apply</span>
       <h2 class="rsv-h2" style="margin-top:8px;">예약대행 신청 양식</h2>
-      <p class="rsv-lead">채운 내용은 서버에 저장되지 않아요. <b>복사하기</b> 후 카카오톡 채팅창에 붙여넣거나, <b>카톡으로 보내기</b>를 누르면 복사와 동시에 카카오톡 상담창이 열려요.</p>
+      <p class="rsv-lead">양식을 채우고 <b>신청하기</b>를 누르면 바로 접수돼요. 신청 후 24시간 이내에 적어 주신 연락처(카톡)로 안내드려요.</p>
 
-      <form class="rsv-form" id="rsvForm" onsubmit="return false;">
+      <form class="rsv-form" id="rsvForm" novalidate>
         <label class="f"><span>1. 식당 이름 <em>*</em></span><input id="fName" type="text" maxlength="120" placeholder="예) 딘타이펑" required></label>
         <label class="f"><span>2. 지점 또는 구글맵 링크 <em>*</em></span><input id="fBranch" type="text" maxlength="500" placeholder="예) 101점 또는 https://maps.app.goo.gl/..." required></label>
         <label class="f"><span>3. 희망 날짜 <em>*</em></span><input id="fDate" type="date" required></label>
@@ -234,9 +244,13 @@
           <p>※ 신청 후 24시간 이내에 카톡으로 안내드려요</p>
         </div>
 
-        <div class="rsv-actions">
-          <button type="button" class="btn rsv-copy" id="copyBtn">복사하기</button>
-          <a class="btn rsv-kakao" id="kakaoBtn" href="https://pf.kakao.com/_Vcnaxj/chat" target="_blank" rel="noopener">카톡으로 보내기</a>
+        <div class="rsv-hp" aria-hidden="true"><label>웹사이트<input type="text" id="fWebsite" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit" class="btn rsv-submit" id="submitBtn">신청하기</button>
+        <div class="rsv-msg" id="submitMsg" role="status" aria-live="polite"></div>
+        <div class="rsv-alt">
+          <span>카톡으로 직접 보내고 싶다면</span>
+          <button type="button" class="rsv-alt-btn" id="copyBtn">양식 복사하기</button>
+          <a class="rsv-alt-btn kakao" id="kakaoBtn" href="https://pf.kakao.com/_Vcnaxj/chat" target="_blank" rel="noopener">카톡으로 보내기</a>
         </div>
         <div class="rsv-status" id="copyStatus" role="status">✓ 복사됐어요! 카카오톡 상담창에 <b>붙여넣기</b> 해서 보내 주세요. 24시간 이내에 카톡으로 안내드려요.</div>
       </form>
@@ -307,7 +321,7 @@
 <script src="js/supabase-config.js?v=1790588220"></script>
 <script src="js/admin.js?v=1790588220"></script>
 <script src="js/app.js?v=1794023100"></script>
-<script src="js/reservation.js?v=1794319200"></script>
+<script src="js/reservation.js?v=1794360000"></script>
 <!-- Naver Analytics -->
 <script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
 <script type="text/javascript">
