@@ -291,11 +291,11 @@ function reservationLinkHtml(spot, category, name, mapsHref) {
 /* ===================== 개별 스팟 페이지 ===================== */
 function enrichmentInfoLines(e) {
   const lines = [];
-  const li = (label, html) => `<li><span class="check">✓</span>${label} — ${html}</li>`;
+  const li = (label, html) => `<li><span class="check">✓</span><span>${label} — ${html}</span></li>`;
   if (e.address_zh) lines.push(li("주소", `${escapeHtml(e.address_zh)}${e.address_en ? `<br><small style="color:var(--ink-soft,#7a6a5d);">${escapeHtml(e.address_en)}</small>` : ""}`));
   if (e.hours_summary && e.hours_summary.length) lines.push(li("영업시간", e.hours_summary.map(h => escapeHtml(h)).join("<br>")));
   if (e.closed_days) lines.push(li("휴무일", escapeHtml(e.closed_days)));
-  if (e.mrt) lines.push(li("가까운 MRT역", `${escapeHtml(e.mrt.label)} (직선 약 ${escapeHtml(e.mrt.distance)})`));
+  if (e.mrt) lines.push(li("가까운 MRT역", `${escapeHtml(e.mrt.label)} · 직선 약 ${escapeHtml(e.mrt.distance)}`));
   if (e.menu && e.menu.length) lines.push(li("대표 메뉴", e.menu.map(m => escapeHtml(m.price ? `${m.name} ${m.price}` : m.name)).join(" · ")));
   if (e.price_range) lines.push(li("가격대", escapeHtml(e.price_range)));
   return lines;
@@ -339,6 +339,8 @@ function buildSpotPage(spot, region, category, siblingPick, hasCombo) {
 
   const introHtml = reviewSnippet
     ? `<blockquote class="blog-quote">"${escapeHtml(reviewSnippet)}"</blockquote>`
+    : enrich && enrich.intro
+    ? ""
     : `<p class="region-intro">여행자들이 직접 찾아가 등록한 ${escapeHtml(region.ko)}의 ${escapeHtml(category.ko)} 맛집이에요. 구글맵 링크와 좌표로 위치를 확인하고, 실제 지도에서 주변 맛집도 함께 둘러보세요.</p>`;
 
   const infoLines = [
