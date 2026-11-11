@@ -310,12 +310,23 @@ async function enrichOne(spot) {
 async function main() {
   const data = fs.existsSync(OPT.dataPath) ? JSON.parse(fs.readFileSync(OPT.dataPath, "utf8")) : { meta: {}, category_mismatch: [], spots: {} };
   data.spots = data.spots || {};
-  const spots = (await fetchAllSpots()).filter(s => {
-    if (OPT.ids && !OPT.ids.has(s.id)) return false;
-    if (OPT.regions && !OPT.regions.includes(s.region)) return false;
-    if (!OPT.force && data.spots[String(s.id)]) return false;
-    return true;
-  });
+  data.skipped = data.skipped || {};
+  const today = OPT.checkedAt;
+  const daysSince = d => (Date.parse(today) - Date.parse(d)) / 86400e3;
+  // 최근 7일 안에 건너뛴 맛집은 다시 시도하지 않는다(--ids로 지정하거나 --retry-skipped면 시도).
+  const recentlySkipped = id => {
+    const sk = data.skipped[String(id)];
+    return sk && !flag("retry-skipped") && !OPT.ids && daysSince(sk.checked_at) < 7;
+  };
+  const spots = (await fetchAllSpots())
+    .filter(s => {
+      if (OPT.ids && !OPT.ids.has(s.id)) return false;
+      if (OPT.regions && !OPT.regions.includes(s.region)) return false;
+      if (!OPT.force && data.spots[String(s.id)]) return false;
+      if (!OPT.force && recentlySkipped(s.id)) return false;
+      return true;
+    })
+    .sort((a, b) => b.id - a.id); // 새로 등록된 맛집부터
   const todo = spots.slice(0, OPT.limit);
   const report = { started_at: new Date().toISOString(), considered: todo.length, enriched: [], skipped: [] };
   console.log(`보강 대상 ${todo.length}곳`);
@@ -329,8 +340,12 @@ async function main() {
     if (r.entry) {
       if (!(OPT.force && data.spots[String(spot.id)] && data.spots[String(spot.id)].method === "manual")) data.spots[String(spot.id)] = r.entry;
       report.enriched.push(spot.id);
+      delete data.skipped[String(spot.id)];
       if (OPT.dryRun) (report.entries = report.entries || {})[spot.id] = r.entry;
-    } else report.skipped.push({ id: spot.id, name: spot.name, region: spot.region, reason: r.skip });
+    } else {
+      report.skipped.push({ id: spot.id, name: spot.name, region: spot.region, reason: r.skip });
+      if (!data.spots[String(spot.id)]) data.skipped[String(spot.id)] = { reason: r.skip, checked_at: today };
+    }
     if ((i + 1) % 20 === 0) {
       console.log(`  ${i + 1}/${todo.length} (보강 ${report.enriched.length}, 건너뜀 ${report.skipped.length})`);
       if (!OPT.dryRun) save(data);
@@ -344,7 +359,8 @@ async function main() {
 }
 function save(data) {
   const sorted = Object.fromEntries(Object.entries(data.spots).sort((a, b) => Number(a[0]) - Number(b[0])));
-  fs.writeFileSync(OPT.dataPath, JSON.stringify({ ...data, spots: sorted }, null, 1) + "\n");
+  const skipped = Object.fromEntries(Object.entries(data.skipped || {}).sort((a, b) => Number(a[0]) - Number(b[0])));
+  fs.writeFileSync(OPT.dataPath, JSON.stringify({ ...data, spots: sorted, skipped }, null, 1) + "\n");
 }
 
 if (require.main === module) {
