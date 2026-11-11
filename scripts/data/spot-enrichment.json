@@ -11736,6 +11736,39 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "461": {
+   "name_zh": "池上197風味餐 原住民特色料理（請來電預約）",
+   "address_zh": "958臺東縣池上鄉富興村34之1號號",
+   "address_en": "958 대만 Taitung County, Chishang Township, Fuxing Village, 34之1號池上197風味餐 原住民特色料理（請來電預約）號",
+   "hours_summary": [
+    "월 오전 11:00~오후 2:00, 오후 5:00~8:00",
+    "수~일 오전 11:00~오후 2:00, 오후 5:00~8:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "통닭구이(烤雞)"
+    },
+    {
+     "name": "생선구이(烤魚)"
+    },
+    {
+     "name": "고기구이(烤肉)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이둥 池上鄉에 있는 대만 레스토랑이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 통닭구이(烤雞), 생선구이(烤魚), 고기구이(烤肉) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJv6RnGYALbzQRA7af1vdhGIk",
+    "rating": 4.6,
+    "reviews": 328
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "462": {
    "name_zh": "池上吉本肉圓",
    "address_zh": "958臺東縣池上鄉福原村中山路118-1號",
@@ -13554,6 +13587,33 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "527": {
+   "name_zh": "連得堂餅家",
+   "address_zh": "704臺南市北區北華里崇安街54號",
+   "address_en": "704 대만 Tainan City, North District, Beihua Village, Chongan St, 54號連得堂餅家",
+   "hours_summary": [
+    "월~금 오전 8:00~오후 8:00",
+    "토 오전 8:00~오후 6:00"
+   ],
+   "closed_days": "일요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "전(煎餅)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 北區에 있는 쿠키 가게예요. 구글 지도 기준 일요일은 쉬어요. 구글 리뷰에서는 전(煎餅) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJH-2ay4p2bjQRzmiDlLRPu5g",
+    "rating": 4.4,
+    "reviews": 4106
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "528": {
    "name_zh": "邱家小卷米粉",
    "address_zh": "700臺南市中西區五條港里國華街三段251號",
@@ -14795,6 +14855,32 @@
     "place_id": "ChIJbyDe0VZ3bjQRGWeb7fap4IU",
     "rating": 4.8,
     "reviews": 984
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "570": {
+   "name_zh": "小樣貝果 ／樣貝果",
+   "address_zh": "702臺南市南區國民路13號（靠近號大同路",
+   "address_en": "702 대만 Tainan City, South District, Guomin Rd, 13號（靠近號大同路小樣貝果 ／樣貝果",
+   "hours_summary": [
+    "매일 오후 12:00~6:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "氣炸"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 南區에 있는 베이글 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 氣炸 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJNQvqw6l1bjQRbWeJrLuFffE",
+    "rating": 4.8,
+    "reviews": 454
    },
    "method": "auto",
    "checked_at": "2026-11-11"
@@ -16276,6 +16362,32 @@
    "method": "auto",
    "checked_at": "2026-11-11"
   },
+  "621": {
+   "name_zh": "ditto bakery 蒂頭製作所",
+   "address_zh": "700臺南市中西區南美里永福路二段35巷6號",
+   "address_en": "ditto bakery 蒂頭製作所, No. 6號, Lane 35, Section 2, Yongfu Rd, Nanmei Village, West Central District, Tainan City, 대만 700",
+   "hours_summary": [
+    "금~일 오후 3:30~7:00"
+   ],
+   "closed_days": "월요일, 화요일, 수요일, 목요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "法國麵包"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 제과점이에요. 구글 지도 기준 월요일, 화요일, 수요일, 목요일은 쉬어요. 구글 리뷰에서는 法國麵包 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJo96ts3x2bjQRs3gFvkLSHyA",
+    "rating": 4.9,
+    "reviews": 69
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
   "622": {
    "name_zh": "Umm Umm Veganbakery(12:00營業，店休日請參考粉專)",
    "address_zh": "700臺南市中西區南廠里大勇街4-1號",
@@ -17030,6 +17142,38 @@
     "place_id": "ChIJYwGWiet1bjQRVUZ6JEDUZFY",
     "rating": 4.5,
     "reviews": 513
+   },
+   "method": "auto",
+   "checked_at": "2026-11-11"
+  },
+  "646": {
+   "name_zh": "冰塔職人雪花 —府前店",
+   "address_zh": "700臺南市中西區府前里府前路二段189號",
+   "address_en": "700 대만 Tainan City, West Central District, Fuqian Village, Section 2, Fuqian Rd, 189號冰塔職人雪花 —府前店",
+   "hours_summary": [
+    "매일 오후 12:00~10:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "麥茶"
+    },
+    {
+     "name": "더우화(豆花)"
+    },
+    {
+     "name": "附茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이난 中西區에 있는 빙수 가게예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 麥茶, 더우화(豆花), 附茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJzbm8RmB3bjQRSswoX_ma5sI",
+    "rating": 4.7,
+    "reviews": 3332
    },
    "method": "auto",
    "checked_at": "2026-11-11"
