@@ -52,6 +52,26 @@ function sortedCategories(lang) {
 
 const QUICK_PICK_IDS = ["beef_noodle", "dimsum", "shaved_ice", "street_food", "hotpot", "bakery"];
 
+// 홈 "무엇을 먹어볼까요?" 칩 줄: 추천 QUICK_PICK_IDS를 큐레이션 순서대로 먼저 보여 주고,
+// 나머지는 sortedCategories(lang) 순서(ko ㄱㄴㄷ / en A–Z)로 '더 보기' 뒤에 숨긴다.
+// 숨긴 칩도 HTML에는 그대로 두어 크롤러가 category 페이지 링크를 따라갈 수 있다.
+// hrefFor(c) → 링크, esc(s) → 텍스트 이스케이프 (브라우저 렌더와 빌드 스크립트가 같은 마크업을 쓴다).
+function homeCategoryChipsHtml(lang, hrefFor, esc) {
+  const l = lang === "en" ? "en" : "ko";
+  const e = esc || (s => s);
+  const byId = Object.fromEntries(CATEGORIES.map(c => [c.id, c]));
+  const quick = QUICK_PICK_IDS.map(id => byId[id]).filter(Boolean);
+  const quickIds = new Set(quick.map(c => c.id));
+  const rest = sortedCategories(l).filter(c => !quickIds.has(c.id));
+  const chip = (c, extra) => `
+    <a class="category-link-chip${extra ? " is-extra" : ""}" href="${hrefFor(c)}">${catIconHtml(c)}${e(c[l])}</a>`;
+  const moreLabel = l === "en" ? `More (+${rest.length})` : `더 보기 (+${rest.length})`;
+  const lessLabel = l === "en" ? "Show less" : "접기";
+  const btn = rest.length ? `
+    <button type="button" class="category-more-btn" aria-expanded="false" data-more="${moreLabel}" data-less="${lessLabel}">${moreLabel}</button>` : "";
+  return quick.map(c => chip(c, false)).join("") + rest.map(c => chip(c, true)).join("") + btn;
+}
+
 const REGIONS = [
   {
     id: "taipei",

@@ -20,7 +20,7 @@ function loadGlobals(files) {
   return sandbox;
 }
 
-const { REGIONS, REGION_CONTENT, CATEGORIES, REGION_SUB_AREAS, catIconHtml, sortedCategories } = loadGlobals(["js/data.js", "js/region-content.js"]);
+const { REGIONS, REGION_CONTENT, CATEGORIES, REGION_SUB_AREAS, catIconHtml, sortedCategories, homeCategoryChipsHtml } = loadGlobals(["js/data.js", "js/region-content.js"]);
 const { slugForSpot } = require("./lib/spot-slug");
 const { googleMapsUrl, googleMapsLinkLabel } = require("./lib/google-maps-url");
 const {
@@ -352,8 +352,7 @@ function writeEnglishHome(koHtml) {
     /<div class="region-grid" id="regionGrid">[\s\S]*?<\/div>\s*<\/div>\s*<\/section>/,
     `<div class="region-grid" id="regionGrid">${enRegionCards}\n    </div>\n  </div>\n</section>`
   );
-  const enCategoryLinks = sortedCategories("en").map(c => `
-    <a class="category-link-chip" href="/en/category-${c.id}">${catIconHtml(c)}${escAttr(c.en)}</a>`).join("");
+  const enCategoryLinks = homeCategoryChipsHtml("en", c => `/en/category-${c.id}`, escAttr);
   out = out.replace(
     /<div class="category-link-row" id="categoryLinkRow">[\s\S]*?<\/div>/,
     `<div class="category-link-row" id="categoryLinkRow">${enCategoryLinks}\n      </div>`
@@ -528,8 +527,7 @@ indexHtml = indexHtml.replace(
  * js/app.js의 renderCategoryLinks()가 브라우저에서만 채우던 #categoryLinkRow를
  * 빌드 시점에 미리 구워서, 자바스크립트를 거의 실행하지 않는 크롤러도
  * category-*.html(31개) 페이지로 가는 링크를 홈에서 바로 찾을 수 있게 한다. */
-const categoryLinksHtml = sortedCategories("ko").map(c => `
-    <a class="category-link-chip" href="category-${c.id}">${catIconHtml(c)}${escAttr(c.ko)}</a>`).join("");
+const categoryLinksHtml = homeCategoryChipsHtml("ko", c => `category-${c.id}`, escAttr);
 
 indexHtml = indexHtml.replace(
   /<div class="category-link-row" id="categoryLinkRow">[\s\S]*?<\/div>/,

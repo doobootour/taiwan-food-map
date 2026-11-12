@@ -20,7 +20,7 @@
 
   --ink: #2a1f16;
   --ink-soft: #6c5c4b;
-  --ink-faint: #9c8a76;
+  --ink-faint: #7a6855; /* 5.1:1 on --bg, 4.4:1+ on surfaces (was #9c8a76 ≈ 3.2:1) */
 
   --border: #ead9c2;
   --border-soft: #f0e4d2;
@@ -34,7 +34,8 @@
   --radius-lg: 28px;
   --radius-full: 999px;
 
-  --font-display: 'Fraunces', 'Pretendard Variable', 'Pretendard', serif;
+  /* Fraunces has no Hangul glyphs, so Korean falls through to Pretendard (loaded from jsDelivr, not Google Fonts). */
+  --font-display: 'Fraunces', 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
 
   --container: 1240px;
@@ -274,10 +275,15 @@ h1, h2, h3, h4, .display {
 .hero .eyebrow::before { background: var(--gold-tint); }
 .hero h1 {
   color: #fff;
-  font-size: clamp(32px, 4.4vw, 52px);
+  font-size: clamp(30px, 4.4vw, 52px);
   font-weight: 600;
   line-height: 1.18;
   margin: 16px 0 18px;
+  /* 한국어 단어가 한 글자씩 줄 끝에 떨어지지 않도록 어절 단위로만 줄바꿈 */
+  word-break: keep-all;
+  line-break: strict;
+  overflow-wrap: break-word;
+  text-wrap: balance;
 }
 .hero h1 em { font-style: italic; color: var(--gold-tint); }
 .hero p {
@@ -294,7 +300,7 @@ h1, h2, h3, h4, .display {
   padding-top: 24px;
   border-top: 1px solid rgba(255,255,255,0.22);
 }
-.hero-stats .stat b { display: block; font-family: var(--font-display); font-size: 40px; color: #fff; font-weight: 800; line-height: 1.1; }
+.hero-stats .stat b { display: block; font-family: var(--font-display); font-size: 40px; color: #fff; font-weight: 600; line-height: 1.1; }
 .hero-stats .stat span { font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.85); letter-spacing: 0.01em; }
 
 /* ===================== Section shell ===================== */
@@ -390,6 +396,21 @@ h1, h2, h3, h4, .display {
 .category-link-chip:hover { background: var(--terracotta-tint); border-color: var(--terracotta-tint); color: var(--terracotta-dark); }
 .category-link-chip .cat-ico { color: var(--terracotta); }
 .category-link-chip:hover .cat-ico { color: var(--terracotta-dark); }
+/* 홈 칩: 추천(QUICK_PICK_IDS) 먼저, 나머지는 '더 보기'로 펼침. 링크는 HTML에 그대로 남겨 크롤러가 따라갈 수 있게 한다. */
+.category-link-row:not(.expanded) .category-link-chip.is-extra { display: none; }
+.category-more-btn {
+  display: inline-flex; align-items: center; gap: 4px;
+  min-height: 36px; box-sizing: border-box;
+  background: var(--surface-alt);
+  border: 1.5px dashed var(--border);
+  border-radius: var(--radius-full);
+  padding: 6px 14px;
+  font-size: 14px; font-weight: 700; line-height: 1.2;
+  color: var(--terracotta-dark);
+  white-space: nowrap;
+  font-family: inherit;
+}
+.category-more-btn:hover { background: var(--terracotta-tint); border-color: var(--terracotta); }
 
 
 /* ===================== Recent contributors banner ===================== */
@@ -771,7 +792,8 @@ h1, h2, h3, h4, .display {
 .cta-band {
   margin: 0 24px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(120deg, var(--terracotta-dark), var(--terracotta) 60%, var(--gold));
+  /* 흰 글자가 그라데이션 어디에서도 4.5:1 이상 나오도록 어두운 테라코타 계열로만 구성 */
+  background: linear-gradient(120deg, #8a4520, var(--terracotta-dark) 55%, #a85d2c);
   padding: 64px 56px;
   display: flex; align-items: center; justify-content: space-between;
   gap: 40px;
@@ -779,7 +801,25 @@ h1, h2, h3, h4, .display {
   box-shadow: var(--shadow-lg);
 }
 .cta-band h2 { color: #fff; font-size: clamp(22px, 2.4vw, 30px); font-weight: 600; max-width: 480px; }
-.cta-band p { color: rgba(255,255,255,0.85); font-size: 14px; margin: 10px 0 0; }
+.cta-band p { color: #fff; font-size: 15px; margin: 10px 0 0; }
+.cta-band h2, .cta-band p { word-break: keep-all; }
+.cta-band .eyebrow { color: #fff !important; }
+.cta-band .eyebrow::before { background: #fff; }
+/* CTA는 스크롤 reveal 애니메이션에 의존하지 않고 항상 보이게 한다 (옵저버가 안 걸리면 빈 공간처럼 보였음) */
+.cta-band.reveal { opacity: 1; transform: none; }
+.cta-band .btn.ghost {
+  background: #fff; color: var(--terracotta-dark);
+  border: 1.5px solid #fff !important;
+  font-weight: 700;
+  backdrop-filter: none;
+  box-shadow: 0 8px 20px rgba(42, 31, 22, 0.18);
+  flex-shrink: 0;
+}
+.cta-band .btn.ghost:hover { background: var(--surface-alt); }
+/* CTA 위아래 빈 아이보리 여백 축소 */
+.section.tight:has(> .cta-band) { padding: 40px 0 0; }
+.section:has(+ .section.tight > .cta-band) { padding-bottom: 48px; }
+main:has(> .section.tight:last-child > .cta-band) + footer { margin-top: 48px; }
 
 /* ===================== Tour promo banner ===================== */
 .tour-promo {
@@ -887,7 +927,7 @@ footer {
   .cat-grid { grid-template-columns: repeat(3, 1fr); gap: 12px; }
   .region-grid { grid-template-columns: 1fr; }
   .region-card .info .name { font-size: 18px; line-height: 1.25; }
-  .cta-band { margin: 0 12px; flex-direction: column; align-items: flex-start; padding: 40px 28px; }
+  .cta-band { margin: 0 12px; flex-direction: column; align-items: flex-start; gap: 24px; padding: 36px 26px; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
   .footer-bottom { flex-direction: column; gap: 10px; align-items: flex-start; }
   .section-head { flex-direction: column; align-items: flex-start; }
