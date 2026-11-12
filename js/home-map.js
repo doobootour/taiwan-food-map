@@ -219,7 +219,7 @@
 
   function renderFilterBar() {
     const lang = getLang();
-    filterBar.innerHTML = CATEGORIES.map(c => `
+    filterBar.innerHTML = sortedCategories(lang).map(c => `
       <button class="filter-chip ${activeCats.has(c.id) ? "active" : ""}" data-cat="${c.id}">
         <span class="chip-ico">${catIconHtml(c)}</span>${c[lang]}
       </button>

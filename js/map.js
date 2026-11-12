@@ -290,7 +290,7 @@ document.getElementById("mapTourPromoClose").addEventListener("click", (e) => {
 
 function renderFilterBar() {
   const lang = getLang();
-  filterBar.innerHTML = CATEGORIES.map(c => `
+  filterBar.innerHTML = sortedCategories(lang).map(c => `
     <button class="filter-chip ${activeCats.has(c.id) ? "active" : ""}" data-cat="${c.id}">
       <span class="chip-ico">${catIconHtml(c)}</span>${c[lang]}
     </button>
@@ -549,7 +549,7 @@ function renderSheetCatSelect() {
   const lang = getLang();
   const prevValue = sheetCatSelect.value;
   sheetCatSelect.innerHTML = `<option value="" disabled ${prevValue ? "" : "selected"}>${t("cat_select_default")}</option>` +
-    [...CATEGORIES].sort((a, b) => a[lang].localeCompare(b[lang], lang)).map(c => `<option value="${c.id}">${c[lang]}</option>`).join("");
+    sortedCategories(lang).map(c => `<option value="${c.id}">${c[lang]}</option>`).join("");
   if (prevValue) sheetCatSelect.value = prevValue;
 }
 renderSheetCatSelect();

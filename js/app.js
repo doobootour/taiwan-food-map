@@ -37,7 +37,7 @@ const categoryLinkRow = document.getElementById("categoryLinkRow");
 function renderCategoryLinks() {
   if (!categoryLinkRow) return;
   const lang = getLang();
-  categoryLinkRow.innerHTML = CATEGORIES.map(c => `
+  categoryLinkRow.innerHTML = sortedCategories(lang).map(c => `
     <a class="category-link-chip" href="${guideHref("category", c.id)}">${catIconHtml(c)}${c[lang]}</a>
   `).join("");
 }
