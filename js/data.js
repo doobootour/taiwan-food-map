@@ -53,9 +53,12 @@ function sortedCategories(lang) {
 const QUICK_PICK_IDS = ["beef_noodle", "dimsum", "shaved_ice", "street_food", "hotpot", "bakery"];
 
 // 홈 "무엇을 먹어볼까요?" 칩: 추천 QUICK_PICK_IDS를 큐레이션 순서대로 먼저 보여 주고,
-// 나머지는 sortedCategories(lang) 순서(ko ㄱㄴㄷ / en A–Z)로 '더 보기' 뒤에 숨긴다.
+// 나머지는 sortedCategories(lang) 순서(ko ㄱㄴㄷ / en A–Z, 영문 전용 라벨은 맨 뒤)로 뒤에 둔다.
 // 숨긴 칩도 HTML에는 그대로 두어 크롤러가 category 페이지 링크를 따라갈 수 있다.
 // '더 보기'/'접기'는 칩 그리드 밖(아래 줄)에 둔다 — 칸을 차지해 열 정렬을 깨지 않게.
+// 접힌 기본값(추천 6개 + 버튼)은 모바일(<721px)만. 데스크톱(≥721px)은 CSS로 32개를
+// 모두 보이고 토글을 숨긴다. 창을 좁히면 접힌 기본값으로 돌아가며, 그 세션에서
+// 모바일로 이미 펼쳤다면 .expanded를 유지한다.
 // hrefFor(c) → 링크, esc(s) → 텍스트 이스케이프 (브라우저 렌더와 빌드 스크립트가 같은 마크업을 쓴다).
 function homeCategoryChipParts(lang, hrefFor, esc) {
   const l = lang === "en" ? "en" : "ko";

@@ -380,8 +380,9 @@ h1, h2, h3, h4, .display {
 .category-links { margin: -16px 0 32px; }
 .category-links-label { display: block; font-size: 12.5px; font-weight: 700; color: var(--ink-faint); margin-bottom: 12px; }
 /* Equal-column grid so vertical chip edges line up. Never flex-wrap (ragged rows).
-   Mobile: 4 columns. Mid: 6. Wide (≥1080, same breakpoint as .cat-grid): 8, which also
-   divides the 32 categories evenly. '더 보기'/'접기' stay outside this grid. */
+   Mobile: 4 columns. Mid (≥721): 6. Wide (≥1080, same breakpoint as .cat-grid): 8, which also
+   divides the 32 categories evenly. On viewports below 721px, '더 보기'/'접기' stay outside
+   this grid; from 721px up the toggle is hidden because every chip is already visible. */
 .category-link-row {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -412,8 +413,13 @@ h1, h2, h3, h4, .display {
 .category-link-chip:hover { background: var(--terracotta-tint); border-color: var(--terracotta-tint); color: var(--terracotta-dark); }
 .category-link-chip .cat-ico { color: var(--terracotta); }
 .category-link-chip:hover .cat-ico { color: var(--terracotta-dark); }
-/* 홈 칩: 추천(QUICK_PICK_IDS) 먼저, 나머지는 '더 보기'로 펼침. 링크는 HTML에 그대로 남겨 크롤러가 따라갈 수 있게 한다. */
-.category-link-row:not(.expanded) .category-link-chip.is-extra { display: none; }
+/* 홈 칩: 추천(QUICK_PICK_IDS) 먼저, 나머지는 ㄱㄴㄷ(en은 A–Z, 영문 전용 라벨은 맨 뒤).
+   링크는 HTML에 그대로 남겨 크롤러가 따라갈 수 있게 한다.
+   접기/펼치기는 모바일(<721px)만. 데스크톱은 .expanded 여부와 상관없이 32개를 모두 보여
+   접힌 JS 상태가 넓은 화면에 남지 않게 한다. */
+@media (max-width: 720px) {
+  .category-link-row:not(.expanded) .category-link-chip.is-extra { display: none; }
+}
 .category-more-btn {
   display: flex; align-items: center; gap: 4px;
   width: fit-content;
@@ -439,6 +445,9 @@ h1, h2, h3, h4, .display {
 @media (min-width: 721px) {
   .category-link-row { grid-template-columns: repeat(6, minmax(0, 1fr)); }
   .category-link-chip { gap: 6px; padding: 6px 10px; font-size: 13.5px; }
+  /* Always show every chip on desktop; hide the toggle so a leftover collapsed
+     JS state cannot look like 6 chips + 더 보기. */
+  .category-more-btn { display: none; }
 }
 @media (min-width: 1080px) {
   .category-link-row { grid-template-columns: repeat(8, minmax(0, 1fr)); }
