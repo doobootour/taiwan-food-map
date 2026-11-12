@@ -37,9 +37,19 @@ const categoryLinkRow = document.getElementById("categoryLinkRow");
 function renderCategoryLinks() {
   if (!categoryLinkRow) return;
   const lang = getLang();
-  categoryLinkRow.innerHTML = sortedCategories(lang).map(c => `
-    <a class="category-link-chip" href="${guideHref("category", c.id)}">${catIconHtml(c)}${c[lang]}</a>
-  `).join("");
+  categoryLinkRow.classList.remove("expanded");
+  categoryLinkRow.innerHTML = homeCategoryChipsHtml(lang, c => guideHref("category", c.id));
+}
+// '더 보기' / 'More' — 나머지 카테고리 칩 펼치기·접기 (빌드 시 구운 마크업에도 그대로 동작)
+if (categoryLinkRow) {
+  categoryLinkRow.addEventListener("click", (e) => {
+    const btn = e.target.closest(".category-more-btn");
+    if (!btn) return;
+    const open = categoryLinkRow.classList.toggle("expanded");
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+    btn.textContent = open ? btn.dataset.less : btn.dataset.more;
+    categoryLinkRow.appendChild(btn); // 펼친 뒤에도 버튼은 줄 맨 끝
+  });
 }
 renderCategoryLinks();
 
