@@ -43,6 +43,13 @@ function catIconHtml(cat) {
   return `<span class="cat-ico" style="--cat-ico:url(/assets/icons/categories/${cat.icon}.svg)" aria-hidden="true"></span>`;
 }
 
+// 카테고리 목록을 화면 언어 기준으로 정렬한 사본 (원본 CATEGORIES 순서는 그대로 둔다).
+// 한국어는 ㄱㄴㄷ, 영어는 A–Z — 홈 칩·지도 필터·지역 페이지 그룹·등록 폼 select가 모두 이 규칙을 쓴다.
+function sortedCategories(lang) {
+  const l = lang === "en" ? "en" : "ko";
+  return [...CATEGORIES].sort((a, b) => a[l].localeCompare(b[l], l));
+}
+
 const QUICK_PICK_IDS = ["beef_noodle", "dimsum", "shaved_ice", "street_food", "hotpot", "bakery"];
 
 const REGIONS = [

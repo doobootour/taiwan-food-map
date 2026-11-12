@@ -84,7 +84,7 @@
       grouped[spot.category].push(spot);
     });
 
-    return CATEGORIES
+    return sortedCategories(lang)
       .filter(c => grouped[c.id] && grouped[c.id].length)
       .map(c => `
         <div class="region-spots-group reveal in">
