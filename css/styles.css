@@ -388,7 +388,7 @@ h1, h2, h3, h4, .display {
   gap: 8px;
 }
 .category-link-chip {
-  display: flex; align-items: center; gap: 3px;
+  display: flex; align-items: center; justify-content: center; gap: 3px;
   min-width: 0; width: 100%;
   min-height: 36px; box-sizing: border-box;
   background: var(--surface);
@@ -398,12 +398,13 @@ h1, h2, h3, h4, .display {
   font-size: 12.5px; font-weight: 600; line-height: 1.2;
   color: var(--ink);
   text-decoration: none;
-  text-align: left;
+  text-align: center;
   transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
 }
 .category-link-label {
   min-width: 0;
-  flex: 1 1 auto;
+  flex: 0 1 auto;
+  text-align: center;
   line-height: 1.25;
   word-break: keep-all;
   overflow-wrap: anywhere;
@@ -414,8 +415,10 @@ h1, h2, h3, h4, .display {
 /* 홈 칩: 추천(QUICK_PICK_IDS) 먼저, 나머지는 '더 보기'로 펼침. 링크는 HTML에 그대로 남겨 크롤러가 따라갈 수 있게 한다. */
 .category-link-row:not(.expanded) .category-link-chip.is-extra { display: none; }
 .category-more-btn {
-  display: inline-flex; align-items: center; gap: 4px;
+  display: flex; align-items: center; gap: 4px;
+  width: fit-content;
   margin-top: 8px;
+  margin-inline: auto;
   min-height: 36px; box-sizing: border-box;
   background: var(--surface-alt);
   border: 1.5px dashed var(--border);
