@@ -34,21 +34,33 @@ renderRegionGrid();
 
 // ===================== Render: category links (SEO 카테고리 페이지로 이동) =====================
 const categoryLinkRow = document.getElementById("categoryLinkRow");
+const categoryLinksBox = categoryLinkRow && categoryLinkRow.closest(".category-links");
 function renderCategoryLinks() {
   if (!categoryLinkRow) return;
   const lang = getLang();
   categoryLinkRow.classList.remove("expanded");
-  categoryLinkRow.innerHTML = homeCategoryChipsHtml(lang, c => guideHref("category", c.id));
+  const { chips, button } = homeCategoryChipParts(lang, c => guideHref("category", c.id));
+  categoryLinkRow.innerHTML = chips;
+  const existing = categoryLinksBox && categoryLinksBox.querySelector(":scope > .category-more-btn");
+  if (button) {
+    const tmp = document.createElement("div");
+    tmp.innerHTML = button.trim();
+    const next = tmp.firstElementChild;
+    if (existing) existing.replaceWith(next);
+    else categoryLinkRow.insertAdjacentElement("afterend", next);
+  } else if (existing) {
+    existing.remove();
+  }
 }
-// '더 보기' / 'More' — 나머지 카테고리 칩 펼치기·접기 (빌드 시 구운 마크업에도 그대로 동작)
-if (categoryLinkRow) {
-  categoryLinkRow.addEventListener("click", (e) => {
+// '더 보기' / 'More' — 나머지 카테고리 칩 펼치기·접기 (빌드 시 구운 마크업에도 그대로 동작).
+// 버튼은 그리드 밖(아래 줄)에 두므로 부모 .category-links에서 클릭을 듣는다.
+if (categoryLinksBox) {
+  categoryLinksBox.addEventListener("click", (e) => {
     const btn = e.target.closest(".category-more-btn");
-    if (!btn) return;
+    if (!btn || !categoryLinksBox.contains(btn)) return;
     const open = categoryLinkRow.classList.toggle("expanded");
     btn.setAttribute("aria-expanded", open ? "true" : "false");
     btn.textContent = open ? btn.dataset.less : btn.dataset.more;
-    categoryLinkRow.appendChild(btn); // 펼친 뒤에도 버튼은 줄 맨 끝
   });
 }
 renderCategoryLinks();
