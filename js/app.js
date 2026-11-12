@@ -38,7 +38,7 @@ function renderCategoryLinks() {
   if (!categoryLinkRow) return;
   const lang = getLang();
   categoryLinkRow.innerHTML = CATEGORIES.map(c => `
-    <a class="category-link-chip" href="${guideHref("category", c.id)}"><span>${c.icon}</span>${c[lang]}</a>
+    <a class="category-link-chip" href="${guideHref("category", c.id)}">${catIconHtml(c)}${c[lang]}</a>
   `).join("");
 }
 renderCategoryLinks();

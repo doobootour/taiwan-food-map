@@ -1,39 +1,47 @@
 // 카테고리 데이터 — 홈 화면 카드 이미지는 assets/images/categories/{id}.jpeg
-// icon은 지도 페이지의 필터칩/핀/등록폼에서 사진 대신 사용하는 아이콘
+// icon은 assets/icons/categories/{icon}.svg 모노라인 아이콘 파일명 (id와 다를 수 있음).
+// 화면에는 항상 catIconHtml(cat)으로 넣는다 — 칩/핀/팝업/검색결과/지역·홈 정적 HTML 공통.
 const CATEGORIES = [
-  { id: "beef_noodle",  ko: "우육면",      en: "Beef Noodle",  icon: "🍜" },
-  { id: "noodle",       ko: "국수",        en: "Noodles",      icon: "🍝" },
-  { id: "japanese",     ko: "일식",        en: "Japanese",     icon: "🍣" },
-  { id: "seafood",      ko: "해산물",      en: "Seafood",      icon: "🦐" },
-  { id: "ramen",        ko: "라멘",        en: "Ramen",        icon: "🍥" },
-  { id: "hotpot",       ko: "훠궈",        en: "Hot Pot",      icon: "🍲" },
-  { id: "breakfast",    ko: "조식",        en: "Breakfast",    icon: "🍳" },
-  { id: "brunch",       ko: "브런치",      en: "Brunch",       icon: "🥞" },
-  { id: "cafe",         ko: "카페",        en: "Café",         icon: "☕" },
-  { id: "shaved_ice",   ko: "빙수",        en: "Shaved Ice",   icon: "🍧" },
-  { id: "korean",       ko: "한식",        en: "Korean",       icon: "🍚" },
-  { id: "pasta",        ko: "파스타",      en: "Pasta",        icon: "🍝" },
-  { id: "bbq",          ko: "BBQ",         en: "BBQ",          icon: "🍖" },
-  { id: "steak",        ko: "스테이크",    en: "Steak",        icon: "🥩" },
-  { id: "dimsum",       ko: "딤섬",        en: "Dim Sum",      icon: "🥟" },
-  { id: "chinese",      ko: "중식",        en: "Chinese",      icon: "🥡" },
-  { id: "goose",        ko: "거위",        en: "Goose",        icon: "🦢" },
-  { id: "street_food",  ko: "노점",        en: "Street Food",  icon: "🥙" },
-  { id: "mart",         ko: "마트",        en: "Mart",         icon: "🛒" },
-  { id: "fruit",        ko: "과일",        en: "Fruit",        icon: "🍉" },
-  { id: "thai",         ko: "태국",        en: "Thai",         icon: "🌶️" },
-  { id: "vietnamese",   ko: "베트남",      en: "Vietnamese",   icon: "🥖" },
-  { id: "indian",       ko: "인도",        en: "Indian",       icon: "🍛" },
-  { id: "taiwanese",    ko: "대만식",      en: "Taiwanese",    icon: "🍗" },
-  { id: "pizza",        ko: "피자",        en: "Pizza",        icon: "🍕" },
-  { id: "stinky_tofu",  ko: "취두부",      en: "Stinky Tofu",  icon: "🧇" },
-  { id: "bakery",       ko: "베이커리",    en: "Bakery",       icon: "🥐" },
-  { id: "bar",          ko: "바/펍",       en: "Bar",          icon: "🍸" },
-  { id: "gift_shop",    ko: "소품가게",    en: "Gift Shop",    icon: "🎁" },
-  { id: "attraction",   ko: "체험/관광지", en: "Experience",   icon: "🎡" },
-  { id: "shopping",     ko: "쇼핑",        en: "Shopping",     icon: "🛍️" },
-  { id: "liquor_shop",  ko: "주류샵",      en: "Liquor Shop",  icon: "🍾" },
+  { id: "beef_noodle",  ko: "우육면",      en: "Beef Noodle",  icon: "beef-noodle" },
+  { id: "noodle",       ko: "국수",        en: "Noodles",      icon: "noodles" },
+  { id: "japanese",     ko: "일식",        en: "Japanese",     icon: "japanese" },
+  { id: "seafood",      ko: "해산물",      en: "Seafood",      icon: "seafood" },
+  { id: "ramen",        ko: "라멘",        en: "Ramen",        icon: "ramen" },
+  { id: "hotpot",       ko: "훠궈",        en: "Hot Pot",      icon: "hotpot" },
+  { id: "breakfast",    ko: "조식",        en: "Breakfast",    icon: "breakfast" },
+  { id: "brunch",       ko: "브런치",      en: "Brunch",       icon: "brunch" },
+  { id: "cafe",         ko: "카페",        en: "Café",         icon: "cafe" },
+  { id: "shaved_ice",   ko: "빙수",        en: "Shaved Ice",   icon: "shaved-ice" },
+  { id: "korean",       ko: "한식",        en: "Korean",       icon: "korean" },
+  { id: "pasta",        ko: "파스타",      en: "Pasta",        icon: "pasta" },
+  { id: "bbq",          ko: "BBQ",         en: "BBQ",          icon: "bbq" },
+  { id: "steak",        ko: "스테이크",    en: "Steak",        icon: "steak" },
+  { id: "dimsum",       ko: "딤섬",        en: "Dim Sum",      icon: "dimsum" },
+  { id: "chinese",      ko: "중식",        en: "Chinese",      icon: "chinese" },
+  { id: "goose",        ko: "거위",        en: "Goose",        icon: "goose" },
+  { id: "street_food",  ko: "노점",        en: "Street Food",  icon: "street-stall" },
+  { id: "mart",         ko: "마트",        en: "Mart",         icon: "mart" },
+  { id: "fruit",        ko: "과일",        en: "Fruit",        icon: "fruit" },
+  { id: "thai",         ko: "태국",        en: "Thai",         icon: "thai" },
+  { id: "vietnamese",   ko: "베트남",      en: "Vietnamese",   icon: "vietnamese" },
+  { id: "indian",       ko: "인도",        en: "Indian",       icon: "indian" },
+  { id: "taiwanese",    ko: "대만식",      en: "Taiwanese",    icon: "taiwanese" },
+  { id: "pizza",        ko: "피자",        en: "Pizza",        icon: "pizza" },
+  { id: "stinky_tofu",  ko: "취두부",      en: "Stinky Tofu",  icon: "stinky-tofu" },
+  { id: "bakery",       ko: "베이커리",    en: "Bakery",       icon: "bakery" },
+  { id: "bar",          ko: "바/펍",       en: "Bar",          icon: "bar" },
+  { id: "gift_shop",    ko: "소품가게",    en: "Gift Shop",    icon: "gift-shop" },
+  { id: "attraction",   ko: "체험/관광지", en: "Experience",   icon: "attraction" },
+  { id: "shopping",     ko: "쇼핑",        en: "Shopping",     icon: "shopping" },
+  { id: "liquor_shop",  ko: "주류샵",      en: "Liquor Shop",  icon: "liquor" },
 ];
+
+// 카테고리 아이콘 마크업. CSS mask + background-color: currentColor 라서 글자색을 그대로 따라간다
+// (선택된 필터칩에서는 흰색, 홈 칩에서는 테라코타). cat이 없으면 기본 핀 이모지.
+function catIconHtml(cat) {
+  if (!cat || !cat.icon) return "📍";
+  return `<span class="cat-ico" style="--cat-ico:url(/assets/icons/categories/${cat.icon}.svg)" aria-hidden="true"></span>`;
+}
 
 const QUICK_PICK_IDS = ["beef_noodle", "dimsum", "shaved_ice", "street_food", "hotpot", "bakery"];
 

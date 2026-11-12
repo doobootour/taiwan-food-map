@@ -88,7 +88,7 @@
       .filter(c => grouped[c.id] && grouped[c.id].length)
       .map(c => `
         <div class="region-spots-group reveal in">
-          <div class="region-spots-group-head"><span class="ico">${c.icon}</span><span>${c[lang]}</span></div>
+          <div class="region-spots-group-head"><span class="ico">${catIconHtml(c)}</span><span>${c[lang]}</span></div>
           ${grouped[c.id].map(spot => `
             <div class="region-spot-card">
               <span class="name">${escapeHtml(spot.name || c[lang])}</span>
