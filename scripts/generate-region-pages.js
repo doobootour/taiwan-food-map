@@ -20,7 +20,7 @@ function loadGlobals(files) {
   return sandbox;
 }
 
-const { REGIONS, REGION_CONTENT, CATEGORIES, REGION_SUB_AREAS } = loadGlobals(["js/data.js", "js/region-content.js"]);
+const { REGIONS, REGION_CONTENT, CATEGORIES, REGION_SUB_AREAS, catIconHtml } = loadGlobals(["js/data.js", "js/region-content.js"]);
 const { slugForSpot } = require("./lib/spot-slug");
 const { googleMapsUrl, googleMapsLinkLabel } = require("./lib/google-maps-url");
 const {
@@ -90,7 +90,7 @@ function categoryGroupsHtml(spots, lang = "ko") {
       const catName = lang === "en" ? c.en : c.ko;
       return `
         <div class="region-spots-group reveal in">
-          <div class="region-spots-group-head"><span class="ico">${c.icon}</span><span>${catName}</span></div>
+          <div class="region-spots-group-head"><span class="ico">${catIconHtml(c)}</span><span>${catName}</span></div>
           ${grouped[c.id].map(spot => `
             <div class="region-spot-card">
               <span class="name">${escapeHtml(spot.name || catName)}</span>
@@ -353,7 +353,7 @@ function writeEnglishHome(koHtml) {
     `<div class="region-grid" id="regionGrid">${enRegionCards}\n    </div>\n  </div>\n</section>`
   );
   const enCategoryLinks = CATEGORIES.map(c => `
-    <a class="category-link-chip" href="/en/category-${c.id}"><span>${c.icon}</span>${escAttr(c.en)}</a>`).join("");
+    <a class="category-link-chip" href="/en/category-${c.id}">${catIconHtml(c)}${escAttr(c.en)}</a>`).join("");
   out = out.replace(
     /<div class="category-link-row" id="categoryLinkRow">[\s\S]*?<\/div>/,
     `<div class="category-link-row" id="categoryLinkRow">${enCategoryLinks}\n      </div>`
@@ -529,7 +529,7 @@ indexHtml = indexHtml.replace(
  * 빌드 시점에 미리 구워서, 자바스크립트를 거의 실행하지 않는 크롤러도
  * category-*.html(31개) 페이지로 가는 링크를 홈에서 바로 찾을 수 있게 한다. */
 const categoryLinksHtml = CATEGORIES.map(c => `
-    <a class="category-link-chip" href="category-${c.id}"><span>${c.icon}</span>${escAttr(c.ko)}</a>`).join("");
+    <a class="category-link-chip" href="category-${c.id}">${catIconHtml(c)}${escAttr(c.ko)}</a>`).join("");
 
 indexHtml = indexHtml.replace(
   /<div class="category-link-row" id="categoryLinkRow">[\s\S]*?<\/div>/,

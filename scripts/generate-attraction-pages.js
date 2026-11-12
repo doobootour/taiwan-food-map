@@ -21,7 +21,7 @@ function loadGlobals(files) {
   return sandbox;
 }
 
-const { REGIONS, CATEGORIES } = loadGlobals(["js/data.js"]);
+const { REGIONS, CATEGORIES, catIconHtml } = loadGlobals(["js/data.js"]);
 const { ATTRACTIONS } = loadGlobals(["js/attractions.js"]);
 
 const cfg = fs.readFileSync(path.join(root, "js/supabase-config.js"), "utf8");
@@ -77,7 +77,7 @@ function attractionCard(item, nearby, data, idx) {
   const catOf = id => CATEGORIES.find(c => c.id === id);
   const foods = nearby.map(({ s, d }) => {
     const c = catOf(s.category);
-    return `<li><a href="/${slugForSpot(s)}">${esc(s.name)}</a> <span class="att-meta">${c ? `${c.icon} ${esc(c.ko)} · ` : ""}약 ${fmtKm(d)}</span></li>`;
+    return `<li><a href="/${slugForSpot(s)}">${esc(s.name)}</a> <span class="att-meta">${c ? `${catIconHtml(c)} ${esc(c.ko)} · ` : ""}약 ${fmtKm(d)}</span></li>`;
   }).join("");
   const sources = item.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(" · ");
   const img = item.image

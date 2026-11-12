@@ -376,17 +376,20 @@ h1, h2, h3, h4, .display {
 .category-link-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .category-link-chip {
   display: flex; align-items: center; gap: 6px;
+  min-height: 36px; box-sizing: border-box;
   background: var(--surface);
   border: 1.5px solid var(--border-soft);
   border-radius: var(--radius-full);
-  padding: 7px 13px;
-  font-size: 12.5px; font-weight: 600;
-  color: var(--ink-soft);
+  padding: 6px 12px 6px 11px;
+  font-size: 14px; font-weight: 600; line-height: 1.2;
+  color: var(--ink);
   white-space: nowrap;
   text-decoration: none;
   transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
 }
 .category-link-chip:hover { background: var(--terracotta-tint); border-color: var(--terracotta-tint); color: var(--terracotta-dark); }
+.category-link-chip .cat-ico { color: var(--terracotta); }
+.category-link-chip:hover .cat-ico { color: var(--terracotta-dark); }
 
 
 /* ===================== Recent contributors banner ===================== */
@@ -730,7 +733,7 @@ h1, h2, h3, h4, .display {
   font-size: 13.5px; font-weight: 700; color: var(--terracotta-dark);
   margin-bottom: 14px;
 }
-.region-spots-group-head .ico { font-size: 17px; }
+.region-spots-group-head .ico { display: inline-flex; font-size: 17px; line-height: 1; }
 
 .region-spot-card {
   display: flex; align-items: center; justify-content: space-between; gap: 12px;
@@ -950,7 +953,8 @@ html:has(body.map-page) { height: 100%; }
 }
 .map-search-result:first-child { border-top: none; }
 .map-search-result:hover { background: var(--surface-alt); }
-.map-search-result .ico { font-size: 16px; flex: 0 0 auto; }
+.map-search-result .ico { display: inline-flex; font-size: 16px; line-height: 1; flex: 0 0 auto; }
+.map-search-result .ico .cat-ico { width: 16px; height: 16px; color: var(--terracotta); }
 .map-search-result .info { min-width: 0; }
 .map-search-result .name { font-size: 13px; font-weight: 700; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .map-search-result .addr { font-size: 11.5px; color: var(--ink-faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -1021,8 +1025,10 @@ html:has(body.map-page) { height: 100%; }
   white-space: nowrap;
   transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
 }
-.chip-ico { font-size: 15px; line-height: 1; }
+.chip-ico { display: inline-flex; font-size: 15px; line-height: 1; }
+.filter-chip .cat-ico { color: var(--terracotta); }
 .filter-chip.active { background: var(--terracotta); border-color: var(--terracotta); color: #fff; }
+.filter-chip.active .cat-ico { color: #fff; }
 .filter-chip:active, .lang-opt:active, .round-fab:active, .add-fab:active { transform: scale(0.95); }
 
 .map-fab-col {
@@ -1147,6 +1153,18 @@ html:has(body.map-page) { height: 100%; }
   .map-tour-promo-price { font-size: 10.5px; }
 }
 
+/* 카테고리 모노라인 아이콘 — catIconHtml()이 만드는 <span class="cat-ico">.
+   SVG 파일을 mask로 쓰고 background-color: currentColor 로 칠해서 주변 글자색을 따라간다. */
+.cat-ico {
+  display: inline-block; flex: 0 0 auto;
+  width: 17px; height: 17px;
+  vertical-align: -0.2em;
+  background-color: currentColor;
+  -webkit-mask: var(--cat-ico) center / contain no-repeat;
+  mask: var(--cat-ico) center / contain no-repeat;
+}
+.att-meta .cat-ico { width: 14px; height: 14px; color: var(--terracotta); }
+
 /* Leaflet marker pin — 아이콘 배지 */
 .spot-pin {
   display: flex; align-items: center; justify-content: center;
@@ -1158,7 +1176,8 @@ html:has(body.map-page) { height: 100%; }
   background: var(--terracotta);
 }
 .spot-pin.verified { background: var(--sage); }
-.spot-pin .pin-ico { transform: rotate(45deg); font-size: 16px; line-height: 1; }
+.spot-pin .pin-ico { transform: rotate(45deg); display: flex; align-items: center; justify-content: center; font-size: 16px; line-height: 1; color: #fff; }
+.spot-pin .pin-ico .cat-ico { width: 16px; height: 16px; }
 .spot-pin .verified-badge {
   position: absolute; top: -4px; right: -4px;
   width: 16px; height: 16px; border-radius: 50%;
@@ -1192,6 +1211,7 @@ html:has(body.map-page) { height: 100%; }
   z-index: 1000 !important;
 }
 .spot-pin.highlight .pin-ico { font-size: 19px; }
+.spot-pin.highlight .pin-ico .cat-ico { width: 19px; height: 19px; }
 @keyframes highlightPop {
   0% { box-shadow: 0 0 0 4px rgba(226, 122, 61, 0.55), 0 6px 14px rgba(42,31,22,0.4); }
   50% { box-shadow: 0 0 0 12px rgba(226, 122, 61, 0), 0 6px 14px rgba(42,31,22,0.4); }
@@ -1269,7 +1289,9 @@ html:has(body.map-page) { height: 100%; }
   box-shadow: inset 0 0 0 1px rgba(194,112,63,.12);
   display: flex; align-items: center; justify-content: center;
   font-size: 23px;
+  color: var(--terracotta);
 }
+.popup-ico .cat-ico { width: 24px; height: 24px; }
 .popup-card .cat-line {
   display: flex; flex-direction: column; align-items: flex-start; gap: 5px; min-width: 0;
 }

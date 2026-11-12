@@ -62,7 +62,7 @@ function pinIcon(spot, opts = {}) {
   const verified = spot.recommend_count >= VERIFIED_THRESHOLD;
   const html = `
     <div class="spot-pin ${verified ? "verified" : ""} ${opts.highlight ? "highlight" : ""}">
-      <span class="pin-ico">${cat ? cat.icon : "📍"}</span>
+      <span class="pin-ico">${catIconHtml(cat)}</span>
       ${verified ? '<span class="verified-badge">✓</span>' : ''}
       ${isNewSpot(spot) ? '<span class="new-badge">NEW</span>' : ''}
     </div>`;
@@ -87,7 +87,7 @@ function popupHtml(spot) {
   return `
     <div class="popup-card">
       <div class="popup-head">
-        <div class="popup-ico">${cat ? cat.icon : "📍"}</div>
+        <div class="popup-ico">${catIconHtml(cat)}</div>
         <div class="cat-line">
           <span class="popup-name">${spot.name || catLabel || t("popup_fallback_name")}</span>
           <span class="popup-sub">${catLabel}${verified ? `<span class="verified-tag">${t("popup_verified")}</span>` : ''}</span>
@@ -292,7 +292,7 @@ function renderFilterBar() {
   const lang = getLang();
   filterBar.innerHTML = CATEGORIES.map(c => `
     <button class="filter-chip ${activeCats.has(c.id) ? "active" : ""}" data-cat="${c.id}">
-      <span class="chip-ico">${c.icon}</span>${c[lang]}
+      <span class="chip-ico">${catIconHtml(c)}</span>${c[lang]}
     </button>
   `).join("");
   filterBar.querySelectorAll(".filter-chip").forEach(chip => {
@@ -371,7 +371,7 @@ function runSearch(query) {
     const cat = catById(spot.category);
     return `
       <button type="button" class="map-search-result" data-id="${spot.id}">
-        <span class="ico">${cat ? cat.icon : "📍"}</span>
+        <span class="ico">${catIconHtml(cat)}</span>
         <span class="info">
           <span class="name">${spot.name || (cat ? cat[lang] : "")}</span>
           ${spot.address ? `<span class="addr">${spot.address}</span>` : ""}
@@ -549,7 +549,7 @@ function renderSheetCatSelect() {
   const lang = getLang();
   const prevValue = sheetCatSelect.value;
   sheetCatSelect.innerHTML = `<option value="" disabled ${prevValue ? "" : "selected"}>${t("cat_select_default")}</option>` +
-    [...CATEGORIES].sort((a, b) => a[lang].localeCompare(b[lang], lang)).map(c => `<option value="${c.id}">${c.icon} ${c[lang]}</option>`).join("");
+    [...CATEGORIES].sort((a, b) => a[lang].localeCompare(b[lang], lang)).map(c => `<option value="${c.id}">${c[lang]}</option>`).join("");
   if (prevValue) sheetCatSelect.value = prevValue;
 }
 renderSheetCatSelect();
