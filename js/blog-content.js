@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "tainan-ten-drum-culture-village-ticket-eats",
+    "image": "assets/images/attractions/tainan/ten-drum.webp",
+    "regions": [
+      "tainan"
+    ],
+    "ko": {
+      "eyebrow": "타이난 여행 가이드 · 볼거리·먹거리",
+      "title": "스구(十鼓) 문화촌 입장권과 근처 맛집, 북 공연 보고 어디서 먹을까?",
+      "desc": "타이난 스구(十鼓) 문화촌은 어떤 곳인지, 바오안역에서 가는 법, 2026년 운영 시간과 입장료, 둘러본 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "meta": "타이난 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Tainan Travel Guide · Sights & Food",
+      "title": "Ten Drum (十鼓) Culture Village Tickets and Nearby Eats: Where to Eat After the Drum Show",
+      "desc": "What Tainan's Ten Drum (十鼓) Culture Village is, how to get there from Bao'an Station, 2026 hours and admission, and nearby restaurants from our map for after your visit.",
+      "meta": "Tainan · Sights & Food"
+    }
+  },
+  {
     "slug": "taipei-national-palace-museum-ticket-nearby-eats",
     "image": "assets/images/attractions/taipei/palace-museum.webp",
     "regions": [
@@ -1979,6 +1998,343 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "tainan-ten-drum-culture-village-ticket-eats": {
+    "heroImage": "assets/images/attractions/tainan/ten-drum.webp",
+    "ko": {
+      "pageTitle": "스구(十鼓) 문화촌 입장권·근처 맛집 — 타이난 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이난 스구(十鼓) 문화촌은 어떤 곳인지, 바오안역에서 가는 법, 2026년 운영 시간과 입장료, 둘러본 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "스구(十鼓) 문화촌 입장권과 근처 맛집, 북 공연 보고 어디서 먹을까?",
+      "eyebrow": "타이난 여행 가이드 · 볼거리·먹거리",
+      "title": "스구(十鼓) 문화촌 입장권과 근처 맛집, 북 공연 보고 어디서 먹을까?",
+      "dek": "옛 제당공장에서 북 공연을 본 다음, 지도에 등록된 근처 맛집까지 한 번에 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이난 · 볼거리·먹거리",
+      "intro": "스구(十鼓) 문화촌은 타이난 런더구(仁德區)의 옛 제당공장을 북 공연 공간으로 바꾼 곳이에요. 구시가지에서 떨어져 있어서, 둘러본 뒤 어디서 먹을지 미리 정해두면 동선이 편해요. 十鼓文創園區 공식 사이트를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 스구 문화촌은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "1909년 문을 연 車路墘製糖所가 仁德糖廠이 됐다가 2003년 문을 닫았고, 그 자리를 十鼓擊樂團이 북 공연 중심의 문화 공간으로 바꿨어요. 약 7.5헥타르 부지에 일제강점기 창고 22동이 남아 있어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/tainan/ten-drum.webp",
+          "caption": "스구 문화촌의 북 박물관이에요(사진: Al8969a / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "북 공연",
+              "desc": "입장권 1장으로 북 공연 한 회를 볼 수 있어요. 한 번 더 보려면 NT$300을 더 내야 해요."
+            },
+            {
+              "mark": "✓",
+              "b": "옛 제당공장 창고",
+              "desc": "일제강점기 창고 22동이 남아 있어 공장 분위기 그대로 둘러볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "魔法工廠",
+              "desc": "문화촌 안의 볼거리 가운데 하나예요."
+            },
+            {
+              "mark": "✓",
+              "b": "익스트림 시설",
+              "desc": "개별 여행자는 입장하면 익스트림 체험 시설을 무제한 이용할 수 있다고 안내돼요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "台鐵 바오안(保安)역",
+              "desc": "文賢路에서 文華路로 꺾어 철길을 건너면 걸어서 갈 수 있어요. 保安 환승센터에서 紅3 버스(臺南都會公園 방향)를 타고 十鼓文創園區 정류장에서 내려도 돼요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 운영 시간과 요금 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "내용"
+          ],
+          "rows": [
+            {
+              "label": "운영 시간",
+              "values": [
+                "월~금 10:00~17:20, 토·일 09:30~17:50"
+              ]
+            },
+            {
+              "label": "점심 정비",
+              "values": [
+                "11:45~13:10 일부 전시관·체험 시설 청소"
+              ]
+            },
+            {
+              "label": "2026 일반 입장권",
+              "values": [
+                "성인 NT$509, 학생 NT$470, 6~12세·65세 이상 NT$450, 3~5세 NT$290"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27309-ten-drum-cultural-village-ticket-tainan%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 스구 문화촌 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · 둘러본 뒤 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "문화촌 바로 앞에는 지도에 등록된 식당이 없어요. 가장 가까운 곳이 약 1.8km, 나머지는 3~4km 거리라 택시나 차로 이동하는 편이 편해요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/tainan-taiwanese-640\">奇美食品幸福工廠</a> · 대만식 · 북서쪽 약 1.8km",
+              "desc": "지도에 대만식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/tainan-cafe-crema-cafe-645\">CREMA CAFE</a> · 카페 · 북쪽 약 2.9km",
+              "desc": "지도에 카페(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/tainan-hotpot-42\">阿裕牛肉涮涮鍋</a> · 훠궈 · 동쪽 약 3.1km",
+              "desc": "지도에 훠궈(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/tainan-ramen-594\">麵屋青鳥</a> · 라멘 · 북쪽 약 3.4km",
+              "desc": "지도에 라멘(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/tainan-bakery-570\">小樣貝果 ／樣貝果</a> · 베이커리 · 북서쪽 약 3.5km",
+              "desc": "지도에 베이커리(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/tainan-bakery-641\">植男臥室雞蛋燒</a> · 베이커리 · 북동쪽 약 3.6km",
+              "desc": "지도에 베이커리(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/tainan-brunch-531\">日成咖啡早午餐</a> · 브런치 · 북서쪽 약 3.7km",
+              "desc": "지도에 브런치(으)로 등록된 곳이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 十鼓文創園區 공식 사이트의 운영 시간·입장료·교통·관람 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 시간과 요금은 바뀔 수 있으니 방문 전 공식 사이트를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이난 맛집도 확인해보세요",
+          "desc": "문화촌 일정 앞뒤로 들를 타이난 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Ten Drum (十鼓) Culture Village Tickets & Nearby Eats — Tainan · My Secret Taiwan Eats",
+      "metaDescription": "What Tainan's Ten Drum (十鼓) Culture Village is, how to get there from Bao'an Station, 2026 hours and admission, and nearby restaurants from our map for after your visit.",
+      "ogTitle": "Ten Drum (十鼓) Culture Village Tickets and Nearby Eats: Where to Eat After the Drum Show",
+      "eyebrow": "Tainan Travel Guide · Sights & Food",
+      "title": "Ten Drum (十鼓) Culture Village Tickets and Nearby Eats: Where to Eat After the Drum Show",
+      "dek": "Watch a drum show in a former sugar factory, then pick a nearby restaurant from our map in one go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Tainan · Sights & Food",
+      "intro": "Ten Drum (十鼓) Culture Village is a former sugar factory in Rende District (仁德區), Tainan, turned into a drum performance venue. It's away from the old town, so deciding where to eat afterwards makes the day easier. Based on the official 十鼓文創園區 site, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is Ten Drum Culture Village?"
+        },
+        {
+          "type": "p",
+          "html": "車路墘製糖所, opened in 1909, became 仁德糖廠 and closed in 2003; 十鼓擊樂團 then turned the site into a cultural space centred on drum performances. Twenty-two Japanese-era warehouses remain on the roughly 7.5-hectare site."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/tainan/ten-drum.webp",
+          "caption": "The drum museum at Ten Drum Culture Village (photo: Al8969a / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What Not to Miss"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Drum show",
+              "desc": "One ticket covers one drum show. Watching another costs an extra NT$300."
+            },
+            {
+              "mark": "✓",
+              "b": "Old sugar factory warehouses",
+              "desc": "Twenty-two Japanese-era warehouses remain, so you can explore the factory atmosphere as it was."
+            },
+            {
+              "mark": "✓",
+              "b": "魔法工廠",
+              "desc": "One of the sights inside the village."
+            },
+            {
+              "mark": "✓",
+              "b": "Extreme activities",
+              "desc": "Independent travellers are told they can use the extreme activity facilities without limit once inside."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "TRA Bao'an (保安) Station",
+              "desc": "You can walk there by turning from 文賢路 onto 文華路 and crossing the tracks. You can also take bus 紅3 (toward 臺南都會公園) from the 保安 transfer station and get off at the 十鼓文創園區 stop."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Hours and Admission (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Details"
+          ],
+          "rows": [
+            {
+              "label": "Hours",
+              "values": [
+                "Mon–Fri 10:00–17:20, Sat–Sun 09:30–17:50"
+              ]
+            },
+            {
+              "label": "Midday maintenance",
+              "values": [
+                "11:45–13:10, some exhibition halls and activity facilities are cleaned"
+              ]
+            },
+            {
+              "label": "2026 regular ticket",
+              "values": [
+                "Adults NT$509, students NT$470, ages 6–12 and 65+ NT$450, ages 3–5 NT$290"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F27309-ten-drum-cultural-village-ticket-tainan%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Ten Drum Culture Village tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · Nearby Restaurants for After Your Visit"
+        },
+        {
+          "type": "p",
+          "html": "There are no restaurants on our map right outside the village. The closest is about 1.8 km away and the rest are 3–4 km away, so a taxi or car is easier. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/tainan-taiwanese-640\">奇美食品幸福工廠</a> · Taiwanese · about 1.8 km northwest",
+              "desc": "Listed as Taiwanese on the map."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/tainan-cafe-crema-cafe-645\">CREMA CAFE</a> · Café · about 2.9 km north",
+              "desc": "Listed as café on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/tainan-hotpot-42\">阿裕牛肉涮涮鍋</a> · Hot Pot · about 3.1 km east",
+              "desc": "Listed as hot pot on the map."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/tainan-ramen-594\">麵屋青鳥</a> · Ramen · about 3.4 km north",
+              "desc": "Listed as ramen on the map."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/tainan-bakery-570\">小樣貝果 ／樣貝果</a> · Bakery · about 3.5 km northwest",
+              "desc": "Listed as bakery on the map."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/tainan-bakery-641\">植男臥室雞蛋燒</a> · Bakery · about 3.6 km northeast",
+              "desc": "Listed as bakery on the map."
+            },
+            {
+              "mark": "7",
+              "b": "<a href=\"/tainan-brunch-531\">日成咖啡早午餐</a> · Brunch · about 3.7 km northwest",
+              "desc": "Listed as brunch on the map."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on the official 十鼓文創園區 site's hours, admission, transport and visitor information, as of October 2026. Hours and prices can change, so check the official site before you go. Restaurant distances are straight-line from the coordinates registered on our map."
+        },
+        {
+          "type": "cta",
+          "title": "Find Tainan eats on the map",
+          "desc": "Save Tainan restaurants to visit before or after the village.",
+          "btn": "Open Map →",
+          "href": "/map?region=tainan"
+        }
+      ]
+    }
+  },
   "taipei-national-palace-museum-ticket-nearby-eats": {
     "heroImage": "assets/images/attractions/taipei/palace-museum.webp",
     "ko": {
