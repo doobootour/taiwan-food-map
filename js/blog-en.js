@@ -30,6 +30,7 @@
     "kenting-national-museum-marine-biology-aquarium-ticket-eats",
     "taipei-national-palace-museum-ticket-nearby-eats",
     "tainan-ten-drum-culture-village-ticket-eats",
+    "yilan-national-center-traditional-arts-ticket-eats",
     "kaohsiung-shoushan-zoo-tickets-kids-tips",
   ];
   if (typeof module === "object" && module.exports) module.exports = { EN_BLOG_SLUGS };

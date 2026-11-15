@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "yilan-national-center-traditional-arts-ticket-eats",
+    "image": "assets/images/attractions/yilan/traditional-arts.webp",
+    "regions": [
+      "yilan"
+    ],
+    "ko": {
+      "eyebrow": "이란 여행 가이드 · 볼거리·먹거리",
+      "title": "국립전통예술센터 입장권과 근처 맛집, 둘러본 뒤엔 어디서 먹을까?",
+      "desc": "이란 국립전통예술센터는 어떤 곳인지, 꼭 볼 것과 뤄둥역에서 가는 버스, 관람 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "meta": "이란 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Yilan Travel Guide · Sights & Food",
+      "title": "National Center for Traditional Arts Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "desc": "What Yilan's National Center for Traditional Arts is, what not to miss, buses from Luodong Station, and nearby restaurants from our map for after your visit.",
+      "meta": "Yilan · Sights & Food"
+    }
+  },
+  {
     "slug": "tainan-ten-drum-culture-village-ticket-eats",
     "image": "assets/images/attractions/tainan/ten-drum.webp",
     "regions": [
@@ -1998,6 +2017,241 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "yilan-national-center-traditional-arts-ticket-eats": {
+    "heroImage": "assets/images/attractions/yilan/traditional-arts.webp",
+    "ko": {
+      "pageTitle": "국립전통예술센터 입장권·근처 맛집 — 이란 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "이란 국립전통예술센터는 어떤 곳인지, 꼭 볼 것과 뤄둥역에서 가는 버스, 관람 뒤 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "국립전통예술센터 입장권과 근처 맛집, 둘러본 뒤엔 어디서 먹을까?",
+      "eyebrow": "이란 여행 가이드 · 볼거리·먹거리",
+      "title": "국립전통예술센터 입장권과 근처 맛집, 둘러본 뒤엔 어디서 먹을까?",
+      "dek": "옛 거리와 공방을 둘러본 다음, 근처 우제·뤄둥 쪽 맛집까지 한 번에 정해보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "이란 · 볼거리·먹거리",
+      "intro": "이란(宜蘭) 둥산허(冬山河) 강가의 국립전통예술센터(國立傳統藝術中心)는 옛 거리를 재현한 단지에서 공예와 공연을 즐기는 곳이에요. 단지가 강가에 따로 떨어져 있어서, 근처 맛집을 미리 정해두면 동선이 편해요. 交通部觀光署 자료를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 국립전통예술센터는 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "대만 전통 예술을 보존하고 알리려고 만든 국립 문화 공간이에요. 冬山河 강가에 親水公園과 마주 보고 있고, 옛 거리를 재현한 단지 안에 공방과 전시관, 공연장이 모여 있어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/yilan/traditional-arts.webp",
+          "caption": "전통예술센터의 붉은 지붕 전통 무대예요(사진: Bernard Gagnon / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "傳藝老街",
+              "desc": "전통 공예 시연을 보고 직접 체험해 볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "黃舉人宅·文昌祠",
+              "desc": "옛 저택과 사당이 단지 안에 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "曲藝館",
+              "desc": "전통 공연을 하는 공연장이에요. 공연·체험 일정이 있는 날 맞춰 가면 더 즐거워요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "뤄둥(羅東)역에서 버스",
+              "desc": "台灣好行 綠21번이나 葛瑪蘭 621번 버스를 타고 가요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F4698-national-center-for-traditional-arts-ticket-yilan%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 국립전통예술센터 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 둘러본 뒤 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "센터 바로 앞에는 지도에 등록된 식당이 없어요. 가까운 곳이 2.4~3.4km, 그다음은 4.5km 넘는 뤄둥 시내라 택시나 버스로 이동하는 편이 편해요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/yilan-cafe-cafe-163\">藍秋cafe</a> · 카페 · 서쪽 약 2.4km",
+              "desc": "지도에 카페(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/yilan-pizza-167\">靜候披薩</a> · 피자 · 서쪽 약 2.9km",
+              "desc": "지도에 피자(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/yilan-taiwanese-goodnood-179\">Goodnood</a> · 대만식 · 남서쪽 약 3.4km",
+              "desc": "지도에 대만식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/yilan-taiwanese-111\">有蟲咬物文創餐屋</a> · 대만식 · 남쪽 약 4.5km",
+              "desc": "지도에 대만식(으)로 등록된 곳이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 交通部觀光署의 國立傳統藝術中心 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 운영 시간과 요금은 공식 사이트에서 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Bernard Gagnon, Wikimedia Commons, CC BY-SA 3.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 이란 맛집도 확인해보세요",
+          "desc": "센터 일정 앞뒤로 들를 이란 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=yilan"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "National Center for Traditional Arts Tickets & Nearby Eats — Yilan · My Secret Taiwan Eats",
+      "metaDescription": "What Yilan's National Center for Traditional Arts is, what not to miss, buses from Luodong Station, and nearby restaurants from our map for after your visit.",
+      "ogTitle": "National Center for Traditional Arts Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "eyebrow": "Yilan Travel Guide · Sights & Food",
+      "title": "National Center for Traditional Arts Tickets and Nearby Eats: Where to Eat After Your Visit",
+      "dek": "Explore the old street and workshops, then pick a restaurant in nearby Wujie or Luodong in one go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Yilan · Sights & Food",
+      "intro": "The National Center for Traditional Arts (國立傳統藝術中心) on the Dongshan River (冬山河) in Yilan (宜蘭) is a complex recreating an old street where you can enjoy crafts and performances. It sits apart on the riverside, so deciding on a nearby restaurant in advance makes the day easier. Based on 交通部觀光署 information, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is the National Center for Traditional Arts?"
+        },
+        {
+          "type": "p",
+          "html": "A national cultural space created to preserve and promote Taiwan's traditional arts. It faces 親水公園 across the 冬山河, and workshops, exhibition halls and performance venues are gathered in a complex recreating an old street."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/yilan/traditional-arts.webp",
+          "caption": "The red-roofed traditional stage at the Center (photo: Bernard Gagnon / Wikimedia Commons, CC BY-SA 3.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What Not to Miss"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "傳藝老街",
+              "desc": "Watch traditional craft demonstrations and try them yourself."
+            },
+            {
+              "mark": "✓",
+              "b": "黃舉人宅·文昌祠",
+              "desc": "An old mansion and a temple are inside the complex."
+            },
+            {
+              "mark": "✓",
+              "b": "曲藝館",
+              "desc": "A venue for traditional performances. It's more fun if you go on a day with scheduled shows or activities."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Bus from Luodong (羅東) Station",
+              "desc": "Take Taiwan Tourist Shuttle (台灣好行) 綠21 or 葛瑪蘭 bus 621."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F4698-national-center-for-traditional-arts-ticket-yilan%2F\" target=\"_blank\" rel=\"sponsored noopener\">See National Center for Traditional Arts tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Nearby Restaurants for After Your Visit"
+        },
+        {
+          "type": "p",
+          "html": "There are no restaurants on our map right outside the Center. The closest are 2.4–3.4 km away, and the next are over 4.5 km away in central Luodong, so a taxi or bus is easier. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/yilan-cafe-cafe-163\">藍秋cafe</a> · Café · about 2.4 km west",
+              "desc": "Listed as café on the map."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/yilan-pizza-167\">靜候披薩</a> · Pizza · about 2.9 km west",
+              "desc": "Listed as pizza on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/yilan-taiwanese-goodnood-179\">Goodnood</a> · Taiwanese · about 3.4 km southwest",
+              "desc": "Listed as Taiwanese on the map."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/yilan-taiwanese-111\">有蟲咬物文創餐屋</a> · Taiwanese · about 4.5 km south",
+              "desc": "Listed as Taiwanese on the map."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on 交通部觀光署's 國立傳統藝術中心 information, as of October 2026. Check hours and prices on the official site. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Bernard Gagnon, Wikimedia Commons, CC BY-SA 3.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Yilan eats on the map",
+          "desc": "Save Yilan restaurants to visit before or after the Center.",
+          "btn": "Open Map →",
+          "href": "/map?region=yilan"
+        }
+      ]
+    }
+  },
   "tainan-ten-drum-culture-village-ticket-eats": {
     "heroImage": "assets/images/attractions/tainan/ten-drum.webp",
     "ko": {
