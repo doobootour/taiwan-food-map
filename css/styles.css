@@ -980,7 +980,17 @@ body.map-page { height: 100%; overflow: hidden; }
 html:has(body.map-page) { height: 100%; }
 .map-shell { position: relative; height: calc(100vh - var(--header-h)); }
 #map { position: absolute; inset: 0; z-index: 0; }
-.leaflet-tile { filter: sepia(0.1) saturate(1.08) hue-rotate(-4deg); }
+.leaflet-container img {
+  max-width: none !important;
+  max-height: none !important;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.leaflet-tile {
+  filter: sepia(0.1) saturate(1.08) hue-rotate(-4deg);
+  outline: 1px solid transparent; /* close subpixel/filter tile seams */
+}
 
 .map-filter-panel {
   position: absolute; top: 16px; left: 16px; right: 16px; z-index: 500;
