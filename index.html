@@ -13,8 +13,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#c2703f" />
 <link rel="icon" type="image/png" href="assets/favicon.png" />
-<title>나만 알고 싶은 대만 맛집 · My Secret Taiwan Eats</title>
-<meta name="description" content="한국 여행자들의 실제 후기를 모아 고른 대만 맛집 지도. 우육면부터 딤섬, 빙수, 노점음식까지 카테고리별로 찾고, 지도에 핀을 찍어 나만의 맛집을 공유하세요." />
+<title>대만 맛집 지도 · 지역별 맛집 추천 | 나만 알고 싶은 대만 맛집</title>
+<meta name="description" content="대만 맛집 추천을 지도로 찾아보세요. 타이베이·타이난·화롄 등 9개 지역, 우육면·딤섬·빙수 등 32개 메뉴별로 한국 여행자가 직접 등록한 맛집과 구글맵 링크를 모았어요." />
 <meta name="keywords" content="대만 맛집, 대만 여행, 대만 맛집 지도, 타이베이 맛집, 화롄 맛집, 우육면, 야시장, Taiwan food map" />
 <link rel="canonical" href="https://taiwanbite.com/" />
 <link rel="alternate" hreflang="ko" href="https://taiwanbite.com/" />
@@ -28,11 +28,11 @@
 <meta property="og:url" content="https://taiwanbite.com/" />
 <meta property="og:site_name" content="나만 알고 싶은 대만 맛집" />
 <meta property="og:locale" content="ko_KR" />
-<meta property="og:title" content="나만 알고 싶은 대만 맛집" />
-<meta property="og:description" content="한국 여행자들의 실제 후기를 모아 고른 대만 맛집 지도" />
+<meta property="og:title" content="대만 맛집 지도 · 지역별 맛집 추천 | 나만 알고 싶은 대만 맛집" />
+<meta property="og:description" content="대만 맛집 추천을 지도로 찾아보세요. 타이베이·타이난·화롄 등 9개 지역, 우육면·딤섬·빙수 등 32개 메뉴별로 한국 여행자가 직접 등록한 맛집과 구글맵 링크를 모았어요." />
 <meta property="og:image" content="https://taiwanbite.com/assets/images/hero/flatlay_2-og.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"나만 알고 싶은 대만 맛집","alternateName":"My Secret Taiwan Eats","url":"https://taiwanbite.com/"},{"@type":"Organization","name":"나만 알고 싶은 대만 맛집","url":"https://taiwanbite.com/","logo":"https://taiwanbite.com/assets/images/logo.webp"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://taiwanbite.com/#website","name":"나만 알고 싶은 대만 맛집","alternateName":["My Secret Taiwan Eats","대만 맛집 지도"],"url":"https://taiwanbite.com/","inLanguage":"ko-KR","description":"대만 맛집 추천을 지도로 찾아보세요. 타이베이·타이난·화롄 등 9개 지역, 우육면·딤섬·빙수 등 32개 메뉴별로 한국 여행자가 직접 등록한 맛집과 구글맵 링크를 모았어요.","publisher":{"@id":"https://taiwanbite.com/#organization"}},{"@type":"Organization","@id":"https://taiwanbite.com/#organization","name":"나만 알고 싶은 대만 맛집","alternateName":"My Secret Taiwan Eats","url":"https://taiwanbite.com/","logo":"https://taiwanbite.com/assets/images/logo.webp"},{"@type":"ItemList","@id":"https://taiwanbite.com/#regions","name":"지역별 대만 맛집","itemListElement":[{"@type":"ListItem","position":1,"name":"타이베이 맛집","url":"https://taiwanbite.com/region-taipei"},{"@type":"ListItem","position":2,"name":"타이페이 근교(예류·스펀·지우펀) 맛집","url":"https://taiwanbite.com/region-jiufen"},{"@type":"ListItem","position":3,"name":"가오슝 맛집","url":"https://taiwanbite.com/region-kaohsiung"},{"@type":"ListItem","position":4,"name":"타이중 맛집","url":"https://taiwanbite.com/region-taichung"},{"@type":"ListItem","position":5,"name":"타이난 맛집","url":"https://taiwanbite.com/region-tainan"},{"@type":"ListItem","position":6,"name":"화롄 맛집","url":"https://taiwanbite.com/region-hualien"},{"@type":"ListItem","position":7,"name":"이란 맛집","url":"https://taiwanbite.com/region-yilan"},{"@type":"ListItem","position":8,"name":"타이동 맛집","url":"https://taiwanbite.com/region-taitung"},{"@type":"ListItem","position":9,"name":"아리산/일월담 맛집","url":"https://taiwanbite.com/region-alishan"}]}]}</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -173,7 +173,7 @@
         <div class="embedded-map-wrap">
           <div id="homeMap"></div>
           <div class="map-loading" id="homeMapLoading"><span class="spinner"></span><span data-i18n="map_loading">맛집을 불러오는 중...</span></div>
-          <div class="empty-note-float" id="homeEmptyNote">
+          <div class="empty-note-float" id="homeEmptyNote" data-nosnippet>
             <span class="ico">🗺️</span>
             <span data-i18n-html="empty_note_html">이 카테고리엔 아직 등록된 맛집이 없어요.<br/>첫 발견자가 되어보세요!</span>
           </div>
@@ -213,8 +213,9 @@
       <div class="section-head reveal">
         <div>
           <span class="eyebrow">Explore by region</span>
-          <h2 data-i18n="sec_regions_title">지역별 탐험</h2>
+          <h2 data-i18n="sec_regions_title">지역별 대만 맛집 추천</h2>
           <p data-i18n="sec_regions_desc">대만은 지역마다 다른 매력의 로컬 푸드가 있어요. 여행 동선에 맞춰 골라보세요.</p>
+          <p id="homeComboLinks">많이 찾는 지역·메뉴별 맛집: <a href="taipei-beef_noodle">타이베이 우육면 맛집</a> · <a href="taipei-dimsum">타이베이 딤섬 맛집</a> · <a href="taipei-shaved_ice">타이베이 빙수 맛집</a> · <a href="taipei-hotpot">타이베이 훠궈 맛집</a> · <a href="taipei-street_food">타이베이 노점 맛집</a> · <a href="taipei-taiwanese">타이베이 대만식 맛집</a> · <a href="taipei-breakfast">타이베이 조식 맛집</a> · <a href="tainan-taiwanese">타이난 대만식 맛집</a> · <a href="tainan-beef_noodle">타이난 우육면 맛집</a> · <a href="tainan-hotpot">타이난 훠궈 맛집</a> · <a href="taichung-taiwanese">타이중 대만식 맛집</a> · <a href="taichung-bakery">타이중 베이커리 맛집</a> · <a href="hualien-street_food">화롄 노점 맛집</a> · <a href="hualien-beef_noodle">화롄 우육면 맛집</a> · <a href="kaohsiung-cafe">가오슝 카페 맛집</a> · <a href="taitung-taiwanese">타이동 대만식 맛집</a></p>
         </div>
       </div>
       <div class="region-grid" id="regionGrid">
@@ -356,7 +357,7 @@
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="js/data.js?v=1794482000"></script>
-<script src="js/i18n.js?v=1794105305"></script>
+<script src="js/i18n.js?v=1794845000"></script>
 <script src="js/supabase-config.js?v=1790588220"></script>
 <script src="js/admin.js?v=1790588220"></script>
 <script src="js/app.js?v=1794482000"></script>
