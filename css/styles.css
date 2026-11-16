@@ -991,6 +991,10 @@ html:has(body.map-page) { height: 100%; }
   filter: sepia(0.1) saturate(1.08) hue-rotate(-4deg);
   outline: 1px solid transparent; /* close subpixel/filter tile seams */
 }
+/* Leaflet 1.9 sets mix-blend-mode: plus-lighter on tiles. With the per-tile
+   filter above, overlapping tile edges add up at fractional zoom/DPR (e.g.
+   browser zoom 67–90%, Windows 125%) and draw bright white seam lines. */
+.leaflet-container img.leaflet-tile { mix-blend-mode: normal; }
 
 .map-filter-panel {
   position: absolute; top: 16px; left: 16px; right: 16px; z-index: 500;
