@@ -68,7 +68,7 @@ const I18N = {
 
     recent_contributors_label: "최근 맛집을 공유해준 여행자",
 
-    sec_regions_title: "지역별 탐험",
+    sec_regions_title: "지역별 대만 맛집 추천",
     sec_regions_desc: "대만은 지역마다 다른 매력의 로컬 푸드가 있어요. 여행 동선에 맞춰 골라보세요.",
 
     cta_title: "나만의 맛집을 공유해주세요 🤫",

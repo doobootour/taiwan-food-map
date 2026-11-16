@@ -292,6 +292,8 @@ const EN_HOME_DESC = "A Taiwan food map picked from real reviews by Korean trave
 
 function writeEnglishHome(koHtml) {
   let out = koHtml.replace("<html lang=\"ko\">", "<html lang=\"en\">");
+  // 홈의 한국어 지역·메뉴 조합 링크 문단(#homeComboLinks)은 한국어 페이지 전용이다.
+  out = out.replace(/\n\s*<p id="homeComboLinks">[\s\S]*?<\/p>/, "");
   out = out.replace(/<title>[^<]*<\/title>/, `<title>${SITE_NAME_EN}</title>`);
   out = out.replace(
     /<link rel="canonical" href="[^"]*" \/>/,
