@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "hualien-farglory-ocean-park-ticket-eats",
+    "image": "assets/images/attractions/hualien/farglory-ocean-park.webp",
+    "regions": [
+      "hualien"
+    ],
+    "ko": {
+      "eyebrow": "화롄 여행 가이드 · 볼거리·먹거리",
+      "title": "원슝 해양공원(Farglory) 입장권, 놀고 나서 화롄 시내에선 뭘 먹을까?",
+      "desc": "화롄 원슝 해양공원(Farglory)은 어떤 곳인지, 쇼와 2026년 운영 시간, 화롄역에서 가는 버스, 놀고 나서 들르기 좋은 화롄 시내 지도 속 맛집을 정리했어요.",
+      "meta": "화롄 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Hualien Travel Guide · Sights & Food",
+      "title": "Farglory Ocean Park Tickets: What to Eat in Hualien City Afterwards",
+      "desc": "What Hualien's Farglory Ocean Park is, its shows and 2026 hours, buses from Hualien Station, and restaurants from our map in Hualien city for after your visit.",
+      "meta": "Hualien · Sights & Food"
+    }
+  },
+  {
     "slug": "yilan-national-center-traditional-arts-ticket-eats",
     "image": "assets/images/attractions/yilan/traditional-arts.webp",
     "regions": [
@@ -2017,6 +2036,353 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "hualien-farglory-ocean-park-ticket-eats": {
+    "heroImage": "assets/images/attractions/hualien/farglory-ocean-park.webp",
+    "ko": {
+      "pageTitle": "원슝 해양공원(Farglory) 입장권·화롄 시내 맛집 — 화롄 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "화롄 원슝 해양공원(Farglory)은 어떤 곳인지, 쇼와 2026년 운영 시간, 화롄역에서 가는 버스, 놀고 나서 들르기 좋은 화롄 시내 지도 속 맛집을 정리했어요.",
+      "ogTitle": "원슝 해양공원(Farglory) 입장권, 놀고 나서 화롄 시내에선 뭘 먹을까?",
+      "eyebrow": "화롄 여행 가이드 · 볼거리·먹거리",
+      "title": "원슝 해양공원(Farglory) 입장권, 놀고 나서 화롄 시내에선 뭘 먹을까?",
+      "dek": "바다 보이는 언덕 위 해양 테마파크에 가기 전에, 운영 시간과 가는 법, 화롄 시내 맛집을 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "화롄 · 볼거리·먹거리",
+      "intro": "원슝 해양공원(遠雄海洋公園)은 화롄 서우펑향(壽豐鄉) 바닷가 언덕에 있는 해양 테마파크예요. 근처에는 지도에 등록된 식당이 없어서, 놀고 나서 화롄 시내로 돌아와 먹는 동선을 정리했어요. 遠雄海洋公園 공식 사이트를 바탕으로 2026년 10월 기준으로 정리했어요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 원슝 해양공원은 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "여덟 개 테마 구역과 네 가지 쇼가 있는 해양 테마파크예요. 주소는 花蓮縣 壽豐鄉 鹽寮村 福德 189호예요. 공원 안에 테마 레스토랑 세 곳과 19세기 영국 부두풍 쇼핑거리도 있어요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/hualien/farglory-ocean-park.webp",
+          "caption": "원슝 해양공원 돌고래 쇼 무대예요(사진: 何等幸福平面攝影工作室 / Wikimedia Commons, CC BY-SA 2.0, 2015년 4월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "돌고래 쇼",
+              "desc": "공원 대표 쇼예요."
+            },
+            {
+              "mark": "✓",
+              "b": "바다사자 쇼",
+              "desc": "바다사자 순찰대(海獅巡邏隊) 쇼예요."
+            },
+            {
+              "mark": "✓",
+              "b": "海洋探索館",
+              "desc": "해양 생물을 가까이에서 보는 전시관이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "奇妙海洋慶典",
+              "desc": "수정궁에서 열리는 쇼예요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "버스",
+              "desc": "화롄역에서 1140·1145번 버스를 타고 海洋公園 정류장에서 내려요. 약 35분, 약 NT$51이에요."
+            },
+            {
+              "mark": "2",
+              "b": "택시",
+              "desc": "화롄역에서 약 25분, 약 NT$400이에요."
+            },
+            {
+              "mark": "3",
+              "b": "차로",
+              "desc": "台9線으로 花蓮大橋를 건넌 뒤 台11線을 따라가요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 운영 시간과 요금 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "내용"
+          ],
+          "rows": [
+            {
+              "label": "운영 시간",
+              "values": [
+                "09:30~17:00"
+              ]
+            },
+            {
+              "label": "여름 성수기",
+              "values": [
+                "평일 09:30~17:30, 주말 09:00~17:30"
+              ]
+            },
+            {
+              "label": "입장 마감",
+              "values": [
+                "폐장 2시간 전 매표·입장 마감"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F422-farglory-ocean-park-hualien%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 원슝 해양공원 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · 놀고 나서 들르기 좋은 화롄 시내 맛집"
+        },
+        {
+          "type": "p",
+          "html": "공원 근처에는 지도에 등록된 식당이 없어요. 아래는 공원에서 약 7.5~8km 떨어진 화롄 시내 맛집이에요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/hualien-cafe-20\">利普咖啡商行</a> · 카페 · 북쪽 약 7.5km",
+              "desc": "지도에 카페(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/hualien-stinky_tofu-yuli-qiaotou-stinky-tofu-943\">Yuli Qiaotou Stinky Tofu (玉里橋頭臭豆腐-花蓮店)</a> · 취두부 · 북쪽 약 7.5km",
+              "desc": "지도 메모: 동대문 야시장 구경 전후로 편하게 들르기 좋은 근처 식당이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/hualien-thai-mi-dang-thai-barbeque-39\">Mi Dang Thai Barbeque</a> · 태국 · 북쪽 약 7.6km",
+              "desc": "지도에 태국(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/hualien-beef_noodle-hualien-928\">巷往 Hualien</a> · 우육면 · 북쪽 약 7.8km",
+              "desc": "지도 메모: 동대문 야시장 구경 전후로 편하게 들르기 좋은 근처 식당이에요."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/hualien-shaved_ice-940\">凍涼小舖</a> · 빙수 · 북쪽 약 7.9km",
+              "desc": "지도 메모: 동대문 야시장 구경 전후로 편하게 들르기 좋은 근처 식당이에요."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/hualien-pasta-917\">蜜斯蜜複合式餐廳</a> · 파스타 · 북쪽 약 7.9km",
+              "desc": "지도에 파스타(으)로 등록된 곳이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "이 글은 遠雄海洋公園 공식 사이트의 운영 시간·교통·공원 안내를 바탕으로 2026년 10월 기준으로 정리했습니다. 시간과 요금은 바뀔 수 있으니 방문 전 공식 사이트를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: 何等幸福平面攝影工作室, Wikimedia Commons, CC BY-SA 2.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 화롄 맛집도 확인해보세요",
+          "desc": "공원 일정 앞뒤로 들를 화롄 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=hualien"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Farglory Ocean Park Tickets & Hualien City Eats — Hualien · My Secret Taiwan Eats",
+      "metaDescription": "What Hualien's Farglory Ocean Park is, its shows and 2026 hours, buses from Hualien Station, and restaurants from our map in Hualien city for after your visit.",
+      "ogTitle": "Farglory Ocean Park Tickets: What to Eat in Hualien City Afterwards",
+      "eyebrow": "Hualien Travel Guide · Sights & Food",
+      "title": "Farglory Ocean Park Tickets: What to Eat in Hualien City Afterwards",
+      "dek": "Before visiting the hilltop ocean theme park with sea views, check the hours, how to get there and Hualien city restaurants.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Hualien · Sights & Food",
+      "intro": "Farglory Ocean Park (遠雄海洋公園) is an ocean theme park on a seaside hill in Shoufeng Township (壽豐鄉), Hualien. There are no restaurants on our map nearby, so we've laid out a route back to Hualien city to eat afterwards. Based on the official 遠雄海洋公園 site, as of October 2026.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is Farglory Ocean Park?"
+        },
+        {
+          "type": "p",
+          "html": "An ocean theme park with eight themed zones and four shows. The address is No. 189, 福德, 鹽寮村, 壽豐鄉, 花蓮縣. Inside the park there are also three themed restaurants and a 19th-century English harbour-style shopping street."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/hualien/farglory-ocean-park.webp",
+          "caption": "The dolphin show stage at Farglory Ocean Park (photo: 何等幸福平面攝影工作室 / Wikimedia Commons, CC BY-SA 2.0, April 2015)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What Not to Miss"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Dolphin show",
+              "desc": "The park's signature show."
+            },
+            {
+              "mark": "✓",
+              "b": "Sea lion show",
+              "desc": "The Sea Lion Patrol (海獅巡邏隊) show."
+            },
+            {
+              "mark": "✓",
+              "b": "海洋探索館",
+              "desc": "An exhibition hall for seeing marine life up close."
+            },
+            {
+              "mark": "✓",
+              "b": "奇妙海洋慶典",
+              "desc": "A show held at the Crystal Palace."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Bus",
+              "desc": "From Hualien Station, take bus 1140 or 1145 and get off at the 海洋公園 stop. About 35 minutes, about NT$51."
+            },
+            {
+              "mark": "2",
+              "b": "Taxi",
+              "desc": "About 25 minutes from Hualien Station, about NT$400."
+            },
+            {
+              "mark": "3",
+              "b": "By car",
+              "desc": "Take 台9線 across 花蓮大橋, then follow 台11線."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Hours and Admission (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Details"
+          ],
+          "rows": [
+            {
+              "label": "Hours",
+              "values": [
+                "09:30~17:00"
+              ]
+            },
+            {
+              "label": "Summer peak season",
+              "values": [
+                "Weekdays 09:30–17:30, weekends 09:00–17:30"
+              ]
+            },
+            {
+              "label": "Last entry",
+              "values": [
+                "Ticket sales and entry close 2 hours before closing"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F422-farglory-ocean-park-hualien%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Farglory Ocean Park tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · Hualien City Restaurants for After Your Visit"
+        },
+        {
+          "type": "p",
+          "html": "There are no restaurants on our map near the park. Below are restaurants in Hualien city, about 7.5–8 km from the park. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/hualien-cafe-20\">利普咖啡商行</a> · Café · about 7.5 km north",
+              "desc": "Listed as café on the map."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/hualien-stinky_tofu-yuli-qiaotou-stinky-tofu-943\">Yuli Qiaotou Stinky Tofu (玉里橋頭臭豆腐-花蓮店)</a> · Stinky Tofu · about 7.5 km north",
+              "desc": "Map note: A nearby restaurant that's easy to drop into before or after visiting Dongdamen Night Market."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/hualien-thai-mi-dang-thai-barbeque-39\">Mi Dang Thai Barbeque</a> · Thai · about 7.6 km north",
+              "desc": "Listed as Thai on the map."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/hualien-beef_noodle-hualien-928\">巷往 Hualien</a> · Beef Noodles · about 7.8 km north",
+              "desc": "Map note: A nearby restaurant that's easy to drop into before or after visiting Dongdamen Night Market."
+            },
+            {
+              "mark": "5",
+              "b": "<a href=\"/hualien-shaved_ice-940\">凍涼小舖</a> · Shaved Ice · about 7.9 km north",
+              "desc": "Map note: A nearby restaurant that's easy to drop into before or after visiting Dongdamen Night Market."
+            },
+            {
+              "mark": "6",
+              "b": "<a href=\"/hualien-pasta-917\">蜜斯蜜複合式餐廳</a> · Pasta · about 7.9 km north",
+              "desc": "Listed as pasta on the map."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Based on the official 遠雄海洋公園 site's hours, transport and park information, as of October 2026. Hours and prices can change, so check the official site before you go. Restaurant distances are straight-line from the coordinates registered on our map. Photo: 何等幸福平面攝影工作室, Wikimedia Commons, CC BY-SA 2.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Hualien eats on the map",
+          "desc": "Save Hualien restaurants to visit before or after the park.",
+          "btn": "Open Map →",
+          "href": "/map?region=hualien"
+        }
+      ]
+    }
+  },
   "yilan-national-center-traditional-arts-ticket-eats": {
     "heroImage": "assets/images/attractions/yilan/traditional-arts.webp",
     "ko": {
@@ -8464,7 +8830,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "버스 시간표를 맞추고 갈아타는 게 부담스럽다면, 타이중·자이·가오슝에서 차량으로 데려다주는 아리산 일일투어도 있어요. 거목 숲길과 펀치후 옛 거리까지 하루에 둘러볼 수 있어 처음 가는 분께 편해요."
+          "html": "버스 시간표를 맞추고 갈아타는 게 부담스럽다면, 타이중·자이·가오슝에서 차량으로 데려다주는 아리산 일일투어도 있어요. 거목 숲길과 펀치후 옛 거리까지 하루에 둘러볼 수 있어 처음 가는 분께 편해요. 일정·포함 사항·출발 장소는 상품 옵션마다 다르니, 예약 전에 클룩 상품 페이지에서 확인하세요."
         },
         {
           "type": "p",
@@ -8472,7 +8838,7 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "아리산 안에서 쟈오핑선 열차와 입장권 세트를 쓸 계획이라면 <a href=\"/blog-alishan-zhaoping-line-ticket-exchange\">아리산 쟈오핑선 입장권 세트 교환법</a>을, 산 위와 일월담에서 먹을 곳은 <a href=\"/blog-alishan-sun-moon-lake-where-to-eat\">아리산·일월담 어디서 먹을까</a>를 함께 보세요. 타이중에서 내려오는 일정이라면 <a href=\"/blog-taichung-tainan-tra-vs-thsr\">타이중→타이난 일반열차 vs 고속철</a>도 도움이 돼요. 출발 전후 끼니는 <a href=\"/region-alishan\">아리산·자이 맛집 지도</a>와 <a href=\"/tainan-taiwanese\">타이난 대만 요리 맛집</a>에서 고르고, 자이 시내에 들른다면 <a href=\"/alishan-taiwanese-959\">자이 처터우 훠지러우판(嘉義車頭火雞肉飯)</a>도 있어요."
+          "html": "아리산 안에서 쟈오핑선 열차와 입장권 세트를 쓸 계획이라면 <a href=\"/blog-alishan-zhaoping-line-ticket-exchange\">아리산 쟈오핑선 입장권 세트 교환법</a>을, 산 위와 일월담에서 먹을 곳은 <a href=\"/blog-alishan-sun-moon-lake-where-to-eat\">아리산·일월담 어디서 먹을까</a>를 함께 보세요. 타이중에서 내려오는 일정이라면 <a href=\"/blog-taichung-tainan-tra-vs-thsr\">타이중→타이난 일반열차 vs 고속철</a>도 도움이 돼요. 출발 전후 끼니는 <a href=\"/region-alishan\">아리산·자이 맛집 지도</a>와 <a href=\"/tainan-taiwanese\">타이난 대만 요리 맛집</a>에서 고르고, 자이 시내에 들른다면 <a href=\"/alishan-taiwanese-959\">자이 처터우 훠지러우판(嘉義車頭火雞肉飯)</a>과 일반열차 자이역 근처 핸드드립 카페 <a href=\"/alishan-cafe-845\">幸福原在咖啡</a>도 있어요."
         },
         {
           "type": "note",
@@ -8704,7 +9070,15 @@ const BLOG_POSTS = {
         },
         {
           "type": "p",
-          "html": "If you plan to ride the Zhaoping Line with a combo ticket, see <a href=\"/blog-alishan-zhaoping-line-ticket-exchange\">where to exchange the Alishan Zhaoping Line combo QR</a>, and for meals on the mountain, <a href=\"/blog-alishan-sun-moon-lake-where-to-eat\">where to eat at Alishan and Sun Moon Lake</a>. Coming down from Taichung? <a href=\"/blog-taichung-tainan-tra-vs-thsr\">Taichung to Tainan by TRA vs THSR</a> helps too. For meals before or after, browse the <a href=\"/region-alishan\">Alishan & Chiayi food map</a> and <a href=\"/tainan-taiwanese\">Tainan Taiwanese restaurants</a>, or the <a href=\"/alishan-taiwanese-959\">Chiayi Chetou turkey rice (嘉義車頭火雞肉飯)</a> page if you stop in Chiayi city."
+          "html": "If matching bus times and transfers feels like a hassle, there is also an Alishan day tour with pickup from Taichung, Chiayi or Kaohsiung. It covers the giant-tree trails and Fenqihu old street in a day, which is easier if it is your first visit. Schedules, inclusions and pickup points vary by option, so check the Klook product page before you book."
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F86344-alishan-day-tour-from-taichung-chiayi-kaohsiung%2F\" target=\"_blank\" rel=\"sponsored noopener\">See the Alishan day tour on Klook →</a>"
+        },
+        {
+          "type": "p",
+          "html": "If you plan to ride the Zhaoping Line with a combo ticket, see <a href=\"/blog-alishan-zhaoping-line-ticket-exchange\">where to exchange the Alishan Zhaoping Line combo QR</a>, and for meals on the mountain, <a href=\"/blog-alishan-sun-moon-lake-where-to-eat\">where to eat at Alishan and Sun Moon Lake</a>. Coming down from Taichung? <a href=\"/blog-taichung-tainan-tra-vs-thsr\">Taichung to Tainan by TRA vs THSR</a> helps too. For meals before or after, browse the <a href=\"/region-alishan\">Alishan & Chiayi food map</a> and <a href=\"/tainan-taiwanese\">Tainan Taiwanese restaurants</a>, or the <a href=\"/alishan-taiwanese-959\">Chiayi Chetou turkey rice (嘉義車頭火雞肉飯)</a> and the hand-drip café <a href=\"/alishan-cafe-845\">幸福原在咖啡</a> near TRA Chiayi Station if you stop in Chiayi city."
         },
         {
           "type": "note",
