@@ -18998,6 +18998,38 @@
    "method": "polished",
    "checked_at": "2026-11-11"
   },
+  "727": {
+   "name_zh": "鴨母寮市場炭火麵",
+   "address_zh": "704臺南市北區北華里成功路148號",
+   "address_en": "Ahboliau Market Dumpster Noodle, No. 148號, Chenggong Rd, Beihua Village, North District, Tainan City, 대만 704",
+   "hours_summary": [
+    "매일 오전 6:30~오후 1:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "러우짜오(肉燥)"
+    },
+    {
+     "name": "홍차(紅茶)"
+    },
+    {
+     "name": "丸子"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이난 北區에 있는 중국 국수류 전문점이에요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 러우짜오(肉燥), 홍차(紅茶), 丸子 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJAfc4gYx2bjQRed7GuromUNM",
+    "rating": 3.6,
+    "reviews": 1002
+   },
+   "method": "auto",
+   "checked_at": "2026-11-18"
+  },
   "728": {
    "name_zh": "無名米糕",
    "address_zh": "700臺南市中西區城隍里中山路8巷5號",
@@ -23687,6 +23719,39 @@
    "method": "polished",
    "checked_at": "2026-11-11"
   },
+  "884": {
+   "name_zh": "山東豆漿大王（10點前林森路有免費停車格)",
+   "address_zh": "970花蓮縣花蓮市國華里博愛街263號",
+   "address_en": "970 대만 Hualien County, Hualien City, Guohua Village, Bo'ai St, 263號山東豆漿大王（10點前林森路有免費停車格)",
+   "hours_summary": [
+    "월 오전 6:00~11:00",
+    "수~일 오전 6:00~11:00"
+   ],
+   "closed_days": "화요일",
+   "mrt": null,
+   "menu": [
+    {
+     "name": "사오빙(燒餅)"
+    },
+    {
+     "name": "궈톄(鍋貼)"
+    },
+    {
+     "name": "肉餅"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "화롄 花蓮市에 있는 아침식사 전문 식당이에요. 구글 지도 기준 화요일은 쉬어요. 구글 리뷰에서는 사오빙(燒餅), 궈톄(鍋貼), 肉餅 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJc2meIr-faDQRhvPkcnYgvh8",
+    "rating": 4.4,
+    "reviews": 2960
+   },
+   "method": "auto",
+   "checked_at": "2026-11-18"
+  },
   "885": {
    "name_zh": "take a bread 光復店",
    "address_zh": "970花蓮縣花蓮市國威里光復街91號",
@@ -28334,123 +28399,115 @@
   },
   "673": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "674": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "675": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "676": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "677": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "678": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "679": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "680": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "681": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "682": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "683": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "684": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "685": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "686": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "695": {
    "reason": "구글 좌표와 등록 좌표 차이 1816m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "697": {
    "reason": "구글 좌표와 등록 좌표 차이 3569m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "700": {
    "reason": "구글 좌표와 등록 좌표 차이 2160m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "709": {
    "reason": "구글 좌표와 등록 좌표 차이 1941m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "714": {
    "reason": "구글 좌표와 등록 좌표 차이 1785m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "715": {
    "reason": "구글 좌표와 등록 좌표 차이 2281m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "722": {
    "reason": "구글 좌표와 등록 좌표 차이 1606m",
-   "checked_at": "2026-11-11"
-  },
-  "727": {
-   "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "761": {
    "reason": "구글 좌표와 등록 좌표 차이 1573m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "766": {
    "reason": "구글 좌표와 등록 좌표 차이 3138m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "767": {
    "reason": "구글 좌표와 등록 좌표 차이 3272m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "832": {
    "reason": "구글 좌표와 등록 좌표 차이 4435m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "835": {
    "reason": "구글 좌표와 등록 좌표 차이 1708m",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "840": {
    "reason": "구글 좌표와 등록 좌표 차이 2300m",
-   "checked_at": "2026-11-11"
-  },
-  "884": {
-   "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   },
   "967": {
    "reason": "구글 업체 정보 못 읽음(좌표형/이름형 링크)",
-   "checked_at": "2026-11-11"
+   "checked_at": "2026-11-18"
   }
  }
 }
