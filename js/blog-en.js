@@ -32,6 +32,7 @@
     "tainan-ten-drum-culture-village-ticket-eats",
     "yilan-national-center-traditional-arts-ticket-eats",
     "hualien-farglory-ocean-park-ticket-eats",
+    "taipei-beitou-yangmingshan-day-tour-nearby-eats",
     "kaohsiung-shoushan-zoo-tickets-kids-tips",
   ];
   if (typeof module === "object" && module.exports) module.exports = { EN_BLOG_SLUGS };
