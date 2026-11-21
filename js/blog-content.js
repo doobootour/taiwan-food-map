@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taipei-beitou-yangmingshan-day-tour-nearby-eats",
+    "image": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
+    "regions": [
+      "taipei"
+    ],
+    "ko": {
+      "eyebrow": "타이베이 여행 가이드 · 볼거리·먹거리",
+      "title": "베이터우 온천·양명산 일일투어, 신베이터우에선 뭘 먹을까?",
+      "desc": "양명산 국가공원과 베이터우 지열곡이 어떤 곳인지, 꼭 볼 것과 신베이터우역 근처 지도 속 맛집을 정리했어요.",
+      "meta": "타이베이 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Taipei Travel Guide · Sights & Food",
+      "title": "Beitou Hot Springs & Yangmingshan Day Tour: What to Eat in Xinbeitou",
+      "desc": "What Yangmingshan National Park and Beitou Thermal Valley are, what not to miss, and restaurants from our map near Xinbeitou Station.",
+      "meta": "Taipei · Sights & Food"
+    }
+  },
+  {
     "slug": "hualien-farglory-ocean-park-ticket-eats",
     "image": "assets/images/attractions/hualien/farglory-ocean-park.webp",
     "regions": [
@@ -2036,6 +2055,313 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taipei-beitou-yangmingshan-day-tour-nearby-eats": {
+    "heroImage": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
+    "ko": {
+      "pageTitle": "베이터우 온천·양명산 일일투어·베이터우 맛집 — 타이베이 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "양명산 국가공원과 베이터우 지열곡이 어떤 곳인지, 꼭 볼 것과 신베이터우역 근처 지도 속 맛집을 정리했어요.",
+      "ogTitle": "베이터우 온천·양명산 일일투어, 신베이터우에선 뭘 먹을까?",
+      "eyebrow": "타이베이 여행 가이드 · 볼거리·먹거리",
+      "title": "베이터우 온천·양명산 일일투어, 신베이터우에선 뭘 먹을까?",
+      "dek": "화산 지형 양명산과 온천 마을 베이터우를 하루에 돌기 전에, 볼거리와 신베이터우 근처 맛집을 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이베이 · 볼거리·먹거리",
+      "intro": "타이베이 북쪽 온천 마을 베이터우(北投) 뒤로 화산 지형 양명산(陽明山)이 이어져요. 둘을 하루에 묶는 투어라면 온천 마을 쪽에서 한 끼를 먹는 동선이 자연스러워요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 양명산과 베이터우는 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "양명산 국가공원은 大屯 화산군이 중심이라 화산체, 분화구, 분기공, 온천이 핵심 풍경이에요. 산자락의 신베이터우(新北投)는 온천 호텔과 공중 온천이 모인 온천 마을이고, 베이터우 공원(北投公園) 옆 지열곡(地熱谷)은 베이터우 온천의 원천 가운데 하나예요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
+          "caption": "신베이터우 온천가 안쪽에 있는 지열곡(地熱谷)이에요. 2024년 4월 사진이라 지금과 다를 수 있어요(사진: GiveMeMollusks / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "지열곡(地熱谷)",
+              "desc": "1년 내내 유황 증기가 피어올라 '地獄谷'이라고도 불러요. 온천수 온도가 98℃에 이르고 물빛이 옅은 초록빛이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "小油坑",
+              "desc": "해발 약 805m의 후화산 활동 지대로, 분기공과 유황 결정을 볼 수 있고 七星山·大屯山 같은 화산 봉우리가 보여요."
+            },
+            {
+              "mark": "✓",
+              "b": "擎天崗",
+              "desc": "탁 트인 초원으로 물소와 초원 생태를 볼 수 있는 곳이에요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "투어로 가기",
+              "desc": "일정, 포함 사항, 출발 장소와 시간은 상품 옵션마다 달라요. 예약 전에 클룩 상품 페이지에서 꼭 확인하세요."
+            },
+            {
+              "mark": "2",
+              "b": "지열곡 직접 가기",
+              "desc": "MRT 淡水信義線 신베이터우역에서 光明路 옆 北投溪를 따라 걸어서 약 15분이에요. 온천 호텔 예약은 <a href=\"/blog-taipei-beitou-private-hot-spring-booking\">베이터우 프라이빗 온천 예약</a> 글을 참고하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · 지열곡 개방 시간 (2026년 10월 기준)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "내용"
+          ],
+          "rows": [
+            {
+              "label": "개방 시간",
+              "values": [
+                "화~일 09:00~17:00(5월 15일~9월 14일은 18:00까지)"
+              ]
+            },
+            {
+              "label": "휴관",
+              "values": [
+                "월요일(공휴일이면 개방), 음력 섣달그믐, 설날"
+              ]
+            },
+            {
+              "label": "입장료",
+              "values": [
+                "무료"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F83266-beitou-yangmingshan-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 베이터우·양명산 투어 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · 베이터우에서 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "지열곡에서 0.7~1.1km 안쪽, 신베이터우역 쪽에 지도에 등록된 가게가 모여 있어요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taipei-taiwanese-970\">雙月食品社 北投店</a> · 대만식 · 서쪽 약 0.7km",
+              "desc": "지도 메모: 베이터우의 인기 식당으로, 대기가 길어도 회전이 빨라 기다려 볼 만하다."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taipei-japanese-ootoya-xinbeitou-restaurant-243\">Ootoya Xinbeitou Restaurant</a> · 일식 · 서쪽 약 0.8km",
+              "desc": "지도에 일식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taipei-cafe-orange-tea-969\">Orange Tea (健康橘子工坊)</a> · 카페 · 서쪽 약 0.9km",
+              "desc": "지도 메모: 베이터우 족욕탕 가는 길의 음료 가게로, 여러 종류의 펄이 든 음료가 맛있다."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taipei-taiwanese-penglai-tai-cai-restaurant-221\">Penglai Tai Cai Restaurant</a> · 대만식 · 서쪽 약 1.1km",
+              "desc": "지도에 대만식(으)로 등록된 곳이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "개방 시간 등은 2026년 10월 기준이에요. 투어 일정과 요금은 클룩 상품 페이지를 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이베이 맛집도 확인해보세요",
+          "desc": "투어 앞뒤로 들를 타이베이 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Beitou Hot Springs & Yangmingshan Day Tour & Beitou Eats — Taipei · My Secret Taiwan Eats",
+      "metaDescription": "What Yangmingshan National Park and Beitou Thermal Valley are, what not to miss, and restaurants from our map near Xinbeitou Station.",
+      "ogTitle": "Beitou Hot Springs & Yangmingshan Day Tour: What to Eat in Xinbeitou",
+      "eyebrow": "Taipei Travel Guide · Sights & Food",
+      "title": "Beitou Hot Springs & Yangmingshan Day Tour: What to Eat in Xinbeitou",
+      "dek": "Before doing volcanic Yangmingshan and the hot spring town of Beitou in one day, check what to see and restaurants near Xinbeitou.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taipei · Sights & Food",
+      "intro": "Behind Beitou (北投), the hot spring town in northern Taipei, rises the volcanic landscape of Yangmingshan (陽明山). On a tour that combines the two, eating in the hot spring town fits the route naturally.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Are Yangmingshan and Beitou?"
+        },
+        {
+          "type": "p",
+          "html": "Yangmingshan National Park centres on the 大屯 volcano group, so volcanic cones, craters, fumaroles and hot springs are its main scenery. Xinbeitou (新北投) on its slopes is a hot spring town of hot spring hotels and public baths, and Thermal Valley (地熱谷) beside Beitou Park (北投公園) is one of the sources of Beitou's hot springs."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
+          "caption": "Thermal Valley (地熱谷) inside the Xinbeitou hot spring area. The photo is from April 2024, so it may look different now (photo: GiveMeMollusks / Wikimedia Commons, CC0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What Not to Miss"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Thermal Valley (地熱谷)",
+              "desc": "Sulphur steam rises all year, so it's also called '地獄谷'. The spring water reaches 98℃ and has a pale green colour."
+            },
+            {
+              "mark": "✓",
+              "b": "小油坑",
+              "desc": "A post-volcanic activity zone about 805 m above sea level, where you can see fumaroles and sulphur crystals, with volcanic peaks such as 七星山 and 大屯山 in view."
+            },
+            {
+              "mark": "✓",
+              "b": "擎天崗",
+              "desc": "Open grassland where you can see water buffalo and grassland ecology."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Going on a tour",
+              "desc": "Schedule, inclusions, departure point and time vary by product option. Check the Klook product page before you book."
+            },
+            {
+              "mark": "2",
+              "b": "Going to Thermal Valley on your own",
+              "desc": "From Xinbeitou Station on the MRT 淡水信義線, walk about 15 minutes along 北投溪 beside 光明路. For booking a hot spring hotel, see <a href=\"/blog-taipei-beitou-private-hot-spring-booking\">Booking a private hot spring in Beitou</a>."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "04 · Thermal Valley Opening Hours (as of October 2026)"
+        },
+        {
+          "type": "compareTable",
+          "cities": [
+            "",
+            "Details"
+          ],
+          "rows": [
+            {
+              "label": "Opening hours",
+              "values": [
+                "Tue–Sun 09:00–17:00 (until 18:00 from May 15 to September 14)"
+              ]
+            },
+            {
+              "label": "Closed",
+              "values": [
+                "Mondays (open if a public holiday), Lunar New Year's Eve, Lunar New Year's Day"
+              ]
+            },
+            {
+              "label": "Admission",
+              "values": [
+                "Free"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F83266-beitou-yangmingshan-day-tour-taipei%2F\" target=\"_blank\" rel=\"sponsored noopener\">See the Beitou & Yangmingshan tour on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "05 · Nearby Restaurants in Beitou"
+        },
+        {
+          "type": "p",
+          "html": "Places on our map cluster 0.7–1.1 km from Thermal Valley, toward Xinbeitou Station. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taipei-taiwanese-970\">雙月食品社 北投店</a> · Taiwanese · about 0.7 km west",
+              "desc": "Map note: A popular Beitou restaurant. The wait can be long, but turnover is fast, so it's worth waiting."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taipei-japanese-ootoya-xinbeitou-restaurant-243\">Ootoya Xinbeitou Restaurant</a> · Japanese · about 0.8 km west",
+              "desc": "Listed as Japanese on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taipei-cafe-orange-tea-969\">Orange Tea (健康橘子工坊)</a> · Café · about 0.9 km west",
+              "desc": "Map note: A drink shop on the way to the Beitou foot bath. Drinks with various kinds of pearls are tasty."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taipei-taiwanese-penglai-tai-cai-restaurant-221\">Penglai Tai Cai Restaurant</a> · Taiwanese · about 1.1 km west",
+              "desc": "Listed as Taiwanese on the map."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Opening hours are as of October 2026. For tour schedules and prices, check the Klook product page. Restaurant distances are straight-line distances measured from coordinates registered on the map."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taipei eats on the map",
+          "desc": "Save Taipei restaurants to visit before or after your tour.",
+          "btn": "Open Map →",
+          "href": "/map?region=taipei"
+        }
+      ]
+    }
+  },
   "hualien-farglory-ocean-park-ticket-eats": {
     "heroImage": "assets/images/attractions/hualien/farglory-ocean-park.webp",
     "ko": {
