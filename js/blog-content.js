@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "kenting-classic-day-tour-from-kaohsiung-eats",
+    "image": "assets/images/attractions/kenting/eluanbi.webp",
+    "regions": [
+      "kenting"
+    ],
+    "ko": {
+      "eyebrow": "컨딩 여행 가이드 · 볼거리·먹거리",
+      "title": "컨딩 클래식 일일투어, 대만 최남단에선 뭘 먹을까?",
+      "desc": "가오슝 출발 컨딩 일일투어에서 만나는 컨딩과 어롼비 등대가 어떤 곳인지, 꼭 볼 것과 지도 속 근처 맛집을 정리했어요.",
+      "meta": "컨딩 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Kenting Travel Guide · Sights & Food",
+      "title": "Kenting Classic Day Tour: What to Eat at Taiwan's Southern Tip",
+      "desc": "What Kenting and Eluanbi Lighthouse are on a Kenting day tour from Kaohsiung, what not to miss, and nearby restaurants from our map.",
+      "meta": "Kenting · Sights & Food"
+    }
+  },
+  {
     "slug": "taipei-beitou-yangmingshan-day-tour-nearby-eats",
     "image": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
     "regions": [
@@ -2055,6 +2074,231 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "kenting-classic-day-tour-from-kaohsiung-eats": {
+    "heroImage": "assets/images/attractions/kenting/eluanbi.webp",
+    "ko": {
+      "pageTitle": "컨딩 클래식 일일투어(가오슝 출발)·근처 맛집 — 컨딩 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "가오슝 출발 컨딩 일일투어에서 만나는 컨딩과 어롼비 등대가 어떤 곳인지, 꼭 볼 것과 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "컨딩 클래식 일일투어, 대만 최남단에선 뭘 먹을까?",
+      "eyebrow": "컨딩 여행 가이드 · 볼거리·먹거리",
+      "title": "컨딩 클래식 일일투어, 대만 최남단에선 뭘 먹을까?",
+      "dek": "가오슝에서 출발해 어롼비 등대와 컨딩 해변을 도는 투어 전에, 볼거리와 근처 맛집을 챙겨보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "컨딩 · 볼거리·먹거리",
+      "intro": "컨딩(墾丁)은 대만 본섬 가장 남쪽 끝, 산호초가 솟아 생긴 해안과 바다가 어우러진 곳이에요. 가오슝에서 멀어서 하루에 둘러보려면 투어가 편해요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 컨딩과 어롼비 등대는 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "컨딩은 바다에서 솟아오른 산호초 위에 숲이 자란 지형이 국가공원으로 보호되는 곳이에요. 어롼비 등대(鵝鑾鼻燈塔)는 1881년에 세운 흰 철탑 등대로, 대만 본섬에서 가장 남쪽에 있고, 포대처럼 쌓은 담과 해자를 갖춘 대만 유일의 무장 등대예요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/kenting/eluanbi.webp",
+          "caption": "푸른 하늘 아래 흰 어롼비 등대예요(사진: Suicasmo / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "어롼비 등대",
+              "desc": "1962년 성능을 높인 뒤 '동아시아의 빛(東亞之光)'으로 불렸고, 1992년부터 일반에 공개돼 등대 주변 공원을 산책하며 바다를 볼 수 있어요."
+            },
+            {
+              "mark": "✓",
+              "b": "墾丁大街",
+              "desc": "밤이면 노점과 가게가 늘어서는 이 일대의 야시장 거리예요."
+            },
+            {
+              "mark": "✓",
+              "b": "墾丁 해수욕장",
+              "desc": "'大灣'이라 불리는 해변이에요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "투어로 가기",
+              "desc": "일정, 포함 사항, 출발 장소와 시간은 상품 옵션마다 달라요. 예약 전에 클룩 상품 페이지에서 꼭 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F13631-kenting-classic-attractions-day-tour-kenting%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 컨딩 클래식 일일투어 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 컨딩에서 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "어롼비 등대 바로 근처에는 빙수집 한 곳이 있고, 나머지는 7~12km 떨어져 있어요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/kaohsiung-shaved_ice-963\">悟空冰舖</a> · 빙수 · 북서쪽 약 0.3km",
+              "desc": "헝춘의 빙수 가게예요. 망고빙수가 맛있어요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/kaohsiung-bbq-alex-reggae-bar-708\">Alex Reggae Bar</a> · BBQ · 북서쪽 약 7.6km",
+              "desc": "숯불로 굽는 바비큐 바예요. 쏨땀도 맛있어요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/kaohsiung-seafood-1015\">亞發師海景餐廳</a> · 해산물 · 북서쪽 약 12.2km",
+              "desc": "컨딩 바닷가 어시장 2층의 해산물 식당이에요. 큰 접시 모둠회가 NT$200이고 영어 메뉴판이 있으며 카드 결제도 돼요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "투어 일정과 요금은 클룩 상품 페이지에서 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Suicasmo, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 컨딩 맛집도 확인해보세요",
+          "desc": "투어 일정에 맞춰 들를 컨딩 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=kenting"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Kenting Classic Day Tour (from Kaohsiung) & Nearby Eats — Kenting · My Secret Taiwan Eats",
+      "metaDescription": "What Kenting and Eluanbi Lighthouse are on a Kenting day tour from Kaohsiung, what not to miss, and nearby restaurants from our map.",
+      "ogTitle": "Kenting Classic Day Tour: What to Eat at Taiwan's Southern Tip",
+      "eyebrow": "Kenting Travel Guide · Sights & Food",
+      "title": "Kenting Classic Day Tour: What to Eat at Taiwan's Southern Tip",
+      "dek": "Before a tour from Kaohsiung to Eluanbi Lighthouse and Kenting's beaches, check what to see and nearby restaurants.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Kenting · Sights & Food",
+      "intro": "Kenting (墾丁) is at the southernmost tip of Taiwan's main island, where coastline formed by uplifted coral reef meets the sea. It's far from Kaohsiung, so a tour is easier for seeing it in a day.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Are Kenting and Eluanbi Lighthouse?"
+        },
+        {
+          "type": "p",
+          "html": "Kenting is protected as a national park for its landscape of forest growing on coral reef uplifted from the sea. Eluanbi Lighthouse (鵝鑾鼻燈塔) is a white iron-tower lighthouse built in 1881. It's the southernmost on Taiwan's main island and Taiwan's only armed lighthouse, with fort-like walls and a moat."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/kenting/eluanbi.webp",
+          "caption": "The white Eluanbi Lighthouse under a blue sky (photo: Suicasmo / Wikimedia Commons, CC BY-SA 4.0)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What Not to Miss"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "Eluanbi Lighthouse",
+              "desc": "After an upgrade in 1962 it was called the 'Light of East Asia (東亞之光)'. It has been open to the public since 1992, and you can stroll the park around it and look out to sea."
+            },
+            {
+              "mark": "✓",
+              "b": "墾丁大街",
+              "desc": "This area's night market street, where stalls and shops line up at night."
+            },
+            {
+              "mark": "✓",
+              "b": "墾丁 beach",
+              "desc": "A beach known as '大灣'."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "Going on a tour",
+              "desc": "Schedule, inclusions, departure point and time vary by product option. Check the Klook product page before you book."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F13631-kenting-classic-attractions-day-tour-kenting%2F\" target=\"_blank\" rel=\"sponsored noopener\">See the Kenting classic day tour on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Nearby Restaurants in Kenting"
+        },
+        {
+          "type": "p",
+          "html": "There's one shaved ice shop right near Eluanbi Lighthouse, and the rest are 7–12 km away. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/kaohsiung-shaved_ice-963\">悟空冰舖</a> · Shaved Ice · about 0.3 km northwest",
+              "desc": "A shaved ice shop in Hengchun. The mango shaved ice is tasty."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/kaohsiung-bbq-alex-reggae-bar-708\">Alex Reggae Bar</a> · BBQ · about 7.6 km northwest",
+              "desc": "A charcoal barbecue bar. The som tam is good too."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/kaohsiung-seafood-1015\">亞發師海景餐廳</a> · Seafood · about 12.2 km northwest",
+              "desc": "A seafood restaurant on the 2nd floor of a seaside fish market in Kenting. A large sashimi platter is NT$200; English menu available and cards accepted."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "For tour schedules and prices, check the Klook product page. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Suicasmo, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Kenting eats on the map",
+          "desc": "Save Kenting restaurants to fit around your tour on the map.",
+          "btn": "Open Map →",
+          "href": "/map?region=kenting"
+        }
+      ]
+    }
+  },
   "taipei-beitou-yangmingshan-day-tour-nearby-eats": {
     "heroImage": "assets/images/blog/taipei-beitou-private-hot-spring-booking-1.jpg",
     "ko": {
