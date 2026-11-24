@@ -30,7 +30,7 @@ function klookLinks(id) {
   return (MAP[id] || []).map(k => {
     const [title, slug] = P[k];
     const site = `https://www.klook.com/ko/activity/${slug}/`;
-    return { title, url: `https://affiliate.klook.com/redirect?aid=42148&k_site=${encodeURIComponent(site)}` };
+    return { title, url: `https://affiliate.klook.com/redirect?aid=42148&aff_adid=1590822&k_site=${encodeURIComponent(site)}` };
   });
 }
 module.exports = { klookLinks };
