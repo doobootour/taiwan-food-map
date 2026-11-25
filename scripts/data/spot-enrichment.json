@@ -28362,6 +28362,474 @@
    },
    "method": "polished",
    "checked_at": "2026-11-11"
+  },
+  "1029": {
+   "name_zh": "蒸美味",
+   "address_zh": "251新北市淡水區文化里真理街2號",
+   "address_en": "251 대만 New Taipei City, Tamsui District, Wenhua Village, Zhenli St, 2號 증미미",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 8:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "단수이역 淡水站",
+    "zh": "淡水站",
+    "distance": "850m",
+    "meters": 850
+   },
+   "menu": [
+    {
+     "name": "바완(肉圓)"
+    },
+    {
+     "name": "탕바오(湯包)"
+    },
+    {
+     "name": "유부(油豆腐)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "신베이 淡水區에 있는 대만 레스토랑이에요. 단수이역 淡水站에서 직선 약 850m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 바완(肉圓), 탕바오(湯包), 유부(油豆腐) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJk50zolClQjQRkH8duqfxGVg",
+    "rating": null,
+    "reviews": null
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1030": {
+   "name_zh": "韓鍋鍋",
+   "address_zh": "251新北市淡水區幸福里水源街一段122巷32號",
+   "address_en": "251 대만 New Taipei City, Tamsui District, Xingfu Village, Lane 122, Section 1, Shuiyuan St, 32號韓鍋鍋",
+   "hours_summary": [
+    "수~일 오전 11:30~오후 2:00, 오후 5:00~8:30"
+   ],
+   "closed_days": "월요일, 화요일",
+   "mrt": {
+    "label": "단수이역 淡水站",
+    "zh": "淡水站",
+    "distance": "350m",
+    "meters": 350
+   },
+   "menu": [
+    {
+     "name": "짜장면(炸醬麵)"
+    },
+    {
+     "name": "바지락(蛤蜊)"
+    },
+    {
+     "name": "탕수육(糖醋肉)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "신베이 淡水區에 있는 한식당이에요. 단수이역 淡水站에서 직선 약 350m 거리예요. 구글 지도 기준 월요일, 화요일은 쉬어요. 구글 리뷰에서는 짜장면(炸醬麵), 바지락(蛤蜊), 탕수육(糖醋肉) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJ2RAVT1qvQjQRBPhH2-e52TA",
+    "rating": 4,
+    "reviews": 658
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1031": {
+   "name_zh": "名廚鐵板燒",
+   "address_zh": "251新北市淡水區長庚里中正路36號",
+   "address_en": "Mingchu Teppanyaki, No. 36, Zhongzheng Rd, Changgeng Village, Tamsui District, New Taipei City, 대만 251",
+   "hours_summary": [
+    "매일 오전 11:30~오후 2:00, 오후 5:00~8:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "단수이역 淡水站",
+    "zh": "淡水站",
+    "distance": "200m",
+    "meters": 200
+   },
+   "menu": [
+    {
+     "name": "바지락(蛤蜊)"
+    },
+    {
+     "name": "닭다리(雞腿)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "신베이 淡水區에 있는 철판구이 전문식당이에요. 단수이역 淡水站에서 직선 약 200m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 바지락(蛤蜊), 닭다리(雞腿) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJr-lYW1ilQjQR4thz_xAyXGg",
+    "rating": null,
+    "reviews": null
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1032": {
+   "name_zh": "美香牛肉河粉",
+   "address_zh": "251新北市淡水區草東里公明街1號",
+   "address_en": "251 대만 New Taipei City, Tamsui District, Caodong Village, Gongming St, 1號美香牛肉河粉",
+   "hours_summary": [
+    "월~화 오전 11:30~오후 8:30",
+    "목~토 오전 11:30~오후 8:30",
+    "일 오전 11:30~오후 8:00"
+   ],
+   "closed_days": "수요일",
+   "mrt": {
+    "label": "단수이역 淡水站",
+    "zh": "淡水站",
+    "distance": "150m",
+    "meters": 150
+   },
+   "menu": [
+    {
+     "name": "清燉"
+    },
+    {
+     "name": "牛腱"
+    },
+    {
+     "name": "牛筋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "신베이 淡水區에 있는 베트남 음식점이에요. 단수이역 淡水站에서 직선 약 150m 거리예요. 구글 지도 기준 수요일은 쉬어요. 구글 리뷰에서는 清燉, 牛腱, 牛筋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJGwPc9VilQjQRWTTbUZy_Xhg",
+    "rating": 4.5,
+    "reviews": 272
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1033": {
+   "name_zh": "海產張小館",
+   "address_zh": "108臺北市萬華區漢口街二段55之6號",
+   "address_en": "55之6號 하이찬창 Section 2, Hankou St, 萬華區 Wanhua District, Taipei City, 대만 108",
+   "hours_summary": [
+    "화~일 오전 11:30~오후 1:20, 오후 5:00~8:20"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "450m",
+    "meters": 450
+   },
+   "menu": [
+    {
+     "name": "바이잔지(白斬雞)"
+    },
+    {
+     "name": "肉絲"
+    },
+    {
+     "name": "魚香"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$400~600 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$400-600",
+   "intro": "타이베이 萬華區에 있는 대만 레스토랑이에요. 시먼역 西門站에서 직선 약 450m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 바이잔지(白斬雞), 肉絲, 魚香 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJAQAAAA-pQjQReWwJFUbKzaI",
+    "rating": null,
+    "reviews": null
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1034": {
+   "name_zh": "打狗霸 TAKAO1972 昆明店",
+   "address_zh": "108臺北市萬華區福星里昆明街46號",
+   "address_en": "TAKAO1972 Kunming Restaurant, No. 46, Kunming St, Fuxing Village, Wanhua District, Taipei City, 대만 108",
+   "hours_summary": [
+    "월~금 오전 11:00~오후 2:00, 오후 4:00~9:30",
+    "토~일 오전 11:00~오후 9:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "사시미(生魚片)"
+    },
+    {
+     "name": "鮪魚"
+    },
+    {
+     "name": "덮밥(丼飯)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이베이 萬華區에 있는 핫팟 레스토랑이에요. 시먼역 西門站에서 직선 약 500m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 사시미(生魚片), 鮪魚, 덮밥(丼飯) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJL91M3g6pQjQRe0AJLluJmlU",
+    "rating": null,
+    "reviews": null
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1035": {
+   "name_zh": "旺角石頭火鍋",
+   "address_zh": "108臺北市萬華區福星里中華路一段74號",
+   "address_en": "Mong Kok Stone Hot Pot, No. 74號, Section 1, Zhonghua Rd, Fuxing Village, Wanhua District, Taipei City, 대만 108",
+   "hours_summary": [
+    "매일 오전 11:30~오전 12:00"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "350m",
+    "meters": 350
+   },
+   "menu": [
+    {
+     "name": "밀크티(奶茶)"
+    },
+    {
+     "name": "炒鍋"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이베이 萬華區에 있는 핫팟 레스토랑이에요. 시먼역 西門站에서 직선 약 350m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 밀크티(奶茶), 炒鍋 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJg-UCHAypQjQRverNfixtSiU",
+    "rating": 4.2,
+    "reviews": 5551
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1036": {
+   "name_zh": "石二鍋 台北桂林萬家福店",
+   "address_zh": "108臺北市萬華區仁德里桂林路1號4F",
+   "address_en": "4F 석이과 까르프 꾸이린점 No. 1號, Guilin Rd, Rende Village, Wanhua District, Taipei City, 대만 108",
+   "hours_summary": [
+    "월~목 오전 11:00~오후 10:30",
+    "금 오전 11:00~오전 12:00",
+    "토 오전 10:30~오전 12:00",
+    "일 오전 10:30~오후 10:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "小南門站",
+    "zh": "小南門站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "蛋餃"
+    },
+    {
+     "name": "黑豆茶"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이베이 萬華區에 있는 핫팟 레스토랑이에요. 小南門站에서 직선 약 500m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 구글 리뷰에서는 蛋餃, 黑豆茶 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJX3hlt4KpQjQRE-7Hyp1pmT0",
+    "rating": null,
+    "reviews": null
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1037": {
+   "name_zh": "鮮定味生猛活海鮮",
+   "address_zh": "104臺北市中山區正義里長安東路一段67號",
+   "address_en": "104 대만 Taipei City, Zhongshan District, Zhengyi Village, Section 1, Chang'an E Rd, 67號鮮定味生猛活海鮮",
+   "hours_summary": [
+    "매일 오후 5:00~오전 1:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "산다오쓰역 善導寺站",
+    "zh": "善導寺站",
+    "distance": "600m",
+    "meters": 600
+   },
+   "menu": [
+    {
+     "name": "薑絲大腸"
+    },
+    {
+     "name": "炸蚵仔"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이베이 中山區에 있는 해산물 요리 전문식당이에요. 산다오쓰역 善導寺站에서 직선 약 600m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 薑絲大腸, 炸蚵仔 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJRXsgpmWpQjQREaCgZsz4zwY",
+    "rating": null,
+    "reviews": null
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1038": {
+   "name_zh": "牛店精燉牛肉麵",
+   "address_zh": "108臺北市萬華區西門里昆明街91號",
+   "address_en": "니우디엔 - 우육면 No. 91號, Kunming St, Ximen Village, Wanhua District, Taipei City, 대만 108",
+   "hours_summary": [
+    "화~일 오전 11:00~오후 2:30, 오후 5:00~7:00"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "400m",
+    "meters": 400
+   },
+   "menu": [
+    {
+     "name": "清燉"
+    },
+    {
+     "name": "우동(烏龍麵)"
+    },
+    {
+     "name": "죽순 절임(筍乾)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 약 NT$200~400 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$200-400",
+   "intro": "타이베이 萬華區에 있는 중국 국수류 전문점이에요. 시먼역 西門站에서 직선 약 400m 거리예요. 구글 지도 기준 월요일은 쉬어요. 구글 리뷰에서는 清燉, 우동(烏龍麵), 죽순 절임(筍乾) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJSzyDUAipQjQRPLcYN7ta84k",
+    "rating": 4.3,
+    "reviews": 4060
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1039": {
+   "name_zh": "采宏牛肉麵",
+   "address_zh": "108臺北市萬華區福星里西寧南路27號1樓",
+   "address_en": "1樓 건굉우육면 No. 27號, Xining Rd, Fuxing Village, Wanhua District, Taipei City, 대만 108",
+   "hours_summary": [
+    "매일 24시간 영업"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "베이먼역 北門站",
+    "zh": "北門站",
+    "distance": "350m",
+    "meters": 350
+   },
+   "menu": [
+    {
+     "name": "福紅牛肉麵"
+    },
+    {
+     "name": "소 내장(牛雜)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": "1인 NT$200 이하 (구글 리뷰 작성자 보고 기준)",
+   "price_range_schema": "NT$1-200",
+   "intro": "타이베이 萬華區에 있는 중국 국수류 전문점이에요. 베이먼역 北門站에서 직선 약 350m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 福紅牛肉麵, 소 내장(牛雜) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJHwhqZQ6pQjQRotxy6EI5PHE",
+    "rating": 3.7,
+    "reviews": 9209
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1040": {
+   "name_zh": "Westland Bar&Bistro｜深夜酒吧",
+   "address_zh": "108臺北市萬華區漢口街二段117號",
+   "address_en": "108 대만 Taipei City, Wanhua District, 萬華區 Section 2, Hankou St, 117號Westland Bar&Bistro｜深夜酒吧",
+   "hours_summary": [
+    "화~일 오후 7:00~오전 4:30"
+   ],
+   "closed_days": "월요일",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "600m",
+    "meters": 600
+   },
+   "menu": [
+    {
+     "name": "리소토(燉飯)"
+    },
+    {
+     "name": "관자(干貝)"
+    },
+    {
+     "name": "프라이드치킨(炸雞)"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이베이 萬華區에 있는 술집이에요. 시먼역 西門站에서 직선 약 600m 거리예요. 구글 지도 기준 월요일은 쉬어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 리소토(燉飯), 관자(干貝), 프라이드치킨(炸雞) 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJeUlRl9upQjQRT2do4PI64Pc",
+    "rating": 4.8,
+    "reviews": 584
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
+  },
+  "1041": {
+   "name_zh": "HANKO 60 如醉如夢",
+   "address_zh": "108臺北市萬華區漢口街二段60號",
+   "address_en": "HANKO 60 如醉如夢, No. 60號, Section 2, Hankou St, Wanhua District, Taipei City, 대만 108",
+   "hours_summary": [
+    "월~목 오후 6:00~오전 1:30",
+    "금~토 오후 6:00~오전 2:30",
+    "일 오후 6:00~오전 1:30"
+   ],
+   "closed_days": "없음(매일 영업)",
+   "mrt": {
+    "label": "시먼역 西門站",
+    "zh": "西門站",
+    "distance": "500m",
+    "meters": 500
+   },
+   "menu": [
+    {
+     "name": "豆乳"
+    }
+   ],
+   "menu_source": "topics",
+   "price_range": null,
+   "price_range_schema": null,
+   "intro": "타이베이 萬華區에 있는 호프/생맥주집이에요. 시먼역 西門站에서 직선 약 500m 거리예요. 구글 지도 기준 휴무일 없이 매일 열어요. 자정을 넘겨 늦게까지 영업하는 날이 있어요. 구글 리뷰에서는 豆乳 등이 자주 언급돼요.",
+   "google": {
+    "place_id": "ChIJJ6OuLg-pQjQRDfq7CLUh-Ac",
+    "rating": null,
+    "reviews": null
+   },
+   "method": "auto",
+   "checked_at": "2026-11-25"
   }
  },
  "skipped": {
