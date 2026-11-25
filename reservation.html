@@ -76,7 +76,7 @@
   .rsv-form .f > span { font-weight: 700; color: var(--ink); font-size: 14.5px; }
   .rsv-form em { color: var(--terracotta); font-style: normal; }
   .rsv-form small { display: block; font-size: 12px; color: var(--ink-faint); margin-bottom: 4px; font-weight: 600; }
-  .rsv-form input[type=text], .rsv-form input[type=date], .rsv-form input[type=time], .rsv-form input[type=number], .rsv-form textarea { width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 14px; min-height: 48px; -webkit-appearance: none; appearance: none; }
+  .rsv-form input[type=text], .rsv-form input[type=email], .rsv-form input[type=date], .rsv-form input[type=time], .rsv-form input[type=number], .rsv-form textarea { width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 14px; min-height: 48px; -webkit-appearance: none; appearance: none; }
   .rsv-form textarea { resize: vertical; min-height: 90px; }
   .rsv-form input:focus, .rsv-form textarea:focus { outline: none; border-color: var(--terracotta); box-shadow: 0 0 0 3px var(--terracotta-tint); }
   .rsv-form .invalid { border-color: #c0392b !important; box-shadow: 0 0 0 3px #f6d5d1 !important; }
@@ -210,25 +210,25 @@
     <div class="rsv-wrap">
       <span class="eyebrow">Apply</span>
       <h2 class="rsv-h2" style="margin-top:8px;">예약대행 신청 양식</h2>
-      <p class="rsv-lead">양식을 채우고 <b>신청하기</b>를 누르면 바로 접수돼요. 신청 후 24시간 이내에 적어 주신 연락처(카톡)로 안내드려요.</p>
+      <p class="rsv-lead">양식을 채우고 <b>신청하기</b>를 누르면 바로 접수돼요. 접수 확인 메일을 보내 드리고, 신청 후 24시간 이내에 적어 주신 연락처(카톡)로 안내드려요.</p>
 
       <form class="rsv-form" id="rsvForm" novalidate>
-        <label class="f"><span>1. 식당 이름 <em>*</em></span><input id="fName" type="text" maxlength="120" placeholder="예) 딘타이펑" required></label>
-        <label class="f"><span>2. 지점 또는 구글맵 링크 <em>*</em></span><input id="fBranch" type="text" maxlength="500" placeholder="예) 101점 또는 https://maps.app.goo.gl/..." required></label>
-        <label class="f"><span>3. 희망 날짜 <em>*</em></span><input id="fDate" type="date" required></label>
-        <div class="f"><span>4. 희망 시간 <em>*</em></span>
+        <label class="f"><span>1. 식당이름 (지점) 또는 구글맵 링크 <em>*</em></span><input id="fPlace" type="text" maxlength="500" placeholder="예) 딘타이펑 101점 또는 https://maps.app.goo.gl/..." required></label>
+        <label class="f"><span>2. 희망 날짜 <em>*</em></span><input id="fDate" type="date" required></label>
+        <div class="f"><span>3. 희망 시간 <em>*</em></span>
           <div class="row2">
             <label><small>1순위</small><input id="fTime1" type="time" required></label>
             <label><small>2순위</small><input id="fTime2" type="time"></label>
           </div>
         </div>
-        <div class="f"><span>5. 인원 <em>*</em></span>
+        <div class="f"><span>4. 인원 <em>*</em></span>
           <div class="row2">
             <label><small>성인</small><div class="unit"><input id="fAdults" type="number" min="1" max="50" inputmode="numeric" placeholder="2" required><i>명</i></div></label>
             <label><small>아이</small><div class="unit"><input id="fKids" type="number" min="0" max="50" inputmode="numeric" placeholder="0"><i>명</i></div></label>
           </div>
         </div>
-        <label class="f"><span>6. 예약자 이름 (영문) <em>*</em></span><input id="fBooker" type="text" maxlength="80" autocapitalize="characters" placeholder="예) HONG GILDONG" required></label>
+        <label class="f"><span>5. 예약자 이름 (영문) <em>*</em></span><input id="fBooker" type="text" maxlength="80" autocapitalize="characters" placeholder="예) HONG GILDONG" required></label>
+        <label class="f"><span>6. 이메일 <em>*</em></span><input id="fEmail" type="email" maxlength="200" placeholder="you@example.com" autocomplete="email" required></label>
         <label class="f"><span>7. 연락처 (카톡 ID 또는 전화번호) <em>*</em></span><input id="fContact" type="text" maxlength="100" placeholder="예) 카톡 ID 또는 010-0000-0000" required></label>
         <div class="f"><span>8. 원하는 시간이 안 될 때 <em>*</em></span>
           <div class="chips" role="radiogroup">
@@ -323,7 +323,7 @@
 <script src="js/supabase-config.js?v=1790588220"></script>
 <script src="js/admin.js?v=1790588220"></script>
 <script src="js/app.js?v=1794023100"></script>
-<script src="js/reservation.js?v=1794360000"></script>
+<script src="js/reservation.js?v=1795575600"></script>
 <!-- Naver Analytics -->
 <script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
 <script type="text/javascript">

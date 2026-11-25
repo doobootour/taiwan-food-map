@@ -4,20 +4,27 @@
    카톡 복사/보내기는 보조 수단으로 남겨 둔다. */
 const RSV_FN_URL = "https://arjwkdbwzcxbffahopvs.supabase.co/functions/v1/taiwanbite-reservation";
 const RSV_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFyandrZGJ3emN4YmZmYWhvcHZzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI4OTM3MDcsImV4cCI6MjA5ODQ2OTcwN30.SiZlnjW5H3ATduqAUcnxeJXRN9VPLKBdR9oO9Z9udHI";
+const EMAIL_RE = /^[^@\s<>"']+@[^@\s<>"']+\.[^@\s<>"']+$/;
 (function () {
   const $ = (id) => document.getElementById(id);
+  const PLACE_LABEL = "식당이름 (지점) 또는 구글맵 링크";
   const FIELDS = [
-    ["fName", "식당 이름"], ["fBranch", "지점 또는 구글맵 링크"], ["fDate", "희망 날짜"],
-    ["fTime1", "희망 시간(1순위)"], ["fAdults", "성인 인원"], ["fBooker", "예약자 이름(영문)"], ["fContact", "연락처"],
+    ["fPlace", PLACE_LABEL], ["fDate", "희망 날짜"],
+    ["fTime1", "희망 시간(1순위)"], ["fAdults", "성인 인원"], ["fBooker", "예약자 이름(영문)"],
+    ["fEmail", "이메일"], ["fContact", "연락처"],
   ];
   const NOTES = ["※ 예약대행료 5,000원", "※ 예약 완료 후 환불 불가", "※ 날짜 또는 시간 변경 1회 가능", "※ 신청 후 24시간 이내에 카톡으로 안내드려요"];
   const v = (id) => ($(id) ? $(id).value.trim() : "");
   const fallbackValue = () => { const c = document.querySelector('input[name="fFallback"]:checked'); return c ? c.value : ""; };
 
-  // 상세 페이지의 "이 식당 예약대행 신청" 링크에서 넘어온 값 미리 채우기
+  // 상세 페이지의 "이 식당 예약대행 신청" 링크(?name=, ?map=)에서 넘어온 값을 한 칸에 미리 채우기
   const qs = new URLSearchParams(location.search);
-  if (qs.get("name") && $("fName")) $("fName").value = qs.get("name").slice(0, 120);
-  if (qs.get("map") && $("fBranch") && /^https:\/\//.test(qs.get("map"))) $("fBranch").value = qs.get("map").slice(0, 500);
+  if ($("fPlace")) {
+    const name = (qs.get("name") || "").trim().slice(0, 120);
+    const mapRaw = (qs.get("map") || "").trim();
+    const map = /^https:\/\//.test(mapRaw) ? mapRaw.slice(0, 500) : "";
+    $("fPlace").value = (name && map ? `${name} ${map}` : name || map).slice(0, 500);
+  }
   if ($("fDate")) {
     const t = new Date(); const p = (n) => String(n).padStart(2, "0");
     $("fDate").min = `${t.getFullYear()}-${p(t.getMonth() + 1)}-${p(t.getDate())}`;
@@ -25,12 +32,12 @@ const RSV_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 
   const blankText = [
     "[대만 식당 예약대행 신청]",
-    "1. 식당 이름:",
-    "2. 지점 또는 구글맵 링크:",
-    "3. 희망 날짜:",
-    "4. 희망 시간: 1순위 __ / 2순위 __",
-    "5. 인원: 성인 __명 / 아이 __명",
-    "6. 예약자 이름(영문):",
+    `1. ${PLACE_LABEL}:`,
+    "2. 희망 날짜:",
+    "3. 희망 시간: 1순위 __ / 2순위 __",
+    "4. 인원: 성인 __명 / 아이 __명",
+    "5. 예약자 이름(영문):",
+    "6. 이메일:",
     "7. 연락처(카톡 ID 또는 전화번호):",
     "8. 원하는 시간이 안 될 때: 다른 시간 가능 / 다른 날짜 가능 / 취소",
     "9. 요청사항(창가 자리, 아기 의자, 생일, 알레르기 등):",
@@ -51,6 +58,7 @@ const RSV_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
     for (const [id, label] of FIELDS) {
       if (!v(id)) { $(id).classList.add("invalid"); $(id).focus(); return `${label}을(를) 입력해 주세요.`; }
     }
+    if (!EMAIL_RE.test(v("fEmail"))) { $("fEmail").classList.add("invalid"); $("fEmail").focus(); return "이메일 형식을 확인해 주세요."; }
     if (!(parseInt(v("fAdults"), 10) >= 1)) { $("fAdults").classList.add("invalid"); $("fAdults").focus(); return "성인 인원을 1명 이상 입력해 주세요."; }
     if (!fallbackValue()) { document.querySelector(".chips").classList.add("invalid"); document.querySelector(".chips input").focus(); return "원하는 시간이 안 될 때 어떻게 할지 골라 주세요."; }
     return "";
@@ -59,12 +67,12 @@ const RSV_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
   function buildText() {
     return [
       "[대만 식당 예약대행 신청]",
-      `1. 식당 이름: ${v("fName")}`,
-      `2. 지점 또는 구글맵 링크: ${v("fBranch")}`,
-      `3. 희망 날짜: ${fmtDate(v("fDate"))}`,
-      `4. 희망 시간: 1순위 ${v("fTime1")} / 2순위 ${v("fTime2") || "없음"}`,
-      `5. 인원: 성인 ${parseInt(v("fAdults"), 10)}명 / 아이 ${parseInt(v("fKids"), 10) || 0}명`,
-      `6. 예약자 이름(영문): ${v("fBooker").toUpperCase()}`,
+      `1. ${PLACE_LABEL}: ${v("fPlace")}`,
+      `2. 희망 날짜: ${fmtDate(v("fDate"))}`,
+      `3. 희망 시간: 1순위 ${v("fTime1")} / 2순위 ${v("fTime2") || "없음"}`,
+      `4. 인원: 성인 ${parseInt(v("fAdults"), 10)}명 / 아이 ${parseInt(v("fKids"), 10) || 0}명`,
+      `5. 예약자 이름(영문): ${v("fBooker").toUpperCase()}`,
+      `6. 이메일: ${v("fEmail")}`,
       `7. 연락처(카톡 ID 또는 전화번호): ${v("fContact")}`,
       `8. 원하는 시간이 안 될 때: ${fallbackValue()}`,
       `9. 요청사항: ${v("fReq") || "없음"}`,
@@ -104,10 +112,10 @@ const RSV_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
     const btn = $("submitBtn");
     btn.disabled = true; btn.textContent = "접수 중...";
     const payload = {
-      restaurant_name: v("fName"), branch_or_map: v("fBranch"), preferred_date: v("fDate"),
+      restaurant_or_map: v("fPlace"), preferred_date: v("fDate"),
       time_first: v("fTime1"), time_second: v("fTime2"),
       adults: parseInt(v("fAdults"), 10), children: parseInt(v("fKids"), 10) || 0,
-      booker_name_en: v("fBooker").toUpperCase(), contact: v("fContact"),
+      booker_name_en: v("fBooker").toUpperCase(), email: v("fEmail"), contact: v("fContact"),
       if_unavailable: fallbackValue(), requests: v("fReq"),
       source_page: location.pathname + location.search,
       website: v("fWebsite"), elapsed_ms: Date.now() - openedAt,
@@ -120,7 +128,7 @@ const RSV_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok || !data.ok) throw new Error(data.error || "접수 중 오류가 발생했어요.");
-      msg("ok", "✓ 예약대행 신청이 접수됐어요! 신청 후 24시간 이내에 카톡으로 안내드려요. (예약대행료 5,000원 · 예약 완료 후 환불 불가 · 날짜 또는 시간 변경 1회 가능)");
+      msg("ok", "✓ 예약대행 신청이 접수됐어요! 적어 주신 이메일로 접수 확인 메일을 보냈고, 신청 후 24시간 이내에 카톡으로 안내드려요. (예약대행료 5,000원 · 예약 완료 후 환불 불가 · 날짜 또는 시간 변경 1회 가능)");
       btn.textContent = "접수 완료 ✓";
       if (typeof gtag === "function") gtag("event", "reservation_submit");
     } catch (ex) {

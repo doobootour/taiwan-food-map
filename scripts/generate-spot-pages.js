@@ -279,7 +279,8 @@ function siblingSpotCardHtml(spot, category) {
 }
 
 /* 식당 예약대행(/reservation) 신청 링크 — 예약이 의미 있는 음식점 카테고리에만 붙인다.
-   식당 이름과 (정확한 업체) 구글맵 링크를 신청 양식에 미리 채워 넘긴다. */
+   식당 이름과 (정확한 업체) 구글맵 링크를 ?name= / ?map= 로 넘겨, 신청 양식의
+   '식당이름 (지점) 또는 구글맵 링크' 한 칸에 미리 채운다. */
 const NO_RESERVATION_CATEGORIES = new Set(["mart", "fruit", "gift_shop", "attraction", "shopping", "liquor_shop", "street_food", "bakery"]);
 function reservationLinkHtml(spot, category, name, mapsHref) {
   if (NO_RESERVATION_CATEGORIES.has(category.id)) return "";
