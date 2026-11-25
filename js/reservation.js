@@ -64,6 +64,11 @@ const EMAIL_RE = /^[^@\s<>"']+@[^@\s<>"']+\.[^@\s<>"']+$/;
     return "";
   }
 
+  function validatePin() {
+    if (!/^\d{4}$/.test(v("fPin"))) { $("fPin").classList.add("invalid"); $("fPin").focus(); return "비밀번호는 숫자 4자리로 입력해 주세요."; }
+    return "";
+  }
+
   function buildText() {
     return [
       "[대만 식당 예약대행 신청]",
@@ -108,7 +113,7 @@ const EMAIL_RE = /^[^@\s<>"']+@[^@\s<>"']+\.[^@\s<>"']+$/;
   const msg = (cls, text) => { const m = $("submitMsg"); m.className = "rsv-msg " + cls; m.textContent = text; };
   $("rsvForm").addEventListener("submit", async (e) => {
     e.preventDefault();
-    const err = validate(); if (err) { msg("err", err); return; }
+    const err = validate() || validatePin(); if (err) { msg("err", err); return; }
     const btn = $("submitBtn");
     btn.disabled = true; btn.textContent = "접수 중...";
     const payload = {
@@ -118,6 +123,7 @@ const EMAIL_RE = /^[^@\s<>"']+@[^@\s<>"']+\.[^@\s<>"']+$/;
       booker_name_en: v("fBooker").toUpperCase(), email: v("fEmail"), contact: v("fContact"),
       if_unavailable: fallbackValue(), requests: v("fReq"),
       source_page: location.pathname + location.search,
+      password: v("fPin"),
       website: v("fWebsite"), elapsed_ms: Date.now() - openedAt,
     };
     try {
@@ -128,7 +134,8 @@ const EMAIL_RE = /^[^@\s<>"']+@[^@\s<>"']+\.[^@\s<>"']+$/;
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok || !data.ok) throw new Error(data.error || "접수 중 오류가 발생했어요.");
-      msg("ok", "✓ 예약대행 신청이 접수됐어요! 적어 주신 이메일로 접수 확인 메일을 보냈고, 신청 후 24시간 이내에 카톡으로 안내드려요. (예약대행료 5,000원 · 예약 완료 후 환불 불가 · 날짜 또는 시간 변경 1회 가능)");
+      msg("ok", "✓ 신청이 접수됐어요! 접수 확인 메일을 보냈고, 24시간 이내에 카톡으로 안내드려요. 신청 내용과 답변은 예약게시판에서 비밀번호로 확인할 수 있어요.");
+      $("fPin").value = "";
       btn.textContent = "접수 완료 ✓";
       if (typeof gtag === "function") gtag("event", "reservation_submit");
     } catch (ex) {

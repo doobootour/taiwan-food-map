@@ -54,7 +54,7 @@ export default {
     // HTML 파일을 직접 고치지 않으므로 03:00 재생성 뒤에도 유지된다.
     // 식당 예약대행(/reservation) 메뉴·푸터 링크: 모든 한국어 페이지에 붙인다(정적 HTML 재생성과 무관하게 유지).
     const isEn = url.pathname === "/en" || url.pathname.startsWith("/en/");
-    const isRsv = url.pathname === "/reservation" || url.pathname === "/reservation.html";
+    const isRsv = /^\/reservation(-board)?(\.html)?$/.test(url.pathname);
     let rewriter = new HTMLRewriter();
     if (!isEn) {
       rewriter = rewriter

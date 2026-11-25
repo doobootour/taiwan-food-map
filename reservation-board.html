@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4BQHKRWZE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R4BQHKRWZE');
+</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#c2703f" />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<title>예약게시판 · 나만 알고 싶은 대만 맛집</title>
+<meta name="description" content="대만 식당 예약대행 신청 현황 게시판. 신청 내용과 답변은 신청한 분만 비밀번호로 열 수 있어요." />
+<link rel="canonical" href="https://taiwanbite.com/reservation-board" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://taiwanbite.com/reservation-board" />
+<meta property="og:site_name" content="나만 알고 싶은 대만 맛집" />
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:title" content="예약게시판 · 나만 알고 싶은 대만 맛집" />
+<meta property="og:description" content="대만 식당 예약대행 신청 현황 게시판. 신청 내용과 답변은 신청한 분만 비밀번호로 열 수 있어요." />
+<meta property="og:image" content="https://taiwanbite.com/assets/images/hero/flatlay_2-og.jpg" />
+<meta name="robots" content="noindex" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+
+<link rel="stylesheet" href="css/styles.css?v=1793710000" />
+<style>
+  .rb-page { --rb-max: 760px; }
+  .rb-wrap { max-width: var(--rb-max); margin: 0 auto; padding: 0 20px; }
+  .rb-hero { margin: 16px 16px 0; border-radius: var(--radius-lg); background: radial-gradient(120% 140% at 0% 0%, var(--gold-tint), transparent 55%), linear-gradient(135deg, #fff6ec, var(--terracotta-tint)); border: 1px solid var(--border-soft); overflow: hidden; }
+  .rb-hero-inner { max-width: var(--rb-max); margin: 0 auto; padding: 44px 24px 38px; text-align: center; }
+  .rb-hero .eyebrow { justify-content: center; }
+  .rb-hero h1 { font-size: clamp(28px, 5vw, 40px); font-weight: 600; margin: 12px 0 10px; }
+  .rb-hero p { font-size: 15px; color: var(--ink-soft); margin: 0; line-height: 1.75; }
+  .rb-hero .btn { margin-top: 18px; }
+  .rb-section { padding: 40px 0 72px; }
+  .rb-h2 { font-size: clamp(20px, 3vw, 24px); font-weight: 600; margin: 0 0 8px; }
+  .rb-hint { font-size: 13.5px; color: var(--ink-faint); line-height: 1.7; margin: 0 0 16px; }
+  .rb-list { display: grid; gap: 12px; }
+  .rb-item { background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius-md); padding: 18px 20px; box-shadow: var(--shadow-sm); display: grid; gap: 8px; }
+  .rb-item-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .rb-title { font-size: 15.5px; font-weight: 700; color: var(--ink); word-break: break-word; }
+  .rb-sub { font-size: 13px; color: var(--ink-soft); line-height: 1.65; word-break: break-word; }
+  .rb-pill { flex: 0 0 auto; font-size: 11.5px; font-weight: 700; padding: 5px 11px; border-radius: var(--radius-full); white-space: nowrap; }
+  .rb-pill.pending { background: var(--gold-tint); color: var(--ink); }
+  .rb-pill.answered { background: var(--terracotta-tint); color: var(--terracotta-dark); }
+  .rb-pw-form { display: flex; gap: 8px; }
+  .rb-pw-input { flex: 1 1 0; width: auto; min-width: 0; font: inherit; font-size: 16px; color: var(--ink); background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px 14px; min-height: 46px; -webkit-appearance: none; appearance: none; }
+  .rb-pw-input:focus, .rb-item textarea:focus { outline: none; border-color: var(--terracotta); box-shadow: 0 0 0 3px var(--terracotta-tint); }
+  .rb-pw-form .btn { padding: 10px 22px; font-size: 14px; }
+  .rb-msgline { display: none; font-size: 13px; font-weight: 600; }
+  .rb-msgline.show { display: block; }
+  .rb-msgline.err { color: #c0392b; }
+  .rb-msgline.ok { color: var(--sage, #3f7d5a); }
+  #rbResult { margin-bottom: 28px; }
+  .rb-detail { padding: 22px 22px; gap: 12px; }
+  .rb-msg { font-size: 14px; line-height: 1.75; color: var(--ink); border-left: 3px solid var(--terracotta); background: var(--surface-alt); padding: 12px 14px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; word-break: break-word; }
+  .rb-msg.mine { border-left-color: var(--border); }
+  .rb-msg.empty { border-left-color: var(--border); color: var(--ink-soft); }
+  .rb-msg-label { display: block; font-size: 12px; font-weight: 700; color: var(--ink-faint); margin-bottom: 4px; }
+  .rb-thread-form { display: grid; gap: 8px; }
+  .rb-thread-form label { font-weight: 700; font-size: 14px; color: var(--ink); }
+  .rb-item textarea { width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 14px; min-height: 90px; resize: vertical; -webkit-appearance: none; appearance: none; }
+  .rb-thread-form .btn { justify-self: start; padding: 11px 22px; font-size: 14px; }
+  .rb-link { justify-self: start; background: none; border: none; padding: 0; font: inherit; font-size: 13px; font-weight: 700; color: var(--ink-faint); cursor: pointer; }
+  .rb-link:hover { color: var(--terracotta-dark); }
+  .rb-pager { display: flex; justify-content: center; align-items: center; gap: 6px; margin-top: 22px; flex-wrap: wrap; }
+  .rb-pager button { font: inherit; font-size: 13px; font-weight: 700; min-width: 38px; height: 38px; padding: 0 12px; border-radius: var(--radius-full); border: 1px solid var(--border-soft); background: var(--surface); color: var(--ink-soft); cursor: pointer; }
+  .rb-pager button[aria-current="page"] { background: var(--terracotta); border-color: var(--terracotta); color: #fff; }
+  .rb-pager button:disabled { opacity: .4; cursor: default; }
+  .rb-pager-gap { color: var(--ink-faint); }
+  @media (max-width: 720px) {
+    .rb-hero { margin: 10px 10px 0; }
+    .rb-hero-inner { padding: 34px 20px 30px; }
+    .rb-item { padding: 16px 16px; }
+  }
+</style>
+
+</head>
+<body>
+<header id="site-header" class="scrolled">
+  <div class="wrap">
+    <a href="/" class="brand">
+      <img class="mark" src="assets/images/logo.webp" data-i18n-alt="brand_name" alt="나만 알고 싶은 대만 맛집" />
+      <div class="name"><span data-i18n="brand_name">나만 알고 싶은 대만 맛집</span><small data-i18n="brand_tagline">My Secret Taiwan Eats</small></div>
+    </a>
+
+    <nav id="site-nav">
+      <a href="/" data-i18n="nav_home">홈</a>
+      <a href="/#categories" data-i18n="nav_categories">카테고리</a>
+      <a href="/#regions" data-i18n="nav_regions">지역</a>
+      <a href="/map" data-i18n="nav_map">지도</a>
+      <a href="/blog" data-i18n="nav_blog">블로그</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch">
+        <button class="lang-btn" id="langBtn">KO ▾</button>
+        <div class="lang-menu" id="langMenu">
+          <button data-lang="ko" class="active">한국어</button>
+          <button data-lang="en">English</button>
+        </div>
+      </div>
+      <a href="/map" class="btn primary" style="padding:10px 20px;font-size:13px;" data-i18n="btn_register">맛집 등록하기</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="메뉴"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main class="rb-page">
+  <section class="rb-hero">
+    <div class="rb-hero-inner">
+      <span class="eyebrow">Booking Board</span>
+      <h1>예약게시판</h1>
+      <p>예약대행 신청 현황이에요. 신청 후 24시간 이내에 안내드려요.</p>
+      <a class="btn primary" href="/reservation#apply">예약대행 신청하기 →</a>
+    </div>
+  </section>
+
+  <section class="rb-section">
+    <div class="rb-wrap">
+      <div id="rbResult" hidden></div>
+      <div id="rbListWrap">
+        <h2 class="rb-h2">신청 목록</h2>
+        <p class="rb-hint">날짜·식당명·인원·진행 상태만 보여요. 신청 내용과 답변은 신청할 때 정한 비밀번호(숫자 4자리)로만 열 수 있어요.</p>
+        <div id="rbList" class="rb-list" aria-live="polite"><p class="rb-hint">불러오는 중...</p></div>
+        <nav id="rbPager" class="rb-pager" aria-label="신청 목록 페이지" hidden></nav>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <img class="mark" src="assets/images/logo.webp" data-i18n-alt="brand_name" alt="나만 알고 싶은 대만 맛집" />
+          <div class="name"><span data-i18n="brand_name">나만 알고 싶은 대만 맛집</span><small data-i18n="brand_tagline">My Secret Taiwan Eats</small></div>
+        </div>
+        <p class="desc" data-i18n="footer_desc">한국 여행자들의 실제 후기를 모아 고른 대만 맛집 지도. 함께 만들어가는 진짜 로컬 가이드입니다.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_explore">둘러보기</h4>
+        <ul>
+          <li><a href="/#categories" data-i18n="footer_categories">카테고리</a></li>
+          <li><a href="/#regions" data-i18n="footer_regions">지역별 탐험</a></li>
+          <li><a href="/map" data-i18n="footer_map">지도</a></li>
+          <li><a href="/blog" data-i18n="footer_blog">블로그</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_join">참여하기</h4>
+        <ul>
+          <li><a href="/map" data-i18n="footer_register">맛집 등록하기</a></li>
+          <li><a href="/profile" data-i18n="footer_mypage">마이페이지</a></li>
+          <li><a href="/about" data-i18n="footer_about">소개</a></li>
+          <li><a href="/privacy" data-i18n="footer_privacy">개인정보처리방침</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2026 나만 알고 싶은 대만 맛집</span>
+      <span>Made for travelers, by travelers</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/data.js?v=1790588220"></script>
+<script src="js/i18n.js?v=1790588220"></script>
+<script src="js/supabase-config.js?v=1790588220"></script>
+<script src="js/admin.js?v=1790588220"></script>
+<script src="js/app.js?v=1794023100"></script>
+<script src="js/reservation-board.js?v=1795582000"></script>
+<!-- Naver Analytics -->
+<script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "1c1c692e90a9a80";
+if(window.wcs) {
+  wcs_do();
+}
+</script>
+</body>
+</html>
