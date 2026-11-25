@@ -19,6 +19,25 @@
 
 const BLOG_LIST = [
   {
+    "slug": "taichung-lihpao-land-ticket-houli-eats",
+    "image": "assets/images/attractions/taichung/lihpao-land.webp",
+    "regions": [
+      "taichung"
+    ],
+    "ko": {
+      "eyebrow": "타이중 여행 가이드 · 볼거리·먹거리",
+      "title": "리바오랜드(麗寶樂園) 입장권과 근처 맛집, 놀고 나서 어디서 먹을까?",
+      "desc": "타이중 리바오랜드(麗寶樂園)는 어떤 곳인지, 디스커버리 월드·마라완 워터파크·대관람차, 허우리역 무료 셔틀, 놀고 나서 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "meta": "타이중 · 볼거리·먹거리"
+    },
+    "en": {
+      "eyebrow": "Taichung Travel Guide · Sights & Food",
+      "title": "Lihpao Land (麗寶樂園) Tickets and Nearby Eats: Where to Eat After the Park",
+      "desc": "What Taichung's Lihpao Land (麗寶樂園) is, Discovery World, Mala Bay water park and the Ferris wheel, the free shuttle from Houli Station, and nearby restaurants from our map for after your visit.",
+      "meta": "Taichung · Sights & Food"
+    }
+  },
+  {
     "slug": "kenting-classic-day-tour-from-kaohsiung-eats",
     "image": "assets/images/attractions/kenting/eluanbi.webp",
     "regions": [
@@ -2074,6 +2093,261 @@ const BLOG_LIST = [
 ];
 
 const BLOG_POSTS = {
+  "taichung-lihpao-land-ticket-houli-eats": {
+    "heroImage": "assets/images/attractions/taichung/lihpao-land.webp",
+    "ko": {
+      "pageTitle": "리바오랜드(麗寶樂園) 입장권·허우리 근처 맛집 — 타이중 · 나만 알고 싶은 대만 맛집",
+      "metaDescription": "타이중 리바오랜드(麗寶樂園)는 어떤 곳인지, 디스커버리 월드·마라완 워터파크·대관람차, 허우리역 무료 셔틀, 놀고 나서 들르기 좋은 지도 속 근처 맛집을 정리했어요.",
+      "ogTitle": "리바오랜드(麗寶樂園) 입장권과 근처 맛집, 놀고 나서 어디서 먹을까?",
+      "eyebrow": "타이중 여행 가이드 · 볼거리·먹거리",
+      "title": "리바오랜드(麗寶樂園) 입장권과 근처 맛집, 놀고 나서 어디서 먹을까?",
+      "dek": "놀이공원·워터파크·대관람차를 즐긴 다음, 허우리·펑위안 쪽 맛집까지 한 번에 정해보세요.",
+      "metaAuthor": "나만 알고 싶은 대만 맛집 편집팀",
+      "metaTopic": "타이중 · 볼거리·먹거리",
+      "intro": "리바오랜드(麗寶樂園)는 타이중 북쪽 허우리(后里)에 있는 대형 리조트형 놀이공원이에요. 시내에서 떨어져 있어서, 놀고 나서 어디서 먹을지 미리 정해두면 편해요.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · 리바오랜드는 어떤 곳일까"
+        },
+        {
+          "type": "p",
+          "html": "육상 놀이공원 探索世界(디스커버리 월드)와 워터파크 馬拉灣(마라완)을 묶어 '물과 땅 두 개의 놀이공원'으로 소개하고, 대관람차 天空之夢도 함께 있어요. 주소는 타이중시 后里區 福容路 8호예요."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/taichung/lihpao-land.webp",
+          "caption": "위에서 내려다본 리바오랜드예요(사진: Yuriy kosygin / Wikimedia Commons, CC BY-SA 4.0, 2017년 4월)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · 꼭 볼 것"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "搶救地心",
+              "desc": "'세계 유일의 끊어진 레일 롤러코스터'로 알려진 대표 스릴 놀이기구예요."
+            },
+            {
+              "mark": "✓",
+              "b": "熊大的麗寶小鎮",
+              "desc": "아이와 함께 놀기 좋은 가족 구역이에요."
+            },
+            {
+              "mark": "✓",
+              "b": "天空之夢 대관람차",
+              "desc": "리바오 리조트(麗寶樂園渡假區)의 대관람차예요."
+            },
+            {
+              "mark": "✓",
+              "b": "마라완은 계절 운영",
+              "desc": "워터파크 마라완은 계절에 따라 열어요. 가기 전에 공식 사이트에서 운영일을 확인하세요."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · 가는 법"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "허우리(后里)역에서",
+              "desc": "허우리역에서 后里國小 앞까지 걸어가면 놀이공원 무료 셔틀버스를 탈 수 있어요. 155·811번 버스도 가요."
+            },
+            {
+              "mark": "2",
+              "b": "차로",
+              "desc": "國道1號 后里·外埔 IC에서 약 3분이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F12080-lihpao-land-theme-park-combo-ticket-taichung%2F\" target=\"_blank\" rel=\"sponsored noopener\">클룩에서 리바오랜드 입장권 보기 →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · 놀고 나서 들르기 좋은 근처 맛집"
+        },
+        {
+          "type": "p",
+          "html": "놀이공원에서 가장 가까운 곳은 약 1.2km 떨어져 있고, 나머지는 5~8km 떨어진 허우리·펑위안(豐原) 쪽이라 차나 택시로 이동하는 편이 편해요. 아래 거리는 지도에 등록된 좌표로 잰 직선거리라 실제 이동 거리는 더 길 수 있어요."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taichung-taiwanese-grace-holiday-368\">Grace holiday</a> · 대만식 · 북동쪽 약 1.2km",
+              "desc": "지도에 대만식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taichung-taiwanese-367\">橘祥合院</a> · 대만식 · 동쪽 약 5.6km",
+              "desc": "지도에 대만식(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taichung-bakery-mimian-369\">MIMIAN瞇瞇眼_豐原店</a> · 베이커리 · 남동쪽 약 8.0km",
+              "desc": "지도에 베이커리(으)로 등록된 곳이에요."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taichung-street_food-fengyuan-miaodong-night-market-354\">Fengyuan Miaodong Night Market</a> · 노점 · 남쪽 약 8.4km",
+              "desc": "지도에 노점(으)로 등록된 곳이에요."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "가게마다 쉬는 날과 영업시간이 다르니 방문 전 구글맵에 등록된 영업시간을 확인하세요."
+        },
+        {
+          "type": "note",
+          "text": "운영 시간과 요금은 공식 사이트에서 확인하세요. 맛집 거리는 지도에 등록된 좌표로 잰 직선거리예요. 사진: Yuriy kosygin, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "지도에서 타이중 맛집도 확인해보세요",
+          "desc": "놀이공원 일정 앞뒤로 들를 타이중 맛집을 지도에서 함께 찜해두세요.",
+          "btn": "지도 열기 →",
+          "href": "/map?region=taichung"
+        }
+      ]
+    },
+    "en": {
+      "pageTitle": "Lihpao Land (麗寶樂園) Tickets & Houli Eats — Taichung · My Secret Taiwan Eats",
+      "metaDescription": "What Taichung's Lihpao Land (麗寶樂園) is, Discovery World, Mala Bay water park and the Ferris wheel, the free shuttle from Houli Station, and nearby restaurants from our map for after your visit.",
+      "ogTitle": "Lihpao Land (麗寶樂園) Tickets and Nearby Eats: Where to Eat After the Park",
+      "eyebrow": "Taichung Travel Guide · Sights & Food",
+      "title": "Lihpao Land (麗寶樂園) Tickets and Nearby Eats: Where to Eat After the Park",
+      "dek": "Enjoy the theme park, water park and Ferris wheel, then pick a restaurant in Houli or Fengyuan in one go.",
+      "metaAuthor": "My Secret Taiwan Eats Editorial",
+      "metaTopic": "Taichung · Sights & Food",
+      "intro": "Lihpao Land (麗寶樂園) is a large resort-style theme park in Houli (后里), northern Taichung. It's away from the city, so deciding where to eat afterwards helps.",
+      "blocks": [
+        {
+          "type": "h2",
+          "text": "01 · What Is Lihpao Land?"
+        },
+        {
+          "type": "p",
+          "html": "It presents itself as 'two parks, water and land', combining the land theme park 探索世界 (Discovery World) and the water park 馬拉灣 (Mala Bay), with the 天空之夢 Ferris wheel as well. The address is No. 8, 福容路, 后里區, Taichung."
+        },
+        {
+          "type": "figure",
+          "img": "assets/images/attractions/taichung/lihpao-land.webp",
+          "caption": "A view of Lihpao Land from above (photo: Yuriy kosygin / Wikimedia Commons, CC BY-SA 4.0, April 2017)."
+        },
+        {
+          "type": "h2",
+          "text": "02 · What Not to Miss"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "✓",
+              "b": "搶救地心",
+              "desc": "The park's signature thrill ride, known as 'the world's only broken-track roller coaster'."
+            },
+            {
+              "mark": "✓",
+              "b": "熊大的麗寶小鎮",
+              "desc": "A family zone that's good for playing with kids."
+            },
+            {
+              "mark": "✓",
+              "b": "天空之夢 Ferris wheel",
+              "desc": "The Ferris wheel at Lihpao Resort (麗寶樂園渡假區)."
+            },
+            {
+              "mark": "✓",
+              "b": "Mala Bay is seasonal",
+              "desc": "The Mala Bay water park opens seasonally. Check operating days on the official site before you go."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "03 · Getting There"
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "From Houli (后里) Station",
+              "desc": "Walk from Houli Station to the front of 后里國小 to catch the park's free shuttle bus. Buses 155 and 811 also go there."
+            },
+            {
+              "mark": "2",
+              "b": "By car",
+              "desc": "About 3 minutes from the 后里/外埔 interchange on 國道1號."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "<a class=\"blog-cta-btn\" href=\"https://affiliate.klook.com/redirect?aid=42148&amp;k_site=https%3A%2F%2Fwww.klook.com%2Fko%2Factivity%2F12080-lihpao-land-theme-park-combo-ticket-taichung%2F\" target=\"_blank\" rel=\"sponsored noopener\">See Lihpao Land tickets on Klook →</a>"
+        },
+        {
+          "type": "h2",
+          "text": "04 · Nearby Restaurants for After the Park"
+        },
+        {
+          "type": "p",
+          "html": "The closest place is about 1.2 km from the park, and the rest are 5–8 km away in Houli and Fengyuan (豐原), so a car or taxi is easier. Distances below are straight-line from the coordinates on our map, so the actual route may be longer."
+        },
+        {
+          "type": "tipList",
+          "items": [
+            {
+              "mark": "1",
+              "b": "<a href=\"/taichung-taiwanese-grace-holiday-368\">Grace holiday</a> · Taiwanese · about 1.2 km northeast",
+              "desc": "Listed as Taiwanese on the map."
+            },
+            {
+              "mark": "2",
+              "b": "<a href=\"/taichung-taiwanese-367\">橘祥合院</a> · Taiwanese · about 5.6 km east",
+              "desc": "Listed as Taiwanese on the map."
+            },
+            {
+              "mark": "3",
+              "b": "<a href=\"/taichung-bakery-mimian-369\">MIMIAN瞇瞇眼_豐原店</a> · Bakery · about 8.0 km southeast",
+              "desc": "Listed as bakery on the map."
+            },
+            {
+              "mark": "4",
+              "b": "<a href=\"/taichung-street_food-fengyuan-miaodong-night-market-354\">Fengyuan Miaodong Night Market</a> · Street Food · about 8.4 km south",
+              "desc": "Listed as street food on the map."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Each place has its own hours and closing days, so check the hours on Google Maps before you go."
+        },
+        {
+          "type": "note",
+          "text": "Check hours and prices on the official site. Restaurant distances are straight-line from the coordinates registered on our map. Photo: Yuriy kosygin, Wikimedia Commons, CC BY-SA 4.0."
+        },
+        {
+          "type": "cta",
+          "title": "Find Taichung eats on the map",
+          "desc": "Save Taichung restaurants to visit before or after the park.",
+          "btn": "Open Map →",
+          "href": "/map?region=taichung"
+        }
+      ]
+    }
+  },
   "kenting-classic-day-tour-from-kaohsiung-eats": {
     "heroImage": "assets/images/attractions/kenting/eluanbi.webp",
     "ko": {
