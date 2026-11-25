@@ -52,7 +52,7 @@ export default {
     if (!type.includes("text/html")) return response;
     // 관광지 별 마커: leaflet.js를 쓰는 모든 페이지에 attractions.js + attraction-stars.js를 붙인다.
     // HTML 파일을 직접 고치지 않으므로 03:00 재생성 뒤에도 유지된다.
-    // 식당 예약대행(/reservation) 메뉴·푸터 링크: 모든 한국어 페이지에 붙인다(정적 HTML 재생성과 무관하게 유지).
+    // 예약게시판(/reservation-board) 메뉴 · 식당 예약대행(/reservation) 푸터 링크: 모든 한국어 페이지에 붙인다(정적 HTML 재생성과 무관하게 유지).
     const isEn = url.pathname === "/en" || url.pathname.startsWith("/en/");
     const isRsv = /^\/reservation(-board)?(\.html)?$/.test(url.pathname);
     let rewriter = new HTMLRewriter();
@@ -60,7 +60,7 @@ export default {
       rewriter = rewriter
         .on('#site-nav a[data-i18n="nav_blog"]', {
           element(el) {
-            el.after(`<a href="/reservation"${isRsv ? ' class="active"' : ""} data-i18n="nav_reservation">예약대행</a>`, { html: true });
+            el.after(`<a href="/reservation-board"${isRsv ? ' class="active"' : ""} data-i18n="nav_reservation">예약게시판</a>`, { html: true });
           },
         })
         .on('footer a[data-i18n="footer_blog"]', {

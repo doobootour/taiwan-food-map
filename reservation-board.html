@@ -41,7 +41,11 @@
   .rb-hero .eyebrow { justify-content: center; }
   .rb-hero h1 { font-size: clamp(28px, 5vw, 40px); font-weight: 600; margin: 12px 0 10px; }
   .rb-hero p { font-size: 15px; color: var(--ink-soft); margin: 0; line-height: 1.75; }
-  .rb-hero .btn { margin-top: 18px; }
+  .rb-price-pill { display: inline-flex; align-items: baseline; gap: 10px; margin: 18px 0 8px; padding: 9px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-full); box-shadow: var(--shadow-sm); }
+  .rb-price-pill span { font-size: 13px; color: var(--ink-faint); font-weight: 600; }
+  .rb-price-pill b { font-family: var(--font-display); font-size: 22px; color: var(--terracotta-dark); }
+  .rb-hero .rb-fine { font-size: 13px; color: var(--ink-faint); }
+  .rb-hero .btn { margin-top: 16px; }
   .rb-section { padding: 40px 0 72px; }
   .rb-h2 { font-size: clamp(20px, 3vw, 24px); font-weight: 600; margin: 0 0 8px; }
   .rb-hint { font-size: 13.5px; color: var(--ink-faint); line-height: 1.7; margin: 0 0 16px; }
@@ -121,7 +125,9 @@
     <div class="rb-hero-inner">
       <span class="eyebrow">Booking Board</span>
       <h1>예약게시판</h1>
-      <p>예약대행 신청 현황이에요. 신청 후 24시간 이내에 안내드려요.</p>
+      <p>전화·중국어 예약이 어려운 대만 식당, 대신 예약해 드려요.</p>
+      <div class="rb-price-pill"><span>예약대행료</span><b>5,000원</b></div>
+      <p class="rb-fine">예약 완료 후 환불 불가 · 날짜 또는 시간 변경 1회 가능</p>
       <a class="btn primary" href="/reservation#apply">예약대행 신청하기 →</a>
     </div>
   </section>
@@ -130,8 +136,8 @@
     <div class="rb-wrap">
       <div id="rbResult" hidden></div>
       <div id="rbListWrap">
-        <h2 class="rb-h2">신청 목록</h2>
-        <p class="rb-hint">날짜·식당명·인원·진행 상태만 보여요. 신청 내용과 답변은 신청할 때 정한 비밀번호(숫자 4자리)로만 열 수 있어요.</p>
+        <h2 class="rb-h2">예약 신청 현황</h2>
+        <p class="rb-hint">날짜·식당명·인원·진행 상태만 보여요. 신청 내용과 답변은 신청할 때 정한 비밀번호(숫자 4자리)로만 열 수 있어요. 신청 후 24시간 이내에 안내드려요.</p>
         <div id="rbList" class="rb-list" aria-live="polite"><p class="rb-hint">불러오는 중...</p></div>
         <nav id="rbPager" class="rb-pager" aria-label="신청 목록 페이지" hidden></nav>
       </div>
