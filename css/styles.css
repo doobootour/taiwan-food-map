@@ -1844,11 +1844,14 @@ body.tfm-admin-editing [data-i18n], body.tfm-admin-editing [data-i18n-html] {
 /* Sits just under the hero so the headline and CTA are visible without scrolling. */
 .section.rsv-home,
 .rsv-home {
-  padding: 0 0 16px;
-  margin-top: -36px;
+  padding: 16px 0 0;
+  margin-top: 0;
   position: relative;
   z-index: 2;
 }
+
+/* Keep a natural gap under the booking banner; do not overlap the contributors bar. */
+.rsv-home + .recent-banner-wrap { margin-top: 16px; }
 .rsv-banner { display: flex; align-items: center; gap: 22px; padding: 26px 30px; border-radius: var(--radius-lg); background: radial-gradient(120% 160% at 0% 0%, var(--gold-tint), transparent 60%), linear-gradient(120deg, #fff6ec, var(--terracotta-tint)); border: 1px solid var(--border); box-shadow: var(--shadow-sm); transition: box-shadow .25s ease, transform .25s ease; }
 .rsv-banner:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
 .rsv-banner-ico { flex: 0 0 60px; height: 60px; border-radius: 50%; background: var(--surface); display: grid; place-items: center; font-size: 28px; box-shadow: var(--shadow-sm); }
@@ -1857,7 +1860,7 @@ body.tfm-admin-editing [data-i18n], body.tfm-admin-editing [data-i18n-html] {
 .rsv-banner-text p { margin: 0; font-size: 14px; }
 .rsv-banner-btn { flex: 0 0 auto; }
 @media (max-width: 720px) {
-  .section.rsv-home, .rsv-home { padding: 0 0 12px; margin-top: -24px; }
+  .section.rsv-home, .rsv-home { padding: 12px 0 0; margin-top: 0; }
   .rsv-banner { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 12px 14px; margin: 0; }
   .rsv-banner-ico { flex-basis: 40px; width: 40px; height: 40px; font-size: 20px; }
   .rsv-banner-text { flex: 1 1 calc(100% - 60px); }
