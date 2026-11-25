@@ -1841,7 +1841,14 @@ body.tfm-admin-editing [data-i18n], body.tfm-admin-editing [data-i18n-html] {
 }
 
 /* ===================== Restaurant reservation service banner ===================== */
-.rsv-home { padding-top: 8px; }
+/* Sits just under the hero so the headline and CTA are visible without scrolling. */
+.section.rsv-home,
+.rsv-home {
+  padding: 0 0 16px;
+  margin-top: -36px;
+  position: relative;
+  z-index: 2;
+}
 .rsv-banner { display: flex; align-items: center; gap: 22px; padding: 26px 30px; border-radius: var(--radius-lg); background: radial-gradient(120% 160% at 0% 0%, var(--gold-tint), transparent 60%), linear-gradient(120deg, #fff6ec, var(--terracotta-tint)); border: 1px solid var(--border); box-shadow: var(--shadow-sm); transition: box-shadow .25s ease, transform .25s ease; }
 .rsv-banner:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
 .rsv-banner-ico { flex: 0 0 60px; height: 60px; border-radius: 50%; background: var(--surface); display: grid; place-items: center; font-size: 28px; box-shadow: var(--shadow-sm); }
@@ -1850,7 +1857,12 @@ body.tfm-admin-editing [data-i18n], body.tfm-admin-editing [data-i18n-html] {
 .rsv-banner-text p { margin: 0; font-size: 14px; }
 .rsv-banner-btn { flex: 0 0 auto; }
 @media (max-width: 720px) {
-  .rsv-banner { flex-direction: column; align-items: flex-start; gap: 12px; padding: 22px 20px; margin: 0 -6px; }
-  .rsv-banner-ico { flex-basis: 48px; width: 48px; height: 48px; font-size: 22px; }
-  .rsv-banner-btn { width: 100%; justify-content: center; }
+  .section.rsv-home, .rsv-home { padding: 0 0 12px; margin-top: -24px; }
+  .rsv-banner { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 12px 14px; margin: 0; }
+  .rsv-banner-ico { flex-basis: 40px; width: 40px; height: 40px; font-size: 20px; }
+  .rsv-banner-text { flex: 1 1 calc(100% - 60px); }
+  .rsv-banner-text .eyebrow { display: none; }
+  .rsv-banner-text h2 { font-size: 15px; margin: 0 0 2px; line-height: 1.35; }
+  .rsv-banner-text p { font-size: 12px; line-height: 1.4; }
+  .rsv-banner-btn { width: 100%; justify-content: center; padding: 10px 14px; font-size: 13px; }
 }
