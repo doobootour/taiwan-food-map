@@ -34,6 +34,7 @@
     "hualien-farglory-ocean-park-ticket-eats",
     "taipei-beitou-yangmingshan-day-tour-nearby-eats",
     "kenting-classic-day-tour-from-kaohsiung-eats",
+    "taichung-lihpao-land-ticket-houli-eats",
     "kaohsiung-shoushan-zoo-tickets-kids-tips",
   ];
   if (typeof module === "object" && module.exports) module.exports = { EN_BLOG_SLUGS };
