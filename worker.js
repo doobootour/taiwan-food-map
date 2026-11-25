@@ -26,6 +26,7 @@ export default {
       "/blog-kaohsiung-shoushan-zoo-ticket-nearby-eats": "/blog-kaohsiung-shoushan-zoo-tickets-kids-tips",
       "/en/blog-kaohsiung-shoushan-zoo-ticket-nearby-eats": "/en/blog-kaohsiung-shoushan-zoo-tickets-kids-tips",
       "/taipei-taiwanese-buckhon-tofu-guilin-prosperity-plaza-bra-85": "/taipei-korean-85",
+      "/taipei-noodle-lao-shan-dong-homemade-noodles-75": "/taipei-beef_noodle-lao-shan-dong-homemade-noodles-75",
     };
     const movedKey = url.pathname.replace(/\.html$/, "");
     if (MOVED_SPOTS[movedKey]) {
