@@ -206,7 +206,8 @@ async function loadRecentContributors() {
   const banner = document.getElementById("recentBanner");
   const trackEl = document.getElementById("recentBannerNames");
   if (!banner || typeof sb === "undefined") return;
-  const { data, error } = await sb.from("eats").select("nickname, region, created_at").not("nickname", "is", null).order("created_at", { ascending: false }).limit(30);
+  // Latest visible row per nickname (view is read-only, hidden=false). Sort by that time, max 8.
+  const { data, error } = await sb.from("eats_recent_contributors").select("nickname, region, created_at").order("created_at", { ascending: false }).limit(8);
   if (error || !data) return;
   const lang = getLang();
   const seen = new Set();
